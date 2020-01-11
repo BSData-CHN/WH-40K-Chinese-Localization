@@ -116,7 +116,7 @@
           </constraints>
           <rules>
             <rule id="bf4b-5850-c404-e53d" name="Stratagem (Callidus) Acrobatic - 1 CP" hidden="false">
-              <description>Use this Stratagem in your Movement phase. Choose one CALLIDUS ASSASSIN from your army. That model can Advance and charge this turn. In addition, until the start of the next battle round, substract 1 from hit rolls for attacks that target the chosen model.</description>
+              <description>Use this Stratagem in your Movement phase. Choose one CALLIDUS ASSASSIN from your army. That model can Advance and charge this turn. 此外, until the start of the next battle round, substract 1 from hit rolls for attacks that target the chosen model.</description>
             </rule>
             <rule id="e199-9c65-6d80-8e39" name="Stratagem (Callidus) Supreme Deception - 2 CP" hidden="false">
               <description>Use this Stratagem at the start of any battle round after the first. Choose one CALLIDUS ASSASSIN from your army. That model&apos;s Reigh of Confusion ability is considered to be in effect until the end of that battle round. You can only use this Stratagem once per battle.</description>
@@ -141,10 +141,10 @@
           </constraints>
           <rules>
             <rule id="04cf-3693-e46d-116a" name="Stratagem (Culexus) Soul Horror - 2 CP" hidden="false">
-              <description>Use this Stratagem at the start of the Fight phase. Choose one CULEXUS ASSASSIN from your army. Enemy units within 3寸 of that model cannot be chosen to fight this phase until after all other units have done so, even if they charged. If one of those units has an ability that allows them to fight first this phase, they instead fight in this phase as if they do not have that ability.</description>
+              <description>Use this Stratagem at the start of the 肉搏阶段. Choose one CULEXUS ASSASSIN from your army. Enemy units 范围内 3寸 of that model cannot be chosen to fight this phase until after all other units have done so, even if they charged. If one of those units has an ability that allows them to fight first this phase, they instead fight in this phase as if they do not have that ability.</description>
             </rule>
             <rule id="2802-7ced-96c6-a859" name="Stratagem (Culexus) Pariah&apos;s Gaze - 1 CP" hidden="false">
-              <description>Use this Stratagem in your Shooting phase, before choosing a CULEXUS ASSASSIN to shoot with. Until the end of the phase, the Damage charateristic of that model&apos;s ranged weapons is increased to D3.</description>
+              <description>Use this Stratagem in your 射击阶段, before choosing a CULEXUS ASSASSIN to shoot with. Until the end of the phase, the Damage charateristic of that model&apos;s ranged weapons is increased to D3.</description>
             </rule>
           </rules>
           <costs>
@@ -169,7 +169,7 @@
               <description>Use this Stratagem at the start of any phase. Choose one EVERSOR ASSASSIN from your army. Until the end of that phase, roll one D6 each time that model loses a wound (excluding those lost as the result of a mortal wound); on a 4+ the wound is not lost.</description>
             </rule>
             <rule id="b53f-3942-dafc-084d" name="Stratagem (Eversor) Stimm Overload - 2 CP" hidden="false">
-              <description>Use this Stratagem at the end of the Fight phase. Choose one EVERSOR ASSASSIN from your army to fight with, even if that model has already fought this phase. After that model has fought, roll one D6. On a 1, 2 or 3 it suffers 1 mortal wound.</description>
+              <description>Use this Stratagem at the end of the 肉搏阶段. Choose one EVERSOR ASSASSIN from your army to fight with, even if that model has already fought this phase. After that model has fought, roll one D6. On a 1, 2 or 3 it suffers 1 mortal wound.</description>
             </rule>
           </rules>
           <costs>
@@ -191,10 +191,10 @@
           </constraints>
           <rules>
             <rule id="50a2-9055-eda2-4d95" name="Stratagem (Vindicare) Double Kill - 1 CP" hidden="false">
-              <description>Use this Stratagem in your Shooting phase, after a VINDICARE ASSASSIN from your army shoots. That model can shoot one additional time this phase (this must be at a different target).</description>
+              <description>Use this Stratagem in your 射击阶段, after a VINDICARE ASSASSIN from your army shoots. That model can shoot one additional time this phase (this must be at a different target).</description>
             </rule>
             <rule id="c804-6fed-64cd-efa2" name="Stratagem (Vindicare) Turbo-Penetrator Round - 1 CP" hidden="false">
-              <description>Use this Stratagem in your Shooting phase, after an attack made with an exitus pistol or extus rifle by a VINDICARE ASSASSIN from your army scores a hit against a target that is either a VEHICLE or a MONSTER. Do not make a wound roll for that attack; instead that hit inflicts D3 mortal wounds on the target. If this stratagem is used then the Head Shot ability dies not apply to that attack.</description>
+              <description>Use this Stratagem in your 射击阶段, after an attack made with an exitus pistol or extus rifle by a VINDICARE ASSASSIN from your army scores a hit against a target that is either a VEHICLE or a MONSTER. Do not make a wound roll for that attack; instead that hit inflicts D3 mortal wounds on the target. If this stratagem is used then the Head Shot ability dies not apply to that attack.</description>
             </rule>
           </rules>
           <costs>
@@ -277,7 +277,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">*</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">*</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">*</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Roll 3D6 if a unit is hit by this weapon; if the roll is equal to or greater then the target unit&apos;s highest Leadership characteristic, then it suffers D3 mortal wounds.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Roll 3D6 if a unit is hit by this weapon; if the roll is equal to or greater then the target unit&apos;s highest LD characteristic, then it suffers D3 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -371,12 +371,12 @@
         </profile>
         <profile id="188f-a12e-5ec8-001c" name="Abomination" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model can never be targeted or affected by psychic powers in any way. PSYKERS that are within 18寸 of any Culexus Assassins must subtract 2 from Psychic tests and Deny the witch tests they take.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model can never be targeted or affected by psychic powers in any way. PSYKERS that are 范围内 18寸 of any Culexus Assassins must subtract 2 from Psychic tests and Deny the witch tests they take.</characteristic>
           </characteristics>
         </profile>
         <profile id="a9b3-8751-d45c-5aa1" name="Psychic Assassin" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model can target a CHARACTER that is a PSYKER, even if it is not the closest enemy unit. In addition, this model can make an attack with a psyk-out grenade in the same phase it uses it&apos;s animus speculum.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model can target a CHARACTER that is a PSYKER, even if it is not the closest enemy unit. 此外, this model can make an attack with a psyk-out grenade in the same phase it uses it&apos;s animus speculum.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -407,7 +407,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Change this weapon&apos;s type to Assault D6 if there are enemy PSYKERS within 18寸 of the bearer</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Change this weapon&apos;s type to Assault D6 if there are enemy PSYKERS 范围内 18寸 of the bearer</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -468,22 +468,22 @@
         </profile>
         <profile id="11ca-699d-c700-2f05" name="Frenzon" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When making a charge roll for this model, roll 3D6 rather then 2D6. In Addition, add 2 to this model&apos;s Attack characteristic if they charged in the preceding Charge phase.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When making a charge roll for this model, roll 3D6 rather then 2D6. 此外, add 2 to this model&apos;s Attack characteristic if they charged in the preceding Charge phase.</characteristic>
           </characteristics>
         </profile>
         <profile id="4d49-183a-dab8-252d" name="Sentinel Array" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time an enemy unit falls back whilst within 1寸 of this model, this model can immeadiately make a shooting attack against that enemy as if it were its shooting phase.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time an enemy unit falls back whilst 范围内 1寸 of this model, this model can immeadiately make a shooting attack against that enemy as if it were its 射击阶段.</characteristic>
           </characteristics>
         </profile>
         <profile id="ac6a-7eac-95a4-487f" name="Bio-meltdown" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model is reduced to zero Wounds, roll a D6 for each enemy unit that is within 6寸 of this model before removing it from the battlefield. On a roll of 4+ the enemy unit suffers D3 Mortal wounds</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model is reduced to zero Wounds, 投掷1个D6 for each enemy unit that is 范围内 6寸 of this model before removing it from the battlefield. On a roll of 4+ the enemy unit suffers D3 Mortal wounds</characteristic>
           </characteristics>
         </profile>
         <profile id="cc3f-ba70-b4e2-7e1a" name="Killing Rampage" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each Time an enemy model is slain as the result of an attack made with a melee weapon by this model, this model can immediately make one additional attack against the same unit. These additional attacks cannot themselves generate additional attacks. In addition this model can consolidate up to 6寸 instead of 3寸</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each Time an enemy model is slain as the result of an attack made with a melee weapon by this model, this model can immediately make one additional attack against the same unit. These additional attacks cannot themselves generate additional attacks. 此外 this model can consolidate up to 6寸 instead of 3寸</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -609,7 +609,7 @@
         </profile>
         <profile id="2f1e-0051-0924-f5a5" name="Deadshot" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model can target a CHARACTER even if it is not the closest enemy unit. In addition, each time an unmodified wound roll of 6 is made for an attack with a ranged weapon by this model, the Damage for that attack is D6</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model can target a CHARACTER even if it is not the closest enemy unit. 此外, each time an unmodified wound roll of 6 is made for an attack with a ranged weapon by this model, the Damage for that attack is D6</characteristic>
           </characteristics>
         </profile>
         <profile id="73a4-db77-cbfd-54af" name="Vindicare Assassin" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">

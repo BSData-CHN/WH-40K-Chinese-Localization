@@ -65,7 +65,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If the target is within half range of this weapon, roll two dice when inflicting damage with it and discard the lowest result.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If the target is 范围内 half range of this weapon, roll two dice when inflicting damage with it and discard the lowest result.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -141,7 +141,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time you make a wound roll of 6+ for this weapon, that hit is resolved with an AP of -3. If an INFANTRY model is slain by an attack made with this weapon, then its unit suffers D3 mortal wounds. If any models in a unit are slain by this weapon, subtract 2 from that unit&apos;s Leadership characteristic until the end of the turn.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time you make a wound roll of 6+ for this weapon, that hit is resolved with an AP of -3. If an INFANTRY model is slain by an attack made with this weapon, then its unit suffers D3 mortal wounds. If any models in a unit are slain by this weapon, subtract 2 from that unit&apos;s LD characteristic until the end of the turn.</characteristic>
           </characteristics>
         </profile>
         <profile id="7fd7-cbc6-19cb-4354" name="Shrieker Cannon (Shuriken)" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -228,7 +228,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If the target is a VEHICLE and you roll a wound roll of 4+ for this weapon, the target suffers 1 mortal wound in addition to any other damage. If the wound roll is 6+, the target suffers D3 mortal wounds instead.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If the target is a VEHICLE and you roll a wound roll of 4+ for this weapon, the target suffers 1 mortal wound 此外 to any other damage. If the wound roll is 6+, the target suffers D3 mortal wounds instead.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -247,7 +247,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">*</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">*</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">*</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If a unit is hit by this weapon, roll 2D6 - if the roll is equal to or greater than the target unit&apos;s Leadership, it suffers D3 mortal wounds.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If a unit is hit by this weapon, roll 2D6 - if the roll is equal to or greater than the target unit&apos;s LD, it suffers D3 mortal wounds.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -493,7 +493,7 @@
         </profile>
         <profile id="a6d4-97f4-e94d-42ef" name="Choreographer of War" publicationId="7d24-b92f-pubN65537" page="56" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">In the Fight phase, re-roll failed wound rolls for friendly MASQUE units that are within 6寸 of this model.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">In the 肉搏阶段, re-roll failed wound rolls for 友方 MASQUE units that are 范围内 6寸 of this model.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -528,7 +528,7 @@
           <profiles>
             <profile id="e699-9f50-91bc-92f2" name="Will of the Laughing God" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">In the Fight phase, re-roll hit rolls of 1 for friendly &lt;MASQUE&gt; units that are within 6寸 of this model.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">In the 肉搏阶段, re-roll hit rolls of 1 for 友方 &lt;MASQUE&gt; units that are 范围内 6寸 of this model.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -658,7 +658,7 @@
         </profile>
         <profile id="d8e1-d702-5c4a-d0f0" name="Blitz" publicationId="7d24-b92f-pubN65537" page="60" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per battle, instead of making a normal move with the Solitaire, you can make a Blitz move with it. If you do so, add 2D6寸 to the model&apos;s Move characteristic for this turn. In addition, the model&apos;s Attack characteristic is increased to 10 for the rest of the turn. This ability may not be used if the model has been selected as the target of the 寸Twilight Pathways寸 psychic power in the previous Psychic Phase. A model cannot Advance and use this ability in the same turn.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per battle, instead of making a normal move with the Solitaire, you can make a Blitz move with it. If you do so, add 2D6寸 to the model&apos;s Move characteristic for this turn. 此外, the model&apos;s Attack characteristic is increased to 10 for the rest of the turn. This ability may not be used if the model has been selected as the target of the 寸Twilight Pathways寸 psychic power in the previous Psychic Phase. A model cannot Advance and use this ability in the same turn.</characteristic>
           </characteristics>
         </profile>
         <profile id="488e-748a-f100-134a" name="Impossible Form" publicationId="7d24-b92f-pubN65537" page="60" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -730,7 +730,7 @@
         </profile>
         <profile id="40eb-d804-2b98-db00" name="Shield from Harm" publicationId="7d24-b92f-pubN65537" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Your opponent must subtract 1 from the wound rolls for any attacks made against friendly MASQUE INFANTRY units that are within 6寸 of any models with this ability.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Your opponent must subtract 1 from the wound rolls for any attacks made against 友方 MASQUE INFANTRY units that are 范围内 6寸 of any models with this ability.</characteristic>
           </characteristics>
         </profile>
         <profile id="bb2c-683c-fbad-de6b" name="Shadowseer - Psyker" publicationId="7d24-b92f-pubN65537" page="57" hidden="false" typeId="bc97-dea9-9e88-bb7d" typeName="Psyker">
@@ -1290,7 +1290,7 @@
       <profiles>
         <profile id="e56e-8a38-b998-6437" name="Midnight Sorrow: The Art of Death" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Units with this form can move an additional D6寸 when they Fall Back. In addition, units with this form can consolidate up to 6寸.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Units with this form can move an additional D6寸 when they Fall Back. 此外, units with this form can consolidate up to 6寸.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1304,7 +1304,7 @@
       <profiles>
         <profile id="1f68-96c1-280e-fe30" name="The Veiled Path: Riddle-Smiths" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of each Fight phase roll two dice and discard the highest result. Until the end of the phase, each time your opponent targets a unit with this form and makes a hit roll that, before modifiers, exactly matches your dice result, that hit roll fails.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of each 肉搏阶段 roll two dice and discard the highest result. Until the end of the phase, each time your opponent targets a unit with this form and makes a hit roll that, before modifiers, exactly matches your dice result, that hit roll fails.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1318,7 +1318,7 @@
       <profiles>
         <profile id="a19b-c3ae-a9a8-8dfd" name="Frozen Stars: Hysterical Fury" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If a unit with this form charges in the Charge phase, add 1 to their Attacks characteristic until the end of the ensuing Fight phase.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If a unit with this form charges in the Charge phase, add 1 to their Attacks characteristic until the end of the ensuing 肉搏阶段.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1332,7 +1332,7 @@
       <profiles>
         <profile id="7ad2-6618-d41a-9dea" name="The Soaring Spite: Serpent&apos;s Blood" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models with this form that can FLY, or that are embarked upon a TRANSPORT that can FLY, treat all Pistol weapons they are equpped with as Assault 1 weapons during a turn in which they (or the transport they are embarked upon) Advanced. In addition, these models do not suffer the penalty to their hit rolls for shooting Assault weapons during a turn in which they Advanced.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models with this form that can FLY, or that are embarked upon a TRANSPORT that can FLY, treat all Pistol weapons they are equpped with as Assault 1 weapons during a turn in which they (or the transport they are embarked upon) Advanced. 此外, these models do not suffer the penalty to their hit rolls for shooting Assault weapons during a turn in which they Advanced.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1346,7 +1346,7 @@
       <profiles>
         <profile id="ca57-de54-b3fc-b3fd" name="The Dreaming Shadow: Sombre Sentinels" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When a unit with this form fails a Morale test, only one model from this unit must flee. In addition, each time a model with this form is slain or flees, roll a D6 before removing that model: on a 4+, that model can either shoot with one of its ranged weapons as if it were the shooting phase, or make a single attack as if it were the Fight phase.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When a unit with this form fails a Morale test, only one model from this unit must flee. 此外, each time a model with this form is slain or flees, 投掷1个D6 before removing that model: on a 4+, that model can either shoot with one of its ranged weapons as if it were the 射击阶段, or make a single attack as if it were the 肉搏阶段.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1360,7 +1360,7 @@
       <profiles>
         <profile id="c882-1b97-c57a-9425" name="The Silent Shroud: Dance of Nightmares Made Flesh" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Subtract 1 from the Leadership characteristic of enemy units while they are within 6寸 of any units from your army with this form. In addition, whenever your opponent takes a morale test for a unit that is within 6寸 of any units from your army with this form, they must roll two dice and discard the lowest result.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Subtract 1 from the LD characteristic of enemy units while they are 范围内 6寸 of any units from your army with this form. 此外, whenever your opponent takes a morale test for a unit that is 范围内 6寸 of any units from your army with this form, they must roll two dice and discard the lowest result.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1394,7 +1394,7 @@
       <profiles>
         <profile id="99e5-20d4-0b12-f1a1" name="A Foot in the Future" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 2寸 to your Warlord&apos;s Move characteristic. In addition, add 1寸 to the distance your Warlord can move each time it Advances, Fall Back, charges, performs a Heroic Intervention, piles in or consolidates.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 2寸 to your Warlord&apos;s Move characteristic. 此外, add 1寸 to the distance your Warlord can move each time it Advances, Fall Back, charges, performs a Heroic Intervention, piles in or consolidates.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1428,7 +1428,7 @@
       <profiles>
         <profile id="058f-b831-73c9-1971" name="Player of the Dark" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each wound roll of 6+ made for your Warlord&apos;s attacks in the Fight phase inflict one mortal wound in addition to their normal damage.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each wound roll of 6+ made for your Warlord&apos;s attacks in the 肉搏阶段 inflict one mortal wound 此外 to their normal damage.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1445,7 +1445,7 @@
       <profiles>
         <profile id="ccde-b16f-70d8-03e5" name="Player of the Twilight" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per battle you can re-roll a hit roll, wound roll, or save roll made for your warlord. In addition, if your army is Battle-forged and your warlord is on the battlefield, roll a D6 each time you or your opponent uses a stratagem. If the result exactly matches the number of command points spent to use that stratagem, then you gain that many command points.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per battle you can re-roll a hit roll, wound roll, or save roll made for your warlord. 此外, if your army is Battle-forged and your warlord is on the battlefield, 投掷1个D6 each time you or your opponent uses a stratagem. If the result exactly matches the number of command points spent to use that stratagem, then you gain that many command points.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1462,7 +1462,7 @@
       <profiles>
         <profile id="a9ce-5106-af25-717f" name="Player of the Light" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Re-roll failed charge rolls made for your Warlord and any friendly &lt;MASQUE&gt; units whilst they are within 6寸 of your warlord.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Re-roll failed charge rolls made for your Warlord and any 友方 &lt;MASQUE&gt; units whilst they are 范围内 6寸 of your warlord.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1496,7 +1496,7 @@
       <profiles>
         <profile id="cdf3-95a4-b725-9f2d" name="Silent Shroud: The Final Joke" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your Warlord is slain in the Fight phase, roll a D6. On a 2+, the unit that killed your Warlord suffers D3 mortal woundsafter it has finished making all its attacks. On a 6, the enemy unit suffers D6 mortal wounds instead.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your Warlord is slain in the 肉搏阶段, 投掷1个D6. On a 2+, the unit that killed your Warlord suffers D3 mortal woundsafter it has finished making all its attacks. On a 6, the enemy unit suffers D6 mortal wounds instead.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1513,7 +1513,7 @@
       <profiles>
         <profile id="b813-5955-a969-4132" name="Midnight Sorrow: Nemesis of the Damned" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each hit roll of 6+ for your Warlord in the Fight phase scores 2 hits instead of 1. In addition, add 1 to hit rolls made by your Warlord against CHAOS units.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each hit roll of 6+ for your Warlord in the 肉搏阶段 scores 2 hits instead of 1. 此外, add 1 to hit rolls made by your Warlord against CHAOS units.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1530,7 +1530,7 @@
       <profiles>
         <profile id="c987-6d63-8c38-dbce" name="Frozen Stars: Our Kin Shall Rise Again" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Roll a D6 each time a model from a FROZEN STARS unit from your army within 6寸 of your Warlord loses its final wound; on a 6 that wound is not lost, and the model is not slain. This Warlord trait has no effect if the unit is under the effects of the Webway Dance psychic power.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">投掷1个D6 each time a model from a FROZEN STARS unit from your army 范围内 6寸 of your Warlord loses its final wound; on a 6 that wound is not lost, and the model is not slain. This Warlord trait has no effect if the unit is under the effects of the Webway Dance psychic power.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1547,7 +1547,7 @@
       <profiles>
         <profile id="61c7-5113-b1b5-8655" name="Dreaming Shadow: Warden of the Dead" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to any Sombre Sentinels rolls made for DREAMING SHADOW units from your army within 6寸 of your Warlord (add 2 instead whilst there are any NECRONS units on the battlefield).</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to any Sombre Sentinels rolls made for DREAMING SHADOW units from your army 范围内 6寸 of your Warlord (add 2 instead whilst there are any NECRONS units on the battlefield).</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1565,7 +1565,7 @@
       <profiles>
         <profile id="1fbc-0226-34c2-5210" name="The Mask of Secrets" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The bearer increases their Leadership characteristic by 1. In addition, all enemy units reduce their Leadership characteristic by 1 whilst they are within 6寸 of the bearer.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The bearer increases their LD characteristic by 1. 此外, all enemy units reduce their LD characteristic by 1 whilst they are 范围内 6寸 of the bearer.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1582,7 +1582,7 @@
       <profiles>
         <profile id="7a59-5a5a-260f-ac4b" name="The Starmist Raiment" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The wearer has a 3+ 特殊保护 against ranged weapons. In addition, enemy units cannot fire Overwatch at the wearer during a turn in which the wearer Advanced.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The wearer has a 3+ 特殊保护 against ranged weapons. 此外, enemy units cannot fire Overwatch at the wearer during a turn in which the wearer Advanced.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1599,7 +1599,7 @@
       <profiles>
         <profile id="4c3c-ba84-f1b1-458a" name="The Laughing God&apos;s Eye" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Friendly HARLEQUINS units automatically pass Morale tests whilst they are within 6寸 of the wearer. In addition, roll a D6 each time a friendly HARLEQUINS unit suffers a mortal wound in the Psychic phase whilst they are within 6寸 of the wearer - on a 6, that mortal wound is ignored.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Friendly HARLEQUINS units automatically pass Morale tests whilst they are 范围内 6寸 of the wearer. 此外, 投掷1个D6 each time a 友方 HARLEQUINS unit suffers a mortal wound in the Psychic phase whilst they are 范围内 6寸 of the wearer - on a 6, that mortal wound is ignored.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1679,7 +1679,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">*</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">The wound roll required for this weapon in the shooting phase is equal to the target units unmodified ballistic skill. For example, if the weapon targets a unit with ballistic skill of 3+, the weapon will wound on rolls of 3+. The wound roll required for this weapon in the Fight phase is equal to the target unit&apos;s unmodified weapon skill. If the unit contains models with different Ballistic Skill/Weapon Skill characteristics, use the best characteristic in the unit. If the target&apos;s characteristic is &apos;-&apos;, then the wound roll required is 6+</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">The wound roll required for this weapon in the 射击阶段 is equal to the target units unmodified ballistic skill. For example, if the weapon targets a unit with ballistic skill of 3+, the weapon will wound on rolls of 3+. The wound roll required for this weapon in the 肉搏阶段 is equal to the target unit&apos;s unmodified weapon skill. If the unit contains models with different Ballistic Skill/Weapon Skill characteristics, use the best characteristic in the unit. If the target&apos;s characteristic is &apos;-&apos;, then the wound roll required is 6+</characteristic>
           </characteristics>
         </profile>
         <profile id="ea37-ca5c-d21d-3fd3" name="The Mirrorstave (Melee)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -1689,7 +1689,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">*</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">The wound roll required for this weapon in the shooting phase is equal to the target units unmodified ballistic skill. For example, if the weapon targets a unit with ballistic skill of 3+, the weapon will wound on rolls of 3+. The wound roll required for this weapon in the Fight phase is equal to the target unit&apos;s unmodified weapon skill. If the unit contains models with different Ballistic Skill/Weapon Skill characteristics, use the best characteristic in the unit. If the target&apos;s Ballistic Skill/Weapon Skill characteristic is &apos;-&apos;, then the wound roll required is 6+.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">The wound roll required for this weapon in the 射击阶段 is equal to the target units unmodified ballistic skill. For example, if the weapon targets a unit with ballistic skill of 3+, the weapon will wound on rolls of 3+. The wound roll required for this weapon in the 肉搏阶段 is equal to the target unit&apos;s unmodified weapon skill. If the unit contains models with different Ballistic Skill/Weapon Skill characteristics, use the best characteristic in the unit. If the target&apos;s Ballistic Skill/Weapon Skill characteristic is &apos;-&apos;, then the wound roll required is 6+.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1773,7 +1773,7 @@
       <profiles>
         <profile id="0f45-4032-4eab-e451" name="Faolchu&apos;s Talon" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">SOARING SPITE model only. While the wearer is embarked on a SOARING SPITE TRANSPORT, that vehicle may move an additional 6寸 in the movement phase. In addition, if a SOARING SPITE TRANSPORT is destroyed while the wearer is embarked upon it, you do not need to roll any dice to see if any disembarking models are slain or if the transport explodes - no disembarking models are slain and the transport does not explode.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">SOARING SPITE model only. While the wearer is embarked on a SOARING SPITE TRANSPORT, that vehicle may move an additional 6寸 in the movement phase. 此外, if a SOARING SPITE TRANSPORT is destroyed while the wearer is embarked upon it, you do not need to roll any dice to see if any disembarking models are slain or if the transport explodes - no disembarking models are slain and the transport does not explode.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1790,7 +1790,7 @@
       <profiles>
         <profile id="3e89-f41c-8653-de02" name="Midnight&apos;s Chime" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per battle, at the beginning of the Fight phase, the bearer can activate Midnight&apos;s Chime. Until the end of the phase all MIDNIGHT SORROW units increase their Attacks characteristics by 1 whilst they are within 6寸 of the bearer.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per battle, at the beginning of the 肉搏阶段, the bearer can activate Midnight&apos;s Chime. Until the end of the phase all MIDNIGHT SORROW units increase their Attacks characteristics by 1 whilst they are 范围内 6寸 of the bearer.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1812,7 +1812,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">7</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When attacking with this weapon, choose one of the profiles. Each time you make a wound roll of 6+ for this weapon, that hit is resolved with an AP of -4. Each time an INFANTRY model is slain by an attack made with this weapon&apos;s shrieker profile, its unit suffers D3 mortal wounds. If any models in a unit are slain by this weapon, subract 2 from that unit&apos;s Leadership characteristic until the end of the turn; this modifier is not cumulative with that caused by a shreiker cannon.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When attacking with this weapon, choose one of the profiles. Each time you make a wound roll of 6+ for this weapon, that hit is resolved with an AP of -4. Each time an INFANTRY model is slain by an attack made with this weapon&apos;s shrieker profile, its unit suffers D3 mortal wounds. If any models in a unit are slain by this weapon, subract 2 from that unit&apos;s LD characteristic until the end of the turn; this modifier is not cumulative with that caused by a shreiker cannon.</characteristic>
           </characteristics>
         </profile>
         <profile id="abb1-3e82-3253-3108" name="Curtainfall (shuriken)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -1822,7 +1822,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">7</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When attacking with this weapon, choose one of the profiles. Each time you make a wound roll of 6+ for this weapon, that hit is resolved with an AP of -4. If any models in a unit are slain by this weapon, subract 2 from that unit&apos;s Leadership characteristic until the end of the turn; this modifier is not cumulative with that caused by a shreiker cannon.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When attacking with this weapon, choose one of the profiles. Each time you make a wound roll of 6+ for this weapon, that hit is resolved with an AP of -4. If any models in a unit are slain by this weapon, subract 2 from that unit&apos;s LD characteristic until the end of the turn; this modifier is not cumulative with that caused by a shreiker cannon.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1839,7 +1839,7 @@
       <profiles>
         <profile id="89f9-3174-f580-b4ec" name="The Ghoulmask" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The wearer of the Ghoulmask can attempt to deny one psychic power in each enemy Psychic phase in the same manner as a PSYKER (if the bearer is already a PSYKER, it may attempt to deny one more psychic powerthan normal). In addition, add 1 to Deny the Witch tests made for the bearer.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The wearer of the Ghoulmask can attempt to deny one psychic power in each enemy Psychic phase in the same manner as a PSYKER (if the bearer is already a PSYKER, it may attempt to deny one more psychic powerthan normal). 此外, add 1 to Deny the Witch tests made for the bearer.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1878,7 +1878,7 @@
       <profiles>
         <profile id="e15f-f462-8b11-5307" name="The Suit of Hidden Knives" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Roll a D6 each time a hit roll of 1 is made for an enemy model targeting the wearer in the Fight phase. On a 2+, that model&apos;s unit suffers a mortal wound after the unit has resolved all of its attacks.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">投掷1个D6 each time a hit roll of 1 is made for an enemy model targeting the wearer in the 肉搏阶段. On a 2+, that model&apos;s unit suffers a mortal wound after the unit has resolved all of its attacks.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1951,7 +1951,7 @@
               <characteristics>
                 <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">6</characteristic>
                 <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">3寸</characteristic>
-                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, select a friendly HARLEQUINS unit within 3寸 of the psyker and visible to it. That unit can immediately move as if it were its Movement phase. You cannot use Twilight Pathways on a unit more than once in each Psychic phase.</characteristic>
+                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, select a 友方 HARLEQUINS unit 范围内 3寸 of the psyker and visible to it. That unit can immediately move as if it were its Movement phase. You cannot use Twilight Pathways on a unit more than once in each Psychic phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1970,7 +1970,7 @@
               <characteristics>
                 <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">6</characteristic>
                 <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
-                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, select a visible enemy unit within 18寸 of the psyker and visible to it. Until the start of your next Psychic phase, your opponent must subtract 1 from all hit rolls for that unit that target HARLEQUINS INFANTRY units.</characteristic>
+                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, select a visible enemy unit 范围内 18寸 of the psyker and visible to it. Until the start of your next Psychic phase, your opponent must subtract 1 from all hit rolls for that unit that target HARLEQUINS INFANTRY units.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1989,7 +1989,7 @@
               <characteristics>
                 <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">7</characteristic>
                 <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24寸</characteristic>
-                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, select an enemy unit within 24寸 of the psyker. Then, both players roll a D6. If the Harlequin player&apos;s roll is equal or higher than their opponent&apos;s, then the target suffers 1 mortal wound. Repeat this process until the target is destroyed, or the enemy player rolls a result that is higher than the Harlequin player&apos;s roll.</characteristic>
+                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, select an enemy unit 范围内 24寸 of the psyker. Then, both players 投掷1个D6. If the Harlequin player&apos;s roll is equal or higher than their opponent&apos;s, then the target suffers 1 mortal wound. Repeat this process until the target is destroyed, or the enemy player rolls a result that is higher than the Harlequin player&apos;s roll.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2008,7 +2008,7 @@
               <characteristics>
                 <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">7</characteristic>
                 <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
-                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, select a friendly HARLEQUINS INFANTRY unit within 18寸 of the psyker. Until the start of your next Psychic phase, subtract 1 from hit rolls for attacks made against that unit.</characteristic>
+                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, select a 友方 HARLEQUINS INFANTRY unit 范围内 18寸 of the psyker. Until the start of your next Psychic phase, subtract 1 from hit rolls for attacks made against that unit.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2027,7 +2027,7 @@
               <characteristics>
                 <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">7</characteristic>
                 <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">6寸</characteristic>
-                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, then until the start of your next Psychic phase, roll a D6 whenever a friendly HARLEQUINS unit within 6寸 of the psyker loses a wound; on a 6 that wound is not lost.</characteristic>
+                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, then until the start of your next Psychic phase, 投掷1个D6 whenever a 友方 HARLEQUINS unit 范围内 6寸 of the psyker loses a wound; on a 6 that wound is not lost.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2046,7 +2046,7 @@
               <characteristics>
                 <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">7</characteristic>
                 <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
-                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, select an enemy unit within 18寸 of the psyker and visible to it. That unit suffers D3 mortal wounds and must subtract 1 from its leadership characteristic until the start of the next Psychic phase.</characteristic>
+                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, select an enemy unit 范围内 18寸 of the psyker and visible to it. That unit suffers D3 mortal wounds and must subtract 1 from its LD characteristic until the start of the next Psychic phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2375,13 +2375,13 @@
       </modifiers>
       <description>This ability is common to all YNNARI units.
 
-As soon as any unit is destroyed, All units from your army benefit from Soulburst actions until the end of the turn. Whilst a unit is benefitting from Soulburst Actions, it always fights first in the Fight phase, even if it didn&apos;t charge. If a model that is benefitting from soulburst actions made a charge move this turn, or already has an ability that allows it to always fight first in the Fight phase, then whilst it is benfitting from soulburst actions you also add 1 to hit rolls for attacks made with melee weapons by that model. If the enemy also has units that made a charge move or that have abilities that allow them to always fight first in the fight phase, the alternate units, starting with the player whose turn is taking place.</description>
+As soon as any unit is destroyed, All units from your army benefit from Soulburst actions until the end of the turn. Whilst a unit is benefitting from Soulburst Actions, it always fights first in the 肉搏阶段, even if it didn&apos;t charge. If a model that is benefitting from soulburst actions made a charge move this turn, or already has an ability that allows it to always fight first in the 肉搏阶段, then whilst it is benfitting from soulburst actions you also add 1 to hit rolls for attacks made with melee weapons by that model. If the enemy also has units that made a charge move or that have abilities that allow them to always fight first in the 肉搏阶段, the alternate units, starting with the player whose turn is taking place.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="8210-8f73-bf99-5b97" name="Explodes" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model is reduced to 0 wounds, roll a D6 before removing it from the battlefield and before any embarked models disembark. On a 6 it explodes, and each unit within 6寸 suffers 1 mortal wound.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model is reduced to 0 wounds, 投掷1个D6 before removing it from the battlefield and before any embarked models disembark. On a 6 it explodes, and each unit 范围内 6寸 suffers 1 mortal wound.</characteristic>
       </characteristics>
     </profile>
     <profile id="847b-aed6-3531-adb1" name="Holo-fields" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -2401,7 +2401,7 @@ As soon as any unit is destroyed, All units from your army benefit from Soulburs
     </profile>
     <profile id="046c-9565-b216-87c7" name="Mirage Launchers" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Your opponent must subtract 1 from any hit rolls made against this unit in the Shooting phase</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Your opponent must subtract 1 from any hit rolls made against this unit in the 射击阶段</characteristic>
       </characteristics>
     </profile>
     <profile id="1fde-5ed2-74f7-f766" name="Blur of Colour" publicationId="7d24-b92f-pubN65537" page="61" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -2411,12 +2411,12 @@ As soon as any unit is destroyed, All units from your army benefit from Soulburs
     </profile>
     <profile id="cf69-4ca7-8cba-2f16" name="Open-topped" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models embarked on this model can attack in their Shooting phase. Measure the range and draw line of sight from any point on this model. When they do so, any restrictions or modifiers that apply to this model also apply to its passengers; for example, the pasengers cannot shoot if this model has Fallen Back in the same turn and so on, cannot shoot (except with Pistols) if this model is within 1寸 of an enemy unit, and so on. Note that, due to their Rising Crescendo ability, the passengers can shoot if this model Falls Back.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models embarked on this model can attack in their 射击阶段. Measure the range and draw line of sight from any point on this model. When they do so, any restrictions or modifiers that apply to this model also apply to its passengers; for example, the pasengers cannot shoot if this model has Fallen Back in the same turn and so on, cannot shoot (except with Pistols) if this model is 范围内 1寸 of an enemy unit, and so on. Note that, due to their Rising Crescendo ability, the passengers can shoot if this model Falls Back.</characteristic>
       </characteristics>
     </profile>
     <profile id="60da-8dc8-7bf4-2efd" name="Rising Crescendo" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models in this unit can Advance and charge in the same turn. In addition, they can Fall Back and still shoot and/or charge in the same turn.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models in this unit can Advance and charge in the same turn. 此外, they can Fall Back and still shoot and/or charge in the same turn.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
