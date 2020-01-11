@@ -50,7 +50,7 @@
     <categoryEntry id="1ee7-3be7-715e-0e57" name="Death Korps Quartermaster Cadre" publicationId="91ff-e116-pubN65631" page="64" hidden="false"/>
     <categoryEntry id="e13f-bd3a-7d6c-fd8c" name="Death Korps Death Rider Commissar" publicationId="91ff-e116-pubN65631" page="66" hidden="false"/>
     <categoryEntry id="9a7a-67e2-4ddb-31d0" name="Death Korps Death Rider Squadron" publicationId="91ff-e116-pubN65631" page="67" hidden="false"/>
-    <categoryEntry id="b84b-0497-b205-bbb1" name="Death Korps Heavy Weapons Squad" publicationId="91ff-e116-pubN65631" page="67" hidden="false"/>
+    <categoryEntry id="b84b-0497-b205-bbb1" name="Death Korps 重型武器 Squad" publicationId="91ff-e116-pubN65631" page="67" hidden="false"/>
     <categoryEntry id="7570-bd67-d627-b831" name="Death Korps Leman Russ Mars-Alpha Battle Tanks" publicationId="91ff-e116-pubN65631" page="68" hidden="false"/>
     <categoryEntry id="d4b7-c4c8-ac38-ddfd" name="Death Korps of Krieg" publicationId="91ff-e116-pubN65631" page="55" hidden="false"/>
     <categoryEntry id="b8d1-a6ab-396c-a7cc" name="Officer" hidden="false"/>
@@ -128,7 +128,7 @@
       </categoryLinks>
     </entryLink>
     <entryLink id="3a9c-fd3a-ff80-7407" name="Death Korps Grenadier Storm Squad" hidden="false" collective="false" import="true" targetId="2c04-dd00-7363-64e9" type="selectionEntry"/>
-    <entryLink id="f6fe-444f-80eb-536f" name="Death Korps Heavy Weapons Squad" hidden="false" collective="false" import="true" targetId="9825-d4c4-2e46-2fb0" type="selectionEntry">
+    <entryLink id="f6fe-444f-80eb-536f" name="Death Korps 重型武器 Squad" hidden="false" collective="false" import="true" targetId="9825-d4c4-2e46-2fb0" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="f2c7-9590-f9bf-eeec" name="New CategoryLink" hidden="false" targetId="3263-4233-4344-6228" primary="false"/>
         <categoryLink id="e52b-6577-c56f-97fb" name="New CategoryLink" hidden="false" targetId="d4b7-c4c8-ac38-ddfd" primary="false"/>
@@ -462,7 +462,7 @@
         <categoryLink id="be78-e34c-6112-c037" name="New CategoryLink" hidden="false" targetId="b8d1-a6ab-396c-a7cc" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="7eec-acd8-019b-3e0f" name="Power sword" hidden="false" collective="false" import="true" targetId="bc9e-551d-9afb-78d5" type="selectionEntry">
+        <entryLink id="7eec-acd8-019b-3e0f" name="动力剑" hidden="false" collective="false" import="true" targetId="bc9e-551d-9afb-78d5" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="points" value="4"/>
           </modifiers>
@@ -471,7 +471,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6864-5716-5b64-19e5" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="dfb1-b7e0-50f4-f2e9" name="Frag &amp; Krak grenades" hidden="false" collective="false" import="true" targetId="cddf-945e-1335-e681" type="selectionEntry">
+        <entryLink id="dfb1-b7e0-50f4-f2e9" name="破片和穿甲手雷" hidden="false" collective="false" import="true" targetId="cddf-945e-1335-e681" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4e01-b44f-7eaf-83a5" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8c7a-7288-8ccb-f855" type="max"/>
@@ -568,7 +568,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="ba56-719d-08cb-5ae6" name="Frag &amp; Krak grenades" hidden="false" collective="false" import="true" targetId="cddf-945e-1335-e681" type="selectionEntry">
+        <entryLink id="ba56-719d-08cb-5ae6" name="破片和穿甲手雷" hidden="false" collective="false" import="true" targetId="cddf-945e-1335-e681" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f72-48eb-ac96-2b62" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9878-92aa-e775-876f" type="min"/>
@@ -609,7 +609,7 @@
       <profiles>
         <profile id="2af5-511b-321f-0727" name="Master of Ballistics" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll any hit rolls of 1 made for 友方 &lt;Regiment&gt; Basilisks, Wyverns, Manticores or Deathstrikes when they target enemy units over 36寸 away in the 射击阶段, if they are 范围内 6寸 of this model.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll any hit rolls of 1 made for 友方 &lt;Regiment&gt; Basilisks, Wyverns, Manticores or Deathstrikes when they target 敌方单位 over 36寸 away in the 射击阶段, if they are 范围内 6寸 of 这个模型.</characteristic>
           </characteristics>
         </profile>
         <profile id="1122-b151-7c33-81be" name="Master of Ordnance" page="" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
@@ -632,7 +632,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon can only be fired once per battle, and cannot be used if the bearer moves. 曲射 (when doing so, subtract I frorn the hit rolls). You may only use one artillery barrage per turn, regardless of how many Masters of Ordnance you have in your army.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 can only be fired once per battle, and cannot be used if the bearer moves. 曲射 (when doing so, subtract I frorn the hit rolls). You may only use one artillery barrage per turn, regardless of how many Masters of Ordnance you have in your army.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -780,7 +780,7 @@
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Roll 2 dice for the number of attacks when firing this weapon and discard the lowest result. This weapon can target units not visible to the bearer. 无视掩体.</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Roll 2 dice for the number of attacks when firing 这个武器 and discard the lowest result. 这个武器 can target units not visible to the bearer. 无视掩体.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -862,7 +862,7 @@
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">12</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If this weapon successfully inflicts damage, roll an additional D6. On a result of a ‘3-5’, the weapon’s Damage is increased to 2D6. On a result of a ‘6’, the weapon’s Damage is increased to 3D6.</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If 这个武器 successfully inflicts damage, roll an additional D6. On a result of a ‘3-5’, the weapon’s Damage is increased to 2D6. On a result of a ‘6’, the weapon’s Damage is increased to 3D6.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -917,12 +917,12 @@
         </profile>
         <profile id="af63-5404-14ac-bff7" name="Subterranean Assault" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set this unit up underground instead of placing it on the battlefield. At the end of any of your Movement phases, this unit may drill up from the ground and into battle - set it up anywhere on the battlefield that is more than 9寸 away from enemy models.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set 这个单位 up underground 而不是 placing it on the battlefield. At the end of any of your 移动阶段, 这个单位 may drill up from the ground and into battle - set it up anywhere on the battlefield that is more than 9寸 away from 敌方模型.</characteristic>
           </characteristics>
         </profile>
         <profile id="5cd0-f96f-c1c2-a60e" name="Seperate Orders" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The first time this unit is set up, the Hades Breaching Drill Squadron must be deployed as a single group with each model 范围内 2寸 of at least one other model from their unit. From that point on, the Hades Breaching Drill operates independently from the unit of Veterans and both are treated as separate units for all rules purposes.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The 第1次 这个单位 is set up, the Hades Breaching Drill Squadron must be deployed as a single group with each model 范围内 2寸 of at least one other model from their unit. From that point on, the Hades Breaching Drill operates independently from the unit of Veterans and both are treated as separate units for all rules purposes.</characteristic>
           </characteristics>
         </profile>
         <profile id="0031-3a2e-4a1c-4205" name="Whirling Blades" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -979,7 +979,7 @@
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者 X2</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When making attacks against a VEHICLE, roll D6 for the Damage instead of D3.</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When making attacks against a VEHICLE, roll D6 for the Damage 而不是 D3.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1018,7 +1018,7 @@
                     <modifier type="set" field="points" value="8"/>
                   </modifiers>
                 </entryLink>
-                <entryLink id="b85a-f618-ed0b-b533" name="Power sword" hidden="false" collective="false" import="true" targetId="bc9e-551d-9afb-78d5" type="selectionEntry"/>
+                <entryLink id="b85a-f618-ed0b-b533" name="动力剑" hidden="false" collective="false" import="true" targetId="bc9e-551d-9afb-78d5" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="c0e8-9ac4-7f0a-591f" name="Laspistol" hidden="false" collective="false" import="true" defaultSelectionEntryId="2ff2-711b-0d4e-834d">
@@ -1028,7 +1028,7 @@
               </constraints>
               <entryLinks>
                 <entryLink id="2ff2-711b-0d4e-834d" name="Laspistol" hidden="false" collective="false" import="true" targetId="c10b-e1a4-c913-ae15" type="selectionEntry"/>
-                <entryLink id="df6c-bd44-a388-3a85" name="Bolt pistol" hidden="false" collective="false" import="true" targetId="d5a4-fe83-422a-0394" type="selectionEntry"/>
+                <entryLink id="df6c-bd44-a388-3a85" name="爆弹手枪" hidden="false" collective="false" import="true" targetId="d5a4-fe83-422a-0394" type="selectionEntry"/>
                 <entryLink id="d689-8590-fede-562e" name="Plasma Pistol" hidden="false" collective="false" import="true" targetId="c7c7-8bb0-8ce3-c29b" type="selectionEntry">
                   <modifiers>
                     <modifier type="set" field="points" value="5"/>
@@ -1182,7 +1182,7 @@
             </profile>
             <profile id="0098-9d20-9773-0c6e" name="Scout Vehicle" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of the first battle round but before the first turn begins, you can move this unit up to 9寸. It cannot end this move 范围内 9寸 of any enemy models. If both players have units that can do this, the player who is taking the first turn moves their units first.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of the first battle round but before the first turn begins, you can move 这个单位 up to 9寸. It cannot end this move 范围内 9寸 of any 敌方模型. If both players have units that can do this, the player who is taking the first turn moves their units first.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1398,7 +1398,7 @@
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">10</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon can target units not visible to the bearer.</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 can target units not visible to the bearer.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1506,7 +1506,7 @@
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon can target units not visible to the bearer. 无视掩体.</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 can target units not visible to the bearer. 无视掩体.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1715,7 +1715,7 @@
                         <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
                         <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
                         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon can target units not visible to the bearer.</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 can target units not visible to the bearer.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -1864,7 +1864,7 @@
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">9</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Roll two dice for the number of attacks when firing this weapon and discard the lowest result.  曲射.</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Roll two dice for the number of attacks when firing 这个武器 and discard the lowest result.  曲射.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1940,7 +1940,7 @@
               <profiles>
                 <profile id="9d18-d78d-3abc-9462" name="Explodes" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If a Hellhound is reduced to 0 wounds, 投掷1个D6 (adding 2 to the result) before removing it from the battlefield. On a 6+ it explodes, and each unit 范围内 6寸 suffers D3 mortal wounds.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If a Hellhound is reduced to 0 wounds, 投掷1个D6 (adding 2 to the result) before removing it from the battlefield. On a 6+ it explodes, 每个单位 范围内 6寸 遭受 D3 致命伤.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1963,7 +1963,7 @@
                         <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
                         <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
                         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon automatically hits it&apos;s target.</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 automatically hits it&apos;s target.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2017,7 +2017,7 @@
                         <characteristic name="S" typeId="59b1-319e-ec13-d466">*</characteristic>
                         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon automatically hits it&apos;s target. 此外, it wounds on a 2+, unless it is targeting a VEHICLE, in which case it wounds on a 6+.</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 automatically hits it&apos;s target. 此外, it wounds on a 2+, unless it is targeting a VEHICLE, in which case it wounds on a 6+.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2071,7 +2071,7 @@
                         <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
                         <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
                         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If the target is 范围内 half range of this weapon, roll two dice when inflicting damage with it and discard the lowest result.</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If the target is 范围内 half range of 这个武器, roll two dice when inflicting damage with it and discard the lowest result.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2159,7 +2159,7 @@
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">7</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Add 1 to all hit rolls made for this weapon against targets that can FLY.  Subtract 1 from the hit rolls made for this weapon against all other targets.</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Add 1 to 所有命中骰 made for 这个武器 against targets that can FLY.  Subtract 1 from the hit rolls made for 这个武器 against all other targets.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2294,7 +2294,7 @@
         </profile>
         <profile id="cbbe-b83c-7d57-a750" name="Tank Orders" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model can issue one order each turn to a 友方 &lt;REGIMENT&gt; LEMAN RUSS at the start of your 射击阶段.  To issue a Tank Order, pick a target LEMAN RUSS 范围内 6寸 of this model and choose which order you wish to issue from the Tank Orders table.  Each LEMAN RUSS can only be given a single order each turn.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 can issue one order each turn to a 友方 &lt;REGIMENT&gt; LEMAN RUSS at the start of your 射击阶段.  To issue a Tank Order, pick a target LEMAN RUSS 范围内 6寸 of 这个模型 and choose which order you wish to issue from the Tank Orders table.  Each LEMAN RUSS can only be given a single order each turn.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2323,17 +2323,17 @@
           <profiles>
             <profile id="9d23-5855-3d09-d714" name="Full Throttle!" hidden="false" typeId="92f7-e9c5-8a03-8cf2" typeName="Tank Orders">
               <characteristics>
-                <characteristic name="Effect" typeId="bd0a-a703-0603-5d4c">Instead of shooting this phase the ordered model immediately moves as if it were the Movement phase.  It must Advance as part of this move, and cannot declare a charge during this turn.</characteristic>
+                <characteristic name="Effect" typeId="bd0a-a703-0603-5d4c">而不是 shooting 这个阶段 the ordered model immediately moves as if it were the 移动阶段.  It must Advance as part of this move, and cannot declare a charge during this turn.</characteristic>
               </characteristics>
             </profile>
             <profile id="17cf-d77a-6f33-5a3d" name="Gunners, Kill on Sight!" hidden="false" typeId="92f7-e9c5-8a03-8cf2" typeName="Tank Orders">
               <characteristics>
-                <characteristic name="Effect" typeId="bd0a-a703-0603-5d4c">Re-roll hit rolls of 1 for the ordered model until the end of the phase.</characteristic>
+                <characteristic name="Effect" typeId="bd0a-a703-0603-5d4c">Re-roll hit rolls of 1 for the ordered model 直到阶段结束.</characteristic>
               </characteristics>
             </profile>
             <profile id="33cb-5015-ab83-7b31" name="Strike and Shroud!" hidden="false" typeId="92f7-e9c5-8a03-8cf2" typeName="Tank Orders">
               <characteristics>
-                <characteristic name="Effect" typeId="bd0a-a703-0603-5d4c">This order can only be issued to a model that has not yet used it&apos;s smoke launchers during the battle.  The ordered model can shoot it&apos;s weapons and launch it&apos;s smoke launchers during this phase.</characteristic>
+                <characteristic name="Effect" typeId="bd0a-a703-0603-5d4c">This order can only be issued to a model that has not yet used it&apos;s smoke launchers during the battle.  The ordered model can shoot it&apos;s weapons and launch it&apos;s smoke launchers during 这个阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2663,7 +2663,7 @@
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="3c6e-2b9e-c2ce-8666" name="DKOK Melee Weapons" hidden="false" collective="false" import="true" targetId="410c-a331-d1e0-0a7a" type="selectionEntryGroup"/>
-        <entryLink id="d974-adf1-e198-63aa" name="Frag &amp; Krak grenades" hidden="false" collective="false" import="true" targetId="cddf-945e-1335-e681" type="selectionEntry">
+        <entryLink id="d974-adf1-e198-63aa" name="破片和穿甲手雷" hidden="false" collective="false" import="true" targetId="cddf-945e-1335-e681" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31dc-7094-098c-3c8c" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="43ec-fbed-b129-ccc7" type="max"/>
@@ -2745,7 +2745,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="df3e-86b2-dcda-80d9" name="Frag &amp; Krak grenades" hidden="false" collective="false" import="true" targetId="cddf-945e-1335-e681" type="selectionEntry">
+        <entryLink id="df3e-86b2-dcda-80d9" name="破片和穿甲手雷" hidden="false" collective="false" import="true" targetId="cddf-945e-1335-e681" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="25e3-819b-762f-b83e" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b85-8905-f0a5-27cf" type="min"/>
@@ -2834,7 +2834,7 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="8f77-dfd1-8c74-0749" name="Frag &amp; Krak grenades" hidden="false" collective="false" import="true" targetId="cddf-945e-1335-e681" type="selectionEntry">
+            <entryLink id="8f77-dfd1-8c74-0749" name="破片和穿甲手雷" hidden="false" collective="false" import="true" targetId="cddf-945e-1335-e681" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7882-7d5d-80f1-dc21" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f55-e3b4-7f6a-691e" type="max"/>
@@ -2863,7 +2863,7 @@
                 <infoLink id="85a1-c33a-0a45-1cf7" name="Death Korps Guardsman" hidden="false" targetId="9fe8-46df-c068-50a1" type="profile"/>
               </infoLinks>
               <entryLinks>
-                <entryLink id="f9a5-21e7-0656-eeaa" name="Frag &amp; Krak grenades" hidden="false" collective="false" import="true" targetId="cddf-945e-1335-e681" type="selectionEntry">
+                <entryLink id="f9a5-21e7-0656-eeaa" name="破片和穿甲手雷" hidden="false" collective="false" import="true" targetId="cddf-945e-1335-e681" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f730-ca54-531f-f6ec" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4405-7f93-f516-255a" type="max"/>
@@ -2895,7 +2895,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f8e-d24c-dffd-2037" type="min"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="ce0b-4efc-9290-f607" name="Frag &amp; Krak grenades" hidden="false" collective="false" import="true" targetId="cddf-945e-1335-e681" type="selectionEntry">
+                <entryLink id="ce0b-4efc-9290-f607" name="破片和穿甲手雷" hidden="false" collective="false" import="true" targetId="cddf-945e-1335-e681" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa6d-6f26-6ab4-63da" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="530c-78fa-72d2-eb12" type="max"/>
@@ -2928,7 +2928,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e40-b815-85ab-f85a" type="max"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="aa3e-0920-2885-5e83" name="Frag &amp; Krak grenades" hidden="false" collective="false" import="true" targetId="cddf-945e-1335-e681" type="selectionEntry">
+                <entryLink id="aa3e-0920-2885-5e83" name="破片和穿甲手雷" hidden="false" collective="false" import="true" targetId="cddf-945e-1335-e681" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66df-1318-b936-1e41" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed8e-2c30-98e5-dbc7" type="max"/>
@@ -2961,7 +2961,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ec1-5fba-d6c9-485e" type="max"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="405b-6a83-0040-77c9" name="Frag &amp; Krak grenades" hidden="false" collective="false" import="true" targetId="cddf-945e-1335-e681" type="selectionEntry">
+                <entryLink id="405b-6a83-0040-77c9" name="破片和穿甲手雷" hidden="false" collective="false" import="true" targetId="cddf-945e-1335-e681" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ee7-bdb5-ce6f-af3f" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b91d-e88e-1ee2-1be1" type="max"/>
@@ -3064,7 +3064,7 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="48ad-66a6-cae3-0f8e" name="Frag &amp; Krak grenades" hidden="false" collective="false" import="true" targetId="6fc4-27dc-15ca-cdca" type="selectionEntry">
+            <entryLink id="48ad-66a6-cae3-0f8e" name="破片和穿甲手雷" hidden="false" collective="false" import="true" targetId="6fc4-27dc-15ca-cdca" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0cda-c3a6-4414-b341" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="734e-6c26-a756-e90b" type="min"/>
@@ -3111,7 +3111,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d9b1-df19-4b6d-e158" type="max"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="73ad-9300-a543-7056" name="Frag &amp; Krak grenades" hidden="false" collective="false" import="true" targetId="6fc4-27dc-15ca-cdca" type="selectionEntry">
+                <entryLink id="73ad-9300-a543-7056" name="破片和穿甲手雷" hidden="false" collective="false" import="true" targetId="6fc4-27dc-15ca-cdca" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f693-ca5a-1e4b-85fb" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="44e0-abfd-0533-7c25" type="min"/>
@@ -3132,7 +3132,7 @@
                 <infoLink id="0945-e13d-9bcb-f8fa" name="Death Korps Grenadier" hidden="false" targetId="5dad-a672-e4af-1c9c" type="profile"/>
               </infoLinks>
               <entryLinks>
-                <entryLink id="42c8-71dd-5e00-c3f3" name="Frag &amp; Krak grenades" hidden="false" collective="false" import="true" targetId="6fc4-27dc-15ca-cdca" type="selectionEntry">
+                <entryLink id="42c8-71dd-5e00-c3f3" name="破片和穿甲手雷" hidden="false" collective="false" import="true" targetId="6fc4-27dc-15ca-cdca" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="837d-a6f3-de6e-d8ae" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a4c1-55e7-9272-f488" type="min"/>
@@ -3166,7 +3166,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="126d-a862-207e-6355" type="min"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="dea7-a2dc-a828-e959" name="Frag &amp; Krak grenades" hidden="false" collective="false" import="true" targetId="6fc4-27dc-15ca-cdca" type="selectionEntry">
+                <entryLink id="dea7-a2dc-a828-e959" name="破片和穿甲手雷" hidden="false" collective="false" import="true" targetId="6fc4-27dc-15ca-cdca" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d66a-5ae4-d5e1-c8af" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9556-b0c5-c93c-7ac0" type="min"/>
@@ -3205,7 +3205,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31fa-4f24-d73f-393f" type="min"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="52f1-95e3-0494-ca06" name="Frag &amp; Krak grenades" hidden="false" collective="false" import="true" targetId="6fc4-27dc-15ca-cdca" type="selectionEntry">
+                <entryLink id="52f1-95e3-0494-ca06" name="破片和穿甲手雷" hidden="false" collective="false" import="true" targetId="6fc4-27dc-15ca-cdca" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a047-812c-5acd-be7c" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3d00-b4eb-37b6-b407" type="min"/>
@@ -3361,7 +3361,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon can only be fired if a unit is embarked upon the vehicle equipped with it.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 can only be fired if a unit is 上车 upon the vehicle equipped with it.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3547,7 +3547,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="8ebb-8f15-1e5e-28b4" name="Frag &amp; Krak grenades" hidden="false" collective="false" import="true" targetId="cddf-945e-1335-e681" type="selectionEntry">
+        <entryLink id="8ebb-8f15-1e5e-28b4" name="破片和穿甲手雷" hidden="false" collective="false" import="true" targetId="cddf-945e-1335-e681" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d17-0594-82ed-272a" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67b1-f711-2b8c-d68b" type="min"/>
@@ -3653,7 +3653,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="adf6-3e5b-5e4b-e04d" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="814e-04ee-3e88-244f" name="Frag &amp; Krak grenades" hidden="false" collective="false" import="true" targetId="cddf-945e-1335-e681" type="selectionEntry">
+            <entryLink id="814e-04ee-3e88-244f" name="破片和穿甲手雷" hidden="false" collective="false" import="true" targetId="cddf-945e-1335-e681" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c49-0d33-a399-7795" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7176-fd5c-12ba-13b6" type="min"/>
@@ -3696,7 +3696,7 @@
               <entryLinks>
                 <entryLink id="bec2-15dd-88e7-917a" name="Krieg Combat Shotgun" hidden="false" collective="false" import="true" targetId="f99b-d266-a2d5-9561" type="selectionEntry"/>
                 <entryLink id="2d8c-5ae7-e292-8303" name="Acid Gas Bomb" hidden="false" collective="false" import="true" targetId="ff12-4f22-79fe-13c7" type="selectionEntry"/>
-                <entryLink id="dfb1-5fdc-23e0-7081" name="Frag &amp; Krak grenades" hidden="false" collective="false" import="true" targetId="cddf-945e-1335-e681" type="selectionEntry">
+                <entryLink id="dfb1-5fdc-23e0-7081" name="破片和穿甲手雷" hidden="false" collective="false" import="true" targetId="cddf-945e-1335-e681" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19e7-ae86-3b0a-dba6" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4b6-b8bb-6506-eb28" type="min"/>
@@ -3725,7 +3725,7 @@
                 </entryLink>
                 <entryLink id="de9e-7c5d-e8b0-d27b" name="Krieg Combat Shotgun" hidden="false" collective="false" import="true" targetId="f99b-d266-a2d5-9561" type="selectionEntry"/>
                 <entryLink id="ce6a-8f4a-f751-36d2" name="Acid Gas Bomb" hidden="false" collective="false" import="true" targetId="ff12-4f22-79fe-13c7" type="selectionEntry"/>
-                <entryLink id="79fd-e5d8-eb7b-78e1" name="Frag &amp; Krak grenades" hidden="false" collective="false" import="true" targetId="cddf-945e-1335-e681" type="selectionEntry">
+                <entryLink id="79fd-e5d8-eb7b-78e1" name="破片和穿甲手雷" hidden="false" collective="false" import="true" targetId="cddf-945e-1335-e681" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d6ec-85d8-c958-b467" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e562-31f0-9b24-7fc6" type="min"/>
@@ -3748,7 +3748,7 @@
               <entryLinks>
                 <entryLink id="8a11-d181-9e8b-2b37" name="DKOK Special Weapons BS3" hidden="false" collective="false" import="true" targetId="531f-4711-cd17-8d70" type="selectionEntryGroup"/>
                 <entryLink id="cda6-b687-4ad1-b39f" name="Acid Gas Bomb" hidden="false" collective="false" import="true" targetId="ff12-4f22-79fe-13c7" type="selectionEntry"/>
-                <entryLink id="4f18-af17-643e-eede" name="Frag &amp; Krak grenades" hidden="false" collective="false" import="true" targetId="cddf-945e-1335-e681" type="selectionEntry">
+                <entryLink id="4f18-af17-643e-eede" name="破片和穿甲手雷" hidden="false" collective="false" import="true" targetId="cddf-945e-1335-e681" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dcbd-d7a5-588a-fbf0" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="15ba-c7e7-c224-2ff1" type="min"/>
@@ -3782,7 +3782,7 @@
               </selectionEntryGroups>
               <entryLinks>
                 <entryLink id="56b1-38a2-769e-2a7c" name="Acid Gas Bomb" hidden="false" collective="false" import="true" targetId="ff12-4f22-79fe-13c7" type="selectionEntry"/>
-                <entryLink id="9209-e5e5-aecc-b06f" name="Frag &amp; Krak grenades" hidden="false" collective="false" import="true" targetId="cddf-945e-1335-e681" type="selectionEntry">
+                <entryLink id="9209-e5e5-aecc-b06f" name="破片和穿甲手雷" hidden="false" collective="false" import="true" targetId="cddf-945e-1335-e681" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7300-7893-0c8f-72e7" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81a8-9b5f-18c3-7c92" type="min"/>
@@ -3817,7 +3817,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="941a-603d-8177-356f" type="min"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="741a-959a-8c7f-c621" name="Frag &amp; Krak grenades" hidden="false" collective="false" import="true" targetId="cddf-945e-1335-e681" type="selectionEntry">
+                <entryLink id="741a-959a-8c7f-c621" name="破片和穿甲手雷" hidden="false" collective="false" import="true" targetId="cddf-945e-1335-e681" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1765-ffc6-84b6-7d43" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87c2-a6ce-42e2-7c50" type="min"/>
@@ -3906,7 +3906,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e5f-f94b-da2d-e35e" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="27f5-08f7-7451-bc55" name="Frag &amp; Krak grenades" hidden="false" collective="false" import="true" targetId="cddf-945e-1335-e681" type="selectionEntry">
+        <entryLink id="27f5-08f7-7451-bc55" name="破片和穿甲手雷" hidden="false" collective="false" import="true" targetId="cddf-945e-1335-e681" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="94e1-388d-1df8-fe27" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d66f-b4b7-9b36-a7cf" type="min"/>
@@ -3984,7 +3984,7 @@
             </profile>
             <profile id="ba59-96e8-a7dc-1b77" name="Vitae Mortis" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time a 友方 DEATH KORPS OF KRIEG INFANTRY or DEATH KORPS OF KRIEG CAVALRY unit 范围内 6寸 suffers a wound, 投掷1个D6. On a 6, it ignores the injury and the wound is not lost. A unit cannot use both this and the Augmented Mount ability to prevent the same wound.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time a 友方 DEATH KORPS OF KRIEG INFANTRY or DEATH KORPS OF KRIEG CAVALRY unit 范围内 6寸 遭受 a wound, 投掷1个D6. On a 6, it ignores the injury and the wound is not lost. A unit cannot use both this and the Augmented Mount ability to prevent the same wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4033,7 +4033,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87a5-c1fa-4c22-25f3" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="b9af-5818-2c1e-bce6" name="Frag &amp; Krak grenades" hidden="false" collective="false" import="true" targetId="cddf-945e-1335-e681" type="selectionEntry">
+            <entryLink id="b9af-5818-2c1e-bce6" name="破片和穿甲手雷" hidden="false" collective="false" import="true" targetId="cddf-945e-1335-e681" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f16f-c369-7005-4de2" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81b5-59b4-134a-431d" type="max"/>
@@ -4134,7 +4134,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="82c9-1a89-3605-6bc3" name="Frag &amp; Krak grenades" hidden="false" collective="false" import="true" targetId="cddf-945e-1335-e681" type="selectionEntry">
+        <entryLink id="82c9-1a89-3605-6bc3" name="破片和穿甲手雷" hidden="false" collective="false" import="true" targetId="cddf-945e-1335-e681" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="94c7-81b8-eaf7-02a6" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b0f4-ed88-c062-a821" type="max"/>
@@ -4153,7 +4153,7 @@
       <profiles>
         <profile id="c43f-9941-72fc-1c3f" name="Summary Execution" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Friendly ASTRA MILITARUM units 范围内 6寸 of a Death Korps Death Rider Commissar can never lose more than one model as the result of any single failed Morale test.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">友方 ASTRA MILITARUM units 范围内 6寸 of a Death Korps Death Rider Commissar can never lose more than one model as the result of any single failed Morale test.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4190,7 +4190,7 @@
           </constraints>
           <entryLinks>
             <entryLink id="33c2-dd06-c990-63be" name="Laspistol" hidden="false" collective="false" import="true" targetId="c10b-e1a4-c913-ae15" type="selectionEntry"/>
-            <entryLink id="3047-3567-9a5e-864e" name="Bolt pistol" hidden="false" collective="false" import="true" targetId="d5a4-fe83-422a-0394" type="selectionEntry"/>
+            <entryLink id="3047-3567-9a5e-864e" name="爆弹手枪" hidden="false" collective="false" import="true" targetId="d5a4-fe83-422a-0394" type="selectionEntry"/>
             <entryLink id="e56c-73f2-07e3-61e2" name="Plasma Pistol" hidden="false" collective="false" import="true" targetId="c7c7-8bb0-8ce3-c29b" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
@@ -4210,7 +4210,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="395d-5f9d-472a-0bcb" name="Frag &amp; Krak grenades" hidden="false" collective="false" import="true" targetId="cddf-945e-1335-e681" type="selectionEntry">
+        <entryLink id="395d-5f9d-472a-0bcb" name="破片和穿甲手雷" hidden="false" collective="false" import="true" targetId="cddf-945e-1335-e681" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9927-86ee-2329-d7b8" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c06a-129b-46d0-5c9f" type="min"/>
@@ -4311,7 +4311,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7731-ccf9-76b7-4756" type="max"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="b83a-44ba-2bc0-14bc" name="Frag &amp; Krak grenades" hidden="false" collective="false" import="true" targetId="cddf-945e-1335-e681" type="selectionEntry">
+                <entryLink id="b83a-44ba-2bc0-14bc" name="破片和穿甲手雷" hidden="false" collective="false" import="true" targetId="cddf-945e-1335-e681" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d49-4536-b6b8-00ed" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d17-0ec8-d7b6-95fb" type="max"/>
@@ -4369,7 +4369,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87af-4a79-1a9f-b78e" type="max"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="dbc5-ecfe-4cfb-adfa" name="Frag &amp; Krak grenades" hidden="false" collective="false" import="true" targetId="cddf-945e-1335-e681" type="selectionEntry">
+                <entryLink id="dbc5-ecfe-4cfb-adfa" name="破片和穿甲手雷" hidden="false" collective="false" import="true" targetId="cddf-945e-1335-e681" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd10-4439-cf34-3c6b" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab36-a139-015a-8159" type="max"/>
@@ -4395,20 +4395,20 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9825-d4c4-2e46-2fb0" name="Death Korps Heavy Weapons Squad" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="9825-d4c4-2e46-2fb0" name="Death Korps 重型武器 Squad" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="4056-2c39-8e84-09b1" name="Frag grenade" hidden="false" targetId="fdd8-1a5f-5722-d6ee" type="profile"/>
         <infoLink id="5273-f4e0-eb3f-afe5" name="Krak grenade" hidden="false" targetId="3bf6-b4f7-6b2f-bb7b" type="profile"/>
         <infoLink id="b9e7-162f-aa60-6d8a" name="Cult of Sacrifice" hidden="false" targetId="ef44-06c5-0f92-e193" type="profile"/>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="4ec6-a966-c1d4-1da0" name="Death Korps Heavy Weapons Team" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="4ec6-a966-c1d4-1da0" name="Death Korps 重型武器 Team" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a1b1-9e72-1749-2a59" type="max"/>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e334-cb08-410d-712e" type="min"/>
           </constraints>
           <infoLinks>
-            <infoLink id="01cd-3c16-676e-d0c0" name="Death Korps Heavy Weapons Team" hidden="false" targetId="7ded-3511-4205-3d6e" type="profile"/>
+            <infoLink id="01cd-3c16-676e-d0c0" name="Death Korps 重型武器 Team" hidden="false" targetId="7ded-3511-4205-3d6e" type="profile"/>
           </infoLinks>
           <entryLinks>
             <entryLink id="7568-b197-3379-dd55" name="Lasgun" hidden="false" collective="false" import="true" targetId="fd87-854b-d284-184a" type="selectionEntry">
@@ -4417,7 +4417,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a0f-4c6e-ebcd-602f" type="min"/>
               </constraints>
             </entryLink>
-            <entryLink id="a428-dd11-f64d-1d8d" name="DKOK Heavy Weapons" hidden="false" collective="false" import="true" targetId="cfec-a505-70eb-3fc3" type="selectionEntryGroup">
+            <entryLink id="a428-dd11-f64d-1d8d" name="DKOK 重型武器" hidden="false" collective="false" import="true" targetId="cfec-a505-70eb-3fc3" type="selectionEntryGroup">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6a1-b328-e5da-c879" type="min"/>
               </constraints>
@@ -4772,7 +4772,7 @@
                         <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
                         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If you make one or more hit rolls of 1, the bearer suffers D6 mortal wounds after all of this weapon&apos;s shots have been resolved.</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If you make one or more hit rolls of 1, the bearer 遭受 D6 致命伤 after all of 这个武器&apos;s shots have been resolved.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -5404,7 +5404,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">10</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">无视掩体. Re-roll damage rolls of 1 for this weapon.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">无视掩体. Re-roll damage rolls of 1 for 这个武器.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5470,7 +5470,7 @@
         </profile>
         <profile id="fa39-851b-1c2c-1657" name="Shadowsword Targeters" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to any hit rolls you make for this model for shooting attacks that target TITANIC units.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to any hit rolls you make for 这个模型 for shooting attacks that target TITANIC units.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5502,7 +5502,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">16</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-5</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2D6</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">You can re-roll failed wound rolls when targeting TITANIC units with this weapon.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">You can re-roll failed wound rolls when targeting TITANIC units with 这个武器.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5592,7 +5592,7 @@
         </profile>
         <profile id="7b29-e67a-25af-50e2" name="Recovery Vehicle" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of this model’s Movement phase, this model can repair a single &lt;REGIMENT&gt; VEHICLE 范围内 3寸 (but not itself). That model regains D3 lost wounds.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of 这个模型’s 移动阶段, 这个模型 can repair a single &lt;REGIMENT&gt; VEHICLE 范围内 3寸 (but not itself). That model regains D3 lost wounds.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5632,12 +5632,12 @@
           <profiles>
             <profile id="deec-4aaa-9151-4d1f" name="Cyclops Demolition Charge" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">​At the start of any of this model’s Shooting phases, so long as it has not Advanced, it may choose to detonate its Cyclops demolition charge. When it does so, every unit (both 友方 and enemy) 范围内 D6寸 is automatically hit by this weapon using the profile stated above – roll separately for each unit. Once this model has detonated its Cyclops demolition charge, remove it from play. Any Cyclops Demolition Vehicle that is removed from play in this way does not award Victory points in scenarios that offer Victory points for slaying enemy units.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">​At the start of any of 这个模型’s 射击阶段, so long as it has not Advanced, it may choose to detonate its Cyclops demolition charge. When it does so, every unit (both 友方 and enemy) 范围内 D6寸 is automatically hit by 这个武器 using the profile stated above – roll separately for each unit. Once 这个模型 has detonated its Cyclops demolition charge, remove it from play. Any Cyclops Demolition Vehicle that is removed from play in this way does not award Victory points in scenarios that offer Victory points for slaying 敌方单位.</characteristic>
               </characteristics>
             </profile>
             <profile id="1e8b-9573-0860-9613" name="Explodes" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model is reduced to 0 wounds, 投掷1个D6 before removing it from the battlefield and before any embarked models disembark. On a 3+ it explodes, and each unit 范围内 6寸 suffers D3 mortal wound.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 在载具被移除及任何在这个载具上的模型下车前投掷1个D6. On a 3+ it explodes, 每个单位 范围内 6寸 遭受 D3 致命伤.</characteristic>
               </characteristics>
             </profile>
             <profile id="0a86-e3f0-9416-35d0" name="Cyclops" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
@@ -5671,7 +5671,7 @@
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">9</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">​ 自动命中 This weapon may only be used once per battle.</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">​ 自动命中 这个武器 may only be used once per battle.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5778,7 +5778,7 @@
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">9</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Roll 2 dice when firing this weapon and discards the lowest result. 曲射.</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Roll 2 dice when firing 这个武器 and discards the lowest result. 曲射.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5964,7 +5964,7 @@
         </profile>
         <profile id="b281-ee6c-5d3e-58b5" name="Defender Protocols" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to hit rolls for the model when firing Overwatch.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">命中骰+1 for the model when firing Overwatch.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6210,7 +6210,7 @@
         </profile>
         <profile id="c25e-5be9-b40f-7cfa" name="Titanic Expolsion" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model is reduced to 0 wounds, 投掷1个D6 before removing it from the battlefield. On a 4+ it explodes, and each unit 范围内 2D6寸 suffers D6 mortal wounds.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 投掷1个D6 before removing it from the battlefield. On a 4+ it explodes, 每个单位 范围内 2D6寸 遭受 D6 致命伤.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6236,7 +6236,7 @@
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">7</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon automatically hits it&apos;s target</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 automatically hits it&apos;s target</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -6258,7 +6258,7 @@
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">*</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon automatically hits it&apos;s target. 此外, it wounds on a 2+, unless the target is a VEHICLE, in which case it wounds on a 6+</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 automatically hits it&apos;s target. 此外, it wounds on a 2+, unless the target is a VEHICLE, in which case it wounds on a 6+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -6513,7 +6513,7 @@
             </profile>
             <profile id="7517-24c0-d4b9-b5b1" name="Tank Hunter" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model attacks a VEHICLE with it&apos;s heavy laser destroyer array, roll 2 dice when rolling damage and discard the lowest result.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 attacks a VEHICLE with it&apos;s heavy laser destroyer array, roll 2 dice when rolling damage and discard the lowest result.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6587,7 +6587,7 @@
         </profile>
         <profile id="4041-ed76-f280-7002" name="Heavy Armored Prow" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model has a 5+ 特殊保护 against shooting attacks.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 has a 5+ 特殊保护 against shooting attacks.</characteristic>
           </characteristics>
         </profile>
         <profile id="4da1-724f-25df-5e78" name="Gorgon Heavy Transport" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="Transport">
@@ -6620,7 +6620,7 @@
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Units attacked by this weapon do not gain any bonuses to their saving throws for being in cover.</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Units attacked by 这个武器 do not gain any bonuses to their saving throws for being in cover.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -6835,7 +6835,7 @@
         </profile>
         <profile id="9b97-0e04-67e5-8ed2" name="Heavy Armored Front" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model has a 5+ 特殊保护 against shooting attacks.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 has a 5+ 特殊保护 against shooting attacks.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6858,7 +6858,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">9</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Roll 4 dice when firing this weapon and discards the lowest two results. 曲射.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Roll 4 dice when firing 这个武器 and discards the lowest two results. 曲射.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6939,7 +6939,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">9</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">For each roll of 1, the bearer suffers 1 mortal wound after all the weapon&apos;s shots have been resolved.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">For each roll of 1, the bearer 遭受 1 致命伤 after all the weapon&apos;s shots have been resolved.</characteristic>
               </characteristics>
             </profile>
             <profile id="18a3-a663-2771-7f78" name="Plasma Blastgun, Standard" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -7147,7 +7147,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">9</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">For each roll of 1, the bearer suffers 1 mortal wound after all the weapon&apos;s shots have been resolved.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">For each roll of 1, the bearer 遭受 1 致命伤 after all the weapon&apos;s shots have been resolved.</characteristic>
               </characteristics>
             </profile>
             <profile id="20d9-de24-7516-4d17" name="Omega Pattern Plasma Blastgun Pulsed Bolts" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -7278,7 +7278,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">9</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Roll 2 dice when inflicting damage with this weapon and discard the lowest result.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Roll 2 dice when inflicting damage with 这个武器 and discard the lowest result.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7395,7 +7395,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If this model does not move during the Movement phase, in your next 射击阶段, change this weapon&apos;s type to Heavy 30 until the end of the turn.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If 这个模型 does not move during the 移动阶段, in your next 射击阶段, change 这个武器&apos;s type to Heavy 30 until the end of the turn.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7501,7 +7501,7 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6fc4-27dc-15ca-cdca" name="Frag &amp; Krak grenades" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="6fc4-27dc-15ca-cdca" name="破片和穿甲手雷" hidden="false" collective="true" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fed6-a907-af13-efe8" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a269-a95b-a6b2-69fc" type="min"/>
@@ -7624,9 +7624,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d5a4-fe83-422a-0394" name="Bolt pistol" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="d5a4-fe83-422a-0394" name="爆弹手枪" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="4366-d8be-ffd0-1d05" name="Bolt pistol" hidden="false" targetId="e6d5-677a-d8ed-f6a5" type="profile"/>
+        <infoLink id="4366-d8be-ffd0-1d05" name="爆弹手枪" hidden="false" targetId="e6d5-677a-d8ed-f6a5" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="1.0"/>
@@ -7656,12 +7656,12 @@
         </profile>
         <profile id="1fda-9146-afc8-0a3f" name="Explodes (6+/6寸/D3)" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model is reduced to 0 wounds, 投掷1个D6 before removing it from the battlefield and before any embarked models disembark. On a 6 it explodes, and each unit 范围内 6寸 suffers D3 mortal wounds.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 在载具被移除及任何在这个载具上的模型下车前投掷1个D6. 结果为6则爆炸, 每个单位 范围内 6寸 遭受 D3 致命伤.</characteristic>
           </characteristics>
         </profile>
         <profile id="84d3-4c58-d084-87e3" name="Transport" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="Transport">
           <characteristics>
-            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">This model can transport 6 ASTRA MILITARUM INFANTRY models. Each heavy Weapon Team or Veteran Heavy Weapon Team takes the space fo two other models, and each OGRYN takes the spaces of three other models.</characteristic>
+            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">这个模型 can transport 6 ASTRA MILITARUM INFANTRY models. Each heavy Weapon Team or Veteran Heavy Weapon Team takes the space fo two other models, and each OGRYN takes the spaces of three other models.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7745,7 +7745,7 @@
         </profile>
         <profile id="602b-56f0-13a0-4446" name="Shadowsword Targeters" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to any hit rolls you make for this model for shooting attacks that target TITANIC units.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to any hit rolls you make for 这个模型 for shooting attacks that target TITANIC units.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7777,7 +7777,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">16</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-5</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2D6</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">You can re-roll failed wound rolls when targeting TITANIC units with this weapon.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">You can re-roll failed wound rolls when targeting TITANIC units with 这个武器.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7974,7 +7974,7 @@
       <profiles>
         <profile id="509e-a7bc-674f-8beb" name="The Laurels of Command" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">OFFICER with Voice of Command ability only. Roll a dice each time the bearer issues an order to a 友方 &lt;REGIMENT&gt;unit 范围内 6寸 of them. On a 4+ the bearer can immediately issue another order to the same unit. This does not count towards the maximum number of orders this model may issue each turn.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">OFFICER with Voice of Command ability only. Roll a dice each time the bearer issues an order to a 友方 &lt;REGIMENT&gt;unit 范围内 6寸 of them. On a 4+ the bearer can immediately issue another order to the same unit. This does not count towards the maximum number of orders 这个模型 may issue each turn.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8056,7 +8056,7 @@
       <profiles>
         <profile id="e4af-50aa-9c90-f642" name="The Dagger of Tu&apos;Sakh" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">INFANTRY OFFICER model only. During deployment, you can set up the bearer and one INFANTRY unit from your army behind enemy lines instead of placing them on the battlefield. The infantry unit must have the same &lt;REGIMENT&gt; keyword as the bearer if the bearer has one.At the end of any of your Movement phases these units can launch their daring attack – set them up 范围内 3寸 of each other, anywhere on the battlefield that is wholly 范围内 6寸 of any battlefield edge and more than 9寸 away from any enemy models.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">INFANTRY OFFICER model only. During deployment, you can set up the bearer and one INFANTRY unit from your army behind 敌方 lines 而不是 placing them on the battlefield. The infantry unit must have the same &lt;REGIMENT&gt; keyword as the bearer if the bearer has one.At the end of any of your 移动阶段 these units can launch their daring attack – set them up 范围内 3寸 of each other, anywhere on the battlefield that is wholly 范围内 6寸 of any battlefield edge and more than 9寸 away from any 敌方模型.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8115,7 +8115,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon can target a Character even if it is not the closest enemy unit, unless the bearer is 范围内 1寸 of an enemy unit.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 can target a Character even if it is not the closest 敌方单位, unless the bearer is 范围内 1寸 of an 敌方单位.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8298,7 +8298,7 @@
       <profiles>
         <profile id="9842-673e-3d0e-ff0c" name="Agripinaa-Class Orbital Tracker" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">In your 射击阶段, pick an EMPEROR’S WRATH unit from your army 范围内 6寸 of the bearer. Until the end of that phase, enemy units do not receive the benefit of cover when targeted by shooting attacks made by that unit.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">In your 射击阶段, pick an EMPEROR’S WRATH unit from your army 范围内 6寸 of the bearer. Until the end of that phase, 敌方单位 do not receive the benefit of cover when targeted by shooting attacks made by that unit.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8341,7 +8341,7 @@
       <profiles>
         <profile id="a912-6fd8-00a7-1d3b" name="Unflinching Resolve" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll hit rolls when your Warlord, and 友方 EMPEROR’S FIST units 范围内 6寸 of your Warlord, fire Overwatch.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投命中骰 when your 主将, and 友方 EMPEROR’S FIST units 范围内 6寸 of your 主将, fire Overwatch.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8366,7 +8366,7 @@
       <profiles>
         <profile id="992a-3ea4-05d5-c624" name="Lord of Ordnance" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time you roll a wound roll of 6+ for an attack made by a 友方 EMPEROR’S WRATH unit while they are 范围内 6寸 of your Warlord in the 射击阶段, the Armour Penetration characteristic of that attack is improved by 1 (i.e. AP0 becomes AP-1, AP-1 becomes AP-2).</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time you roll a wound roll of 6+ for an attack made by a 友方 EMPEROR’S WRATH unit while they are 范围内 6寸 of your 主将 in the 射击阶段, the Armour Penetration characteristic of that attack is improved by 1 (i.e. AP0 becomes AP-1, AP-1 becomes AP-2).</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8411,12 +8411,12 @@
         </profile>
         <profile id="29d3-d6e5-9bf8-ae06" name="Transport: Centaur Light Carrier" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model can transport 5 ASTRA MILITARUM INFANTRY models.  Each Heavy Weapons Team or Veteran Heavy Weapons Team takes the place of two other models and each OGRYN takes the space of three other models.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 can transport 5 ASTRA MILITARUM INFANTRY models.  Each 重型武器 Team or Veteran 重型武器 Team takes the place of two other models and each OGRYN takes the space of three other models.</characteristic>
           </characteristics>
         </profile>
         <profile id="ef99-483e-c95e-67db" name="Explodes (6+/6寸/D3)" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model is reduced to 0 wounds, 投掷1个D6 before removing it from the battlefield and before any embarked models disembark. On a 6 it explodes, and each unit 范围内 6寸 suffers D3 mortal wounds.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 在载具被移除及任何在这个载具上的模型下车前投掷1个D6. 结果为6则爆炸, 每个单位 范围内 6寸 遭受 D3 致命伤.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8447,7 +8447,7 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="cfec-a505-70eb-3fc3" name="DKOK Heavy Weapons" publicationId="91ff-e116-pubN65631" page="56" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="cfec-a505-70eb-3fc3" name="DKOK 重型武器" publicationId="91ff-e116-pubN65631" page="56" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f591-d5bb-6ec5-a860" type="max"/>
       </constraints>
@@ -8574,7 +8574,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a51-5f1e-f5b5-92c9" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="fbb5-0487-e433-2c52" name="Bolt pistol" hidden="false" targetId="e6d5-677a-d8ed-f6a5" type="profile"/>
+            <infoLink id="fbb5-0487-e433-2c52" name="爆弹手枪" hidden="false" targetId="e6d5-677a-d8ed-f6a5" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="2.0"/>
@@ -8626,7 +8626,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="074f-64b2-7687-742e" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="5aba-a889-2bc7-1a4a" name="Bolt pistol" hidden="false" collective="false" import="true" targetId="d5a4-fe83-422a-0394" type="selectionEntry">
+        <entryLink id="5aba-a889-2bc7-1a4a" name="爆弹手枪" hidden="false" collective="false" import="true" targetId="d5a4-fe83-422a-0394" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cab-e122-c30c-e71c" type="max"/>
           </constraints>
@@ -8741,7 +8741,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7e5-ba10-6f19-4e7b" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="c989-26fc-0174-bf37" name="Power sword" hidden="false" collective="false" import="true" targetId="bc9e-551d-9afb-78d5" type="selectionEntry">
+        <entryLink id="c989-26fc-0174-bf37" name="动力剑" hidden="false" collective="false" import="true" targetId="bc9e-551d-9afb-78d5" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="points" value="4"/>
           </modifiers>
@@ -9304,7 +9304,7 @@
               <profiles>
                 <profile id="c7ab-a2bd-3b85-2e28" name="Grand Strategist" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Whilst your Warlord is alive, you can re-roll a single hit roll, wound roll or saving throw per battle. 此外, if your army is Battle-forged and this Warlord is on the battlefield, roll a dice for each Command Point spent when using Stratagems. On a 5+ that Command Point is immediately refunded</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Whilst your 主将 is alive, you can re-roll a single hit roll, wound roll or saving throw per battle. 此外, if your army is Battle-forged and 这个主将 is on the battlefield, roll a dice for each Command Point spent when using Stratagems. On a 5+ that Command Point is immediately refunded</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -9322,7 +9322,7 @@
               <profiles>
                 <profile id="7be0-1413-d922-eb21" name="Old Grudges" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">After deployment, but before the first battle round begins, choose a unit in your opponent’s army. You can re-roll failed wound rolls for ASTRA MILITARUM units from your army that target the unit you chose whilst they are 范围内 6寸 of your Warlord.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">After deployment, but before the first battle round begins, choose a unit in your opponent’s army. You can re-roll failed wound rolls for ASTRA MILITARUM units from your army that target the unit you chose whilst they are 范围内 6寸 of your 主将.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -9340,7 +9340,7 @@
               <profiles>
                 <profile id="eaeb-a54f-6888-382b" name="Implacable Determination" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When your Warlord and a single 友方 unit 范围内 3寸 of them Advances, they may both add 6寸 to their Move characteristic for that Movement phase instead of rolling a dice</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When your 主将 and a single 友方单位 范围内 3寸 of them Advances, they may both add 6寸 to their Move characteristic for that 移动阶段 而不是 rolling a dice</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -9358,7 +9358,7 @@
               <profiles>
                 <profile id="5b3f-cfb6-fd41-2547" name="Draconian Disiplinarian" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll failed Morale tests for 友方 ASTRA MILITARUM INFANTRY units 范围内 6寸 of your Warlord in the Morale phase.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll failed 士气测试 for 友方 ASTRA MILITARUM INFANTRY units 范围内 6寸 of your 主将 in the Morale phase.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -9394,7 +9394,7 @@
               <profiles>
                 <profile id="87f5-9100-77f4-72c2" name="Master of Command" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Your Warlord gains the Voice of Command ability. If your Warlord already has the Voice of Command or Tank Orders ability, they may instead issue one additional order per turn.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Your 主将 gains the Voice of Command ability. If your 主将 already has the Voice of Command or Tank Orders ability, they may instead issue one additional order per turn.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -9453,7 +9453,7 @@
           <profiles>
             <profile id="911d-56e8-5352-2910" name="Dozer blade" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If a vehicle with a dozer blade charges in the Charge phase, add 1 to all hit rolls made for it until the end of the ensuing 肉搏阶段.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If a vehicle with a dozer blade charges in the Charge phase, add 1 to 所有命中骰 made for it until the end of the ensuing 肉搏阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9470,7 +9470,7 @@
           <profiles>
             <profile id="d59a-7e88-1201-bcda" name="Track guards" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A vehicle with track guards always counts as having its starting number of Wounds when determining its Move characteristic (i.e., its Move characteristic does not decrease as it suffers wounds). </characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A vehicle with track guards always counts as having its starting number of Wounds when determining its Move characteristic (i.e., its Move characteristic does not decrease as it 遭受 wounds). </characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9673,7 +9673,7 @@
   <sharedProfiles>
     <profile id="74b7-5b3f-ecda-f766" name="Death Korps Voice of Command" publicationId="91ff-e116-pubN65631" page="56" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This unit may issue order to those under their command at the start of any of their Shooting phases. Orders may only be issued to INFANTRY or CAVALRY units 范围内 6寸 of this unit that have the DEATH KORPS OF KRIEG keyword. To issue an order, pick a target unit and choose which order you wish to issue from the table below. A unit may only be affected by one order per turn.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个单位 may issue order to those under their command at the start of any of their 射击阶段. Orders may only be issued to INFANTRY or CAVALRY units 范围内 6寸 of 这个单位 that have the DEATH KORPS OF KRIEG keyword. To issue an order, pick a target unit and choose which order you wish to issue from the table below. A unit may only be affected by one order per turn.</characteristic>
       </characteristics>
     </profile>
     <profile id="ef44-06c5-0f92-e193" name="The Cult of Sacrifice" publicationId="91ff-e116-pubN65631" page="56" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -9685,37 +9685,37 @@
         </modifier>
       </modifiers>
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This unit ignores models slain in the 射击阶段 when taking Morale tests.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个单位 ignores models slain in the 射击阶段 when taking 士气测试.</characteristic>
       </characteristics>
     </profile>
     <profile id="3f80-6854-b4b4-b594" name="Refractor Field" publicationId="91ff-e116-pubN65631" page="57" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model has a 5+ 特殊保护.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 has a 5+ 特殊保护.</characteristic>
       </characteristics>
     </profile>
     <profile id="f884-552c-9917-3f45" name="Implacable Officer" publicationId="91ff-e116-pubN65631" page="57" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model may use the Voice of Command (DKOK) abillty three times in each of your turns. Resolve the effects of the first order before attempting the second order, and so on.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 may use the Voice of Command (DKOK) abillty three times in each of your turns. Resolve the effects of the first order before attempting the second order, and so on.</characteristic>
       </characteristics>
     </profile>
     <profile id="f2af-a2c9-3275-3016" name="Commander-in-Chief" publicationId="91ff-e116-pubN65631" page="57" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Friendly units 范围内 12寸 of Marshal Karis Venner must use his LD value unless their own is higher.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">友方单位 范围内 12寸 of Marshal Karis Venner must use his LD value unless their own is higher.</characteristic>
       </characteristics>
     </profile>
     <profile id="384b-97f7-8daf-2b30" name="Momento Mori" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Whenever the bearer of the Momento Mori suffers wounds from a weapon which does multiple wounds (eg, D3, D6, etc.) the roll is always a 1.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Whenever the bearer of the Momento Mori 遭受 wounds from a weapon which does multiple wounds (eg, D3, D6, etc.) the roll is always a 1.</characteristic>
       </characteristics>
     </profile>
     <profile id="1826-f990-a7b6-5ad9" name="Senior Officer" publicationId="91ff-e116-pubN65631" page="57" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model may use the Voice of Command (DKOK) ability twice in each of your turns. Resolve the effects of the first order before attempting the second order.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 may use the Voice of Command (DKOK) ability twice in each of your turns. Resolve the effects of the first order before attempting the second order.</characteristic>
       </characteristics>
     </profile>
     <profile id="ed79-bdf5-75ca-f019" name="Vehicle Squadron" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The first time this unit is set up, all models in this unit must be placed 范围内 6寸 of each other.  From that point onwards, each operates independently and is treated as a separate unit for all rules purposes.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The 第1次 这个单位 is set up, all models in 这个单位 must be placed 范围内 6寸 of each other.  From that point onwards, each operates independently and is treated as a separate unit for all rules purposes.</characteristic>
       </characteristics>
     </profile>
     <profile id="4fd1-0baf-b92b-552e" name="Hellhound" publicationId="91ff-e116-pubN72301" page="54" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
@@ -9746,15 +9746,15 @@
     </profile>
     <profile id="9a6d-4b71-af76-d004" name="Augmented Mount" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">投掷1个D6 each time this model suffers a wound from an attack with a Strength of 4 or less. On a 5+, it ignores the injury and the wound is not lost.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">投掷1个D6 each time 这个模型 遭受 a wound from an attack with a Strength of 4 or less. On a 5+, it ignores the injury and the wound is not lost.</characteristic>
       </characteristics>
     </profile>
     <profile id="23c0-ed20-f49f-7bcf" name="Warstrider" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model does not suffer any penalty to its move when charging into terrain features.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 does not suffer any penalty to its move when charging into terrain features.</characteristic>
       </characteristics>
     </profile>
-    <profile id="7ded-3511-4205-3d6e" name="Death Korps Heavy Weapons Team" publicationId="91ff-e116-pubN65631" page="67" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+    <profile id="7ded-3511-4205-3d6e" name="Death Korps 重型武器 Team" publicationId="91ff-e116-pubN65631" page="67" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
       <characteristics>
         <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6寸</characteristic>
         <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -9800,7 +9800,7 @@
     </profile>
     <profile id="37d1-c17b-6b45-492b" name="Death Korps Platoon Standard" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">All friendsly DEATH KORPS OF KRIEG units 范围内 6寸 of one or more units with a Death Korps Platoon Standard may add 1 to their LD when taking Morale Tests.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">All friendsly DEATH KORPS OF KRIEG units 范围内 6寸 of one or more units with a Death Korps Platoon Standard may add 1 to their LD when taking 士气测试.</characteristic>
       </characteristics>
     </profile>
     <profile id="39b8-17e5-93e8-001b" name="Death Korps Death Rider" publicationId="91ff-e116-pubN65631" page="67" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
@@ -9823,7 +9823,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">After a model on this mount makes its close sombat attacks, you can attack with its mount. Make two additional attacks using this weapon&apos;s profile.</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">After a model on this mount makes its close sombat attacks, you can attack with its mount. Make two additional attacks using 这个武器&apos;s profile.</characteristic>
       </characteristics>
     </profile>
     <profile id="a26e-ee3b-8a60-52e7" name="Death Korps Hunting Lance" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -9833,7 +9833,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">+2</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">A model may only attack with this weapon on a turn in which it has charged.</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">A model may only attack with 这个武器 on a turn in which it has charged.</characteristic>
       </characteristics>
     </profile>
     <profile id="803b-a0ef-0f0b-e1ae" name="Death Korps Death Rider Commissar" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
@@ -9851,12 +9851,12 @@
     </profile>
     <profile id="8df4-ee60-d5c2-d061" name="Aura of Discipline" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">All 友方 DEATH KORPS OF KRIEG units 范围内 6寸 of a COMMISSAR can use the Commissar&apos;s LD instead of their own.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">All 友方 DEATH KORPS OF KRIEG units 范围内 6寸 of a COMMISSAR can use the Commissar&apos;s LD 而不是 their own.</characteristic>
       </characteristics>
     </profile>
     <profile id="f298-7c8a-ac18-501d" name="Summary Execution" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The first time an Astra Militarum unit fails a Morale test during the Morale phase whilst it is 范围内 6寸 of any 友方 Commissars, you can execute a model. If you do, one model of your choice in that unit is slain and the Morale test is re- rolled (do not include this slain model when re-rolling the Morale test).</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The 第1次 an Astra Militarum unit fails a Morale test during the Morale phase whilst it is 范围内 6寸 of any 友方 Commissars, you can execute a model. If you do, one model of your choice in 那个单位 is slain and the Morale test is re- rolled (do not include this slain model when re-rolling the Morale test).</characteristic>
       </characteristics>
     </profile>
     <profile id="293c-951a-190e-6ea8" name="Death Korps Death Rider Veteran" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
@@ -9874,7 +9874,7 @@
     </profile>
     <profile id="5f8c-2a78-a020-84b6" name="Flanking Manoeuvres" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up this unit and up to five other DEATH RIDERS units on the battlefield&apos;s flanks instead of placing them on the battlefield. At the end of any of your Movement phases these units can join the battle -- set them all up so that all models in these units are 范围内 7寸 of a battlefield edge of your choice and more than 9寸 away from any enemy models.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up 这个单位 and up to five other DEATH RIDERS units on the battlefield&apos;s flanks 而不是 placing them on the battlefield. At the end of any of your 移动阶段 these units can join the battle -- set them all up so that all models in these units are 范围内 7寸 of a battlefield edge of your choice and more than 9寸 away from any 敌方模型.</characteristic>
       </characteristics>
     </profile>
     <profile id="5dad-a672-e4af-1c9c" name="Death Korps Grenadier" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
@@ -9930,7 +9930,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">*</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon wounds on a 2+ unless it is targeting a VEHICLE, in which case it wounds on a 6+. One a hit roll of 1, the bearer is slain after all this weapon&apos;s shots have been resolved.</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 wounds on a 2+ unless it is targeting a VEHICLE, in which case it wounds on a 6+. One a hit roll of 1, the bearer is slain after all 这个武器&apos;s shots have been resolved.</characteristic>
       </characteristics>
     </profile>
     <profile id="a151-7366-ac5f-9cf1" name="Death Korps Combat Engineer Watch Master" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
@@ -9979,7 +9979,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon does not require line of sight to its target. If this weapon inflicts any unsaved wounds on an enemy unit, that unit cannot Advance in its Movement phase unless it can FLY.</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 does not require line of sight to its target. If 这个武器 inflicts any unsaved wounds on an 敌方单位, 那个单位 cannot Advance in its 移动阶段 unless it can FLY.</characteristic>
       </characteristics>
     </profile>
     <profile id="655e-c185-7cef-1d2c" name="Acid Gas Bomb" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -9989,7 +9989,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">*</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon wounds on a 2+, unless it is targeting a VEHICLE, in which case it wounds on a 6+.</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 wounds on a 2+, unless it is targeting a VEHICLE, in which case it wounds on a 6+.</characteristic>
       </characteristics>
     </profile>
     <profile id="feaa-e137-db7e-f07c" name="Melta Bomb" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -10035,17 +10035,17 @@
     </profile>
     <profile id="69cd-7f66-0f86-718b" name="Artillery Tractor" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model starts its move 范围内 1寸 of a 友方 ASTRA MILITARUM ARTILLERY model, it can choose to tow it so long as neither this model nor the ARTILLERY model is 范围内 1寸 of an enemy model. If it does this, this model immediately makes a move of up to 12寸 The ARTILLERY model is then placed anywhere withing 1寸 of this model so that no part of the ARTILLERY model has moved more than 12寸 from where it started. An ARTILLERY model that has been towed may not fire its weapons during the 射击阶段 of the same turn.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 starts its move 范围内 1寸 of a 友方 ASTRA MILITARUM ARTILLERY model, it can choose to tow it so long as neither 这个模型 nor the ARTILLERY model is 范围内 1寸 of an 敌方模型. If it does this, 这个模型 immediately makes a move of up to 12寸 The ARTILLERY model is then placed anywhere withing 1寸 of 这个模型 so that no part of the ARTILLERY model has moved more than 12寸 from where it started. An ARTILLERY model that has been towed may not fire its weapons during the 射击阶段 of the same turn.</characteristic>
       </characteristics>
     </profile>
     <profile id="4b83-a75f-32f7-2941" name="Explodes (Centaur)" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model is reduced to 0 wounds, 投掷1个D6 before removing it from the battlefield, and before any embarked models disembark. On a 6+ is explodes, and each unit iwthin 6寸 suffers 1 mortal wound.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 投掷1个D6 before removing it from the battlefield, and before any 上车 models disembark. On a 6+ is explodes, and each unit iwthin 6寸 遭受 1 致命伤.</characteristic>
       </characteristics>
     </profile>
     <profile id="4e80-6921-23dc-7d67" name="Assault Team Transport" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this unit is set up at the start of the game with a DEATH KORPS GRENADIER STORM SQUAD 范围内 it, at the start of the first battle round but before the first turn begins you can move this unit up to 9寸. It cannot end this move 范围内 9寸 of any enemy models. If both players have units that can do this, the player who is taking the first turn moves their units first.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个单位 is set up at the start of the game with a DEATH KORPS GRENADIER STORM SQUAD 范围内 it, at the start of the first battle round but before the first turn begins you can move 这个单位 up to 9寸. It cannot end this move 范围内 9寸 of any 敌方模型. If both players have units that can do this, the player who is taking the first turn moves their units first.</characteristic>
       </characteristics>
     </profile>
     <profile id="ae5c-1d20-a4a4-53dc" name="Transport (Centaur)" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -10060,27 +10060,27 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon can only be fired if a unit is embarked upon the vehicle equipped with it.</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 can only be fired if a unit is 上车 upon the vehicle equipped with it.</characteristic>
       </characteristics>
     </profile>
     <profile id="72ed-9b99-2b4e-4bba" name="Ablative Storm Armour and Mine Plough" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This vehicle receives +1 to its armour saves rolls against weapons with a Strength of 4 or less, and ignores the effects of land mines on a 4+.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个载具 receives +1 to its armour saves rolls against weapons with a Strength of 4 or less, and ignores the effects of land mines on a 4+.</characteristic>
       </characteristics>
     </profile>
     <profile id="3be3-666a-bd06-565f" name="Explodes (Storm Chimera)" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model is reduced to 0 wounds, 投掷1个D6 before removing it from the battlefield, and before any embarked models disembark. On a 6+ it explodes, and each unit 范围内 6寸 suffers D3 mortal wounds.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 投掷1个D6 before removing it from the battlefield, and before any 上车 models disembark. On a 6+ it explodes, 每个单位 范围内 6寸 遭受 D3 致命伤.</characteristic>
       </characteristics>
     </profile>
     <profile id="4769-7136-e407-4743" name="Transport (Storm Chimera)" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="Transport">
       <characteristics>
-        <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">This model can transport 12 ASTRA MILITARUM INFANTRY models. Each heavy Weapon Team or Veteran Heavy Weapon Team takes the space fo two other models, and each OGRYN takes the spaces of three other models.</characteristic>
+        <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">这个模型 can transport 12 ASTRA MILITARUM INFANTRY models. Each heavy Weapon Team or Veteran Heavy Weapon Team takes the space fo two other models, and each OGRYN takes the spaces of three other models.</characteristic>
       </characteristics>
     </profile>
     <profile id="9d20-fbec-6208-a911" name="Medi-pack" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of any of your Movement phases, a model with a medi-pack can attempt to heal a single model. Select a 友方 DEATH KORPS OF KRIEG INFANTRY unit 范围内 3寸 and 投掷1个D6. On a roll of 4+, one model in the unit recovers a wound it lost earlier in the battle (if the unit has a Wounds characteristic of 1, one model slain earlier in the battle is returned to the unit instead). A unit can only be the target of this ability once in each turn.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of any of your 移动阶段, a model with a medi-pack can attempt to heal a single model. Select a 友方 DEATH KORPS OF KRIEG INFANTRY unit 范围内 3寸 and 投掷1个D6. On a roll of 4+, one model in the unit recovers a wound it lost earlier in the battle (if the unit has a Wounds characteristic of 1, one model slain earlier in the battle is returned to the unit instead). A unit can only be the target of this ability once in each turn.</characteristic>
       </characteristics>
     </profile>
     <profile id="0c1f-bf46-b0b5-e0f4" name="Mindlock" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -10090,7 +10090,7 @@
     </profile>
     <profile id="cbb4-1b67-049b-16d7" name="Vitae Mortis" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time a 友方 DEATH KORPS OF KRIEG INFANTRY or DEATH KORPS OF KRIEG CAVALRY unit 范围内 6寸 suffers a wound, 投掷1个D6. On a 6, it ignores the injury and the wound is not lost. A unit cannot use both this and the Augmented Mount ability to prevent the same wound.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time a 友方 DEATH KORPS OF KRIEG INFANTRY or DEATH KORPS OF KRIEG CAVALRY unit 范围内 6寸 遭受 a wound, 投掷1个D6. On a 6, it ignores the injury and the wound is not lost. A unit cannot use both this and the Augmented Mount ability to prevent the same wound.</characteristic>
       </characteristics>
     </profile>
     <profile id="fa86-a9cd-ac7d-3adf" name="Death Korps Quartermaster Revanant" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
@@ -10126,7 +10126,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon wounds on a 2+, unless it is targeting a VEHICLE, in which case it wounds on a 6+</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 wounds on a 2+, unless it is targeting a VEHICLE, in which case it wounds on a 6+</characteristic>
       </characteristics>
     </profile>
     <profile id="3fe6-0898-b98b-5a2b" name="Artillery" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -10154,7 +10154,7 @@
     </profile>
     <profile id="d894-c3d2-278d-3678" name="Grinding Advance" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model remains stationary or moves under half speed in its Movement phase (i.e. it moves a distance in inches less than half of its current Move characteristic) it can shoot its turret weapon twice in the following 射击阶段 (the turret weapon must target the same unit both times). Furthermore, hit rolls for this model’s turret weapon do not suffer the penalty for moving and shooting a Heavy weapon. The following weapons are turret weapons: battle cannon, Conqueror battle cannon, Demolisher cannon, Eradicator nova cannon, Executioner plasma cannon, Exterminator autocannon, 惩罚者加特林炮, Stygies Vanquisher battle cannon, twin lascannon and Vanquisher battle cannon.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 remains stationary or moves under half speed in its 移动阶段 (i.e. it moves a distance in inches less than half of its current Move characteristic) it can shoot its turret weapon twice in the following 射击阶段 (the turret weapon must target the same unit both times). Furthermore, hit rolls for 这个模型’s turret weapon do not suffer the penalty for moving and shooting a Heavy weapon. The following weapons are turret weapons: battle cannon, Conqueror battle cannon, Demolisher cannon, Eradicator nova cannon, Executioner plasma cannon, Exterminator autocannon, 惩罚者加特林炮, Stygies Vanquisher battle cannon, twin lascannon and Vanquisher battle cannon.</characteristic>
       </characteristics>
     </profile>
     <profile id="a55e-c10a-f378-b564" name="Hades Veterans" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
@@ -10208,12 +10208,12 @@
     </profile>
     <profile id="f505-bfe1-b238-0c41" name="Explodes (Super-heavy)" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model is reduced to 0 wounds, 投掷1个D6 before removing it from the battlefield. On a 6 it explodes, and each unit 范围内 2D6寸 suffers D6 mortal wounds.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 投掷1个D6 before removing it from the battlefield. 结果为6则爆炸, 每个单位 范围内 2D6寸 遭受 D6 致命伤.</characteristic>
       </characteristics>
     </profile>
     <profile id="62e4-243e-c188-2d88" name="Steel Behemoth" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model does not suffer the penalty to its hit rolls for moving and firing Heavy weapons. This model can Fall Back in the Movement phase and still shoot and/or charge during its turn. It can, except when firing Overwatch, also still fire its weapons if enemy units are 范围内 1寸 of it (but only its twin heavy bolter or twin heavy flamer can target units that are 范围内 1寸 of it – its other guns must target other units). 此外, this model only gains a bonus to its save in cover if at least half the model is obscured from the firer.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 does not suffer the penalty to its hit rolls for moving and firing 重型武器. 这个模型 can 撤退 in the 移动阶段 and still shoot and/or charge during its turn. It can, except when firing Overwatch, also still fire its weapons if 敌方单位 are 范围内 1寸 of it (but only its twin heavy bolter or twin heavy flamer can target units that are 范围内 1寸 of it – its other guns must target other units). 此外, 这个模型 only gains a bonus to its save in cover if at least half the model is obscured from the firer.</characteristic>
       </characteristics>
     </profile>
     <profile id="5a02-5165-adc7-f9a8" name="Twin Heavy Stubber" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -10228,12 +10228,12 @@
     </profile>
     <profile id="e519-9694-6fbe-2bab" name="Explodes (Malcador)" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model is reduced to 0 wounds, 投掷1个D6 before removing it from the battlefield. On a 6 it explodes, and each unit 范围内 2D6寸 suffers D3 mortal wounds.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 投掷1个D6 before removing it from the battlefield. 结果为6则爆炸, 每个单位 范围内 2D6寸 遭受 D3 致命伤.</characteristic>
       </characteristics>
     </profile>
     <profile id="e807-fc4d-8f8a-81fe" name="Co-axial Weapon" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If durring the same 射击阶段 this model shoots it&apos;s Main gun at the same target as it&apos;s co-axial weapon, it may reroll any missed hits with it&apos;s Main Gun.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If durring the same 射击阶段 这个模型 shoots it&apos;s Main gun at the same target as it&apos;s co-axial weapon, it may reroll any missed hits with it&apos;s Main Gun.</characteristic>
       </characteristics>
     </profile>
     <profile id="fbb4-f93a-5627-07d5" name="Duty unto death!" hidden="false" typeId="df35-fad2-be79-e105" typeName="Death Korps Orders">
@@ -10248,42 +10248,42 @@
     </profile>
     <profile id="d189-7fe2-6eb8-25af" name="Forwards for the Emperor!" hidden="false" typeId="df35-fad2-be79-e105" typeName="Death Korps Orders">
       <characteristics>
-        <characteristic name="Effect" typeId="b39b-0a13-b7c8-b32f">The ordered unit can shoot this phase even if it Advanced in its Movement phase.</characteristic>
+        <characteristic name="Effect" typeId="b39b-0a13-b7c8-b32f">The ordered unit can shoot 这个阶段 even if it Advanced in its 移动阶段.</characteristic>
       </characteristics>
     </profile>
     <profile id="3935-c77b-9043-2609" name="Move! Move! Move!" hidden="false" typeId="df35-fad2-be79-e105" typeName="Death Korps Orders">
       <characteristics>
-        <characteristic name="Effect" typeId="b39b-0a13-b7c8-b32f">Instead of shooting this phase, the ordered unit immediately moves as if it were the Movement phase. It must Advance as part of this move, and cannot declare a charge during this turn.</characteristic>
+        <characteristic name="Effect" typeId="b39b-0a13-b7c8-b32f">而不是 shooting 这个阶段, the ordered unit immediately moves as if it were the 移动阶段. It must Advance as part of this move, and cannot declare a charge during this turn.</characteristic>
       </characteristics>
     </profile>
     <profile id="a1ef-17d2-6ae6-e1fa" name="Get Back in the Fight!" hidden="false" typeId="df35-fad2-be79-e105" typeName="Death Korps Orders">
       <characteristics>
-        <characteristic name="Effect" typeId="b39b-0a13-b7c8-b32f">The ordered unit can shoot this phase even if it Fell Back in its Movement phase. </characteristic>
+        <characteristic name="Effect" typeId="b39b-0a13-b7c8-b32f">The ordered unit can shoot 这个阶段 even if it Fell Back in its 移动阶段. </characteristic>
       </characteristics>
     </profile>
     <profile id="628e-9b69-7e40-6bab" name="Fix Bayonets!" hidden="false" typeId="df35-fad2-be79-e105" typeName="Death Korps Orders">
       <characteristics>
-        <characteristic name="Effect" typeId="b39b-0a13-b7c8-b32f">This order can only be issued to units that are 范围内 1寸 of an enemy unit. The ordered unit immediately fights as if it were the 肉搏阶段.</characteristic>
+        <characteristic name="Effect" typeId="b39b-0a13-b7c8-b32f">This order can only be issued to units that are 范围内 1寸 of an 敌方单位. The ordered unit immediately fights as if it were the 肉搏阶段.</characteristic>
       </characteristics>
     </profile>
     <profile id="f066-8a43-9974-542c" name="Bring it Down!" hidden="false" typeId="df35-fad2-be79-e105" typeName="Death Korps Orders">
       <characteristics>
-        <characteristic name="Effect" typeId="b39b-0a13-b7c8-b32f">Re-roll wound rolls of 1 for all the models in the ordered unit until the end of the phase.</characteristic>
+        <characteristic name="Effect" typeId="b39b-0a13-b7c8-b32f">Re-roll wound rolls of 1 for all the models in the ordered unit 直到阶段结束.</characteristic>
       </characteristics>
     </profile>
     <profile id="3e9a-e8b9-170b-0237" name="Lumbering Advance" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model does not suffer the penalty to turret weapon hit rolls for shooting a Heavy weapon on a turn in which it has moved.  The following weapons are turret weapons: Conqueror battle cannon, battle cannon, Eradicator nova cannon, Exterminator autocannon, Vanquisher battle cannon, Demolisher cannon, Executioner plasma cannon, 惩罚者加特林炮, twin-lascannon and co-axial heavy stubber.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 does not suffer the penalty to turret weapon hit rolls for shooting a Heavy weapon on a turn in which it has moved.  The following weapons are turret weapons: Conqueror battle cannon, battle cannon, Eradicator nova cannon, Exterminator autocannon, Vanquisher battle cannon, Demolisher cannon, Executioner plasma cannon, 惩罚者加特林炮, twin-lascannon and co-axial heavy stubber.</characteristic>
       </characteristics>
     </profile>
     <profile id="2f16-2245-c394-cabc" name="Emergency Plasma Vents" publicationId="91ff-e116-pubN72301" page="114" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model fires a supercharged plasma cannon, and you roll one or more hit rolls of 1, it is not automatically destroyed. Instead, 每个命中骰的1,持有者会在此武器的射击结算完成后受到1点致命伤.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 fires a supercharged plasma cannon, and you roll one or more hit rolls of 1, it is not automatically destroyed. Instead, 每个命中骰的1,持有者会在此武器的射击结算完成后受到1点致命伤.</characteristic>
       </characteristics>
     </profile>
     <profile id="307a-6b7f-691a-7934" name="Mars-Alpha Hull" publicationId="91ff-e116-pubN65631" page="69" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This vehicle receives a +1 to its armour save rolls against weapons with a Strength of 4 or less.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个载具 receives a +1 to its armour save rolls against weapons with a Strength of 4 or less.</characteristic>
       </characteristics>
     </profile>
     <profile id="fda6-8bbd-9bb8-5885" name="Death Korps Ridemaster" publicationId="91ff-e116-pubN65631" page="67" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">

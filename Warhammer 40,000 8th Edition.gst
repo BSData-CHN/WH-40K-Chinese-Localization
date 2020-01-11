@@ -1867,7 +1867,7 @@
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When this model is destroyed, before any embarked models disembark its vortex missiles explode. Each unit 范围内 2D6寸 suffers D6 mortal wounds. If a model loses any wounds as a result of those mortal wounds but is not destroyed, roll another D6; on a 6 that model suffers a further D6 mortal wounds.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When 这个模型 is destroyed, before any 上车 models 下车 its vortex missiles explode. Each unit 范围内 2D6寸 遭受 D6 致命伤. If a model loses any wounds as a result of those 致命伤 but is not destroyed, roll another D6; on a 6 that model 遭受 a further D6 致命伤.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1907,7 +1907,7 @@
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">14</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-                    <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Treat any damage rolls of 1 or 2 made for this weapon as 3 instead.</characteristic>
+                    <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Treat any damage rolls of 1 or 2 made for 这个武器 as 3 instead.</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="c2e0-4b21-bef8-704e" name="Aquila Macro-cannon (Quake Shell)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -1922,7 +1922,7 @@
                 </profile>
                 <profile id="14b1-1529-10dd-db95" name="Magazine Explosion (Macro-cannon)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model is reduced to 0 wounds, 投掷1个D6 before removing it from the battlefield and before any embarked models disembark. On a 6 its magazine explodes, and each unit 范围内 2D6寸 suffers D6 mortal wounds.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 在载具被移除及任何在这个载具上的模型下车前投掷1个D6. On a 6 its magazine explodes, 每个单位 范围内 2D6寸 遭受 D6 致命伤.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1941,12 +1941,12 @@
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">-</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">-</characteristic>
-                    <characteristic name="能力" typeId="837d-5e63-aeb7-1410">This weapon may target units that are not visible to the bearer, even when firing in accordance with the Automated Weapons ability. Each time you hit the target with this weapon it suffers D6 mortal wounds. If a model is wounded but but not slain by this attack, roll another dice; on a 6, the model suffers a further D6 mortal wounds.</characteristic>
+                    <characteristic name="能力" typeId="837d-5e63-aeb7-1410">这个武器 may target units that are not visible to the bearer, even when firing in accordance with the Automated Weapons ability. Each time you hit the target with 这个武器 it 遭受 D6 致命伤. If a model is wounded but but not slain by this attack, roll another dice; on a 6, the model 遭受 a further D6 致命伤.</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="43f6-b40f-134b-8b48" name="Containment Failure" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model is reduced to 0 wounds, before removing it from the battlefield and before any embarked models disembark, its vortex missiles explode. Each unit 范围内 2D6寸 suffers D6 mortal wounds. If a model is wounded but not slain by in this manner roll another dice; on a 6, the model is sucked up into the swirling vortex and slain.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, before removing it from the battlefield and before any 上车 models disembark, its vortex missiles explode. Each unit 范围内 2D6寸 遭受 D6 致命伤. If a model is wounded but not slain by in this manner roll another dice; on a 6, the model is sucked up into the swirling vortex and slain.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1992,7 +1992,7 @@
         </profile>
         <profile id="fbfc-1394-e5aa-dd70" name="Firestorm Redoubt" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
           <characteristics>
-            <characteristic name="容量" typeId="15aa-1916-a38b-d223">This model has a transport capacity of two INFANTRY units, up to a total of 20 models.</characteristic>
+            <characteristic name="容量" typeId="15aa-1916-a38b-d223">这个模型 has a transport capacity of two INFANTRY units, up to a total of 20 models.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2075,7 +2075,7 @@
         </profile>
         <profile id="cf90-f8df-224e-6333" name="Fortress of Redemption" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
           <characteristics>
-            <characteristic name="容量" typeId="15aa-1916-a38b-d223">This model has a transport capacity of 2 INFANTRY units, up to a total of 30 models.</characteristic>
+            <characteristic name="容量" typeId="15aa-1916-a38b-d223">这个模型 has a transport capacity of 2 INFANTRY units, up to a total of 30 models.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2161,7 +2161,7 @@
         </profile>
         <profile id="aaaa-857c-b390-65ca" name="Imperial Bastion" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
           <characteristics>
-            <characteristic name="容量" typeId="15aa-1916-a38b-d223">This model has a transport capacity of two INFANTRY units, up to a total of 20 models.</characteristic>
+            <characteristic name="容量" typeId="15aa-1916-a38b-d223">这个模型 has a transport capacity of two INFANTRY units, up to a total of 20 models.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2222,7 +2222,7 @@
         </profile>
         <profile id="9507-2858-f7ba-6d90" name="Imperial Bunker" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
           <characteristics>
-            <characteristic name="容量" typeId="15aa-1916-a38b-d223">This model has a transport capacity of 2 INFANTRY units, up to a total of 10 models.</characteristic>
+            <characteristic name="容量" typeId="15aa-1916-a38b-d223">这个模型 has a transport capacity of 2 INFANTRY units, up to a total of 10 models.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2337,12 +2337,12 @@
         </profile>
         <profile id="7f96-4bff-c6ed-aa8b" name="Plasma Obliterator" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
           <characteristics>
-            <characteristic name="容量" typeId="15aa-1916-a38b-d223">This model has a transport capacity of two INFANTRY units, up to a total of 20 models.</characteristic>
+            <characteristic name="容量" typeId="15aa-1916-a38b-d223">这个模型 has a transport capacity of two INFANTRY units, up to a total of 20 models.</characteristic>
           </characteristics>
         </profile>
         <profile id="e232-2e1e-1955-a5c0" name="Plasma Explosion" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When this model is destroyed, roll one D6 before any embarked models disembark, and before removing it from play. On a 4+ it explodes, and each unit 范围内 D6寸 suffers D6 mortal wounds.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When 这个模型 is destroyed, 投掷1个D6 before any 上车 models disembark, and before removing it from play. On a 4+ it explodes, 每个单位 范围内 D6寸 遭受 D6 致命伤.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2365,7 +2365,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-                <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Each time you roll a hit roll of 1 when firing this weapon, this model suffers a mortal wound after all of its shots have been resolved.</characteristic>
+                <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Each time you roll a hit roll of 1 when firing 这个武器, 这个模型 遭受 1点致命伤 after all of its shots have been resolved.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2399,7 +2399,7 @@
         </profile>
         <profile id="abe7-f841-acc8-c3f4" name="Landing Pad Configuration" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Units can move across this model as if it were a terrain feature. When this model is set up on the battlefield, select either the Shielded or Unfurled configuration to be in effect. At the start of your movement phase, if there are no enemy models 范围内 1寸 of the Skyshield Landing Pad, you can change which configuration is in effect:</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Units can move across 这个模型 as if it were a terrain feature. When 这个模型 is set up on the battlefield, select either the Shielded or Unfurled configuration to be in effect. At the start of your 移动阶段, if there are no 敌方模型 范围内 1寸 of the Skyshield Landing Pad, you can change which configuration is in effect:</characteristic>
           </characteristics>
         </profile>
         <profile id="c01d-4736-944f-b007" name="Shielded" hidden="false" typeId="002f-cc4a-c4e3-0261" typeName="登陆平台配置">
@@ -2438,7 +2438,7 @@
       <profiles>
         <profile id="4ca0-bdc4-9090-1647" name="Fully Automated Weapons" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model&apos;s weapons can only target the closest visible enemy unit. Attacks made with the Quad Icarus Lascannons can instead target the closest visible enemy unit that can FLY. In either case, if two or more units are equally close, you can choose which is targeted.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型&apos;s weapons can only target the closest visible 敌方单位. Attacks made with the Quad Icarus Lascannons can instead target the closest visible 敌方单位 that can FLY. In either case, if two or more units are equally close, you can choose which is targeted.</characteristic>
           </characteristics>
         </profile>
         <profile id="4e2c-1874-14f7-56d8" name="Vengeance Weapon Battery" publicationId="28ec-711c-pubN77581" page="132" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
@@ -2514,7 +2514,7 @@
         </profile>
         <profile id="c818-46ac-f5b8-cd39" name="Projected Void Shields" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models wholly 范围内 12寸 of a Void Shield Generator receive a 5+ 特殊保护 against attacks made in the 射击阶段 if the firing model is not also wlly 范围内 12寸 of this model.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models wholly 范围内 12寸 of a Void Shield Generator receive a 5+ 特殊保护 against attacks made in the 射击阶段 if the firing model is not also wlly 范围内 12寸 of 这个模型.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2606,7 +2606,7 @@
     </selectionEntry>
     <selectionEntry id="bc9e-551d-9afb-78d5" name="动力剑" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="1fb6-6551-cc76-96f6" name="Power sword" hidden="false" targetId="47df-8e01-d0cf-58e8" type="profile"/>
+        <infoLink id="1fb6-6551-cc76-96f6" name="动力剑" hidden="false" targetId="47df-8e01-d0cf-58e8" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="4.0"/>
@@ -2842,7 +2842,7 @@
     </selectionEntry>
     <selectionEntry id="0334-f487-8229-0c1a" name="爆弹手枪" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="45bf-2847-b181-19e4" name="Bolt pistol" hidden="false" targetId="e6d5-677a-d8ed-f6a5" type="profile"/>
+        <infoLink id="45bf-2847-b181-19e4" name="爆弹手枪" hidden="false" targetId="e6d5-677a-d8ed-f6a5" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="0.0"/>
@@ -3169,7 +3169,7 @@
     </selectionEntry>
     <selectionEntry id="c215-aaf9-77ef-27fb" name="精工爆弹枪" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="9524-b1b1-54a2-414f" name="Master-crafted boltgun" hidden="false" targetId="d6e5-a8cf-4602-28e0" type="profile"/>
+        <infoLink id="9524-b1b1-54a2-414f" name="精工爆弹枪" hidden="false" targetId="d6e5-a8cf-4602-28e0" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="3.0"/>
@@ -3353,7 +3353,7 @@
     </selectionEntry>
     <selectionEntry id="4c54-1c89-299c-05c5" name="双联爆弹枪" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="da1b-2b70-3165-fea0" name="Twin boltgun" hidden="false" targetId="6471-9a1a-0f1d-acb1" type="profile"/>
+        <infoLink id="da1b-2b70-3165-fea0" name="双联爆弹枪" hidden="false" targetId="6471-9a1a-0f1d-acb1" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="2.0"/>
@@ -3533,7 +3533,7 @@
     </selectionEntry>
     <selectionEntry id="7d93-d63c-bfba-c879" name="精工动力剑" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="9296-2312-898c-0d6a" name="Master-crafted power sword" hidden="false" targetId="4242-3014-c49c-9fe6" type="profile"/>
+        <infoLink id="9296-2312-898c-0d6a" name="精工动力剑" hidden="false" targetId="4242-3014-c49c-9fe6" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -3620,7 +3620,7 @@
     </selectionEntry>
     <selectionEntry id="2792-c0fb-d72e-cee4" name="战斗盾" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="776c-698a-c149-f53f" name="Combat shield" hidden="false" targetId="d0a0-002c-8278-a70e" type="profile"/>
+        <infoLink id="776c-698a-c149-f53f" name="战斗盾" hidden="false" targetId="d0a0-002c-8278-a70e" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="1.0"/>
@@ -3881,7 +3881,7 @@
     </selectionEntry>
     <selectionEntry id="37d3-7098-d596-9948" name="爆弹手枪" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="113b-392d-19be-cffa" name="Bolt pistol" hidden="false" targetId="e6d5-677a-d8ed-f6a5" type="profile"/>
+        <infoLink id="113b-392d-19be-cffa" name="爆弹手枪" hidden="false" targetId="e6d5-677a-d8ed-f6a5" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="0.0"/>
@@ -4002,7 +4002,7 @@
     </selectionEntry>
     <selectionEntry id="a11f-8f20-5d2c-079a" name="双联爆弹枪" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="839c-79c5-a169-b9af" name="Twin boltgun" hidden="false" targetId="6471-9a1a-0f1d-acb1" type="profile"/>
+        <infoLink id="839c-79c5-a169-b9af" name="双联爆弹枪" hidden="false" targetId="6471-9a1a-0f1d-acb1" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="2.0"/>
@@ -4069,12 +4069,12 @@
         </profile>
         <profile id="7c71-893b-e33d-c857" name="Mighty Bulwark" publicationId="28ec-711c-pubN91434" page="52" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each unit that is embarked on this model may both shoot as if it were in the open and also be shot at as if it were in the open. Models embarked on this model have a 4+ 特殊保护. Place the embarked unit on the battlements to show where they are.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each unit that is 上车 on 这个模型 may both shoot as if it were in the open and also be shot at as if it were in the open. Models 上车 on 这个模型 have a 4+ 特殊保护. Place the 上车 unit on the battlements to show where they are.</characteristic>
           </characteristics>
         </profile>
         <profile id="5332-4327-90b2-d60e" name="爆炸" publicationId="28ec-711c-pubN91434" page="52" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model is reduced to 0 wounds, 投掷1个D6 before removing it from the battlefield and before any models disembark. On a 6 it explodes, and each unit 范围内 3D6寸 suffers D6 mortal wounds.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 投掷1个D6 before removing it from the battlefield and before any models disembark. 结果为6则爆炸, 每个单位 范围内 3D6寸 遭受 D6 致命伤.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4241,17 +4241,17 @@
         </profile>
         <profile id="51d4-df4c-ff22-356e" name="Battle Crew" publicationId="28ec-711c-pubN91434" page="53" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You may add 1 to this model&apos;s hit rolls when making shooting attacks against models with the TITANIC keyword.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You may add 1 to 这个模型&apos;s hit rolls when making shooting attacks against models with the TITANIC keyword.</characteristic>
           </characteristics>
         </profile>
         <profile id="888f-fcce-8911-d3c3" name="Force Dome" publicationId="28ec-711c-pubN91434" page="53" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model has a 5+ 特殊保护.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 has a 5+ 特殊保护.</characteristic>
           </characteristics>
         </profile>
         <profile id="d146-c17b-222c-3b02" name="Reactor Explosion" publicationId="28ec-711c-pubN91434" page="53" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model is reduced to 0 wounds, 投掷1个D6 before removing it from the battlefield and before any models disembark. On a 6 its reactor explodes, and each unit 范围内 2D6寸 suffers D6 mortal wounds.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 投掷1个D6 before removing it from the battlefield and before any models disembark. On a 6 its reactor explodes, 每个单位 范围内 2D6寸 遭受 D6 致命伤.</characteristic>
           </characteristics>
         </profile>
         <profile id="4766-36e8-d6fa-53a2" name="Primus Redoubt" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
@@ -4277,7 +4277,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">16</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2D6</characteristic>
-                <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Any wound roll of 6 made with this attack automatically inflicts D3 mortal wounds on the target.</characteristic>
+                <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Any wound roll of 6 made with this attack automatically inflicts D3 致命伤 on the target.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4450,7 +4450,7 @@
       <profiles>
         <profile id="32c0-34b1-f061-3d51" name="Legendary Fighter" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this warlord charges in the charge phase, add 1 to their attacks characteristic until the end of the ensuing 肉搏阶段.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个主将 charges in the charge phase, add 1 to their attacks characteristic until the end of the ensuing 肉搏阶段.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4467,7 +4467,7 @@
       <profiles>
         <profile id="f457-a366-e21d-196f" name="Inspiring Leader" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Friendly units 范围内 6寸 of this warlord can add 1 to their LD characteristic.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">友方单位 范围内 6寸 of 这个主将 can add 1 to their LD characteristic.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4484,7 +4484,7 @@
       <profiles>
         <profile id="9f18-91d8-df6e-5706" name="Tenacious Survivor" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Roll a dice each time this warlord loses a wound. On a 6, the warlord shrugs off the damage and does not lose the wound.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Roll a dice each time 这个主将 loses a wound. On a 6, the 主将 shrugs off the damage and does not lose the wound.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4620,17 +4620,17 @@
         </profile>
         <profile id="ba08-5714-b31c-5cf5" name="Shimmering Arrival" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When you set up this model during deployment, it can be set up anywhere on the battlefield that is more than 12寸 from the enemy deployment zone and any enemy models, and more than 3寸 from any other terrain features or the center of any objective markers.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When you set up 这个模型 during deployment, it can be set up anywhere on the battlefield that is more than 12寸 from the 敌方 部署区 and any 敌方模型, and more than 3寸 from any other terrain features or the center of any objective markers.</characteristic>
           </characteristics>
         </profile>
         <profile id="9f52-e8b6-268d-fa2d" name="Eldritch Aura" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model has a 5+ 特殊保护</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 has a 5+ 特殊保护</characteristic>
           </characteristics>
         </profile>
         <profile id="0fff-6dcb-d884-e8df" name="Webway Strike" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">After you set up this model, any AELDARI units you have not yet set up during deployment, other than fortifications, can be set up in a webway spar rather than being set up on the battlefield. One unit in a webway spar can emerge from each 友方 Webway Gate at the end of each of your movement phases - Set them up wholly 范围内 3寸 of the webway gate and more than 9寸 away from any enemy models. If all friendlyWebway Gates have been destroyed, any units that have not yet arrived from a webway spar are considered to be slain</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">After you set up 这个模型, any AELDARI units you have not yet set up during deployment, other than fortifications, can be set up in a webway spar rather than being set up on the battlefield. One unit in a webway spar can emerge from each 友方 Webway Gate at the end of each of your 移动阶段 - Set them up wholly 范围内 3寸 of the webway gate and more than 9寸 away from any 敌方模型. If all friendlyWebway Gates have been destroyed, any units that have not yet arrived from a webway spar are considered to be slain</characteristic>
           </characteristics>
         </profile>
         <profile id="1b16-1941-d120-15ee" name="Webway Gate" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -4693,7 +4693,7 @@
                 <condition field="selections" scope="5ea6-c789-f6b9-5c00" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7a60-bc15-dc4b-eba5" type="equalTo"/>
               </conditions>
             </modifier>
-            <modifier type="append" field="15aa-1916-a38b-d223" value="INFANTRY models. Each JUMP PACK or TERMINATOR model takes the space of two other models. It cannot transport PRIMARIS models."/>
+            <modifier type="append" field="15aa-1916-a38b-d223" value="INFANTRY models. Each 跳跃背包 or TERMINATOR model takes the space of two other models. It cannot transport PRIMARIS models."/>
           </modifiers>
           <characteristics>
             <characteristic name="容量" typeId="15aa-1916-a38b-d223">0</characteristic>
@@ -4744,7 +4744,7 @@
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If you roll three or more hit rolls of 1 for this model&apos;s lascannons or twin lascannons in the same phase, it experiences a power overload and suffers 6 mortal wounds.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If you roll three or more hit rolls of 1 for 这个模型&apos;s lascannons or twin lascannons in the same phase, it experiences a power overload and 遭受 6 致命伤.</characteristic>
           </characteristics>
         </profile>
         <profile id="27ee-a8ba-ee83-4fa3" name="Power of the Machine Spirit" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -4756,7 +4756,7 @@
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model does not suffer the penalty to hit rolls for moving and firing Heavy weapons.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 does not suffer the penalty to hit rolls for moving and firing 重型武器.</characteristic>
           </characteristics>
         </profile>
         <profile id="2ee8-19c2-86f5-2169" name="Land Raider" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
@@ -4781,7 +4781,7 @@
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Ignore the -1 to hit modifier for moving and shooting Heavy weapons for this model.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Ignore the -1 to hit modifier for moving and shooting 重型武器 for 这个模型.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4811,7 +4811,7 @@
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                    <characteristic name="能力" typeId="837d-5e63-aeb7-1410">If a model suffers any unsaved wounds from this weapon but is not slain, 投掷1个D6, on a 6, the target suffers a mortal wound.</characteristic>
+                    <characteristic name="能力" typeId="837d-5e63-aeb7-1410">If a model 遭受 any unsaved wounds from 这个武器 but is not slain, 投掷1个D6, on a 6, the target 遭受 1点致命伤.</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="9b24-2450-ad3f-9499" name="Twin Helfrost Cannon (Focused Beam)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -4821,7 +4821,7 @@
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-                    <characteristic name="能力" typeId="837d-5e63-aeb7-1410">If a model suffers any unsaved wounds from this weapon but is not slain, 投掷1个D6, on a 6, the target suffers a mortal wound.</characteristic>
+                    <characteristic name="能力" typeId="837d-5e63-aeb7-1410">If a model 遭受 any unsaved wounds from 这个武器 but is not slain, 投掷1个D6, on a 6, the target 遭受 1点致命伤.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5337,7 +5337,7 @@
       <profiles>
         <profile id="77bb-80fe-ed8e-125a" name="战地指挥官" publicationId="28ec-711c-pubN98266" page="169" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Use this Stratagem before the battle if you used any Specialist Detachment Stratagems when choosing your army. Choose one CHARACTER from your army that has gained a keyword from a Specialist Detachment Stratagem that is not your Warlord and is not a named character. You can give that character the Warlord Trait of the Specialist Detachment they are part of (note that this character is only regarded as your Warlord for the purpose of that Warlord Trait). This Stratagem can only be used once for each Specialist Detachment Stratagem you have used (spend 1 CP each time you use it). No two characters can have the same Warlord Trait.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Use this Stratagem before the battle if you used any Specialist Detachment Stratagems when choosing your army. Choose one CHARACTER from your army that has gained a keyword from a Specialist Detachment Stratagem that is not your 主将 and is not a named character. You can give that character the 主将 Trait of the Specialist Detachment they are part of (note that this character is only regarded as your 主将 for the purpose of that 主将 Trait). This Stratagem can only be used once for each Specialist Detachment Stratagem you have used (spend 1 CP each time you use it). No two characters can have the same 主将 Trait.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5629,7 +5629,7 @@
       <profiles>
         <profile id="504b-fc17-56ce-c8b8" name="刺客出击许可" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can only use this Stratagem if your Warlord has the IMPERIUM Faction keyword (excluding FALLEN) and your army does not contain any OFFICIO ASSASSINORUM units. Use this Stratagem during deployment. Add 1 OFFICIO ASSASSINORUM unit of your choice to your army. Remember that in a matched play game, you must pay reinforcement points for any new unit added to your army. You can only use this Stratagem once per battle.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can only use this Stratagem if your 主将 has the IMPERIUM Faction keyword (excluding FALLEN) and your army does not contain any OFFICIO ASSASSINORUM units. Use this Stratagem during deployment. Add 1 OFFICIO ASSASSINORUM unit of your choice to your army. Remember that in a matched play game, you must pay reinforcement points for any new unit added to your army. You can only use this Stratagem once per battle.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5669,7 +5669,7 @@
         </profile>
         <profile id="5f18-9c8a-8931-75f8" name="Imperial Bastion" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
           <characteristics>
-            <characteristic name="容量" typeId="15aa-1916-a38b-d223">This model has a transport capacity of two INFANTRY units, up to a total of 20 models.</characteristic>
+            <characteristic name="容量" typeId="15aa-1916-a38b-d223">这个模型 has a transport capacity of two INFANTRY units, up to a total of 20 models.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5815,7 +5815,7 @@
               <profiles>
                 <profile id="d64a-821d-7c23-52ad" name="Lord of Ambush" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll hit rolls of 1 for 友方 units 范围内 6寸 of your Warlord if targeting an Attacking unit that arrived as reinforcements this turn.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投命中骰 of 1 for 友方单位 范围内 6寸 of your 主将 if targeting an Attacking unit that arrived as reinforcements this turn.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5829,7 +5829,7 @@
               <profiles>
                 <profile id="1cca-8821-c432-fa4e" name=" Protector of Worlds" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll failed Morale tests for 友方 units whilst they are 范围内 6寸 of your Warlord.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll failed 士气测试 for 友方单位 whilst they are 范围内 6寸 of your 主将.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5871,7 +5871,7 @@
               <profiles>
                 <profile id="3912-170b-9164-4c9e" name="Counterfire Master" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll failed hit rolls for 友方 units 范围内 6寸 of your Warlord (this includes any BUILDING they are embarked within, and any other units embarked 范围内 the same building).</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll failed hit rolls for 友方单位 范围内 6寸 of your 主将 (this includes any BUILDING they are 上车 within, and any other units 上车 范围内 the same building).</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5885,7 +5885,7 @@
               <profiles>
                 <profile id="e826-7677-123a-f36c" name="Fortress Commander" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your Warlord is embarked 范围内 a BUILDING, roll a dice each time that building loses a wound; on a 6+, the building does not lose a wound.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your 主将 is 上车 范围内 a BUILDING, roll a dice each time that building loses a wound; on a 6+, the building does not lose a wound.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5927,7 +5927,7 @@
               <profiles>
                 <profile id="f73b-8c7e-f69e-0fcb" name="Siege Breaker" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll failed charge rolls for 友方 units that are 范围内 6寸 of your Warlord when they declare a charge against a BUILDING.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll failed charge rolls for 友方单位 that are 范围内 6寸 of your 主将 when they declare a charge against a BUILDING.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5941,7 +5941,7 @@
               <profiles>
                 <profile id="f80f-3686-fb27-1123" name="Fortress Destroyer" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll wound rolls of 1 for 友方 units that are 范围内 6寸 of your Warlord when they target a BUILDING.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll wound rolls of 1 for 友方单位 that are 范围内 6寸 of your 主将 when they target a BUILDING.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5997,7 +5997,7 @@
               <profiles>
                 <profile id="4d41-0980-77f6-159c" name="2. Conqueror of Worlds" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this Warlord is 范围内 range of an objective marker (see above) it controls that objective marker even if there are more enemy models 范围内 range of the same objective marker. If an enemy unit 范围内 range of the same objective marker has a similar ability, then the objective marker is controlled by the player who has the most models 范围内 range of it as normal.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个主将 is 范围内 range of an objective marker (see above) it controls that objective marker even if there are more 敌方模型 范围内 range of the same objective marker. If an 敌方单位 范围内 range of the same objective marker has a similar ability, then the objective marker is controlled by the player who has the most models 范围内 range of it as normal.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -6011,7 +6011,7 @@
               <profiles>
                 <profile id="f47e-d1cb-787e-cfc4" name="3. Urban Warrior" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This Warlord treats all soft cover it is entirely on or within, or that it is receiving the benefit of cover from, as hard cover (pg 30). 此外, enemy units do not receive the benefit to their saving throws for being in cover against attacks made by this Warlord.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个主将 treats all soft cover it is entirely on or within, or that it is receiving the benefit of cover from, as hard cover (pg 30). 此外, 敌方单位 do not receive the benefit to their saving throws for being in cover against attacks made by 这个主将.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -6102,7 +6102,7 @@
                   <profiles>
                     <profile id="8fd8-f579-1b69-ed00" name="11: Inspirational Fighter" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Re-roll hit rolls of 1 in the 肉搏阶段 for 友方 &lt;Sub-faction&gt; units 范围内 6寸 of this model.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Re-roll hit rolls of 1 in the 肉搏阶段 for 友方 &lt;Sub-faction&gt; units 范围内 6寸 of 这个模型.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6119,7 +6119,7 @@
                   <profiles>
                     <profile id="2cfd-c772-8ded-a00b" name="12: Beast Hunter" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll failed wound rolls for attacks made by this model in the 肉搏阶段 if the target is a MONSTER unit.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll failed wound rolls for attacks made by 这个模型 in the 肉搏阶段 if the target is a MONSTER unit.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6136,7 +6136,7 @@
                   <profiles>
                     <profile id="ef93-d404-8371-48a4" name="13: Heroic" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model can perform a Heroic Intervention if, after the enemy has completed all of their charge moves, it is 范围内 6寸 of any enemy units, and can move up to 6寸 when doing so.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 can perform a Heroic Intervention if, after the 敌方 has completed all of their charge moves, it is 范围内 6寸 of any 敌方单位, and 可以移动至多 6寸 when doing so.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6153,7 +6153,7 @@
                   <profiles>
                     <profile id="4a64-cba7-3757-7487" name="14: Duelist" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to this model’s Strength and Attacks characteristics while it is 范围内 1寸 of any enemy Character units.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to 这个模型’s Strength and Attacks characteristics while it is 范围内 1寸 of any 敌方 Character units.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6170,7 +6170,7 @@
                   <profiles>
                     <profile id="a80d-c26c-f77c-82b8" name="15: Zealot" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll failed hit rolls for this model in the 肉搏阶段 if it made a charge move, performed a Heroic Intervention, or was charged this turn.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll failed hit rolls for 这个模型 in the 肉搏阶段 if it made a 冲锋移动, performed a Heroic Intervention, or was charged this turn.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6187,7 +6187,7 @@
                   <profiles>
                     <profile id="b2ef-4f86-c2cb-c4f2" name="16: Deadly Charge" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the Attacks characteristic of this model in the 肉搏阶段 if it made a charge move this turn. </characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the Attacks characteristic of 这个模型 in the 肉搏阶段 if it made a 冲锋移动 this turn. </characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6204,7 +6204,7 @@
                   <profiles>
                     <profile id="97cf-dacf-4f4e-8b26" name="21: Targeting Augury" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Enemy units do not gain the benefit of cover to their saving throws against attacks made by 友方 &lt;Sub-faction&gt; units 范围内 6寸 of this model when the attack is made.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">敌方单位 do not gain the benefit of cover to their saving throws against attacks made by 友方 &lt;Sub-faction&gt; units 范围内 6寸 of 这个模型 when the attack is made.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6221,7 +6221,7 @@
                   <profiles>
                     <profile id="630c-9566-13eb-da57" name="22: Directed Fire" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Re-roll hit rolls of 1 in the 射击阶段 for 友方 &lt;Sub-faction&gt; units 范围内 6寸 of this model. </characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Re-roll hit rolls of 1 in the 射击阶段 for 友方 &lt;Sub-faction&gt; units 范围内 6寸 of 这个模型. </characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6238,7 +6238,7 @@
                   <profiles>
                     <profile id="a650-fc6c-fd84-e191" name="23: Deadly Marksman" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the Damage characteristic of ranged weapons used by this model. </characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the Damage characteristic of ranged weapons used by 这个模型. </characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6255,7 +6255,7 @@
                   <profiles>
                     <profile id="0184-00c1-f033-65cd" name="24: Sundering Shots" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each wound roll of 6+ made for this model’s ranged attacks inflicts 1 mortal wound on the target 此外 to any normal damage.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each wound roll of 6+ made for 这个模型’s ranged attacks inflicts 1 致命伤 on the target 此外 to any normal damage.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6272,7 +6272,7 @@
                   <profiles>
                     <profile id="443c-d65e-b495-aaff" name="25: Keen Eye" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model can target enemy CHARACTER units in the 射击阶段 even if they are not the closest enemy model.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 can target 敌方 CHARACTER units in the 射击阶段 even if they are not the closest 敌方模型.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6289,7 +6289,7 @@
                   <profiles>
                     <profile id="96c5-a669-528a-1d64" name="26: Defensive Fighter" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When this model fires Overwatch, it successfully hits on rolls of 5 or 6, instead of only 6.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When 这个模型 fires Overwatch, it successfully hits on rolls of 5 or 6, 而不是 only 6.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6306,7 +6306,7 @@
                   <profiles>
                     <profile id="49f0-a183-7e98-a4b1" name="31: Grudge" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll any hit, wound and damage rolls made for this model’s attacks that target the enemy Warlord.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll any hit, wound and damage rolls made for 这个模型’s attacks that target the 敌方 主将.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6323,7 +6323,7 @@
                   <profiles>
                     <profile id="8cb8-49d4-ca19-0b34" name="32: Resilient" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time this model loses a wound, roll a dice; on a 5+ it does not lose that wound.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time 这个模型 loses a wound, roll a dice; on a 5+ it does not lose that wound.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6340,7 +6340,7 @@
                   <profiles>
                     <profile id="b55a-deb9-dfcc-dfd4" name="33: Camoflage" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 2 instead of 1 to saving throws made for this model when it is receiving the benefit of cover.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 2 而不是 1 to saving throws made for 这个模型 when it is receiving the benefit of cover.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6357,7 +6357,7 @@
                   <profiles>
                     <profile id="0a78-1439-ab87-4ac5" name="34: Stealth Assault" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Enemy units cannot fire Overwatch at this model.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">敌方单位 cannot fire 坚守射击 at 这个模型.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6374,7 +6374,7 @@
                   <profiles>
                     <profile id="eede-37c4-cc49-3cec" name="35: Indomitable" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">All damage suffered by this model is halved (rounding up). </characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">All damage suffered by 这个模型 is halved (rounding up). </characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6391,7 +6391,7 @@
                   <profiles>
                     <profile id="09a4-6f7c-d011-706c" name="36: Impervious" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model regains 1 lost wound at the start of your turn. </characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 regains 1 lost wound at the start of your turn. </characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6408,7 +6408,7 @@
                   <profiles>
                     <profile id="eada-5268-3152-d12e" name="41: Infiltrator" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up this model in ambush, instead of placing it on the battlefield. At the end of any of your Movement phases it can reveal its location – set it up anywhere on the battlefield that is more than 9寸 from any enemy models.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up 这个模型 in ambush, 而不是 placing it on the battlefield. At the end of any of your 移动阶段 it can reveal its location – set it up anywhere on the battlefield that is more than 9寸 from any 敌方模型.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6425,7 +6425,7 @@
                   <profiles>
                     <profile id="d50b-f421-da38-fd5a" name="42: Stealthy" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Subtract 1 from hit rolls for attacks made with ranged weapons that target this model.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Subtract 1 from hit rolls for attacks made with ranged weapons that target 这个模型.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6442,7 +6442,7 @@
                   <profiles>
                     <profile id="b3f5-feaf-9334-bb2a" name="43: Hard to Kill" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Wound rolls of 1, 2 or 3 made for attacks that target this model always fail, even if the attack has a Strength characteristic higher than this model’s Toughness characteristic.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Wound rolls of 1, 2 or 3 made for attacks that target 这个模型 always fail, even if the attack has a Strength characteristic higher than 这个模型’s Toughness characteristic.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6459,7 +6459,7 @@
                   <profiles>
                     <profile id="faf9-46bb-7bee-126c" name="44: Strategic Feint" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of the first battle round but before the first turn begins, you can pick a 友方 &lt;Sub-faction&gt; unit 范围内 6寸 of this model and set it up again, anywhere wholly 范围内 your deployment zone. If your opponent has any units with similar abilities, roll off; starting with the winner of the roll-off, take it in turns to resolve these abilities.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of the first battle round but before the first turn begins, you can pick a 友方 &lt;Sub-faction&gt; unit 范围内 6寸 of 这个模型 and set it up again, anywhere wholly 范围内 your 部署区. If your opponent has any units with similar abilities, roll off; starting with the winner of the roll-off, take it in turns to resolve these abilities.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6476,7 +6476,7 @@
                   <profiles>
                     <profile id="a855-aa59-c8b1-6f75" name="45: Swift Strike" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can always choose this model to fight first in the 肉搏阶段 even if it did not charge. If the enemy has units that have charged, or that have a similar ability, alternate choosing units to fight with, starting with the player whose turn is taking place.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can always choose 这个模型 to fight first in the 肉搏阶段 even if it did not charge. If the 敌方 has units that have charged, or that have a similar ability, alternate choosing units to fight with, starting with the player whose turn is taking place.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6493,7 +6493,7 @@
                   <profiles>
                     <profile id="1f69-1696-0676-0b09" name="46: Foresight" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per battle, if this model is on the battlefield, you can re-roll one hit roll, wound roll, damage roll or saving throw.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per battle, if 这个模型 is on the battlefield, you can re-roll one hit roll, wound roll, damage roll or saving throw.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6510,7 +6510,7 @@
                   <profiles>
                     <profile id="fa5f-6cdc-2d50-3139" name="51: Inspirational Leader" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Friendly &lt;Sub-faction&gt;units can use this model’s LD instead of their own while they are 范围内 6寸 of it.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">友方 &lt;Sub-faction&gt;units can use 这个模型’s LD 而不是 their own while they are 范围内 6寸 of it.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6527,7 +6527,7 @@
                   <profiles>
                     <profile id="84d4-2c9e-a06c-c893" name="52: Rallying Cry" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll failed Morale tests for 友方 &lt;Sub-faction&gt;units while they are 范围内 6寸 of this model.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll failed 士气测试 for 友方 &lt;Sub-faction&gt;units while they are 范围内 6寸 of 这个模型.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6544,7 +6544,7 @@
                   <profiles>
                     <profile id="d3a7-5098-bc2a-3dd9" name="53: Icon of Retribution" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Roll a dice each time a 友方 &lt;Sub-faction&gt;model 范围内 6寸 of this model is slain in the 肉搏阶段. On a 6, the unit that made the attack that slew the model suffers 1 mortal wound after it has finished making its attacks.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Roll a dice each time a 友方 &lt;Sub-faction&gt;model 范围内 6寸 of 这个模型 is slain in the 肉搏阶段. On a 6, the unit that made the attack that slew the model 遭受 1 致命伤 after it has finished making its attacks.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6561,7 +6561,7 @@
                   <profiles>
                     <profile id="946d-9ea6-daa5-3e34" name="54: Impetuous" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll failed charge rolls for this model.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll failed charge rolls for 这个模型.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6578,7 +6578,7 @@
                   <profiles>
                     <profile id="cf24-b6fd-64fb-2e10" name="55: Terrifying" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Subtract 1 from the LD characteristic of enemy units while they are 范围内 3寸 of this model.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Subtract 1 from the LD characteristic of 敌方单位 while they are 范围内 3寸 of 这个模型.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6595,7 +6595,7 @@
                   <profiles>
                     <profile id="28fd-c8a4-00d9-3c19" name="56: Savage Riposte" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time you roll an unmodified saving throw of 6 for this model in the 肉搏阶段, the enemy unit that made the attack suffers 1 mortal wound after it has resolved all of its attacks.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time you roll an unmodified saving throw of 6 for 这个模型 in the 肉搏阶段, the 敌方单位 that made the attack 遭受 1 致命伤 after it has resolved all of its attacks.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6612,7 +6612,7 @@
                   <profiles>
                     <profile id="5de9-d6de-958d-3236" name="61: Air Strike" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per battle, in your 射击阶段, you can pick an enemy unit, other than a Characterunit, that is visible to this model and 投掷1个D6. On a 1-4 nothing happens. On a 5+ the target unit suffers D3 mortal wounds.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per battle, in your 射击阶段, you can pick an 敌方单位, other than a Characterunit, that is visible to 这个模型 and 投掷1个D6. On a 1-4 nothing happens. On a 5+ the target unit 遭受 D3 致命伤.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6629,7 +6629,7 @@
                   <profiles>
                     <profile id="e1b2-a287-6f47-905c" name="62: Swift Advance" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When this model Advances, add 6寸 to its Move characteristic for that Movement phase instead of rolling a D6</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When 这个模型 Advances, add 6寸 to its Move characteristic for that 移动阶段 而不是 rolling a D6</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6646,7 +6646,7 @@
                   <profiles>
                     <profile id="0fd6-5d34-61d6-1a91" name="63: Reactive Tactics" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model, and friendly&lt;Sub-faction&gt;units 范围内 6寸 of them, can charge even if they Fell Back that turn.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型, and 友方&lt;Sub-faction&gt;units 范围内 6寸 of them, can charge even if they Fell Back that turn.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6663,7 +6663,7 @@
                   <profiles>
                     <profile id="4c8a-66ad-6ac9-532b" name="64: Strike and Fade" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">After this model has fought in the 肉搏阶段, it can immediately pile in D3+3寸 in any direction, not just towards the closest enemy model.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">After 这个模型 has fought in the 肉搏阶段, it can immediately pile in D3+3寸 in any direction, not just towards the closest 敌方模型.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6680,7 +6680,7 @@
                   <profiles>
                     <profile id="a818-29f1-ed4e-8fe8" name="65: Final Strike" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model is slain, you can select an enemy unit 范围内 3寸 of it and 投掷1个D6; on a 2+ that unit suffers D3 mortal wounds. </characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 is slain, you can select an 敌方单位 范围内 3寸 of it and 投掷1个D6; on a 2+ 那个单位 遭受 D3 致命伤. </characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6697,7 +6697,7 @@
                   <profiles>
                     <profile id="4a42-4231-7509-9afa" name="66: Direct Fire" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time you make a wound roll of 6+ in the 射击阶段 for a 友方 &lt;Sub-faction&gt;unit 范围内 6寸 of this model, the AP characteristic of that attack is improved by 1 (e.g. AP -1 becomes AP -2).</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time you make a wound roll of 6+ in the 射击阶段 for a 友方 &lt;Sub-faction&gt;unit 范围内 6寸 of 这个模型, the AP characteristic of that attack is improved by 1 (e.g. AP -1 becomes AP -2).</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6718,7 +6718,7 @@
                   <profiles>
                     <profile id="7d61-3f69-1234-5baa" name="02: Auto-loader" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of this model’s ranged weapons. Increase the number of shots this weapon makes by 1 (e.g. a Pistol 1 weapon becomes a Pistol 2 weapon). </characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s ranged weapons. Increase the number of shots 这个武器 makes by 1 (e.g. a Pistol 1 weapon becomes a Pistol 2 weapon). </characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6735,7 +6735,7 @@
                   <profiles>
                     <profile id="85ee-c700-2b30-ad37" name="03: Penetrator Rounds" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of this model’s ranged weapons. Improve that weapon’s AP characteristic by 1 (e.g. AP -1 becomes AP -2).</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s ranged weapons. Improve that weapon’s AP characteristic by 1 (e.g. AP -1 becomes AP -2).</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6752,7 +6752,7 @@
                   <profiles>
                     <profile id="97fa-de67-99e0-29fd" name="04: High Calibre" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of this model’s ranged weapons. Add 1 to that weapon’s Strength characteristic.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s ranged weapons. Add 1 to that weapon’s Strength characteristic.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6769,7 +6769,7 @@
                   <profiles>
                     <profile id="65fb-9911-be6a-53d6" name="05: Improved Sights" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of this model’s ranged weapons. Add 6寸 to that weapon’s Range characteristic. </characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s ranged weapons. Add 6寸 to that weapon’s Range characteristic. </characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6786,7 +6786,7 @@
                   <profiles>
                     <profile id="d1b4-cfe9-6852-26f5" name="06: Inferno Round" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of this model’s ranged weapons. Add the following ability to that weapon: ‘Units do not receive the benefit of cover to their saving throws against attacks made with this weapon.’</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s ranged weapons. Add the following ability to that weapon: ‘Units do not receive the benefit of cover to their saving throws against attacks made with 这个武器.’</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6803,7 +6803,7 @@
                   <profiles>
                     <profile id="74dd-199a-f33e-c54f" name="07: Artificer Weapon" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of this model’s weapons. Add 1 to that weapon’s Damage characteristic.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s weapons. Add 1 to that weapon’s Damage characteristic.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6820,7 +6820,7 @@
                   <profiles>
                     <profile id="37ad-2ef0-0868-af26" name="08: Finely Balanced" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of this model’s melee weapons. Add the following ability to that weapon: ‘Each time the bearer fights, it can make 1 additional attack with this weapon.’</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s melee weapons. Add the following ability to that weapon: ‘Each time the bearer fights, it can make 1 additional attack with 这个武器.’</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6837,7 +6837,7 @@
                   <profiles>
                     <profile id="1ce8-bd94-7cf0-e20f" name="09: Shredder" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of this model’s melee weapons. Add the following ability to that weapon: ‘You can re-roll failed wound rolls for attacks made with this weapon.’</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s melee weapons. Add the following ability to that weapon: ‘You can re-roll failed wound rolls for attacks made with 这个武器.’</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6854,7 +6854,7 @@
                   <profiles>
                     <profile id="96c3-0639-a1a2-86e0" name="10: Brutal" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of this model’s melee weapons. Improve that weapon’s Strength characteristic by 1 (e.g. User becomes +1, +1 becomes +2).</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s melee weapons. Improve that weapon’s Strength characteristic by 1 (e.g. User becomes +1, +1 becomes +2).</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6871,7 +6871,7 @@
                   <profiles>
                     <profile id="ae27-0269-204d-ceb0" name="11: Razor-edged" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of this model’s melee weapons. Improve that weapon’s AP characteristic by 1 (e.g. AP -1 becomes AP -2).</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s melee weapons. Improve that weapon’s AP characteristic by 1 (e.g. AP -1 becomes AP -2).</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6888,7 +6888,7 @@
                   <profiles>
                     <profile id="c8c0-671c-6174-969c" name="12: Heirloom" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of this model’s melee weapons. Add the following ability to that weapon: ‘Each unmodified hit roll of 6 made for attacks with this weapon scores 2 hits instead of 1’.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s melee weapons. Add the following ability to that weapon: ‘Each unmodified hit roll of 6 made for attacks with 这个武器 scores 2 hits 而不是 1’.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6916,7 +6916,7 @@
                   <profiles>
                     <profile id="93ca-1b49-0a5c-c32b" name="1: Psychic Might" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the number of psychic powers this character can attempt to manifest in your Psychic phase. </characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the number of psychic powers this character can attempt to manifest in your 灵能阶段. </characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6933,7 +6933,7 @@
                   <profiles>
                     <profile id="797e-b18b-5171-c011" name="2: Adamantium Will" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the number of psychic powers this character can attempt to deny in your opponent’s Psychic phase.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the number of psychic powers this character can attempt to deny in your opponent’s 灵能阶段.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6950,7 +6950,7 @@
                   <profiles>
                     <profile id="68b1-73d2-33ee-8089" name="3: Master of Lore" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the number of psychic powers this model knows from one of the psychic disciplines available to them.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the number of psychic powers 这个模型 knows from one of the psychic disciplines available to them.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6971,7 +6971,7 @@
                   <profiles>
                     <profile id="9f66-befe-4666-5240" name="02: Old War Wound" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Select a result from this table, or roll 2D6 to randomly select a result (re-roll if you get this result again). Subtract or worsen this model’s characteristic by the amount described in the result you picked instead of adding or improving it (e.g. if the Ferocious Combatant result was selected, an Attacks characteristic of 3 would become 2, while if the Dead-eyed result was selected, a BS of 3+ would become 4+)</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Select a result from this table, or roll 2D6 to randomly select a result (re-roll if you get this result again). Subtract or worsen 这个模型’s characteristic by the amount described in the result you picked 而不是 adding or improving it (e.g. if the Ferocious Combatant result was selected, an Attacks characteristic of 3 would become 2, while if the Dead-eyed result was selected, a BS of 3+ would become 4+)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6988,7 +6988,7 @@
                   <profiles>
                     <profile id="4573-56a8-9be7-681e" name="03: Courageous" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to this model’s LD characteristic.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to 这个模型’s LD characteristic.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7005,7 +7005,7 @@
                   <profiles>
                     <profile id="5eea-41a6-c5ef-2098" name="04: Ferocious Combatant" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to this model’s Attacks characteristic.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to 这个模型’s Attacks characteristic.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7022,7 +7022,7 @@
                   <profiles>
                     <profile id="e8a0-c6f1-bce1-1922" name="05: Mighty" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to this model’s Strength characteristic. </characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to 这个模型’s Strength characteristic. </characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7039,7 +7039,7 @@
                   <profiles>
                     <profile id="a848-ed5a-e35c-dc1b" name="06: Dead-eyed" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Improve this model’s Ballistic Skill characteristic by 1 (e.g. BS 3+ will become BS 2+), to a maximum of 2+.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Improve 这个模型’s Ballistic Skill characteristic by 1 (e.g. BS 3+ will become BS 2+), to a maximum of 2+.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7056,7 +7056,7 @@
                   <profiles>
                     <profile id="404b-1264-bf6c-14e1" name="07: Fleet" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 2寸 to this model’s Move characteristic. </characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 2寸 to 这个模型’s Move characteristic. </characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7073,7 +7073,7 @@
                   <profiles>
                     <profile id="ccdc-ad4a-1079-8b4d" name="08: Blademaster" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Improve this model’s Weapon Skill characteristic by 1 (e.g. WS 3+ will become WS 2+), to a maximum of 2+.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Improve 这个模型’s Weapon Skill characteristic by 1 (e.g. WS 3+ will become WS 2+), to a maximum of 2+.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7090,7 +7090,7 @@
                   <profiles>
                     <profile id="3e88-8098-ccb3-7401" name="09: Enhanced Physiology" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to this model’s Toughness characteristic.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to 这个模型’s Toughness characteristic.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7107,7 +7107,7 @@
                   <profiles>
                     <profile id="bc54-473a-845d-58a1" name="10: Toughened Armor" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Improve this model’s Save characteristic by 1 (e.g. Sv 5+ will become Sv 4+), to a maximum of 2+.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Improve 这个模型’s Save characteristic by 1 (e.g. Sv 5+ will become Sv 4+), to a maximum of 2+.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7124,7 +7124,7 @@
                   <profiles>
                     <profile id="273f-17c8-2998-61cc" name="11: Divine Protection" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Improve this model’s 特殊保护 by 1 (e.g. an 特殊保护 of 5+ will become an 特殊保护 of 4+), to a maximum of 3+. If this model does not have an 特殊保护, it instead gains a 6+ 特殊保护.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Improve 这个模型’s 特殊保护 by 1 (e.g. an 特殊保护 of 5+ will become an 特殊保护 of 4+), to a maximum of 3+. If 这个模型 does not have an 特殊保护, it instead gains a 6+ 特殊保护.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7141,7 +7141,7 @@
                   <profiles>
                     <profile id="d87e-223c-47a9-bf97" name="12: Heroic Constitution" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to this model’s Wounds characteristic.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to 这个模型’s Wounds characteristic.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7215,7 +7215,7 @@
               <profiles>
                 <profile id="76d6-f1bb-7eaf-bd6c" name="R1: Sharpshooters" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Re-roll hit rolls of 1 for this unit in the 射击阶段. </characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Re-roll hit rolls of 1 for 这个单位 in the 射击阶段. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7232,7 +7232,7 @@
               <profiles>
                 <profile id="6748-2c2f-3f15-4d1b" name="R1: Agile" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll Advance and Charge rolls for this unit. </characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll Advance and Charge rolls for 这个单位. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7249,7 +7249,7 @@
               <profiles>
                 <profile id="591c-3344-f7bf-7f91" name="R1: Deadeye Shots" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time you roll an unmodified wound roll of 6 for an attack with one of this unit’s ranged weapons, increase the Damage characteristic of that attack by 1. </characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time you roll an unmodified wound roll of 6 for an attack with one of 这个单位’s ranged weapons, increase the Damage characteristic of that attack by 1. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7266,7 +7266,7 @@
               <profiles>
                 <profile id="91f1-f358-86de-96ad" name="R1: Grizzled" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This unit ignores penalties to their LD characteristic. </characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个单位 ignores penalties to their LD characteristic. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7283,7 +7283,7 @@
               <profiles>
                 <profile id="61ff-1cf2-0c84-6a15" name="R2: Combat Specialists" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Re-roll hit rolls of 1 for this unit in the 肉搏阶段.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Re-roll hit rolls of 1 for 这个单位 in the 肉搏阶段.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7300,7 +7300,7 @@
               <profiles>
                 <profile id="8f76-d66e-c390-2ea5" name="R2: Assassins" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to wound rolls for attacks made by models in this unit that target an enemy CHARACTER unit.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to wound rolls for attacks made by models in 这个单位 that target an 敌方 CHARACTER unit.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7317,7 +7317,7 @@
               <profiles>
                 <profile id="4425-d2f7-088b-4818" name="R3: Trophy Takers" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Subtract 1 from the LD characteristic of enemy units while they are 范围内 6寸 of this unit. </characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Subtract 1 from the LD characteristic of 敌方单位 while they are 范围内 6寸 of 这个单位. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7334,7 +7334,7 @@
               <profiles>
                 <profile id="90a0-9f4c-d49d-d4f5" name="R4: Disciplined" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This unit can shoot or charge during a turn in which it Fell Back.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个单位 can shoot or charge during a turn in which it Fell Back.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7351,7 +7351,7 @@
               <profiles>
                 <profile id="cf6f-8830-33e8-0d6d" name="R5: Brutal" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the Strength and Attacks characteristic of models in this unit during any turn in which they made a successful charge move.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the Strength and Attacks characteristic of models in 这个单位 during any turn in which they made a successful 冲锋移动.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7368,7 +7368,7 @@
               <profiles>
                 <profile id="b664-22df-25c1-4664" name="R2: Lucky" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">投掷1个D6 each time a model from this unit loses a wound; on a 6 the model does not lose that wound.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">投掷1个D6 each time a model from 这个单位 loses a wound; on a 6 the model does not lose that wound.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7385,7 +7385,7 @@
               <profiles>
                 <profile id="be38-1685-9783-10d4" name="R3: Breachers" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to wound rolls for attacks made by models in this unit if the target of those attacks is receiving the benefit of cover.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to wound rolls for attacks made by models in 这个单位 if the target of those attacks is receiving the benefit of cover.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7498,7 +7498,7 @@
               <profiles>
                 <profile id="2ccf-262a-bcce-6c64" name="R1: Unstoppable Beast" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">After this model completes a charge move, 投掷1个D6 for each enemy unit 范围内 1寸 of it. On a 4+ that unit suffers 1 mortal wound. </characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">After 这个模型 completes a 冲锋移动, 投掷1个D6 for each 敌方单位 范围内 1寸 of it. On a 4+ 那个单位 遭受 1 致命伤. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7515,7 +7515,7 @@
               <profiles>
                 <profile id="4d47-86df-2de3-831b" name="R1: Monstrous Regeneration" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model regains 1 lost wound at the start of each of your turns. </characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 regains 1 lost wound at the start of each of your turns. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7532,7 +7532,7 @@
               <profiles>
                 <profile id="8495-07fa-e001-b2cd" name="R2: Terrifying" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Subtract 1 from the LD characteristic of enemy units while they are 范围内 6寸 of this model. </characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Subtract 1 from the LD characteristic of 敌方单位 while they are 范围内 6寸 of 这个模型. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7549,7 +7549,7 @@
               <profiles>
                 <profile id="05ff-d770-fe4f-990e" name="R2: Lashing Limbs" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time you roll an unmodified saving throw of 6 for this model in the 肉搏阶段, the enemy unit that made that attack suffers 1 mortal wound after it has resolved all of its attacks. </characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time you roll an unmodified saving throw of 6 for 这个模型 in the 肉搏阶段, the 敌方单位 that made that attack 遭受 1 致命伤 after it has resolved all of its attacks. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7566,7 +7566,7 @@
               <profiles>
                 <profile id="e19d-5f65-b2a3-8cf8" name="R3: Inhuman Resilience" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">投掷1个D6 each time a model in this unit loses a wound; on a 5+ the model does not lose that wound</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">投掷1个D6 each time a model in 这个单位 loses a wound; on a 5+ the model does not lose that wound</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7583,7 +7583,7 @@
               <profiles>
                 <profile id="ef8a-c766-1084-0416" name="R3: Sweeping Blows" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each unmodified hit roll of 6 made for this model’s attacks in the 肉搏阶段 score 2 hits instead of 1. </characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each unmodified hit roll of 6 made for 这个模型’s attacks in the 肉搏阶段 score 2 hits 而不是 1. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7600,7 +7600,7 @@
               <profiles>
                 <profile id="fe4c-12e6-6f1b-b1b4" name="R4: Volatile Death Throes " hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model is destroyed, its controlling player can choose for it to automatically trigger death throes (see Codex: Tyranids) – no dice roll is required.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 is destroyed, its controlling player can choose for it to automatically trigger death throes (see Codex: Tyranids) – no dice roll is required.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7617,7 +7617,7 @@
               <profiles>
                 <profile id="6269-9ff1-822a-c610" name="R4: Juggernaut" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll charge rolls for this model. </characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll charge rolls for 这个模型. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7634,7 +7634,7 @@
               <profiles>
                 <profile id="44e4-101d-e364-2de4" name="R5: Just Making it Angry" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model has a damage table, double the number of wounds it has remaining for the purposes of determining what its Strength and Attacks characteristics are.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 has a damage table, double the number of wounds it has remaining for the purposes of determining what its Strength and Attacks characteristics are.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7651,7 +7651,7 @@
               <profiles>
                 <profile id="8a74-576a-8469-143a" name="R5: Eager" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of the first battle round but before the first turn begins, you can move this model up to 5寸. It cannot end this move 范围内 9寸 of any enemy models. If both players have units that can do this, the player who is taking the first turn moves their units first. </characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of the first battle round but before the first turn begins, you can move 这个模型 up to 5寸. It cannot end this move 范围内 9寸 of any 敌方模型. If both players have units that can do this, the player who is taking the first turn moves their units first. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7707,7 +7707,7 @@
               <profiles>
                 <profile id="6783-bbb6-e012-32ab" name="R1: Famed Commander" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">投掷1个D6 each time a model in this unit loses a wound; on a 6 the model does not lose that wound.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">投掷1个D6 each time a model in 这个单位 loses a wound; on a 6 the model does not lose that wound.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7724,7 +7724,7 @@
               <profiles>
                 <profile id="4af9-ed89-7d89-93c6" name="R1: Skilled Driver" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll Advance rolls for this unit. </characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll Advance rolls for 这个单位. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7741,7 +7741,7 @@
               <profiles>
                 <profile id="49eb-d748-c449-7525" name="R2: Experimental Ammunition" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Select one of the ranged weapons used by one or more models in this unit. Add 1 to the Damage characteristic of that weapon for attacks made by that unit.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Select one of the ranged weapons used by one or more models in 这个单位. Add 1 to the Damage characteristic of that weapon for attacks made by 那个单位.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7758,7 +7758,7 @@
               <profiles>
                 <profile id="6514-25a9-ae1e-781d" name="R2: Advanced Targeting" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 6寸 to the maximum range of this unit’s Heavy and Rapid Fire weapons that have an unmodified maximum range of 24寸 or longer. </characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 6寸 to the maximum range of 这个单位’s Heavy and Rapid Fire weapons that have an unmodified maximum range of 24寸 or longer. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7775,7 +7775,7 @@
               <profiles>
                 <profile id="ef9b-9554-c5f0-78ed" name="R3: Ablative Armor" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Attacks against this unit that have an AP characteristic of -1 are treated as having an AP characteristic of 0 instead.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Attacks against 这个单位 that have an AP characteristic of -1 are treated as having an AP characteristic of 0 instead.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7792,7 +7792,7 @@
               <profiles>
                 <profile id="2356-d59e-e2b3-6667" name="R3: Storied Vehicle" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll one hit roll or wound roll for this unit in each of your Shooting phases. </characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll one hit roll or wound roll for 这个单位 in each of your 射击阶段. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7809,7 +7809,7 @@
               <profiles>
                 <profile id="2faa-8fc5-6f09-b65c" name="R4: Blessed Drive" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model has a damage table, double the number of wounds it has remaining for the purposes of determining what its Move characteristic is.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 has a damage table, double the number of wounds it has remaining for the purposes of determining what its Move characteristic is.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7826,7 +7826,7 @@
               <profiles>
                 <profile id="4f72-8a3c-25d7-94f9" name="R4: Last Resort" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If a model in this unit is destroyed, the controlling player can choose for it to automatically explode – no dice roll is required.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If a model in 这个单位 is destroyed, the controlling player can choose for it to automatically explode – no dice roll is required.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7843,7 +7843,7 @@
               <profiles>
                 <profile id="2a67-bed9-43ec-968b" name="R5: Prominent Trophy" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the LD characteristic of 友方 units while they are 范围内 6寸 of this unit. Subtract 1 from the LD characteristic of enemy units while they are 范围内 6寸 of this unit. </characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the LD characteristic of 友方单位 while they are 范围内 6寸 of 这个单位. Subtract 1 from the LD characteristic of 敌方单位 while they are 范围内 6寸 of 这个单位. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7860,7 +7860,7 @@
               <profiles>
                 <profile id="1c8f-af4c-400c-8e80" name="R5: Blessed Weapons" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model has a damage table, double the number of wounds it has remaining for the purposes of determining what its Ballistic Skill characteristic is.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 has a damage table, double the number of wounds it has remaining for the purposes of determining what its Ballistic Skill characteristic is.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7877,43 +7877,43 @@
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="d784-9fdb-622e-32a5" name="Deathblow" hidden="false">
-      <description>If a target suffers an unsaved Wound from a close combat attack made by this model, the target is reduced to 0 Wounds and is removed as a casualty.</description>
+      <description>If a target 遭受 an unsaved Wound from a close combat attack made by 这个模型, the target is reduced to 0 Wounds and is removed as a casualty.</description>
     </rule>
     <rule id="2053-118c-c2b7-c8ac" name="Executioner" hidden="false">
-      <description>This model re-rolls all failed To Wound rolls against targets with a Wounds characteristic of 2 or more.</description>
+      <description>这个模型 re-rolls all failed To Wound rolls against targets with a Wounds characteristic of 2 or more.</description>
     </rule>
     <rule id="74b3-2e30-9d76-a958" name="Infiltrator" hidden="false">
-      <description>During deployment, this unit can be set up anywhere on the battlefield that is not 范围内 your opponent&apos;s deployment zone and is more than 12寸 from any enemy unit.</description>
+      <description>During deployment, 这个单位 can be set up anywhere on the battlefield that is not 范围内 your opponent&apos;s 部署区 and is more than 12寸 from any 敌方单位.</description>
     </rule>
     <rule id="15ea-860d-9eb6-21c3" name="Airborne" hidden="false">
-      <description>This model cannot charge, can only be charged by units that can FLY, and can only attack or be attacked in the 肉搏阶段 by units that can FLY.</description>
+      <description>这个模型 cannot charge, can only be charged by units that can FLY, and can only attack or be attacked in the 肉搏阶段 by units that can FLY.</description>
     </rule>
     <rule id="9caa-ff00-a5bd-5f04" name="Hard to Hit" hidden="false">
-      <description>Your opponent must subtract 1 from hit rolls for attacks that target this model in the 射击阶段.</description>
+      <description>Your opponent must subtract 1 from hit rolls for attacks that target 这个模型 in the 射击阶段.</description>
     </rule>
     <rule id="3541-94a7-a138-358b" name="爆炸" hidden="false">
-      <description>If this model is reduced to 0 wounds, 投掷1个D6 before removing it from the battlefield and before any embarked models disembark. On a 6 it explodes, and each unit 范围内 6寸 suffers D3 mortal wounds.</description>
+      <description>如果这个模型W降为0, 在载具被移除及任何在这个载具上的模型下车前投掷1个D6. 结果为6则爆炸, 每个单位 范围内 6寸 遭受 D3 致命伤.</description>
     </rule>
     <rule id="60db-65f7-ca20-7874" name="开顶" page="" hidden="false">
-      <description>Models embarked on this model can attack in their 射击阶段. Measure the range and draw line of sight from any point on the model. When they do so, any restrictions or modifiers that apply to this model also apply to its passenger; for example, the passengers cannot shoot if this model has Fallen Back in the same turn, cannot shoot (except with Pistols) if this model is 范围内 1寸 of an enemy unit, and so on.</description>
+      <description>Models 上车 on 这个模型 can attack in their 射击阶段. Measure the range and draw line of sight from any point on the model. When they do so, any restrictions or modifiers that apply to 这个模型 also apply to its passenger; for example, the passengers cannot shoot if 这个模型 has Fallen Back in the same turn, cannot shoot (except with Pistols) if 这个模型 is 范围内 1寸 of an 敌方单位, and so on.</description>
     </rule>
     <rule id="51af-0fb9-3ca5-d307" name="烟雾发生器" hidden="false">
-      <description>Once per game, instead of shooting any weapons in the 射击阶段, this models can use its smoke launchers; if it does so, until your next 射击阶段 your opponent must subtract 1 from any hit rolls that target it.</description>
+      <description>Once per game, 而不是 shooting any weapons in the 射击阶段, this models can use its smoke launchers; if it does so, until your next 射击阶段 your opponent must subtract 1 from any hit rolls that target it.</description>
     </rule>
     <rule id="4ea8-94d3-ba39-042f" name="And They Shall Know No Fear" hidden="false">
-      <description>You can re-roll failed Morale tests for this unit.</description>
+      <description>You can re-roll failed 士气测试 for 这个单位.</description>
     </rule>
     <rule id="ce5a-0526-287b-4ff8" name="主将特性" hidden="false">
-      <description>If your Warlord is a CHARACTER, it can use a Warlord Trait. Immediately before either player starts to deploy their army, you can roll a D3 on the Warlord Trait table here to determine what Warlord Trait your Warlord has. Alternatively, choose the trait that most suits your Warlord&apos;s temperament or style of war.
+      <description>If your 主将 is a CHARACTER, it can use a 主将 Trait. Immediately before either player starts to deploy their army, you can roll a D3 on the 主将 Trait table here to determine what 主将 Trait your 主将 has. Alternatively, choose the trait that most suits your Warlord&apos;s temperament or style of war.
 
-1) Legendary Fighter: If this Warlord charges in the Charge phase, add 1 to their Attacks characteristic until the end of the ensuing 肉搏阶段.
+1) Legendary Fighter: If 这个主将 charges in the Charge phase, add 1 to their Attacks characteristic until the end of the ensuing 肉搏阶段.
 
-2) Inspiring Leader: 友方 units 范围内 6寸 of this Warlord can add 1 to their LD characteristic.
+2) Inspiring Leader: 友方单位 范围内 6寸 of 这个主将 can add 1 to their LD characteristic.
 
-3) Tenacious Survivor: Roll a dice each time this Warlord loses a wound.  On a 6, the Warlord shrugs off the damage and does not lose the wound.</description>
+3) Tenacious Survivor: Roll a dice each time 这个主将 loses a wound.  On a 6, the 主将 shrugs off the damage and does not lose the wound.</description>
     </rule>
     <rule id="a269-b8d9-67c5-4009" name="复合武器" hidden="false">
-      <description>When attacking with this weapon, choose one or both of the profiles. If you choose both, subtract 1 from all hit rolls for this weapon.</description>
+      <description>When attacking with 这个武器, choose one or both of the profiles. If you choose both, subtract 1 from 所有命中骰 for 这个武器.</description>
     </rule>
     <rule id="cc24-45b1-6aa4-55bb" name="行星打击分队" publicationId="28ec-711c-pubN73170" page="34" hidden="false">
       <description>The 5 CPs from this detachment can only be spent on Planetstrike Stratagems.</description>
@@ -7922,16 +7922,16 @@
       <description>The 5 CPs from this detachment can only be spent on Stronghold Assault Stratagems.</description>
     </rule>
     <rule id="5a7e-f984-487c-d767" name="爆弹训练" publicationId="28ec-711c-pubN110542" hidden="false">
-      <description>All ADEPTUS ASTARTES and HERETIC ASTARTES models gain this ability. Instead of following the normal rules for Rapid Fire weapons, Rapid Fire bolt weapons used by models with this ability make double the number of attacks if any of the following conditions apply: 1) The firing model&apos;s target is 范围内 half the weapon&apos;s maximum range. 2)    The firing model is INFANTRY and every model in its unit remained stationary in your previous Movement phase. 3) The firing model is a TERMINATOR, BIKER, CENTURION, or DREADNOUGHT. For the purposes of this ability a Rapid Fire Bolt weapon is any weapon with the Rapid Fire type whose name includes the word &apos;bolt&apos; (e.g. boltgun, bolt rifle, storm bolter, combi-bolter, hurricane bolter, inferno boltgun, etc.) This also applies when firing the boltgun profile of a combi-weapon (including the bolt weapon profile of Relics such as Blood Song and the Lion&apos;s Wrath) and when firing relics that replace a Rapid Fire bolt weapon, so long as the relic is also a rapid-fire weapon (e.g. Primarch&apos;s Wrath, Fury of Deimos, etc) The gauntlets of ultramar and the Talon of Horus are also considered Rapid Fire Bolt weapons, as is the guardian spear used by Deathwatch Watch Masters.</description>
+      <description>All ADEPTUS ASTARTES and HERETIC ASTARTES models gain this ability. 而不是 following the normal rules for Rapid Fire weapons, Rapid Fire bolt weapons used by models with this ability make double the number of attacks if any of the following conditions apply: 1) The firing model&apos;s target is 范围内 half the weapon&apos;s maximum range. 2)    The firing model is INFANTRY and every model in its unit remained stationary in your previous 移动阶段. 3) The firing model is a TERMINATOR, BIKER, CENTURION, or DREADNOUGHT. For the purposes of this ability a Rapid Fire Bolt weapon is any weapon with the Rapid Fire type whose name includes the word &apos;bolt&apos; (e.g. boltgun, bolt rifle, storm bolter, combi-bolter, hurricane bolter, inferno boltgun, etc.) This also applies when firing the boltgun profile of a combi-weapon (including the bolt weapon profile of Relics such as Blood Song and the Lion&apos;s Wrath) and when firing relics that replace a Rapid Fire bolt weapon, so long as the relic is also a rapid-fire weapon (e.g. Primarch&apos;s Wrath, Fury of Deimos, etc) The gauntlets of ultramar and the Talon of Horus are also considered Rapid Fire Bolt weapons, as is the guardian spear used by Deathwatch Watch Masters.</description>
     </rule>
     <rule id="01a4-bec8-b573-fde7" name="死亡天使" hidden="false">
-      <description>This unit has the following abilities: And They Shall Know No Fear, Bolter Discipline, Shock Assault and Combat Doctrines.’</description>
+      <description>这个单位 has the following abilities: And They Shall Know No Fear, Bolter Discipline, Shock Assault and Combat Doctrines.’</description>
     </rule>
     <rule id="f9ce-5a8b-7abd-2395" name="雷霆突击" hidden="false">
-      <description>If this unit makes a charge move, is charged or performs a Heroic Intervention, add 1 to the Attacks characteristic of models in this unit until the end of the turn.</description>
+      <description>If 这个单位 makes a 冲锋移动, is charged or performs a Heroic Intervention, add 1 to the Attacks characteristic of models in 这个单位 until the end of the turn.</description>
     </rule>
     <rule id="73c3-c791-cd2f-6ad2" name="Hateful Assault" hidden="false">
-      <description>If this unit makes a charge move, is charged or performs a Heroic Intervention, add 1 to the Attacks characteristic of models in this unit until the end of the turn.</description>
+      <description>If 这个单位 makes a 冲锋移动, is charged or performs a Heroic Intervention, add 1 to the Attacks characteristic of models in 这个单位 until the end of the turn.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -8372,7 +8372,7 @@
     </profile>
     <profile id="c883-3078-1367-cc2c" name="烟雾发射器" publicationId="28ec-711c-pubN72690" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per game, instead of shooting any weapons in the 射击阶段, the vehicle can use its 烟雾发射器; until your next 射击阶段 your opponent must subtract 1 from all hit rolls for ranged weapons that target this vehicle.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per game, 而不是 shooting any weapons in the 射击阶段, the vehicle can use its 烟雾发射器; until your next 射击阶段 your opponent must subtract 1 from 所有命中骰 for ranged weapons that target 这个载具.</characteristic>
       </characteristics>
     </profile>
     <profile id="20dc-1fbb-dc65-7f04" name="突击炮" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -8597,17 +8597,17 @@
     </profile>
     <profile id="4986-b80f-dc78-d02f" name="Escape Hatch" publicationId="28ec-711c-pubN113754" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When this building is first occupied, the owning player can place an escape hatch marker anywhere 范围内 12寸 of the building that is not impassable terrain or 范围内 another building. The escape hatch marker is an additional Access Point for the building, but models using it cannot use the Repel the Enemy special rule.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When this building is first occupied, the owning player can place an escape hatch marker anywhere 范围内 12寸 of the building that is not impassable terrain or 范围内 another building. The escape hatch marker is an additional Access Point for the building, but models using it cannot use the Repel the 敌方 special rule.</characteristic>
       </characteristics>
     </profile>
     <profile id="2a6f-53c2-d2ea-092f" name="Booby Traps" publicationId="28ec-711c-pubN77581" page="110" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The first unit to occupy this building (friend or foe) immediately suffers 2D6 S4 AP5 hits with the Ignores Cover special rule.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The first unit to occupy this building (friend or foe) immediately 遭受 2D6 S4 AP5 hits with the Ignores Cover special rule.</characteristic>
       </characteristics>
     </profile>
     <profile id="68d8-f686-c260-76db" name="Barricades" publicationId="28ec-711c-pubN113754" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A model in cover behind a barricade or wall has a 4+ cover save. Models that are in base contact with a barricade or wall are treated as being in base contact with any enemy models who are directly opposite them and in base contact with the other side of that barricade or wall. Units charging an enemy that is behind a barricade or wall count as charging through difficult terrain.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A model in cover behind a barricade or wall has a 4+ cover save. Models that are in base contact with a barricade or wall are treated as being in base contact with any 敌方模型 who are directly opposite them and in base contact with the other side of that barricade or wall. Units charging an 敌方 that is behind a barricade or wall count as charging through difficult terrain.</characteristic>
       </characteristics>
     </profile>
     <profile id="e158-7adf-1565-ef08" name="Tanglewire" publicationId="28ec-711c-pubN113754" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -8635,7 +8635,7 @@
     </profile>
     <profile id="705c-91aa-6591-507b" name="Gun Emplacement (Details)" publicationId="28ec-711c-pubN113754" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A model in cover behind a gun emplacement has a 4+ cover save. One non-vehicle model in base contact with a gun emplacement can fire it instead of firing its own weapons. A model that fires a gun emplacement has the Relentless special rule for that shooting attack. A gun emplacement can be shot at and attacked in close combat. It is hit automatically in close combat.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A model in cover behind a gun emplacement has a 4+ cover save. One non-vehicle model in base contact with a gun emplacement can fire it 而不是 firing its own weapons. A model that fires a gun emplacement has the Relentless special rule for that shooting attack. A gun emplacement can be shot at and attacked in close combat. It is hit automatically in close combat.</characteristic>
       </characteristics>
     </profile>
     <profile id="70aa-366f-15ac-da4d" name="Comms Relay" publicationId="28ec-711c-pubN113754" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -8695,7 +8695,7 @@
     </profile>
     <profile id="f0ec-023c-4865-fe5a" name="Psychic Hood" publicationId="28ec-711c-pubN72690" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time a unit (or model) is targeted by an enemy psychic power and is 范围内 12寸 of a 友方 model with a psychic hood, the wearer of the hood can attempt to Deny the Witch in their stead, as if he were in the target unit.  If the Deny the Witch attempt is failed, the psychic power is resolved as normal, but effects only the initial target, not the wearer of the hood.  If a model with a psychic hood is embarked in a vehicle or building, he can only use the hood to nullify powers targeting the vehicle or building he is embarked within.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time a unit (or model) is targeted by an 敌方 psychic power and is 范围内 12寸 of a 友方模型 with a psychic hood, the wearer of the hood can attempt to Deny the Witch in their stead, as if he were in the target unit.  If the Deny the Witch attempt is failed, the psychic power is resolved as normal, but effects only the initial target, not the wearer of the hood.  If a model with a psychic hood is 上车 in a vehicle or building, he can only use the hood to nullify powers targeting the vehicle or building he is 上车 within.</characteristic>
       </characteristics>
     </profile>
     <profile id="98ac-5132-9ebd-c355" name="Orbital Strike" publicationId="28ec-711c-pubN72690" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -9015,7 +9015,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">10</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">This weapon can only be fired once per battle. 曲射. When targeting units with 10 or more models, change this weapon&apos;s Type to Heavy D6.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">这个武器 can only be fired once per battle. 曲射. When targeting units with 10 or more models, change 这个武器&apos;s Type to Heavy D6.</characteristic>
       </characteristics>
     </profile>
     <profile id="3937-3d5e-da78-af96" name="等离子爆裂枪-标准" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -9285,7 +9285,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">This weapon can target units that are not visible to the firing model.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">这个武器 can target units that are not visible to the firing model.</characteristic>
       </characteristics>
     </profile>
     <profile id="f4df-b39c-08a7-5255" name="Whirlwind vengeance launcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -9295,7 +9295,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">7</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">This weapon can target units that are not visible to the firing model.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">这个武器 can target units that are not visible to the firing model.</characteristic>
       </characteristics>
     </profile>
     <profile id="802b-8d1b-8b9f-41e2" name="Wrist-mounted grenade launcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -9410,7 +9410,7 @@
     </profile>
     <profile id="b754-9672-4689-cefb" name="迷彩斗篷" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If every model in a unit has a camo cloak you can add 2 to saving throws made for models in the unit when they receive the benefits of cover, instead of 1.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If every model in a unit has a camo cloak you can add 2 to saving throws made for models in the unit when they receive the benefits of cover, 而不是 1.</characteristic>
       </characteristics>
     </profile>
     <profile id="d0a0-002c-8278-a70e" name="战斗盾" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -9497,7 +9497,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">x2</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
-        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">When a model attacks with this weapon, you must subtract 1 from the hit roll.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">When a model attacks with 这个武器, you must subtract 1 from the hit roll.</characteristic>
       </characteristics>
     </profile>
     <profile id="9873-9487-e878-7e93" name="驱灵手雷" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -9522,42 +9522,42 @@
     </profile>
     <profile id="c408-8555-a6df-257f" name="不动" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">After this model has been set up on the battlefield it cannot move for any reason, and no units can embark upon it.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">After 这个模型 has been set up on the battlefield it cannot move for any reason, and no units can embark upon it.</characteristic>
       </characteristics>
     </profile>
     <profile id="a179-f592-3224-72c9" name="Automated Weapons" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Unless a 友方 unit is embarked aboard this model, it can only target the closest visible enemy unit when it makes attacks. If two or more units are equally close, you can choose which is targeted.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Unless a 友方单位 is 上车 aboard 这个模型, it can only target the closest visible 敌方单位 when it makes attacks. If two or more units are equally close, you can choose which is targeted.</characteristic>
       </characteristics>
     </profile>
     <profile id="429b-91d2-8356-7150" name="Magazine Explosion" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model is reduced to 0 wounds, 投掷1个D6 before removing it from the battlefield and before any embarked models disembark. On a 6 its magazine explodes, and each unit 范围内 2D6寸 suffers D3 mortal wounds.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 在载具被移除及任何在这个载具上的模型下车前投掷1个D6. On a 6 its magazine explodes, 每个单位 范围内 2D6寸 遭受 D3 致命伤.</characteristic>
       </characteristics>
     </profile>
     <profile id="e433-6678-6be1-355c" name="Fire Points (5)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Up to 5 models embarked aboard this model can shoot in your 射击阶段, measuring and drawing line of sight from any point on this model. When they do so, any restrictions and modifiers that apply to this model also apply to its embarked models.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Up to 5 models 上车 aboard 这个模型 can shoot in your 射击阶段, measuring and drawing line of sight from any point on 这个模型. When they do so, any restrictions and modifiers that apply to 这个模型 also apply to its 上车 models.</characteristic>
       </characteristics>
     </profile>
     <profile id="220a-170b-5fd7-36f2" name="Fire Points (10)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Up to 10 models embarked aboard this model can shoot in your 射击阶段, measuring and drawing line of sight from any point on this model. When they do so, any restrictions and modifiers that apply to this model also apply to its embarked models.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Up to 10 models 上车 aboard 这个模型 can shoot in your 射击阶段, measuring and drawing line of sight from any point on 这个模型. When they do so, any restrictions and modifiers that apply to 这个模型 also apply to its 上车 models.</characteristic>
       </characteristics>
     </profile>
     <profile id="298d-b8cf-d3ed-04d8" name="Fire Points (15)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Up to 15 models embarked aboard this model can shoot in your 射击阶段, measuring and drawing line of sight from any point on this model. When they do so, any restrictions and modifiers that apply to this model also apply to its embarked models.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Up to 15 models 上车 aboard 这个模型 can shoot in your 射击阶段, measuring and drawing line of sight from any point on 这个模型. When they do so, any restrictions and modifiers that apply to 这个模型 also apply to its 上车 models.</characteristic>
       </characteristics>
     </profile>
     <profile id="57f6-edd9-6170-5c91" name="自动武器 (炮架)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Unless a 友方 INFANTRY model is 范围内 1寸 of this model, this model can only target the closest visible enemy unit when it makes attacks. If two or more units are equally close, you can choose which is targeted.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Unless a 友方 INFANTRY model is 范围内 1寸 of 这个模型, 这个模型 can only target the closest visible 敌方单位 when it makes attacks. If two or more units are equally close, you can choose which is targeted.</characteristic>
       </characteristics>
     </profile>
     <profile id="c60f-7b10-88fd-9eba" name="静态防御网络 (Aegis)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each Small Shield Section and Large Shield Section in this unit must be set up so that it is in end-to-end contact with at least one other Small Shield Section or Large Shield Section in this unit, and this unit&apos;s Gun Emplacement must be set up 范围内 6寸 of any Small Shield Section or Large Shield Section in this unit. After it is set up, this unit&apos;s Small Shield Sections and Large Shield Sections are treated as a single terrain feature that follows the rules for Barricades (pg 106).</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each Small Shield Section and Large Shield Section in 这个单位 must be set up so that it is in end-to-end contact with at least one other Small Shield Section or Large Shield Section in 这个单位, and 这个单位&apos;s Gun Emplacement must be set up 范围内 6寸 of any Small Shield Section or Large Shield Section in 这个单位. After it is set up, 这个单位&apos;s Small Shield Sections and Large Shield Sections are treated as a single terrain feature that follows the rules for Barricades (pg 106).</characteristic>
       </characteristics>
     </profile>
     <profile id="9446-1148-da70-4028" name="爆炸 (D6寸)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -9579,27 +9579,27 @@
     </profile>
     <profile id="589d-78cf-845c-2b65" name="Legendary Fighter" publicationId="28ec-711c-pubN72690" page="186" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this Warlord charges in the Charge phase, add 1 to their Attacks characteristic until the end of the ensuing 肉搏阶段.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个主将 charges in the Charge phase, add 1 to their Attacks characteristic until the end of the ensuing 肉搏阶段.</characteristic>
       </characteristics>
     </profile>
     <profile id="add7-15e6-fb9e-25e4" name="Inspiring Leader" publicationId="28ec-711c-pubN72690" page="186" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Friendly units 范围内 6寸 of this Warlord can add 1 to their LD characteristic.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">友方单位 范围内 6寸 of 这个主将 can add 1 to their LD characteristic.</characteristic>
       </characteristics>
     </profile>
     <profile id="7a19-046d-bf4e-bae3" name="Tenacious Survivor" publicationId="28ec-711c-pubN72690" page="186" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Roll a dice each time this Warlord loses a wound. On a 6, the Warlord shrugs off the damage and does not lose the wound.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Roll a dice each time 这个主将 loses a wound. On a 6, the 主将 shrugs off the damage and does not lose the wound.</characteristic>
       </characteristics>
     </profile>
     <profile id="8830-2c9e-ad7e-e57d" name="不动 (工事)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model cannot move for any reason, nor can it fight in the 肉搏阶段. When resolving an attack made against this model in the 肉搏阶段, do not make a hit roll: it automatically scores a hit. This model can shoot in your 射击阶段 even if there are enemy models 范围内 1寸 of it, and 友方 units can still target enemy units that are 范围内 1寸 of this model.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 cannot move for any reason, nor can it fight in the 肉搏阶段. When resolving an attack made against 这个模型 in the 肉搏阶段, do not make a hit roll: it automatically scores a hit. 这个模型 can shoot in your 射击阶段 even if there are 敌方模型 范围内 1寸 of it, and 友方单位 can still target 敌方单位 that are 范围内 1寸 of 这个模型.</characteristic>
       </characteristics>
     </profile>
     <profile id="76e8-a8df-d243-1673" name="Frag Assault Launchers" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">投掷1个D6 each time this model finishes a charge move 范围内 1寸 of an enemy unit; on a 4+ that unit suffers D3 mortal wounds.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">投掷1个D6 each time 这个模型 完成冲锋移动 范围内 1寸 of an 敌方单位; on a 4+ 那个单位 遭受 D3 致命伤.</characteristic>
       </characteristics>
     </profile>
     <profile id="7b08-1e6d-69a9-932d" name="浩劫发射器" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -9614,27 +9614,27 @@
     </profile>
     <profile id="46f3-7be5-6ec3-4fde" name="Rapid Tunnelling" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of your movement phase, you can remove this model from the battlefield. At the end of your next Movement phase, set it up again, anywhere on the battlefield that is more than 9寸 away from any enemy models.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of your 移动阶段, you can remove 这个模型 from the battlefield. At the end of your next 移动阶段, set it up again, anywhere on the battlefield that is more than 9寸 away from any 敌方模型.</characteristic>
       </characteristics>
     </profile>
     <profile id="8e81-7c95-43ba-6e0d" name="Explodes (2D6寸)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When this model is destroyed, roll one D6 before any embarked models disembark and before removing it from play. On a 6 it explodes, and each unit 范围内 2D6寸 suffers D3 mortal wounds.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When 这个模型 is destroyed, 投掷1个D6 before any 上车 models 下车 and before removing it from play. 结果为6则爆炸, 每个单位 范围内 2D6寸 遭受 D3 致命伤.</characteristic>
       </characteristics>
     </profile>
     <profile id="07c8-4bf0-0b10-9830" name="静态防御网络 (Imperial)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Every model in this unit must be set up so that it is in end-to-end contact with at least one other 友方 WALL OF MARTYRS model. After it is set up, models in this unit are treated as terrain features that follow the rules for Barricades (pg 106).</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Every model in 这个单位 must be set up so that it is in end-to-end contact with at least one other 友方 WALL OF MARTYRS model. After it is set up, models in 这个单位 are treated as terrain features that follow the rules for Barricades (pg 106).</characteristic>
       </characteristics>
     </profile>
     <profile id="4ab1-b4c4-a404-8c2f" name="Explodes (2D6寸 / D6)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When this model is destroyed, roll one D6 before any embarked models disembark and before removing it from play. On a 6 it explodes, and each unit 范围内 2D6寸 suffers D6 mortal wounds.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When 这个模型 is destroyed, 投掷1个D6 before any 上车 models 下车 and before removing it from play. 结果为6则爆炸, 每个单位 范围内 2D6寸 遭受 D6 致命伤.</characteristic>
       </characteristics>
     </profile>
     <profile id="0f50-2ea2-b251-a213" name="Automated Weapons (Icarus)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Unless a 友方 unit is embarked aboard this model, this model&apos;s weapons can only target the closest visible enemy unit. Attacks made with the Icarus Lascannon can instead target the closest visible enemy unit that can FLY. In either case, if two or more units are equally close, you may choose which is targeted.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Unless a 友方单位 is 上车 aboard 这个模型, 这个模型&apos;s weapons can only target the closest visible 敌方单位. Attacks made with the Icarus Lascannon can instead target the closest visible 敌方单位 that can FLY. In either case, if two or more units are equally close, you may choose which is targeted.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
