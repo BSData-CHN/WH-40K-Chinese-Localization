@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="28ec-711c-d87f-3aeb" name="战锤40K 8版" revision="1" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Developer" authorUrl="https://discord.gg/KqPVhds" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="28ec-711c-d87f-3aeb" name="战锤40K 8版" revision="1" battleScribeVersion="2.03" authorName="BSData-CHN" authorContact="@Developer" authorUrl="https://github.com/BSData-CHN" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="28ec-711c-pubN72690" name="Warhammer 40,000 Rulebook"/>
     <publication id="28ec-711c-pubN73170" name="CA 2017"/>
@@ -231,7 +231,7 @@
           </constraints>
         </categoryLink>
         <categoryLink id="9b48-cd5f-3949-adc6" name="主将" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
-        <categoryLink id="a8d7-367a-2dfd-6b79" name="Relic Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
+        <categoryLink id="a8d7-367a-2dfd-6b79" name="圣物 Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
           <modifiers>
             <modifier type="increment" field="54d4-89c3-38b6-8877" value="1">
               <repeats>
@@ -248,7 +248,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="54d4-89c3-38b6-8877" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="c5d5-0449-f57d-550d" name="Relic Heavy Support" hidden="false" targetId="6c4c-a416-b8cb-c380" primary="false">
+        <categoryLink id="c5d5-0449-f57d-550d" name="圣物 Heavy Support" hidden="false" targetId="6c4c-a416-b8cb-c380" primary="false">
           <modifiers>
             <modifier type="increment" field="9dff-5b31-a31d-ddf2" value="1">
               <repeats>
@@ -265,7 +265,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9dff-5b31-a31d-ddf2" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="c094-1b6f-b2e9-21ba" name="Relic HQ" hidden="false" targetId="655f-e142-dfa9-11a4" primary="false">
+        <categoryLink id="c094-1b6f-b2e9-21ba" name="圣物 HQ" hidden="false" targetId="655f-e142-dfa9-11a4" primary="false">
           <modifiers>
             <modifier type="increment" field="8d95-029f-78db-83ae" value="1">
               <repeats>
@@ -351,7 +351,7 @@
           </constraints>
         </categoryLink>
         <categoryLink id="70a3-5965-8dfd-0dff" name="主将" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
-        <categoryLink id="f91f-9faa-2dff-6fbb" name="Relic Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
+        <categoryLink id="f91f-9faa-2dff-6fbb" name="圣物 Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
           <modifiers>
             <modifier type="increment" field="54d4-89c3-38b6-8877" value="1">
               <repeats>
@@ -368,7 +368,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="54d4-89c3-38b6-8877" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="8174-cdef-2342-bdd2" name="Relic Heavy Support" hidden="false" targetId="6c4c-a416-b8cb-c380" primary="false">
+        <categoryLink id="8174-cdef-2342-bdd2" name="圣物 Heavy Support" hidden="false" targetId="6c4c-a416-b8cb-c380" primary="false">
           <modifiers>
             <modifier type="increment" field="9dff-5b31-a31d-ddf2" value="1">
               <repeats>
@@ -385,7 +385,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9dff-5b31-a31d-ddf2" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="f6a9-c625-86c9-7614" name="Relic HQ" hidden="false" targetId="655f-e142-dfa9-11a4" primary="false">
+        <categoryLink id="f6a9-c625-86c9-7614" name="圣物 HQ" hidden="false" targetId="655f-e142-dfa9-11a4" primary="false">
           <modifiers>
             <modifier type="increment" field="8d95-029f-78db-83ae" value="1">
               <repeats>
@@ -474,7 +474,7 @@
           </constraints>
         </categoryLink>
         <categoryLink id="b505-6d2b-bb65-191e" name="主将" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
-        <categoryLink id="386d-9c19-e897-b48e" name="Relic Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
+        <categoryLink id="386d-9c19-e897-b48e" name="圣物 Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
           <modifiers>
             <modifier type="increment" field="54d4-89c3-38b6-8877" value="1">
               <repeats>
@@ -491,7 +491,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="54d4-89c3-38b6-8877" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="d9cb-8644-0367-f245" name="Relic Heavy Support" hidden="false" targetId="6c4c-a416-b8cb-c380" primary="false">
+        <categoryLink id="d9cb-8644-0367-f245" name="圣物 Heavy Support" hidden="false" targetId="6c4c-a416-b8cb-c380" primary="false">
           <modifiers>
             <modifier type="increment" field="9dff-5b31-a31d-ddf2" value="1">
               <repeats>
@@ -508,7 +508,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9dff-5b31-a31d-ddf2" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="bbb8-1fa2-3f91-6a77" name="Relic HQ" hidden="false" targetId="655f-e142-dfa9-11a4" primary="false">
+        <categoryLink id="bbb8-1fa2-3f91-6a77" name="圣物 HQ" hidden="false" targetId="655f-e142-dfa9-11a4" primary="false">
           <modifiers>
             <modifier type="increment" field="8d95-029f-78db-83ae" value="1">
               <repeats>
@@ -594,7 +594,7 @@
           </constraints>
         </categoryLink>
         <categoryLink id="c3f6-3055-bcd0-788b" name="主将" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
-        <categoryLink id="6eb8-3c2f-13e7-17e1" name="Relic Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
+        <categoryLink id="6eb8-3c2f-13e7-17e1" name="圣物 Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
           <modifiers>
             <modifier type="increment" field="54d4-89c3-38b6-8877" value="1">
               <repeats>
@@ -611,7 +611,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="54d4-89c3-38b6-8877" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="8c66-ed10-ee5d-bf81" name="Relic Heavy Support" hidden="false" targetId="6c4c-a416-b8cb-c380" primary="false">
+        <categoryLink id="8c66-ed10-ee5d-bf81" name="圣物 Heavy Support" hidden="false" targetId="6c4c-a416-b8cb-c380" primary="false">
           <modifiers>
             <modifier type="increment" field="9dff-5b31-a31d-ddf2" value="1">
               <repeats>
@@ -628,7 +628,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9dff-5b31-a31d-ddf2" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="5bb0-6e99-04b4-f883" name="Relic HQ" hidden="false" targetId="655f-e142-dfa9-11a4" primary="false">
+        <categoryLink id="5bb0-6e99-04b4-f883" name="圣物 HQ" hidden="false" targetId="655f-e142-dfa9-11a4" primary="false">
           <modifiers>
             <modifier type="increment" field="8d95-029f-78db-83ae" value="1">
               <repeats>
@@ -714,7 +714,7 @@
           </constraints>
         </categoryLink>
         <categoryLink id="0144-c043-6326-c755" name="主将" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
-        <categoryLink id="dff9-8621-e2dd-b4e3" name="Relic Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
+        <categoryLink id="dff9-8621-e2dd-b4e3" name="圣物 Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
           <modifiers>
             <modifier type="increment" field="54d4-89c3-38b6-8877" value="1">
               <repeats>
@@ -731,7 +731,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="54d4-89c3-38b6-8877" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="2a04-69a5-87bc-14fc" name="Relic Heavy Support" hidden="false" targetId="6c4c-a416-b8cb-c380" primary="false">
+        <categoryLink id="2a04-69a5-87bc-14fc" name="圣物 Heavy Support" hidden="false" targetId="6c4c-a416-b8cb-c380" primary="false">
           <modifiers>
             <modifier type="increment" field="9dff-5b31-a31d-ddf2" value="1">
               <repeats>
@@ -748,7 +748,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9dff-5b31-a31d-ddf2" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="2653-3387-463f-c068" name="Relic HQ" hidden="false" targetId="655f-e142-dfa9-11a4" primary="false">
+        <categoryLink id="2653-3387-463f-c068" name="圣物 HQ" hidden="false" targetId="655f-e142-dfa9-11a4" primary="false">
           <modifiers>
             <modifier type="increment" field="8d95-029f-78db-83ae" value="1">
               <repeats>
@@ -834,7 +834,7 @@
           </constraints>
         </categoryLink>
         <categoryLink id="5411-43af-9074-78ae" name="主将" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
-        <categoryLink id="43a0-ffe6-d029-9152" name="Relic Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
+        <categoryLink id="43a0-ffe6-d029-9152" name="圣物 Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
           <modifiers>
             <modifier type="increment" field="54d4-89c3-38b6-8877" value="1">
               <repeats>
@@ -851,7 +851,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="54d4-89c3-38b6-8877" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="b5b0-80f4-016e-51f8" name="Relic Heavy Support" hidden="false" targetId="6c4c-a416-b8cb-c380" primary="false">
+        <categoryLink id="b5b0-80f4-016e-51f8" name="圣物 Heavy Support" hidden="false" targetId="6c4c-a416-b8cb-c380" primary="false">
           <modifiers>
             <modifier type="increment" field="9dff-5b31-a31d-ddf2" value="1">
               <repeats>
@@ -868,7 +868,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9dff-5b31-a31d-ddf2" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="c59f-786c-5f4d-432f" name="Relic HQ" hidden="false" targetId="655f-e142-dfa9-11a4" primary="false">
+        <categoryLink id="c59f-786c-5f4d-432f" name="圣物 HQ" hidden="false" targetId="655f-e142-dfa9-11a4" primary="false">
           <modifiers>
             <modifier type="increment" field="8d95-029f-78db-83ae" value="1">
               <repeats>
@@ -932,7 +932,7 @@
           </constraints>
         </categoryLink>
         <categoryLink id="2421-180e-769d-d51f" name="主将" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
-        <categoryLink id="2e59-df4f-9429-ef1a" name="Relic Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
+        <categoryLink id="2e59-df4f-9429-ef1a" name="圣物 Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
           <modifiers>
             <modifier type="increment" field="54d4-89c3-38b6-8877" value="1">
               <repeats>
@@ -949,7 +949,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="54d4-89c3-38b6-8877" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="c32f-1035-9b39-65de" name="Relic HQ" hidden="false" targetId="655f-e142-dfa9-11a4" primary="false">
+        <categoryLink id="c32f-1035-9b39-65de" name="圣物 HQ" hidden="false" targetId="655f-e142-dfa9-11a4" primary="false">
           <modifiers>
             <modifier type="increment" field="8d95-029f-78db-83ae" value="1">
               <repeats>
@@ -1022,7 +1022,7 @@
           </constraints>
         </categoryLink>
         <categoryLink id="9ca8-4fb9-709b-b9a6" name="主将" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
-        <categoryLink id="5ae3-7417-3751-8480" name="Relic Lord of War" hidden="false" targetId="3216-79af-660b-7711" primary="false">
+        <categoryLink id="5ae3-7417-3751-8480" name="圣物 Lord of War" hidden="false" targetId="3216-79af-660b-7711" primary="false">
           <modifiers>
             <modifier type="increment" field="c99e-bf0a-6e60-819c" value="1">
               <repeats>
@@ -1119,7 +1119,7 @@
         <categoryLink id="0960-9271-26d6-1831" name="Flyer" hidden="false" targetId="e888-1504-aa61-95ff" primary="false"/>
         <categoryLink id="1d7c-3253-d90d-6e3a" name="Dedicated Transport" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false"/>
         <categoryLink id="09fb-b9a5-3cb5-b0d5" name="主将" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
-        <categoryLink id="ba03-97bb-c51d-9a47" name="Relic" hidden="false" targetId="e10e-b44e-7eda-41d8" primary="false">
+        <categoryLink id="ba03-97bb-c51d-9a47" name="圣物" hidden="false" targetId="e10e-b44e-7eda-41d8" primary="false">
           <constraints>
             <constraint field="selections" scope="8a87-f0e3-f2f2-ad1a" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1781-5ba7-241c-c0b3" type="max"/>
           </constraints>
@@ -1212,7 +1212,7 @@
           </constraints>
         </categoryLink>
         <categoryLink id="7187-699d-2503-992c" name="主将" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
-        <categoryLink id="f717-1d3f-dd97-4126" name="Relic Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
+        <categoryLink id="f717-1d3f-dd97-4126" name="圣物 Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
           <modifiers>
             <modifier type="increment" field="54d4-89c3-38b6-8877" value="1">
               <repeats>
@@ -1229,7 +1229,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="54d4-89c3-38b6-8877" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="c884-2e22-b770-2ea4" name="Relic Heavy Support" hidden="false" targetId="6c4c-a416-b8cb-c380" primary="false">
+        <categoryLink id="c884-2e22-b770-2ea4" name="圣物 Heavy Support" hidden="false" targetId="6c4c-a416-b8cb-c380" primary="false">
           <modifiers>
             <modifier type="increment" field="9dff-5b31-a31d-ddf2" value="1">
               <repeats>
@@ -1246,7 +1246,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9dff-5b31-a31d-ddf2" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="fba2-4040-ac19-c9f9" name="Relic HQ" hidden="false" targetId="655f-e142-dfa9-11a4" primary="false">
+        <categoryLink id="fba2-4040-ac19-c9f9" name="圣物 HQ" hidden="false" targetId="655f-e142-dfa9-11a4" primary="false">
           <modifiers>
             <modifier type="increment" field="8d95-029f-78db-83ae" value="1">
               <repeats>
@@ -1336,7 +1336,7 @@
           </constraints>
         </categoryLink>
         <categoryLink id="3c3b-27e3-c0b7-b3ee" name="主将" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
-        <categoryLink id="4191-d1fc-fa74-f144" name="Relic Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
+        <categoryLink id="4191-d1fc-fa74-f144" name="圣物 Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
           <modifiers>
             <modifier type="increment" field="54d4-89c3-38b6-8877" value="1">
               <repeats>
@@ -1353,7 +1353,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="54d4-89c3-38b6-8877" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="fee7-452a-1930-e058" name="Relic Heavy Support" hidden="false" targetId="6c4c-a416-b8cb-c380" primary="false">
+        <categoryLink id="fee7-452a-1930-e058" name="圣物 Heavy Support" hidden="false" targetId="6c4c-a416-b8cb-c380" primary="false">
           <modifiers>
             <modifier type="increment" field="9dff-5b31-a31d-ddf2" value="1">
               <repeats>
@@ -1370,7 +1370,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9dff-5b31-a31d-ddf2" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="0711-642a-731c-6618" name="Relic HQ" hidden="false" targetId="655f-e142-dfa9-11a4" primary="false">
+        <categoryLink id="0711-642a-731c-6618" name="圣物 HQ" hidden="false" targetId="655f-e142-dfa9-11a4" primary="false">
           <modifiers>
             <modifier type="increment" field="8d95-029f-78db-83ae" value="1">
               <repeats>
@@ -1460,7 +1460,7 @@
           </constraints>
         </categoryLink>
         <categoryLink id="eed4-ea5f-257c-0699" name="主将" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
-        <categoryLink id="e346-2f51-2beb-4df1" name="Relic Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
+        <categoryLink id="e346-2f51-2beb-4df1" name="圣物 Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
           <modifiers>
             <modifier type="increment" field="54d4-89c3-38b6-8877" value="1">
               <repeats>
@@ -1477,7 +1477,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="54d4-89c3-38b6-8877" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="fc1e-73ca-8982-5ee9" name="Relic Heavy Support" hidden="false" targetId="6c4c-a416-b8cb-c380" primary="false">
+        <categoryLink id="fc1e-73ca-8982-5ee9" name="圣物 Heavy Support" hidden="false" targetId="6c4c-a416-b8cb-c380" primary="false">
           <modifiers>
             <modifier type="increment" field="9dff-5b31-a31d-ddf2" value="1">
               <repeats>
@@ -1494,7 +1494,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9dff-5b31-a31d-ddf2" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="ea6a-5689-5bbb-04fe" name="Relic HQ" hidden="false" targetId="655f-e142-dfa9-11a4" primary="false">
+        <categoryLink id="ea6a-5689-5bbb-04fe" name="圣物 HQ" hidden="false" targetId="655f-e142-dfa9-11a4" primary="false">
           <modifiers>
             <modifier type="increment" field="8d95-029f-78db-83ae" value="1">
               <repeats>
@@ -1590,7 +1590,7 @@
           </constraints>
         </categoryLink>
         <categoryLink id="3e5e-b1fa-a208-60bd" name="主将" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
-        <categoryLink id="414e-4ecb-b1e8-75c3" name="Relic Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
+        <categoryLink id="414e-4ecb-b1e8-75c3" name="圣物 Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
           <modifiers>
             <modifier type="increment" field="54d4-89c3-38b6-8877" value="1">
               <repeats>
@@ -1607,7 +1607,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="54d4-89c3-38b6-8877" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="52e7-ca29-a7fd-9577" name="Relic Heavy Support" hidden="false" targetId="6c4c-a416-b8cb-c380" primary="false">
+        <categoryLink id="52e7-ca29-a7fd-9577" name="圣物 Heavy Support" hidden="false" targetId="6c4c-a416-b8cb-c380" primary="false">
           <modifiers>
             <modifier type="increment" field="9dff-5b31-a31d-ddf2" value="1">
               <repeats>
@@ -1624,7 +1624,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9dff-5b31-a31d-ddf2" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="fe7d-0ab3-77ba-4216" name="Relic HQ" hidden="false" targetId="655f-e142-dfa9-11a4" primary="false">
+        <categoryLink id="fe7d-0ab3-77ba-4216" name="圣物 HQ" hidden="false" targetId="655f-e142-dfa9-11a4" primary="false">
           <modifiers>
             <modifier type="increment" field="8d95-029f-78db-83ae" value="1">
               <repeats>
@@ -2762,7 +2762,7 @@
     </selectionEntry>
     <selectionEntry id="5752-d165-5e03-d38c" name="自动枪" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="f8c7-9649-7ee6-49a3" name="Autogun" hidden="false" targetId="fcde-3e6a-e240-1157" type="profile"/>
+        <infoLink id="f8c7-9649-7ee6-49a3" name="自动枪" hidden="false" targetId="fcde-3e6a-e240-1157" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="0.0"/>
@@ -3553,7 +3553,7 @@
     </selectionEntry>
     <selectionEntry id="0140-c9f2-0524-34cc" name="圣物刃" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="547d-7f85-1acc-fc56" name="Relic blade" hidden="false" targetId="ea0a-a19e-1e9a-b830" type="profile"/>
+        <infoLink id="547d-7f85-1acc-fc56" name="圣物 blade" hidden="false" targetId="ea0a-a19e-1e9a-b830" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="9.0"/>
@@ -3861,7 +3861,7 @@
     </selectionEntry>
     <selectionEntry id="fd87-854b-d284-184a" name="激光枪" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="9bc7-673e-b74e-d6b3" name="Lasgun" hidden="false" targetId="d174-eb55-aaa6-d032" type="profile"/>
+        <infoLink id="9bc7-673e-b74e-d6b3" name="激光枪" hidden="false" targetId="d174-eb55-aaa6-d032" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
