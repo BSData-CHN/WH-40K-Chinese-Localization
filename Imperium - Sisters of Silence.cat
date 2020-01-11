@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a008-1eeb-8c4e-96b7" name="Imperium - Sisters of Silence" revision="8" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="Discord: @Alphalas | Twitter: @kingoverlord" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a008-1eeb-8c4e-96b7" name="帝国 - 寂静修女" revision="8" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="Discord: @Alphalas | Twitter: @kingoverlord" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="a008-1eeb-pubN65537" name="Index: Imperium 2"/>
     <publication id="a008-1eeb-pubN69744" name="Codex: Space Marines"/>
   </publications>
   <categoryEntries>
     <categoryEntry id="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" name="Elites" hidden="false"/>
-    <categoryEntry id="be18-af79-8c70-633f" name="Faction: Astra Telepathica" hidden="false"/>
-    <categoryEntry id="8bcf-a0bd-54ad-9531" name="Faction: Sisters of Silence" hidden="false"/>
-    <categoryEntry id="8f2a-01c6-005f-1866" name="Witchseekers" hidden="false"/>
-    <categoryEntry id="8b48-20db-5b9b-5fd7" name="Null-Maiden Rhino" hidden="false"/>
-    <categoryEntry id="dd65-0ed5-6aa3-0f9f" name="Vigilators" hidden="false"/>
-    <categoryEntry id="4b0b-94bb-a2de-73d3" name="Prosecutors" hidden="false"/>
+    <categoryEntry id="be18-af79-8c70-633f" name="阵营: 星语庭" hidden="false"/>
+    <categoryEntry id="8bcf-a0bd-54ad-9531" name="阵营: 寂静修女" hidden="false"/>
+    <categoryEntry id="8f2a-01c6-005f-1866" name="猎巫者" hidden="false"/>
+    <categoryEntry id="8b48-20db-5b9b-5fd7" name="虚无少女犀牛" hidden="false"/>
+    <categoryEntry id="dd65-0ed5-6aa3-0f9f" name="守望者" hidden="false"/>
+    <categoryEntry id="4b0b-94bb-a2de-73d3" name="追猎者" hidden="false"/>
   </categoryEntries>
   <forceEntries>
-    <forceEntry id="0383-bad5-390e-4cca" name="Vanguard Detachment" hidden="false">
+    <forceEntry id="0383-bad5-390e-4cca" name="先锋分队" hidden="false">
       <forceEntries>
-        <forceEntry id="ff3a-fba8-4f66-fe7e" name="Vanguard Detachment" hidden="false">
+        <forceEntry id="ff3a-fba8-4f66-fe7e" name="先锋分队" hidden="false">
           <categoryLinks>
             <categoryLink id="252f-c1ff-8221-7ded" name="No Force Org Slot" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
             <categoryLink id="1771-dd1b-11e6-43d0" name="Troops" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false"/>
@@ -86,7 +86,7 @@
     <entryLink id="b669-5c7b-1e8a-e3d1" name="Witchseekers" hidden="false" collective="false" import="true" targetId="7ce8-5cff-cc35-753d" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="4e40-4bc6-5bbb-7b98" name="Prosecutors" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="4e40-4bc6-5bbb-7b98" name="追猎者" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="increment" field="e356-c769-5920-6e14" value="3">
           <conditions>
@@ -95,9 +95,9 @@
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="129c-2c6a-a47f-fd78" name="Prosecution Protocols" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="129c-2c6a-a47f-fd78" name="追猎协议" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Ranged weapons that models in this unit are equipped with can target a PSYKER CHARACTER even if it is not the closest enemy unit.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以直接攻击灵能者人物</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -115,7 +115,7 @@
         <categoryLink id="de24-b147-eb9d-f217" name="Prosecutors" hidden="false" targetId="4b0b-94bb-a2de-73d3" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="1065-a44d-41ef-61bd" name="Prosecutor" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="1065-a44d-41ef-61bd" name="追猎者" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="18d6-1300-536e-feca" type="min"/>
             <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b217-50d6-a479-cd02" type="max"/>
@@ -137,12 +137,12 @@
             <entryLink id="747c-48a7-7208-5991" name="Psyk-Out Grenades" hidden="false" collective="false" import="true" targetId="fde4-9464-39bc-8968" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="10.0"/>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="分" typeId="points" value="10.0"/>
+            <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="3e04-24a0-dada-2b39" name="Sister Superior" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="3e04-24a0-dada-2b39" name="修女领队" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f834-4bda-247d-068f" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="703c-df6d-d43e-5576" type="min"/>
@@ -160,9 +160,9 @@
             <entryLink id="86a7-06fa-37b3-d53f" name="Psyk-Out Grenades" hidden="false" collective="false" import="true" targetId="fde4-9464-39bc-8968" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="10.0"/>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="分" typeId="points" value="10.0"/>
+            <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -171,24 +171,24 @@
         <entryLink id="3145-c26a-8d83-7c86" name="Unit has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="3.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="3.0"/>
+        <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d233-0d52-7b70-1fdd" name="Null-Maiden Rhino" page="0" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="d233-0d52-7b70-1fdd" name="虚无少女犀牛" page="0" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="05fb-55c1-c5d0-2453" name="Self-Repair" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="05fb-55c1-c5d0-2453" name="自我修复系统" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of your turn, if this model has lost any wounds, you can roll one D6; on a 6 thism odel regains 1 lost wound.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">回合开始时,投掷D6,结果为6则回复1点失去的W</characteristic>
           </characteristics>
         </profile>
-        <profile id="f921-0782-81b7-2577" name="Null-Maiden Rhino" publicationId="a008-1eeb-pubN69744" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="Transport">
+        <profile id="f921-0782-81b7-2577" name="运载能力" publicationId="a008-1eeb-pubN69744" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
           <characteristics>
-            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">This model can transport 10 SISTERS OF SILENCE INFANTRY models.</characteristic>
+            <characteristic name="容量" typeId="15aa-1916-a38b-d223">可以运输10个寂静修女步兵模型</characteristic>
           </characteristics>
         </profile>
-        <profile id="aefb-58d6-c136-217f" name="Null-Maiden Rhino" publicationId="a008-1eeb-pubN69744" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="aefb-58d6-c136-217f" name="虚无处女犀牛" publicationId="a008-1eeb-pubN69744" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">*</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">6+</characteristic>
@@ -201,41 +201,43 @@
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="abc6-7dfe-4533-443f" name="Null-Maiden Rhino 1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="abc6-7dfe-4533-443f" name="损伤表 1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">6-10</characteristic>
-            <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">12&quot;</characteristic>
-            <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">3+</characteristic>
-            <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">3</characteristic>
+            <characteristic name="剩余 W" typeId="8e45-c866-b2d4-c9ab">6-10</characteristic>
+            <characteristic name="参数 1" typeId="bf41-c860-50bc-2a7e">12寸</characteristic>
+            <characteristic name="参数 2" typeId="dc18-e51f-309b-8efa">3+</characteristic>
+            <characteristic name="参数 3" typeId="df06-8eca-150f-90ba">3</characteristic>
           </characteristics>
         </profile>
-        <profile id="02da-e95f-db6f-30c1" name="Null-Maiden Rhino 2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="02da-e95f-db6f-30c1" name="损伤表 2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">3-5</characteristic>
-            <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">6&quot;</characteristic>
-            <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">4+</characteristic>
-            <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">D3</characteristic>
+            <characteristic name="剩余 W" typeId="8e45-c866-b2d4-c9ab">3-5</characteristic>
+            <characteristic name="参数 1" typeId="bf41-c860-50bc-2a7e">6寸</characteristic>
+            <characteristic name="参数 2" typeId="dc18-e51f-309b-8efa">4+</characteristic>
+            <characteristic name="参数 3" typeId="df06-8eca-150f-90ba">D3</characteristic>
           </characteristics>
         </profile>
-        <profile id="7aea-7a1e-3922-8854" name="Null-Maiden Rhino 3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="7aea-7a1e-3922-8854" name="损伤表 3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">1-2</characteristic>
-            <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">3&quot;</characteristic>
-            <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">5+</characteristic>
-            <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">1</characteristic>
+            <characteristic name="剩余 W" typeId="8e45-c866-b2d4-c9ab">1-2</characteristic>
+            <characteristic name="参数 1" typeId="bf41-c860-50bc-2a7e">3寸</characteristic>
+            <characteristic name="参数 2" typeId="dc18-e51f-309b-8efa">5+</characteristic>
+            <characteristic name="参数 3" typeId="df06-8eca-150f-90ba">1</characteristic>
           </characteristics>
         </profile>
-        <profile id="f9c7-234a-b561-566d" name="Explodes" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="f9c7-234a-b561-566d" name="爆炸" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When this model is destroyed, roll one D6 before any embarked models disembark, and before removing it from play. On a 6 it expldes, and each unit within 6&quot; suffers D3 mortal wounds.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">爆炸鉴定:6
+距离:6寸
+致命伤:D3</characteristic>
           </characteristics>
         </profile>
-        <profile id="63fb-58b0-fe2f-859d" name="Null-Maiden Rhino" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="63fb-58b0-fe2f-859d" name="损伤表" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">-</characteristic>
-            <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">M</characteristic>
-            <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">BS</characteristic>
-            <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">A</characteristic>
+            <characteristic name="剩余 W" typeId="8e45-c866-b2d4-c9ab">-</characteristic>
+            <characteristic name="参数 1" typeId="bf41-c860-50bc-2a7e">M</characteristic>
+            <characteristic name="参数 2" typeId="dc18-e51f-309b-8efa">BS</characteristic>
+            <characteristic name="参数 3" typeId="df06-8eca-150f-90ba">A</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -268,12 +270,12 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="65.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="4.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="65.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="4.0"/>
+        <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7392-e278-494b-8b66" name="Vigilators" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="7392-e278-494b-8b66" name="守望者" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="increment" field="e356-c769-5920-6e14" value="4">
           <conditions>
@@ -295,7 +297,7 @@
         <categoryLink id="968b-abb4-551d-7635" name="Vigilators" hidden="false" targetId="dd65-0ed5-6aa3-0f9f" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="8cb6-d8a7-f681-40c5" name="Vigilator" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="8cb6-d8a7-f681-40c5" name="守望者" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6418-960c-2693-069c" type="min"/>
             <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="751c-4047-a63b-2227" type="max"/>
@@ -316,12 +318,12 @@
             <entryLink id="dee7-debe-95c4-0f03" name="Psyk-Out Grenades" hidden="false" collective="false" import="true" targetId="fde4-9464-39bc-8968" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="10.0"/>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="分" typeId="points" value="10.0"/>
+            <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="6aab-d9a0-000f-7a21" name="Sister Superior" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="6aab-d9a0-000f-7a21" name="修女领队" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="59b1-575c-7024-00bd" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9488-fcf4-e233-62a3" type="min"/>
@@ -338,9 +340,9 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="10.0"/>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="分" typeId="points" value="10.0"/>
+            <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -349,12 +351,12 @@
         <entryLink id="7c9b-f6a6-21aa-442e" name="Unit has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="4.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="4.0"/>
+        <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7ce8-5cff-cc35-753d" name="Witchseekers" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="7ce8-5cff-cc35-753d" name="猎巫者" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="increment" field="e356-c769-5920-6e14" value="5">
           <conditions>
@@ -376,7 +378,7 @@
         <categoryLink id="8ab5-9c2c-64d3-c8e1" name="Witchseekers" hidden="false" targetId="8f2a-01c6-005f-1866" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="7f87-2fb3-f4d7-56b5" name="Witchseeker" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="7f87-2fb3-f4d7-56b5" name="追猎者" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6306-760e-6eb6-0346" type="min"/>
             <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d572-2ad4-65cc-5b10" type="max"/>
@@ -389,7 +391,7 @@
             </infoLink>
           </infoLinks>
           <selectionEntries>
-            <selectionEntry id="b7aa-8e4f-cccd-b749" name="Flamer" hidden="false" collective="true" import="true" type="upgrade">
+            <selectionEntry id="b7aa-8e4f-cccd-b749" name="喷火器" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4881-b4df-ce6c-2809" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f34-a41d-f406-1ff8" type="min"/>
@@ -398,9 +400,9 @@
                 <infoLink id="2751-8119-8a3c-edea" name="New InfoLink" hidden="false" targetId="cdc3-3459-a28c-a9cf" type="profile"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="6.0"/>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="分" typeId="points" value="6.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -408,12 +410,12 @@
             <entryLink id="715f-85ad-1b89-8cb5" name="Psyk-Out Grenades" hidden="false" collective="false" import="true" targetId="fde4-9464-39bc-8968" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="10.0"/>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="分" typeId="points" value="10.0"/>
+            <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="5b1d-9fd8-9be9-5722" name="Sister Superior" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="5b1d-9fd8-9be9-5722" name="修女领队" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="88ad-b081-e382-f584" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6349-726e-b229-0932" type="min"/>
@@ -431,9 +433,9 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="10.0"/>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="分" typeId="points" value="10.0"/>
+            <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -442,35 +444,35 @@
         <entryLink id="2505-c214-95dd-85ab" name="Unit has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="5.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="5.0"/>
+        <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fde4-9464-39bc-8968" name="Psyk-Out Grenades" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="fde4-9464-39bc-8968" name="驱灵手雷" hidden="false" collective="true" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f5e-9ffd-6488-6413" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="221b-7f1c-60ca-9a88" type="min"/>
       </constraints>
       <profiles>
-        <profile id="09ef-b060-3351-ab33" name="Psyk-Out Grenades" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="09ef-b060-3351-ab33" name="驱灵手雷" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
-            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6&quot;</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Grenade D3</characteristic>
+            <characteristic name="射程" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6寸</characteristic>
+            <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手雷 D3</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">2</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When resolving an attack made with this weapon against a PSYKER or DAEMON unit, a hit roll of 6+ inflicts a mortal wound on the target and the attack sequence ends.</characteristic>
+            <characteristic name="能力" typeId="837d-5e63-aeb7-1410">对攻击灵能者和恶魔骰出6+的造伤骰时,目标遭受1点致命伤,且攻击结算就此结束</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c519-ed06-1c3c-02a9" name="Executioner Greatblade" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="c519-ed06-1c3c-02a9" name="处决者巨剑" hidden="false" collective="true" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a68f-050e-2ffa-6a9c" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5efc-2dc2-0ea2-3421" type="min"/>
@@ -478,39 +480,39 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2774-af5a-b54b-7db8" type="max"/>
       </constraints>
       <profiles>
-        <profile id="2858-51c2-08df-5584" name="Executioner Greatblade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="2858-51c2-08df-5584" name="处决者巨剑" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
-            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+            <characteristic name="射程" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
+            <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">+1</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
+            <characteristic name="能力" typeId="837d-5e63-aeb7-1410"/>
           </characteristics>
         </profile>
       </profiles>
       <costs>
-        <cost name="pts" typeId="points" value="5.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="5.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
-    <rule id="bbdc-1bda-2f32-9369" name="Witch Hunters" hidden="false">
-      <description>When resolving an attack made with a melee weapon by a model in this unit against a PSYKER unit, you cna re-roll the wound roll.</description>
+    <rule id="bbdc-1bda-2f32-9369" name="猎巫人" hidden="false">
+      <description>肉搏阶段攻击灵能者时可以重投造伤</description>
     </rule>
-    <rule id="68d7-b6a1-b037-6183" name="Psychic Abomination" hidden="false">
-      <description>This model can never be targeted or affected by psychic powers. When a Psychic test or a Deny the Witch test is taken for an enemy model, subtract 1 from the total for each unit from your army with this ability within 18&quot; of that model (to a maximum of -4).</description>
+    <rule id="68d7-b6a1-b037-6183" name="灵能畸体" hidden="false">
+      <description>此单位不能被选为灵能攻击的目标. 在每个此单为模型18寸内释放和破除灵能测试结果都会-1,最多-4</description>
     </rule>
-    <rule id="1d9b-613f-0500-05ef" name="Null Maidens" page="" hidden="false">
-      <description>If you have an IMPERIUM Warlord (excluding a FALLEN warlord), you can include this unit in a Vanguard Detachment. If you do so, that Detachment&apos;s HQ requirements are changed to 0-2 and its Command Benefits are changed to &quot;None&quot;.</description>
+    <rule id="1d9b-613f-0500-05ef" name="虚无少女" page="" hidden="false">
+      <description>如果军队有帝国主将(除堕天使外)带领,可以在军队中加入特殊的先锋分队,其HQ槽位限制变为为0-2,并且不会提供指挥点数奖励</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="51d5-499d-ed37-9100" name="Sister" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+    <profile id="51d5-499d-ed37-9100" name="修女" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
       <characteristics>
-        <characteristic name="M" typeId="0bdf-a96e-9e38-7779">7&quot;</characteristic>
+        <characteristic name="M" typeId="0bdf-a96e-9e38-7779">7寸</characteristic>
         <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
         <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
         <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
@@ -521,9 +523,9 @@
         <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
       </characteristics>
     </profile>
-    <profile id="a3b5-26be-117c-5dfa" name="Sister Superior" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+    <profile id="a3b5-26be-117c-5dfa" name="修女领队" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
       <characteristics>
-        <characteristic name="M" typeId="0bdf-a96e-9e38-7779">7&quot;</characteristic>
+        <characteristic name="M" typeId="0bdf-a96e-9e38-7779">7寸</characteristic>
         <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
         <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
         <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
