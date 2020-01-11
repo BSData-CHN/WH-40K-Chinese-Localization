@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="11b5-77b9-31bf-7b74" name="Orks" revision="68" battleScribeVersion="2.03" authorName="BSData-CHN" authorContact="@Tag8833" authorUrl="https://github.com/BSData-CHN" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="11b5-77b9-31bf-7b74" name="兽人" revision="68" battleScribeVersion="2.03" authorName="BSData-CHN" authorContact="@Tag8833" authorUrl="https://github.com/BSData-CHN" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="11b5-77b9-pubN65537" name="Codex: Orks"/>
     <publication id="11b5-77b9-pubN143628" name="Chapter Approved 2018"/>
@@ -7,31 +7,31 @@
     <publication id="be22-4c1d-1c01-d7ef" name="Imperial Armour - Index: Xenos (Errata)"/>
   </publications>
   <profileTypes>
-    <profileType id="67c2-86d6-5956-58cb" name="Transport Wound Track">
+    <profileType id="67c2-86d6-5956-58cb" name="Transport 损伤表">
       <characteristicTypes>
         <characteristicType id="e143-dcd2-6c87-9a3e" name="Wounds"/>
         <characteristicType id="e293-95b7-16a2-ba35" name="Move"/>
-        <characteristicType id="4caa-ff63-05ce-af9b" name="Strength"/>
-        <characteristicType id="511e-cd8e-e9cd-db92" name="Attacks"/>
+        <characteristicType id="4caa-ff63-05ce-af9b" name="S"/>
+        <characteristicType id="511e-cd8e-e9cd-db92" name="A"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="4f8f-111d-cdd9-6db0" name="Naut Wound Track">
+    <profileType id="4f8f-111d-cdd9-6db0" name="Naut 损伤表">
       <characteristicTypes>
         <characteristicType id="778a-f7b8-2837-f763" name="Wounds"/>
         <characteristicType id="32da-e7ed-b56d-4946" name="Move"/>
         <characteristicType id="fea1-f00e-c05b-191a" name="WS"/>
-        <characteristicType id="bf02-925e-f13e-61d1" name="Attacks"/>
+        <characteristicType id="bf02-925e-f13e-61d1" name="A"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="1355-1e88-8ca1-9111" name="Flier Wound Track">
+    <profileType id="1355-1e88-8ca1-9111" name="Flier 损伤表">
       <characteristicTypes>
         <characteristicType id="6ab3-1701-db9e-9417" name="Wounds"/>
         <characteristicType id="f07d-1cad-c2eb-16a8" name="Move"/>
         <characteristicType id="5f83-5a93-75ac-9270" name="BS"/>
-        <characteristicType id="c4fd-ff8c-7114-2cc3" name="Attacks"/>
+        <characteristicType id="c4fd-ff8c-7114-2cc3" name="A"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="dc42-c17d-54f3-df0a" name="Kill Tank Wound Track">
+    <profileType id="dc42-c17d-54f3-df0a" name="Kill Tank 损伤表">
       <characteristicTypes>
         <characteristicType id="50c7-d15c-aa1b-eaf0" name="Wounds"/>
         <characteristicType id="2910-7d1f-bf86-b8fc" name="Move"/>
@@ -39,12 +39,12 @@
         <characteristicType id="7700-05f4-4b88-ca85" name="BS"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="d58d-8c3d-54e1-9821" name="GS Wound Track">
+    <profileType id="d58d-8c3d-54e1-9821" name="GS 损伤表">
       <characteristicTypes>
         <characteristicType id="a4c7-5af4-a86c-9484" name="Wounds"/>
         <characteristicType id="d40d-8d54-3984-1384" name="Move"/>
         <characteristicType id="8f6e-3a41-6a6d-c267" name="WS"/>
-        <characteristicType id="31fd-d5bc-e8dd-1324" name="Strength"/>
+        <characteristicType id="31fd-d5bc-e8dd-1324" name="S"/>
       </characteristicTypes>
     </profileType>
     <profileType id="77e2-f55e-0f49-2781" name="Big Red Button">
@@ -55,8 +55,8 @@
   </profileTypes>
   <categoryEntries>
     <categoryEntry id="0337-1e5e-8071-a198" name="Warboss" hidden="false"/>
-    <categoryEntry id="1c58-037f-7b58-1223" name="阵营: Ork" hidden="false"/>
-    <categoryEntry id="2ab6-8d0f-494d-38e2" name="阵营: &lt;Clan&gt;" hidden="false"/>
+    <categoryEntry id="1c58-037f-7b58-1223" name="阵营: 兽人" hidden="false"/>
+    <categoryEntry id="2ab6-8d0f-494d-38e2" name="阵营: &lt;氏族&gt;" hidden="false"/>
     <categoryEntry id="0f75-56ae-9b7c-afd9" name="Mega Armour" hidden="false"/>
     <categoryEntry id="e480-8b6a-32d0-53cc" name="Weirdboy" hidden="false"/>
     <categoryEntry id="0a26-a35d-81bb-13ac" name="Big Mek" hidden="false"/>
@@ -188,7 +188,7 @@
     <entryLink id="4eba-9be9-4ebb-912a" name="New EntryLink" hidden="false" collective="false" import="true" targetId="8ef1-3dff-656f-1a8c" type="selectionEntry"/>
     <entryLink id="9e27-2f60-2c03-2b41" name="New EntryLink" hidden="false" collective="false" import="true" targetId="5bcd-2f69-1bb9-070d" type="selectionEntry"/>
     <entryLink id="bbb5-3a21-c5eb-58d6" name="Zhadsnark Da Ripper" hidden="false" collective="false" import="true" targetId="2472-0afa-3962-274a" type="selectionEntry"/>
-    <entryLink id="3187-4d9a-338a-463b" name="Ork Mek Boss Buzzgob" hidden="false" collective="false" import="true" targetId="36e2-087e-77dd-441b" type="selectionEntry"/>
+    <entryLink id="3187-4d9a-338a-463b" name="兽人 Mek Boss Buzzgob" hidden="false" collective="false" import="true" targetId="36e2-087e-77dd-441b" type="selectionEntry"/>
     <entryLink id="46c9-a6b1-6814-a072" name="Grot Tanks" hidden="false" collective="false" import="true" targetId="c7e2-297c-a0f9-a9fe" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="d039-e5ba-4bab-bf16" value="-1.0">
@@ -292,7 +292,7 @@
   </entryLinks>
   <rules>
     <rule id="fac1-6afc-e5c9-35c2" name="Dis Is Ours! Zog Off!" hidden="false">
-      <description>If your army is battle-forged, all Troops units in Ork Detachments gain this ability.  Such a unit that is 范围内 range of an objective Markers (as specified in the mission) controls the objective marker even if there are more 敌方模型 范围内 range of that objective marker.  If an 敌方单位 范围内 range of the same objective marker has a similar ability, then the objective marker is controlled by the player who has the most models 范围内 range of it as normal.</description>
+      <description>If your army is battle-forged, all Troops units in 兽人 Detachments gain this ability.  Such a unit that is 范围内 range of an objective Markers (as specified in the mission) controls the objective marker even if there are more 敌方模型 范围内 range of that objective marker.  If an 敌方单位 范围内 range of the same objective marker has a similar ability, then the objective marker is controlled by the player who has the most models 范围内 range of it as normal.</description>
     </rule>
   </rules>
   <sharedSelectionEntries>
@@ -772,7 +772,7 @@
         </profile>
         <profile id="cc66-7ec4-b03a-8121" name="Waaagh! Energy" publicationId="11b5-77b9-pubN65537" page="88" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to any Psychic test rolls made for 这个模型 for every 10 友方 ORK models excluding gretchin 范围内 10&quot; of it when the roll is made, to a maximum of +3.  However, if result of the test is 12+, 这个模型 immediately 遭受 Perils of the Warp.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to any Psychic test rolls made for 这个模型 for every 10 友方 兽人 models excluding gretchin 范围内 10&quot; of it when the roll is made, to a maximum of +3.  However, if result of the test is 12+, 这个模型 immediately 遭受 Perils of the Warp.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -976,7 +976,7 @@
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 is equipped with a kustom force field, 友方 ORK units have a 5+ 特殊保护 against attacks made with ranged weapons while they are wholly 范围内 9&quot; of it.  While a model equipped with a kustom force field is embarked, the vehicle transporting it has a 5+ 特殊保护 against attacks made with ranged weapons instead.  </characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 is equipped with a kustom force field, 友方 兽人 units have a 5+ 特殊保护 against attacks made with ranged weapons while they are wholly 范围内 9&quot; of it.  While a model equipped with a kustom force field is embarked, the vehicle transporting it has a 5+ 特殊保护 against attacks made with ranged weapons instead.  </characteristic>
           </characteristics>
         </profile>
         <profile id="4dc2-965d-25c8-8625" name="Kustom Force Field (Vehicle)" publicationId="11b5-77b9-pubN65537" page="121" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -993,7 +993,7 @@
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 is equipped with a kustom force field, 友方 ORK units that are wholly 范围内 9&quot; have a 5+ 特殊保护 against ranged weapons.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 is equipped with a kustom force field, 友方 兽人 units that are wholly 范围内 9&quot; have a 5+ 特殊保护 against ranged weapons.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1546,7 +1546,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
         </profile>
         <profile id="68f7-8474-f20f-3a26" name="Sawbonez" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of your 移动阶段, 这个模型 can attempt surgery on a single 友方 &lt;CLAN&gt; INFANTRY or BIKER model 范围内 1&quot; of it. If it does so, 投掷1个D6 to determine if the surgery is successful. On a 1 the surgery fails and the model you were attempting to heal loses a wound. On a 2+ the surgery succeeds and that model regains D3 lost wounds. A model can only be the target of a surgery attempt once per turn.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of your 移动阶段, 这个模型 can attempt surgery on a single 友方 &lt;氏族&gt; INFANTRY or BIKER model 范围内 1&quot; of it. If it does so, 投掷1个D6 to determine if the surgery is successful. On a 1 the surgery fails and the model you were attempting to heal loses a wound. On a 2+ the surgery succeeds and that model regains D3 lost wounds. A model can only be the target of a surgery attempt once per turn.</characteristic>
           </characteristics>
         </profile>
         <profile id="f604-0d4d-40ad-6bf4" name="Grot Orderly" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -1626,7 +1626,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
         </profile>
         <profile id="b5e2-d278-cab3-d262" name="Sawbonez" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228"> At the end of your 移动阶段, 这个模型 can attempt surgery on one 友方 &lt;CLAN&gt; INFANTRY or &lt;CLAN&gt; BIKER model 范围内 3&quot;. If it does, 投掷1个D6; on a 1 that 友方模型 loses 1 wound, otherwise it regains D3 lost wounds. Each model can only have surgery attempted on it once per turn. </characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228"> At the end of your 移动阶段, 这个模型 can attempt surgery on one 友方 &lt;氏族&gt; INFANTRY or &lt;氏族&gt; BIKER model 范围内 3&quot;. If it does, 投掷1个D6; on a 1 that 友方模型 loses 1 wound, otherwise it regains D3 lost wounds. Each model can only have surgery attempted on it once per turn. </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1714,12 +1714,12 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
         </profile>
         <profile id="f5eb-58eb-f0a1-6cee" name="Great Waagh!" publicationId="11b5-77b9-pubN65537" page="84" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">友方 ORK INFANTRY units 范围内 6&quot; of 这个模型 at the start of the Charge phase can charge even if they Advanced this turn.  Furthermore, 友方 ORK INFANTRY models add 1 to their Attacks characteristic if they charged this turn and Ghaz is 范围内 6&quot; of their unit when they are chosen to fight.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">友方 兽人 INFANTRY units 范围内 6&quot; of 这个模型 at the start of the Charge phase can charge even if they Advanced this turn.  Furthermore, 友方 兽人 INFANTRY models add 1 to their Attacks characteristic if they charged this turn and Ghaz is 范围内 6&quot; of their unit when they are chosen to fight.</characteristic>
           </characteristics>
         </profile>
         <profile id="9d50-5568-fdbd-ea17" name="The Boss is Watchin&apos;" publicationId="11b5-77b9-pubN65537" page="84" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If a 友方 ORK unit fails a Morale test 范围内 6&quot; of Ghaz, he can restore order with a brutal display of violence.  If they do, the unit 遭受 D3 致命伤, but the Morale test is then considered to have been passed.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If a 友方 兽人 unit fails a Morale test 范围内 6&quot; of Ghaz, he can restore order with a brutal display of violence.  If they do, the unit 遭受 D3 致命伤, but the Morale test is then considered to have been passed.</characteristic>
           </characteristics>
         </profile>
         <profile id="bf8c-2628-fb11-0dd4" name="Prophet of Gork and Mork" publicationId="11b5-77b9-pubN65537" page="84" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -2125,7 +2125,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
         </profile>
         <profile id="21f9-2377-1494-e691" name="One Scalpel Short of a Medpak" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If, at the start of the Charge phase, there are no 友方 ORK INFANTRY units 范围内 3&quot; of Mad Dok, he will attempt to charge the nearest 敌方单位, if there is one 范围内 12&quot;.  He will do this even if he Advanced or Fell Back this turn, but not if he is already 范围内 1&quot; of an Enemy.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If, at the start of the Charge phase, there are no 友方 兽人 INFANTRY units 范围内 3&quot; of Mad Dok, he will attempt to charge the nearest 敌方单位, if there is one 范围内 12&quot;.  He will do this even if he Advanced or Fell Back this turn, but not if he is already 范围内 1&quot; of an Enemy.</characteristic>
           </characteristics>
         </profile>
         <profile id="9377-38d5-4071-8484" name="Cybork Body" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -2135,12 +2135,12 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
         </profile>
         <profile id="94a9-1292-4402-857b" name="Dok&apos;s Tools" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">投掷1个D6 each time an ORK INFANTRY or ORK BIKER unit loses a wound whilst 范围内 3&quot; of Mad Dok Grotsnik. On a 6, 那个单位 does not lose that wound. This is not cumulative with other Dok&apos;s Tools.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">投掷1个D6 each time an 兽人 INFANTRY or 兽人 BIKER unit loses a wound whilst 范围内 3&quot; of Mad Dok Grotsnik. On a 6, 那个单位 does not lose that wound. This is not cumulative with other Dok&apos;s Tools.</characteristic>
           </characteristics>
         </profile>
         <profile id="7497-6af7-9ccb-c48d" name="Sawbones" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of your 移动阶段, Mad Dok Grotsnik can attempt surgery on a single 友方 ORK INFANTRY or BIKER model 范围内 1&quot; of him. If he does so, 投掷1个D6 to determine if the surgery is successful. On a 1 the surgery fails, and the model you were attempting to heal loses a wound. On a 2+ the surgery succeeds, and that model regains D3 lost wounds. A model can only be the target of a surgery attempt once per turn.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of your 移动阶段, Mad Dok Grotsnik can attempt surgery on a single 友方 兽人 INFANTRY or BIKER model 范围内 1&quot; of him. If he does so, 投掷1个D6 to determine if the surgery is successful. On a 1 the surgery fails, and the model you were attempting to heal loses a wound. On a 2+ the surgery succeeds, and that model regains D3 lost wounds. A model can only be the target of a surgery attempt once per turn.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2263,7 +2263,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
             <constraint field="selections" scope="parent" value="30.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="65b6-bd4a-0f2b-e0d4" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="c265-7969-10c0-0d77" name="Ork Boy W/ Slugga &amp; Choppa" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="c265-7969-10c0-0d77" name="兽人 Boy W/ Slugga, Choppa" hidden="false" collective="false" import="true" type="model">
               <infoLinks>
                 <infoLink id="c638-0ed4-f267-41d3" name="New InfoLink" hidden="false" targetId="4305-daf8-8988-6189" type="profile"/>
               </infoLinks>
@@ -2288,9 +2288,9 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="a99b-eb35-3148-7e79" name="Ork Boy W/ Shoota" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="a99b-eb35-3148-7e79" name="兽人 Boy W/ Shoota" hidden="false" collective="false" import="true" type="model">
               <infoLinks>
-                <infoLink id="f4e1-9a43-e678-113d" name="Ork Boy" hidden="false" targetId="4305-daf8-8988-6189" type="profile"/>
+                <infoLink id="f4e1-9a43-e678-113d" name="兽人 Boy" hidden="false" targetId="4305-daf8-8988-6189" type="profile"/>
               </infoLinks>
               <entryLinks>
                 <entryLink id="b49f-a2b0-8d81-2f06" name="Stikkbombs" hidden="false" collective="false" import="true" targetId="6df7-0ee7-7e6d-b182" type="selectionEntry"/>
@@ -2307,7 +2307,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="2aa4-c5ae-56f1-9fd0" name="Ork Boy W/ &apos;Eavy Weapon" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="2aa4-c5ae-56f1-9fd0" name="兽人 Boy W/ &apos;Eavy Weapon" hidden="false" collective="false" import="true" type="model">
               <modifiers>
                 <modifier type="increment" field="0435-0a04-1247-0cea" value="1">
                   <repeats>
@@ -3640,31 +3640,31 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
         </profile>
         <profile id="a1ba-a414-d822-17d5" name="Trukk" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="Transport">
           <characteristics>
-            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">这个模型 can transport 12 FLASH GITZ or &lt;CLAN&gt; INFANTRY models. Each MEGA ARMOUR or 跳跃背包 model takes the space of two other models.</characteristic>
+            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">这个模型 can transport 12 FLASH GITZ or &lt;氏族&gt; INFANTRY models. Each MEGA ARMOUR or 跳跃背包 model takes the space of two other models.</characteristic>
           </characteristics>
         </profile>
-        <profile id="fe72-9b85-3ff0-b36e" name="Trukk1" hidden="false" typeId="67c2-86d6-5956-58cb" typeName="Transport Wound Track">
+        <profile id="fe72-9b85-3ff0-b36e" name="Trukk1" hidden="false" typeId="67c2-86d6-5956-58cb" typeName="Transport 损伤表">
           <characteristics>
             <characteristic name="Wounds" typeId="e143-dcd2-6c87-9a3e">6-10+</characteristic>
             <characteristic name="Move" typeId="e293-95b7-16a2-ba35">12&quot;</characteristic>
-            <characteristic name="Strength" typeId="4caa-ff63-05ce-af9b">6</characteristic>
-            <characteristic name="Attacks" typeId="511e-cd8e-e9cd-db92">3</characteristic>
+            <characteristic name="S" typeId="4caa-ff63-05ce-af9b">6</characteristic>
+            <characteristic name="A" typeId="511e-cd8e-e9cd-db92">3</characteristic>
           </characteristics>
         </profile>
-        <profile id="2ea9-7890-fe10-d537" name="Trukk2" hidden="false" typeId="67c2-86d6-5956-58cb" typeName="Transport Wound Track">
+        <profile id="2ea9-7890-fe10-d537" name="Trukk2" hidden="false" typeId="67c2-86d6-5956-58cb" typeName="Transport 损伤表">
           <characteristics>
             <characteristic name="Wounds" typeId="e143-dcd2-6c87-9a3e">3-5</characteristic>
             <characteristic name="Move" typeId="e293-95b7-16a2-ba35">8&quot;</characteristic>
-            <characteristic name="Strength" typeId="4caa-ff63-05ce-af9b">5</characteristic>
-            <characteristic name="Attacks" typeId="511e-cd8e-e9cd-db92">D3</characteristic>
+            <characteristic name="S" typeId="4caa-ff63-05ce-af9b">5</characteristic>
+            <characteristic name="A" typeId="511e-cd8e-e9cd-db92">D3</characteristic>
           </characteristics>
         </profile>
-        <profile id="547f-0ee1-7076-ed0d" name="Trukk3" hidden="false" typeId="67c2-86d6-5956-58cb" typeName="Transport Wound Track">
+        <profile id="547f-0ee1-7076-ed0d" name="Trukk3" hidden="false" typeId="67c2-86d6-5956-58cb" typeName="Transport 损伤表">
           <characteristics>
             <characteristic name="Wounds" typeId="e143-dcd2-6c87-9a3e">1-2</characteristic>
             <characteristic name="Move" typeId="e293-95b7-16a2-ba35">6&quot;</characteristic>
-            <characteristic name="Strength" typeId="4caa-ff63-05ce-af9b">4</characteristic>
-            <characteristic name="Attacks" typeId="511e-cd8e-e9cd-db92">1</characteristic>
+            <characteristic name="S" typeId="4caa-ff63-05ce-af9b">4</characteristic>
+            <characteristic name="A" typeId="511e-cd8e-e9cd-db92">1</characteristic>
           </characteristics>
         </profile>
         <profile id="5538-830d-3990-6a25" name="Ramshackle" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -4100,28 +4100,28 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">命中骰+1 for 这个模型&apos;s attacks in the 射击阶段 if all of those attacks target the same unit that phase.</characteristic>
           </characteristics>
         </profile>
-        <profile id="df75-26da-69d4-7c94" name="Dakkajet1" hidden="false" typeId="1355-1e88-8ca1-9111" typeName="Flier Wound Track">
+        <profile id="df75-26da-69d4-7c94" name="Dakkajet1" hidden="false" typeId="1355-1e88-8ca1-9111" typeName="Flier 损伤表">
           <characteristics>
             <characteristic name="Wounds" typeId="6ab3-1701-db9e-9417">7-12+</characteristic>
             <characteristic name="Move" typeId="f07d-1cad-c2eb-16a8">20-60&quot;</characteristic>
             <characteristic name="BS" typeId="5f83-5a93-75ac-9270">5+</characteristic>
-            <characteristic name="Attacks" typeId="c4fd-ff8c-7114-2cc3">3</characteristic>
+            <characteristic name="A" typeId="c4fd-ff8c-7114-2cc3">3</characteristic>
           </characteristics>
         </profile>
-        <profile id="b04a-b147-eaf4-de45" name="Dakkajet2" hidden="false" typeId="1355-1e88-8ca1-9111" typeName="Flier Wound Track">
+        <profile id="b04a-b147-eaf4-de45" name="Dakkajet2" hidden="false" typeId="1355-1e88-8ca1-9111" typeName="Flier 损伤表">
           <characteristics>
             <characteristic name="Wounds" typeId="6ab3-1701-db9e-9417">4-6</characteristic>
             <characteristic name="Move" typeId="f07d-1cad-c2eb-16a8">20-40&quot;</characteristic>
             <characteristic name="BS" typeId="5f83-5a93-75ac-9270">6+</characteristic>
-            <characteristic name="Attacks" typeId="c4fd-ff8c-7114-2cc3">D3</characteristic>
+            <characteristic name="A" typeId="c4fd-ff8c-7114-2cc3">D3</characteristic>
           </characteristics>
         </profile>
-        <profile id="762d-524d-34aa-d9c7" name="Dakkajet3" hidden="false" typeId="1355-1e88-8ca1-9111" typeName="Flier Wound Track">
+        <profile id="762d-524d-34aa-d9c7" name="Dakkajet3" hidden="false" typeId="1355-1e88-8ca1-9111" typeName="Flier 损伤表">
           <characteristics>
             <characteristic name="Wounds" typeId="6ab3-1701-db9e-9417">1-3</characteristic>
             <characteristic name="Move" typeId="f07d-1cad-c2eb-16a8">20-25&quot;</characteristic>
             <characteristic name="BS" typeId="5f83-5a93-75ac-9270">6+</characteristic>
-            <characteristic name="Attacks" typeId="c4fd-ff8c-7114-2cc3">1</characteristic>
+            <characteristic name="A" typeId="c4fd-ff8c-7114-2cc3">1</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4196,28 +4196,28 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 投掷1个D6 before removing it from the battlefield, on a 4+ it crashes and explodes, 每个单位 范围内 6&quot; 遭受 3 致命伤.</characteristic>
           </characteristics>
         </profile>
-        <profile id="46fd-04f6-cb22-d618" name="BurnaBom1" hidden="false" typeId="1355-1e88-8ca1-9111" typeName="Flier Wound Track">
+        <profile id="46fd-04f6-cb22-d618" name="BurnaBom1" hidden="false" typeId="1355-1e88-8ca1-9111" typeName="Flier 损伤表">
           <characteristics>
             <characteristic name="Wounds" typeId="6ab3-1701-db9e-9417">7-12+</characteristic>
             <characteristic name="Move" typeId="f07d-1cad-c2eb-16a8">20-50&quot;</characteristic>
             <characteristic name="BS" typeId="5f83-5a93-75ac-9270">5+</characteristic>
-            <characteristic name="Attacks" typeId="c4fd-ff8c-7114-2cc3">3</characteristic>
+            <characteristic name="A" typeId="c4fd-ff8c-7114-2cc3">3</characteristic>
           </characteristics>
         </profile>
-        <profile id="c8ea-d372-3032-9594" name="BurnaBom2" hidden="false" typeId="1355-1e88-8ca1-9111" typeName="Flier Wound Track">
+        <profile id="c8ea-d372-3032-9594" name="BurnaBom2" hidden="false" typeId="1355-1e88-8ca1-9111" typeName="Flier 损伤表">
           <characteristics>
             <characteristic name="Wounds" typeId="6ab3-1701-db9e-9417">4-6</characteristic>
             <characteristic name="Move" typeId="f07d-1cad-c2eb-16a8">20-30&quot;</characteristic>
             <characteristic name="BS" typeId="5f83-5a93-75ac-9270">6+</characteristic>
-            <characteristic name="Attacks" typeId="c4fd-ff8c-7114-2cc3">D3</characteristic>
+            <characteristic name="A" typeId="c4fd-ff8c-7114-2cc3">D3</characteristic>
           </characteristics>
         </profile>
-        <profile id="8446-73af-e847-29f2" name="BurnaBom3" hidden="false" typeId="1355-1e88-8ca1-9111" typeName="Flier Wound Track">
+        <profile id="8446-73af-e847-29f2" name="BurnaBom3" hidden="false" typeId="1355-1e88-8ca1-9111" typeName="Flier 损伤表">
           <characteristics>
             <characteristic name="Wounds" typeId="6ab3-1701-db9e-9417">1-3</characteristic>
             <characteristic name="Move" typeId="f07d-1cad-c2eb-16a8">20-25&quot;</characteristic>
             <characteristic name="BS" typeId="5f83-5a93-75ac-9270">6+</characteristic>
-            <characteristic name="Attacks" typeId="c4fd-ff8c-7114-2cc3">1</characteristic>
+            <characteristic name="A" typeId="c4fd-ff8c-7114-2cc3">1</characteristic>
           </characteristics>
         </profile>
         <profile id="1b03-ecda-e527-a811" name="Grot Gunner" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -4320,28 +4320,28 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
           </characteristics>
         </profile>
-        <profile id="d0ff-4cfe-c9c9-f09b" name="BlitzaBom1" hidden="false" typeId="1355-1e88-8ca1-9111" typeName="Flier Wound Track">
+        <profile id="d0ff-4cfe-c9c9-f09b" name="BlitzaBom1" hidden="false" typeId="1355-1e88-8ca1-9111" typeName="Flier 损伤表">
           <characteristics>
             <characteristic name="Wounds" typeId="6ab3-1701-db9e-9417">7-12+</characteristic>
             <characteristic name="Move" typeId="f07d-1cad-c2eb-16a8">20-50&quot;</characteristic>
             <characteristic name="BS" typeId="5f83-5a93-75ac-9270">5+</characteristic>
-            <characteristic name="Attacks" typeId="c4fd-ff8c-7114-2cc3">3</characteristic>
+            <characteristic name="A" typeId="c4fd-ff8c-7114-2cc3">3</characteristic>
           </characteristics>
         </profile>
-        <profile id="2791-0a3f-d3d2-7046" name="BlitzaBom2" hidden="false" typeId="1355-1e88-8ca1-9111" typeName="Flier Wound Track">
+        <profile id="2791-0a3f-d3d2-7046" name="BlitzaBom2" hidden="false" typeId="1355-1e88-8ca1-9111" typeName="Flier 损伤表">
           <characteristics>
             <characteristic name="Wounds" typeId="6ab3-1701-db9e-9417">4-6</characteristic>
             <characteristic name="Move" typeId="f07d-1cad-c2eb-16a8">20-30&quot;</characteristic>
             <characteristic name="BS" typeId="5f83-5a93-75ac-9270">6+</characteristic>
-            <characteristic name="Attacks" typeId="c4fd-ff8c-7114-2cc3">D3</characteristic>
+            <characteristic name="A" typeId="c4fd-ff8c-7114-2cc3">D3</characteristic>
           </characteristics>
         </profile>
-        <profile id="7863-454e-175c-1f3d" name="BlitzaBom3" hidden="false" typeId="1355-1e88-8ca1-9111" typeName="Flier Wound Track">
+        <profile id="7863-454e-175c-1f3d" name="BlitzaBom3" hidden="false" typeId="1355-1e88-8ca1-9111" typeName="Flier 损伤表">
           <characteristics>
             <characteristic name="Wounds" typeId="6ab3-1701-db9e-9417">1-3</characteristic>
             <characteristic name="Move" typeId="f07d-1cad-c2eb-16a8">20-25&quot;</characteristic>
             <characteristic name="BS" typeId="5f83-5a93-75ac-9270">6+</characteristic>
-            <characteristic name="Attacks" typeId="c4fd-ff8c-7114-2cc3">1</characteristic>
+            <characteristic name="A" typeId="c4fd-ff8c-7114-2cc3">1</characteristic>
           </characteristics>
         </profile>
         <profile id="ae35-a4f1-4f1b-71bc" name="Grot Gunner" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -4423,28 +4423,28 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
           </characteristics>
         </profile>
-        <profile id="2ace-348a-13a7-76b6" name="Blastajet1" hidden="false" typeId="1355-1e88-8ca1-9111" typeName="Flier Wound Track">
+        <profile id="2ace-348a-13a7-76b6" name="Blastajet1" hidden="false" typeId="1355-1e88-8ca1-9111" typeName="Flier 损伤表">
           <characteristics>
             <characteristic name="Wounds" typeId="6ab3-1701-db9e-9417">7-12+</characteristic>
             <characteristic name="Move" typeId="f07d-1cad-c2eb-16a8">20-60&quot;</characteristic>
             <characteristic name="BS" typeId="5f83-5a93-75ac-9270">5+</characteristic>
-            <characteristic name="Attacks" typeId="c4fd-ff8c-7114-2cc3">3</characteristic>
+            <characteristic name="A" typeId="c4fd-ff8c-7114-2cc3">3</characteristic>
           </characteristics>
         </profile>
-        <profile id="168d-1af2-a3a3-b97e" name="Blastajet2" hidden="false" typeId="1355-1e88-8ca1-9111" typeName="Flier Wound Track">
+        <profile id="168d-1af2-a3a3-b97e" name="Blastajet2" hidden="false" typeId="1355-1e88-8ca1-9111" typeName="Flier 损伤表">
           <characteristics>
             <characteristic name="Wounds" typeId="6ab3-1701-db9e-9417">4-6</characteristic>
             <characteristic name="Move" typeId="f07d-1cad-c2eb-16a8">20-40&quot;</characteristic>
             <characteristic name="BS" typeId="5f83-5a93-75ac-9270">6+</characteristic>
-            <characteristic name="Attacks" typeId="c4fd-ff8c-7114-2cc3">D3</characteristic>
+            <characteristic name="A" typeId="c4fd-ff8c-7114-2cc3">D3</characteristic>
           </characteristics>
         </profile>
-        <profile id="929d-c64d-2052-944d" name="Blastajet3" hidden="false" typeId="1355-1e88-8ca1-9111" typeName="Flier Wound Track">
+        <profile id="929d-c64d-2052-944d" name="Blastajet3" hidden="false" typeId="1355-1e88-8ca1-9111" typeName="Flier 损伤表">
           <characteristics>
             <characteristic name="Wounds" typeId="6ab3-1701-db9e-9417">1-3</characteristic>
             <characteristic name="Move" typeId="f07d-1cad-c2eb-16a8">20-25&quot;</characteristic>
             <characteristic name="BS" typeId="5f83-5a93-75ac-9270">6+</characteristic>
-            <characteristic name="Attacks" typeId="c4fd-ff8c-7114-2cc3">1</characteristic>
+            <characteristic name="A" typeId="c4fd-ff8c-7114-2cc3">1</characteristic>
           </characteristics>
         </profile>
         <profile id="b57d-3a6f-4982-e066" name="Mekbrain-enhanced Weapon-sights" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -5409,28 +5409,28 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
             <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">20 FLASHGITZ or (CLAN) INFANTRY models.  Each MEGA ARMOUR or 跳跃背包 model takes the space of 2.  If 这个模型 is equipped with a Killkannon it can only transport 12 models.</characteristic>
           </characteristics>
         </profile>
-        <profile id="e9c1-72a6-19a7-e12d" name="Wagon1" hidden="false" typeId="67c2-86d6-5956-58cb" typeName="Transport Wound Track">
+        <profile id="e9c1-72a6-19a7-e12d" name="Wagon1" hidden="false" typeId="67c2-86d6-5956-58cb" typeName="Transport 损伤表">
           <characteristics>
             <characteristic name="Wounds" typeId="e143-dcd2-6c87-9a3e">8-16+</characteristic>
             <characteristic name="Move" typeId="e293-95b7-16a2-ba35">12&quot;</characteristic>
-            <characteristic name="Strength" typeId="4caa-ff63-05ce-af9b">8</characteristic>
-            <characteristic name="Attacks" typeId="511e-cd8e-e9cd-db92">6</characteristic>
+            <characteristic name="S" typeId="4caa-ff63-05ce-af9b">8</characteristic>
+            <characteristic name="A" typeId="511e-cd8e-e9cd-db92">6</characteristic>
           </characteristics>
         </profile>
-        <profile id="b545-604e-8714-85b5" name="Wagon3" hidden="false" typeId="67c2-86d6-5956-58cb" typeName="Transport Wound Track">
+        <profile id="b545-604e-8714-85b5" name="Wagon3" hidden="false" typeId="67c2-86d6-5956-58cb" typeName="Transport 损伤表">
           <characteristics>
             <characteristic name="Wounds" typeId="e143-dcd2-6c87-9a3e">1-3</characteristic>
             <characteristic name="Move" typeId="e293-95b7-16a2-ba35">6&quot;</characteristic>
-            <characteristic name="Strength" typeId="4caa-ff63-05ce-af9b">4</characteristic>
-            <characteristic name="Attacks" typeId="511e-cd8e-e9cd-db92">D3</characteristic>
+            <characteristic name="S" typeId="4caa-ff63-05ce-af9b">4</characteristic>
+            <characteristic name="A" typeId="511e-cd8e-e9cd-db92">D3</characteristic>
           </characteristics>
         </profile>
-        <profile id="1cef-1f00-0870-6db3" name="Wagon2" hidden="false" typeId="67c2-86d6-5956-58cb" typeName="Transport Wound Track">
+        <profile id="1cef-1f00-0870-6db3" name="Wagon2" hidden="false" typeId="67c2-86d6-5956-58cb" typeName="Transport 损伤表">
           <characteristics>
             <characteristic name="Wounds" typeId="e143-dcd2-6c87-9a3e">4-7</characteristic>
             <characteristic name="Move" typeId="e293-95b7-16a2-ba35">9&quot;</characteristic>
-            <characteristic name="Strength" typeId="4caa-ff63-05ce-af9b">6</characteristic>
-            <characteristic name="Attacks" typeId="511e-cd8e-e9cd-db92">D6</characteristic>
+            <characteristic name="S" typeId="4caa-ff63-05ce-af9b">6</characteristic>
+            <characteristic name="A" typeId="511e-cd8e-e9cd-db92">D6</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5873,28 +5873,28 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
             <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">这个模型 can transport 6 FLASHGITZ or (CLAN) INFANTRY models.  Each MEGAARMOUR or 跳跃背包 model takes the space of two other models.</characteristic>
           </characteristics>
         </profile>
-        <profile id="154c-f12d-9517-df4b" name="Morkanaut1" hidden="false" typeId="4f8f-111d-cdd9-6db0" typeName="Naut Wound Track">
+        <profile id="154c-f12d-9517-df4b" name="Morkanaut1" hidden="false" typeId="4f8f-111d-cdd9-6db0" typeName="Naut 损伤表">
           <characteristics>
             <characteristic name="Wounds" typeId="778a-f7b8-2837-f763">10-18+</characteristic>
             <characteristic name="Move" typeId="32da-e7ed-b56d-4946">8&quot;</characteristic>
             <characteristic name="WS" typeId="fea1-f00e-c05b-191a">3+</characteristic>
-            <characteristic name="Attacks" typeId="bf02-925e-f13e-61d1">4</characteristic>
+            <characteristic name="A" typeId="bf02-925e-f13e-61d1">4</characteristic>
           </characteristics>
         </profile>
-        <profile id="b0f3-9719-663d-2c04" name="Morkanaut2" hidden="false" typeId="4f8f-111d-cdd9-6db0" typeName="Naut Wound Track">
+        <profile id="b0f3-9719-663d-2c04" name="Morkanaut2" hidden="false" typeId="4f8f-111d-cdd9-6db0" typeName="Naut 损伤表">
           <characteristics>
             <characteristic name="Wounds" typeId="778a-f7b8-2837-f763">5-9</characteristic>
             <characteristic name="Move" typeId="32da-e7ed-b56d-4946">6&quot;</characteristic>
             <characteristic name="WS" typeId="fea1-f00e-c05b-191a">4+</characteristic>
-            <characteristic name="Attacks" typeId="bf02-925e-f13e-61d1">3</characteristic>
+            <characteristic name="A" typeId="bf02-925e-f13e-61d1">3</characteristic>
           </characteristics>
         </profile>
-        <profile id="864b-f65c-2551-4eae" name="Morkanaut3" hidden="false" typeId="4f8f-111d-cdd9-6db0" typeName="Naut Wound Track">
+        <profile id="864b-f65c-2551-4eae" name="Morkanaut3" hidden="false" typeId="4f8f-111d-cdd9-6db0" typeName="Naut 损伤表">
           <characteristics>
             <characteristic name="Wounds" typeId="778a-f7b8-2837-f763">1-4</characteristic>
             <characteristic name="Move" typeId="32da-e7ed-b56d-4946">4&quot;</characteristic>
             <characteristic name="WS" typeId="fea1-f00e-c05b-191a">5+</characteristic>
-            <characteristic name="Attacks" typeId="bf02-925e-f13e-61d1">2</characteristic>
+            <characteristic name="A" typeId="bf02-925e-f13e-61d1">2</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6029,28 +6029,28 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
             <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">这个模型 can transport 6 FLASHGITZ or (CLAN) INFANTRY models.  Each MEGAARMOUR or 跳跃背包 model takes the space of two other models.</characteristic>
           </characteristics>
         </profile>
-        <profile id="5db4-ecae-45e7-c157" name="Gorkanaut1" hidden="false" typeId="4f8f-111d-cdd9-6db0" typeName="Naut Wound Track">
+        <profile id="5db4-ecae-45e7-c157" name="Gorkanaut1" hidden="false" typeId="4f8f-111d-cdd9-6db0" typeName="Naut 损伤表">
           <characteristics>
             <characteristic name="Wounds" typeId="778a-f7b8-2837-f763">10-18+</characteristic>
             <characteristic name="Move" typeId="32da-e7ed-b56d-4946">8&quot;</characteristic>
             <characteristic name="WS" typeId="fea1-f00e-c05b-191a">3+</characteristic>
-            <characteristic name="Attacks" typeId="bf02-925e-f13e-61d1">6</characteristic>
+            <characteristic name="A" typeId="bf02-925e-f13e-61d1">6</characteristic>
           </characteristics>
         </profile>
-        <profile id="74f8-91b8-255e-d139" name="Gorkanaut2" hidden="false" typeId="4f8f-111d-cdd9-6db0" typeName="Naut Wound Track">
+        <profile id="74f8-91b8-255e-d139" name="Gorkanaut2" hidden="false" typeId="4f8f-111d-cdd9-6db0" typeName="Naut 损伤表">
           <characteristics>
             <characteristic name="Wounds" typeId="778a-f7b8-2837-f763">5-9</characteristic>
             <characteristic name="Move" typeId="32da-e7ed-b56d-4946">6&quot;</characteristic>
             <characteristic name="WS" typeId="fea1-f00e-c05b-191a">4+</characteristic>
-            <characteristic name="Attacks" typeId="bf02-925e-f13e-61d1">5</characteristic>
+            <characteristic name="A" typeId="bf02-925e-f13e-61d1">5</characteristic>
           </characteristics>
         </profile>
-        <profile id="d383-af72-0257-fece" name="Gorkanaut3" hidden="false" typeId="4f8f-111d-cdd9-6db0" typeName="Naut Wound Track">
+        <profile id="d383-af72-0257-fece" name="Gorkanaut3" hidden="false" typeId="4f8f-111d-cdd9-6db0" typeName="Naut 损伤表">
           <characteristics>
             <characteristic name="Wounds" typeId="778a-f7b8-2837-f763">1-4</characteristic>
             <characteristic name="Move" typeId="32da-e7ed-b56d-4946">4&quot;</characteristic>
             <characteristic name="WS" typeId="fea1-f00e-c05b-191a">5+</characteristic>
-            <characteristic name="Attacks" typeId="bf02-925e-f13e-61d1">4</characteristic>
+            <characteristic name="A" typeId="bf02-925e-f13e-61d1">4</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6500,46 +6500,46 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
             <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">这个模型 can transport 20 FLASHGITZ or (CLAN) INFANTRY models.  Each MEGA ARMOUR or 跳跃背包 model takes the space of 2.</characteristic>
           </characteristics>
         </profile>
-        <profile id="f338-20fe-187f-089b" name="Wound Track 1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="f338-20fe-187f-089b" name="损伤表 1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">31-40+</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">31-40+</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">12&quot;</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">3+</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">6</characteristic>
           </characteristics>
         </profile>
-        <profile id="cf13-1c71-6616-ee00" name="Wound Track 2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="cf13-1c71-6616-ee00" name="损伤表 2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">21-30</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">21-30</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">9&quot;</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">4+</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">5</characteristic>
           </characteristics>
         </profile>
-        <profile id="3ac0-389f-21a1-77af" name="Wound Track 3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="3ac0-389f-21a1-77af" name="损伤表 3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">11-20</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">11-20</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">6&quot;</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">5+</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">4</characteristic>
           </characteristics>
         </profile>
-        <profile id="6acf-43e0-0ecf-8c9e" name="Wound Track 4" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="6acf-43e0-0ecf-8c9e" name="损伤表 4" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">1-10</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">1-10</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">4&quot;</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">6+</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">3</characteristic>
           </characteristics>
         </profile>
-        <profile id="6d14-6e80-af18-dacd" name="Effigy: Ork" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="6d14-6e80-af18-dacd" name="Effigy: 兽人" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Units 范围内 6&quot; of a 友方 Stompa can re-roll failed 士气测试.</characteristic>
           </characteristics>
         </profile>
-        <profile id="f0b1-f98a-3cc5-b48f" name="Wound Track" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="f0b1-f98a-3cc5-b48f" name="损伤表" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">-</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">-</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">M</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">WS</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">A</characteristic>
@@ -7241,7 +7241,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="36e2-087e-77dd-441b" name="Ork Mek Boss Buzzgob" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="36e2-087e-77dd-441b" name="兽人 Mek Boss Buzzgob" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -7255,7 +7255,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="efee-2a44-9ac6-2fa9" name="Ork Mek Boss Buzzgob" publicationId="03b4-8286-592c-c370" page="24" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="efee-2a44-9ac6-2fa9" name="兽人 Mek Boss Buzzgob" publicationId="03b4-8286-592c-c370" page="24" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">5&quot;</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -7363,7 +7363,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
           <profiles>
             <profile id="c934-925c-2dc5-7a0d" name="Kustom Force Field" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 is equipped with a kustom force field, 友方 ORK units that are entirely 范围内 9&quot; have a 5+ 特殊保护 against ranged weapons.  If the unit is embarked, the vehicle transporting it has a 5+ 特殊保护 against ranged weapons instead.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 is equipped with a kustom force field, 友方 兽人 units that are entirely 范围内 9&quot; have a 5+ 特殊保护 against ranged weapons.  If the unit is embarked, the vehicle transporting it has a 5+ 特殊保护 against ranged weapons instead.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7778,31 +7778,31 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
         </profile>
         <profile id="dfc5-9481-2de5-b155" name="Squiggoth" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="Transport">
           <characteristics>
-            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">10 ORK INFANTRY models.  Each MEGA ARMOUR or 跳跃背包 model takes the space of 2.</characteristic>
+            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">10 兽人 INFANTRY models.  Each MEGA ARMOUR or 跳跃背包 model takes the space of 2.</characteristic>
           </characteristics>
         </profile>
-        <profile id="fb25-4ad4-8c13-bf02" name="Squiggoth1" hidden="false" typeId="67c2-86d6-5956-58cb" typeName="Transport Wound Track">
+        <profile id="fb25-4ad4-8c13-bf02" name="Squiggoth1" hidden="false" typeId="67c2-86d6-5956-58cb" typeName="Transport 损伤表">
           <characteristics>
             <characteristic name="Wounds" typeId="e143-dcd2-6c87-9a3e">10-18+</characteristic>
             <characteristic name="Move" typeId="e293-95b7-16a2-ba35">10&quot;</characteristic>
-            <characteristic name="Strength" typeId="4caa-ff63-05ce-af9b">7</characteristic>
-            <characteristic name="Attacks" typeId="511e-cd8e-e9cd-db92">5</characteristic>
+            <characteristic name="S" typeId="4caa-ff63-05ce-af9b">7</characteristic>
+            <characteristic name="A" typeId="511e-cd8e-e9cd-db92">5</characteristic>
           </characteristics>
         </profile>
-        <profile id="e477-3573-be2e-ed5c" name="Squiggoth2" hidden="false" typeId="67c2-86d6-5956-58cb" typeName="Transport Wound Track">
+        <profile id="e477-3573-be2e-ed5c" name="Squiggoth2" hidden="false" typeId="67c2-86d6-5956-58cb" typeName="Transport 损伤表">
           <characteristics>
             <characteristic name="Wounds" typeId="e143-dcd2-6c87-9a3e">4-9</characteristic>
             <characteristic name="Move" typeId="e293-95b7-16a2-ba35">8&quot;</characteristic>
-            <characteristic name="Strength" typeId="4caa-ff63-05ce-af9b">6</characteristic>
-            <characteristic name="Attacks" typeId="511e-cd8e-e9cd-db92">4</characteristic>
+            <characteristic name="S" typeId="4caa-ff63-05ce-af9b">6</characteristic>
+            <characteristic name="A" typeId="511e-cd8e-e9cd-db92">4</characteristic>
           </characteristics>
         </profile>
-        <profile id="f501-69ad-2e6a-b206" name="Squiggoth3" hidden="false" typeId="67c2-86d6-5956-58cb" typeName="Transport Wound Track">
+        <profile id="f501-69ad-2e6a-b206" name="Squiggoth3" hidden="false" typeId="67c2-86d6-5956-58cb" typeName="Transport 损伤表">
           <characteristics>
             <characteristic name="Wounds" typeId="e143-dcd2-6c87-9a3e">1-3</characteristic>
             <characteristic name="Move" typeId="e293-95b7-16a2-ba35">6&quot;</characteristic>
-            <characteristic name="Strength" typeId="4caa-ff63-05ce-af9b">5</characteristic>
-            <characteristic name="Attacks" typeId="511e-cd8e-e9cd-db92">3</characteristic>
+            <characteristic name="S" typeId="4caa-ff63-05ce-af9b">5</characteristic>
+            <characteristic name="A" typeId="511e-cd8e-e9cd-db92">3</characteristic>
           </characteristics>
         </profile>
         <profile id="8432-6c23-2eac-a38a" name="Howdah" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -7870,28 +7870,28 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="c023-d5e6-29f3-4981" name="Meka-Dread1" hidden="false" typeId="d58d-8c3d-54e1-9821" typeName="GS Wound Track">
+        <profile id="c023-d5e6-29f3-4981" name="Meka-Dread1" hidden="false" typeId="d58d-8c3d-54e1-9821" typeName="GS 损伤表">
           <characteristics>
             <characteristic name="Wounds" typeId="a4c7-5af4-a86c-9484">10-18+</characteristic>
             <characteristic name="Move" typeId="d40d-8d54-3984-1384">8&quot;</characteristic>
             <characteristic name="WS" typeId="8f6e-3a41-6a6d-c267">3+</characteristic>
-            <characteristic name="Strength" typeId="31fd-d5bc-e8dd-1324">6</characteristic>
+            <characteristic name="S" typeId="31fd-d5bc-e8dd-1324">6</characteristic>
           </characteristics>
         </profile>
-        <profile id="6eab-eca3-3718-dbcb" name="Meka-Dread2" hidden="false" typeId="d58d-8c3d-54e1-9821" typeName="GS Wound Track">
+        <profile id="6eab-eca3-3718-dbcb" name="Meka-Dread2" hidden="false" typeId="d58d-8c3d-54e1-9821" typeName="GS 损伤表">
           <characteristics>
             <characteristic name="Wounds" typeId="a4c7-5af4-a86c-9484">4-9</characteristic>
             <characteristic name="Move" typeId="d40d-8d54-3984-1384">6&quot;</characteristic>
             <characteristic name="WS" typeId="8f6e-3a41-6a6d-c267">4+</characteristic>
-            <characteristic name="Strength" typeId="31fd-d5bc-e8dd-1324">5</characteristic>
+            <characteristic name="S" typeId="31fd-d5bc-e8dd-1324">5</characteristic>
           </characteristics>
         </profile>
-        <profile id="dcaf-ecd6-2f36-4edd" name="Meka-Dread3" hidden="false" typeId="d58d-8c3d-54e1-9821" typeName="GS Wound Track">
+        <profile id="dcaf-ecd6-2f36-4edd" name="Meka-Dread3" hidden="false" typeId="d58d-8c3d-54e1-9821" typeName="GS 损伤表">
           <characteristics>
             <characteristic name="Wounds" typeId="a4c7-5af4-a86c-9484">1-3</characteristic>
             <characteristic name="Move" typeId="d40d-8d54-3984-1384">4&quot;</characteristic>
             <characteristic name="WS" typeId="8f6e-3a41-6a6d-c267">5+</characteristic>
-            <characteristic name="Strength" typeId="31fd-d5bc-e8dd-1324">4</characteristic>
+            <characteristic name="S" typeId="31fd-d5bc-e8dd-1324">4</characteristic>
           </characteristics>
         </profile>
         <profile id="a185-1065-6696-9c52" name="Big n&apos; Stompy" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -8169,33 +8169,33 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
           </characteristics>
         </profile>
-        <profile id="d719-2186-6576-9f3d" name="LWagon1" hidden="false" typeId="67c2-86d6-5956-58cb" typeName="Transport Wound Track">
+        <profile id="d719-2186-6576-9f3d" name="LWagon1" hidden="false" typeId="67c2-86d6-5956-58cb" typeName="Transport 损伤表">
           <characteristics>
             <characteristic name="Wounds" typeId="e143-dcd2-6c87-9a3e">8-16+</characteristic>
             <characteristic name="Move" typeId="e293-95b7-16a2-ba35">12&quot;</characteristic>
-            <characteristic name="Strength" typeId="4caa-ff63-05ce-af9b">8</characteristic>
-            <characteristic name="Attacks" typeId="511e-cd8e-e9cd-db92">6</characteristic>
+            <characteristic name="S" typeId="4caa-ff63-05ce-af9b">8</characteristic>
+            <characteristic name="A" typeId="511e-cd8e-e9cd-db92">6</characteristic>
           </characteristics>
         </profile>
-        <profile id="ff2c-c15c-2d7b-0807" name="LWagon3" hidden="false" typeId="67c2-86d6-5956-58cb" typeName="Transport Wound Track">
+        <profile id="ff2c-c15c-2d7b-0807" name="LWagon3" hidden="false" typeId="67c2-86d6-5956-58cb" typeName="Transport 损伤表">
           <characteristics>
             <characteristic name="Wounds" typeId="e143-dcd2-6c87-9a3e">1-3</characteristic>
             <characteristic name="Move" typeId="e293-95b7-16a2-ba35">6&quot;</characteristic>
-            <characteristic name="Strength" typeId="4caa-ff63-05ce-af9b">6+</characteristic>
-            <characteristic name="Attacks" typeId="511e-cd8e-e9cd-db92">D3</characteristic>
+            <characteristic name="S" typeId="4caa-ff63-05ce-af9b">6+</characteristic>
+            <characteristic name="A" typeId="511e-cd8e-e9cd-db92">D3</characteristic>
           </characteristics>
         </profile>
-        <profile id="9c3a-f6fe-0dbc-1b4e" name="LWagon2" hidden="false" typeId="67c2-86d6-5956-58cb" typeName="Transport Wound Track">
+        <profile id="9c3a-f6fe-0dbc-1b4e" name="LWagon2" hidden="false" typeId="67c2-86d6-5956-58cb" typeName="Transport 损伤表">
           <characteristics>
             <characteristic name="Wounds" typeId="e143-dcd2-6c87-9a3e">4-7</characteristic>
             <characteristic name="Move" typeId="e293-95b7-16a2-ba35">9&quot;</characteristic>
-            <characteristic name="Strength" typeId="4caa-ff63-05ce-af9b">6</characteristic>
-            <characteristic name="Attacks" typeId="511e-cd8e-e9cd-db92">D6</characteristic>
+            <characteristic name="S" typeId="4caa-ff63-05ce-af9b">6</characteristic>
+            <characteristic name="A" typeId="511e-cd8e-e9cd-db92">D6</characteristic>
           </characteristics>
         </profile>
         <profile id="2ec4-9ab6-fc6b-b33e" name="Typo" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个单位 has a typo.  On its dataslate it says it has 6+ Strength once it gets to the lowest level on its wound track. Hopefully FW will fix it some day.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个单位 has a typo.  On its dataslate it says it has 6+ Strength once it gets to the lowest level on its 损伤表. Hopefully FW will fix it some day.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8301,28 +8301,28 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
           </characteristics>
         </profile>
-        <profile id="e7e3-b720-0734-133a" name="BigTrakk1" hidden="false" typeId="67c2-86d6-5956-58cb" typeName="Transport Wound Track">
+        <profile id="e7e3-b720-0734-133a" name="BigTrakk1" hidden="false" typeId="67c2-86d6-5956-58cb" typeName="Transport 损伤表">
           <characteristics>
             <characteristic name="Wounds" typeId="e143-dcd2-6c87-9a3e">9-15+</characteristic>
             <characteristic name="Move" typeId="e293-95b7-16a2-ba35">14&quot;</characteristic>
-            <characteristic name="Strength" typeId="4caa-ff63-05ce-af9b">6</characteristic>
-            <characteristic name="Attacks" typeId="511e-cd8e-e9cd-db92">5</characteristic>
+            <characteristic name="S" typeId="4caa-ff63-05ce-af9b">6</characteristic>
+            <characteristic name="A" typeId="511e-cd8e-e9cd-db92">5</characteristic>
           </characteristics>
         </profile>
-        <profile id="8cf1-7a3b-37fb-6afa" name="BigTrakk3" hidden="false" typeId="67c2-86d6-5956-58cb" typeName="Transport Wound Track">
+        <profile id="8cf1-7a3b-37fb-6afa" name="BigTrakk3" hidden="false" typeId="67c2-86d6-5956-58cb" typeName="Transport 损伤表">
           <characteristics>
             <characteristic name="Wounds" typeId="e143-dcd2-6c87-9a3e">1-3</characteristic>
             <characteristic name="Move" typeId="e293-95b7-16a2-ba35">10&quot;</characteristic>
-            <characteristic name="Strength" typeId="4caa-ff63-05ce-af9b">4</characteristic>
-            <characteristic name="Attacks" typeId="511e-cd8e-e9cd-db92">3</characteristic>
+            <characteristic name="S" typeId="4caa-ff63-05ce-af9b">4</characteristic>
+            <characteristic name="A" typeId="511e-cd8e-e9cd-db92">3</characteristic>
           </characteristics>
         </profile>
-        <profile id="f525-f965-cb3e-3945" name="BigTrakk2" hidden="false" typeId="67c2-86d6-5956-58cb" typeName="Transport Wound Track">
+        <profile id="f525-f965-cb3e-3945" name="BigTrakk2" hidden="false" typeId="67c2-86d6-5956-58cb" typeName="Transport 损伤表">
           <characteristics>
             <characteristic name="Wounds" typeId="e143-dcd2-6c87-9a3e">4-8</characteristic>
             <characteristic name="Move" typeId="e293-95b7-16a2-ba35">12&quot;</characteristic>
-            <characteristic name="Strength" typeId="4caa-ff63-05ce-af9b">5</characteristic>
-            <characteristic name="Attacks" typeId="511e-cd8e-e9cd-db92">4</characteristic>
+            <characteristic name="S" typeId="4caa-ff63-05ce-af9b">5</characteristic>
+            <characteristic name="A" typeId="511e-cd8e-e9cd-db92">4</characteristic>
           </characteristics>
         </profile>
         <profile id="1462-6c8f-4a9f-d217" name="Big Trakk" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="Transport">
@@ -8332,7 +8332,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
                 <condition field="selections" scope="9576-6195-fe16-dab7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1f7f-9cf3-1ccb-2aca" type="equalTo"/>
               </conditions>
             </modifier>
-            <modifier type="set" field="15aa-1916-a38b-d223" value="6 ORK INFANTRY models.  Each MEGA ARMOUR or 跳跃背包 model takes up the space of 2 other models.">
+            <modifier type="set" field="15aa-1916-a38b-d223" value="6 兽人 INFANTRY models.  Each MEGA ARMOUR or 跳跃背包 model takes up the space of 2 other models.">
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
@@ -8350,7 +8350,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">12 ORK INFANTRY models.  Each MEGA ARMOUR or 跳跃背包 model takes up the space of 2 other models.</characteristic>
+            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">12 兽人 INFANTRY models.  Each MEGA ARMOUR or 跳跃背包 model takes up the space of 2 other models.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8664,33 +8664,33 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
           </characteristics>
         </profile>
-        <profile id="4718-6f76-1ff4-6f52" name="BWagon1" hidden="false" typeId="67c2-86d6-5956-58cb" typeName="Transport Wound Track">
+        <profile id="4718-6f76-1ff4-6f52" name="BWagon1" hidden="false" typeId="67c2-86d6-5956-58cb" typeName="Transport 损伤表">
           <characteristics>
             <characteristic name="Wounds" typeId="e143-dcd2-6c87-9a3e">8-16+</characteristic>
             <characteristic name="Move" typeId="e293-95b7-16a2-ba35">12&quot;</characteristic>
-            <characteristic name="Strength" typeId="4caa-ff63-05ce-af9b">8</characteristic>
-            <characteristic name="Attacks" typeId="511e-cd8e-e9cd-db92">6</characteristic>
+            <characteristic name="S" typeId="4caa-ff63-05ce-af9b">8</characteristic>
+            <characteristic name="A" typeId="511e-cd8e-e9cd-db92">6</characteristic>
           </characteristics>
         </profile>
-        <profile id="fa9c-82dd-a58a-bfd7" name="BWagon3" hidden="false" typeId="67c2-86d6-5956-58cb" typeName="Transport Wound Track">
+        <profile id="fa9c-82dd-a58a-bfd7" name="BWagon3" hidden="false" typeId="67c2-86d6-5956-58cb" typeName="Transport 损伤表">
           <characteristics>
             <characteristic name="Wounds" typeId="e143-dcd2-6c87-9a3e">1-3</characteristic>
             <characteristic name="Move" typeId="e293-95b7-16a2-ba35">6&quot;</characteristic>
-            <characteristic name="Strength" typeId="4caa-ff63-05ce-af9b">6+</characteristic>
-            <characteristic name="Attacks" typeId="511e-cd8e-e9cd-db92">D3</characteristic>
+            <characteristic name="S" typeId="4caa-ff63-05ce-af9b">6+</characteristic>
+            <characteristic name="A" typeId="511e-cd8e-e9cd-db92">D3</characteristic>
           </characteristics>
         </profile>
-        <profile id="e5b7-cb1d-5cd9-d754" name="BWagon2" hidden="false" typeId="67c2-86d6-5956-58cb" typeName="Transport Wound Track">
+        <profile id="e5b7-cb1d-5cd9-d754" name="BWagon2" hidden="false" typeId="67c2-86d6-5956-58cb" typeName="Transport 损伤表">
           <characteristics>
             <characteristic name="Wounds" typeId="e143-dcd2-6c87-9a3e">4-7</characteristic>
             <characteristic name="Move" typeId="e293-95b7-16a2-ba35">9&quot;</characteristic>
-            <characteristic name="Strength" typeId="4caa-ff63-05ce-af9b">6</characteristic>
-            <characteristic name="Attacks" typeId="511e-cd8e-e9cd-db92">D6</characteristic>
+            <characteristic name="S" typeId="4caa-ff63-05ce-af9b">6</characteristic>
+            <characteristic name="A" typeId="511e-cd8e-e9cd-db92">D6</characteristic>
           </characteristics>
         </profile>
         <profile id="98aa-439c-0565-b7c7" name="Battlewagon" publicationId="03b4-8286-592c-c370" page="30" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="Transport">
           <characteristics>
-            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">6 ORK INFANTRY models.  Each MEGA ARMOUR or 跳跃背包 model takes the space of 2.  </characteristic>
+            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">6 兽人 INFANTRY models.  Each MEGA ARMOUR or 跳跃背包 model takes the space of 2.  </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8816,10 +8816,10 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
         </profile>
         <profile id="61d2-1423-a842-5b70" name="Kill Tank" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="Transport">
           <characteristics>
-            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">12 ORK INFANTRY models.  Each MEGA ARMOUR or 跳跃背包 model takes the space of 2.  </characteristic>
+            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">12 兽人 INFANTRY models.  Each MEGA ARMOUR or 跳跃背包 model takes the space of 2.  </characteristic>
           </characteristics>
         </profile>
-        <profile id="3e71-6990-c8ea-e50c" name="KillTank1" hidden="false" typeId="dc42-c17d-54f3-df0a" typeName="Kill Tank Wound Track">
+        <profile id="3e71-6990-c8ea-e50c" name="KillTank1" hidden="false" typeId="dc42-c17d-54f3-df0a" typeName="Kill Tank 损伤表">
           <characteristics>
             <characteristic name="Wounds" typeId="50c7-d15c-aa1b-eaf0">14-24+</characteristic>
             <characteristic name="Move" typeId="2910-7d1f-bf86-b8fc">12&quot;</characteristic>
@@ -8827,7 +8827,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
             <characteristic name="BS" typeId="7700-05f4-4b88-ca85">4+</characteristic>
           </characteristics>
         </profile>
-        <profile id="fcb6-99e0-3ab0-4e4d" name="KillTank3" hidden="false" typeId="dc42-c17d-54f3-df0a" typeName="Kill Tank Wound Track">
+        <profile id="fcb6-99e0-3ab0-4e4d" name="KillTank3" hidden="false" typeId="dc42-c17d-54f3-df0a" typeName="Kill Tank 损伤表">
           <characteristics>
             <characteristic name="Wounds" typeId="50c7-d15c-aa1b-eaf0">1-5</characteristic>
             <characteristic name="Move" typeId="2910-7d1f-bf86-b8fc">8&quot;</characteristic>
@@ -8835,7 +8835,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
             <characteristic name="BS" typeId="7700-05f4-4b88-ca85">6+</characteristic>
           </characteristics>
         </profile>
-        <profile id="2f29-b715-94bd-2431" name="KillTank2" hidden="false" typeId="dc42-c17d-54f3-df0a" typeName="Kill Tank Wound Track">
+        <profile id="2f29-b715-94bd-2431" name="KillTank2" hidden="false" typeId="dc42-c17d-54f3-df0a" typeName="Kill Tank 损伤表">
           <characteristics>
             <characteristic name="Wounds" typeId="50c7-d15c-aa1b-eaf0">6-13</characteristic>
             <characteristic name="Move" typeId="2910-7d1f-bf86-b8fc">10&quot;</characteristic>
@@ -8982,7 +8982,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
         </profile>
         <profile id="906d-de98-b3ed-7dec" name="&apos;Chinork&apos; Warkopta" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="Transport">
           <characteristics>
-            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">A Warkopta can carry 10 ORK INFANTRY models.  It may not carry MEGA ARMOUR or 跳跃背包 models.</characteristic>
+            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">A Warkopta can carry 10 兽人 INFANTRY models.  It may not carry MEGA ARMOUR or 跳跃背包 models.</characteristic>
           </characteristics>
         </profile>
         <profile id="7d28-d4d1-844b-9635" name="&apos;Chinork&apos; Warkopta" publicationId="03b4-8286-592c-c370" page="32" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
@@ -9104,42 +9104,42 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">这个模型 can transport 20 ORK INFANTRY models.  Each MEGA ARMOUR or 跳跃背包 model takes the space of 2.</characteristic>
+            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">这个模型 can transport 20 兽人 INFANTRY models.  Each MEGA ARMOUR or 跳跃背包 model takes the space of 2.</characteristic>
           </characteristics>
         </profile>
-        <profile id="1146-327b-a97b-2b08" name="KStompa1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="1146-327b-a97b-2b08" name="KStompa1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">31-40+</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">31-40+</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">12&quot;</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">3+</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">10</characteristic>
           </characteristics>
         </profile>
-        <profile id="31a0-d1fd-e512-7a9a" name="KStompa2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="31a0-d1fd-e512-7a9a" name="KStompa2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">21-30</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">21-30</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">9&quot;</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">4+</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">9</characteristic>
           </characteristics>
         </profile>
-        <profile id="3464-1b32-d10d-891d" name="KStompa3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="3464-1b32-d10d-891d" name="KStompa3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">11-20</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">11-20</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">6&quot;</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">5+</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">8</characteristic>
           </characteristics>
         </profile>
-        <profile id="2956-5595-9467-4422" name="KStompa4" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="2956-5595-9467-4422" name="KStompa4" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">1-10</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">1-10</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">4&quot;</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">6+</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">7</characteristic>
           </characteristics>
         </profile>
-        <profile id="4052-9654-54ec-7677" name="Effigy: Ork" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="4052-9654-54ec-7677" name="Effigy: 兽人" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Units 范围内 6&quot; of a 友方 Stompa can re-roll failed 士气测试.</characteristic>
           </characteristics>
@@ -9400,31 +9400,31 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
         </profile>
         <profile id="c7db-85f0-28a7-65d9" name="Gargantuan Squiggoth" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="Transport">
           <characteristics>
-            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">20 ORK INFANTRY models.  It cannot carry MEGA ARMOUR or 跳跃背包 models.</characteristic>
+            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">20 兽人 INFANTRY models.  It cannot carry MEGA ARMOUR or 跳跃背包 models.</characteristic>
           </characteristics>
         </profile>
-        <profile id="0026-8329-0d6a-85c0" name="GSquiggoth1" hidden="false" typeId="d58d-8c3d-54e1-9821" typeName="GS Wound Track">
+        <profile id="0026-8329-0d6a-85c0" name="GSquiggoth1" hidden="false" typeId="d58d-8c3d-54e1-9821" typeName="GS 损伤表">
           <characteristics>
             <characteristic name="Wounds" typeId="a4c7-5af4-a86c-9484">20-35+</characteristic>
             <characteristic name="Move" typeId="d40d-8d54-3984-1384">10&quot;</characteristic>
             <characteristic name="WS" typeId="8f6e-3a41-6a6d-c267">3+</characteristic>
-            <characteristic name="Strength" typeId="31fd-d5bc-e8dd-1324">12</characteristic>
+            <characteristic name="S" typeId="31fd-d5bc-e8dd-1324">12</characteristic>
           </characteristics>
         </profile>
-        <profile id="cb3f-cc97-3b16-7680" name="GSquiggoth2" hidden="false" typeId="d58d-8c3d-54e1-9821" typeName="GS Wound Track">
+        <profile id="cb3f-cc97-3b16-7680" name="GSquiggoth2" hidden="false" typeId="d58d-8c3d-54e1-9821" typeName="GS 损伤表">
           <characteristics>
             <characteristic name="Wounds" typeId="a4c7-5af4-a86c-9484">9-19</characteristic>
             <characteristic name="Move" typeId="d40d-8d54-3984-1384">8&quot;</characteristic>
             <characteristic name="WS" typeId="8f6e-3a41-6a6d-c267">4+</characteristic>
-            <characteristic name="Strength" typeId="31fd-d5bc-e8dd-1324">10</characteristic>
+            <characteristic name="S" typeId="31fd-d5bc-e8dd-1324">10</characteristic>
           </characteristics>
         </profile>
-        <profile id="a3ff-23d3-7e0a-e865" name="GSquiggoth3" hidden="false" typeId="d58d-8c3d-54e1-9821" typeName="GS Wound Track">
+        <profile id="a3ff-23d3-7e0a-e865" name="GSquiggoth3" hidden="false" typeId="d58d-8c3d-54e1-9821" typeName="GS 损伤表">
           <characteristics>
             <characteristic name="Wounds" typeId="a4c7-5af4-a86c-9484">1-8</characteristic>
             <characteristic name="Move" typeId="d40d-8d54-3984-1384">6&quot;</characteristic>
             <characteristic name="WS" typeId="8f6e-3a41-6a6d-c267">5+</characteristic>
-            <characteristic name="Strength" typeId="31fd-d5bc-e8dd-1324">8</characteristic>
+            <characteristic name="S" typeId="31fd-d5bc-e8dd-1324">8</characteristic>
           </characteristics>
         </profile>
         <profile id="d5d6-27e9-9cb8-3dfc" name="Howdah" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -9699,25 +9699,25 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="6416-90a9-30ff-5b21" name="Attack Fighta 1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="6416-90a9-30ff-5b21" name="Attack Fighta 1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">6-10+</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">6-10+</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">20-50</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">5+</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">3</characteristic>
           </characteristics>
         </profile>
-        <profile id="3cba-6ead-326a-22ff" name="Attack Fighta 3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="3cba-6ead-326a-22ff" name="Attack Fighta 3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">1-2</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">1-2</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">20-25&quot;</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">6+</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">1</characteristic>
           </characteristics>
         </profile>
-        <profile id="0f1a-a6c2-c853-bdb4" name="Attack Fighta 2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="0f1a-a6c2-c853-bdb4" name="Attack Fighta 2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">3-5</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">3-5</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">20-30&quot;</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">6+</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">D3</characteristic>
@@ -9821,25 +9821,25 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="8037-3454-a1d3-ebd5" name="Fighta-Bommer 1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="8037-3454-a1d3-ebd5" name="Fighta-Bommer 1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">7-12+</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">7-12+</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">20-50</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">5+</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">3</characteristic>
           </characteristics>
         </profile>
-        <profile id="316d-d1de-2618-7a8d" name="Fighta-Bommer 3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="316d-d1de-2618-7a8d" name="Fighta-Bommer 3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">1-3</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">1-3</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">20-25&quot;</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">6+</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">1</characteristic>
           </characteristics>
         </profile>
-        <profile id="15e7-1326-ddaf-49bb" name="Fighta-Bommer 2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="15e7-1326-ddaf-49bb" name="Fighta-Bommer 2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">4-6</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">4-6</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">20-30&quot;</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">6+</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">D3</characteristic>
@@ -10066,7 +10066,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
         </profile>
         <profile id="94c8-e786-05d1-3af2" name="SPEEDWAAAGH!" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">友方 &lt;CLAN&gt; BIKER and VEHICLE units 范围内 6&quot; of 这个模型 at the start of the Charge phase can charge even if they Advanced this turn.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">友方 &lt;氏族&gt; BIKER and VEHICLE units 范围内 6&quot; of 这个模型 at the start of the Charge phase can charge even if they Advanced this turn.</characteristic>
           </characteristics>
         </profile>
         <profile id="afa4-8883-87c6-ef64" name="Fuel Mixa Grot" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -10727,28 +10727,28 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
             <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">12 FLASHGITZ or (CLAN) INFANTRY models.  Each MEGA ARMOUR or 跳跃背包 model takes the space of 2.  </characteristic>
           </characteristics>
         </profile>
-        <profile id="de66-b309-777d-15e4" name="Wagon1" hidden="false" typeId="67c2-86d6-5956-58cb" typeName="Transport Wound Track">
+        <profile id="de66-b309-777d-15e4" name="Wagon1" hidden="false" typeId="67c2-86d6-5956-58cb" typeName="Transport 损伤表">
           <characteristics>
             <characteristic name="Wounds" typeId="e143-dcd2-6c87-9a3e">8-16+</characteristic>
             <characteristic name="Move" typeId="e293-95b7-16a2-ba35">12&quot;</characteristic>
-            <characteristic name="Strength" typeId="4caa-ff63-05ce-af9b">8</characteristic>
-            <characteristic name="Attacks" typeId="511e-cd8e-e9cd-db92">6</characteristic>
+            <characteristic name="S" typeId="4caa-ff63-05ce-af9b">8</characteristic>
+            <characteristic name="A" typeId="511e-cd8e-e9cd-db92">6</characteristic>
           </characteristics>
         </profile>
-        <profile id="baf1-47b7-23a8-0917" name="Wagon3" hidden="false" typeId="67c2-86d6-5956-58cb" typeName="Transport Wound Track">
+        <profile id="baf1-47b7-23a8-0917" name="Wagon3" hidden="false" typeId="67c2-86d6-5956-58cb" typeName="Transport 损伤表">
           <characteristics>
             <characteristic name="Wounds" typeId="e143-dcd2-6c87-9a3e">1-3</characteristic>
             <characteristic name="Move" typeId="e293-95b7-16a2-ba35">6&quot;</characteristic>
-            <characteristic name="Strength" typeId="4caa-ff63-05ce-af9b">4</characteristic>
-            <characteristic name="Attacks" typeId="511e-cd8e-e9cd-db92">D3</characteristic>
+            <characteristic name="S" typeId="4caa-ff63-05ce-af9b">4</characteristic>
+            <characteristic name="A" typeId="511e-cd8e-e9cd-db92">D3</characteristic>
           </characteristics>
         </profile>
-        <profile id="9762-cf6e-f854-073f" name="Wagon2" hidden="false" typeId="67c2-86d6-5956-58cb" typeName="Transport Wound Track">
+        <profile id="9762-cf6e-f854-073f" name="Wagon2" hidden="false" typeId="67c2-86d6-5956-58cb" typeName="Transport 损伤表">
           <characteristics>
             <characteristic name="Wounds" typeId="e143-dcd2-6c87-9a3e">4-7</characteristic>
             <characteristic name="Move" typeId="e293-95b7-16a2-ba35">9&quot;</characteristic>
-            <characteristic name="Strength" typeId="4caa-ff63-05ce-af9b">6</characteristic>
-            <characteristic name="Attacks" typeId="511e-cd8e-e9cd-db92">D6</characteristic>
+            <characteristic name="S" typeId="4caa-ff63-05ce-af9b">6</characteristic>
+            <characteristic name="A" typeId="511e-cd8e-e9cd-db92">D6</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10842,28 +10842,28 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
             <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">12 FLASHGITZ or (CLAN) INFANTRY models.  Each MEGA ARMOUR or 跳跃背包 model takes the space of 2. </characteristic>
           </characteristics>
         </profile>
-        <profile id="e7e6-d056-ad7c-73f9" name="Wagon1" hidden="false" typeId="67c2-86d6-5956-58cb" typeName="Transport Wound Track">
+        <profile id="e7e6-d056-ad7c-73f9" name="Wagon1" hidden="false" typeId="67c2-86d6-5956-58cb" typeName="Transport 损伤表">
           <characteristics>
             <characteristic name="Wounds" typeId="e143-dcd2-6c87-9a3e">8-16+</characteristic>
             <characteristic name="Move" typeId="e293-95b7-16a2-ba35">12&quot;</characteristic>
-            <characteristic name="Strength" typeId="4caa-ff63-05ce-af9b">8</characteristic>
-            <characteristic name="Attacks" typeId="511e-cd8e-e9cd-db92">6</characteristic>
+            <characteristic name="S" typeId="4caa-ff63-05ce-af9b">8</characteristic>
+            <characteristic name="A" typeId="511e-cd8e-e9cd-db92">6</characteristic>
           </characteristics>
         </profile>
-        <profile id="e7a6-0cb5-2784-68c3" name="Wagon3" hidden="false" typeId="67c2-86d6-5956-58cb" typeName="Transport Wound Track">
+        <profile id="e7a6-0cb5-2784-68c3" name="Wagon3" hidden="false" typeId="67c2-86d6-5956-58cb" typeName="Transport 损伤表">
           <characteristics>
             <characteristic name="Wounds" typeId="e143-dcd2-6c87-9a3e">1-3</characteristic>
             <characteristic name="Move" typeId="e293-95b7-16a2-ba35">6&quot;</characteristic>
-            <characteristic name="Strength" typeId="4caa-ff63-05ce-af9b">4</characteristic>
-            <characteristic name="Attacks" typeId="511e-cd8e-e9cd-db92">D3</characteristic>
+            <characteristic name="S" typeId="4caa-ff63-05ce-af9b">4</characteristic>
+            <characteristic name="A" typeId="511e-cd8e-e9cd-db92">D3</characteristic>
           </characteristics>
         </profile>
-        <profile id="159b-3f92-1014-0f2a" name="Wagon2" hidden="false" typeId="67c2-86d6-5956-58cb" typeName="Transport Wound Track">
+        <profile id="159b-3f92-1014-0f2a" name="Wagon2" hidden="false" typeId="67c2-86d6-5956-58cb" typeName="Transport 损伤表">
           <characteristics>
             <characteristic name="Wounds" typeId="e143-dcd2-6c87-9a3e">4-7</characteristic>
             <characteristic name="Move" typeId="e293-95b7-16a2-ba35">9&quot;</characteristic>
-            <characteristic name="Strength" typeId="4caa-ff63-05ce-af9b">6</characteristic>
-            <characteristic name="Attacks" typeId="511e-cd8e-e9cd-db92">D6</characteristic>
+            <characteristic name="S" typeId="4caa-ff63-05ce-af9b">6</characteristic>
+            <characteristic name="A" typeId="511e-cd8e-e9cd-db92">D6</characteristic>
           </characteristics>
         </profile>
         <profile id="2f18-a6d0-ec07-5c35" name="Periscope" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -11209,26 +11209,26 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
     </selectionEntry>
     <selectionEntry id="8c9b-9002-d5df-136d" name="Mekboy Workshop" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="efda-a541-95aa-26b0" name="Ork Structure" publicationId="11b5-77b9-pubN65537" page="118" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="efda-a541-95aa-26b0" name="兽人 Structure" publicationId="11b5-77b9-pubN65537" page="118" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">After it is set up, a Mekboy Workshop is treated as a terrain feature.  It cannot move for any reason, is not treated as a 友方 or 敌方模型, and cannot be targeted or affected by any attacks or abilities. </characteristic>
           </characteristics>
         </profile>
         <profile id="01e3-3944-7d13-fbc7" name="Mek&apos;s Grabbin&apos; Claw" publicationId="11b5-77b9-pubN65537" page="118" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of the 肉搏阶段, before any units have been chosen to fight, one ORK INFANTRY unit from your army that is 范围内 1&quot; of 这个模型 can operate the Mekboy Workshop&apos;s grabbin&apos; klaw. if it does so, select an 敌方单位 范围内 1&quot; of 这个模型 and 投掷1个D6; on a 4+ 那个敌方单位 遭受 D3 致命伤.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of the 肉搏阶段, before any units have been chosen to fight, one 兽人 INFANTRY unit from your army that is 范围内 1&quot; of 这个模型 can operate the Mekboy Workshop&apos;s grabbin&apos; klaw. if it does so, select an 敌方单位 范围内 1&quot; of 这个模型 and 投掷1个D6; on a 4+ 那个敌方单位 遭受 D3 致命伤.</characteristic>
           </characteristics>
         </profile>
         <profile id="1957-8c7a-159c-4f7e" name="Kustom Job" publicationId="11b5-77b9-pubN65537" page="118" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of your 移动阶段 one ORK VEHICLE unit from your army that is 范围内 1&quot; of 这个模型 can receive a Kustom Job.  If it does so, until the end of your turn, 那个单位 cannot shoot or charge, and the attacks characteristic of models in 那个单位 are reduced to 1, but you can choose and resolve one of the following effects.    More Speed - Until the end of your next 移动阶段 increase the move characteristic of models in the unit by 6&quot; 此外, 投掷1个D6 to see if the unit receives something &apos;extra speshul&apos;; on a 6 Add 1&quot; to the unit&apos;s charge moves for the rest of the battle.    More Rivvets - 那个单位 regains D3 wounds.  If there is a MEK or BIG MEK from your army 范围内 1&quot; of 这个模型 that has not used it&apos;s mekaniak ability to repair a vehicle yet this turn it can oversee the kustom job; if it does so, the unit regains 3 lost wounds 而不是 D3, and the model that oversaw the Kustom Job cannot use it&apos;s big mekaniak or mekaniak this turn.  此外, 投掷1个D6 to see if the unit receives something &apos;extra speshul&apos;; on a 6 add 1 to the Toughness characteristic for models in 那个单位 for the rest of the battle.   More Dakka - Chose one weapon (excluding a bubblechukka) that a model in 那个单位 is equipped with.  The next time any models in the unit fire that weapon, the weapon makes the maximum number of attacks (e.g. a weapon with the Heavy 2D6 type will fire 12 shots). 此外, 投掷1个D6 to see if the unit receives something &apos;extra speshul&apos;; on a 6 add 1 to the chosen weapon&apos;s Damage characteristic for the rest of the battle.    A unit can only receive a kustom job once per turn.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of your 移动阶段 one 兽人 VEHICLE unit from your army that is 范围内 1&quot; of 这个模型 can receive a Kustom Job.  If it does so, until the end of your turn, 那个单位 cannot shoot or charge, and the attacks characteristic of models in 那个单位 are reduced to 1, but you can choose and resolve one of the following effects.    More Speed - Until the end of your next 移动阶段 increase the move characteristic of models in the unit by 6&quot; 此外, 投掷1个D6 to see if the unit receives something &apos;extra speshul&apos;; on a 6 Add 1&quot; to the unit&apos;s charge moves for the rest of the battle.    More Rivvets - 那个单位 regains D3 wounds.  If there is a MEK or BIG MEK from your army 范围内 1&quot; of 这个模型 that has not used it&apos;s mekaniak ability to repair a vehicle yet this turn it can oversee the kustom job; if it does so, the unit regains 3 lost wounds 而不是 D3, and the model that oversaw the Kustom Job cannot use it&apos;s big mekaniak or mekaniak this turn.  此外, 投掷1个D6 to see if the unit receives something &apos;extra speshul&apos;; on a 6 add 1 to the Toughness characteristic for models in 那个单位 for the rest of the battle.   More Dakka - Chose one weapon (excluding a bubblechukka) that a model in 那个单位 is equipped with.  The next time any models in the unit fire that weapon, the weapon makes the maximum number of attacks (e.g. a weapon with the Heavy 2D6 type will fire 12 shots). 此外, 投掷1个D6 to see if the unit receives something &apos;extra speshul&apos;; on a 6 add 1 to the chosen weapon&apos;s Damage characteristic for the rest of the battle.    A unit can only receive a kustom job once per turn.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <categoryLinks>
         <categoryLink id="14eb-f76d-e31c-b8c9" name="Fortification" hidden="false" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a" primary="true"/>
-        <categoryLink id="b87d-1f93-f2d5-4903" name="阵营: Ork" hidden="false" targetId="1c58-037f-7b58-1223" primary="false"/>
-        <categoryLink id="b83a-4b49-5597-7f08" name="阵营: &lt;Clan&gt;" hidden="false" targetId="2ab6-8d0f-494d-38e2" primary="false"/>
+        <categoryLink id="b87d-1f93-f2d5-4903" name="阵营: 兽人" hidden="false" targetId="1c58-037f-7b58-1223" primary="false"/>
+        <categoryLink id="b83a-4b49-5597-7f08" name="阵营: &lt;氏族&gt;" hidden="false" targetId="2ab6-8d0f-494d-38e2" primary="false"/>
         <categoryLink id="4ea6-9bf3-169b-5435" name="Mekboy Workshop" hidden="false" targetId="7957-fd0f-b3f4-2c14" primary="false"/>
       </categoryLinks>
       <costs>
@@ -11823,7 +11823,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6789-abac-387f-bcdb" type="max"/>
           </constraints>
           <selectionEntryGroups>
-            <selectionEntryGroup id="1dff-66e5-edcd-a3b1" name="Ork Traits" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="1dff-66e5-edcd-a3b1" name="兽人 Traits" hidden="false" collective="false" import="true">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="bca6-d9fd-982f-76ef" type="max"/>
               </constraints>
@@ -12158,7 +12158,7 @@ Command Point.</characteristic>
             <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">20 FLASHGITZ or (CLAN) INFANTRY models.  Each MEGA ARMOUR or 跳跃背包 model takes the space of 2.  </characteristic>
           </characteristics>
         </profile>
-        <profile id="0580-05c4-fc5b-a398" name="Deffrolla1" hidden="false" typeId="dc42-c17d-54f3-df0a" typeName="Kill Tank Wound Track">
+        <profile id="0580-05c4-fc5b-a398" name="Deffrolla1" hidden="false" typeId="dc42-c17d-54f3-df0a" typeName="Kill Tank 损伤表">
           <characteristics>
             <characteristic name="Wounds" typeId="50c7-d15c-aa1b-eaf0">14-24+</characteristic>
             <characteristic name="Move" typeId="2910-7d1f-bf86-b8fc">12&quot;</characteristic>
@@ -12166,7 +12166,7 @@ Command Point.</characteristic>
             <characteristic name="BS" typeId="7700-05f4-4b88-ca85">4+</characteristic>
           </characteristics>
         </profile>
-        <profile id="81a2-11f1-4345-5ff6" name="Deffrolla3" hidden="false" typeId="dc42-c17d-54f3-df0a" typeName="Kill Tank Wound Track">
+        <profile id="81a2-11f1-4345-5ff6" name="Deffrolla3" hidden="false" typeId="dc42-c17d-54f3-df0a" typeName="Kill Tank 损伤表">
           <characteristics>
             <characteristic name="Wounds" typeId="50c7-d15c-aa1b-eaf0">1-5</characteristic>
             <characteristic name="Move" typeId="2910-7d1f-bf86-b8fc">8&quot;</characteristic>
@@ -12174,7 +12174,7 @@ Command Point.</characteristic>
             <characteristic name="BS" typeId="7700-05f4-4b88-ca85">6+</characteristic>
           </characteristics>
         </profile>
-        <profile id="2937-2517-180a-2baf" name="Deffrolla2" hidden="false" typeId="dc42-c17d-54f3-df0a" typeName="Kill Tank Wound Track">
+        <profile id="2937-2517-180a-2baf" name="Deffrolla2" hidden="false" typeId="dc42-c17d-54f3-df0a" typeName="Kill Tank 损伤表">
           <characteristics>
             <characteristic name="Wounds" typeId="50c7-d15c-aa1b-eaf0">6-13</characteristic>
             <characteristic name="Move" typeId="2910-7d1f-bf86-b8fc">10&quot;</characteristic>
@@ -12341,7 +12341,7 @@ Command Point.</characteristic>
             <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">12 FLASHGITZ or (CLAN) INFANTRY models.  Each MEGA ARMOUR or 跳跃背包 model takes the space of 2.  </characteristic>
           </characteristics>
         </profile>
-        <profile id="ba18-0c4e-af6f-2396" name="Krusha1" hidden="false" typeId="dc42-c17d-54f3-df0a" typeName="Kill Tank Wound Track">
+        <profile id="ba18-0c4e-af6f-2396" name="Krusha1" hidden="false" typeId="dc42-c17d-54f3-df0a" typeName="Kill Tank 损伤表">
           <characteristics>
             <characteristic name="Wounds" typeId="50c7-d15c-aa1b-eaf0">14-24+</characteristic>
             <characteristic name="Move" typeId="2910-7d1f-bf86-b8fc">12&quot;</characteristic>
@@ -12349,7 +12349,7 @@ Command Point.</characteristic>
             <characteristic name="BS" typeId="7700-05f4-4b88-ca85">4+</characteristic>
           </characteristics>
         </profile>
-        <profile id="207e-00d5-0cfe-f57d" name="Krusha3" hidden="false" typeId="dc42-c17d-54f3-df0a" typeName="Kill Tank Wound Track">
+        <profile id="207e-00d5-0cfe-f57d" name="Krusha3" hidden="false" typeId="dc42-c17d-54f3-df0a" typeName="Kill Tank 损伤表">
           <characteristics>
             <characteristic name="Wounds" typeId="50c7-d15c-aa1b-eaf0">1-5</characteristic>
             <characteristic name="Move" typeId="2910-7d1f-bf86-b8fc">8&quot;</characteristic>
@@ -12357,7 +12357,7 @@ Command Point.</characteristic>
             <characteristic name="BS" typeId="7700-05f4-4b88-ca85">6+</characteristic>
           </characteristics>
         </profile>
-        <profile id="a282-523f-0bb3-ec69" name="Krusha2" hidden="false" typeId="dc42-c17d-54f3-df0a" typeName="Kill Tank Wound Track">
+        <profile id="a282-523f-0bb3-ec69" name="Krusha2" hidden="false" typeId="dc42-c17d-54f3-df0a" typeName="Kill Tank 损伤表">
           <characteristics>
             <characteristic name="Wounds" typeId="50c7-d15c-aa1b-eaf0">6-13</characteristic>
             <characteristic name="Move" typeId="2910-7d1f-bf86-b8fc">10&quot;</characteristic>
@@ -12505,28 +12505,28 @@ Command Point.</characteristic>
     </selectionEntry>
     <selectionEntry id="f94f-4950-cc3d-f356" name="Kart" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="ca61-f994-dcf1-bd8c" name="Kart 1" publicationId="11b5-77b9-pubN143628" hidden="false" typeId="1355-1e88-8ca1-9111" typeName="Flier Wound Track">
+        <profile id="ca61-f994-dcf1-bd8c" name="Kart 1" publicationId="11b5-77b9-pubN143628" hidden="false" typeId="1355-1e88-8ca1-9111" typeName="Flier 损伤表">
           <characteristics>
             <characteristic name="Wounds" typeId="6ab3-1701-db9e-9417">6-10+</characteristic>
             <characteristic name="Move" typeId="f07d-1cad-c2eb-16a8">12&quot;</characteristic>
             <characteristic name="BS" typeId="5f83-5a93-75ac-9270">5+</characteristic>
-            <characteristic name="Attacks" typeId="c4fd-ff8c-7114-2cc3">3</characteristic>
+            <characteristic name="A" typeId="c4fd-ff8c-7114-2cc3">3</characteristic>
           </characteristics>
         </profile>
-        <profile id="c55d-42f0-fe4a-51ca" name="Kart 3" publicationId="11b5-77b9-pubN143628" hidden="false" typeId="1355-1e88-8ca1-9111" typeName="Flier Wound Track">
+        <profile id="c55d-42f0-fe4a-51ca" name="Kart 3" publicationId="11b5-77b9-pubN143628" hidden="false" typeId="1355-1e88-8ca1-9111" typeName="Flier 损伤表">
           <characteristics>
             <characteristic name="Wounds" typeId="6ab3-1701-db9e-9417">1-2</characteristic>
             <characteristic name="Move" typeId="f07d-1cad-c2eb-16a8">3&quot;</characteristic>
             <characteristic name="BS" typeId="5f83-5a93-75ac-9270">6+</characteristic>
-            <characteristic name="Attacks" typeId="c4fd-ff8c-7114-2cc3">1</characteristic>
+            <characteristic name="A" typeId="c4fd-ff8c-7114-2cc3">1</characteristic>
           </characteristics>
         </profile>
-        <profile id="efa7-c6d3-b159-71b8" name="Kart 2" publicationId="11b5-77b9-pubN143628" hidden="false" typeId="1355-1e88-8ca1-9111" typeName="Flier Wound Track">
+        <profile id="efa7-c6d3-b159-71b8" name="Kart 2" publicationId="11b5-77b9-pubN143628" hidden="false" typeId="1355-1e88-8ca1-9111" typeName="Flier 损伤表">
           <characteristics>
             <characteristic name="Wounds" typeId="6ab3-1701-db9e-9417">3-5</characteristic>
             <characteristic name="Move" typeId="f07d-1cad-c2eb-16a8">6&quot;</characteristic>
             <characteristic name="BS" typeId="5f83-5a93-75ac-9270">6+</characteristic>
-            <characteristic name="Attacks" typeId="c4fd-ff8c-7114-2cc3">D3</characteristic>
+            <characteristic name="A" typeId="c4fd-ff8c-7114-2cc3">D3</characteristic>
           </characteristics>
         </profile>
         <profile id="8d6f-52bd-1f23-8cc3" name="Kart" publicationId="11b5-77b9-pubN143628" page="9" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
@@ -12544,7 +12544,7 @@ Command Point.</characteristic>
         </profile>
         <profile id="a062-9524-8cdd-8d07" name="Kart Transport Capacity" publicationId="11b5-77b9-pubN143628" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="Transport">
           <characteristics>
-            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">这个模型 can transport 10 FLASH GITZ or &lt;CLAN&gt; INFANTRY models. Each MEGA ARMOUR or 跳跃背包 model takes the space of two other models.</characteristic>
+            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">这个模型 can transport 10 FLASH GITZ or &lt;氏族&gt; INFANTRY models. Each MEGA ARMOUR or 跳跃背包 model takes the space of two other models.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -12561,8 +12561,8 @@ Command Point.</characteristic>
         <categoryLink id="f047-d82b-c099-c605" name="Vehicle" hidden="false" targetId="c8fd-783f-3230-493e" primary="false"/>
         <categoryLink id="e56d-579b-0fb2-b6de" name="Transport" hidden="false" targetId="6cc4-1b62-8e8a-05cd" primary="false"/>
         <categoryLink id="53d2-4a7d-cf5a-1988" name="Looted Wagon" hidden="false" targetId="a40c-9c36-5fa9-a1c4" primary="false"/>
-        <categoryLink id="8c45-f228-f912-da76" name="阵营: &lt;Clan&gt;" hidden="false" targetId="2ab6-8d0f-494d-38e2" primary="false"/>
-        <categoryLink id="03d8-16b8-1ed2-2643" name="阵营: Ork" hidden="false" targetId="1c58-037f-7b58-1223" primary="false"/>
+        <categoryLink id="8c45-f228-f912-da76" name="阵营: &lt;氏族&gt;" hidden="false" targetId="2ab6-8d0f-494d-38e2" primary="false"/>
+        <categoryLink id="03d8-16b8-1ed2-2643" name="阵营: 兽人" hidden="false" targetId="1c58-037f-7b58-1223" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="e21c-baa1-7577-0ae3" name="Medium Dakka" hidden="false" collective="false" import="true">
@@ -12628,28 +12628,28 @@ Command Point.</characteristic>
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="ac1d-b712-b64e-df6d" name="Wagon 3" publicationId="11b5-77b9-pubN143628" hidden="false" typeId="1355-1e88-8ca1-9111" typeName="Flier Wound Track">
+        <profile id="ac1d-b712-b64e-df6d" name="Wagon 3" publicationId="11b5-77b9-pubN143628" hidden="false" typeId="1355-1e88-8ca1-9111" typeName="Flier 损伤表">
           <characteristics>
             <characteristic name="Wounds" typeId="6ab3-1701-db9e-9417">1-3</characteristic>
             <characteristic name="Move" typeId="f07d-1cad-c2eb-16a8">4&quot;</characteristic>
             <characteristic name="BS" typeId="5f83-5a93-75ac-9270">6+</characteristic>
-            <characteristic name="Attacks" typeId="c4fd-ff8c-7114-2cc3">1</characteristic>
+            <characteristic name="A" typeId="c4fd-ff8c-7114-2cc3">1</characteristic>
           </characteristics>
         </profile>
-        <profile id="86b6-9725-6267-084b" name="Wagon 1" publicationId="11b5-77b9-pubN143628" hidden="false" typeId="1355-1e88-8ca1-9111" typeName="Flier Wound Track">
+        <profile id="86b6-9725-6267-084b" name="Wagon 1" publicationId="11b5-77b9-pubN143628" hidden="false" typeId="1355-1e88-8ca1-9111" typeName="Flier 损伤表">
           <characteristics>
             <characteristic name="Wounds" typeId="6ab3-1701-db9e-9417">7-12+</characteristic>
             <characteristic name="Move" typeId="f07d-1cad-c2eb-16a8">10&quot;</characteristic>
             <characteristic name="BS" typeId="5f83-5a93-75ac-9270">5+</characteristic>
-            <characteristic name="Attacks" typeId="c4fd-ff8c-7114-2cc3">3</characteristic>
+            <characteristic name="A" typeId="c4fd-ff8c-7114-2cc3">3</characteristic>
           </characteristics>
         </profile>
-        <profile id="463f-d45e-f09f-0fee" name="Wagon 2" publicationId="11b5-77b9-pubN143628" hidden="false" typeId="1355-1e88-8ca1-9111" typeName="Flier Wound Track">
+        <profile id="463f-d45e-f09f-0fee" name="Wagon 2" publicationId="11b5-77b9-pubN143628" hidden="false" typeId="1355-1e88-8ca1-9111" typeName="Flier 损伤表">
           <characteristics>
             <characteristic name="Wounds" typeId="6ab3-1701-db9e-9417">4-6</characteristic>
             <characteristic name="Move" typeId="f07d-1cad-c2eb-16a8">7&quot;</characteristic>
             <characteristic name="BS" typeId="5f83-5a93-75ac-9270">6+</characteristic>
-            <characteristic name="Attacks" typeId="c4fd-ff8c-7114-2cc3">D3</characteristic>
+            <characteristic name="A" typeId="c4fd-ff8c-7114-2cc3">D3</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -12665,8 +12665,8 @@ Command Point.</characteristic>
         <categoryLink id="bb22-2c20-ea65-979d" name="Wagon" hidden="false" targetId="78e6-5cfc-20d3-d002" primary="false"/>
         <categoryLink id="d5dc-fcf9-1196-c6c8" name="Vehicle" hidden="false" targetId="c8fd-783f-3230-493e" primary="false"/>
         <categoryLink id="69c5-396e-ecb9-135a" name="Looted Wagon" hidden="false" targetId="a40c-9c36-5fa9-a1c4" primary="false"/>
-        <categoryLink id="ada2-bb51-1f62-4675" name="阵营: &lt;Clan&gt;" hidden="false" targetId="2ab6-8d0f-494d-38e2" primary="false"/>
-        <categoryLink id="d856-b55e-879a-5768" name="阵营: Ork" hidden="false" targetId="1c58-037f-7b58-1223" primary="false"/>
+        <categoryLink id="ada2-bb51-1f62-4675" name="阵营: &lt;氏族&gt;" hidden="false" targetId="2ab6-8d0f-494d-38e2" primary="false"/>
+        <categoryLink id="d856-b55e-879a-5768" name="阵营: 兽人" hidden="false" targetId="1c58-037f-7b58-1223" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="3dcd-39ee-99a9-1dd4" name="Medium Dakka" hidden="false" collective="false" import="true">
@@ -12797,28 +12797,28 @@ Command Point.</characteristic>
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="8da7-c918-96a1-9685" name="Battle Fortress 1" publicationId="11b5-77b9-pubN143628" hidden="false" typeId="1355-1e88-8ca1-9111" typeName="Flier Wound Track">
+        <profile id="8da7-c918-96a1-9685" name="Battle Fortress 1" publicationId="11b5-77b9-pubN143628" hidden="false" typeId="1355-1e88-8ca1-9111" typeName="Flier 损伤表">
           <characteristics>
             <characteristic name="Wounds" typeId="6ab3-1701-db9e-9417">14-26+</characteristic>
             <characteristic name="Move" typeId="f07d-1cad-c2eb-16a8">10&quot;</characteristic>
             <characteristic name="BS" typeId="5f83-5a93-75ac-9270">5+</characteristic>
-            <characteristic name="Attacks" typeId="c4fd-ff8c-7114-2cc3">9</characteristic>
+            <characteristic name="A" typeId="c4fd-ff8c-7114-2cc3">9</characteristic>
           </characteristics>
         </profile>
-        <profile id="0670-631c-5898-135b" name="Battle Fortress 3" publicationId="11b5-77b9-pubN143628" hidden="false" typeId="1355-1e88-8ca1-9111" typeName="Flier Wound Track">
+        <profile id="0670-631c-5898-135b" name="Battle Fortress 3" publicationId="11b5-77b9-pubN143628" hidden="false" typeId="1355-1e88-8ca1-9111" typeName="Flier 损伤表">
           <characteristics>
             <characteristic name="Wounds" typeId="6ab3-1701-db9e-9417">1-6</characteristic>
             <characteristic name="Move" typeId="f07d-1cad-c2eb-16a8">4&quot;</characteristic>
             <characteristic name="BS" typeId="5f83-5a93-75ac-9270">6+</characteristic>
-            <characteristic name="Attacks" typeId="c4fd-ff8c-7114-2cc3">3</characteristic>
+            <characteristic name="A" typeId="c4fd-ff8c-7114-2cc3">3</characteristic>
           </characteristics>
         </profile>
-        <profile id="5d4f-7c01-ef1d-32f2" name="Battle Fortress 2" publicationId="11b5-77b9-pubN143628" hidden="false" typeId="1355-1e88-8ca1-9111" typeName="Flier Wound Track">
+        <profile id="5d4f-7c01-ef1d-32f2" name="Battle Fortress 2" publicationId="11b5-77b9-pubN143628" hidden="false" typeId="1355-1e88-8ca1-9111" typeName="Flier 损伤表">
           <characteristics>
             <characteristic name="Wounds" typeId="6ab3-1701-db9e-9417">7-13</characteristic>
             <characteristic name="Move" typeId="f07d-1cad-c2eb-16a8">7&quot;</characteristic>
             <characteristic name="BS" typeId="5f83-5a93-75ac-9270">6+</characteristic>
-            <characteristic name="Attacks" typeId="c4fd-ff8c-7114-2cc3">6</characteristic>
+            <characteristic name="A" typeId="c4fd-ff8c-7114-2cc3">6</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -12835,8 +12835,8 @@ Command Point.</characteristic>
         <categoryLink id="16c3-2616-884b-d0fd" name="Looted Wagon" hidden="false" targetId="a40c-9c36-5fa9-a1c4" primary="false"/>
         <categoryLink id="b70d-f70b-747d-dd70" name="Titanic" hidden="false" targetId="bdda-36f0-4f32-1639" primary="false"/>
         <categoryLink id="fea1-e4e7-aef0-0eaf" name="Vehicle" hidden="false" targetId="c8fd-783f-3230-493e" primary="false"/>
-        <categoryLink id="9197-6b0d-4f21-acde" name="阵营: &lt;Clan&gt;" hidden="false" targetId="2ab6-8d0f-494d-38e2" primary="false"/>
-        <categoryLink id="8158-517b-e117-5c5f" name="阵营: Ork" hidden="false" targetId="1c58-037f-7b58-1223" primary="false"/>
+        <categoryLink id="9197-6b0d-4f21-acde" name="阵营: &lt;氏族&gt;" hidden="false" targetId="2ab6-8d0f-494d-38e2" primary="false"/>
+        <categoryLink id="8158-517b-e117-5c5f" name="阵营: 兽人" hidden="false" targetId="1c58-037f-7b58-1223" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="b836-9065-9036-4512" name="Huge Dakka" hidden="false" collective="false" import="true" defaultSelectionEntryId="5730-f3d5-8b36-c31b">
@@ -13333,7 +13333,7 @@ Command Point.</characteristic>
         </profile>
         <profile id="056b-5842-a4a1-c576" name="Red Gobbo" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 can be included in an Ork Detachment without preventing other units in that Detachment from gaining a Clan Kultur. Note, however, that 这个模型 does not itself benefit from any Clan Kultur.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 can be included in an 兽人 Detachment without preventing other units in that Detachment from gaining a Clan Kultur. Note, however, that 这个模型 does not itself benefit from any Clan Kultur.</characteristic>
           </characteristics>
         </profile>
         <profile id="1cb6-7815-b38c-7c16" name="Has Yoo Been a Good Little Grot This Year?" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -13348,7 +13348,7 @@ Command Point.</characteristic>
       <categoryLinks>
         <categoryLink id="3653-e728-f6ba-6e06" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
         <categoryLink id="45be-8c14-7182-39ac" name="Da Red Gobbo" hidden="false" targetId="11f0-717c-c5ed-6ef2" primary="false"/>
-        <categoryLink id="a06f-1cd7-f45e-904f" name="阵营: Ork" hidden="false" targetId="1c58-037f-7b58-1223" primary="false"/>
+        <categoryLink id="a06f-1cd7-f45e-904f" name="阵营: 兽人" hidden="false" targetId="1c58-037f-7b58-1223" primary="false"/>
         <categoryLink id="adb7-72d0-ce1d-1b1e" name="Elites" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
         <categoryLink id="9ddd-45d8-56a1-701d" name="Gretchin" hidden="false" targetId="0b2c-1505-90c2-24ed" primary="false"/>
         <categoryLink id="65f0-4843-559b-e1e2" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
@@ -13472,7 +13472,7 @@ Command Point.</characteristic>
               <characteristics>
                 <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">7</characteristic>
                 <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18&quot;</characteristic>
-                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If Manifested, select a 友方 ORK unit 范围内 18&quot; of the psyker.  Increase 那个单位&apos;s Attacks characteristic by 1 until your next 灵能阶段.</characteristic>
+                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If Manifested, select a 友方 兽人 unit 范围内 18&quot; of the psyker.  Increase 那个单位&apos;s Attacks characteristic by 1 until your next 灵能阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13491,7 +13491,7 @@ Command Point.</characteristic>
               <characteristics>
                 <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">7</characteristic>
                 <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">12&quot;</characteristic>
-                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If Manifested, select a 友方 ORK INFANTRY unit 范围内 12&quot; of the psyker.  Remove 那个单位 from the battlefield, and then set it up anywhere on the battlefield more than 9&quot; from any 敌方单位.  那个单位 counts as having moved for any rules purposes, such as firing 重型武器</characteristic>
+                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If Manifested, select a 友方 兽人 INFANTRY unit 范围内 12&quot; of the psyker.  Remove 那个单位 from the battlefield, and then set it up anywhere on the battlefield more than 9&quot; from any 敌方单位.  那个单位 counts as having moved for any rules purposes, such as firing 重型武器</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13510,7 +13510,7 @@ Command Point.</characteristic>
               <characteristics>
                 <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">6</characteristic>
                 <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">12&quot;</characteristic>
-                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If Manifested, select a 友方 ORK CHARACTER model that is visible to and 范围内 12&quot; of the psyker.  Add 2 to that model&apos;s Strength and Attacks characteristics until the start of your next 灵能阶段.</characteristic>
+                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If Manifested, select a 友方 兽人 CHARACTER model that is visible to and 范围内 12&quot; of the psyker.  Add 2 to that model&apos;s Strength and Attacks characteristics until the start of your next 灵能阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13622,7 +13622,7 @@ Command Point.</characteristic>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c14a-024c-55a7-1e35" type="max"/>
       </constraints>
       <selectionEntryGroups>
-        <selectionEntryGroup id="b9da-33f9-4b37-d3c8" name="Ork Traits" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="b9da-33f9-4b37-d3c8" name="兽人 Traits" hidden="false" collective="false" import="true">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -14320,7 +14320,7 @@ Command Point.</characteristic>
           <profiles>
             <profile id="cb26-9295-b04a-e8f7" name="Stompa Mob" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Use this Stratagem when choosing your army. Pick an ORK Super-heavy Detachment from your army to be a Stompa Mob Specialist Detachment. STOMPA units in that Detachment gain the STOMPA MOB keyword. 此外, you can pick one model in that Stompa Mob Specialist Detachment to gain the CHARACTER keyword. However, the only 主将 Trait it can be given is either Gork’s One or Mork’s One (see right) and the only relic it can take is Tezdrek’s Stompa Power Field (see right).</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Use this Stratagem when choosing your army. Pick an 兽人 Super-heavy Detachment from your army to be a Stompa Mob Specialist Detachment. STOMPA units in that Detachment gain the STOMPA MOB keyword. 此外, you can pick one model in that Stompa Mob Specialist Detachment to gain the CHARACTER keyword. However, the only 主将 Trait it can be given is either Gork’s One or Mork’s One (see right) and the only relic it can take is Tezdrek’s Stompa Power Field (see right).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -14337,7 +14337,7 @@ Command Point.</characteristic>
           <profiles>
             <profile id="5068-5569-58a4-f497" name="Kult of Speed" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Use this Stratagem when choosing your army. Pick an ORK Detachment from your army to be a Kult of Speed Specialist Detachment. SPEED FREEKS in that Detachment gain the KULT OF SPEED keyword.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Use this Stratagem when choosing your army. Pick an 兽人 Detachment from your army to be a Kult of Speed Specialist Detachment. SPEED FREEKS in that Detachment gain the KULT OF SPEED keyword.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -14354,7 +14354,7 @@ Command Point.</characteristic>
           <profiles>
             <profile id="6503-bd6c-535c-7c2c" name="Dread Waaagh!" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Use this Stratagem when choosing your army. Pick an ORK Detachment from your army to be a Dread Waaagh! Specialist Detachment. BIG MEKS, GORKANAUTS, MORKANAUTS, DEFF DREADS and KILLA KANS in that Detachment gain the DREAD WAAAGH! keyword.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Use this Stratagem when choosing your army. Pick an 兽人 Detachment from your army to be a Dread Waaagh! Specialist Detachment. BIG MEKS, GORKANAUTS, MORKANAUTS, DEFF DREADS and KILLA KANS in that Detachment gain the DREAD WAAAGH! keyword.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -14371,7 +14371,7 @@ Command Point.</characteristic>
           <profiles>
             <profile id="c185-326e-2ff4-ed2e" name="Blitz Brigade" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Use this Stratagem when choosing your army. Pick an ORK Detachment from your army to be a Blitz Brigade Specialist Detachment. WARBOSSES, BATTLEWAGONS, GUNWAGONS and BONEBREAKA units in that Detachment gain the BLITZ BRIGADE keyword.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Use this Stratagem when choosing your army. Pick an 兽人 Detachment from your army to be a Blitz Brigade Specialist Detachment. WARBOSSES, BATTLEWAGONS, GUNWAGONS and BONEBREAKA units in that Detachment gain the BLITZ BRIGADE keyword.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -14403,10 +14403,10 @@ Command Point.</characteristic>
       <description>The 第1次 这个单位 sets up on the battlefield, all of its models must be placed 范围内 6&quot; of at least one other  model from the unit.  From that point onwards each model operates independently and is treated as a seperate unit for all rules purposes.</description>
     </rule>
     <rule id="3f88-a717-6763-c8f5" name="Grots" hidden="false">
-      <description>Units comprised entirely of GRETCHIN cannot benefit from any Clan Kultur.  此外, Ork Stratagems can only be used on these units if the Stratagem explicitly states so (e.g. the &apos;Grot Shields&apos; Stratagem)</description>
+      <description>Units comprised entirely of GRETCHIN cannot benefit from any Clan Kultur.  此外, 兽人 Stratagems can only be used on these units if the Stratagem explicitly states so (e.g. the &apos;Grot Shields&apos; Stratagem)</description>
     </rule>
     <rule id="0ade-124a-3611-05d7" name="Gunz for Hire" hidden="false">
-      <description>FLASHGITZ units (including Kaptin Badrukk) can be included in an ORK detachment without preventing other units in that Detachment from gaining a Clan Kulture.  Note, howerever, that the FLASHGITZ units do not themselves benefit from any Clan Kultur unless the Clan Kultur selected for the Detachment is the FREEBOOTERZ Clan Kultur.</description>
+      <description>FLASHGITZ units (including Kaptin Badrukk) can be included in an 兽人 detachment without preventing other units in that Detachment from gaining a Clan Kulture.  Note, howerever, that the FLASHGITZ units do not themselves benefit from any Clan Kultur unless the Clan Kultur selected for the Detachment is the FREEBOOTERZ Clan Kultur.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -14452,12 +14452,12 @@ Command Point.</characteristic>
     </profile>
     <profile id="b5ee-945a-576f-ad0a" name="Dok&apos;s Tools" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">投掷1个D6 each time a &lt;CLAN&gt; INFANTRY or &lt;CLAN&gt; BIKER unit loses a wound whilst 范围内 3&quot; of any 友方 &lt;CLAN&gt; PAINBOYZ.  On a 6, 那个单位 does not lose that wound.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">投掷1个D6 each time a &lt;氏族&gt; INFANTRY or &lt;氏族&gt; BIKER unit loses a wound whilst 范围内 3&quot; of any 友方 &lt;氏族&gt; PAINBOYZ.  On a 6, 那个单位 does not lose that wound.</characteristic>
       </characteristics>
     </profile>
     <profile id="1b10-4a6f-f6d0-3a91" name="Biker Dok&apos;s Tools" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When a &lt;CLAN&gt; INFANTRY or &lt;CLAN&gt; BIKER model would lose a wound 范围内 3&quot; of any 友方 &lt;CLAN&gt; PAINBOYS, 投掷1个D6; on a 6, that wound is not lost.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When a &lt;氏族&gt; INFANTRY or &lt;氏族&gt; BIKER model would lose a wound 范围内 3&quot; of any 友方 &lt;氏族&gt; PAINBOYS, 投掷1个D6; on a 6, that wound is not lost.</characteristic>
       </characteristics>
     </profile>
     <profile id="6a6c-07a0-01b0-89eb" name="Stikkbomb" publicationId="11b5-77b9-pubN65537" page="120" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -14490,7 +14490,7 @@ Command Point.</characteristic>
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time the bearer fights, it can make 1 additional attack with 这个武器.</characteristic>
       </characteristics>
     </profile>
-    <profile id="4305-daf8-8988-6189" name="Ork Boy" publicationId="11b5-77b9-pubN65537" page="89" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+    <profile id="4305-daf8-8988-6189" name="兽人 Boy" publicationId="11b5-77b9-pubN65537" page="89" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
       <characteristics>
         <characteristic name="M" typeId="0bdf-a96e-9e38-7779">5&quot;</characteristic>
         <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -14533,7 +14533,7 @@ Command Point.</characteristic>
     </profile>
     <profile id="e5ad-516c-ad0a-54a1" name="Mekaniak" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of your 移动阶段, 这个模型 can repair a single 友方 &lt;CLAN&gt; VEHICLE 范围内 1&quot;.  That model regains 1 wound lost earlier in the battle.  A vehicle can only be repaired once each turn.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of your 移动阶段, 这个模型 can repair a single 友方 &lt;氏族&gt; VEHICLE 范围内 1&quot;.  That model regains 1 wound lost earlier in the battle.  A vehicle can only be repaired once each turn.</characteristic>
       </characteristics>
     </profile>
     <profile id="0a24-5217-fb9c-c81c" name="Big Mekaniak" publicationId="11b5-77b9-pubN65537" page="86" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -14543,17 +14543,17 @@ Command Point.</characteristic>
     </profile>
     <profile id="e5b1-5297-5794-d878" name="Breakin&apos; Heads" publicationId="11b5-77b9-pubN65537" page="85" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If a &lt;CLAN&gt; unit fails a Morale test 范围内 3&quot; of a 友方 &lt;CLAN&gt; WARBOSS, they can restore order with a brutal display of violence.  If they do, the unit 遭受 D3 致命伤, but the Morale test is then considered to have been passed.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If a &lt;氏族&gt; unit fails a Morale test 范围内 3&quot; of a 友方 &lt;氏族&gt; WARBOSS, they can restore order with a brutal display of violence.  If they do, the unit 遭受 D3 致命伤, but the Morale test is then considered to have been passed.</characteristic>
       </characteristics>
     </profile>
     <profile id="3202-2878-7cb1-93a2" name="Keepin&apos; Order" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">投掷1个D6 for each model that flees from a &lt;CLAN&gt; unit that is 范围内 3&quot; of any 友方 &lt;CLAN&gt; unit with this ability. On a 6, that model doesn&apos;t flee.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">投掷1个D6 for each model that flees from a &lt;氏族&gt; unit that is 范围内 3&quot; of any 友方 &lt;氏族&gt; unit with this ability. On a 6, that model doesn&apos;t flee.</characteristic>
       </characteristics>
     </profile>
     <profile id="5dbe-c4d8-6c28-07fa" name="Waaagh!" publicationId="11b5-77b9-pubN65537" page="85" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">友方 &lt;CLAN&gt; Infantry units 范围内 6&quot; of 这个模型 at the start of the Charge phase can charge even if they Advanced this turn.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">友方 &lt;氏族&gt; Infantry units 范围内 6&quot; of 这个模型 at the start of the Charge phase can charge even if they Advanced this turn.</characteristic>
       </characteristics>
     </profile>
     <profile id="9649-855b-5c2e-57da" name="Big Bike Mekaniak" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -14679,7 +14679,7 @@ Command Point.</characteristic>
     </profile>
     <profile id="6829-dbf1-bf22-c9e5" name="Waaagh! (Biker)" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">友方 Ork Infantry and Biker units 范围内 6&quot; of 这个模型 at the start of the Charge phase can charge even if they Advanced this turn.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">友方 兽人 Infantry and Biker units 范围内 6&quot; of 这个模型 at the start of the Charge phase can charge even if they Advanced this turn.</characteristic>
       </characteristics>
     </profile>
     <profile id="4350-a8e0-753d-fa9a" name="Throat Slittas" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">

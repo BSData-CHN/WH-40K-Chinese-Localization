@@ -6,26 +6,26 @@
     <publication id="24b6-2b46-pubN178732" name="Codex Endless Disappointment"/>
   </publications>
   <profileTypes>
-    <profileType id="6657-e5fe-e020-4f89" name="Stat Damage - M/AddAttks">
+    <profileType id="6657-e5fe-e020-4f89" name="损伤表 - M/AddAttks">
       <characteristicTypes>
-        <characteristicType id="0641-3c3f-006e-9ec6" name="Remaining W"/>
-        <characteristicType id="68fd-6915-4039-fc51" name="Movement"/>
+        <characteristicType id="0641-3c3f-006e-9ec6" name="剩余W"/>
+        <characteristicType id="68fd-6915-4039-fc51" name="M"/>
         <characteristicType id="937e-8f9c-7fae-427f" name="Additional Attacks"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="8e0b-501f-13be-6d2f" name="Stat Damage - M/BS">
+    <profileType id="8e0b-501f-13be-6d2f" name="损伤表 - M/BS">
       <characteristicTypes>
-        <characteristicType id="0199-68c2-2227-31cc" name="Remaining W"/>
-        <characteristicType id="0a38-9454-11f5-bed1" name="Movement"/>
+        <characteristicType id="0199-68c2-2227-31cc" name="剩余W"/>
+        <characteristicType id="0a38-9454-11f5-bed1" name="M"/>
         <characteristicType id="927d-f299-7a87-89a4" name="BS"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="29af-65db-c2dc-cfa1" name="Stat Damage - M/BS/A">
+    <profileType id="29af-65db-c2dc-cfa1" name="损伤表 - M/BS/A">
       <characteristicTypes>
-        <characteristicType id="8fc5-896d-483d-3667" name="Remaining W"/>
-        <characteristicType id="52ff-99c8-da8d-7a41" name="Movement"/>
+        <characteristicType id="8fc5-896d-483d-3667" name="剩余W"/>
+        <characteristicType id="52ff-99c8-da8d-7a41" name="M"/>
         <characteristicType id="584b-923f-c35a-0439" name="BS"/>
-        <characteristicType id="7f3d-3b48-eff9-ebb9" name="Attacks"/>
+        <characteristicType id="7f3d-3b48-eff9-ebb9" name="A"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
@@ -607,7 +607,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6398-faae-885f-a7fe" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="598b-ac4a-6854-2e5f" name="Svangir &amp; Ulfgir" hidden="false" collective="false" import="true" targetId="ea66-1247-bc37-2761" type="selectionEntry">
+        <entryLink id="598b-ac4a-6854-2e5f" name="Svangir, Ulfgir" hidden="false" collective="false" import="true" targetId="ea66-1247-bc37-2761" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b99-d41d-31dd-6831" type="max"/>
           </constraints>
@@ -670,7 +670,7 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ea66-1247-bc37-2761" name="Svangir &amp; Ulfgir" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="ea66-1247-bc37-2761" name="Svangir, Ulfgir" hidden="false" collective="false" import="true" type="unit">
       <entryLinks>
         <entryLink id="0522-f2a1-e9ad-6bbe" name="Svangir" hidden="false" collective="false" import="true" targetId="5231-dca8-f3d1-58cf" type="selectionEntry">
           <constraints>
@@ -866,7 +866,7 @@
         <infoLink id="0eb9-5389-4749-b806" name="New InfoLink" hidden="false" targetId="4ea8-94d3-ba39-042f" type="rule"/>
         <infoLink id="14b7-6e22-a984-5071" name="High King of Fenris" hidden="false" targetId="2972-3c4c-b8ba-6b01" type="profile"/>
         <infoLink id="340c-f805-5391-0638" name="New InfoLink" hidden="false" targetId="18d0-7cd5-e05c-698f" type="profile"/>
-        <infoLink id="91d9-3553-16f3-fc14" name="Stormrider Wound Track 1" hidden="false" targetId="4c71-1a2a-12f2-f58a" type="profile"/>
+        <infoLink id="91d9-3553-16f3-fc14" name="Stormrider 损伤表 1" hidden="false" targetId="4c71-1a2a-12f2-f58a" type="profile"/>
         <infoLink id="b73d-e049-7114-37a9" name="New InfoLink" hidden="false" targetId="579f-d299-3046-eac3" type="profile"/>
         <infoLink id="27f5-76d8-d05f-c362" name="New InfoLink" hidden="false" targetId="cb17-0ef6-a770-d8cc" type="profile"/>
         <infoLink id="7b6a-c5e6-23d6-c017" name="Alpha Predator" hidden="false" targetId="1c29-415b-762f-25cd" type="profile"/>
@@ -3946,7 +3946,7 @@
             <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7931-3f50-3793-4900" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="4fef-8c6c-d553-4cdb" name="Thunder hammer &amp; Stormshield" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="4fef-8c6c-d553-4cdb" name="Thunder hammer, Stormshield" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntries>
                 <selectionEntry id="7211-1366-7365-6543" name="Storm Shield" hidden="false" collective="true" import="true" type="upgrade">
                   <constraints>
@@ -8103,7 +8103,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2016-4d67-b5c1-1b58" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="20e7-1c2e-d1d8-7cbb" name="Lascannon &amp; Twin Plasma Gun" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="20e7-1c2e-d1d8-7cbb" name="Lascannon, Twin Plasma Gun" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="be24-e4e2-e5f1-1d05" name="New InfoLink" hidden="false" targetId="f14a-07e5-5465-69cf" type="profile"/>
                 <infoLink id="a462-2c43-a4f7-ac02" name="New InfoLink" hidden="false" targetId="f7ba-88b9-c604-cd89" type="profile"/>
@@ -9515,25 +9515,25 @@
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="06ea-157c-e267-b994" name="Row 1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="06ea-157c-e267-b994" name="Row 1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">7-13+</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">7-13+</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">8寸</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">3+</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="8db1-9b6b-832f-0949" name="Row 2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="8db1-9b6b-832f-0949" name="Row 2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">4-6</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">4-6</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">6寸</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">4+</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">4+</characteristic>
           </characteristics>
         </profile>
-        <profile id="2fc3-30dc-c33f-16bb" name="Row 3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="2fc3-30dc-c33f-16bb" name="Row 3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">1-3</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">1-3</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">4寸</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">5+</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">5+</characteristic>
@@ -9919,25 +9919,25 @@
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="4567-8614-e223-844b" name="Row 1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="4567-8614-e223-844b" name="Row 1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">9-16+</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">9-16+</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">10寸</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">3+</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">6</characteristic>
           </characteristics>
         </profile>
-        <profile id="b543-c376-3df3-293d" name="Row 2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="b543-c376-3df3-293d" name="Row 2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">5-8</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">5-8</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">5寸</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">4+</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">D6</characteristic>
           </characteristics>
         </profile>
-        <profile id="f7c5-1341-dbaf-4691" name="Row 3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="f7c5-1341-dbaf-4691" name="Row 3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">1-4</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">1-4</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">3寸</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">5+</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">1</characteristic>
@@ -11390,25 +11390,25 @@
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="640b-448d-20cc-60ec" name="Row 1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="640b-448d-20cc-60ec" name="Row 1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">6-10+</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">6-10+</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">9寸</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">2+</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">2+</characteristic>
           </characteristics>
         </profile>
-        <profile id="a515-06eb-2966-735b" name="Row 2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="a515-06eb-2966-735b" name="Row 2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">3-5</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">3-5</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">6寸</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">3+</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="bcc2-c30e-e820-ea9e" name="Row 3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="bcc2-c30e-e820-ea9e" name="Row 3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">1-2</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">1-2</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">4寸</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">4+</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">4+</characteristic>
@@ -11698,25 +11698,25 @@
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="3a4c-d424-4643-59b7" name="Row 1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="3a4c-d424-4643-59b7" name="Row 1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">6-11+</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">6-11+</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">10寸</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">3+</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">3</characteristic>
           </characteristics>
         </profile>
-        <profile id="a0d2-6ad6-4d76-815e" name="Row 2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="a0d2-6ad6-4d76-815e" name="Row 2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">3-5</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">3-5</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">5寸</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">4+</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">D3</characteristic>
           </characteristics>
         </profile>
-        <profile id="4b19-4a71-f8fb-f46f" name="Row 3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="4b19-4a71-f8fb-f46f" name="Row 3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">1-2</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">1-2</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">3寸</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">5+</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">1</characteristic>
@@ -11796,25 +11796,25 @@
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="3938-b22d-adb0-86aa" name="Stalker 1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="3938-b22d-adb0-86aa" name="Stalker 1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">6-11+</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">6-11+</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">10寸</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">3+</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">3</characteristic>
           </characteristics>
         </profile>
-        <profile id="1ffc-56f2-472f-e088" name="Stalker 2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="1ffc-56f2-472f-e088" name="Stalker 2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">3-5</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">3-5</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">5寸</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">4+</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">D3</characteristic>
           </characteristics>
         </profile>
-        <profile id="4ac7-6c72-e9e0-979b" name="Stalker 3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="4ac7-6c72-e9e0-979b" name="Stalker 3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">1-2</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">1-2</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">3寸</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">5+</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">1</characteristic>
@@ -11964,25 +11964,25 @@
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="99fa-77ce-376d-f8d7" name="Stormhawk Interceptor 1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="99fa-77ce-376d-f8d7" name="Stormhawk Interceptor 1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">6-10+</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">6-10+</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">20-60寸</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">3+</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">3</characteristic>
           </characteristics>
         </profile>
-        <profile id="f2ef-3c60-7105-f516" name="Stormhawk Interceptor 2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="f2ef-3c60-7105-f516" name="Stormhawk Interceptor 2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">3-5</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">3-5</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">20-40寸</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">4+</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">D3</characteristic>
           </characteristics>
         </profile>
-        <profile id="068b-7b11-8c10-9e50" name="Stormhawk Interceptor 3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="068b-7b11-8c10-9e50" name="Stormhawk Interceptor 3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">1-2</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">1-2</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">20-25寸</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">5+</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">1</characteristic>
@@ -12787,7 +12787,7 @@
           <characteristics>
             <characteristic name="Cast" typeId="5afb-9914-904b-d3b3">2</characteristic>
             <characteristic name="Deny" typeId="b5ac-9c20-5d5a-6f9b">1</characteristic>
-            <characteristic name="Powers Known" typeId="69d7-b45e-00a2-7e46">Smite &amp; 2 Obscuration or Smite &amp; 2  Tempestas</characteristic>
+            <characteristic name="Powers Known" typeId="69d7-b45e-00a2-7e46">Smite, 2 Obscuration or Smite, 2  Tempestas</characteristic>
             <characteristic name="Other" typeId="c2e2-f115-0003-5d7b">-</characteristic>
           </characteristics>
         </profile>
@@ -13900,25 +13900,25 @@
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="ff48-7024-3c86-69c5" name="Repulsor Executioner 1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="ff48-7024-3c86-69c5" name="Repulsor Executioner 1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">9-16+</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">9-16+</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">10寸</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">3+</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">6</characteristic>
           </characteristics>
         </profile>
-        <profile id="35b6-3aae-34a2-c205" name="Repulsor Executioner 2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="35b6-3aae-34a2-c205" name="Repulsor Executioner 2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">5-8</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">5-8</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">5寸</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">4+</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">D6</characteristic>
           </characteristics>
         </profile>
-        <profile id="650c-cd11-ba83-fe0b" name="Repulsor Executioner 3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="650c-cd11-ba83-fe0b" name="Repulsor Executioner 3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">1-4</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">1-4</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">3寸</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">5+</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">1</characteristic>
@@ -14041,25 +14041,25 @@
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="0a6d-4bed-b897-2640" name="Row1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="0a6d-4bed-b897-2640" name="Row1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">7-13+</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">7-13+</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">10寸</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">3+</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="d457-d555-59da-9343" name="Row 2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="d457-d555-59da-9343" name="Row 2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">4-6</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">4-6</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">8寸</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">4+</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">4+</characteristic>
           </characteristics>
         </profile>
-        <profile id="c87c-1631-2b81-6b9d" name="Row3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="c87c-1631-2b81-6b9d" name="Row3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">1-3</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">1-3</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">6寸</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">5+</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">5+</characteristic>
@@ -14328,25 +14328,25 @@
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="e47b-e13c-a228-0d13" name="Impulsor Wound Track 1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="e47b-e13c-a228-0d13" name="Impulsor 损伤表 1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">6-11+</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">6-11+</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">14寸</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">3+</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">3</characteristic>
           </characteristics>
         </profile>
-        <profile id="3f8c-cef1-b191-78ab" name="Impulsor Wound Track 2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="3f8c-cef1-b191-78ab" name="Impulsor 损伤表 2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">3-5</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">3-5</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">7寸</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">4+</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">D3</characteristic>
           </characteristics>
         </profile>
-        <profile id="e8b7-ae68-ee3e-718e" name="Impulsor Wound Track 3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="e8b7-ae68-ee3e-718e" name="Impulsor 损伤表 3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">1-2</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">1-2</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">4寸</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">5+</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">1</characteristic>
@@ -16512,24 +16512,24 @@ wounds.</characteristic>
         <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">2+</characteristic>
       </characteristics>
     </profile>
-    <profile id="4c71-1a2a-12f2-f58a" name="Stormrider Wound Track 1" hidden="false" typeId="6657-e5fe-e020-4f89" typeName="Stat Damage - M/AddAttks">
+    <profile id="4c71-1a2a-12f2-f58a" name="Stormrider 损伤表 1" hidden="false" typeId="6657-e5fe-e020-4f89" typeName="损伤表 - M/AddAttks">
       <characteristics>
-        <characteristic name="Remaining W" typeId="0641-3c3f-006e-9ec6">7-12+</characteristic>
-        <characteristic name="Movement" typeId="68fd-6915-4039-fc51">10寸</characteristic>
+        <characteristic name="剩余W" typeId="0641-3c3f-006e-9ec6">7-12+</characteristic>
+        <characteristic name="M" typeId="68fd-6915-4039-fc51">10寸</characteristic>
         <characteristic name="Additional Attacks" typeId="937e-8f9c-7fae-427f">6</characteristic>
       </characteristics>
     </profile>
-    <profile id="579f-d299-3046-eac3" name="Stormrider Wound Track 2" hidden="false" typeId="6657-e5fe-e020-4f89" typeName="Stat Damage - M/AddAttks">
+    <profile id="579f-d299-3046-eac3" name="Stormrider 损伤表 2" hidden="false" typeId="6657-e5fe-e020-4f89" typeName="损伤表 - M/AddAttks">
       <characteristics>
-        <characteristic name="Remaining W" typeId="0641-3c3f-006e-9ec6">4-6</characteristic>
-        <characteristic name="Movement" typeId="68fd-6915-4039-fc51">7寸</characteristic>
+        <characteristic name="剩余W" typeId="0641-3c3f-006e-9ec6">4-6</characteristic>
+        <characteristic name="M" typeId="68fd-6915-4039-fc51">7寸</characteristic>
         <characteristic name="Additional Attacks" typeId="937e-8f9c-7fae-427f">5</characteristic>
       </characteristics>
     </profile>
-    <profile id="cb17-0ef6-a770-d8cc" name="Stormrider Wound Track 3" hidden="false" typeId="6657-e5fe-e020-4f89" typeName="Stat Damage - M/AddAttks">
+    <profile id="cb17-0ef6-a770-d8cc" name="Stormrider 损伤表 3" hidden="false" typeId="6657-e5fe-e020-4f89" typeName="损伤表 - M/AddAttks">
       <characteristics>
-        <characteristic name="Remaining W" typeId="0641-3c3f-006e-9ec6">1-3</characteristic>
-        <characteristic name="Movement" typeId="68fd-6915-4039-fc51">4寸</characteristic>
+        <characteristic name="剩余W" typeId="0641-3c3f-006e-9ec6">1-3</characteristic>
+        <characteristic name="M" typeId="68fd-6915-4039-fc51">4寸</characteristic>
         <characteristic name="Additional Attacks" typeId="937e-8f9c-7fae-427f">4</characteristic>
       </characteristics>
     </profile>
@@ -17136,45 +17136,45 @@ wounds.</characteristic>
         <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
       </characteristics>
     </profile>
-    <profile id="7d0b-aeb9-ed62-d3f9" name="Stormfang Gunship (1)" hidden="false" typeId="8e0b-501f-13be-6d2f" typeName="Stat Damage - M/BS">
+    <profile id="7d0b-aeb9-ed62-d3f9" name="Stormfang Gunship (1)" hidden="false" typeId="8e0b-501f-13be-6d2f" typeName="损伤表 - M/BS">
       <characteristics>
-        <characteristic name="Remaining W" typeId="0199-68c2-2227-31cc">8-14+</characteristic>
-        <characteristic name="Movement" typeId="0a38-9454-11f5-bed1">20-50寸</characteristic>
+        <characteristic name="剩余W" typeId="0199-68c2-2227-31cc">8-14+</characteristic>
+        <characteristic name="M" typeId="0a38-9454-11f5-bed1">20-50寸</characteristic>
         <characteristic name="BS" typeId="927d-f299-7a87-89a4">3+</characteristic>
       </characteristics>
     </profile>
-    <profile id="99d3-b434-2585-8e5d" name="Stormwolf (2)" hidden="false" typeId="8e0b-501f-13be-6d2f" typeName="Stat Damage - M/BS">
+    <profile id="99d3-b434-2585-8e5d" name="Stormwolf (2)" hidden="false" typeId="8e0b-501f-13be-6d2f" typeName="损伤表 - M/BS">
       <characteristics>
-        <characteristic name="Remaining W" typeId="0199-68c2-2227-31cc">4-7</characteristic>
-        <characteristic name="Movement" typeId="0a38-9454-11f5-bed1">20-35寸</characteristic>
+        <characteristic name="剩余W" typeId="0199-68c2-2227-31cc">4-7</characteristic>
+        <characteristic name="M" typeId="0a38-9454-11f5-bed1">20-35寸</characteristic>
         <characteristic name="BS" typeId="927d-f299-7a87-89a4">4+</characteristic>
       </characteristics>
     </profile>
-    <profile id="a1bb-6cab-ae51-3893" name="Stormwolf (3)" hidden="false" typeId="8e0b-501f-13be-6d2f" typeName="Stat Damage - M/BS">
+    <profile id="a1bb-6cab-ae51-3893" name="Stormwolf (3)" hidden="false" typeId="8e0b-501f-13be-6d2f" typeName="损伤表 - M/BS">
       <characteristics>
-        <characteristic name="Remaining W" typeId="0199-68c2-2227-31cc">1-3</characteristic>
-        <characteristic name="Movement" typeId="0a38-9454-11f5-bed1">20寸</characteristic>
+        <characteristic name="剩余W" typeId="0199-68c2-2227-31cc">1-3</characteristic>
+        <characteristic name="M" typeId="0a38-9454-11f5-bed1">20寸</characteristic>
         <characteristic name="BS" typeId="927d-f299-7a87-89a4">5+</characteristic>
       </characteristics>
     </profile>
-    <profile id="d190-f338-ac13-9523" name="Stormfang Gunship (2)" hidden="false" typeId="8e0b-501f-13be-6d2f" typeName="Stat Damage - M/BS">
+    <profile id="d190-f338-ac13-9523" name="Stormfang Gunship (2)" hidden="false" typeId="8e0b-501f-13be-6d2f" typeName="损伤表 - M/BS">
       <characteristics>
-        <characteristic name="Remaining W" typeId="0199-68c2-2227-31cc">4-7</characteristic>
-        <characteristic name="Movement" typeId="0a38-9454-11f5-bed1">20-35寸</characteristic>
+        <characteristic name="剩余W" typeId="0199-68c2-2227-31cc">4-7</characteristic>
+        <characteristic name="M" typeId="0a38-9454-11f5-bed1">20-35寸</characteristic>
         <characteristic name="BS" typeId="927d-f299-7a87-89a4">4+</characteristic>
       </characteristics>
     </profile>
-    <profile id="f7bd-5dbe-c817-84f8" name="Stormfang Gunship (3)" hidden="false" typeId="8e0b-501f-13be-6d2f" typeName="Stat Damage - M/BS">
+    <profile id="f7bd-5dbe-c817-84f8" name="Stormfang Gunship (3)" hidden="false" typeId="8e0b-501f-13be-6d2f" typeName="损伤表 - M/BS">
       <characteristics>
-        <characteristic name="Remaining W" typeId="0199-68c2-2227-31cc">1-3</characteristic>
-        <characteristic name="Movement" typeId="0a38-9454-11f5-bed1">20寸</characteristic>
+        <characteristic name="剩余W" typeId="0199-68c2-2227-31cc">1-3</characteristic>
+        <characteristic name="M" typeId="0a38-9454-11f5-bed1">20寸</characteristic>
         <characteristic name="BS" typeId="927d-f299-7a87-89a4">5+</characteristic>
       </characteristics>
     </profile>
-    <profile id="3f8b-0a6e-14df-f0b0" name="Stormwolf (1)" hidden="false" typeId="8e0b-501f-13be-6d2f" typeName="Stat Damage - M/BS">
+    <profile id="3f8b-0a6e-14df-f0b0" name="Stormwolf (1)" hidden="false" typeId="8e0b-501f-13be-6d2f" typeName="损伤表 - M/BS">
       <characteristics>
-        <characteristic name="Remaining W" typeId="0199-68c2-2227-31cc">8-14+</characteristic>
-        <characteristic name="Movement" typeId="0a38-9454-11f5-bed1">20-50寸</characteristic>
+        <characteristic name="剩余W" typeId="0199-68c2-2227-31cc">8-14+</characteristic>
+        <characteristic name="M" typeId="0a38-9454-11f5-bed1">20-50寸</characteristic>
         <characteristic name="BS" typeId="927d-f299-7a87-89a4">3+</characteristic>
       </characteristics>
     </profile>
@@ -17217,220 +17217,220 @@ wounds.</characteristic>
         <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
       </characteristics>
     </profile>
-    <profile id="66c4-3460-94f4-5081" name="Rhino Primaris (1)" hidden="false" typeId="29af-65db-c2dc-cfa1" typeName="Stat Damage - M/BS/A">
+    <profile id="66c4-3460-94f4-5081" name="Rhino Primaris (1)" hidden="false" typeId="29af-65db-c2dc-cfa1" typeName="损伤表 - M/BS/A">
       <characteristics>
-        <characteristic name="Remaining W" typeId="8fc5-896d-483d-3667">6-10+</characteristic>
-        <characteristic name="Movement" typeId="52ff-99c8-da8d-7a41">12寸</characteristic>
+        <characteristic name="剩余W" typeId="8fc5-896d-483d-3667">6-10+</characteristic>
+        <characteristic name="M" typeId="52ff-99c8-da8d-7a41">12寸</characteristic>
         <characteristic name="BS" typeId="584b-923f-c35a-0439">3+</characteristic>
-        <characteristic name="Attacks" typeId="7f3d-3b48-eff9-ebb9">3</characteristic>
+        <characteristic name="A" typeId="7f3d-3b48-eff9-ebb9">3</characteristic>
       </characteristics>
     </profile>
-    <profile id="e3f6-0cc9-48cf-a723" name="Rhino (2)" hidden="false" typeId="29af-65db-c2dc-cfa1" typeName="Stat Damage - M/BS/A">
+    <profile id="e3f6-0cc9-48cf-a723" name="Rhino (2)" hidden="false" typeId="29af-65db-c2dc-cfa1" typeName="损伤表 - M/BS/A">
       <characteristics>
-        <characteristic name="Remaining W" typeId="8fc5-896d-483d-3667">3-5</characteristic>
-        <characteristic name="Movement" typeId="52ff-99c8-da8d-7a41">6寸</characteristic>
+        <characteristic name="剩余W" typeId="8fc5-896d-483d-3667">3-5</characteristic>
+        <characteristic name="M" typeId="52ff-99c8-da8d-7a41">6寸</characteristic>
         <characteristic name="BS" typeId="584b-923f-c35a-0439">4+</characteristic>
-        <characteristic name="Attacks" typeId="7f3d-3b48-eff9-ebb9">D3</characteristic>
+        <characteristic name="A" typeId="7f3d-3b48-eff9-ebb9">D3</characteristic>
       </characteristics>
     </profile>
-    <profile id="de47-e353-6ced-d978" name="Rhino Primaris (2)" hidden="false" typeId="29af-65db-c2dc-cfa1" typeName="Stat Damage - M/BS/A">
+    <profile id="de47-e353-6ced-d978" name="Rhino Primaris (2)" hidden="false" typeId="29af-65db-c2dc-cfa1" typeName="损伤表 - M/BS/A">
       <characteristics>
-        <characteristic name="Remaining W" typeId="8fc5-896d-483d-3667">3-5</characteristic>
-        <characteristic name="Movement" typeId="52ff-99c8-da8d-7a41">6寸</characteristic>
+        <characteristic name="剩余W" typeId="8fc5-896d-483d-3667">3-5</characteristic>
+        <characteristic name="M" typeId="52ff-99c8-da8d-7a41">6寸</characteristic>
         <characteristic name="BS" typeId="584b-923f-c35a-0439">4+</characteristic>
-        <characteristic name="Attacks" typeId="7f3d-3b48-eff9-ebb9">D3</characteristic>
+        <characteristic name="A" typeId="7f3d-3b48-eff9-ebb9">D3</characteristic>
       </characteristics>
     </profile>
-    <profile id="da1e-2b01-e5fc-0946" name="Rhino Primaris (3)" hidden="false" typeId="29af-65db-c2dc-cfa1" typeName="Stat Damage - M/BS/A">
+    <profile id="da1e-2b01-e5fc-0946" name="Rhino Primaris (3)" hidden="false" typeId="29af-65db-c2dc-cfa1" typeName="损伤表 - M/BS/A">
       <characteristics>
-        <characteristic name="Remaining W" typeId="8fc5-896d-483d-3667">1-2</characteristic>
-        <characteristic name="Movement" typeId="52ff-99c8-da8d-7a41">3寸</characteristic>
+        <characteristic name="剩余W" typeId="8fc5-896d-483d-3667">1-2</characteristic>
+        <characteristic name="M" typeId="52ff-99c8-da8d-7a41">3寸</characteristic>
         <characteristic name="BS" typeId="584b-923f-c35a-0439">5+</characteristic>
-        <characteristic name="Attacks" typeId="7f3d-3b48-eff9-ebb9">1</characteristic>
+        <characteristic name="A" typeId="7f3d-3b48-eff9-ebb9">1</characteristic>
       </characteristics>
     </profile>
-    <profile id="03f0-178c-e3fd-6bec" name="Rhino (3)" hidden="false" typeId="29af-65db-c2dc-cfa1" typeName="Stat Damage - M/BS/A">
+    <profile id="03f0-178c-e3fd-6bec" name="Rhino (3)" hidden="false" typeId="29af-65db-c2dc-cfa1" typeName="损伤表 - M/BS/A">
       <characteristics>
-        <characteristic name="Remaining W" typeId="8fc5-896d-483d-3667">1-2</characteristic>
-        <characteristic name="Movement" typeId="52ff-99c8-da8d-7a41">3寸</characteristic>
+        <characteristic name="剩余W" typeId="8fc5-896d-483d-3667">1-2</characteristic>
+        <characteristic name="M" typeId="52ff-99c8-da8d-7a41">3寸</characteristic>
         <characteristic name="BS" typeId="584b-923f-c35a-0439">5+</characteristic>
-        <characteristic name="Attacks" typeId="7f3d-3b48-eff9-ebb9">1</characteristic>
+        <characteristic name="A" typeId="7f3d-3b48-eff9-ebb9">1</characteristic>
       </characteristics>
     </profile>
-    <profile id="0480-807f-ea98-279c" name="Rhino (1)" hidden="false" typeId="29af-65db-c2dc-cfa1" typeName="Stat Damage - M/BS/A">
+    <profile id="0480-807f-ea98-279c" name="Rhino (1)" hidden="false" typeId="29af-65db-c2dc-cfa1" typeName="损伤表 - M/BS/A">
       <characteristics>
-        <characteristic name="Remaining W" typeId="8fc5-896d-483d-3667">6-10+</characteristic>
-        <characteristic name="Movement" typeId="52ff-99c8-da8d-7a41">12寸</characteristic>
+        <characteristic name="剩余W" typeId="8fc5-896d-483d-3667">6-10+</characteristic>
+        <characteristic name="M" typeId="52ff-99c8-da8d-7a41">12寸</characteristic>
         <characteristic name="BS" typeId="584b-923f-c35a-0439">3+</characteristic>
-        <characteristic name="Attacks" typeId="7f3d-3b48-eff9-ebb9">3</characteristic>
+        <characteristic name="A" typeId="7f3d-3b48-eff9-ebb9">3</characteristic>
       </characteristics>
     </profile>
-    <profile id="f460-2ff2-a52c-e701" name="Predator (1)" hidden="false" typeId="29af-65db-c2dc-cfa1" typeName="Stat Damage - M/BS/A">
+    <profile id="f460-2ff2-a52c-e701" name="Predator (1)" hidden="false" typeId="29af-65db-c2dc-cfa1" typeName="损伤表 - M/BS/A">
       <characteristics>
-        <characteristic name="Remaining W" typeId="8fc5-896d-483d-3667">6-11+</characteristic>
-        <characteristic name="Movement" typeId="52ff-99c8-da8d-7a41">12寸</characteristic>
+        <characteristic name="剩余W" typeId="8fc5-896d-483d-3667">6-11+</characteristic>
+        <characteristic name="M" typeId="52ff-99c8-da8d-7a41">12寸</characteristic>
         <characteristic name="BS" typeId="584b-923f-c35a-0439">3+</characteristic>
-        <characteristic name="Attacks" typeId="7f3d-3b48-eff9-ebb9">3</characteristic>
+        <characteristic name="A" typeId="7f3d-3b48-eff9-ebb9">3</characteristic>
       </characteristics>
     </profile>
-    <profile id="afeb-d0d5-60ca-fed8" name="Predator (2)" hidden="false" typeId="29af-65db-c2dc-cfa1" typeName="Stat Damage - M/BS/A">
+    <profile id="afeb-d0d5-60ca-fed8" name="Predator (2)" hidden="false" typeId="29af-65db-c2dc-cfa1" typeName="损伤表 - M/BS/A">
       <characteristics>
-        <characteristic name="Remaining W" typeId="8fc5-896d-483d-3667">3-5</characteristic>
-        <characteristic name="Movement" typeId="52ff-99c8-da8d-7a41">6寸</characteristic>
+        <characteristic name="剩余W" typeId="8fc5-896d-483d-3667">3-5</characteristic>
+        <characteristic name="M" typeId="52ff-99c8-da8d-7a41">6寸</characteristic>
         <characteristic name="BS" typeId="584b-923f-c35a-0439">4+</characteristic>
-        <characteristic name="Attacks" typeId="7f3d-3b48-eff9-ebb9">D3</characteristic>
+        <characteristic name="A" typeId="7f3d-3b48-eff9-ebb9">D3</characteristic>
       </characteristics>
     </profile>
-    <profile id="626b-4479-a96e-55d8" name="Predator (3)" hidden="false" typeId="29af-65db-c2dc-cfa1" typeName="Stat Damage - M/BS/A">
+    <profile id="626b-4479-a96e-55d8" name="Predator (3)" hidden="false" typeId="29af-65db-c2dc-cfa1" typeName="损伤表 - M/BS/A">
       <characteristics>
-        <characteristic name="Remaining W" typeId="8fc5-896d-483d-3667">1-2</characteristic>
-        <characteristic name="Movement" typeId="52ff-99c8-da8d-7a41">3寸</characteristic>
+        <characteristic name="剩余W" typeId="8fc5-896d-483d-3667">1-2</characteristic>
+        <characteristic name="M" typeId="52ff-99c8-da8d-7a41">3寸</characteristic>
         <characteristic name="BS" typeId="584b-923f-c35a-0439">5+</characteristic>
-        <characteristic name="Attacks" typeId="7f3d-3b48-eff9-ebb9">1</characteristic>
+        <characteristic name="A" typeId="7f3d-3b48-eff9-ebb9">1</characteristic>
       </characteristics>
     </profile>
-    <profile id="5444-72c2-b3b8-4e0c" name="Vindicator (1)" hidden="false" typeId="29af-65db-c2dc-cfa1" typeName="Stat Damage - M/BS/A">
+    <profile id="5444-72c2-b3b8-4e0c" name="Vindicator (1)" hidden="false" typeId="29af-65db-c2dc-cfa1" typeName="损伤表 - M/BS/A">
       <characteristics>
-        <characteristic name="Remaining W" typeId="8fc5-896d-483d-3667">6-11+</characteristic>
-        <characteristic name="Movement" typeId="52ff-99c8-da8d-7a41">12寸</characteristic>
+        <characteristic name="剩余W" typeId="8fc5-896d-483d-3667">6-11+</characteristic>
+        <characteristic name="M" typeId="52ff-99c8-da8d-7a41">12寸</characteristic>
         <characteristic name="BS" typeId="584b-923f-c35a-0439">3+</characteristic>
-        <characteristic name="Attacks" typeId="7f3d-3b48-eff9-ebb9">3</characteristic>
+        <characteristic name="A" typeId="7f3d-3b48-eff9-ebb9">3</characteristic>
       </characteristics>
     </profile>
-    <profile id="a40f-018f-2a74-9848" name="Vindicator (2)" hidden="false" typeId="29af-65db-c2dc-cfa1" typeName="Stat Damage - M/BS/A">
+    <profile id="a40f-018f-2a74-9848" name="Vindicator (2)" hidden="false" typeId="29af-65db-c2dc-cfa1" typeName="损伤表 - M/BS/A">
       <characteristics>
-        <characteristic name="Remaining W" typeId="8fc5-896d-483d-3667">3-5</characteristic>
-        <characteristic name="Movement" typeId="52ff-99c8-da8d-7a41">6寸</characteristic>
+        <characteristic name="剩余W" typeId="8fc5-896d-483d-3667">3-5</characteristic>
+        <characteristic name="M" typeId="52ff-99c8-da8d-7a41">6寸</characteristic>
         <characteristic name="BS" typeId="584b-923f-c35a-0439">4+</characteristic>
-        <characteristic name="Attacks" typeId="7f3d-3b48-eff9-ebb9">D3</characteristic>
+        <characteristic name="A" typeId="7f3d-3b48-eff9-ebb9">D3</characteristic>
       </characteristics>
     </profile>
-    <profile id="90d3-41ae-34a3-c29c" name="Vindicator (3)" hidden="false" typeId="29af-65db-c2dc-cfa1" typeName="Stat Damage - M/BS/A">
+    <profile id="90d3-41ae-34a3-c29c" name="Vindicator (3)" hidden="false" typeId="29af-65db-c2dc-cfa1" typeName="损伤表 - M/BS/A">
       <characteristics>
-        <characteristic name="Remaining W" typeId="8fc5-896d-483d-3667">1-2</characteristic>
-        <characteristic name="Movement" typeId="52ff-99c8-da8d-7a41">3寸</characteristic>
+        <characteristic name="剩余W" typeId="8fc5-896d-483d-3667">1-2</characteristic>
+        <characteristic name="M" typeId="52ff-99c8-da8d-7a41">3寸</characteristic>
         <characteristic name="BS" typeId="584b-923f-c35a-0439">5+</characteristic>
-        <characteristic name="Attacks" typeId="7f3d-3b48-eff9-ebb9">1</characteristic>
+        <characteristic name="A" typeId="7f3d-3b48-eff9-ebb9">1</characteristic>
       </characteristics>
     </profile>
-    <profile id="cb65-e766-369f-21ba" name="Whirlwind (1)" hidden="false" typeId="29af-65db-c2dc-cfa1" typeName="Stat Damage - M/BS/A">
+    <profile id="cb65-e766-369f-21ba" name="Whirlwind (1)" hidden="false" typeId="29af-65db-c2dc-cfa1" typeName="损伤表 - M/BS/A">
       <characteristics>
-        <characteristic name="Remaining W" typeId="8fc5-896d-483d-3667">6-11+</characteristic>
-        <characteristic name="Movement" typeId="52ff-99c8-da8d-7a41">12寸</characteristic>
+        <characteristic name="剩余W" typeId="8fc5-896d-483d-3667">6-11+</characteristic>
+        <characteristic name="M" typeId="52ff-99c8-da8d-7a41">12寸</characteristic>
         <characteristic name="BS" typeId="584b-923f-c35a-0439">3+</characteristic>
-        <characteristic name="Attacks" typeId="7f3d-3b48-eff9-ebb9">3</characteristic>
+        <characteristic name="A" typeId="7f3d-3b48-eff9-ebb9">3</characteristic>
       </characteristics>
     </profile>
-    <profile id="0945-5573-e4b6-57ff" name="Whirlwind (2)" hidden="false" typeId="29af-65db-c2dc-cfa1" typeName="Stat Damage - M/BS/A">
+    <profile id="0945-5573-e4b6-57ff" name="Whirlwind (2)" hidden="false" typeId="29af-65db-c2dc-cfa1" typeName="损伤表 - M/BS/A">
       <characteristics>
-        <characteristic name="Remaining W" typeId="8fc5-896d-483d-3667">3-5</characteristic>
-        <characteristic name="Movement" typeId="52ff-99c8-da8d-7a41">6寸</characteristic>
+        <characteristic name="剩余W" typeId="8fc5-896d-483d-3667">3-5</characteristic>
+        <characteristic name="M" typeId="52ff-99c8-da8d-7a41">6寸</characteristic>
         <characteristic name="BS" typeId="584b-923f-c35a-0439">4+</characteristic>
-        <characteristic name="Attacks" typeId="7f3d-3b48-eff9-ebb9">D3</characteristic>
+        <characteristic name="A" typeId="7f3d-3b48-eff9-ebb9">D3</characteristic>
       </characteristics>
     </profile>
-    <profile id="e3d7-c083-c087-a288" name="Whirlwind (3)" hidden="false" typeId="29af-65db-c2dc-cfa1" typeName="Stat Damage - M/BS/A">
+    <profile id="e3d7-c083-c087-a288" name="Whirlwind (3)" hidden="false" typeId="29af-65db-c2dc-cfa1" typeName="损伤表 - M/BS/A">
       <characteristics>
-        <characteristic name="Remaining W" typeId="8fc5-896d-483d-3667">1-2</characteristic>
-        <characteristic name="Movement" typeId="52ff-99c8-da8d-7a41">3寸</characteristic>
+        <characteristic name="剩余W" typeId="8fc5-896d-483d-3667">1-2</characteristic>
+        <characteristic name="M" typeId="52ff-99c8-da8d-7a41">3寸</characteristic>
         <characteristic name="BS" typeId="584b-923f-c35a-0439">5+</characteristic>
-        <characteristic name="Attacks" typeId="7f3d-3b48-eff9-ebb9">1</characteristic>
+        <characteristic name="A" typeId="7f3d-3b48-eff9-ebb9">1</characteristic>
       </characteristics>
     </profile>
-    <profile id="3658-ca13-697c-72be" name="Land Raider (1)" hidden="false" typeId="29af-65db-c2dc-cfa1" typeName="Stat Damage - M/BS/A">
+    <profile id="3658-ca13-697c-72be" name="Land Raider (1)" hidden="false" typeId="29af-65db-c2dc-cfa1" typeName="损伤表 - M/BS/A">
       <characteristics>
-        <characteristic name="Remaining W" typeId="8fc5-896d-483d-3667">9-16+</characteristic>
-        <characteristic name="Movement" typeId="52ff-99c8-da8d-7a41">10寸</characteristic>
+        <characteristic name="剩余W" typeId="8fc5-896d-483d-3667">9-16+</characteristic>
+        <characteristic name="M" typeId="52ff-99c8-da8d-7a41">10寸</characteristic>
         <characteristic name="BS" typeId="584b-923f-c35a-0439">3+</characteristic>
-        <characteristic name="Attacks" typeId="7f3d-3b48-eff9-ebb9">6</characteristic>
+        <characteristic name="A" typeId="7f3d-3b48-eff9-ebb9">6</characteristic>
       </characteristics>
     </profile>
-    <profile id="6b1c-516d-3596-e867" name="Land Raider Redeemer (1)" hidden="false" typeId="29af-65db-c2dc-cfa1" typeName="Stat Damage - M/BS/A">
+    <profile id="6b1c-516d-3596-e867" name="Land Raider Redeemer (1)" hidden="false" typeId="29af-65db-c2dc-cfa1" typeName="损伤表 - M/BS/A">
       <characteristics>
-        <characteristic name="Remaining W" typeId="8fc5-896d-483d-3667">9-16+</characteristic>
-        <characteristic name="Movement" typeId="52ff-99c8-da8d-7a41">10寸</characteristic>
+        <characteristic name="剩余W" typeId="8fc5-896d-483d-3667">9-16+</characteristic>
+        <characteristic name="M" typeId="52ff-99c8-da8d-7a41">10寸</characteristic>
         <characteristic name="BS" typeId="584b-923f-c35a-0439">3+</characteristic>
-        <characteristic name="Attacks" typeId="7f3d-3b48-eff9-ebb9">6</characteristic>
+        <characteristic name="A" typeId="7f3d-3b48-eff9-ebb9">6</characteristic>
       </characteristics>
     </profile>
-    <profile id="f040-b334-1744-fa60" name="Land Raider Crusader (1)" hidden="false" typeId="29af-65db-c2dc-cfa1" typeName="Stat Damage - M/BS/A">
+    <profile id="f040-b334-1744-fa60" name="Land Raider Crusader (1)" hidden="false" typeId="29af-65db-c2dc-cfa1" typeName="损伤表 - M/BS/A">
       <characteristics>
-        <characteristic name="Remaining W" typeId="8fc5-896d-483d-3667">9-16+</characteristic>
-        <characteristic name="Movement" typeId="52ff-99c8-da8d-7a41">10寸</characteristic>
+        <characteristic name="剩余W" typeId="8fc5-896d-483d-3667">9-16+</characteristic>
+        <characteristic name="M" typeId="52ff-99c8-da8d-7a41">10寸</characteristic>
         <characteristic name="BS" typeId="584b-923f-c35a-0439">3+</characteristic>
-        <characteristic name="Attacks" typeId="7f3d-3b48-eff9-ebb9">6</characteristic>
+        <characteristic name="A" typeId="7f3d-3b48-eff9-ebb9">6</characteristic>
       </characteristics>
     </profile>
-    <profile id="c4d4-f96a-c0ac-82b7" name="Land Raider Excelsior (1)" hidden="false" typeId="29af-65db-c2dc-cfa1" typeName="Stat Damage - M/BS/A">
+    <profile id="c4d4-f96a-c0ac-82b7" name="Land Raider Excelsior (1)" hidden="false" typeId="29af-65db-c2dc-cfa1" typeName="损伤表 - M/BS/A">
       <characteristics>
-        <characteristic name="Remaining W" typeId="8fc5-896d-483d-3667">9-16+</characteristic>
-        <characteristic name="Movement" typeId="52ff-99c8-da8d-7a41">10寸</characteristic>
+        <characteristic name="剩余W" typeId="8fc5-896d-483d-3667">9-16+</characteristic>
+        <characteristic name="M" typeId="52ff-99c8-da8d-7a41">10寸</characteristic>
         <characteristic name="BS" typeId="584b-923f-c35a-0439">3+</characteristic>
-        <characteristic name="Attacks" typeId="7f3d-3b48-eff9-ebb9">6</characteristic>
+        <characteristic name="A" typeId="7f3d-3b48-eff9-ebb9">6</characteristic>
       </characteristics>
     </profile>
-    <profile id="5454-3193-69de-ba3a" name="Land Raider (2)" hidden="false" typeId="29af-65db-c2dc-cfa1" typeName="Stat Damage - M/BS/A">
+    <profile id="5454-3193-69de-ba3a" name="Land Raider (2)" hidden="false" typeId="29af-65db-c2dc-cfa1" typeName="损伤表 - M/BS/A">
       <characteristics>
-        <characteristic name="Remaining W" typeId="8fc5-896d-483d-3667">5-8</characteristic>
-        <characteristic name="Movement" typeId="52ff-99c8-da8d-7a41">5寸</characteristic>
+        <characteristic name="剩余W" typeId="8fc5-896d-483d-3667">5-8</characteristic>
+        <characteristic name="M" typeId="52ff-99c8-da8d-7a41">5寸</characteristic>
         <characteristic name="BS" typeId="584b-923f-c35a-0439">4+</characteristic>
-        <characteristic name="Attacks" typeId="7f3d-3b48-eff9-ebb9">D6</characteristic>
+        <characteristic name="A" typeId="7f3d-3b48-eff9-ebb9">D6</characteristic>
       </characteristics>
     </profile>
-    <profile id="b6be-3a99-5ecc-bfc1" name="Land Raider (3)" hidden="false" typeId="29af-65db-c2dc-cfa1" typeName="Stat Damage - M/BS/A">
+    <profile id="b6be-3a99-5ecc-bfc1" name="Land Raider (3)" hidden="false" typeId="29af-65db-c2dc-cfa1" typeName="损伤表 - M/BS/A">
       <characteristics>
-        <characteristic name="Remaining W" typeId="8fc5-896d-483d-3667">1-4</characteristic>
-        <characteristic name="Movement" typeId="52ff-99c8-da8d-7a41">3寸</characteristic>
+        <characteristic name="剩余W" typeId="8fc5-896d-483d-3667">1-4</characteristic>
+        <characteristic name="M" typeId="52ff-99c8-da8d-7a41">3寸</characteristic>
         <characteristic name="BS" typeId="584b-923f-c35a-0439">5+</characteristic>
-        <characteristic name="Attacks" typeId="7f3d-3b48-eff9-ebb9">1</characteristic>
+        <characteristic name="A" typeId="7f3d-3b48-eff9-ebb9">1</characteristic>
       </characteristics>
     </profile>
-    <profile id="aa86-82c9-197b-9d57" name="Land Raider Redeemer (2)" hidden="false" typeId="29af-65db-c2dc-cfa1" typeName="Stat Damage - M/BS/A">
+    <profile id="aa86-82c9-197b-9d57" name="Land Raider Redeemer (2)" hidden="false" typeId="29af-65db-c2dc-cfa1" typeName="损伤表 - M/BS/A">
       <characteristics>
-        <characteristic name="Remaining W" typeId="8fc5-896d-483d-3667">5-8</characteristic>
-        <characteristic name="Movement" typeId="52ff-99c8-da8d-7a41">5寸</characteristic>
+        <characteristic name="剩余W" typeId="8fc5-896d-483d-3667">5-8</characteristic>
+        <characteristic name="M" typeId="52ff-99c8-da8d-7a41">5寸</characteristic>
         <characteristic name="BS" typeId="584b-923f-c35a-0439">4+</characteristic>
-        <characteristic name="Attacks" typeId="7f3d-3b48-eff9-ebb9">D6</characteristic>
+        <characteristic name="A" typeId="7f3d-3b48-eff9-ebb9">D6</characteristic>
       </characteristics>
     </profile>
-    <profile id="f2d9-e5e8-d53f-683c" name="Land Raider Crusader (2)" hidden="false" typeId="29af-65db-c2dc-cfa1" typeName="Stat Damage - M/BS/A">
+    <profile id="f2d9-e5e8-d53f-683c" name="Land Raider Crusader (2)" hidden="false" typeId="29af-65db-c2dc-cfa1" typeName="损伤表 - M/BS/A">
       <characteristics>
-        <characteristic name="Remaining W" typeId="8fc5-896d-483d-3667">5-8</characteristic>
-        <characteristic name="Movement" typeId="52ff-99c8-da8d-7a41">5寸</characteristic>
+        <characteristic name="剩余W" typeId="8fc5-896d-483d-3667">5-8</characteristic>
+        <characteristic name="M" typeId="52ff-99c8-da8d-7a41">5寸</characteristic>
         <characteristic name="BS" typeId="584b-923f-c35a-0439">4+</characteristic>
-        <characteristic name="Attacks" typeId="7f3d-3b48-eff9-ebb9">D6</characteristic>
+        <characteristic name="A" typeId="7f3d-3b48-eff9-ebb9">D6</characteristic>
       </characteristics>
     </profile>
-    <profile id="1ab0-cdfc-3697-ede0" name="Land Raider Excelsior (2)" hidden="false" typeId="29af-65db-c2dc-cfa1" typeName="Stat Damage - M/BS/A">
+    <profile id="1ab0-cdfc-3697-ede0" name="Land Raider Excelsior (2)" hidden="false" typeId="29af-65db-c2dc-cfa1" typeName="损伤表 - M/BS/A">
       <characteristics>
-        <characteristic name="Remaining W" typeId="8fc5-896d-483d-3667">5-8</characteristic>
-        <characteristic name="Movement" typeId="52ff-99c8-da8d-7a41">5寸</characteristic>
+        <characteristic name="剩余W" typeId="8fc5-896d-483d-3667">5-8</characteristic>
+        <characteristic name="M" typeId="52ff-99c8-da8d-7a41">5寸</characteristic>
         <characteristic name="BS" typeId="584b-923f-c35a-0439">4+</characteristic>
-        <characteristic name="Attacks" typeId="7f3d-3b48-eff9-ebb9">D6</characteristic>
+        <characteristic name="A" typeId="7f3d-3b48-eff9-ebb9">D6</characteristic>
       </characteristics>
     </profile>
-    <profile id="5402-f5a0-69c1-36aa" name="Land Raider Redeemer (3)" hidden="false" typeId="29af-65db-c2dc-cfa1" typeName="Stat Damage - M/BS/A">
+    <profile id="5402-f5a0-69c1-36aa" name="Land Raider Redeemer (3)" hidden="false" typeId="29af-65db-c2dc-cfa1" typeName="损伤表 - M/BS/A">
       <characteristics>
-        <characteristic name="Remaining W" typeId="8fc5-896d-483d-3667">1-4</characteristic>
-        <characteristic name="Movement" typeId="52ff-99c8-da8d-7a41">3寸</characteristic>
+        <characteristic name="剩余W" typeId="8fc5-896d-483d-3667">1-4</characteristic>
+        <characteristic name="M" typeId="52ff-99c8-da8d-7a41">3寸</characteristic>
         <characteristic name="BS" typeId="584b-923f-c35a-0439">5+</characteristic>
-        <characteristic name="Attacks" typeId="7f3d-3b48-eff9-ebb9">1</characteristic>
+        <characteristic name="A" typeId="7f3d-3b48-eff9-ebb9">1</characteristic>
       </characteristics>
     </profile>
-    <profile id="54ca-626c-5d37-9cbc" name="Land Raider Crusader (3)" hidden="false" typeId="29af-65db-c2dc-cfa1" typeName="Stat Damage - M/BS/A">
+    <profile id="54ca-626c-5d37-9cbc" name="Land Raider Crusader (3)" hidden="false" typeId="29af-65db-c2dc-cfa1" typeName="损伤表 - M/BS/A">
       <characteristics>
-        <characteristic name="Remaining W" typeId="8fc5-896d-483d-3667">1-4</characteristic>
-        <characteristic name="Movement" typeId="52ff-99c8-da8d-7a41">3寸</characteristic>
+        <characteristic name="剩余W" typeId="8fc5-896d-483d-3667">1-4</characteristic>
+        <characteristic name="M" typeId="52ff-99c8-da8d-7a41">3寸</characteristic>
         <characteristic name="BS" typeId="584b-923f-c35a-0439">5+</characteristic>
-        <characteristic name="Attacks" typeId="7f3d-3b48-eff9-ebb9">1</characteristic>
+        <characteristic name="A" typeId="7f3d-3b48-eff9-ebb9">1</characteristic>
       </characteristics>
     </profile>
-    <profile id="b8c3-f799-f68f-685d" name="Land Raider Excelsior (3)" hidden="false" typeId="29af-65db-c2dc-cfa1" typeName="Stat Damage - M/BS/A">
+    <profile id="b8c3-f799-f68f-685d" name="Land Raider Excelsior (3)" hidden="false" typeId="29af-65db-c2dc-cfa1" typeName="损伤表 - M/BS/A">
       <characteristics>
-        <characteristic name="Remaining W" typeId="8fc5-896d-483d-3667">1-4</characteristic>
-        <characteristic name="Movement" typeId="52ff-99c8-da8d-7a41">3寸</characteristic>
+        <characteristic name="剩余W" typeId="8fc5-896d-483d-3667">1-4</characteristic>
+        <characteristic name="M" typeId="52ff-99c8-da8d-7a41">3寸</characteristic>
         <characteristic name="BS" typeId="584b-923f-c35a-0439">5+</characteristic>
-        <characteristic name="Attacks" typeId="7f3d-3b48-eff9-ebb9">1</characteristic>
+        <characteristic name="A" typeId="7f3d-3b48-eff9-ebb9">1</characteristic>
       </characteristics>
     </profile>
     <profile id="ca85-16f7-1cf4-ba61" name="Predator" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
@@ -17941,28 +17941,28 @@ Matched Play: 这个模型 and any units 上车 aboard it are exempt from the Ta
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, all models in 这个单位 must be set up at the same time, though they do not need to be set up in unit coherency. From that point onwards, each Primaris Lieutenant is treated as a separate unit.</characteristic>
       </characteristics>
     </profile>
-    <profile id="4010-66d8-1e19-352d" name="Razorback (1)" hidden="false" typeId="29af-65db-c2dc-cfa1" typeName="Stat Damage - M/BS/A">
+    <profile id="4010-66d8-1e19-352d" name="Razorback (1)" hidden="false" typeId="29af-65db-c2dc-cfa1" typeName="损伤表 - M/BS/A">
       <characteristics>
-        <characteristic name="Remaining W" typeId="8fc5-896d-483d-3667">6-10+</characteristic>
-        <characteristic name="Movement" typeId="52ff-99c8-da8d-7a41">12寸</characteristic>
+        <characteristic name="剩余W" typeId="8fc5-896d-483d-3667">6-10+</characteristic>
+        <characteristic name="M" typeId="52ff-99c8-da8d-7a41">12寸</characteristic>
         <characteristic name="BS" typeId="584b-923f-c35a-0439">3+</characteristic>
-        <characteristic name="Attacks" typeId="7f3d-3b48-eff9-ebb9">3</characteristic>
+        <characteristic name="A" typeId="7f3d-3b48-eff9-ebb9">3</characteristic>
       </characteristics>
     </profile>
-    <profile id="32b2-8708-ca74-fd27" name="Razorback (2)" hidden="false" typeId="29af-65db-c2dc-cfa1" typeName="Stat Damage - M/BS/A">
+    <profile id="32b2-8708-ca74-fd27" name="Razorback (2)" hidden="false" typeId="29af-65db-c2dc-cfa1" typeName="损伤表 - M/BS/A">
       <characteristics>
-        <characteristic name="Remaining W" typeId="8fc5-896d-483d-3667">3-5</characteristic>
-        <characteristic name="Movement" typeId="52ff-99c8-da8d-7a41">6寸</characteristic>
+        <characteristic name="剩余W" typeId="8fc5-896d-483d-3667">3-5</characteristic>
+        <characteristic name="M" typeId="52ff-99c8-da8d-7a41">6寸</characteristic>
         <characteristic name="BS" typeId="584b-923f-c35a-0439">4+</characteristic>
-        <characteristic name="Attacks" typeId="7f3d-3b48-eff9-ebb9">D3</characteristic>
+        <characteristic name="A" typeId="7f3d-3b48-eff9-ebb9">D3</characteristic>
       </characteristics>
     </profile>
-    <profile id="5989-467b-ea2e-b23f" name="Razorback (3)" hidden="false" typeId="29af-65db-c2dc-cfa1" typeName="Stat Damage - M/BS/A">
+    <profile id="5989-467b-ea2e-b23f" name="Razorback (3)" hidden="false" typeId="29af-65db-c2dc-cfa1" typeName="损伤表 - M/BS/A">
       <characteristics>
-        <characteristic name="Remaining W" typeId="8fc5-896d-483d-3667">1-2</characteristic>
-        <characteristic name="Movement" typeId="52ff-99c8-da8d-7a41">3寸</characteristic>
+        <characteristic name="剩余W" typeId="8fc5-896d-483d-3667">1-2</characteristic>
+        <characteristic name="M" typeId="52ff-99c8-da8d-7a41">3寸</characteristic>
         <characteristic name="BS" typeId="584b-923f-c35a-0439">5+</characteristic>
-        <characteristic name="Attacks" typeId="7f3d-3b48-eff9-ebb9">1</characteristic>
+        <characteristic name="A" typeId="7f3d-3b48-eff9-ebb9">1</characteristic>
       </characteristics>
     </profile>
     <profile id="d0af-b46d-5e31-ffa2" name="Transport Razorback" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="Transport">

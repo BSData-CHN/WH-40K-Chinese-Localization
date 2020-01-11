@@ -45,7 +45,7 @@
     <categoryEntry id="686e-44d9-16b6-bd1c" name="Tzaangors" hidden="false"/>
     <categoryEntry id="a277-8b97-4b35-7475" name="Scarab Occult Terminators" hidden="false"/>
     <categoryEntry id="5392-407a-9cd4-4f10" name="Rubric Marines" hidden="false"/>
-    <categoryEntry id="78c6-7b31-7569-1840" name="恶魔 Prince" hidden="false"/>
+    <categoryEntry id="78c6-7b31-7569-1840" name="恶魔王子" hidden="false"/>
     <categoryEntry id="0c0a-3974-d2ae-7e7b" name="混沌 Cultists" hidden="false"/>
     <categoryEntry id="1559-2058-167a-71c9" name="Helbrute" hidden="false"/>
     <categoryEntry id="810e-a919-a9ed-d08f" name="Heldrake" hidden="false"/>
@@ -100,7 +100,7 @@
         <categoryLink id="031e-c884-cb50-2111" name="New CategoryLink" hidden="false" targetId="c8fd-783f-3230-493e" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="e591-c39a-7892-9190" name="恶魔 Prince [INDEX]" hidden="false" collective="false" import="true" targetId="978c-5f3c-4aff-ede4" type="selectionEntry"/>
+    <entryLink id="e591-c39a-7892-9190" name="恶魔王子 [INDEX]" hidden="false" collective="false" import="true" targetId="978c-5f3c-4aff-ede4" type="selectionEntry"/>
     <entryLink id="0106-edae-6626-686e" name="混沌 Decimator" hidden="false" collective="false" import="true" targetId="19d7-59fa-6050-caf8" type="selectionEntry">
       <infoLinks>
         <infoLink id="239d-d01e-7487-c69c" name="Hateful Assault" hidden="false" targetId="93cd-92b2-630f-2a0a" type="rule"/>
@@ -369,7 +369,7 @@
     <rule id="b363-f50e-a470-ff87" name="Daemonic Ritual" hidden="false">
       <description>而不是 moving in their 移动阶段, any THOUSAND SONS CHARACTER can, at the end of their 移动阶段, attempt to summon a 奸奇 恶魔 unit with this ability by performing a Daemonic Ritual (the character cannot do so if they arrived as reinforcements this turn).
 
-Roll up to 3 dice - this is your summoning roll. You can summon to the battlefield one new 奸奇 DAEMONS unit that has the Daemonic Ritual ability and a Power Rating equal to or less than the total result. 这个单位 is treated as reinforcements for your army and can be placed anywhere on the battlefield that is wholly 范围内 12寸 of the character and is more than 9寸 from any 敌方模型. If the total rolled is insufficient to summon any unit, the ritual fails and no new unit is summoned.
+Roll up to 3 dice - this is your summoning roll. You can summon to the battlefield one new 奸奇 恶魔 unit that has the Daemonic Ritual ability and a Power Rating equal to or less than the total result. 这个单位 is treated as reinforcements for your army and can be placed anywhere on the battlefield that is wholly 范围内 12寸 of the character and is more than 9寸 from any 敌方模型. If the total rolled is insufficient to summon any unit, the ritual fails and no new unit is summoned.
 
 If your summoning roll included any doubles, your character 遭受 1点致命伤. If it contained any triples, it instead 遭受 D3 致命伤.</description>
     </rule>
@@ -398,33 +398,33 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="f353-cbc8-8cf8-a9b1" name="混沌 Predator" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="f353-cbc8-8cf8-a9b1" name="混沌 Predator" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">-</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">-</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">M</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">BS</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">A</characteristic>
           </characteristics>
         </profile>
-        <profile id="0466-132c-378a-ed22" name="混沌 Predator1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="0466-132c-378a-ed22" name="混沌 Predator1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">6-11+</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">6-11+</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">12寸</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">3+</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">3</characteristic>
           </characteristics>
         </profile>
-        <profile id="ffdb-13f2-2610-6540" name="混沌 Predator2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="ffdb-13f2-2610-6540" name="混沌 Predator2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">3-5</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">3-5</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">6寸</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">4+</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">D3</characteristic>
           </characteristics>
         </profile>
-        <profile id="6518-bdc6-f975-a6ec" name="混沌 Predator3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="6518-bdc6-f975-a6ec" name="混沌 Predator3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">1-2</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">1-2</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">3寸</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">5+</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">1</characteristic>
@@ -541,33 +541,33 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="775f-d13d-d896-85d7" name="混沌 Vindicator" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="775f-d13d-d896-85d7" name="混沌 Vindicator" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">-</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">-</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">M</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">BS</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">A</characteristic>
           </characteristics>
         </profile>
-        <profile id="1185-7a47-16c4-0dbc" name="混沌 Vindicator1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="1185-7a47-16c4-0dbc" name="混沌 Vindicator1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">6-11+</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">6-11+</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">10寸</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">3+</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">3</characteristic>
           </characteristics>
         </profile>
-        <profile id="d556-9b62-8ebb-4c9b" name="混沌 Vindicator2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="d556-9b62-8ebb-4c9b" name="混沌 Vindicator2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">3-5</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">3-5</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">5寸</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">4+</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">D3</characteristic>
           </characteristics>
         </profile>
-        <profile id="d541-d81a-86b9-781c" name="混沌 Vindicator3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="d541-d81a-86b9-781c" name="混沌 Vindicator3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">1-2</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">1-2</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">3寸</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">5+</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">1</characteristic>
@@ -630,9 +630,9 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c5a2-5d3b-99c9-7b99" name="恶魔 Prince of 奸奇" page="0" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="c5a2-5d3b-99c9-7b99" name="恶魔王子 of 奸奇" page="0" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="5746-8975-d4e5-72f6" name="恶魔 Prince" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="5746-8975-d4e5-72f6" name="恶魔王子" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
           <modifiers>
             <modifier type="set" field="0bdf-a96e-9e38-7779" value="12寸">
               <conditions>
@@ -652,7 +652,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="7624-303a-73f7-154e" name="恶魔 Prince" hidden="false" typeId="bc97-dea9-9e88-bb7d" typeName="Psyker">
+        <profile id="7624-303a-73f7-154e" name="恶魔王子" hidden="false" typeId="bc97-dea9-9e88-bb7d" typeName="Psyker">
           <characteristics>
             <characteristic name="Cast" typeId="5afb-9914-904b-d3b3">2</characteristic>
             <characteristic name="Deny" typeId="b5ac-9c20-5d5a-6f9b">1</characteristic>
@@ -772,33 +772,33 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="94d3-1f50-0f53-1cc7" name="Defiler" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="94d3-1f50-0f53-1cc7" name="Defiler" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">-</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">-</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">M</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">BS</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">A</characteristic>
           </characteristics>
         </profile>
-        <profile id="0860-4463-13ed-94ba" name="Defiler1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="0860-4463-13ed-94ba" name="Defiler1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">8-14+</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">8-14+</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">8寸</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">4+</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">4</characteristic>
           </characteristics>
         </profile>
-        <profile id="3186-3f9d-3e10-4fec" name="Defiler2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="3186-3f9d-3e10-4fec" name="Defiler2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">4-7</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">4-7</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">6寸</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">5+</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">3</characteristic>
           </characteristics>
         </profile>
-        <profile id="13f0-20c0-aeb3-721a" name="Defiler3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="13f0-20c0-aeb3-721a" name="Defiler3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">1-3</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">1-3</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">4寸</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">5+</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">2</characteristic>
@@ -932,33 +932,33 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="478e-c6f2-6003-1a69" name="Heldrake" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="478e-c6f2-6003-1a69" name="Heldrake" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab"/>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab"/>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">M</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">WS</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">A</characteristic>
           </characteristics>
         </profile>
-        <profile id="3e6c-8723-83a5-462a" name="Heldrake1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="3e6c-8723-83a5-462a" name="Heldrake1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">7-12</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">7-12</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">30寸</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">3+</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">4</characteristic>
           </characteristics>
         </profile>
-        <profile id="49b0-17e4-06cf-1000" name="Heldrake2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="49b0-17e4-06cf-1000" name="Heldrake2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">4-6</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">4-6</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">20寸</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">4+</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">3</characteristic>
           </characteristics>
         </profile>
-        <profile id="40af-8c67-c812-d8b8" name="Heldrake3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="40af-8c67-c812-d8b8" name="Heldrake3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">1-3</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">1-3</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">10寸</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">5+</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">2</characteristic>
@@ -1066,33 +1066,33 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="a2c5-1cd1-db1d-181c" name="Maulerfiend" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="a2c5-1cd1-db1d-181c" name="Maulerfiend" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">-</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">-</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">M</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">S</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">A</characteristic>
           </characteristics>
         </profile>
-        <profile id="e4b4-b1ab-705c-4962" name="Maulerfiend1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="e4b4-b1ab-705c-4962" name="Maulerfiend1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">7-12+</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">7-12+</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">10寸</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">6</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">4</characteristic>
           </characteristics>
         </profile>
-        <profile id="619f-16fa-f02e-386d" name="Maulerfiend2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="619f-16fa-f02e-386d" name="Maulerfiend2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">4-6</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">4-6</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">8寸</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">5</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">3</characteristic>
           </characteristics>
         </profile>
-        <profile id="4432-32e1-9ed4-276b" name="Maulerfiend3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="4432-32e1-9ed4-276b" name="Maulerfiend3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">1-3</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">1-3</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">6寸</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">4</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">2</characteristic>
@@ -2659,33 +2659,33 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="3a54-0e0d-5808-9be9" name="混沌 Rhino" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="3a54-0e0d-5808-9be9" name="混沌 Rhino" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">-</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">-</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">M</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">BS</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">A</characteristic>
           </characteristics>
         </profile>
-        <profile id="e39e-3a99-56d5-2abd" name="混沌 Rhino1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="e39e-3a99-56d5-2abd" name="混沌 Rhino1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">6-10+</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">6-10+</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">12寸</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">3+</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">3</characteristic>
           </characteristics>
         </profile>
-        <profile id="adbb-a6b1-ae73-9b16" name="混沌 Rhino2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="adbb-a6b1-ae73-9b16" name="混沌 Rhino2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">3-5</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">3-5</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">6寸</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">4+</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">D3</characteristic>
           </characteristics>
         </profile>
-        <profile id="9a8e-4e55-f9ea-c71b" name="混沌 Rhino3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="9a8e-4e55-f9ea-c71b" name="混沌 Rhino3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">1-2</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">1-2</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">3寸</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">5+</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">1</characteristic>
@@ -2755,33 +2755,33 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="4693-2bf6-2a0a-48ce" name="Magnus the Red" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="4693-2bf6-2a0a-48ce" name="Magnus the Red" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">-</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">-</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">M</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">A</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">灵能阶段 Bonus</characteristic>
           </characteristics>
         </profile>
-        <profile id="0646-470b-d62f-1fd6" name="Magnus the Red1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="0646-470b-d62f-1fd6" name="Magnus the Red1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">10-18+</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">10-18+</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">16寸</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">7</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">+2</characteristic>
           </characteristics>
         </profile>
-        <profile id="dc0b-5bb1-2af3-8869" name="Magnus the Red2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="dc0b-5bb1-2af3-8869" name="Magnus the Red2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">5-9</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">5-9</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">14寸</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">6</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">+1</characteristic>
           </characteristics>
         </profile>
-        <profile id="3bba-adf6-548b-dce0" name="Magnus the Red3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="3bba-adf6-548b-dce0" name="Magnus the Red3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">1-4</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">1-4</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">12寸</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">5</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">0</characteristic>
@@ -3939,33 +3939,33 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">2+</characteristic>
           </characteristics>
         </profile>
-        <profile id="4597-1235-f1a1-293c" name="混沌 Land Raider" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="4597-1235-f1a1-293c" name="混沌 Land Raider" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">-</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">-</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">M</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">BS</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">A</characteristic>
           </characteristics>
         </profile>
-        <profile id="0939-1e65-22bd-c44a" name="混沌 Land Raider1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="0939-1e65-22bd-c44a" name="混沌 Land Raider1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">9-16+</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">9-16+</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">10寸</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">3+</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">6</characteristic>
           </characteristics>
         </profile>
-        <profile id="527a-7a09-ecc4-6e89" name="混沌 Land Raider2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="527a-7a09-ecc4-6e89" name="混沌 Land Raider2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">5-8</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">5-8</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">5寸</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">4+</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">D6</characteristic>
           </characteristics>
         </profile>
-        <profile id="54e9-44ff-6cfc-08f6" name="混沌 Land Raider3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="54e9-44ff-6cfc-08f6" name="混沌 Land Raider3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">1-4</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">1-4</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">3寸</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">5+</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">1</characteristic>
@@ -4037,33 +4037,33 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="14ee-534f-444a-f757" name="Forgefiend" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="14ee-534f-444a-f757" name="Forgefiend" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">-</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">-</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">M</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">BS</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">A</characteristic>
           </characteristics>
         </profile>
-        <profile id="2bdc-06e7-d47f-191e" name="Forgefiend1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="2bdc-06e7-d47f-191e" name="Forgefiend1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">7-12+</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">7-12+</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">8寸</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">4+</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">4</characteristic>
           </characteristics>
         </profile>
-        <profile id="0acf-4910-19b6-7eba" name="Forgefiend2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="0acf-4910-19b6-7eba" name="Forgefiend2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">4-6</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">4-6</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">6寸</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">5+</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">3</characteristic>
           </characteristics>
         </profile>
-        <profile id="3f01-48d0-84be-522e" name="Forgefiend3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="3f01-48d0-84be-522e" name="Forgefiend3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">1-3</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">1-3</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">4寸</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">6+</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">2</characteristic>
@@ -4486,7 +4486,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
         </profile>
         <profile id="204e-c9f0-701a-303a" name="12 - Daemonhood" hidden="false" typeId="d059-e800-687c-6148" typeName="Boon of 奸奇 - D6 Roll">
           <characteristics>
-            <characteristic name="Effect" typeId="7b1e-d737-8471-712f">Your character is slain. However, before removing the model as a casualty, you can add a 恶魔 Prince of 奸奇 to your army. If you do so, set up the 恶魔 Prince of 奸奇 范围内 6寸 of the character before removing them.</characteristic>
+            <characteristic name="Effect" typeId="7b1e-d737-8471-712f">Your character is slain. However, before removing the model as a casualty, you can add a 恶魔王子 of 奸奇 to your army. If you do so, set up the 恶魔王子 of 奸奇 范围内 6寸 of the character before removing them.</characteristic>
           </characteristics>
         </profile>
         <profile id="61f0-fbc2-7638-c564" name="-" hidden="false" typeId="d059-e800-687c-6148" typeName="Boon of 奸奇 - D6 Roll">
@@ -5125,33 +5125,33 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 投掷1个D6 before removing it from the battlefield; on a 6 those nearby are damaged by searing warpfire as the vortex collapses in on itself 每个单位 范围内 6寸 遭受 D6 致命伤.</characteristic>
           </characteristics>
         </profile>
-        <profile id="7de6-0806-d227-de27" name="Mutalith Vortex Beast" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="7de6-0806-d227-de27" name="Mutalith Vortex Beast" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">-</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">-</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">M</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">A</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">Vortex Power</characteristic>
           </characteristics>
         </profile>
-        <profile id="32ed-9ab7-c89b-fe32" name="Mutalith Vortex Beast3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="32ed-9ab7-c89b-fe32" name="Mutalith Vortex Beast3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">1-3</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">1-3</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">4寸</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">2</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">4+</characteristic>
           </characteristics>
         </profile>
-        <profile id="f53f-501a-0a6d-9a21" name="Mutalith Vortex Beast2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="f53f-501a-0a6d-9a21" name="Mutalith Vortex Beast2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">4-7</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">4-7</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">6寸</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">3</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="0b8b-1ea6-5972-e879" name="Mutalith Vortex Beast1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="0b8b-1ea6-5972-e879" name="Mutalith Vortex Beast1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">8-14+</characteristic>
+            <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">8-14+</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">8寸</characteristic>
             <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">4</characteristic>
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">2+</characteristic>
@@ -5398,9 +5398,9 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="978c-5f3c-4aff-ede4" name="恶魔 Prince [INDEX]" page="0" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="978c-5f3c-4aff-ede4" name="恶魔王子 [INDEX]" page="0" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="a28e-a6e8-b718-a178" name="恶魔 Prince" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="a28e-a6e8-b718-a178" name="恶魔王子" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
           <modifiers>
             <modifier type="set" field="0bdf-a96e-9e38-7779" value="12寸">
               <conditions>
@@ -5420,7 +5420,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="4f8c-0658-29d0-730e" name="恶魔 Prince" hidden="false" typeId="bc97-dea9-9e88-bb7d" typeName="Psyker">
+        <profile id="4f8c-0658-29d0-730e" name="恶魔王子" hidden="false" typeId="bc97-dea9-9e88-bb7d" typeName="Psyker">
           <characteristics>
             <characteristic name="Cast" typeId="5afb-9914-904b-d3b3">1</characteristic>
             <characteristic name="Deny" typeId="b5ac-9c20-5d5a-6f9b">1</characteristic>
@@ -5442,7 +5442,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
         <categoryLink id="428e-facb-36c4-2757" name="New CategoryLink" hidden="false" targetId="3b77-decb-d468-6bcc" primary="false"/>
         <categoryLink id="d245-4d4a-9fc6-56ec" name="New CategoryLink" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
         <categoryLink id="e379-22e7-4b65-18db" name="阵营: Thousand Sons" hidden="false" targetId="5723-c15a-5882-1f57" primary="false"/>
-        <categoryLink id="f8f9-9688-fe36-8d7f" name="恶魔 Prince" hidden="false" targetId="78c6-7b31-7569-1840" primary="false"/>
+        <categoryLink id="f8f9-9688-fe36-8d7f" name="恶魔王子" hidden="false" targetId="78c6-7b31-7569-1840" primary="false"/>
         <categoryLink id="4928-a93c-b695-3c18" name="阵营: 奸奇" hidden="false" targetId="012f-abfc-397b-3519" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -6158,7 +6158,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
     <rule id="224f-2c86-454d-54aa" name="Daemonic Ritual" hidden="false">
       <description>而不是 moving in their 移动阶段, any CHAOS CHARACTER can, at the end of their 移动阶段, attempt to summon a 恶魔 unit with this ability by performing a Daemonic Ritual (the character cannot do so if they arrived as reinforcements this turn, or if they themselves have been summoned to the battlefield this turn).
 
-If they do, first choose one of the four Chaos Gods - 恐虐, 奸奇, 纳垢, or 色孽. A CHARACTER who owes allegiance to one of the Dark Gods can only attempt to summon the units of their patron - for example, a 恐虐 CHARACTER could only attempt to summon 恐虐 DAEMONS.
+If they do, first choose one of the four Chaos Gods - 恐虐, 奸奇, 纳垢, or 色孽. A CHARACTER who owes allegiance to one of the Dark Gods can only attempt to summon the units of their patron - for example, a 恐虐 CHARACTER could only attempt to summon 恐虐 恶魔.
 
 Roll up to 3 dice - this is your summoning roll. You can summon one new unit with the Daemonic Ritual ability to the battlefield that has a Power Rating equal to or less than the total result so long as it has the same Chaos God keyword you chose at the start. 这个单位 is treated as reinforcements for your army and can be placed anywhere on the battlefield that is wholly 范围内 12寸 of the character and is more than 9寸 from any 敌方模型. If the total rolled is insufficient to summon any unit, the ritual fails and no new unit is summoned.
 
