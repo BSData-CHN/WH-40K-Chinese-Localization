@@ -3323,7 +3323,7 @@
     </selectionEntry>
     <selectionEntry id="68e5-3818-5a79-d82a" name="雷火炮" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="6361-bfb8-5af1-73d2" name="Thunderfire cannon" hidden="false" targetId="e768-5449-ec9e-e9a5" type="profile"/>
+        <infoLink id="6361-bfb8-5af1-73d2" name="雷火炮" hidden="false" targetId="e768-5449-ec9e-e9a5" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="30.0"/>

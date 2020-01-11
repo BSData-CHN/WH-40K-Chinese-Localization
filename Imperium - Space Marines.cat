@@ -23,7 +23,7 @@
     <categoryEntry id="d3d5-ffc9-757d-b014" name="技术军士" hidden="false"/>
     <categoryEntry id="0262-aa2e-a67e-6774" name="奴工" hidden="false"/>
     <categoryEntry id="c3f5-f3b2-bdbb-4742" name="牧师" hidden="false"/>
-    <categoryEntry id="a82e-97f7-e2be-cc92" name="Apothecary" hidden="false"/>
+    <categoryEntry id="a82e-97f7-e2be-cc92" name="药剂师" hidden="false"/>
     <categoryEntry id="d4db-2d06-de12-46f9" name="Lieutenants" hidden="false"/>
     <categoryEntry id="a2e7-ec78-a186-1448" name="Company Ancient" hidden="false"/>
     <categoryEntry id="94a8-86a3-4b86-4855" name="联队老兵" hidden="false"/>
@@ -58,7 +58,7 @@
     <categoryEntry id="6e07-61fe-30e8-e093" name="Devastator Squad" hidden="false"/>
     <categoryEntry id="7e04-75de-9141-992b" name="Centurion Devastator Squad" hidden="false"/>
     <categoryEntry id="13ac-0a73-2640-cc7a" name="地狱轰击者小队" hidden="false"/>
-    <categoryEntry id="b294-9c6c-7cba-74b6" name="Thunderfire Cannon" hidden="false"/>
+    <categoryEntry id="b294-9c6c-7cba-74b6" name="雷火炮" hidden="false"/>
     <categoryEntry id="fe98-6796-1e9d-1d5a" name="Predator" hidden="false"/>
     <categoryEntry id="63df-c0b5-9297-f3e3" name="Vinicator" hidden="false"/>
     <categoryEntry id="01a9-0c4e-1fb8-6686" name="Whirlwind" hidden="false"/>
@@ -69,7 +69,7 @@
     <categoryEntry id="ced4-828b-c5e6-d429" name="Land Raider Crusader" hidden="false"/>
     <categoryEntry id="e165-7afb-0d71-1c15" name="Land Raider Redeemer" hidden="false"/>
     <categoryEntry id="c4d0-cd7e-285f-5101" name="Land Raider Excelsior" hidden="false"/>
-    <categoryEntry id="af7e-1958-b540-f599" name="Roboute Guilliman" hidden="false">
+    <categoryEntry id="af7e-1958-b540-f599" name="罗伯特·基里曼" hidden="false">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="af9b-7f71-3673-9267" type="max"/>
       </constraints>
@@ -217,7 +217,7 @@
         <categoryLink id="43e2-91ef-608c-fbdd" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="a822-4038-d87c-a192" name="Apothecary" hidden="false" collective="false" import="true" targetId="4739-10df-55b8-6330" type="selectionEntry">
+    <entryLink id="a822-4038-d87c-a192" name="药剂师" hidden="false" collective="false" import="true" targetId="4739-10df-55b8-6330" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="36c6-acd8-e3b7-1d31" name="New CategoryLink" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
       </categoryLinks>
@@ -467,7 +467,7 @@
         <categoryLink id="f36e-664b-6d72-bf83" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="044e-5576-9ecc-93d6" name="Roboute Guilliman" hidden="false" collective="false" import="true" targetId="5957-3335-71f8-0f2a" type="selectionEntry">
+    <entryLink id="044e-5576-9ecc-93d6" name="罗伯特·基里曼" hidden="false" collective="false" import="true" targetId="5957-3335-71f8-0f2a" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="f893-5d89-060a-e118" name="New CategoryLink" hidden="false" targetId="c888f08a-6cea-4a01-8126-d374a9231554" primary="true"/>
       </categoryLinks>
@@ -3778,7 +3778,7 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4739-10df-55b8-6330" name="Apothecary" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="4739-10df-55b8-6330" name="药剂师" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -3792,7 +3792,7 @@
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="5625-396d-f94a-0579" name="Apothecary" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="5625-396d-f94a-0579" name="药剂师" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6寸</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -3883,7 +3883,7 @@
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="7886-8431-1279-b52b" name="Apothecary" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="7886-8431-1279-b52b" name="药剂师" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">14寸</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -9649,7 +9649,7 @@ Matched Play: 这个模型 and any units 上车 aboard it are exempt from the Ta
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="de6d-c0fc-c631-db83" name="Thunderfire Cannon" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="de6d-c0fc-c631-db83" name="雷火炮" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -9658,7 +9658,7 @@ Matched Play: 这个模型 and any units 上车 aboard it are exempt from the Ta
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="bba7-fff1-ac41-6986" name="Thunderfire Cannon" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="bba7-fff1-ac41-6986" name="雷火炮" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">3寸</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">6+</characteristic>
@@ -9706,13 +9706,13 @@ Crewed Artillery:After 这个单位 is set up on the battlefield for the 第1次
         <categoryLink id="76a5-756a-5548-9196" name="New CategoryLink" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="f1a3-48e8-0804-fb8e" name="Thunderfire Cannon" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="f1a3-48e8-0804-fb8e" name="雷火炮" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08e7-4a94-bacd-54cf" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0007-2932-02aa-1e2b" type="max"/>
           </constraints>
           <profiles>
-            <profile id="cd82-821f-129c-7c34" name="Thunderfire Cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="cd82-821f-129c-7c34" name="雷火炮" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">60寸</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 4D3</characteristic>
@@ -11634,7 +11634,7 @@ Crewed Artillery:After 这个单位 is set up on the battlefield for the 第1次
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5957-3335-71f8-0f2a" name="Roboute Guilliman" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="5957-3335-71f8-0f2a" name="罗伯特·基里曼" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -11656,7 +11656,7 @@ Crewed Artillery:After 这个单位 is set up on the battlefield for the 第1次
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e77e-8716-cb63-8297" type="max"/>
       </constraints>
       <profiles>
-        <profile id="a5c2-306f-e4fb-9c87" name="Roboute Guilliman" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="a5c2-306f-e4fb-9c87" name="罗伯特·基里曼" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">8寸</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">2+</characteristic>
