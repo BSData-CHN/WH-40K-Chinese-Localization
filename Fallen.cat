@@ -115,7 +115,7 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any weapon with th
         </profile>
         <profile id="b046-3183-1d1e-d48b" name="Mysterious Protection" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Cypher has a 4+ invulnerable save. In addition, roll a D6 if Cypher is slain. On a roll of 2+, Cypher&apos;s model is still removed from play, but he is not considered to have been slain for the purposes of any mission victory conditions.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Cypher has a 4+ 特殊保护. In addition, roll a D6 if Cypher is slain. On a roll of 2+, Cypher&apos;s model is still removed from play, but he is not considered to have been slain for the purposes of any mission victory conditions.</characteristic>
           </characteristics>
         </profile>
         <profile id="e87e-d603-d257-226a" name="Lord Cypher" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -203,7 +203,7 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any weapon with th
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d22-4fe9-8fd6-a4ef" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="d150-0a82-997a-0170" name="Warlord" hidden="false" collective="false" import="true" targetId="c1db-1126-92e2-e807" type="selectionEntry"/>
+        <entryLink id="d150-0a82-997a-0170" name="主将" hidden="false" collective="false" import="true" targetId="c1db-1126-92e2-e807" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="80.0"/>
@@ -462,7 +462,7 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any weapon with th
                         <entryLink id="080a-3122-7264-fad0" name="Chainsword" hidden="false" collective="false" import="true" targetId="0dd1-2e2b-7dd1-5495" type="selectionEntry"/>
                         <entryLink id="1045-a657-475a-1bc9" name="Lightning Claw" hidden="false" collective="false" import="true" targetId="90de-7b01-e401-888b" type="selectionEntry"/>
                         <entryLink id="a379-13ef-f7ae-6e4c" name="Power axe" hidden="false" collective="false" import="true" targetId="3292-34e6-f679-d5b9" type="selectionEntry"/>
-                        <entryLink id="5f86-22c9-f96b-0634" name="Power fist" hidden="false" collective="false" import="true" targetId="f122-3720-fa32-4215" type="selectionEntry"/>
+                        <entryLink id="5f86-22c9-f96b-0634" name="动力拳套" hidden="false" collective="false" import="true" targetId="f122-3720-fa32-4215" type="selectionEntry"/>
                         <entryLink id="1953-b312-73b9-9967" name="Power maul" hidden="false" collective="false" import="true" targetId="6ea7-1195-7144-438e" type="selectionEntry"/>
                         <entryLink id="0cc8-e9ce-d174-6561" name="Power sword" hidden="false" collective="false" import="true" targetId="bc9e-551d-9afb-78d5" type="selectionEntry"/>
                         <entryLink id="afc7-f84a-2cf4-b37f" name="Thunder hammer" hidden="false" collective="false" import="true" targetId="0e57-eaf5-763f-9c45" type="selectionEntry"/>
@@ -914,7 +914,7 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any weapon with th
           </constraints>
         </entryLink>
         <entryLink id="59d2-d45f-a2bd-3d50" name="Artefacts of Chaos" hidden="false" collective="false" import="true" targetId="db42-fef2-6351-be64" type="selectionEntryGroup"/>
-        <entryLink id="3fe4-e0c3-542d-be92" name="Warlord" hidden="false" collective="false" import="true" targetId="c1db-1126-92e2-e807" type="selectionEntry">
+        <entryLink id="3fe4-e0c3-542d-be92" name="主将" hidden="false" collective="false" import="true" targetId="c1db-1126-92e2-e807" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e7c0-8463-99a2-0806" type="max"/>
           </constraints>
@@ -929,13 +929,13 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any weapon with th
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c1db-1126-92e2-e807" name="Warlord" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="c1db-1126-92e2-e807" name="主将" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99b0-8beb-f1d2-4a9e" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8fa8-72da-72f7-183d" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="0851-8119-e3ba-8839" name="Warlord" hidden="false" targetId="ae09-117e-a6fa-316b" primary="false"/>
+        <categoryLink id="0851-8119-e3ba-8839" name="主将" hidden="false" targetId="ae09-117e-a6fa-316b" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -952,7 +952,7 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any weapon with th
           <characteristics>
             <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">8</characteristic>
             <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">12寸</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, select a visible enemy unit within 12寸 of the psyker. Until the start of your next Psychic phase, that unit cannot take invulnerable saves.</characteristic>
+            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, select a visible enemy unit within 12寸 of the psyker. Until the start of your next Psychic phase, that unit cannot take 特殊保护s.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1236,7 +1236,7 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any weapon with th
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c84-74e8-fce2-8a5b" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="b027-3eea-1c0e-81b7" name="Power fist" hidden="false" collective="false" import="true" targetId="f122-3720-fa32-4215" type="selectionEntry">
+        <entryLink id="b027-3eea-1c0e-81b7" name="动力拳套" hidden="false" collective="false" import="true" targetId="f122-3720-fa32-4215" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc98-7caf-4532-7df0" type="max"/>
           </constraints>
@@ -1376,7 +1376,7 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any weapon with th
           </costs>
         </entryLink>
         <entryLink id="6be8-453e-30e4-a10e" name="Power axe" hidden="false" collective="false" import="true" targetId="3292-34e6-f679-d5b9" type="selectionEntry"/>
-        <entryLink id="a0bc-0a8c-8e97-7da7" name="Power fist" hidden="false" collective="false" import="true" targetId="f122-3720-fa32-4215" type="selectionEntry"/>
+        <entryLink id="a0bc-0a8c-8e97-7da7" name="动力拳套" hidden="false" collective="false" import="true" targetId="f122-3720-fa32-4215" type="selectionEntry"/>
         <entryLink id="bb23-1707-105f-a6be" name="New EntryLink" hidden="false" collective="false" import="true" targetId="6ea7-1195-7144-438e" type="selectionEntry"/>
         <entryLink id="f0f1-2c3b-3bed-56f0" name="Power sword" hidden="false" collective="false" import="true" targetId="bc9e-551d-9afb-78d5" type="selectionEntry"/>
         <entryLink id="4faf-1319-8313-55da" name="Thunder hammer" hidden="false" collective="false" import="true" targetId="0e57-eaf5-763f-9c45" type="selectionEntry"/>

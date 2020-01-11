@@ -764,13 +764,13 @@
         <categoryLink id="9300-c658-2c32-f7ab" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="7e70-dd08-e706-f5b7" name="Warlord" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="7e70-dd08-e706-f5b7" name="主将" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b60-6200-369e-9abb" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="45ca-b442-af7e-a58c" name="Warlord" hidden="false" collective="false" import="true" targetId="afad-6465-5489-7fb9" type="selectionEntry"/>
-            <entryLink id="9096-1c1a-923f-f348" name="Stratagem: Field Commander" hidden="false" collective="false" import="true" targetId="d043-3847-e963-fb5d" type="selectionEntry">
+            <entryLink id="45ca-b442-af7e-a58c" name="主将" hidden="false" collective="false" import="true" targetId="afad-6465-5489-7fb9" type="selectionEntry"/>
+            <entryLink id="9096-1c1a-923f-f348" name="战略: 战地指挥官" hidden="false" collective="false" import="true" targetId="d043-3847-e963-fb5d" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -862,7 +862,7 @@
               </constraints>
               <entryLinks>
                 <entryLink id="dd12-5732-11a3-7bd1" name="Multi-laser" hidden="false" collective="false" import="true" targetId="1322-8762-d23a-dc0c" type="selectionEntry"/>
-                <entryLink id="c3a2-b1ed-6450-e0b8" name="Heavy Flamer" hidden="false" collective="false" import="true" targetId="bd55-83d6-4b00-5f2f" type="selectionEntry"/>
+                <entryLink id="c3a2-b1ed-6450-e0b8" name="重喷火" hidden="false" collective="false" import="true" targetId="bd55-83d6-4b00-5f2f" type="selectionEntry"/>
                 <entryLink id="b037-0df4-76da-1f79" name="Autocannon" hidden="false" collective="false" import="true" targetId="4f48-c2bf-69ad-157f" type="selectionEntry"/>
                 <entryLink id="32c5-a7e1-acf0-6f81" name="Missile Launcher" hidden="false" collective="false" import="true" targetId="eb20-7e8b-4806-b84e" type="selectionEntry"/>
                 <entryLink id="431a-479a-7b1a-c81f" name="Lascannon" hidden="false" collective="false" import="true" targetId="db1e-7ae4-bd03-21ca" type="selectionEntry"/>
@@ -971,7 +971,7 @@
           </constraints>
           <entryLinks>
             <entryLink id="c8ed-be61-68f6-a3e5" name="Heavy Bolter" hidden="false" collective="false" import="true" targetId="778f-017e-aa20-74c1" type="selectionEntry"/>
-            <entryLink id="2d09-feb5-a859-4180" name="Heavy Flamer" hidden="false" collective="false" import="true" targetId="bd55-83d6-4b00-5f2f" type="selectionEntry"/>
+            <entryLink id="2d09-feb5-a859-4180" name="重喷火" hidden="false" collective="false" import="true" targetId="bd55-83d6-4b00-5f2f" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="19ce-8210-057a-c59d" name="Turret Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="81f4-b28e-9be3-856a">
@@ -981,7 +981,7 @@
           </constraints>
           <entryLinks>
             <entryLink id="53e8-9020-3156-3c36" name="Heavy Bolter" hidden="false" collective="false" import="true" targetId="778f-017e-aa20-74c1" type="selectionEntry"/>
-            <entryLink id="1fe4-cb4c-f11d-131f" name="Heavy Flamer" hidden="false" collective="false" import="true" targetId="bd55-83d6-4b00-5f2f" type="selectionEntry"/>
+            <entryLink id="1fe4-cb4c-f11d-131f" name="重喷火" hidden="false" collective="false" import="true" targetId="bd55-83d6-4b00-5f2f" type="selectionEntry"/>
             <entryLink id="81f4-b28e-9be3-856a" name="Multi-laser" hidden="false" collective="false" import="true" targetId="1322-8762-d23a-dc0c" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
@@ -990,7 +990,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2580-0378-e5b7-4496" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="09ac-4f25-013b-62ff" name="Storm Bolter" hidden="false" collective="false" import="true" targetId="faa0-b7ea-b217-329c" type="selectionEntry"/>
+            <entryLink id="09ac-4f25-013b-62ff" name="风暴爆弹" hidden="false" collective="false" import="true" targetId="faa0-b7ea-b217-329c" type="selectionEntry"/>
             <entryLink id="2c15-df8b-33f3-93a5" name="Heavy Stubber" hidden="false" collective="false" import="true" targetId="6ebe-58fe-449f-121d" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
@@ -1063,7 +1063,7 @@
         </profile>
         <profile id="9d8a-7ac7-4957-7c48" name="Emergency Plasma Vents" publicationId="83b2-e602-pubN65537" page="98" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model fires a supercharged plasma cannon, and you roll one or more hit rolls of 1, it is not automatically destroyed. Instead, for each hit roll of 1, the bearer suffers 1 mortal wound after all of this weapon&apos;s shots have been resolved.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model fires a supercharged plasma cannon, and you roll one or more hit rolls of 1, it is not automatically destroyed. Instead, 每个命中骰的1,持有者会在此武器的射击结算完成后受到1点致命伤.</characteristic>
           </characteristics>
         </profile>
         <profile id="289a-2618-24cd-4c80" name="Cult Leman Russ" hidden="true" typeId="b900-0afb-e411-2cbb" typeName="Keywords">
@@ -1106,7 +1106,7 @@
           <entryLinks>
             <entryLink id="5a43-19db-f6b4-af15" name="Heavy Bolter" hidden="false" collective="false" import="true" targetId="778f-017e-aa20-74c1" type="selectionEntry"/>
             <entryLink id="5d38-16dd-8fa9-e895" name="Lascannon" hidden="false" collective="false" import="true" targetId="db1e-7ae4-bd03-21ca" type="selectionEntry"/>
-            <entryLink id="dda1-5838-48b1-55d7" name="Heavy Flamer" hidden="false" collective="false" import="true" targetId="bd55-83d6-4b00-5f2f" type="selectionEntry"/>
+            <entryLink id="dda1-5838-48b1-55d7" name="重喷火" hidden="false" collective="false" import="true" targetId="bd55-83d6-4b00-5f2f" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="9d71-78a1-aa9e-30af" name="Sponson Weapons" hidden="false" collective="false" import="true">
@@ -1120,7 +1120,7 @@
                 <modifier type="increment" field="points" value="8"/>
               </modifiers>
             </entryLink>
-            <entryLink id="026b-40f4-5034-efd6" name="Heavy Flamer" hidden="false" collective="false" import="true" targetId="bd55-83d6-4b00-5f2f" type="selectionEntry">
+            <entryLink id="026b-40f4-5034-efd6" name="重喷火" hidden="false" collective="false" import="true" targetId="bd55-83d6-4b00-5f2f" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="name" value="2x Heavy Flamer"/>
                 <modifier type="increment" field="points" value="14"/>
@@ -1145,7 +1145,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7580-0984-42c6-086f" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="c03f-58de-38af-161c" name="Storm Bolter" hidden="false" collective="false" import="true" targetId="faa0-b7ea-b217-329c" type="selectionEntry"/>
+            <entryLink id="c03f-58de-38af-161c" name="风暴爆弹" hidden="false" collective="false" import="true" targetId="faa0-b7ea-b217-329c" type="selectionEntry"/>
             <entryLink id="63f2-3494-c9bc-a181" name="Heavy Stubber" hidden="false" collective="false" import="true" targetId="6ebe-58fe-449f-121d" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
@@ -1268,7 +1268,7 @@
               </constraints>
               <entryLinks>
                 <entryLink id="1169-163f-b5c5-909d" name="Multi-laser" hidden="false" collective="false" import="true" targetId="1322-8762-d23a-dc0c" type="selectionEntry"/>
-                <entryLink id="e817-e7bb-482b-861c" name="Heavy Flamer" hidden="false" collective="false" import="true" targetId="bd55-83d6-4b00-5f2f" type="selectionEntry"/>
+                <entryLink id="e817-e7bb-482b-861c" name="重喷火" hidden="false" collective="false" import="true" targetId="bd55-83d6-4b00-5f2f" type="selectionEntry"/>
                 <entryLink id="7e42-b1e3-726b-6cb2" name="Autocannon" hidden="false" collective="false" import="true" targetId="4f48-c2bf-69ad-157f" type="selectionEntry"/>
                 <entryLink id="e562-53f3-79e0-00a6" name="Missile Launcher" hidden="false" collective="false" import="true" targetId="eb20-7e8b-4806-b84e" type="selectionEntry"/>
                 <entryLink id="0728-540a-72ce-f7d7" name="Lascannon" hidden="false" collective="false" import="true" targetId="db1e-7ae4-bd03-21ca" type="selectionEntry"/>
@@ -1872,12 +1872,12 @@
         <categoryLink id="1871-6168-34a0-e6a2" name="Faction: &lt;Cult&gt;" hidden="false" targetId="1117-30a3-a004-bdbd" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="5dd1-b39c-2a62-6eb1" name="Warlord" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="5dd1-b39c-2a62-6eb1" name="主将" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac8e-7ed7-d119-9857" type="max"/>
           </constraints>
           <categoryLinks>
-            <categoryLink id="7ea1-8360-323e-3062" name="Warlord" hidden="false" targetId="ae09-117e-a6fa-316b" primary="false"/>
+            <categoryLink id="7ea1-8360-323e-3062" name="主将" hidden="false" targetId="ae09-117e-a6fa-316b" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -1980,7 +1980,7 @@
         <categoryLink id="e3cb-0e0e-0a92-0464" name="New CategoryLink" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="5424-671c-8e45-00b7" name="Warlord" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="5424-671c-8e45-00b7" name="主将" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="680d-106f-4b3e-828b" type="max"/>
           </constraints>
@@ -2004,7 +2004,7 @@
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink id="5fdd-d441-b4a6-fa29" name="Warlord" hidden="false" collective="false" import="true" targetId="afad-6465-5489-7fb9" type="selectionEntry"/>
+            <entryLink id="5fdd-d441-b4a6-fa29" name="主将" hidden="false" collective="false" import="true" targetId="afad-6465-5489-7fb9" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -2418,9 +2418,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bd55-83d6-4b00-5f2f" name="Heavy Flamer" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="bd55-83d6-4b00-5f2f" name="重喷火" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="2872-e85e-b88c-d82c" name="Heavy flamer" hidden="false" targetId="2608-8425-4f4f-7f41" type="profile"/>
+        <infoLink id="2872-e85e-b88c-d82c" name="重喷火" hidden="false" targetId="2608-8425-4f4f-7f41" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="14.0"/>
@@ -2600,9 +2600,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="faa0-b7ea-b217-329c" name="Storm Bolter" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="faa0-b7ea-b217-329c" name="风暴爆弹" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="aa68-d4d9-250b-ca2e" name="Storm bolter" hidden="false" targetId="505e-a5aa-edab-6d5b" type="profile"/>
+        <infoLink id="aa68-d4d9-250b-ca2e" name="风暴爆弹" hidden="false" targetId="505e-a5aa-edab-6d5b" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="2.0"/>
@@ -2778,7 +2778,7 @@
         <categoryLink id="3726-696e-298a-2ae1" name="New CategoryLink" hidden="false" targetId="e691-aad7-d21c-1023" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="5a36-1b43-d2b2-5a30" name="Warlord" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="5a36-1b43-d2b2-5a30" name="主将" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4007-8971-f2e9-d39a" type="max"/>
           </constraints>
@@ -2802,7 +2802,7 @@
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink id="8c25-fdab-4f04-0632" name="Warlord" hidden="false" collective="false" import="true" targetId="afad-6465-5489-7fb9" type="selectionEntry"/>
+            <entryLink id="8c25-fdab-4f04-0632" name="主将" hidden="false" collective="false" import="true" targetId="afad-6465-5489-7fb9" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -3545,7 +3545,7 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="afad-6465-5489-7fb9" name="Warlord" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="afad-6465-5489-7fb9" name="主将" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="6bed-d724-76ef-5667" value="0.0">
           <conditionGroups>
@@ -3704,13 +3704,13 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="71a5-1237-aee8-38ca" name="Warlord" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="71a5-1237-aee8-38ca" name="主将" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a45-18eb-3130-289e" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="ace5-183c-aa3b-11c8" name="Warlord" hidden="false" collective="false" import="true" targetId="afad-6465-5489-7fb9" type="selectionEntry"/>
-            <entryLink id="4b51-882f-e71d-4657" name="Stratagem: Field Commander" hidden="false" collective="false" import="true" targetId="d043-3847-e963-fb5d" type="selectionEntry">
+            <entryLink id="ace5-183c-aa3b-11c8" name="主将" hidden="false" collective="false" import="true" targetId="afad-6465-5489-7fb9" type="selectionEntry"/>
+            <entryLink id="4b51-882f-e71d-4657" name="战略: 战地指挥官" hidden="false" collective="false" import="true" targetId="d043-3847-e963-fb5d" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -3976,7 +3976,7 @@
         </entryLink>
         <entryLink id="74b1-7917-c97d-c474" name="Is a Custom Character" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
         <entryLink id="635d-a1cf-43c7-11d6" name="Custom Character Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
-        <entryLink id="c49e-8e4f-2add-eb46" name="Warlord" hidden="false" collective="false" import="true" targetId="afad-6465-5489-7fb9" type="selectionEntry"/>
+        <entryLink id="c49e-8e4f-2add-eb46" name="主将" hidden="false" collective="false" import="true" targetId="afad-6465-5489-7fb9" type="selectionEntry"/>
         <entryLink id="2bad-fc40-9868-d9c3" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="3c5c-af51-2d54-8cbf" type="selectionEntryGroup"/>
         <entryLink id="028d-bdf9-8c89-bc7d" name="Sacred Relics of the Cult" hidden="false" collective="false" import="true" targetId="ccd1-3759-0432-5c59" type="selectionEntryGroup"/>
       </entryLinks>
@@ -4050,7 +4050,7 @@
               <profiles>
                 <profile id="1720-3c97-54ce-fe51" name="Cyborgised Hybrids" publicationId="83b2-e602-pubN65537" page="109" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">All models with this Cult Creed have a 6+ invulnerable save. Models with this Cult Creed that already have an invulnerable save instead improve their invulnerable save by 1 (to a maximum of 3+). In addition, INFANTRY models with this Cult Creed do not suffer the penalty to their hit rolls for moving and shooting Heavy weapons.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">All models with this Cult Creed have a 6+ 特殊保护. Models with this Cult Creed that already have an 特殊保护 instead improve their 特殊保护 by 1 (to a maximum of 3+). In addition, INFANTRY models with this Cult Creed do not suffer the penalty to their hit rolls for moving and shooting Heavy weapons.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4851,7 +4851,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="438d-d69e-e0f2-dade" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="af69-1ecd-c861-cf2d" name="Warlord" hidden="false" collective="false" import="true" targetId="afad-6465-5489-7fb9" type="selectionEntry"/>
+        <entryLink id="af69-1ecd-c861-cf2d" name="主将" hidden="false" collective="false" import="true" targetId="afad-6465-5489-7fb9" type="selectionEntry"/>
         <entryLink id="5df7-81d5-45c8-1ea2" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="3c5c-af51-2d54-8cbf" type="selectionEntryGroup"/>
         <entryLink id="4185-ef11-aa4e-530e" name="Relics" hidden="false" collective="false" import="true" targetId="ccd1-3759-0432-5c59" type="selectionEntryGroup"/>
         <entryLink id="3a96-c130-5d1d-41d5" name="Is a Custom Character" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
@@ -4882,7 +4882,7 @@
       <profiles>
         <profile id="9360-f41e-b278-2077" name="Quicksilver Dodge" publicationId="83b2-e602-pubN65537" page="90" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model has a 5+ invulnerable save.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model has a 5+ 特殊保护.</characteristic>
           </characteristics>
         </profile>
         <profile id="7245-72eb-cae1-561c" name="Quicksilver Strike" publicationId="83b2-e602-pubN65537" page="90" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -4966,7 +4966,7 @@
         <entryLink id="a8a1-ba34-3552-b219" name="Relics" hidden="false" collective="false" import="true" targetId="ccd1-3759-0432-5c59" type="selectionEntryGroup"/>
         <entryLink id="9ee4-7045-3950-8a90" name="Custom Character Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
         <entryLink id="7fef-6a75-c704-870e" name="Is a Custom Character" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
-        <entryLink id="b523-d4a1-ba4c-e62c" name="Warlord" hidden="false" collective="false" import="true" targetId="afad-6465-5489-7fb9" type="selectionEntry"/>
+        <entryLink id="b523-d4a1-ba4c-e62c" name="主将" hidden="false" collective="false" import="true" targetId="afad-6465-5489-7fb9" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="2.0"/>
@@ -5033,7 +5033,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dffa-dd09-c731-0ea4" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="e382-eabd-f847-0058" name="Warlord" hidden="false" collective="false" import="true" targetId="afad-6465-5489-7fb9" type="selectionEntry"/>
+        <entryLink id="e382-eabd-f847-0058" name="主将" hidden="false" collective="false" import="true" targetId="afad-6465-5489-7fb9" type="selectionEntry"/>
         <entryLink id="cc1f-a46b-6794-67f7" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="3c5c-af51-2d54-8cbf" type="selectionEntryGroup"/>
         <entryLink id="37a0-eb00-1410-6ef8" name="Sacred Relics of the Cult" hidden="false" collective="false" import="true" targetId="ccd1-3759-0432-5c59" type="selectionEntryGroup"/>
         <entryLink id="8eab-ce40-bdbd-f27f" name="Custom Character Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
@@ -5259,7 +5259,7 @@
         <entryLink id="e578-e452-a02a-8760" name="Custom Character Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
         <entryLink id="4a1c-f67a-48e1-7ff8" name="Relics" hidden="false" collective="false" import="true" targetId="ccd1-3759-0432-5c59" type="selectionEntryGroup"/>
         <entryLink id="1438-b330-04c4-df5d" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="3c5c-af51-2d54-8cbf" type="selectionEntryGroup"/>
-        <entryLink id="eda4-7746-6cdc-ed7d" name="Warlord" hidden="false" collective="false" import="true" targetId="afad-6465-5489-7fb9" type="selectionEntry"/>
+        <entryLink id="eda4-7746-6cdc-ed7d" name="主将" hidden="false" collective="false" import="true" targetId="afad-6465-5489-7fb9" type="selectionEntry"/>
         <entryLink id="0b1d-06f5-f0dd-500a" name="Is a Custom Character" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
       </entryLinks>
       <costs>
@@ -5530,7 +5530,7 @@
         </profile>
         <profile id="8f2e-0862-7e82-f5db" name="Preternatural Senses" publicationId="83b2-e602-pubN65537" page="92" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model has a 5+ invulnerable save.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model has a 5+ 特殊保护.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5574,7 +5574,7 @@
           </constraints>
         </entryLink>
         <entryLink id="5ae3-908f-ba65-123f" name="Is a Custom Character" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
-        <entryLink id="0305-a47b-8d03-bfd7" name="Warlord" hidden="false" collective="false" import="true" targetId="afad-6465-5489-7fb9" type="selectionEntry"/>
+        <entryLink id="0305-a47b-8d03-bfd7" name="主将" hidden="false" collective="false" import="true" targetId="afad-6465-5489-7fb9" type="selectionEntry"/>
         <entryLink id="01c0-34d9-2077-d67b" name="Custom Character Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
         <entryLink id="9c4b-a83e-03d1-6f91" name="Relics" hidden="false" collective="false" import="true" targetId="ccd1-3759-0432-5c59" type="selectionEntryGroup"/>
         <entryLink id="8aea-a730-c77d-8170" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="3c5c-af51-2d54-8cbf" type="selectionEntryGroup"/>
@@ -6353,7 +6353,7 @@ If your opponent has the first turn, then none of their units can be set up or e
           <profiles>
             <profile id="8b80-1a2d-f8c7-04b3" name="Mark of the Clawed Omnissiah" publicationId="83b2-e602-pubN65537" page="117" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">BLADED COG only. The bearer has a 4+ invulnerable save. In addition, each time this model finishes a charge move, select one enemy unit within 1寸 of it and roll a D6; on a 2+ that unit suffers 1 mortal wound.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">BLADED COG only. The bearer has a 4+ 特殊保护. In addition, each time this model finishes a charge move, select one enemy unit within 1寸 of it and roll a D6; on a 2+ that unit suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7481,7 +7481,7 @@ BROOD BROTHERS TAUROX PRIMES can only transport 10 BROOD BROTHERS OFFICIO PREFEC
     </profile>
     <profile id="0e98-6c7e-d9a4-281f" name="Lightning Reflexes" publicationId="83b2-e602-pubN65537" page="89" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models in this unit have a 5+ invulnerable save.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models in this unit have a 5+ 特殊保护.</characteristic>
       </characteristics>
     </profile>
     <profile id="f7e7-e08f-beb4-d58c" name="Swift and Deadly" publicationId="83b2-e602-pubN65537" page="89" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">

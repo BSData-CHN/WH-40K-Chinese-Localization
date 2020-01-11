@@ -230,7 +230,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="806f-d1ee-da05-0983" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="9b48-cd5f-3949-adc6" name="Warlord" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
+        <categoryLink id="9b48-cd5f-3949-adc6" name="主将" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
         <categoryLink id="a8d7-367a-2dfd-6b79" name="Relic Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
           <modifiers>
             <modifier type="increment" field="54d4-89c3-38b6-8877" value="1">
@@ -350,7 +350,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="dd16-f9e4-6928-db00" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="70a3-5965-8dfd-0dff" name="Warlord" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
+        <categoryLink id="70a3-5965-8dfd-0dff" name="主将" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
         <categoryLink id="f91f-9faa-2dff-6fbb" name="Relic Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
           <modifiers>
             <modifier type="increment" field="54d4-89c3-38b6-8877" value="1">
@@ -473,7 +473,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b905-bc19-8b25-f26a" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="b505-6d2b-bb65-191e" name="Warlord" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
+        <categoryLink id="b505-6d2b-bb65-191e" name="主将" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
         <categoryLink id="386d-9c19-e897-b48e" name="Relic Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
           <modifiers>
             <modifier type="increment" field="54d4-89c3-38b6-8877" value="1">
@@ -593,7 +593,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1449-c900-5e63-561c" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="c3f6-3055-bcd0-788b" name="Warlord" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
+        <categoryLink id="c3f6-3055-bcd0-788b" name="主将" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
         <categoryLink id="6eb8-3c2f-13e7-17e1" name="Relic Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
           <modifiers>
             <modifier type="increment" field="54d4-89c3-38b6-8877" value="1">
@@ -713,7 +713,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="68bd-f7ab-859e-fb22" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="0144-c043-6326-c755" name="Warlord" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
+        <categoryLink id="0144-c043-6326-c755" name="主将" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
         <categoryLink id="dff9-8621-e2dd-b4e3" name="Relic Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
           <modifiers>
             <modifier type="increment" field="54d4-89c3-38b6-8877" value="1">
@@ -833,7 +833,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3de0-5460-f04b-09ba" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="5411-43af-9074-78ae" name="Warlord" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
+        <categoryLink id="5411-43af-9074-78ae" name="主将" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
         <categoryLink id="43a0-ffe6-d029-9152" name="Relic Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
           <modifiers>
             <modifier type="increment" field="54d4-89c3-38b6-8877" value="1">
@@ -931,7 +931,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="83e7-e60b-0ad5-1d24" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="2421-180e-769d-d51f" name="Warlord" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
+        <categoryLink id="2421-180e-769d-d51f" name="主将" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
         <categoryLink id="2e59-df4f-9429-ef1a" name="Relic Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
           <modifiers>
             <modifier type="increment" field="54d4-89c3-38b6-8877" value="1">
@@ -1021,7 +1021,7 @@
             <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="67f2-9795-52db-5a70" type="min"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="9ca8-4fb9-709b-b9a6" name="Warlord" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
+        <categoryLink id="9ca8-4fb9-709b-b9a6" name="主将" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
         <categoryLink id="5ae3-7417-3751-8480" name="Relic Lord of War" hidden="false" targetId="3216-79af-660b-7711" primary="false">
           <modifiers>
             <modifier type="increment" field="c99e-bf0a-6e60-819c" value="1">
@@ -1058,7 +1058,7 @@
             <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="fc65-2978-7619-e375" type="min"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="33b2-565d-d44c-99a7" name="Warlord" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
+        <categoryLink id="33b2-565d-d44c-99a7" name="主将" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="224b-1070-218f-fdf4" name="超重型支援分队" hidden="false">
@@ -1070,7 +1070,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b8f-4518-f394-33f4" type="min"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="b1a6-0fc5-d615-d4eb" name="Warlord" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
+        <categoryLink id="b1a6-0fc5-d615-d4eb" name="主将" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="dcee-07fa-ec14-7dec" name="防御工事网络" hidden="false">
@@ -1090,7 +1090,7 @@
             <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0214-a689-7537-aafa" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="663d-4540-136a-98c1" name="Warlord" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
+        <categoryLink id="663d-4540-136a-98c1" name="主将" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="8a87-f0e3-f2f2-ad1a" name="辅助支援分队 -1指挥点" hidden="false">
@@ -1118,7 +1118,7 @@
         <categoryLink id="9153-b8bd-1f8a-9f1f" name="Heavy Support" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false"/>
         <categoryLink id="0960-9271-26d6-1831" name="Flyer" hidden="false" targetId="e888-1504-aa61-95ff" primary="false"/>
         <categoryLink id="1d7c-3253-d90d-6e3a" name="Dedicated Transport" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false"/>
-        <categoryLink id="09fb-b9a5-3cb5-b0d5" name="Warlord" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
+        <categoryLink id="09fb-b9a5-3cb5-b0d5" name="主将" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
         <categoryLink id="ba03-97bb-c51d-9a47" name="Relic" hidden="false" targetId="e10e-b44e-7eda-41d8" primary="false">
           <constraints>
             <constraint field="selections" scope="8a87-f0e3-f2f2-ad1a" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1781-5ba7-241c-c0b3" type="max"/>
@@ -1138,7 +1138,7 @@
         <categoryLink id="d5f2-dac9-5cf7-ddac" name="Dedicated Transport" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false"/>
         <categoryLink id="b474-2366-f02e-6f49" name="Lord of War" hidden="false" targetId="c888f08a-6cea-4a01-8126-d374a9231554" primary="false"/>
         <categoryLink id="7751-b628-068c-ae45" name="Fortification" hidden="false" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a" primary="false"/>
-        <categoryLink id="9a65-6b3b-5e44-03e8" name="Warlord" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
+        <categoryLink id="9a65-6b3b-5e44-03e8" name="主将" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="8cae-c44c-ef1f-8f43" name="行星打击-进攻方 +5指挥点" publicationId="28ec-711c-pubN73170" page="34" hidden="false">
@@ -1211,7 +1211,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4240-b0fc-8a69-2871" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="7187-699d-2503-992c" name="Warlord" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
+        <categoryLink id="7187-699d-2503-992c" name="主将" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
         <categoryLink id="f717-1d3f-dd97-4126" name="Relic Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
           <modifiers>
             <modifier type="increment" field="54d4-89c3-38b6-8877" value="1">
@@ -1335,7 +1335,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ee38-3431-abb2-9e62" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="3c3b-27e3-c0b7-b3ee" name="Warlord" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
+        <categoryLink id="3c3b-27e3-c0b7-b3ee" name="主将" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
         <categoryLink id="4191-d1fc-fa74-f144" name="Relic Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
           <modifiers>
             <modifier type="increment" field="54d4-89c3-38b6-8877" value="1">
@@ -1459,7 +1459,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9a18-2f70-70ee-6230" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="eed4-ea5f-257c-0699" name="Warlord" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
+        <categoryLink id="eed4-ea5f-257c-0699" name="主将" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
         <categoryLink id="e346-2f51-2beb-4df1" name="Relic Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
           <modifiers>
             <modifier type="increment" field="54d4-89c3-38b6-8877" value="1">
@@ -1589,7 +1589,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6ce3-81ab-8b21-3ef4" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="3e5e-b1fa-a208-60bd" name="Warlord" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
+        <categoryLink id="3e5e-b1fa-a208-60bd" name="主将" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
         <categoryLink id="414e-4ecb-b1e8-75c3" name="Relic Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
           <modifiers>
             <modifier type="increment" field="54d4-89c3-38b6-8877" value="1">
@@ -2404,7 +2404,7 @@
         </profile>
         <profile id="c01d-4736-944f-b007" name="Shielded" hidden="false" typeId="002f-cc4a-c4e3-0261" typeName="登陆平台配置">
           <characteristics>
-            <characteristic name="影响" typeId="f566-bacc-9414-7661">Whilst this configuration is in effect, models that are on top of the Skyshield Landing Pad have a 5+ invulnerable save against any attacks made in the Shooting phase if the attacking model is not also on top of the Skyshield Landing Pad. The Skyshield Landing Pad itself does not receive an invulnerable save in this manner.</characteristic>
+            <characteristic name="影响" typeId="f566-bacc-9414-7661">Whilst this configuration is in effect, models that are on top of the Skyshield Landing Pad have a 5+ 特殊保护 against any attacks made in the Shooting phase if the attacking model is not also on top of the Skyshield Landing Pad. The Skyshield Landing Pad itself does not receive an 特殊保护 in this manner.</characteristic>
           </characteristics>
         </profile>
         <profile id="c1ed-3585-4739-2266" name="Unfurled" hidden="false" typeId="002f-cc4a-c4e3-0261" typeName="登陆平台配置">
@@ -2514,7 +2514,7 @@
         </profile>
         <profile id="c818-46ac-f5b8-cd39" name="Projected Void Shields" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models wholly within 12寸 of a Void Shield Generator receive a 5+ invulnerable save against attacks made in the Shooting phase if the firing model is not also wlly within 12寸 of this model.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models wholly within 12寸 of a Void Shield Generator receive a 5+ 特殊保护 against attacks made in the Shooting phase if the firing model is not also wlly within 12寸 of this model.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2616,7 +2616,7 @@
     </selectionEntry>
     <selectionEntry id="09d8-7790-ed3f-4d6d" name="双联重爆弹" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="8579-7d4e-5384-994b" name="Twin heavy bolter" hidden="false" targetId="6644-7150-c910-865d" type="profile"/>
+        <infoLink id="8579-7d4e-5384-994b" name="双联重爆弹" hidden="false" targetId="6644-7150-c910-865d" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="17.0"/>
@@ -2626,7 +2626,7 @@
     </selectionEntry>
     <selectionEntry id="f122-3720-fa32-4215" name="动力拳套" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="4446-79f3-94ea-8702" name="Power fist" hidden="false" targetId="3520-0bb4-90f2-084b" type="profile"/>
+        <infoLink id="4446-79f3-94ea-8702" name="动力拳套" hidden="false" targetId="3520-0bb4-90f2-084b" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="9.0"/>
@@ -2647,7 +2647,7 @@
     </selectionEntry>
     <selectionEntry id="18bc-b335-29c2-2ae2" name="重喷火" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="d762-8e0a-5a75-b8a0" name="Heavy flamer" hidden="false" targetId="2608-8425-4f4f-7f41" type="profile"/>
+        <infoLink id="d762-8e0a-5a75-b8a0" name="重喷火" hidden="false" targetId="2608-8425-4f4f-7f41" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="14.0"/>
@@ -2923,8 +2923,8 @@
     </selectionEntry>
     <selectionEntry id="689a-17db-7527-5cf8" name="风暴爆弹拳套" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="9286-0d89-f4ec-8118" name="Boltstorm gauntlet (melee)" hidden="false" targetId="a795-7f46-c006-36f9" type="profile"/>
-        <infoLink id="71c7-d9fb-ec4c-00d7" name="Boltstorm gauntlet (shooting)" hidden="false" targetId="eb60-1a3c-5699-dadb" type="profile"/>
+        <infoLink id="9286-0d89-f4ec-8118" name="爆弹风暴拳套-肉搏" hidden="false" targetId="a795-7f46-c006-36f9" type="profile"/>
+        <infoLink id="71c7-d9fb-ec4c-00d7" name="爆弹风暴拳套-射击" hidden="false" targetId="eb60-1a3c-5699-dadb" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="12.0"/>
@@ -2934,7 +2934,7 @@
     </selectionEntry>
     <selectionEntry id="e2b8-099c-9f60-0faf" name="百夫长导弹发射器" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="bc71-fda7-a9ff-4b02" name="Centurion missile launcher" hidden="false" targetId="19eb-bb51-72c6-7829" type="profile"/>
+        <infoLink id="bc71-fda7-a9ff-4b02" name="百夫长导弹发射器" hidden="false" targetId="19eb-bb51-72c6-7829" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="25.0"/>
@@ -2965,7 +2965,7 @@
     <selectionEntry id="c027-24d6-7a3d-cf12" name="复合重力枪" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="595c-c1ad-7cd6-9c2b" name="Boltgun" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
-        <infoLink id="2143-e026-6475-051d" name="Grav-gun" hidden="false" targetId="a3d2-b0d7-70bc-695e" type="profile"/>
+        <infoLink id="2143-e026-6475-051d" name="重力枪" hidden="false" targetId="a3d2-b0d7-70bc-695e" type="profile"/>
         <infoLink id="3769-90bc-d2ca-500a" name="Combi Weapon" hidden="false" targetId="a269-b8d9-67c5-4009" type="rule"/>
       </infoLinks>
       <costs>
@@ -2984,10 +2984,10 @@
         <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="25b3-79f7-73cd-9321" name="Cyclone missile launcher" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="25b3-79f7-73cd-9321" name="旋风导弹发射器" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="69c4-b680-fdfe-de34" name="Cyclone missile launcher, Frag missile" hidden="false" targetId="5207-ef08-27f7-166d" type="profile"/>
-        <infoLink id="fdc1-d95c-d771-04db" name="Cyclone missile launcher, Krak missile" hidden="false" targetId="d9ac-d70c-de0b-1897" type="profile"/>
+        <infoLink id="69c4-b680-fdfe-de34" name="旋风导弹发射器-破片导弹" hidden="false" targetId="5207-ef08-27f7-166d" type="profile"/>
+        <infoLink id="fdc1-d95c-d771-04db" name="旋风导弹发射器-穿甲导弹" hidden="false" targetId="d9ac-d70c-de0b-1897" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="32.0"/>
@@ -3036,9 +3036,9 @@
         <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f09b-e29b-c7e0-c9e1" name="Flamestorm cannon" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="f09b-e29b-c7e0-c9e1" name="烈焰风暴炮" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="46d4-c0d8-f5e9-1398" name="Flamestorm cannon" hidden="false" targetId="49ae-4451-9bc0-5238" type="profile"/>
+        <infoLink id="46d4-c0d8-f5e9-1398" name="烈焰风暴炮" hidden="false" targetId="49ae-4451-9bc0-5238" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="25.0"/>
@@ -3303,7 +3303,7 @@
     </selectionEntry>
     <selectionEntry id="2b03-8d64-3711-f300" name="双联爆燃炮" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="df42-5dc2-4e53-ec49" name="Storm bolter" hidden="false" targetId="505e-a5aa-edab-6d5b" type="profile"/>
+        <infoLink id="df42-5dc2-4e53-ec49" name="风暴爆弹" hidden="false" targetId="505e-a5aa-edab-6d5b" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="2.0"/>
@@ -3496,7 +3496,7 @@
     </selectionEntry>
     <selectionEntry id="b757-4d61-d4bc-52ba" name="无畏链锯拳" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="cfe0-ec81-236f-70b5" name="Dreadnought chainfist" hidden="false" targetId="fd05-77af-571c-7f41" type="profile"/>
+        <infoLink id="cfe0-ec81-236f-70b5" name="无畏链锯拳" hidden="false" targetId="fd05-77af-571c-7f41" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="38.0"/>
@@ -3647,7 +3647,7 @@
     </selectionEntry>
     <selectionEntry id="538c-b8cd-b452-2685" name="重力枪" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="7e7e-ed63-bb7a-7c3e" name="Grav-gun" hidden="false" targetId="a3d2-b0d7-70bc-695e" type="profile"/>
+        <infoLink id="7e7e-ed63-bb7a-7c3e" name="重力枪" hidden="false" targetId="a3d2-b0d7-70bc-695e" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="10.0"/>
@@ -3727,7 +3727,7 @@
         <infoLink id="1232-cec0-b9ce-7da8" name="无畏肉搏武器" hidden="false" targetId="3b26-3098-155f-0e58" type="profile"/>
       </infoLinks>
       <entryLinks>
-        <entryLink id="c8f5-623f-463f-b2ac" name="Storm bolter" hidden="false" collective="false" import="true" targetId="2b03-8d64-3711-f300" type="selectionEntry">
+        <entryLink id="c8f5-623f-463f-b2ac" name="风暴爆弹" hidden="false" collective="false" import="true" targetId="2b03-8d64-3711-f300" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="632f-3beb-31c0-c5d2" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10f0-5be0-238e-dfec" type="max"/>
@@ -3752,7 +3752,7 @@
         <infoLink id="aba2-ecb0-2ab6-32f7" name="无畏肉搏武器" hidden="false" targetId="3b26-3098-155f-0e58" type="profile"/>
       </infoLinks>
       <entryLinks>
-        <entryLink id="7d67-9ea9-8556-f509" name="Heavy flamer" hidden="false" collective="false" import="true" targetId="18bc-b335-29c2-2ae2" type="selectionEntry">
+        <entryLink id="7d67-9ea9-8556-f509" name="重喷火" hidden="false" collective="false" import="true" targetId="18bc-b335-29c2-2ae2" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c062-d49e-c2bb-42b2" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="20eb-206d-9a9b-cb7e" type="max"/>
@@ -4069,7 +4069,7 @@
         </profile>
         <profile id="7c71-893b-e33d-c857" name="Mighty Bulwark" publicationId="28ec-711c-pubN91434" page="52" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each unit that is embarked on this model may both shoot as if it were in the open and also be shot at as if it were in the open. Models embarked on this model have a 4+ invulnerable save. Place the embarked unit on the battlements to show where they are.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each unit that is embarked on this model may both shoot as if it were in the open and also be shot at as if it were in the open. Models embarked on this model have a 4+ 特殊保护. Place the embarked unit on the battlements to show where they are.</characteristic>
           </characteristics>
         </profile>
         <profile id="5332-4327-90b2-d60e" name="Explosion" publicationId="28ec-711c-pubN91434" page="52" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -4205,7 +4205,7 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4589-1139-ccf9-9e9d" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="d232-4017-cd9f-b55a" name="Twin heavy bolter" hidden="false" collective="false" import="true" targetId="09d8-7790-ed3f-4d6d" type="selectionEntry">
+            <entryLink id="d232-4017-cd9f-b55a" name="双联重爆弹" hidden="false" collective="false" import="true" targetId="09d8-7790-ed3f-4d6d" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="points" value="14"/>
               </modifiers>
@@ -4246,7 +4246,7 @@
         </profile>
         <profile id="888f-fcce-8911-d3c3" name="Force Dome" publicationId="28ec-711c-pubN91434" page="53" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model has a 5+ invulnerable save.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model has a 5+ 特殊保护.</characteristic>
           </characteristics>
         </profile>
         <profile id="d146-c17b-222c-3b02" name="Reactor Explosion" publicationId="28ec-711c-pubN91434" page="53" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -4303,7 +4303,7 @@
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                    <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Add 1 to hit rolls made for this weapon against targets that can FLY. Subtract 1 from hit rolls made for this weapon against all other targets.</characteristic>
+                    <characteristic name="能力" typeId="837d-5e63-aeb7-1410">对飞行目标命中骰+1,对其他所有目标命中骰-1.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4322,7 +4322,7 @@
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">9</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-                    <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Add 1 to hit rolls made for this weapon against targets that can FLY. Subtract 1 from hit rolls made for this weapon against all other targets.</characteristic>
+                    <characteristic name="能力" typeId="837d-5e63-aeb7-1410">对飞行目标命中骰+1,对其他所有目标命中骰-1.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4346,7 +4346,7 @@
               </modifiers>
             </entryLink>
             <entryLink id="fac3-8167-b856-599f" name="Quad-gun" hidden="false" collective="false" import="true" targetId="e4c2-0571-1de7-02e1" type="selectionEntry"/>
-            <entryLink id="fef2-2d4a-1246-88ed" name="Twin heavy bolter" hidden="false" collective="false" import="true" targetId="09d8-7790-ed3f-4d6d" type="selectionEntry">
+            <entryLink id="fef2-2d4a-1246-88ed" name="双联重爆弹" hidden="false" collective="false" import="true" targetId="09d8-7790-ed3f-4d6d" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="points" value="14"/>
               </modifiers>
@@ -4393,7 +4393,7 @@
     </selectionEntry>
     <selectionEntry id="d309-0c16-de50-af5d" name="动力拳套" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="acdd-839c-83c2-b11d" name="Power fist" hidden="false" targetId="3520-0bb4-90f2-084b" type="profile"/>
+        <infoLink id="acdd-839c-83c2-b11d" name="动力拳套" hidden="false" targetId="3520-0bb4-90f2-084b" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="9.0"/>
@@ -4590,7 +4590,7 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b69c-ad1f-446e-7ea9" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="6525-8b5b-1612-3466" name="Warlord" hidden="false" collective="false" import="true" targetId="33f6-60da-7b70-5fee" type="selectionEntry">
+        <entryLink id="6525-8b5b-1612-3466" name="主将" hidden="false" collective="false" import="true" targetId="33f6-60da-7b70-5fee" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f798-531b-c7fc-3cc0" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="acdd-4717-bad4-3791" type="min"/>
@@ -4625,7 +4625,7 @@
         </profile>
         <profile id="9f52-e8b6-268d-fa2d" name="Eldritch Aura" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model has a 5+ Invulnerable save</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model has a 5+ 特殊保护</characteristic>
           </characteristics>
         </profile>
         <profile id="0fff-6dcb-d884-e8df" name="Webway Strike" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -4833,7 +4833,7 @@
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink id="2439-d817-d7d3-a43c" name="Twin heavy bolter" hidden="false" collective="false" import="true" targetId="09d8-7790-ed3f-4d6d" type="selectionEntry"/>
+            <entryLink id="2439-d817-d7d3-a43c" name="双联重爆弹" hidden="false" collective="false" import="true" targetId="09d8-7790-ed3f-4d6d" type="selectionEntry"/>
             <entryLink id="6226-855d-7acf-547d" name="Twin assault cannon" hidden="false" collective="false" import="true" targetId="f787-a3af-72b5-60d1" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
@@ -4870,7 +4870,7 @@
                 </modifier>
               </modifiers>
               <entryLinks>
-                <entryLink id="f0cb-a684-a02f-4f5b" name="Flamestorm cannon" hidden="false" collective="false" import="true" targetId="f09b-e29b-c7e0-c9e1" type="selectionEntry">
+                <entryLink id="f0cb-a684-a02f-4f5b" name="烈焰风暴炮" hidden="false" collective="false" import="true" targetId="f09b-e29b-c7e0-c9e1" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37f0-d3ed-302f-affc" type="min"/>
                     <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2254-df8d-3afb-3622" type="max"/>
@@ -4950,7 +4950,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="86f3-2090-3332-374b" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="bff2-6f9e-c0c9-9005" name="Heavy flamer" hidden="false" collective="false" import="true" targetId="18bc-b335-29c2-2ae2" type="selectionEntry">
+                <entryLink id="bff2-6f9e-c0c9-9005" name="重喷火" hidden="false" collective="false" import="true" targetId="18bc-b335-29c2-2ae2" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b622-05c8-9b9d-245f" type="min"/>
                     <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b305-12c8-fc54-2c66" type="max"/>
@@ -5067,7 +5067,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4327-a8f3-72bf-99c6" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="8af5-53ca-8a09-0d69" name="Storm bolter" hidden="false" collective="false" import="true" targetId="2b03-8d64-3711-f300" type="selectionEntry">
+        <entryLink id="8af5-53ca-8a09-0d69" name="风暴爆弹" hidden="false" collective="false" import="true" targetId="2b03-8d64-3711-f300" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -7124,7 +7124,7 @@
                   <profiles>
                     <profile id="273f-17c8-2998-61cc" name="11: Divine Protection" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Improve this model’s invulnerable save by 1 (e.g. an invulnerable save of 5+ will become an invulnerable save of 4+), to a maximum of 3+. If this model does not have an invulnerable save, it instead gains a 6+ invulnerable save.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Improve this model’s 特殊保护 by 1 (e.g. an 特殊保护 of 5+ will become an 特殊保护 of 4+), to a maximum of 3+. If this model does not have an 特殊保护, it instead gains a 6+ 特殊保护.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -8425,7 +8425,7 @@
         <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="49ae-4451-9bc0-5238" name="Flamestorm cannon" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+    <profile id="49ae-4451-9bc0-5238" name="烈焰风暴炮" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="射程" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12寸</characteristic>
         <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 D6</characteristic>
@@ -8868,7 +8868,7 @@
         <characteristic name="能力" typeId="837d-5e63-aeb7-1410">攻击半射程内目标时变成 S8 AP-1 D2.</characteristic>
       </characteristics>
     </profile>
-    <profile id="5207-ef08-27f7-166d" name="Cyclone missile launcher, Frag missile" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+    <profile id="5207-ef08-27f7-166d" name="旋风导弹发射器-破片导弹" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="射程" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36寸</characteristic>
         <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 2D3</characteristic>
@@ -8878,7 +8878,7 @@
         <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="d9ac-d70c-de0b-1897" name="Cyclone missile launcher, Krak missile" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+    <profile id="d9ac-d70c-de0b-1897" name="旋风导弹发射器-穿甲导弹" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="射程" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36寸</characteristic>
         <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 2</characteristic>
