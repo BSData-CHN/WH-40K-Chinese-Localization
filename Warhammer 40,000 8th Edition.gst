@@ -1806,7 +1806,7 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="e1b5-aeea-1332-2ba6" name="Automated Weapons (Gun Emplacement)" hidden="false" targetId="57f6-edd9-6170-5c91" type="profile"/>
+            <infoLink id="e1b5-aeea-1332-2ba6" name="Automated Weapons (炮架)" hidden="false" targetId="57f6-edd9-6170-5c91" type="profile"/>
           </infoLinks>
           <categoryLinks>
             <categoryLink id="9fd3-c4ec-8e01-1949" name="New CategoryLink" hidden="false" targetId="c8fd-783f-3230-493e" primary="false"/>
@@ -8633,9 +8633,9 @@
         <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
       </characteristics>
     </profile>
-    <profile id="705c-91aa-6591-507b" name="Gun Emplacement (Details)" publicationId="28ec-711c-pubN113754" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
+    <profile id="705c-91aa-6591-507b" name="炮架 (Details)" publicationId="28ec-711c-pubN113754" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A model in cover behind a gun emplacement has a 4+ cover save. One non-vehicle model in base contact with a gun emplacement can fire it 而不是 firing its own weapons. A model that fires a gun emplacement has the Relentless special rule for that shooting attack. A gun emplacement can be shot at and attacked in close combat. It is hit automatically in close combat.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A model in cover behind a 炮架 has a 4+ cover save. One non-vehicle model in base contact with a 炮架 can fire it 而不是 firing its own weapons. A model that fires a 炮架 has the Relentless special rule for that shooting attack. A 炮架 can be shot at and attacked in close combat. It is hit automatically in close combat.</characteristic>
       </characteristics>
     </profile>
     <profile id="70aa-366f-15ac-da4d" name="Comms Relay" publicationId="28ec-711c-pubN113754" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -9557,7 +9557,7 @@
     </profile>
     <profile id="c60f-7b10-88fd-9eba" name="静态防御网络 (Aegis)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each Small Shield Section and Large Shield Section in 这个单位 must be set up so that it is in end-to-end contact with at least one other Small Shield Section or Large Shield Section in 这个单位, and 这个单位&apos;s Gun Emplacement must be set up 范围内 6寸 of any Small Shield Section or Large Shield Section in 这个单位. After it is set up, 这个单位&apos;s Small Shield Sections and Large Shield Sections are treated as a single terrain feature that follows the rules for Barricades (pg 106).</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each Small Shield Section and Large Shield Section in 这个单位 must be set up so that it is in end-to-end contact with at least one other Small Shield Section or Large Shield Section in 这个单位, and 这个单位&apos;s 炮架 must be set up 范围内 6寸 of any Small Shield Section or Large Shield Section in 这个单位. After it is set up, 这个单位&apos;s Small Shield Sections and Large Shield Sections are treated as a single terrain feature that follows the rules for Barricades (pg 106).</characteristic>
       </characteristics>
     </profile>
     <profile id="9446-1148-da70-4028" name="爆炸 (D6寸)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
