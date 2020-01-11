@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="28ec-711c-d87f-3aeb" name="战锤40K 8版" revision="121" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Developer" authorUrl="https://discord.gg/KqPVhds" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="28ec-711c-d87f-3aeb" name="战锤40K 8版" revision="1" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Developer" authorUrl="https://discord.gg/KqPVhds" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="28ec-711c-pubN72690" name="Warhammer 40,000 Rulebook"/>
     <publication id="28ec-711c-pubN73170" name="CA 2017"/>
@@ -2668,7 +2668,7 @@
     </selectionEntry>
     <selectionEntry id="c6a1-e0c4-c1b1-dce1" name="复合喷火器" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="73e7-91e7-a433-8ea5" name="Boltgun" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
+        <infoLink id="73e7-91e7-a433-8ea5" name="爆弹枪" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
         <infoLink id="7405-10db-da34-a45f" name="Flamer" hidden="false" targetId="cdc3-3459-a28c-a9cf" type="profile"/>
         <infoLink id="e750-f8e4-4667-b083" name="Combi Weapon" hidden="false" targetId="a269-b8d9-67c5-4009" type="rule"/>
       </infoLinks>
@@ -2680,7 +2680,7 @@
     </selectionEntry>
     <selectionEntry id="fdce-cdf7-21a9-f9ac" name="复合等离子枪" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="4d1d-71c8-ca26-be0c" name="Boltgun" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
+        <infoLink id="4d1d-71c8-ca26-be0c" name="爆弹枪" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
         <infoLink id="643c-5084-06fe-4146" name="Plasma gun, Standard" hidden="false" targetId="03e5-60f2-4726-5cdd" type="profile"/>
         <infoLink id="fa33-f484-5ce8-add5" name="Plasma gun, Supercharge" hidden="false" targetId="acb5-7b58-0d17-a33a" type="profile"/>
         <infoLink id="0078-b3a9-c2e8-c96f" name="Combi Weapon" hidden="false" targetId="a269-b8d9-67c5-4009" type="rule"/>
@@ -2693,7 +2693,7 @@
     </selectionEntry>
     <selectionEntry id="c445-e211-f316-5d83" name="复合热熔枪" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="ed40-44ba-772a-dbe8" name="Boltgun" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
+        <infoLink id="ed40-44ba-772a-dbe8" name="爆弹枪" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
         <infoLink id="bac3-c746-cec0-e45d" name="Meltagun" hidden="false" targetId="ec4c-1132-ddaf-db8e" type="profile"/>
         <infoLink id="89f9-614c-9804-9dda" name="Combi Weapon" hidden="false" targetId="a269-b8d9-67c5-4009" type="rule"/>
       </infoLinks>
@@ -2852,7 +2852,7 @@
     </selectionEntry>
     <selectionEntry id="b61f-a3c1-827d-c5b6" name="爆弹枪" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="b122-fbba-f2e4-b4ff" name="Boltgun" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
+        <infoLink id="b122-fbba-f2e4-b4ff" name="爆弹枪" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="0.0"/>
@@ -2913,7 +2913,7 @@
     </selectionEntry>
     <selectionEntry id="fbf3-4fc8-f474-e3db" name="爆弹步枪" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="ce35-b082-a1f7-84d7" name="Bolt rifle" hidden="false" targetId="cddb-d686-f7b9-ec39" type="profile"/>
+        <infoLink id="ce35-b082-a1f7-84d7" name="爆弹步枪" hidden="false" targetId="cddb-d686-f7b9-ec39" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -2954,7 +2954,7 @@
     </selectionEntry>
     <selectionEntry id="eba0-9fc6-5334-a390" name="复合爆弹枪" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="07a8-9262-dc1a-3c9d" name="Combi-bolter" hidden="false" targetId="0655-6c08-6402-46bf" type="profile"/>
+        <infoLink id="07a8-9262-dc1a-3c9d" name="复合爆弹" hidden="false" targetId="0655-6c08-6402-46bf" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="2.0"/>
@@ -2964,7 +2964,7 @@
     </selectionEntry>
     <selectionEntry id="c027-24d6-7a3d-cf12" name="复合重力枪" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="595c-c1ad-7cd6-9c2b" name="Boltgun" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
+        <infoLink id="595c-c1ad-7cd6-9c2b" name="爆弹枪" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
         <infoLink id="2143-e026-6475-051d" name="重力枪" hidden="false" targetId="a3d2-b0d7-70bc-695e" type="profile"/>
         <infoLink id="3769-90bc-d2ca-500a" name="Combi Weapon" hidden="false" targetId="a269-b8d9-67c5-4009" type="rule"/>
       </infoLinks>
@@ -3017,7 +3017,7 @@
     </selectionEntry>
     <selectionEntry id="dc17-09cb-c84b-e837" name="Disintegration combi-gun" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="b857-9747-8727-c542" name="Boltgun" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
+        <infoLink id="b857-9747-8727-c542" name="爆弹枪" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
         <infoLink id="88e4-f507-cc1e-d266" name="Disintegration gun" hidden="false" targetId="c86e-fd57-5a10-6b61" type="profile"/>
       </infoLinks>
       <costs>
@@ -3107,9 +3107,9 @@
         <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b34a-b0c7-689d-d9a9" name="Hurricane bolter" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="b34a-b0c7-689d-d9a9" name="飓风爆弹" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="123a-512b-cca4-af0f" name="Hurricane bolter" hidden="false" targetId="0c32-fc5b-5235-f6ba" type="profile"/>
+        <infoLink id="123a-512b-cca4-af0f" name="飓风爆弹" hidden="false" targetId="0c32-fc5b-5235-f6ba" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="10.0"/>
@@ -3159,7 +3159,7 @@
     </selectionEntry>
     <selectionEntry id="f2f6-ed05-f2a9-f46f" name="精工自动爆弹步枪" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="4f78-50df-324a-2613" name="Master-crafted auto bolt rifle" hidden="false" targetId="1f2f-512e-9ca3-13f9" type="profile"/>
+        <infoLink id="4f78-50df-324a-2613" name="Master-crafted auto 爆弹步枪" hidden="false" targetId="1f2f-512e-9ca3-13f9" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="4.0"/>
@@ -3291,9 +3291,9 @@
         <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cfc3-3735-a2e8-53cd" name="Special issue boltgun" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="cfc3-3735-a2e8-53cd" name="Special issue 爆弹枪" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="098b-2796-d106-42b4" name="Special issue boltgun" hidden="false" targetId="a57c-ff3f-49d4-f3b8" type="profile"/>
+        <infoLink id="098b-2796-d106-42b4" name="Special issue 爆弹枪" hidden="false" targetId="a57c-ff3f-49d4-f3b8" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -3815,9 +3815,9 @@
         <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="06fb-e44e-0fd7-e874" name="Nemesis Daemon Hammer" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="06fb-e44e-0fd7-e874" name="Nemesis 恶魔 Hammer" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="a6e5-7ee3-8027-42b7" name="Nemesis Daemon Hammer" hidden="false" targetId="e353-0508-4f8f-d305" type="profile"/>
+        <infoLink id="a6e5-7ee3-8027-42b7" name="Nemesis 恶魔 Hammer" hidden="false" targetId="e353-0508-4f8f-d305" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -3851,7 +3851,7 @@
     </selectionEntry>
     <selectionEntry id="ca06-ac13-d02f-6f9a" name="爆弹枪" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="e79c-2813-4ba1-fe9e" name="Boltgun" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
+        <infoLink id="e79c-2813-4ba1-fe9e" name="爆弹枪" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="0.0"/>
@@ -3891,7 +3891,7 @@
     </selectionEntry>
     <selectionEntry id="5907-c64e-703e-5778" name="爆弹步枪" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="bc79-7ee5-5056-9e56" name="Bolt rifle" hidden="false" targetId="cddb-d686-f7b9-ec39" type="profile"/>
+        <infoLink id="bc79-7ee5-5056-9e56" name="爆弹步枪" hidden="false" targetId="cddb-d686-f7b9-ec39" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -4383,7 +4383,7 @@
     </selectionEntry>
     <selectionEntry id="5871-1e0b-9891-f119" name="复合爆弹枪" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="5acb-b534-a0b2-2578" name="Combi-bolter" hidden="false" targetId="0655-6c08-6402-46bf" type="profile"/>
+        <infoLink id="5acb-b534-a0b2-2578" name="复合爆弹" hidden="false" targetId="0655-6c08-6402-46bf" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="2.0"/>
@@ -4892,7 +4892,7 @@
                 </modifier>
               </modifiers>
               <entryLinks>
-                <entryLink id="2159-8046-52fa-280f" name="Hurricane bolter" hidden="false" collective="false" import="true" targetId="b34a-b0c7-689d-d9a9" type="selectionEntry">
+                <entryLink id="2159-8046-52fa-280f" name="飓风爆弹" hidden="false" collective="false" import="true" targetId="b34a-b0c7-689d-d9a9" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2481-2836-5891-0ff5" type="min"/>
                     <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d59b-1825-ec61-c1ae" type="max"/>
@@ -4983,7 +4983,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="530c-8f18-334f-7dbc" name="Combi-Weapons" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="530c-8f18-334f-7dbc" name="复合武器" hidden="false" collective="false" import="true">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -4995,7 +4995,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="987d-2c3e-2ac9-5229" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="a031-d533-9b88-441a" name="Combi-bolter" hidden="false" collective="false" import="true" targetId="eba0-9fc6-5334-a390" type="selectionEntry">
+            <entryLink id="a031-d533-9b88-441a" name="复合爆弹" hidden="false" collective="false" import="true" targetId="eba0-9fc6-5334-a390" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fabf-14d5-8a2d-330e" type="max"/>
               </constraints>
@@ -5683,7 +5683,7 @@
         <categoryLink id="4df8-7815-eff1-e046" name="New CategoryLink" hidden="false" targetId="53cd-314c-599b-8616" primary="false"/>
         <categoryLink id="978e-859f-01e2-0f29" name="New CategoryLink" hidden="false" targetId="c8fd-783f-3230-493e" primary="false"/>
         <categoryLink id="2fc6-7c3b-6b23-4dff" name="New CategoryLink" hidden="false" targetId="6cc4-1b62-8e8a-05cd" primary="false"/>
-        <categoryLink id="7183-4744-1d44-14b2" name="Faction: Chaos" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
+        <categoryLink id="7183-4744-1d44-14b2" name="阵营: Chaos" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="c364-48d4-1ac4-52ae" name="Turret Weapon" hidden="false" collective="false" import="true">
@@ -7758,7 +7758,7 @@
               <profiles>
                 <profile id="6514-25a9-ae1e-781d" name="R2: Advanced Targeting" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 6寸 to the maximum range of 这个单位’s Heavy and Rapid Fire weapons that have an unmodified maximum range of 24寸 or longer. </characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 6寸 to the maximum range of 这个单位’s Heavy and 速射 weapons that have an unmodified maximum range of 24寸 or longer. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7922,7 +7922,7 @@
       <description>The 5 CPs from this detachment can only be spent on Stronghold Assault Stratagems.</description>
     </rule>
     <rule id="5a7e-f984-487c-d767" name="爆弹训练" publicationId="28ec-711c-pubN110542" hidden="false">
-      <description>All ADEPTUS ASTARTES and HERETIC ASTARTES models gain this ability. 而不是 following the normal rules for Rapid Fire weapons, Rapid Fire bolt weapons used by models with this ability make double the number of attacks if any of the following conditions apply: 1) The firing model&apos;s target is 范围内 half the weapon&apos;s maximum range. 2)    The firing model is INFANTRY and every model in its unit remained stationary in your previous 移动阶段. 3) The firing model is a TERMINATOR, BIKER, CENTURION, or DREADNOUGHT. For the purposes of this ability a Rapid Fire Bolt weapon is any weapon with the Rapid Fire type whose name includes the word &apos;bolt&apos; (e.g. boltgun, bolt rifle, storm bolter, combi-bolter, hurricane bolter, inferno boltgun, etc.) This also applies when firing the boltgun profile of a combi-weapon (including the bolt weapon profile of Relics such as Blood Song and the Lion&apos;s Wrath) and when firing relics that replace a Rapid Fire bolt weapon, so long as the relic is also a rapid-fire weapon (e.g. Primarch&apos;s Wrath, Fury of Deimos, etc) The gauntlets of ultramar and the Talon of Horus are also considered Rapid Fire Bolt weapons, as is the guardian spear used by Deathwatch Watch Masters.</description>
+      <description>All 阿斯塔特修会 and 阿斯塔特叛军 models gain this ability. 而不是 following the normal rules for 速射 weapons, 速射爆弹武器 used by models with this ability make double the number of attacks if any of the following conditions apply: 1) The firing model&apos;s target is 范围内 half the weapon&apos;s maximum range. 2)    The firing model is INFANTRY and every model in its unit remained stationary in your previous 移动阶段. 3) The firing model is a TERMINATOR, BIKER, CENTURION, or DREADNOUGHT. For the purposes of this ability a 速射爆弹武器 is any weapon with the 速射 type whose name includes the word &apos;bolt&apos; (e.g. 爆弹枪, 爆弹步枪, 风暴爆弹, 复合爆弹, 飓风爆弹, 地狱爆弹枪, etc.) This also applies when firing the 爆弹枪 profile of a combi-weapon (including the 爆弹武器 profile of Relics such as Blood Song and the Lion&apos;s Wrath) and when firing relics that replace a 速射爆弹武器, so long as the relic is also a rapid-fire weapon (e.g. Primarch&apos;s Wrath, Fury of Deimos, etc) The gauntlets of ultramar and the Talon of Horus are also considered 速射爆弹武器, as is the 卫士之矛 used by Deathwatch Watch Masters.</description>
     </rule>
     <rule id="01a4-bec8-b573-fde7" name="死亡天使" hidden="false">
       <description>这个单位 has the following abilities: And They Shall Know No Fear, Bolter Discipline, Shock Assault and Combat Doctrines.’</description>
@@ -8948,7 +8948,7 @@
         <characteristic name="能力" typeId="837d-5e63-aeb7-1410">每一个命中骰的1, 伤害结算完成后会对使用者造成1点致命伤</characteristic>
       </characteristics>
     </profile>
-    <profile id="0c32-fc5b-5235-f6ba" name="Hurricane bolter" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+    <profile id="0c32-fc5b-5235-f6ba" name="飓风爆弹" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="射程" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
         <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">速射 6</characteristic>
@@ -9118,7 +9118,7 @@
         <characteristic name="能力" typeId="837d-5e63-aeb7-1410">对飞行关键字单位命中骰+1,其他单位-1</characteristic>
       </characteristics>
     </profile>
-    <profile id="a57c-ff3f-49d4-f3b8" name="Special issue boltgun" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+    <profile id="a57c-ff3f-49d4-f3b8" name="Special issue 爆弹枪" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="射程" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">30寸</characteristic>
         <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">速射 1</characteristic>
@@ -9490,7 +9490,7 @@
         <characteristic name="能力" typeId="837d-5e63-aeb7-1410">对非载具目标固定2+造伤.</characteristic>
       </characteristics>
     </profile>
-    <profile id="e353-0508-4f8f-d305" name="Nemesis Daemon Hammer" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+    <profile id="e353-0508-4f8f-d305" name="Nemesis 恶魔 Hammer" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="射程" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
         <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
