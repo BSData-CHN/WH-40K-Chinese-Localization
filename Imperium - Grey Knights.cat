@@ -2773,8 +2773,8 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="6921-0adc-bb29-a879" name="Narthecium" hidden="false">
-          <description>At the end of your 移动阶段, the Apothecary can attempt to heal or revive a single model. Select a 友方 Grey Knight 步兵单位 范围内 3寸 of the Apothecary. If 那个单位 contains a wounded model, it 立即 regains D3 lost wounds. If the chosen 单位 contains no wounded 模型 but one or more of its 模型 have been slain during the battle, 投掷1个D6. 结果为4+ a single slain 模型 is returned to the 单位 with 1 wound remaining. If an Apothecary fails to revive a 模型 in this manner he can do nothing else for the remainder of the turn (shoot, charge, fight, etc) as he recovers the gene-seed of the fallen warrior. A 单位 can only be the target of the Narthecium ability once in each turn.</description>
+        <rule id="6921-0adc-bb29-a879" name="急救工具" hidden="false">
+          <description>At the end of your 移动阶段, the Apothecary can attempt to heal or revive a single model. Select a 友方 Grey Knight 步兵单位 范围内 3寸 of the Apothecary. If 那个单位 contains a wounded model, it 立即 regains D3 lost wounds. If the chosen 单位 contains no wounded 模型 but one or more of its 模型 have been slain during the battle, 投掷1个D6. 结果为4+ a single slain 模型 is returned to the 单位 with 1 wound remaining. If an Apothecary fails to revive a 模型 in this manner he can do nothing else for the remainder of the turn (shoot, charge, fight, etc) as he recovers the gene-seed of the fallen warrior. A 单位 can only be the target of the 急救工具 ability once in each turn.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -4180,7 +4180,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="0493-c2bd-0501-d1e0" name="激光炮 and 双联 Plasma Gun (Index)" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="0493-c2bd-0501-d1e0" name="激光炮 and 双联 等离子枪 (Index)" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="dc18-e6e2-6ef6-7429" name="New InfoLink" hidden="false" targetId="f14a-07e5-5465-69cf" type="profile"/>
                 <infoLink id="ccb2-baf7-2d1b-9382" name="New InfoLink" hidden="false" targetId="f7ba-88b9-c604-cd89" type="profile"/>
@@ -4424,7 +4424,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="0829-edde-ced5-6835" name="Combi-plasma" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="0829-edde-ced5-6835" name="复合等离子" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3bed-1f87-af5b-622d" type="max"/>
               </constraints>
@@ -5403,7 +5403,7 @@
         <infoLink id="800d-11f8-4747-73b2" name="And They Shall Know No Fear" hidden="false" targetId="4ea8-94d3-ba39-042f" type="rule"/>
         <infoLink id="3e0a-5eec-7ec6-772b" name="Rosarius" hidden="false" targetId="33c5-f394-78bd-ac58" type="rule"/>
         <infoLink id="39ef-e6de-42d0-6349" name="Litanies of Hate" hidden="false" targetId="4d40-b79d-a7a3-1395" type="rule"/>
-        <infoLink id="848a-3638-d789-08d8" name="Spiritual Leaders" hidden="false" targetId="514c-89bc-7cc3-597c" type="rule"/>
+        <infoLink id="848a-3638-d789-08d8" name="精神领袖" hidden="false" targetId="514c-89bc-7cc3-597c" type="rule"/>
         <infoLink id="0469-6653-d35b-b5cd" name="传送打击" hidden="false" targetId="a29c-ad1e-441b-2167" type="rule"/>
         <infoLink id="ec99-58ec-d4f6-fbbc" name="恶魔 Hunters" hidden="false" targetId="a7db-5058-2216-4e6d" type="rule"/>
         <infoLink id="aea0-dc7d-e904-4b35" name="Rites of Banishment" hidden="false" targetId="c424-f335-287f-f14c" type="rule"/>
@@ -5691,7 +5691,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="024a-69e4-52dd-4246" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="20f9-f156-bfee-a282" name="Grav-pistol" hidden="false" collective="false" import="true" targetId="7b66-cac7-e582-a518" type="selectionEntry">
+            <entryLink id="20f9-f156-bfee-a282" name="重力手枪" hidden="false" collective="false" import="true" targetId="7b66-cac7-e582-a518" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13e9-f94d-001f-9d4f" type="max"/>
               </constraints>
@@ -5706,7 +5706,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="98be-063d-c29f-38dc" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="957e-1831-e4bf-aef5" name="Combi-grav" hidden="false" collective="false" import="true" targetId="c027-24d6-7a3d-cf12" type="selectionEntry">
+            <entryLink id="957e-1831-e4bf-aef5" name="复合重力枪" hidden="false" collective="false" import="true" targetId="c027-24d6-7a3d-cf12" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8744-26cf-69ae-7378" type="max"/>
               </constraints>
@@ -5716,7 +5716,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d2c-2aa5-dc14-7e0c" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="f5f5-1ba7-69a5-a003" name="Combi-plasma" hidden="false" collective="false" import="true" targetId="fdce-cdf7-21a9-f9ac" type="selectionEntry">
+            <entryLink id="f5f5-1ba7-69a5-a003" name="复合等离子" hidden="false" collective="false" import="true" targetId="fdce-cdf7-21a9-f9ac" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ba3-7243-e5f0-ded8" type="max"/>
               </constraints>
@@ -6658,12 +6658,12 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="fcea-d718-e6e9-6b49" name="Combi-plasma" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="fcea-d718-e6e9-6b49" name="复合等离子" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7bf-f734-1c17-b369" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="e43c-6200-5275-31c6" name="Combi-plasma" hidden="false" collective="false" import="true" targetId="fdce-cdf7-21a9-f9ac" type="selectionEntry"/>
+            <entryLink id="e43c-6200-5275-31c6" name="复合等离子" hidden="false" collective="false" import="true" targetId="fdce-cdf7-21a9-f9ac" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -7086,13 +7086,13 @@
       </constraints>
       <entryLinks>
         <entryLink id="5ee6-1624-1fd6-6c21" name="Power axe" hidden="false" collective="false" import="true" targetId="3292-34e6-f679-d5b9" type="selectionEntry"/>
-        <entryLink id="89ee-0643-36ad-902a" name="Chainsword" hidden="false" collective="false" import="true" targetId="0dd1-2e2b-7dd1-5495" type="selectionEntry"/>
+        <entryLink id="89ee-0643-36ad-902a" name="链锯剑" hidden="false" collective="false" import="true" targetId="0dd1-2e2b-7dd1-5495" type="selectionEntry"/>
         <entryLink id="0d2b-db12-389c-a50f" name="动力拳套" hidden="false" collective="false" import="true" targetId="f122-3720-fa32-4215" type="selectionEntry"/>
         <entryLink id="79d6-005d-89a8-540c" name="Power maul" hidden="false" collective="false" import="true" targetId="6ea7-1195-7144-438e" type="selectionEntry"/>
         <entryLink id="2cdf-7d72-3a1c-c42e" name="动力剑" hidden="false" collective="false" import="true" targetId="bc9e-551d-9afb-78d5" type="selectionEntry"/>
-        <entryLink id="6341-448d-c918-ed39" name="Power lance" hidden="false" collective="false" import="true" targetId="ba8d-691a-6178-1a60" type="selectionEntry"/>
-        <entryLink id="6f79-c564-ebed-9cb9" name="Lightning Claw" hidden="false" collective="false" import="true" targetId="90de-7b01-e401-888b" type="selectionEntry"/>
-        <entryLink id="aad5-8af2-277c-1edd" name="Thunder hammer" hidden="false" collective="false" import="true" targetId="0e57-eaf5-763f-9c45" type="selectionEntry"/>
+        <entryLink id="6341-448d-c918-ed39" name="动力长枪" hidden="false" collective="false" import="true" targetId="ba8d-691a-6178-1a60" type="selectionEntry"/>
+        <entryLink id="6f79-c564-ebed-9cb9" name="闪电爪" hidden="false" collective="false" import="true" targetId="90de-7b01-e401-888b" type="selectionEntry"/>
+        <entryLink id="aad5-8af2-277c-1edd" name="雷锤" hidden="false" collective="false" import="true" targetId="0e57-eaf5-763f-9c45" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
@@ -7193,7 +7193,7 @@
     <rule id="4d40-b79d-a7a3-1395" name="Litanies of Hate" hidden="false">
       <description>可以重投失败的命中骰 in the 肉搏阶段 for 友方 Grey Knight 单位 范围内 6寸 of 这个模型.</description>
     </rule>
-    <rule id="514c-89bc-7cc3-597c" name="Spiritual Leaders" hidden="false">
+    <rule id="514c-89bc-7cc3-597c" name="精神领袖" hidden="false">
       <description>所有 友方 Grey Knights 单位 范围内 6寸 of 这个模型 can use the Chaplains LD 而不是 thier own.</description>
     </rule>
     <rule id="a26c-3bc4-cd1f-10bf" name="Knights of 泰坦" publicationId="0cc2-3545-pubN112001" page="96" hidden="false">

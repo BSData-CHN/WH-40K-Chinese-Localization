@@ -71,7 +71,7 @@
     <categoryEntry id="0385-8978-4a91-7695" name="Sorcerer" hidden="false"/>
     <categoryEntry id="0f07-4225-76e2-c25e" name="Chosen" hidden="false"/>
     <categoryEntry id="a923-d468-2a1f-3abe" name="白蚁突击钻" hidden="false"/>
-    <categoryEntry id="4795-007f-61fa-aca5" name="Priest" hidden="false"/>
+    <categoryEntry id="4795-007f-61fa-aca5" name="祭司" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="f733-c79b-0ac7-764e" name="Testing Detachment" hidden="false">
@@ -2516,7 +2516,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">友方 &lt;军团&gt; 单位 范围内 6&quot; of 这个模型 in the Morale phase can use 这个模型&apos;s LD 而不是 their own.</characteristic>
           </characteristics>
         </profile>
-        <profile id="72d4-8720-4eda-ee3a" name="Priest" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="72d4-8720-4eda-ee3a" name="祭司" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 can chant prayers. It knows the Dark Zealotry prayer and one Prayer from the Prayers to the Dark Gods. At the start of each battle round, you can pick one of the prayers 这个模型 knows and 投掷1个D6. 结果为3+, the prayer is heard. That prayer takes 效果 until the end of that battle round. The same prayer 不能 chanted more than 一次性 round by 任何模型 in your army, whether it is heard or not.</characteristic>
           </characteristics>
@@ -2534,7 +2534,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         <categoryLink id="7514-2ccf-32bc-c446" name="New CategoryLink" hidden="false" targetId="ca10-a5dd-f54f-0ed5" primary="false"/>
         <categoryLink id="58c0-d9c2-b03d-fc7f" name="New CategoryLink" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
         <categoryLink id="59b8-69ea-80ad-2118" name="New CategoryLink" hidden="false" targetId="b2b6-8e4a-9c74-cc37" primary="false"/>
-        <categoryLink id="3968-e746-eb95-8059" name="Priest" hidden="false" targetId="4795-007f-61fa-aca5" primary="false"/>
+        <categoryLink id="3968-e746-eb95-8059" name="祭司" hidden="false" targetId="4795-007f-61fa-aca5" primary="false"/>
         <categoryLink id="77b2-e2d4-ca74-d9db" name="Dark Apostle" hidden="false" targetId="a459-6417-3709-336c" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -3651,7 +3651,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <constraint field="selections" scope="parent" value="19.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="869a-6db7-5fa7-ada3" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="6df9-c70b-1065-6fa2" name="Chainsword and Chainaxe" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="6df9-c70b-1065-6fa2" name="链锯剑 and Chainaxe" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="19.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c77e-b796-7c00-7a94" type="max"/>
               </constraints>
@@ -3668,7 +3668,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f38a-4604-7bf0-ed3c" type="min"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="71ee-b08f-b52f-d201" name="Chainsword" hidden="false" collective="false" import="true" targetId="4334-d2da-32f5-dc53" type="selectionEntry">
+                <entryLink id="71ee-b08f-b52f-d201" name="链锯剑" hidden="false" collective="false" import="true" targetId="4334-d2da-32f5-dc53" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="958b-fe1a-7a16-5d53" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1a9-2c24-7ef7-8a47" type="min"/>
@@ -3688,7 +3688,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                     <condition field="selections" scope="db90-1a14-c826-6789" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad1d-4b48-8dce-57fb" type="equalTo"/>
                   </conditions>
                 </modifier>
-                <modifier type="set" field="name" value="Chainsword and plasma pistol">
+                <modifier type="set" field="name" value="链锯剑 and plasma pistol">
                   <conditions>
                     <condition field="selections" scope="db90-1a14-c826-6789" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="14fc-aed9-87b3-8b94" type="equalTo"/>
                   </conditions>
@@ -3709,7 +3709,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="247e-13e0-0e90-c0fc" type="max"/>
                       </constraints>
                     </entryLink>
-                    <entryLink id="14fc-aed9-87b3-8b94" name="Chainsword" hidden="false" collective="false" import="true" targetId="0dd1-2e2b-7dd1-5495" type="selectionEntry">
+                    <entryLink id="14fc-aed9-87b3-8b94" name="链锯剑" hidden="false" collective="false" import="true" targetId="0dd1-2e2b-7dd1-5495" type="selectionEntry">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="755c-5603-1855-3e32" type="max"/>
                       </constraints>
@@ -3737,7 +3737,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="c100-3391-888a-e55a" name="Chainsword and bolt pistol" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="c100-3391-888a-e55a" name="链锯剑 and bolt pistol" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="19.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c67-6dc0-93ba-1572" type="max"/>
               </constraints>
@@ -3754,7 +3754,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="996b-f895-c473-23f6" type="min"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="92cc-4df5-a57f-1516" name="Chainsword" hidden="false" collective="false" import="true" targetId="4334-d2da-32f5-dc53" type="selectionEntry">
+                <entryLink id="92cc-4df5-a57f-1516" name="链锯剑" hidden="false" collective="false" import="true" targetId="4334-d2da-32f5-dc53" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9042-c38f-fdce-ac7b" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="44c5-2662-9ab4-6aa2" type="min"/>
@@ -4625,7 +4625,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                   <entryLinks>
                     <entryLink id="8fd4-7144-00c5-d7c5" name="爆弹手枪" hidden="false" collective="false" import="true" targetId="0334-f487-8229-0c1a" type="selectionEntry"/>
                     <entryLink id="568d-b800-f0da-65df" name="爆弹枪" hidden="false" collective="false" import="true" targetId="b61f-a3c1-827d-c5b6" type="selectionEntry"/>
-                    <entryLink id="5082-834f-8121-b6cb" name="Plasma gun" hidden="false" collective="false" import="true" targetId="8c14-22cc-93ce-b85a" type="selectionEntry"/>
+                    <entryLink id="5082-834f-8121-b6cb" name="等离子枪" hidden="false" collective="false" import="true" targetId="8c14-22cc-93ce-b85a" type="selectionEntry"/>
                     <entryLink id="45fe-4c0d-6a64-803e" name="Plasma pistol" hidden="false" collective="false" import="true" targetId="83be-1ba9-c326-4760" type="selectionEntry"/>
                   </entryLinks>
                 </selectionEntryGroup>
@@ -4841,7 +4841,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="338f-488f-a108-e9e6" type="max"/>
                       </constraints>
                     </entryLink>
-                    <entryLink id="696b-84e5-7bc8-87ce" name="Plasma gun" hidden="false" collective="false" import="true" targetId="8c14-22cc-93ce-b85a" type="selectionEntry">
+                    <entryLink id="696b-84e5-7bc8-87ce" name="等离子枪" hidden="false" collective="false" import="true" targetId="8c14-22cc-93ce-b85a" type="selectionEntry">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5728-4342-3a6e-c84d" type="max"/>
                       </constraints>
@@ -5283,7 +5283,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             </profile>
           </profiles>
           <entryLinks>
-            <entryLink id="977d-8b75-9cc9-9cc8" name="Lightning Claw (pair)" hidden="false" collective="false" import="true" targetId="1e36-f3a7-81b4-07ac" type="selectionEntry">
+            <entryLink id="977d-8b75-9cc9-9cc8" name="闪电爪 (pair)" hidden="false" collective="false" import="true" targetId="1e36-f3a7-81b4-07ac" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="273c-2e91-a8d2-c002" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cfac-37f7-eb8c-bb2e" type="min"/>
@@ -5317,7 +5317,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             </profile>
           </profiles>
           <entryLinks>
-            <entryLink id="e561-7009-7689-3ebb" name="Lightning Claw" hidden="false" collective="false" import="true" targetId="1e36-f3a7-81b4-07ac" type="selectionEntry">
+            <entryLink id="e561-7009-7689-3ebb" name="闪电爪" hidden="false" collective="false" import="true" targetId="1e36-f3a7-81b4-07ac" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9891-264a-6374-4e86" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="98a0-b528-7814-f85d" type="min"/>
@@ -7445,7 +7445,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <constraint field="selections" scope="parent" value="19.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d963-24f7-46d6-1bb5" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="2144-7c17-dd89-ac09" name="Chainsword" hidden="false" collective="false" import="true" targetId="4334-d2da-32f5-dc53" type="selectionEntry">
+                <entryLink id="2144-7c17-dd89-ac09" name="链锯剑" hidden="false" collective="false" import="true" targetId="4334-d2da-32f5-dc53" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b5f-574d-ed3b-e44c" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5aff-d7e0-9161-a009" type="min"/>
@@ -7498,7 +7498,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3abe-3071-01ac-057a" type="max"/>
                       </constraints>
                     </entryLink>
-                    <entryLink id="7950-28fc-f1dd-f027" name="Chainsword" hidden="false" collective="false" import="true" targetId="0dd1-2e2b-7dd1-5495" type="selectionEntry">
+                    <entryLink id="7950-28fc-f1dd-f027" name="链锯剑" hidden="false" collective="false" import="true" targetId="0dd1-2e2b-7dd1-5495" type="selectionEntry">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d0e-9800-4a08-b336" type="max"/>
                       </constraints>
@@ -7697,7 +7697,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                     <entryLink id="228a-8b2a-7a1e-7b46" name="复合爆弹" hidden="false" collective="false" import="true" targetId="eba0-9fc6-5334-a390" type="selectionEntry"/>
                     <entryLink id="41d1-93ab-7325-76ec" name="复合喷火器" hidden="false" collective="false" import="true" targetId="c6a1-e0c4-c1b1-dce1" type="selectionEntry"/>
                     <entryLink id="8c59-82b6-605d-bffb" name="复合热熔" hidden="false" collective="false" import="true" targetId="c445-e211-f316-5d83" type="selectionEntry"/>
-                    <entryLink id="e12c-4d0b-2a3e-d3a7" name="Combi-plasma" hidden="false" collective="false" import="true" targetId="fdce-cdf7-21a9-f9ac" type="selectionEntry"/>
+                    <entryLink id="e12c-4d0b-2a3e-d3a7" name="复合等离子" hidden="false" collective="false" import="true" targetId="fdce-cdf7-21a9-f9ac" type="selectionEntry"/>
                     <entryLink id="c873-6b23-54ec-19a4" name="爆弹枪" hidden="false" collective="false" import="true" targetId="b61f-a3c1-827d-c5b6" type="selectionEntry">
                       <modifiers>
                         <modifier type="set" field="407a-9bfb-1769-d569" value="0.0"/>
@@ -7743,12 +7743,12 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e226-922d-a233-ecc6" type="min"/>
                       </constraints>
                     </entryLink>
-                    <entryLink id="3c3b-b7e8-454d-0721" name="Chainsword" hidden="false" collective="false" import="true" targetId="0dd1-2e2b-7dd1-5495" type="selectionEntry">
+                    <entryLink id="3c3b-b7e8-454d-0721" name="链锯剑" hidden="false" collective="false" import="true" targetId="0dd1-2e2b-7dd1-5495" type="selectionEntry">
                       <constraints>
                         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5dd8-b173-aef3-736b" type="max"/>
                       </constraints>
                     </entryLink>
-                    <entryLink id="b8a5-c82d-e808-e969" name="Lightning Claw" hidden="false" collective="false" import="true" targetId="72f0-6262-b417-dd10" type="selectionEntry">
+                    <entryLink id="b8a5-c82d-e808-e969" name="闪电爪" hidden="false" collective="false" import="true" targetId="72f0-6262-b417-dd10" type="selectionEntry">
                       <constraints>
                         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b202-6278-1c60-b13f" type="max"/>
                       </constraints>
@@ -7778,7 +7778,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7fbf-034c-8022-895c" type="max"/>
                       </constraints>
                     </entryLink>
-                    <entryLink id="b6c4-ca4b-e494-fd3b" name="Thunder hammer" hidden="false" collective="false" import="true" targetId="0e57-eaf5-763f-9c45" type="selectionEntry">
+                    <entryLink id="b6c4-ca4b-e494-fd3b" name="雷锤" hidden="false" collective="false" import="true" targetId="0e57-eaf5-763f-9c45" type="selectionEntry">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="580d-ba93-714f-de8e" type="max"/>
                       </constraints>
@@ -7960,7 +7960,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da53-69bd-d66b-d4bd" type="max"/>
                       </constraints>
                     </entryLink>
-                    <entryLink id="fbcc-636f-1e37-15dc" name="Chainsword" hidden="false" collective="false" import="true" targetId="0dd1-2e2b-7dd1-5495" type="selectionEntry">
+                    <entryLink id="fbcc-636f-1e37-15dc" name="链锯剑" hidden="false" collective="false" import="true" targetId="0dd1-2e2b-7dd1-5495" type="selectionEntry">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a6c-264c-d108-7770" type="max"/>
                       </constraints>
@@ -7985,7 +7985,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc5e-bd2e-7aad-9610" type="max"/>
                       </constraints>
                     </entryLink>
-                    <entryLink id="d2b4-45f4-eda0-9a09" name="Lightning Claw" hidden="false" collective="false" import="true" targetId="90de-7b01-e401-888b" type="selectionEntry">
+                    <entryLink id="d2b4-45f4-eda0-9a09" name="闪电爪" hidden="false" collective="false" import="true" targetId="90de-7b01-e401-888b" type="selectionEntry">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e46-db02-ffd4-b958" type="min"/>
                         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be20-9299-d0fd-82c3" type="max"/>
@@ -8925,7 +8925,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6bc0-e95d-5065-7b5a" type="min"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="836c-89ff-cc16-b1b5" name="Chainsword" hidden="false" collective="false" import="true" targetId="4334-d2da-32f5-dc53" type="selectionEntry">
+                <entryLink id="836c-89ff-cc16-b1b5" name="链锯剑" hidden="false" collective="false" import="true" targetId="4334-d2da-32f5-dc53" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b2d-0b04-d3c4-9e03" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4573-4283-bf8d-e60c" type="min"/>
@@ -9544,7 +9544,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
               </constraints>
               <entryLinks>
                 <entryLink id="f29e-83dd-e9cb-9aa5" name="爆弹手枪" hidden="false" collective="false" import="true" targetId="0334-f487-8229-0c1a" type="selectionEntry"/>
-                <entryLink id="4913-891a-34eb-c8e1" name="Chainsword" hidden="false" collective="false" import="true" targetId="0dd1-2e2b-7dd1-5495" type="selectionEntry"/>
+                <entryLink id="4913-891a-34eb-c8e1" name="链锯剑" hidden="false" collective="false" import="true" targetId="0dd1-2e2b-7dd1-5495" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="478a-8b8c-7828-1fbe" name="摩托 复合爆弹 options" hidden="false" collective="false" import="true" defaultSelectionEntryId="75bd-b5cc-2ba1-b91e">
@@ -9806,7 +9806,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ae3-e544-0f15-2b6b" type="min"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="e21d-415e-85cd-119b" name="Chainsword" hidden="false" collective="false" import="true" targetId="4334-d2da-32f5-dc53" type="selectionEntry">
+                <entryLink id="e21d-415e-85cd-119b" name="链锯剑" hidden="false" collective="false" import="true" targetId="4334-d2da-32f5-dc53" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8359-17ea-718b-a791" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6888-5714-47ec-f9f3" type="min"/>
@@ -9843,7 +9843,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5bf-5e7c-3f24-dc1e" type="min"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="2455-8bc4-711e-b3ff" name="Chainsword" hidden="false" collective="false" import="true" targetId="0dd1-2e2b-7dd1-5495" type="selectionEntry">
+                <entryLink id="2455-8bc4-711e-b3ff" name="链锯剑" hidden="false" collective="false" import="true" targetId="0dd1-2e2b-7dd1-5495" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70fa-3808-acf1-ce1a" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ef9-bbfb-1407-978c" type="min"/>
@@ -10548,7 +10548,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </profile>
         <profile id="ea6a-ea46-00f4-5e8e" name="Blade of the Hydra" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models with a chainsword only. The Blade of the Hydra replaces the bearer&apos;s chainsword.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models with a 链锯剑 only. The Blade of the Hydra replaces the bearer&apos;s 链锯剑.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10702,7 +10702,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="72f0-6262-b417-dd10" name="Lightning Claw" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="72f0-6262-b417-dd10" name="闪电爪" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="points" value="5.0">
           <conditions>
@@ -10711,7 +10711,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </modifier>
       </modifiers>
       <infoLinks>
-        <infoLink id="c14b-c9b5-e3a4-21b1" name="Lightning claw" hidden="false" targetId="7584-238f-3174-4529" type="profile">
+        <infoLink id="c14b-c9b5-e3a4-21b1" name="闪电爪" hidden="false" targetId="7584-238f-3174-4529" type="profile">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -10727,9 +10727,9 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1e36-f3a7-81b4-07ac" name="Lightning Claw (pair)" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="1e36-f3a7-81b4-07ac" name="闪电爪 (pair)" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="2ac0-54f9-a488-7bff" name="Lightning claw" hidden="false" targetId="7584-238f-3174-4529" type="profile"/>
+        <infoLink id="2ac0-54f9-a488-7bff" name="闪电爪" hidden="false" targetId="7584-238f-3174-4529" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="10.0"/>
@@ -11032,7 +11032,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b524-c608-ff88-0c20" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="62b4-3fe2-8dad-9c33" name="Lightning Claw" hidden="false" collective="false" import="true" targetId="72f0-6262-b417-dd10" type="selectionEntry">
+            <entryLink id="62b4-3fe2-8dad-9c33" name="闪电爪" hidden="false" collective="false" import="true" targetId="72f0-6262-b417-dd10" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="621c-7b88-73d9-4755" type="max"/>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ea6-2881-0dba-b1e4" type="min"/>
@@ -11880,7 +11880,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="34e0-909d-ca83-ed86" name="Lightning Claw" hidden="false" collective="false" import="true" targetId="72f0-6262-b417-dd10" type="selectionEntry">
+        <entryLink id="34e0-909d-ca83-ed86" name="闪电爪" hidden="false" collective="false" import="true" targetId="72f0-6262-b417-dd10" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="points" value="0.0"/>
           </modifiers>
@@ -11942,13 +11942,13 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         <categoryLink id="9594-25ae-61a2-6dd8" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="06bb-730b-378c-293c" name="Thunder hammer" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="06bb-730b-378c-293c" name="雷锤" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf0d-54cc-06aa-150a" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa5f-85e1-abcb-aac2" type="max"/>
           </constraints>
           <profiles>
-            <profile id="3d90-5a14-f73c-a863" name="Thunder hammer" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+            <profile id="3d90-5a14-f73c-a863" name="雷锤" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -12638,7 +12638,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
       <profiles>
         <profile id="35bb-76dc-0fcd-c141" name="Illusory Supplication" hidden="false" typeId="7c26-78e8-b63d-70a2" typeName="Prayers">
           <characteristics>
-            <characteristic name="效果" typeId="f486-147a-28c3-ad93">If this prayer is heard, 友方 &lt;军团&gt; 模型 have a 5+ 特殊保护 while they are 范围内 6&quot; of this priest.</characteristic>
+            <characteristic name="效果" typeId="f486-147a-28c3-ad93">If this prayer is heard, 友方 &lt;军团&gt; 模型 have a 5+ 特殊保护 while they are 范围内 6&quot; of this 祭司.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -12655,7 +12655,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
       <profiles>
         <profile id="79ca-0b00-6d3c-f0f6" name="Soultearer Portent" hidden="false" typeId="7c26-78e8-b63d-70a2" typeName="Prayers">
           <characteristics>
-            <characteristic name="效果" typeId="f486-147a-28c3-ad93">If this prayer is heard, pick one 友方 &lt;军团&gt; 单位 范围内 6&quot; of this priest. Add 1 to wound 骰 for 攻击 made with 肉搏武器 by 模型 in 那个单位. </characteristic>
+            <characteristic name="效果" typeId="f486-147a-28c3-ad93">If this prayer is heard, pick one 友方 &lt;军团&gt; 单位 范围内 6&quot; of this 祭司. Add 1 to wound 骰 for 攻击 made with 肉搏武器 by 模型 in 那个单位. </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -12673,7 +12673,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
       <profiles>
         <profile id="29f4-a8f2-6c26-dd6b" name="Dark Zealotry" hidden="false" typeId="7c26-78e8-b63d-70a2" typeName="Prayers">
           <characteristics>
-            <characteristic name="效果" typeId="f486-147a-28c3-ad93">If this prayer is heard, 可以重投命中骰 in the 肉搏阶段 for 攻击 made by 友方 &lt;军团&gt; 单位 while they are witihn 6&quot; of this priest.</characteristic>
+            <characteristic name="效果" typeId="f486-147a-28c3-ad93">If this prayer is heard, 可以重投命中骰 in the 肉搏阶段 for 攻击 made by 友方 &lt;军团&gt; 单位 while they are witihn 6&quot; of this 祭司.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -12690,7 +12690,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
       <profiles>
         <profile id="8580-0fcf-a804-25e6" name="Omen of Potency" hidden="false" typeId="7c26-78e8-b63d-70a2" typeName="Prayers">
           <characteristics>
-            <characteristic name="效果" typeId="f486-147a-28c3-ad93">If this prayer is heard, add 3 to this priest&apos;s A值. 此外, if this prayer is heard, this priest&apos;s 肉搏武器 have an AP值 of -4.</characteristic>
+            <characteristic name="效果" typeId="f486-147a-28c3-ad93">If this prayer is heard, add 3 to this 祭司&apos;s A值. 此外, if this prayer is heard, this 祭司&apos;s 肉搏武器 have an AP值 of -4.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -13361,7 +13361,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
       <profiles>
         <profile id="874d-2e6a-c20c-72c5" name="Benediction of Darkness" hidden="false" typeId="7c26-78e8-b63d-70a2" typeName="Prayers">
           <characteristics>
-            <characteristic name="效果" typeId="f486-147a-28c3-ad93">If this prayer is heard, pick one 友方 &lt;军团&gt; 单位 范围内 6&quot; of this priest. 减少 1 from 命中 骰 made for 攻击 with ranged 武器 that target 那个单位.</characteristic>
+            <characteristic name="效果" typeId="f486-147a-28c3-ad93">If this prayer is heard, pick one 友方 &lt;军团&gt; 单位 范围内 6&quot; of this 祭司. 减少 1 from 命中 骰 made for 攻击 with ranged 武器 that target 那个单位.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -13378,7 +13378,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
       <profiles>
         <profile id="fd19-4060-108c-5876" name="Litany of Despair" hidden="false" typeId="7c26-78e8-b63d-70a2" typeName="Prayers">
           <characteristics>
-            <characteristic name="效果" typeId="f486-147a-28c3-ad93">If this prayer is heard, your opponent 骰 two D6, discarding the lowest result, 每次 they take a Morale test for a 单位 范围内 6&quot; of this priest.</characteristic>
+            <characteristic name="效果" typeId="f486-147a-28c3-ad93">If this prayer is heard, your opponent 骰 two D6, discarding the lowest result, 每次 they take a Morale test for a 单位 范围内 6&quot; of this 祭司.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -13395,7 +13395,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
       <profiles>
         <profile id="6e29-a53b-0e8b-6c79" name="Warpsight Plea" hidden="false" typeId="7c26-78e8-b63d-70a2" typeName="Prayers">
           <characteristics>
-            <characteristic name="效果" typeId="f486-147a-28c3-ad93">If this prayer is heard, pick one 友方 &lt;军团&gt; 单位 范围内 6&quot; of this priest. 命中骰+1 for 攻击 made with ranged 武器 by 模型 in 那个单位.</characteristic>
+            <characteristic name="效果" typeId="f486-147a-28c3-ad93">If this prayer is heard, pick one 友方 &lt;军团&gt; 单位 范围内 6&quot; of this 祭司. 命中骰+1 for 攻击 made with ranged 武器 by 模型 in 那个单位.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -13419,7 +13419,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
       <profiles>
         <profile id="2db2-1044-f3ae-d541" name="Wrathful Entreaty" hidden="false" typeId="7c26-78e8-b63d-70a2" typeName="Prayers">
           <characteristics>
-            <characteristic name="效果" typeId="f486-147a-28c3-ad93">If this prayer is heard, add 2 to this priest’s S值.</characteristic>
+            <characteristic name="效果" typeId="f486-147a-28c3-ad93">If this prayer is heard, add 2 to this 祭司’s S值.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -13443,7 +13443,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
       <profiles>
         <profile id="3ec9-7cb1-b5b6-f8e1" name="Mutating Invocation" hidden="false" typeId="7c26-78e8-b63d-70a2" typeName="Prayers">
           <characteristics>
-            <characteristic name="效果" typeId="f486-147a-28c3-ad93">If this prayer is heard, this priest regains D3 lost wounds. Note that unlike other prayers, whose effects last only until the end of the battle round, wounds regained from this prayer are not lost again at the end of the battle round.</characteristic>
+            <characteristic name="效果" typeId="f486-147a-28c3-ad93">If this prayer is heard, this 祭司 regains D3 lost wounds. Note that unlike other prayers, whose effects last only until the end of the battle round, wounds regained from this prayer are not lost again at the end of the battle round.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -13467,7 +13467,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
       <profiles>
         <profile id="ece8-783d-d702-d9b5" name="Feculent Beseechment" hidden="false" typeId="7c26-78e8-b63d-70a2" typeName="Prayers">
           <characteristics>
-            <characteristic name="效果" typeId="f486-147a-28c3-ad93">If this prayer is heard, add 2 to this priest’s T值.</characteristic>
+            <characteristic name="效果" typeId="f486-147a-28c3-ad93">If this prayer is heard, add 2 to this 祭司’s T值.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -13491,7 +13491,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
       <profiles>
         <profile id="56c2-c5bc-a4ef-669c" name="Blissful Devotion" hidden="false" typeId="7c26-78e8-b63d-70a2" typeName="Prayers">
           <characteristics>
-            <characteristic name="效果" typeId="f486-147a-28c3-ad93">If this prayer is heard, this priest can Advance and charge in their turn in this battle round.</characteristic>
+            <characteristic name="效果" typeId="f486-147a-28c3-ad93">If this prayer is heard, this 祭司 can Advance and charge in their turn in this battle round.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -13655,7 +13655,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </profile>
         <profile id="b03f-49b1-3008-803f" name="Ghorisvex&apos;s Teeth" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Model with chainsword only. Ghorisvex’s Teeth replaces the bearer’s chainsword and has the profile below.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Model with 链锯剑 only. Ghorisvex’s Teeth replaces the bearer’s 链锯剑 and has the profile below.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -14547,7 +14547,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5154-f7a1-21fa-cf7f" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="6b01-7413-a24a-ab22" name="Plasma gun" hidden="false" collective="false" import="true" targetId="8c14-22cc-93ce-b85a" type="selectionEntry"/>
+        <entryLink id="6b01-7413-a24a-ab22" name="等离子枪" hidden="false" collective="false" import="true" targetId="8c14-22cc-93ce-b85a" type="selectionEntry"/>
         <entryLink id="9657-31fd-14b6-7170" name="喷火器" hidden="false" collective="false" import="true" targetId="fd22-6743-2d4c-dd62" type="selectionEntry"/>
         <entryLink id="3357-b1be-12e7-521e" name="热熔枪" hidden="false" collective="false" import="true" targetId="efc8-c51d-5b02-a3a2" type="selectionEntry"/>
       </entryLinks>
@@ -14581,8 +14581,8 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
       </constraints>
       <entryLinks>
         <entryLink id="034f-d1f2-d534-c542" name="Chainaxe" hidden="false" collective="false" import="true" targetId="262d-dbbf-8474-791c" type="selectionEntry"/>
-        <entryLink id="1182-a564-2732-1f71" name="Chainsword" hidden="false" collective="false" import="true" targetId="0dd1-2e2b-7dd1-5495" type="selectionEntry"/>
-        <entryLink id="eb0b-d2b4-6ba4-a406" name="Lightning Claw" hidden="false" collective="false" import="true" targetId="90de-7b01-e401-888b" type="selectionEntry">
+        <entryLink id="1182-a564-2732-1f71" name="链锯剑" hidden="false" collective="false" import="true" targetId="0dd1-2e2b-7dd1-5495" type="selectionEntry"/>
+        <entryLink id="eb0b-d2b4-6ba4-a406" name="闪电爪" hidden="false" collective="false" import="true" targetId="90de-7b01-e401-888b" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d4f-c8f9-5c5a-9977" type="max"/>
           </constraints>
@@ -14591,7 +14591,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         <entryLink id="7809-62b0-7e84-d4e3" name="动力拳套" hidden="false" collective="false" import="true" targetId="f122-3720-fa32-4215" type="selectionEntry"/>
         <entryLink id="968d-9763-17c7-3300" name="New EntryLink" hidden="false" collective="false" import="true" targetId="6ea7-1195-7144-438e" type="selectionEntry"/>
         <entryLink id="3624-2f29-3309-a547" name="动力剑" hidden="false" collective="false" import="true" targetId="bc9e-551d-9afb-78d5" type="selectionEntry"/>
-        <entryLink id="069a-0b50-1223-2128" name="Thunder hammer" hidden="false" collective="false" import="true" targetId="0e57-eaf5-763f-9c45" type="selectionEntry">
+        <entryLink id="069a-0b50-1223-2128" name="雷锤" hidden="false" collective="false" import="true" targetId="0e57-eaf5-763f-9c45" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -14623,7 +14623,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
       </constraints>
       <entryLinks>
         <entryLink id="24dd-ed8c-3c18-0624" name="Chainfist" hidden="false" collective="false" import="true" targetId="e464-77c1-12bb-e52f" type="selectionEntry"/>
-        <entryLink id="e833-e504-c446-48e6" name="Lightning Claw" hidden="false" collective="false" import="true" targetId="72f0-6262-b417-dd10" type="selectionEntry"/>
+        <entryLink id="e833-e504-c446-48e6" name="闪电爪" hidden="false" collective="false" import="true" targetId="72f0-6262-b417-dd10" type="selectionEntry"/>
         <entryLink id="5775-f0c4-f487-7f85" name="Power axe" hidden="false" collective="false" import="true" targetId="3292-34e6-f679-d5b9" type="selectionEntry"/>
         <entryLink id="ef59-7ccd-bc08-c9e2" name="动力拳套" hidden="false" collective="false" import="true" targetId="f122-3720-fa32-4215" type="selectionEntry"/>
         <entryLink id="7285-9392-05ac-1260" name="Power maul" hidden="false" collective="false" import="true" targetId="6ea7-1195-7144-438e" type="selectionEntry"/>
@@ -14638,7 +14638,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
       <entryLinks>
         <entryLink id="0687-ab39-0c01-ac49" name="复合喷火器" hidden="false" collective="false" import="true" targetId="c6a1-e0c4-c1b1-dce1" type="selectionEntry"/>
         <entryLink id="cbbd-2923-19c4-ea76" name="复合热熔" hidden="false" collective="false" import="true" targetId="c445-e211-f316-5d83" type="selectionEntry"/>
-        <entryLink id="ad6d-47a5-b337-42ea" name="Combi-plasma" hidden="false" collective="false" import="true" targetId="fdce-cdf7-21a9-f9ac" type="selectionEntry"/>
+        <entryLink id="ad6d-47a5-b337-42ea" name="复合等离子" hidden="false" collective="false" import="true" targetId="fdce-cdf7-21a9-f9ac" type="selectionEntry"/>
         <entryLink id="ff58-acf3-53aa-cac6" name="复合爆弹" hidden="false" collective="false" import="true" targetId="eba0-9fc6-5334-a390" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
@@ -14834,7 +14834,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <entryLink id="a723-c7c5-af77-5edf" name="复合爆弹" hidden="false" collective="false" import="true" targetId="eba0-9fc6-5334-a390" type="selectionEntry"/>
             <entryLink id="0228-4efa-e66b-c317" name="复合喷火器" hidden="false" collective="false" import="true" targetId="c6a1-e0c4-c1b1-dce1" type="selectionEntry"/>
             <entryLink id="f19d-c7e5-046c-6e0c" name="复合热熔" hidden="false" collective="false" import="true" targetId="c445-e211-f316-5d83" type="selectionEntry"/>
-            <entryLink id="d90d-154e-47a7-4102" name="Combi-plasma" hidden="false" collective="false" import="true" targetId="fdce-cdf7-21a9-f9ac" type="selectionEntry"/>
+            <entryLink id="d90d-154e-47a7-4102" name="复合等离子" hidden="false" collective="false" import="true" targetId="fdce-cdf7-21a9-f9ac" type="selectionEntry"/>
             <entryLink id="060b-fbd3-c659-4041" name="爆弹枪" hidden="false" collective="false" import="true" targetId="b61f-a3c1-827d-c5b6" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="df45-4c96-c22e-7c56" value="0.0"/>
@@ -14880,12 +14880,12 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e45f-d59f-018a-d136" type="min"/>
               </constraints>
             </entryLink>
-            <entryLink id="2ade-dee5-917c-3874" name="Chainsword" hidden="false" collective="false" import="true" targetId="0dd1-2e2b-7dd1-5495" type="selectionEntry">
+            <entryLink id="2ade-dee5-917c-3874" name="链锯剑" hidden="false" collective="false" import="true" targetId="0dd1-2e2b-7dd1-5495" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b290-2e49-3c56-1a7a" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="e096-f2e7-29cc-be93" name="Lightning Claw" hidden="false" collective="false" import="true" targetId="72f0-6262-b417-dd10" type="selectionEntry">
+            <entryLink id="e096-f2e7-29cc-be93" name="闪电爪" hidden="false" collective="false" import="true" targetId="72f0-6262-b417-dd10" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e6c7-e60d-9c76-2d4d" type="max"/>
               </constraints>
@@ -14949,13 +14949,13 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <entryLink id="00ac-e1e2-2769-a32d" name="复合爆弹" hidden="false" collective="false" import="true" targetId="eba0-9fc6-5334-a390" type="selectionEntry"/>
             <entryLink id="eec9-fd6e-6e16-e839" name="复合喷火器" hidden="false" collective="false" import="true" targetId="c6a1-e0c4-c1b1-dce1" type="selectionEntry"/>
             <entryLink id="8898-5ca3-e166-813c" name="复合热熔" hidden="false" collective="false" import="true" targetId="c445-e211-f316-5d83" type="selectionEntry"/>
-            <entryLink id="192f-55c5-7dbb-1dbf" name="Combi-plasma" hidden="false" collective="false" import="true" targetId="fdce-cdf7-21a9-f9ac" type="selectionEntry"/>
+            <entryLink id="192f-55c5-7dbb-1dbf" name="复合等离子" hidden="false" collective="false" import="true" targetId="fdce-cdf7-21a9-f9ac" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="7b8f-a7b7-b84b-f991" name="肉搏武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="31e2-a00d-301e-30d1">
           <entryLinks>
             <entryLink id="2563-1c1f-4110-562e" name="Chainaxe" hidden="false" collective="false" import="true" targetId="262d-dbbf-8474-791c" type="selectionEntry"/>
-            <entryLink id="31e2-a00d-301e-30d1" name="Chainsword" hidden="false" collective="false" import="true" targetId="0dd1-2e2b-7dd1-5495" type="selectionEntry">
+            <entryLink id="31e2-a00d-301e-30d1" name="链锯剑" hidden="false" collective="false" import="true" targetId="0dd1-2e2b-7dd1-5495" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="135d-c740-15da-7cd0" value="0.0"/>
               </modifiers>
@@ -14963,12 +14963,12 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="135d-c740-15da-7cd0" type="min"/>
               </constraints>
             </entryLink>
-            <entryLink id="92b4-0e3e-1759-b488" name="Lightning Claw" hidden="false" collective="false" import="true" targetId="72f0-6262-b417-dd10" type="selectionEntry"/>
+            <entryLink id="92b4-0e3e-1759-b488" name="闪电爪" hidden="false" collective="false" import="true" targetId="72f0-6262-b417-dd10" type="selectionEntry"/>
             <entryLink id="f14a-e3f3-f68c-0ebe" name="Power axe" hidden="false" collective="false" import="true" targetId="3292-34e6-f679-d5b9" type="selectionEntry"/>
             <entryLink id="f829-8638-038e-5253" name="动力拳套" hidden="false" collective="false" import="true" targetId="f122-3720-fa32-4215" type="selectionEntry"/>
             <entryLink id="41bd-1742-1c3c-99bb" name="Power maul" hidden="false" collective="false" import="true" targetId="6ea7-1195-7144-438e" type="selectionEntry"/>
             <entryLink id="78e8-f9d5-53d5-3311" name="动力剑" hidden="false" collective="false" import="true" targetId="bc9e-551d-9afb-78d5" type="selectionEntry"/>
-            <entryLink id="d56e-cb14-3630-f798" name="Thunder hammer" hidden="false" collective="false" import="true" targetId="0e57-eaf5-763f-9c45" type="selectionEntry">
+            <entryLink id="d56e-cb14-3630-f798" name="雷锤" hidden="false" collective="false" import="true" targetId="0e57-eaf5-763f-9c45" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditionGroups>
@@ -15009,7 +15009,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           </constraints>
           <entryLinks>
             <entryLink id="32ec-c8fd-f270-bf71" name="Chainfist" hidden="false" collective="false" import="true" targetId="e464-77c1-12bb-e52f" type="selectionEntry"/>
-            <entryLink id="1923-239a-89d6-4d97" name="Lightning Claw" hidden="false" collective="false" import="true" targetId="72f0-6262-b417-dd10" type="selectionEntry"/>
+            <entryLink id="1923-239a-89d6-4d97" name="闪电爪" hidden="false" collective="false" import="true" targetId="72f0-6262-b417-dd10" type="selectionEntry"/>
             <entryLink id="42cb-5d6b-35c9-5872" name="Power axe" hidden="false" collective="false" import="true" targetId="3292-34e6-f679-d5b9" type="selectionEntry"/>
             <entryLink id="bbba-75b7-e038-9286" name="动力拳套" hidden="false" collective="false" import="true" targetId="f122-3720-fa32-4215" type="selectionEntry"/>
             <entryLink id="acc0-29a1-645c-a950" name="Power maul" hidden="false" collective="false" import="true" targetId="6ea7-1195-7144-438e" type="selectionEntry"/>
@@ -15032,7 +15032,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             </entryLink>
             <entryLink id="98ed-62ce-7b36-bb53" name="复合喷火器" hidden="false" collective="false" import="true" targetId="c6a1-e0c4-c1b1-dce1" type="selectionEntry"/>
             <entryLink id="ac1e-df53-19d8-38a2" name="复合热熔" hidden="false" collective="false" import="true" targetId="c445-e211-f316-5d83" type="selectionEntry"/>
-            <entryLink id="a763-df18-ab19-26c7" name="Combi-plasma" hidden="false" collective="false" import="true" targetId="fdce-cdf7-21a9-f9ac" type="selectionEntry"/>
+            <entryLink id="a763-df18-ab19-26c7" name="复合等离子" hidden="false" collective="false" import="true" targetId="fdce-cdf7-21a9-f9ac" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -15059,7 +15059,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <entryLink id="e4e5-5966-b9d9-51bd" name="复合爆弹" hidden="false" collective="false" import="true" targetId="eba0-9fc6-5334-a390" type="selectionEntry"/>
             <entryLink id="51da-25fa-5b8f-5665" name="复合喷火器" hidden="false" collective="false" import="true" targetId="c6a1-e0c4-c1b1-dce1" type="selectionEntry"/>
             <entryLink id="60d8-c430-e72e-dfa6" name="复合热熔" hidden="false" collective="false" import="true" targetId="c445-e211-f316-5d83" type="selectionEntry"/>
-            <entryLink id="fc38-8381-9a59-de20" name="Combi-plasma" hidden="false" collective="false" import="true" targetId="fdce-cdf7-21a9-f9ac" type="selectionEntry"/>
+            <entryLink id="fc38-8381-9a59-de20" name="复合等离子" hidden="false" collective="false" import="true" targetId="fdce-cdf7-21a9-f9ac" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -15097,7 +15097,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           </constraints>
           <entryLinks>
             <entryLink id="07a6-ff7d-4045-2815" name="Chainfist" hidden="false" collective="false" import="true" targetId="e464-77c1-12bb-e52f" type="selectionEntry"/>
-            <entryLink id="f640-1366-a7d0-7c2a" name="Lightning Claw" hidden="false" collective="false" import="true" targetId="72f0-6262-b417-dd10" type="selectionEntry"/>
+            <entryLink id="f640-1366-a7d0-7c2a" name="闪电爪" hidden="false" collective="false" import="true" targetId="72f0-6262-b417-dd10" type="selectionEntry"/>
             <entryLink id="e3f9-673b-44e5-640c" name="Power axe" hidden="false" collective="false" import="true" targetId="3292-34e6-f679-d5b9" type="selectionEntry"/>
             <entryLink id="a922-db13-b05f-a6e3" name="动力拳套" hidden="false" collective="false" import="true" targetId="f122-3720-fa32-4215" type="selectionEntry"/>
             <entryLink id="1e67-b771-7a66-393d" name="Power maul" hidden="false" collective="false" import="true" targetId="6ea7-1195-7144-438e" type="selectionEntry"/>
@@ -15711,7 +15711,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <entryLink id="4e79-f958-19e6-fd09" name="复合爆弹" hidden="false" collective="false" import="true" targetId="eba0-9fc6-5334-a390" type="selectionEntry"/>
             <entryLink id="4eb9-3c4a-84ea-dad4" name="复合喷火器" hidden="false" collective="false" import="true" targetId="c6a1-e0c4-c1b1-dce1" type="selectionEntry"/>
             <entryLink id="9d86-4ecf-7313-a433" name="复合热熔" hidden="false" collective="false" import="true" targetId="c445-e211-f316-5d83" type="selectionEntry"/>
-            <entryLink id="f12a-c8e1-0a0c-112d" name="Combi-plasma" hidden="false" collective="false" import="true" targetId="fdce-cdf7-21a9-f9ac" type="selectionEntry"/>
+            <entryLink id="f12a-c8e1-0a0c-112d" name="复合等离子" hidden="false" collective="false" import="true" targetId="fdce-cdf7-21a9-f9ac" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="f012-1dac-fef2-02db" name="肉搏武器 (max 2)" hidden="false" collective="false" import="true">
@@ -15749,7 +15749,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="303e-7409-bf61-b58b" type="min"/>
               </constraints>
             </entryLink>
-            <entryLink id="ec8f-536c-f14b-68e8" name="Chainsword" hidden="false" collective="false" import="true" targetId="0dd1-2e2b-7dd1-5495" type="selectionEntry">
+            <entryLink id="ec8f-536c-f14b-68e8" name="链锯剑" hidden="false" collective="false" import="true" targetId="0dd1-2e2b-7dd1-5495" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="6285-530b-3aec-e46f" value="0.0"/>
               </modifiers>
@@ -15758,7 +15758,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6285-530b-3aec-e46f" type="min"/>
               </constraints>
             </entryLink>
-            <entryLink id="d6d5-890c-9b55-8fd8" name="Lightning Claw" hidden="false" collective="false" import="true" targetId="72f0-6262-b417-dd10" type="selectionEntry">
+            <entryLink id="d6d5-890c-9b55-8fd8" name="闪电爪" hidden="false" collective="false" import="true" targetId="72f0-6262-b417-dd10" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e55-1ab5-9a45-4e5d" type="max"/>
               </constraints>
@@ -16861,7 +16861,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
               <profiles>
                 <profile id="bf45-7fac-8468-3f20" name="Remnant of the Maraviglia" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">PRIEST 模型 only. 一次性, 而不是 chanting a prayer, a 模型 with this 圣物 can broadcast the Remnant of the Maraviglia. Until the end of that battle round, when resolving an attack made by a 模型 in a 友方 EMPEROR’S CHILDREN 单位 范围内 6&quot; of a 模型 with this 圣物, you can 重投 the wound roll.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">祭司 模型 only. 一次性, 而不是 chanting a prayer, a 模型 with this 圣物 can broadcast the Remnant of the Maraviglia. Until the end of that battle round, when resolving an attack made by a 模型 in a 友方 EMPEROR’S CHILDREN 单位 范围内 6&quot; of a 模型 with this 圣物, you can 重投 the wound roll.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -16954,7 +16954,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
               <profiles>
                 <profile id="eced-af38-4c64-38cb" name="Banner of Rage" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">PRIEST 模型 only. 一次性, at the start of the 肉搏阶段, a 模型 with this 圣物 can unfurl the Banner of Rage. If they do, 直到阶段结束, add 1 to the A值 of 模型 in 友方 吞世者 单位 whilst their 单位 is 范围内 6&quot; of that model.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">祭司 模型 only. 一次性, at the start of the 肉搏阶段, a 模型 with this 圣物 can unfurl the Banner of Rage. If they do, 直到阶段结束, add 1 to the A值 of 模型 in 友方 吞世者 单位 whilst their 单位 is 范围内 6&quot; of that model.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -17028,7 +17028,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <entryLink id="b134-0ffc-bc27-3534" name="复合爆弹" hidden="false" collective="false" import="true" targetId="eba0-9fc6-5334-a390" type="selectionEntry"/>
             <entryLink id="ee7d-4fd4-ce8e-8c44" name="复合喷火器" hidden="false" collective="false" import="true" targetId="c6a1-e0c4-c1b1-dce1" type="selectionEntry"/>
             <entryLink id="5781-a6ca-6d14-94f3" name="复合热熔" hidden="false" collective="false" import="true" targetId="c445-e211-f316-5d83" type="selectionEntry"/>
-            <entryLink id="9cf7-1ed1-eec1-4e1c" name="Combi-plasma" hidden="false" collective="false" import="true" targetId="fdce-cdf7-21a9-f9ac" type="selectionEntry"/>
+            <entryLink id="9cf7-1ed1-eec1-4e1c" name="复合等离子" hidden="false" collective="false" import="true" targetId="fdce-cdf7-21a9-f9ac" type="selectionEntry"/>
             <entryLink id="4183-76dd-7392-5b7b" name="爆弹枪" hidden="false" collective="false" import="true" targetId="b61f-a3c1-827d-c5b6" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
@@ -17070,12 +17070,12 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7cd-0d43-0a5b-67ea" type="min"/>
               </constraints>
             </entryLink>
-            <entryLink id="e878-b7de-a563-bcba" name="Chainsword" hidden="false" collective="false" import="true" targetId="0dd1-2e2b-7dd1-5495" type="selectionEntry">
+            <entryLink id="e878-b7de-a563-bcba" name="链锯剑" hidden="false" collective="false" import="true" targetId="0dd1-2e2b-7dd1-5495" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f99b-b8e1-31a1-884d" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="db48-6ae2-3da2-7a92" name="Lightning Claw" hidden="false" collective="false" import="true" targetId="72f0-6262-b417-dd10" type="selectionEntry">
+            <entryLink id="db48-6ae2-3da2-7a92" name="闪电爪" hidden="false" collective="false" import="true" targetId="72f0-6262-b417-dd10" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3766-9860-0e4e-4e74" type="max"/>
               </constraints>
@@ -17147,7 +17147,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <entryLink id="483c-cb10-0845-d788" name="复合爆弹" hidden="false" collective="false" import="true" targetId="eba0-9fc6-5334-a390" type="selectionEntry"/>
             <entryLink id="1fe3-3a59-f5a6-1ff3" name="复合喷火器" hidden="false" collective="false" import="true" targetId="c6a1-e0c4-c1b1-dce1" type="selectionEntry"/>
             <entryLink id="8a47-e512-8ada-4a83" name="复合热熔" hidden="false" collective="false" import="true" targetId="c445-e211-f316-5d83" type="selectionEntry"/>
-            <entryLink id="7415-7b41-17af-12b4" name="Combi-plasma" hidden="false" collective="false" import="true" targetId="fdce-cdf7-21a9-f9ac" type="selectionEntry"/>
+            <entryLink id="7415-7b41-17af-12b4" name="复合等离子" hidden="false" collective="false" import="true" targetId="fdce-cdf7-21a9-f9ac" type="selectionEntry"/>
             <entryLink id="23ea-c120-d441-63aa" name="爆弹枪" hidden="false" collective="false" import="true" targetId="b61f-a3c1-827d-c5b6" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="46b5-d422-5648-ec2c" value="0.0"/>
@@ -17193,12 +17193,12 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6f4-5d10-415d-4260" type="min"/>
               </constraints>
             </entryLink>
-            <entryLink id="6076-8964-b64b-813d" name="Chainsword" hidden="false" collective="false" import="true" targetId="0dd1-2e2b-7dd1-5495" type="selectionEntry">
+            <entryLink id="6076-8964-b64b-813d" name="链锯剑" hidden="false" collective="false" import="true" targetId="0dd1-2e2b-7dd1-5495" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="036d-2012-d1c2-974d" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="fe21-f929-928b-4064" name="Lightning Claw" hidden="false" collective="false" import="true" targetId="72f0-6262-b417-dd10" type="selectionEntry">
+            <entryLink id="fe21-f929-928b-4064" name="闪电爪" hidden="false" collective="false" import="true" targetId="72f0-6262-b417-dd10" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd01-896f-0b7c-e925" type="max"/>
               </constraints>
@@ -17574,13 +17574,13 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
       </constraints>
       <entryLinks>
         <entryLink id="c98c-9c6d-b802-229e" name="Chainaxe" hidden="false" collective="false" import="true" targetId="262d-dbbf-8474-791c" type="selectionEntry"/>
-        <entryLink id="8b77-d7ff-c922-dfdc" name="Chainsword" hidden="false" collective="false" import="true" targetId="0dd1-2e2b-7dd1-5495" type="selectionEntry"/>
+        <entryLink id="8b77-d7ff-c922-dfdc" name="链锯剑" hidden="false" collective="false" import="true" targetId="0dd1-2e2b-7dd1-5495" type="selectionEntry"/>
         <entryLink id="965e-ed56-5fe1-337b" name="Power axe" hidden="false" collective="false" import="true" targetId="3292-34e6-f679-d5b9" type="selectionEntry"/>
         <entryLink id="4ce9-69b6-9876-defa" name="动力拳套" hidden="false" collective="false" import="true" targetId="f122-3720-fa32-4215" type="selectionEntry"/>
         <entryLink id="717a-1b8c-ad08-ac80" name="New EntryLink" hidden="false" collective="false" import="true" targetId="6ea7-1195-7144-438e" type="selectionEntry"/>
         <entryLink id="bf9f-be01-ec95-9215" name="动力剑" hidden="false" collective="false" import="true" targetId="bc9e-551d-9afb-78d5" type="selectionEntry"/>
-        <entryLink id="74f8-5cf0-e0c8-2492" name="Lightning Claw" hidden="false" collective="false" import="true" targetId="90de-7b01-e401-888b" type="selectionEntry"/>
-        <entryLink id="4121-c6d6-d26a-18a9" name="Thunder hammer" hidden="false" collective="false" import="true" targetId="0e57-eaf5-763f-9c45" type="selectionEntry"/>
+        <entryLink id="74f8-5cf0-e0c8-2492" name="闪电爪" hidden="false" collective="false" import="true" targetId="90de-7b01-e401-888b" type="selectionEntry"/>
+        <entryLink id="4121-c6d6-d26a-18a9" name="雷锤" hidden="false" collective="false" import="true" targetId="0e57-eaf5-763f-9c45" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="d5b0-3c0c-7edf-913f" name="Malefic Discipline" hidden="false" collective="false" import="true">
@@ -18210,7 +18210,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <entryLink id="c214-f6dc-d806-34c4" name="复合爆弹" hidden="false" collective="false" import="true" targetId="eba0-9fc6-5334-a390" type="selectionEntry"/>
             <entryLink id="e766-f76f-b5e1-9770" name="复合喷火器" hidden="false" collective="false" import="true" targetId="c6a1-e0c4-c1b1-dce1" type="selectionEntry"/>
             <entryLink id="4fd7-f7a3-91fc-7bc6" name="复合热熔" hidden="false" collective="false" import="true" targetId="c445-e211-f316-5d83" type="selectionEntry"/>
-            <entryLink id="6d7b-02e7-9b19-725b" name="Combi-plasma" hidden="false" collective="false" import="true" targetId="fdce-cdf7-21a9-f9ac" type="selectionEntry"/>
+            <entryLink id="6d7b-02e7-9b19-725b" name="复合等离子" hidden="false" collective="false" import="true" targetId="fdce-cdf7-21a9-f9ac" type="selectionEntry"/>
             <entryLink id="1569-54ed-9707-026c" name="爆弹枪" hidden="false" collective="false" import="true" targetId="b61f-a3c1-827d-c5b6" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
@@ -18245,7 +18245,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d609-f08c-1a2b-d541" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="39dc-5757-bef2-0841" name="Chainsword" hidden="false" collective="false" import="true" targetId="0dd1-2e2b-7dd1-5495" type="selectionEntry">
+            <entryLink id="39dc-5757-bef2-0841" name="链锯剑" hidden="false" collective="false" import="true" targetId="0dd1-2e2b-7dd1-5495" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="d957-b9df-4e53-9aad" value="0.0"/>
               </modifiers>
@@ -18254,7 +18254,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d957-b9df-4e53-9aad" type="min"/>
               </constraints>
             </entryLink>
-            <entryLink id="4b51-d407-94f5-4910" name="Lightning Claw" hidden="false" collective="false" import="true" targetId="72f0-6262-b417-dd10" type="selectionEntry">
+            <entryLink id="4b51-d407-94f5-4910" name="闪电爪" hidden="false" collective="false" import="true" targetId="72f0-6262-b417-dd10" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b29-dcf9-0dfe-c3bc" type="max"/>
               </constraints>
@@ -18291,7 +18291,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="715a-8e5c-01a5-2901" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="9ffa-048f-bd1b-f3e4" name="Plasma gun" hidden="false" collective="false" import="true" targetId="8c14-22cc-93ce-b85a" type="selectionEntry"/>
+            <entryLink id="9ffa-048f-bd1b-f3e4" name="等离子枪" hidden="false" collective="false" import="true" targetId="8c14-22cc-93ce-b85a" type="selectionEntry"/>
             <entryLink id="15ed-ff1c-d91b-b115" name="喷火器" hidden="false" collective="false" import="true" targetId="fd22-6743-2d4c-dd62" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="b282-c082-a72d-731f" value="0.0"/>

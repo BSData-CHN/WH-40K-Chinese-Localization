@@ -2564,8 +2564,8 @@
     </selectionEntry>
     <selectionEntry id="8c14-22cc-93ce-b85a" name="等离子枪" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="1f9f-f5f3-6d03-4b6c" name="Plasma gun, 标准" hidden="false" targetId="03e5-60f2-4726-5cdd" type="profile"/>
-        <infoLink id="24b5-23de-bf9d-1f41" name="Plasma gun, Supercharge" hidden="false" targetId="acb5-7b58-0d17-a33a" type="profile"/>
+        <infoLink id="1f9f-f5f3-6d03-4b6c" name="等离子枪, 标准" hidden="false" targetId="03e5-60f2-4726-5cdd" type="profile"/>
+        <infoLink id="24b5-23de-bf9d-1f41" name="等离子枪, Supercharge" hidden="false" targetId="acb5-7b58-0d17-a33a" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="11.0"/>
@@ -2681,8 +2681,8 @@
     <selectionEntry id="fdce-cdf7-21a9-f9ac" name="复合等离子枪" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="4d1d-71c8-ca26-be0c" name="爆弹枪" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
-        <infoLink id="643c-5084-06fe-4146" name="Plasma gun, 标准" hidden="false" targetId="03e5-60f2-4726-5cdd" type="profile"/>
-        <infoLink id="fa33-f484-5ce8-add5" name="Plasma gun, Supercharge" hidden="false" targetId="acb5-7b58-0d17-a33a" type="profile"/>
+        <infoLink id="643c-5084-06fe-4146" name="等离子枪, 标准" hidden="false" targetId="03e5-60f2-4726-5cdd" type="profile"/>
+        <infoLink id="fa33-f484-5ce8-add5" name="等离子枪, Supercharge" hidden="false" targetId="acb5-7b58-0d17-a33a" type="profile"/>
         <infoLink id="0078-b3a9-c2e8-c96f" name="Combi 武器" hidden="false" targetId="a269-b8d9-67c5-4009" type="rule"/>
       </infoLinks>
       <costs>
@@ -2742,7 +2742,7 @@
         </modifier>
       </modifiers>
       <infoLinks>
-        <infoLink id="9e71-d43e-6873-f182" name="Lightning claw" hidden="false" targetId="7584-238f-3174-4529" type="profile"/>
+        <infoLink id="9e71-d43e-6873-f182" name="闪电爪" hidden="false" targetId="7584-238f-3174-4529" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="6.0"/>
@@ -2862,7 +2862,7 @@
     </selectionEntry>
     <selectionEntry id="0dd1-2e2b-7dd1-5495" name="链锯剑" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="a0ab-a8b2-e918-c94a" name="Chainsword" hidden="false" targetId="9b1e-61f9-4a5b-0044" type="profile"/>
+        <infoLink id="a0ab-a8b2-e918-c94a" name="链锯剑" hidden="false" targetId="9b1e-61f9-4a5b-0044" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="0.0"/>
@@ -3058,7 +3058,7 @@
     </selectionEntry>
     <selectionEntry id="7b66-cac7-e582-a518" name="重力手枪" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="3e5e-d902-bf8f-05d7" name="Grav-pistol" hidden="false" targetId="7b30-68a4-3745-c6fa" type="profile"/>
+        <infoLink id="3e5e-d902-bf8f-05d7" name="重力手枪" hidden="false" targetId="7b30-68a4-3745-c6fa" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="8.0"/>
@@ -3159,7 +3159,7 @@
     </selectionEntry>
     <selectionEntry id="f2f6-ed05-f2a9-f46f" name="精工自动爆弹步枪" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="4f78-50df-324a-2613" name="Master-crafted auto 爆弹步枪" hidden="false" targetId="1f2f-512e-9ca3-13f9" type="profile"/>
+        <infoLink id="4f78-50df-324a-2613" name="精工自动爆弹步枪" hidden="false" targetId="1f2f-512e-9ca3-13f9" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="4.0"/>
@@ -3404,8 +3404,8 @@
     </selectionEntry>
     <selectionEntry id="3f51-b8fa-86ce-7388" name="双联等离子枪" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="3275-afdc-4d56-864f" name="双联 plasma gun, 标准" hidden="false" targetId="f7ba-88b9-c604-cd89" type="profile"/>
-        <infoLink id="1a87-46dc-7286-778b" name="双联 plasma gun, Supercharge" hidden="false" targetId="840a-7f35-72ad-baef" type="profile"/>
+        <infoLink id="3275-afdc-4d56-864f" name="双联 等离子枪, 标准" hidden="false" targetId="f7ba-88b9-c604-cd89" type="profile"/>
+        <infoLink id="1a87-46dc-7286-778b" name="双联 等离子枪, Supercharge" hidden="false" targetId="840a-7f35-72ad-baef" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="20.0"/>
@@ -3543,7 +3543,7 @@
     </selectionEntry>
     <selectionEntry id="ba8d-691a-6178-1a60" name="动力矛" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="80f2-63be-fb01-da34" name="Power lance" hidden="false" targetId="de62-5c9a-e27d-3fa3" type="profile"/>
+        <infoLink id="80f2-63be-fb01-da34" name="动力长枪" hidden="false" targetId="de62-5c9a-e27d-3fa3" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="4.0"/>
@@ -3600,7 +3600,7 @@
         </modifier>
       </modifiers>
       <infoLinks>
-        <infoLink id="c469-a81a-dd1c-ae46" name="Thunder hammer" hidden="false" targetId="87b3-3f6b-ada0-da8d" type="profile"/>
+        <infoLink id="c469-a81a-dd1c-ae46" name="雷锤" hidden="false" targetId="87b3-3f6b-ada0-da8d" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="16.0"/>
@@ -3657,7 +3657,7 @@
     </selectionEntry>
     <selectionEntry id="7603-6241-ab8b-4603" name="双持闪电爪" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="44bd-0f76-dc31-c734" name="Lightning claw" hidden="false" targetId="7584-238f-3174-4529" type="profile"/>
+        <infoLink id="44bd-0f76-dc31-c734" name="闪电爪" hidden="false" targetId="7584-238f-3174-4529" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="10.0"/>
@@ -3921,7 +3921,7 @@
     </selectionEntry>
     <selectionEntry id="4334-d2da-32f5-dc53" name="链锯剑" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="6c39-1b7c-4e3e-8dd6" name="Chainsword" hidden="false" targetId="9b1e-61f9-4a5b-0044" type="profile"/>
+        <infoLink id="6c39-1b7c-4e3e-8dd6" name="链锯剑" hidden="false" targetId="9b1e-61f9-4a5b-0044" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="0.0"/>
@@ -3938,7 +3938,7 @@
         </modifier>
       </modifiers>
       <infoLinks>
-        <infoLink id="1fad-df38-d957-a2c5" name="Lightning claw" hidden="false" targetId="7584-238f-3174-4529" type="profile"/>
+        <infoLink id="1fad-df38-d957-a2c5" name="闪电爪" hidden="false" targetId="7584-238f-3174-4529" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="6.0"/>
@@ -3948,7 +3948,7 @@
     </selectionEntry>
     <selectionEntry id="c4f6-2f81-153a-3060" name="双持闪电爪" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="2897-f3f7-3ec2-e6fa" name="Lightning claw" hidden="false" targetId="7584-238f-3174-4529" type="profile"/>
+        <infoLink id="2897-f3f7-3ec2-e6fa" name="闪电爪" hidden="false" targetId="7584-238f-3174-4529" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="10.0"/>
@@ -3965,7 +3965,7 @@
         </modifier>
       </modifiers>
       <infoLinks>
-        <infoLink id="3667-3b67-7352-8ad7" name="Thunder hammer" hidden="false" targetId="87b3-3f6b-ada0-da8d" type="profile"/>
+        <infoLink id="3667-3b67-7352-8ad7" name="雷锤" hidden="false" targetId="87b3-3f6b-ada0-da8d" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="16.0"/>
@@ -5000,7 +5000,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fabf-14d5-8a2d-330e" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="152d-fbc6-f477-46ab" name="Combi-plasma" hidden="false" collective="false" import="true" targetId="fdce-cdf7-21a9-f9ac" type="selectionEntry">
+            <entryLink id="152d-fbc6-f477-46ab" name="复合等离子" hidden="false" collective="false" import="true" targetId="fdce-cdf7-21a9-f9ac" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8984-9458-7b12-57cd" type="max"/>
               </constraints>
@@ -8505,7 +8505,7 @@
         <characteristic name="能力" typeId="837d-5e63-aeb7-1410">命中骰-1.</characteristic>
       </characteristics>
     </profile>
-    <profile id="e209-5038-fc25-4927" name="Heavy Chainsword" publicationId="28ec-711c-pubN72690" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+    <profile id="e209-5038-fc25-4927" name="Heavy 链锯剑" publicationId="28ec-711c-pubN72690" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="射程" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
         <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏, 双手</characteristic>
