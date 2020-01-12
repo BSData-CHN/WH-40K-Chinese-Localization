@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="f944-98a5-b73d-f132" name="帝国 - Adeptus Titanicus" revision="1" battleScribeVersion="2.03" authorName="BSData-CHN" authorContact="@Dr. Toboggan" authorUrl="https://github.com/BSData-CHN" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="10" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
-    <publication id="f944-98a5-pubN65537" name="帝国装甲 - 索引: Forces of the Astra Militarum"/>
+    <publication id="f944-98a5-pubN65537" name="帝国装甲 - 索引: 星界军"/>
     <publication id="f944-98a5-pubN71564" name="Forgeworld Datasheet"/>
   </publications>
   <profileTypes>
@@ -26,7 +26,7 @@
     <categoryEntry id="c361-6f00-d06e-772c" name="阵营: 帝国" hidden="false"/>
     <categoryEntry id="6fcd-85b1-186b-77bb" name="阵营: Adeptus Titanicus" hidden="false"/>
     <categoryEntry id="fecb-f56e-7bdc-4636" name="阵营: &lt;泰坦 Legion&gt;" hidden="false"/>
-    <categoryEntry id="b371-aaaa-dc65-2d3c" name="God-engine" hidden="false"/>
+    <categoryEntry id="b371-aaaa-dc65-2d3c" name="神之机械" hidden="false"/>
     <categoryEntry id="1d69-432f-3c5c-8a11" name="Warhound Scout 泰坦" hidden="false"/>
     <categoryEntry id="e88f-d384-6f8b-f722" name="Reaver Battle 泰坦" hidden="false"/>
     <categoryEntry id="d1a4-5db2-fd8b-b76b" name="Warlord Battle 泰坦" hidden="false"/>
@@ -93,7 +93,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">x2</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-5</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">10</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If you slay a 载具 or MONSTER that does not have the TITANIC 关键字 with the Reaver power fist, select an 敌方单位 范围内 12寸 and 投掷1个D6; 结果为4+ 那个单位 遭受 D6 致命伤 as the dead body or debris is thrown at it.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If you slay a 载具 or 巨兽 that does not have the TITANIC 关键字 with the Reaver power fist, select an 敌方单位 范围内 12寸 and 投掷1个D6; 结果为4+ 那个单位 遭受 D6 致命伤 as the dead body or debris is thrown at it.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -112,7 +112,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">x2</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-5</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">10</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Subtract 1 from hit rolls made with 这个武器. Any wound roll of a 6 made with this attack on any 载具, MONSTER or 建筑 automatically inflicts an additional 2D6 致命伤 on the target.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Subtract 1 from hit rolls made with 这个武器. 任何造伤骰的 6 made with this attack on any 载具, 巨兽 or 建筑 automatically 造成额外的 2D6 致命伤 对目标.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -127,7 +127,7 @@
         <profile id="a2e9-c9fd-eed4-726b" name="Mori Quake Cannon" publicationId="f944-98a5-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸-360寸</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Macro 3D6</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">宏 3D6</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">20</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-5</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">6</characteristic>
@@ -149,11 +149,11 @@
         <profile id="6af8-640e-217e-c334" name="Sunfury Plasma Annihilator" publicationId="f944-98a5-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72寸</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Macro 2D6</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">宏 2D6</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">10</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2D6</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">After resolving all damage on the target unit, 投掷1个D6 for every other 单位 范围内 6寸 of the target unit; 结果为4+ 那个单位 also 遭受 D3 hits using the weapon&apos;s profile.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">After resolving 所有 damage 对目标 unit, 投掷1个D6 for every other 单位 范围内 6寸 of the target unit; 结果为4+ 那个单位 also 遭受 D3 hits using the weapon&apos;s profile.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -166,16 +166,16 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="470d-8b9c-14e2-d70e" name="Warlord Gatling Blaster" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="470d-8b9c-14e2-d70e" name="战将加特林爆裂炮" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="26c7-9f6b-7785-ae92" name="Warlord Gatling Blaster" publicationId="f944-98a5-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="26c7-9f6b-7785-ae92" name="战将加特林爆裂炮" publicationId="f944-98a5-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72寸</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Macro 12</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">宏 12</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">对抗 步兵单位, each successful hit inflicted by 这个武器 instead becomes 3 hits.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">对抗步兵单位, 每个成功的命中 inflicted by 这个武器 instead becomes 3 hits.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -188,9 +188,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="25f2-abba-80e9-0810" name="Apocalypse 导弹发射器" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="25f2-abba-80e9-0810" name="启示录导弹发射器" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="b6b7-9d87-1d64-2c9e" name="Apocalypse 导弹发射器" publicationId="f944-98a5-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="b6b7-9d87-1d64-2c9e" name="启示录导弹发射器" publicationId="f944-98a5-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸-360寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 12</characteristic>
@@ -207,16 +207,16 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5118-8b5c-9821-bfe2" name="Reaver Gatling Blaster" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="5118-8b5c-9821-bfe2" name="掠夺者加特林爆裂炮" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="8c67-4fc8-c10c-f1d4" name="Reaver Gatling Blaster" publicationId="f944-98a5-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="8c67-4fc8-c10c-f1d4" name="掠夺者加特林爆裂炮" publicationId="f944-98a5-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72寸</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Macro 6</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">宏 6</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">对抗 步兵单位, each successful hit roll inflicted by 这个武器 instead becomes 3 hits.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">对抗步兵单位, 每个成功的命中骰 inflicted by 这个武器 instead becomes 3 hits.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -229,16 +229,16 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2db2-d04a-2d7f-3bb2" name="Reaver Laser Blaster" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="2db2-d04a-2d7f-3bb2" name="掠夺者激光爆裂炮" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="66cc-a888-f681-f752" name="Reaver Laser Blaster" publicationId="f944-98a5-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="66cc-a888-f681-f752" name="掠夺者激光爆裂炮" publicationId="f944-98a5-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">96寸</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Macro 3D3</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">宏 3D3</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">10</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2D6</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Any wound roll of a 6 made with this attack automatically inflicts an additional D3 致命伤 on the target.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">任何造伤骰的 6 made with this attack automatically 造成额外的 D3 致命伤 对目标.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -260,7 +260,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">20</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-5</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">12</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">You may re-roll failed hit rolls for 这个武器 对抗 targets with the MONSTER, 建筑 or 载具 关键字.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">可以重投失败的命中骰 for 这个武器 对抗 targets with the 巨兽, 建筑 or 载具 关键字.</characteristic>
           </characteristics>
         </profile>
         <profile id="3445-2b1e-4c52-2fbe" name="Saturnyne Lascutter (射击)" publicationId="f944-98a5-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -280,16 +280,16 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f405-e1db-1bc4-b84c" name="Dual 涡轮激光毁灭者" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="f405-e1db-1bc4-b84c" name="双管涡轮激光毁灭者" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="18fc-161b-db3f-f9a5" name="Dual 涡轮激光毁灭者" publicationId="f944-98a5-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="18fc-161b-db3f-f9a5" name="双管涡轮激光毁灭者" publicationId="f944-98a5-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">96寸</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Macro 2D3</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">宏 2D3</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">16</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2D6</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Any wound roll of a 6 made with this attack automatically inflicts an additional D3 致命伤 on the target.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">任何造伤骰的 6 made with this attack automatically 造成额外的 D3 致命伤 对目标.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -302,16 +302,16 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="08d8-d3eb-f056-7a67" name="Belicosa 火山炮" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="08d8-d3eb-f056-7a67" name="贝利科萨火山炮" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="93f9-147b-096e-b6fb" name="Belicosa 火山炮" publicationId="f944-98a5-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="93f9-147b-096e-b6fb" name="贝利科萨火山炮" publicationId="f944-98a5-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">180寸</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Macro D6</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">宏 D6</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">30</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-6</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">12</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Any wound roll of a 6 made with this attack automatically inflicts an additional D6 致命伤 on the target.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">任何造伤骰的 6 made with this attack automatically 造成额外的 D6 致命伤 对目标.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -324,26 +324,26 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c02c-108f-8e6d-d727" name="泰坦 等离子爆裂枪" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="c02c-108f-8e6d-d727" name="泰坦等离子爆裂枪" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="16bf-3834-542f-474c" name="泰坦 等离子爆裂枪 (Standard)" publicationId="f944-98a5-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="16bf-3834-542f-474c" name="泰坦等离子爆裂枪 (Standard)" publicationId="f944-98a5-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72寸</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Macro 2D6</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">宏 2D6</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
             <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
           </characteristics>
         </profile>
-        <profile id="d4f0-87dc-b422-e13b" name="泰坦 等离子爆裂枪 (Overcharged)" publicationId="f944-98a5-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="d4f0-87dc-b422-e13b" name="泰坦等离子爆裂枪 (Overcharged)" publicationId="f944-98a5-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72寸</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Macro 2D6</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">宏 2D6</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">10</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">4</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When using this firing mode, for each hit roll of a 1, the 泰坦 遭受 1点致命伤 after all of 这个武器&apos;s shots have been resolved. These 致命伤 不能 stopped by the 泰坦&apos;s own void shields.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">使用这个射击模式, for each hit roll of a 1, the 泰坦 遭受 1点致命伤 这个武器的所有射击结算后. These 致命伤 不能 stopped by the 泰坦&apos;s own void shields.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -366,9 +366,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="23f1-7a9b-bdc9-7138" name="双联 泰坦 Mega-Bolter" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="23f1-7a9b-bdc9-7138" name="双联泰坦巨型爆弹" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="216e-dd30-86d0-f3e2" name="双联 泰坦 Mega-Bolter" publicationId="f944-98a5-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="216e-dd30-86d0-f3e2" name="双联泰坦巨型爆弹" publicationId="f944-98a5-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 40</characteristic>
@@ -385,16 +385,16 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1e3c-af20-3d43-9d96" name="Incinerator Missile Bank" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="1e3c-af20-3d43-9d96" name="焚化导弹仓" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="31d3-3838-f37b-3023" name="Incinerator Missile Bank" publicationId="f944-98a5-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="31d3-3838-f37b-3023" name="焚化导弹仓" publicationId="f944-98a5-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸-360寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 10</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">对抗 步兵, the number of successful hits rolled for 这个武器 is doubled. 无视掩体. 这个武器 can target 单位 which are not 可见 to the bearer.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">对抗步兵, the number of successful hits rolled for 这个武器 is doubled. 无视掩体. 可以瞄准使用者不可见的单位.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -423,9 +423,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0729-3662-7e87-177f" name="Ardex-Defensor 双联激光炮" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="0729-3662-7e87-177f" name="阿德克斯近防双联激光炮" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="bf35-8d08-ddfe-ef87" name="Ardex-Defensor 双联激光炮" publicationId="f944-98a5-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="bf35-8d08-ddfe-ef87" name="阿德克斯近防双联激光炮" publicationId="f944-98a5-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 2</characteristic>
@@ -442,12 +442,12 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1fa0-b612-71de-c36a" name="Reaver 火山炮" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="1fa0-b612-71de-c36a" name="掠夺者火山炮" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="2e7b-7302-602f-715e" name="Reaver 火山炮" publicationId="f944-98a5-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="2e7b-7302-602f-715e" name="掠夺者火山炮" publicationId="f944-98a5-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">180寸</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Macro D6</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">宏 D6</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">25</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-5</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">12</characteristic>
@@ -464,12 +464,12 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5727-942c-dc11-4ad7" name="Reaver Melta Cannon" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="5727-942c-dc11-4ad7" name="掠夺者热熔炮" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="cef9-f2e9-38f5-55c8" name="Reaver Melta Cannon" publicationId="f944-98a5-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="cef9-f2e9-38f5-55c8" name="掠夺者热熔炮" publicationId="f944-98a5-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48寸</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Macro 2D6</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">宏 2D6</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">16</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">6</characteristic>
@@ -486,16 +486,16 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0878-b6b5-5bff-6705" name="泰坦 Inferno Gun" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="0878-b6b5-5bff-6705" name="泰坦地狱枪" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="f35c-38ee-634e-32a7" name="泰坦 Inferno Gun" publicationId="f944-98a5-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="f35c-38ee-634e-32a7" name="泰坦地狱枪" publicationId="f944-98a5-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 4D6</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">7</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">4</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 hits automatically</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器自动命中</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -505,9 +505,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c5da-02c5-1022-8de9" name="泰坦 Vulcan Mega-Bolter" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="c5da-02c5-1022-8de9" name="泰坦火神巨型爆弹" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="75f9-eb2c-5e48-2911" name="泰坦 Vulcan Mega-Bolter" publicationId="f944-98a5-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="75f9-eb2c-5e48-2911" name="泰坦火神巨型爆弹" publicationId="f944-98a5-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 20</characteristic>
@@ -583,8 +583,8 @@
       </profiles>
       <infoLinks>
         <infoLink id="9f6a-f274-dbd2-a2bb" name="Cataclysmic Explosion" hidden="false" targetId="5f60-a334-0ca7-5eb6" type="profile"/>
-        <infoLink id="16c2-6395-0312-788f" name="Imperial God-engine" hidden="false" targetId="4698-5968-4940-9fd2" type="profile"/>
-        <infoLink id="9275-b266-f777-03c8" name="泰坦 Void Shields" hidden="false" targetId="b18f-3b99-479f-3612" type="profile"/>
+        <infoLink id="16c2-6395-0312-788f" name="Imperial 神之机械" hidden="false" targetId="4698-5968-4940-9fd2" type="profile"/>
+        <infoLink id="9275-b266-f777-03c8" name="泰坦虚空盾" hidden="false" targetId="b18f-3b99-479f-3612" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="24f6-3f42-21ad-0bda" name="New CategoryLink" hidden="false" targetId="fecb-f56e-7bdc-4636" primary="false"/>
@@ -602,22 +602,22 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9de9-46f4-a9e2-596b" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="2820-de26-7548-414c" name="Dual 涡轮激光毁灭者" hidden="false" collective="false" import="true" targetId="f405-e1db-1bc4-b84c" type="selectionEntry">
+            <entryLink id="2820-de26-7548-414c" name="双管涡轮激光毁灭者" hidden="false" collective="false" import="true" targetId="f405-e1db-1bc4-b84c" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a1fa-a665-b304-9613" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="1993-3dff-e14e-7d55" name="泰坦 等离子爆裂枪" hidden="false" collective="false" import="true" targetId="c02c-108f-8e6d-d727" type="selectionEntry">
+            <entryLink id="1993-3dff-e14e-7d55" name="泰坦等离子爆裂枪" hidden="false" collective="false" import="true" targetId="c02c-108f-8e6d-d727" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f9b9-6ecd-ec9b-7b5c" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="827e-6671-79df-1885" name="泰坦 inferno gun" hidden="false" collective="false" import="true" targetId="0878-b6b5-5bff-6705" type="selectionEntry">
+            <entryLink id="827e-6671-79df-1885" name="泰坦地狱枪" hidden="false" collective="false" import="true" targetId="0878-b6b5-5bff-6705" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70c5-d6e3-22c6-38c1" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="271e-4b1a-5491-a2be" name="泰坦 vulcan mega-bolter" hidden="false" collective="false" import="true" targetId="c5da-02c5-1022-8de9" type="selectionEntry">
+            <entryLink id="271e-4b1a-5491-a2be" name="泰坦火神巨型爆弹" hidden="false" collective="false" import="true" targetId="c5da-02c5-1022-8de9" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c18b-a55f-62dc-e580" type="max"/>
               </constraints>
@@ -703,8 +703,8 @@
       <infoLinks>
         <infoLink id="3176-a4a4-4ac0-c25e" name="Cataclysmic Explosion" hidden="false" targetId="5f60-a334-0ca7-5eb6" type="profile"/>
         <infoLink id="e958-b030-ca55-712a" name="Icon of Imperial Might" hidden="false" targetId="9492-d2be-1544-faf6" type="profile"/>
-        <infoLink id="ff05-f660-6bdd-a1b4" name="Imperial God-engine" hidden="false" targetId="4698-5968-4940-9fd2" type="profile"/>
-        <infoLink id="f158-333c-4de4-2b99" name="泰坦 Void Shields" hidden="false" targetId="b18f-3b99-479f-3612" type="profile"/>
+        <infoLink id="ff05-f660-6bdd-a1b4" name="Imperial 神之机械" hidden="false" targetId="4698-5968-4940-9fd2" type="profile"/>
+        <infoLink id="f158-333c-4de4-2b99" name="泰坦虚空盾" hidden="false" targetId="b18f-3b99-479f-3612" type="profile"/>
         <infoLink id="b380-d4df-98d6-ac43" name="Titanic Gait" hidden="false" targetId="3b6e-b7a5-153f-5929" type="profile"/>
       </infoLinks>
       <categoryLinks>
@@ -723,32 +723,32 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="accc-59df-7c1b-90e9" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="404e-b9ac-714e-69fb" name="Dual 涡轮激光毁灭者" hidden="false" collective="false" import="true" targetId="f405-e1db-1bc4-b84c" type="selectionEntry">
+            <entryLink id="404e-b9ac-714e-69fb" name="双管涡轮激光毁灭者" hidden="false" collective="false" import="true" targetId="f405-e1db-1bc4-b84c" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e21c-23a6-d6a0-5b69" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="2815-92c9-0a83-aa51" name="泰坦 等离子爆裂枪" hidden="false" collective="false" import="true" targetId="c02c-108f-8e6d-d727" type="selectionEntry">
+            <entryLink id="2815-92c9-0a83-aa51" name="泰坦等离子爆裂枪" hidden="false" collective="false" import="true" targetId="c02c-108f-8e6d-d727" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f691-5cbe-7bff-5d11" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="54a5-eb69-4e85-bd1e" name="泰坦 inferno gun" hidden="false" collective="false" import="true" targetId="0878-b6b5-5bff-6705" type="selectionEntry">
+            <entryLink id="54a5-eb69-4e85-bd1e" name="泰坦地狱枪" hidden="false" collective="false" import="true" targetId="0878-b6b5-5bff-6705" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="adf6-361b-9990-1471" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="2a9e-3699-7c88-de54" name="泰坦 vulcan mega-bolter" hidden="false" collective="false" import="true" targetId="c5da-02c5-1022-8de9" type="selectionEntry">
+            <entryLink id="2a9e-3699-7c88-de54" name="泰坦火神巨型爆弹" hidden="false" collective="false" import="true" targetId="c5da-02c5-1022-8de9" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="88d8-3c41-6945-136e" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="ea3e-483f-54a5-bc19" name="Apocalypse 导弹发射器" hidden="false" collective="false" import="true" targetId="25f2-abba-80e9-0810" type="selectionEntry">
+            <entryLink id="ea3e-483f-54a5-bc19" name="启示录导弹发射器" hidden="false" collective="false" import="true" targetId="25f2-abba-80e9-0810" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a40-46b1-435a-009a" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="fa02-7d6f-50dc-fb57" name="Incinerator missile bank" hidden="false" collective="false" import="true" targetId="1e3c-af20-3d43-9d96" type="selectionEntry">
+            <entryLink id="fa02-7d6f-50dc-fb57" name="焚化导弹仓" hidden="false" collective="false" import="true" targetId="1e3c-af20-3d43-9d96" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="306d-eb01-724b-37d6" type="max"/>
               </constraints>
@@ -761,22 +761,22 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="32af-6263-910a-b44e" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="2963-5260-e67a-086c" name="Reaver gatling blaster" hidden="false" collective="false" import="true" targetId="5118-8b5c-9821-bfe2" type="selectionEntry">
+            <entryLink id="2963-5260-e67a-086c" name="掠夺者加特林爆裂炮" hidden="false" collective="false" import="true" targetId="5118-8b5c-9821-bfe2" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5562-1ba1-425e-560c" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="9171-1239-0d2d-c878" name="Reaver laser blaster" hidden="false" collective="false" import="true" targetId="2db2-d04a-2d7f-3bb2" type="selectionEntry">
+            <entryLink id="9171-1239-0d2d-c878" name="掠夺者激光爆裂炮" hidden="false" collective="false" import="true" targetId="2db2-d04a-2d7f-3bb2" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ea6-efa2-d4bd-ca99" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="f63d-e11e-e847-0e00" name="Reaver 火山炮" hidden="false" collective="false" import="true" targetId="1fa0-b612-71de-c36a" type="selectionEntry">
+            <entryLink id="f63d-e11e-e847-0e00" name="掠夺者火山炮" hidden="false" collective="false" import="true" targetId="1fa0-b612-71de-c36a" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54d1-291f-913c-7b51" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="3154-3d3b-b604-89f2" name="Reaver melta cannon" hidden="false" collective="false" import="true" targetId="5727-942c-dc11-4ad7" type="selectionEntry">
+            <entryLink id="3154-3d3b-b604-89f2" name="掠夺者热熔炮" hidden="false" collective="false" import="true" targetId="5727-942c-dc11-4ad7" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="74b4-7002-8d3c-8235" type="max"/>
               </constraints>
@@ -872,8 +872,8 @@
       <infoLinks>
         <infoLink id="0077-5d19-0a56-88d3" name="Cataclysmic Explosion" hidden="false" targetId="5f60-a334-0ca7-5eb6" type="profile"/>
         <infoLink id="db4d-b6b4-339a-707c" name="Icon of Imperial Might" hidden="false" targetId="9492-d2be-1544-faf6" type="profile"/>
-        <infoLink id="9f41-640c-d5c6-539c" name="Imperial God-Engine" hidden="false" targetId="4698-5968-4940-9fd2" type="profile"/>
-        <infoLink id="c98d-24b4-801a-38b3" name="泰坦 Void Shields" hidden="false" targetId="b18f-3b99-479f-3612" type="profile"/>
+        <infoLink id="9f41-640c-d5c6-539c" name="Imperial 神之机械" hidden="false" targetId="4698-5968-4940-9fd2" type="profile"/>
+        <infoLink id="c98d-24b4-801a-38b3" name="泰坦虚空盾" hidden="false" targetId="b18f-3b99-479f-3612" type="profile"/>
         <infoLink id="2f14-2cc1-be2d-6aa0" name="Titanic Gait" hidden="false" targetId="3b6e-b7a5-153f-5929" type="profile"/>
       </infoLinks>
       <categoryLinks>
@@ -892,37 +892,37 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f3a-7957-6206-4cae" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="c3d1-ec38-b678-e11b" name="Dual 涡轮激光毁灭者" hidden="false" collective="false" import="true" targetId="f405-e1db-1bc4-b84c" type="selectionEntry">
+            <entryLink id="c3d1-ec38-b678-e11b" name="双管涡轮激光毁灭者" hidden="false" collective="false" import="true" targetId="f405-e1db-1bc4-b84c" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c780-a6af-6a4e-1070" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="7322-ebf4-debf-dc99" name="泰坦 等离子爆裂枪" hidden="false" collective="false" import="true" targetId="c02c-108f-8e6d-d727" type="selectionEntry">
+            <entryLink id="7322-ebf4-debf-dc99" name="泰坦等离子爆裂枪" hidden="false" collective="false" import="true" targetId="c02c-108f-8e6d-d727" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8869-6217-6455-4881" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="6d3d-6815-fb3f-17e2" name="Reaver laser blaster" hidden="false" collective="false" import="true" targetId="2db2-d04a-2d7f-3bb2" type="selectionEntry">
+            <entryLink id="6d3d-6815-fb3f-17e2" name="掠夺者激光爆裂炮" hidden="false" collective="false" import="true" targetId="2db2-d04a-2d7f-3bb2" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc69-1a33-dab0-d8f6" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="dc3b-e187-2b33-65e9" name="双联 泰坦 mega-bolter" hidden="false" collective="false" import="true" targetId="23f1-7a9b-bdc9-7138" type="selectionEntry">
+            <entryLink id="dc3b-e187-2b33-65e9" name="双联泰坦巨型爆弹" hidden="false" collective="false" import="true" targetId="23f1-7a9b-bdc9-7138" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="476f-1b57-ee64-a452" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="288c-687e-5f27-e4bb" name="Apocalypse 导弹发射器" hidden="false" collective="false" import="true" targetId="25f2-abba-80e9-0810" type="selectionEntry">
+            <entryLink id="288c-687e-5f27-e4bb" name="启示录导弹发射器" hidden="false" collective="false" import="true" targetId="25f2-abba-80e9-0810" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2576-8480-5c04-35a0" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="452d-5be5-d0dd-7a8a" name="Incinerator missile bank" hidden="false" collective="false" import="true" targetId="1e3c-af20-3d43-9d96" type="selectionEntry">
+            <entryLink id="452d-5be5-d0dd-7a8a" name="焚化导弹仓" hidden="false" collective="false" import="true" targetId="1e3c-af20-3d43-9d96" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e4d-3991-f0b3-7b68" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="3932-025f-f0f1-93fc" name="Reaver gatling blaster" hidden="false" collective="false" import="true" targetId="5118-8b5c-9821-bfe2" type="selectionEntry">
+            <entryLink id="3932-025f-f0f1-93fc" name="掠夺者加特林爆裂炮" hidden="false" collective="false" import="true" targetId="5118-8b5c-9821-bfe2" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa02-365b-38a5-8217" type="max"/>
               </constraints>
@@ -950,12 +950,12 @@
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e6af-68fd-cec2-0d4e" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="0f36-1141-eb10-743f" name="Warlord gatling blaster" hidden="false" collective="false" import="true" targetId="470d-8b9c-14e2-d70e" type="selectionEntry">
+            <entryLink id="0f36-1141-eb10-743f" name="战将加特林爆裂炮" hidden="false" collective="false" import="true" targetId="470d-8b9c-14e2-d70e" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c87b-0e69-5535-d9c7" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="84d5-3da8-6aac-c055" name="Belicosa 火山炮" hidden="false" collective="false" import="true" targetId="08d8-d3eb-f056-7a67" type="selectionEntry">
+            <entryLink id="84d5-3da8-6aac-c055" name="贝利科萨火山炮" hidden="false" collective="false" import="true" targetId="08d8-d3eb-f056-7a67" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3311-2efb-629b-a0f8" type="max"/>
               </constraints>
@@ -981,7 +981,7 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="55b8-58ef-c93a-e55a" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="d236-60ae-5d16-b39b" name="Ardex-Defensor 双联激光炮" hidden="false" collective="false" import="true" targetId="0729-3662-7e87-177f" type="selectionEntry">
+        <entryLink id="d236-60ae-5d16-b39b" name="阿德克斯近防双联激光炮" hidden="false" collective="false" import="true" targetId="0729-3662-7e87-177f" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e151-cf57-8744-b5d3" type="min"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1fe-91c9-2e4d-58fd" type="max"/>
@@ -1089,12 +1089,12 @@
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add D6 to the result of 士气测试 for 单位 whilst they are 范围内 12寸 of any 敌方单位 with this ability.</characteristic>
           </characteristics>
         </profile>
-        <profile id="edec-7bc0-0227-5786" name="泰坦 Void Shields (Warbringer)" publicationId="f944-98a5-pubN71564" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="edec-7bc0-0227-5786" name="泰坦虚空盾 (Warbringer)" publicationId="f944-98a5-pubN71564" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">而不是 making a saving throw or invulnerable saving throw for a wound allocated to 这个模型 as a result of an attack with a 远程武器, you can 投掷1个D6; if the result is equal to or higher than the Void Shields value shown on the 损伤表 above, the damage is prevented and the attack sequence ends. 此外, 每次 这个模型 遭受 1点致命伤, 投掷1个D6; if the result is equal to or higher than the Void Shields value shown on the 损伤表 above, the 致命伤 is ignored.</characteristic>
           </characteristics>
         </profile>
-        <profile id="2f7e-467d-608b-12cb" name="Imperial God-Engine (Warbringer)" publicationId="f944-98a5-pubN71564" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="2f7e-467d-608b-12cb" name="Imperial 神之机械 (Warbringer)" publicationId="f944-98a5-pubN71564" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 can 撤退 in the 移动阶段 and still shoot and/or charge in the same turn. When 这个模型 撤退, it can move over 敌方 步兵 and SWARM models, though it must end its move more than 1寸 from any 敌方单位. 这个模型 can shoot in the 射击阶段 even if there are 敌方模型 范围内 1寸 of it unless those 模型 are TITANIC. 此外, 这个模型 can move and fire 重型武器 without suffering the penalty to its hit rolls. Finally, 这个模型 only benefits from being in cover if at least half of the 模型 is obscured from the firer.</characteristic>
           </characteristics>
@@ -1128,22 +1128,22 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13db-4065-227d-1deb" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="4d88-bf70-b559-434e" name="Reaver 火山炮" hidden="false" collective="false" import="true" targetId="1fa0-b612-71de-c36a" type="selectionEntry">
+            <entryLink id="4d88-bf70-b559-434e" name="掠夺者火山炮" hidden="false" collective="false" import="true" targetId="1fa0-b612-71de-c36a" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0022-31ca-13ce-1c13" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="0ad5-490f-9e9a-4e78" name="Reaver Laser Blaster" hidden="false" collective="false" import="true" targetId="2db2-d04a-2d7f-3bb2" type="selectionEntry">
+            <entryLink id="0ad5-490f-9e9a-4e78" name="掠夺者激光爆裂炮" hidden="false" collective="false" import="true" targetId="2db2-d04a-2d7f-3bb2" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b71-0f3e-e0b8-70c6" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="8f2a-638c-56b0-ee91" name="Reaver Melta Cannon" hidden="false" collective="false" import="true" targetId="5727-942c-dc11-4ad7" type="selectionEntry">
+            <entryLink id="8f2a-638c-56b0-ee91" name="掠夺者热熔炮" hidden="false" collective="false" import="true" targetId="5727-942c-dc11-4ad7" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54f1-df3a-b6f3-6959" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="6c53-08a2-87b6-08a4" name="Reaver Gatling Blaster" hidden="false" collective="false" import="true" targetId="5118-8b5c-9821-bfe2" type="selectionEntry">
+            <entryLink id="6c53-08a2-87b6-08a4" name="掠夺者加特林爆裂炮" hidden="false" collective="false" import="true" targetId="5118-8b5c-9821-bfe2" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7580-e527-f47b-8862" type="max"/>
               </constraints>
@@ -1226,7 +1226,7 @@
         <profile id="f8cd-b982-fc4b-a010" name="Nemesis Quake Cannon" publicationId="f944-98a5-pubN71564" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24-480寸</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Macro 3D6</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">宏 3D6</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">16</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-5</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">6</characteristic>
@@ -1257,19 +1257,19 @@
         <characteristic name="致命伤" typeId="0923-e0f5-5fcb-aad8">D6</characteristic>
       </characteristics>
     </profile>
-    <profile id="4698-5968-4940-9fd2" name="Imperial God-Engine" publicationId="f944-98a5-pubN65537" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="4698-5968-4940-9fd2" name="Imperial 神之机械" publicationId="f944-98a5-pubN65537" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 can 撤退 in the 移动阶段 and still shoot and/or charge during its turn. When 这个模型 撤退, it can move over 敌方 步兵模型, though at the end of its move it 必须 more than 1寸 away from all 敌方单位. 这个模型 can fire its 射击 武器 even if there are 敌方模型 范围内 1寸 unless those 敌方模型 are TITANIC. 这种情况下, it can shoot the 敌方单位 that is 范围内 1寸 of it or any other 可见 敌方单位 that is 范围内 range and more than 1寸 away from any 友方模型. 此外, 这个模型 can move and fire 重型武器 without any penalty to its hit rolls. Finally, 这个模型 only gains a bonus to its save in cover if at least half of the 模型 is obscured from the firer.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 can 撤退 in the 移动阶段 and still shoot and/or charge during its turn. When 这个模型 撤退, it can move over 敌方 步兵模型, though at the end of its move it 必须 more than 1寸 away from 所有 敌方单位. 这个模型 can fire its 射击 武器 even if there are 敌方模型 范围内 1寸 unless those 敌方模型 are TITANIC. 这种情况下, it can shoot the 敌方单位 that is 范围内 1寸 of it or any other 可见 敌方单位 that is 范围内 range and more than 1寸 away from any 友方模型. 此外, 这个模型 can move and fire 重型武器 without any penalty to its hit rolls. Finally, 这个模型 only gains a bonus to its save in cover if at least half of the 模型 is obscured from the firer.</characteristic>
       </characteristics>
     </profile>
-    <profile id="b18f-3b99-479f-3612" name="泰坦 Void Shields" publicationId="f944-98a5-pubN65537" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="b18f-3b99-479f-3612" name="泰坦虚空盾" publicationId="f944-98a5-pubN65537" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Titans are protected by specialised 虚空盾 generators, near-impenetrable barriers of force projected out at a distance from their hulls in layers, and designed to deflect and absorb the impact of high-energy 攻击 and missiles 对抗 them. In game terms, 泰坦 void shields are represented by a unique kind of saving throw which the controlling player can opt to use 而不是 their normal save or 特殊保护 对抗 any form of attack except from 武器 with the Melee type. Like 特殊保护, 泰坦 虚空盾 saves are unaffected by the AP of an attack, but unlike 特殊保护 they may also be used to negate 致命伤. 这种情况下 然而, roll one dice for 每个致命伤 that has been inflicted on the 泰坦, with the 致命伤 being ignored if the save roll is passed. 泰坦 void shields 必须 continuously reenergised and renewed in combat operations and so as the 泰坦 is damaged, the defensive potential of its void shields is reduced.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Titans are protected by specialised 虚空盾发射器, near-impenetrable barriers of force projected out at a distance from their hulls in layers, and designed to deflect and absorb the impact of high-energy 攻击 and missiles 对抗 them. In game terms, 泰坦虚空盾 are represented by a unique kind of saving throw which the controlling player can opt to use 而不是 their normal save or 特殊保护 对抗 any form of attack except from 武器 with the Melee type. Like 特殊保护, 泰坦 虚空盾 saves are unaffected by the AP of an attack, but unlike 特殊保护 they may also be used to negate 致命伤. 这种情况下 然而, roll one dice for 每个致命伤 that has been inflicted on the 泰坦, with the 致命伤 being ignored if the save roll is passed. 泰坦虚空盾 必须 continuously reenergised and renewed in combat operations and so as the 泰坦 is damaged, the defensive potential of its void shields is reduced.</characteristic>
       </characteristics>
     </profile>
     <profile id="9492-d2be-1544-faf6" name="Icon of Imperial Might" publicationId="f944-98a5-pubN65537" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">All 敌方模型 范围内 9寸 add an additional D6 to the result of any 士气测试.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">所有 敌方模型 范围内 9寸 add an additional D6 to the result of any 士气测试.</characteristic>
       </characteristics>
     </profile>
     <profile id="3b6e-b7a5-153f-5929" name="Titanic Gait" publicationId="f944-98a5-pubN65537" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -1284,7 +1284,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">x2</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-5</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">12</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If you slay a 载具 or MONSTER that does not have the TITANIC 关键字 with the Arioch 泰坦 power claw, select an 敌方单位 范围内 12寸 and 投掷1个D6; 结果为4+ 那个单位 遭受 D6 致命伤 as the dead body or debris is thrown at it.</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If you slay a 载具 or 巨兽 that does not have the TITANIC 关键字 with the Arioch 泰坦 power claw, select an 敌方单位 范围内 12寸 and 投掷1个D6; 结果为4+ 那个单位 遭受 D6 致命伤 as the dead body or debris is thrown at it.</characteristic>
       </characteristics>
     </profile>
     <profile id="7676-9998-283f-a8bd" name="泰坦 Mega-Bolter" publicationId="f944-98a5-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">

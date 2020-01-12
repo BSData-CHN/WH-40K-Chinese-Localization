@@ -59,7 +59,7 @@ __Previous editions__: _However we don't support older editions actively, the fi
   
   [![Chat on Discord](https://img.shields.io/discord/558412685981777922.svg?logo=discord&style=popout-square)](https://discord.gg/KqPVhds)
  
-  _Otherwise, the easiest way is through issues mentioned above. We are a community and that's the only place we all have access to. We don't have any group e-mail. So if you want to stay anonymous, contact us by reporting bug on Appspot (point 1 above)._
+  _Otherwise, the easiest way is through issues mentioned above. We are a community and that's the only place we 所有 have access to. We don't have any group e-mail. So if you want to stay anonymous, contact us by reporting bug on Appspot (point 1 above)._
 
 [Report it on Appspot]: http://battlescribedata.appspot.com/#/repo/wh40k
 [Open Issue directly]: https://github.com/BSData/wh40k/issues

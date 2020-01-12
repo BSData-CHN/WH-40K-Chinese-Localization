@@ -3,9 +3,9 @@
   <publications>
     <publication id="28ec-711c-pubN72690" name="Warhammer 40,000 Rulebook"/>
     <publication id="28ec-711c-pubN73170" name="CA 2017"/>
-    <publication id="28ec-711c-pubN77581" name="索引: Imperium 2"/>
-    <publication id="28ec-711c-pubN78977" name="索引: Imperium 1"/>
-    <publication id="28ec-711c-pubN91434" name="帝国装甲 - 索引: Astra Militarum"/>
+    <publication id="28ec-711c-pubN77581" name="索引: 帝国 2"/>
+    <publication id="28ec-711c-pubN78977" name="索引: 帝国 1"/>
+    <publication id="28ec-711c-pubN91434" name="帝国装甲 - 索引: 星界军"/>
     <publication id="28ec-711c-pubN97206" name="warhammer_40000_termite_assault_drill_en-2.pdf"/>
     <publication id="28ec-711c-pubN98266" name="帝国 Nihilus: Vigilus Defiant"/>
     <publication id="28ec-711c-pubN110542" name="白矮人 Feb 2019"/>
@@ -2260,7 +2260,7 @@
       <profiles>
         <profile id="808f-d24a-ba7c-7d24" name="Stalwart Defence" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the LD characteristic of 模型 in IMPERIUM 步兵单位 whilst their 单位 is 范围内 an Imperial Defence Line.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the LD characteristic of 模型 in 帝国 步兵单位 whilst their 单位 is 范围内 an Imperial Defence Line.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2365,7 +2365,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-                <characteristic name="能力" typeId="837d-5e63-aeb7-1410">每次 you roll a hit roll of 1 when firing 这个武器, 这个模型 遭受 1点致命伤 after all of its shots have been resolved.</characteristic>
+                <characteristic name="能力" typeId="837d-5e63-aeb7-1410">每次 you roll a hit roll of 1 when firing 这个武器, 这个模型 遭受 1点致命伤 after 所有 of its shots have been resolved.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4264,20 +4264,20 @@
         <infoLink id="4231-88a3-9766-c5ab" name="Immobile" hidden="false" targetId="8830-2c9e-ad7e-e57d" type="profile"/>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="279b-3e86-f8f2-3cd6" name="Dual 涡轮激光毁灭者" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="279b-3e86-f8f2-3cd6" name="双管涡轮激光毁灭者" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b62f-357c-6080-23b4" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db4c-b408-1839-18b0" type="max"/>
           </constraints>
           <profiles>
-            <profile id="021d-ee95-1021-9783" name="Dual 涡轮激光毁灭者" publicationId="28ec-711c-pubN91434" page="112" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+            <profile id="021d-ee95-1021-9783" name="双管涡轮激光毁灭者" publicationId="28ec-711c-pubN91434" page="112" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="射程" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">96寸</characteristic>
-                <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Macro 2D3</characteristic>
+                <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">宏 2D3</characteristic>
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">16</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2D6</characteristic>
-                <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Any wound roll of 6 made with this attack automatically inflicts D3 致命伤 on the target.</characteristic>
+                <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Any wound roll of 6 made with this attack automatically inflicts D3 致命伤 对目标.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4576,7 +4576,7 @@
       </constraints>
       <rules>
         <rule id="fab9-a916-c240-4ff4" name="测试规则" hidden="false">
-          <description>Units marked with 寸(Beta)寸 use rules that reflect an early version of the development process and are entirely experimental and subject to change in future publications. As such, these 单位 are best tested with the agreement of all players involved.</description>
+          <description>Units marked with 寸(Beta)寸 use rules that reflect an early version of the development process and are entirely experimental and subject to change in future publications. As such, these 单位 are best tested with the agreement of 所有 players involved.</description>
         </rule>
       </rules>
       <costs>
@@ -4630,7 +4630,7 @@
         </profile>
         <profile id="0fff-6dcb-d884-e8df" name="Webway Strike" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">After you set up 这个模型, any 艾尔达 单位 you have not yet set up 部署期间, other than fortifications, can be set up in a webway spar rather than being set up 战场上. One 单位 in a webway spar can emerge from each 友方 Webway Gate at the end of each of your 移动阶段 - Set them up wholly 范围内 3寸 of the webway gate and more than 9寸 away from 任何敌方模型. If all friendlyWebway Gates have been destroyed, 任何单位 that have not yet arrived from a webway spar are considered to be slain</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">After you set up 这个模型, any 艾尔达 单位 you have not yet set up 部署期间, other than fortifications, can be set up in a webway spar rather than being set up 战场上. One 单位 in a webway spar can emerge from each 友方 Webway Gate at the end of each of your 移动阶段 - Set them up wholly 范围内 3寸 of the webway gate and more than 9寸 away from 任何敌方模型. If 所有 friendlyWebway Gates have been destroyed, 任何单位 that have not yet arrived from a webway spar are considered to be slain</characteristic>
           </characteristics>
         </profile>
         <profile id="1b16-1941-d120-15ee" name="Webway Gate" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -5629,7 +5629,7 @@
       <profiles>
         <profile id="504b-fc17-56ce-c8b8" name="刺客出击许可" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can only use this Stratagem if your 主将 has the IMPERIUM Faction 关键字 (excluding FALLEN) and your army does not contain any OFFICIO ASSASSINORUM units. Use this Stratagem 部署期间. Add 1 OFFICIO ASSASSINORUM 单位 of your choice to your army. Remember that in a matched play game, you must pay reinforcement points for any new 单位 added to your army. You can only use this Stratagem 一次性.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can only use this Stratagem if your 主将 has the 帝国 Faction 关键字 (excluding FALLEN) and your army does not contain any OFFICIO ASSASSINORUM units. Use this Stratagem 部署期间. Add 1 OFFICIO ASSASSINORUM 单位 of your choice to your army. Remember that in a matched play game, you must pay reinforcement points for any new 单位 added to your army. You can only use this Stratagem 一次性.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6011,7 +6011,7 @@
               <profiles>
                 <profile id="f47e-d1cb-787e-cfc4" name="3. Urban Warrior" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个主将 treats all soft cover it is entirely on or within, or that it is receiving the benefit of cover from, as hard cover (pg 30). 此外, 敌方单位 do not receive the benefit to their saving throws for being in cover 对抗 攻击 made by 这个主将.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个主将 treats 所有 soft cover it is entirely on or within, or that it is receiving the benefit of cover from, as hard cover (pg 30). 此外, 敌方单位 do not receive the benefit to their saving throws for being in cover 对抗 攻击 made by 这个主将.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -6119,7 +6119,7 @@
                   <profiles>
                     <profile id="2cfd-c772-8ded-a00b" name="12: Beast Hunter" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投失败的造伤骰 for 攻击 made by 这个模型 in the 肉搏阶段 if the target is a MONSTER unit.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投失败的造伤骰 for 攻击 made by 这个模型 in the 肉搏阶段 if the target is a 巨兽 unit.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6136,7 +6136,7 @@
                   <profiles>
                     <profile id="ef93-d404-8371-48a4" name="13: Heroic" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 can perform a Heroic Intervention if, after the 敌方 has completed all of their charge moves, it is 范围内 6寸 of any 敌方单位, and 可以移动至多 6寸 when doing so.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 can perform a Heroic Intervention if, after the 敌方 has completed 所有 of their charge moves, it is 范围内 6寸 of any 敌方单位, and 可以移动至多 6寸 when doing so.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6255,7 +6255,7 @@
                   <profiles>
                     <profile id="0184-00c1-f033-65cd" name="24: Sundering Shots" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each wound roll of 6+ made for 这个模型’s ranged 攻击 inflicts 1 致命伤 on the target 此外 to any normal damage.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each wound roll of 6+ made for 这个模型’s ranged 攻击 inflicts 1 致命伤 对目标 此外 to any normal damage.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6374,7 +6374,7 @@
                   <profiles>
                     <profile id="eede-37c4-cc49-3cec" name="35: Indomitable" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">All damage suffered by 这个模型 is halved (rounding up). </characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">所有 damage suffered by 这个模型 is halved (rounding up). </characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6595,7 +6595,7 @@
                   <profiles>
                     <profile id="28fd-c8a4-00d9-3c19" name="56: Savage Riposte" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 you roll an unmodified saving throw of 6 for 这个模型 in the 肉搏阶段, the 敌方单位 that made the attack 遭受 1 致命伤 after it has resolved all of its 攻击.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 you roll an unmodified saving throw of 6 for 这个模型 in the 肉搏阶段, the 敌方单位 that made the attack 遭受 1 致命伤 after it has resolved 所有 of its 攻击.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7454,7 +7454,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="2692-574e-f6c5-84d8" name="Monster Honours" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="2692-574e-f6c5-84d8" name="巨兽 Honours" hidden="false" collective="false" import="true">
           <modifiers>
             <modifier type="increment" field="9a19-d62b-c4a3-1bab" value="1">
               <conditions>
@@ -7549,7 +7549,7 @@
               <profiles>
                 <profile id="05ff-d770-fe4f-990e" name="R2: Lashing Limbs" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 you roll an unmodified saving throw of 6 for 这个模型 in the 肉搏阶段, the 敌方单位 that made that attack 遭受 1 致命伤 after it has resolved all of its 攻击. </characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 you roll an unmodified saving throw of 6 for 这个模型 in the 肉搏阶段, the 敌方单位 that made that attack 遭受 1 致命伤 after it has resolved 所有 of its 攻击. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7880,7 +7880,7 @@
       <description>If a target 遭受 an unsaved Wound from a close combat attack made by 这个模型, the target is reduced to 0 Wounds and is removed as a casualty.</description>
     </rule>
     <rule id="2053-118c-c2b7-c8ac" name="Executioner" hidden="false">
-      <description>这个模型 re-rolls all failed To Wound rolls 对抗 targets with a Wounds characteristic of 2 or more.</description>
+      <description>这个模型 re-rolls 所有 failed To Wound rolls 对抗 targets with a Wounds characteristic of 2 or more.</description>
     </rule>
     <rule id="74b3-2e30-9d76-a958" name="Infiltrator" hidden="false">
       <description>部署期间, 这个单位 can be set up 任何位置 战场上 that is not 范围内 your opponent&apos;s 部署区 and is more than 12寸 from any 敌方单位.</description>
@@ -7922,7 +7922,7 @@
       <description>The 5 CPs from this detachment can only be spent on Stronghold Assault Stratagems.</description>
     </rule>
     <rule id="5a7e-f984-487c-d767" name="爆弹训练" publicationId="28ec-711c-pubN110542" hidden="false">
-      <description>All 阿斯塔特修会 and 阿斯塔特叛军 模型 gain this ability. 而不是 following the normal rules for 速射 武器, 速射爆弹武器 used by 模型 with this ability make double the number of 攻击 if any of the following conditions apply: 1) The firing 模型的 target is 范围内 half the weapon&apos;s maximum range. 2)    The firing 模型 is 步兵 and every 模型 in its 单位 remained stationary in your previous 移动阶段. 3) The firing 模型 is a 终结者, 摩托, 百夫长, or 无畏. For the purposes of this ability a 速射爆弹武器 is any weapon with the 速射 type whose name includes the word &apos;bolt&apos; (e.g. 爆弹枪, 爆弹步枪, 风暴爆弹, 复合爆弹, 飓风爆弹, 地狱爆弹枪, etc.) This also applies when firing the 爆弹枪 profile of a combi-weapon (including the 爆弹武器 profile of Relics such as Blood Song and the Lion&apos;s Wrath) and when firing relics that replace a 速射爆弹武器, so long as the 圣物 is also a rapid-fire weapon (e.g. Primarch&apos;s Wrath, Fury of Deimos, etc) The gauntlets of ultramar and the Talon of Horus are also considered 速射爆弹武器, as is the 卫士之矛 used by Deathwatch Watch Masters.</description>
+      <description>所有 阿斯塔特修会 and 阿斯塔特叛军 模型 gain this ability. 而不是 following the normal rules for 速射 武器, 速射爆弹武器 used by 模型 with this ability make double the number of 攻击 if any of the following conditions apply: 1) The firing 模型的 target is 范围内 half the weapon&apos;s maximum range. 2)    The firing 模型 is 步兵 and every 模型 in its 单位 remained stationary in your previous 移动阶段. 3) The firing 模型 is a 终结者, 摩托, 百夫长, or 无畏. For the purposes of this ability a 速射爆弹武器 is any weapon with the 速射 type whose name includes the word &apos;bolt&apos; (e.g. 爆弹枪, 爆弹步枪, 风暴爆弹, 复合爆弹, 飓风爆弹, 地狱爆弹枪, etc.) This also applies when firing the 爆弹枪 profile of a combi-weapon (including the 爆弹武器 profile of Relics such as Blood Song and the Lion&apos;s Wrath) and when firing relics that replace a 速射爆弹武器, so long as the 圣物 is also a rapid-fire weapon (e.g. Primarch&apos;s Wrath, Fury of Deimos, etc) The gauntlets of ultramar and the Talon of Horus are also considered 速射爆弹武器, as is the 卫士之矛 used by Deathwatch Watch Masters.</description>
     </rule>
     <rule id="01a4-bec8-b573-fde7" name="死亡天使" hidden="false">
       <description>这个单位 has the following abilities: And They Shall Know No Fear, Bolter Discipline, Shock Assault and Combat Doctrines.’</description>
@@ -8587,7 +8587,7 @@
     </profile>
     <profile id="e144-1293-ec28-d3a9" name="虚空盾" publicationId="28ec-711c-pubN113754" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each hit scored 对抗 the 模型 will instead hit a 虚空盾 (whilst they remain). Close combat 攻击 come from inside the shield and therefore are not stopped. Void shields have an Armour Value of 12. A glancing or penetrating hit (or any hit from a Destroyer weapon) scored 对抗 a 虚空盾 causes it to collapse. After all the void shields have collapsed, further hits strike the 模型 instead. At the end of each of the controlling player&apos;s turns, roll one dice for each collapsed void  shield: each roll of 5+ instantly restores one collapsed shield.  If a weapon uses a template or blast marker and it hits one or more 单位 protected by a 虚空盾 Zone, ignore the number of hits it would normally cause to the units, instead roll to pen the 虚空盾 once using the 武器 normal rules, profile for each template or blast marker that hits.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each hit scored 对抗 the 模型 will instead hit a 虚空盾 (whilst they remain). Close combat 攻击 come from inside the shield and therefore are not stopped. Void shields have an Armour Value of 12. A glancing or penetrating hit (or any hit from a Destroyer weapon) scored 对抗 a 虚空盾 causes it to collapse. After 所有 the void shields have collapsed, further hits strike the 模型 instead. At the end of each of the controlling player&apos;s turns, roll one dice for each collapsed void  shield: each roll of 5+ instantly restores one collapsed shield.  If a weapon uses a template or blast marker and it hits one or more 单位 protected by a 虚空盾 Zone, ignore the number of hits it would normally cause to the units, instead roll to pen the 虚空盾 once using the 武器 normal rules, profile for each template or blast marker that hits.</characteristic>
       </characteristics>
     </profile>
     <profile id="31ba-2b94-6600-22f3" name="Magos Machine Spirit" publicationId="28ec-711c-pubN113754" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -8617,7 +8617,7 @@
     </profile>
     <profile id="4a45-65e5-2d8c-8792" name="Tank Traps" publicationId="28ec-711c-pubN113754" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Impassable Terrain to non-Skimmer 载具, Dangerous Terrain to Bikes, and open ground for all other units. A 模型 in cover behind tank traps hasa 4+ cover save.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Impassable Terrain to non-Skimmer 载具, Dangerous Terrain to Bikes, and open ground for 所有 other units. A 模型 in cover behind tank traps hasa 4+ cover save.</characteristic>
       </characteristics>
     </profile>
     <profile id="1da7-2e0b-0114-762c" name="炮座" publicationId="28ec-711c-pubN113754" page="" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
@@ -8685,7 +8685,7 @@
     </profile>
     <profile id="7571-d9f2-17b0-c3e0" name="Imperial Statuary" publicationId="28ec-711c-pubN113754" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A 模型 from the Armies of the Imperium that is 范围内 2寸 of Imperial Statuary terrain has the Fearless special rule. A 模型 in cover behind Imperial Statuary 拥有 3+ cover save.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A 模型 from the Armies of the 帝国 that is 范围内 2寸 of Imperial Statuary terrain has the Fearless special rule. A 模型 in cover behind Imperial Statuary 拥有 3+ cover save.</characteristic>
       </characteristics>
     </profile>
     <profile id="7d5c-1af6-942c-8ca2" name="Wreckage and Rubble" publicationId="28ec-711c-pubN113754" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">

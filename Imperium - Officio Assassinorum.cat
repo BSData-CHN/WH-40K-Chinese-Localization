@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="f731-6aa6-c141-8937" name="帝国 - Officio Assassinorum" revision="1" battleScribeVersion="2.03" authorName="BSData-CHN" authorContact="Discord: @Alphalas | Twitter: @kingoverlord" authorUrl="https://github.com/BSData-CHN" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
-    <publication id="f731-6aa6-pubN65537" name="索引: Imperium 2"/>
+    <publication id="f731-6aa6-pubN65537" name="索引: 帝国 2"/>
     <publication id="f731-6aa6-pubN66377" name="圣典: Officio Assassinorum"/>
   </publications>
   <categoryEntries>
@@ -141,7 +141,7 @@
           </constraints>
           <rules>
             <rule id="04cf-3693-e46d-116a" name="Stratagem (Culexus) Soul 惧妖 - 2 CP" hidden="false">
-              <description>Use this Stratagem at the start of the 肉搏阶段. Choose one CULEXUS ASSASSIN from your army. 敌方单位 范围内 3寸 of that 模型 不能 chosen to fight 这个阶段 until after all other 单位 have done so, even if they charged. If one of those 单位 has an ability that allows them to fight first 这个阶段, they instead fight in 这个阶段 as if they do not have that ability.</description>
+              <description>Use this Stratagem at the start of the 肉搏阶段. Choose one CULEXUS ASSASSIN from your army. 敌方单位 范围内 3寸 of that 模型 不能 chosen to fight 这个阶段 until after 所有 other 单位 have done so, even if they charged. If one of those 单位 has an ability that allows them to fight first 这个阶段, they instead fight in 这个阶段 as if they do not have that ability.</description>
             </rule>
             <rule id="2802-7ced-96c6-a859" name="Stratagem (Culexus) Pariah&apos;s Gaze - 1 CP" hidden="false">
               <description>Use this Stratagem in your 射击阶段, before choosing a CULEXUS ASSASSIN to shoot with. 直到阶段结束, the Damage charateristic of that 模型的 ranged 武器 is increased to D3.</description>
@@ -194,7 +194,7 @@
               <description>Use this Stratagem in your 射击阶段, after a VINDICARE ASSASSIN from your army shoots. That 模型 can shoot one additional time 这个阶段 (this 必须 at a different target).</description>
             </rule>
             <rule id="c804-6fed-64cd-efa2" name="Stratagem (Vindicare) Turbo-Penetrator Round - 1 CP" hidden="false">
-              <description>Use this Stratagem in your 射击阶段, after an attack made with an exitus pistol or extus rifle by a VINDICARE ASSASSIN from your army scores a hit 对抗 a target that is either a 载具 or a MONSTER. Do not make a wound roll for that attack; instead that hit inflicts D3 致命伤 on the target. If this stratagem is used then the Head Shot ability dies not apply to that attack.</description>
+              <description>Use this Stratagem in your 射击阶段, after an attack made with an exitus pistol or extus rifle by a VINDICARE ASSASSIN from your army scores a hit 对抗 a target that is either a 载具 or a 巨兽. Do not make a wound roll for that attack; instead that hit inflicts D3 致命伤 对目标. If this stratagem is used then the Head Shot ability dies not apply to that attack.</description>
             </rule>
           </rules>
           <costs>
@@ -663,7 +663,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">*</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">*</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">*</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 does not inflict any damage on the target. Instead, if a 单位 is hit by any blind grenades, your opponent must subtract 1 from 所有命中骰 made until the end of the turn.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 does not inflict any damage 对目标. Instead, if a 单位 is hit by any blind grenades, your opponent must subtract 1 from 所有命中骰 made until the end of the turn.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -686,7 +686,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">特殊保护 不能 taken 对抗 a wound inflicted by 这个武器. 这个武器 inflicts wounds 对抗 步兵单位 on 2+</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">特殊保护 不能 taken 对抗 a wound inflicted by 这个武器. 这个武器 inflicts wounds 对抗步兵单位 on 2+</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -709,7 +709,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">特殊保护 不能 taken 对抗 a wound inflicted by 这个武器. 这个武器 inflicts wounds 对抗 步兵单位 on 2+</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">特殊保护 不能 taken 对抗 a wound inflicted by 这个武器. 这个武器 inflicts wounds 对抗步兵单位 on 2+</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -764,7 +764,7 @@
       <description>A 模型 with this special rule 拥有 4+ 特殊保护.</description>
     </rule>
     <rule id="2dc4-c403-ca18-9344" name="Execution Force" page="" hidden="false">
-      <description>So long as your 主将 is from the IMPERIUM, you can include 这个单位 in a Vanguard Detachment even if that Detachment contains no HQ units. 然而, if you do so, that Detachment&apos;s Command Benefits are changed to &apos;None&apos; unless that Detachment contains exactly 1 of each assassin.</description>
+      <description>So long as your 主将 is from the 帝国, you can include 这个单位 in a Vanguard Detachment even if that Detachment contains no HQ units. 然而, if you do so, that Detachment&apos;s Command Benefits are changed to &apos;None&apos; unless that Detachment contains exactly 1 of each assassin.</description>
     </rule>
   </sharedRules>
 </catalogue>
