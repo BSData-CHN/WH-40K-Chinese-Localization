@@ -1941,7 +1941,7 @@
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">-</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">-</characteristic>
-                    <characteristic name="能力" typeId="837d-5e63-aeb7-1410">这个武器 may target 单位 that are not visible to the bearer, even when firing in accordance with the Automated 武器 ability. Each time you hit the target with 这个武器 it 遭受 D6 致命伤. If a model is wounded but but not slain by this attack, roll another dice; on a 6, the model 遭受 a further D6 致命伤.</characteristic>
+                    <characteristic name="能力" typeId="837d-5e63-aeb7-1410">这个武器 may target 单位 that are not 可见 to the bearer, even when firing in accordance with the Automated 武器 ability. Each time you hit the target with 这个武器 it 遭受 D6 致命伤. If a model is wounded but but not slain by this attack, roll another dice; on a 6, the model 遭受 a further D6 致命伤.</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="43f6-b40f-134b-8b48" name="Containment Failure" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -2438,7 +2438,7 @@
       <profiles>
         <profile id="4ca0-bdc4-9090-1647" name="Fully Automated 武器" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型&apos;s 武器 can only target the closest visible 敌方单位. Attacks made with the 四联 Icarus Lascannons can instead target the closest visible 敌方单位 that can FLY. In either case, if two or more 单位 are equally close, you can choose which is targeted.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型&apos;s 武器 can only target the closest 可见 敌方单位. Attacks made with the 四联 Icarus Lascannons can instead target the closest 可见 敌方单位 that can FLY. In either case, if two or more 单位 are equally close, you can choose which is targeted.</characteristic>
           </characteristics>
         </profile>
         <profile id="4e2c-1874-14f7-56d8" name="Vengeance Weapon Battery" publicationId="28ec-711c-pubN77581" page="132" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
@@ -4241,7 +4241,7 @@
         </profile>
         <profile id="51d4-df4c-ff22-356e" name="Battle Crew" publicationId="28ec-711c-pubN91434" page="53" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You may add 1 to 这个模型&apos;s hit rolls when making shooting attacks against models with the TITANIC keyword.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You may add 1 to 这个模型&apos;s hit rolls when making shooting attacks against models with the TITANIC 关键字.</characteristic>
           </characteristics>
         </profile>
         <profile id="888f-fcce-8911-d3c3" name="Force Dome" publicationId="28ec-711c-pubN91434" page="53" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -5337,7 +5337,7 @@
       <profiles>
         <profile id="77bb-80fe-ed8e-125a" name="战地指挥官" publicationId="28ec-711c-pubN98266" page="169" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Use this Stratagem before the battle if you used any Specialist Detachment Stratagems when choosing your army. Choose one CHARACTER from your army that has gained a keyword from a Specialist Detachment Stratagem that is not your 主将 and is not a named character. You can give that character the 主将 Trait of the Specialist Detachment they are part of (note that this character is only regarded as your 主将 for the purpose of that 主将 Trait). This Stratagem can only be used once for each Specialist Detachment Stratagem you have used (spend 1 CP each time you use it). No two 人物 can have the same 主将 Trait.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Use this Stratagem before the battle if you used any Specialist Detachment Stratagems when choosing your army. Choose one CHARACTER from your army that has gained a 关键字 from a Specialist Detachment Stratagem that is not your 主将 and is not a named character. You can give that character the 主将 Trait of the Specialist Detachment they are part of (note that this character is only regarded as your 主将 for the purpose of that 主将 Trait). This Stratagem can only be used once for each Specialist Detachment Stratagem you have used (spend 1 CP each time you use it). No two 人物 can have the same 主将 Trait.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5629,7 +5629,7 @@
       <profiles>
         <profile id="504b-fc17-56ce-c8b8" name="刺客出击许可" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can only use this Stratagem if your 主将 has the IMPERIUM Faction keyword (excluding FALLEN) and your army does not contain any OFFICIO ASSASSINORUM units. Use this Stratagem 部署期间. Add 1 OFFICIO ASSASSINORUM 单位 of your choice to your army. Remember that in a matched play game, you must pay reinforcement points for any new 单位 added to your army. You can only use this Stratagem once per battle.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can only use this Stratagem if your 主将 has the IMPERIUM Faction 关键字 (excluding FALLEN) and your army does not contain any OFFICIO ASSASSINORUM units. Use this Stratagem 部署期间. Add 1 OFFICIO ASSASSINORUM 单位 of your choice to your army. Remember that in a matched play game, you must pay reinforcement points for any new 单位 added to your army. You can only use this Stratagem once per battle.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6612,7 +6612,7 @@
                   <profiles>
                     <profile id="5de9-d6de-958d-3236" name="61: Air Strike" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per battle, in your 射击阶段, you can pick an 敌方单位, other than a Characterunit, that is visible to 这个模型 and 投掷1个D6. On a 1-4 nothing happens. On a 5+ the target 单位 遭受 D3 致命伤.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per battle, in your 射击阶段, you can pick an 敌方单位, other than a Characterunit, that is 可见 to 这个模型 and 投掷1个D6. On a 1-4 nothing happens. On a 5+ the target 单位 遭受 D3 致命伤.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -9285,7 +9285,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">这个武器 can target 单位 that are not visible to the firing model.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">这个武器 can target 单位 that are not 可见 to the firing model.</characteristic>
       </characteristics>
     </profile>
     <profile id="f4df-b39c-08a7-5255" name="旋风 vengeance launcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -9295,7 +9295,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">7</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">这个武器 can target 单位 that are not visible to the firing model.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">这个武器 can target 单位 that are not 可见 to the firing model.</characteristic>
       </characteristics>
     </profile>
     <profile id="802b-8d1b-8b9f-41e2" name="Wrist-mounted grenade launcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -9527,7 +9527,7 @@
     </profile>
     <profile id="a179-f592-3224-72c9" name="Automated 武器" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Unless a 友方单位 is 上车 aboard 这个模型, it can only target the closest visible 敌方单位 when it makes attacks. If two or more 单位 are equally close, you can choose which is targeted.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Unless a 友方单位 is 上车 aboard 这个模型, it can only target the closest 可见 敌方单位 when it makes attacks. If two or more 单位 are equally close, you can choose which is targeted.</characteristic>
       </characteristics>
     </profile>
     <profile id="429b-91d2-8356-7150" name="Magazine Explosion" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -9552,7 +9552,7 @@
     </profile>
     <profile id="57f6-edd9-6170-5c91" name="自动武器 (炮架)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Unless a 友方 步兵模型 is 范围内 1寸 of 这个模型, 这个模型 can only target the closest visible 敌方单位 when it makes attacks. If two or more 单位 are equally close, you can choose which is targeted.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Unless a 友方 步兵模型 is 范围内 1寸 of 这个模型, 这个模型 can only target the closest 可见 敌方单位 when it makes attacks. If two or more 单位 are equally close, you can choose which is targeted.</characteristic>
       </characteristics>
     </profile>
     <profile id="c60f-7b10-88fd-9eba" name="静态防御网络 (Aegis)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -9634,7 +9634,7 @@
     </profile>
     <profile id="0f50-2ea2-b251-a213" name="Automated 武器 (Icarus)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Unless a 友方单位 is 上车 aboard 这个模型, 这个模型&apos;s 武器 can only target the closest visible 敌方单位. Attacks made with the Icarus 激光炮 can instead target the closest visible 敌方单位 that can FLY. In either case, if two or more 单位 are equally close, you may choose which is targeted.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Unless a 友方单位 is 上车 aboard 这个模型, 这个模型&apos;s 武器 can only target the closest 可见 敌方单位. Attacks made with the Icarus 激光炮 can instead target the closest 可见 敌方单位 that can FLY. In either case, if two or more 单位 are equally close, you may choose which is targeted.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
