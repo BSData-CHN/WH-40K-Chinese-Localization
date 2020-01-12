@@ -1369,7 +1369,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8f5-2427-f612-4e5d" type="min"/>
           </constraints>
           <profiles>
-            <profile id="d86f-a068-7c1d-eb51" name="Drach&apos;nyen" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="d86f-a068-7c1d-eb51" name="Drach&apos;nyen" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -1392,7 +1392,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bea4-eab0-07af-8805" type="min"/>
           </constraints>
           <profiles>
-            <profile id="a4ab-9110-9788-85c9" name="Talon of Horus (肉搏)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="a4ab-9110-9788-85c9" name="Talon of Horus (肉搏)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -1402,7 +1402,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
               </characteristics>
             </profile>
-            <profile id="e482-ccec-f9f8-10ed" name="Talon of Horus (射击)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="e482-ccec-f9f8-10ed" name="Talon of Horus (射击)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">速射 2</characteristic>
@@ -1510,10 +1510,10 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec9d-1b12-df92-4760" type="min"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="81a1-634f-6fb3-1eb1" name="Brutal assault weapon and Autopistol" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="81a1-634f-6fb3-1eb1" name="Brutal assault 武器 and Autopistol" hidden="false" collective="false" import="true" type="upgrade">
                   <infoLinks>
                     <infoLink id="c1bd-8f84-109b-63cb" name="Autopistol" hidden="false" targetId="2481-001b-00f9-501b" type="profile"/>
-                    <infoLink id="ca2d-a776-6d85-a538" name="Brutal assault weapon" hidden="false" targetId="4e93-ccd6-c332-0eeb" type="profile"/>
+                    <infoLink id="ca2d-a776-6d85-a538" name="Brutal assault 武器" hidden="false" targetId="4e93-ccd6-c332-0eeb" type="profile"/>
                   </infoLinks>
                   <costs>
                     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -1542,7 +1542,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5bd1-28a6-869e-161a" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="146a-71c8-d13a-5aa3" name="混沌 Cultist附带special weapon" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="146a-71c8-d13a-5aa3" name="混沌 Cultist附带special 武器" hidden="false" collective="false" import="true" type="model">
               <modifiers>
                 <modifier type="increment" field="e0df-8266-651c-8c10" value="1">
                   <repeats>
@@ -1571,12 +1571,12 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="6298-60d3-c71c-ede1" name="混沌 Cultist附带autopistol and brutal assault weapon" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="6298-60d3-c71c-ede1" name="混沌 Cultist附带autopistol and brutal assault 武器" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="29.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a8e-ae86-771c-a807" type="max"/>
               </constraints>
               <profiles>
-                <profile id="4cb2-a66f-860c-2b64" name="混沌 Cultist附带Brutal assault weapon" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+                <profile id="4cb2-a66f-860c-2b64" name="混沌 Cultist附带Brutal assault 武器" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
                   <characteristics>
                     <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
                     <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
@@ -1607,7 +1607,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 </selectionEntry>
               </selectionEntries>
               <entryLinks>
-                <entryLink id="627c-8cfc-fa9b-8012" name="Brutal assault weapon" hidden="false" collective="false" import="true" targetId="4b81-e0ea-7d80-4b64" type="selectionEntry">
+                <entryLink id="627c-8cfc-fa9b-8012" name="Brutal assault 武器" hidden="false" collective="false" import="true" targetId="4b81-e0ea-7d80-4b64" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5722-1a19-bf28-1ab9" type="min"/>
                   </constraints>
@@ -1818,7 +1818,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           </constraints>
         </entryLink>
         <entryLink id="09ea-c18c-74a5-467d" name="Mark of Chaos" hidden="false" collective="false" import="true" targetId="45e8-d3d1-105b-90a3" type="selectionEntryGroup"/>
-        <entryLink id="aef4-d477-9cb8-263a" name="混沌领主 Weapon options" hidden="false" collective="false" import="true" targetId="383d-d974-00a3-bd09" type="selectionEntryGroup"/>
+        <entryLink id="aef4-d477-9cb8-263a" name="混沌领主 武器 options" hidden="false" collective="false" import="true" targetId="383d-d974-00a3-bd09" type="selectionEntryGroup"/>
         <entryLink id="d2b5-bf29-6206-9dfa" name="Artefacts of Chaos" hidden="false" collective="false" import="true" targetId="5876-fcc5-8283-1aca" type="selectionEntryGroup"/>
         <entryLink id="c69c-1c9f-ce3a-d4a1" name="主将特性" hidden="false" collective="false" import="true" targetId="b34c-6c4b-d22c-25b5" type="selectionEntryGroup"/>
         <entryLink id="aac3-5cbd-74d9-5150" name="主将" hidden="false" collective="false" import="true" targetId="398a-c8da-c8bd-da58" type="selectionEntry">
@@ -1921,7 +1921,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           <selectionEntries>
             <selectionEntry id="76c9-26af-dbca-8448" name="猎食者自动炮" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="c0cf-ee9a-c500-8872" name="猎食者自动炮" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="c0cf-ee9a-c500-8872" name="猎食者自动炮" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48&quot;</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2D3</characteristic>
@@ -1943,7 +1943,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <entryLink id="4689-7cbe-6243-c589" name="双联激光炮" hidden="false" collective="false" import="true" targetId="ee18-b1cd-6b60-464d" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="6656-b5c9-6961-8ba7" name="2x Weapon options" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="6656-b5c9-6961-8ba7" name="2x 武器 options" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e8a-c578-e899-f285" type="max"/>
           </constraints>
@@ -2067,7 +2067,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             </profile>
           </profiles>
           <entryLinks>
-            <entryLink id="79c4-72af-ec7d-e116" name="终结者 Weapon Options" hidden="false" collective="false" import="true" targetId="f962-5557-bde3-d620" type="selectionEntryGroup"/>
+            <entryLink id="79c4-72af-ec7d-e116" name="终结者 武器 Options" hidden="false" collective="false" import="true" targetId="f962-5557-bde3-d620" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="23.0"/>
@@ -2110,7 +2110,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           <selectionEntries>
             <selectionEntry id="97bd-ee10-9c11-10b5" name="终结者" hidden="false" collective="false" import="true" type="model">
               <entryLinks>
-                <entryLink id="8351-d7bf-03c3-2aeb" name="终结者 Weapon Options" hidden="false" collective="false" import="true" targetId="f962-5557-bde3-d620" type="selectionEntryGroup"/>
+                <entryLink id="8351-d7bf-03c3-2aeb" name="终结者 武器 Options" hidden="false" collective="false" import="true" targetId="f962-5557-bde3-d620" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="23.0"/>
@@ -2118,7 +2118,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="50e5-a7e8-686b-ef1d" name="终结者附带Heavy Weapon" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="50e5-a7e8-686b-ef1d" name="终结者附带Heavy 武器" hidden="false" collective="false" import="true" type="model">
               <modifiers>
                 <modifier type="increment" field="348b-53c4-39df-f2ff" value="1">
                   <conditions>
@@ -2304,7 +2304,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dce7-e93c-17d3-b628" type="min"/>
           </constraints>
           <profiles>
-            <profile id="c6ca-1c29-fa99-6caa" name="Demolisher cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="c6ca-1c29-fa99-6caa" name="Demolisher cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy D6</characteristic>
@@ -2737,7 +2737,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db07-c7ab-daf1-6fc2" type="min"/>
           </constraints>
           <profiles>
-            <profile id="56a6-6b62-77e7-449c" name="Defiler claws" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="56a6-6b62-77e7-449c" name="Defiler claws" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -2764,7 +2764,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           <selectionEntries>
             <selectionEntry id="5502-7607-7594-2169" name="Defiler scourge" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="9375-4dd0-84e8-197d" name="Defiler scourge" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="9375-4dd0-84e8-197d" name="Defiler scourge" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -2897,7 +2897,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0c0a-0388-9a37-e3c8" type="max"/>
           </constraints>
           <profiles>
-            <profile id="fa6b-11bb-7597-86f0" name="Rod of Torment" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="fa6b-11bb-7597-86f0" name="Rod of Torment" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -2920,7 +2920,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c2be-8fbc-4daf-da4d" type="max"/>
           </constraints>
           <profiles>
-            <profile id="5128-679f-e58f-10c4" name="Xyclos Needler" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="5128-679f-e58f-10c4" name="Xyclos Needler" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18&quot;</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 3</characteristic>
@@ -3029,7 +3029,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           <selectionEntries>
             <selectionEntry id="1ac3-e9c5-4492-3370" name="2x Hades autocannons" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="c13b-d3b7-4e62-2e5c" name="Hades 自动炮" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="c13b-d3b7-4e62-2e5c" name="Hades 自动炮" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 4</characteristic>
@@ -3066,7 +3066,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           <selectionEntries>
             <selectionEntry id="c54c-410b-cf53-3d7c" name="恶魔 jaws" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="489d-1c39-ef8f-2767" name="恶魔 jaws" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="489d-1c39-ef8f-2767" name="恶魔 jaws" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -3179,7 +3179,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a847-f853-e999-7ee7" type="min"/>
           </constraints>
           <profiles>
-            <profile id="67f5-005c-e7a5-8ec7" name="Heldrake claws" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="67f5-005c-e7a5-8ec7" name="Heldrake claws" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -3198,7 +3198,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="2c11-c71e-03f2-53d0" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="cdbb-40a8-53ff-859a">
+        <selectionEntryGroup id="2c11-c71e-03f2-53d0" name="武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="cdbb-40a8-53ff-859a">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ad4c-5b37-5248-43e3" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ac72-4f68-de14-98ec" type="max"/>
@@ -3336,7 +3336,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c6e-126d-53d7-b35b" type="min"/>
           </constraints>
           <profiles>
-            <profile id="77b2-465a-ecf0-883c" name="Tyrant&apos;s Claw (肉搏)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="77b2-465a-ecf0-883c" name="Tyrant&apos;s Claw (肉搏)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -3346,7 +3346,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When attacking with 这个武器, you 必须 减少 1 from the 命中 roll.</characteristic>
               </characteristics>
             </profile>
-            <profile id="a9b9-b6db-778e-1140" name="Tyrant&apos;s Claw (射击)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="a9b9-b6db-778e-1140" name="Tyrant&apos;s Claw (射击)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">9&quot;</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault D6</characteristic>
@@ -3496,7 +3496,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a21-28a1-23a7-91f2" type="min"/>
           </constraints>
           <profiles>
-            <profile id="efb3-ca1b-0aeb-9adc" name="Gorechild" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="efb3-ca1b-0aeb-9adc" name="Gorechild" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -3519,7 +3519,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7cb1-46ab-c2dc-9819" type="min"/>
           </constraints>
           <profiles>
-            <profile id="28d5-6d01-2ac8-18fe" name="Kharn&apos;s plasma pistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="28d5-6d01-2ac8-18fe" name="Kharn&apos;s plasma pistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
@@ -3892,7 +3892,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53b3-317c-01d0-af7b" type="min"/>
           </constraints>
           <profiles>
-            <profile id="3439-dd2e-53b6-168f" name="Great cleaver of 恐虐 (Smash)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="3439-dd2e-53b6-168f" name="Great cleaver of 恐虐 (Smash)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -3902,7 +3902,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
               </characteristics>
             </profile>
-            <profile id="d4b9-8717-0237-471c" name="Great cleaver of 恐虐 (slash)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="d4b9-8717-0237-471c" name="Great cleaver of 恐虐 (slash)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -3929,7 +3929,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           <selectionEntries>
             <selectionEntry id="040f-4a8d-48c1-c23a" name="Gorestorm cannon" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="3e0c-f329-36b1-cefd" name="Gorestorm cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="3e0c-f329-36b1-cefd" name="Gorestorm cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18&quot;</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy D6</characteristic>
@@ -3948,7 +3948,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             </selectionEntry>
             <selectionEntry id="73b2-3a7c-0692-5257" name="Ichor cannon" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="0d45-836b-28b0-67ca" name="Ichor cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="0d45-836b-28b0-67ca" name="Ichor cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48&quot;</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy D6</characteristic>
@@ -3967,7 +3967,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             </selectionEntry>
             <selectionEntry id="c447-e5e2-639d-e404" name="Daemongore cannon" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="651b-3c05-bdcb-ed14" name="Daemongore cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="651b-3c05-bdcb-ed14" name="Daemongore cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18&quot;</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy D6</characteristic>
@@ -3994,7 +3994,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           <selectionEntries>
             <selectionEntry id="914b-7cb9-dc10-d88a" name="Hades gatling cannon" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="4b61-6f68-19f5-4d91" name="Hades gatling cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="4b61-6f68-19f5-4d91" name="Hades gatling cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48&quot;</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 12</characteristic>
@@ -4013,7 +4013,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             </selectionEntry>
             <selectionEntry id="008f-4c14-9981-a84a" name="Skullhurler" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="cd53-8dec-25b0-fcad" name="Skullhurler" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="cd53-8dec-25b0-fcad" name="Skullhurler" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">60&quot;</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy D6</characteristic>
@@ -4120,7 +4120,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81ad-7c90-96f9-d27d" type="min"/>
           </constraints>
           <profiles>
-            <profile id="8141-029f-df29-efec" name="Lash of Torment" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="8141-029f-df29-efec" name="Lash of Torment" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6&quot;</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2</characteristic>
@@ -4143,7 +4143,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c9a-a73d-45b0-a6f1" type="min"/>
           </constraints>
           <profiles>
-            <profile id="f460-6e1e-2b70-409b" name="精工动力剑" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="f460-6e1e-2b70-409b" name="精工动力剑" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -4259,7 +4259,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f729-3cb2-57bc-1ebd" type="max"/>
           </constraints>
           <profiles>
-            <profile id="bd34-20ab-2635-9a72" name="Maulerfiend fists" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="bd34-20ab-2635-9a72" name="Maulerfiend fists" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -4286,7 +4286,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           <selectionEntries>
             <selectionEntry id="bf84-888a-5fd0-afdd" name="2x Magma cutter" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="2f6e-e207-a83f-c788" name="Magma cutter" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="2f6e-e207-a83f-c788" name="Magma cutter" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6&quot;</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
@@ -4305,7 +4305,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             </selectionEntry>
             <selectionEntry id="dd67-54ba-d390-bd45" name="Lasher tendrils" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="e8ba-dd28-a8aa-c350" name="Lasher tendrils" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="e8ba-dd28-a8aa-c350" name="Lasher tendrils" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -4388,7 +4388,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4786-d316-c9e7-1baa" type="max"/>
               </constraints>
               <profiles>
-                <profile id="1471-0223-11b3-0af8" name="Fleshmetal 武器" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="1471-0223-11b3-0af8" name="Fleshmetal 武器" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -4476,7 +4476,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4db9-a7e3-a28c-ea39" type="max"/>
               </constraints>
               <profiles>
-                <profile id="46ff-853d-601e-6e92" name="Fleshmetal guns" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="46ff-853d-601e-6e92" name="Fleshmetal guns" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 6</characteristic>
@@ -4499,7 +4499,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cca2-8984-3a2f-d152" type="max"/>
               </constraints>
               <profiles>
-                <profile id="818a-9f84-311a-16eb" name="Crushing fists" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="818a-9f84-311a-16eb" name="Crushing fists" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -4611,7 +4611,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             </profile>
           </profiles>
           <selectionEntryGroups>
-            <selectionEntryGroup id="884c-1077-a77e-6986" name="Weapon Layout" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="884c-1077-a77e-6986" name="武器 Layout" hidden="false" collective="false" import="true">
               <constraints>
                 <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4362-fd04-d6f0-d58d" type="max"/>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c05-3e27-e7b5-81fd" type="min"/>
@@ -4757,7 +4757,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="1da3-b974-e930-0574" name="Plague Marine附带special weapon" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="1da3-b974-e930-0574" name="Plague Marine附带special 武器" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1bd6-2df2-9c82-a3b9" type="max"/>
               </constraints>
@@ -4773,7 +4773,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2f6-b437-2143-84b9" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="1850-e9f8-d5cb-bd1b" name="Blight launcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                        <profile id="1850-e9f8-d5cb-bd1b" name="Blight launcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                           <characteristics>
                             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
                             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2</characteristic>
@@ -4795,7 +4795,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6edd-b8fa-3455-caa7" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="839a-32af-e610-53c3" name="Plague belcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                        <profile id="839a-32af-e610-53c3" name="Plague belcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                           <characteristics>
                             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">9&quot;</characteristic>
                             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault D6</characteristic>
@@ -4817,7 +4817,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6582-ab9e-ce54-5619" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="9fb7-0745-ca6e-9712" name="Plague spewer" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                        <profile id="9fb7-0745-ca6e-9712" name="Plague spewer" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                           <characteristics>
                             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">9&quot;</characteristic>
                             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy D6</characteristic>
@@ -4901,7 +4901,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7b9-1c32-9fc6-245b" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="1c72-669c-fe4f-fa33" name="Bubotic Axe" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                        <profile id="1c72-669c-fe4f-fa33" name="Bubotic Axe" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                           <characteristics>
                             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -4934,7 +4934,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                         <constraint field="selections" scope="bfbb-5f37-6875-a0ef" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2aee-fe1e-23c1-30b3" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="f2a9-98cf-ea01-fe88" name="Bubotic Axe" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                        <profile id="f2a9-98cf-ea01-fe88" name="Bubotic Axe" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                           <characteristics>
                             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -4944,7 +4944,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                             <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">可以重投造伤骰 of 1 for 这个武器.</characteristic>
                           </characteristics>
                         </profile>
-                        <profile id="510c-f0f1-6120-4efc" name="Mace of Contagion and bubotic axe" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                        <profile id="510c-f0f1-6120-4efc" name="Mace of Contagion and bubotic axe" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                           <characteristics>
                             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -4974,7 +4974,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                         <constraint field="selections" scope="bfbb-5f37-6875-a0ef" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b131-7156-554d-f880" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="55b7-c155-3aad-98ce" name="Great plague cleaver" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                        <profile id="55b7-c155-3aad-98ce" name="Great plague cleaver" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                           <characteristics>
                             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -5007,7 +5007,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                         <constraint field="selections" scope="bfbb-5f37-6875-a0ef" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2227-0c29-9ee4-54ab" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="e1b4-af96-b5cd-d6ab" name="Flail of Corruption" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                        <profile id="e1b4-af96-b5cd-d6ab" name="Flail of Corruption" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                           <characteristics>
                             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -5498,7 +5498,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
       </categoryLinks>
       <entryLinks>
         <entryLink id="74f5-4fb6-351d-6048" name="Mark of Chaos" hidden="false" collective="false" import="true" targetId="45e8-d3d1-105b-90a3" type="selectionEntryGroup"/>
-        <entryLink id="ced5-948f-1966-c6bc" name="终结者 Lord Weapon options" hidden="false" collective="false" import="true" targetId="1e61-c295-d3da-17ef" type="selectionEntryGroup"/>
+        <entryLink id="ced5-948f-1966-c6bc" name="终结者 Lord 武器 options" hidden="false" collective="false" import="true" targetId="1e61-c295-d3da-17ef" type="selectionEntryGroup"/>
         <entryLink id="4ef8-24b8-87b8-c371" name="Artefacts of Chaos" hidden="false" collective="false" import="true" targetId="5876-fcc5-8283-1aca" type="selectionEntryGroup"/>
         <entryLink id="6ab3-3a96-6f3d-d6a3" name="主将" hidden="false" collective="false" import="true" targetId="398a-c8da-c8bd-da58" type="selectionEntry">
           <constraints>
@@ -5579,7 +5579,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           </constraints>
         </entryLink>
         <entryLink id="7da4-8292-707f-42db" name="Mark of Chaos" hidden="false" collective="false" import="true" targetId="45e8-d3d1-105b-90a3" type="selectionEntryGroup"/>
-        <entryLink id="f306-e063-2cba-628f" name="混沌领主 Weapon options" hidden="false" collective="false" import="true" targetId="383d-d974-00a3-bd09" type="selectionEntryGroup"/>
+        <entryLink id="f306-e063-2cba-628f" name="混沌领主 武器 options" hidden="false" collective="false" import="true" targetId="383d-d974-00a3-bd09" type="selectionEntryGroup"/>
         <entryLink id="48af-a397-ced0-57df" name="Artefacts of Chaos" hidden="false" collective="false" import="true" targetId="5876-fcc5-8283-1aca" type="selectionEntryGroup"/>
         <entryLink id="3ee6-8564-deec-ce67" name="主将" hidden="false" collective="false" import="true" targetId="398a-c8da-c8bd-da58" type="selectionEntry">
           <constraints>
@@ -5658,7 +5658,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a64-a86a-7b1a-153a" type="min"/>
           </constraints>
           <profiles>
-            <profile id="7404-8dc8-057c-c8fc" name="Blades on Disc of 奸奇" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="7404-8dc8-057c-c8fc" name="Blades on Disc of 奸奇" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -5686,7 +5686,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="904b-1aef-24df-68f3" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="9056-aab9-94b5-93fe" name="混沌领主 Weapon options" hidden="false" collective="false" import="true" targetId="383d-d974-00a3-bd09" type="selectionEntryGroup"/>
+        <entryLink id="9056-aab9-94b5-93fe" name="混沌领主 武器 options" hidden="false" collective="false" import="true" targetId="383d-d974-00a3-bd09" type="selectionEntryGroup"/>
         <entryLink id="3828-6a82-184b-516c" name="Artefacts of Chaos" hidden="false" collective="false" import="true" targetId="5876-fcc5-8283-1aca" type="selectionEntryGroup"/>
         <entryLink id="8f9d-a817-ed7b-0a80" name="主将" hidden="false" collective="false" import="true" targetId="398a-c8da-c8bd-da58" type="selectionEntry">
           <constraints>
@@ -5769,7 +5769,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad34-bf0e-5566-b4f6" type="min"/>
           </constraints>
           <profiles>
-            <profile id="c6e9-4cdc-7126-1578" name="Bladed horn on Juggernaut of 恐虐" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="c6e9-4cdc-7126-1578" name="Bladed horn on Juggernaut of 恐虐" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -5797,7 +5797,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e48-b11c-5cfd-b644" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="05ec-6492-d3a7-034e" name="混沌领主 Weapon options" hidden="false" collective="false" import="true" targetId="383d-d974-00a3-bd09" type="selectionEntryGroup"/>
+        <entryLink id="05ec-6492-d3a7-034e" name="混沌领主 武器 options" hidden="false" collective="false" import="true" targetId="383d-d974-00a3-bd09" type="selectionEntryGroup"/>
         <entryLink id="94e4-157b-30ae-8dec" name="Artefacts of Chaos" hidden="false" collective="false" import="true" targetId="5876-fcc5-8283-1aca" type="selectionEntryGroup"/>
         <entryLink id="fa6c-2149-d8a2-6c5c" name="主将" hidden="false" collective="false" import="true" targetId="398a-c8da-c8bd-da58" type="selectionEntry">
           <constraints>
@@ -5875,7 +5875,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eebc-6cac-d1da-3c64" type="min"/>
           </constraints>
           <profiles>
-            <profile id="1707-d1e0-3a9b-e1e8" name="纳垢灵&apos; claws and teeth" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="1707-d1e0-3a9b-e1e8" name="纳垢灵&apos; claws and teeth" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -5903,7 +5903,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5e4-a5ee-34b9-aa88" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="bbbb-1ab9-6a81-2fae" name="混沌领主 Weapon options" hidden="false" collective="false" import="true" targetId="383d-d974-00a3-bd09" type="selectionEntryGroup"/>
+        <entryLink id="bbbb-1ab9-6a81-2fae" name="混沌领主 武器 options" hidden="false" collective="false" import="true" targetId="383d-d974-00a3-bd09" type="selectionEntryGroup"/>
         <entryLink id="12dd-b1f3-a7a3-45f0" name="Artefacts of Chaos" hidden="false" collective="false" import="true" targetId="5876-fcc5-8283-1aca" type="selectionEntryGroup"/>
         <entryLink id="4da5-3df2-03d5-aaa7" name="主将" hidden="false" collective="false" import="true" targetId="398a-c8da-c8bd-da58" type="selectionEntry">
           <constraints>
@@ -5982,7 +5982,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d724-d375-f983-1490" type="min"/>
           </constraints>
           <profiles>
-            <profile id="4e06-8849-0660-7f5b" name="Lashing tongue on Steed of 色孽" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="4e06-8849-0660-7f5b" name="Lashing tongue on Steed of 色孽" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -6010,7 +6010,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e2c2-2312-c0e6-fa4d" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="e626-23e9-c1fc-ebed" name="混沌领主 Weapon options" hidden="false" collective="false" import="true" targetId="383d-d974-00a3-bd09" type="selectionEntryGroup"/>
+        <entryLink id="e626-23e9-c1fc-ebed" name="混沌领主 武器 options" hidden="false" collective="false" import="true" targetId="383d-d974-00a3-bd09" type="selectionEntryGroup"/>
         <entryLink id="8943-0d2f-1304-3ea2" name="Artefacts of Chaos" hidden="false" collective="false" import="true" targetId="5876-fcc5-8283-1aca" type="selectionEntryGroup"/>
         <entryLink id="7263-4668-770b-276c" name="主将" hidden="false" collective="false" import="true" targetId="398a-c8da-c8bd-da58" type="selectionEntry">
           <constraints>
@@ -6086,7 +6086,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           </constraints>
         </entryLink>
         <entryLink id="0793-889e-01fd-22fc" name="New EntryLink" hidden="false" collective="false" import="true" targetId="45e8-d3d1-105b-90a3" type="selectionEntryGroup"/>
-        <entryLink id="a8eb-ec31-a38e-fdb6" name="混沌领主 Weapon options" hidden="false" collective="false" import="true" targetId="383d-d974-00a3-bd09" type="selectionEntryGroup"/>
+        <entryLink id="a8eb-ec31-a38e-fdb6" name="混沌领主 武器 options" hidden="false" collective="false" import="true" targetId="383d-d974-00a3-bd09" type="selectionEntryGroup"/>
         <entryLink id="de7f-4484-175b-c449" name="Artefacts of Chaos" hidden="false" collective="false" import="true" targetId="5876-fcc5-8283-1aca" type="selectionEntryGroup"/>
         <entryLink id="bd2b-6514-0230-c074" name="主将" hidden="false" collective="false" import="true" targetId="398a-c8da-c8bd-da58" type="selectionEntry">
           <constraints>
@@ -6190,7 +6190,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1104-7dd1-152a-1043" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="7a4b-6275-85ef-c3a5" name="终结者 Sorcerer Weapon options" hidden="false" collective="false" import="true" targetId="e0ce-dbd2-b178-e542" type="selectionEntryGroup"/>
+        <entryLink id="7a4b-6275-85ef-c3a5" name="终结者 Sorcerer 武器 options" hidden="false" collective="false" import="true" targetId="e0ce-dbd2-b178-e542" type="selectionEntryGroup"/>
         <entryLink id="36b5-03b8-9fb1-921e" name="Artefacts of Chaos" hidden="false" collective="false" import="true" targetId="5876-fcc5-8283-1aca" type="selectionEntryGroup"/>
         <entryLink id="9426-d726-bbc3-d7f6" name="主将" hidden="false" collective="false" import="true" targetId="398a-c8da-c8bd-da58" type="selectionEntry">
           <constraints>
@@ -6444,7 +6444,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbcc-e593-2162-0582" type="min"/>
           </constraints>
           <profiles>
-            <profile id="e802-6c0a-1d5e-8e80" name="Blades on Disc of 奸奇" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="e802-6c0a-1d5e-8e80" name="Blades on Disc of 奸奇" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -6622,7 +6622,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ff5-5706-b6a8-9ca2" type="min"/>
           </constraints>
           <profiles>
-            <profile id="0376-c9ae-daf1-9c47" name="纳垢灵&apos; claws and teeth" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="0376-c9ae-daf1-9c47" name="纳垢灵&apos; claws and teeth" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -6801,7 +6801,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d89a-21d5-fe76-bb79" type="min"/>
           </constraints>
           <profiles>
-            <profile id="b802-fff8-dfbe-914c" name="Lashing tongue on Steed of 色孽" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="b802-fff8-dfbe-914c" name="Lashing tongue on Steed of 色孽" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -7167,7 +7167,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
     </selectionEntry>
     <selectionEntry id="7d05-2c25-26b8-d4da" name="Hellforged sword" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="b552-8132-846c-4f6f" name="Hellforged sword" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="b552-8132-846c-4f6f" name="Hellforged sword" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -7186,7 +7186,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
     </selectionEntry>
     <selectionEntry id="73f0-ec59-a8ea-4ce9" name="Daemonic axe" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="39e0-c127-e724-eb94" name="Daemonic axe" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="39e0-c127-e724-eb94" name="Daemonic axe" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -7205,7 +7205,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
     </selectionEntry>
     <selectionEntry id="ab5a-b591-31e2-e0d0" name="Malefic talon" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="d19b-c105-5510-3b01" name="Malefic talon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="d19b-c105-5510-3b01" name="Malefic talon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -7224,7 +7224,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
     </selectionEntry>
     <selectionEntry id="7aa9-b4b1-f87b-6ef6" name="Warp bolter" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="38c1-ce20-ee87-5728" name="Warp bolter" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="38c1-ce20-ee87-5728" name="Warp bolter" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2</characteristic>
@@ -7388,7 +7388,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="34ee-3726-87dd-5c39" name="Marine附带Heavy or Special Weapon" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="34ee-3726-87dd-5c39" name="Marine附带Heavy or Special 武器" hidden="false" collective="false" import="true" type="model">
               <modifiers>
                 <modifier type="increment" field="be18-d9ac-4df5-485e" value="1">
                   <conditions>
@@ -7400,12 +7400,12 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                     <condition field="selections" scope="7b61-1289-ed7e-24c1" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7fd9-f2cd-9698-9def" type="equalTo"/>
                   </conditions>
                 </modifier>
-                <modifier type="set" field="name" value="Marine附带heavy weapon">
+                <modifier type="set" field="name" value="Marine附带heavy 武器">
                   <conditions>
                     <condition field="selections" scope="34ee-3726-87dd-5c39" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5861-4fa9-dda8-a299" type="equalTo"/>
                   </conditions>
                 </modifier>
-                <modifier type="set" field="name" value="Marine附带special weapon">
+                <modifier type="set" field="name" value="Marine附带special 武器">
                   <conditions>
                     <condition field="selections" scope="34ee-3726-87dd-5c39" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="03a3-2c6a-81f8-0b1b" type="equalTo"/>
                   </conditions>
@@ -7596,7 +7596,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
     </selectionEntry>
     <selectionEntry id="c407-1eee-2aba-7b9d" name="Warpflamer" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="fd8e-4d3b-03d4-a3fb" name="Warpflamer" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="fd8e-4d3b-03d4-a3fb" name="Warpflamer" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">8&quot;</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault D6</characteristic>
@@ -7715,7 +7715,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd3a-a573-f549-445a" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="aa5a-5613-a4c6-db46" name="Chainaxe" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                        <profile id="aa5a-5613-a4c6-db46" name="Chainaxe" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                           <characteristics>
                             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -7884,14 +7884,14 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="a5dd-3378-0dbc-9a34" name="Chosen附带Heavy or Special weapon" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="a5dd-3378-0dbc-9a34" name="Chosen附带Heavy or Special 武器" hidden="false" collective="false" import="true" type="model">
               <modifiers>
-                <modifier type="set" field="name" value="Chosen附带heavy weapon">
+                <modifier type="set" field="name" value="Chosen附带heavy 武器">
                   <conditions>
                     <condition field="selections" scope="a5dd-3378-0dbc-9a34" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5c11-afb7-601e-c4f7" type="equalTo"/>
                   </conditions>
                 </modifier>
-                <modifier type="set" field="name" value="Chosen附带special weapon">
+                <modifier type="set" field="name" value="Chosen附带special 武器">
                   <conditions>
                     <condition field="selections" scope="a5dd-3378-0dbc-9a34" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="24c3-a247-1b9d-8b0e" type="equalTo"/>
                   </conditions>
@@ -8008,7 +8008,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="eb88-4c4f-5c79-c270" name="Chosen附带Combi or Special weapon" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="eb88-4c4f-5c79-c270" name="Chosen附带Combi or Special 武器" hidden="false" collective="false" import="true" type="model">
               <modifiers>
                 <modifier type="decrement" field="6002-094e-b10b-c3e5" value="1">
                   <repeats>
@@ -8025,7 +8025,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6002-094e-b10b-c3e5" type="max"/>
               </constraints>
               <selectionEntryGroups>
-                <selectionEntryGroup id="2495-1013-ca46-d9be" name="Weapon" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="2495-1013-ca46-d9be" name="武器" hidden="false" collective="false" import="true">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a26-b998-7828-f135" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="556a-1055-13e4-d450" type="min"/>
@@ -8191,7 +8191,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e2e-5699-2b75-313e" type="min"/>
               </constraints>
               <profiles>
-                <profile id="188c-fb04-846d-c886" name="Horrifying Mutations" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="188c-fb04-846d-c886" name="Horrifying Mutations" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -8369,7 +8369,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0850-7c34-0db8-d586" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="fcb4-8fa6-a612-46c3" name="Helbrute plasma cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                    <profile id="fcb4-8fa6-a612-46c3" name="Helbrute plasma cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                       <characteristics>
                         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
                         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy D3</characteristic>
@@ -8755,7 +8755,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
     </selectionEntry>
     <selectionEntry id="183a-a319-9ba3-541e" name="爆弹枪" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
-        <profile id="d623-88cb-eb9e-5d5c" name="爆弹枪" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="d623-88cb-eb9e-5d5c" name="爆弹枪" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">速射 1</characteristic>
@@ -8949,7 +8949,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52c9-573c-ceca-4739" type="min"/>
                   </constraints>
                   <profiles>
-                    <profile id="b050-a95f-8336-81d0" name="Sonic Blaster" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                    <profile id="b050-a95f-8336-81d0" name="Sonic Blaster" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                       <characteristics>
                         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
                         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 3</characteristic>
@@ -9005,7 +9005,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e19-4c8b-024e-b830" type="min"/>
                   </constraints>
                   <profiles>
-                    <profile id="ed1c-819b-4df9-cad0" name="Blastmaster, Single frequency" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                    <profile id="ed1c-819b-4df9-cad0" name="Blastmaster, Single frequency" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                       <characteristics>
                         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48&quot;</characteristic>
                         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy D3</characteristic>
@@ -9015,7 +9015,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">单位 targeted by 这个武器 do not gain any bonus to their saving throws for being in cover.</characteristic>
                       </characteristics>
                     </profile>
-                    <profile id="1fb2-1561-ff83-020c" name="Blastmaster, Varied frequency" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                    <profile id="1fb2-1561-ff83-020c" name="Blastmaster, Varied frequency" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                       <characteristics>
                         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
                         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault D6</characteristic>
@@ -9179,7 +9179,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
               <selectionEntries>
                 <selectionEntry id="2f71-9f4a-ff83-8312" name="Inferno Bolt Pistol" hidden="false" collective="false" import="true" type="upgrade">
                   <profiles>
-                    <profile id="f063-fa9d-ec68-ea46" name="Inferno Bolt Pistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                    <profile id="f063-fa9d-ec68-ea46" name="Inferno Bolt Pistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                       <characteristics>
                         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
                         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
@@ -9198,7 +9198,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 </selectionEntry>
                 <selectionEntry id="041a-b6b6-ab11-d022" name="Warpflame Pistol" hidden="false" collective="false" import="true" type="upgrade">
                   <profiles>
-                    <profile id="88ea-d095-4257-f8a0" name="Warpflame pistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                    <profile id="88ea-d095-4257-f8a0" name="Warpflame pistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                       <characteristics>
                         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6&quot;</characteristic>
                         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol D6</characteristic>
@@ -9254,7 +9254,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3653-4306-bf0f-348a" type="min"/>
                   </constraints>
                   <profiles>
-                    <profile id="fce7-4e91-3368-3cf8" name="地狱爆弹枪" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                    <profile id="fce7-4e91-3368-3cf8" name="地狱爆弹枪" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                       <characteristics>
                         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
                         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">速射 1</characteristic>
@@ -9289,7 +9289,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b8f-82ff-8ecd-9cae" type="min"/>
                   </constraints>
                   <profiles>
-                    <profile id="91d9-54b3-fc51-488c" name="Warpflamer" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                    <profile id="91d9-54b3-fc51-488c" name="Warpflamer" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                       <characteristics>
                         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">8&quot;</characteristic>
                         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault D6</characteristic>
@@ -9331,7 +9331,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0575-d6e7-56ba-4450" type="min"/>
                   </constraints>
                   <profiles>
-                    <profile id="e945-38cb-3007-9e4f" name="Soulreaper Cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                    <profile id="e945-38cb-3007-9e4f" name="Soulreaper Cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                       <characteristics>
                         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
                         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 4</characteristic>
@@ -9453,7 +9453,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5bc7-4367-95e2-7d3c" type="min"/>
               </constraints>
               <profiles>
-                <profile id="653f-f3d3-425c-3165" name="Hideous mutations" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="653f-f3d3-425c-3165" name="Hideous mutations" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -9862,7 +9862,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="0dad-680c-ae93-00c6" name="Raptor附带special weapon" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="0dad-680c-ae93-00c6" name="Raptor附带special 武器" hidden="false" collective="false" import="true" type="model">
               <modifiers>
                 <modifier type="decrement" field="dae7-104a-e0a4-123b" value="1">
                   <repeats>
@@ -10042,12 +10042,12 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4b81-e0ea-7d80-4b64" name="Brutal assault weapon" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="4b81-e0ea-7d80-4b64" name="Brutal assault 武器" hidden="false" collective="true" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="edf4-3db0-2c22-c22f" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="07fa-d9d9-8526-c6ea" name="Brutal assault weapon" hidden="false" targetId="4e93-ccd6-c332-0eeb" type="profile"/>
+        <infoLink id="07fa-d9d9-8526-c6ea" name="Brutal assault 武器" hidden="false" targetId="4e93-ccd6-c332-0eeb" type="profile"/>
       </infoLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -10147,7 +10147,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7ce-2ff3-e1e0-f6a2" type="max"/>
       </constraints>
       <profiles>
-        <profile id="5a7f-7f5f-3417-9ef9" name="Doom siren" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="5a7f-7f5f-3417-9ef9" name="Doom siren" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">8&quot;</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault D6</characteristic>
@@ -10287,7 +10287,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="0bed-85fa-7418-600a" name="Axe of Blind Fury" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="0bed-85fa-7418-600a" name="Axe of Blind Fury" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -10346,7 +10346,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="ca4e-6344-08d9-afe0" name="Puscleaver" publicationId="cb54-c035-pubN125652" page="162" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="ca4e-6344-08d9-afe0" name="Puscleaver" publicationId="cb54-c035-pubN125652" page="162" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -10396,7 +10396,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="cbea-4af2-a1a1-a4fe" name="The Black Mace" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="cbea-4af2-a1a1-a4fe" name="The Black Mace" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -10441,7 +10441,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="fa82-2b92-9900-32b9" name="The Murder Sword" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="fa82-2b92-9900-32b9" name="The Murder Sword" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -10477,7 +10477,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="2ff5-17f1-4ba8-6d8f" name="The Cursed Crozius" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="2ff5-17f1-4ba8-6d8f" name="The Cursed Crozius" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -10536,7 +10536,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="2ca7-efb3-10ee-fa09" name="Blade of the Hydra" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="2ca7-efb3-10ee-fa09" name="Blade of the Hydra" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -10567,7 +10567,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="ea6f-5e49-ae15-c402" name="Claws of the Black Hunt" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="ea6f-5e49-ae15-c402" name="Claws of the Black Hunt" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -10598,7 +10598,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="981c-1bb2-1ec0-c6a5" name="Blissgiver" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="981c-1bb2-1ec0-c6a5" name="Blissgiver" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6&quot;</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault D6</characteristic>
@@ -10663,9 +10663,9 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9bf3-b347-1435-a50e" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="b7d8-77a0-fab8-34e9" name="混沌领主 Weapon options" hidden="false" collective="false" import="true" targetId="383d-d974-00a3-bd09" type="selectionEntryGroup">
+        <entryLink id="b7d8-77a0-fab8-34e9" name="混沌领主 武器 options" hidden="false" collective="false" import="true" targetId="383d-d974-00a3-bd09" type="selectionEntryGroup">
           <modifiers>
-            <modifier type="set" field="name" value="Exalted Champion weapon options"/>
+            <modifier type="set" field="name" value="Exalted Champion 武器 options"/>
           </modifiers>
         </entryLink>
         <entryLink id="7877-848b-888b-74cd" name="Mark of Chaos" hidden="false" collective="false" import="true" targetId="45e8-d3d1-105b-90a3" type="selectionEntryGroup"/>
@@ -10757,7 +10757,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbea-9415-a9de-bfa5" type="min"/>
       </constraints>
       <profiles>
-        <profile id="1616-0e97-212f-895a" name="Hellblade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="1616-0e97-212f-895a" name="Hellblade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -11138,7 +11138,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="b6fd-dec4-df96-7baa" name="Helbrute fist" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="b6fd-dec4-df96-7baa" name="Helbrute fist" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -11206,7 +11206,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ca4-8c99-2ab9-d0f2" type="max"/>
           </constraints>
           <profiles>
-            <profile id="d94c-8d6a-f929-e681" name="Infernal axe" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="d94c-8d6a-f929-e681" name="Infernal axe" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -11286,7 +11286,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
     </selectionEntry>
     <selectionEntry id="f11c-8c9e-fefd-b211" name="Soulburner pistol" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="2d65-5dc4-b278-10f7" name="Soulburner pistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="2d65-5dc4-b278-10f7" name="Soulburner pistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 2</characteristic>
@@ -11305,7 +11305,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
     </selectionEntry>
     <selectionEntry id="0f3e-7891-f8c7-00c2" name="Voidcutter" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="fb0b-33b3-4fab-e78d" name="Voidcutter" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="fb0b-33b3-4fab-e78d" name="Voidcutter" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">8&quot;</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1</characteristic>
@@ -11349,7 +11349,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </profile>
         <profile id="7462-5880-32b3-e80f" name="Implacable" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 can only Advance D3&quot;, but ignores the -1 penalty to its 命中 骰 for moving and firing a Heavy weapon.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 can only Advance D3&quot;, but ignores the -1 penalty to its 命中 骰 for moving and firing a Heavy 武器.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11376,7 +11376,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c22-cd32-77fe-1a65" type="max"/>
           </constraints>
           <profiles>
-            <profile id="d16b-8e29-d716-fc74" name="Infernal axe" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="d16b-8e29-d716-fc74" name="Infernal axe" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -11405,14 +11405,14 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10e0-a55c-4705-ad19" type="max"/>
               </constraints>
               <profiles>
-                <profile id="3ccc-8782-a836-4b83" name="Warpfire lance" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="3ccc-8782-a836-4b83" name="Warpfire lance" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">15&quot;</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">heavy 2</characteristic>
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 you make a wound roll of 6+ for 这个武器, the weapon scores an additional automatic 命中 at the weapon&apos;s normal profile which is resolved after the initial 攻击 for the weapon on the same 单位. These additional 命中 do not themselves generate more additional 命中.</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 you make a wound roll of 6+ for 这个武器, the 武器 scores an additional automatic 命中 at the 武器&apos;s normal profile which is resolved after the initial 攻击 for the 武器 on the same 单位. These additional 命中 do not themselves generate more additional 命中.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -11550,7 +11550,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a18-769b-d931-d0c7" type="min"/>
           </constraints>
           <profiles>
-            <profile id="3024-ce93-793f-15f9" name="Black Blade of Venom" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="3024-ce93-793f-15f9" name="Black Blade of Venom" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -11681,7 +11681,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
     </selectionEntry>
     <selectionEntry id="fe38-d959-93c3-ce8f" name="Claw of Demnos" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="0371-e2ef-39b3-335d" name="Claw of Demnos" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="0371-e2ef-39b3-335d" name="Claw of Demnos" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -11700,7 +11700,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
     </selectionEntry>
     <selectionEntry id="75de-08c9-9efd-bb3d" name="Demnos bolter" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="e114-948a-bfe3-c0ba" name="Demnos bolter" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="e114-948a-bfe3-c0ba" name="Demnos bolter" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">速射 2</characteristic>
@@ -11719,7 +11719,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
     </selectionEntry>
     <selectionEntry id="9ccb-3f32-5e43-9254" name="夺颅者 axe" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="e60c-34bf-105e-fdcc" name="夺颅者 axe" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="e60c-34bf-105e-fdcc" name="夺颅者 axe" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -11861,7 +11861,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7590-5460-193b-a499" type="max"/>
           </constraints>
           <profiles>
-            <profile id="6cdd-855d-1f1b-ef4d" name="Helspear" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="6cdd-855d-1f1b-ef4d" name="Helspear" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1</characteristic>
@@ -11948,7 +11948,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa5f-85e1-abcb-aac2" type="max"/>
           </constraints>
           <profiles>
-            <profile id="3d90-5a14-f73c-a863" name="Thunder hammer" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="3d90-5a14-f73c-a863" name="Thunder hammer" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -12187,7 +12187,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c9a-05fb-f44a-8c05" type="max"/>
           </constraints>
           <profiles>
-            <profile id="77aa-967e-0078-534a" name="Soulflayer tendrils" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="77aa-967e-0078-534a" name="Soulflayer tendrils" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -12210,7 +12210,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e396-c47f-6ca6-9a1f" type="max"/>
           </constraints>
           <profiles>
-            <profile id="40f0-6aa0-a408-f788" name="Eviscerating claws" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="40f0-6aa0-a408-f788" name="Eviscerating claws" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -12233,7 +12233,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0d1-5878-89fa-66a2" type="max"/>
           </constraints>
           <profiles>
-            <profile id="7594-5021-65a7-e737" name="Excruciator cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="7594-5021-65a7-e737" name="Excruciator cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault D3</characteristic>
@@ -12319,7 +12319,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5039-cfc8-6ba8-4edf" type="max"/>
               </constraints>
               <profiles>
-                <profile id="a73a-e84f-e9ca-216e" name="Daemonic mutations" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="a73a-e84f-e9ca-216e" name="Daemonic mutations" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -12552,7 +12552,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="452c-2a76-b1c0-67d8" type="min"/>
           </constraints>
           <profiles>
-            <profile id="23ba-363a-5a99-c038" name="Lashing warp energies" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="23ba-363a-5a99-c038" name="Lashing warp energies" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6&quot;</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol D6</characteristic>
@@ -12588,7 +12588,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2df8-1c64-fbd9-fe50" type="max"/>
       </constraints>
       <profiles>
-        <profile id="db35-cc44-dc32-03c5" name="Angelsbane" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="db35-cc44-dc32-03c5" name="Angelsbane" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">速射 2</characteristic>
@@ -12747,7 +12747,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e01-ea2a-789f-d58c" type="max"/>
           </constraints>
           <profiles>
-            <profile id="50b0-316e-6e22-39a0" name="Axe of dismemberment" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="50b0-316e-6e22-39a0" name="Axe of dismemberment" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -12809,7 +12809,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">RED CORSAIRS 模型 with 复合热熔 only. Maelstrom&apos;s Bite replaces the 模型的 复合热熔.</characteristic>
           </characteristics>
         </profile>
-        <profile id="8fad-b2a0-7773-e667" name="Maelstrom&apos;s Bite - 爆弹枪" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="8fad-b2a0-7773-e667" name="Maelstrom&apos;s Bite - 爆弹枪" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">速射 3</characteristic>
@@ -12819,7 +12819,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
           </characteristics>
         </profile>
-        <profile id="0b5a-fa37-2757-9f92" name="Maelstrom&apos;s Bite - 热熔枪" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="0b5a-fa37-2757-9f92" name="Maelstrom&apos;s Bite - 热熔枪" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1</characteristic>
@@ -12829,7 +12829,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If the target is 范围内 half range of 这个武器, roll two dice when inflicting 伤害 with it and discard the lowest result.</characteristic>
           </characteristics>
         </profile>
-        <profile id="9d6a-b151-9178-3f33" name="Maelstrom&apos;s Bite" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="9d6a-b151-9178-3f33" name="Maelstrom&apos;s Bite" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">-</characteristic>
@@ -12874,7 +12874,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="b437-7984-e350-73d6" name="Foecleaver" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="b437-7984-e350-73d6" name="Foecleaver" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -12936,7 +12936,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">CRIMSON SLAUGHTER 模型 with a power sword only. The Blade of the Relentless replaces the 模型的 power sword.</characteristic>
           </characteristics>
         </profile>
-        <profile id="a517-f22d-6bc7-0696" name="Blade of the Relentless" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="a517-f22d-6bc7-0696" name="Blade of the Relentless" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -13094,7 +13094,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e4b6-da2b-ca20-4fd4" type="max"/>
           </constraints>
           <profiles>
-            <profile id="cf1a-448b-571a-1179" name="Impaler chainglaive" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="cf1a-448b-571a-1179" name="Impaler chainglaive" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -13123,7 +13123,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a9bc-9a69-57b7-0989" type="max"/>
               </constraints>
               <profiles>
-                <profile id="5656-3faf-3a1d-1818" name="Bladed limbs and tail" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="5656-3faf-3a1d-1818" name="Bladed limbs and tail" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -13142,7 +13142,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
-            <selectionEntryGroup id="32f8-3323-aee5-c7a1" name="Helstalker weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="ba4a-99df-c832-2340">
+            <selectionEntryGroup id="32f8-3323-aee5-c7a1" name="Helstalker 武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="ba4a-99df-c832-2340">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b44-3c2f-0e78-fc90" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="881f-a4f2-d4f8-9b1a" type="max"/>
@@ -13150,7 +13150,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
               <selectionEntries>
                 <selectionEntry id="35f0-849a-8b6a-135f" name="Magma cutter" hidden="false" collective="false" import="true" type="upgrade">
                   <profiles>
-                    <profile id="5a45-cc00-527a-f146" name="Magma cutter" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                    <profile id="5a45-cc00-527a-f146" name="Magma cutter" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                       <characteristics>
                         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6&quot;</characteristic>
                         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
@@ -13169,7 +13169,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 </selectionEntry>
                 <selectionEntry id="ba4a-99df-c832-2340" name="Techno-virus injector" hidden="false" collective="false" import="true" type="upgrade">
                   <profiles>
-                    <profile id="fe2a-6fe9-fe08-15c9" name="Techno-virus injector" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                    <profile id="fe2a-6fe9-fe08-15c9" name="Techno-virus injector" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                       <characteristics>
                         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -13323,7 +13323,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ea8-73a1-40df-c562" type="min"/>
               </constraints>
               <profiles>
-                <profile id="e511-b580-7aef-7604" name="肉搏武器" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="e511-b580-7aef-7604" name="肉搏武器" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -13503,7 +13503,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
     </selectionEntry>
     <selectionEntry id="d85a-b8fa-5c9e-c195" name="The Inferno Tome" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="8668-85b1-0d01-ace3" name="The Inferno Tome" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="8668-85b1-0d01-ace3" name="The Inferno Tome" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">8&quot;</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault D6</characteristic>
@@ -13539,7 +13539,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Model with force stave only. The Burning Rod replaces the bearer’s force stave and has the following profile.</characteristic>
           </characteristics>
         </profile>
-        <profile id="9d68-d80a-d8d1-c71f" name="The Burning Rod" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="9d68-d80a-d8d1-c71f" name="The Burning Rod" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -13570,7 +13570,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Model with mechatendrils only. The Mecha-serpents replace the bearer’s mechatendrils and have the profile below.</characteristic>
           </characteristics>
         </profile>
-        <profile id="5a11-4b86-820e-759c" name="Mecha-serpents" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="5a11-4b86-820e-759c" name="Mecha-serpents" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -13593,7 +13593,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="199a-8494-0da6-31d9" type="max"/>
       </constraints>
       <profiles>
-        <profile id="44cb-9b2d-29c2-4588" name="Mechatendrils" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="44cb-9b2d-29c2-4588" name="Mechatendrils" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -13643,7 +13643,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b5f3-105d-1b6a-f06c" type="max"/>
       </constraints>
       <profiles>
-        <profile id="d276-5fe6-3c44-f6cd" name="Ghorisvex&apos;s Teeth" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="d276-5fe6-3c44-f6cd" name="Ghorisvex&apos;s Teeth" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -13728,7 +13728,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="76dc-5065-cfeb-2538" type="max"/>
       </constraints>
       <profiles>
-        <profile id="6e6f-6346-f3d2-3f56" name="Spineshiver Blade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="6e6f-6346-f3d2-3f56" name="Spineshiver Blade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -13803,7 +13803,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
     </selectionEntry>
     <selectionEntry id="cce3-6582-4125-5614" name="Accursed crozius" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="1f29-a64a-ed3d-92dd" name="Accursed crozius" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="1f29-a64a-ed3d-92dd" name="Accursed crozius" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -13987,7 +13987,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cbc-3ca6-0a18-b12c" type="max"/>
       </constraints>
       <profiles>
-        <profile id="3b52-3275-d74a-5e5d" name="Q&apos;O&apos;Ak the Boundless" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="3b52-3275-d74a-5e5d" name="Q&apos;O&apos;Ak the Boundless" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -13999,7 +13999,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="0777-9092-d41e-1a74" name="恶魔 Weapon" hidden="false" targetId="30c9-db92-9a1f-243a" type="rule"/>
+        <infoLink id="0777-9092-d41e-1a74" name="恶魔 武器" hidden="false" targetId="30c9-db92-9a1f-243a" type="rule"/>
       </infoLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -14022,19 +14022,19 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="20cb-f4c3-115b-b58f" name="The Rapacious Talons" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="20cb-f4c3-115b-b58f" name="The Rapacious Talons" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When resolving an attack made with 这个武器, you can 重投 the wound roll. When rolling for 这个武器’s 恶魔 Weapon ability, 结果为2+ you can make a number of additional 攻击 equal to the result with 这个武器 这个阶段.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When resolving an attack made with 这个武器, you can 重投 the wound roll. When rolling for 这个武器’s 恶魔 武器 ability, 结果为2+ you can make a number of additional 攻击 equal to the result with 这个武器 这个阶段.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="ca9b-ed27-18f1-1385" name="恶魔 Weapon" hidden="false" targetId="30c9-db92-9a1f-243a" type="rule"/>
+        <infoLink id="ca9b-ed27-18f1-1385" name="恶魔 武器" hidden="false" targetId="30c9-db92-9a1f-243a" type="rule"/>
       </infoLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -14056,19 +14056,19 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="3d6f-0656-2a93-c806" name="Z&apos;aall, The Wrathful" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="3d6f-0656-2a93-c806" name="Z&apos;aall, The Wrathful" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-5</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When rolling for 这个武器’s 恶魔 Weapon ability, 结果为2+ add a number to 这个武器’s S值 equal to the result until the end of 这个阶段.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When rolling for 这个武器’s 恶魔 武器 ability, 结果为2+ add a number to 这个武器’s S值 equal to the result until the end of 这个阶段.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="a930-f6c0-7635-094f" name="恶魔 Weapon" hidden="false" targetId="30c9-db92-9a1f-243a" type="rule"/>
+        <infoLink id="a930-f6c0-7635-094f" name="恶魔 武器" hidden="false" targetId="30c9-db92-9a1f-243a" type="rule"/>
       </infoLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -14085,7 +14085,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="3358-37bf-61fe-d79f" name="G&apos;holl&apos;ax, Fist of Decay" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="3358-37bf-61fe-d79f" name="G&apos;holl&apos;ax, Fist of Decay" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -14097,7 +14097,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="52a5-fece-721a-2705" name="恶魔 Weapon" hidden="false" targetId="30c9-db92-9a1f-243a" type="rule"/>
+        <infoLink id="52a5-fece-721a-2705" name="恶魔 武器" hidden="false" targetId="30c9-db92-9a1f-243a" type="rule"/>
       </infoLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -14120,7 +14120,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="25fb-e218-5d4e-71d0" name="Ul&apos;o&apos;cca, the Black Axe" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="25fb-e218-5d4e-71d0" name="Ul&apos;o&apos;cca, the Black Axe" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -14132,7 +14132,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="cc8a-c60c-4567-9739" name="恶魔 Weapon" hidden="false" targetId="30c9-db92-9a1f-243a" type="rule"/>
+        <infoLink id="cc8a-c60c-4567-9739" name="恶魔 武器" hidden="false" targetId="30c9-db92-9a1f-243a" type="rule"/>
       </infoLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -14149,7 +14149,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="8002-2da7-a79a-bf7c" name="The Ashen Axe" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="8002-2da7-a79a-bf7c" name="The Ashen Axe" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -14175,7 +14175,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="7e17-629e-da76-71d5" name="Flayer" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="7e17-629e-da76-71d5" name="Flayer" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -14201,7 +14201,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="6fb9-ec31-b584-3d2a" name="Viper&apos;s Bite" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="6fb9-ec31-b584-3d2a" name="Viper&apos;s Bite" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">速射 2</characteristic>
@@ -14262,7 +14262,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="0f67-f0a4-39fc-83aa" name="Shadeblade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="0f67-f0a4-39fc-83aa" name="Shadeblade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -14324,7 +14324,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models with a power maul or accursed crozius only. This 圣物 replaces the bearer&apos;s power maul or accursed crozius.</characteristic>
           </characteristics>
         </profile>
-        <profile id="d64c-81cf-18c3-4508" name="Siegebreaker Mace - Swing" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="d64c-81cf-18c3-4508" name="Siegebreaker Mace - Swing" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -14334,7 +14334,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
           </characteristics>
         </profile>
-        <profile id="57a8-5d14-d7a4-f1ce" name="Siegebreaker Mace - Smash" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="57a8-5d14-d7a4-f1ce" name="Siegebreaker Mace - Smash" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -14368,7 +14368,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a4f4-3cb7-6272-d10e" type="max"/>
       </constraints>
       <profiles>
-        <profile id="1e0c-843b-b4fc-1ba1" name="Axe of the Forgemaster" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="1e0c-843b-b4fc-1ba1" name="Axe of the Forgemaster" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -14397,7 +14397,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b297-daed-0ad4-100f" type="max"/>
       </constraints>
       <profiles>
-        <profile id="a4a3-4329-8bf8-d5c6" name="Spitespitter" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="a4a3-4329-8bf8-d5c6" name="Spitespitter" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">速射 2</characteristic>
@@ -14431,7 +14431,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fa19-426f-5370-c7ff" type="max"/>
       </constraints>
       <profiles>
-        <profile id="ee19-ca30-fc77-fe3d" name="Distortion" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="ee19-ca30-fc77-fe3d" name="Distortion" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -14460,7 +14460,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="864e-a127-14a4-2a6f" type="max"/>
       </constraints>
       <profiles>
-        <profile id="1f87-3b26-8f3e-ade6" name="Crimson Killer" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="1f87-3b26-8f3e-ade6" name="Crimson Killer" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
@@ -14489,7 +14489,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="914a-edae-33f3-96e7" type="max"/>
       </constraints>
       <profiles>
-        <profile id="c7ac-823e-be02-2c1c" name="Gorefather" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="c7ac-823e-be02-2c1c" name="Gorefather" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -14523,7 +14523,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6050-ac76-9992-c59c" type="max"/>
       </constraints>
       <profiles>
-        <profile id="09c2-6f52-930e-ef16" name="Berserker Glaive" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="09c2-6f52-930e-ef16" name="Berserker Glaive" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -14852,7 +14852,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e2e9-7068-cc33-cae8" type="max"/>
               </constraints>
               <profiles>
-                <profile id="64cc-a628-aeb0-ac21" name="Chainaxe" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="64cc-a628-aeb0-ac21" name="Chainaxe" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -14919,7 +14919,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntryGroup>
-    <selectionEntryGroup id="383d-d974-00a3-bd09" name="混沌领主 Weapon options" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="383d-d974-00a3-bd09" name="混沌领主 武器 options" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7351-b8d5-f79f-700d" type="max"/>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e874-39aa-adeb-d4ef" type="min"/>
@@ -14989,7 +14989,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntryGroup>
-    <selectionEntryGroup id="1e61-c295-d3da-17ef" name="终结者 Lord Weapon options" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="1e61-c295-d3da-17ef" name="终结者 Lord 武器 options" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b700-f538-e657-a897" type="max"/>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2276-0b82-068c-6014" type="min"/>
@@ -15037,7 +15037,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntryGroup>
-    <selectionEntryGroup id="f962-5557-bde3-d620" name="终结者 Weapon Options" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="f962-5557-bde3-d620" name="终结者 武器 Options" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b15-08a9-986a-458d" type="max"/>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="93d6-ddd9-6b67-3b2d" type="min"/>
@@ -15067,7 +15067,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         <entryLink id="055d-2bb3-2796-5b80" name="终结者 肉搏武器" hidden="false" collective="false" import="true" targetId="2607-d554-732e-c0b0" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="e0ce-dbd2-b178-e542" name="终结者 Sorcerer Weapon options" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="e0ce-dbd2-b178-e542" name="终结者 Sorcerer 武器 options" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c34-bdde-3a55-f52d" type="max"/>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="92a8-9ae3-737a-bb2b" type="min"/>
@@ -15351,7 +15351,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           <profiles>
             <profile id="56a7-53ae-04c8-a884" name="Black Crusaders" publicationId="cb54-c035-pubN125652" page="157" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, 所有 人物, 步兵, BIKERS and HELBRUTE 单位 in 黑军团 Detachments gain the following ability: Add 1 to the LD值 of 模型 in 单位 with this trait. 此外, 如果1个单位 with this trait Advanced, it treats 所有 速射 武器 as Assault 武器 until the end of the turn (i.e. a 速射 2 weapon is treated as an Assault 2 weapon).</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, 所有 人物, 步兵, BIKERS and HELBRUTE 单位 in 黑军团 Detachments gain the following ability: Add 1 to the LD值 of 模型 in 单位 with this trait. 此外, 如果1个单位 with this trait Advanced, it treats 所有 速射 武器 as Assault 武器 until the end of the turn (i.e. a 速射 2 武器 is treated as an Assault 2 武器).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15667,7 +15667,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           <profiles>
             <profile id="8176-e2ec-8adf-c289" name="Death to the Imperfect" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, 所有 人物, 步兵, BIKERS and HELBRUTE 单位 in FLAWLESS HOST Detachments gain the following ability: 每次 you roll a 命中 roll of 6+ for an attack made by a 模型 with this trait in the 肉搏阶段, it can 立即 make an extra attack 对抗 the same 单位 using the same weapon (this is in addtion to any extra 攻击 granted by the Death to the False Emperor ability). These extra 攻击 cannot themselves generate any further 攻击.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, 所有 人物, 步兵, BIKERS and HELBRUTE 单位 in FLAWLESS HOST Detachments gain the following ability: 每次 you roll a 命中 roll of 6+ for an attack made by a 模型 with this trait in the 肉搏阶段, it can 立即 make an extra attack 对抗 the same 单位 using the same 武器 (this is in addtion to any extra 攻击 granted by the Death to the False Emperor ability). These extra 攻击 cannot themselves generate any further 攻击.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15721,7 +15721,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="83fe-8222-dd01-cb8d" type="max"/>
               </constraints>
               <profiles>
-                <profile id="f098-bfd2-5e88-b955" name="Chainaxe" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="f098-bfd2-5e88-b955" name="Chainaxe" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -16565,7 +16565,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 </modifier>
               </modifiers>
               <profiles>
-                <profile id="4d0c-32e3-482c-33ec" name="Talons of the Night Terror" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="4d0c-32e3-482c-33ec" name="Talons of the Night Terror" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -16764,7 +16764,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b8df-5f49-3302-1ad6" type="max"/>
               </constraints>
               <profiles>
-                <profile id="5b21-4fc4-9ae6-6b55" name="Techno-venomous Mechatendrils" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="5b21-4fc4-9ae6-6b55" name="Techno-venomous Mechatendrils" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -16893,7 +16893,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7cf9-4dd5-4fad-df6e" type="max"/>
               </constraints>
               <profiles>
-                <profile id="98c5-3b28-45a9-4b08" name="Fatal Sonancy" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="98c5-3b28-45a9-4b08" name="Fatal Sonancy" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault D6</characteristic>
@@ -17042,7 +17042,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d04f-3a30-26d0-7b46" type="max"/>
               </constraints>
               <profiles>
-                <profile id="cd61-a0c3-b218-11af" name="Chainaxe" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="cd61-a0c3-b218-11af" name="Chainaxe" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -17120,7 +17120,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0145-c521-3db0-e206" type="max"/>
           </constraints>
           <profiles>
-            <profile id="cab7-41fb-f2f4-1197" name="Sonic blaster" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="cab7-41fb-f2f4-1197" name="Sonic blaster" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 3</characteristic>
@@ -17165,7 +17165,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b009-14e7-2549-120a" type="max"/>
               </constraints>
               <profiles>
-                <profile id="e7e3-74cd-0095-3b28" name="Chainaxe" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="e7e3-74cd-0095-3b28" name="Chainaxe" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -17491,7 +17491,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           <profiles>
             <profile id="92ce-c429-f6db-0343" name="Ultimate Confidence" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your 主将 generates extra 攻击 as a result of their Death to the Imperfect trait, they can 立即 make 3 additional 攻击, 而不是 only 1, 对抗 the same 单位 using the same weapon. These extra 攻击 cannot themselves generate any further 攻击.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your 主将 generates extra 攻击 as a result of their Death to the Imperfect trait, they can 立即 make 3 additional 攻击, 而不是 only 1, 对抗 the same 单位 using the same 武器. These extra 攻击 cannot themselves generate any further 攻击.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -17516,7 +17516,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de00-fb46-91b5-5e64" type="max"/>
           </constraints>
           <profiles>
-            <profile id="6503-172e-8261-825e" name="Helbrute hammer" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="6503-172e-8261-825e" name="Helbrute hammer" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -17538,7 +17538,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd1f-e367-86b9-6f3f" type="max"/>
           </constraints>
           <profiles>
-            <profile id="6005-4c1a-5f67-33cb" name="Power scourge" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="6005-4c1a-5f67-33cb" name="Power scourge" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -17710,7 +17710,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           <profiles>
             <profile id="84f5-389d-7c5b-ebd5" name="恶魔-bound Power" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to your Warlord&apos;s S值. 此外, you can 重投 伤害 骰 made for 攻击 with your Warlord&apos;s 立场武器. For the purposes of 这个主将 Trait, a 立场武器 is any weapon whose name includes the word &apos;force&apos; (excluding Artefacts of Chaos).</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to your Warlord&apos;s S值. 此外, you can 重投 伤害 骰 made for 攻击 with your Warlord&apos;s 立场武器. For the purposes of 这个主将 Trait, a 立场武器 is any 武器 whose name includes the word &apos;force&apos; (excluding Artefacts of Chaos).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -18221,7 +18221,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5da9-193e-41dd-7610" type="max"/>
               </constraints>
               <profiles>
-                <profile id="3698-d56c-3a00-d47d" name="Chainaxe" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="3698-d56c-3a00-d47d" name="Chainaxe" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -18987,7 +18987,7 @@ the 敌方 主将, your opponent will only achieve that objective if 所有 of t
           <profiles>
             <profile id="79b1-ec94-e18b-3bfa" name="Cult Leader" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made with a weapon by a 模型 in a 友方 阿尔法军团 CHAOS CULTIST 单位 范围内 6&quot; of 这个主将, on an unmodified wound roll of 6 the AP值 of that weapon is improved by 1 for that attack (e.g. AP 0 becomes AP -1).</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made with a 武器 by a 模型 in a 友方 阿尔法军团 CHAOS CULTIST 单位 范围内 6&quot; of 这个主将, on an unmodified wound roll of 6 the AP值 of that 武器 is improved by 1 for that attack (e.g. AP 0 becomes AP -1).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -19074,7 +19074,7 @@ the 敌方 主将, your opponent will only achieve that objective if 所有 of t
           <profiles>
             <profile id="cea5-a739-97cc-154a" name="Bastion" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made with a weapon that has an AP值 of -1 对抗 a 友方 IRON WARRIORS 单位 that is 范围内 6&quot; of 这个主将 and receiving the benefit of cover, that weapon is treated as having an AP值 of 0.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made with a 武器 that has an AP值 of -1 对抗 a 友方 IRON WARRIORS 单位 that is 范围内 6&quot; of 这个主将 and receiving the benefit of cover, that 武器 is treated as having an AP值 of 0.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -19322,12 +19322,12 @@ the 敌方 主将, your opponent will only achieve that objective if 所有 of t
     <rule id="9f64-299a-375e-aa64" name="Daemonkin Ritualists" hidden="false">
       <description>Use this Stratagem when choosing your Army. Pick a Chaos Space Marine Detachment from your army to be a Daemonkin Ritualists Specialist Detachment. DARK APOSTLES, DARK DISCIPLES, MASTERS OF POSSESSION, POSSESSED and GREATER POSSESSED in that Detachment gain the DAEMONKIN RITUALISTS 关键字.</description>
     </rule>
-    <rule id="30c9-db92-9a1f-243a" name="恶魔 Weapon" hidden="false">
-      <description>In the 肉搏阶段, when 这个模型 is chosen to fight with for the 第1次 that phase, 投掷1个D6. 结果为1, the 模型 遭受 1 致命伤 and cannot use 这个武器 further that phase. 结果为2+ the 模型 can fight with the weapon as normal.</description>
+    <rule id="30c9-db92-9a1f-243a" name="恶魔 武器" hidden="false">
+      <description>In the 肉搏阶段, when 这个模型 is chosen to fight with for the 第1次 that phase, 投掷1个D6. 结果为1, the 模型 遭受 1 致命伤 and cannot use 这个武器 further that phase. 结果为2+ the 模型 can fight with the 武器 as normal.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="1287-6659-b04f-fe37" name="Blight Grenades" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="1287-6659-b04f-fe37" name="Blight Grenades" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6&quot;</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Grenade D6</characteristic>
@@ -19337,7 +19337,7 @@ the 敌方 主将, your opponent will only achieve that objective if 所有 of t
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">可以重投造伤骰 of 1 for 这个武器.</characteristic>
       </characteristics>
     </profile>
-    <profile id="b62d-7cc2-1b2a-ca61" name="Plague knife" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="b62d-7cc2-1b2a-ca61" name="Plague knife" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -19347,7 +19347,7 @@ the 敌方 主将, your opponent will only achieve that objective if 所有 of t
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">可以重投造伤骰 of 1 for 这个武器.</characteristic>
       </characteristics>
     </profile>
-    <profile id="0fa4-ab8b-8cd0-d19f" name="Plaguesword" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="0fa4-ab8b-8cd0-d19f" name="Plaguesword" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -19357,7 +19357,7 @@ the 敌方 主将, your opponent will only achieve that objective if 所有 of t
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">可以重投失败的造伤骰 for 这个武器.</characteristic>
       </characteristics>
     </profile>
-    <profile id="a58c-7337-46b9-0d95" name="Baleflamer" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="a58c-7337-46b9-0d95" name="Baleflamer" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18&quot;</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault D6</characteristic>
@@ -19367,7 +19367,7 @@ the 敌方 主将, your opponent will only achieve that objective if 所有 of t
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 自动 命中.</characteristic>
       </characteristics>
     </profile>
-    <profile id="3351-60e7-b298-81aa" name="Hades 自动炮" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="3351-60e7-b298-81aa" name="Hades 自动炮" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 4</characteristic>
@@ -19377,7 +19377,7 @@ the 敌方 主将, your opponent will only achieve that objective if 所有 of t
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="e89b-a409-4ab4-e6db" name="Havoc launcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="e89b-a409-4ab4-e6db" name="Havoc launcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48&quot;</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy D6</characteristic>
@@ -19387,7 +19387,7 @@ the 敌方 主将, your opponent will only achieve that objective if 所有 of t
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="fc56-4e98-3cdc-3659" name="Chainaxe" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="fc56-4e98-3cdc-3659" name="Chainaxe" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -19397,7 +19397,7 @@ the 敌方 主将, your opponent will only achieve that objective if 所有 of t
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="4e93-ccd6-c332-0eeb" name="Brutal assault weapon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="4e93-ccd6-c332-0eeb" name="Brutal assault 武器" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -19424,7 +19424,7 @@ the 敌方 主将, your opponent will only achieve that objective if 所有 of t
     </profile>
     <profile id="37a4-1d84-4ef0-c4f6" name="Death to the False Emperor" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 you roll a 命中 roll of 6+ for a 模型 with this ability in the 肉搏阶段, it can, if it was targeting an 帝国 单位, 立即 make an extra attack 对抗 the same 单位 using the same weapon. These extra 攻击 cannot themselves generate any further 攻击.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 you roll a 命中 roll of 6+ for a 模型 with this ability in the 肉搏阶段, it can, if it was targeting an 帝国 单位, 立即 make an extra attack 对抗 the same 单位 using the same 武器. These extra 攻击 cannot themselves generate any further 攻击.</characteristic>
       </characteristics>
     </profile>
     <profile id="a46b-e84f-ab7b-a4e4" name="Infernal Regeneration" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -19469,7 +19469,7 @@ the 敌方 主将, your opponent will only achieve that objective if 所有 of t
     </profile>
     <profile id="11c7-1054-a93c-c0b5" name="所有 is Dust" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the saving throws for Rubric Marines if the attack 拥有 D值 of 1. 此外, the -1 modifier to 命中 骰 for moving and 射击 with a Heavy weapon does not apply to Rubric Marines.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the saving throws for Rubric Marines if the attack 拥有 D值 of 1. 此外, the -1 modifier to 命中 骰 for moving and 射击 with a Heavy 武器 does not apply to Rubric Marines.</characteristic>
       </characteristics>
     </profile>
     <profile id="2dba-f58f-2639-301e" name="Crash and Burn" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -19477,7 +19477,7 @@ the 敌方 主将, your opponent will only achieve that objective if 所有 of t
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 在被移除前投掷1个D6; 结果为6 it crashes in a fiery explosion 每个单位 范围内 6&quot; 遭受 D3 致命伤.</characteristic>
       </characteristics>
     </profile>
-    <profile id="ba8c-82d5-79c0-d0d9" name="Ectoplasma cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="ba8c-82d5-79c0-d0d9" name="Ectoplasma cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy D3</characteristic>
@@ -19583,7 +19583,7 @@ the 敌方 主将, your opponent will only achieve that objective if 所有 of t
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Your army can have one extra 圣物, chosen from the Artefacts of Chaos, which 必须 given to a RED CORSAIRS 人物 from your army that does not already have a 圣物. This 圣物 必须 different to any relics already included in your army. 此外, 每次 your 主将 slays an 敌方 人物, add 1 to your Warlord&apos;s A值 until the end of the battle.</characteristic>
       </characteristics>
     </profile>
-    <profile id="6841-2da0-34fd-1bf7" name="Reaper chaincannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="6841-2da0-34fd-1bf7" name="Reaper chaincannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 8</characteristic>
@@ -19602,10 +19602,10 @@ the 敌方 主将, your opponent will only achieve that objective if 所有 of t
         </rule>
         <rule id="e990-5b43-7340-bfe9" name="Hateful Volleys" hidden="false">
           <description>而不是 following the normal rules for 速射 武器, 模型 in 这个单位 firing 速射爆弹武器 make double the number of 攻击 if any of the following apply:
-• The firing model’s target is 范围内 half the weapon’s maximum range.
+• The firing model’s target is 范围内 half the 武器’s maximum range.
 • The firing 模型 is 步兵 and every 模型 in its 单位 remained stationary in your previous 移动阶段.
 • The firing 模型 is a 终结者, 摩托 or HELBRUTE.
-For the purposes of this ability, a 速射爆弹武器 is any 爆弹武器 with the 速射 type. A 爆弹武器 is any weapon whose profile includes the word ‘bolt’ (e.g. 爆弹枪, bolt pistol, combibolter, 地狱爆弹枪). Rules that apply to 爆弹武器 also apply when firing the 爆弹枪 profile of 复合武器 and when firing Artefacts of Chaos that replaced a 爆弹武器, (e.g. Spitespitter). The Talon of Horus is also a 速射爆弹武器.</description>
+For the purposes of this ability, a 速射爆弹武器 is any 爆弹武器 with the 速射 type. A 爆弹武器 is any 武器 whose profile includes the word ‘bolt’ (e.g. 爆弹枪, bolt pistol, combibolter, 地狱爆弹枪). Rules that apply to 爆弹武器 also apply when firing the 爆弹枪 profile of 复合武器 and when firing Artefacts of Chaos that replaced a 爆弹武器, (e.g. Spitespitter). The Talon of Horus is also a 速射爆弹武器.</description>
         </rule>
       </rules>
     </infoGroup>

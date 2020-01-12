@@ -24,7 +24,7 @@
     <categoryEntry id="9d41-076b-88c2-0e19" name="Elysian Company Commander" hidden="false"/>
     <categoryEntry id="8513-d267-3968-f2bf" name="Elysian Drop Sentinels" hidden="false"/>
     <categoryEntry id="33b8-a805-c319-bebe" name="Elysian Drop Trooper Squad" hidden="false"/>
-    <categoryEntry id="877e-f8f7-46d6-7c09" name="Elysian Heavy Weapon Squad" hidden="false"/>
+    <categoryEntry id="877e-f8f7-46d6-7c09" name="Elysian Heavy 武器 Squad" hidden="false"/>
     <categoryEntry id="40d7-cd1e-34ce-2fd4" name="Elysian Lord Commissar" hidden="false"/>
     <categoryEntry id="80ee-875e-7eab-b9d1" name="Elysian Platoon Commander" hidden="false"/>
     <categoryEntry id="bb7e-e7dd-8549-42c0" name="Elysian Sniper Squad" hidden="false"/>
@@ -107,7 +107,7 @@
         <categoryLink id="bc21-29df-627e-b8d1" name="New CategoryLink" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="ce02-726d-f9d3-17e4" name="Elysian Heavy Weapon Squad" hidden="false" collective="false" import="true" targetId="7296-7ca8-0463-d0ea" type="selectionEntry">
+    <entryLink id="ce02-726d-f9d3-17e4" name="Elysian Heavy 武器 Squad" hidden="false" collective="false" import="true" targetId="7296-7ca8-0463-d0ea" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="7356-c45a-ad7f-34e1" name="New CategoryLink" hidden="false" targetId="3263-4233-4344-6228" primary="false"/>
         <categoryLink id="dd60-4ace-8832-5608" name="New CategoryLink" hidden="false" targetId="877e-f8f7-46d6-7c09" primary="false"/>
@@ -462,7 +462,7 @@
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
-            <selectionEntryGroup id="acc0-24ea-c936-3d5b" name="Hull weapon" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="acc0-24ea-c936-3d5b" name="Hull 武器" hidden="false" collective="false" import="true">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db57-0c43-1dfa-4f9d" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9956-e695-cfee-5796" type="min"/>
@@ -559,7 +559,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47b5-4557-d210-032b" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="d1e8-ca7c-0804-7bf4" name="穿甲手雷" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                    <profile id="d1e8-ca7c-0804-7bf4" name="穿甲手雷" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                       <characteristics>
                         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36寸</characteristic>
                         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 2</characteristic>
@@ -569,7 +569,7 @@
                         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
                       </characteristics>
                     </profile>
-                    <profile id="4177-41c2-de8c-ef93" name="破片手雷" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                    <profile id="4177-41c2-de8c-ef93" name="破片手雷" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                       <characteristics>
                         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36寸</characteristic>
                         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 2D6</characteristic>
@@ -649,7 +649,7 @@
             </profile>
             <profile id="29b5-4a9b-aee6-11c8" name="Venator Targeting Array" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 does not suffer the penalty to 命中 for 射击 a Heavy Weapon 结果为turn in which it has moved.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 does not suffer the penalty to 命中 for 射击 a Heavy 武器 结果为turn in which it has moved.</characteristic>
               </characteristics>
             </profile>
             <profile id="77c2-297c-9062-a8e5" name="爆炸" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -673,7 +673,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bfc8-5b4d-3037-502f" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="26d8-31c4-d71f-d9f2" name="双联 Multi-Laser" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                    <profile id="26d8-31c4-d71f-d9f2" name="双联 Multi-Laser" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                       <characteristics>
                         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36寸</characteristic>
                         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 6</characteristic>
@@ -1042,7 +1042,7 @@
             </profile>
             <profile id="f450-8740-0270-b138" name="Vendetta Transport Capacity" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
               <characteristics>
-                <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">这个模型 可以运输 12 星界军 步兵模型.  Each Heavy Weapon Team or Veteran Heavy Weapon Team takes the place of two other 模型.  这个模型 may not transport OGRYNS.</characteristic>
+                <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">这个模型 可以运输 12 星界军 步兵模型.  Each Heavy 武器 Team or Veteran Heavy 武器 Team takes the place of two other 模型.  这个模型 may not transport OGRYNS.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1264,7 +1264,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="737d-e92b-51b2-bd9a" type="max"/>
               </constraints>
               <profiles>
-                <profile id="1e2a-6a12-539f-9d34" name="Cyclops Demolition Charge" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="1e2a-6a12-539f-9d34" name="Cyclops Demolition Charge" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">*</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 2D6</characteristic>
@@ -1491,7 +1491,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2dd8-c4a8-9ba3-b5a6" type="min"/>
           </constraints>
           <profiles>
-            <profile id="1d01-e28b-e379-495a" name="Long Barreled 自动炮" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="1d01-e28b-e379-495a" name="Long Barreled 自动炮" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72寸</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 2</characteristic>
@@ -1655,7 +1655,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f105-620d-4b21-5a9b" type="min"/>
           </constraints>
           <profiles>
-            <profile id="8830-1fac-ceed-ed81" name="Avenger Bolt Cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="8830-1fac-ceed-ed81" name="Avenger Bolt Cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36寸</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 8</characteristic>
@@ -2087,7 +2087,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="efd1-3858-71ee-11e6" name="Guardsman w/Special Weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="efd1-3858-71ee-11e6" name="Guardsman w/Special 武器" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="879c-20bf-0ea9-1cff" type="max"/>
               </constraints>
@@ -2254,7 +2254,7 @@
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="815b-cae2-350a-2cdd" name="Guardsmen附带Special Weapon" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="815b-cae2-350a-2cdd" name="Guardsmen附带Special 武器" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5633-8ab7-1295-76ba" type="min"/>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8438-3537-2fa1-df7e" type="max"/>
@@ -2439,7 +2439,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="2f30-5bb5-0d49-3db1" name="Veteran附带Special Weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="2f30-5bb5-0d49-3db1" name="Veteran附带Special 武器" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="854d-7d5b-7e21-ef11" type="max"/>
               </constraints>
@@ -2455,7 +2455,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="8635-7eb5-d46b-6c46" name="Veteran Weapon Team" page="0" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="8635-7eb5-d46b-6c46" name="Veteran 武器 Team" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6b96-4454-6f7b-f2fe" type="max"/>
               </constraints>
@@ -2847,7 +2847,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="7fe4-e4ef-cec9-89a3" name="Veteran附带Special Weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="7fe4-e4ef-cec9-89a3" name="Veteran附带Special 武器" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="34c2-2f85-eae5-50a1" type="max"/>
               </constraints>
@@ -2874,7 +2874,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="1f0a-c3dc-fd15-c37b" name="Veteran Weapon Team" page="0" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="1f0a-c3dc-fd15-c37b" name="Veteran 武器 Team" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a248-e305-25d4-4593" type="max"/>
               </constraints>
@@ -3052,7 +3052,7 @@
                     <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">COMMISSAR or LORD COMMISSAR with a bolt pistol only. The Emperor’s Benediction replaces the model’s bolt pistol and has the following profile:</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="eb1f-c55a-aa9d-baf2" name="The Emperor&apos;s Benediction" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="eb1f-c55a-aa9d-baf2" name="The Emperor&apos;s Benediction" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手枪 3</characteristic>
@@ -3103,7 +3103,7 @@
                     <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Model with power sword only. The Blade of Conquest replaces the model’s power sword and has the following profile:</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="7326-4c5a-2bea-3f5f" name="The Blade of Conquest" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="7326-4c5a-2bea-3f5f" name="The Blade of Conquest" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -3287,18 +3287,18 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7296-7ca8-0463-d0ea" name="Elysian Heavy Weapon Squad" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="7296-7ca8-0463-d0ea" name="Elysian Heavy 武器 Squad" hidden="false" collective="false" import="true" type="单位">
       <infoLinks>
         <infoLink id="4c25-eb40-a19c-faac" name="Aerial Drop" hidden="false" targetId="b2ac-24d0-fec8-1d3c" type="profile"/>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="b914-53f4-2623-a653" name="Heavy Weapon Team" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="b914-53f4-2623-a653" name="Heavy 武器 Team" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ee0d-871d-cece-c291" type="max"/>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37db-b3ab-863a-04c1" type="min"/>
           </constraints>
           <profiles>
-            <profile id="cf2a-d834-7a81-6d13" name="Heavy Weapon Team" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+            <profile id="cf2a-d834-7a81-6d13" name="Heavy 武器 Team" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
               <characteristics>
                 <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6寸</characteristic>
                 <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
@@ -3445,7 +3445,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c4f-7737-31f3-4098" type="max"/>
       </constraints>
       <profiles>
-        <profile id="2a46-c54d-b239-1467" name="Breacher Charge" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="2a46-c54d-b239-1467" name="Breacher Charge" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -3616,7 +3616,7 @@
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Model with power sword only. The Blade of Conquest replaces the model’s power sword and has the following profile:</characteristic>
           </characteristics>
         </profile>
-        <profile id="6c07-1b98-4966-d2f4" name="The Blade of Conquest" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="6c07-1b98-4966-d2f4" name="The Blade of Conquest" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -3684,7 +3684,7 @@
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">COMMISSAR or LORD COMMISSAR with a bolt pistol only. The Emperor’s Benediction replaces the model’s bolt pistol and has the following profile:</characteristic>
           </characteristics>
         </profile>
-        <profile id="164d-7f29-3163-a82c" name="The Emperor&apos;s Benediction" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="164d-7f29-3163-a82c" name="The Emperor&apos;s Benediction" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手枪 3</characteristic>
@@ -3771,7 +3771,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7762-cc2b-be1d-eade" type="max"/>
           </constraints>
           <profiles>
-            <profile id="7b02-acfa-e3e1-f0ee" name="Mortar" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="7b02-acfa-e3e1-f0ee" name="Mortar" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48寸</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 D6</characteristic>
@@ -3899,7 +3899,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7da1-5988-b2d5-9c2b" type="max"/>
           </constraints>
           <profiles>
-            <profile id="75ed-50c1-3d83-1cba" name="Grenade Launcher (Frag)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="75ed-50c1-3d83-1cba" name="Grenade Launcher (Frag)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 D6</characteristic>
@@ -3909,7 +3909,7 @@
                 <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
               </characteristics>
             </profile>
-            <profile id="a584-2931-0bd0-97de" name="Grenade Launcher (Krak)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="a584-2931-0bd0-97de" name="Grenade Launcher (Krak)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 1</characteristic>
@@ -3931,7 +3931,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f3b-971a-b16c-e8d7" type="max"/>
           </constraints>
           <profiles>
-            <profile id="40a5-58cb-408e-95f1" name="Lascutter" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="40a5-58cb-408e-95f1" name="Lascutter" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -3986,7 +3986,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d48d-42d3-461e-b0cd" type="max"/>
           </constraints>
           <profiles>
-            <profile id="426c-80b4-dc8a-087d" name="Grenade Launcher (Frag)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="426c-80b4-dc8a-087d" name="Grenade Launcher (Frag)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 D6</characteristic>
@@ -3996,7 +3996,7 @@
                 <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
               </characteristics>
             </profile>
-            <profile id="09e5-7096-98a2-3ad8" name="Grenade Launcher (Krak)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="09e5-7096-98a2-3ad8" name="Grenade Launcher (Krak)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 1</characteristic>
@@ -4018,7 +4018,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="538e-a59e-a2ce-9e29" type="max"/>
           </constraints>
           <profiles>
-            <profile id="dea6-1910-6024-d2d7" name="Lascutter" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="dea6-1910-6024-d2d7" name="Lascutter" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -4451,7 +4451,7 @@
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of any of your 移动阶段, a 模型 with a medi-pack can attempt to heal a single model.  Select a 友方 星界军 步兵单位 范围内 3寸 and 投掷1个D6.  结果为roll of a 4+, one 模型 in the 单位 recovers a wound it lost earlier in the battle (if the 模型 拥有 W值 of 1, one 模型 slain earlier in the battle is returned to the 单位 instead).  A 单位 can only be the target of this ability once in each turn.</characteristic>
       </characteristics>
     </profile>
-    <profile id="390d-68dd-fa2b-5eb1" name="Hellstrike Missile" publicationId="62ed-66a0-pubN69354" page="0" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="390d-68dd-fa2b-5eb1" name="Hellstrike Missile" publicationId="62ed-66a0-pubN69354" page="0" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72寸</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 1</characteristic>
@@ -4496,7 +4496,7 @@
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, a flyer equipped with tactical bombs can make a bombing run 对抗 a single 敌方单位 it moves over during one of it&apos;s 移动阶段. After the flyer has moved, pick an 敌方单位 it flew over, then roll 2d6 for each 载具 or 巨兽 in the 单位 or a single D6 for every other 模型 in the 单位, 至多 a maximum of 10D6. For every roll of 5+, the 单位 遭受 1点致命伤.</characteristic>
       </characteristics>
     </profile>
-    <profile id="c506-bf8a-d143-2f18" name="Hellfury Missiles" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="c506-bf8a-d143-2f18" name="Hellfury Missiles" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72寸</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 2D6</characteristic>
@@ -4506,7 +4506,7 @@
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="115c-291f-04a6-0e83" name="Skystrike Missile" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="115c-291f-04a6-0e83" name="Skystrike Missile" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">60寸</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 1</characteristic>
@@ -4521,7 +4521,7 @@
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">命中骰+1 对抗 单位 that do not have the FLY 关键字</characteristic>
       </characteristics>
     </profile>
-    <profile id="54ce-8da3-62f7-ba14" name="Multiple Rocket Pod" publicationId="62ed-66a0-pubN69354" page="0" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="54ce-8da3-62f7-ba14" name="Multiple Rocket Pod" publicationId="62ed-66a0-pubN69354" page="0" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36寸</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 D6</characteristic>

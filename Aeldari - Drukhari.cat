@@ -520,7 +520,7 @@
     <entryLink id="aeb2-9384-7859-d4be" name="Shrine of the Whispering God" hidden="false" collective="false" import="true" targetId="8665-a9ba-95e1-3156" type="selectionEntry"/>
   </entryLinks>
   <infoLinks>
-    <infoLink id="20df-7fb9-ec11-96bb" name="Poisoned Weapon" hidden="false" targetId="ce60-330c-c13b-617b" type="rule"/>
+    <infoLink id="20df-7fb9-ec11-96bb" name="Poisoned 武器" hidden="false" targetId="ce60-330c-c13b-617b" type="rule"/>
   </infoLinks>
   <sharedSelectionEntries>
     <selectionEntry id="3ea9-f42c-d816-b91a" name="Archon" publicationId="e0a4-2172-pubN65537" hidden="false" collective="false" import="true" type="model">
@@ -827,7 +827,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="2a34-6c77-4b23-4f43" name="Kabalite Warrior with special weapon" page="0" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="2a34-6c77-4b23-4f43" name="Kabalite Warrior with special 武器" page="0" hidden="false" collective="false" import="true" type="model">
               <modifiers>
                 <modifier type="increment" field="09cc-6a8b-8190-6071" value="1">
                   <repeats>
@@ -856,14 +856,14 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="857d-878c-2834-e153" name="Kabalite Warrior with heavy weapon (至多 1 for 10 models)" page="0" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="857d-878c-2834-e153" name="Kabalite Warrior with heavy 武器 (至多 1 for 10 models)" page="0" hidden="false" collective="false" import="true" type="model">
               <modifiers>
                 <modifier type="increment" field="4e40-a888-4d01-689a" value="1">
                   <repeats>
                     <repeat field="selections" scope="40a0-6ba1-e19a-1c60" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ed63-eca5-6154-af5c" repeats="1" roundUp="false"/>
                   </repeats>
                 </modifier>
-                <modifier type="set" field="name" value="Kabalite warrior with Heavy Weapon">
+                <modifier type="set" field="name" value="Kabalite warrior with Heavy 武器">
                   <conditions>
                     <condition field="selections" scope="40a0-6ba1-e19a-1c60" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="857d-878c-2834-e153" type="equalTo"/>
                   </conditions>
@@ -1221,7 +1221,7 @@
           <profiles>
             <profile id="15d8-0b7b-ff72-2a60" name="Splinter Racks" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 has splinter racks, then 每次 a 模型 that is 上车 upon it shoots a splinter pistol or splinter rifle and you roll a 6+ to 命中 with that weapon, it scores 2 命中 而不是 1. This does not apply to Artefacts of Cruelty</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 has splinter racks, then 每次 a 模型 that is 上车 upon it shoots a splinter pistol or splinter rifle and you roll a 6+ to 命中 with that 武器, it scores 2 命中 而不是 1. This does not apply to Artefacts of Cruelty</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1233,7 +1233,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="06df-604a-40e1-d64b" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="541f-ad7a-89ea-f9d5">
+        <selectionEntryGroup id="06df-604a-40e1-d64b" name="武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="541f-ad7a-89ea-f9d5">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3a4a-904f-42d4-8559" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4bcb-3261-ee4b-a1bb" type="max"/>
@@ -1324,7 +1324,7 @@
         <categoryLink id="b44b-939c-f0b2-674e" name="Ravager" hidden="false" targetId="1018-59aa-c195-3ed9" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="8d45-e929-62fc-d81c" name="Starboard Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="9a28-7924-3b60-e03f">
+        <selectionEntryGroup id="8d45-e929-62fc-d81c" name="Starboard 武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="9a28-7924-3b60-e03f">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8912-5e3f-5571-4cbf" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="034a-feea-7789-23fd" type="max"/>
@@ -1334,7 +1334,7 @@
             <entryLink id="fa7a-56a1-0980-27c2" name="New EntryLink" hidden="false" collective="false" import="true" targetId="dd11-f611-6a44-18ae" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="0318-5bbd-27b9-9fe9" name="Port Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="1193-1d2a-5374-0f89">
+        <selectionEntryGroup id="0318-5bbd-27b9-9fe9" name="Port 武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="1193-1d2a-5374-0f89">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d43a-8f1e-1dba-db3f" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="62d2-b932-6744-d00f" type="max"/>
@@ -1344,7 +1344,7 @@
             <entryLink id="6030-9544-81a9-918e" name="Disintegrator cannon" hidden="false" collective="false" import="true" targetId="dd11-f611-6a44-18ae" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="2974-65f4-bc1c-ade9" name="Prow Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="1629-c4a9-2be0-b589">
+        <selectionEntryGroup id="2974-65f4-bc1c-ade9" name="Prow 武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="1629-c4a9-2be0-b589">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="77a0-2f1d-6ba3-0560" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2bfd-5e25-99f4-c09a" type="max"/>
@@ -1456,7 +1456,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d958-fe18-3997-916b" type="max"/>
           </constraints>
           <profiles>
-            <profile id="8267-32b5-755d-d4b4" name="Monoscythe missile" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="8267-32b5-755d-d4b4" name="Monoscythe missile" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48寸</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 D6</characteristic>
@@ -1466,7 +1466,7 @@
                 <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
               </characteristics>
             </profile>
-            <profile id="ad94-330a-ba25-2ab1" name="Shatterfield missile" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="ad94-330a-ba25-2ab1" name="Shatterfield missile" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48寸</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 D6</characteristic>
@@ -1476,14 +1476,14 @@
                 <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When you use this profile, 可以重投失败的造伤骰 for 这个武器.</characteristic>
               </characteristics>
             </profile>
-            <profile id="5861-1211-c204-d753" name="Necrotoxin missile" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="5861-1211-c204-d753" name="Necrotoxin missile" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48寸</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 3D3</characteristic>
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">*</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Poisoned Weapon (pg 87). Add 2 to wound 骰 made for 这个武器, unless it is targeting a 载具.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Poisoned 武器 (pg 87). Add 2 to wound 骰 made for 这个武器, unless it is targeting a 载具.</characteristic>
               </characteristics>
             </profile>
             <profile id="6ae2-e054-fe46-94c2" name="Razorwing missile" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -1500,7 +1500,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="9021-6ccf-b6fb-5ff1" name="Secondary Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="1540-86ed-acdc-b59b">
+        <selectionEntryGroup id="9021-6ccf-b6fb-5ff1" name="Secondary 武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="1540-86ed-acdc-b59b">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="327c-4e7c-e0d4-698c" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f891-1e54-3925-a83d" type="max"/>
@@ -1511,14 +1511,14 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2e45-f796-b42f-f6ec" type="max"/>
               </constraints>
               <profiles>
-                <profile id="80e4-f5e6-749b-a36d" name="双联 Splinter Rifle" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="80e4-f5e6-749b-a36d" name="双联 Splinter Rifle" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">速射 2</characteristic>
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">*</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Poisoned Weapon (pg 87)</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Poisoned 武器 (pg 87)</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1776,7 +1776,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="3498-ef58-d1c0-dd3d" name="Reaver with special weapon (至多 1 for 3 models)" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="3498-ef58-d1c0-dd3d" name="Reaver with special 武器 (至多 1 for 3 models)" hidden="false" collective="false" import="true" type="model">
               <modifiers>
                 <modifier type="increment" field="bc98-ac74-ac8d-acd8" value="1">
                   <repeats>
@@ -1804,7 +1804,7 @@
                 </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups>
-                <selectionEntryGroup id="9231-e4ab-1653-4712" name="Special Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="6124-9c98-78c2-ee4a">
+                <selectionEntryGroup id="9231-e4ab-1653-4712" name="Special 武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="6124-9c98-78c2-ee4a">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1baf-d98e-78c0-2646" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c58-6da9-58e1-f186" type="max"/>
@@ -1960,7 +1960,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2096-7a67-2c01-8ba7" type="min"/>
           </constraints>
           <profiles>
-            <profile id="fe16-a568-b1b5-ef10" name="Archite glaive" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="fe16-a568-b1b5-ef10" name="Archite glaive" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -2113,7 +2113,7 @@
         <categoryLink id="e9e9-8dee-195e-faf2" name="New CategoryLink" hidden="false" targetId="c8fd-783f-3230-493e" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="d5df-d04f-f2f8-8bd1" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="aad1-6a7f-6310-fb78">
+        <selectionEntryGroup id="d5df-d04f-f2f8-8bd1" name="武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="aad1-6a7f-6310-fb78">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d795-2bd6-d126-1441" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9445-e438-98dd-808f" type="max"/>
@@ -2124,14 +2124,14 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91a4-c497-d626-7d04" type="max"/>
               </constraints>
               <profiles>
-                <profile id="e13a-d80a-4bb8-7da2" name="双联 splinter rifle" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="e13a-d80a-4bb8-7da2" name="双联 splinter rifle" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">速射 2</characteristic>
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">*</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Poisoned Weapon (pg 87)</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Poisoned 武器 (pg 87)</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2287,7 +2287,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="0b67-2ab9-712e-ff58" name="Wrack with special weapon (至多 1 for 5 models)" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="0b67-2ab9-712e-ff58" name="Wrack with special 武器 (至多 1 for 5 models)" hidden="false" collective="false" import="true" type="model">
               <modifiers>
                 <modifier type="increment" field="5c3c-6c18-6db9-8aa2" value="1">
                   <repeats>
@@ -2299,7 +2299,7 @@
                 <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c3c-6c18-6db9-8aa2" type="max"/>
               </constraints>
               <selectionEntryGroups>
-                <selectionEntryGroup id="4cfe-fb81-96f8-5157" name="Special weapon" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="4cfe-fb81-96f8-5157" name="Special 武器" hidden="false" collective="false" import="true">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e154-1250-4d88-a4a4" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="86f9-1c6e-bfd0-20bd" type="max"/>
@@ -2338,14 +2338,14 @@
     </selectionEntry>
     <selectionEntry id="cf05-ec56-3a36-d520" name="Dark Lance" page="0" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="d52e-e6fa-dbe6-0fa0" name="Dark Lance" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="d52e-e6fa-dbe6-0fa0" name="Dark Lance" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 1</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Change the weapon&apos;s Type from Heavy to Assault if it is equipped 结果为载具.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Change the 武器&apos;s Type from Heavy to Assault if it is equipped 结果为载具.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2357,7 +2357,7 @@
     </selectionEntry>
     <selectionEntry id="dd11-f611-6a44-18ae" name="Disintegrator cannon" page="0" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="3f2e-33b0-adb5-780c" name="Disintegrator cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="3f2e-33b0-adb5-780c" name="Disintegrator cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 3</characteristic>
@@ -2379,7 +2379,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c56f-58ea-7d6a-e160" type="max"/>
       </constraints>
       <profiles>
-        <profile id="8edf-3030-4c47-f488" name="Shock Prow" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="8edf-3030-4c47-f488" name="Shock Prow" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -2420,7 +2420,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="63fa-df03-04c2-2ff1" type="max"/>
       </constraints>
       <profiles>
-        <profile id="8658-2cf6-fa0f-7e29" name="Bladevanes" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="8658-2cf6-fa0f-7e29" name="Bladevanes" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -2439,14 +2439,14 @@
     </selectionEntry>
     <selectionEntry id="2478-2b90-2336-720e" name="Splinter Cannon" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="dfbb-5dd6-8a34-e9ca" name="Splinter Cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="dfbb-5dd6-8a34-e9ca" name="Splinter Cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">速射 3</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">*</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Poisoned Weapon (pg 87)</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Poisoned 武器 (pg 87)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2522,14 +2522,14 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="054c-f112-6e01-cc7d" type="max"/>
           </constraints>
           <profiles>
-            <profile id="956a-9920-48b6-72e7" name="Shaimeshi blade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="956a-9920-48b6-72e7" name="Shaimeshi blade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">*</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Poisoned Weapon (pg 87). Add 2 to wound 骰 made for 这个武器, unless it is targeting a 载具. 每次 you roll a wound roll of 6+ for 这个武器, other than 对抗 a 载具, the target 遭受 1点致命伤 此外 to any other 伤害.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Poisoned 武器 (pg 87). Add 2 to wound 骰 made for 这个武器, unless it is targeting a 载具. 每次 you roll a wound roll of 6+ for 这个武器, other than 对抗 a 载具, the target 遭受 1点致命伤 此外 to any other 伤害.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2597,7 +2597,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e15-8f81-ebf6-d27c" type="max"/>
           </constraints>
           <profiles>
-            <profile id="2010-0f34-0a54-3a3b" name="Eyeburst" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="2010-0f34-0a54-3a3b" name="Eyeburst" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">9寸</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 4</characteristic>
@@ -2679,7 +2679,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="baf3-bb87-8808-23e6" type="max"/>
           </constraints>
           <profiles>
-            <profile id="7a7e-a0c8-ff3d-e4e0" name="Sslyth battle-blade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="7a7e-a0c8-ff3d-e4e0" name="Sslyth battle-blade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -2773,7 +2773,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="765e-8bbd-81fe-bc22" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="bada-20cc-2c60-b73e" name="Razor feathers" publicationId="e0a4-2172-pubN65537" page="99" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                    <profile id="bada-20cc-2c60-b73e" name="Razor feathers" publicationId="e0a4-2172-pubN65537" page="99" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                       <characteristics>
                         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -2870,7 +2870,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a7e-b66b-e350-9317" type="min"/>
                   </constraints>
                   <profiles>
-                    <profile id="f954-9d98-5658-39a3" name="Monstrous cleaver" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                    <profile id="f954-9d98-5658-39a3" name="Monstrous cleaver" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                       <characteristics>
                         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -2915,7 +2915,7 @@
                 <categoryLink id="2286-f76a-05ad-30ae" name="New CategoryLink" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
               </categoryLinks>
               <selectionEntryGroups>
-                <selectionEntryGroup id="d7b8-0992-762f-0593" name="Replace Flesh Gauntlet with Weapon of Torture" hidden="false" collective="false" import="true" defaultSelectionEntryId="c536-7436-6f3d-3b19">
+                <selectionEntryGroup id="d7b8-0992-762f-0593" name="Replace Flesh Gauntlet with 武器 of Torture" hidden="false" collective="false" import="true" defaultSelectionEntryId="c536-7436-6f3d-3b19">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ecad-44e1-1aab-75cc" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2f89-662e-0797-8005" type="min"/>
@@ -2940,7 +2940,7 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8971-92d1-094a-1b61" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="780c-10cc-c644-7e18" name="Monstrous cleaver" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                        <profile id="780c-10cc-c644-7e18" name="Monstrous cleaver" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                           <characteristics>
                             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -3121,7 +3121,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3fcb-b79b-9c79-6183" type="max"/>
               </constraints>
               <profiles>
-                <profile id="86ec-bb87-7a71-48e5" name="Beastmaster&apos;s scourge" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="86ec-bb87-7a71-48e5" name="Beastmaster&apos;s scourge" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -3214,7 +3214,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ebc-f57a-f0f6-2fd4" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="1d2c-27cc-bb03-c153" name="Clawed fists" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                    <profile id="1d2c-27cc-bb03-c153" name="Clawed fists" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                       <characteristics>
                         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -3269,7 +3269,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1152-da92-3f81-1e60" type="max"/>
       </constraints>
       <profiles>
-        <profile id="b909-3b6c-8f08-4899" name="Blast Pistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="b909-3b6c-8f08-4899" name="Blast Pistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手枪 1</characteristic>
@@ -3291,7 +3291,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bbba-7ad1-7f9c-2fc3" type="max"/>
       </constraints>
       <profiles>
-        <profile id="44df-034e-4a72-1cd4" name="Blaster" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="44df-034e-4a72-1cd4" name="Blaster" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 1</characteristic>
@@ -3370,7 +3370,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="88b1-5dd0-3e17-432e" type="max"/>
           </constraints>
           <profiles>
-            <profile id="3718-775a-3fd2-38e9" name="Darklight grenades" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="3718-775a-3fd2-38e9" name="Darklight grenades" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6寸</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手雷 D6</characteristic>
@@ -3395,7 +3395,7 @@
             <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d6d8-9cd4-9634-8ef3" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="c0ce-44f4-7a84-e591" name="Hekatrix Bloodbride with Wych Weapon" page="0" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="c0ce-44f4-7a84-e591" name="Hekatrix Bloodbride with Wych 武器" page="0" hidden="false" collective="false" import="true" type="model">
               <modifiers>
                 <modifier type="set" field="6d02-3d5c-0565-a042" value="3">
                   <conditions>
@@ -3407,7 +3407,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6d02-3d5c-0565-a042" type="max"/>
               </constraints>
               <selectionEntryGroups>
-                <selectionEntryGroup id="405a-cec3-0c1a-f447" name="Wych weapon" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="405a-cec3-0c1a-f447" name="Wych 武器" hidden="false" collective="false" import="true">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ecaa-2604-6faf-85cd" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4637-7aff-0594-dabe" type="max"/>
@@ -3418,7 +3418,7 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d73-d2ba-62b6-ba5b" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="84bb-74c6-fc2a-4812" name="Razorflails" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                        <profile id="84bb-74c6-fc2a-4812" name="Razorflails" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                           <characteristics>
                             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -3440,7 +3440,7 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30e3-47c8-0735-595c" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="dc36-a39f-9513-a140" name="Shardnet and impaler" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                        <profile id="dc36-a39f-9513-a140" name="Shardnet and impaler" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                           <characteristics>
                             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -3462,7 +3462,7 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a5dc-ddfa-cf37-0f70" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="3bff-d0ef-b9e6-c8f5" name="Hydra gauntlets" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                        <profile id="3bff-d0ef-b9e6-c8f5" name="Hydra gauntlets" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                           <characteristics>
                             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -3531,7 +3531,7 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbe6-fc15-5c44-dd0a" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="00fc-7f03-8fc5-5d0e" name="Hekatarii blade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                        <profile id="00fc-7f03-8fc5-5d0e" name="Hekatarii blade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                           <characteristics>
                             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -3602,7 +3602,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05ea-3f9d-d493-9522" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="6834-53fc-233c-881e" name="Hekatarii blade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                    <profile id="6834-53fc-233c-881e" name="Hekatarii blade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                       <characteristics>
                         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -3791,7 +3791,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9aaa-9fb1-ee7d-3615" type="max"/>
           </constraints>
           <profiles>
-            <profile id="2c2e-8888-5cdb-15d3" name="Single blade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="2c2e-8888-5cdb-15d3" name="Single blade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -3801,7 +3801,7 @@
                 <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
               </characteristics>
             </profile>
-            <profile id="ff9a-f8cc-7dd2-1520" name="Dual blades" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="ff9a-f8cc-7dd2-1520" name="Dual blades" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -3837,7 +3837,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4c60-2d55-f76e-b8a4" type="max"/>
       </constraints>
       <profiles>
-        <profile id="5a67-40d7-0ba7-4cb0" name="Flesh Gauntlet" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="5a67-40d7-0ba7-4cb0" name="Flesh Gauntlet" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -3953,7 +3953,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0fd-dc49-65f5-ce31" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="11b9-ec2d-5baa-8aad" name="Splinter pods" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                    <profile id="11b9-ec2d-5baa-8aad" name="Splinter pods" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                       <characteristics>
                         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18寸</characteristic>
                         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 2</characteristic>
@@ -3998,7 +3998,7 @@
                 </profile>
               </profiles>
               <selectionEntryGroups>
-                <selectionEntryGroup id="11be-1a8a-f9ef-9164" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="78a3-0bed-fec5-2eda">
+                <selectionEntryGroup id="11be-1a8a-f9ef-9164" name="武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="78a3-0bed-fec5-2eda">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ddcd-3d2c-8907-27f3" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8456-cd5d-5232-1966" type="max"/>
@@ -4050,7 +4050,7 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="861e-0e93-289f-79b6" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="e256-345a-ecb4-525c" name="Stunclaw" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                        <profile id="e256-345a-ecb4-525c" name="Stunclaw" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                           <characteristics>
                             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -4160,7 +4160,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4580-f37d-a5cc-18e0" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="436f-48bc-554c-7a33" name="Klaive" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                    <profile id="436f-48bc-554c-7a33" name="Klaive" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                       <characteristics>
                         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -4407,7 +4407,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="6036-f2d9-6e01-c96f" name="Kabalite Trueborn with Special Weapon" page="0" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="6036-f2d9-6e01-c96f" name="Kabalite Trueborn with Special 武器" page="0" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d9ed-ec29-9ebe-2ce5" type="max"/>
               </constraints>
@@ -4429,7 +4429,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="bac6-f7fd-17b9-fbfc" name="Trueborn with Heavy Weapon" page="0" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="bac6-f7fd-17b9-fbfc" name="Trueborn with Heavy 武器" page="0" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="790a-3ff2-137b-a45a" type="max"/>
               </constraints>
@@ -4537,7 +4537,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3936-1485-fede-4419" type="max"/>
           </constraints>
           <profiles>
-            <profile id="8034-2902-fddb-c1cb" name="Mane of barbs and hooks" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="8034-2902-fddb-c1cb" name="Mane of barbs and hooks" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -4560,7 +4560,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="331c-b4d3-61bd-1aff" type="min"/>
           </constraints>
           <profiles>
-            <profile id="9715-9bde-2f5d-58e0" name="Penetrating blade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="9715-9bde-2f5d-58e0" name="Penetrating blade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -4607,7 +4607,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d277-6640-3513-17ab" type="max"/>
               </constraints>
               <profiles>
-                <profile id="1fc1-653e-43fa-44f9" name="Impaler" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="1fc1-653e-43fa-44f9" name="Impaler" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -4629,7 +4629,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4174-6d66-25fc-b481" type="max"/>
               </constraints>
               <profiles>
-                <profile id="ac0d-59b1-4052-6759" name="Penetrating blade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="ac0d-59b1-4052-6759" name="Penetrating blade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -4663,7 +4663,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d34d-46cf-94b1-bfa7" type="max"/>
       </constraints>
       <profiles>
-        <profile id="0145-881a-ffdf-1504" name="Liquifier Gun" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="0145-881a-ffdf-1504" name="Liquifier Gun" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">8寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 D6</characteristic>
@@ -4685,7 +4685,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="94aa-ae6b-c5e2-e4c4" type="max"/>
       </constraints>
       <profiles>
-        <profile id="92a9-19c8-930e-1c81" name="Mindphase Gauntlet" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="92a9-19c8-930e-1c81" name="Mindphase Gauntlet" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -4707,7 +4707,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e79a-4082-6253-028d" type="max"/>
       </constraints>
       <profiles>
-        <profile id="12de-8bb5-8076-1716" name="Phantasm Grenade Launcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="12de-8bb5-8076-1716" name="Phantasm Grenade Launcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 D3</characteristic>
@@ -4729,14 +4729,14 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="456a-34ed-8bbc-572d" type="max"/>
       </constraints>
       <profiles>
-        <profile id="e222-6503-28d3-feaa" name="Scissorhand" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="e222-6503-28d3-feaa" name="Scissorhand" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">*</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Poisoned Weapon (p87). 每次 the bearer fights, it can make 1 additional attack with 这个武器.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Poisoned 武器 (p87). 每次 the bearer fights, it can make 1 additional attack with 这个武器.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4874,7 +4874,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="44f0-cb5e-89c7-47df" name="Scourge with Special / Heavy weapon" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="44f0-cb5e-89c7-47df" name="Scourge with Special / Heavy 武器" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3ef2-1d78-ae54-dff8" type="max"/>
               </constraints>
@@ -4914,7 +4914,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7d30-a7ae-9e94-74b5" type="max"/>
       </constraints>
       <profiles>
-        <profile id="f998-19ac-813e-ea62" name="Shredder" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="f998-19ac-813e-ea62" name="Shredder" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 D6</characteristic>
@@ -4976,7 +4976,7 @@
                 </profile>
               </profiles>
               <selectionEntryGroups>
-                <selectionEntryGroup id="e8ca-78ae-7e84-6cbe" name="2nd Arm Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="ef2f-2038-8df6-fb08">
+                <selectionEntryGroup id="e8ca-78ae-7e84-6cbe" name="2nd Arm 武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="ef2f-2038-8df6-fb08">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="852b-3a8a-ab71-ac33" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a197-1b01-86d4-dacf" type="max"/>
@@ -4987,7 +4987,7 @@
                     <entryLink id="e7e7-3a47-f210-eb2b" name="Talos Gauntlet" hidden="false" collective="false" import="true" targetId="5f47-5181-9821-f21c" type="selectionEntry"/>
                   </entryLinks>
                 </selectionEntryGroup>
-                <selectionEntryGroup id="6404-8862-bf2e-3303" name="Tail Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="3daf-e791-ff9f-e98c">
+                <selectionEntryGroup id="6404-8862-bf2e-3303" name="Tail 武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="3daf-e791-ff9f-e98c">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ea05-a8d5-9da3-91f5" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cbe0-6cb8-c7a5-070a" type="max"/>
@@ -4998,7 +4998,7 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c53c-0902-04d9-383b" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="5617-740a-d5fb-dbcb" name="Stinger Pod" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                        <profile id="5617-740a-d5fb-dbcb" name="Stinger Pod" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                           <characteristics>
                             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
                             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 2D6</characteristic>
@@ -5071,7 +5071,7 @@
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntryGroup>
-                <selectionEntryGroup id="dc25-0710-d180-c34b" name="1st Arm Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="b058-a1c0-03ed-bf2c">
+                <selectionEntryGroup id="dc25-0710-d180-c34b" name="1st Arm 武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="b058-a1c0-03ed-bf2c">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3d96-99bd-eb49-5f9b" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1b6d-0f35-78f2-8f96" type="min"/>
@@ -5082,7 +5082,7 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1e5a-9391-ebcd-6ba6" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="dd69-43b8-472c-4f90" name="双联 liquifier gun" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                        <profile id="dd69-43b8-472c-4f90" name="双联 liquifier gun" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                           <characteristics>
                             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">8寸</characteristic>
                             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 2D6</characteristic>
@@ -5204,7 +5204,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b786-a522-3b75-80c1" type="max"/>
           </constraints>
           <profiles>
-            <profile id="9575-8435-aaa4-efea" name="Casket of Flensing" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="9575-8435-aaa4-efea" name="Casket of Flensing" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12寸</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 2D6</characteristic>
@@ -5384,7 +5384,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2713-ff53-5411-2b97" type="min"/>
               </constraints>
               <profiles>
-                <profile id="f310-fdca-1162-c437" name="Implosion missile" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="f310-fdca-1162-c437" name="Implosion missile" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48寸</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 D3</characteristic>
@@ -5407,7 +5407,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9d9-1a0f-4013-29ad" type="min"/>
               </constraints>
               <profiles>
-                <profile id="3d8b-2332-e6d8-f4f9" name="Shatterfield missile" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="3d8b-2332-e6d8-f4f9" name="Shatterfield missile" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48寸</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 D6</characteristic>
@@ -5433,7 +5433,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="4d07-6176-3281-0e04" name="Primary Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="515a-d462-0cb2-6978">
+        <selectionEntryGroup id="4d07-6176-3281-0e04" name="Primary 武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="515a-d462-0cb2-6978">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0919-6871-8d6a-1e61" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="14ff-150d-b984-3141" type="max"/>
@@ -5444,7 +5444,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8e83-43fe-5cef-9a57" type="max"/>
               </constraints>
               <profiles>
-                <profile id="f733-d0d3-a76e-a8af" name="Void lance" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="f733-d0d3-a76e-a8af" name="Void lance" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36寸</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 1</characteristic>
@@ -5466,7 +5466,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="915c-bb55-e45d-d340" type="max"/>
               </constraints>
               <profiles>
-                <profile id="222e-928f-8414-5568" name="Dark scythe" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="222e-928f-8414-5568" name="Dark scythe" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 D3</characteristic>
@@ -5569,7 +5569,7 @@
             <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="46b8-da11-765b-6cb4" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="9c81-008d-1dff-6846" name="Wych with Wych Weapon" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="9c81-008d-1dff-6846" name="Wych with Wych 武器" hidden="false" collective="false" import="true" type="model">
               <modifiers>
                 <modifier type="set" field="b1b9-5ea7-4f54-b084" value="3">
                   <conditions>
@@ -5631,7 +5631,7 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b727-cd4b-8cd1-1c52" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="9376-cc7d-e866-b61f" name="Hekatarii blade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                        <profile id="9376-cc7d-e866-b61f" name="Hekatarii blade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                           <characteristics>
                             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -5705,7 +5705,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac50-7d3e-d203-3115" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="6f78-5a95-fb6d-c2c7" name="Hekatarii blade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                    <profile id="6f78-5a95-fb6d-c2c7" name="Hekatarii blade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                       <characteristics>
                         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -5748,7 +5748,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdac-d87e-f8aa-5516" type="max"/>
       </constraints>
       <profiles>
-        <profile id="8bbf-3741-bf5c-c021" name="Huskblade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="8bbf-3741-bf5c-c021" name="Huskblade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -5784,14 +5784,14 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="151c-4f7f-4560-e51c" type="max"/>
       </constraints>
       <profiles>
-        <profile id="3e96-b451-a559-00cf" name="Splinter pods" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="3e96-b451-a559-00cf" name="Splinter pods" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 2</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">*</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Poisoned Weapon (p87)</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Poisoned 武器 (p87)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5803,14 +5803,14 @@
     </selectionEntry>
     <selectionEntry id="bac0-1ac3-c526-786e" name="Venom Blade" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="87b3-ff98-8979-7441" name="Venom Blade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="87b3-ff98-8979-7441" name="Venom Blade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">*</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Poisoned Weapon (p87). Add 2 to wound 骰 made for 这个武器, unless it is targeting a 载具.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Poisoned 武器 (p87). Add 2 to wound 骰 made for 这个武器, unless it is targeting a 载具.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5822,14 +5822,14 @@
     </selectionEntry>
     <selectionEntry id="76ac-0e9d-9553-4433" name="Electrocorrosive whip" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="e15e-0ccd-1a42-08c5" name="Electrocorrosive whip" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="e15e-0ccd-1a42-08c5" name="Electrocorrosive whip" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">*</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Poisoned Weapon (p87)</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Poisoned 武器 (p87)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5844,14 +5844,14 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1549-fb3c-e35e-eeb3" type="max"/>
       </constraints>
       <profiles>
-        <profile id="de2b-9ce6-febe-8eab" name="Hexrifle" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="de2b-9ce6-febe-8eab" name="Hexrifle" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 1</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">The weapon may target a 人物 even if it is not the closest 敌方单位. 每次 you roll a wound roll of 6+ for 这个武器, the target 遭受 1点致命伤 此外 to any other 伤害. </characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">The 武器 may target a 人物 even if it is not the closest 敌方单位. 每次 you roll a wound roll of 6+ for 这个武器, the target 遭受 1点致命伤 此外 to any other 伤害. </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5866,14 +5866,14 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf4d-9e5c-b582-c5ce" type="max"/>
       </constraints>
       <profiles>
-        <profile id="8648-3238-3ee3-b834" name="Stinger Pistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="8648-3238-3ee3-b834" name="Stinger Pistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手枪 1 </characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">*</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Poisoned Weapon (p87). Add 2 to wound 骰 made for 这个武器, unless it is targeting a 载具.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Poisoned 武器 (p87). Add 2 to wound 骰 made for 这个武器, unless it is targeting a 载具.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5938,7 +5938,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea9c-5694-ea10-93e2" type="max"/>
           </constraints>
           <profiles>
-            <profile id="4dd5-52c4-6ee5-5bdb" name="Claws and talons" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="4dd5-52c4-6ee5-5bdb" name="Claws and talons" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -5981,7 +5981,7 @@
     </selectionEntry>
     <selectionEntry id="a224-3569-0a55-cdd5" name="Heat lance" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="4b19-af75-49bf-20d4" name="Heat lance" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="4b19-af75-49bf-20d4" name="Heat lance" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 1</characteristic>
@@ -6000,7 +6000,7 @@
     </selectionEntry>
     <selectionEntry id="f5b7-03e0-0b48-b6f5" name="Haywire blaster" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="1c14-8649-f2a3-05d5" name="Haywire blaster" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="1c14-8649-f2a3-05d5" name="Haywire blaster" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 D3</characteristic>
@@ -6019,14 +6019,14 @@
     </selectionEntry>
     <selectionEntry id="c27b-3969-cb78-62f0" name="Shardcarbine" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
-        <profile id="1ee0-df72-ea51-8142" name="Shardcarbine" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="1ee0-df72-ea51-8142" name="Shardcarbine" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 3</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">*</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Poisoned Weapon (p87)</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Poisoned 武器 (p87)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6041,14 +6041,14 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="905e-681a-03a6-7631" type="max"/>
       </constraints>
       <profiles>
-        <profile id="bcc3-f130-703e-d0ce" name="Ossefactor" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="bcc3-f130-703e-d0ce" name="Ossefactor" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 1</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">*</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Poisoned Weapon (p87). Add 2 to wound 骰 made with 这个武器, unless it is targeting a 载具. If a 模型 is slain by 这个武器, the 模型的 单位 立即 遭受 1点致命伤 结果为D6 roll of 4+</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Poisoned 武器 (p87). Add 2 to wound 骰 made with 这个武器, unless it is targeting a 载具. If a 模型 is slain by 这个武器, the 模型的 单位 立即 遭受 1点致命伤 结果为D6 roll of 4+</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6103,7 +6103,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1709-e387-ae40-ba95" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="0fe6-d85b-8eeb-b031" name="Claws and talons" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                    <profile id="0fe6-d85b-8eeb-b031" name="Claws and talons" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                       <characteristics>
                         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -6325,7 +6325,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="799c-2b6d-5db4-db1b" type="max"/>
           </constraints>
           <profiles>
-            <profile id="4b7c-a180-937b-aa5f" name="Storm Vortex Projector - Blast" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="4b7c-a180-937b-aa5f" name="Storm Vortex Projector - Blast" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 2D6</characteristic>
@@ -6335,7 +6335,7 @@
                 <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If 任何模型 are slain in the 目标单位, it may not Advance in the following turn.</characteristic>
               </characteristics>
             </profile>
-            <profile id="95bf-7cdd-6426-36ca" name="Storm Vortex Projector - Beam" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="95bf-7cdd-6426-36ca" name="Storm Vortex Projector - Beam" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36寸</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 D6</characteristic>
@@ -6363,7 +6363,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7173-216f-912e-e5fb" type="max"/>
           </constraints>
           <profiles>
-            <profile id="4374-092d-790f-51e0" name="Scythevanes" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="4374-092d-790f-51e0" name="Scythevanes" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -6386,14 +6386,14 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="901b-b769-a6e9-50f1" type="max"/>
           </constraints>
           <profiles>
-            <profile id="bbf1-1e2b-64ed-0fc2" name="Sharpened prow blade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="bbf1-1e2b-64ed-0fc2" name="Sharpened prow blade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">You can make a maximum of one combat attack with a sharpened prow blade each turn (any remaining 攻击 必须 made with a different weapon).</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">You can make a maximum of one combat attack with a sharpened prow blade each turn (any remaining 攻击 必须 made with a different 武器).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6529,7 +6529,7 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a679-1b5b-5ba2-1aa4" type="max"/>
           </constraints>
           <profiles>
-            <profile id="dbb4-37a8-8bf0-d504" name="Pulse disintegrator" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="dbb4-37a8-8bf0-d504" name="Pulse disintegrator" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36寸</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 6</characteristic>
@@ -6552,7 +6552,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2bd2-4fd3-7b36-f0b9" type="max"/>
           </constraints>
           <profiles>
-            <profile id="7889-4fd8-41b3-82d4" name="Dire scythe blade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="7889-4fd8-41b3-82d4" name="Dire scythe blade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -6752,7 +6752,7 @@
                           <profiles>
                             <profile id="5274-821d-00a6-2e2e" name="Artists of the Flesh" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                               <characteristics>
-                                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If you select this Haemonculus Coven Obsession you cannot select a second. When resolving an attack 对抗 a 单位 with this Obsession, 减少 1 from the D值 of the weapon making that attack (to a minimum of 1).</characteristic>
+                                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If you select this Haemonculus Coven Obsession you cannot select a second. When resolving an attack 对抗 a 单位 with this Obsession, 减少 1 from the D值 of the 武器 making that attack (to a minimum of 1).</characteristic>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -6786,7 +6786,7 @@
                           <profiles>
                             <profile id="c70c-dace-2ec2-be6a" name="Dark Technomancers" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                               <characteristics>
-                                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When a 单位 with this obsession fires 坚守射击 or is chosen to shoot with, you can choose to enhance any or 所有 of the ranged 武器 模型 in 那个单位 are equipped with. If you do, 直到阶段结束, when resolving an attack made with that weapon, add 1 to the wound roll and add 1 to the D值 of that weapon for that attack. If any unmodified wound 骰 of 1 are made for 攻击 with an enhanced weapon, the firing 模型 遭受 1 致命伤 after 射击 with that weapon.</characteristic>
+                                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When a 单位 with this obsession fires 坚守射击 or is chosen to shoot with, you can choose to enhance any or 所有 of the ranged 武器 模型 in 那个单位 are equipped with. If you do, 直到阶段结束, when resolving an attack made with that 武器, add 1 to the wound roll and add 1 to the D值 of that 武器 for that attack. If any unmodified wound 骰 of 1 are made for 攻击 with an enhanced 武器, the firing 模型 遭受 1 致命伤 after 射击 with that 武器.</characteristic>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -6803,7 +6803,7 @@
                           <profiles>
                             <profile id="85b8-df5c-6a09-dee8" name="Experimental Creations" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                               <characteristics>
-                                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the S值 of 所有 模型 with this obsession. When resolving an attack made with a poisoned 肉搏武器 by a 模型 with this obsession 对抗 a 单位 that 拥有 lower T值 than the attacking model, add 1 to the wound roll. For the purposes of this obsession, a poisoned 肉搏武器 is any 肉搏武器 with the Poisoned Weapon ability (see 圣典: Drukhari).’</characteristic>
+                                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the S值 of 所有 模型 with this obsession. When resolving an attack made with a poisoned 肉搏武器 by a 模型 with this obsession 对抗 a 单位 that 拥有 lower T值 than the attacking model, add 1 to the wound roll. For the purposes of this obsession, a poisoned 肉搏武器 is any 肉搏武器 with the Poisoned 武器 ability (see 圣典: Drukhari).’</characteristic>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -6837,7 +6837,7 @@
                           <profiles>
                             <profile id="9e2d-717b-d3f3-3142" name="Masters of Mutagens" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                               <characteristics>
-                                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made with a poisoned weapon by a 模型 with this obsession 对抗 a 单位 that is not a 载具 or 巨型, an unmodified 命中 roll of 6 自动 scores a 命中 and successfully wounds the target (do not make a wound roll). This does not apply to Artefacts of Cruelty. For the purposes of this obsession, a poisoned weapon is any weapon with the Poisoned Weapon ability (see 圣典: Drukhari).</characteristic>
+                                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made with a poisoned 武器 by a 模型 with this obsession 对抗 a 单位 that is not a 载具 or 巨型, an unmodified 命中 roll of 6 自动 scores a 命中 and successfully wounds the target (do not make a wound roll). This does not apply to Artefacts of Cruelty. For the purposes of this obsession, a poisoned 武器 is any 武器 with the Poisoned 武器 ability (see 圣典: Drukhari).</characteristic>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -6950,7 +6950,7 @@
                   <profiles>
                     <profile id="8942-ed14-4a71-16ef" name="Kabal of the Poisoned Tongue" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">重投 wound 骰 of 1 made for 肉搏武器 and poisoned 武器 used by 模型 with this obsession. This does not apply to Artefacts of Cruelty. For the purposes of this obsession, a poisoned weapon is any weapon with the Poisoned Weapon ability.</characteristic>
+                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">重投 wound 骰 of 1 made for 肉搏武器 and poisoned 武器 used by 模型 with this obsession. This does not apply to Artefacts of Cruelty. For the purposes of this obsession, a poisoned 武器 is any 武器 with the Poisoned 武器 ability.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7077,7 +7077,7 @@
                           <profiles>
                             <profile id="9053-3a7a-497b-1218" name="Toxin Crafters" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                               <characteristics>
-                                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made with a poisoned weapon by a 模型 with this obsession, on an unmodified wound roll of 6 add 1 to the D值 of that weapon for that attack. This does not apply to Artefacts of Cruelty. For the purposes of this obsession, a poisoned weapon is any weapon that has the Poisoned Weapon ability (see 圣典: Drukhari).</characteristic>
+                                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made with a poisoned 武器 by a 模型 with this obsession, on an unmodified wound roll of 6 add 1 to the D值 of that 武器 for that attack. This does not apply to Artefacts of Cruelty. For the purposes of this obsession, a poisoned 武器 is any 武器 that has the Poisoned 武器 ability (see 圣典: Drukhari).</characteristic>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -7260,7 +7260,7 @@
                           <profiles>
                             <profile id="95e8-13f0-4f11-d1f6" name="Precise Killers" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                               <characteristics>
-                                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made with a 肉搏武器 by a 模型 with this obsession, on an unmodified wound roll of 6 improve the AP值 of that weapon by 1 for that attack (e.g. AP 0 becomes AP -1). You cannot select this obsession if you have already selected the Berserk Fugue obsession.</characteristic>
+                                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made with a 肉搏武器 by a 模型 with this obsession, on an unmodified wound roll of 6 improve the AP值 of that 武器 by 1 for that attack (e.g. AP 0 becomes AP -1). You cannot select this obsession if you have already selected the Berserk Fugue obsession.</characteristic>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -7401,7 +7401,7 @@
     </selectionEntry>
     <selectionEntry id="c9ef-738b-377f-3bd2" name="Spirit Vortex" page="0" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="95b0-5e74-c409-5995" name="Spirit Vortex" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="95b0-5e74-c409-5995" name="Spirit Vortex" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Asssault D6</characteristic>
@@ -7420,7 +7420,7 @@
     </selectionEntry>
     <selectionEntry id="af0c-1056-ad60-ee93" name="Spirit Syphon" page="0" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="1af3-186f-ebbe-3e98" name="Spirit Syphon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="1af3-186f-ebbe-3e98" name="Spirit Syphon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">8寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 D6</characteristic>
@@ -7439,7 +7439,7 @@
     </selectionEntry>
     <selectionEntry id="753b-465a-cf88-d413" name="Spirit-leech tentacles" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="335f-a1c4-71f2-85a2" name="Spirit leech tentacles" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="335f-a1c4-71f2-85a2" name="Spirit leech tentacles" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -7464,7 +7464,7 @@
     </selectionEntry>
     <selectionEntry id="baf6-323c-2d54-9df3" name="Impaler" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="6093-acab-4e5d-edca" name="Impaler" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="6093-acab-4e5d-edca" name="Impaler" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -7483,7 +7483,7 @@
     </selectionEntry>
     <selectionEntry id="68ca-10b2-6b3c-6b00" name="Ichor Injector" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="27ef-772a-268b-de5e" name="Ichor Injector" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="27ef-772a-268b-de5e" name="Ichor Injector" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -7502,7 +7502,7 @@
     </selectionEntry>
     <selectionEntry id="972e-f4f6-5b14-7371" name="Macro-Scalpel" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="d950-ee3d-4bf4-0608" name="Macro-Scalpel" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="d950-ee3d-4bf4-0608" name="Macro-Scalpel" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -7524,7 +7524,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0f9b-1678-a32e-3a5f" type="max"/>
       </constraints>
       <profiles>
-        <profile id="a1a1-fe67-b85a-6afc" name="Chain-Flails" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="a1a1-fe67-b85a-6afc" name="Chain-Flails" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -7543,7 +7543,7 @@
     </selectionEntry>
     <selectionEntry id="5f47-5181-9821-f21c" name="Talos Gauntlet" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="8741-4235-dea4-1e55" name="Talos Gauntlet" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="8741-4235-dea4-1e55" name="Talos Gauntlet" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -7770,7 +7770,7 @@
       <profiles>
         <profile id="7a73-6e44-a33d-a1cb" name="Scarlet Epicurean" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Reduce 所有 伤害 inflicted on your 主将 by 1 (to a minimum of 1). For example, if your 主将 fails a saving throw 对抗 a weapon that inflicts 3 伤害, he will only lose 2 wounds</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Reduce 所有 伤害 inflicted on your 主将 by 1 (to a minimum of 1). For example, if your 主将 fails a saving throw 对抗 a 武器 that inflicts 3 伤害, he will only lose 2 wounds</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7945,14 +7945,14 @@
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="7931-ceb5-076f-0746" name="Soul-Seeker" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="7931-ceb5-076f-0746" name="Soul-Seeker" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手枪 2</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">*</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Poisoned Weapon (pg 87). Add 2 to wound 骰 made for 这个武器, unless it is targeting a 载具. 这个武器 can target 敌方单位 that are not 可见 to the firer and can target 敌方 CHARACTERSeven if they are not the closest 敌方模型. 无视掩体</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Poisoned 武器 (pg 87). Add 2 to wound 骰 made for 这个武器, unless it is targeting a 载具. 这个武器 can target 敌方单位 that are not 可见 to the firer and can target 敌方 CHARACTERSeven if they are not the closest 敌方模型. 无视掩体</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7984,14 +7984,14 @@
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="7e55-097b-16e1-d8ae" name="Spirit-Sting" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="7e55-097b-16e1-d8ae" name="Spirit-Sting" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手枪 3</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">*</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Poisoned Weapon (pg 87). Add 2 to wound 骰 made for 这个武器, unless it is targeting a 载具. 特殊保护s 不能 taken 对抗 这个武器</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Poisoned 武器 (pg 87). Add 2 to wound 骰 made for 这个武器, unless it is targeting a 载具. 特殊保护s 不能 taken 对抗 这个武器</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8022,7 +8022,7 @@
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="390f-835e-defc-feeb" name="The Blood Glaive" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="390f-835e-defc-feeb" name="The Blood Glaive" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -8048,14 +8048,14 @@
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="3053-bebb-3996-5095" name="The Parasite&apos;s Kiss" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="3053-bebb-3996-5095" name="The Parasite&apos;s Kiss" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手枪 2</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">*</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Poisoned Weapon (p87). Add 2 to wound 骰 made for 这个武器, unless it is targeting a 载具. 每次 这个武器 kills an 敌方模型, the bearer regains 1 lost wound.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Poisoned 武器 (p87). Add 2 to wound 骰 made for 这个武器, unless it is targeting a 载具. 每次 这个武器 kills an 敌方模型, the bearer regains 1 lost wound.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8079,14 +8079,14 @@
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="308d-2a1d-17c0-64d3" name="The Triptych Whip" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="308d-2a1d-17c0-64d3" name="The Triptych Whip" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">*</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Poisoned Weapon (pg 87). 每次 the bearer fights, it can make 3 additional 攻击 with 这个武器</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Poisoned 武器 (pg 87). 每次 the bearer fights, it can make 3 additional 攻击 with 这个武器</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8283,7 +8283,7 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="59d2-02aa-7d18-d187" type="max"/>
           </constraints>
           <profiles>
-            <profile id="af6d-a898-f72e-e794" name="The Djin Blade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="af6d-a898-f72e-e794" name="The Djin Blade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -8346,7 +8346,7 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3d4f-2080-7c72-a633" type="max"/>
           </constraints>
           <profiles>
-            <profile id="c814-460a-ca66-1b9e" name="The Animus Vitae" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="c814-460a-ca66-1b9e" name="The Animus Vitae" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6寸</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手雷 1</characteristic>
@@ -8603,14 +8603,14 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ea01-f710-549c-bd2f" type="max"/>
           </constraints>
           <profiles>
-            <profile id="1df9-d916-8264-f580" name="The Flensing Blade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="1df9-d916-8264-f580" name="The Flensing Blade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">*</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Poisoned Weapon (pg 87). Add 1 to wound 骰 made for 这个武器, unless it is targeting a 载具. Increase 这个武器’s D值 to 3 when attacking 敌方 人物.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Poisoned 武器 (pg 87). Add 1 to wound 骰 made for 这个武器, unless it is targeting a 载具. Increase 这个武器’s D值 to 3 when attacking 敌方 人物.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8659,7 +8659,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e823-4694-9113-865f" type="max"/>
           </constraints>
           <profiles>
-            <profile id="3fc0-4870-358e-7ec4" name="Hydra gauntlets" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="3fc0-4870-358e-7ec4" name="Hydra gauntlets" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -8681,7 +8681,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5736-464c-07d4-a97a" type="max"/>
           </constraints>
           <profiles>
-            <profile id="f2f3-3426-9122-70d3" name="Razorflails" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="f2f3-3426-9122-70d3" name="Razorflails" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -8703,7 +8703,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a727-88d0-80d1-5abc" type="max"/>
           </constraints>
           <profiles>
-            <profile id="eccc-f2a7-6c2a-5922" name="Shardnet and impaler" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="eccc-f2a7-6c2a-5922" name="Shardnet and impaler" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -9263,7 +9263,7 @@ Battle Round 5+ -  Mantle of Agony: 减少 1 from the LD of 敌方单位 that ar
 2 - Grave Lotus: +1 Strength
 3 - Hypex: +2 Move
 4 - Painbringer: +1 Toughness
-5 - Serpentin: +1 Weapon Skill
+5 - Serpentin: +1 武器 Skill
 6 - Splintermind: +2 LD
 </description>
     </rule>
@@ -9277,7 +9277,7 @@ Battle Round 5+ -  Mantle of Agony: 减少 1 from the LD of 敌方单位 that ar
       </modifiers>
       <description>As soon as 任何单位 is destroyed, 所有 单位 from your army with this ability benefit from Soulburst actions until the end of the turn. Whilst a 单位 is benefiting from Soulburst actions, it always fights first in the 肉搏阶段, even if it didn&apos;t charge. If a 模型 that is benefiting from Soulburst actions made a 冲锋移动 this turn, or already has an ability that allows it to always fight first in the 肉搏阶段, then whilst it is benefiting from Soulburst actions you also 命中骰+1 for 攻击 made with 肉搏武器 by that model. If the 敌方 has 单位 that made a 冲锋移动 this turn, or that have abilities that allow them to always fight first in the 肉搏阶段, then alternate choosing 单位 to fight with, starting with the player whose turn is taking place.</description>
     </rule>
-    <rule id="ce60-330c-c13b-617b" name="Poisoned Weapon" hidden="false">
+    <rule id="ce60-330c-c13b-617b" name="Poisoned 武器" hidden="false">
       <description>这个武器 wounds 结果为4+, unless it is targeting a 载具 or 巨型 单位, in which case it wounds 结果为6+.</description>
     </rule>
     <rule id="7e9a-0704-b687-8a5d" name="Vanguard of the Dark City" hidden="false">
@@ -9302,27 +9302,27 @@ Battle Round 5+ -  Mantle of Agony: 减少 1 from the LD of 敌方单位 that ar
     </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="75d4-65e5-4dcd-a074" name="Agoniser" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="75d4-65e5-4dcd-a074" name="Agoniser" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">*</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Poisoned Weapon (p87)</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Poisoned 武器 (p87)</characteristic>
       </characteristics>
     </profile>
-    <profile id="e2ab-9db5-6aa2-51df" name="Splinter pistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="e2ab-9db5-6aa2-51df" name="Splinter pistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12寸</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手枪 1</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">*</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Poisoned Weapon (pg 87)</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Poisoned 武器 (pg 87)</characteristic>
       </characteristics>
     </profile>
-    <profile id="de52-6750-1d05-b647" name="Hellglaive" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="de52-6750-1d05-b647" name="Hellglaive" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -9332,7 +9332,7 @@ Battle Round 5+ -  Mantle of Agony: 减少 1 from the LD of 敌方单位 that ar
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
       </characteristics>
     </profile>
-    <profile id="9afa-82b7-75bc-86d1" name="Demiklaives - Dual blades" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="9afa-82b7-75bc-86d1" name="Demiklaives - Dual blades" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -9342,7 +9342,7 @@ Battle Round 5+ -  Mantle of Agony: 减少 1 from the LD of 敌方单位 that ar
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">A 模型 attacking with dual blades can make 2 additional 攻击 with them 每次 it fights. </characteristic>
       </characteristics>
     </profile>
-    <profile id="909e-4a65-18ee-50c5" name="Demiklaives - Single blade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="909e-4a65-18ee-50c5" name="Demiklaives - Single blade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -9352,7 +9352,7 @@ Battle Round 5+ -  Mantle of Agony: 减少 1 from the LD of 敌方单位 that ar
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="bd4e-31e1-0d39-b2e7" name="Baleblast" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="bd4e-31e1-0d39-b2e7" name="Baleblast" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18寸</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 2</characteristic>
@@ -9362,7 +9362,7 @@ Battle Round 5+ -  Mantle of Agony: 减少 1 from the LD of 敌方单位 that ar
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 you roll a wound roll of 6+ for 这个武器, the target 遭受 1点致命伤 此外 to any other 伤害. </characteristic>
       </characteristics>
     </profile>
-    <profile id="a5de-9201-0b01-b5b0" name="Glimmersteel Blade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="a5de-9201-0b01-b5b0" name="Glimmersteel Blade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -9372,24 +9372,24 @@ Battle Round 5+ -  Mantle of Agony: 减少 1 from the LD of 敌方单位 that ar
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
       </characteristics>
     </profile>
-    <profile id="ad0c-86c6-3bc6-92c6" name="Splinter rifle" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="ad0c-86c6-3bc6-92c6" name="Splinter rifle" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">速射 1</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">*</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Poisoned Weapon (pg 87)</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Poisoned 武器 (pg 87)</characteristic>
       </characteristics>
     </profile>
-    <profile id="88da-6173-adb2-9e7a" name="Haemonculus tools" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="88da-6173-adb2-9e7a" name="Haemonculus tools" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">*</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Poisoned Weapon (p87)</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Poisoned 武器 (p87)</characteristic>
       </characteristics>
     </profile>
     <profile id="8697-63a6-0f4e-66f8" name="Insensible to Pain" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -9437,7 +9437,7 @@ Battle Round 5+ -  Mantle of Agony: 减少 1 from the LD of 敌方单位 that ar
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When a Morale test is taken for an 敌方单位 范围内 6寸 of any INCUBI 单位 from your army, and the result of that Morale test is equal to the highest LD值 in 那个敌方单位, the test is 失败的 and one 模型 flees 那个敌方单位.</characteristic>
       </characteristics>
     </profile>
-    <profile id="0af6-7d16-f390-605e" name="Plasma Grenade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="0af6-7d16-f390-605e" name="Plasma Grenade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6寸</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手雷 D6</characteristic>
@@ -9464,7 +9464,7 @@ Battle Round 5+ -  Mantle of Agony: 减少 1 from the LD of 敌方单位 that ar
     </profile>
     <profile id="d69e-101e-b878-98d9" name="Lethal Precision" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made with a 肉搏武器 by a 模型 in 这个单位, on an unmodified wound roll of 6 add 2 to the D值 of that weapon for that attack.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made with a 肉搏武器 by a 模型 in 这个单位, on an unmodified wound roll of 6 add 2 to the D值 of that 武器 for that attack.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

@@ -76,10 +76,10 @@
     <rule id="47e0-2f52-0200-d91d" name="爆弹训练" hidden="false">
       <description>所有 阿斯塔特修会, 阿斯塔特叛军 and FALLEN 模型 gain this ability.
 而不是 following the normal rules for 速射 武器, 模型 in 这个单位 firing 速射爆弹武器 make double the number of 攻击 if any of the following apply:
-• The firing model’s target is 范围内 half the weapon’s maximum range.
+• The firing model’s target is 范围内 half the 武器’s maximum range.
 • The firing 模型 is 步兵 and every 模型 in its 单位 remained stationary in your previous 移动阶段.
 • The firing 模型 is a 终结者, 摩托, 百夫长, 无畏 or HELBRUTE.
-For the purposes of this ability, a 速射爆弹武器 is any weapon with the 速射 type whose profile includes the word ‘bolt’ (e.g. 爆弹枪, 爆弹步枪, 风暴爆弹, 复合爆弹, 飓风爆弹, 地狱爆弹枪, etc.). This also applies when firing the 爆弹枪 profile of 复合武器 (including the 爆弹武器 profile of Relics such as Blood Song and the Lion’s Wrath) and when firing relics that replace a 速射爆弹武器, so long as the 圣物 is also a 速射武器 (e.g. Primarch’s Wrath and Fury of Deimos). The Gauntlets of Ultramar and the Talon of Horus are also 速射爆弹武器, as is the 卫士之矛 used by Deathwatch Watch Masters.</description>
+For the purposes of this ability, a 速射爆弹武器 is any 武器 with the 速射 type whose profile includes the word ‘bolt’ (e.g. 爆弹枪, 爆弹步枪, 风暴爆弹, 复合爆弹, 飓风爆弹, 地狱爆弹枪, etc.). This also applies when firing the 爆弹枪 profile of 复合武器 (including the 爆弹武器 profile of Relics such as Blood Song and the Lion’s Wrath) and when firing relics that replace a 速射爆弹武器, so long as the 圣物 is also a 速射武器 (e.g. Primarch’s Wrath and Fury of Deimos). The Gauntlets of Ultramar and the Talon of Horus are also 速射爆弹武器, as is the 卫士之矛 used by Deathwatch Watch Masters.</description>
     </rule>
   </rules>
   <sharedSelectionEntries>
@@ -155,7 +155,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f35-83b6-afe3-0899" type="min"/>
           </constraints>
           <profiles>
-            <profile id="6943-79c0-dde3-d281" name="Cypher&apos;s bolt pistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="6943-79c0-dde3-d281" name="Cypher&apos;s bolt pistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">16寸</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手枪 3</characteristic>
@@ -178,7 +178,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="095d-63a0-5e99-d965" type="min"/>
           </constraints>
           <profiles>
-            <profile id="7966-a7b3-1fb8-4f2d" name="Cypher&apos;s plasma pistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="7966-a7b3-1fb8-4f2d" name="Cypher&apos;s plasma pistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12寸</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手枪 2</characteristic>
@@ -326,14 +326,14 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="8037-44b7-f9f2-45bc" name="Fallen附带Heavy or Special weapon" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="8037-44b7-f9f2-45bc" name="Fallen附带Heavy or Special 武器" hidden="false" collective="false" import="true" type="model">
               <modifiers>
-                <modifier type="set" field="name" value="Fallen附带Heavy weapon">
+                <modifier type="set" field="name" value="Fallen附带Heavy 武器">
                   <conditions>
                     <condition field="selections" scope="8037-44b7-f9f2-45bc" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1e5c-7492-b14e-1edb" type="equalTo"/>
                   </conditions>
                 </modifier>
-                <modifier type="set" field="name" value="Fallen附带Special weapon">
+                <modifier type="set" field="name" value="Fallen附带Special 武器">
                   <conditions>
                     <condition field="selections" scope="8037-44b7-f9f2-45bc" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7633-de22-b73b-e128" type="equalTo"/>
                   </conditions>
@@ -440,7 +440,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
                       <selectionEntries>
                         <selectionEntry id="8da7-ae67-9566-12ba" name="Chainaxe" hidden="false" collective="false" import="true" type="upgrade">
                           <profiles>
-                            <profile id="9cb1-c835-6f38-6f25" name="Chainaxe" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                            <profile id="9cb1-c835-6f38-6f25" name="Chainaxe" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                               <characteristics>
                                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -495,14 +495,14 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
                     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="15b3-dff7-ecc3-ec7e" name="Fallen w/Special or Combi weapon" hidden="false" collective="false" import="true" type="model">
+                <selectionEntry id="15b3-dff7-ecc3-ec7e" name="Fallen w/Special or Combi 武器" hidden="false" collective="false" import="true" type="model">
                   <modifiers>
-                    <modifier type="set" field="name" value="Fallen附带Special weapon">
+                    <modifier type="set" field="name" value="Fallen附带Special 武器">
                       <conditions>
                         <condition field="selections" scope="15b3-dff7-ecc3-ec7e" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8aeb-2c9f-e020-c29a" type="equalTo"/>
                       </conditions>
                     </modifier>
-                    <modifier type="set" field="name" value="Fallen附带Combi weapon">
+                    <modifier type="set" field="name" value="Fallen附带Combi 武器">
                       <conditions>
                         <condition field="selections" scope="15b3-dff7-ecc3-ec7e" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f929-5a2b-7d4b-fbae" type="equalTo"/>
                       </conditions>
@@ -1066,7 +1066,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="b38c-4a7b-e0d5-9925" name="Caliban Steel Blade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="b38c-4a7b-e0d5-9925" name="Caliban Steel Blade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -1107,7 +1107,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="e34e-ec80-65c9-46bc" name="The Black Mace" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="e34e-ec80-65c9-46bc" name="The Black Mace" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -1138,7 +1138,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="66a4-8e5c-7d91-476a" name="The Murder Sword" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="66a4-8e5c-7d91-476a" name="The Murder Sword" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -1172,7 +1172,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2efa-e48c-cd02-2441" type="max"/>
           </constraints>
           <profiles>
-            <profile id="3948-5112-bae8-354f" name="Chainaxe" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="3948-5112-bae8-354f" name="Chainaxe" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -1498,7 +1498,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
     </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="a6fe-c733-e20e-612a" name="Havoc launcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="a6fe-c733-e20e-612a" name="Havoc launcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48寸</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 D6</characteristic>
@@ -1508,7 +1508,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="27bf-3479-cfdc-84b1" name="Chainaxe" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="27bf-3479-cfdc-84b1" name="Chainaxe" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>

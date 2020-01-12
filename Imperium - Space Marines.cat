@@ -3192,7 +3192,7 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5eb6-9cce-4e27-6252" name="Servo-harness" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="5eb6-9cce-4e27-6252" name="伺服套装" hidden="false" collective="false" import="true" type="upgrade">
       <entryLinks>
         <entryLink id="ee91-c78d-e196-c2a8" name="伺服臂" hidden="false" collective="false" import="true" targetId="61ae-3901-0a79-4ec9" type="selectionEntry">
           <constraints>
@@ -3219,7 +3219,7 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2883-3fa0-f689-4b88" name="Techmarine on 摩托 [传奇]" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="2883-3fa0-f689-4b88" name="摩托技术军士 [传奇]" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -3249,7 +3249,7 @@
       </profiles>
       <infoLinks>
         <infoLink id="4b47-c484-8a2b-12b9" name="死亡天使" hidden="false" targetId="01a4-bec8-b573-fde7" type="rule"/>
-        <infoLink id="a835-2e9f-3674-a201" name="Blessing of the Omnissiah" hidden="false" targetId="34e2-fb94-2737-3c2d" type="profile"/>
+        <infoLink id="a835-2e9f-3674-a201" name="机神祝福" hidden="false" targetId="34e2-fb94-2737-3c2d" type="profile"/>
         <infoLink id="0ef5-aea2-061f-4506" name="New InfoLink" hidden="false" targetId="c027-2e84-7468-0607" type="profile"/>
       </infoLinks>
       <categoryLinks>
@@ -3366,12 +3366,12 @@
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="d511-1a97-bfb0-2ec3" name="Mindlock" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="d511-1a97-bfb0-2ec3" name="意识锁定" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Servitors improve both their Weapon Skill and Ballistic Skill to 4+, and their LD to 9, whilst they are 范围内 6寸 of any 友方 TECHMARINES.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Servitors improve both their 武器 Skill and Ballistic Skill to 4+, and their LD to 9, whilst they are 范围内 6寸 of any 友方 TECHMARINES.</characteristic>
           </characteristics>
         </profile>
-        <profile id="6ea8-20b0-7333-a7c7" name="Servitor" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+        <profile id="6ea8-20b0-7333-a7c7" name="奴工" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">5寸</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">5+</characteristic>
@@ -3392,7 +3392,7 @@
         <categoryLink id="5227-4024-7f05-30a1" name="New CategoryLink" hidden="false" targetId="0262-aa2e-a67e-6774" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="be8c-72cb-5c46-bda0" name="Servitor" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="be8c-72cb-5c46-bda0" name="奴工" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1df-5b9b-2d43-0f9a" type="min"/>
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f80c-c168-fd44-d9f8" type="max"/>
@@ -3405,7 +3405,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="99c8-fd51-af55-d9fd" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="2ae7-b937-fe84-49f5">
+        <selectionEntryGroup id="99c8-fd51-af55-d9fd" name="武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="2ae7-b937-fe84-49f5">
           <constraints>
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66de-eab6-38bb-27d8" type="min"/>
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8b4-47a1-5791-6ac1" type="max"/>
@@ -3489,7 +3489,7 @@
         <categoryLink id="467d-9456-3113-6d11" name="Priest" hidden="false" targetId="b0b9-4578-dfef-18fd" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="b70d-424f-726a-5307" name="Weapon" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="b70d-424f-726a-5307" name="武器" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="318c-9cb2-aca2-6c05" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d826-4860-7377-9d81" type="max"/>
@@ -3698,7 +3698,7 @@
         <categoryLink id="93c3-2e0c-26a8-1f96" name="New CategoryLink" hidden="false" targetId="1c6f-0311-3eba-3180" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="874f-8c68-7b46-d40a" name="Weapon" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="874f-8c68-7b46-d40a" name="武器" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea65-5a83-ee98-4d51" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8252-da2f-002e-d453" type="max"/>
@@ -4003,7 +4003,7 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b509-6feb-8259-6c1e" type="max"/>
           </constraints>
           <selectionEntryGroups>
-            <selectionEntryGroup id="9fb4-661e-e73c-4fcd" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="54dd-f43c-5f55-fbe6">
+            <selectionEntryGroup id="9fb4-661e-e73c-4fcd" name="武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="54dd-f43c-5f55-fbe6">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d359-26b0-9d4e-e6b8" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c949-bda7-6491-97ae" type="max"/>
@@ -4106,7 +4106,7 @@
         <categoryLink id="08bf-2010-0b73-d925" name="New CategoryLink" hidden="false" targetId="a2e7-ec78-a186-1448" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="2340-57e5-838f-8b29" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="7296-5571-07f9-f975">
+        <selectionEntryGroup id="2340-57e5-838f-8b29" name="武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="7296-5571-07f9-f975">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="316a-51e3-ba11-0608" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b406-9679-31e6-d4e4" type="max"/>
@@ -4215,7 +4215,7 @@
         <categoryLink id="be33-c38c-6e84-3d89" name="New CategoryLink" hidden="false" targetId="1c6f-0311-3eba-3180" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="1033-bb62-8007-a1c8" name="Weapon" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="1033-bb62-8007-a1c8" name="武器" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6571-b370-3795-2972" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="728e-efd4-4f90-17a2" type="max"/>
@@ -4824,7 +4824,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="736f-babe-b727-3bbf" name="Space Marine w/Special Weapon" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="736f-babe-b727-3bbf" name="Space Marine w/Special 武器" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="b35c-2b1c-5fbc-b900" value="0.0">
                   <conditionGroups>
@@ -4866,7 +4866,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="9411-aa3a-9363-3e75" name="Space Marine w/Heavy Weapon" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="9411-aa3a-9363-3e75" name="Space Marine w/Heavy 武器" hidden="false" collective="false" import="true" type="model">
               <modifiers>
                 <modifier type="set" field="d08e-fed0-6c68-79d9" value="0.0">
                   <conditionGroups>
@@ -5046,7 +5046,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="54ae-9303-12b4-fc92" name="Scout w/Heavy Weapon" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="54ae-9303-12b4-fc92" name="Scout w/Heavy 武器" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c62-e427-ee04-3eeb" type="max"/>
               </constraints>
@@ -5427,7 +5427,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="4d90-3d52-a3fb-c2ed" name="单位 Weapon Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="f8af-4167-d0c6-202e">
+        <selectionEntryGroup id="4d90-3d52-a3fb-c2ed" name="单位 武器 Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="f8af-4167-d0c6-202e">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="93fb-c222-bfe7-c32f" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7199-9bc9-0958-9bb7" type="max"/>
@@ -5698,7 +5698,7 @@
         <categoryLink id="95ab-8b93-a6db-99b7" name="战团冠军" hidden="false" targetId="7610-ab25-5216-7450" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="678a-4590-8736-8d54" name="Weapon 1" hidden="false" collective="false" import="true" defaultSelectionEntryId="7e62-696f-7a80-ee5d">
+        <selectionEntryGroup id="678a-4590-8736-8d54" name="武器 1" hidden="false" collective="false" import="true" defaultSelectionEntryId="7e62-696f-7a80-ee5d">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="23e3-0b4a-9947-441f" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2e63-103d-b62c-9798" type="min"/>
@@ -5716,7 +5716,7 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="7969-4d07-32df-f3f2" name="Weapon 2" hidden="false" collective="false" import="true" defaultSelectionEntryId="8dec-79d4-ab8e-d552">
+        <selectionEntryGroup id="7969-4d07-32df-f3f2" name="武器 2" hidden="false" collective="false" import="true" defaultSelectionEntryId="8dec-79d4-ab8e-d552">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="86aa-1096-cc51-bb3c" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6d1e-dd9f-fc10-1d92" type="max"/>
@@ -6086,7 +6086,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="37a2-4d84-bc4f-0e18" name="星际战士老兵 w/Heavy Weapon" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="37a2-4d84-bc4f-0e18" name="星际战士老兵 w/Heavy 武器" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59dc-88c0-05c0-27f9" type="max"/>
               </constraints>
@@ -7045,7 +7045,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="a6fe-b724-d2df-fad0" name="终结者 w/Heavy Weapon" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="a6fe-b724-d2df-fad0" name="终结者 w/Heavy 武器" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="increment" field="6fe7-006b-0bde-9ae8" value="1">
                   <conditions>
@@ -7057,7 +7057,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6fe7-006b-0bde-9ae8" type="max"/>
               </constraints>
               <selectionEntryGroups>
-                <selectionEntryGroup id="f0dc-f2a4-4c93-83f2" name="Combat Weapon Option" hidden="false" collective="false" import="true" defaultSelectionEntryId="7f23-7bde-a0e8-a68e">
+                <selectionEntryGroup id="f0dc-f2a4-4c93-83f2" name="Combat 武器 Option" hidden="false" collective="false" import="true" defaultSelectionEntryId="7f23-7bde-a0e8-a68e">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f50d-f0ea-03f3-06a5" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1d6a-e8e5-5aa9-45f3" type="max"/>
@@ -7508,7 +7508,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="fc02-1559-4fe5-0890" name="Tartaros 终结者 w/Heavy Weapon" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="fc02-1559-4fe5-0890" name="Tartaros 终结者 w/Heavy 武器" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="increment" field="ca78-89d7-761e-df0f" value="1">
                   <conditions>
@@ -7796,7 +7796,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="a0ca-4b88-c60a-c661" name="Space Marine w/Special Weapon" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="a0ca-4b88-c60a-c661" name="Space Marine w/Special 武器" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5dcb-734c-67c3-40a1" type="max"/>
               </constraints>
@@ -7990,7 +7990,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="28c0-ef34-09ef-fd11" name="单位 Weapon Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="31f2-3a23-3ff5-2a89">
+        <selectionEntryGroup id="28c0-ef34-09ef-fd11" name="单位 武器 Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="31f2-3a23-3ff5-2a89">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ab3-59eb-34de-2afe" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b0a3-4c35-aef8-b312" type="max"/>
@@ -8157,7 +8157,7 @@
                     <entryLink id="edc6-74bf-c9d5-eb61" name="爆弹枪" hidden="false" collective="false" import="true" targetId="b61f-a3c1-827d-c5b6" type="selectionEntry"/>
                   </entryLinks>
                 </selectionEntryGroup>
-                <selectionEntryGroup id="9478-75c9-d624-7ce8" name="摩托 Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="c31e-a38a-738f-13ed">
+                <selectionEntryGroup id="9478-75c9-d624-7ce8" name="摩托 武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="c31e-a38a-738f-13ed">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ba0-e0eb-c350-d755" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31f1-b00c-0ada-f390" type="max"/>
@@ -8453,7 +8453,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="aff8-2540-01ce-ffb9" name="Space Marine 摩托 w/Special Weapon" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="aff8-2540-01ce-ffb9" name="Space Marine 摩托 w/Special 武器" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ae0-ac48-40de-aab2" type="max"/>
               </constraints>
@@ -9249,7 +9249,7 @@ Matched Play: 这个模型 and 任何单位 上车 aboard it are exempt from the
           <profiles>
             <profile id="8358-28b7-3e38-caa9" name="Armorium Cherub" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If a 星际战士士官 in 这个单位 has an Armorium Cherub, then after a 模型 in 这个单位 shoots with a 远程武器, that Armorium Cherub can reload that model’s weapon. If it does, that Armorium Cherub is removed from play and that 模型 can 立即 shoot with that 远程武器 again.An Armorium Cherub is represented by an Armorium Cherub model, but does not count as a 模型 for any rules purposes. Whilst a 单位 with an Armorium Cherub is 战场上, that Armorium Cherub 必须 范围内 2寸 of it.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If a 星际战士士官 in 这个单位 has an Armorium Cherub, then after a 模型 in 这个单位 shoots with a 远程武器, that Armorium Cherub can reload that model’s 武器. If it does, that Armorium Cherub is removed from play and that 模型 can 立即 shoot with that 远程武器 again.An Armorium Cherub is represented by an Armorium Cherub model, but does not count as a 模型 for any rules purposes. Whilst a 单位 with an Armorium Cherub is 战场上, that Armorium Cherub 必须 范围内 2寸 of it.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9326,7 +9326,7 @@ Matched Play: 这个模型 and 任何单位 上车 aboard it are exempt from the
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="ccd7-6d4c-d706-5fe9" name="Space Marine w/Heavy Weapon" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="ccd7-6d4c-d706-5fe9" name="Space Marine w/Heavy 武器" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1aea-36c0-dd9a-ef69" type="max"/>
               </constraints>
@@ -9607,7 +9607,7 @@ Matched Play: 这个模型 and 任何单位 上车 aboard it are exempt from the
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="3381-9e37-c47e-4127" name="单位 Weapon Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="a7d3-b00a-7ac7-dbe2">
+        <selectionEntryGroup id="3381-9e37-c47e-4127" name="单位 武器 Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="a7d3-b00a-7ac7-dbe2">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9f5-681c-4fea-5167" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="74ce-9eef-e3c4-aa89" type="max"/>
@@ -9712,7 +9712,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0007-2932-02aa-1e2b" type="max"/>
           </constraints>
           <profiles>
-            <profile id="cd82-821f-129c-7c34" name="雷火炮" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="cd82-821f-129c-7c34" name="雷火炮" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">60寸</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 4D3</characteristic>
@@ -9758,7 +9758,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="f630-c96b-219f-1bb9" name="Servo-harness" hidden="false" collective="false" import="true" targetId="5eb6-9cce-4e27-6252" type="selectionEntry">
+            <entryLink id="f630-c96b-219f-1bb9" name="伺服套装" hidden="false" collective="false" import="true" targetId="5eb6-9cce-4e27-6252" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="e356-c769-5920-6e14" value="0.0"/>
               </modifiers>
@@ -10810,7 +10810,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3607-5de0-d900-2662" type="max"/>
               </constraints>
               <profiles>
-                <profile id="0ba8-8a7d-43e4-0313" name="Plasma gun, Supercharged" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="0ba8-8a7d-43e4-0313" name="Plasma gun, Supercharged" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">速射 1</characteristic>
@@ -11224,7 +11224,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
                   <profiles>
                     <profile id="4705-36ea-2b7e-b816" name="Stalwart" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made 对抗 a 单位 with this tactic, an unmodified wound roll of 1 or 2 always fails, irrespective of any abilities that the weapon or the 模型 making that attack may have.</characteristic>
+                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made 对抗 a 单位 with this tactic, an unmodified wound roll of 1 or 2 always fails, irrespective of any abilities that the 武器 or the 模型 making that attack may have.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -11709,7 +11709,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9395-88d7-50a1-42b0" type="max"/>
           </constraints>
           <profiles>
-            <profile id="b5ae-b715-5c44-2219" name="Hand of Dominion (射击)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="b5ae-b715-5c44-2219" name="Hand of Dominion (射击)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">速射 3</characteristic>
@@ -11719,7 +11719,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
                 <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
               </characteristics>
             </profile>
-            <profile id="b7d8-5d9c-3d14-0342" name="Hand of Dominion (肉搏)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="b7d8-5d9c-3d14-0342" name="Hand of Dominion (肉搏)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -11742,7 +11742,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a12-5655-4556-7a06" type="max"/>
           </constraints>
           <profiles>
-            <profile id="b392-52b6-5553-23ab" name="The Emperor&apos;s Sword" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="b392-52b6-5553-23ab" name="The Emperor&apos;s Sword" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -11815,7 +11815,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of the battle round, 可以选择1个 友方 ULTRAMARINES 单位 范围内 6寸 of 这个模型. Until the end of that battle round, 那个单位 has the Defenders of Humanity ability (see 圣典: 星际战士).</characteristic>
           </characteristics>
         </profile>
-        <profile id="eabf-6720-a8e6-d85f" name="Artisan Plasma Pistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="eabf-6720-a8e6-d85f" name="Artisan Plasma Pistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手枪 1</characteristic>
@@ -11846,7 +11846,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="814f-72d7-b3dc-7111" type="max"/>
           </constraints>
           <profiles>
-            <profile id="b527-703f-04c4-2085" name="Talassarian Tempest Blade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="b527-703f-04c4-2085" name="Talassarian Tempest Blade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -11981,7 +11981,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9be4-b5d5-5e4b-be8b" type="max"/>
           </constraints>
           <profiles>
-            <profile id="9c13-6416-6a4a-5c1a" name="Rod of Tigurius" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="9c13-6416-6a4a-5c1a" name="Rod of Tigurius" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -12321,7 +12321,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
     </selectionEntry>
     <selectionEntry id="5dff-6b42-3542-bd9c" name="Quietus" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="7f4c-99af-d9a7-a74b" name="Quietus" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="7f4c-99af-d9a7-a74b" name="Quietus" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 2</characteristic>
@@ -12761,7 +12761,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the LD of 所有 友方 帝国 FISTS 单位 范围内 6寸 of 连长 莱桑德.</characteristic>
           </characteristics>
         </profile>
-        <profile id="b4a9-19b0-1ecc-688e" name="Fist of Dorn" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="b4a9-19b0-1ecc-688e" name="Fist of Dorn" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -12876,7 +12876,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0fc3-ba0a-6f68-5d7f" type="max"/>
           </constraints>
           <profiles>
-            <profile id="6aff-5e74-afd8-058b" name="Dorn&apos;s Arrow" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="6aff-5e74-afd8-058b" name="Dorn&apos;s Arrow" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 4</characteristic>
@@ -12990,7 +12990,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="174b-a5be-f68b-5b6f" type="min"/>
           </constraints>
           <profiles>
-            <profile id="3942-8141-ba78-39e3" name="Sword of the High Marshal" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="3942-8141-ba78-39e3" name="Sword of the High Marshal" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -13110,7 +13110,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ba27-99eb-2c08-a28e" type="max"/>
           </constraints>
           <profiles>
-            <profile id="9e3e-fb31-f3cc-ac09" name="Black Sword" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="9e3e-fb31-f3cc-ac09" name="Black Sword" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -13186,7 +13186,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
         </profile>
         <profile id="4ae3-f3a0-28d3-a029" name="Unmatched Zeal" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If you roll a 命中 roll of an unmodified 6 in the 肉搏阶段 for a 模型 in a 友方 黑圣堂单位 that is 范围内 6寸 of Chaplain Grimaldus, that 模型 can 立即 make another close combat attack using the same weapon. These 攻击 do not themselves generate further bonus 攻击.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If you roll a 命中 roll of an unmodified 6 in the 肉搏阶段 for a 模型 in a 友方 黑圣堂单位 that is 范围内 6寸 of Chaplain Grimaldus, that 模型 can 立即 make another close combat attack using the same 武器. These 攻击 do not themselves generate further bonus 攻击.</characteristic>
           </characteristics>
         </profile>
         <profile id="3196-cf01-21be-b955" name="Devout Puritan" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -13293,7 +13293,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
         </profile>
         <profile id="f78b-d09b-305e-e705" name="Mindwiped" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Cenobyte Servitors improve their Weapon Skill to 4+ and their LD to 9, whilst they are 范围内 6寸 of Chaplain Grimaldus.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Cenobyte Servitors improve their 武器 Skill to 4+ and their LD to 9, whilst they are 范围内 6寸 of Chaplain Grimaldus.</characteristic>
           </characteristics>
         </profile>
         <profile id="2efe-4741-ec76-c2c8" name="圣物of Helsreach" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -13316,7 +13316,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
         <categoryLink id="1e63-2230-bbc5-9a55" name="New CategoryLink" hidden="false" targetId="0262-aa2e-a67e-6774" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="f601-ecb0-1117-4898" name="Cenobyte Servitor" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="f601-ecb0-1117-4898" name="Cenobyte 奴工" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8bc8-8ae7-0663-e638" type="min"/>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91b9-72a0-1407-2440" type="max"/>
@@ -13344,7 +13344,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
     </selectionEntry>
     <selectionEntry id="9e66-ee9b-51bf-2156" name="肉搏武器" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
-        <profile id="d30b-9883-595d-fc60" name="肉搏武器" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="d30b-9883-595d-fc60" name="肉搏武器" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -13475,7 +13475,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="9c2c-5271-d283-eff1" name="Initiate w/Special Weapon" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="9c2c-5271-d283-eff1" name="Initiate w/Special 武器" hidden="false" collective="false" import="true" type="model">
               <modifiers>
                 <modifier type="set" field="7163-d297-dc9a-7730" value="0.0">
                   <conditionGroups>
@@ -13766,7 +13766,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">After 这个模型 完成冲锋移动, 可以选择1个 敌方单位 范围内 1寸 of it and 投掷1个D6; 结果为4+ 那个敌方单位 遭受 1 致命伤.</characteristic>
           </characteristics>
         </profile>
-        <profile id="6e6a-df51-0653-ab6c" name="Blackout" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="6e6a-df51-0653-ab6c" name="Blackout" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手枪 2</characteristic>
@@ -13811,7 +13811,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d678-032c-75d2-56e8" type="min"/>
           </constraints>
           <profiles>
-            <profile id="4990-d67f-16c0-2d50" name="Raven&apos;s Talons" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="4990-d67f-16c0-2d50" name="Raven&apos;s Talons" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -13887,7 +13887,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
         </profile>
         <profile id="db38-8055-80ae-8269" name="Forgefather" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can 重投 失败的 命中 and wound 骰 for 友方 火蜥蜴 模型 范围内 6寸 of Vulkan He&apos;stan that are firing melta or flame 武器. For purposes of this ability, a melta weapon is any weapon profile whose name includes the word &apos;melta&apos; and a flame weapon is any weapon profile whose name includes the word &apos;flame&apos;. Vulkan He&apos;stan&apos;s Gauntlet of the Forge is also a flame weapon.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can 重投 失败的 命中 and wound 骰 for 友方 火蜥蜴 模型 范围内 6寸 of Vulkan He&apos;stan that are firing melta or flame 武器. For purposes of this ability, a melta 武器 is any 武器 profile whose name includes the word &apos;melta&apos; and a flame 武器 is any 武器 profile whose name includes the word &apos;flame&apos;. Vulkan He&apos;stan&apos;s Gauntlet of the Forge is also a flame 武器.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -13919,7 +13919,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d838-a7a2-5095-92c5" type="min"/>
           </constraints>
           <profiles>
-            <profile id="ef95-d546-9401-d6a0" name="Gauntlet of the Forge" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="ef95-d546-9401-d6a0" name="Gauntlet of the Forge" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">8寸</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 D6</characteristic>
@@ -13942,7 +13942,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3b1-0893-5a40-d142" type="min"/>
           </constraints>
           <profiles>
-            <profile id="34a5-1b73-d19e-86c3" name="Spear of Vulkan" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="34a5-1b73-d19e-86c3" name="Spear of Vulkan" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -14039,7 +14039,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16df-adc9-e067-98ad" type="max"/>
           </constraints>
           <profiles>
-            <profile id="a7e5-bfb4-12b6-9146" name="Moonfang" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="a7e5-bfb4-12b6-9146" name="Moonfang" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -14395,7 +14395,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
     </selectionEntry>
     <selectionEntry id="fa24-4b8c-d4bc-72b5" name="Master-crafted 潜伏者 爆弹步枪" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="2282-8a60-d800-eff6" name="Master-crafted 潜伏者 爆弹步枪" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="2282-8a60-d800-eff6" name="Master-crafted 潜伏者 爆弹步枪" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 1</characteristic>
@@ -14596,7 +14596,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="5f2f-1ebb-1d6e-da69" name="单位 Weapon Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="6599-d334-afcf-134c">
+        <selectionEntryGroup id="5f2f-1ebb-1d6e-da69" name="单位 武器 Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="6599-d334-afcf-134c">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc72-3e10-8b91-8732" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52ae-c49e-d190-2931" type="min"/>
@@ -14641,7 +14641,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
     </selectionEntry>
     <selectionEntry id="d7c8-7c82-9b35-d31f" name="Shock Grenades" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
-        <profile id="a054-5792-fd64-a7f0" name="Shock Grenades" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="a054-5792-fd64-a7f0" name="Shock Grenades" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手雷 D3</characteristic>
@@ -15135,7 +15135,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="8508-4db2-4879-e12b" name="单位 Weapon Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="4ec9-f152-9967-7bbc">
+        <selectionEntryGroup id="8508-4db2-4879-e12b" name="单位 武器 Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="4ec9-f152-9967-7bbc">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f473-c690-e246-0c71" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="aab5-af75-c5dc-dffb" type="max"/>
@@ -15353,7 +15353,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
         <categoryLink id="221f-5a18-355a-e469" name="New CategoryLink" hidden="false" targetId="c8fd-783f-3230-493e" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="a8b4-1848-8d96-567b" name="Weapon Option 1" hidden="false" collective="false" import="true" defaultSelectionEntryId="762c-48f8-105c-0ff5">
+        <selectionEntryGroup id="a8b4-1848-8d96-567b" name="武器 Option 1" hidden="false" collective="false" import="true" defaultSelectionEntryId="762c-48f8-105c-0ff5">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e19-a517-5475-506d" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e3e-d633-e3e5-729d" type="max"/>
@@ -15363,7 +15363,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
             <entryLink id="14ea-7b5d-7939-22c9" name="Macro Plasma Incinerator" hidden="false" collective="false" import="true" targetId="eda0-265a-dc86-5de2" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="3daf-49c0-d206-8960" name="Weapon Option 2" hidden="false" collective="false" import="true" defaultSelectionEntryId="c7a0-4ddd-97c7-b888">
+        <selectionEntryGroup id="3daf-49c0-d206-8960" name="武器 Option 2" hidden="false" collective="false" import="true" defaultSelectionEntryId="c7a0-4ddd-97c7-b888">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1399-9c4d-c0fc-e8b6" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0561-5645-c47e-64dd" type="max"/>
@@ -15373,7 +15373,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
             <entryLink id="7496-da92-9d95-9c83" name="Onslaught Gatling Cannon" hidden="false" collective="false" import="true" targetId="c6ee-f743-d9f9-2306" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="35d6-e4c6-f756-e080" name="Weapon Option 3" hidden="false" collective="false" import="true" defaultSelectionEntryId="41f9-d9f1-d9e6-89fe">
+        <selectionEntryGroup id="35d6-e4c6-f756-e080" name="武器 Option 3" hidden="false" collective="false" import="true" defaultSelectionEntryId="41f9-d9f1-d9e6-89fe">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af8c-3fc0-c9ec-0d55" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61d4-d5d0-d56b-7732" type="max"/>
@@ -15543,7 +15543,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
         <categoryLink id="2052-a80e-a9a7-ad40" name="New CategoryLink" hidden="false" targetId="c8fd-783f-3230-493e" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="bd5c-e4b1-187c-e83e" name="Weapon Option 1" hidden="false" collective="false" import="true" defaultSelectionEntryId="553c-9c2f-548d-55a1">
+        <selectionEntryGroup id="bd5c-e4b1-187c-e83e" name="武器 Option 1" hidden="false" collective="false" import="true" defaultSelectionEntryId="553c-9c2f-548d-55a1">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b93-db6e-5db1-5609" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2fe-d5d8-20e2-457a" type="max"/>
@@ -15553,7 +15553,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
             <entryLink id="b859-b803-07ea-0237" name="双联激光炮" hidden="false" collective="false" import="true" targetId="ee18-b1cd-6b60-464d" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="2ab7-ac5d-c1d8-46d8" name="Weapon Option 2" hidden="false" collective="false" import="true" defaultSelectionEntryId="c3a6-63ca-bb63-e606">
+        <selectionEntryGroup id="2ab7-ac5d-c1d8-46d8" name="武器 Option 2" hidden="false" collective="false" import="true" defaultSelectionEntryId="c3a6-63ca-bb63-e606">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4947-7f44-daa5-a5f3" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5eb-f35c-9bdb-532c" type="max"/>
@@ -15563,7 +15563,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
             <entryLink id="b9b5-ee2d-4358-3f76" name="Las-talon" hidden="false" collective="false" import="true" targetId="5ca6-11eb-52e7-aad9" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="a276-5a8a-2802-4d30" name="Weapon Option 3" hidden="false" collective="false" import="true" defaultSelectionEntryId="3ded-e008-2d95-d48f">
+        <selectionEntryGroup id="a276-5a8a-2802-4d30" name="武器 Option 3" hidden="false" collective="false" import="true" defaultSelectionEntryId="3ded-e008-2d95-d48f">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95e9-0757-13d4-9fe3" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a76c-acf8-4d8a-0515" type="max"/>
@@ -15573,7 +15573,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
             <entryLink id="4123-ed64-0c2b-3e93" name="Onslaught Gatling Cannon" hidden="false" collective="false" import="true" targetId="c6ee-f743-d9f9-2306" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="4ef8-bf70-1225-04ab" name="Weapon Option 4" hidden="false" collective="false" import="true" defaultSelectionEntryId="e9f5-354f-49be-a8a5">
+        <selectionEntryGroup id="4ef8-bf70-1225-04ab" name="武器 Option 4" hidden="false" collective="false" import="true" defaultSelectionEntryId="e9f5-354f-49be-a8a5">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80fe-1098-99d4-54c2" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04b9-61fb-3f61-bcda" type="max"/>
@@ -15583,7 +15583,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
             <entryLink id="e9f5-354f-49be-a8a5" name="2x 风暴爆弹" hidden="false" collective="false" import="true" targetId="391c-6e58-cc90-7442" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="be16-c06a-f741-01ec" name="Weapon Option 5" hidden="false" collective="false" import="true" defaultSelectionEntryId="0844-6d9d-8f4c-b55c">
+        <selectionEntryGroup id="be16-c06a-f741-01ec" name="武器 Option 5" hidden="false" collective="false" import="true" defaultSelectionEntryId="0844-6d9d-8f4c-b55c">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d453-5f69-74ab-5a2e" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c1e7-6822-c355-9ef4" type="max"/>
@@ -15595,7 +15595,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
             <entryLink id="306e-f877-13f5-d9f0" name="Fragstorm Grenade Launcher" hidden="false" collective="false" import="true" targetId="b5ba-9cc4-8622-1302" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="d164-141b-ee56-4789" name="Weapon Option 6" hidden="false" collective="false" import="true" defaultSelectionEntryId="9d6d-c214-e60f-81d4">
+        <selectionEntryGroup id="d164-141b-ee56-4789" name="武器 Option 6" hidden="false" collective="false" import="true" defaultSelectionEntryId="9d6d-c214-e60f-81d4">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="899d-36f3-7563-1962" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a44-7f3b-6480-2ec6" type="max"/>
@@ -16050,7 +16050,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2e1b-8693-e677-0277" type="max"/>
       </constraints>
       <profiles>
-        <profile id="5595-1254-73e9-70ec" name="The Axe of Medusa" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="5595-1254-73e9-70ec" name="The Axe of Medusa" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -16084,7 +16084,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e26c-77ab-b42f-d63d" type="max"/>
       </constraints>
       <profiles>
-        <profile id="2f93-bc5e-51c5-a1d0" name="Teeth of Terra" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="2f93-bc5e-51c5-a1d0" name="Teeth of Terra" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -16153,7 +16153,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c84f-94ac-c7dc-9399" type="max"/>
       </constraints>
       <profiles>
-        <profile id="440e-0915-93bd-bf73" name="The Burning Blade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="440e-0915-93bd-bf73" name="The Burning Blade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -16192,7 +16192,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8d87-a001-bd41-c86e" type="max"/>
       </constraints>
       <profiles>
-        <profile id="4e12-8b8d-d981-e04a" name="The Primarch&apos;s Wrath" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="4e12-8b8d-d981-e04a" name="The Primarch&apos;s Wrath" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">速射 2</characteristic>
@@ -16239,7 +16239,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6180-75c5-dced-be4d" type="max"/>
       </constraints>
       <profiles>
-        <profile id="b53e-4c79-3102-9114" name="The Fist of Vengeance" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="b53e-4c79-3102-9114" name="The Fist of Vengeance" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -16277,14 +16277,14 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="23d3-640c-0b11-9fb8" type="max"/>
       </constraints>
       <profiles>
-        <profile id="3586-be29-bb4c-bd02" name="The Spartean" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="3586-be29-bb4c-bd02" name="The Spartean" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手枪 2</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">The weapon can target 敌方 人物 even if they are not the closest 模型 to the bearer.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">The 武器 can target 敌方 人物 even if they are not the closest 模型 to the bearer.</characteristic>
           </characteristics>
         </profile>
         <profile id="30c1-1a81-f61d-f820" name="The Spartean" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -16410,7 +16410,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4eb5-5b06-129d-da8d" type="max"/>
       </constraints>
       <profiles>
-        <profile id="9db3-ca11-59ba-c8f2" name="Gauntlets of Ultramar (射击)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="9db3-ca11-59ba-c8f2" name="Gauntlets of Ultramar (射击)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">速射 2</characteristic>
@@ -16420,7 +16420,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
             <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
           </characteristics>
         </profile>
-        <profile id="0d8b-a87d-e12b-cb37" name="Gauntlets of Ultramar (肉搏)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="0d8b-a87d-e12b-cb37" name="Gauntlets of Ultramar (肉搏)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -16556,7 +16556,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7076-9b8c-ebf7-756f" type="max"/>
       </constraints>
       <profiles>
-        <profile id="ca5e-db02-c087-8ae3" name="Duty&apos;s Burden" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="ca5e-db02-c087-8ae3" name="Duty&apos;s Burden" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">速射 2</characteristic>
@@ -16861,7 +16861,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
     </selectionEntry>
     <selectionEntry id="2c68-901f-3852-d81d" name="Accelerator 自动炮" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
-        <profile id="5e8c-3ba8-e708-46a7" name="Accelerator 自动炮" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="5e8c-3ba8-e708-46a7" name="Accelerator 自动炮" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 2</characteristic>
@@ -16942,7 +16942,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5080-006d-b520-b9af" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="2cd5-46dd-c26f-b586" name="Master-crafted occulus 爆弹步枪" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                    <profile id="2cd5-46dd-c26f-b586" name="Master-crafted occulus 爆弹步枪" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                       <characteristics>
                         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
                         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">速射 1</characteristic>
@@ -17404,7 +17404,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
     </selectionEntry>
     <selectionEntry id="a07e-ddda-ea3c-50ba" name="Marksman bolt carbine" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
-        <profile id="115e-ac46-b22d-6410" name="Marksman bolt carbine" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="115e-ac46-b22d-6410" name="Marksman bolt carbine" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">速射 1</characteristic>
@@ -17508,7 +17508,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f486-2d06-8240-197b" type="max"/>
           </constraints>
           <profiles>
-            <profile id="1846-1bda-9481-be56" name="Master-crafted instigator bolt carbine" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="1846-1bda-9481-be56" name="Master-crafted instigator bolt carbine" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">30寸</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 1</characteristic>
@@ -17832,7 +17832,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02f2-0983-6e93-8596" type="max"/>
       </constraints>
       <profiles>
-        <profile id="a5f7-5565-29e1-109a" name="Bolt sniper rifle" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="a5f7-5565-29e1-109a" name="Bolt sniper rifle" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">-</characteristic>
@@ -17842,7 +17842,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
             <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 can target a 人物 even if it is not the closest 敌方单位. 此外, when attacking with 这个武器, choose one of the profiles below.</characteristic>
           </characteristics>
         </profile>
-        <profile id="d128-c467-6225-c852" name="Bolt sniper rifle - Executioner round" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="d128-c467-6225-c852" name="Bolt sniper rifle - Executioner round" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 1</characteristic>
@@ -17852,7 +17852,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
             <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">曲射, and can target a CHARACTERunit even if it is not the closest 敌方单位. When resolving an attack made with 这个武器, add 2 to the 命中 roll, and the target does not receive the benefit of cover to its saving throw.</characteristic>
           </characteristics>
         </profile>
-        <profile id="1405-1796-a421-1516" name="Bolt sniper rifle - Mortis round" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="1405-1796-a421-1516" name="Bolt sniper rifle - Mortis round" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 1</characteristic>
@@ -17862,7 +17862,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
             <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 can target a CHARACTERunit even if it is not the closest 敌方单位. When resolving an attack made with 这个武器, a wound roll of 6+ inflicts 1 致命伤 对目标 此外 to any other 伤害.</characteristic>
           </characteristics>
         </profile>
-        <profile id="7397-6b65-8a76-2c12" name="Bolt sniper rifle - Hyperfrag round" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="7397-6b65-8a76-2c12" name="Bolt sniper rifle - Hyperfrag round" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 D3</characteristic>
@@ -17963,7 +17963,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
         <categoryLink id="8f28-bc97-d672-a279" name="运载能力" hidden="false" targetId="6cc4-1b62-8e8a-05cd" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="69a0-4136-9b79-6a91" name="Weapon Option 1" hidden="false" collective="false" import="true" defaultSelectionEntryId="77ea-708f-837a-d35d">
+        <selectionEntryGroup id="69a0-4136-9b79-6a91" name="武器 Option 1" hidden="false" collective="false" import="true" defaultSelectionEntryId="77ea-708f-837a-d35d">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b62-54f8-a440-04c5" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ed0-3865-b411-36d0" type="max"/>
@@ -18030,7 +18030,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
     </selectionEntry>
     <selectionEntry id="8223-b93b-b499-9ae2" name="重型激光毁灭炮" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="c658-19b6-9de0-6c3e" name="重型激光毁灭炮" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="c658-19b6-9de0-6c3e" name="重型激光毁灭炮" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 2</characteristic>
@@ -18049,7 +18049,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
     </selectionEntry>
     <selectionEntry id="d988-ff4a-2600-51c2" name="双联重爆弹" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="e490-07d6-79bb-7949" name="双联重爆弹" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="e490-07d6-79bb-7949" name="双联重爆弹" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 6</characteristic>
@@ -18068,7 +18068,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
     </selectionEntry>
     <selectionEntry id="8442-edab-c074-806f" name="双联伊卡洛斯铁幕重机枪" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="8d4f-2d9f-36f1-5597" name="双联伊卡洛斯铁幕重机枪" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="8d4f-2d9f-36f1-5597" name="双联伊卡洛斯铁幕重机枪" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 6</characteristic>
@@ -18103,7 +18103,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8205-ba42-a374-ccb0" type="max"/>
       </constraints>
       <profiles>
-        <profile id="7926-f104-a37c-fd5b" name="Purgatorus" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="7926-f104-a37c-fd5b" name="Purgatorus" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手枪 2</characteristic>
@@ -18293,7 +18293,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
     </selectionEntry>
     <selectionEntry id="e53b-4196-cae3-2846" name="Paired Combat Blades" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="9f8e-bfda-676a-488d" name="Paired Combat Blades" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="9f8e-bfda-676a-488d" name="Paired Combat Blades" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -18411,7 +18411,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
     </selectionEntry>
     <selectionEntry id="07c2-136a-0fca-a3e4" name="Las Fusil" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="c2bc-8562-10b9-aa0a" name="Las Fusil" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="c2bc-8562-10b9-aa0a" name="Las Fusil" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 1</characteristic>
@@ -18430,7 +18430,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
     </selectionEntry>
     <selectionEntry id="6876-ea2f-09d0-462a" name="Instigator Bolt Carbine" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="64be-eea8-90b2-1fd4" name="Instigator Bolt Carbine" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="64be-eea8-90b2-1fd4" name="Instigator Bolt Carbine" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 1</characteristic>
@@ -18555,7 +18555,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
             </selectionEntry>
             <selectionEntry id="2cd6-54e2-1a6c-126f" name="Bellicatus Missile Array" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="0077-99f5-f1dd-2b22" name="Bellicastus Missile Array - Krak" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="0077-99f5-f1dd-2b22" name="Bellicastus Missile Array - Krak" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48寸</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 1</characteristic>
@@ -18565,7 +18565,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
                     <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="a1aa-9785-dfb8-176f" name="Bellicastus Missile Array - Frag" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="a1aa-9785-dfb8-176f" name="Bellicastus Missile Array - Frag" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48寸</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 D6</characteristic>
@@ -18575,7 +18575,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
                     <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="3b5b-78d0-ad7f-44e6" name="Bellicastus Missile Array - Icarus" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="3b5b-78d0-ad7f-44e6" name="Bellicastus Missile Array - Icarus" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48寸</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 D3</characteristic>
@@ -18594,7 +18594,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
             </selectionEntry>
             <selectionEntry id="db37-e37c-782d-0e02" name="Ironhail Skytalon Array" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="80be-8461-713e-b3a2" name="Ironhail Sytalon Array" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="80be-8461-713e-b3a2" name="Ironhail Sytalon Array" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36寸</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 6</characteristic>
@@ -18695,7 +18695,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1ee-c0d7-8d4c-0cf4" type="max"/>
               </constraints>
               <profiles>
-                <profile id="197a-ecab-cd6c-22d5" name="Occulus bolt carbine" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="197a-ecab-cd6c-22d5" name="Occulus bolt carbine" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">速射 1</characteristic>
@@ -18718,7 +18718,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a1a-e1b5-f47e-28cd" type="min"/>
               </constraints>
               <profiles>
-                <profile id="6b95-06ad-a226-74aa" name="Paired Combat Blades" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="6b95-06ad-a226-74aa" name="Paired Combat Blades" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -18790,7 +18790,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51f8-7252-b8ef-d70e" type="max"/>
               </constraints>
               <profiles>
-                <profile id="4533-3d1c-29ec-4518" name="Occulus bolt carbine" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="4533-3d1c-29ec-4518" name="Occulus bolt carbine" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">速射 1</characteristic>
@@ -18813,7 +18813,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="799f-03b1-e403-8ab6" type="min"/>
               </constraints>
               <profiles>
-                <profile id="1d8a-1c49-4b34-296f" name="Paired Combat Blades" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="1d8a-1c49-4b34-296f" name="Paired Combat Blades" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -18958,7 +18958,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7875-3bc3-b1e9-6ce9" type="min"/>
           </constraints>
           <profiles>
-            <profile id="708b-0589-45cd-3b60" name="Invictor fist" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="708b-0589-45cd-3b60" name="Invictor fist" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -18988,7 +18988,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ca5-f183-fe31-a833" type="max"/>
               </constraints>
               <profiles>
-                <profile id="5fb5-5407-358d-be7c" name="双联 ironhail 自动炮" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="5fb5-5407-358d-be7c" name="双联 ironhail 自动炮" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48寸</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 6</characteristic>
@@ -19010,7 +19010,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f64f-5fc6-3167-bfda" type="max"/>
               </constraints>
               <profiles>
-                <profile id="ca2e-cbb7-984a-69f0" name="Incendium cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="ca2e-cbb7-984a-69f0" name="Incendium cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12寸</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 2D6</characteristic>
@@ -19362,7 +19362,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b36-165d-3e4b-a142" type="max"/>
           </constraints>
           <profiles>
-            <profile id="e040-b7d5-4c43-43db" name="Moonfang" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="e040-b7d5-4c43-43db" name="Moonfang" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -19492,7 +19492,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
     </selectionEntry>
     <selectionEntry id="5b1a-3abc-3943-d7d1" name="Khan&apos;s Spear" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="39ec-2e48-4148-8631" name="Khan&apos;s Spear" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="39ec-2e48-4148-8631" name="Khan&apos;s Spear" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -19514,7 +19514,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5664-457a-03b5-c4eb" type="max"/>
       </constraints>
       <profiles>
-        <profile id="72e1-bd43-1bac-b067" name="Bolt sniper rifle" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="72e1-bd43-1bac-b067" name="Bolt sniper rifle" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">-</characteristic>
@@ -19524,7 +19524,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
             <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 can target a 人物 even if it is not the closest 敌方单位. 此外, when attacking with 这个武器, choose one of the profiles below.</characteristic>
           </characteristics>
         </profile>
-        <profile id="5469-c7dd-ac2f-f8d8" name="Bolt sniper rifle - Executioner round" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="5469-c7dd-ac2f-f8d8" name="Bolt sniper rifle - Executioner round" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 1</characteristic>
@@ -19534,7 +19534,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
             <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">曲射, and can target a CHARACTERunit even if it is not the closest 敌方单位. When resolving an attack made with 这个武器, add 2 to the 命中 roll, and the target does not receive the benefit of cover to its saving throw.</characteristic>
           </characteristics>
         </profile>
-        <profile id="be0b-d8b9-d865-15e3" name="Bolt sniper rifle - Hyperfrag round" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="be0b-d8b9-d865-15e3" name="Bolt sniper rifle - Hyperfrag round" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 D3</characteristic>
@@ -19544,7 +19544,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
             <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 can target a 人物 单位 even if it is not the closest 敌方单位.</characteristic>
           </characteristics>
         </profile>
-        <profile id="591f-30fb-eb78-fea8" name="Bolt sniper rifle - Mortis round" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="591f-30fb-eb78-fea8" name="Bolt sniper rifle - Mortis round" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 1</characteristic>
@@ -19583,7 +19583,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
     </selectionEntry>
     <selectionEntry id="d646-cf8b-0d01-69ff" name="Hand 喷火器" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="4ed3-6ae2-263f-97d6" name="Hand 喷火器" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="4ed3-6ae2-263f-97d6" name="Hand 喷火器" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手枪 D6</characteristic>
@@ -19677,7 +19677,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
     </selectionEntry>
     <selectionEntry id="1aec-4bc5-1a63-283a" name="Las Fusil" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
-        <profile id="c4f7-01db-3e9e-cdac" name="Las Fusil" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="c4f7-01db-3e9e-cdac" name="Las Fusil" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 1</characteristic>
@@ -19743,7 +19743,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
             <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">2+</characteristic>
           </characteristics>
         </profile>
-        <profile id="fdf3-3c74-a9bd-10c8" name="Harrowhand" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="fdf3-3c74-a9bd-10c8" name="Harrowhand" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -19753,7 +19753,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
             <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
           </characteristics>
         </profile>
-        <profile id="c51e-d89b-eb97-95b8" name="Gorgon&apos;s Wrath" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="c51e-d89b-eb97-95b8" name="Gorgon&apos;s Wrath" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 3</characteristic>
@@ -19765,7 +19765,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
         </profile>
         <profile id="d9a7-4380-6db3-95bc" name="Master of the Forge" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When 这个模型 repairs a 载具 模型 using its Blessing of the Omnissiah ability, that 载具 模型 regains 至多 3 lost wounds 而不是 至多 D3</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When 这个模型 repairs a 载具 模型 using its 机神祝福 ability, that 载具 模型 regains 至多 3 lost wounds 而不是 至多 D3</characteristic>
           </characteristics>
         </profile>
         <profile id="e2ad-9ab6-d616-7446" name="Signum Array" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -19975,10 +19975,10 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
         </profile>
         <profile id="0af9-71be-57b6-0aec" name="Arridian Drakehide Cloak" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack 对抗 这个模型, reduce the D值 of the weapon used by 1, to a minimum of 1, for that attack.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack 对抗 这个模型, reduce the D值 of the 武器 used by 1, to a minimum of 1, for that attack.</characteristic>
           </characteristics>
         </profile>
-        <profile id="7374-1be1-1cba-3087" name="Drakkis" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="7374-1be1-1cba-3087" name="Drakkis" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 D6</characteristic>
@@ -19988,7 +19988,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
             <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器自动命中</characteristic>
           </characteristics>
         </profile>
-        <profile id="7012-504e-5c3b-1af8" name="Malleus Noctum" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="7012-504e-5c3b-1af8" name="Malleus Noctum" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -20097,10 +20097,10 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
         </profile>
         <profile id="4984-0379-cca5-05ab" name="Siege 连长" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made by 这个模型 对抗 a 载具 or 建筑 单位, add 1 to the D值 of the weapon being used for that attack. </characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made by 这个模型 对抗 a 载具 or 建筑 单位, add 1 to the D值 of the 武器 being used for that attack. </characteristic>
           </characteristics>
         </profile>
-        <profile id="ccfb-c0b8-95f3-5f21" name="Hand of Defiance" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="ccfb-c0b8-95f3-5f21" name="Hand of Defiance" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -20684,7 +20684,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2a5-fb3d-aa96-266b" type="max"/>
           </constraints>
           <profiles>
-            <profile id="cc16-bb97-97b2-7da0" name="Rod of Tigurius" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="cc16-bb97-97b2-7da0" name="Rod of Tigurius" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -20843,7 +20843,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f18-f889-768d-d082" type="min"/>
           </constraints>
           <profiles>
-            <profile id="35d8-915b-7273-dff9" name="Raven&apos;s Talons" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="35d8-915b-7273-dff9" name="Raven&apos;s Talons" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -20946,7 +20946,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="324e-bc56-76d2-7449" type="max"/>
           </constraints>
           <profiles>
-            <profile id="41ef-5574-d45a-8637" name="Moonfang" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="41ef-5574-d45a-8637" name="Moonfang" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -21455,7 +21455,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6794-c890-295f-16d6" type="max"/>
               </constraints>
               <profiles>
-                <profile id="a556-a13b-e786-8257" name="Bellicos 爆弹步枪" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="a556-a13b-e786-8257" name="Bellicos 爆弹步枪" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 4</characteristic>
@@ -21485,7 +21485,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9146-bfd6-7de5-99a1" type="max"/>
               </constraints>
               <profiles>
-                <profile id="2efa-ad7f-1074-18fa" name="Lament" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="2efa-ad7f-1074-18fa" name="Lament" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36寸</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 1</characteristic>
@@ -21540,7 +21540,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d119-20eb-14c4-3cc3" type="max"/>
               </constraints>
               <profiles>
-                <profile id="82c3-eda8-ae8b-7dba" name="Benediction of Fury" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="82c3-eda8-ae8b-7dba" name="Benediction of Fury" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -21686,14 +21686,14 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="30bc-6e82-c998-5ecc" type="max"/>
               </constraints>
               <profiles>
-                <profile id="fb63-128c-3eca-7c48" name="The Vengeful Arbiter" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="fb63-128c-3eca-7c48" name="The Vengeful Arbiter" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12寸</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手枪 2</characteristic>
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 an attack made with 这个武器 命中, you can 立即 make one additional 命中 roll 对抗 that target using the same weapon. These bonus 命中 骰 cannot themselves generate any further 命中 骰.</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 an attack made with 这个武器 命中, you can 立即 make one additional 命中 roll 对抗 that target using the same 武器. These bonus 命中 骰 cannot themselves generate any further 命中 骰.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -21785,7 +21785,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="cd5e-522f-3bed-5e6a" type="max"/>
               </constraints>
               <profiles>
-                <profile id="1127-4903-1cd3-0fef" name="Soldier&apos;s Blade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="1127-4903-1cd3-0fef" name="Soldier&apos;s Blade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -21880,7 +21880,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3965-37c5-49b9-ce78" type="max"/>
               </constraints>
               <profiles>
-                <profile id="ff8a-1ff0-ac7d-45db" name="Vengeance of Ultramar" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="ff8a-1ff0-ac7d-45db" name="Vengeance of Ultramar" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">速射 4</characteristic>
@@ -22060,7 +22060,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="25c2-4b5d-b4b8-dde2" type="max"/>
               </constraints>
               <profiles>
-                <profile id="2f0b-1b20-39db-4667" name="Scimitar of the Great Khan" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="2f0b-1b20-39db-4667" name="Scimitar of the Great Khan" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -22106,7 +22106,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="cf43-7596-84fd-aa29" type="max"/>
               </constraints>
               <profiles>
-                <profile id="2039-3abf-6f7e-63f4" name="Glaive of Vengeance" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="2039-3abf-6f7e-63f4" name="Glaive of Vengeance" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -22192,7 +22192,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9e06-2fd2-28c9-86fd" type="max"/>
               </constraints>
               <profiles>
-                <profile id="b3bd-4765-5258-5b2e" name="Betrayer&apos;s Bane - 爆弹枪" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="b3bd-4765-5258-5b2e" name="Betrayer&apos;s Bane - 爆弹枪" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">速射 1</characteristic>
@@ -22202,7 +22202,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
                     <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="1803-9e8c-c008-3469" name="Betrayer&apos;s Bane - 热熔枪" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="1803-9e8c-c008-3469" name="Betrayer&apos;s Bane - 热熔枪" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12寸</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 2</characteristic>
@@ -22231,7 +22231,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="068c-9442-6221-f829" type="max"/>
               </constraints>
               <profiles>
-                <profile id="5e08-e18a-ce24-5d4d" name="The Mindforge" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="5e08-e18a-ce24-5d4d" name="The Mindforge" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -22390,7 +22390,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="44d5-4794-7d8f-4df5" type="max"/>
               </constraints>
               <profiles>
-                <profile id="5a6a-fb1f-9f4e-1e30" name="Opressor&apos;s End" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="5a6a-fb1f-9f4e-1e30" name="Opressor&apos;s End" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -22425,7 +22425,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6cdb-f58a-e2f1-4b25" type="max"/>
               </constraints>
               <profiles>
-                <profile id="438d-b630-6081-b565" name="Ex Tenebris" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="438d-b630-6081-b565" name="Ex Tenebris" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36寸</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 3</characteristic>
@@ -22466,7 +22466,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
               <profiles>
                 <profile id="2e56-1f9c-7d13-1c8e" name="The Armor of Shadows" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made with a weapon that has an AP值 of -1 对抗 a 模型 from your army with this 圣物, that weapon is treated as having an AP值 of 0. 此外, when resolving an attack 对抗 a 模型 from your army with this 圣物, an unmodified 命中 roll of 1, 2 or 3 always fails.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made with a 武器 that has an AP值 of -1 对抗 a 模型 from your army with this 圣物, that 武器 is treated as having an AP值 of 0. 此外, when resolving an attack 对抗 a 模型 from your army with this 圣物, an unmodified 命中 roll of 1, 2 or 3 always fails.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -22494,7 +22494,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="62f6-3779-9393-d9b7" type="max"/>
               </constraints>
               <profiles>
-                <profile id="277e-f8fd-5cbc-955d" name="The Ebonclaws" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="277e-f8fd-5cbc-955d" name="The Ebonclaws" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -22597,7 +22597,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3e28-f720-c889-6ff1" type="max"/>
               </constraints>
               <profiles>
-                <profile id="9836-7475-16a3-609b" name="Drake-Smiter" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="9836-7475-16a3-609b" name="Drake-Smiter" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -22631,7 +22631,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="20ba-f46f-3d44-93ca" type="max"/>
               </constraints>
               <profiles>
-                <profile id="7547-7859-f023-d311" name="Wrath of Prometheus" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="7547-7859-f023-d311" name="Wrath of Prometheus" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">30寸</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">速射 1</characteristic>
@@ -22684,7 +22684,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f80e-480a-b106-a550" type="max"/>
               </constraints>
               <profiles>
-                <profile id="4518-b709-2b71-fffb" name="Nocturne&apos;s Vengeance - 爆弹枪" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="4518-b709-2b71-fffb" name="Nocturne&apos;s Vengeance - 爆弹枪" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">速射 1</characteristic>
@@ -22694,7 +22694,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
                     <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
                   </characteristics>
                 </profile>
-                <profile id="1d34-54eb-aedc-8a78" name="Nocturne&apos;s Vengeance - 喷火器" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="1d34-54eb-aedc-8a78" name="Nocturne&apos;s Vengeance - 喷火器" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12寸</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 D6</characteristic>
@@ -22985,7 +22985,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
           <selectionEntries>
             <selectionEntry id="55d9-70dc-0216-2651" name="Mortis Machina" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="97dc-7ec5-92e4-6824" name="Mortis Machina" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="97dc-7ec5-92e4-6824" name="Mortis Machina" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -23040,7 +23040,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
             </selectionEntry>
             <selectionEntry id="97a2-0eea-5db1-2d4a" name="Acquittal" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="0693-1ba7-0edb-be33" name="Acquittal" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="0693-1ba7-0edb-be33" name="Acquittal" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">16寸</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手枪 1</characteristic>
@@ -23093,7 +23093,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
             </selectionEntry>
             <selectionEntry id="607b-eabc-97d7-9eb8" name="Blade of Triumph" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="c843-7497-d9fa-1a8d" name="Blade of Triumph" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="c843-7497-d9fa-1a8d" name="Blade of Triumph" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -23919,7 +23919,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
               <profiles>
                 <profile id="d09a-b642-9711-2928" name="Merciless Logic" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made by 这个主将, on an unmodified 命中 roll of 6 you can make 1 additional attack 对抗 the same 单位 using the same weapon. This additional attack cannot generate another attack.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made by 这个主将, on an unmodified 命中 roll of 6 you can make 1 additional attack 对抗 the same 单位 using the same 武器. This additional attack cannot generate another attack.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -24004,7 +24004,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
               <profiles>
                 <profile id="9983-7dc2-26d4-ba29" name="Adept of the Omnissiah" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of your 移动阶段, 这个主将 can repair one 友方 IRON HANDS VEHICLEmodel 范围内 1寸 of them. That 模型 regains 1 lost wound. Each 模型 can only be repaired once per turn. If 这个主将 is a TECHMARINE, 每次 they use their Blessing of the Omnissiah ability, the 模型 they are repairing regains D3+1 lost wounds 而不是 D3</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of your 移动阶段, 这个主将 can repair one 友方 IRON HANDS VEHICLEmodel 范围内 1寸 of them. That 模型 regains 1 lost wound. Each 模型 can only be repaired once per turn. If 这个主将 is a TECHMARINE, 每次 they use their 机神祝福 ability, the 模型 they are repairing regains D3+1 lost wounds 而不是 D3</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -24295,7 +24295,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
               <profiles>
                 <profile id="8efb-abcd-5667-1055" name="Indomitable" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made 对抗 这个主将, an unmodified wound roll of 1-3 always fail, irrespective of any abilities that the weapon or the 模型 making that attack may have. </characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made 对抗 这个主将, an unmodified wound roll of 1-3 always fail, irrespective of any abilities that the 武器 or the 模型 making that attack may have. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -25010,7 +25010,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
               <profiles>
                 <profile id="8f0f-5a50-1c28-7713" name="3. Exhortation of Rage" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this litany is inspiring, select one 友方 &lt;人物&gt; 单位 范围内 6寸 of 这个模型. When resolving an attack made with a 肉搏武器 by a 模型 in 那个单位, on an unmodified 命中 roll of 6 you can make one additional attack 对抗 the same 单位 using the same weapon. This additional attack cannot generate another attack.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this litany is inspiring, select one 友方 &lt;人物&gt; 单位 范围内 6寸 of 这个模型. When resolving an attack made with a 肉搏武器 by a 模型 in 那个单位, on an unmodified 命中 roll of 6 you can make one additional attack 对抗 the same 单位 using the same 武器. This additional attack cannot generate another attack.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -25275,7 +25275,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6a53-0e53-d6cf-ca00" type="max"/>
               </constraints>
               <profiles>
-                <profile id="a89e-c8c6-26a8-d503" name="Sunwrath Pistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="a89e-c8c6-26a8-d503" name="Sunwrath Pistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12寸</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手枪 2</characteristic>
@@ -25299,7 +25299,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
               <profiles>
                 <profile id="3889-d1ca-fb42-3c0e" name="Hellfury Bolts" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When you give a 模型 this 圣物, select one 爆弹武器 (see 圣典: 星际战士) that 模型 is equipped with. When the bearer shoots with that weapon, you can choose for it to fire a hellfury bolt. If you do, you can only make one attack with that weapon, but when resolving that attack, if it scores a 命中 it inflicts 1 致命伤 对目标 and the attack sequence ends.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When you give a 模型 this 圣物, select one 爆弹武器 (see 圣典: 星际战士) that 模型 is equipped with. When the bearer shoots with that 武器, you can choose for it to fire a hellfury bolt. If you do, you can only make one attack with that 武器, but when resolving that attack, if it scores a 命中 it inflicts 1 致命伤 对目标 and the attack sequence ends.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -25400,7 +25400,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
               <profiles>
                 <profile id="3e17-b7cd-e8b5-cf63" name="Stormwrath Bolts" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When you give a 模型 this 圣物, select one 爆弹武器 (see 圣典: 星际战士) that 模型 is equipped with. When the bearer shoots with that weapon, you can choose for it to fire a stormwrath bolt. If you do, you can only make one attack with that weapon, but the weapon 拥有 S值 of 7 and an AP值 of -1 for that attack. If the target of that attack is a 巨兽, the weapon 拥有 D值 of D6 for that attack.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When you give a 模型 this 圣物, select one 爆弹武器 (see 圣典: 星际战士) that 模型 is equipped with. When the bearer shoots with that 武器, you can choose for it to fire a stormwrath bolt. If you do, you can only make one attack with that 武器, but the 武器 拥有 S值 of 7 and an AP值 of -1 for that attack. If the target of that attack is a 巨兽, the 武器 拥有 D值 of D6 for that attack.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -25432,7 +25432,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="89d0-8576-ed22-2584" type="max"/>
               </constraints>
               <profiles>
-                <profile id="65a9-1336-c1f7-6e06" name="Equis-pattern Bolt Pistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="65a9-1336-c1f7-6e06" name="Equis-pattern Bolt Pistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12寸</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手枪 5</characteristic>
@@ -25504,14 +25504,14 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="468b-f9e4-97be-5dcc" name="Master-Crafted Weapon" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="468b-f9e4-97be-5dcc" name="Master-Crafted 武器" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5b94-b465-c17a-909f" type="max"/>
               </constraints>
               <profiles>
-                <profile id="9ad5-de14-92fd-6e32" name="Master-Crafted Weapon" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                <profile id="9ad5-de14-92fd-6e32" name="Master-Crafted 武器" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When you give a 模型 this 圣物, select one weapon that 模型 is equipped with (this 不能 a weapon whose profile includes the word ‘master-crafted’). Add 1 to the D值 of that weapon. That weapon is considered to be a 战团 圣物.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When you give a 模型 this 圣物, select one 武器 that 模型 is equipped with (this 不能 a 武器 whose profile includes the word ‘master-crafted’). Add 1 to the D值 of that 武器. That 武器 is considered to be a 战团 圣物.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -25624,7 +25624,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1b1a-4d55-520f-99e3" type="max"/>
               </constraints>
               <profiles>
-                <profile id="ebbf-5581-7c02-c8eb" name="Teeth of 火星" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="ebbf-5581-7c02-c8eb" name="Teeth of 火星" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -25648,7 +25648,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
               <profiles>
                 <profile id="a53e-bd61-8ddd-7ea5" name="Haywire Bolts" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When you give a 模型 this 圣物, select one 爆弹武器 (see 圣典: 星际战士) that 模型 is equipped with. When the bearer shoots with that weapon, you can choose for it to fire a haywire bolt. If you do, you can only make one attack with that weapon, but when resolving that attack, if it is made 对抗 a VEHICLEunit, an unmodified wound roll of 4-5 inflicts D3 致命伤 对目标 此外 to any other 伤害, and an unmodified wound roll of 6 inflicts 3 致命伤 对目标 此外 to any other 伤害</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When you give a 模型 this 圣物, select one 爆弹武器 (see 圣典: 星际战士) that 模型 is equipped with. When the bearer shoots with that 武器, you can choose for it to fire a haywire bolt. If you do, you can only make one attack with that 武器, but when resolving that attack, if it is made 对抗 a VEHICLEunit, an unmodified wound roll of 4-5 inflicts D3 致命伤 对目标 此外 to any other 伤害, and an unmodified wound roll of 6 inflicts 3 致命伤 对目标 此外 to any other 伤害</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -25672,7 +25672,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
               <profiles>
                 <profile id="9484-4594-3684-8108" name="Fortis-Pattern Data Spike" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">TECHMARINE only. When a 模型 with this 圣物 uses their Blessing of the Omnissiah ability, roll two dice when determining how many lost wounds are regained and discard one of the results</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">TECHMARINE only. When a 模型 with this 圣物 uses their 机神祝福 ability, roll two dice when determining how many lost wounds are regained and discard one of the results</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -25732,7 +25732,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
               <profiles>
                 <profile id="804a-856a-2d43-649a" name="Korvidari Bolts" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When you give a 模型 this 圣物, select one 爆弹武器 (see 圣典: 星际战士) that 模型 is equipped with. When that 模型 is chosen to shoot with, you can choose for that weapon to fire a korvidari bolt. If you do, when choosing targets for that 模型 and when choosing ranged 武器, that weapon’s 射程 is increased by 6寸 and it can target 单位 that are not 可见 to the bearer, but only one attack can be made with that weapon</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When you give a 模型 this 圣物, select one 爆弹武器 (see 圣典: 星际战士) that 模型 is equipped with. When that 模型 is chosen to shoot with, you can choose for that 武器 to fire a korvidari bolt. If you do, when choosing targets for that 模型 and when choosing ranged 武器, that 武器’s 射程 is increased by 6寸 and it can target 单位 that are not 可见 to the bearer, but only one attack can be made with that 武器</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -25761,7 +25761,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5ca3-8acc-559c-3df8" type="max"/>
               </constraints>
               <profiles>
-                <profile id="ca68-25a5-a0d6-3f45" name="Silentus Pistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="ca68-25a5-a0d6-3f45" name="Silentus Pistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12寸</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手枪 2</characteristic>
@@ -25831,7 +25831,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="34c3-cdc6-8ae4-aa01" type="max"/>
               </constraints>
               <profiles>
-                <profile id="864d-afc8-02b2-5ebf" name="Fist of Terra" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="864d-afc8-02b2-5ebf" name="Fist of Terra" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -25855,7 +25855,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
               <profiles>
                 <profile id="861d-ad16-40ed-2cdb" name="Gatebreaker Bolts" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When you give a 模型 this 圣物, select one 爆弹武器 (see 圣典: 星际战士) that 模型 is equipped with. When the bearer shoots with that weapon, you can choose for it to fire a gatebreaker bolt. If you do, you can only make one attack with that weapon, but if that attack 命中, make D3 wound 骰 而不是 one (each successful wound roll results in a wound that 必须 allocated). When resolving that attack, the weapon has an AP值 of -5 and a D值 of 1 for that attack. </characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When you give a 模型 this 圣物, select one 爆弹武器 (see 圣典: 星际战士) that 模型 is equipped with. When the bearer shoots with that 武器, you can choose for it to fire a gatebreaker bolt. If you do, you can only make one attack with that 武器, but if that attack 命中, make D3 wound 骰 而不是 one (each successful wound roll results in a wound that 必须 allocated). When resolving that attack, the 武器 has an AP值 of -5 and a D值 of 1 for that attack. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -25970,7 +25970,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
               <profiles>
                 <profile id="8509-95e6-3483-8a37" name="Promethean Plate" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made 对抗 a 模型 with this 圣物, an unmodified wound roll of 1, 2 or 3 always fails, irrespective of any abilities that the weapon or the 模型 making that attack may have.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made 对抗 a 模型 with this 圣物, an unmodified wound roll of 1, 2 or 3 always fails, irrespective of any abilities that the 武器 or the 模型 making that attack may have.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -25987,7 +25987,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
               <profiles>
                 <profile id="172b-d9eb-b1b6-4669" name="Dragonrage Bolts" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When you give a 模型 this 圣物, select one 爆弹武器 (see 圣典: 星际战士) that 模型 is equipped with. When the bearer shoots with that weapon, you can choose for it to fire a dragonrage bolt. If you do, you can only make one attack with that weapon, but if that attack 命中, make D6 wound 骰 而不是 one (each successful wound roll results in a wound that 必须 allocated). When resolving that attack, the target does not receive the benefit of cover to its saving throw, and that weapon 拥有 D值 of 1 and an AP值 of -1 for that attack.
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When you give a 模型 this 圣物, select one 爆弹武器 (see 圣典: 星际战士) that 模型 is equipped with. When the bearer shoots with that 武器, you can choose for it to fire a dragonrage bolt. If you do, you can only make one attack with that 武器, but if that attack 命中, make D6 wound 骰 而不是 one (each successful wound roll results in a wound that 必须 allocated). When resolving that attack, the target does not receive the benefit of cover to its saving throw, and that 武器 拥有 D值 of 1 and an AP值 of -1 for that attack.
 </characteristic>
                   </characteristics>
                 </profile>
@@ -26017,7 +26017,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0c49-ff40-bf62-d4a9" type="max"/>
               </constraints>
               <profiles>
-                <profile id="9291-0a51-f48c-d1af" name="Drakeblade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="9291-0a51-f48c-d1af" name="Drakeblade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -26404,7 +26404,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
           <profiles>
             <profile id="e578-cf94-8be0-db94" name="3) Spectral Blade" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Spectral Blade 拥有 warp charge value of 5. If manifested, until the start of your next 灵能阶段 this 灵能者’s S值 is equal to their LD值. 此外, until the start of your next 灵能阶段, when resolving an attack made with a 肉搏武器 by this 灵能者 对抗 a 单位 whose highest LD值 is lower than this 灵能者’s, that weapon has an AP值 of -4 for that attack.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Spectral Blade 拥有 warp charge value of 5. If manifested, until the start of your next 灵能阶段 this 灵能者’s S值 is equal to their LD值. 此外, until the start of your next 灵能阶段, when resolving an attack made with a 肉搏武器 by this 灵能者 对抗 a 单位 whose highest LD值 is lower than this 灵能者’s, that 武器 has an AP值 of -4 for that attack.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -27080,7 +27080,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">此模型拥有 5+ 特殊保护.</characteristic>
       </characteristics>
     </profile>
-    <profile id="34e2-fb94-2737-3c2d" name="Blessing of the Omnissiah" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="34e2-fb94-2737-3c2d" name="机神祝福" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of your 移动阶段 这个模型 can repair a single &lt;人物&gt; 载具 范围内 1寸. That 模型 regains D3 lost wounds. A 模型 can only be repaired once per turn.</characteristic>
       </characteristics>
@@ -27436,7 +27436,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">部署期间, if 此模型拥有 跳跃背包, you can 放置 high in the skies 而不是 placing it 战场上. At the end of any of your 移动阶段 这个模型 can assault from above - 放置在战场上的任何位置 that is more than 9寸 away from 任何敌方模型.</characteristic>
       </characteristics>
     </profile>
-    <profile id="67dc-0909-bd2d-c20c" name="Absolver Bolt Pistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="67dc-0909-bd2d-c20c" name="Absolver Bolt Pistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">16寸</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手枪 1</characteristic>
@@ -27446,7 +27446,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="a6e7-bb87-e281-a852" name="Reductor Pistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="a6e7-bb87-e281-a852" name="Reductor Pistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">3寸</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手枪 1</characteristic>
@@ -27456,7 +27456,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="46e5-ad92-78f8-b90a" name="Flamstorm Gauntlets (射击)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="46e5-ad92-78f8-b90a" name="Flamstorm Gauntlets (射击)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">8寸</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 2d6</characteristic>
@@ -27466,7 +27466,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">自动命中.</characteristic>
       </characteristics>
     </profile>
-    <profile id="d98c-65df-cfb8-692a" name="Flamstorm Gauntlets (肉搏)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="d98c-65df-cfb8-692a" name="Flamstorm Gauntlets (肉搏)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -27476,7 +27476,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When attacking with 这个武器, you 必须 减少 1 from the 命中 骰.</characteristic>
       </characteristics>
     </profile>
-    <profile id="3b91-0f17-4b9d-8453" name="Auto Boltstorm Gauntlets (肉搏)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="3b91-0f17-4b9d-8453" name="Auto Boltstorm Gauntlets (肉搏)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -27486,7 +27486,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When attacking with 这个武器, you 必须 减少 1 from the 命中 骰.</characteristic>
       </characteristics>
     </profile>
-    <profile id="d9d9-a2bb-931e-ec19" name="Auto Boltstorm Gauntlets (射击)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="d9d9-a2bb-931e-ec19" name="Auto Boltstorm Gauntlets (射击)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18寸</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 6</characteristic>
@@ -27496,7 +27496,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="57d3-f99c-a885-6548" name="Fragstorm Grenade Launcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="57d3-f99c-a885-6548" name="Fragstorm Grenade Launcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18寸</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 D6</characteristic>
@@ -27506,7 +27506,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="d6fe-ecc6-c954-01ca" name="Assault Plasma Incinerator, Supercharged" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="d6fe-ecc6-c954-01ca" name="Assault Plasma Incinerator, Supercharged" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 2</characteristic>
@@ -27516,7 +27516,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">结果为hit roll of 1, the bearer is slain 这个武器的所有射击结算后.</characteristic>
       </characteristics>
     </profile>
-    <profile id="caa5-abce-8e30-8147" name="Assault Plasma Incinerator, 标准" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="caa5-abce-8e30-8147" name="Assault Plasma Incinerator, 标准" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 2</characteristic>
@@ -27526,7 +27526,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="d7f4-1281-3bf9-74a4" name="Heavy Plasma Incinerator, 标准" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="d7f4-1281-3bf9-74a4" name="Heavy Plasma Incinerator, 标准" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36寸</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 1</characteristic>
@@ -27536,7 +27536,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="9461-87fb-8a5e-e7a5" name="Heavy Plasma Incinerator, Supercharged" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="9461-87fb-8a5e-e7a5" name="Heavy Plasma Incinerator, Supercharged" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36寸</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 1</characteristic>
@@ -27546,7 +27546,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">结果为hit roll of 1, the bearer is slain 这个武器的所有射击结算后.</characteristic>
       </characteristics>
     </profile>
-    <profile id="d595-bda1-1944-2382" name="自动爆弹步枪" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="d595-bda1-1944-2382" name="自动爆弹步枪" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 3</characteristic>
@@ -27556,7 +27556,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="cb15-46f0-2f40-e2b7" name="潜伏者 爆弹步枪" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="cb15-46f0-2f40-e2b7" name="潜伏者 爆弹步枪" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36寸</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 1</characteristic>
@@ -27566,7 +27566,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="fa3b-444e-2437-c9bb" name="Plasma Exterminator, 标准" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="fa3b-444e-2437-c9bb" name="Plasma Exterminator, 标准" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18寸</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 D3</characteristic>
@@ -27576,7 +27576,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="c1e5-688f-13e6-ac26" name="Plasma Exterminator, Supercharged" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="c1e5-688f-13e6-ac26" name="Plasma Exterminator, Supercharged" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18寸</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 D3</characteristic>
@@ -27586,7 +27586,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">结果为hit roll of 1, the bearer is slain 这个武器的所有射击结算后.</characteristic>
       </characteristics>
     </profile>
-    <profile id="1a44-0829-423f-4a22" name="Heavy Onslaught Gatling Cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="1a44-0829-423f-4a22" name="Heavy Onslaught Gatling Cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">30寸</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 12</characteristic>
@@ -27596,7 +27596,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="37a5-7b72-9ae2-fd89" name="伊卡洛火箭仓" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="37a5-7b72-9ae2-fd89" name="伊卡洛火箭仓" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 D3</characteristic>
@@ -27606,7 +27606,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">对飞行目标命中骰+1,对其他所有目标命中骰-1.</characteristic>
       </characteristics>
     </profile>
-    <profile id="8143-406b-4e70-226e" name="Macro Plasma Incinerator, 标准" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="8143-406b-4e70-226e" name="Macro Plasma Incinerator, 标准" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36寸</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 D6</characteristic>
@@ -27616,7 +27616,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="513b-c2fb-9c10-f6e3" name="Macro Plasma Incinerator, Supercharged" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="513b-c2fb-9c10-f6e3" name="Macro Plasma Incinerator, Supercharged" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36寸</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 D6</characteristic>
@@ -27626,7 +27626,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每个命中骰的1, the bearer 遭受 1 致命伤 这个武器的所有射击结算后.</characteristic>
       </characteristics>
     </profile>
-    <profile id="4543-b6a0-dc08-7269" name="Onslaught Gatling Cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="4543-b6a0-dc08-7269" name="Onslaught Gatling Cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 6</characteristic>
@@ -27636,7 +27636,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="de14-eb21-f72a-db92" name="Redemptor Fist" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="de14-eb21-f72a-db92" name="Redemptor Fist" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -27646,7 +27646,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="faad-78a5-6c85-2288" name="伊卡洛斯铁幕重机枪" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="faad-78a5-6c85-2288" name="伊卡洛斯铁幕重机枪" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36寸</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 3</characteristic>
@@ -27656,7 +27656,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">对飞行目标命中骰+1,对其他所有目标命中骰-1.</characteristic>
       </characteristics>
     </profile>
-    <profile id="7f73-3131-afbf-e23e" name="铁幕重机枪" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="7f73-3131-afbf-e23e" name="铁幕重机枪" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36寸</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 3</characteristic>
@@ -27671,7 +27671,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">而不是 射击 any 武器 in the 射击阶段, the 载具 can use its Auto Launchers; until your next 射击阶段 your opponent 必须 减少 1 from 所有命中骰 for ranged 武器 that target 这个载具.</characteristic>
       </characteristics>
     </profile>
-    <profile id="0385-2744-d0c8-c271" name="穿甲风暴榴弹发射器" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="0385-2744-d0c8-c271" name="穿甲风暴榴弹发射器" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18寸</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 1</characteristic>
@@ -27681,7 +27681,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="206b-edd4-0d52-d873" name="重型爆弹手枪" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="206b-edd4-0d52-d873" name="重型爆弹手枪" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12寸</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手枪 1</characteristic>
@@ -27691,7 +27691,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="14e3-2aff-d68d-b565" name="爆弹卡宾枪" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="14e3-2aff-d68d-b565" name="爆弹卡宾枪" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 2</characteristic>
@@ -27733,7 +27733,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
     </profile>
     <profile id="045c-abf3-7e15-5198" name="Architect of War" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack 对抗 a 友方 帝国 FISTS 单位 范围内 6寸 of 这个主将 with a weapon that has an AP值 of -1, if 那个单位 is receiving the benefit of cover, add an additional 1 to the saving throw. This does not apply to invulnerable saving throws.
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack 对抗 a 友方 帝国 FISTS 单位 范围内 6寸 of 这个主将 with a 武器 that has an AP值 of -1, if 那个单位 is receiving the benefit of cover, add an additional 1 to the saving throw. This does not apply to invulnerable saving throws.
 </characteristic>
       </characteristics>
     </profile>
@@ -27820,7 +27820,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made with a 肉搏武器 对抗 这个模型, 减少 1 from the roll</characteristic>
       </characteristics>
     </profile>
-    <profile id="705d-9450-34ad-d127" name="Artificer Crozius" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="705d-9450-34ad-d127" name="Artificer Crozius" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>

@@ -1707,7 +1707,7 @@
         <categoryLink id="76fd-e440-28d8-9f29-d713cda3-5d0f-40d8-b621-69233263ec2a" hidden="false" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="c636-e01d-2d8a-0af4" name="Vengeance Weapon Batteries" hidden="false" collective="false" import="true" targetId="04bf-6c22-19fb-4e46" type="selectionEntry">
+    <entryLink id="c636-e01d-2d8a-0af4" name="Vengeance 武器 Batteries" hidden="false" collective="false" import="true" targetId="04bf-6c22-19fb-4e46" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="c636-e01d-2d8a-0af4-d713cda3-5d0f-40d8-b621-69233263ec2a" hidden="false" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a" primary="true"/>
         <categoryLink id="e2c0-267d-9059-79e2" name="New CategoryLink" hidden="false" targetId="8172-12c9-8092-0756" primary="false"/>
@@ -2441,7 +2441,7 @@
             <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型&apos;s 武器 只能瞄准 the closest 可见 敌方单位. 攻击 made with the 四联 Icarus Lascannons can instead target the closest 可见 敌方单位 飞行关键字. In either case, if two or more 单位 are equally close, you can choose which is targeted.</characteristic>
           </characteristics>
         </profile>
-        <profile id="4e2c-1874-14f7-56d8" name="Vengeance Weapon Battery" publicationId="28ec-711c-pubN77581" page="132" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+        <profile id="4e2c-1874-14f7-56d8" name="Vengeance 武器 Battery" publicationId="28ec-711c-pubN77581" page="132" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">-</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">-</characteristic>
@@ -2466,13 +2466,13 @@
         <categoryLink id="3fdd-4995-f25e-4149" name="New CategoryLink" hidden="false" targetId="9df5-bb14-9326-4108" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="1d04-c4e5-2664-4ee4" name="Vengeance Weapon Battery" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="1d04-c4e5-2664-4ee4" name="Vengeance 武器 Battery" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bcb0-cd68-20e2-6858" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec31-9fc8-8dc9-469b" type="min"/>
           </constraints>
           <selectionEntryGroups>
-            <selectionEntryGroup id="48c7-47ad-b461-07d4" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="7038-c503-0bab-3e60">
+            <selectionEntryGroup id="48c7-47ad-b461-07d4" name="武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="7038-c503-0bab-3e60">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b0c-4b1f-dbf4-2a56" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e556-4b77-8169-3047" type="max"/>
@@ -2670,7 +2670,7 @@
       <infoLinks>
         <infoLink id="73e7-91e7-a433-8ea5" name="爆弹枪" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
         <infoLink id="7405-10db-da34-a45f" name="喷火器" hidden="false" targetId="cdc3-3459-a28c-a9cf" type="profile"/>
-        <infoLink id="e750-f8e4-4667-b083" name="Combi Weapon" hidden="false" targetId="a269-b8d9-67c5-4009" type="rule"/>
+        <infoLink id="e750-f8e4-4667-b083" name="Combi 武器" hidden="false" targetId="a269-b8d9-67c5-4009" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="8.0"/>
@@ -2683,7 +2683,7 @@
         <infoLink id="4d1d-71c8-ca26-be0c" name="爆弹枪" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
         <infoLink id="643c-5084-06fe-4146" name="Plasma gun, 标准" hidden="false" targetId="03e5-60f2-4726-5cdd" type="profile"/>
         <infoLink id="fa33-f484-5ce8-add5" name="Plasma gun, Supercharge" hidden="false" targetId="acb5-7b58-0d17-a33a" type="profile"/>
-        <infoLink id="0078-b3a9-c2e8-c96f" name="Combi Weapon" hidden="false" targetId="a269-b8d9-67c5-4009" type="rule"/>
+        <infoLink id="0078-b3a9-c2e8-c96f" name="Combi 武器" hidden="false" targetId="a269-b8d9-67c5-4009" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="11.0"/>
@@ -2695,7 +2695,7 @@
       <infoLinks>
         <infoLink id="ed40-44ba-772a-dbe8" name="爆弹枪" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
         <infoLink id="bac3-c746-cec0-e45d" name="热熔枪" hidden="false" targetId="ec4c-1132-ddaf-db8e" type="profile"/>
-        <infoLink id="89f9-614c-9804-9dda" name="Combi Weapon" hidden="false" targetId="a269-b8d9-67c5-4009" type="rule"/>
+        <infoLink id="89f9-614c-9804-9dda" name="Combi 武器" hidden="false" targetId="a269-b8d9-67c5-4009" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="15.0"/>
@@ -2966,7 +2966,7 @@
       <infoLinks>
         <infoLink id="595c-c1ad-7cd6-9c2b" name="爆弹枪" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
         <infoLink id="2143-e026-6475-051d" name="重力枪" hidden="false" targetId="a3d2-b0d7-70bc-695e" type="profile"/>
-        <infoLink id="3769-90bc-d2ca-500a" name="Combi Weapon" hidden="false" targetId="a269-b8d9-67c5-4009" type="rule"/>
+        <infoLink id="3769-90bc-d2ca-500a" name="Combi 武器" hidden="false" targetId="a269-b8d9-67c5-4009" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="13.0"/>
@@ -4289,7 +4289,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="f247-eee5-b8ce-1efa" name="Secondary Weapon" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="f247-eee5-b8ce-1efa" name="Secondary 武器" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f221-cff6-2246-cd0d" type="max"/>
           </constraints>
@@ -4789,7 +4789,7 @@
         <infoLink id="5ad1-8e52-6b0b-bdfa" name="烟雾发射器" hidden="false" targetId="c883-3078-1367-cc2c" type="profile"/>
       </infoLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="ee00-85b9-1ab4-e5d2" name="Hull-Mounted Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="2439-d817-d7d3-a43c">
+        <selectionEntryGroup id="ee00-85b9-1ab4-e5d2" name="Hull-Mounted 武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="2439-d817-d7d3-a43c">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91e3-1db1-6b95-5d74" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e14-8b36-6e72-8afc" type="min"/>
@@ -6709,7 +6709,7 @@
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
-            <selectionEntryGroup id="76a8-3ca5-7b2f-1480" name="Weapon Improvements" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="76a8-3ca5-7b2f-1480" name="武器 Improvements" hidden="false" collective="false" import="true">
               <selectionEntries>
                 <selectionEntry id="9fe7-52d1-37b0-760f" name="02: Auto-loader" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
@@ -6718,7 +6718,7 @@
                   <profiles>
                     <profile id="7d61-3f69-1234-5baa" name="02: Auto-loader" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s ranged 武器. Increase the number of shots 这个武器 makes by 1 (e.g. a Pistol 1 weapon becomes a Pistol 2 weapon). </characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s ranged 武器. Increase the number of shots 这个武器 makes by 1 (e.g. a Pistol 1 武器 becomes a Pistol 2 武器). </characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6735,7 +6735,7 @@
                   <profiles>
                     <profile id="85ee-c700-2b30-ad37" name="03: Penetrator Rounds" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s ranged 武器. Improve that weapon’s AP值 by 1 (e.g. AP -1 becomes AP -2).</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s ranged 武器. Improve that 武器’s AP值 by 1 (e.g. AP -1 becomes AP -2).</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6752,7 +6752,7 @@
                   <profiles>
                     <profile id="97fa-de67-99e0-29fd" name="04: High Calibre" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s ranged 武器. Add 1 to that weapon’s S值.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s ranged 武器. Add 1 to that 武器’s S值.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6769,7 +6769,7 @@
                   <profiles>
                     <profile id="65fb-9911-be6a-53d6" name="05: Improved Sights" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s ranged 武器. Add 6寸 to that weapon’s 射程. </characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s ranged 武器. Add 6寸 to that 武器’s 射程. </characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6786,7 +6786,7 @@
                   <profiles>
                     <profile id="d1b4-cfe9-6852-26f5" name="06: Inferno Round" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s ranged 武器. Add the following ability to that weapon: ‘单位 do not receive the benefit of cover to their saving throws 对抗 攻击 made with 这个武器.’</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s ranged 武器. Add the following ability to that 武器: ‘单位 do not receive the benefit of cover to their saving throws 对抗 攻击 made with 这个武器.’</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6796,14 +6796,14 @@
                     <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="f759-18ed-8403-472b" name="07: Artificer Weapon" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="f759-18ed-8403-472b" name="07: Artificer 武器" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="127d-7af7-ae3b-8fa8" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="74dd-199a-f33e-c54f" name="07: Artificer Weapon" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
+                    <profile id="74dd-199a-f33e-c54f" name="07: Artificer 武器" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s 武器. Add 1 to that weapon’s D值.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s 武器. Add 1 to that 武器’s D值.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6820,7 +6820,7 @@
                   <profiles>
                     <profile id="37ad-2ef0-0868-af26" name="08: Finely Balanced" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s 肉搏武器. Add the following ability to that weapon: ‘每次 the bearer fights, it can make 1 additional attack with 这个武器.’</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s 肉搏武器. Add the following ability to that 武器: ‘每次 the bearer fights, it can make 1 additional attack with 这个武器.’</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6837,7 +6837,7 @@
                   <profiles>
                     <profile id="1ce8-bd94-7cf0-e20f" name="09: Shredder" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s 肉搏武器. Add the following ability to that weapon: ‘可以重投失败的造伤骰 for 攻击 made with 这个武器.’</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s 肉搏武器. Add the following ability to that 武器: ‘可以重投失败的造伤骰 for 攻击 made with 这个武器.’</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6854,7 +6854,7 @@
                   <profiles>
                     <profile id="96c3-0639-a1a2-86e0" name="10: Brutal" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s 肉搏武器. Improve that weapon’s S值 by 1 (e.g. User becomes +1, +1 becomes +2).</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s 肉搏武器. Improve that 武器’s S值 by 1 (e.g. User becomes +1, +1 becomes +2).</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6871,7 +6871,7 @@
                   <profiles>
                     <profile id="ae27-0269-204d-ceb0" name="11: Razor-edged" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s 肉搏武器. Improve that weapon’s AP值 by 1 (e.g. AP -1 becomes AP -2).</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s 肉搏武器. Improve that 武器’s AP值 by 1 (e.g. AP -1 becomes AP -2).</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6888,7 +6888,7 @@
                   <profiles>
                     <profile id="c8c0-671c-6174-969c" name="12: Heirloom" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s 肉搏武器. Add the following ability to that weapon: ‘Each unmodified 命中 roll of 6 made for 攻击 with 这个武器 scores 2 命中 而不是 1’.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s 肉搏武器. Add the following ability to that 武器: ‘Each unmodified 命中 roll of 6 made for 攻击 with 这个武器 scores 2 命中 而不是 1’.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7741,7 +7741,7 @@
               <profiles>
                 <profile id="49eb-d748-c449-7525" name="R2: Experimental Ammunition" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Select one of the ranged 武器 used by one or more 模型 in 这个单位. Add 1 to the D值 of that weapon for 攻击 made by 那个单位.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Select one of the ranged 武器 used by one or more 模型 in 这个单位. Add 1 to the D值 of that 武器 for 攻击 made by 那个单位.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7922,7 +7922,7 @@
       <description>The 5 CPs from this detachment can only be spent on 要塞突袭 Stratagems.</description>
     </rule>
     <rule id="5a7e-f984-487c-d767" name="爆弹训练" publicationId="28ec-711c-pubN110542" hidden="false">
-      <description>所有 阿斯塔特修会 and 阿斯塔特叛军 模型 gain this ability. 而不是 following the normal rules for 速射 武器, 速射爆弹武器 used by 模型 with this ability make double the number of 攻击 if any of the following conditions apply: 1) The firing 模型的 target is 范围内 half the weapon&apos;s maximum range. 2)    The firing 模型 is 步兵 and every 模型 in its 单位 remained stationary in your previous 移动阶段. 3) The firing 模型 is a 终结者, 摩托, 百夫长, or 无畏. For the purposes of this ability a 速射爆弹武器 is any weapon with the 速射 type whose name includes the word &apos;bolt&apos; (e.g. 爆弹枪, 爆弹步枪, 风暴爆弹, 复合爆弹, 飓风爆弹, 地狱爆弹枪, etc.) This also applies when firing the 爆弹枪 profile of a combi-weapon (including the 爆弹武器 profile of Relics such as Blood Song and the Lion&apos;s Wrath) and when firing relics that replace a 速射爆弹武器, so long as the 圣物 is also a rapid-fire weapon (e.g. Primarch&apos;s Wrath, Fury of Deimos, etc) The gauntlets of ultramar and the Talon of Horus are also considered 速射爆弹武器, as is the 卫士之矛 used by Deathwatch Watch Masters.</description>
+      <description>所有 阿斯塔特修会 and 阿斯塔特叛军 模型 gain this ability. 而不是 following the normal rules for 速射 武器, 速射爆弹武器 used by 模型 with this ability make double the number of 攻击 if any of the following conditions apply: 1) The firing 模型的 target is 范围内 half the 武器&apos;s maximum range. 2)    The firing 模型 is 步兵 and every 模型 in its 单位 remained stationary in your previous 移动阶段. 3) The firing 模型 is a 终结者, 摩托, 百夫长, or 无畏. For the purposes of this ability a 速射爆弹武器 is any 武器 with the 速射 type whose name includes the word &apos;bolt&apos; (e.g. 爆弹枪, 爆弹步枪, 风暴爆弹, 复合爆弹, 飓风爆弹, 地狱爆弹枪, etc.) This also applies when firing the 爆弹枪 profile of a combi-武器 (including the 爆弹武器 profile of Relics such as Blood Song and the Lion&apos;s Wrath) and when firing relics that replace a 速射爆弹武器, so long as the 圣物 is also a rapid-fire 武器 (e.g. Primarch&apos;s Wrath, Fury of Deimos, etc) The gauntlets of ultramar and the Talon of Horus are also considered 速射爆弹武器, as is the 卫士之矛 used by Deathwatch Watch Masters.</description>
     </rule>
     <rule id="01a4-bec8-b573-fde7" name="死亡天使" hidden="false">
       <description>这个单位 has the following abilities: And They Shall Know No Fear, Bolter Discipline, Shock Assault and Combat Doctrines.’</description>
@@ -8577,7 +8577,7 @@
     </profile>
     <profile id="d4b6-7a3a-aee5-d293" name="Ammo Store" publicationId="28ec-711c-pubN77581" page="110" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A 单位 occupying this 建筑 re-骰 To 命中 骰 of a 1 when firing out of the 建筑&apos;s fire points. Note this does not apply to a 模型 manually firing an emplaced weapon.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A 单位 occupying this 建筑 re-骰 To 命中 骰 of a 1 when firing out of the 建筑&apos;s fire points. Note this does not apply to a 模型 manually firing an emplaced 武器.</characteristic>
       </characteristics>
     </profile>
     <profile id="58a2-c92e-57cc-d44c" name="Ammunition Dump" publicationId="28ec-711c-pubN77581" page="110" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -8587,7 +8587,7 @@
     </profile>
     <profile id="e144-1293-ec28-d3a9" name="虚空盾" publicationId="28ec-711c-pubN113754" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each 命中 scored 对抗 the 模型 will instead 命中 a 虚空盾 (whilst they remain). Close combat 攻击 come from inside the shield and therefore are not stopped. Void shields have an Armour Value of 12. A glancing or penetrating 命中 (or 任何命中 from a Destroyer weapon) scored 对抗 a 虚空盾 causes it to collapse. After 所有 the void shields have collapsed, further 命中 strike the 模型 instead. At the end of each of the controlling player&apos;s turns, roll one dice for each collapsed void  shield: each roll of 5+ instantly restores one collapsed shield.  If a weapon uses a template or blast marker and it 命中 one or more 单位 protected by a 虚空盾 Zone, ignore the number of 命中 it would normally cause to the 单位, instead roll to pen the 虚空盾 once using the 武器 normal rules, profile for each template or blast marker that 命中.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each 命中 scored 对抗 the 模型 will instead 命中 a 虚空盾 (whilst they remain). Close combat 攻击 come from inside the shield and therefore are not stopped. Void shields have an Armour Value of 12. A glancing or penetrating 命中 (or 任何命中 from a Destroyer 武器) scored 对抗 a 虚空盾 causes it to collapse. After 所有 the void shields have collapsed, further 命中 strike the 模型 instead. At the end of each of the controlling player&apos;s turns, roll one dice for each collapsed void  shield: each roll of 5+ instantly restores one collapsed shield.  If a 武器 uses a template or blast marker and it 命中 one or more 单位 protected by a 虚空盾 Zone, ignore the number of 命中 it would normally cause to the 单位, instead roll to pen the 虚空盾 once using the 武器 normal rules, profile for each template or blast marker that 命中.</characteristic>
       </characteristics>
     </profile>
     <profile id="31ba-2b94-6600-22f3" name="Magos Machine Spirit" publicationId="28ec-711c-pubN113754" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -8646,7 +8646,7 @@
     <profile id="39bf-dff4-053a-7360" name="Macro Shell" publicationId="28ec-711c-pubN77581" page="111" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="射程" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72</characteristic>
-        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Primary Weapon 2, Large Blast</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Primary 武器 2, Large Blast</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466"/>
         <characteristic name="AP" typeId="75aa-a838-b675-6484"/>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7"/>
@@ -8656,7 +8656,7 @@
     <profile id="0293-567f-c305-724a" name="Quake Shell" publicationId="28ec-711c-pubN77581" page="111" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="射程" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">180</characteristic>
-        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Primary Weapon 1, Apocalyptic Mega-blast, Sonic Boom</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Primary 武器 1, Apocalyptic Mega-blast, Sonic Boom</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466"/>
         <characteristic name="AP" typeId="75aa-a838-b675-6484"/>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7"/>

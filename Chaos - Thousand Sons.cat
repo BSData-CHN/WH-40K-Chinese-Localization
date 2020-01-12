@@ -376,10 +376,10 @@ If your summoning roll included any doubles, your 人物 遭受 1点致命伤. I
     <rule id="4f2f-0bb8-8aaa-3d4d" name="爆弹训练" hidden="false">
       <description>所有 阿斯塔特修会, 阿斯塔特叛军 and FALLEN 模型 gain this ability.
 而不是 following the normal rules for 速射 武器, 模型 in 这个单位 firing 速射爆弹武器 make double the number of 攻击 if any of the following apply:
-• The firing model’s target is 范围内 half the weapon’s maximum range.
+• The firing model’s target is 范围内 half the 武器’s maximum range.
 • The firing 模型 is 步兵 and every 模型 in its 单位 remained stationary in your previous 移动阶段.
 • The firing 模型 is a 终结者, 摩托, 百夫长, 无畏 or HELBRUTE.
-For the purposes of this ability, a 速射爆弹武器 is any weapon with the 速射 type whose profile includes the word ‘bolt’ (e.g. 爆弹枪, 爆弹步枪, 风暴爆弹, 复合爆弹, 飓风爆弹, 地狱爆弹枪, etc.). This also applies when firing the 爆弹枪 profile of 复合武器 (including the 爆弹武器 profile of Relics such as Blood Song and the Lion’s Wrath) and when firing relics that replace a 速射爆弹武器, so long as the 圣物 is also a 速射武器 (e.g. Primarch’s Wrath and Fury of Deimos). The Gauntlets of Ultramar and the Talon of Horus are also 速射爆弹武器, as is the 卫士之矛 used by Deathwatch Watch Masters.</description>
+For the purposes of this ability, a 速射爆弹武器 is any 武器 with the 速射 type whose profile includes the word ‘bolt’ (e.g. 爆弹枪, 爆弹步枪, 风暴爆弹, 复合爆弹, 飓风爆弹, 地狱爆弹枪, etc.). This also applies when firing the 爆弹枪 profile of 复合武器 (including the 爆弹武器 profile of Relics such as Blood Song and the Lion’s Wrath) and when firing relics that replace a 速射爆弹武器, so long as the 圣物 is also a 速射武器 (e.g. Primarch’s Wrath and Fury of Deimos). The Gauntlets of Ultramar and the Talon of Horus are also 速射爆弹武器, as is the 卫士之矛 used by Deathwatch Watch Masters.</description>
     </rule>
   </rules>
   <sharedSelectionEntries>
@@ -454,7 +454,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
           <selectionEntries>
             <selectionEntry id="76c9-26af-dbca-8448" name="猎食者自动炮" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="c0cf-ee9a-c500-8872" name="猎食者自动炮" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="c0cf-ee9a-c500-8872" name="猎食者自动炮" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48寸</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 2D3</characteristic>
@@ -476,7 +476,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
             <entryLink id="4689-7cbe-6243-c589" name="双联激光炮" hidden="false" collective="false" import="true" targetId="ee18-b1cd-6b60-464d" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="6656-b5c9-6961-8ba7" name="2x Weapon options" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="6656-b5c9-6961-8ba7" name="2x 武器 options" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e8a-c578-e899-f285" type="max"/>
           </constraints>
@@ -594,7 +594,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dce7-e93c-17d3-b628" type="min"/>
           </constraints>
           <profiles>
-            <profile id="c6ca-1c29-fa99-6caa" name="Demolisher cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="c6ca-1c29-fa99-6caa" name="Demolisher cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 D6</characteristic>
@@ -829,7 +829,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db07-c7ab-daf1-6fc2" type="min"/>
           </constraints>
           <profiles>
-            <profile id="56a6-6b62-77e7-449c" name="Defiler claws" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="56a6-6b62-77e7-449c" name="Defiler claws" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -856,7 +856,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
           <selectionEntries>
             <selectionEntry id="5502-7607-7594-2169" name="Defiler scourge" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="9375-4dd0-84e8-197d" name="Defiler scourge" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="9375-4dd0-84e8-197d" name="Defiler scourge" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -994,7 +994,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a847-f853-e999-7ee7" type="min"/>
           </constraints>
           <profiles>
-            <profile id="67f5-005c-e7a5-8ec7" name="Heldrake claws" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="67f5-005c-e7a5-8ec7" name="Heldrake claws" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -1012,7 +1012,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="2c11-c71e-03f2-53d0" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="cdbb-40a8-53ff-859a">
+        <selectionEntryGroup id="2c11-c71e-03f2-53d0" name="武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="cdbb-40a8-53ff-859a">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ad4c-5b37-5248-43e3" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ac72-4f68-de14-98ec" type="max"/>
@@ -1123,7 +1123,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f729-3cb2-57bc-1ebd" type="max"/>
           </constraints>
           <profiles>
-            <profile id="bd34-20ab-2635-9a72" name="Maulerfiend fists" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="bd34-20ab-2635-9a72" name="Maulerfiend fists" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -1150,7 +1150,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
           <selectionEntries>
             <selectionEntry id="bf84-888a-5fd0-afdd" name="2x Magma cutter" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="2f6e-e207-a83f-c788" name="Magma cutter" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="2f6e-e207-a83f-c788" name="Magma cutter" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6寸</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手枪 1</characteristic>
@@ -1169,7 +1169,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
             </selectionEntry>
             <selectionEntry id="dd67-54ba-d390-bd45" name="Lasher tendrils" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="e8ba-dd28-a8aa-c350" name="Lasher tendrils" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="e8ba-dd28-a8aa-c350" name="Lasher tendrils" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -1402,7 +1402,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
       <profiles>
         <profile id="0c81-ebb6-5c41-0730" name="所有 is Dust" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the saving throws for Rubric Marines if the attack 拥有 D值 of 1. 此外, the -1 modifier to 命中 骰 for moving and 射击 with a Heavy weapon does not apply to Rubric Marines.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the saving throws for Rubric Marines if the attack 拥有 D值 of 1. 此外, the -1 modifier to 命中 骰 for moving and 射击 with a Heavy 武器 does not apply to Rubric Marines.</characteristic>
           </characteristics>
         </profile>
         <profile id="3ba7-ce60-4405-9e0c" name="Rubric Marine" page="0" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
@@ -1524,7 +1524,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33ec-295a-bde7-9c46" type="min"/>
                   </constraints>
                   <profiles>
-                    <profile id="3934-0062-89a3-85f7" name="地狱爆弹枪" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                    <profile id="3934-0062-89a3-85f7" name="地狱爆弹枪" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                       <characteristics>
                         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
                         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">速射 1</characteristic>
@@ -1559,7 +1559,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8ba-2301-49f0-c1f3" type="min"/>
                   </constraints>
                   <profiles>
-                    <profile id="3f4e-c651-c313-d4ee" name="Warpflamer" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                    <profile id="3f4e-c651-c313-d4ee" name="Warpflamer" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                       <characteristics>
                         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">8寸</characteristic>
                         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 D6</characteristic>
@@ -1633,7 +1633,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
       <profiles>
         <profile id="e9e6-b21c-ac1d-7e05" name="所有 is Dust" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the saving throws for Scarab Occult 终结者 if the attack 拥有 D值 of 1. 此外, the -1 modifier to 命中 骰 for moving and 射击 with a Heavy weapon does not apply to Scarab Occult 终结者.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the saving throws for Scarab Occult 终结者 if the attack 拥有 D值 of 1. 此外, the -1 modifier to 命中 骰 for moving and 射击 with a Heavy 武器 does not apply to Scarab Occult 终结者.</characteristic>
           </characteristics>
         </profile>
         <profile id="b4e8-d231-34d7-ee57" name="Scarab Occult 终结者" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
@@ -1697,7 +1697,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
             </profile>
           </profiles>
           <selectionEntryGroups>
-            <selectionEntryGroup id="2e7a-f6a8-922d-4c8d" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="afed-7c9e-af94-effc">
+            <selectionEntryGroup id="2e7a-f6a8-922d-4c8d" name="武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="afed-7c9e-af94-effc">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc12-8466-ad16-5fd8" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3454-f620-62d2-e482" type="min"/>
@@ -1781,7 +1781,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="3e9a-5e5d-9d47-e110" name="终结者附带Heavy Weapon" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="3e9a-5e5d-9d47-e110" name="终结者附带Heavy 武器" hidden="false" collective="false" import="true" type="model">
               <modifiers>
                 <modifier type="increment" field="abce-92e5-b80a-bd6f" value="1">
                   <conditions>
@@ -1793,7 +1793,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="abce-92e5-b80a-bd6f" type="max"/>
               </constraints>
               <selectionEntryGroups>
-                <selectionEntryGroup id="89d6-6008-74ba-a40d" name="Weapon" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="89d6-6008-74ba-a40d" name="武器" hidden="false" collective="false" import="true">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa83-1fb2-5c8c-e832" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="323f-336e-7b46-6511" type="min"/>
@@ -1804,7 +1804,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb05-3d26-d686-98e0" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="edf7-fce3-df93-3dcb" name="Heavy Warpflamer" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                        <profile id="edf7-fce3-df93-3dcb" name="Heavy Warpflamer" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                           <characteristics>
                             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">8寸</characteristic>
                             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 D6</characteristic>
@@ -2098,7 +2098,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="290c-607b-3ec2-796b" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="0519-c44a-a991-e6d6" name="终结者 Sorcerer Weapon options" hidden="false" collective="false" import="true" targetId="1ade-5742-3369-49b7" type="selectionEntryGroup"/>
+        <entryLink id="0519-c44a-a991-e6d6" name="终结者 Sorcerer 武器 options" hidden="false" collective="false" import="true" targetId="1ade-5742-3369-49b7" type="selectionEntryGroup"/>
         <entryLink id="951b-a3da-0cc1-f9b4" name="圣物" hidden="false" collective="false" import="true" targetId="c766-a2c3-4ac9-fbbb" type="selectionEntryGroup"/>
         <entryLink id="e61e-77f2-14b8-5e0f" name="主将特性" hidden="false" collective="false" import="true" targetId="18b9-a369-20ee-a31b" type="selectionEntryGroup"/>
         <entryLink id="6ca3-187f-475e-6336" name="主将" hidden="false" collective="false" import="true" targetId="9aed-5e2d-8d51-5f31" type="selectionEntry">
@@ -2164,7 +2164,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbcc-e593-2162-0582" type="min"/>
           </constraints>
           <profiles>
-            <profile id="e802-6c0a-1d5e-8e80" name="Blades on Disc of 奸奇" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="e802-6c0a-1d5e-8e80" name="Blades on Disc of 奸奇" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -2305,7 +2305,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
     </selectionEntry>
     <selectionEntry id="7d05-2c25-26b8-d4da" name="Hellforged sword" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="b552-8132-846c-4f6f" name="Hellforged sword" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="b552-8132-846c-4f6f" name="Hellforged sword" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -2324,7 +2324,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
     </selectionEntry>
     <selectionEntry id="73f0-ec59-a8ea-4ce9" name="Daemonic axe" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="39e0-c127-e724-eb94" name="Daemonic axe" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="39e0-c127-e724-eb94" name="Daemonic axe" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -2343,7 +2343,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
     </selectionEntry>
     <selectionEntry id="ab5a-b591-31e2-e0d0" name="Malefic talon" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="d19b-c105-5510-3b01" name="Malefic talon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="d19b-c105-5510-3b01" name="Malefic talon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -2362,7 +2362,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
     </selectionEntry>
     <selectionEntry id="7aa9-b4b1-f87b-6ef6" name="Warp bolter" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="38c1-ce20-ee87-5728" name="Warp bolter" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="38c1-ce20-ee87-5728" name="Warp bolter" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 2</characteristic>
@@ -2407,7 +2407,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
     </selectionEntry>
     <selectionEntry id="c407-1eee-2aba-7b9d" name="Warpflamer" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="fd8e-4d3b-03d4-a3fb" name="Warpflamer" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="fd8e-4d3b-03d4-a3fb" name="Warpflamer" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">8寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 D6</characteristic>
@@ -2524,7 +2524,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
           <selectionEntries>
             <selectionEntry id="840e-6586-1162-9d68" name="Helbrute hammer" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="17cd-3470-272b-1500" name="Helbrute hammer" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="17cd-3470-272b-1500" name="Helbrute hammer" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -2543,7 +2543,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
             </selectionEntry>
             <selectionEntry id="ce8d-9406-bcf1-fdae" name="Power scourge" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="6048-4231-b230-694d" name="Power scourge" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="6048-4231-b230-694d" name="Power scourge" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -2590,7 +2590,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
           <selectionEntries>
             <selectionEntry id="aba5-0c08-e0a5-fcbe" name="Helbrute plasma cannon" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="deb0-197a-4fbd-ebfd" name="Helbrute plasma cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="deb0-197a-4fbd-ebfd" name="Helbrute plasma cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36寸</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 D3</characteristic>
@@ -2849,7 +2849,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4237-3865-fa93-8993" type="min"/>
           </constraints>
           <profiles>
-            <profile id="b7f6-35c1-2d64-dacb" name="The Blade of Magnus" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="b7f6-35c1-2d64-dacb" name="The Blade of Magnus" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -2991,10 +2991,10 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38e6-5ff5-0c40-cc52" type="min"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="6a37-0d37-8454-fbd8" name="Brutal assault weapon and Autopistol" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="6a37-0d37-8454-fbd8" name="Brutal assault 武器 and Autopistol" hidden="false" collective="false" import="true" type="upgrade">
                   <infoLinks>
                     <infoLink id="dd26-9852-d8db-edeb" name="Autopistol" hidden="false" targetId="2481-001b-00f9-501b" type="profile"/>
-                    <infoLink id="dbeb-cc2f-e7c9-6145" name="Brutal assault weapon" hidden="false" targetId="4d38-d3e5-a04b-55dc" type="profile"/>
+                    <infoLink id="dbeb-cc2f-e7c9-6145" name="Brutal assault 武器" hidden="false" targetId="4d38-d3e5-a04b-55dc" type="profile"/>
                   </infoLinks>
                   <costs>
                     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -3049,12 +3049,12 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="8ae9-c17b-af6b-0d9e" name="混沌 Cultist附带autopistol and brutal assault weapon" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="8ae9-c17b-af6b-0d9e" name="混沌 Cultist附带autopistol and brutal assault 武器" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="39.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="409f-6279-106c-9fef" type="max"/>
               </constraints>
               <profiles>
-                <profile id="8900-e8ef-e1f3-1c73" name="混沌 Cultist附带Brutal assault weapon" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+                <profile id="8900-e8ef-e1f3-1c73" name="混沌 Cultist附带Brutal assault 武器" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
                   <characteristics>
                     <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6寸</characteristic>
                     <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
@@ -3085,7 +3085,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
                 </selectionEntry>
               </selectionEntries>
               <entryLinks>
-                <entryLink id="2c49-f981-8857-0276" name="Brutal assault weapon" hidden="false" collective="false" import="true" targetId="b66a-94c9-f8bd-32f9" type="selectionEntry">
+                <entryLink id="2c49-f981-8857-0276" name="Brutal assault 武器" hidden="false" collective="false" import="true" targetId="b66a-94c9-f8bd-32f9" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e186-ff82-1fb6-1559" type="min"/>
                   </constraints>
@@ -3097,7 +3097,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="7d90-d691-a7cb-4fd3" name="混沌 Cultist附带special weapon" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="7d90-d691-a7cb-4fd3" name="混沌 Cultist附带special 武器" hidden="false" collective="false" import="true" type="model">
               <modifiers>
                 <modifier type="increment" field="8950-7d8b-027d-dcf3" value="1">
                   <repeats>
@@ -3207,7 +3207,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7599-de49-a9eb-0e58" type="min"/>
               </constraints>
               <profiles>
-                <profile id="7045-7165-f3b8-40bd" name="Hideous mutations" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="7045-7165-f3b8-40bd" name="Hideous mutations" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -3244,7 +3244,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
     </selectionEntry>
     <selectionEntry id="be98-d80e-5822-dffe" name="Inferno Bolt Pistol" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
-        <profile id="322e-fa2c-f29f-d7c1" name="Inferno Bolt Pistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="322e-fa2c-f29f-d7c1" name="Inferno Bolt Pistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手枪 1</characteristic>
@@ -3484,7 +3484,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a4a-dffa-f0cf-9b47" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="e43f-5ec8-de0d-010b" name="Tzaangor blades" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                    <profile id="e43f-5ec8-de0d-010b" name="Tzaangor blades" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                       <characteristics>
                         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -3557,7 +3557,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3761-fb36-9e2d-e070" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="919e-0e73-890c-0e5b" name="Tzaangor blades" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                    <profile id="919e-0e73-890c-0e5b" name="Tzaangor blades" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                       <characteristics>
                         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -3710,7 +3710,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e79b-fb5f-fb92-55d7" type="min"/>
           </constraints>
           <profiles>
-            <profile id="9c44-8bf8-e924-1d93" name="Black Staff of Ahriman" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="9c44-8bf8-e924-1d93" name="Black Staff of Ahriman" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -3860,7 +3860,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="525e-6434-b1c9-738c" type="min"/>
           </constraints>
           <profiles>
-            <profile id="2421-be83-cf22-3395" name="Black Staff of Ahriman" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="2421-be83-cf22-3395" name="Black Staff of Ahriman" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -4096,7 +4096,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
           <selectionEntries>
             <selectionEntry id="cbe4-78bb-6049-9813" name="2x Hades autocannons" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="d9f5-7de2-ecb3-dd4e" name="Hades 自动炮" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="d9f5-7de2-ecb3-dd4e" name="Hades 自动炮" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36寸</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 4</characteristic>
@@ -4115,7 +4115,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
             </selectionEntry>
             <selectionEntry id="6628-a5fc-1dc6-b0b0" name="2x Ectoplasma cannons" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="10e0-667f-ec48-a9ab" name="Ectoplasma cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="10e0-667f-ec48-a9ab" name="Ectoplasma cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 D3</characteristic>
@@ -4142,7 +4142,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
           <selectionEntries>
             <selectionEntry id="c9ea-5882-ae50-71fe" name="恶魔 jaws" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="9a72-f069-c04c-a317" name="恶魔 jaws" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="9a72-f069-c04c-a317" name="恶魔 jaws" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -4161,7 +4161,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
             </selectionEntry>
             <selectionEntry id="5cf7-fd3b-0a69-beb7" name="Ectoplasma cannon" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="b92d-39c1-37d0-bd15" name="Ectoplasma cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="b92d-39c1-37d0-bd15" name="Ectoplasma cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 D3</characteristic>
@@ -4250,7 +4250,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
     </selectionEntry>
     <selectionEntry id="bad6-50db-be09-615f" name="Hellfyre Missile Rack" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="3fff-0438-4fb1-b07f" name="Hellfyre Missile Rack" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="3fff-0438-4fb1-b07f" name="Hellfyre Missile Rack" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 2</characteristic>
@@ -4267,12 +4267,12 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b66a-94c9-f8bd-32f9" name="Brutal assault weapon" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="b66a-94c9-f8bd-32f9" name="Brutal assault 武器" hidden="false" collective="true" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b783-faff-9f46-04a0" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="5105-de41-3648-b05c" name="Brutal assault weapon" hidden="false" targetId="4d38-d3e5-a04b-55dc" type="profile"/>
+        <infoLink id="5105-de41-3648-b05c" name="Brutal assault 武器" hidden="false" targetId="4d38-d3e5-a04b-55dc" type="profile"/>
       </infoLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -4375,7 +4375,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
     </selectionEntry>
     <selectionEntry id="e7d1-b66c-5df9-928f" name="Helbrute fist" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="4d19-9718-45a2-b5f5" name="Helbrute fist" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="4d19-9718-45a2-b5f5" name="Helbrute fist" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -4689,7 +4689,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
     </selectionEntry>
     <selectionEntry id="57f3-7a4e-b801-6be6" name="Warpflame Pistol" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="78b7-bf1c-1e84-f09b" name="Warpflame Pistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="78b7-bf1c-1e84-f09b" name="Warpflame Pistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手枪 D6</characteristic>
@@ -4712,7 +4712,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e32-625b-5917-270f" type="min"/>
       </constraints>
       <profiles>
-        <profile id="b73d-6d35-8f2a-ec26" name="Blades on Disc of 奸奇" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="b73d-6d35-8f2a-ec26" name="Blades on Disc of 奸奇" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -4761,7 +4761,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
     </selectionEntry>
     <selectionEntry id="17f3-ad76-ce7f-49d3" name="Soulreaper cannon" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
-        <profile id="a23f-3541-0657-bc8f" name="Soulreaper Cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="a23f-3541-0657-bc8f" name="Soulreaper Cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 4</characteristic>
@@ -5014,7 +5014,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
     </selectionEntry>
     <selectionEntry id="d98c-2e3c-8ee9-2908" name="Divining spears" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="923c-698f-f980-9f79" name="Divining Spear" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="923c-698f-f980-9f79" name="Divining Spear" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -5033,7 +5033,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
     </selectionEntry>
     <selectionEntry id="5280-bdca-5827-035e" name="Fatecaster greatbows" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="7777-0510-3630-f5b5" name="Fatecaster greatbow" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="7777-0510-3630-f5b5" name="Fatecaster greatbow" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 2</characteristic>
@@ -5102,7 +5102,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
         </profile>
         <profile id="0d01-1710-a96f-16ab" name="4 - Ephemeral Touch" hidden="false" typeId="9760-a771-d0c8-a624" typeName="Warp Vortex - D6 Roll">
           <characteristics>
-            <characteristic name="效果" typeId="65d3-42cb-a871-8c1c">Pick a 奸奇 单位 from your army 范围内 9寸 of the Mutalith Vortex Beast; improve the AP of 所有 肉搏武器 wielded by 那个单位 by 1 until the end of the turn (for example, a weapon with an AP of 0 would have an AP of -1 instead).</characteristic>
+            <characteristic name="效果" typeId="65d3-42cb-a871-8c1c">Pick a 奸奇 单位 from your army 范围内 9寸 of the Mutalith Vortex Beast; improve the AP of 所有 肉搏武器 wielded by 那个单位 by 1 until the end of the turn (for example, a 武器 with an AP of 0 would have an AP of -1 instead).</characteristic>
           </characteristics>
         </profile>
         <profile id="f996-f0b2-717c-d47d" name="3 - Temporal Flux" hidden="false" typeId="9760-a771-d0c8-a624" typeName="Warp Vortex - D6 Roll">
@@ -5178,7 +5178,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="edb8-9d4d-7bab-42da" type="min"/>
           </constraints>
           <profiles>
-            <profile id="c30f-0ccb-edec-db63" name="Betentacled Maw" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="c30f-0ccb-edec-db63" name="Betentacled Maw" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -5201,7 +5201,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="955f-4a14-dcff-7633" type="min"/>
           </constraints>
           <profiles>
-            <profile id="de88-1662-5bc4-ab69" name="Enormous Claws" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="de88-1662-5bc4-ab69" name="Enormous Claws" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -5296,7 +5296,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Model with inferno bolt pistol only. Coruscator replaces the bearer&apos;s inferno bolt pistol.</characteristic>
           </characteristics>
         </profile>
-        <profile id="4e52-e1fb-8197-51cb" name="Coruscator" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="4e52-e1fb-8197-51cb" name="Coruscator" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手枪 3</characteristic>
@@ -5327,7 +5327,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Model with force stave only. The Prismatic Staff replaces the bearer&apos;s force stave.</characteristic>
           </characteristics>
         </profile>
-        <profile id="1e53-452c-2578-6f71" name="The Prismatic Staff" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="1e53-452c-2578-6f71" name="The Prismatic Staff" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -5359,7 +5359,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="0c44-cca3-33c7-475d" name="Seer&apos;s Bane" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="0c44-cca3-33c7-475d" name="Seer&apos;s Bane" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -5792,7 +5792,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
       <selectionEntries>
         <selectionEntry id="e99f-6898-38fe-9091" name="Chainaxe" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="aa92-0e17-9c17-f6f9" name="Chainaxe" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="aa92-0e17-9c17-f6f9" name="Chainaxe" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -5853,7 +5853,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
         <entryLink id="d466-7550-eac3-e4d6" name="Gift of Chaos" hidden="false" collective="false" import="true" targetId="3a7c-1d8f-fe32-7785" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="1ade-5742-3369-49b7" name="终结者 Sorcerer Weapon options" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="1ade-5742-3369-49b7" name="终结者 Sorcerer 武器 options" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0774-3468-603f-c382" type="max"/>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5dc1-6918-1d4b-1fc2" type="min"/>
@@ -6169,7 +6169,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
     </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="8161-3115-546e-5d70" name="Hellflamer" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="8161-3115-546e-5d70" name="Hellflamer" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">8寸</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 D6</characteristic>
@@ -6179,7 +6179,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">攻击 made by 这个武器 自动 命中.</characteristic>
       </characteristics>
     </profile>
-    <profile id="a58c-7337-46b9-0d95" name="Baleflamer" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="a58c-7337-46b9-0d95" name="Baleflamer" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18寸</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 D6</characteristic>
@@ -6189,7 +6189,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 自动 命中.</characteristic>
       </characteristics>
     </profile>
-    <profile id="3351-60e7-b298-81aa" name="Hades 自动炮" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="3351-60e7-b298-81aa" name="Hades 自动炮" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36寸</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 4</characteristic>
@@ -6199,7 +6199,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="f355-e723-8b2a-1b41" name="双联激光炮" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="f355-e723-8b2a-1b41" name="双联激光炮" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48寸</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 2</characteristic>
@@ -6209,7 +6209,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="e89b-a409-4ab4-e6db" name="Havoc launcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="e89b-a409-4ab4-e6db" name="Havoc launcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48寸</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 D6</characteristic>
@@ -6219,7 +6219,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="db16-c410-7ac0-3148" name="复合爆弹" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="db16-c410-7ac0-3148" name="复合爆弹" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">速射 2</characteristic>
@@ -6236,7 +6236,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
     </profile>
     <profile id="27a8-c34a-7a70-904e" name="Death to the False Emperor" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 you roll a 命中 roll of 6+ for a 模型 with this ability in the 肉搏阶段, it can, if it was targeting an 帝国 单位, 立即 make an extra attack 对抗 the same 单位 using the same weapon. These extra 攻击 cannot themselves generate any further 攻击.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 you roll a 命中 roll of 6+ for a 模型 with this ability in the 肉搏阶段, it can, if it was targeting an 帝国 单位, 立即 make an extra attack 对抗 the same 单位 using the same 武器. These extra 攻击 cannot themselves generate any further 攻击.</characteristic>
       </characteristics>
     </profile>
     <profile id="79d3-db1a-c054-9cf3" name="Daemonic Machine Spirit" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -6264,7 +6264,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型拥有 5+ 特殊保护.</characteristic>
       </characteristics>
     </profile>
-    <profile id="4d38-d3e5-a04b-55dc" name="Brutal assault weapon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="4d38-d3e5-a04b-55dc" name="Brutal assault 武器" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -6274,7 +6274,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 the bearer fights, it can make 1 additional attack with 这个武器. This extra attack is included in its profile.</characteristic>
       </characteristics>
     </profile>
-    <profile id="c5ec-eb14-b836-ca40" name="Inferno 复合爆弹" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="c5ec-eb14-b836-ca40" name="Inferno 复合爆弹" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">速射 2</characteristic>
