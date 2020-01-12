@@ -2100,7 +2100,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to 这个模型&apos;s 攻击 characteristic if it is equipped with two melee 武器. This extra attack has been added to its profile.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to 这个模型&apos;s 攻击 characteristic if it is equipped with two 肉搏 武器. This extra attack has been added to its profile.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2805,7 +2805,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
             <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="abc6-95e5-4d34-76dd" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="4c67-ed33-d92a-7a53" name="混沌 Cultist w/ special weapon" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="4c67-ed33-d92a-7a53" name="混沌 Cultist附带special weapon" hidden="false" collective="false" import="true" type="model">
               <modifiers>
                 <modifier type="increment" field="67fb-9b07-883c-25e3" value="1">
                   <repeats>
@@ -2834,9 +2834,9 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="1d7d-fd1a-264d-0691" name="混沌 Cultist w/ autopistol and brutal assault weapon" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="1d7d-fd1a-264d-0691" name="混沌 Cultist附带autopistol and brutal assault weapon" hidden="false" collective="false" import="true" type="model">
               <profiles>
-                <profile id="2910-f488-0eb2-b32c" name="混沌 Cultist w/ Brutal assault weapon" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+                <profile id="2910-f488-0eb2-b32c" name="混沌 Cultist附带Brutal assault weapon" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
                   <characteristics>
                     <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6寸</characteristic>
                     <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
@@ -2879,7 +2879,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="1dd1-500a-fb2a-2942" name="混沌 Cultist w/ Autogun" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="1dd1-500a-fb2a-2942" name="混沌 Cultist附带Autogun" hidden="false" collective="false" import="true" type="model">
               <profiles>
                 <profile id="f425-0999-5086-0837" name="混沌 Cultist" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
                   <characteristics>
@@ -3538,7 +3538,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Plague Weapon. Make 3 命中 骰 for each attack with 这个武器, 而不是 1.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Plague Weapon. Make 3 命中 骰 for 每次攻击 with 这个武器, 而不是 1.</characteristic>
               </characteristics>
             </profile>
             <profile id="9ecd-09e3-ca84-a5c2" name="Silence - Eviscerating blow" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -3639,7 +3639,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
           <characteristics>
             <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">5</characteristic>
             <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, select a 可见 友方 死亡守卫 单位 范围内 18寸 of the 灵能者. Until the start of your next 灵能阶段, add 1 to 所有 wound 骰 made by 那个单位 in the 肉搏阶段. Furthermore, 所有造伤骰的 7+ made for 那个单位 in the 肉搏阶段 with a melee plague weapon (i.e. a plaguesword or any weapon with the Plague Weapon ability) inflict 1点致命伤 对目标 此外 to any other 伤害.</characteristic>
+            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, select a 可见 友方 死亡守卫 单位 范围内 18寸 of the 灵能者. Until the start of your next 灵能阶段, add 1 to 所有 wound 骰 made by 那个单位 in the 肉搏阶段. Furthermore, 所有造伤骰的 7+ made for 那个单位 in the 肉搏阶段 with a 肉搏 plague weapon (i.e. a plaguesword or any weapon with the Plague Weapon ability) inflict 1点致命伤 对目标 此外 to any other 伤害.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3949,7 +3949,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
                           </constraints>
                           <infoLinks>
                             <infoLink id="78c0-a34d-fa6f-79e8" name="动力拳套" hidden="false" targetId="3520-0bb4-90f2-084b" type="profile"/>
-                            <infoLink id="590b-0bc7-dfac-1519" name="Plasma gun, Standard" hidden="false" targetId="03e5-60f2-4726-5cdd" type="profile"/>
+                            <infoLink id="590b-0bc7-dfac-1519" name="Plasma gun, 标准" hidden="false" targetId="03e5-60f2-4726-5cdd" type="profile"/>
                             <infoLink id="e480-afc2-3e09-a139" name="Plasma gun, Supercharge" hidden="false" targetId="acb5-7b58-0d17-a33a" type="profile"/>
                           </infoLinks>
                           <costs>
@@ -4110,7 +4110,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
             <constraint field="selections" scope="parent" value="19.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f29-31e6-6622-9493" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="af76-6ae4-f67c-7bd0" name="Plague Marine w/ 爆弹枪" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="af76-6ae4-f67c-7bd0" name="Plague Marine附带爆弹枪" hidden="false" collective="false" import="true" type="model">
               <selectionEntries>
                 <selectionEntry id="e545-1fd8-42df-263a" name="Plague knife" hidden="false" collective="true" import="true" type="upgrade">
                   <constraints>
@@ -4169,7 +4169,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="c24e-9d31-6349-2f1f" name="Plague Marine w/ Special Weapon" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="c24e-9d31-6349-2f1f" name="Plague Marine附带Special Weapon" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4bde-62b7-82b0-8610" type="max"/>
               </constraints>
@@ -4234,7 +4234,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="3575-35fd-5faf-a4db" name="Plague Marine w/ melee 武器" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="3575-35fd-5faf-a4db" name="Plague Marine附带肉搏 武器" hidden="false" collective="false" import="true" type="model">
               <selectionEntryGroups>
                 <selectionEntryGroup id="d62a-de35-4d4b-fe6c" name="武器选项" hidden="false" collective="false" import="true">
                   <constraints>
@@ -4559,7 +4559,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
       <profiles>
         <profile id="9cac-3bbd-fc59-fdc3" name="Aura of Rust" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 you make a wound roll of 6+ for one of 这个单位&apos;s melee 武器, increase the AP of that attack by 1 (e.g. AP -2 becomes AP -3).</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 you make a wound roll of 6+ for one of 这个单位&apos;s 肉搏 武器, increase the AP of that attack by 1 (e.g. AP -2 becomes AP -3).</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4616,7 +4616,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="1820-e591-4327-07c8" name="Blightlord 终结者 Melee 武器" hidden="false" collective="false" import="true" targetId="2dcd-70d1-b780-480d" type="selectionEntryGroup"/>
+            <entryLink id="1820-e591-4327-07c8" name="Blightlord 终结者 肉搏 武器" hidden="false" collective="false" import="true" targetId="2dcd-70d1-b780-480d" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="34.0"/>
@@ -4750,7 +4750,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
                     </selectionEntryGroup>
                   </selectionEntryGroups>
                   <entryLinks>
-                    <entryLink id="6443-602d-af32-857b" name="Blightlord 终结者 Melee 武器" hidden="false" collective="false" import="true" targetId="2dcd-70d1-b780-480d" type="selectionEntryGroup"/>
+                    <entryLink id="6443-602d-af32-857b" name="Blightlord 终结者 肉搏 武器" hidden="false" collective="false" import="true" targetId="2dcd-70d1-b780-480d" type="selectionEntryGroup"/>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -5938,7 +5938,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
       <profiles>
         <profile id="bc92-05ed-b395-3617" name="Aura of Rust" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 you make a wound roll of 6+ for one of 这个单位&apos;s melee 武器, increase the AP of that attack by 1 (e.g. AP -2 becomes AP -3).</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 you make a wound roll of 6+ for one of 这个单位&apos;s 肉搏 武器, increase the AP of that attack by 1 (e.g. AP -2 becomes AP -3).</characteristic>
           </characteristics>
         </profile>
         <profile id="e0eb-6b15-0976-6271" name="Blightlord 终结者" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
@@ -6551,7 +6551,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
         <entryLink id="3357-b1be-12e7-521e" name="New EntryLink" hidden="false" collective="false" import="true" targetId="efc8-c51d-5b02-a3a2" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="becb-9ac2-cb36-95f7" name="Melee 武器" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="becb-9ac2-cb36-95f7" name="肉搏 武器" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d64f-a953-8bc4-0da2" type="max"/>
       </constraints>
@@ -6764,7 +6764,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="2dcd-70d1-b780-480d" name="Blightlord 终结者 Melee 武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="d109-856b-4d6d-9952">
+    <selectionEntryGroup id="2dcd-70d1-b780-480d" name="Blightlord 终结者 肉搏 武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="d109-856b-4d6d-9952">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1948-5005-e9ec-757d" type="max"/>
       </constraints>
@@ -6904,7 +6904,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="ae0f-9c01-3304-cce2" name="Melee 武器" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="ae0f-9c01-3304-cce2" name="肉搏 武器" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8d2f-d643-f2ce-4b28" type="max"/>
           </constraints>
@@ -6972,7 +6972,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da02-0142-eea8-f36e" type="min"/>
       </constraints>
       <selectionEntryGroups>
-        <selectionEntryGroup id="4d81-021e-16ab-ddff" name="终结者 Melee 武器" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="4d81-021e-16ab-ddff" name="终结者 肉搏 武器" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d86-a05f-15d4-e3e3" type="max"/>
           </constraints>
@@ -7096,7 +7096,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="0e9e-c350-ac34-f05f" name="Melee 武器" hidden="false" collective="false" import="true" targetId="becb-9ac2-cb36-95f7" type="selectionEntryGroup">
+        <entryLink id="0e9e-c350-ac34-f05f" name="肉搏 武器" hidden="false" collective="false" import="true" targetId="becb-9ac2-cb36-95f7" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -7116,7 +7116,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0836-acd9-f7c1-262a" type="min"/>
       </constraints>
       <selectionEntryGroups>
-        <selectionEntryGroup id="f057-158d-e3e8-7aee" name="终结者 Melee 武器" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="f057-158d-e3e8-7aee" name="终结者 肉搏 武器" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d15-29ee-b8a8-2d70" type="max"/>
           </constraints>

@@ -829,7 +829,7 @@
           <profiles>
             <profile id="7b85-2040-af81-3c60" name="Shield of Grace" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Asurmen 拥有 4+ 特殊保护 对抗 ranged 武器 and a 3+ 特殊保护 对抗 melee 武器.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Asurmen 拥有 4+ 特殊保护 对抗 ranged 武器 and a 3+ 特殊保护 对抗 肉搏 武器.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1659,7 +1659,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">+1</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If a 单位 遭受 any unsaved wounds from 这个武器, your opponent 必须 减少 1 from 那个单位&apos;s 命中 骰 until the end of the turn.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">如果1个单位 遭受 any unsaved wounds from 这个武器, your opponent 必须 减少 1 from 那个单位&apos;s 命中 骰 until the end of the turn.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2703,7 +2703,7 @@
                 <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">D投掷2D6取大</characteristic>
               </characteristics>
             </profile>
-            <profile id="b000-dbee-d384-999e" name="The Wailing Doom (melee)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="b000-dbee-d384-999e" name="The Wailing Doom (肉搏)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -4241,7 +4241,7 @@
                           <profiles>
                             <profile id="f748-b405-5588-6a1c" name="Bladestorm" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                               <characteristics>
-                                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Whilst 这个单位 contains a Dire Avenger Exarch, when resolving an attack made with a 远程武器 that does not have the Grenade type by a 模型 in 这个单位, an unmodified 命中 roll of 6 scores 1 additional 命中.</characteristic>
+                                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Whilst 这个单位 contains a Dire Avenger Exarch, when resolving an attack made with a 远程武器 that 没有 Grenade type by a 模型 in 这个单位, an unmodified 命中 roll of 6 scores 1 additional 命中.</characteristic>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -5661,7 +5661,7 @@ that Howling Banshee Exarch, and that executioner 拥有 伤害 characteristic o
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="b933-1385-da44-58c0" name="Melee 武器 (per entire 单位)" hidden="false" collective="false" import="true" defaultSelectionEntryId="1182-744d-6e5d-7b7a">
+        <selectionEntryGroup id="b933-1385-da44-58c0" name="肉搏 武器 (per entire 单位)" hidden="false" collective="false" import="true" defaultSelectionEntryId="1182-744d-6e5d-7b7a">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2d7-757b-ff94-d1e7" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbfa-8538-f105-4cc3" type="max"/>
@@ -6058,7 +6058,7 @@ that Howling Banshee Exarch, and that executioner 拥有 伤害 characteristic o
                           <profiles>
                             <profile id="63b7-34dc-adc9-66ea" name="Intercept" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                               <characteristics>
-                                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Whilst 这个单位 contains a Swooping Hawk Exarch, when resolving an attack made by a 模型 in 这个单位 对抗 an 敌方单位 that can FLY, you can 重投 the 命中 roll.</characteristic>
+                                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Whilst 这个单位 contains a Swooping Hawk Exarch, when resolving an attack made by a 模型 in 这个单位 对抗 an 敌方单位 飞行关键字, you can 重投 the 命中 roll.</characteristic>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -7155,7 +7155,7 @@ that Howling Banshee Exarch, and that executioner 拥有 伤害 characteristic o
                   <profiles>
                     <profile id="e3f1-3704-0443-f254" name="Aerial 猎食者" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made with a 远程武器 by 这个模型 对抗 a 单位 that can FLY, add 1 to the 伤害 characteristic of that weapon for that attack.</characteristic>
+                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made with a 远程武器 by 这个模型 对抗 a 单位 飞行关键字, add 1 to the 伤害 characteristic of that weapon for that attack.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -8643,7 +8643,7 @@ that Howling Banshee Exarch, and that executioner 拥有 伤害 characteristic o
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a238-606f-9d40-3d99" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="895f-614e-7575-673c" name="Titanic Ghostglaive and Scattershield" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="895f-614e-7575-673c" name="巨型 Ghostglaive and Scattershield" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff97-bf25-efdd-f2b0" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a63-f6d8-2543-e3b6" type="max"/>
@@ -8719,7 +8719,7 @@ that Howling Banshee Exarch, and that executioner 拥有 伤害 characteristic o
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d28c-5699-176c-1d4f" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="cac3-f291-f820-f9cd" name="Titanic Wraithbone Fists" hidden="false" collective="false" import="true" targetId="9789-f6ed-45f0-376b" type="selectionEntry">
+        <entryLink id="cac3-f291-f820-f9cd" name="巨型 Wraithbone Fists" hidden="false" collective="false" import="true" targetId="9789-f6ed-45f0-376b" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5da8-11f7-a51a-c4e8" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3129-ccc5-e602-026a" type="max"/>
@@ -8858,7 +8858,7 @@ that Howling Banshee Exarch, and that executioner 拥有 伤害 characteristic o
     <selectionEntry id="74a1-2d9c-f3b5-52b2" name="Laser Lance" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="6455-2442-4d6a-6b83" name="Laser Lance (射击)" hidden="false" targetId="d38e-8f67-5b36-af6c" type="profile"/>
-        <infoLink id="c84b-8dcc-dd25-b793" name="Laser Lance (melee)" hidden="false" targetId="911f-58b6-8b0d-cf82" type="profile"/>
+        <infoLink id="c84b-8dcc-dd25-b793" name="Laser Lance (肉搏)" hidden="false" targetId="911f-58b6-8b0d-cf82" type="profile"/>
       </infoLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -8905,7 +8905,7 @@ that Howling Banshee Exarch, and that executioner 拥有 伤害 characteristic o
     <selectionEntry id="d16c-9cee-0721-4b76" name="Scorpion&apos;s Claw" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="e143-e563-0b01-4118" name="" hidden="false" targetId="7259-6d87-8e42-ca41" type="profile"/>
-        <infoLink id="7957-e642-b924-27ef" name="Scorpion&apos;s Claw (melee)" hidden="false" targetId="6b3a-4823-a092-fb61" type="profile"/>
+        <infoLink id="7957-e642-b924-27ef" name="Scorpion&apos;s Claw (肉搏)" hidden="false" targetId="6b3a-4823-a092-fb61" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="9.0"/>
@@ -9190,9 +9190,9 @@ that Howling Banshee Exarch, and that executioner 拥有 伤害 characteristic o
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d7a7-293c-07bb-6de2" name="Titanic Feet" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="d7a7-293c-07bb-6de2" name="巨型 Feet" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="7d0f-1655-c9af-2232" name="Titanic Feet" hidden="false" targetId="1f80-5140-bf72-bcae" type="profile"/>
+        <infoLink id="7d0f-1655-c9af-2232" name="巨型 Feet" hidden="false" targetId="1f80-5140-bf72-bcae" type="profile"/>
       </infoLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -9200,7 +9200,7 @@ that Howling Banshee Exarch, and that executioner 拥有 伤害 characteristic o
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="912c-375a-3230-f259" name="Titanic Ghostglaive" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="912c-375a-3230-f259" name="巨型 Ghostglaive" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="9edb-3996-c0aa-b0a4" name="" hidden="false" targetId="3eb6-e175-eb05-2bfe" type="profile"/>
       </infoLinks>
@@ -9210,7 +9210,7 @@ that Howling Banshee Exarch, and that executioner 拥有 伤害 characteristic o
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9789-f6ed-45f0-376b" name="Titanic Wraithbone Fists" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="9789-f6ed-45f0-376b" name="巨型 Wraithbone Fists" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="8fa3-1f54-c51f-21a7" name="" hidden="false" targetId="32f4-c232-1af1-8c4f" type="profile"/>
       </infoLinks>
@@ -10027,7 +10027,7 @@ that Howling Banshee Exarch, and that executioner 拥有 伤害 characteristic o
           <profiles>
             <profile id="218a-1db9-11e3-f456" name="Phantom Stride" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When 这个模型 Advances, increase its Move characteristic by 12寸, 不需要投掷.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">当这个模型加速时, increase its Move characteristic by 12寸, 不需要投掷.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10151,7 +10151,7 @@ that Howling Banshee Exarch, and that executioner 拥有 伤害 characteristic o
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="673f-1a07-4204-3b70" name="Titanic Stride" hidden="false" collective="false" import="true" targetId="1aa3-53a3-dec3-2850" type="selectionEntry">
+        <entryLink id="673f-1a07-4204-3b70" name="巨足" hidden="false" collective="false" import="true" targetId="1aa3-53a3-dec3-2850" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdf9-fb8e-534d-b383" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="efee-8e24-5b54-b229" type="max"/>
@@ -10166,9 +10166,9 @@ that Howling Banshee Exarch, and that executioner 拥有 伤害 characteristic o
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1aa3-53a3-dec3-2850" name="Titanic Stride" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="1aa3-53a3-dec3-2850" name="巨足" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="0894-1202-b5e5-1814" name="Titanic Stride" hidden="false" targetId="1c5f-1f92-2001-1705" type="profile"/>
+        <infoLink id="0894-1202-b5e5-1814" name="巨足" hidden="false" targetId="1c5f-1f92-2001-1705" type="profile"/>
       </infoLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -10290,7 +10290,7 @@ that Howling Banshee Exarch, and that executioner 拥有 伤害 characteristic o
                 <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each 命中 inflicted with 这个武器 allows an additional attack to be made with it. As long as each following attack 命中, the controlling player may keep making 攻击 until a total of 4 命中 have been inflicted with 这个武器.</characteristic>
               </characteristics>
             </profile>
-            <profile id="2e96-5afb-02c2-df2d" name="Spear of Starlight (melee)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="2e96-5afb-02c2-df2d" name="Spear of Starlight (肉搏)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -10483,7 +10483,7 @@ that Howling Banshee Exarch, and that executioner 拥有 伤害 characteristic o
           <profiles>
             <profile id="e8f6-3486-b296-d85b" name="Revenant 喷气背包" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When 这个模型 Advances, increase its Move characteristic by 18寸, 不需要投掷.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">当这个模型加速时, increase its Move characteristic by 18寸, 不需要投掷.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10557,7 +10557,7 @@ that Howling Banshee Exarch, and that executioner 拥有 伤害 characteristic o
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="29f9-6e4b-c9b0-a71c" name="Titanic Stride" hidden="false" collective="false" import="true" targetId="1aa3-53a3-dec3-2850" type="selectionEntry">
+        <entryLink id="29f9-6e4b-c9b0-a71c" name="巨足" hidden="false" collective="false" import="true" targetId="1aa3-53a3-dec3-2850" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c7e-0298-bb6e-ce5c" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2b2-d798-ea5c-5b32" type="max"/>
@@ -10795,13 +10795,13 @@ that Howling Banshee Exarch, and that executioner 拥有 伤害 characteristic o
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="a329-1345-a64e-ec3a" name="Titanic Feet" hidden="false" collective="false" import="true" targetId="d7a7-293c-07bb-6de2" type="selectionEntry">
+        <entryLink id="a329-1345-a64e-ec3a" name="巨型 Feet" hidden="false" collective="false" import="true" targetId="d7a7-293c-07bb-6de2" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3d8-0207-dcc2-fdb7" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f545-3738-7260-c7a4" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="c83b-809b-dabd-720a" name="Titanic Wraithbone Fists" hidden="false" collective="false" import="true" targetId="9789-f6ed-45f0-376b" type="selectionEntry">
+        <entryLink id="c83b-809b-dabd-720a" name="巨型 Wraithbone Fists" hidden="false" collective="false" import="true" targetId="9789-f6ed-45f0-376b" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a49d-f21d-5147-ab7b" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d9cf-71fe-04c1-2fbb" type="max"/>
@@ -11214,7 +11214,7 @@ that Howling Banshee Exarch, and that executioner 拥有 伤害 characteristic o
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If a 单位 遭受 any unsaved wounds from 这个武器, your opponent 必须 减少 1 from their 命中 骰 until the end of the turn.</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">如果1个单位 遭受 any unsaved wounds from 这个武器, your opponent 必须 减少 1 from their 命中 骰 until the end of the turn.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -11840,7 +11840,7 @@ that Howling Banshee Exarch, and that executioner 拥有 伤害 characteristic o
           <profiles>
             <profile id="5033-50e7-c9a2-f44b" name="Lumbering Flyer (Sky Hunter Ability)" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When 这个模型 Advances, add 20寸 to its Move characteristic for that 移动阶段 而不是 rolling a dice. When 这个模型 moves, first pivot it on the spot 至多 90 degrees (this does not contribute to how far the 模型 moves) and then move the 模型 straight forwards at least as much as its minimum Move and not more than its maximum.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">当这个模型加速时, add 20寸 to its Move characteristic for that 移动阶段 而不是 rolling a dice. When 这个模型 moves, first pivot it on the spot 至多 90 degrees (this does not contribute to how far the 模型 moves) and then move the 模型 straight forwards at least as much as its minimum Move and not more than its maximum.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -14860,7 +14860,7 @@ that Howling Banshee Exarch, and that executioner 拥有 伤害 characteristic o
           <profiles>
             <profile id="e632-bb8a-175a-96ef" name="Iyanden: Stoic Endurance" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A 单位 with this attribute can never lose more than one 模型 as a result of any single 失败的 Morale test. 此外, if a 单位 with a 伤害 chart has this attribute, double the number of wounds it actually has remaining whenever you are consulting the chart to determine its characteristics.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A 单位 with this attribute can never lose more than one 模型 as a result of any single 失败的 Morale test. 此外, 如果1个单位 with a 伤害 chart has this attribute, double the number of wounds it actually has remaining whenever you are consulting the chart to determine its characteristics.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15032,7 +15032,7 @@ that Howling Banshee Exarch, and that executioner 拥有 伤害 characteristic o
                   <profiles>
                     <profile id="0f44-2c25-d145-9b4e" name="Children of the Open Skies" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When a 单位 with this attribute that can FLY Advances, add an additional 2寸 to the Move characteristics of 模型 in 那个单位 直到阶段结束.</characteristic>
+                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When a 单位 with this attribute 飞行关键字 Advances, add an additional 2寸 to the Move characteristics of 模型 in 那个单位 直到阶段结束.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -15758,7 +15758,7 @@ this attribute. The second and any subsequent uses of this Stratagem can only be
                 <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
               </characteristics>
             </profile>
-            <profile id="1c63-9874-d5d8-a74c" name="The Novalance of Saim-Hann (melee)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="1c63-9874-d5d8-a74c" name="The Novalance of Saim-Hann (肉搏)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -16285,7 +16285,7 @@ this attribute. The second and any subsequent uses of this Stratagem can only be
               <characteristics>
                 <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">4</characteristic>
                 <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">N/A</characteristic>
-                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, until the start of your next 灵能阶段, add 2 to the 伤害 characteristic of this 灵能者’s melee 武器.</characteristic>
+                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, until the start of your next 灵能阶段, add 2 to the 伤害 characteristic of this 灵能者’s 肉搏 武器.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -16349,7 +16349,7 @@ this attribute. The second and any subsequent uses of this Stratagem can only be
               <characteristics>
                 <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">6</characteristic>
                 <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
-                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, select one 敌方单位 范围内 18寸 of and 可见 to this 灵能者. Until the start of your next 灵能阶段, when 那个单位 is chosen to shoot with, 模型 in 那个单位 can only target the closest 可见 敌方单位 unless the target of the attack is 范围内 18寸 of the 射击 model.</characteristic>
+                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, select one 敌方单位 范围内 18寸 of and 可见 to this 灵能者. Until the start of your next 灵能阶段, when 那个单位 is chosen to shoot with, 模型 in 那个单位 只能瞄准 the closest 可见 敌方单位 unless the target of the attack is 范围内 18寸 of the 射击 model.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -16379,7 +16379,7 @@ this attribute. The second and any subsequent uses of this Stratagem can only be
       </modifiers>
       <description>This ability is common to 所有 死神军 单位.
 
-As soon as 任何单位 is destroyed, 所有 单位 from your army benefit from Soulburst actions until the end of the turn. Whilst a 单位 is benefitting from Soulburst Actions, it always fights first in the 肉搏阶段, even if it didn&apos;t charge. If a 模型 that is benefitting from soulburst actions made a 冲锋移动 this turn, or already has an ability that allows it to always fight first in the 肉搏阶段, then whilst it is benfitting from soulburst actions you also 命中骰+1 for 攻击 made with melee 武器 by that model. If the 敌方 also has 单位 that made a 冲锋移动 or that have abilities that allow them to always fight first in the 肉搏阶段, the alternate 单位, starting with the player whose turn is taking place.</description>
+As soon as 任何单位 is destroyed, 所有 单位 from your army benefit from Soulburst actions until the end of the turn. Whilst a 单位 is benefitting from Soulburst Actions, it always fights first in the 肉搏阶段, even if it didn&apos;t charge. If a 模型 that is benefitting from soulburst actions made a 冲锋移动 this turn, or already has an ability that allows it to always fight first in the 肉搏阶段, then whilst it is benfitting from soulburst actions you also 命中骰+1 for 攻击 made with 肉搏 武器 by that model. If the 敌方 also has 单位 that made a 冲锋移动 or that have abilities that allow them to always fight first in the 肉搏阶段, the alternate 单位, starting with the player whose turn is taking place.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -16453,7 +16453,7 @@ As soon as 任何单位 is destroyed, 所有 单位 from your army benefit from 
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="c3fe-020b-c907-d5b5" name="Chainsabres (melee)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="c3fe-020b-c907-d5b5" name="Chainsabres (肉搏)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -16780,7 +16780,7 @@ As soon as 任何单位 is destroyed, 所有 单位 from your army benefit from 
         <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If a 单位 遭受 any unsaved wounds from 这个武器, your opponent 必须 减少 1 from their 命中 骰 until the end of the turn.</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">如果1个单位 遭受 any unsaved wounds from 这个武器, your opponent 必须 减少 1 from their 命中 骰 until the end of the turn.</characteristic>
       </characteristics>
     </profile>
     <profile id="5bdd-431a-488b-ca5d" name="Tempest Launcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -16943,7 +16943,7 @@ As soon as 任何单位 is destroyed, 所有 单位 from your army benefit from 
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When attacking with 这个武器, you 必须 减少 1 from the 命中 roll.</characteristic>
       </characteristics>
     </profile>
-    <profile id="6b3a-4823-a092-fb61" name="Scorpion&apos;s Claw (melee)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="6b3a-4823-a092-fb61" name="Scorpion&apos;s Claw (肉搏)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -16983,7 +16983,7 @@ As soon as 任何单位 is destroyed, 所有 单位 from your army benefit from 
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="911f-58b6-8b0d-cf82" name="Laser Lance (melee)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="911f-58b6-8b0d-cf82" name="Laser Lance (肉搏)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -17013,7 +17013,7 @@ As soon as 任何单位 is destroyed, 所有 单位 from your army benefit from 
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="578c-f123-5942-43db" name="Singing Spear (melee)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="578c-f123-5942-43db" name="Singing Spear (肉搏)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -17023,7 +17023,7 @@ As soon as 任何单位 is destroyed, 所有 单位 from your army benefit from 
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 always wounds 结果为roll of 2+.</characteristic>
       </characteristics>
     </profile>
-    <profile id="6a2e-6df1-1ee2-4877" name="Star Lance (melee)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="6a2e-6df1-1ee2-4877" name="Star Lance (肉搏)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -17033,7 +17033,7 @@ As soon as 任何单位 is destroyed, 所有 单位 from your army benefit from 
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If the bearer charged this turn, 攻击 with 这个武器 are made at Strength 8.</characteristic>
       </characteristics>
     </profile>
-    <profile id="1f80-5140-bf72-bcae" name="Titanic Feet" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="1f80-5140-bf72-bcae" name="巨型 Feet" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -17043,7 +17043,7 @@ As soon as 任何单位 is destroyed, 所有 单位 from your army benefit from 
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When you make an attack with 这个武器, roll three dice 而不是 1.</characteristic>
       </characteristics>
     </profile>
-    <profile id="3eb6-e175-eb05-2bfe" name="Titanic Ghostglaive" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="3eb6-e175-eb05-2bfe" name="巨型 Ghostglaive" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -17053,7 +17053,7 @@ As soon as 任何单位 is destroyed, 所有 单位 from your army benefit from 
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="32f4-c232-1af1-8c4f" name="Titanic Wraithbone Fists" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="32f4-c232-1af1-8c4f" name="巨型 Wraithbone Fists" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -17063,7 +17063,7 @@ As soon as 任何单位 is destroyed, 所有 单位 from your army benefit from 
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="6037-46cf-4ae7-e8e9" name="Triskele (melee)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="6037-46cf-4ae7-e8e9" name="Triskele (肉搏)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -17130,7 +17130,7 @@ As soon as 任何单位 is destroyed, 所有 单位 from your army benefit from 
     </profile>
     <profile id="32b0-fc54-e738-eef7" name="Ride the Wind" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When 这个模型 Advances, add 6寸 to its Move characteristic for that 移动阶段 而不是 rolling a dice.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">当这个模型加速时, add 6寸 to its Move characteristic for that 移动阶段 而不是 rolling a dice.</characteristic>
       </characteristics>
     </profile>
     <profile id="784f-bdec-32e3-7c68" name="Rune Armour" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -17156,7 +17156,7 @@ As soon as 任何单位 is destroyed, 所有 单位 from your army benefit from 
       <characteristics>
         <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">7</characteristic>
         <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24寸</characteristic>
-        <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, choose a 友方 ASURYANI 单位 范围内 24寸 of the 灵能者. Until your next 灵能阶段, whenever 那个单位 遭受 a wound, 投掷1个D6. 结果为5+ that wound is ignored. If a 单位 already has an ability with a similar 效果 (e.g. Ulthwe&apos;s Foresight of the Damned attribute, or the Avatar of Khaine&apos;s Molten Body ability) then the 效果 of Fortune replaces that of the ability until your next 灵能阶段.</characteristic>
+        <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, choose a 友方 ASURYANI 单位 范围内 24寸 of the 灵能者. Until your next 灵能阶段, whenever 那个单位 遭受 a wound, 投掷1个D6. 结果为5+ that wound is ignored. 如果1个单位 already has an ability with a similar 效果 (e.g. Ulthwe&apos;s Foresight of the Damned attribute, or the Avatar of Khaine&apos;s Molten Body ability) then the 效果 of Fortune replaces that of the ability until your next 灵能阶段.</characteristic>
       </characteristics>
     </profile>
     <profile id="f907-85d1-2fbe-72cf" name="惩击/Destructor" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
@@ -17217,7 +17217,7 @@ As soon as 任何单位 is destroyed, 所有 单位 from your army benefit from 
     </profile>
     <profile id="6685-375a-031c-4a6e" name="Wings of Khaine" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When 这个模型 Advances, add 20寸 to its Move characteristic for that 移动阶段 而不是 rolling a dice. 每次 这个模型 moves, first pivot it on the spot 至多 90 degrees (this does not contribute to how far the 模型 moves), and then move the 模型 straight forwards. Once its move has finished, you can pivot it a further 90 degrees as before.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">当这个模型加速时, add 20寸 to its Move characteristic for that 移动阶段 而不是 rolling a dice. 每次 这个模型 moves, first pivot it on the spot 至多 90 degrees (this does not contribute to how far the 模型 moves), and then move the 模型 straight forwards. Once its move has finished, you can pivot it a further 90 degrees as before.</characteristic>
       </characteristics>
     </profile>
     <profile id="5518-d72d-9e84-77a8" name="灵能者 (Farseer)" hidden="false" typeId="bc97-dea9-9e88-bb7d" typeName="灵能者">
@@ -17230,7 +17230,7 @@ As soon as 任何单位 is destroyed, 所有 单位 from your army benefit from 
     </profile>
     <profile id="e9a7-3bc3-707b-2fcb" name="Airborne" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 不能冲锋, can only be charged by 单位 that can FLY, and can only attack or be attacked in the 肉搏阶段 by 单位 that can FLY.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 不能冲锋, can only be charged by 单位 飞行关键字, and can only attack or be attacked in the 肉搏阶段 by 单位 飞行关键字.</characteristic>
       </characteristics>
     </profile>
     <profile id="f3e9-9fac-9428-54e1" name="Hard To 命中" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -17240,7 +17240,7 @@ As soon as 任何单位 is destroyed, 所有 单位 from your army benefit from 
     </profile>
     <profile id="b41b-40d4-2d9a-9053" name="Skyhunters" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can 重投 所有 失败的 wound 骰 for 这个模型&apos;s ranged 武器 that target 单位 that can FLY.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can 重投 所有 失败的 wound 骰 for 这个模型&apos;s ranged 武器 that target 单位 飞行关键字.</characteristic>
       </characteristics>
     </profile>
     <profile id="d07c-dcf6-cf67-8ab8" name="Crash and Burn" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -17258,14 +17258,14 @@ As soon as 任何单位 is destroyed, 所有 单位 from your army benefit from 
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">可以重投失败的造伤骰 for 这个武器 when targeting a 载具.</characteristic>
       </characteristics>
     </profile>
-    <profile id="1c5f-1f92-2001-1705" name="Titanic Stride" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="1c5f-1f92-2001-1705" name="巨足" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Make 3 命中 骰 for each attack made with 这个武器 而不是 1.</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Make 3 命中 骰 for 每次攻击 made with 这个武器 而不是 1.</characteristic>
       </characteristics>
     </profile>
     <profile id="38a4-39dd-ac68-f523" name="Spectre Holo-Field" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">

@@ -80,20 +80,20 @@
         <categoryLink id="aa75-97be-386f-4bc4" name="New CategoryLink" hidden="false" targetId="2663-fe63-14ce-fd31" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="d4a9-890c-3d3e-9ac5" name="Titanic feet" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="d4a9-890c-3d3e-9ac5" name="巨型 feet" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b4bd-3f0b-2682-f959" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aaa2-3901-fea9-290f" type="min"/>
           </constraints>
           <profiles>
-            <profile id="debb-7bcd-4200-9ada" name="Titanic feet" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="debb-7bcd-4200-9ada" name="巨型 feet" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Make 3 命中 骰 for each attack made with 这个武器, 而不是 1.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Make 3 命中 骰 for 每次攻击 made with 这个武器, 而不是 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -330,7 +330,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">*</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器自动命中, and it always wounds 结果为3+, except 对抗 Titanic and 载具 单位 对抗 which it always wounds 结果为6+.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器自动命中, and it always wounds 结果为3+, except 对抗 巨型 and 载具 单位 对抗 which it always wounds 结果为6+.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -387,7 +387,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Add 1 to 所有命中骰 made 对抗 targets that can Fly. 减少 1 from 所有命中骰 对抗 所有 other targets.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Add 1 to 所有命中骰 made 对抗 targets 飞行关键字. 减少 1 from 所有命中骰 对抗 所有 other targets.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -447,7 +447,7 @@
             <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If an attack with 这个武器 slays an 敌方 载具 or 巨兽 单位 in the 射击阶段, you may 立即 make another attack 对抗 a separate target 单位 范围内 range. This bonus attack does not generate further 攻击.</characteristic>
           </characteristics>
         </profile>
-        <profile id="e032-33b8-e670-2e04" name="Atropos lascutter (melee)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="e032-33b8-e670-2e04" name="Atropos lascutter (肉搏)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -592,7 +592,7 @@
         <infoLink id="7c54-00bb-aefc-f1b1" name="Infernal Autosimulacra" hidden="false" targetId="aacf-4749-0487-6949" type="profile"/>
         <infoLink id="a304-723e-813c-f44c" name="Infernal Knight 泰坦" hidden="false" targetId="90be-819c-d4e7-d65a" type="profile"/>
         <infoLink id="e1e6-cd1f-5b05-df31" name="Ion shield" hidden="false" targetId="977d-25bc-3918-a164" type="profile"/>
-        <infoLink id="9b72-09d7-a74b-e608" name="Flank Speed" hidden="false" targetId="515b-18d5-06ec-62d7" type="profile"/>
+        <infoLink id="9b72-09d7-a74b-e608" name="高速迂回" hidden="false" targetId="515b-18d5-06ec-62d7" type="profile"/>
         <infoLink id="a826-e627-34a0-dcad" name="爆炸 (Knight)" hidden="false" targetId="46a6-02b3-66cb-71f7" type="profile"/>
       </infoLinks>
       <categoryLinks>
@@ -616,7 +616,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="68e6-d1d0-1ed4-5e73" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="4551-1af4-d6b4-a343" name="Titanic feet" hidden="false" collective="false" import="true" targetId="3542-3016-1558-ae32" type="selectionEntry"/>
+        <entryLink id="4551-1af4-d6b4-a343" name="巨型 feet" hidden="false" collective="false" import="true" targetId="3542-3016-1558-ae32" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="25.0"/>
@@ -676,7 +676,7 @@
         <infoLink id="8056-0133-d7ac-1166" name="Infernal Autosimulacra" hidden="false" targetId="aacf-4749-0487-6949" type="profile"/>
         <infoLink id="7684-4b7b-6ac4-7185" name="Infernal Knight 泰坦" hidden="false" targetId="90be-819c-d4e7-d65a" type="profile"/>
         <infoLink id="d0fc-50e5-aed6-844b" name="Ion Gauntlet Shield" hidden="false" targetId="6b5e-cf62-c355-ce4f" type="profile"/>
-        <infoLink id="2461-6ff3-7e58-bf30" name="Flank Speed" hidden="false" targetId="515b-18d5-06ec-62d7" type="profile"/>
+        <infoLink id="2461-6ff3-7e58-bf30" name="高速迂回" hidden="false" targetId="515b-18d5-06ec-62d7" type="profile"/>
         <infoLink id="da97-6ecf-0c7c-0e4b" name="爆炸 (Knight)" hidden="false" targetId="46a6-02b3-66cb-71f7" type="profile"/>
       </infoLinks>
       <categoryLinks>
@@ -700,7 +700,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e42-904b-848e-9ed0" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="6764-23bc-a26d-1d18" name="Titanic feet" hidden="false" collective="false" import="true" targetId="3542-3016-1558-ae32" type="selectionEntry"/>
+        <entryLink id="6764-23bc-a26d-1d18" name="巨型 feet" hidden="false" collective="false" import="true" targetId="3542-3016-1558-ae32" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="24.0"/>
@@ -760,7 +760,7 @@
         <infoLink id="35ae-cf6f-5967-d04f" name="Infernal Autosimulacra" hidden="false" targetId="aacf-4749-0487-6949" type="profile"/>
         <infoLink id="2a58-89a4-419c-0135" name="Infernal Knight 泰坦" hidden="false" targetId="90be-819c-d4e7-d65a" type="profile"/>
         <infoLink id="46cf-0106-c1ad-235f" name="Ion shield" hidden="false" targetId="977d-25bc-3918-a164" type="profile"/>
-        <infoLink id="7f42-40f1-8fc3-17c6" name="Flank Speed" hidden="false" targetId="515b-18d5-06ec-62d7" type="profile"/>
+        <infoLink id="7f42-40f1-8fc3-17c6" name="高速迂回" hidden="false" targetId="515b-18d5-06ec-62d7" type="profile"/>
         <infoLink id="d333-935c-5c55-7d05" name="爆炸 (Knight)" hidden="false" targetId="46a6-02b3-66cb-71f7" type="profile"/>
       </infoLinks>
       <categoryLinks>
@@ -784,7 +784,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e2e-eb90-80d6-a49e" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="bcda-44e4-e58f-0d9d" name="Titanic feet" hidden="false" collective="false" import="true" targetId="3542-3016-1558-ae32" type="selectionEntry"/>
+        <entryLink id="bcda-44e4-e58f-0d9d" name="巨型 feet" hidden="false" collective="false" import="true" targetId="3542-3016-1558-ae32" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="25.0"/>
@@ -841,7 +841,7 @@
         </profile>
         <profile id="897a-a07e-5d7d-530d" name="Macro-extinction Protocols" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You may add 1 to your 命中 骰 with 这个模型 when making 射击攻击 对抗 targets with the Titanic 关键字.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You may add 1 to your 命中 骰 with 这个模型 when making 射击攻击 对抗 targets with the 巨型 关键字.</characteristic>
           </characteristics>
         </profile>
         <profile id="eb37-50c5-8eb8-9e0c" name="旗手 Evil" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -853,7 +853,7 @@
       <infoLinks>
         <infoLink id="0320-65f1-aaca-6211" name="Infernal Autosimulacra" hidden="false" targetId="aacf-4749-0487-6949" type="profile"/>
         <infoLink id="4439-aa00-f055-8be8" name="Infernal Knight 泰坦" hidden="false" targetId="90be-819c-d4e7-d65a" type="profile"/>
-        <infoLink id="ad45-09e5-dbbb-56f4" name="Flank Speed" hidden="false" targetId="515b-18d5-06ec-62d7" type="profile"/>
+        <infoLink id="ad45-09e5-dbbb-56f4" name="高速迂回" hidden="false" targetId="515b-18d5-06ec-62d7" type="profile"/>
         <infoLink id="f16f-4781-d636-5b84" name="Infernal Veil" hidden="false" targetId="6992-df69-b9bb-ea8d" type="profile"/>
         <infoLink id="9a62-e0be-10b4-0c86" name="爆炸 (Unstable Reactor)" hidden="false" targetId="500f-6dae-cf8c-81af" type="profile"/>
       </infoLinks>
@@ -878,7 +878,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bcd2-f910-68bd-a724" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="3ea7-0bf0-d413-648d" name="Titanic feet" hidden="false" collective="false" import="true" targetId="3542-3016-1558-ae32" type="selectionEntry"/>
+        <entryLink id="3ea7-0bf0-d413-648d" name="巨型 feet" hidden="false" collective="false" import="true" targetId="3542-3016-1558-ae32" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="29.0"/>
@@ -1080,7 +1080,7 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e7c-5d57-4c92-c711" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="bfb6-98bb-0079-cab2" name="Titanic feet" hidden="false" collective="false" import="true" targetId="3542-3016-1558-ae32" type="selectionEntry"/>
+        <entryLink id="bfb6-98bb-0079-cab2" name="巨型 feet" hidden="false" collective="false" import="true" targetId="3542-3016-1558-ae32" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="40.0"/>
@@ -1176,7 +1176,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="912f-e0c7-efa0-aa16" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="7d6c-16f1-0cd2-c193" name="Titanic feet" hidden="false" collective="false" import="true" targetId="3542-3016-1558-ae32" type="selectionEntry"/>
+        <entryLink id="7d6c-16f1-0cd2-c193" name="巨型 feet" hidden="false" collective="false" import="true" targetId="3542-3016-1558-ae32" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="24.0"/>
@@ -1454,20 +1454,20 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3542-3016-1558-ae32" name="Titanic feet" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="3542-3016-1558-ae32" name="巨型 feet" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba94-3aa8-a0a4-d615" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5076-6432-ba27-a546" type="min"/>
       </constraints>
       <profiles>
-        <profile id="1419-979d-afac-a250" name="Titanic feet" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="1419-979d-afac-a250" name="巨型 feet" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Make 3 命中 骰 for each attack made with 这个武器, 而不是 1.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Make 3 命中 骰 for 每次攻击 made with 这个武器, 而不是 1.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1531,7 +1531,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">7</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">命中骰+1 made for 这个武器 对抗 targets that can Fly. 减少 1 from 命中 骰 made 对抗 other targets.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">命中骰+1 made for 这个武器 对抗 targets 飞行关键字. 减少 1 from 命中 骰 made 对抗 other targets.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1709,7 +1709,7 @@
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedProfiles>
-    <profile id="515b-18d5-06ec-62d7" name="Flank Speed" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="515b-18d5-06ec-62d7" name="高速迂回" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When making advance 骰 for 这个模型, roll 2D6 and add the result together to determine the maximum distance it may move.</characteristic>
       </characteristics>
@@ -1731,7 +1731,7 @@
     </profile>
     <profile id="6b5e-cf62-c355-ce4f" name="Ion Gauntlet Shield" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型拥有 5+ 特殊保护, increasing to a 4+ 特殊保护 in the 肉搏阶段 of any turn. 此外, 敌方单位 with the TITANIC 关键字 范围内 1寸 必须 减少 1 from their 命中 骰 when directing their 攻击 对抗 这个模型 (to a maximum of 6+ to 命中).</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型拥有 5+ 特殊保护, increasing to a 4+ 特殊保护 in the 肉搏阶段 of any turn. 此外, 敌方单位 with the 巨型 关键字 范围内 1寸 必须 减少 1 from their 命中 骰 when directing their 攻击 对抗 这个模型 (to a maximum of 6+ to 命中).</characteristic>
       </characteristics>
     </profile>
     <profile id="6992-df69-b9bb-ea8d" name="Infernal Veil" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -1741,7 +1741,7 @@
     </profile>
     <profile id="2ced-4050-292b-cfa5" name="Master of Mechanisms" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of your 移动阶段, a Hellwright can repair a single 恶魔引擎/QUESTOR TRAITOROUS or 黑机械教 载具 (other than 模型 that can Fly) 范围内 1寸. That 模型 regains D3 lost wounds. A Hellwright can instead curse a single 敌方 载具 范围内 18寸. 投掷1个D6; 结果为roll of 2+ that 载具 遭受 1点致命伤. A 载具 不能 repaired or cursed by more than one Hellwright in the same turn.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of your 移动阶段, a Hellwright can repair a single 恶魔引擎/QUESTOR TRAITOROUS or 黑机械教 载具 (other than 模型 飞行关键字) 范围内 1寸. That 模型 regains D3 lost wounds. A Hellwright can instead curse a single 敌方 载具 范围内 18寸. 投掷1个D6; 结果为roll of 2+ that 载具 遭受 1点致命伤. A 载具 不能 repaired or cursed by more than one Hellwright in the same turn.</characteristic>
       </characteristics>
     </profile>
     <profile id="4bcb-b16c-694a-a7d3" name="Death to the False Emperor" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">

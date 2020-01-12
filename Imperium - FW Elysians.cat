@@ -290,7 +290,7 @@
         <categoryLink id="daf5-aac1-4c44-6b80" name="New CategoryLink" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="dec6-67ee-ebf5-6dfd" name="Imperial Commander&apos;s Armoury" hidden="false" collective="false" import="true" targetId="d7be-7049-0cc9-dcf3" type="selectionEntry">
+    <entryLink id="dec6-67ee-ebf5-6dfd" name="帝国 Commander&apos;s Armoury" hidden="false" collective="false" import="true" targetId="d7be-7049-0cc9-dcf3" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -322,7 +322,7 @@
         </profile>
         <profile id="f03e-34bd-8dc4-506b" name="Strafing Coordinates" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of the 射击阶段, pick an 敌方单位, other than one which can FLY, 范围内 18寸 of 这个模型.  For the duration of the phase, 可以重投命中骰 of 1 for any 友方 ELYSIAN DROP TROOPS 单位 that can FLY that target the 单位 you picked.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of the 射击阶段, pick an 敌方单位, other than one which can FLY, 范围内 18寸 of 这个模型.  For the duration of the phase, 可以重投命中骰 of 1 for any 友方 ELYSIAN DROP TROOPS 单位 飞行关键字 that target the 单位 you picked.</characteristic>
           </characteristics>
         </profile>
         <profile id="b2f3-a3ec-f355-999d" name="Air Raid Requested" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -1680,7 +1680,7 @@
           <infoLinks>
             <infoLink id="9f43-079f-3993-69c0" name="Heavy stubber" hidden="false" targetId="0031-0314-5b36-a220" type="profile">
               <modifiers>
-                <modifier type="set" field="837d-5e63-aeb7-1410" value="命中骰+1 made for 这个武器 对抗 targets that can FLY"/>
+                <modifier type="set" field="837d-5e63-aeb7-1410" value="命中骰+1 made for 这个武器 对抗 targets 飞行关键字"/>
                 <modifier type="append" field="name" value="Defensive"/>
                 <modifier type="set" field="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="8寸"/>
               </modifiers>
@@ -1844,7 +1844,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="907f-3516-f8d6-49ab" name="Elysian Melee 武器" hidden="false" collective="false" import="true" targetId="8951-19ee-4d4f-29a9" type="selectionEntryGroup">
+        <entryLink id="907f-3516-f8d6-49ab" name="Elysian 肉搏 武器" hidden="false" collective="false" import="true" targetId="8951-19ee-4d4f-29a9" type="selectionEntryGroup">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e52-6e9b-4c89-d76e" type="max"/>
           </constraints>
@@ -1953,7 +1953,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a15e-d306-c91c-d406" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="9365-227b-c243-bdef" name="Elysian Melee 武器" hidden="false" collective="false" import="true" targetId="8951-19ee-4d4f-29a9" type="selectionEntryGroup">
+        <entryLink id="9365-227b-c243-bdef" name="Elysian 肉搏 武器" hidden="false" collective="false" import="true" targetId="8951-19ee-4d4f-29a9" type="selectionEntryGroup">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2985-89bf-6487-f064" type="max"/>
           </constraints>
@@ -2114,7 +2114,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="d281-47b7-d765-a51e" name="Guardsman w/ Vox Caster" page="0" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="d281-47b7-d765-a51e" name="Guardsman附带Vox Caster" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1135-2d74-212a-f5f1" type="max"/>
               </constraints>
@@ -2254,7 +2254,7 @@
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="815b-cae2-350a-2cdd" name="Guardsmen w/ Special Weapon" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="815b-cae2-350a-2cdd" name="Guardsmen附带Special Weapon" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5633-8ab7-1295-76ba" type="min"/>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8438-3537-2fa1-df7e" type="max"/>
@@ -2340,7 +2340,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f6b-22ca-43dd-4782" type="min"/>
               </constraints>
             </entryLink>
-            <entryLink id="213f-acea-b719-354f" name="Elysian Melee 武器" hidden="false" collective="false" import="true" targetId="8951-19ee-4d4f-29a9" type="selectionEntryGroup"/>
+            <entryLink id="213f-acea-b719-354f" name="Elysian 肉搏 武器" hidden="false" collective="false" import="true" targetId="8951-19ee-4d4f-29a9" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="7.0"/>
@@ -2368,7 +2368,7 @@
             <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4d45-12f4-e59b-805b" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="3571-e0b1-5a96-08e5" name="Veteran w/ Lasgun" page="0" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="3571-e0b1-5a96-08e5" name="Veteran附带Lasgun" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="91ff-ce0f-02da-27e9" type="max"/>
               </constraints>
@@ -2389,7 +2389,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="4392-2186-a1ab-1a3a" name="Veteran w/ Vox-caster" page="0" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="4392-2186-a1ab-1a3a" name="Veteran附带Vox-caster" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ac0c-e888-52d1-a6f5" type="max"/>
               </constraints>
@@ -2439,7 +2439,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="2f30-5bb5-0d49-3db1" name="Veteran w/ Special Weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="2f30-5bb5-0d49-3db1" name="Veteran附带Special Weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="854d-7d5b-7e21-ef11" type="max"/>
               </constraints>
@@ -2507,7 +2507,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="05fd-2c40-1dfb-7272" name="Veteran W/ 重喷火" page="0" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="05fd-2c40-1dfb-7272" name="Veteran附带重喷火" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5cb8-ba7b-fb01-d5ad" type="max"/>
               </constraints>
@@ -2528,7 +2528,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="d4c4-02c8-21dc-0abc" name="Veteran w/ Shotgun" page="0" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="d4c4-02c8-21dc-0abc" name="Veteran附带Shotgun" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="23a1-1a71-a892-7838" type="max"/>
               </constraints>
@@ -2549,7 +2549,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="ef69-e6cc-0536-28cf" name="Veteran w/ Breacher Charge" page="0" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="ef69-e6cc-0536-28cf" name="Veteran附带Breacher Charge" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d54b-4d59-b397-fa42" type="max"/>
               </constraints>
@@ -2641,7 +2641,7 @@
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3246-e29c-f5a8-df9b" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="a389-194b-a220-56f5" name="Veteran w/ Vox-caster" page="0" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="a389-194b-a220-56f5" name="Veteran附带Vox-caster" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f35b-8b87-2292-a1f0" type="max"/>
               </constraints>
@@ -2734,7 +2734,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="edd5-08be-6012-817c" name="Veteran w/ Medi-pack" page="0" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="edd5-08be-6012-817c" name="Veteran附带Medi-pack" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="37ca-e84c-2d8a-d777" type="max"/>
               </constraints>
@@ -2781,7 +2781,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="1d7d-7b92-0009-15c6" name="Veteran w/ Regimental Standard" page="0" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="1d7d-7b92-0009-15c6" name="Veteran附带Regimental 标准" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3d22-7c0e-a22d-b359" type="max"/>
               </constraints>
@@ -2789,15 +2789,15 @@
                 <infoLink id="a42c-095e-2cc8-9326" name="Veteran Guardsmen" hidden="false" targetId="076c-b390-86e6-2ae9" type="profile"/>
               </infoLinks>
               <selectionEntries>
-                <selectionEntry id="274a-ae11-d899-8e6a" name="Regimental Standard" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="274a-ae11-d899-8e6a" name="Regimental 标准" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7616-42f6-8311-b145" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e636-531b-9b0e-f5b0" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="8ab3-a70c-9b70-ad59" name="Regimental Standard" publicationId="62ed-66a0-pubN69354" page="0" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                    <profile id="8ab3-a70c-9b70-ad59" name="Regimental 标准" publicationId="62ed-66a0-pubN69354" page="0" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">所有 友方 ELYSIAN DROP TROOPS 单位 add 1 to their LD whilst they are 范围内 6寸 of a 单位 with a Elysian Drop Troops regimental standard.</characteristic>
+                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">所有 友方 ELYSIAN DROP TROOPS 单位 add 1 to their LD whilst they are 范围内 6寸 of a 单位 with a Elysian Drop Troops regimental 标准.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2847,7 +2847,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="7fe4-e4ef-cec9-89a3" name="Veteran w/ Special Weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="7fe4-e4ef-cec9-89a3" name="Veteran附带Special Weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="34c2-2f85-eae5-50a1" type="max"/>
               </constraints>
@@ -3193,7 +3193,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f08-76bc-990c-dee5" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="1db0-e397-7cd4-bc02" name="Elysian Melee 武器" hidden="false" collective="false" import="true" targetId="8951-19ee-4d4f-29a9" type="selectionEntryGroup"/>
+        <entryLink id="1db0-e397-7cd4-bc02" name="Elysian 肉搏 武器" hidden="false" collective="false" import="true" targetId="8951-19ee-4d4f-29a9" type="selectionEntryGroup"/>
         <entryLink id="889d-8797-ce0a-0be5" name="Melta bombs" hidden="false" collective="false" import="true" targetId="8ed2-3e2c-4d52-af79" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="points" value="0.0"/>
@@ -3533,7 +3533,7 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d7be-7049-0cc9-dcf3" name="Imperial Commander&apos;s Armoury" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="d7be-7049-0cc9-dcf3" name="帝国 Commander&apos;s Armoury" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="11c6-adfc-b837-0268" type="max"/>
       </constraints>
@@ -3808,7 +3808,7 @@
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="8951-19ee-4d4f-29a9" name="Elysian Melee 武器" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="8951-19ee-4d4f-29a9" name="Elysian 肉搏 武器" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="941b-48f0-01ed-f26e" type="max"/>
       </constraints>
@@ -4463,7 +4463,7 @@
     </profile>
     <profile id="ed3d-c2e2-be6e-332d" name="Airborne" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Airborne: 这个模型 can not charge, can only be charged by 单位 that can FLY, and can only attack or be attacked in the 肉搏阶段 by 单位 that can FLY.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Airborne: 这个模型 can not charge, can only be charged by 单位 飞行关键字, and can only attack or be attacked in the 肉搏阶段 by 单位 飞行关键字.</characteristic>
       </characteristics>
     </profile>
     <profile id="d677-7f53-691e-ac88" name="Crash and Burn" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -4478,7 +4478,7 @@
     </profile>
     <profile id="2268-18ce-3bf2-b68d" name="超音速" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 这个模型 moves, first pivot it on the spot 至多 90寸 (this does not contribute to how far the 模型 moves), and then move the 模型 straight forwards. Note that it cannot pivot again after the initial pivot. When 这个模型 Advances,  increase it&apos;s Move characteristic by 20寸 直到阶段结束 - 不需要投掷.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 这个模型 moves, first pivot it on the spot 至多 90寸 (this does not contribute to how far the 模型 moves), and then move the 模型 straight forwards. Note that it cannot pivot again after the initial pivot. 当这个模型加速时,  increase it&apos;s Move characteristic by 20寸 直到阶段结束 - 不需要投掷.</characteristic>
       </characteristics>
     </profile>
     <profile id="5c2d-ef21-5078-d479" name="Hover Jet" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -4513,7 +4513,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">7</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Add 1 to 所有 to 命中 骰 for 这个武器 对抗 targets that can FLY. 减少 1 from to 命中 骰 对抗 所有 other targets.</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Add 1 to 所有 to 命中 骰 for 这个武器 对抗 targets 飞行关键字. 减少 1 from to 命中 骰 对抗 所有 other targets.</characteristic>
       </characteristics>
     </profile>
     <profile id="16e3-4e72-d831-8647" name="Strafing Run" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">

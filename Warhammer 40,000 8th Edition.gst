@@ -1680,18 +1680,18 @@
         <categoryLink id="7c3e-a6e6-db7b-0c75-d713cda3-5d0f-40d8-b621-69233263ec2a" hidden="false" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="812b-3a8b-59b1-89c7" name="Imperial Bastion" hidden="false" collective="false" import="true" targetId="55c6-268b-357f-d070" type="selectionEntry">
+    <entryLink id="812b-3a8b-59b1-89c7" name="帝国 Bastion" hidden="false" collective="false" import="true" targetId="55c6-268b-357f-d070" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="812b-3a8b-59b1-89c7-d713cda3-5d0f-40d8-b621-69233263ec2a" hidden="false" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="39b9-0a8a-8b41-1630" name="Imperial Bunker" hidden="false" collective="false" import="true" targetId="0116-c81b-1c0f-251c" type="selectionEntry">
+    <entryLink id="39b9-0a8a-8b41-1630" name="帝国 Bunker" hidden="false" collective="false" import="true" targetId="0116-c81b-1c0f-251c" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="39b9-0a8a-8b41-1630-d713cda3-5d0f-40d8-b621-69233263ec2a" hidden="false" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a" primary="true"/>
         <categoryLink id="d14f-6772-dac9-9cf1" name="New CategoryLink" hidden="false" targetId="8172-12c9-8092-0756" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="8b8d-e363-fe4f-6af3" name="Imperial Defence Line" hidden="false" collective="false" import="true" targetId="0f73-97f2-b832-f6d0" type="selectionEntry">
+    <entryLink id="8b8d-e363-fe4f-6af3" name="帝国 Defence Line" hidden="false" collective="false" import="true" targetId="0f73-97f2-b832-f6d0" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="8b8d-e363-fe4f-6af3-d713cda3-5d0f-40d8-b621-69233263ec2a" hidden="false" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a" primary="true"/>
         <categoryLink id="1bb8-5b36-9eff-0d13" name="New CategoryLink" hidden="false" targetId="8172-12c9-8092-0756" primary="false"/>
@@ -1718,7 +1718,7 @@
         <categoryLink id="fa72-798c-d3d3-e55a-d713cda3-5d0f-40d8-b621-69233263ec2a" hidden="false" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="1f10-5251-06b1-0d67" name="Imperial Fortress Walls" hidden="false" collective="false" import="true" targetId="6267-6959-b9ec-4a6b" type="selectionEntry">
+    <entryLink id="1f10-5251-06b1-0d67" name="帝国 Fortress Walls" hidden="false" collective="false" import="true" targetId="6267-6959-b9ec-4a6b" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="c48d-e8d1-ecce-c4b9" name="New CategoryLink" hidden="false" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a" primary="true"/>
       </categoryLinks>
@@ -2146,7 +2146,7 @@
     </selectionEntry>
     <selectionEntry id="55c6-268b-357f-d070" name="帝国棱堡" page="" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="0b7f-e298-a638-7d9f" name="Imperial Bastion" publicationId="28ec-711c-pubN77581" page="130" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+        <profile id="0b7f-e298-a638-7d9f" name="帝国 Bastion" publicationId="28ec-711c-pubN77581" page="130" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">-</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">-</characteristic>
@@ -2159,7 +2159,7 @@
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="aaaa-857c-b390-65ca" name="Imperial Bastion" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
+        <profile id="aaaa-857c-b390-65ca" name="帝国 Bastion" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
           <characteristics>
             <characteristic name="容量" typeId="15aa-1916-a38b-d223">这个模型拥有 transport capacity of two 步兵单位, 至多 a total of 20 模型.</characteristic>
           </characteristics>
@@ -2207,7 +2207,7 @@
     </selectionEntry>
     <selectionEntry id="0116-c81b-1c0f-251c" name="帝国碉堡" page="" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="515f-5c54-23ac-5052" name="Imperial Bunker" publicationId="28ec-711c-pubN77581" page="131" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+        <profile id="515f-5c54-23ac-5052" name="帝国 Bunker" publicationId="28ec-711c-pubN77581" page="131" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">-</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">-</characteristic>
@@ -2220,7 +2220,7 @@
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="9507-2858-f7ba-6d90" name="Imperial Bunker" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
+        <profile id="9507-2858-f7ba-6d90" name="帝国 Bunker" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
           <characteristics>
             <characteristic name="容量" typeId="15aa-1916-a38b-d223">这个模型拥有 transport capacity of 2 步兵单位, 至多 a total of 10 模型.</characteristic>
           </characteristics>
@@ -2260,12 +2260,12 @@
       <profiles>
         <profile id="808f-d24a-ba7c-7d24" name="Stalwart Defence" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the LD characteristic of 模型 in 帝国 步兵单位 whilst their 单位 is 范围内 an Imperial Defence Line.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the LD characteristic of 模型 in 帝国 步兵单位 whilst their 单位 is 范围内 an 帝国 Defence Line.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="92ac-b485-338f-accd" name="Static Defence Network (Imperial)" hidden="false" targetId="07c8-4bf0-0b10-9830" type="profile"/>
+        <infoLink id="92ac-b485-338f-accd" name="Static Defence Network (帝国)" hidden="false" targetId="07c8-4bf0-0b10-9830" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="0cb8-b958-d814-66ff" name="New CategoryLink" hidden="false" targetId="8172-12c9-8092-0756" primary="false"/>
@@ -2438,7 +2438,7 @@
       <profiles>
         <profile id="4ca0-bdc4-9090-1647" name="Fully Automated 武器" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型&apos;s 武器 can only target the closest 可见 敌方单位. 攻击 made with the 四联 Icarus Lascannons can instead target the closest 可见 敌方单位 that can FLY. In either case, if two or more 单位 are equally close, you can choose which is targeted.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型&apos;s 武器 只能瞄准 the closest 可见 敌方单位. 攻击 made with the 四联 Icarus Lascannons can instead target the closest 可见 敌方单位 飞行关键字. In either case, if two or more 单位 are equally close, you can choose which is targeted.</characteristic>
           </characteristics>
         </profile>
         <profile id="4e2c-1874-14f7-56d8" name="Vengeance Weapon Battery" publicationId="28ec-711c-pubN77581" page="132" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
@@ -2564,7 +2564,7 @@
     </selectionEntry>
     <selectionEntry id="8c14-22cc-93ce-b85a" name="等离子枪" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="1f9f-f5f3-6d03-4b6c" name="Plasma gun, Standard" hidden="false" targetId="03e5-60f2-4726-5cdd" type="profile"/>
+        <infoLink id="1f9f-f5f3-6d03-4b6c" name="Plasma gun, 标准" hidden="false" targetId="03e5-60f2-4726-5cdd" type="profile"/>
         <infoLink id="24b5-23de-bf9d-1f41" name="Plasma gun, Supercharge" hidden="false" targetId="acb5-7b58-0d17-a33a" type="profile"/>
       </infoLinks>
       <costs>
@@ -2575,7 +2575,7 @@
     </selectionEntry>
     <selectionEntry id="83be-1ba9-c326-4760" name="等离子手枪" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="38e5-b1e6-b737-f20c" name="Plasma pistol, Standard" hidden="false" targetId="ff12-161a-ca85-339f" type="profile"/>
+        <infoLink id="38e5-b1e6-b737-f20c" name="Plasma pistol, 标准" hidden="false" targetId="ff12-161a-ca85-339f" type="profile"/>
         <infoLink id="1514-2a22-0f8a-615c" name="Plasma pistol, Supercharge" hidden="false" targetId="5779-2931-fe17-2b27" type="profile"/>
       </infoLinks>
       <costs>
@@ -2681,7 +2681,7 @@
     <selectionEntry id="fdce-cdf7-21a9-f9ac" name="复合等离子枪" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="4d1d-71c8-ca26-be0c" name="爆弹枪" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
-        <infoLink id="643c-5084-06fe-4146" name="Plasma gun, Standard" hidden="false" targetId="03e5-60f2-4726-5cdd" type="profile"/>
+        <infoLink id="643c-5084-06fe-4146" name="Plasma gun, 标准" hidden="false" targetId="03e5-60f2-4726-5cdd" type="profile"/>
         <infoLink id="fa33-f484-5ce8-add5" name="Plasma gun, Supercharge" hidden="false" targetId="acb5-7b58-0d17-a33a" type="profile"/>
         <infoLink id="0078-b3a9-c2e8-c96f" name="Combi Weapon" hidden="false" targetId="a269-b8d9-67c5-4009" type="rule"/>
       </infoLinks>
@@ -3088,7 +3088,7 @@
     </selectionEntry>
     <selectionEntry id="221a-6109-61df-015e" name="重型等离子炮" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="240d-2761-dd9a-ff79" name="重型等离子炮, Standard" hidden="false" targetId="9272-c0bc-9bd7-e6e0" type="profile"/>
+        <infoLink id="240d-2761-dd9a-ff79" name="重型等离子炮, 标准" hidden="false" targetId="9272-c0bc-9bd7-e6e0" type="profile"/>
         <infoLink id="0656-5ec5-5535-4b75" name="重型等离子炮, Supercharge" hidden="false" targetId="691d-11e2-ebfb-d4ad" type="profile"/>
       </infoLinks>
       <costs>
@@ -3199,7 +3199,7 @@
     </selectionEntry>
     <selectionEntry id="5aaf-d2e4-ec59-0407" name="等离子爆裂枪" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="a0c1-a7e9-e251-3e0a" name="Plasma blaster, Standard" hidden="false" targetId="3937-3d5e-da78-af96" type="profile"/>
+        <infoLink id="a0c1-a7e9-e251-3e0a" name="Plasma blaster, 标准" hidden="false" targetId="3937-3d5e-da78-af96" type="profile"/>
         <infoLink id="c52c-a7f9-cdf1-f9bc" name="Plasma blaster, Supercharge" hidden="false" targetId="ae8f-c03c-8929-bedc" type="profile"/>
       </infoLinks>
       <costs>
@@ -3210,7 +3210,7 @@
     </selectionEntry>
     <selectionEntry id="eb15-db61-5d4f-b65e" name="等离子炮" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="2278-2fe0-53cd-bec4" name="Plasma cannon, Standard" hidden="false" targetId="7983-8451-cdc3-ce7e" type="profile"/>
+        <infoLink id="2278-2fe0-53cd-bec4" name="Plasma cannon, 标准" hidden="false" targetId="7983-8451-cdc3-ce7e" type="profile"/>
         <infoLink id="3533-33d5-765f-1a0b" name="Plasma cannon, Supercharge" hidden="false" targetId="fbb2-f4cb-e47d-1d10" type="profile"/>
       </infoLinks>
       <costs>
@@ -3221,7 +3221,7 @@
     </selectionEntry>
     <selectionEntry id="d1e1-23e0-2777-dc7b" name="等离子切割器" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="b4e8-8bed-1585-a12e" name="Plasma cutter, Standard" hidden="false" targetId="614c-c09f-c4b4-504f" type="profile"/>
+        <infoLink id="b4e8-8bed-1585-a12e" name="Plasma cutter, 标准" hidden="false" targetId="614c-c09f-c4b4-504f" type="profile"/>
         <infoLink id="2843-69c5-0ff9-71f5" name="Plasma cutter, Supercharge" hidden="false" targetId="7eea-38c1-0f2c-ce0f" type="profile"/>
       </infoLinks>
       <costs>
@@ -3232,7 +3232,7 @@
     </selectionEntry>
     <selectionEntry id="d8c6-5a0f-4e89-c05a" name="Plasma incinerator" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="3a5a-979d-4e6c-906f" name="Plasma incinerator, Standard" hidden="false" targetId="474e-aeec-1b23-c181" type="profile"/>
+        <infoLink id="3a5a-979d-4e6c-906f" name="Plasma incinerator, 标准" hidden="false" targetId="474e-aeec-1b23-c181" type="profile"/>
         <infoLink id="600d-51ac-4e72-98a3" name="Plasma incinerator, Supercharge" hidden="false" targetId="bd7b-6edf-e450-9b4a" type="profile"/>
       </infoLinks>
       <costs>
@@ -3373,7 +3373,7 @@
     </selectionEntry>
     <selectionEntry id="353e-3e4d-a6ed-d25c" name="双联重型等离子炮" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="3be8-90fb-c838-397d" name="双联 重型等离子炮, Standard" hidden="false" targetId="3f51-8cbe-78c2-0b36" type="profile"/>
+        <infoLink id="3be8-90fb-c838-397d" name="双联 重型等离子炮, 标准" hidden="false" targetId="3f51-8cbe-78c2-0b36" type="profile"/>
         <infoLink id="d490-9625-1289-448e" name="双联 重型等离子炮, Supercharge" hidden="false" targetId="f2db-d913-989b-2841" type="profile"/>
       </infoLinks>
       <costs>
@@ -3404,7 +3404,7 @@
     </selectionEntry>
     <selectionEntry id="3f51-b8fa-86ce-7388" name="双联等离子枪" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="3275-afdc-4d56-864f" name="双联 plasma gun, Standard" hidden="false" targetId="f7ba-88b9-c604-cd89" type="profile"/>
+        <infoLink id="3275-afdc-4d56-864f" name="双联 plasma gun, 标准" hidden="false" targetId="f7ba-88b9-c604-cd89" type="profile"/>
         <infoLink id="1a87-46dc-7286-778b" name="双联 plasma gun, Supercharge" hidden="false" targetId="840a-7f35-72ad-baef" type="profile"/>
       </infoLinks>
       <costs>
@@ -4033,7 +4033,7 @@
     </selectionEntry>
     <selectionEntry id="801b-d6b0-333f-bc49" name="等离子焚化枪" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="3ca6-5a00-ea4f-4277" name="Plasma incinerator, Standard" hidden="false" targetId="474e-aeec-1b23-c181" type="profile"/>
+        <infoLink id="3ca6-5a00-ea4f-4277" name="Plasma incinerator, 标准" hidden="false" targetId="474e-aeec-1b23-c181" type="profile"/>
         <infoLink id="2cf6-aaa4-6d7b-0d25" name="Plasma incinerator, Supercharge" hidden="false" targetId="bd7b-6edf-e450-9b4a" type="profile"/>
       </infoLinks>
       <costs>
@@ -4044,7 +4044,7 @@
     </selectionEntry>
     <selectionEntry id="6267-6959-b9ec-4a6b" name="帝国要塞城墙" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="8bf2-f6dc-fa36-cb2b" name="Imperial Fortress Wall" publicationId="28ec-711c-pubN91434" page="52" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+        <profile id="8bf2-f6dc-fa36-cb2b" name="帝国 Fortress Wall" publicationId="28ec-711c-pubN91434" page="52" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <modifiers>
             <modifier type="increment" field="f330-5e6e-4110-0978" value="5">
               <repeats>
@@ -4241,7 +4241,7 @@
         </profile>
         <profile id="51d4-df4c-ff22-356e" name="Battle Crew" publicationId="28ec-711c-pubN91434" page="53" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You may add 1 to 这个模型&apos;s 命中 骰 when making 射击攻击 对抗 模型 with the TITANIC 关键字.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You may add 1 to 这个模型&apos;s 命中 骰 when making 射击攻击 对抗 模型 with the 巨型 关键字.</characteristic>
           </characteristics>
         </profile>
         <profile id="888f-fcce-8911-d3c3" name="Force Dome" publicationId="28ec-711c-pubN91434" page="53" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -5654,7 +5654,7 @@
     </selectionEntry>
     <selectionEntry id="f8c9-c03b-f8af-009f" name="混沌堡垒" page="" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="b8c4-3486-3f33-204d" name="Imperial Bastion" publicationId="28ec-711c-pubN77581" page="130" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+        <profile id="b8c4-3486-3f33-204d" name="帝国 Bastion" publicationId="28ec-711c-pubN77581" page="130" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">-</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">-</characteristic>
@@ -5667,7 +5667,7 @@
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="5f18-9c8a-8931-75f8" name="Imperial Bastion" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
+        <profile id="5f18-9c8a-8931-75f8" name="帝国 Bastion" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
           <characteristics>
             <characteristic name="容量" typeId="15aa-1916-a38b-d223">这个模型拥有 transport capacity of two 步兵单位, 至多 a total of 20 模型.</characteristic>
           </characteristics>
@@ -6629,7 +6629,7 @@
                   <profiles>
                     <profile id="e1b2-a287-6f47-905c" name="62: Swift Advance" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When 这个模型 Advances, add 6寸 to its Move characteristic for that 移动阶段 而不是 rolling a D6</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">当这个模型加速时, add 6寸 to its Move characteristic for that 移动阶段 而不是 rolling a D6</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6820,7 +6820,7 @@
                   <profiles>
                     <profile id="37ad-2ef0-0868-af26" name="08: Finely Balanced" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s melee 武器. Add the following ability to that weapon: ‘每次 the bearer fights, it can make 1 additional attack with 这个武器.’</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s 肉搏 武器. Add the following ability to that weapon: ‘每次 the bearer fights, it can make 1 additional attack with 这个武器.’</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6837,7 +6837,7 @@
                   <profiles>
                     <profile id="1ce8-bd94-7cf0-e20f" name="09: Shredder" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s melee 武器. Add the following ability to that weapon: ‘可以重投失败的造伤骰 for 攻击 made with 这个武器.’</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s 肉搏 武器. Add the following ability to that weapon: ‘可以重投失败的造伤骰 for 攻击 made with 这个武器.’</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6854,7 +6854,7 @@
                   <profiles>
                     <profile id="96c3-0639-a1a2-86e0" name="10: Brutal" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s melee 武器. Improve that weapon’s Strength characteristic by 1 (e.g. User becomes +1, +1 becomes +2).</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s 肉搏 武器. Improve that weapon’s Strength characteristic by 1 (e.g. User becomes +1, +1 becomes +2).</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6871,7 +6871,7 @@
                   <profiles>
                     <profile id="ae27-0269-204d-ceb0" name="11: Razor-edged" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s melee 武器. Improve that weapon’s AP characteristic by 1 (e.g. AP -1 becomes AP -2).</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s 肉搏 武器. Improve that weapon’s AP characteristic by 1 (e.g. AP -1 becomes AP -2).</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6888,7 +6888,7 @@
                   <profiles>
                     <profile id="c8c0-671c-6174-969c" name="12: Heirloom" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s melee 武器. Add the following ability to that weapon: ‘Each unmodified 命中 roll of 6 made for 攻击 with 这个武器 scores 2 命中 而不是 1’.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s 肉搏 武器. Add the following ability to that weapon: ‘Each unmodified 命中 roll of 6 made for 攻击 with 这个武器 scores 2 命中 而不是 1’.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7886,7 +7886,7 @@
       <description>部署期间, 这个单位 can be set up 任何位置 战场上 that is not 范围内 your opponent&apos;s 部署区 and is more than 12寸 from any 敌方单位.</description>
     </rule>
     <rule id="15ea-860d-9eb6-21c3" name="Airborne" hidden="false">
-      <description>这个模型 不能冲锋, can only be charged by 单位 that can FLY, and can only attack or be attacked in the 肉搏阶段 by 单位 that can FLY.</description>
+      <description>这个模型 不能冲锋, can only be charged by 单位 飞行关键字, and can only attack or be attacked in the 肉搏阶段 by 单位 飞行关键字.</description>
     </rule>
     <rule id="9caa-ff00-a5bd-5f04" name="Hard to 命中" hidden="false">
       <description>Your opponent 必须 减少 1 from 命中 骰 for 攻击 that target 这个模型 in the 射击阶段.</description>
@@ -8683,9 +8683,9 @@
         <characteristic name="能力" typeId="837d-5e63-aeb7-1410">对飞行关键字单位命中骰+1,其他单位-1</characteristic>
       </characteristics>
     </profile>
-    <profile id="7571-d9f2-17b0-c3e0" name="Imperial Statuary" publicationId="28ec-711c-pubN113754" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
+    <profile id="7571-d9f2-17b0-c3e0" name="帝国 Statuary" publicationId="28ec-711c-pubN113754" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A 模型 from the Armies of the 帝国 that is 范围内 2寸 of Imperial Statuary terrain has the Fearless special rule. A 模型 in cover behind Imperial Statuary 拥有 3+ cover save.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A 模型 from the Armies of the 帝国 that is 范围内 2寸 of 帝国 Statuary terrain has the Fearless special rule. A 模型 in cover behind 帝国 Statuary 拥有 3+ cover save.</characteristic>
       </characteristics>
     </profile>
     <profile id="7d5c-1af6-942c-8ca2" name="Wreckage and Rubble" publicationId="28ec-711c-pubN113754" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -9527,7 +9527,7 @@
     </profile>
     <profile id="a179-f592-3224-72c9" name="Automated 武器" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Unless a 友方单位 is 上车 aboard 这个模型, it can only target the closest 可见 敌方单位 when it makes 攻击. If two or more 单位 are equally close, you can choose which is targeted.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Unless a 友方单位 is 上车 aboard 这个模型, it 只能瞄准 the closest 可见 敌方单位 when it makes 攻击. If two or more 单位 are equally close, you can choose which is targeted.</characteristic>
       </characteristics>
     </profile>
     <profile id="429b-91d2-8356-7150" name="Magazine Explosion" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -9552,7 +9552,7 @@
     </profile>
     <profile id="57f6-edd9-6170-5c91" name="自动武器 (炮架)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Unless a 友方 步兵模型 is 范围内 1寸 of 这个模型, 这个模型 can only target the closest 可见 敌方单位 when it makes 攻击. If two or more 单位 are equally close, you can choose which is targeted.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Unless a 友方 步兵模型 is 范围内 1寸 of 这个模型, 这个模型 只能瞄准 the closest 可见 敌方单位 when it makes 攻击. If two or more 单位 are equally close, you can choose which is targeted.</characteristic>
       </characteristics>
     </profile>
     <profile id="c60f-7b10-88fd-9eba" name="静态防御网络 (Aegis)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -9622,7 +9622,7 @@
         <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When 这个模型 is destroyed, 投掷1个D6 before any 上车 模型 下车 and before removing it from play. 结果为6则爆炸, 每个单位 范围内 2D6寸 遭受 D3 致命伤.</characteristic>
       </characteristics>
     </profile>
-    <profile id="07c8-4bf0-0b10-9830" name="静态防御网络 (Imperial)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
+    <profile id="07c8-4bf0-0b10-9830" name="静态防御网络 (帝国)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
         <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Every 模型 in 这个单位 必须 set up so that it is in end-to-end contact with at least one other 友方 WALL OF MARTYRS model. After it is set up, 模型 in 这个单位 are treated as terrain features that follow the rules for Barricades (pg 106).</characteristic>
       </characteristics>
@@ -9634,7 +9634,7 @@
     </profile>
     <profile id="0f50-2ea2-b251-a213" name="Automated 武器 (Icarus)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Unless a 友方单位 is 上车 aboard 这个模型, 这个模型&apos;s 武器 can only target the closest 可见 敌方单位. 攻击 made with the Icarus 激光炮 can instead target the closest 可见 敌方单位 that can FLY. In either case, if two or more 单位 are equally close, you may choose which is targeted.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Unless a 友方单位 is 上车 aboard 这个模型, 这个模型&apos;s 武器 只能瞄准 the closest 可见 敌方单位. 攻击 made with the Icarus 激光炮 can instead target the closest 可见 敌方单位 飞行关键字. In either case, if two or more 单位 are equally close, you may choose which is targeted.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

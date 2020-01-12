@@ -343,7 +343,7 @@
                             <characteristic name="S" typeId="59b1-319e-ec13-d466">x2</characteristic>
                             <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
                             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-                            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Make 2 命中 骰 for each attack made with 这个武器, 而不是 1.</characteristic>
+                            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Make 2 命中 骰 for 每次攻击 made with 这个武器, 而不是 1.</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -2570,7 +2570,7 @@
     </selectionEntry>
     <selectionEntry id="077b-596a-fc56-222b" name="Plasma Cannon" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="9093-73ec-118a-9308" name="Plasma cannon, Standard" hidden="false" targetId="7983-8451-cdc3-ce7e" type="profile"/>
+        <infoLink id="9093-73ec-118a-9308" name="Plasma cannon, 标准" hidden="false" targetId="7983-8451-cdc3-ce7e" type="profile"/>
         <infoLink id="48c1-3655-4127-7788" name="Plasma cannon, Supercharge" hidden="false" targetId="fbb2-f4cb-e47d-1d10" type="profile"/>
       </infoLinks>
       <costs>
@@ -2944,7 +2944,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a65d-0bea-a756-9be7" type="max"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="02bf-df4c-c56c-2a05" name="Melee 武器" hidden="false" collective="false" import="true" targetId="4c27-8bdf-9361-d353" type="selectionEntryGroup">
+                <entryLink id="02bf-df4c-c56c-2a05" name="肉搏 武器" hidden="false" collective="false" import="true" targetId="4c27-8bdf-9361-d353" type="selectionEntryGroup">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49c0-2db9-a628-d214" type="max"/>
                   </constraints>
@@ -3956,7 +3956,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">+1</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 always wounds 结果为2+ unless it is targeting a 载具 or TITANIC 单位. If a CHARACTER loses any wounds as a result of an attack with 这个武器, 投掷1个D6 for it after 所有 of the bearer&apos;s 攻击 have been resolved; if the result is higher than that 模型的 Wounds characteristic, it 遭受 D3 致命伤.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 always wounds 结果为2+ unless it is targeting a 载具 or 巨型 单位. If a CHARACTER loses any wounds as a result of an attack with 这个武器, 投掷1个D6 for it after 所有 of the bearer&apos;s 攻击 have been resolved; if the result is higher than that 模型的 Wounds characteristic, it 遭受 D3 致命伤.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4008,7 +4008,7 @@
               <profiles>
                 <profile id="1a4c-1614-ca8e-4358" name="Subterranean Ambushers" publicationId="83b2-e602-pubN65537" page="109" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Until the end of the first battle round, add 1 to Advance and charge 骰 made for 单位 with this Cult Creed. Starting from the second battle round, if a 单位 with this Cult Creed is set up 战场上, then until the end of that turn, add 1 to Advance and charge 骰 made for 那个单位.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Until the end of the first battle round, add 1 to Advance and charge 骰 made for 单位 with this Cult Creed. Starting from the second battle round, 如果1个单位 with this Cult Creed is set up 战场上, then until the end of that turn, add 1 to Advance and charge 骰 made for 那个单位.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4022,7 +4022,7 @@
               <profiles>
                 <profile id="9be5-af11-41f2-278e" name="Devoted Zealots" publicationId="83b2-e602-pubN65537" page="109" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投命中骰 for 攻击 made with melee 武器 by a 单位 with this Cult Creed in a turn in which it made a 冲锋移动, was charged or performed a Heroic Intervention.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投命中骰 for 攻击 made with 肉搏 武器 by a 单位 with this Cult Creed in a turn in which it made a 冲锋移动, was charged or performed a Heroic Intervention.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4036,7 +4036,7 @@
               <profiles>
                 <profile id="400a-12b9-bd1c-ab4f" name="Disciplined Militants" publicationId="83b2-e602-pubN65537" page="109" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If a 单位 with this Cult Creed fails a Morale test, halve the number of 模型 that flee (rounding up). 此外, 单位 with this Cult Creed can still shoot in a turn in which they 撤退, but if they do so you 必须 减少 1 from their 命中 骰 in the 射击阶段 of that turn.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果1个单位 with this Cult Creed fails a Morale test, halve the number of 模型 that flee (rounding up). 此外, 单位 with this Cult Creed can still shoot in a turn in which they 撤退, but if they do so you 必须 减少 1 from their 命中 骰 in the 射击阶段 of that turn.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5182,7 +5182,7 @@
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">1</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 the bearer fights, it can make 1 additional attack with 这个武器. 这个武器 always wounds 结果为2+ unless it is targeting a 载具 or TITANIC 单位.</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 the bearer fights, it can make 1 additional attack with 这个武器. 这个武器 always wounds 结果为2+ unless it is targeting a 载具 or 巨型 单位.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5272,12 +5272,12 @@
       <profiles>
         <profile id="f019-96de-b328-f966" name="Underground Ingress" publicationId="83b2-e602-pubN65537" page="101" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per turn, in their 移动阶段, one 步兵 or 摩托 单位 with the Cult Ambush ability can move off the battlefield if 所有 of its 模型 are on the ground level and can move 范围内 1寸 of 这个模型 (a 单位 cannot do so in the same phase that it arrived as reinforcements). If a 单位 does this, remove the selected 单位 from the battlefield. At the end of your next 移动阶段, set up 那个单位 任何位置 战场上 that is more than 9寸 away from 任何敌方模型. If the battle ends before 这个单位 is set back up, it is destroyed.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per turn, in their 移动阶段, one 步兵 or 摩托 单位 with the Cult Ambush ability can move off the battlefield if 所有 of its 模型 are on the ground level and can move 范围内 1寸 of 这个模型 (a 单位 cannot do so in the same phase that it arrived as reinforcements). 如果1个单位 does this, remove the selected 单位 from the battlefield. At the end of your next 移动阶段, set up 那个单位 任何位置 战场上 that is more than 9寸 away from 任何敌方模型. If the battle ends before 这个单位 is set back up, it is destroyed.</characteristic>
           </characteristics>
         </profile>
         <profile id="45ec-edd7-432e-9705" name="Sector Mechanicus Structure" publicationId="83b2-e602-pubN65537" page="101" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">After it is set up, a Tectonic Fragdrill is treated as a Sector Mechanicus terrain feature. It 不能移动 for any reason, is not treated as a 友方 or 敌方模型, and 不能 targeted or affected by any 攻击 or abilities.  Only 步兵, BEASTS, SWARMS and 单位 that can FLY can be set up or end their move on the upper floors of a Sector Mechanicus Structure (任何单位 can do so on the ground floor). Unless they can FLY, 步兵, BEASTS and SWARMS 必须 scale ladders, girders or walls to ascend or descend between the different levels of a Sector Mechanicus structure. 步兵 are also able to traverse around girders, buttresses and hanging chains, and so move through them without impediment. 步兵单位 that are entirely 结果为Sector Mechanicus Structure receive the benefit of cover if at least 50% of every 模型 is obscured from the point of view of the 射击 model.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">After it is set up, a Tectonic Fragdrill is treated as a Sector Mechanicus terrain feature. It 不能移动 for any reason, is not treated as a 友方 or 敌方模型, and 不能 targeted or affected by any 攻击 or abilities.  Only 步兵, BEASTS, SWARMS and 单位 飞行关键字 can be set up or end their move on the upper floors of a Sector Mechanicus Structure (任何单位 can do so on the ground floor). Unless they can FLY, 步兵, BEASTS and SWARMS 必须 scale ladders, girders or walls to ascend or descend between the different levels of a Sector Mechanicus structure. 步兵 are also able to traverse around girders, buttresses and hanging chains, and so move through them without impediment. 步兵单位 that are entirely 结果为Sector Mechanicus Structure receive the benefit of cover if at least 50% of every 模型 is obscured from the point of view of the 射击 model.</characteristic>
           </characteristics>
         </profile>
         <profile id="4754-be84-0916-88cc" name="Activate the Drill" publicationId="83b2-e602-pubN65537" page="101" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -5287,12 +5287,12 @@
         </profile>
         <profile id="9bf3-737b-10a0-2217" name="Seismic Tremors" hidden="false" typeId="05e2-717b-01b5-60fa" typeName="Tectonic Fragdrill">
           <characteristics>
-            <characteristic name="效果" typeId="b2eb-4532-ac0a-1ec6">Until the start of your next 移动阶段, 减少 2 from charge 骰 made for 单位 whilst they are 范围内 12寸 of 这个模型. This does not apply to 单位 that can FLY, and the effects of multiple Seismic Tremors are not cumulative.</characteristic>
+            <characteristic name="效果" typeId="b2eb-4532-ac0a-1ec6">Until the start of your next 移动阶段, 减少 2 from charge 骰 made for 单位 whilst they are 范围内 12寸 of 这个模型. This does not apply to 单位 飞行关键字, and the effects of multiple Seismic Tremors are not cumulative.</characteristic>
           </characteristics>
         </profile>
         <profile id="967f-7aff-71f3-f403" name="Seismic Quake" hidden="false" typeId="05e2-717b-01b5-60fa" typeName="Tectonic Fragdrill">
           <characteristics>
-            <characteristic name="效果" typeId="b2eb-4532-ac0a-1ec6">Draw a straight line, 1mm in thickness, from any point of one battlefield edge to any point of another battlefield edge in such a way that it crosses 这个模型. 投掷1个D6 for every 单位 this line crosses that is on the ground level (do not roll for 单位 that can FLY); 结果为4+ 那个单位 遭受 D3 致命伤 and its Move characteristic is halved until the end of its next 移动阶段.</characteristic>
+            <characteristic name="效果" typeId="b2eb-4532-ac0a-1ec6">Draw a straight line, 1mm in thickness, from any point of one battlefield edge to any point of another battlefield edge in such a way that it crosses 这个模型. 投掷1个D6 for every 单位 this line crosses that is on the ground level (do not roll for 单位 飞行关键字); 结果为4+ 那个单位 遭受 D3 致命伤 and its Move characteristic is halved until the end of its next 移动阶段.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5883,7 +5883,7 @@ If your opponent has the first turn, then none of their 单位 can be set up or 
         <entryLink id="b3db-951f-6475-2a37" name="Autopistol" hidden="false" collective="false" import="true" targetId="0985-3683-24db-1b07" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="4c27-8bdf-9361-d353" name="Melee 武器" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="4c27-8bdf-9361-d353" name="肉搏 武器" hidden="false" collective="false" import="true">
       <entryLinks>
         <entryLink id="4954-7c4f-bb03-a90e" name="Chainsword" hidden="false" collective="false" import="true" targetId="cf05-7342-c11b-5e43" type="selectionEntry"/>
         <entryLink id="afc2-2816-505c-9b9d" name="Power Pick" hidden="false" collective="false" import="true" targetId="9ef9-9e00-e935-43d9" type="selectionEntry"/>
@@ -6095,7 +6095,7 @@ If your opponent has the first turn, then none of their 单位 can be set up or 
           <profiles>
             <profile id="212f-dba8-4e91-d35f" name="Scourge of Distant Stars" publicationId="83b2-e602-pubN65537" page="116" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">命中骰+1 for 攻击 made with the bearer&apos;s melee 武器. 此外, 每次 an 敌方模型 targets the bearer with a 肉搏武器 and your opponent 骰 an unmodified 命中 roll of 1, the attacker&apos;s 单位 遭受 1 致命伤 after 所有 of its 攻击 have been resolved.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">命中骰+1 for 攻击 made with the bearer&apos;s 肉搏 武器. 此外, 每次 an 敌方模型 targets the bearer with a 肉搏武器 and your opponent 骰 an unmodified 命中 roll of 1, the attacker&apos;s 单位 遭受 1 致命伤 after 所有 of its 攻击 have been resolved.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6179,7 +6179,7 @@ If your opponent has the first turn, then none of their 单位 can be set up or 
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 the bearer fights, it can make 1 additional attack with 这个武器. 这个武器 always wounds 结果为2+ unless it is targeting a 载具 or TITANIC 单位. If a CHARACTER 模型 loses any wounds as a result of an attack with 这个武器 but is not slain, it 遭受 D3 致命伤 after the bearer has made 所有 of its 攻击.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 the bearer fights, it can make 1 additional attack with 这个武器. 这个武器 always wounds 结果为2+ unless it is targeting a 载具 or 巨型 单位. If a CHARACTER 模型 loses any wounds as a result of an attack with 这个武器 but is not slain, it 遭受 D3 致命伤 after the bearer has made 所有 of its 攻击.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6208,7 +6208,7 @@ If your opponent has the first turn, then none of their 单位 can be set up or 
           <profiles>
             <profile id="5b25-5238-371c-6b3c" name="The Gift from Beyond" publicationId="83b2-e602-pubN65537" page="117" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 2 to wound 骰 for 攻击 made with 这个模型&apos;s Jackal sniper rifle or silencer sniper rifle unless it is targeting a 载具 or TITANIC 单位.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 2 to wound 骰 for 攻击 made with 这个模型&apos;s Jackal sniper rifle or silencer sniper rifle unless it is targeting a 载具 or 巨型 单位.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6310,7 +6310,7 @@ If your opponent has the first turn, then none of their 单位 can be set up or 
           <profiles>
             <profile id="b986-5278-5242-5a35" name="Vockor&apos;s Talisman" publicationId="83b2-e602-pubN65537" page="117" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">HIVECULT only. 可以重投命中骰 for 攻击 made with the bearer&apos;s melee 武器 when targeting 敌方 人物. 此外, 每次 you roll a wound roll of 6+ for an attack with one of the bearer&apos;s melee 武器, that attack inflicts 1 致命伤 对目标 此外 to any normal 伤害, unless it is targeting a 载具 or TITANIC 单位.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">HIVECULT only. 可以重投命中骰 for 攻击 made with the bearer&apos;s 肉搏 武器 when targeting 敌方 人物. 此外, 每次 you roll a wound roll of 6+ for an attack with one of the bearer&apos;s 肉搏 武器, that attack inflicts 1 致命伤 对目标 此外 to any normal 伤害, unless it is targeting a 载具 or 巨型 单位.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6443,7 +6443,7 @@ If your opponent has the first turn, then none of their 单位 can be set up or 
           <profiles>
             <profile id="e969-4957-1ff2-470b" name="Reliquary of Saint Tenndarc" publicationId="83b2-e602-pubN65537" page="117" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">PAUPER PRINCES only. 友方 PAUPER PRINCES 单位 自动通过 士气测试 whilst they are 范围内 6寸 of the bearer. 此外, 投掷1个D6 每次 a PAUPER PRINCES 步兵 or 摩托 模型 is destroyed whilst it is 范围内 6寸 of the bearer, before removing that 模型 from the battlefield. 结果为4+ that 模型 can either shoot with one of its ranged 武器 as if it were your 射击阶段, or can make a single melee attack with a 肉搏武器 as if it were the 肉搏阶段.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">PAUPER PRINCES only. 友方 PAUPER PRINCES 单位 自动通过 士气测试 whilst they are 范围内 6寸 of the bearer. 此外, 投掷1个D6 每次 a PAUPER PRINCES 步兵 or 摩托 模型 is destroyed whilst it is 范围内 6寸 of the bearer, before removing that 模型 from the battlefield. 结果为4+ that 模型 can either shoot with one of its ranged 武器 as if it were your 射击阶段, or can make a single 肉搏 attack with a 肉搏武器 as if it were the 肉搏阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7079,7 +7079,7 @@ For ambush markers, see 圣典: Genestealer Cults p79.</description>
 
 此外, to represent 星界军 forces that have been subverted, you can include 星界军 单位 and GENESTEALER CULTS 单位 in the same matched play army, even though these 单位 do not have any Faction keywords in common. In such cases, ignore the 星界军 单位 when choosing your 军队的 Faction.
 
-If your army is Battle-forged, you can only include one 星界军 Detachment (one in which every 单位 has the 星界军 关键字) in your army for each GENESTEALER CULTS Detachment in that army. You cannot include 星界军 named 人物 in these Detachments, and these Detachments 不能 Specialist Detachments. These 星界军 Detachments are then known as BROOD BROTHERS Detachments, and every 单位 in them that has the &lt;REGIMENT&gt; or MILITARUM TEMPESTUS 关键字 必须 replace it in every instance on its datasheet with BROOD BROTHERS (if a 单位 does not have either of these keywords, it simply gains the BROOD BROTHERS 关键字).
+If your army is Battle-forged, you can only include one 星界军 Detachment (one in which every 单位 has the 星界军 关键字) in your army for each GENESTEALER CULTS Detachment in that army. You cannot include 星界军 named 人物 in these Detachments, and these Detachments 不能 Specialist Detachments. These 星界军 Detachments are then known as BROOD BROTHERS Detachments, and every 单位 in them that has the &lt;REGIMENT&gt; or MILITARUM TEMPESTUS 关键字 必须 replace it in every instance on its datasheet with BROOD BROTHERS (如果1个单位 does not have either of these keywords, it simply gains the BROOD BROTHERS 关键字).
 
 BROOD BROTHERS Detachments do not gain any of the Detachment abilities listed in 圣典: 星界军, such as Regimental Doctrines, nor can they use any regiment-specific Stratagems, Orders etc. Furthermore, 步兵模型 in BROOD BROTHERS Detachments increase their LD characteristic by 1 and they gain the Unquestioning Loyalty ability. 单位 in BROOD BROTHERS Detachments do not gain the Cult Ambush ability. Your 主将 不能 from a BROOD BROTHERS Detachment, and you cannot give any Relics to BROOD BROTHERS 人物. 此外, the Command Benefits of 所有 BROOD BROTHERS Detachments included in your army in this way are halved (rounding up). This reflects that such Detachments are not a Genestealer Cult&apos;s primary fighting force, and the acquisition of such military assets is costly in terms of resource. The command benefits of Auxiliary Support Detachments are unaffected.
 
@@ -7216,7 +7216,7 @@ BROOD BROTHERS TAUROX PRIMES can only transport 10 BROOD BROTHERS OFFICIO PREFEC
         <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 can only be fired if a 单位 is 上车 upon the 载具 equipped with it.</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 can only be fired 如果1个单位 is 上车 upon the 载具 equipped with it.</characteristic>
       </characteristics>
     </profile>
     <profile id="a6bc-5e15-9fa4-3299" name="Mining Laser" publicationId="83b2-e602-pubN65537" page="102" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -7246,7 +7246,7 @@ BROOD BROTHERS TAUROX PRIMES can only transport 10 BROOD BROTHERS OFFICIO PREFEC
         <characteristic name="S" typeId="59b1-319e-ec13-d466">2</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 always wounds 结果为2+ unless it is targeting a 载具 or TITANIC 单位.</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 always wounds 结果为2+ unless it is targeting a 载具 or 巨型 单位.</characteristic>
       </characteristics>
     </profile>
     <profile id="76be-3ada-1c2a-b1d6" name="Seismic Cannon (Long-wave)" publicationId="83b2-e602-pubN65537" page="103" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -7476,7 +7476,7 @@ BROOD BROTHERS TAUROX PRIMES can only transport 10 BROOD BROTHERS OFFICIO PREFEC
         <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 always wounds 结果为2+ unless it is targeting a 载具 or TITANIC 单位. 每次 you roll a wound roll of 6+ for 这个武器, that 命中 is resolved with an AP of -4.</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 always wounds 结果为2+ unless it is targeting a 载具 or 巨型 单位. 每次 you roll a wound roll of 6+ for 这个武器, that 命中 is resolved with an AP of -4.</characteristic>
       </characteristics>
     </profile>
     <profile id="0e98-6c7e-d9a4-281f" name="Lightning Reflexes" publicationId="83b2-e602-pubN65537" page="89" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
