@@ -331,14 +331,14 @@
       <description>If your Army is Battle-forged, all 步兵 and HELBRUTE 单位 in 死亡守卫 Detachments gain this ability. Such 单位 do not suffer a penalty for moving and firing 重型武器, or for Advancing and firing Assault 武器. 此外, a 单位 with this ability can fire twice with 速射 武器 at a range of 18寸, 而不是 only being able to fire twice with them up to half the weapon&apos;s maximum range.</description>
     </rule>
     <rule id="8d8a-88a0-6b44-6d71" name="Plague Host" hidden="false">
-      <description>If your army is Battle-forged, all Troops 单位 in 死亡守卫 Detachments gain this ability. Such a 单位 that is 范围内 range of an objective marker (as specified in the mission) controls that objective marker even if there are more 敌方模型 范围内 range of it. If an 敌方单位 范围内 range of the same objective marker 拥有 similar ability, then the objective marker is controlled by the player who has the most models 范围内 range as normal.</description>
+      <description>If your army is Battle-forged, all Troops 单位 in 死亡守卫 Detachments gain this ability. Such a 单位 that is 范围内 range of an objective marker (as specified in the mission) controls that objective marker even if there are more 敌方模型 范围内 range of it. If an 敌方单位 范围内 range of the same objective marker 拥有 similar ability, then the objective marker is controlled by the player who has the most 模型 范围内 range as normal.</description>
     </rule>
     <rule id="3e60-7d53-e6ae-d91d" name="爆弹训练" hidden="false">
-      <description>All 阿斯塔特修会, 阿斯塔特叛军 and FALLEN models gain this ability.
-而不是 following the normal rules for 速射 武器, models in 这个单位 firing 速射爆弹武器 make double the number of attacks if any of the following apply:
+      <description>All 阿斯塔特修会, 阿斯塔特叛军 and FALLEN 模型 gain this ability.
+而不是 following the normal rules for 速射 武器, 模型 in 这个单位 firing 速射爆弹武器 make double the number of attacks if any of the following apply:
 • The firing model’s target is 范围内 half the weapon’s maximum range.
-• The firing model is 步兵 and every model in its 单位 remained stationary in your previous 移动阶段.
-• The firing model is a 终结者, 摩托, 百夫长, 无畏 or HELBRUTE.
+• The firing 模型 is 步兵 and every 模型 in its 单位 remained stationary in your previous 移动阶段.
+• The firing 模型 is a 终结者, 摩托, 百夫长, 无畏 or HELBRUTE.
 For the purposes of this ability, a 速射爆弹武器 is any weapon with the 速射 type whose profile includes the word ‘bolt’ (e.g. 爆弹枪, 爆弹步枪, 风暴爆弹, 复合爆弹, 飓风爆弹, 地狱爆弹枪, etc.). This also applies when firing the 爆弹枪 profile of 复合武器 (including the 爆弹武器 profile of Relics such as Blood Song and the Lion’s Wrath) and when firing relics that replace a 速射爆弹武器, so long as the relic is also a 速射武器 (e.g. Primarch’s Wrath and Fury of Deimos). The Gauntlets of Ultramar and the Talon of Horus are also 速射爆弹武器, as is the 卫士之矛 used by Deathwatch Watch Masters.</description>
     </rule>
   </rules>
@@ -1054,7 +1054,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
       <profiles>
         <profile id="d790-78b6-d5e7-1b4a" name="Curse of the Walking Pox" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time an 敌方 步兵模型 is slain by a Poxwalker in the 肉搏阶段, add one model to the Poxwalker&apos;s unit.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time an 敌方 步兵模型 is slain by a Poxwalker in the 肉搏阶段, add one 模型 to the Poxwalker&apos;s unit.</characteristic>
           </characteristics>
         </profile>
         <profile id="2d7a-1e14-30ea-4f16" name="Diseased Horde" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -1863,7 +1863,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
             <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time 这个模型 fights, it can make 1 additional attack with 这个武器. A model armed with two sets of malefic talons can make 3 additional attacks with them instead.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time 这个模型 fights, it can make 1 additional attack with 这个武器. A 模型 armed with two sets of malefic talons can make 3 additional attacks with them instead.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1943,7 +1943,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
       <profiles>
         <profile id="37fd-bd47-2688-33d4" name="Writhing Tentacles" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Roll a D3 when a 单位 of Possessed is selected to attack in the 肉搏阶段. The result is the Attacks characteristic of each model in the unit.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Roll a D3 when a 单位 of Possessed is selected to attack in the 肉搏阶段. The result is the Attacks characteristic of each 模型 in the unit.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2069,7 +2069,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
         </profile>
         <profile id="9ef4-81e6-3365-bfba" name="Crazed" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of any phase in which 这个模型 遭受 any unsaved wounds or 致命伤, 投掷1个D6. On a roll of 6, 这个模型 immediately makes a shooting attack as if it were your 射击阶段 if there no enemies 范围内 1寸, or a piles in and fights as if it were in the 肉搏阶段 if there are enemies 范围内 1寸. If there is no 可见 target 范围内 range, nothing happens.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of 任何阶段 in which 这个模型 遭受 any unsaved wounds or 致命伤, 投掷1个D6. On a roll of 6, 这个模型 immediately makes a shooting attack as if it were your 射击阶段 if there no enemies 范围内 1寸, or a piles in and fights as if it were in the 肉搏阶段 if there are enemies 范围内 1寸. If there is no 可见 target 范围内 range, nothing happens.</characteristic>
           </characteristics>
         </profile>
         <profile id="a3d2-cbb8-77f5-44d3" name="Battering Onslaught" hidden="true" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -2947,7 +2947,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
         </profile>
         <profile id="ee18-83ec-db94-15dc" name="Tocsin of Misery" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Units must subtract 1 from their LD whilst they are 范围内 7寸 of any 敌方 Noxious Blightbringers (PSYKERS must subtract 2 instead). 此外, if a 死亡守卫 单位 is 范围内 7寸 of 这个模型 when it Advances, roll two dice and discard the lowest result when determining the distance.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Units must subtract 1 from their LD whilst they are 范围内 7寸 of any 敌方 Noxious Blightbringers (灵能者 must subtract 2 instead). 此外, if a 死亡守卫 单位 is 范围内 7寸 of 这个模型 when it Advances, roll two dice and discard the lowest result when determining the distance.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3075,12 +3075,12 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
         </profile>
         <profile id="5a03-9376-a2e4-fbb4" name="混沌 兰德掠袭者" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
           <characteristics>
-            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">这个模型 可以运输 10 死亡守卫 步兵模型 (each 终结者 model takes up the space of two other models).</characteristic>
+            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">这个模型 可以运输 10 死亡守卫 步兵模型 (each 终结者 模型 takes up the space of two other models).</characteristic>
           </characteristics>
         </profile>
         <profile id="d976-216b-4e43-e7a4" name="爆炸" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 在被移除前投掷1个D6 and before any 上车 models disembark; 结果为6则爆炸, 每个单位 范围内 6寸 遭受 D6 致命伤.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 在被移除前投掷1个D6 and before any 上车 模型 disembark; 结果为6则爆炸, 每个单位 范围内 6寸 遭受 D6 致命伤.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3269,7 +3269,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
           <characteristics>
             <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">5</characteristic>
             <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, slect a 可见 敌方单位 范围内 18寸 of the 灵能者. Roll one dice for each model in 那个单位 - the 单位 遭受 1点致命伤 for each roll of 6.</characteristic>
+            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, slect a 可见 敌方单位 范围内 18寸 of the 灵能者. Roll one dice for each 模型 in 那个单位 - the 单位 遭受 1点致命伤 for each roll of 6.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3288,7 +3288,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
           <characteristics>
             <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">7</characteristic>
             <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, select a 可见 敌方单位 范围内 18寸 of the 灵能者 and roll a D3. Consult the table to discover what characteristic penalty all models in 那个单位 suffer until the start of your next 灵能阶段 (this cannot reduce a characteristic to less than 1).</characteristic>
+            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, select a 可见 敌方单位 范围内 18寸 of the 灵能者 and roll a D3. Consult the table to discover what characteristic penalty all 模型 in 那个单位 suffer until the start of your next 灵能阶段 (this cannot reduce a characteristic to less than 1).</characteristic>
           </characteristics>
         </profile>
         <profile id="99ba-86d7-afd7-dc23" name="Gift of Contagion 1" hidden="false" typeId="df7f-89aa-8f5b-9d81" typeName="Gift of Contagion table">
@@ -3484,7 +3484,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
         </profile>
         <profile id="7868-12b9-8bb3-7d42" name="Putrid Demise" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When Mortarion loses his last wound (after failing his Disgustingly Resilient roll), roll a dice before removing the model from the battlefield; on a 4+ he 爆炸, showering all nearby in putrid filth and disease - each 单位 范围内 7寸 遭受 D3 致命伤 unless it has the 纳垢 关键字. </characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When Mortarion loses his last wound (after failing his Disgustingly Resilient roll), roll a dice before removing the 模型 from the battlefield; on a 4+ he 爆炸, showering all nearby in putrid filth and disease - each 单位 范围内 7寸 遭受 D3 致命伤 unless it has the 纳垢 关键字. </characteristic>
           </characteristics>
         </profile>
         <profile id="055e-9cce-da4e-9f73" name="Mortarion" hidden="false" typeId="bc97-dea9-9e88-bb7d" typeName="灵能者">
@@ -3571,7 +3571,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If you hit with 这个武器, draw a straight line between the closest point of Mortarion&apos;s base and that of the closest model in the target unit. Make a single wound roll against the target 单位 and each 单位 the centre of the line passes over.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If you hit with 这个武器, draw a straight line between the closest point of Mortarion&apos;s base and that of the closest 模型 in the target unit. Make a single wound roll against the target 单位 and each 单位 the centre of the line passes over.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4500,7 +4500,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
           <characteristics>
             <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">6</characteristic>
             <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">12寸</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, select a 阿斯塔特叛军 model 范围内 12寸 of the 灵能者. Until the start of your next 灵能阶段, add 2 to the model&apos;s Strength characteristic and 1 to its Attacks characteristic.</characteristic>
+            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, select a 阿斯塔特叛军 模型 范围内 12寸 of the 灵能者. Until the start of your next 灵能阶段, add 2 to the model&apos;s Strength characteristic and 1 to its Attacks characteristic.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6348,7 +6348,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">+3</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If an attack made with 这个武器 causes an unsaved wound to a model, 投掷1个D6. On a 4+, the model 遭受 an additional D6 wounds.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If an attack made with 这个武器 causes an unsaved wound to a model, 投掷1个D6. On a 4+, the 模型 遭受 an additional D6 wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6728,7 +6728,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">-</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">-</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">You can only use 这个武器 once per battle. If it hits, roll one dice for each model in the 敌方单位, re-rolling any results of 1 - 那个单位 遭受 1点致命伤 for each roll of a 6.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">You can only use 这个武器 once per battle. If it hits, roll one dice for each 模型 in the 敌方单位, re-rolling any results of 1 - 那个单位 遭受 1点致命伤 for each roll of a 6.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7316,7 +7316,7 @@ Roll up to 3 dice - this is your summoning roll. You can summon one new 纳垢 �
 If your summoning roll included any doubles, your character then 遭受 1点致命伤. If it contained any triples, it instead 遭受 D3 致命伤.</description>
     </rule>
     <rule id="6625-1efb-fc0e-69f2" name="Hateful Assault" hidden="false">
-      <description>If 这个单位 makes a 冲锋移动, is charged or performs a Heroic Intervention, add 1 to the Attacks characteristic of models in 这个单位 until the end of the turn.</description>
+      <description>If 这个单位 makes a 冲锋移动, is charged or performs a Heroic Intervention, add 1 to the Attacks characteristic of 模型 in 这个单位 until the end of the turn.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -7342,12 +7342,12 @@ If your summoning roll included any doubles, your character then 遭受 1点致�
     </profile>
     <profile id="8f11-6c2b-25e0-d130" name="Disgustingly Resilient" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time 这个模型 loses a wound, 投掷1个D6; on a 5+, the model does not lose that wound.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time 这个模型 loses a wound, 投掷1个D6; on a 5+, the 模型 does not lose that wound.</characteristic>
       </characteristics>
     </profile>
     <profile id="c365-8ca4-3ee1-1677" name="Death to the False Emperor" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time you roll a hit roll of 6+ for a model with this ability in the 肉搏阶段, it can, if it was targeting an IMPERIUM unit, immediately make an extra attack against the same 单位 using the same weapon. These extra attacks cannot themselves generate any further attacks.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time you roll a hit roll of 6+ for a 模型 with this ability in the 肉搏阶段, it can, if it was targeting an IMPERIUM unit, immediately make an extra attack against the same 单位 using the same weapon. These extra attacks cannot themselves generate any further attacks.</characteristic>
       </characteristics>
     </profile>
     <profile id="057a-5462-ce7c-192e" name="Cataphractii Armour" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -7387,7 +7387,7 @@ If your summoning roll included any doubles, your character then 遭受 1点致�
     </profile>
     <profile id="51dc-2e9c-f739-4584" name="传送打击" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">部署期间, 可以放置 这个模型 in a teleportarium chamber 而不是 placing it on the battlefield. At the end of any of your 移动阶段 the model can use a 传送打击 to arrive on the battlefield - set it up anywhere on the battlefield that is more than 9寸 away from any 敌方模型.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">部署期间, 可以放置 这个模型 in a teleportarium chamber 而不是 placing it on the battlefield. At the end of any of your 移动阶段 the 模型 can use a 传送打击 to arrive on the battlefield - set it up anywhere on the battlefield that is more than 9寸 away from any 敌方模型.</characteristic>
       </characteristics>
     </profile>
     <profile id="bf08-247d-4629-3225" name="Flail of Corruption" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -7397,7 +7397,7 @@ If your summoning roll included any doubles, your character then 遭受 1点致�
         <characteristic name="S" typeId="59b1-319e-ec13-d466">+2</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Plague Weapon. Make D3 hit rolls each time you attack with 这个武器, 而不是 only one. Excess damage from 这个武器 is not lost; instead keep allocating damage to another model in the 单位 until either all the damage has been allocated or the target is destroyed.</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Plague Weapon. Make D3 hit rolls each time you attack with 这个武器, 而不是 only one. Excess damage from 这个武器 is not lost; instead keep allocating damage to another 模型 in the 单位 until either all the damage has been allocated or the target is destroyed.</characteristic>
       </characteristics>
     </profile>
     <profile id="9b58-344a-01a5-4680" name="Plaguespitter" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">

@@ -8,7 +8,7 @@
     <categoryEntry id="4e73-491c-d01a-5318" name="阵营: Astra Telepathica" hidden="false"/>
     <categoryEntry id="0890-8723-7184-d191" name="阵营: Scholastica Psykana" hidden="false"/>
     <categoryEntry id="8b59-d0de-69c5-2c53" name="原铸 灵能者" hidden="false"/>
-    <categoryEntry id="751d-39bf-3f92-fc7b" name="Wyrdvane Psykers" hidden="false"/>
+    <categoryEntry id="751d-39bf-3f92-fc7b" name="Wyrdvane 灵能者" hidden="false"/>
     <categoryEntry id="0529-accb-b64c-d8a9" name="Astropath" hidden="false"/>
   </categoryEntries>
   <entryLinks>
@@ -25,7 +25,7 @@
         <categoryLink id="93ca-f788-31fd-37b5" name="灵能者" hidden="false" targetId="e691-aad7-d21c-1023" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="047b-f9f0-9b96-3c75" name="Wyrdvane Psykers" hidden="false" collective="false" import="true" targetId="949d-9ba4-100f-71a7" type="selectionEntry">
+    <entryLink id="047b-f9f0-9b96-3c75" name="Wyrdvane 灵能者" hidden="false" collective="false" import="true" targetId="949d-9ba4-100f-71a7" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="e57b-5440-673f-4351" name="New CategoryLink" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
         <categoryLink id="7879-0fe1-9005-d4ae" name="阵营: Astra Militarum" hidden="false" targetId="3263-4233-4344-6228" primary="false"/>
@@ -34,7 +34,7 @@
         <categoryLink id="1c21-7a49-daab-c802" name="阵营: Scholastica Psykana" hidden="false" targetId="0890-8723-7184-d191" primary="false"/>
         <categoryLink id="9061-e7f3-c571-1842" name="步兵" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
         <categoryLink id="63fc-4990-a549-c223" name="灵能者" hidden="false" targetId="e691-aad7-d21c-1023" primary="false"/>
-        <categoryLink id="0992-8a23-8e1b-48ce" name="Wyrdvane Psykers" hidden="false" targetId="751d-39bf-3f92-fc7b" primary="false"/>
+        <categoryLink id="0992-8a23-8e1b-48ce" name="Wyrdvane 灵能者" hidden="false" targetId="751d-39bf-3f92-fc7b" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="c9b6-dbde-5c24-172f" name="原铸 灵能者" hidden="false" collective="false" import="true" targetId="9b5a-effd-2444-2b49" type="selectionEntry">
@@ -247,7 +247,7 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="949d-9ba4-100f-71a7" name="Wyrdvane Psykers" publicationId="104e-06dd-pubN65713" page="101" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="949d-9ba4-100f-71a7" name="Wyrdvane 灵能者" publicationId="104e-06dd-pubN65713" page="101" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="increment" field="e356-c769-5920-6e14" value="1">
           <conditions>
@@ -266,12 +266,12 @@
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time you take a Psychic test or 否定巫术测试 for 这个单位, roll 1D6 而不是 2D6. You can 1 to the Psychic tests you make for 这个单位 if it has 3 or more models, or 2 to tests if it has 6 or more 模型.</characteristic>
           </characteristics>
         </profile>
-        <profile id="1131-d52a-ba71-1ffe" name="Psykers (Wyrdvane)" hidden="false" typeId="bc97-dea9-9e88-bb7d" typeName="灵能者">
+        <profile id="1131-d52a-ba71-1ffe" name="灵能者 (Wyrdvane)" hidden="false" typeId="bc97-dea9-9e88-bb7d" typeName="灵能者">
           <characteristics>
             <characteristic name="Cast" typeId="5afb-9914-904b-d3b3">1</characteristic>
             <characteristic name="Deny" typeId="b5ac-9c20-5d5a-6f9b">1</characteristic>
             <characteristic name="Powers Known" typeId="69d7-b45e-00a2-7e46">惩击, 1 Psykana</characteristic>
-            <characteristic name="Other" typeId="c2e2-f115-0003-5d7b">When manifesting or denying a psychic power, first select a model in 这个单位 -- measure range, visibility, etc. from 这个模型. If 这个单位 sufferes Perils of the Warp, it 遭受 D3 致命伤 as described in the core rules, but 单位 范围内 6寸 will only suffer damage if the Perfils of the Warp causes the last model in the manifesting 单位 to be slain.</characteristic>
+            <characteristic name="Other" typeId="c2e2-f115-0003-5d7b">When manifesting or denying a psychic power, first select a 模型 in 这个单位 -- measure range, visibility, etc. from 这个模型. If 这个单位 sufferes Perils of the Warp, it 遭受 D3 致命伤 as described in the core rules, but 单位 范围内 6寸 will only suffer damage if the Perfils of the Warp causes the last 模型 in the manifesting 单位 to be slain.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -395,7 +395,7 @@
               <characteristics>
                 <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">6</characteristic>
                 <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">2D6寸</characteristic>
-                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Draw a straight line 2D6寸 long directly away from the 灵能者. Roll a die for each model the center of the line passes over. On a 4+ that model&apos;s 单位 遭受 1点致命伤.</characteristic>
+                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Draw a straight line 2D6寸 long directly away from the 灵能者. Roll a die for each 模型 the center of the line passes over. On a 4+ that model&apos;s 单位 遭受 1点致命伤.</characteristic>
               </characteristics>
             </profile>
           </profiles>

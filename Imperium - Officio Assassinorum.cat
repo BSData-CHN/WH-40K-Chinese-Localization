@@ -94,7 +94,7 @@
           </constraints>
           <rules>
             <rule id="a920-6294-7463-72c8" name="Priority Threat Neutralised - 1 CP" hidden="false">
-              <description>Use this Statagem after an 敌方 CHARACTER model is slain by an OFFICIO ASSASSINORUM 单位 from your army. You gain 2 Command Points (or 3 Command Points if the CHARACTER was your opponent&apos;s Warlord). You can only use this Stratagem once for each 敌方 Character model slain.</description>
+              <description>Use this Statagem after an 敌方 CHARACTER 模型 is slain by an OFFICIO ASSASSINORUM 单位 from your army. You gain 2 Command Points (or 3 Command Points if the CHARACTER was your opponent&apos;s Warlord). You can only use this Stratagem once for each 敌方 Character 模型 slain.</description>
             </rule>
           </rules>
           <costs>
@@ -116,7 +116,7 @@
           </constraints>
           <rules>
             <rule id="bf4b-5850-c404-e53d" name="Stratagem (Callidus) Acrobatic - 1 CP" hidden="false">
-              <description>Use this Stratagem in your 移动阶段. Choose one CALLIDUS ASSASSIN from your army. That model can Advance and charge this turn. 此外, until the start of the next battle round, substract 1 from hit rolls for attacks that target the chosen model.</description>
+              <description>Use this Stratagem in your 移动阶段. Choose one CALLIDUS ASSASSIN from your army. That 模型 can Advance and charge this turn. 此外, until the start of the next battle round, substract 1 from hit rolls for attacks that target the chosen model.</description>
             </rule>
             <rule id="e199-9c65-6d80-8e39" name="Stratagem (Callidus) Supreme Deception - 2 CP" hidden="false">
               <description>Use this Stratagem at the start of any battle round after the first. Choose one CALLIDUS ASSASSIN from your army. That model&apos;s Reigh of Confusion ability is considered to be in effect until the end of that battle round. You can only use this Stratagem once per battle.</description>
@@ -141,7 +141,7 @@
           </constraints>
           <rules>
             <rule id="04cf-3693-e46d-116a" name="Stratagem (Culexus) Soul 惧妖 - 2 CP" hidden="false">
-              <description>Use this Stratagem at the start of the 肉搏阶段. Choose one CULEXUS ASSASSIN from your army. 敌方单位 范围内 3寸 of that model cannot be chosen to fight 这个阶段 until after all other 单位 have done so, even if they charged. If one of those 单位 has an ability that allows them to fight first 这个阶段, they instead fight in 这个阶段 as if they do not have that ability.</description>
+              <description>Use this Stratagem at the start of the 肉搏阶段. Choose one CULEXUS ASSASSIN from your army. 敌方单位 范围内 3寸 of that 模型 cannot be chosen to fight 这个阶段 until after all other 单位 have done so, even if they charged. If one of those 单位 has an ability that allows them to fight first 这个阶段, they instead fight in 这个阶段 as if they do not have that ability.</description>
             </rule>
             <rule id="2802-7ced-96c6-a859" name="Stratagem (Culexus) Pariah&apos;s Gaze - 1 CP" hidden="false">
               <description>Use this Stratagem in your 射击阶段, before choosing a CULEXUS ASSASSIN to shoot with. 直到阶段结束, the Damage charateristic of that model&apos;s ranged 武器 is increased to D3.</description>
@@ -166,10 +166,10 @@
           </constraints>
           <rules>
             <rule id="1d18-acd4-9a02-433e" name="Stratagem (Eversor) Hypermetabolism - 1 CP" hidden="false">
-              <description>Use this Stratagem at the start of any phase. Choose one EVERSOR ASSASSIN from your army. Until the end of that phase, 投掷1个D6 each time that model loses a wound (excluding those lost as the result of 1点致命伤); on a 4+ the wound is not lost.</description>
+              <description>Use this Stratagem at the start of 任何阶段. Choose one EVERSOR ASSASSIN from your army. Until the end of that phase, 投掷1个D6 each time that 模型 loses a wound (excluding those lost as the result of 1点致命伤); on a 4+ the wound is not lost.</description>
             </rule>
             <rule id="b53f-3942-dafc-084d" name="Stratagem (Eversor) Stimm Overload - 2 CP" hidden="false">
-              <description>Use this Stratagem at the end of the 肉搏阶段. Choose one EVERSOR ASSASSIN from your army to fight with, even if that model has already fought 这个阶段. After that model has fought, 投掷1个D6. On a 1, 2 or 3 it 遭受 1 致命伤.</description>
+              <description>Use this Stratagem at the end of the 肉搏阶段. Choose one EVERSOR ASSASSIN from your army to fight with, even if that 模型 has already fought 这个阶段. After that 模型 has fought, 投掷1个D6. On a 1, 2 or 3 it 遭受 1 致命伤.</description>
             </rule>
           </rules>
           <costs>
@@ -191,7 +191,7 @@
           </constraints>
           <rules>
             <rule id="50a2-9055-eda2-4d95" name="Stratagem (Vindicare) Double Kill - 1 CP" hidden="false">
-              <description>Use this Stratagem in your 射击阶段, after a VINDICARE ASSASSIN from your army shoots. That model can shoot one additional time 这个阶段 (this must be at a different target).</description>
+              <description>Use this Stratagem in your 射击阶段, after a VINDICARE ASSASSIN from your army shoots. That 模型 can shoot one additional time 这个阶段 (this must be at a different target).</description>
             </rule>
             <rule id="c804-6fed-64cd-efa2" name="Stratagem (Vindicare) Turbo-Penetrator Round - 1 CP" hidden="false">
               <description>Use this Stratagem in your 射击阶段, after an attack made with an exitus pistol or extus rifle by a VINDICARE ASSASSIN from your army scores a hit against a target that is either a VEHICLE or a MONSTER. Do not make a wound roll for that attack; instead that hit inflicts D3 致命伤 on the target. If this stratagem is used then the Head Shot ability dies not apply to that attack.</description>
@@ -241,12 +241,12 @@
         </profile>
         <profile id="41a0-3a33-8fa4-7367" name="Reign of Confusion" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If you have any models with this ability in your army, then during the first battle round you must roll a dice each time your opponent spends Command Points (CPs) to use a Stratagem. On a 4+, your opponent must spend one extra CP to use that Stratagem, or else it has no effect (the CPs spend so far are lost). This ability cannot affect Stratagems used &apos;before the battle begins&apos;.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If you have any 模型 with this ability in your army, then during the first battle round you must roll a dice each time your opponent spends Command Points (CPs) to use a Stratagem. On a 4+, your opponent must spend one extra CP to use that Stratagem, or else it has no effect (the CPs spend so far are lost). This ability cannot affect Stratagems used &apos;before the battle begins&apos;.</characteristic>
           </characteristics>
         </profile>
         <profile id="252e-b493-59fe-9452" name="Polymorphine" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">部署期间, 可以放置 这个模型 in disguise 而不是 placing it on the battlefield.  At the end of any of your 移动阶段 这个模型 can revert to its true form - set it up anywhere on the battlefield that is more than D6+3寸 away from any 敌方模型.  For example if you roll a 4, the model can be set up anywhere that is more than 7寸 from any 敌方模型.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">部署期间, 可以放置 这个模型 in disguise 而不是 placing it on the battlefield.  At the end of any of your 移动阶段 这个模型 can revert to its true form - set it up anywhere on the battlefield that is more than D6+3寸 away from any 敌方模型.  For example if you roll a 4, the 模型 can be set up anywhere that is more than 7寸 from any 敌方模型.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -371,7 +371,7 @@
         </profile>
         <profile id="188f-a12e-5ec8-001c" name="Abomination" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 can never be targeted or affected by 灵能 in any way. PSYKERS that are 范围内 18寸 of any Culexus Assassins must subtract 2 from Psychic tests and Deny the witch tests they take.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 can never be targeted or affected by 灵能 in any way. 灵能者 that are 范围内 18寸 of any Culexus Assassins must subtract 2 from Psychic tests and Deny the witch tests they take.</characteristic>
           </characteristics>
         </profile>
         <profile id="a9b3-8751-d45c-5aa1" name="Psychic Assassin" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -407,7 +407,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Change 这个武器&apos;s type to Assault D6 if there are 敌方 PSYKERS 范围内 18寸 of the bearer</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Change 这个武器&apos;s type to Assault D6 if there are 敌方 灵能者 范围内 18寸 of the bearer</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -599,7 +599,7 @@
       <profiles>
         <profile id="c61f-a4b1-dfed-3178" name="Spy Mask" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Enemy models do not gain the bonus to thier saving throws for being in cover against attacks made with ranged 武器 by 这个模型.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Enemy 模型 do not gain the bonus to thier saving throws for being in cover against attacks made with ranged 武器 by 这个模型.</characteristic>
           </characteristics>
         </profile>
         <profile id="9a9e-b03d-a60f-17bd" name="Stealth Suit" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -632,7 +632,7 @@
         </profile>
         <profile id="afbe-7c9e-41ca-f2ad" name="Head Shot" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">After 这个模型 has made an attack with a 远程武器, 投掷1个D6 if a model suffered damage from that attack but has not been slain; on a 3+ that model 遭受 1 致命伤 and, if that model is not slain, you can roll one more D6. This time, that model 遭受 1 致命伤 on a 4+. Keep rolling one D6, increasing the result required, to cause 1点致命伤 by 1 each time, until the model being rolled for is slain or the roll is failed.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">After 这个模型 has made an attack with a 远程武器, 投掷1个D6 if a 模型 suffered damage from that attack but has not been slain; on a 3+ that 模型 遭受 1 致命伤 and, if that 模型 is not slain, you can roll one more D6. This time, that 模型 遭受 1 致命伤 on a 4+. Keep rolling one D6, increasing the result required, to cause 1点致命伤 by 1 each time, until the 模型 being rolled for is slain or the roll is failed.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -761,7 +761,7 @@
       <description>这个模型 can never have a 主将 Trait. 部署期间, you can set 这个模型 up in concealment 而不是 placing it on the battlefield. At the end of any of your 移动阶段, 这个模型 can reveal it&apos;s position - set it up anywhere on the battlefield that is more then 9寸 from any 敌方模型.</description>
     </rule>
     <rule id="62ec-db58-d522-deda" name="Lightning Reflexes" publicationId="f731-6aa6-pubN66377" hidden="false">
-      <description>A model with this special rule 拥有 4+ 特殊保护.</description>
+      <description>A 模型 with this special rule 拥有 4+ 特殊保护.</description>
     </rule>
     <rule id="2dc4-c403-ca18-9344" name="Execution Force" page="" hidden="false">
       <description>So long as your 主将 is from the IMPERIUM, you can include 这个单位 in a Vanguard Detachment even if that Detachment contains no HQ units. However, if you do so, that Detachment&apos;s Command Benefits are changed to &apos;None&apos; unless that Detachment contains exactly 1 of each assassin.</description>
