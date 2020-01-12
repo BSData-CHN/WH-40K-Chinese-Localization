@@ -559,7 +559,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time a 模型 with an attack squig fights, it can make 2 additional attacks with 这个武器.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 a 模型 with an attack squig fights, it can make 2 additional 攻击 with 这个武器.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -772,7 +772,7 @@
         </profile>
         <profile id="cc66-7ec4-b03a-8121" name="Waaagh! Energy" publicationId="11b5-77b9-pubN65537" page="88" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to any Psychic test rolls made for 这个模型 for every 10 友方 兽人 模型 excluding gretchin 范围内 10&quot; of it when the roll is made, to a maximum of +3.  However, if result of the test is 12+, 这个模型 immediately 遭受 Perils of the Warp.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to any Psychic test rolls made for 这个模型 for every 10 友方 兽人 模型 excluding gretchin 范围内 10&quot; of it when the roll is made, to a maximum of +3.  然而, if result of the test is 12+, 这个模型 立即 遭受 Perils of the Warp.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -976,10 +976,10 @@
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 is equipped with a kustom force field, 友方 兽人 单位 have a 5+ 特殊保护 against attacks made with ranged 武器 while they are wholly 范围内 9&quot; of it.  While a 模型 equipped with a kustom force field is embarked, the vehicle transporting it 拥有 5+ 特殊保护 against attacks made with ranged 武器 instead.  </characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 is equipped with a kustom force field, 友方 兽人 单位 have a 5+ 特殊保护 对抗 攻击 made with ranged 武器 while they are wholly 范围内 9&quot; of it.  While a 模型 equipped with a kustom force field is embarked, the 载具 transporting it 拥有 5+ 特殊保护 对抗 攻击 made with ranged 武器 instead.  </characteristic>
           </characteristics>
         </profile>
-        <profile id="4dc2-965d-25c8-8625" name="Kustom Force Field (Vehicle)" publicationId="11b5-77b9-pubN65537" page="121" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="4dc2-965d-25c8-8625" name="Kustom Force Field (载具)" publicationId="11b5-77b9-pubN65537" page="121" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <modifiers>
             <modifier type="set" field="name" value="Kustom Force Field"/>
             <modifier type="set" field="hidden" value="true">
@@ -993,7 +993,7 @@
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 is equipped with a kustom force field, 友方 兽人 单位 that are wholly 范围内 9&quot; have a 5+ 特殊保护 against ranged 武器.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 is equipped with a kustom force field, 友方 兽人 单位 that are wholly 范围内 9&quot; have a 5+ 特殊保护 对抗 ranged 武器.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1012,7 +1012,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">2D6</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-5</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time 这个单位 is chosen to shoot with, roll once to determine the Strength characteristic of 这个武器. If the result is 11+ each successful hit inflicts D3 致命伤 on the target 此外 to any normal damage.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 这个单位 is chosen to shoot with, roll once to determine the Strength characteristic of 这个武器. If the result is 11+ each successful hit inflicts D3 致命伤 on the target 此外 to any normal damage.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1059,9 +1059,9 @@
         </profile>
         <profile id="d485-1fa7-a95d-1ff4" name="Grot Oiler" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per battle, a Grot Oiler can assist its master in making repairs. If it does so, the 模型 being repaired regains 1 additional lost wound.
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, a Grot Oiler can assist its master in making repairs. If it does so, the 模型 being repaired regains 1 additional lost wound.
 
-When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on the battlefield. The death of a Grot Oiler is ignored for the purposes of 士气测试. The Grot Oiler is considered to have the CHARACTER 关键字 for the purposes of shooting attacks.</characteristic>
+When rolling to wound 这个单位, use the Big Mek’s Toughness while it is 战场上. The death of a Grot Oiler is ignored for the purposes of 士气测试. The Grot Oiler is considered to have the CHARACTER 关键字 for the purposes of 射击攻击.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1184,7 +1184,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
             <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If a 模型 遭受 any unsaved wounds from 这个武器 and is not slain, 投掷1个D6 在阶段结束时.  If the result is greater than that model&apos;s Wounds characteristic, it is slain.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If a 模型 遭受 any unsaved wounds from 这个武器 and is not slain, 投掷1个D6 在阶段结束时.  If the result is greater than that 模型的 Wounds characteristic, it is slain.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1196,7 +1196,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
     </selectionEntry>
     <selectionEntry id="1387-57d0-6d81-dbcb" name="Big Mek on Warbike [Legends]" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="9a66-28d9-c157-edc5" name="Big Mek on Bike" publicationId="28ec-711c-pubN118139" page="16" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="9a66-28d9-c157-edc5" name="Big Mek on 摩托" publicationId="28ec-711c-pubN118139" page="16" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">14&quot;</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -1338,7 +1338,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
         </profile>
         <profile id="4da6-e3ff-934f-cfe3" name="Kunnin&apos; Infiltrator" publicationId="11b5-77b9-pubN65537" page="88" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">部署期间, 可以放置 Boss Snikrot in hiding 而不是 placing him on the battlefield.  At the end of any of your 移动阶段, Snikrot can stalk from his hiding place - Set him up anywhere on the battlefield that is more than 9&quot; away from any 敌方模型.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">部署期间, 可以放置 Boss Snikrot in hiding 而不是 placing him 战场上.  At the end of any of your 移动阶段, Snikrot can stalk from his hiding place - Set him up 任何位置 战场上 that is more than 9&quot; away from 任何敌方模型.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1485,7 +1485,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
             <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time the bearer fights, it can make 1 additional attack with 这个武器. 这个武器 always wounds on a 4+ unless it is targeting a VEHICLE or TITANIC model, in which case it wounds on a 6+.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 the bearer fights, it can make 1 additional attack with 这个武器. 这个武器 always wounds 结果为4+ unless it is targeting a 载具 or TITANIC model, in which case it wounds 结果为6+.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1512,7 +1512,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
         </profile>
         <profile id="1ffd-2d16-f0d9-cc92" name="Grot Orderly" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per game, when the Painboy is attempting to heal a 模型 using Dok&apos;s Tools, you may re-roll the dice, either when determining if the surgery is successful, or when calculating the number of wounds regained.  When rolling to wound 这个单位, always use the Painboy&apos;s Toughness (while it is on the battlefield). The death of a Grot Orderly is ignored for the purposes of morale. The Grot Orderly is considered to have the CHARACTER 关键字 for the purposes of shooting attacks.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per game, when the Painboy is attempting to heal a 模型 using Dok&apos;s Tools, you may re-roll the dice, either when determining if the surgery is successful, or when calculating the number of wounds regained.  When rolling to wound 这个单位, always use the Painboy&apos;s Toughness (while it is 战场上). The death of a Grot Orderly is ignored for the purposes of morale. The Grot Orderly is considered to have the CHARACTER 关键字 for the purposes of 射击攻击.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1546,12 +1546,12 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
         </profile>
         <profile id="68f7-8474-f20f-3a26" name="Sawbonez" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of your 移动阶段, 这个模型 can attempt surgery on a single 友方 &lt;氏族&gt; 步兵 or 摩托 模型 范围内 1&quot; of it. If it does so, 投掷1个D6 to determine if the surgery is successful. On a 1 the surgery fails and the 模型 you were attempting to heal loses a wound. On a 2+ the surgery succeeds and that 模型 regains D3 lost wounds. A 模型 can only be the target of a surgery attempt once per turn.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of your 移动阶段, 这个模型 can attempt surgery 结果为single 友方 &lt;氏族&gt; 步兵 or 摩托 模型 范围内 1&quot; of it. If it does so, 投掷1个D6 to determine if the surgery is successful. 结果为1 the surgery fails and the 模型 you were attempting to heal 失去1点W. 结果为2+ the surgery succeeds and that 模型 regains D3 lost wounds. A 模型 can only be the target of a surgery attempt once per turn.</characteristic>
           </characteristics>
         </profile>
         <profile id="f604-0d4d-40ad-6bf4" name="Grot Orderly" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per battle, you can re-roll the dice when 这个模型 is attempting to heal a 模型 using the Sawbonez ability, either when determining if the surgery is successful or when determining the number of lost wounds regained.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, you can re-roll the dice when 这个模型 is attempting to heal a 模型 using the Sawbonez ability, either when determining if the surgery is successful or when determining the number of lost wounds regained.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1626,7 +1626,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
         </profile>
         <profile id="b5e2-d278-cab3-d262" name="Sawbonez" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228"> At the end of your 移动阶段, 这个模型 can attempt surgery on one 友方 &lt;氏族&gt; 步兵 or &lt;氏族&gt; 摩托 模型 范围内 3&quot;. If it does, 投掷1个D6; on a 1 that 友方模型 loses 1 wound, otherwise it regains D3 lost wounds. Each 模型 can only have surgery attempted on it once per turn. </characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228"> At the end of your 移动阶段, 这个模型 can attempt surgery on one 友方 &lt;氏族&gt; 步兵 or &lt;氏族&gt; 摩托 模型 范围内 3&quot;. If it does, 投掷1个D6; 结果为1 that 友方模型 loses 1 wound, otherwise it regains D3 lost wounds. Each 模型 can only have surgery attempted on it once per turn. </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1714,7 +1714,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
         </profile>
         <profile id="f5eb-58eb-f0a1-6cee" name="Great Waagh!" publicationId="11b5-77b9-pubN65537" page="84" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">友方 兽人 步兵单位 范围内 6&quot; of 这个模型 at the start of the Charge phase can charge even if they Advanced this turn.  Furthermore, 友方 兽人 步兵模型 add 1 to their Attacks characteristic if they charged this turn and Ghaz is 范围内 6&quot; of their 单位 when they are chosen to fight.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">友方 兽人 步兵单位 范围内 6&quot; of 这个模型 at the start of the 冲锋阶段 can charge even if they Advanced this turn.  Furthermore, 友方 兽人 步兵模型 add 1 to their 攻击 characteristic if they charged this turn and Ghaz is 范围内 6&quot; of their 单位 when they are chosen to fight.</characteristic>
           </characteristics>
         </profile>
         <profile id="9d50-5568-fdbd-ea17" name="The Boss is Watchin&apos;" publicationId="11b5-77b9-pubN65537" page="84" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -1813,7 +1813,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
         </profile>
         <profile id="e5f8-24a7-6207-bbb2" name="Ammo Runt" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time 这个单位 shoots, when making to hit rolls, you can re-roll one dice for each ammo runt accompanying it.  When rolling to wound 这个单位, always use the Unit&apos;s Toughness (While it is on the battlefield).  The death of a Ammo Runt is ignored for the purposes of morale.  If the 单位 has CHARACTER, then the Ammo Runt is considered to have the CHARACTER 关键字 for the purposes of shooting attacks.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 这个单位 shoots, when making to hit rolls, you can re-roll one dice for each ammo runt accompanying it.  When rolling to wound 这个单位, always use the Unit&apos;s Toughness (While it is 战场上).  The death of a Ammo Runt is ignored for the purposes of morale.  If the 单位 has CHARACTER, then the Ammo Runt is considered to have the CHARACTER 关键字 for the purposes of 射击攻击.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1980,12 +1980,12 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
         </profile>
         <profile id="4217-1b88-d6e7-35c5" name="Cybork Body" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time 这个模型 loses a wound, 投掷1个D6; on a roll of 5+, that wound is not lost.  You cannot make a Dok&apos;s Tools roll for 这个模型 if you do so.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 这个模型 失去1点W, 投掷1个D6; 结果为roll of 5+, that wound is not lost.  You cannot make a Dok&apos;s Tools roll for 这个模型 if you do so.</characteristic>
           </characteristics>
         </profile>
         <profile id="80f1-0297-40d0-3219" name="Full Throttle" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When Boss Zagstruk Advances you can add 6&quot; to the move rather than D6, 投掷1个D6 after.   On a roll of 1, he 遭受 1点致命伤. </characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When Boss Zagstruk Advances you can add 6&quot; to the move rather than D6, 投掷1个D6 after.   结果为roll of 1, he 遭受 1点致命伤. </characteristic>
           </characteristics>
         </profile>
         <profile id="4344-9570-6753-0234" name="Drill Boss" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -1995,7 +1995,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
         </profile>
         <profile id="7ee3-3228-2b35-b598" name="Stormboyz Strike" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">部署期间, 可以放置 这个单位 flying high in the skies 而不是 placing it on the battlefield.  At the end of any of your 移动阶段 这个单位 can plummet onto the battlefield - set them up anywhere on the battlefield, more than 9&quot; away from any 敌方模型.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">部署期间, 可以放置 这个单位 flying high in the skies 而不是 placing it 战场上.  At the end of any of your 移动阶段 这个单位 can plummet onto the battlefield - set them up 任何位置 战场上, more than 9&quot; away from 任何敌方模型.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2038,7 +2038,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">+2</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time the Bearer fights only 3 attacks can be made with 这个武器</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 the Bearer fights only 3 攻击 can be made with 这个武器</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2125,22 +2125,22 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
         </profile>
         <profile id="21f9-2377-1494-e691" name="One Scalpel Short of a Medpak" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If, at the start of the Charge phase, there are no 友方 兽人 步兵单位 范围内 3&quot; of Mad Dok, he will attempt to charge the nearest 敌方单位, if there is one 范围内 12&quot;.  He will do this even if he Advanced or Fell Back this turn, but not if he is already 范围内 1&quot; of an Enemy.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If, at the start of the 冲锋阶段, there are no 友方 兽人 步兵单位 范围内 3&quot; of Mad Dok, he will attempt to charge the nearest 敌方单位, if there is one 范围内 12&quot;.  He will do this even if he Advanced or Fell Back this turn, but not if he is already 范围内 1&quot; of an 敌方.</characteristic>
           </characteristics>
         </profile>
         <profile id="9377-38d5-4071-8484" name="Cybork Body" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time 这个模型 loses a wound, 投掷1个D6; on a 5+ that wound is not lost.  You cannot make a Dok&apos;s Tools roll for 这个模型 if you do so.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 这个模型 失去1点W, 投掷1个D6; 结果为5+ that wound is not lost.  You cannot make a Dok&apos;s Tools roll for 这个模型 if you do so.</characteristic>
           </characteristics>
         </profile>
         <profile id="94a9-1292-4402-857b" name="Dok&apos;s Tools" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">投掷1个D6 each time an 兽人 步兵 or 兽人 摩托 单位 loses a wound whilst 范围内 3&quot; of Mad Dok Grotsnik. On a 6, 那个单位 does not lose that wound. This is not cumulative with other Dok&apos;s Tools.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">投掷1个D6 每次 an 兽人 步兵 or 兽人 摩托 单位 失去1点W whilst 范围内 3&quot; of Mad Dok Grotsnik. 结果为6, 那个单位 does not lose that wound. This is not cumulative with other Dok&apos;s Tools.</characteristic>
           </characteristics>
         </profile>
         <profile id="7497-6af7-9ccb-c48d" name="Sawbones" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of your 移动阶段, Mad Dok Grotsnik can attempt surgery on a single 友方 兽人 步兵 or 摩托 模型 范围内 1&quot; of him. If he does so, 投掷1个D6 to determine if the surgery is successful. On a 1 the surgery fails, and the 模型 you were attempting to heal loses a wound. On a 2+ the surgery succeeds, and that 模型 regains D3 lost wounds. A 模型 can only be the target of a surgery attempt once per turn.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of your 移动阶段, Mad Dok Grotsnik can attempt surgery 结果为single 友方 兽人 步兵 or 摩托 模型 范围内 1&quot; of him. If he does so, 投掷1个D6 to determine if the surgery is successful. 结果为1 the surgery fails, and the 模型 you were attempting to heal 失去1点W. 结果为2+ the surgery succeeds, and that 模型 regains D3 lost wounds. A 模型 can only be the target of a surgery attempt once per turn.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2240,7 +2240,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
       <profiles>
         <profile id="198b-baf4-e943-1df7" name="Green Tide" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个单位 includes 20 or more models, add 1 to the Attacks characteristic of each 模型 in the unit.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个单位 includes 20 or more models, add 1 to the 攻击 characteristic of each 模型 in the unit.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2590,7 +2590,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">+1</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time the bearer fights it can make 1 additional attack with 这个武器</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 the bearer fights it can make 1 additional attack with 这个武器</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2767,7 +2767,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
       <profiles>
         <profile id="daa5-287a-bb53-661d" name="Cybork Body" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time a 模型 with a Cybork body loses a wound, 投掷1个D6; on a 6 that wound is not lost.  You cannot make a Dok&apos;s Tools roll for 这个模型 if you do so.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 a 模型 with a Cybork body 失去1点W, 投掷1个D6; 结果为6 that wound is not lost.  You cannot make a Dok&apos;s Tools roll for 这个模型 if you do so.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2932,7 +2932,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1484-ce84-84bf-7da0" type="max"/>
           </constraints>
           <profiles>
-            <profile id="c80a-7a05-389b-22b7" name="Boss Nob on Bike" publicationId="11b5-77b9-pubN65537" page="99" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+            <profile id="c80a-7a05-389b-22b7" name="Boss Nob on 摩托" publicationId="11b5-77b9-pubN65537" page="99" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
               <characteristics>
                 <characteristic name="M" typeId="0bdf-a96e-9e38-7779">14&quot;</characteristic>
                 <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -3019,14 +3019,14 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
     </selectionEntry>
     <selectionEntry id="7bd1-520c-ad45-f566" name="Burna" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
-        <profile id="be17-6dfc-1754-fd78" name="Burna (Shooting)" publicationId="11b5-77b9-pubN65537" page="119" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="be17-6dfc-1754-fd78" name="Burna (射击)" publicationId="11b5-77b9-pubN65537" page="119" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">8&quot;</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault D3</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Before a 单位 fires its burnas, roll once for the number of attacks and use this for all burnas fired by the 单位 in 这个阶段.  When firing a burna, it automatically hits its target.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Before a 单位 fires its burnas, roll once for the number of 攻击 and use this for all burnas fired by the 单位 in 这个阶段.  When firing a burna, it automatically hits its target.</characteristic>
           </characteristics>
         </profile>
         <profile id="de32-9f63-78ee-d5a2" name="Burna (Melee)" publicationId="11b5-77b9-pubN65537" page="121" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -3428,7 +3428,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
       <profiles>
         <profile id="48ce-7df6-c6a3-2890" name="Kunnin&apos; Infiltrators" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">部署期间, you may set up a 单位 of Kommandos in hiding 而不是 placing them on the battlefield.  At the end of any of your 移动阶段, they can stalk from their hiding place - set them up anywhere on the battlefield that is more than 9&quot; away from any 敌方模型.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">部署期间, you may set up a 单位 of Kommandos in hiding 而不是 placing them 战场上.  At the end of any of your 移动阶段, they can stalk from their hiding place - set them up 任何位置 战场上 that is more than 9&quot; away from 任何敌方模型.</characteristic>
           </characteristics>
         </profile>
         <profile id="c01e-faa9-8da1-53c2" name="Sneaky Gits" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -3596,14 +3596,14 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
     </selectionEntry>
     <selectionEntry id="2278-28c8-44bf-e10a" name="Burna" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="aac2-183a-c727-7247" name="Burna (Shooting)" publicationId="11b5-77b9-pubN65537" page="119" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="aac2-183a-c727-7247" name="Burna (射击)" publicationId="11b5-77b9-pubN65537" page="119" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">8&quot;</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault D3</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Before a 单位 fires its burnas, roll once for the number of attacks and use this for all burnas fired by the 单位 in 这个阶段.  When firing a burna, it automatically hits its target.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Before a 单位 fires its burnas, roll once for the number of 攻击 and use this for all burnas fired by the 单位 in 这个阶段.  When firing a burna, it automatically hits its target.</characteristic>
           </characteristics>
         </profile>
         <profile id="47db-54e1-97d5-da15" name="Burna (Melee)" publicationId="11b5-77b9-pubN65537" page="121" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -3669,7 +3669,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
         </profile>
         <profile id="5538-830d-3990-6a25" name="Ramshackle" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">投掷1个D6 each time 这个模型 遭受 damage from an attack that 拥有 Damage characteristic of more than 1.  On a roll of 6, reduce the damage caused by the Attack to 1.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">投掷1个D6 每次 这个模型 遭受 damage from an attack that 拥有 Damage characteristic of more than 1.  结果为roll of 6, reduce the damage caused by the Attack to 1.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3699,7 +3699,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 can only be fired if a 单位 is 上车 on the vehicle.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 can only be fired if a 单位 is 上车 on the 载具.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3735,7 +3735,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">The bearer can only make a single attack with 这个武器 each time it fights.</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">The bearer can only make a single attack with 这个武器 每次 it fights.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3787,7 +3787,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
         </profile>
         <profile id="3a04-f936-098a-323b" name="Stormboyz Strike" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">部署期间, 可以放置 这个单位 flying high in the skies 而不是 placing it on the battlefield.  At the end of any of your 移动阶段 这个单位 can plummet onto the battlefield - set them up anywhere on the battlefield, more than 9&quot; away from any 敌方模型.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">部署期间, 可以放置 这个单位 flying high in the skies 而不是 placing it 战场上.  At the end of any of your 移动阶段 这个单位 can plummet onto the battlefield - set them up 任何位置 战场上, more than 9&quot; away from 任何敌方模型.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3913,7 +3913,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
         </profile>
         <profile id="6995-97bb-32f3-08f2" name="Scoutin&apos; Ahead" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">部署期间, 可以放置 a 单位 of Deffkoptas behind 敌方 lines 而不是 placing it on the battlefield.  At the end of any of your 移动阶段, the Deffkoptas can swoop around to ambush the foe - set them up anywhere on the battlefield that is more than 9&quot; away from any 敌方模型 and 范围内 14&quot; of a battlefield edge.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">部署期间, 可以放置 a 单位 of Deffkoptas behind 敌方 lines 而不是 placing it 战场上.  At the end of any of your 移动阶段, the Deffkoptas can swoop around to ambush the foe - set them up 任何位置 战场上 that is more than 9&quot; away from 任何敌方模型 and 范围内 14&quot; of a battlefield edge.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3929,7 +3929,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
         <categoryLink id="247d-ea99-e26c-ecf5" name="New CategoryLink" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="true"/>
         <categoryLink id="ad52-28d3-ae0f-b7cd" name="New CategoryLink" hidden="false" targetId="3117-16d8-fcef-4f56" primary="false"/>
         <categoryLink id="9bca-a8c0-17eb-8b95" name="Speed Freeks" hidden="false" targetId="258d-e4cb-6f35-fe20" primary="false"/>
-        <categoryLink id="165e-e73b-3206-4b99" name="Vehicle" hidden="false" targetId="c8fd-783f-3230-493e" primary="false"/>
+        <categoryLink id="165e-e73b-3206-4b99" name="载具" hidden="false" targetId="c8fd-783f-3230-493e" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="d037-8abd-6869-031e" name="Mob" hidden="false" collective="false" import="true" defaultSelectionEntryId="8dde-f5ad-2a3c-f2aa">
@@ -3980,7 +3980,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
                 </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups>
-                <selectionEntryGroup id="a2b1-bd9e-0536-ba33" name="Shooting Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="b36f-a611-5be0-f8e1">
+                <selectionEntryGroup id="a2b1-bd9e-0536-ba33" name="射击 Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="b36f-a611-5be0-f8e1">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db7f-39dd-e840-248d" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58ca-60e5-a80c-6dd5" type="max"/>
@@ -4070,7 +4070,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
       <profiles>
         <profile id="cb9b-5f98-297b-a048" name="Bigbomm" publicationId="28ec-711c-pubN118139" page="28" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A 模型 equipped with a bigbomm can drop it as it flies over 敌方单位 in its 移动阶段 After the 模型 has moved, pick one 敌方单位 that it flew over.  then, 投掷1个D6 for each 模型 in the 敌方单位 (up to a Max of 5 dice).  For Each roll of a 5+, the target 单位 遭受 1 致命伤.  It can only do this once per battle.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A 模型 equipped with a bigbomm can drop it as it flies over 敌方单位 in its 移动阶段 After the 模型 has moved, pick one 敌方单位 that it flew over.  then, 投掷1个D6 for each 模型 in the 敌方单位 (至多 a Max of 5 dice).  For Each roll of a 5+, the target 单位 遭受 1 致命伤.  It can only do this 一次性.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4097,7 +4097,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
         </profile>
         <profile id="57f6-682b-5a20-76a9" name="All Da Dakka" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">命中骰+1 for 这个模型&apos;s attacks in the 射击阶段 if all of those attacks target the same 单位 that phase.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">命中骰+1 for 这个模型&apos;s 攻击 in the 射击阶段 if all of those 攻击 target the same 单位 that phase.</characteristic>
           </characteristics>
         </profile>
         <profile id="df75-26da-69d4-7c94" name="Dakkajet1" hidden="false" typeId="1355-1e88-8ca1-9111" typeName="Flier 损伤表">
@@ -4129,7 +4129,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
         <infoLink id="ef70-37a0-7f54-a5d5" name="Airborne" hidden="false" targetId="15ea-860d-9eb6-21c3" type="rule"/>
         <infoLink id="e269-5a6a-3120-3d53" name="Hard to Hit" hidden="false" targetId="9caa-ff00-a5bd-5f04" type="rule"/>
         <infoLink id="f343-34eb-ab5f-e4f5" name="Crash and Burn" hidden="false" targetId="f3c6-3481-fb47-95a1" type="rule"/>
-        <infoLink id="28af-db33-e8c0-c3a8" name="Supersonic" hidden="false" targetId="869f-1549-caf7-29d3" type="profile"/>
+        <infoLink id="28af-db33-e8c0-c3a8" name="超音速" hidden="false" targetId="869f-1549-caf7-29d3" type="profile"/>
         <infoLink id="1a33-cb20-09a1-9eef" name="Dakka Dakka Dakka" hidden="false" targetId="52cc-983f-0b7b-683a" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -4193,7 +4193,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
         </profile>
         <profile id="1922-d41d-ba56-5096" name="Explosive Demise" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 投掷1个D6 before removing it from the battlefield, on a 4+ it crashes and 爆炸, 每个单位 范围内 6&quot; 遭受 3 致命伤.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 投掷1个D6 before removing it from the battlefield, 结果为4+ it crashes and 爆炸, 每个单位 范围内 6&quot; 遭受 3 致命伤.</characteristic>
           </characteristics>
         </profile>
         <profile id="46fd-04f6-cb22-d618" name="BurnaBom1" hidden="false" typeId="1355-1e88-8ca1-9111" typeName="Flier 损伤表">
@@ -4222,7 +4222,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
         </profile>
         <profile id="1b03-ecda-e527-a811" name="Grot Gunner" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When a Burna-bommer attacks with its 双联 big shoota, add 1 to its hit rolls.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When a Burna-bommer 攻击 with its 双联 big shoota, add 1 to its hit rolls.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4250,7 +4250,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
           <profiles>
             <profile id="63f3-ff06-5f84-5353" name="Burna Bomb" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A Burna-bommer can drop one burna bomb as it flies over 敌方单位 in its 移动阶段.  After the Burna-bommer has moved, pick one 敌方单位 that it flew over and 投掷1个D6 for each 模型 in the 单位 (up to a max of 10).   Add 1 to the dice rolls if the 敌方单位 is 步兵.  For each roll of a 5+, the 单位 being bombed 遭受 1点致命伤.  Each burna bomb can only be used once per battle.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A Burna-bommer can drop one burna bomb as it flies over 敌方单位 in its 移动阶段.  After the Burna-bommer has moved, pick one 敌方单位 that it flew over and 投掷1个D6 for each 模型 in the 单位 (至多 a max of 10).   Add 1 to the dice rolls if the 敌方单位 is 步兵.  For each roll of a 5+, the 单位 being bombed 遭受 1点致命伤.  Each burna bomb can only be used 一次性.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4346,7 +4346,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
         </profile>
         <profile id="ae35-a4f1-4f1b-71bc" name="Grot Gunner" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When a Blitza-bommer attacks with its big shoota, add 1 to its hit rolls.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When a Blitza-bommer 攻击 with its big shoota, add 1 to its hit rolls.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4375,7 +4375,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
           <profiles>
             <profile id="a712-9324-7ce1-94a9" name="Boom Bomb" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A Blitza-bommer can drop one boom bomb as it flies over 敌方单位 in its 移动阶段.  After the Blitza-bommer has moved, pick one 敌方单位 that it flew over and 投掷1个D6 for each 模型 in the 单位 (up to a max of 12).  Roll 3 dice instead for each VEHICLE or MONSTER in the unit.  For each roll of a 4+, the 单位 being bombed 遭受 1点致命伤.  Each boom bomb can only be used once per battle.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A Blitza-bommer can drop one boom bomb as it flies over 敌方单位 in its 移动阶段.  After the Blitza-bommer has moved, pick one 敌方单位 that it flew over and 投掷1个D6 for each 模型 in the 单位 (至多 a max of 12).  Roll 3 dice instead for each 载具 or MONSTER in the unit.  For each roll of a 4+, the 单位 being bombed 遭受 1点致命伤.  Each boom bomb can only be used 一次性.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4449,14 +4449,14 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
         </profile>
         <profile id="b57d-3a6f-4982-e066" name="Mekbrain-enhanced Weapon-sights" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A Wazbom Blastajet does not suffer the penalty to hit rolls for moving and firing 重型武器.  此外, 这个模型 can choose a single 敌方单位 each 射击阶段 - add 1 to 所有命中骰 for attacks made against 那个单位 with 这个模型&apos;s smasha gun.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A Wazbom Blastajet does not suffer the penalty to hit rolls for moving and firing 重型武器.  此外, 这个模型 can choose a single 敌方单位 each 射击阶段 - add 1 to 所有命中骰 for 攻击 made 对抗 那个单位 with 这个模型&apos;s smasha gun.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="0885-83bb-484a-f031" name="New InfoLink" hidden="false" targetId="15ea-860d-9eb6-21c3" type="rule"/>
         <infoLink id="25a9-208c-fefe-77ed" name="New InfoLink" hidden="false" targetId="9caa-ff00-a5bd-5f04" type="rule"/>
-        <infoLink id="63a1-cee1-aa75-4f9b" name="Supersonic" hidden="false" targetId="869f-1549-caf7-29d3" type="profile"/>
+        <infoLink id="63a1-cee1-aa75-4f9b" name="超音速" hidden="false" targetId="869f-1549-caf7-29d3" type="profile"/>
         <infoLink id="0849-6d48-3aca-98a8" name="Crash and Burn" hidden="false" targetId="f3c6-3481-fb47-95a1" type="rule"/>
         <infoLink id="2842-8494-e362-a49f" name="Dakka Dakka Dakka" hidden="false" targetId="52cc-983f-0b7b-683a" type="rule"/>
       </infoLinks>
@@ -4504,7 +4504,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If a 模型 遭受 any unsaved wounds from 这个武器 and is not slain, 投掷1个D6 在阶段结束时.  if the result is greater than that model&apos;s Wounds characteristic, it is slain.</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If a 模型 遭受 any unsaved wounds from 这个武器 and is not slain, 投掷1个D6 在阶段结束时.  if the result is greater than that 模型的 Wounds characteristic, it is slain.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4749,7 +4749,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
       <profiles>
         <profile id="3de1-8f04-34f1-b1f0" name="Outriders" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">部署期间, 可以放置 a 单位 of Wartrakks on the army&apos;s flanks 而不是 on the battlefield. At the end of any of your 移动阶段, the Wartrakks can race in to encircle the foe - set them up so that each 模型 is touching a battlefield edge and is more than 9&quot; away from any 敌方模型.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">部署期间, 可以放置 a 单位 of Wartrakks on the 军队的 flanks 而不是 战场上. At the end of any of your 移动阶段, the Wartrakks can race in to encircle the foe - set them up so that each 模型 is touching a battlefield edge and is more than 9&quot; away from 任何敌方模型.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4905,7 +4905,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
       <profiles>
         <profile id="8e47-5368-0170-63a5" name="Outriders" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">部署期间, 可以放置 a 单位 of Skorchas on the army&apos;s flanks 而不是 on the battlefield. At the end of any of your 移动阶段, the Skorchas can race in to encircle the foe - set them up so that each 模型 is touching a battlefield edge and is more than 9&quot; away from any 敌方模型.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">部署期间, 可以放置 a 单位 of Skorchas on the 军队的 flanks 而不是 战场上. At the end of any of your 移动阶段, the Skorchas can race in to encircle the foe - set them up so that each 模型 is touching a battlefield edge and is more than 9&quot; away from 任何敌方模型.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4996,7 +4996,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
       <profiles>
         <profile id="4c3b-4a1a-7e3b-28be" name="Outriders" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">部署期间, 可以放置 a 单位 of Warbuggies on the army&apos;s flanks 而不是 on the battlefield. At the end of any of your 移动阶段, the Warbuggies can race in to encircle the foe - set them up so that each 模型 is touching a battlefield edge and is more than 9&quot; away from any 敌方模型.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">部署期间, 可以放置 a 单位 of Warbuggies on the 军队的 flanks 而不是 战场上. At the end of any of your 移动阶段, the Warbuggies can race in to encircle the foe - set them up so that each 模型 is touching a battlefield edge and is more than 9&quot; away from 任何敌方模型.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5084,7 +5084,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
         </profile>
         <profile id="72dd-80cb-1886-0a76" name="Grot Krew" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A 单位 of Artillery and its accompanying Grot Gunners must be deployed with each 模型 范围内 3&quot; of at least one other 模型 from their unit.  From that point on, each Artillery 模型 and 2 or 5 模型 group of Grot Gunners act as a single unit.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A 单位 of Artillery and its accompanying Grot Gunners 必须 deployed with each 模型 范围内 3&quot; of at least one other 模型 from their unit.  From that point on, each Artillery 模型 and 2 or 5 模型 group of Grot Gunners act as a single unit.</characteristic>
           </characteristics>
         </profile>
         <profile id="2052-f783-b1e4-ac53" name="Take Cover" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -5175,12 +5175,12 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
       <profiles>
         <profile id="1401-3201-c7a2-759a" name="Grot Krew" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228"> Each Big Gun and its grot krew are treated as a single 模型 for all rules purposes. The krew must remain 范围内 1&quot; of their Big Gun and cannot be targeted or attacked separately. The range and visibility of all attacks made by a Big Gun are measured from the Big Gun, not the krew.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228"> Each Big Gun and its grot krew are treated as a single 模型 for all rules purposes. The krew must remain 范围内 1&quot; of their Big Gun and 不能 targeted or attacked separately. The range and visibility of all 攻击 made by a Big Gun are measured from the Big Gun, not the krew.</characteristic>
           </characteristics>
         </profile>
         <profile id="4250-f806-dd84-ad30" name="Big Gunz" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The 第1次 这个单位 is set up on the battlefield, all of its Big Gunz must be placed 范围内 6&quot; of at least one other Big Gun, and with each grot krew 范围内 1&quot; of their Big Gun. From that point onwards, each Big Gun operates independently and is treated as a separate 单位 for all rules purposes.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The 第1次 这个单位 is set up 战场上, all of its Big Gunz 必须 placed 范围内 6&quot; of at least one other Big Gun, and with each grot krew 范围内 1&quot; of their Big Gun. From that point onwards, each Big Gun operates independently and is treated as a separate 单位 for all rules purposes.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5251,12 +5251,12 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
       <profiles>
         <profile id="f77b-3d95-b2c5-e3be" name="Mek Gunz" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The 1st time 这个单位 is set up on the battlefield, each Mek Gun must be placed 范围内 6&quot; of at least one other Mek Gun, with each grot Krew 范围内 1&quot; of their Mek Gun.  From that point onwards, each Mek Gun operates independently and is treated as a separate 单位 for all rules purposes.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The 1st time 这个单位 is set up 战场上, each Mek Gun 必须 placed 范围内 6&quot; of at least one other Mek Gun, with each grot Krew 范围内 1&quot; of their Mek Gun.  From that point onwards, each Mek Gun operates independently and is treated as a separate 单位 for all rules purposes.</characteristic>
           </characteristics>
         </profile>
         <profile id="7a01-5911-f421-1d43" name="Grot Krew" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each Mek Gun and its grot krew are treated as a single 模型 for all rules purposes.  the Krew must remain 范围内 1&quot; of their Mek Gun and cannot be targeted or attacked separately.  The range and visibility of all attacks made by a Mek Gun are measured from the Mek Gun, not the krew.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each Mek Gun and its grot krew are treated as a single 模型 for all rules purposes.  the Krew must remain 范围内 1&quot; of their Mek Gun and 不能 targeted or attacked separately.  The range and visibility of all 攻击 made by a Mek Gun are measured from the Mek Gun, not the krew.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5329,7 +5329,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
                         <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
                         <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
                         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 automatically hits its target.  If the Target is a VEHICLE that can FLY, you roll 2D6 for damage and discard the lowest.  If a VEHICLE 单位 that FLYS is destroyed, it automatically crashes and burns.</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 automatically hits its target.  If the Target is a 载具 that can FLY, you roll 2D6 for damage and discard the lowest.  If a 载具 单位 that FLYS is destroyed, it automatically crashes and burns.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -5521,7 +5521,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
             <characteristic name="S" typeId="59b1-319e-ec13-d466">+2</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">The bearer can only make 3 attacks with 这个武器 each time it fights</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">The bearer can only make 3 攻击 with 这个武器 每次 it fights</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5542,7 +5542,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
       <profiles>
         <profile id="0855-53c1-08df-ad6f" name="Dread Mob" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The 第1次 这个单位 is set up on the battlefield, all of its 模型 must be placed 范围内 6&quot; of at least one other 模型 from the unit.  From that point onwards, each operated independently and is treated as a separate 单位 for all rules purposes.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The 第1次 这个单位 is set up 战场上, all of its 模型 必须 placed 范围内 6&quot; of at least one other 模型 from the unit.  From that point onwards, each operated independently and is treated as a separate 单位 for all rules purposes.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5673,7 +5673,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
             <characteristic name="S" typeId="59b1-319e-ec13-d466">x2</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time the bearer fights, it can make 1 additional attack with each dread klaw it is equipped with</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 the bearer fights, it can make 1 additional attack with each dread klaw it is equipped with</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5709,7 +5709,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
       <profiles>
         <profile id="34d2-4300-9612-6fd1" name="Scrag &apos;Em" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to their Attacks characteristic if 这个单位 contains 3 or more models</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to their 攻击 characteristic if 这个单位 contains 3 or more models</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5797,7 +5797,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
                             <characteristic name="S" typeId="59b1-319e-ec13-d466">+1</characteristic>
                             <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
                             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-                            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">On a unmodified roll of a 6 to wound, you do 1 致命伤 此外 to any other damage.</characteristic>
+                            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">结果为unmodified roll of a 6 to wound, you do 1 致命伤 此外 to any other damage.</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -5816,7 +5816,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
                             <characteristic name="S" typeId="59b1-319e-ec13-d466">+2</characteristic>
                             <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
                             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-                            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time you fight, you can make 1 additional attack with 这个武器.</characteristic>
+                            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 you fight, you can make 1 additional attack with 这个武器.</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -6296,7 +6296,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
       <profiles>
         <profile id="914e-853e-25b3-cb70" name="Gun-crazy Showoffs" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">After 这个单位 has shot in the 射击阶段, 投掷1个D6, On a 6, all 模型 in the 单位 must immediately shoot again, but can only target the nearest 敌方单位.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">After 这个单位 has shot in the 射击阶段, 投掷1个D6, 结果为6, all 模型 in the 单位 必须立即 shoot again, but can only target the nearest 敌方单位.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6342,7 +6342,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
               <profiles>
                 <profile id="d18e-028f-5b7f-8b7c" name="Gitfinda Squig" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">+1 to hit rolls for Shooting Attacks made by the Kaptain.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">+1 to hit rolls for 射击攻击 made by the Kaptain.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -6479,7 +6479,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
       <profiles>
         <profile id="7770-d670-a206-9cd0" name="Bigger &apos;n&apos; Stompier" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 can 撤退 in your 移动阶段 and still shoot and/or charge during its turn.  When a Stompa 撤退, it can move over 敌方 步兵 and SWARM models, though at the end of its move it must be more than 1&quot; from any 敌方模型.  A Stompa doesn&apos;t suffer the penalty for moving and firing 重型武器.  这个模型 only gains a bonus to its saving throws for being in cover if at least half of the 模型 is obscured from the firer.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 can 撤退 in your 移动阶段 and still shoot and/or charge during its turn.  When a Stompa 撤退, it can move over 敌方 步兵 and SWARM models, though at the end of its move it 必须 more than 1&quot; from 任何敌方模型.  A Stompa doesn&apos;t suffer the penalty for moving and firing 重型武器.  这个模型 only gains a bonus to its saving throws for being in cover if at least half of the 模型 is obscured from the firer.</characteristic>
           </characteristics>
         </profile>
         <profile id="b0fb-121e-923e-aea1" name="Stompa" publicationId="11b5-77b9-pubN65537" page="117" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
@@ -6547,7 +6547,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
         </profile>
         <profile id="1d22-c697-08aa-7c9f" name="Stompa Rigger Crew" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型&apos;s grot riggers can attempt repairs at the end of your 移动阶段.  If they do so, 投掷1个D6; on a 2+ 这个模型 regains D3 lost wounds.  A 模型 can only be repaired once each turn.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型&apos;s grot riggers can attempt repairs at the end of your 移动阶段.  If they do so, 投掷1个D6; 结果为2+ 这个模型 regains D3 lost wounds.  A 模型 can only be repaired once each turn.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6607,7 +6607,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
             </profile>
             <profile id="f379-9c7c-d4aa-aff3" name="Psycho-Dakka-Blast!" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">In your 射击阶段, after firing 这个模型&apos;s supa-gatler for the 第1次 that phase, you can attempt to fire it a second time by rolling a D6; on a 1 the weapon&apos;s ammo has been expended, and it cannot be used for the rest of the battle. On a 2+ you can fire the supa-gatler a second time that phase, and after resolving those attacks, you can then attempt to fire the weapon a third time by rolling a D6; on a 4 or less the weapon&apos;s ammo has been expended, and it cannot be used for the rest of the battle.  On a 5+ you can fire the supa-gatler a third time that phase.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">In your 射击阶段, after firing 这个模型&apos;s supa-gatler for the 第1次 that phase, you can attempt to fire it a second time by rolling a D6; 结果为1 the weapon&apos;s ammo has been expended, and it 不能 used for the rest of the battle. 结果为2+ you can fire the supa-gatler a second time that phase, and after resolving those 攻击, you can then attempt to fire the weapon a third time by rolling a D6; 结果为4 or less the weapon&apos;s ammo has been expended, and it 不能 used for the rest of the battle.  结果为5+ you can fire the supa-gatler a third time that phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6630,7 +6630,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Only one Supa-rokkit can be fired by the bearer a turn, and each can only be fired once per battle.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Only one Supa-rokkit can be fired by the bearer a turn, and each can only be fired 一次性.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6748,7 +6748,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
       <profiles>
         <profile id="19f3-7c2b-f950-6338" name="Tank Hunters" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投命中骰 for attacks made by 这个单位 that target 载具</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投命中骰 for 攻击 made by 这个单位 that target 载具</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7314,7 +7314,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
             </profile>
             <profile id="4c2e-00ed-2dfc-f9e4" name="Nitnuckle and Lunk" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Twice per game, Nitnuckle and Lunk can assist their master in making repairs.  When they do so, the vehicle that Buzzgob is repairing regains one additional wound.  When rolling to wound 这个单位, always use Buzzgob&apos;s Toughness (While it is on the battlefield). The death of Nitnuckle and/or Lunk is ignored for the purposes of morale.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Twice per game, Nitnuckle and Lunk can assist their master in making repairs.  When they do so, the 载具 that Buzzgob is repairing regains one additional wound.  When rolling to wound 这个单位, always use Buzzgob&apos;s Toughness (While it is 战场上). The death of Nitnuckle and/or Lunk is ignored for the purposes of morale.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7363,7 +7363,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
           <profiles>
             <profile id="c934-925c-2dc5-7a0d" name="Kustom Force Field" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 is equipped with a kustom force field, 友方 兽人 单位 that are entirely 范围内 9&quot; have a 5+ 特殊保护 against ranged 武器.  If the 单位 is embarked, the vehicle transporting it 拥有 5+ 特殊保护 against ranged 武器 instead.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 is equipped with a kustom force field, 友方 兽人 单位 that are entirely 范围内 9&quot; have a 5+ 特殊保护 对抗 ranged 武器.  If the 单位 is embarked, the 载具 transporting it 拥有 5+ 特殊保护 对抗 ranged 武器 instead.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7415,7 +7415,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
         </profile>
         <profile id="0ddf-278a-7aa0-2b47" name="Full Speed Ahead!" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Grot Tanks have a Movement of 2D6&quot;, and this must be rolled for at the beginning of each 移动阶段.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Grot Tanks have a Movement of 2D6&quot;, and this 必须 rolled for at the beginning of each 移动阶段.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7590,7 +7590,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
         </profile>
         <profile id="cc34-5e4e-4537-6a12" name="Full Speed Ahead!" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Grot Mega-Tanks have a Movement of 2D6&quot;, and this must be rolled for at the beginning of each 移动阶段.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Grot Mega-Tanks have a Movement of 2D6&quot;, and this 必须 rolled for at the beginning of each 移动阶段.</characteristic>
           </characteristics>
         </profile>
         <profile id="fe31-4ff5-af8f-51ff" name="Grot Mega-Tank" publicationId="03b4-8286-592c-c370" page="26" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
@@ -7608,7 +7608,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
         </profile>
         <profile id="6f89-366b-bb6a-9b75" name="Mutiny!" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of the 射击阶段, 投掷1个D6.  On a 1, none of 这个模型&apos;s 武器 may be fired this turn as a fight breaks out inside the tank.  On a 6, the Grot crew fall in line and follow the Kommanda&apos;s orders too literally and the model&apos;s 武器 must all be fired at the same target, but add 1 to the hit rolls.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of the 射击阶段, 投掷1个D6.  结果为1, none of 这个模型&apos;s 武器 may be fired this turn as a fight breaks out inside the tank.  结果为6, the Grot crew fall in line and follow the Kommanda&apos;s orders too literally and the 模型的 武器 must all be fired at the same target, but add 1 to the hit rolls.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7807,12 +7807,12 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
         </profile>
         <profile id="8432-6c23-2eac-a38a" name="Howdah" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models 上车 on the Squiggoth can attack in their 射击阶段.  Measure the range and draw line of sight from any point on the Squiggoth.  When they do so, any restrictions of modifiers that apply to this Squiggoth also apply to its passengers, however if there are 敌方单位 范围内 1&quot; of the Squiggoth, both its Heavy weapon slot and the 单位 上车 on the Squiggoth may fire their weapon as normal, but may not target the 单位 currently 范围内 1&quot; of the Squiggoth.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models 上车 on the Squiggoth can attack in their 射击阶段.  Measure the range and draw line of sight from any point on the Squiggoth.  When they do so, any restrictions of modifiers that apply to this Squiggoth also apply to its passengers, 然而 if there are 敌方单位 范围内 1&quot; of the Squiggoth, both its Heavy weapon slot and the 单位 上车 on the Squiggoth may fire their weapon as normal, but may not target the 单位 currently 范围内 1&quot; of the Squiggoth.</characteristic>
           </characteristics>
         </profile>
         <profile id="72b3-cb3e-8e88-adf3" name="Stampede!" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time 这个模型 完成冲锋移动, 投掷1个D6 for each 敌方单位 范围内 1&quot; of it; on a 2+ 那个单位 遭受 D3 致命伤.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 这个模型 完成冲锋移动, 投掷1个D6 for each 敌方单位 范围内 1&quot; of it; 结果为2+ 那个单位 遭受 D3 致命伤.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7901,7 +7901,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
         </profile>
         <profile id="29fa-8952-1426-884e" name="Ramshackle Monster" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time a Meka-Dread loses a wound from any weapon, 投掷1个D6 - on a roll of 4+, the wound is ignored.  The 1st time this roll is failed, the result needed is reduced to a 5+, and so on unti the roll fails on a 6+ and this ability may no longer be used.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 a Meka-Dread 失去1点W from any weapon, 投掷1个D6 - 结果为roll of 4+, the wound is ignored.  The 1st time this roll is failed, the result needed is reduced to a 5+, and so on unti the roll fails 结果为6+ and this ability may no longer be used.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7930,7 +7930,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
               <profiles>
                 <profile id="e54a-f4b8-7f79-4cca" name="Mega Charga" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per battle, 这个模型 may move up to an additional 8&quot; in its 移动阶段. However, before this happens, 投掷1个D6.  On a 1, the Meka-Dread cannot Advance or charge until the beginning of your next player turn and 遭受 1 致命伤.  It may Advance as per the normal rules after this ability has been used.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, 这个模型 may move 至多 an additional 8&quot; in its 移动阶段. 然而, before this happens, 投掷1个D6.  结果为1, the Meka-Dread cannot Advance or charge until the beginning of your next player turn and 遭受 1 致命伤.  It may Advance as per the normal rules after this ability has been used.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -8246,7 +8246,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">The bearer can only make a single attack with 这个武器 each time it fights.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">The bearer can only make a single attack with 这个武器 每次 it fights.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8581,7 +8581,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
             <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Add 1 to 所有命中骰 made for 这个武器 against targets that can FLY.  Subtract 1 from the hit rolls made for 这个武器 against all other targets.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Add 1 to 所有命中骰 made for 这个武器 对抗 targets that can FLY.  Subtract 1 from the hit rolls made for 这个武器 对抗 all other targets.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8742,7 +8742,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">The bearer can only make a single attack with 这个武器 each time it fights.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">The bearer can only make a single attack with 这个武器 每次 it fights.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8845,7 +8845,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
         </profile>
         <profile id="2a01-5ca8-2013-b49d" name="Hang On!" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models 上车 on a Kill Tank may attack in their 射击阶段, but may only hit on a 6+.  Measure range and draw line of sight from any point on 这个模型.  When  they do so, any restrictions or modifiers that apply to 这个模型 also apply to its passengers.  For example, the passengers cannot shoot if the 模型 has Fallen Back in the same turn, cannot shoot (except with pistols) if 这个模型 is 范围内 1&quot; of an 敌方单位, and so on.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models 上车 结果为Kill Tank may attack in their 射击阶段, but may only hit 结果为6+.  Measure range and draw line of sight from any point on 这个模型.  When  they do so, any restrictions or modifiers that apply to 这个模型 also apply to its passengers.  For example, the passengers cannot shoot if the 模型 has Fallen Back in the same turn, cannot shoot (except with pistols) if 这个模型 is 范围内 1&quot; of an 敌方单位, and so on.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8977,7 +8977,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
         </profile>
         <profile id="9f45-5d2c-9ab2-4600" name="Scoutin&apos; Ahead" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">部署期间, 可以放置 a Warkopta behind 敌方 lines 而不是 placing it on the battlefield.  At the end of any of your 移动阶段, the Warkopta can swoop around to ambush the foe - set it  up anywhere on the battlefield that is more than 9&quot; away from any 敌方模型.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">部署期间, 可以放置 a Warkopta behind 敌方 lines 而不是 placing it 战场上.  At the end of any of your 移动阶段, the Warkopta can swoop around to ambush the foe - set it  up 任何位置 战场上 that is more than 9&quot; away from 任何敌方模型.</characteristic>
           </characteristics>
         </profile>
         <profile id="906d-de98-b3ed-7dec" name="&apos;Chinork&apos; Warkopta" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
@@ -9079,7 +9079,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
       <profiles>
         <profile id="66ef-a4f4-6bb3-126b" name="Bigger &apos;n&apos; Stompier" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 can 撤退 in your 移动阶段 and still shoot and/or charge during its turn.  When a Stompa 撤退, it can move over 敌方 步兵模型, though at the end of its move it must be more than 1&quot; from any 敌方模型.  A Stompa doesn&apos;t suffer the penalty for moving and firing 重型武器.  这个模型 only gains a bonus to its saving throws for being in cover if at least half of the 模型 is obscured from the firer.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 can 撤退 in your 移动阶段 and still shoot and/or charge during its turn.  When a Stompa 撤退, it can move over 敌方 步兵模型, though at the end of its move it 必须 more than 1&quot; from 任何敌方模型.  A Stompa doesn&apos;t suffer the penalty for moving and firing 重型武器.  这个模型 only gains a bonus to its saving throws for being in cover if at least half of the 模型 is obscured from the firer.</characteristic>
           </characteristics>
         </profile>
         <profile id="0504-15bb-9ff3-7777" name="Kustom Stompa" publicationId="03b4-8286-592c-c370" page="33" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
@@ -9146,7 +9146,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
         </profile>
         <profile id="15ad-6e62-986c-54a2" name="Repair Krew" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the beginning of the turn, a Kustom Stompa&apos;s repair krew may attempt to repair lost wounds.  On a roll of a 5+, the Kustom Stompa repairs one wound, and on a 6+, it repairs D3 wounds.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the beginning of the turn, a Kustom Stompa&apos;s repair krew may attempt to repair lost wounds.  结果为roll of a 5+, the Kustom Stompa repairs one wound, and 结果为6+, it repairs D3 wounds.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9202,7 +9202,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Only one Supa-rokkit can be fired by the bearer a turn, and each can only be fired once per battle.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Only one Supa-rokkit can be fired by the bearer a turn, and each can only be fired 一次性.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9246,7 +9246,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
               <profiles>
                 <profile id="6e68-beca-5b78-f0ec" name="Psycho-Dakka-Blast!" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A Stompa can fire its supa-gatler more than once in your 射击阶段.  To fire the supa-gatler a 2nd time, 投掷1个D6; on a 2+ you can make the attack.  On a 1, the weapon&apos;s ammo has been expended and it can no longer be used for the rest of the battle.  To fire the supa-gatler a 3rd time, 投掷1个D6; on a 5+ you can make the attack.  On a 4 or less, the weapon&apos;s ammo has been expended and it can no longer be used for the rest of the battle. </characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A Stompa can fire its supa-gatler more than once in your 射击阶段.  To fire the supa-gatler a 2nd time, 投掷1个D6; 结果为2+ you can make the attack.  结果为1, the weapon&apos;s ammo has been expended and it can no longer be used for the rest of the battle.  To fire the supa-gatler a 3rd time, 投掷1个D6; 结果为5+ you can make the attack.  结果为4 or less, the weapon&apos;s ammo has been expended and it can no longer be used for the rest of the battle. </characteristic>
                   </characteristics>
                 </profile>
                 <profile id="920f-b1eb-6989-f847" name="Deffkannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -9373,7 +9373,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
             <characteristic name="S" typeId="59b1-319e-ec13-d466">-</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">-</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 hits automatically.  Each time an 敌方单位 is hit by 这个武器, roll 2D6.  If the result equals or exceeds the target&apos;s Strength, it 遭受 1点致命伤.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 hits automatically.  每次 an 敌方单位 is hit by 这个武器, roll 2D6.  If the result equals or exceeds the target&apos;s Strength, it 遭受 1点致命伤.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9429,12 +9429,12 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
         </profile>
         <profile id="d5d6-27e9-9cb8-3dfc" name="Howdah" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models 上车 on the Gargantuan Squiggoth can attack in their 射击阶段.  Measure the range and draw line of sight from any point on the Squiggoth.  When they do so, any restrictions of modifiers that apply to this Squiggoth also apply to its passengers, however if there are 敌方单位 范围内 1&quot; of the Squiggoth, both its Heavy weapon slot and the 单位 上车 on the Squiggoth may fire their weapon as normal, but may not target the 单位 currently 范围内 1&quot; of the Squiggoth.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models 上车 on the Gargantuan Squiggoth can attack in their 射击阶段.  Measure the range and draw line of sight from any point on the Squiggoth.  When they do so, any restrictions of modifiers that apply to this Squiggoth also apply to its passengers, 然而 if there are 敌方单位 范围内 1&quot; of the Squiggoth, both its Heavy weapon slot and the 单位 上车 on the Squiggoth may fire their weapon as normal, but may not target the 单位 currently 范围内 1&quot; of the Squiggoth.</characteristic>
           </characteristics>
         </profile>
         <profile id="6cf0-74ac-0472-200e" name="Stampede!" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time 这个模型 完成冲锋移动, 投掷1个D6 for each 敌方单位 范围内 1&quot; of it; on a 2+ 那个单位 遭受 D6 致命伤.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 这个模型 完成冲锋移动, 投掷1个D6 for each 敌方单位 范围内 1&quot; of it; 结果为2+ 那个单位 遭受 D6 致命伤.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9552,7 +9552,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
       <profiles>
         <profile id="9ff3-2d85-0254-9a5f" name="Reinforced Ram" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If a VEHICLE with a reinforced ram charges, increase its Strength characteristic by 2 until the end of the turn it makes a successful chart.  此外, each time a 模型 with a Reinforced Ram 完成冲锋移动, select one 敌方单位 with 1&quot; and roll a dice; on a 2+ 那个单位 遭受 D3 致命伤.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If a 载具 with a reinforced ram charges, increase its Strength characteristic by 2 until the end of the turn it makes a successful chart.  此外, 每次 a 模型 with a Reinforced Ram 完成冲锋移动, select one 敌方单位 with 1&quot; and roll a dice; 结果为2+ 那个单位 遭受 D3 致命伤.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9616,7 +9616,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
             <characteristic name="S" typeId="59b1-319e-ec13-d466">x2</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-5</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">4</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If a Kustom Stompa is equipped with 2 mega klaws, increase its Attacks characteristic by 4.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If a Kustom Stompa is equipped with 2 mega klaws, increase its 攻击 characteristic by 4.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9660,12 +9660,12 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
             <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 can only be fired once per battle. This  weapon can target 单位 that are not 可见 to the firer.  可以重投失败的命中骰 made for 这个武器.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 can only be fired 一次性. This  weapon can target 单位 that are not 可见 to the firer.  可以重投失败的命中骰 made for 这个武器.</characteristic>
           </characteristics>
         </profile>
         <profile id="28fe-5585-246b-12cf" name="Outriders" publicationId="be22-4c1d-1c01-d7ef" page="6" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">部署期间, 可以放置 这个模型 on the army’s flank 而不是 placing it on the  battlefield. At the end of any of your 移动阶段, 这个模型 can race in to encircle the foe – set it up so that  it is touching a battlefield edge and is more than 9&quot; away from any 敌方模型.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">部署期间, 可以放置 这个模型 on the army’s flank 而不是 placing it on the  battlefield. At the end of any of your 移动阶段, 这个模型 can race in to encircle the foe – 放置 so that  it is touching a battlefield edge and is more than 9&quot; away from 任何敌方模型.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9738,7 +9738,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="3eeb-dc9a-3a05-3929" name="Supersonic" hidden="false" targetId="869f-1549-caf7-29d3" type="profile"/>
+        <infoLink id="3eeb-dc9a-3a05-3929" name="超音速" hidden="false" targetId="869f-1549-caf7-29d3" type="profile"/>
         <infoLink id="50ca-42d6-36a2-162d" name="Hard to Hit" hidden="false" targetId="9caa-ff00-a5bd-5f04" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -9778,7 +9778,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
               <profiles>
                 <profile id="ab7b-1481-feed-80e1" name="Small Bomms" publicationId="be22-4c1d-1c01-d7ef" page="6" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228"> A 模型 equipped with small bomms  can drop a bomm each turn as it flies over 敌方单位 in  its 移动阶段. After the 模型 has moved, select  an 敌方单位 that it moved over and 投掷1个D6 for each  model in 那个单位, up to a maximum of 5 dice. For each  roll of 6, the 敌方单位 遭受 1 致命伤.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228"> A 模型 equipped with small bomms  can drop a bomm each turn as it flies over 敌方单位 in  its 移动阶段. After the 模型 has moved, select  an 敌方单位 that it moved over and 投掷1个D6 for each  model in 那个单位, 至多 a maximum of 5 dice. For each  roll of 6, the 敌方单位 遭受 1 致命伤.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -9860,7 +9860,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="7f83-aa6d-d0ec-f3ff" name="Supersonic" hidden="false" targetId="869f-1549-caf7-29d3" type="profile"/>
+        <infoLink id="7f83-aa6d-d0ec-f3ff" name="超音速" hidden="false" targetId="869f-1549-caf7-29d3" type="profile"/>
         <infoLink id="ae49-44e7-9cd9-74f8" name="Hard to Hit" hidden="false" targetId="9caa-ff00-a5bd-5f04" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -9900,7 +9900,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
               <profiles>
                 <profile id="cfc1-d911-6a9b-1c40" name="Small Bomms" publicationId="be22-4c1d-1c01-d7ef" page="7" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228"> A 模型 equipped with small bomms  can drop a bomm each turn as it flies over 敌方单位 in  its 移动阶段. After the 模型 has moved, select  an 敌方单位 that it moved over and 投掷1个D6 for each  model in 那个单位, up to a maximum of 5 dice. For each  roll of 6, the 敌方单位 遭受 1 致命伤.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228"> A 模型 equipped with small bomms  can drop a bomm each turn as it flies over 敌方单位 in  its 移动阶段. After the 模型 has moved, select  an 敌方单位 that it moved over and 投掷1个D6 for each  model in 那个单位, 至多 a maximum of 5 dice. For each  roll of 6, the 敌方单位 遭受 1 致命伤.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -9919,7 +9919,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 can only be fired once per battle. This  weapon can target 单位 that are not 可见 to the firer.  可以重投失败的命中骰 made for 这个武器.</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 can only be fired 一次性. This  weapon can target 单位 that are not 可见 to the firer.  可以重投失败的命中骰 made for 这个武器.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -10066,12 +10066,12 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
         </profile>
         <profile id="94c8-e786-05d1-3af2" name="SPEEDWAAAGH!" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">友方 &lt;氏族&gt; 摩托 and VEHICLE 单位 范围内 6&quot; of 这个模型 at the start of the Charge phase can charge even if they Advanced this turn.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">友方 &lt;氏族&gt; 摩托 and 载具 单位 范围内 6&quot; of 这个模型 at the start of the 冲锋阶段 can charge even if they Advanced this turn.</characteristic>
           </characteristics>
         </profile>
         <profile id="afa4-8883-87c6-ef64" name="Fuel Mixa Grot" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per battle when 这个模型 advances, you may add 6&quot; to the Move 而不是 D6&quot;</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性 when 这个模型 advances, you may add 6&quot; to the Move 而不是 D6&quot;</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10089,7 +10089,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
         <categoryLink id="ecbc-bcec-3ea4-b885" name="Deffkilla Wartrike" hidden="false" targetId="55c1-f652-2a64-7361" primary="false"/>
         <categoryLink id="63ec-e901-db9a-2636" name="Speed Freeks" hidden="false" targetId="258d-e4cb-6f35-fe20" primary="false"/>
         <categoryLink id="fd7c-5155-4a2b-112c" name="Speedboss" hidden="false" targetId="ff73-21d8-0b92-c2c7" primary="false"/>
-        <categoryLink id="6c06-558c-1a17-1c39" name="Vehicle" hidden="false" targetId="c8fd-783f-3230-493e" primary="false"/>
+        <categoryLink id="6c06-558c-1a17-1c39" name="载具" hidden="false" targetId="c8fd-783f-3230-493e" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="f05b-43d6-7be8-17f8" name="Killa Jet" hidden="false" collective="false" import="true" type="upgrade">
@@ -10138,17 +10138,17 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">+2</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">You can re-roll wound rolls for attacks made with 这个武器.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">可以重投造伤骰 for 攻击 made with 这个武器.</characteristic>
               </characteristics>
             </profile>
-            <profile id="5f07-d8ba-e74a-3b61" name="Snagga Klaw (Shooting)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="5f07-d8ba-e74a-3b61" name="Snagga Klaw (射击)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">8&quot;</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1</characteristic>
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">1</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">You can re-roll wound rolls for attacks made with 这个武器.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">可以重投造伤骰 for 攻击 made with 这个武器.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10208,12 +10208,12 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
       <profiles>
         <profile id="b93f-30fb-9d7e-2a40" name="Grot Gunner and Targeting Squig" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 2 to the hit rolls for attacks made by this 模型 Kustom Shokk Rifle.  </characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 2 to the hit rolls for 攻击 made by this 模型 Kustom Shokk Rifle.  </characteristic>
           </characteristics>
         </profile>
         <profile id="2529-8abf-916a-7776" name="Shokk tunnel" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If you roll a 4+ when advancing with 这个模型, remove it from the battlefield, and set it up more than 9&quot; away from 敌方单位.  After doing so, 投掷1个D6 on a 6, the 模型 遭受 1 致命伤.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If you roll a 4+ when advancing with 这个模型, remove it from the battlefield, and 放置 more than 9&quot; away from 敌方单位.  After doing so, 投掷1个D6 结果为6, the 模型 遭受 1 致命伤.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10269,7 +10269,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
                         <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
                         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If you roll one or more unmodified hit rolls of 1 for 这个武器, the bearer 遭受 1 致命伤 after all of 这个武器&apos;s attacks have been resolved.  Each time you make a wound roll of 6+ for 这个武器, the target 遭受 1 致命伤 此外 to any other damage.</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If you roll one or more unmodified hit rolls of 1 for 这个武器, the bearer 遭受 1 致命伤 after all of 这个武器&apos;s 攻击 have been resolved.  每次 you make a wound roll of 6+ for 这个武器, the target 遭受 1 致命伤 此外 to any other damage.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -10332,7 +10332,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
       <profiles>
         <profile id="a4a9-f632-d747-3aa7" name="Grot Gunner" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">命中骰+1 for attacks made with 这个模型&apos;s Heavy Squig Launcha</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">命中骰+1 for 攻击 made with 这个模型&apos;s Heavy Squig Launcha</characteristic>
           </characteristics>
         </profile>
         <profile id="f5c1-aac8-593d-38c6" name="Riding Shotgun" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -10410,7 +10410,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
                   <profiles>
                     <profile id="5cf3-17aa-4028-d5a1" name="Squig Mine" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per battle, in the 移动阶段, 这个模型 can deploy a squig mine.  At any point during 这个模型&apos;s move, place the quig mine 范围内 1&quot; of it and more than 3&quot; from any 敌方模型.  The squig mine is represented by the squig mine model, but does not count as a 模型 for any rules purposes.  From the start of the next phase, that squig mine is detonated if any 单位 (friend or foe) moves 范围内 3&quot; of it.  Resolve the detonation after the 单位 that detonated it has ended its move.  When a squig mine is detonated, 投掷1个D6: on a 2-3 it inflicts 1 致命伤 on the 单位 that detonated it; on a 4-5 it inflicts D3 致命伤 on the 单位 that detonated it; and on a 6 it inflicts 3 致命伤 on the 单位 that detonated it.  The squig mine is then removed from the battlefield.</characteristic>
+                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, in the 移动阶段, 这个模型 can deploy a squig mine.  At any point during 这个模型&apos;s move, place the quig mine 范围内 1&quot; of it and more than 3&quot; from 任何敌方模型.  The squig mine is represented by the squig mine model, but does not count as a 模型 for any rules purposes.  From the start of the next phase, that squig mine is detonated if 任何单位 (friend or foe) moves 范围内 3&quot; of it.  Resolve the detonation after the 单位 that detonated it has ended its move.  When a squig mine is detonated, 投掷1个D6: 结果为2-3 it inflicts 1 致命伤 on the 单位 that detonated it; 结果为4-5 it inflicts D3 致命伤 on the 单位 that detonated it; and 结果为6 it inflicts 3 致命伤 on the 单位 that detonated it.  The squig mine is then removed from the battlefield.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -10433,7 +10433,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
                         <characteristic name="S" typeId="59b1-319e-ec13-d466">*</characteristic>
                         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
                         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 always wounds on a 4+ unless it is targeting a VEHICLE or TITANIC unit, in which case it wounds on a 6+</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 always wounds 结果为4+ unless it is targeting a 载具 or TITANIC unit, in which case it wounds 结果为6+</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="f680-af9c-20b1-0dd1" name="Heavy Squig Launcha - Bitey Squig" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -10476,7 +10476,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
                         <characteristic name="S" typeId="59b1-319e-ec13-d466">*</characteristic>
                         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
                         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 always wounds on a 4+ unless it is targeting a VEHICLE or TITANIC unit, in which case it wounds on a 6+</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 always wounds 结果为4+ unless it is targeting a 载具 or TITANIC unit, in which case it wounds 结果为6+</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="34fa-45cb-97ba-961e" name=" Squig Launcha - Bitey Squig" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -10665,7 +10665,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
                         <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
                         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
                         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Units do not receive the benefit of cover to their saving throws for attacks made with 这个武器.</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Units do not receive the benefit of cover to their saving throws for 攻击 made with 这个武器.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -10774,7 +10774,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
           <profiles>
             <profile id="b9d2-5bb2-3645-d68d" name="Bonebreaker Ram" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add D6 to the Attacks characteristic of 这个模型 in the 肉搏阶段 until the end of that phase if it made a 冲锋移动 this turn.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add D6 to the 攻击 characteristic of 这个模型 in the 肉搏阶段 until the end of that phase if it made a 冲锋移动 this turn.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10922,7 +10922,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
       <profiles>
         <profile id="a8ed-92d8-672d-fd37" name="Grot Gunner" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">命中骰+1 for attacks made with 这个模型&apos;s grot blasta</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">命中骰+1 for 攻击 made with 这个模型&apos;s grot blasta</characteristic>
           </characteristics>
         </profile>
         <profile id="209c-1373-82c9-cd40" name="Riding Shotgun" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -10932,7 +10932,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
         </profile>
         <profile id="194f-5a12-b7ab-2c13" name="Spiked Ram" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time 这个模型 完成冲锋移动, select an 敌方单位 范围内 1&quot; of it and on a 4+ 那个单位 遭受 D3 致命伤</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 这个模型 完成冲锋移动, select an 敌方单位 范围内 1&quot; of it and 结果为4+ 那个单位 遭受 D3 致命伤</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11064,12 +11064,12 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
       <profiles>
         <profile id="a3e6-b08e-0cd6-1f83" name="Spiked Ram" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time 这个模型 完成冲锋移动, select an 敌方单位 范围内 1&quot; and 投掷1个D6&quot;.  On a roll of 4+ 那个单位 遭受 D3 致命伤.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 这个模型 完成冲锋移动, select an 敌方单位 范围内 1&quot; and 投掷1个D6&quot;.  结果为roll of 4+ 那个单位 遭受 D3 致命伤.</characteristic>
           </characteristics>
         </profile>
         <profile id="9371-f5c7-9733-8787" name="Grot Gunner" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">命中骰+1 for attacks made with one of 这个模型&apos;s 双联 Big Shootas.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">命中骰+1 for 攻击 made with one of 这个模型&apos;s 双联 Big Shootas.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11148,7 +11148,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
                         <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
                         <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
                         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
-                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">命中骰+1 for 这个武器 against 载具, Subtract 1 from hit rolls made with 这个武器 against all other targets</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">命中骰+1 for 这个武器 对抗 载具, Subtract 1 from hit rolls made with 这个武器 对抗 all other targets</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -11211,17 +11211,17 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
       <profiles>
         <profile id="efda-a541-95aa-26b0" name="兽人 Structure" publicationId="11b5-77b9-pubN65537" page="118" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">After it is set up, a Mekboy Workshop is treated as a terrain feature.  It cannot move for any reason, is not treated as a 友方 or 敌方模型, and cannot be targeted or affected by any attacks or abilities. </characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">After it is set up, a Mekboy Workshop is treated as a terrain feature.  It 不能移动 for any reason, is not treated as a 友方 or 敌方模型, and 不能 targeted or affected by any 攻击 or abilities. </characteristic>
           </characteristics>
         </profile>
         <profile id="01e3-3944-7d13-fbc7" name="Mek&apos;s Grabbin&apos; Claw" publicationId="11b5-77b9-pubN65537" page="118" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of the 肉搏阶段, before any 单位 have been chosen to fight, one 兽人 步兵单位 from your army that is 范围内 1&quot; of 这个模型 can operate the Mekboy Workshop&apos;s grabbin&apos; klaw. if it does so, select an 敌方单位 范围内 1&quot; of 这个模型 and 投掷1个D6; on a 4+ 那个敌方单位 遭受 D3 致命伤.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of the 肉搏阶段, before 任何单位 have been chosen to fight, one 兽人 步兵单位 from your army that is 范围内 1&quot; of 这个模型 can operate the Mekboy Workshop&apos;s grabbin&apos; klaw. if it does so, select an 敌方单位 范围内 1&quot; of 这个模型 and 投掷1个D6; 结果为4+ 那个敌方单位 遭受 D3 致命伤.</characteristic>
           </characteristics>
         </profile>
         <profile id="1957-8c7a-159c-4f7e" name="Kustom Job" publicationId="11b5-77b9-pubN65537" page="118" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of your 移动阶段 one 兽人 VEHICLE 单位 from your army that is 范围内 1&quot; of 这个模型 can receive a Kustom Job.  If it does so, until the end of your turn, 那个单位 cannot shoot or charge, and the attacks characteristic of 模型 in 那个单位 are reduced to 1, but you can choose and resolve one of the following effects.    More Speed - Until the end of your next 移动阶段 increase the move characteristic of 模型 in the 单位 by 6&quot; 此外, 投掷1个D6 to see if the 单位 receives something &apos;extra speshul&apos;; on a 6 Add 1&quot; to the unit&apos;s charge moves for the rest of the battle.    More Rivvets - 那个单位 regains D3 wounds.  If there is a MEK or BIG MEK from your army 范围内 1&quot; of 这个模型 that has not used it&apos;s mekaniak ability to repair a vehicle yet this turn it can oversee the kustom job; if it does so, the 单位 regains 3 lost wounds 而不是 D3, and the 模型 that oversaw the Kustom Job cannot use it&apos;s big mekaniak or mekaniak this turn.  此外, 投掷1个D6 to see if the 单位 receives something &apos;extra speshul&apos;; on a 6 add 1 to the Toughness characteristic for 模型 in 那个单位 for the rest of the battle.   More Dakka - Chose one weapon (excluding a bubblechukka) that a 模型 in 那个单位 is equipped with.  The next time any 模型 in the 单位 fire that weapon, the weapon makes the maximum number of attacks (e.g. a weapon with the Heavy 2D6 type will fire 12 shots). 此外, 投掷1个D6 to see if the 单位 receives something &apos;extra speshul&apos;; on a 6 add 1 to the chosen weapon&apos;s Damage characteristic for the rest of the battle.    A 单位 can only receive a kustom job once per turn.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of your 移动阶段 one 兽人 载具 单位 from your army that is 范围内 1&quot; of 这个模型 can receive a Kustom Job.  If it does so, until the end of your turn, 那个单位 cannot shoot or charge, and the 攻击 characteristic of 模型 in 那个单位 are reduced to 1, but you can choose and resolve one of the following effects.    More Speed - Until the end of your next 移动阶段 increase the move characteristic of 模型 in the 单位 by 6&quot; 此外, 投掷1个D6 to see if the 单位 receives something &apos;extra speshul&apos;; 结果为6 Add 1&quot; to the unit&apos;s charge moves for the rest of the battle.    More Rivvets - 那个单位 regains D3 wounds.  If there is a MEK or BIG MEK from your army 范围内 1&quot; of 这个模型 that has not used it&apos;s mekaniak ability to repair a 载具 yet this turn it can oversee the kustom job; if it does so, the 单位 regains 3 lost wounds 而不是 D3, and the 模型 that oversaw the Kustom Job cannot use it&apos;s big mekaniak or mekaniak this turn.  此外, 投掷1个D6 to see if the 单位 receives something &apos;extra speshul&apos;; 结果为6 add 1 to the Toughness characteristic for 模型 in 那个单位 for the rest of the battle.   More Dakka - Chose one weapon (excluding a bubblechukka) that a 模型 in 那个单位 is equipped with.  The next time 任何模型 in the 单位 fire that weapon, the weapon makes the maximum number of 攻击 (e.g. a weapon with the Heavy 2D6 type will fire 12 shots). 此外, 投掷1个D6 to see if the 单位 receives something &apos;extra speshul&apos;; 结果为6 add 1 to the chosen weapon&apos;s Damage characteristic for the rest of the battle.    A 单位 can only receive a kustom job once per turn.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11265,7 +11265,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
             <characteristic name="S" typeId="59b1-319e-ec13-d466">+4</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time the bearer fights, it can make 1 additional attack with each dread saw it is equipped with</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 the bearer fights, it can make 1 additional attack with each dread saw it is equipped with</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11307,7 +11307,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
               <profiles>
                 <profile id="6e8b-c60e-dd19-eb0b" name="Deathskulls" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models with this Kultur have a 6+ 特殊保护. 此外, you can re-roll a single hit roll, a single wound roll, and a single damage roll for each 单位 with this kultur each time it shoots or fights.  此外, 步兵单位 with this kultur gain the &apos;Dis is Ours! Zogg Off!&apos; ability, even if they do not have the Troops battlefield role.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models with this Kultur have a 6+ 特殊保护. 此外, you can re-roll a single hit roll, a single wound roll, and a single damage roll for each 单位 with this kultur 每次 it shoots or fights.  此外, 步兵单位 with this kultur gain the &apos;Dis is Ours! Zogg Off!&apos; ability, even if they do not have the Troops battlefield role.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -11335,7 +11335,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
               <profiles>
                 <profile id="8a3b-414a-3cb0-b125" name="Bad Moons" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Re-roll hit rolls of 1 for attacks made by 模型 with this kultur in the 射击阶段.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Re-roll hit rolls of 1 for 攻击 made by 模型 with this kultur in the 射击阶段.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -11349,7 +11349,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
               <profiles>
                 <profile id="6fd4-795b-113d-1b16" name="Freebooterz" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">命中骰+1 for attacks made by 模型 with this kultur if any other 友方单位 with this kultur 范围内 24&quot; has destroyed an 敌方单位 这个阶段.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">命中骰+1 for 攻击 made by 模型 with this kultur if any other 友方单位 with this kultur 范围内 24&quot; has destroyed an 敌方单位 这个阶段.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -11363,7 +11363,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
               <profiles>
                 <profile id="acaf-5e7d-83f9-9113" name="Goffs" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time you roll an unmodified hit roll of 6 for an attack with a 肉搏武器 made by a 模型 with this kultur, immediately make an additional hit roll against the same target using the same weapon.  These additional hit rolls cannot themselves generate any further hit rolls.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 you roll an unmodified hit roll of 6 for an attack with a 肉搏武器 made by a 模型 with this kultur, 立即 make an additional hit roll 对抗 the same target using the same weapon.  These additional hit rolls cannot themselves generate any further hit rolls.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -11377,7 +11377,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
               <profiles>
                 <profile id="c9a1-f545-c32b-be53" name="Snakebites" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Roll a dice each time a 模型 with this Kultur loses a wound.  On a 6, the wound is not lost.  If a 模型 拥有 similar ability (e.g. the Supa-Cybork Shiny Gubbinz or Ramshackle ability) you can choose which ability to use when a 模型 loses a wound, but you cannot use both.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Roll a dice 每次 a 模型 with this Kultur 失去1点W.  结果为6, the wound is not lost.  If a 模型 拥有 similar ability (e.g. the Supa-Cybork Shiny Gubbinz or Ramshackle ability) you can choose which ability to use when a 模型 失去1点W, but you cannot use both.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -11813,7 +11813,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
       <profiles>
         <profile id="0b67-8429-f87c-77f2" name="Morgog&apos;s Finkin&apos; Cap" publicationId="11b5-77b9-pubN65537" page="131" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">BLOOD AXE 模型 only. If the bearer is your 主将, you can generate a second 主将 Trait for them. If the bearer is not your 主将, generate a 主将 Trait for them (note that the bearer is only regarded as your 主将 for the purposes of that 主将 Trait). The same 主将 Trait cannot be generated for both the bearer and your 主将.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">BLOOD AXE 模型 only. If the bearer is your 主将, you can generate a second 主将 Trait for them. If the bearer is not your 主将, generate a 主将 Trait for them (note that the bearer is only regarded as your 主将 for the purposes of that 主将 Trait). The same 主将 Trait 不能 generated for both the bearer and your 主将.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11880,7 +11880,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
       <profiles>
         <profile id="fe6c-e3ad-50bd-2ae3" name="Big Killa Boss" publicationId="11b5-77b9-pubN65537" page="132" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the wound rolls for your 主将 attacks if they are targeting vehicle or monster.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the wound rolls for your 主将 攻击 if they are targeting 载具 or monster.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11939,7 +11939,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is on
         <profile id="f9fe-ace7-5536-259e" name="Follow me Ladz!" publicationId="11b5-77b9-pubN65537" page="132" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Your 主将 gains the Waaagh! and Breakin’ Heads abilities (pg 85). If your 主将 already has the Waaagh! and Breakin’ Heads abilities, the range of each ability is increased by 3&quot;. 此外, if your army is Battle-forged, you receive an additional 1
-Command Point.</characteristic>
+指挥点数.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11996,7 +11996,7 @@ Command Point.</characteristic>
       <profiles>
         <profile id="5f06-5d36-6655-a261" name="Kunnin but Brutal" publicationId="11b5-77b9-pubN65537" page="132" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of the first battle round but before the first turn begins, you can remove your 主将 and up to D3 友方单位 from the battlefield and set them up again as described in the deployment section of the mission you are playing. If you pick a transport, the 单位 上车 on it are also redeployed.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of the first battle round but before the first turn begins, you can remove your 主将 and 至多 D3 友方单位 from the battlefield and set them up again as described in the deployment section of the mission you are playing. If you pick a transport, the 单位 上车 on it are also redeployed.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -12013,7 +12013,7 @@ Command Point.</characteristic>
       <profiles>
         <profile id="e853-080b-2d40-ca44" name="Might is Right" publicationId="11b5-77b9-pubN65537" page="132" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to this Warlord&apos;s Strength and Attacks characteristic.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to this Warlord&apos;s Strength and 攻击 characteristic.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -12116,7 +12116,7 @@ Command Point.</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">x2</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time the bearer fights, it can make 1 additional attack with each dread klaw it is equipped with</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 the bearer fights, it can make 1 additional attack with each dread klaw it is equipped with</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -12184,12 +12184,12 @@ Command Point.</characteristic>
         </profile>
         <profile id="8450-9c7e-aeb7-3620" name="Firing Points" publicationId="be22-4c1d-1c01-d7ef" page="8" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Firing Points: 模型 上车 on 这个载具 can shoot in their 射击阶段. They measure range and draw line of sight from any point on the vehicle. When they do so, any restrictions or modifiers that apply to 这个模型 also apply to its passengers; for example, the passengers cannot shoot if 这个模型 has Fallen Back in the same turn, cannot shoot (except with Pistols) if 这个模型 is 范围内 1&quot; of an 敌方单位, and so on.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Firing Points: 模型 上车 on 这个载具 can shoot in their 射击阶段. They measure range and draw line of sight from any point on the 载具. When they do so, any restrictions or modifiers that apply to 这个模型 also apply to its passengers; for example, the passengers cannot shoot if 这个模型 has Fallen Back in the same turn, cannot shoot (except with Pistols) if 这个模型 is 范围内 1&quot; of an 敌方单位, and so on.</characteristic>
           </characteristics>
         </profile>
         <profile id="d0fc-aee2-c395-4850" name="Grot Riggers" publicationId="be22-4c1d-1c01-d7ef" page="8" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Grot Riggers: At the end of the turn, 投掷1个D6. On a 6, 这个模型 恢复1点失去的W.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Grot Riggers: At the end of the turn, 投掷1个D6. 结果为6, 这个模型 恢复1点失去的W.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -12222,7 +12222,7 @@ Command Point.</characteristic>
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">+2</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Add 3 to hit rolls for attacks made for 这个武器</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Add 3 to hit rolls for 攻击 made for 这个武器</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12367,12 +12367,12 @@ Command Point.</characteristic>
         </profile>
         <profile id="7beb-110f-079e-6623" name="Hang On!" publicationId="be22-4c1d-1c01-d7ef" page="9" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models 上车 on 这个载具 can shoot in their 射击阶段, but only hit on a 6+. They measure range and draw line of sight from any point on the vehicle. When they do so, any restrictions or modifiers that apply to 这个模型 also apply to its passengers; for example, the passengers cannot shoot if 这个模型 has Fallen Back in the same turn, cannot shoot (except with Pistols) if 这个模型 is 范围内 1&quot; of an 敌方单位, and so on.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models 上车 on 这个载具 can shoot in their 射击阶段, but only hit 结果为6+. They measure range and draw line of sight from any point on the 载具. When they do so, any restrictions or modifiers that apply to 这个模型 also apply to its passengers; for example, the passengers cannot shoot if 这个模型 has Fallen Back in the same turn, cannot shoot (except with Pistols) if 这个模型 is 范围内 1&quot; of an 敌方单位, and so on.</characteristic>
           </characteristics>
         </profile>
         <profile id="5b28-c000-4126-3bd6" name="Grot Riggers" publicationId="be22-4c1d-1c01-d7ef" page="9" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Grot Riggers: At the end of the turn, 投掷1个D6. On a 6, 这个模型 恢复1点失去的W.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Grot Riggers: At the end of the turn, 投掷1个D6. 结果为6, 这个模型 恢复1点失去的W.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -12434,7 +12434,7 @@ Command Point.</characteristic>
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Units do not receive the benefit of cover to their saving throws for attacks made with 这个武器.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Units do not receive the benefit of cover to their saving throws for 攻击 made with 这个武器.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12452,7 +12452,7 @@ Command Point.</characteristic>
           <profiles>
             <profile id="21ff-09eb-287b-f5ad" name="Reinforced Ram" publicationId="be22-4c1d-1c01-d7ef" page="9" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Increase 这个模型’s Strength characteristic by 2 until the end of a turn in which it makes a successful charge. 此外, each time 这个模型 完成冲锋移动, select one 敌方单位 范围内 1&quot; and 投掷1个D6; on a 2+ 那个单位 遭受 D3 致命伤.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Increase 这个模型’s Strength characteristic by 2 until the end of a turn in which it makes a successful charge. 此外, 每次 这个模型 完成冲锋移动, select one 敌方单位 范围内 1&quot; and 投掷1个D6; 结果为2+ 那个单位 遭受 D3 致命伤.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12558,7 +12558,7 @@ Command Point.</characteristic>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="677a-3b55-32ed-ef91" name="Kart" hidden="false" targetId="3616-e65a-1b40-7654" primary="false"/>
-        <categoryLink id="f047-d82b-c099-c605" name="Vehicle" hidden="false" targetId="c8fd-783f-3230-493e" primary="false"/>
+        <categoryLink id="f047-d82b-c099-c605" name="载具" hidden="false" targetId="c8fd-783f-3230-493e" primary="false"/>
         <categoryLink id="e56d-579b-0fb2-b6de" name="运载能力" hidden="false" targetId="6cc4-1b62-8e8a-05cd" primary="false"/>
         <categoryLink id="53d2-4a7d-cf5a-1988" name="Looted Wagon" hidden="false" targetId="a40c-9c36-5fa9-a1c4" primary="false"/>
         <categoryLink id="8c45-f228-f912-da76" name="阵营: &lt;氏族&gt;" hidden="false" targetId="2ab6-8d0f-494d-38e2" primary="false"/>
@@ -12663,7 +12663,7 @@ Command Point.</characteristic>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="bb22-2c20-ea65-979d" name="Wagon" hidden="false" targetId="78e6-5cfc-20d3-d002" primary="false"/>
-        <categoryLink id="d5dc-fcf9-1196-c6c8" name="Vehicle" hidden="false" targetId="c8fd-783f-3230-493e" primary="false"/>
+        <categoryLink id="d5dc-fcf9-1196-c6c8" name="载具" hidden="false" targetId="c8fd-783f-3230-493e" primary="false"/>
         <categoryLink id="69c5-396e-ecb9-135a" name="Looted Wagon" hidden="false" targetId="a40c-9c36-5fa9-a1c4" primary="false"/>
         <categoryLink id="ada2-bb51-1f62-4675" name="阵营: &lt;氏族&gt;" hidden="false" targetId="2ab6-8d0f-494d-38e2" primary="false"/>
         <categoryLink id="d856-b55e-879a-5768" name="阵营: 兽人" hidden="false" targetId="1c58-037f-7b58-1223" primary="false"/>
@@ -12834,7 +12834,7 @@ Command Point.</characteristic>
         <categoryLink id="9f37-af1d-0496-c7d2" name="Battle Fortress" hidden="false" targetId="1023-15ed-a791-2675" primary="false"/>
         <categoryLink id="16c3-2616-884b-d0fd" name="Looted Wagon" hidden="false" targetId="a40c-9c36-5fa9-a1c4" primary="false"/>
         <categoryLink id="b70d-f70b-747d-dd70" name="Titanic" hidden="false" targetId="bdda-36f0-4f32-1639" primary="false"/>
-        <categoryLink id="fea1-e4e7-aef0-0eaf" name="Vehicle" hidden="false" targetId="c8fd-783f-3230-493e" primary="false"/>
+        <categoryLink id="fea1-e4e7-aef0-0eaf" name="载具" hidden="false" targetId="c8fd-783f-3230-493e" primary="false"/>
         <categoryLink id="9197-6b0d-4f21-acde" name="阵营: &lt;氏族&gt;" hidden="false" targetId="2ab6-8d0f-494d-38e2" primary="false"/>
         <categoryLink id="8158-517b-e117-5c5f" name="阵营: 兽人" hidden="false" targetId="1c58-037f-7b58-1223" primary="false"/>
       </categoryLinks>
@@ -13018,7 +13018,7 @@ Command Point.</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 can be fired once per battle.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 can be fired 一次性.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -13333,12 +13333,12 @@ Command Point.</characteristic>
         </profile>
         <profile id="056b-5842-a4a1-c576" name="Red Gobbo" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 can be included in an 兽人 Detachment without preventing other 单位 in that Detachment from gaining a Clan Kultur. Note, however, that 这个模型 does not itself benefit from any Clan Kultur.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 can be included in an 兽人 Detachment without preventing other 单位 in that Detachment from gaining a Clan Kultur. Note, 然而, that 这个模型 does not itself benefit from any Clan Kultur.</characteristic>
           </characteristics>
         </profile>
         <profile id="1cb6-7815-b38c-7c16" name="Has Yoo Been a Good Little Grot This Year?" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of your 移动阶段, 可以选择1个 other 友方 Gretchin 单位 范围内 3&quot; of 这个模型. If you do, 投掷1个D6; on a 1, 那个单位 遭受 1 致命伤. On a 2+, 模型 in 那个单位 count as being equipped  with stikkbombs until the end of the battle.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of your 移动阶段, 可以选择1个 other 友方 Gretchin 单位 范围内 3&quot; of 这个模型. If you do, 投掷1个D6; 结果为1, 那个单位 遭受 1 致命伤. 结果为2+, 模型 in 那个单位 count as being equipped  with stikkbombs until the end of the battle.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -13453,7 +13453,7 @@ Command Point.</characteristic>
               <characteristics>
                 <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">8</characteristic>
                 <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18&quot;</characteristic>
-                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If Manifested, 投掷1个D6 and compare it to the Toughness of the closest 可见 敌方模型 范围内 18&quot; of the 灵能者.  If the result is higher then the model&apos;s Toughness, it is slain.</characteristic>
+                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If Manifested, 投掷1个D6 and compare it to the Toughness of the closest 可见 敌方模型 范围内 18&quot; of the 灵能者.  If the result is higher then the 模型的 Toughness, it is slain.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13472,7 +13472,7 @@ Command Point.</characteristic>
               <characteristics>
                 <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">7</characteristic>
                 <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18&quot;</characteristic>
-                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If Manifested, select a 友方 兽人 单位 范围内 18&quot; of the 灵能者.  Increase 那个单位&apos;s Attacks characteristic by 1 until your next 灵能阶段.</characteristic>
+                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If Manifested, select a 友方 兽人 单位 范围内 18&quot; of the 灵能者.  Increase 那个单位&apos;s 攻击 characteristic by 1 until your next 灵能阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13491,7 +13491,7 @@ Command Point.</characteristic>
               <characteristics>
                 <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">7</characteristic>
                 <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">12&quot;</characteristic>
-                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If Manifested, select a 友方 兽人 步兵单位 范围内 12&quot; of the 灵能者.  Remove 那个单位 from the battlefield, and then set it up anywhere on the battlefield more than 9&quot; from any 敌方单位.  那个单位 counts as having moved for any rules purposes, such as firing 重型武器</characteristic>
+                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If Manifested, select a 友方 兽人 步兵单位 范围内 12&quot; of the 灵能者.  Remove 那个单位 from the battlefield, and then 放置在战场上的任何位置 more than 9&quot; from any 敌方单位.  那个单位 counts as having moved for any rules purposes, such as firing 重型武器</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13510,7 +13510,7 @@ Command Point.</characteristic>
               <characteristics>
                 <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">6</characteristic>
                 <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">12&quot;</characteristic>
-                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If Manifested, select a 友方 兽人 CHARACTER 模型 that is 可见 to and 范围内 12&quot; of the 灵能者.  Add 2 to that model&apos;s Strength and Attacks characteristics until the start of your next 灵能阶段.</characteristic>
+                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If Manifested, select a 友方 兽人 CHARACTER 模型 that is 可见 to and 范围内 12&quot; of the 灵能者.  Add 2 to that 模型的 Strength and 攻击 characteristics until the start of your next 灵能阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13548,7 +13548,7 @@ Command Point.</characteristic>
               <characteristics>
                 <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">8</characteristic>
                 <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18&quot;</characteristic>
-                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If Manifested, select an 敌方单位 范围内 18&quot; of the 灵能者.  投掷1个D6 for each 模型 in 那个单位.  For each roll of 6, 那个单位 遭受 1 致命伤.  Then roll 2D6; on a 10+, 投掷1个D6 once more for each 模型 in 那个单位.  For each roll of 6, 那个单位 遭受 1 致命伤.</characteristic>
+                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If Manifested, select an 敌方单位 范围内 18&quot; of the 灵能者.  投掷1个D6 for each 模型 in 那个单位.  For each roll of 6, 那个单位 遭受 1 致命伤.  Then roll 2D6; 结果为10+, 投掷1个D6 once more for each 模型 in 那个单位.  For each roll of 6, 那个单位 遭受 1 致命伤.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13673,7 +13673,7 @@ Command Point.</characteristic>
               <profiles>
                 <profile id="5103-ec7c-9244-1287" name="Gork&apos;s One" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">命中骰+1 and wound rolls for attacks made by your 主将 in the 肉搏阶段.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">命中骰+1 and wound rolls for 攻击 made by your 主将 in the 肉搏阶段.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -13697,7 +13697,7 @@ Command Point.</characteristic>
               <profiles>
                 <profile id="6501-8cce-8337-c421" name="Mork&apos;s One" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to wound rolls for shooting attacks made by your 主将. </characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to wound rolls for 射击攻击 made by your 主将. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -13826,7 +13826,7 @@ Command Point.</characteristic>
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">The bearer can only make a single attack with 这个武器 each time it fights.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">The bearer can only make a single attack with 这个武器 每次 it fights.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13843,7 +13843,7 @@ Command Point.</characteristic>
           <profiles>
             <profile id="fba3-8c80-8c95-80f1" name="Grot Riggers" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If a 模型 拥有 grot rigger, the grot can attempt repairs at the end of the 移动阶段.  投掷1个D6, on a roll of a 2+, 这个模型 regains 1 wounds lost earlier in the battle.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If a 模型 拥有 grot rigger, the grot can attempt repairs at the end of the 移动阶段.  投掷1个D6, 结果为roll of a 2+, 这个模型 regains 1 wounds lost earlier in the battle.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13865,7 +13865,7 @@ Command Point.</characteristic>
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 can only be fired if a 单位 is 上车 on the vehicle.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 can only be fired if a 单位 is 上车 on the 载具.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13971,7 +13971,7 @@ Command Point.</characteristic>
           <profiles>
             <profile id="21ca-ce9c-a13a-79a8" name="Rezmekka&apos;s Redder Armour" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the Move characteristic of a TRANSPORT while the bearer is 上车 范围内 it. 此外, if the bearer is embarked, then at the start of your 移动阶段 投掷1个D6 for each 敌方单位 范围内 1&quot; of the TRANSPORT the bearer is 上车 upon. On a 4+ 那个单位 遭受 D3 致命伤.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the Move characteristic of a TRANSPORT while the bearer is 上车 范围内 it. 此外, if the bearer is embarked, then at the start of your 移动阶段 投掷1个D6 for each 敌方单位 范围内 1&quot; of the TRANSPORT the bearer is 上车 upon. 结果为4+ 那个单位 遭受 D3 致命伤.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -14000,7 +14000,7 @@ Command Point.</characteristic>
           <profiles>
             <profile id="5001-e1bb-0ff0-97b2" name="Da Fixer Upperz" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">DEATHSKULLS 模型 only. The bearer gains the Big Mekaniak ability. If the bearer already has the Big Mekaniak ability, the target of the ability regains 3 lost wounds 而不是 D3 each time it is used.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">DEATHSKULLS 模型 only. The bearer gains the Big Mekaniak ability. If the bearer already has the Big Mekaniak ability, the target of the ability regains 3 lost wounds 而不是 D3 每次 it is used.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -14063,7 +14063,7 @@ Command Point.</characteristic>
           <profiles>
             <profile id="ec70-99fc-08ca-e757" name="The Badskull Banner" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can activate this once per battle at the start of your morale phase, if you do so then for the rest of this morale phase all 友方 Freebootas 单位 automatically pass 士气测试.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can activate this 一次性 at the start of your morale phase, if you do so then for the rest of this morale phase all 友方 Freebootas 单位 automatically pass 士气测试.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -14080,7 +14080,7 @@ Command Point.</characteristic>
           <profiles>
             <profile id="bf88-238b-7d62-8321" name="Super Cybork Body" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time the bearer loses a wound, 投掷1个D6; on a roll of 5+ that wound is not lost. You cannot make a Dokk&apos;s Tools roll for 这个模型 if you do so.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 the bearer 失去1点W, 投掷1个D6; 结果为roll of 5+ that wound is not lost. You cannot make a Dokk&apos;s Tools roll for 这个模型 if you do so.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -14193,7 +14193,7 @@ Command Point.</characteristic>
           <profiles>
             <profile id="00fa-6546-7f00-b427" name="Da Blitzshouta" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of your 射击阶段, if the bearer is 上车 范围内 a BLITZ BRIGADE BATTLEWAGON, pick an 敌方单位 that is 可见 to that BATTLEWAGON. 直到阶段结束, re-roll hit rolls of 1 for attacks made by 友方 BLITZ BRIGADE 单位 范围内 6&quot; of that BATTLEWAGON that target the 敌方单位 you picked.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of your 射击阶段, if the bearer is 上车 范围内 a BLITZ BRIGADE BATTLEWAGON, pick an 敌方单位 that is 可见 to that BATTLEWAGON. 直到阶段结束, re-roll hit rolls of 1 for 攻击 made by 友方 BLITZ BRIGADE 单位 范围内 6&quot; of that BATTLEWAGON that target the 敌方单位 you picked.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -14320,7 +14320,7 @@ Command Point.</characteristic>
           <profiles>
             <profile id="cb26-9295-b04a-e8f7" name="Stompa Mob" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Use this Stratagem when choosing your army. Pick an 兽人 Super-heavy Detachment from your army to be a Stompa Mob Specialist Detachment. STOMPA 单位 in that Detachment gain the STOMPA MOB 关键字. 此外, you can pick one 模型 in that Stompa Mob Specialist Detachment to gain the CHARACTER 关键字. However, the only 主将 Trait it can be given is either Gork’s One or Mork’s One (see right) and the only relic it can take is Tezdrek’s Stompa Power Field (see right).</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Use this Stratagem when choosing your army. Pick an 兽人 Super-heavy Detachment from your army to be a Stompa Mob Specialist Detachment. STOMPA 单位 in that Detachment gain the STOMPA MOB 关键字. 此外, you can pick one 模型 in that Stompa Mob Specialist Detachment to gain the CHARACTER 关键字. 然而, the only 主将 Trait it can be given is either Gork’s One or Mork’s One (see right) and the only relic it can take is Tezdrek’s Stompa Power Field (see right).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -14395,12 +14395,12 @@ Command Point.</characteristic>
       <description>如果这个模型W降为0, 投掷1个D6 before removing it from the battlefield.  结果为6则爆炸, 每个单位 范围内 6&quot; 遭受 D3 致命伤.</description>
     </rule>
     <rule id="52cc-983f-0b7b-683a" name="Dakka Dakka Dakka" publicationId="11b5-77b9-pubN65537" page="82" hidden="false">
-      <description>Each time you roll an unmodified hit roll of 6 for an attack with a 远程武器 by a 模型 in 这个单位, that hit roll succeeds regardless of modifiers.
+      <description>每次 you roll an unmodified hit roll of 6 for an attack with a 远程武器 by a 模型 in 这个单位, that hit roll succeeds regardless of modifiers.
 
-此外, immediately make an additional hit roll against the same target using the same weapon. These additional hit rolls cannot themselves generate extra hit rolls. When firing a weapon with randomly determined characteristics (ie. Bubblechukka), any additional hit rolls use the same characteristics as the hit roll that generated the additional hit roll.  This ability does not affect 武器 that automatically hit their target.</description>
+此外, 立即 make an additional hit roll 对抗 the same target using the same weapon. These additional hit rolls cannot themselves generate extra hit rolls. When firing a weapon with randomly determined characteristics (ie. Bubblechukka), any additional hit rolls use the same characteristics as the hit roll that generated the additional hit roll.  This ability does not affect 武器 that automatically hit their target.</description>
     </rule>
     <rule id="0b6c-1bcf-a37e-9f0c" name="Speed Mob" publicationId="11b5-77b9-pubN65537" page="82" hidden="false">
-      <description>The 第1次 这个单位 sets up on the battlefield, all of its 模型 must be placed 范围内 6&quot; of at least one other  model from the unit.  From that point onwards each 模型 operates independently and is treated as a seperate 单位 for all rules purposes.</description>
+      <description>The 第1次 这个单位 sets up 战场上, all of its 模型 必须 placed 范围内 6&quot; of at least one other  model from the unit.  From that point onwards each 模型 operates independently and is treated as a seperate 单位 for all rules purposes.</description>
     </rule>
     <rule id="3f88-a717-6763-c8f5" name="Grots" hidden="false">
       <description>Units comprised entirely of GRETCHIN cannot benefit from any Clan Kultur.  此外, 兽人 Stratagems can only be used on these 单位 if the Stratagem explicitly states so (e.g. the &apos;Grot Shields&apos; Stratagem)</description>
@@ -14447,17 +14447,17 @@ Command Point.</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">x2</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When attacking with 这个武器, you must subtract 1 from the hit roll.  If a 模型 is equipped with 2 Killsaws, add 1 to its Attacks characteristic</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When attacking with 这个武器, you must subtract 1 from the hit roll.  If a 模型 is equipped with 2 Killsaws, add 1 to its 攻击 characteristic</characteristic>
       </characteristics>
     </profile>
     <profile id="b5ee-945a-576f-ad0a" name="Dok&apos;s Tools" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">投掷1个D6 each time a &lt;氏族&gt; 步兵 or &lt;氏族&gt; 摩托 单位 loses a wound whilst 范围内 3&quot; of any 友方 &lt;氏族&gt; PAINBOYZ.  On a 6, 那个单位 does not lose that wound.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">投掷1个D6 每次 a &lt;氏族&gt; 步兵 or &lt;氏族&gt; 摩托 单位 失去1点W whilst 范围内 3&quot; of any 友方 &lt;氏族&gt; PAINBOYZ.  结果为6, 那个单位 does not lose that wound.</characteristic>
       </characteristics>
     </profile>
     <profile id="1b10-4a6f-f6d0-3a91" name="摩托 Dok&apos;s Tools" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When a &lt;氏族&gt; 步兵 or &lt;氏族&gt; 摩托 模型 would lose a wound 范围内 3&quot; of any 友方 &lt;氏族&gt; PAINBOYS, 投掷1个D6; on a 6, that wound is not lost.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When a &lt;氏族&gt; 步兵 or &lt;氏族&gt; 摩托 模型 would lose a wound 范围内 3&quot; of any 友方 &lt;氏族&gt; PAINBOYS, 投掷1个D6; 结果为6, that wound is not lost.</characteristic>
       </characteristics>
     </profile>
     <profile id="6a6c-07a0-01b0-89eb" name="Stikkbomb" publicationId="11b5-77b9-pubN65537" page="120" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -14487,7 +14487,7 @@ Command Point.</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">user</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time the bearer fights, it can make 1 additional attack with 这个武器.</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 the bearer fights, it can make 1 additional attack with 这个武器.</characteristic>
       </characteristics>
     </profile>
     <profile id="4305-daf8-8988-6189" name="兽人 Boy" publicationId="11b5-77b9-pubN65537" page="89" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
@@ -14521,24 +14521,24 @@ Command Point.</characteristic>
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models 上车 on 这个模型 can attack in their 射击阶段. Measure the range and draw line of sight from any point on 这个模型.  When they do so, any restrictions or modifiers that apply to 这个模型 also apply to its passengers; for example, the passengers cannot shoot if 这个模型 has Fallen Back in the same turn, cannot shoot (except with Pistols) if 这个模型 is 范围内 1&quot; of an 敌方单位, and so on.</characteristic>
       </characteristics>
     </profile>
-    <profile id="869f-1549-caf7-29d3" name="Supersonic" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="869f-1549-caf7-29d3" name="超音速" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time 这个模型 moves, first pivot it on the spot up to 90 degrees (this does not contribute to how far the 模型 moves), and then move the 模型 straight forwards, Note that it cannot pivot again after the initial pivot.  when the 模型 Advances, increase its Move characteristic by 20&quot; 直到阶段结束 - do not roll a dice.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 这个模型 moves, first pivot it on the spot 至多 90 degrees (this does not contribute to how far the 模型 moves), and then move the 模型 straight forwards, Note that it cannot pivot again after the initial pivot.  when the 模型 Advances, increase its Move characteristic by 20&quot; 直到阶段结束 - 不需要投掷.</characteristic>
       </characteristics>
     </profile>
     <profile id="0358-d920-32c7-3e8c" name="Artillery" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">An Artillery 模型 can only fire its 远程武器 if a 友方 Grot Gunner 单位 is 范围内 3&quot;.  A single Grot Gunner cannot operate multiple artillery 模型 in a single turn.  If all of the Grot Gunners 范围内 6&quot; of a Big Gun are slain, it immediately shuts down and is removed from play.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">An Artillery 模型 can only fire its 远程武器 if a 友方 Grot Gunner 单位 is 范围内 3&quot;.  A single Grot Gunner cannot operate multiple artillery 模型 in a single turn.  If all of the Grot Gunners 范围内 6&quot; of a Big Gun are slain, it 立即 shuts down and is removed from play.</characteristic>
       </characteristics>
     </profile>
     <profile id="e5ad-516c-ad0a-54a1" name="Mekaniak" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of your 移动阶段, 这个模型 can repair a single 友方 &lt;氏族&gt; VEHICLE 范围内 1&quot;.  That 模型 regains 1 wound lost earlier in the battle.  A vehicle can only be repaired once each turn.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of your 移动阶段, 这个模型 can repair a single 友方 &lt;氏族&gt; 载具 范围内 1&quot;.  That 模型 regains 1 wound lost earlier in the battle.  A 载具 can only be repaired once each turn.</characteristic>
       </characteristics>
     </profile>
     <profile id="0a24-5217-fb9c-c81c" name="Big Mekaniak" publicationId="11b5-77b9-pubN65537" page="86" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of your 移动阶段, 这个模型 can repair a single 友方 (CLAN) Vehicle  model 范围内 3&quot;. That 模型 regains D3 lost wounds. A 模型 can only be repaired once per turn.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of your 移动阶段, 这个模型 can repair a single 友方 (CLAN) 载具  model 范围内 3&quot;. That 模型 regains D3 lost wounds. A 模型 can only be repaired once per turn.</characteristic>
       </characteristics>
     </profile>
     <profile id="e5b1-5297-5794-d878" name="Breakin&apos; Heads" publicationId="11b5-77b9-pubN65537" page="85" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -14548,17 +14548,17 @@ Command Point.</characteristic>
     </profile>
     <profile id="3202-2878-7cb1-93a2" name="Keepin&apos; Order" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">投掷1个D6 for each 模型 that flees from a &lt;氏族&gt; 单位 that is 范围内 3&quot; of any 友方 &lt;氏族&gt; 单位 with this ability. On a 6, that 模型 doesn&apos;t flee.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">投掷1个D6 for each 模型 that flees from a &lt;氏族&gt; 单位 that is 范围内 3&quot; of any 友方 &lt;氏族&gt; 单位 with this ability. 结果为6, that 模型 doesn&apos;t flee.</characteristic>
       </characteristics>
     </profile>
     <profile id="5dbe-c4d8-6c28-07fa" name="Waaagh!" publicationId="11b5-77b9-pubN65537" page="85" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">友方 &lt;氏族&gt; 步兵单位 范围内 6&quot; of 这个模型 at the start of the Charge phase can charge even if they Advanced this turn.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">友方 &lt;氏族&gt; 步兵单位 范围内 6&quot; of 这个模型 at the start of the 冲锋阶段 can charge even if they Advanced this turn.</characteristic>
       </characteristics>
     </profile>
-    <profile id="9649-855b-5c2e-57da" name="Big Bike Mekaniak" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="9649-855b-5c2e-57da" name="Big 摩托 Mekaniak" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of your 移动阶段, if it didn&apos;t move more than 6&quot;, 这个模型 can repair a single 友方 (Clan); VEHICLE (other than 模型 that can FLY) 范围内 1&quot;.  That 模型 regains D3 wounds lost earlier in the battle.  A vehicle can only be repaired once each turn.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of your 移动阶段, if it didn&apos;t move more than 6&quot;, 这个模型 can repair a single 友方 (Clan); 载具 (other than 模型 that can FLY) 范围内 1&quot;.  That 模型 regains D3 wounds lost earlier in the battle.  A 载具 can only be repaired once each turn.</characteristic>
       </characteristics>
     </profile>
     <profile id="f05d-1990-b3e0-4a44" name="Grotzooka" publicationId="11b5-77b9-pubN65537" page="119" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -14598,7 +14598,7 @@ Command Point.</characteristic>
     </profile>
     <profile id="5291-c6ef-63b6-68a0" name="Grot Riggers" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of the turn, 投掷1个D6.  On a roll of 6, 这个模型 恢复1点失去的W.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of the turn, 投掷1个D6.  结果为roll of 6, 这个模型 恢复1点失去的W.</characteristic>
       </characteristics>
     </profile>
     <profile id="4613-48d6-d948-0a0a" name="Rattler Kannon" publicationId="03b4-8286-592c-c370" page="85" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -14618,7 +14618,7 @@ Command Point.</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">7</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time 这个单位 is chosen to shoot with, roll one D3 to determine the Type characteristic of all deffguns that 模型 in 这个单位 are equipped with when resolving those attacks.</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 这个单位 is chosen to shoot with, roll one D3 to determine the Type characteristic of all deffguns that 模型 in 这个单位 are equipped with when resolving those 攻击.</characteristic>
       </characteristics>
     </profile>
     <profile id="a320-4ef6-ad10-fe0c" name="爆炸 (6+/2D6&quot;/D6)" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -14679,12 +14679,12 @@ Command Point.</characteristic>
     </profile>
     <profile id="6829-dbf1-bf22-c9e5" name="Waaagh! (摩托)" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">友方 兽人 步兵 and 摩托 单位 范围内 6&quot; of 这个模型 at the start of the Charge phase can charge even if they Advanced this turn.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">友方 兽人 步兵 and 摩托 单位 范围内 6&quot; of 这个模型 at the start of the 冲锋阶段 can charge even if they Advanced this turn.</characteristic>
       </characteristics>
     </profile>
     <profile id="4350-a8e0-753d-fa9a" name="Throat Slittas" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to wound rolls for attacks made with 这个单位&apos;s melee 武器 when targeting 敌方单位 wholly 范围内 or on a terrain feature.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to wound rolls for 攻击 made with 这个单位&apos;s melee 武器 when targeting 敌方单位 wholly 范围内 or 结果为terrain feature.</characteristic>
       </characteristics>
     </profile>
     <profile id="5e32-7bb6-7a93-a0b6" name="爆炸 (4+/D6&quot;/D3)" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -14692,7 +14692,7 @@ Command Point.</characteristic>
         <modifier type="set" field="name" value="爆炸"/>
       </modifiers>
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 在载具被移除及任何在这个载具上的模型下车前投掷1个D6. On a 4+ it 爆炸, 每个单位 范围内 D6&quot; 遭受 D3 致命伤.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 在载具被移除及任何在这个载具上的模型下车前投掷1个D6. 结果为4+ it 爆炸, 每个单位 范围内 D6&quot; 遭受 D3 致命伤.</characteristic>
       </characteristics>
     </profile>
     <profile id="5e48-9578-edcc-a0fc" name="爆炸 (4+/6&quot;/D6)" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -14700,7 +14700,7 @@ Command Point.</characteristic>
         <modifier type="set" field="name" value="爆炸"/>
       </modifiers>
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 在载具被移除及任何在这个载具上的模型下车前投掷1个D6. On a 4+ it 爆炸, 每个单位 范围内 6&quot; 遭受 D6 致命伤.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 在载具被移除及任何在这个载具上的模型下车前投掷1个D6. 结果为4+ it 爆炸, 每个单位 范围内 6&quot; 遭受 D6 致命伤.</characteristic>
       </characteristics>
     </profile>
     <profile id="64c4-54d0-c6b6-e809" name="Speed Freek" publicationId="11b5-77b9-pubN65537" page="133" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -14710,7 +14710,7 @@ Command Point.</characteristic>
     </profile>
     <profile id="5acd-6c6c-9f1a-bdc4" name="Proper Killy" publicationId="11b5-77b9-pubN65537" page="133" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to your Warlord’s Attacks characteristic. 此外, improve the Armour Penetration characteristic of melee 武器 这个主将 is equipped with by 1 during any turn in which they made a 冲锋移动, were charged, or performed a Heroic Intervention (e.g. AP -1 becomes AP -2).’</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to your Warlord’s 攻击 characteristic. 此外, improve the Armour Penetration characteristic of melee 武器 这个主将 is equipped with by 1 during any turn in which they made a 冲锋移动, were charged, or performed a Heroic Intervention (e.g. AP -1 becomes AP -2).’</characteristic>
       </characteristics>
     </profile>
     <profile id="7325-d533-498c-3d6c" name="Opportunist" publicationId="11b5-77b9-pubN65537" page="133" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -14725,12 +14725,12 @@ Command Point.</characteristic>
     </profile>
     <profile id="f68d-2b28-1041-a7a9" name="I&apos;ve Got A Plan, Ladz!" publicationId="11b5-77b9-pubN65537" page="133" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If you use a Stratagem roll 1 die for each command point. If you roll a 6 the command point is immediately refunded.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If you use a Stratagem roll 1 die for each 指挥点数. If you roll a 6 the 指挥点数 is 立即 refunded.</characteristic>
       </characteristics>
     </profile>
     <profile id="ac78-0dd9-d3b2-62e4" name="Big Red Button" publicationId="11b5-77b9-pubN143628" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per battle, at the start of the 射击阶段, the driver of the Looted Vehicle can hit the inviting and mysterious red button mounted on his dashboard. When he does, roll a D3 on the table below to see what happens.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, at the start of the 射击阶段, the driver of the Looted 载具 can hit the inviting and mysterious red button mounted on his dashboard. When he does, roll a D3 on the table below to see what happens.</characteristic>
       </characteristics>
     </profile>
     <profile id="074a-907c-6e8d-04b1" name="2) More Dakka" publicationId="11b5-77b9-pubN143628" hidden="false" typeId="77e2-f55e-0f49-2781" typeName="Big Red Button">
@@ -14740,7 +14740,7 @@ Command Point.</characteristic>
     </profile>
     <profile id="b798-41ab-50ee-6869" name="1) Boosta" publicationId="11b5-77b9-pubN143628" hidden="false" typeId="77e2-f55e-0f49-2781" typeName="Big Red Button">
       <characteristics>
-        <characteristic name="Result" typeId="ab7a-34c5-d775-98d3">Immediately move 这个模型 6&quot; as if it were your 移动阶段 (models cannot 下车 from the vehicle before doing so). A 模型 cannot use the Shoot ’Em Again! ability this turn.</characteristic>
+        <characteristic name="Result" typeId="ab7a-34c5-d775-98d3">立即 move 这个模型 6&quot; as if it were your 移动阶段 (models cannot 下车 from the 载具 before doing so). A 模型 cannot use the Shoot ’Em Again! ability this turn.</characteristic>
       </characteristics>
     </profile>
     <profile id="e46c-0262-b41b-7922" name="3) Auto-Welder" publicationId="11b5-77b9-pubN143628" hidden="false" typeId="77e2-f55e-0f49-2781" typeName="Big Red Button">
