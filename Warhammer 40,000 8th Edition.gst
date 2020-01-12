@@ -1106,7 +1106,7 @@
       </constraints>
       <rules>
         <rule id="72fc-64c3-a228-2ca0" name="Understrength Units" publicationId="28ec-711c-pubN72690" hidden="false">
-          <description>If you are playing a matched play game, you are allowed to have an understrength unit in an Auxiliary Support Detachment. Due to constraints 范围内 Battlescribe, we are not able to reflect this in the error checking.  To properly calculate your PL and Points, add the unit you want to take as an understrength unit and then open the context menu on each model in the unit you do not want to use via right click or tap and hold. Then delete the model from that context menu.  This will permanently display an error in your list, but it will calculate your points correctly.</description>
+          <description>If you are playing a matched play game, you are allowed to have an understrength 单位 in an Auxiliary Support Detachment. Due to constraints 范围内 Battlescribe, we are not able to reflect this in the error checking.  To properly calculate your PL and Points, add the 单位 you want to take as an understrength 单位 and then open the context menu on each model in the 单位 you do not want to use via right click or tap and hold. Then delete the model from that context menu.  This will permanently display an error in your list, but it will calculate your points correctly.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -1867,7 +1867,7 @@
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When 这个模型 is destroyed, before any 上车 models 下车 its vortex missiles explode. Each unit 范围内 2D6寸 遭受 D6 致命伤. If a model loses any wounds as a result of those 致命伤 but is not destroyed, roll another D6; on a 6 that model 遭受 a further D6 致命伤.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When 这个模型 is destroyed, before any 上车 models 下车 its vortex missiles explode. Each 单位 范围内 2D6寸 遭受 D6 致命伤. If a model loses any wounds as a result of those 致命伤 but is not destroyed, roll another D6; on a 6 that model 遭受 a further D6 致命伤.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1941,12 +1941,12 @@
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">-</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">-</characteristic>
-                    <characteristic name="能力" typeId="837d-5e63-aeb7-1410">这个武器 may target units that are not visible to the bearer, even when firing in accordance with the Automated 武器 ability. Each time you hit the target with 这个武器 it 遭受 D6 致命伤. If a model is wounded but but not slain by this attack, roll another dice; on a 6, the model 遭受 a further D6 致命伤.</characteristic>
+                    <characteristic name="能力" typeId="837d-5e63-aeb7-1410">这个武器 may target 单位 that are not visible to the bearer, even when firing in accordance with the Automated 武器 ability. Each time you hit the target with 这个武器 it 遭受 D6 致命伤. If a model is wounded but but not slain by this attack, roll another dice; on a 6, the model 遭受 a further D6 致命伤.</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="43f6-b40f-134b-8b48" name="Containment Failure" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, before removing it from the battlefield and before any 上车 models disembark, its vortex missiles explode. Each unit 范围内 2D6寸 遭受 D6 致命伤. If a model is wounded but not slain by in this manner roll another dice; on a 6, the model is sucked up into the swirling vortex and slain.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, before removing it from the battlefield and before any 上车 models disembark, its vortex missiles explode. Each 单位 范围内 2D6寸 遭受 D6 致命伤. If a model is wounded but not slain by in this manner roll another dice; on a 6, the model is sucked up into the swirling vortex and slain.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2260,7 +2260,7 @@
       <profiles>
         <profile id="808f-d24a-ba7c-7d24" name="Stalwart Defence" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the LD characteristic of models in IMPERIUM 步兵单位 whilst their unit is 范围内 an Imperial Defence Line.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the LD characteristic of models in IMPERIUM 步兵单位 whilst their 单位 is 范围内 an Imperial Defence Line.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2409,7 +2409,7 @@
         </profile>
         <profile id="c1ed-3585-4739-2266" name="Unfurled" hidden="false" typeId="002f-cc4a-c4e3-0261" typeName="登陆平台配置">
           <characteristics>
-            <characteristic name="影响" typeId="f566-bacc-9414-7661">Whilst this configuration is in effect, if a 友方 VEHICLE unit with the FLYER Battlefield Role spends its entire turn on top of a Skyshield Landing Pad in this configuration, that model regains up to D3 lost wounds at the end of the turn.</characteristic>
+            <characteristic name="影响" typeId="f566-bacc-9414-7661">Whilst this configuration is in effect, if a 友方 VEHICLE 单位 with the FLYER Battlefield Role spends its entire turn on top of a Skyshield Landing Pad in this configuration, that model regains up to D3 lost wounds at the end of the turn.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2438,7 +2438,7 @@
       <profiles>
         <profile id="4ca0-bdc4-9090-1647" name="Fully Automated 武器" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型&apos;s 武器 can only target the closest visible 敌方单位. Attacks made with the 四联 Icarus Lascannons can instead target the closest visible 敌方单位 that can FLY. In either case, if two or more units are equally close, you can choose which is targeted.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型&apos;s 武器 can only target the closest visible 敌方单位. Attacks made with the 四联 Icarus Lascannons can instead target the closest visible 敌方单位 that can FLY. In either case, if two or more 单位 are equally close, you can choose which is targeted.</characteristic>
           </characteristics>
         </profile>
         <profile id="4e2c-1874-14f7-56d8" name="Vengeance Weapon Battery" publicationId="28ec-711c-pubN77581" page="132" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
@@ -4069,7 +4069,7 @@
         </profile>
         <profile id="7c71-893b-e33d-c857" name="Mighty Bulwark" publicationId="28ec-711c-pubN91434" page="52" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each unit that is 上车 on 这个模型 may both shoot as if it were in the open and also be shot at as if it were in the open. Models 上车 on 这个模型 have a 4+ 特殊保护. Place the 上车 unit on the battlements to show where they are.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each 单位 that is 上车 on 这个模型 may both shoot as if it were in the open and also be shot at as if it were in the open. Models 上车 on 这个模型 have a 4+ 特殊保护. Place the 上车 单位 on the battlements to show where they are.</characteristic>
           </characteristics>
         </profile>
         <profile id="5332-4327-90b2-d60e" name="爆炸" publicationId="28ec-711c-pubN91434" page="52" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -4576,7 +4576,7 @@
       </constraints>
       <rules>
         <rule id="fab9-a916-c240-4ff4" name="测试规则" hidden="false">
-          <description>Units marked with 寸(Beta)寸 use rules that reflect an early version of the development process and are entirely experimental and subject to change in future publications. As such, these units are best tested with the agreement of all players involved.</description>
+          <description>Units marked with 寸(Beta)寸 use rules that reflect an early version of the development process and are entirely experimental and subject to change in future publications. As such, these 单位 are best tested with the agreement of all players involved.</description>
         </rule>
       </rules>
       <costs>
@@ -4630,7 +4630,7 @@
         </profile>
         <profile id="0fff-6dcb-d884-e8df" name="Webway Strike" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">After you set up 这个模型, any AELDARI units you have not yet set up 部署期间, other than fortifications, can be set up in a webway spar rather than being set up on the battlefield. One unit in a webway spar can emerge from each 友方 Webway Gate at the end of each of your 移动阶段 - Set them up wholly 范围内 3寸 of the webway gate and more than 9寸 away from any 敌方模型. If all friendlyWebway Gates have been destroyed, any units that have not yet arrived from a webway spar are considered to be slain</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">After you set up 这个模型, any AELDARI 单位 you have not yet set up 部署期间, other than fortifications, can be set up in a webway spar rather than being set up on the battlefield. One 单位 in a webway spar can emerge from each 友方 Webway Gate at the end of each of your 移动阶段 - Set them up wholly 范围内 3寸 of the webway gate and more than 9寸 away from any 敌方模型. If all friendlyWebway Gates have been destroyed, any 单位 that have not yet arrived from a webway spar are considered to be slain</characteristic>
           </characteristics>
         </profile>
         <profile id="1b16-1941-d120-15ee" name="Webway Gate" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -5629,7 +5629,7 @@
       <profiles>
         <profile id="504b-fc17-56ce-c8b8" name="刺客出击许可" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can only use this Stratagem if your 主将 has the IMPERIUM Faction keyword (excluding FALLEN) and your army does not contain any OFFICIO ASSASSINORUM units. Use this Stratagem 部署期间. Add 1 OFFICIO ASSASSINORUM unit of your choice to your army. Remember that in a matched play game, you must pay reinforcement points for any new unit added to your army. You can only use this Stratagem once per battle.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can only use this Stratagem if your 主将 has the IMPERIUM Faction keyword (excluding FALLEN) and your army does not contain any OFFICIO ASSASSINORUM units. Use this Stratagem 部署期间. Add 1 OFFICIO ASSASSINORUM 单位 of your choice to your army. Remember that in a matched play game, you must pay reinforcement points for any new 单位 added to your army. You can only use this Stratagem once per battle.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5815,7 +5815,7 @@
               <profiles>
                 <profile id="d64a-821d-7c23-52ad" name="Lord of Ambush" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投命中骰 of 1 for 友方单位 范围内 6寸 of your 主将 if targeting an Attacking unit that arrived as reinforcements this turn.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投命中骰 of 1 for 友方单位 范围内 6寸 of your 主将 if targeting an Attacking 单位 that arrived as reinforcements this turn.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5871,7 +5871,7 @@
               <profiles>
                 <profile id="3912-170b-9164-4c9e" name="Counterfire Master" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投失败的命中骰 for 友方单位 范围内 6寸 of your 主将 (this includes any BUILDING they are 上车 within, and any other units 上车 范围内 the same building).</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投失败的命中骰 for 友方单位 范围内 6寸 of your 主将 (this includes any BUILDING they are 上车 within, and any other 单位 上车 范围内 the same building).</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -6102,7 +6102,7 @@
                   <profiles>
                     <profile id="8fd8-f579-1b69-ed00" name="11: Inspirational Fighter" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Re-roll hit rolls of 1 in the 肉搏阶段 for 友方 &lt;Sub-faction&gt; units 范围内 6寸 of 这个模型.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Re-roll hit rolls of 1 in the 肉搏阶段 for 友方 &lt;Sub-faction&gt; 单位 范围内 6寸 of 这个模型.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6204,7 +6204,7 @@
                   <profiles>
                     <profile id="97cf-dacf-4f4e-8b26" name="21: Targeting Augury" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">敌方单位 do not gain the benefit of cover to their saving throws against attacks made by 友方 &lt;Sub-faction&gt; units 范围内 6寸 of 这个模型 when the attack is made.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">敌方单位 do not gain the benefit of cover to their saving throws against attacks made by 友方 &lt;Sub-faction&gt; 单位 范围内 6寸 of 这个模型 when the attack is made.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6221,7 +6221,7 @@
                   <profiles>
                     <profile id="630c-9566-13eb-da57" name="22: Directed Fire" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Re-roll hit rolls of 1 in the 射击阶段 for 友方 &lt;Sub-faction&gt; units 范围内 6寸 of 这个模型. </characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Re-roll hit rolls of 1 in the 射击阶段 for 友方 &lt;Sub-faction&gt; 单位 范围内 6寸 of 这个模型. </characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6272,7 +6272,7 @@
                   <profiles>
                     <profile id="443c-d65e-b495-aaff" name="25: Keen Eye" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 can target 敌方 CHARACTER units in the 射击阶段 even if they are not the closest 敌方模型.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 can target 敌方 CHARACTER 单位 in the 射击阶段 even if they are not the closest 敌方模型.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6459,7 +6459,7 @@
                   <profiles>
                     <profile id="faf9-46bb-7bee-126c" name="44: Strategic Feint" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of the first battle round but before the first turn begins, you can pick a 友方 &lt;Sub-faction&gt; unit 范围内 6寸 of 这个模型 and set it up again, anywhere wholly 范围内 your 部署区. If your opponent has any units with similar abilities, roll off; starting with the winner of the roll-off, take it in turns to resolve these abilities.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of the first battle round but before the first turn begins, you can pick a 友方 &lt;Sub-faction&gt; 单位 范围内 6寸 of 这个模型 and set it up again, anywhere wholly 范围内 your 部署区. If your opponent has any 单位 with similar abilities, roll off; starting with the winner of the roll-off, take it in turns to resolve these abilities.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6476,7 +6476,7 @@
                   <profiles>
                     <profile id="a855-aa59-c8b1-6f75" name="45: Swift Strike" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can always choose 这个模型 to fight first in the 肉搏阶段 even if it did not charge. If the 敌方 has units that have charged, or that have a similar ability, alternate choosing units to fight with, starting with the player whose turn is taking place.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can always choose 这个模型 to fight first in the 肉搏阶段 even if it did not charge. If the 敌方 has 单位 that have charged, or that have a similar ability, alternate choosing 单位 to fight with, starting with the player whose turn is taking place.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6544,7 +6544,7 @@
                   <profiles>
                     <profile id="d3a7-5098-bc2a-3dd9" name="53: Icon of Retribution" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Roll a dice each time a 友方 &lt;Sub-faction&gt;model 范围内 6寸 of 这个模型 is slain in the 肉搏阶段. On a 6, the unit that made the attack that slew the model 遭受 1 致命伤 after it has finished making its attacks.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Roll a dice each time a 友方 &lt;Sub-faction&gt;model 范围内 6寸 of 这个模型 is slain in the 肉搏阶段. On a 6, the 单位 that made the attack that slew the model 遭受 1 致命伤 after it has finished making its attacks.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6612,7 +6612,7 @@
                   <profiles>
                     <profile id="5de9-d6de-958d-3236" name="61: Air Strike" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per battle, in your 射击阶段, you can pick an 敌方单位, other than a Characterunit, that is visible to 这个模型 and 投掷1个D6. On a 1-4 nothing happens. On a 5+ the target unit 遭受 D3 致命伤.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per battle, in your 射击阶段, you can pick an 敌方单位, other than a Characterunit, that is visible to 这个模型 and 投掷1个D6. On a 1-4 nothing happens. On a 5+ the target 单位 遭受 D3 致命伤.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7651,7 +7651,7 @@
               <profiles>
                 <profile id="8a74-576a-8469-143a" name="R5: Eager" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of the first battle round but before the first turn begins, you can move 这个模型 up to 5寸. It cannot end this move 范围内 9寸 of any 敌方模型. If both players have units that can do this, the player who is taking the first turn moves their units first. </characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of the first battle round but before the first turn begins, you can move 这个模型 up to 5寸. It cannot end this move 范围内 9寸 of any 敌方模型. If both players have 单位 that can do this, the player who is taking the first turn moves their 单位 first. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7886,7 +7886,7 @@
       <description>部署期间, 这个单位 can be set up anywhere on the battlefield that is not 范围内 your opponent&apos;s 部署区 and is more than 12寸 from any 敌方单位.</description>
     </rule>
     <rule id="15ea-860d-9eb6-21c3" name="Airborne" hidden="false">
-      <description>这个模型 cannot charge, can only be charged by units that can FLY, and can only attack or be attacked in the 肉搏阶段 by units that can FLY.</description>
+      <description>这个模型 cannot charge, can only be charged by 单位 that can FLY, and can only attack or be attacked in the 肉搏阶段 by 单位 that can FLY.</description>
     </rule>
     <rule id="9caa-ff00-a5bd-5f04" name="Hard to Hit" hidden="false">
       <description>Your opponent must subtract 1 from hit rolls for attacks that target 这个模型 in the 射击阶段.</description>
@@ -7922,7 +7922,7 @@
       <description>The 5 CPs from this detachment can only be spent on Stronghold Assault Stratagems.</description>
     </rule>
     <rule id="5a7e-f984-487c-d767" name="爆弹训练" publicationId="28ec-711c-pubN110542" hidden="false">
-      <description>All 阿斯塔特修会 and 阿斯塔特叛军 models gain this ability. 而不是 following the normal rules for 速射 武器, 速射爆弹武器 used by models with this ability make double the number of attacks if any of the following conditions apply: 1) The firing model&apos;s target is 范围内 half the weapon&apos;s maximum range. 2)    The firing model is 步兵 and every model in its unit remained stationary in your previous 移动阶段. 3) The firing model is a 终结者, 摩托, 百夫长, or 无畏. For the purposes of this ability a 速射爆弹武器 is any weapon with the 速射 type whose name includes the word &apos;bolt&apos; (e.g. 爆弹枪, 爆弹步枪, 风暴爆弹, 复合爆弹, 飓风爆弹, 地狱爆弹枪, etc.) This also applies when firing the 爆弹枪 profile of a combi-weapon (including the 爆弹武器 profile of Relics such as Blood Song and the Lion&apos;s Wrath) and when firing relics that replace a 速射爆弹武器, so long as the relic is also a rapid-fire weapon (e.g. Primarch&apos;s Wrath, Fury of Deimos, etc) The gauntlets of ultramar and the Talon of Horus are also considered 速射爆弹武器, as is the 卫士之矛 used by Deathwatch Watch Masters.</description>
+      <description>All 阿斯塔特修会 and 阿斯塔特叛军 models gain this ability. 而不是 following the normal rules for 速射 武器, 速射爆弹武器 used by models with this ability make double the number of attacks if any of the following conditions apply: 1) The firing model&apos;s target is 范围内 half the weapon&apos;s maximum range. 2)    The firing model is 步兵 and every model in its 单位 remained stationary in your previous 移动阶段. 3) The firing model is a 终结者, 摩托, 百夫长, or 无畏. For the purposes of this ability a 速射爆弹武器 is any weapon with the 速射 type whose name includes the word &apos;bolt&apos; (e.g. 爆弹枪, 爆弹步枪, 风暴爆弹, 复合爆弹, 飓风爆弹, 地狱爆弹枪, etc.) This also applies when firing the 爆弹枪 profile of a combi-weapon (including the 爆弹武器 profile of Relics such as Blood Song and the Lion&apos;s Wrath) and when firing relics that replace a 速射爆弹武器, so long as the relic is also a rapid-fire weapon (e.g. Primarch&apos;s Wrath, Fury of Deimos, etc) The gauntlets of ultramar and the Talon of Horus are also considered 速射爆弹武器, as is the 卫士之矛 used by Deathwatch Watch Masters.</description>
     </rule>
     <rule id="01a4-bec8-b573-fde7" name="死亡天使" hidden="false">
       <description>这个单位 has the following abilities: And They Shall Know No Fear, Bolter Discipline, Shock Assault and Combat Doctrines.’</description>
@@ -8367,7 +8367,7 @@
     </profile>
     <profile id="4b04-2a83-8ae7-d134" name="探照灯" publicationId="28ec-711c-pubN72690" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Night fighting only. It can illuminate a target it has fired at. Illuminates itself in the process (illuminated units lose Night Fighting benefits)</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Night fighting only. It can illuminate a target it has fired at. Illuminates itself in the process (illuminated 单位 lose Night Fighting benefits)</characteristic>
       </characteristics>
     </profile>
     <profile id="c883-3078-1367-cc2c" name="烟雾发射器" publicationId="28ec-711c-pubN72690" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -8577,7 +8577,7 @@
     </profile>
     <profile id="d4b6-7a3a-aee5-d293" name="Ammo Store" publicationId="28ec-711c-pubN77581" page="110" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A unit occupying this building re-rolls To Hit rolls of a 1 when firing out of the building&apos;s fire points. Note this does not apply to a model manually firing an emplaced weapon.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A 单位 occupying this building re-rolls To Hit rolls of a 1 when firing out of the building&apos;s fire points. Note this does not apply to a model manually firing an emplaced weapon.</characteristic>
       </characteristics>
     </profile>
     <profile id="58a2-c92e-57cc-d44c" name="Ammunition Dump" publicationId="28ec-711c-pubN77581" page="110" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -8587,7 +8587,7 @@
     </profile>
     <profile id="e144-1293-ec28-d3a9" name="Void Shield" publicationId="28ec-711c-pubN113754" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each hit scored against the model will instead hit a void shield (whilst they remain). Close combat attacks come from inside the shield and therefore are not stopped. Void shields have an Armour Value of 12. A glancing or penetrating hit (or any hit from a Destroyer weapon) scored against a void shield causes it to collapse. After all the void shields have collapsed, further hits strike the model instead. At the end of each of the controlling player&apos;s turns, roll one dice for each collapsed void  shield: each roll of 5+ instantly restores one collapsed shield.  If a weapon uses a template or blast marker and it hits one or more units protected by a Void Shield Zone, ignore the number of hits it would normally cause to the units, instead roll to pen the void shield once using the 武器 normal rules, profile for each template or blast marker that hits.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each hit scored against the model will instead hit a void shield (whilst they remain). Close combat attacks come from inside the shield and therefore are not stopped. Void shields have an Armour Value of 12. A glancing or penetrating hit (or any hit from a Destroyer weapon) scored against a void shield causes it to collapse. After all the void shields have collapsed, further hits strike the model instead. At the end of each of the controlling player&apos;s turns, roll one dice for each collapsed void  shield: each roll of 5+ instantly restores one collapsed shield.  If a weapon uses a template or blast marker and it hits one or more 单位 protected by a Void Shield Zone, ignore the number of hits it would normally cause to the units, instead roll to pen the void shield once using the 武器 normal rules, profile for each template or blast marker that hits.</characteristic>
       </characteristics>
     </profile>
     <profile id="31ba-2b94-6600-22f3" name="Magos Machine Spirit" publicationId="28ec-711c-pubN113754" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -8602,12 +8602,12 @@
     </profile>
     <profile id="2a6f-53c2-d2ea-092f" name="Booby Traps" publicationId="28ec-711c-pubN77581" page="110" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The first unit to occupy this building (friend or foe) immediately 遭受 2D6 S4 AP5 hits with the Ignores Cover special rule.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The first 单位 to occupy this building (friend or foe) immediately 遭受 2D6 S4 AP5 hits with the Ignores Cover special rule.</characteristic>
       </characteristics>
     </profile>
     <profile id="68d8-f686-c260-76db" name="Barricades" publicationId="28ec-711c-pubN113754" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A model in cover behind a barricade or wall 拥有 4+ cover save. Models that are in base contact with a barricade or wall are treated as being in base contact with any 敌方模型 who are directly opposite them and in base contact with the other side of that barricade or wall. Units charging an 敌方 that is behind a barricade or wall count as charging through difficult terrain.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A model in cover behind a barricade or wall 拥有 4+ cover save. Models that are in base contact with a barricade or wall are treated as being in base contact with any 敌方模型 who are directly opposite them and in base contact with the other side of that barricade or wall. 单位 charging an 敌方 that is behind a barricade or wall count as charging through difficult terrain.</characteristic>
       </characteristics>
     </profile>
     <profile id="e158-7adf-1565-ef08" name="Tanglewire" publicationId="28ec-711c-pubN113754" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -8695,7 +8695,7 @@
     </profile>
     <profile id="f0ec-023c-4865-fe5a" name="灵能头箍" publicationId="28ec-711c-pubN72690" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time a unit (or model) is targeted by an 敌方 psychic power and is 范围内 12寸 of a 友方模型 with a 灵能头箍, the wearer of the hood can attempt to Deny the Witch in their stead, as if he were in the target unit.  If the Deny the Witch attempt is failed, the psychic power is resolved as normal, but effects only the initial target, not the wearer of the hood.  If a model with a 灵能头箍 is 上车 in a vehicle or building, he can only use the hood to nullify powers targeting the vehicle or building he is 上车 within.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time a 单位 (or model) is targeted by an 敌方 psychic power and is 范围内 12寸 of a 友方模型 with a 灵能头箍, the wearer of the hood can attempt to Deny the Witch in their stead, as if he were in the target unit.  If the Deny the Witch attempt is failed, the psychic power is resolved as normal, but effects only the initial target, not the wearer of the hood.  If a model with a 灵能头箍 is 上车 in a vehicle or building, he can only use the hood to nullify powers targeting the vehicle or building he is 上车 within.</characteristic>
       </characteristics>
     </profile>
     <profile id="98ac-5132-9ebd-c355" name="Orbital Strike" publicationId="28ec-711c-pubN72690" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -9015,7 +9015,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">10</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">这个武器 can only be fired once per battle. 曲射. When targeting units with 10 or more models, change 这个武器&apos;s Type to Heavy D6.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">这个武器 can only be fired once per battle. 曲射. When targeting 单位 with 10 or more models, change 这个武器&apos;s Type to Heavy D6.</characteristic>
       </characteristics>
     </profile>
     <profile id="3937-3d5e-da78-af96" name="等离子爆裂枪-标准" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -9285,7 +9285,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">这个武器 can target units that are not visible to the firing model.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">这个武器 can target 单位 that are not visible to the firing model.</characteristic>
       </characteristics>
     </profile>
     <profile id="f4df-b39c-08a7-5255" name="旋风 vengeance launcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -9295,7 +9295,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">7</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">这个武器 can target units that are not visible to the firing model.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">这个武器 can target 单位 that are not visible to the firing model.</characteristic>
       </characteristics>
     </profile>
     <profile id="802b-8d1b-8b9f-41e2" name="Wrist-mounted grenade launcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -9410,7 +9410,7 @@
     </profile>
     <profile id="b754-9672-4689-cefb" name="迷彩斗篷" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If every model in a unit 拥有 camo cloak you can add 2 to saving throws made for models in the unit when they receive the benefits of cover, 而不是 1.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If every model in a 单位 拥有 camo cloak you can add 2 to saving throws made for models in the 单位 when they receive the benefits of cover, 而不是 1.</characteristic>
       </characteristics>
     </profile>
     <profile id="d0a0-002c-8278-a70e" name="战斗盾" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -9522,12 +9522,12 @@
     </profile>
     <profile id="c408-8555-a6df-257f" name="不动" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">After 这个模型 has been set up on the battlefield it cannot move for any reason, and no units can embark upon it.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">After 这个模型 has been set up on the battlefield it cannot move for any reason, and no 单位 can embark upon it.</characteristic>
       </characteristics>
     </profile>
     <profile id="a179-f592-3224-72c9" name="Automated 武器" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Unless a 友方单位 is 上车 aboard 这个模型, it can only target the closest visible 敌方单位 when it makes attacks. If two or more units are equally close, you can choose which is targeted.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Unless a 友方单位 is 上车 aboard 这个模型, it can only target the closest visible 敌方单位 when it makes attacks. If two or more 单位 are equally close, you can choose which is targeted.</characteristic>
       </characteristics>
     </profile>
     <profile id="429b-91d2-8356-7150" name="Magazine Explosion" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -9552,7 +9552,7 @@
     </profile>
     <profile id="57f6-edd9-6170-5c91" name="自动武器 (炮架)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Unless a 友方 步兵模型 is 范围内 1寸 of 这个模型, 这个模型 can only target the closest visible 敌方单位 when it makes attacks. If two or more units are equally close, you can choose which is targeted.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Unless a 友方 步兵模型 is 范围内 1寸 of 这个模型, 这个模型 can only target the closest visible 敌方单位 when it makes attacks. If two or more 单位 are equally close, you can choose which is targeted.</characteristic>
       </characteristics>
     </profile>
     <profile id="c60f-7b10-88fd-9eba" name="静态防御网络 (Aegis)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -9634,7 +9634,7 @@
     </profile>
     <profile id="0f50-2ea2-b251-a213" name="Automated 武器 (Icarus)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Unless a 友方单位 is 上车 aboard 这个模型, 这个模型&apos;s 武器 can only target the closest visible 敌方单位. Attacks made with the Icarus 激光炮 can instead target the closest visible 敌方单位 that can FLY. In either case, if two or more units are equally close, you may choose which is targeted.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Unless a 友方单位 is 上车 aboard 这个模型, 这个模型&apos;s 武器 can only target the closest visible 敌方单位. Attacks made with the Icarus 激光炮 can instead target the closest visible 敌方单位 that can FLY. In either case, if two or more 单位 are equally close, you may choose which is targeted.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

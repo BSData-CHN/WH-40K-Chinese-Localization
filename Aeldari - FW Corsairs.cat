@@ -1823,7 +1823,7 @@
           <profiles>
             <profile id="fa56-8864-18ee-0177" name="Grisly Trophies" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">投掷1个D6 each time a model flees from a unit that is 范围内 6寸 of any 敌方模型 with grisly trophies. For each roll of 6, one additional model flees 那个单位 (these cannot cause additional models to flee).</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">投掷1个D6 each time a model flees from a 单位 that is 范围内 6寸 of any 敌方模型 with grisly trophies. For each roll of 6, one additional model flees 那个单位 (these cannot cause additional models to flee).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1958,10 +1958,10 @@
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="191d-3ffc-ffe7-4ba8" name="Reckless Abandon" publicationId="c1e4-2118-pubN65826" page="75" hidden="false">
-      <description>If a unit with this ability inflicts one or more casualties on an 敌方单位 while firing Overwatch, it may make a 3寸 move in any direction that does not end 范围内 3寸 of an 敌方模型 once the 坚守射击 attack has been fully resolved and before the 敌方单位 has made its 冲锋移动.</description>
+      <description>If a 单位 with this ability inflicts one or more casualties on an 敌方单位 while firing Overwatch, it may make a 3寸 move in any direction that does not end 范围内 3寸 of an 敌方模型 once the 坚守射击 attack has been fully resolved and before the 敌方单位 has made its 冲锋移动.</description>
     </rule>
     <rule id="0ee8-2911-f25a-b3d2" name="Dancing on the Blade&apos;s Edge" publicationId="c1e4-2118-pubN65826" page="75" hidden="false">
-      <description>When making 士气测试, a unit with this ability may roll an additional dice and discard the highest result, but if any models flee from the unit due to the result of the test, the number of models that flee is increased by +1.</description>
+      <description>When making 士气测试, a 单位 with this ability may roll an additional dice and discard the highest result, but if any models flee from the 单位 due to the result of the test, the number of models that flee is increased by +1.</description>
     </rule>
     <rule id="ae0a-6e45-646e-6b9b" name="Strength from Death" hidden="false">
       <modifiers>
@@ -1971,17 +1971,17 @@
           </conditions>
         </modifier>
       </modifiers>
-      <description>This ability is common to all YNNARI 步兵 and YNNARI 摩托 units and the Yncarne.  Each time a unit is completely destroyed 范围内 7寸 of one or more units with this ability, except in the Morale phase, pick one of those units to make a Soulburst action. 那个单位 can immediately do one of the following, even if it has already done so in this turn (if the unit was destroyed as the result of a unit’s action – e.g. making a shooting attack or fighting – the Soulburst action is resolved after the unit has completely resolved its current action, e.g. after it has completed all of its shooting attacks or after it has finished fighting, including making any consolidation moves):
+      <description>This ability is common to all YNNARI 步兵 and YNNARI 摩托 单位 and the Yncarne.  Each time a 单位 is completely destroyed 范围内 7寸 of one or more 单位 with this ability, except in the Morale phase, pick one of those 单位 to make a Soulburst action. 那个单位 can immediately do one of the following, even if it has already done so in this turn (if the 单位 was destroyed as the result of a unit’s action – e.g. making a shooting attack or fighting – the Soulburst action is resolved after the 单位 has completely resolved its current action, e.g. after it has completed all of its shooting attacks or after it has finished fighting, including making any consolidation moves):
 
--The unit can move as if it were your 移动阶段.  It can Advance or 撤退 as part of this move.
--The unit can, if it is a 灵能者, immediately attempt to manifest a single psychic power as if it were the 灵能阶段.
--The unit can shoot as if it were your 射击阶段, even if it Advanced or Fell Back this turn.
--The unit can charge as if it were the Charge phase, even if it Advanced or Fell Back this turn(敌方单位 can fire 坚守射击 as normal).  A unit cannot do this if is 范围内 1寸 of an 敌方单位.
--The Unit can fight as if it were the 肉搏阶段.
+-The 单位 can move as if it were your 移动阶段.  It can Advance or 撤退 as part of this move.
+-The 单位 can, if it is a 灵能者, immediately attempt to manifest a single psychic power as if it were the 灵能阶段.
+-The 单位 can shoot as if it were your 射击阶段, even if it Advanced or Fell Back this turn.
+-The 单位 can charge as if it were the Charge phase, even if it Advanced or Fell Back this turn(敌方单位 can fire 坚守射击 as normal).  A 单位 cannot do this if is 范围内 1寸 of an 敌方单位.
+-The 单位 can fight as if it were the 肉搏阶段.
 
-Note that this means that a unit may be able to shoot or fight twice in the same turn.
+Note that this means that a 单位 may be able to shoot or fight twice in the same turn.
 
-A unit can only make a Soulburst action once per turn.</description>
+A 单位 can only make a Soulburst action once per turn.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -2112,7 +2112,7 @@ A unit can only make a Soulburst action once per turn.</description>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When attacking a unit of 步兵, 可以重投失败的造伤骰 for 这个武器. </characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When attacking a 单位 of 步兵, 可以重投失败的造伤骰 for 这个武器. </characteristic>
       </characteristics>
     </profile>
     <profile id="86fd-2c8b-04ca-41b7" name="Spar-glaive" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -2132,7 +2132,7 @@ A unit can only make a Soulburst action once per turn.</description>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">*</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When firing 这个武器, roll once to determine how many shots all models in the unit will fire in a given phase; 这个武器 always wounds on a 4+, unless targeting a model with the VEHICLE keyword, in which case it wounds on a 6+. Each time you make a Wound roll of 6, that wound is resolved with an AP of -1.</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When firing 这个武器, roll once to determine how many shots all models in the 单位 will fire in a given phase; 这个武器 always wounds on a 4+, unless targeting a model with the VEHICLE keyword, in which case it wounds on a 6+. Each time you make a Wound roll of 6, that wound is resolved with an AP of -1.</characteristic>
       </characteristics>
     </profile>
     <profile id="2377-41d7-2ff4-e8e6" name="Void Sabre" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
