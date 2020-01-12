@@ -65,7 +65,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If the target is 范围内 half range of 这个武器, roll two dice when inflicting damage with it and discard the lowest result.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If the target is 范围内 half range of 这个武器, roll two dice when inflicting 伤害 with it and discard the lowest result.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -209,7 +209,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If the target is a 载具, 这个武器 拥有 Damage of 1.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If the target is a 载具, 这个武器 拥有 伤害 of 1.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -228,7 +228,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If the target is a 载具 and you roll a wound roll of 4+ for 这个武器, the target 遭受 1 致命伤 此外 to any other damage. If the wound roll is 6+, the target 遭受 D3 致命伤 instead.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If the target is a 载具 and you roll a wound roll of 4+ for 这个武器, the target 遭受 1 致命伤 此外 to any other 伤害. If the wound roll is 6+, the target 遭受 D3 致命伤 instead.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -247,7 +247,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">*</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">*</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">*</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If a 单位 is hit by 这个武器, roll 2D6 - if the roll is equal to or greater than the target unit&apos;s LD, it 遭受 D3 致命伤.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If a 单位 is hit by 这个武器, roll 2D6 - if the roll is equal to or greater than the 目标单位&apos;s LD, it 遭受 D3 致命伤.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -390,7 +390,7 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5c11-1cad-1fb1-5816" name="Troupe" publicationId="7d24-b92f-pubN65537" page="58" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="5c11-1cad-1fb1-5816" name="Troupe" publicationId="7d24-b92f-pubN65537" page="58" hidden="false" collective="false" import="true" type="单位">
       <categoryLinks>
         <categoryLink id="b255-875a-9203-b30d" name="New CategoryLink" hidden="false" targetId="05e9-e880-b1fb-ce90" primary="false"/>
         <categoryLink id="1135-265a-0a27-a590" name="New CategoryLink" hidden="false" targetId="fb5a-2f35-6253-b891" primary="false"/>
@@ -406,7 +406,7 @@
             <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9219-732d-de0d-2ee6" type="max"/>
           </constraints>
           <profiles>
-            <profile id="5d14-f509-dc27-0231" name="Player" publicationId="7d24-b92f-pubN65537" page="58" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+            <profile id="5d14-f509-dc27-0231" name="Player" publicationId="7d24-b92f-pubN65537" page="58" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
               <characteristics>
                 <characteristic name="M" typeId="0bdf-a96e-9e38-7779">8寸</characteristic>
                 <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -467,7 +467,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="32e0-193a-2151-197a" name="Unit has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="32e0-193a-2151-197a" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
         <entryLink id="dae6-1071-f9cb-0383" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
@@ -476,9 +476,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5f24-c0be-025f-16aa" name="Troupe Master" publicationId="7d24-b92f-pubN65537" page="56" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="5f24-c0be-025f-16aa" name="Troupe Master" publicationId="7d24-b92f-pubN65537" page="56" hidden="false" collective="false" import="true" type="单位">
       <profiles>
-        <profile id="e09c-9263-1993-9718" name="Troupe Master" publicationId="7d24-b92f-pubN65537" page="56" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="e09c-9263-1993-9718" name="Troupe Master" publicationId="7d24-b92f-pubN65537" page="56" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">8寸</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">2+</characteristic>
@@ -631,7 +631,7 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="57e1-479c-6d5c-00b3" name="Solitaire" publicationId="7d24-b92f-pubN65537" page="60" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="57e1-479c-6d5c-00b3" name="Solitaire" publicationId="7d24-b92f-pubN65537" page="60" hidden="false" collective="false" import="true" type="单位">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -643,7 +643,7 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1021-466b-d5b4-991c" type="max"/>
       </constraints>
       <profiles>
-        <profile id="21ca-745b-c17a-8794" name="Solitaire" publicationId="7d24-b92f-pubN65537" page="60" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="21ca-745b-c17a-8794" name="Solitaire" publicationId="7d24-b92f-pubN65537" page="60" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">12寸</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">2+</characteristic>
@@ -713,9 +713,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2cb2-ebf2-3523-ad48" name="Shadowseer" publicationId="7d24-b92f-pubN65537" page="57" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="2cb2-ebf2-3523-ad48" name="Shadowseer" publicationId="7d24-b92f-pubN65537" page="57" hidden="false" collective="false" import="true" type="单位">
       <profiles>
-        <profile id="ed3a-6a75-ce36-ac5d" name="Shadowseer" publicationId="7d24-b92f-pubN65537" page="" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="ed3a-6a75-ce36-ac5d" name="Shadowseer" publicationId="7d24-b92f-pubN65537" page="" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">8寸</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">2+</characteristic>
@@ -861,9 +861,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7c62-2472-fac5-49a1" name="Death Jester" publicationId="7d24-b92f-pubN65537" page="59" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="7c62-2472-fac5-49a1" name="Death Jester" publicationId="7d24-b92f-pubN65537" page="59" hidden="false" collective="false" import="true" type="单位">
       <profiles>
-        <profile id="9ee8-12e9-c97d-137c" name="Death Jester" publicationId="7d24-b92f-pubN65537" page="59" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="9ee8-12e9-c97d-137c" name="Death Jester" publicationId="7d24-b92f-pubN65537" page="59" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">8寸</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">2+</characteristic>
@@ -968,9 +968,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d96e-e7b4-6204-0b07" name="Starweaver" publicationId="7d24-b92f-pubN65537" page="63" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="d96e-e7b4-6204-0b07" name="Starweaver" publicationId="7d24-b92f-pubN65537" page="63" hidden="false" collective="false" import="true" type="单位">
       <profiles>
-        <profile id="2790-c5a1-a03c-6bca" name="Starweaver" publicationId="7d24-b92f-pubN65537" page="63" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="2790-c5a1-a03c-6bca" name="Starweaver" publicationId="7d24-b92f-pubN65537" page="63" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">16寸</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -1014,7 +1014,7 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4318-6b5d-45f7-1eff" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="273d-2224-e0ca-c4c3" name="Unit has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="273d-2224-e0ca-c4c3" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
         <entryLink id="fd6c-88eb-af21-2b6e" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
@@ -1023,9 +1023,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3e87-4146-bac7-5c55" name="Voidweaver" publicationId="7d24-b92f-pubN65537" page="62" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="3e87-4146-bac7-5c55" name="Voidweaver" publicationId="7d24-b92f-pubN65537" page="62" hidden="false" collective="false" import="true" type="单位">
       <profiles>
-        <profile id="c758-104a-aac0-57b9" name="Voidweaver" publicationId="7d24-b92f-pubN65537" page="56" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="c758-104a-aac0-57b9" name="Voidweaver" publicationId="7d24-b92f-pubN65537" page="56" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">16寸</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -1074,7 +1074,7 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9708-7375-977d-5845" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="4948-613f-28fb-b01d" name="Unit has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="4948-613f-28fb-b01d" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
         <entryLink id="2cd4-ebd1-9102-eed7" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
@@ -1083,7 +1083,7 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="50b6-34fa-10fe-d5be" name="Skyweavers" publicationId="7d24-b92f-pubN65537" page="61" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="50b6-34fa-10fe-d5be" name="Skyweavers" publicationId="7d24-b92f-pubN65537" page="61" hidden="false" collective="false" import="true" type="单位">
       <modifiers>
         <modifier type="set" field="e356-c769-5920-6e14" value="9">
           <conditions>
@@ -1119,7 +1119,7 @@
             <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ccf-9c1c-9ef7-8553" type="max"/>
           </constraints>
           <profiles>
-            <profile id="2ef0-8140-118d-255c" name="Skyweaver" publicationId="7d24-b92f-pubN65537" page="61" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+            <profile id="2ef0-8140-118d-255c" name="Skyweaver" publicationId="7d24-b92f-pubN65537" page="61" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
               <characteristics>
                 <characteristic name="M" typeId="0bdf-a96e-9e38-7779">16寸</characteristic>
                 <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -1163,7 +1163,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="c6b0-bc17-b821-e753" name="Unit has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="c6b0-bc17-b821-e753" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
         <entryLink id="39a5-7cad-9040-f9b2" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
@@ -1179,7 +1179,7 @@
       <profiles>
         <profile id="0691-3491-efa2-bbda" name="Luck of the Laughing God" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Re-roll hit rolls, wound rolls and damage rolls of 1 for your 主将.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Re-roll hit rolls, wound rolls and 伤害 rolls of 1 for your 主将.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1428,7 +1428,7 @@
       <profiles>
         <profile id="058f-b831-73c9-1971" name="Player of the Dark" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each wound roll of 6+ made for your Warlord&apos;s 攻击 in the 肉搏阶段 inflict one 致命伤 此外 to their normal damage.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each wound roll of 6+ made for your Warlord&apos;s 攻击 in the 肉搏阶段 inflict one 致命伤 此外 to their normal 伤害.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1679,7 +1679,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">*</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">The wound roll required for 这个武器 in the 射击阶段 is equal to the target 单位 unmodified ballistic skill. For example, if the weapon targets a 单位 with ballistic skill of 3+, the weapon will wound on rolls of 3+. The wound roll required for 这个武器 in the 肉搏阶段 is equal to the target unit&apos;s unmodified weapon skill. If the 单位 contains 模型 with different Ballistic Skill/Weapon Skill characteristics, use the best characteristic in the unit. If the target&apos;s characteristic is &apos;-&apos;, then the wound roll required is 6+</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">The wound roll required for 这个武器 in the 射击阶段 is equal to the target 单位 unmodified ballistic skill. For example, if the weapon targets a 单位 with ballistic skill of 3+, the weapon will wound on rolls of 3+. The wound roll required for 这个武器 in the 肉搏阶段 is equal to the 目标单位&apos;s unmodified weapon skill. If the 单位 contains 模型 with different Ballistic Skill/Weapon Skill characteristics, use the best characteristic in the 单位. If the target&apos;s characteristic is &apos;-&apos;, then the wound roll required is 6+</characteristic>
           </characteristics>
         </profile>
         <profile id="ea37-ca5c-d21d-3fd3" name="The Mirrorstave (Melee)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -1689,7 +1689,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">*</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">The wound roll required for 这个武器 in the 射击阶段 is equal to the target 单位 unmodified ballistic skill. For example, if the weapon targets a 单位 with ballistic skill of 3+, the weapon will wound on rolls of 3+. The wound roll required for 这个武器 in the 肉搏阶段 is equal to the target unit&apos;s unmodified weapon skill. If the 单位 contains 模型 with different Ballistic Skill/Weapon Skill characteristics, use the best characteristic in the unit. If the target&apos;s Ballistic Skill/Weapon Skill characteristic is &apos;-&apos;, then the wound roll required is 6+.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">The wound roll required for 这个武器 in the 射击阶段 is equal to the target 单位 unmodified ballistic skill. For example, if the weapon targets a 单位 with ballistic skill of 3+, the weapon will wound on rolls of 3+. The wound roll required for 这个武器 in the 肉搏阶段 is equal to the 目标单位&apos;s unmodified weapon skill. If the 单位 contains 模型 with different Ballistic Skill/Weapon Skill characteristics, use the best characteristic in the 单位. If the target&apos;s Ballistic Skill/Weapon Skill characteristic is &apos;-&apos;, then the wound roll required is 6+.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1861,7 +1861,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">+1</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Re-roll failed wound rolls for 这个武器. When attacking 步兵, 这个武器 拥有 Damage of 3.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Re-roll failed wound rolls for 这个武器. When attacking 步兵, 这个武器 拥有 伤害 of 3.</characteristic>
           </characteristics>
         </profile>
       </profiles>

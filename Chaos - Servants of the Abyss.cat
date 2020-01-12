@@ -26,7 +26,7 @@
   <selectionEntries>
     <selectionEntry id="15c2-7ea7-860e-ede6" name="Cultist Firebrand" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="02d2-4824-d932-9800" name="Cultist Firebrand" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="02d2-4824-d932-9800" name="Cultist Firebrand" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6寸</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -192,7 +192,7 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2532-b175-e823-305f" type="max"/>
       </constraints>
       <profiles>
-        <profile id="fda5-4f2c-f28c-c0a8" name="Obsidius Mallex" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="fda5-4f2c-f28c-c0a8" name="Obsidius Mallex" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6寸</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">2+</characteristic>
@@ -277,7 +277,7 @@
         <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6373-4635-23e3-b08c" type="max"/>
       </constraints>
       <profiles>
-        <profile id="d6d5-b7fe-dc1a-b07f" name="Rogue 灵能者" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="d6d5-b7fe-dc1a-b07f" name="Rogue 灵能者" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6寸</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
@@ -361,7 +361,7 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d48f-abbc-679e-c852" name="Negavolt Cultists" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="d48f-abbc-679e-c852" name="Negavolt Cultists" hidden="false" collective="false" import="true" type="单位">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5ac2-072d-ef39-1e67" type="max"/>
       </constraints>
@@ -379,7 +379,7 @@
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c4a-808b-683f-40db" type="min"/>
           </constraints>
           <profiles>
-            <profile id="3e14-aefe-9d01-d3a7" name="Negavolt Cultists" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+            <profile id="3e14-aefe-9d01-d3a7" name="Negavolt Cultists" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
               <characteristics>
                 <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6寸</characteristic>
                 <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -394,7 +394,7 @@
             </profile>
             <profile id="d8fe-e161-db1f-10a9" name="Voltagheist Field" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models in 这个单位 have a 5+ 特殊保护. When 这个单位 completes a 冲锋移动, choose one of the targets you charged and 投掷1个D6 for each 模型 in the charging unit. Each roll of 6 inflicts 1点致命伤 on the 单位 you chose.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models in 这个单位 have a 5+ 特殊保护. When 这个单位 completes a 冲锋移动, choose one of the targets you charged and 投掷1个D6 for each 模型 in the charging 单位. Each roll of 6 inflicts 1点致命伤 on the 单位 you chose.</characteristic>
               </characteristics>
             </profile>
             <profile id="b371-913f-0ea4-fcf9" name="Fanatical Devotion" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -444,7 +444,7 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d10c-3d02-68de-b3dc" name="Black Legionnaires" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="d10c-3d02-68de-b3dc" name="Black Legionnaires" hidden="false" collective="false" import="true" type="单位">
       <modifiers>
         <modifier type="set" field="0bd7-ddc5-ef4b-971e" value="0.0">
           <conditions>
@@ -476,7 +476,7 @@
                 <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, you can only include 这个单位 in a Detachment which also includes OBSIDIUS MALLEX. Furthermore, 这个单位 does not take up slots in a Detachment that includes OBSIDIUS MALLEX.</characteristic>
               </characteristics>
             </profile>
-            <profile id="c364-99e6-3f8d-b9ed" name="Black Legionnaire" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+            <profile id="c364-99e6-3f8d-b9ed" name="Black Legionnaire" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
               <characteristics>
                 <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6寸</characteristic>
                 <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -527,12 +527,12 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="90b2-1601-f35a-bde4" name="Traitor Guardsmen" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="90b2-1601-f35a-bde4" name="Traitor Guardsmen" hidden="false" collective="false" import="true" type="单位">
       <constraints>
         <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c170-698c-489e-17e7" type="max"/>
       </constraints>
       <profiles>
-        <profile id="368e-e622-1b1e-4ddf" name="Traitor Guardsman" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="368e-e622-1b1e-4ddf" name="Traitor Guardsman" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6寸</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
@@ -563,7 +563,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee9b-a2c2-fbf9-614d" type="max"/>
           </constraints>
           <profiles>
-            <profile id="b9d6-a329-7023-d079" name="Traitor Sergeant" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+            <profile id="b9d6-a329-7023-d079" name="Traitor Sergeant" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
               <characteristics>
                 <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6寸</characteristic>
                 <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
@@ -801,7 +801,7 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="18f8-b2c3-add2-3457" name="混沌 Beastmen" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="18f8-b2c3-add2-3457" name="混沌 Beastmen" hidden="false" collective="false" import="true" type="单位">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="df16-d190-edcf-0089" type="max"/>
       </constraints>
@@ -829,7 +829,7 @@
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96d4-19f8-1459-5fbe" type="max"/>
           </constraints>
           <profiles>
-            <profile id="cc26-ba82-0a40-e02d" name="混沌 Beastman" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+            <profile id="cc26-ba82-0a40-e02d" name="混沌 Beastman" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
               <characteristics>
                 <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6寸</characteristic>
                 <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -912,9 +912,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2b45-2846-0bd4-2201" name="Traitor Commissar" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="2b45-2846-0bd4-2201" name="Traitor Commissar" hidden="false" collective="false" import="true" type="单位">
       <profiles>
-        <profile id="8c53-5b93-676e-e41a" name="Traitor Commissar" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="8c53-5b93-676e-e41a" name="Traitor Commissar" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6寸</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">2+</characteristic>
@@ -974,9 +974,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2484-a240-4b43-4bbd" name="混沌 Ogryn" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="2484-a240-4b43-4bbd" name="混沌 Ogryn" hidden="false" collective="false" import="true" type="单位">
       <profiles>
-        <profile id="b454-f3c3-14a8-d11a" name="混沌 Ogryn" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="b454-f3c3-14a8-d11a" name="混沌 Ogryn" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6寸</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -1067,9 +1067,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="69b4-3c70-f40b-f1b9" name="Cultists of the Abyss" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="69b4-3c70-f40b-f1b9" name="Cultists of the Abyss" hidden="false" collective="false" import="true" type="单位">
       <profiles>
-        <profile id="341a-f59b-94f9-261e" name="Cultist" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="341a-f59b-94f9-261e" name="Cultist" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6寸</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
@@ -1100,7 +1100,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c6c-210a-e1f4-8ec2" type="max"/>
           </constraints>
           <profiles>
-            <profile id="fa88-dc9b-b51a-ee2f" name="Cultist Champion" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+            <profile id="fa88-dc9b-b51a-ee2f" name="Cultist Champion" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
               <characteristics>
                 <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6寸</characteristic>
                 <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
@@ -1294,7 +1294,7 @@
   <sharedProfiles>
     <profile id="9e53-53f4-6b54-0e52" name="Death to the False Emperor" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 you roll a hit roll of 6+ for a 模型 in 这个单位 in the 肉搏阶段, it can, if it was targeting an 帝国 unit, 立即 make an extra attack 对抗 the same 单位 using the same weapon. These extra 攻击 cannot themselves generate further 攻击.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 you roll a hit roll of 6+ for a 模型 in 这个单位 in the 肉搏阶段, it can, if it was targeting an 帝国 单位, 立即 make an extra attack 对抗 the same 单位 using the same weapon. These extra 攻击 cannot themselves generate further 攻击.</characteristic>
       </characteristics>
     </profile>
     <profile id="8a91-062d-c0dd-59dc" name="Slaves to Mallex" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">

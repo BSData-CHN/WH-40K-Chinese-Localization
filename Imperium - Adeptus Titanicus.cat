@@ -153,7 +153,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">10</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2D6</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">After resolving 所有 damage 对目标 unit, 投掷1个D6 for every other 单位 范围内 6寸 of the target unit; 结果为4+ 那个单位 also 遭受 D3 hits using the weapon&apos;s profile.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">After resolving 所有 伤害 对目标 单位, 投掷1个D6 for every other 单位 范围内 6寸 of the 目标单位; 结果为4+ 那个单位 also 遭受 D3 hits using the weapon&apos;s profile.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -270,7 +270,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">12</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">6</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">After you have rolled a successful hit with 这个武器, you may 立即 roll for an additional hit 对抗 the same target unit, if this additional hit roll is successful, you may roll to hit again and again until either you miss or a total of 12 hits has been achieved. After the total number of hits has been determined for the weapon, resolve the attack.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">After you have rolled a successful hit with 这个武器, you may 立即 roll for an additional hit 对抗 the same 目标单位, if this additional hit roll is successful, you may roll to hit again and again until either you miss or a total of 12 hits has been achieved. After the total number of hits has been determined for the weapon, resolve the attack.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -562,7 +562,7 @@
             <characteristic name="虚空盾" typeId="6635-b157-0e68-49a4">7+</characteristic>
           </characteristics>
         </profile>
-        <profile id="0d54-f9ac-41a8-2020" name="Warhound Scout 泰坦" publicationId="f944-98a5-pubN65537" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="0d54-f9ac-41a8-2020" name="Warhound Scout 泰坦" publicationId="f944-98a5-pubN65537" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">*</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">*</characteristic>
@@ -686,7 +686,7 @@
             <characteristic name="虚空盾" typeId="6635-b157-0e68-49a4">7+</characteristic>
           </characteristics>
         </profile>
-        <profile id="3e4f-9dd4-05c6-c470" name="Reaver Battle 泰坦" publicationId="f944-98a5-pubN65537" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="3e4f-9dd4-05c6-c470" name="Reaver Battle 泰坦" publicationId="f944-98a5-pubN65537" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">*</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">*</characteristic>
@@ -855,7 +855,7 @@
             <characteristic name="虚空盾" typeId="6635-b157-0e68-49a4">6+</characteristic>
           </characteristics>
         </profile>
-        <profile id="014b-f337-7a26-3d48" name="Warlord Battle 泰坦" publicationId="f944-98a5-pubN65537" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="014b-f337-7a26-3d48" name="Warlord Battle 泰坦" publicationId="f944-98a5-pubN65537" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">*</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">*</characteristic>
@@ -1071,7 +1071,7 @@
             <characteristic name="虚空盾" typeId="6635-b157-0e68-49a4">6+</characteristic>
           </characteristics>
         </profile>
-        <profile id="77cc-6e57-6305-1a40" name="Warbringer Nemesis 泰坦" publicationId="f944-98a5-pubN71564" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="77cc-6e57-6305-1a40" name="Warbringer Nemesis 泰坦" publicationId="f944-98a5-pubN71564" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">*</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">*</characteristic>
@@ -1091,7 +1091,7 @@
         </profile>
         <profile id="edec-7bc0-0227-5786" name="泰坦虚空盾 (Warbringer)" publicationId="f944-98a5-pubN71564" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">而不是 making a saving throw or invulnerable saving throw for a wound allocated to 这个模型 as a result of an attack with a 远程武器, you can 投掷1个D6; if the result is equal to or higher than the Void Shields value shown on the 损伤表 above, the damage is prevented and the attack sequence ends. 此外, 每次 这个模型 遭受 1点致命伤, 投掷1个D6; if the result is equal to or higher than the Void Shields value shown on the 损伤表 above, the 致命伤 is ignored.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">而不是 making a saving throw or invulnerable saving throw for a wound allocated to 这个模型 as a result of an attack with a 远程武器, you can 投掷1个D6; if the result is equal to or higher than the Void Shields value shown on the 损伤表 above, the 伤害 is prevented and the attack sequence ends. 此外, 每次 这个模型 遭受 1点致命伤, 投掷1个D6; if the result is equal to or higher than the Void Shields value shown on the 损伤表 above, the 致命伤 is ignored.</characteristic>
           </characteristics>
         </profile>
         <profile id="2f7e-467d-608b-12cb" name="Imperial 神之机械 (Warbringer)" publicationId="f944-98a5-pubN71564" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -1192,7 +1192,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When firing 坚守射击 with 这个武器, hit rolls of 5 or 6 score a hit on the charging unit.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When firing 坚守射击 with 这个武器, hit rolls of 5 or 6 score a hit on the charging 单位.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1246,7 +1246,7 @@
   </sharedSelectionEntries>
   <sharedRules>
     <rule id="b3d0-a69c-59f0-15ba" name="Macro 武器" publicationId="f944-98a5-pubN65537" hidden="false">
-      <description>A 模型 armed with a Macro weapon may not fire it if it has moved previously in the turn, unless the firing 单位 also has the TITANIC 关键字. No Macro weapon may be used to make 坚守射击 攻击. When used 对抗 单位 with the TITANIC or 建筑 关键字, the damage inflicted by a Macro weapon is doubled (this doubling takes place after any randomised damage has been rolled for).</description>
+      <description>A 模型 armed with a Macro weapon may not fire it if it has moved previously in the turn, unless the firing 单位 also has the TITANIC 关键字. No Macro weapon may be used to make 坚守射击 攻击. When used 对抗 单位 with the TITANIC or 建筑 关键字, the 伤害 inflicted by a Macro weapon is doubled (this doubling takes place after any randomised 伤害 has been rolled for).</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

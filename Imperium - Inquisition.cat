@@ -80,7 +80,7 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c570-6ec4-75aa-f263" type="max"/>
       </constraints>
       <profiles>
-        <profile id="8f7b-379a-104b-78b0" name="Inquisitor Coteaz" page="0" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="8f7b-379a-104b-78b0" name="Inquisitor Coteaz" page="0" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6寸</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -256,7 +256,7 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="6ef4-d3ea-dee1-e2d8" type="max"/>
       </constraints>
       <profiles>
-        <profile id="5308-7ce8-1be8-8208" name="Inquisitor Karamazov" page="0" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="5308-7ce8-1be8-8208" name="Inquisitor Karamazov" page="0" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">5寸</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -347,7 +347,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When resolving an attack made with 这个武器 对抗 a 单位 that is in half range, roll 2D6 when inflicting damage with it and discard one of the results.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When resolving an attack made with 这个武器 对抗 a 单位 that is in half range, roll 2D6 when inflicting 伤害 with it and discard one of the results.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -406,7 +406,7 @@
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="9fb0-07a9-c8b8-657b" name="Inquisitor" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="9fb0-07a9-c8b8-657b" name="Inquisitor" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <modifiers>
             <modifier type="increment" field="2218-aa3c-265f-2939" value="1">
               <conditions>
@@ -667,7 +667,7 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4191-e705-8519-a90c" name="Acolytes" page="0" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="4191-e705-8519-a90c" name="Acolytes" page="0" hidden="false" collective="false" import="true" type="单位">
       <profiles>
         <profile id="7d32-f3a0-e93f-403a" name="Loyal Servant" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
@@ -704,7 +704,7 @@
             <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="65f9-5a55-0706-c9af" type="max"/>
           </constraints>
           <profiles>
-            <profile id="9da6-197f-7e2a-ed4f" name="Acolyte" page="0" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+            <profile id="9da6-197f-7e2a-ed4f" name="Acolyte" page="0" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
               <characteristics>
                 <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6寸</characteristic>
                 <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
@@ -770,7 +770,7 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="ce92-21b7-ab66-edb9" name="Ordo" hidden="false" collective="false" import="true" targetId="5138-d14c-0a57-646b" type="selectionEntryGroup"/>
-        <entryLink id="0a46-2315-0ed2-809b" name="Unit has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry">
+        <entryLink id="0a46-2315-0ed2-809b" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -805,7 +805,7 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a522-1144-e50e-f57f" name="Daemonhost" page="0" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="a522-1144-e50e-f57f" name="Daemonhost" page="0" hidden="false" collective="false" import="true" type="单位">
       <profiles>
         <profile id="ec16-8c8d-9575-5a0b" name="Daemonic Power" page="0" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
@@ -817,7 +817,7 @@
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型拥有 5+ invul Save.</characteristic>
           </characteristics>
         </profile>
-        <profile id="0602-38e7-9539-2eb9" name="Daemonhost" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="0602-38e7-9539-2eb9" name="Daemonhost" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6寸</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
@@ -852,7 +852,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When resolving an attack made with 这个武器, 结果为wound roll of 6+ 这个武器 拥有 Damage characteristic of 3 for that attack.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When resolving an attack made with 这个武器, 结果为wound roll of 6+ 这个武器 拥有 伤害 characteristic of 3 for that attack.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -887,7 +887,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="53f5-a916-57a3-e53b" name="Unit has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="53f5-a916-57a3-e53b" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
         <entryLink id="d1ad-1521-8ec1-52f4" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
@@ -896,9 +896,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9a75-b6c7-e839-375d" name="Jokaero Weaponsmith" page="0" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="9a75-b6c7-e839-375d" name="Jokaero Weaponsmith" page="0" hidden="false" collective="false" import="true" type="单位">
       <profiles>
-        <profile id="b3da-d486-8a7c-7f97" name="Jokaero Weaponsmith" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="b3da-d486-8a7c-7f97" name="Jokaero Weaponsmith" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6寸</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">6+</characteristic>
@@ -968,7 +968,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="8f8a-99a1-332e-0884" name="Unit has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="8f8a-99a1-332e-0884" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
         <entryLink id="58a6-6917-6e76-35e8" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
         <entryLink id="78e1-e285-f338-fdaa" name="Ordo" hidden="false" collective="false" import="true" targetId="5138-d14c-0a57-646b" type="selectionEntryGroup"/>
       </entryLinks>
@@ -991,7 +991,7 @@
             <characteristic name="Other" typeId="c2e2-f115-0003-5d7b">-</characteristic>
           </characteristics>
         </profile>
-        <profile id="9cc5-aa38-81f9-e79f" name="Inquisitor Greyfax" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="9cc5-aa38-81f9-e79f" name="Inquisitor Greyfax" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6寸</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -1072,7 +1072,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If the target is a 灵能者, increase the DAMAGE of an attack with 这个武器 from 1 to 3.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If the target is a 灵能者, increase the 伤害 of an attack with 这个武器 from 1 to 3.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1153,7 +1153,7 @@
     </selectionEntry>
     <selectionEntry id="ba53-1df7-404e-e9c9" name="Ordo Malleus Inquisitor in 终结者 Armour" page="0" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="4d3d-7a7f-0877-94de" name="Ordo Malleus Inquisitor" page="0" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="4d3d-7a7f-0877-94de" name="Ordo Malleus Inquisitor" page="0" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6寸</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -1306,7 +1306,7 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b987-87ce-53d9-eb7d" type="max"/>
       </constraints>
       <profiles>
-        <profile id="c6d7-50d7-318f-b636" name="Inquisitor-Lord Hector Rex" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="c6d7-50d7-318f-b636" name="Inquisitor-Lord Hector Rex" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6寸</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -1374,7 +1374,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">f the target of 这个武器 is a 恶魔, it inflicts a single 致命伤 on 每个成功的命中 此外 to its normal damage.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">f the target of 这个武器 is a 恶魔, it inflicts a single 致命伤 on 每个成功的命中 此外 to its normal 伤害.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1439,10 +1439,10 @@
       <profiles>
         <profile id="0456-18f0-ed4b-ce38" name="Tenacity" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">投掷1个D6 每次 这个模型 失去1点W; 结果为6+ the damage is ignored and that wound is not lost.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">投掷1个D6 每次 这个模型 失去1点W; 结果为6+ the 伤害 is ignored and that wound is not lost.</characteristic>
           </characteristics>
         </profile>
-        <profile id="a796-ccd6-7d9a-0869" name="Inquisitor-Lord Solomon Lok" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="a796-ccd6-7d9a-0869" name="Inquisitor-Lord Solomon Lok" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6寸</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -1534,7 +1534,7 @@
     </selectionEntry>
     <selectionEntry id="798b-309a-8857-5755" name="审判庭 兰德掠袭者普罗米修斯" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="9089-c736-7cd7-ddf7" name="审判庭 兰德掠袭者普罗米修斯" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="9089-c736-7cd7-ddf7" name="审判庭 兰德掠袭者普罗米修斯" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">*</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">6+</characteristic>
@@ -1644,7 +1644,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="597f-4829-b592-4996" name="Unit has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="597f-4829-b592-4996" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
         <entryLink id="149b-574b-41ad-4b60" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
         <entryLink id="3527-facf-32ba-5cb9" name="Ordo" hidden="false" collective="false" import="true" targetId="5138-d14c-0a57-646b" type="selectionEntryGroup"/>
       </entryLinks>
@@ -1659,7 +1659,7 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="cbfe-4308-cc23-b59c" type="max"/>
       </constraints>
       <profiles>
-        <profile id="5091-8e49-b0e3-2373" name="Inquisitor Eisenhorn" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="5091-8e49-b0e3-2373" name="Inquisitor Eisenhorn" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6寸</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -1808,7 +1808,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When resolving an attack made with 这个武器 对抗 a 载具 unit, an unmodified wound roll of 4-5 inflicts 1 致命伤 对目标 此外 to any other damage and an unmodified wound roll of 6 inflicts D3 致命伤 对目标 此外 to any other damage.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When resolving an attack made with 这个武器 对抗 a 载具 单位, an unmodified wound roll of 4-5 inflicts 1 致命伤 对目标 此外 to any other 伤害 and an unmodified wound roll of 6 inflicts D3 致命伤 对目标 此外 to any other 伤害.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1878,7 +1878,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">+1</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When resolving an attack made with 这个武器 对抗 a 单位 that is specified by the bearer&apos;s Quarry ability, 这个武器 拥有 damage characteristic of 3 for that attack.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When resolving an attack made with 这个武器 对抗 a 单位 that is specified by the bearer&apos;s Quarry ability, 这个武器 拥有 伤害 characteristic of 3 for that attack.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1912,7 +1912,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When resolving an attack made with 这个武器 对抗 a 单位 that is 范围内 half range or that has the CHAOS or 灵能者 关键字, roll two D6 when inflicting damage and discard one of the results</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When resolving an attack made with 这个武器 对抗 a 单位 that is 范围内 half range or that has the CHAOS or 灵能者 关键字, roll two D6 when inflicting 伤害 and discard one of the results</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1969,7 +1969,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">2</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When resolving an attack made with 这个武器 对抗 a 灵能者 or 恶魔 unit, a hit roll of 6+ inflicts 1 致命伤 对目标 and the attack sequence ends.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When resolving an attack made with 这个武器 对抗 a 灵能者 or 恶魔 单位, a hit roll of 6+ inflicts 1 致命伤 对目标 and the attack sequence ends.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2269,7 +2269,7 @@
               <characteristics>
                 <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">5</characteristic>
                 <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">6寸</characteristic>
-                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Psychic Veil 拥有 warp charge value of 5. If manifested, until the start of your next 灵能阶段 友方 ORDO 异性 单位 范围内 6” of this 灵能者 can only be selected as the target of 攻击 if they are the closest 可见 敌方单位, and can only be selected as the targets of charges if they are 范围内 6” of the charging unit.</characteristic>
+                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Psychic Veil 拥有 warp charge value of 5. If manifested, until the start of your next 灵能阶段 友方 ORDO 异性 单位 范围内 6” of this 灵能者 can only be selected as the target of 攻击 if they are the closest 可见 敌方单位, and can only be selected as the targets of charges if they are 范围内 6” of the charging 单位.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2422,7 +2422,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If the target is a 灵能者, increase the Damage of an attack with 这个武器 from 1 to D3.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If the target is a 灵能者, increase the 伤害 of an attack with 这个武器 from 1 to D3.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2522,7 +2522,7 @@
           <profiles>
             <profile id="0870-a0bc-3043-2433" name="Quarry -  Minoris" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made by a 模型 in 这个单位 对抗 a CHARACTER unit, you can re-roll the hit roll and you can re-roll the wound roll.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made by a 模型 in 这个单位 对抗 a CHARACTER 单位, you can re-roll the hit roll and you can re-roll the wound roll.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2798,7 +2798,7 @@ If your army does not include any 审判庭 detachments, one INQUISITOR 单位 c
         <modifier type="set" field="name" value="Quarry"/>
       </modifiers>
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made by a 模型 in 这个单位 对抗 a CHAOS or 灵能者 unit, you can re-roll the hit roll and you can re-roll the wound roll.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made by a 模型 in 这个单位 对抗 a CHAOS or 灵能者 单位, you can re-roll the hit roll and you can re-roll the wound roll.</characteristic>
       </characteristics>
     </profile>
     <profile id="5086-d3c4-7238-d42f" name="Quarry - Malleus" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -2806,7 +2806,7 @@ If your army does not include any 审判庭 detachments, one INQUISITOR 单位 c
         <modifier type="set" field="name" value="Quarry"/>
       </modifiers>
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made by a 模型 in 这个单位 对抗 a CHAOS or 恶魔 unit, you can re-roll the hit roll and you can re-roll the wound roll.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made by a 模型 in 这个单位 对抗 a CHAOS or 恶魔 单位, you can re-roll the hit roll and you can re-roll the wound roll.</characteristic>
       </characteristics>
     </profile>
     <profile id="25d5-4784-1a05-e93c" name="Quarry - 异性" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -2829,7 +2829,7 @@ If your army does not include any 审判庭 detachments, one INQUISITOR 单位 c
     </profile>
     <profile id="7a9e-9b75-ff92-24ee" name="Radical" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性 round, you can re-roll one hit roll, wound roll, damage roll, saving throw, Psychic test or 否定巫术测试 made for 这个主将.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性 round, you can re-roll one hit roll, wound roll, 伤害 roll, saving throw, Psychic test or 否定巫术测试 made for 这个主将.</characteristic>
       </characteristics>
     </profile>
     <profile id="e04d-0aae-8400-3241" name="异性 - Esoteric Lore" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">

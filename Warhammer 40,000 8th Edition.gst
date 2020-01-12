@@ -1755,7 +1755,7 @@
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="a505-05af-bd44-56b6" name="支援防线" publicationId="28ec-711c-pubN77581" page="79" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="a505-05af-bd44-56b6" name="支援防线" publicationId="28ec-711c-pubN77581" page="79" hidden="false" collective="false" import="true" type="单位">
       <infoLinks>
         <infoLink id="4ae0-157d-0f63-5531" name="Immobile" hidden="false" targetId="8830-2c9e-ad7e-e57d" type="profile"/>
         <infoLink id="238a-f756-6edf-3af8" name="Static Defence Network" hidden="false" targetId="c60f-7b10-88fd-9eba" type="profile"/>
@@ -1907,7 +1907,7 @@
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">14</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-                    <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Treat any damage rolls of 1 or 2 made for 这个武器 as 3 instead.</characteristic>
+                    <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Treat any 伤害 rolls of 1 or 2 made for 这个武器 as 3 instead.</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="c2e0-4b21-bef8-704e" name="Aquila Macro-cannon (Quake Shell)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -2256,7 +2256,7 @@
         <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0f73-97f2-b832-f6d0" name="帝国防线" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="0f73-97f2-b832-f6d0" name="帝国防线" page="" hidden="false" collective="false" import="true" type="单位">
       <profiles>
         <profile id="808f-d24a-ba7c-7d24" name="Stalwart Defence" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
@@ -2427,7 +2427,7 @@
         <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="04bf-6c22-19fb-4e46" name="复仇武器阵列" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="04bf-6c22-19fb-4e46" name="复仇武器阵列" page="" hidden="false" collective="false" import="true" type="单位">
       <modifiers>
         <modifier type="increment" field="e356-c769-5920-6e14" value="6">
           <conditions>
@@ -4484,7 +4484,7 @@
       <profiles>
         <profile id="9f18-91d8-df6e-5706" name="Tenacious Survivor" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Roll a dice 每次 这个主将 失去1点W. 结果为6, the 主将 shrugs off the damage and does not lose the wound.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Roll a dice 每次 这个主将 失去1点W. 结果为6, the 主将 shrugs off the 伤害 and does not lose the wound.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4494,7 +4494,7 @@
         <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bf09-85b2-c097-1071" name="游戏模式" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="bf09-85b2-c097-1071" name="游戏模式" hidden="false" collective="false" import="true" type="单位">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1cf3-6923-9f59-8fbf" type="max"/>
       </constraints>
@@ -5118,7 +5118,7 @@
         <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="732b-967e-1bca-5846" name="白蚁掘进机" publicationId="28ec-711c-pubN97206" page="1" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="732b-967e-1bca-5846" name="白蚁掘进机" publicationId="28ec-711c-pubN97206" page="1" hidden="false" collective="false" import="true" type="单位">
       <profiles>
         <profile id="da37-5957-9ddb-0eb4" name="地底突袭" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
@@ -6119,7 +6119,7 @@
                   <profiles>
                     <profile id="2cfd-c772-8ded-a00b" name="12: Beast Hunter" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投失败的造伤骰 for 攻击 made by 这个模型 in the 肉搏阶段 if the target is a 巨兽 unit.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投失败的造伤骰 for 攻击 made by 这个模型 in the 肉搏阶段 if the target is a 巨兽 单位.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6238,7 +6238,7 @@
                   <profiles>
                     <profile id="a650-fc6c-fd84-e191" name="23: Deadly Marksman" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the Damage characteristic of ranged 武器 used by 这个模型. </characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the 伤害 characteristic of ranged 武器 used by 这个模型. </characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6255,7 +6255,7 @@
                   <profiles>
                     <profile id="0184-00c1-f033-65cd" name="24: Sundering Shots" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each wound roll of 6+ made for 这个模型’s ranged 攻击 inflicts 1 致命伤 对目标 此外 to any normal damage.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each wound roll of 6+ made for 这个模型’s ranged 攻击 inflicts 1 致命伤 对目标 此外 to any normal 伤害.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6306,7 +6306,7 @@
                   <profiles>
                     <profile id="49f0-a183-7e98-a4b1" name="31: Grudge" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll any hit, wound and damage rolls made for 这个模型’s 攻击 that target the 敌方 主将.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll any hit, wound and 伤害 rolls made for 这个模型’s 攻击 that target the 敌方 主将.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6374,7 +6374,7 @@
                   <profiles>
                     <profile id="eede-37c4-cc49-3cec" name="35: Indomitable" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">所有 damage suffered by 这个模型 is halved (rounding up). </characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">所有 伤害 suffered by 这个模型 is halved (rounding up). </characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6493,7 +6493,7 @@
                   <profiles>
                     <profile id="1f69-1696-0676-0b09" name="46: Foresight" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, if 这个模型 is 战场上, you can re-roll one hit roll, wound roll, damage roll or saving throw.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, if 这个模型 is 战场上, you can re-roll one hit roll, wound roll, 伤害 roll or saving throw.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6697,7 +6697,7 @@
                   <profiles>
                     <profile id="4a42-4231-7509-9afa" name="66: Direct Fire" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 you make a wound roll of 6+ in the 射击阶段 for a 友方 &lt;Sub-faction&gt;unit 范围内 6寸 of 这个模型, the AP characteristic of that attack is improved by 1 (e.g. AP -1 becomes AP -2).</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 you make a wound roll of 6+ in the 射击阶段 for a 友方 &lt;Sub-faction&gt;单位 范围内 6寸 of 这个模型, the AP characteristic of that attack is improved by 1 (e.g. AP -1 becomes AP -2).</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6803,7 +6803,7 @@
                   <profiles>
                     <profile id="74dd-199a-f33e-c54f" name="07: Artificer Weapon" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s 武器. Add 1 to that weapon’s Damage characteristic.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s 武器. Add 1 to that weapon’s 伤害 characteristic.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7249,7 +7249,7 @@
               <profiles>
                 <profile id="591c-3344-f7bf-7f91" name="R1: Deadeye Shots" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 you roll an unmodified wound roll of 6 for an attack with one of 这个单位’s ranged 武器, increase the Damage characteristic of that attack by 1. </characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 you roll an unmodified wound roll of 6 for an attack with one of 这个单位’s ranged 武器, increase the 伤害 characteristic of that attack by 1. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7300,7 +7300,7 @@
               <profiles>
                 <profile id="8f76-d66e-c390-2ea5" name="R2: Assassins" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to wound rolls for 攻击 made by 模型 in 这个单位 that target an 敌方 CHARACTER unit.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to wound rolls for 攻击 made by 模型 in 这个单位 that target an 敌方 CHARACTER 单位.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7741,7 +7741,7 @@
               <profiles>
                 <profile id="49eb-d748-c449-7525" name="R2: Experimental Ammunition" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Select one of the ranged 武器 used by one or more 模型 in 这个单位. Add 1 to the Damage characteristic of that weapon for 攻击 made by 那个单位.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Select one of the ranged 武器 used by one or more 模型 in 这个单位. Add 1 to the 伤害 characteristic of that weapon for 攻击 made by 那个单位.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7910,7 +7910,7 @@
 
 2) Inspiring Leader: 友方单位 范围内 6寸 of 这个主将 can add 1 to their LD characteristic.
 
-3) Tenacious Survivor: Roll a dice 每次 这个主将 失去1点W.  结果为6, the 主将 shrugs off the damage and does not lose the wound.</description>
+3) Tenacious Survivor: Roll a dice 每次 这个主将 失去1点W.  结果为6, the 主将 shrugs off the 伤害 and does not lose the wound.</description>
     </rule>
     <rule id="a269-b8d9-67c5-4009" name="复合武器" hidden="false">
       <description>When attacking with 这个武器, choose one or both of the profiles. If you choose both, subtract 1 from 所有命中骰 for 这个武器.</description>
@@ -8695,7 +8695,7 @@
     </profile>
     <profile id="f0ec-023c-4865-fe5a" name="灵能头箍" publicationId="28ec-711c-pubN72690" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 a 单位 (or model) is targeted by an 敌方 psychic power and is 范围内 12寸 of a 友方模型 with a 灵能头箍, the wearer of the hood can attempt to Deny the Witch in their stead, as if he were in the target unit.  If the Deny the Witch attempt is failed, the psychic power is resolved as normal, but effects only the initial target, not the wearer of the hood.  If a 模型 with a 灵能头箍 is 上车 in a 载具 or 建筑, he can only use the hood to nullify powers targeting the 载具 or 建筑 he is 上车 within.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 a 单位 (or model) is targeted by an 敌方 psychic power and is 范围内 12寸 of a 友方模型 with a 灵能头箍, the wearer of the hood can attempt to Deny the Witch in their stead, as if he were in the 目标单位.  If the Deny the Witch attempt is failed, the psychic power is resolved as normal, but effects only the initial target, not the wearer of the hood.  If a 模型 with a 灵能头箍 is 上车 in a 载具 or 建筑, he can only use the hood to nullify powers targeting the 载具 or 建筑 he is 上车 within.</characteristic>
       </characteristics>
     </profile>
     <profile id="98ac-5132-9ebd-c355" name="Orbital Strike" publicationId="28ec-711c-pubN72690" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -9589,7 +9589,7 @@
     </profile>
     <profile id="7a19-046d-bf4e-bae3" name="Tenacious Survivor" publicationId="28ec-711c-pubN72690" page="186" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Roll a dice 每次 这个主将 失去1点W. 结果为6, the 主将 shrugs off the damage and does not lose the wound.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Roll a dice 每次 这个主将 失去1点W. 结果为6, the 主将 shrugs off the 伤害 and does not lose the wound.</characteristic>
       </characteristics>
     </profile>
     <profile id="8830-2c9e-ad7e-e57d" name="不动 (工事)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">

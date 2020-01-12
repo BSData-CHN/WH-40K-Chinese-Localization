@@ -23,7 +23,7 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bdc7-64f6-5641-a11c" type="max"/>
       </constraints>
       <profiles>
-        <profile id="6242-b9c0-aea8-0c41" name="Neyam Shai Murad" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="6242-b9c0-aea8-0c41" name="Neyam Shai Murad" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6寸</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -101,7 +101,7 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1614-250b-be6a-6b71" type="max"/>
       </constraints>
       <profiles>
-        <profile id="711e-bbc9-c5f7-fe2a" name="Janus Draik" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="711e-bbc9-c5f7-fe2a" name="Janus Draik" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6寸</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -156,7 +156,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 wounds 结果为4+, unless it is targeting a 载具 or TITANIC unit, in which case it wounds 结果为6+.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 wounds 结果为4+, unless it is targeting a 载具 or TITANIC 单位, in which case it wounds 结果为6+.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -228,7 +228,7 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6953-a975-481f-9e54" type="max"/>
       </constraints>
       <profiles>
-        <profile id="19b7-9e4d-0619-7e91" name="Espern Locarno" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="19b7-9e4d-0619-7e91" name="Espern Locarno" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6寸</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">5+</characteristic>
@@ -335,7 +335,7 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="219c-d2e3-776d-ebb6" type="max"/>
       </constraints>
       <profiles>
-        <profile id="0475-306b-da2d-9be5" name="UR-025" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="0475-306b-da2d-9be5" name="UR-025" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">5寸</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -421,14 +421,14 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c0da-c185-688c-3857" name="Spindle Drones" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="c0da-c185-688c-3857" name="Spindle Drones" hidden="false" collective="false" import="true" type="单位">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d294-cb50-cab3-03fe" type="max"/>
       </constraints>
       <profiles>
         <profile id="7bd7-da63-4e11-482a" name="Threat Level Rising" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Improve the Strength, Armour Penetration and Damage characteristics of a 模型的 drone pulse by 1 for each 模型 in its 单位 that has either lost wounds or been destroyed. For example, if two 模型 in a 单位 of Spindle Drones have been destroyed, and another has lost 1 wound, the two remaining models&apos; drone pulses would have a Strength characteristic of 6, an AP characteristic of -3 and a Damage characteristic of 4.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Improve the Strength, Armour Penetration and 伤害 characteristics of a 模型的 drone pulse by 1 for each 模型 in its 单位 that has either lost wounds or been destroyed. For example, if two 模型 in a 单位 of Spindle Drones have been destroyed, and another has lost 1 wound, the two remaining models&apos; drone pulses would have a Strength characteristic of 6, an AP characteristic of -3 and a 伤害 characteristic of 4.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -446,7 +446,7 @@
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="211a-49fb-7674-6eb7" type="max"/>
           </constraints>
           <profiles>
-            <profile id="ee3e-895d-2cd4-40e1" name="Spindle Drone" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+            <profile id="ee3e-895d-2cd4-40e1" name="Spindle Drone" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
               <characteristics>
                 <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6寸</characteristic>
                 <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
