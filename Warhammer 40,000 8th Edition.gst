@@ -2126,7 +2126,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="1450-a5d3-3532-acca" name="双联 Icarus 激光炮" hidden="false" collective="false" import="true" targetId="2e50-f562-c0df-3e83" type="selectionEntry">
+        <entryLink id="1450-a5d3-3532-acca" name="双联Icarus 激光炮" hidden="false" collective="false" import="true" targetId="2e50-f562-c0df-3e83" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b49a-b333-4e3d-90e7" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb71-e225-fac2-2f10" type="max"/>
@@ -2575,8 +2575,8 @@
     </selectionEntry>
     <selectionEntry id="83be-1ba9-c326-4760" name="等离子手枪" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="38e5-b1e6-b737-f20c" name="Plasma pistol, 标准" hidden="false" targetId="ff12-161a-ca85-339f" type="profile"/>
-        <infoLink id="1514-2a22-0f8a-615c" name="Plasma pistol, Supercharge" hidden="false" targetId="5779-2931-fe17-2b27" type="profile"/>
+        <infoLink id="38e5-b1e6-b737-f20c" name="等离子手枪, 标准" hidden="false" targetId="ff12-161a-ca85-339f" type="profile"/>
+        <infoLink id="1514-2a22-0f8a-615c" name="等离子手枪, Supercharge" hidden="false" targetId="5779-2931-fe17-2b27" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="5.0"/>
@@ -2586,7 +2586,7 @@
     </selectionEntry>
     <selectionEntry id="3292-34e6-f679-d5b9" name="动力斧" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="7307-06cf-2e47-a527" name="Power axe" hidden="false" targetId="4635-64e7-2344-ea7c" type="profile"/>
+        <infoLink id="7307-06cf-2e47-a527" name="动力斧" hidden="false" targetId="4635-64e7-2344-ea7c" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="5.0"/>
@@ -2596,7 +2596,7 @@
     </selectionEntry>
     <selectionEntry id="6ea7-1195-7144-438e" name="动力锤" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="1392-d9c3-533f-53ca" name="Power maul" hidden="false" targetId="ca27-e5ee-f6eb-652d" type="profile"/>
+        <infoLink id="1392-d9c3-533f-53ca" name="动力锤" hidden="false" targetId="ca27-e5ee-f6eb-652d" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="4.0"/>
@@ -2715,7 +2715,7 @@
     </selectionEntry>
     <selectionEntry id="e464-77c1-12bb-e52f" name="链锯拳" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="bdc5-1dfb-53c0-15f7" name="Chainfist" hidden="false" targetId="8194-4688-65b3-f996" type="profile"/>
+        <infoLink id="bdc5-1dfb-53c0-15f7" name="链锯拳" hidden="false" targetId="8194-4688-65b3-f996" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="11.0"/>
@@ -2802,7 +2802,7 @@
     </selectionEntry>
     <selectionEntry id="2094-c9a6-a426-0970" name="霰弹枪" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="428f-112d-d5f4-10c4" name="Shotgun" hidden="false" targetId="07cb-70d7-15c3-5117" type="profile"/>
+        <infoLink id="428f-112d-d5f4-10c4" name="霰弹枪" hidden="false" targetId="07cb-70d7-15c3-5117" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="0.0"/>
@@ -2872,7 +2872,7 @@
     </selectionEntry>
     <selectionEntry id="e3a8-4aab-77ee-956a" name="突击爆弹" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="c557-d1e3-1ff5-9b0d" name="Assault bolter" hidden="false" targetId="21ef-7459-ad22-ece0" type="profile"/>
+        <infoLink id="c557-d1e3-1ff5-9b0d" name="突击爆弹" hidden="false" targetId="21ef-7459-ad22-ece0" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="8.0"/>
@@ -2892,8 +2892,8 @@
     </selectionEntry>
     <selectionEntry id="b4dd-2ff1-9f8e-ab00" name="阿斯塔特榴弹发射器" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="e7d6-7efe-25b6-e4e0" name="Astartes grenade launcher, 破片手雷" hidden="false" targetId="3735-f76f-f06c-1d71" type="profile"/>
-        <infoLink id="0997-a5c0-e849-4e85" name="Astartes grenade launcher, 穿甲手雷" hidden="false" targetId="ac6d-bf1b-73d0-e6af" type="profile"/>
+        <infoLink id="e7d6-7efe-25b6-e4e0" name="阿斯塔特榴弹发射器, 破片手雷" hidden="false" targetId="3735-f76f-f06c-1d71" type="profile"/>
+        <infoLink id="0997-a5c0-e849-4e85" name="阿斯塔特榴弹发射器, 穿甲手雷" hidden="false" targetId="ac6d-bf1b-73d0-e6af" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="6.0"/>
@@ -2903,7 +2903,7 @@
     </selectionEntry>
     <selectionEntry id="ce59-8ed4-4497-8a53" name="阿斯塔特霰弹枪" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="b667-d70c-0d70-a0d9" name="Astartes shotgun" hidden="false" targetId="961a-afdd-b0a9-f43d" type="profile"/>
+        <infoLink id="b667-d70c-0d70-a0d9" name="阿斯塔特霰弹枪" hidden="false" targetId="961a-afdd-b0a9-f43d" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -2944,7 +2944,7 @@
     </selectionEntry>
     <selectionEntry id="3846-568f-f410-946e" name="地狱犬发射器" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="c9e8-81ae-d266-4c86" name="Cerberus launcher" hidden="false" targetId="418d-8293-8de6-7cac" type="profile"/>
+        <infoLink id="c9e8-81ae-d266-4c86" name="地狱犬发射器" hidden="false" targetId="418d-8293-8de6-7cac" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -3076,9 +3076,9 @@
         <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c300-04a5-d4eb-3f53" name="Grenade harness" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="c300-04a5-d4eb-3f53" name="集数榴弹" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="3f79-d363-7d36-ad00" name="Grenade harness" hidden="false" targetId="042e-bff6-0d45-8423" type="profile"/>
+        <infoLink id="3f79-d363-7d36-ad00" name="集数榴弹" hidden="false" targetId="042e-bff6-0d45-8423" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -3119,7 +3119,7 @@
     </selectionEntry>
     <selectionEntry id="98bf-0664-0b1b-3e27" name="伊卡洛斯风暴炮" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="1619-e1cb-dbcc-04d8" name="Icarus stormcannon" hidden="false" targetId="b1d1-72ef-a807-dbbc" type="profile"/>
+        <infoLink id="1619-e1cb-dbcc-04d8" name="伊卡洛斯风暴炮" hidden="false" targetId="b1d1-72ef-a807-dbbc" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="10.0"/>
@@ -3129,7 +3129,7 @@
     </selectionEntry>
     <selectionEntry id="db1d-3a08-13f2-72fa" name="凯尔斯型突击炮" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="d25f-5bb7-0c99-a99d" name="Kheres pattern 突击炮" hidden="false" targetId="10cf-9931-74ee-504e" type="profile"/>
+        <infoLink id="d25f-5bb7-0c99-a99d" name="凯瑞斯型突击炮" hidden="false" targetId="10cf-9931-74ee-504e" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="25.0"/>
@@ -3199,8 +3199,8 @@
     </selectionEntry>
     <selectionEntry id="5aaf-d2e4-ec59-0407" name="等离子爆裂枪" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="a0c1-a7e9-e251-3e0a" name="Plasma blaster, 标准" hidden="false" targetId="3937-3d5e-da78-af96" type="profile"/>
-        <infoLink id="c52c-a7f9-cdf1-f9bc" name="Plasma blaster, Supercharge" hidden="false" targetId="ae8f-c03c-8929-bedc" type="profile"/>
+        <infoLink id="a0c1-a7e9-e251-3e0a" name="等离子爆裂枪, 标准" hidden="false" targetId="3937-3d5e-da78-af96" type="profile"/>
+        <infoLink id="c52c-a7f9-cdf1-f9bc" name="等离子爆裂枪, Supercharge" hidden="false" targetId="ae8f-c03c-8929-bedc" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="17.0"/>
@@ -3253,7 +3253,7 @@
     </selectionEntry>
     <selectionEntry id="5ab4-1ee7-95ad-7e15" name="收割者自动炮" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="bdb9-b64e-9576-00a4" name="Reaper 自动炮" hidden="false" targetId="9c2a-cd9e-dc44-ca31" type="profile"/>
+        <infoLink id="bdb9-b64e-9576-00a4" name="收割者自动炮" hidden="false" targetId="9c2a-cd9e-dc44-ca31" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="10.0"/>
@@ -3263,7 +3263,7 @@
     </selectionEntry>
     <selectionEntry id="dc9d-4795-4788-d6e6" name="天锤导弹发射器" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="620f-7023-45bb-9932" name="Skyhammer 导弹发射器" hidden="false" targetId="b808-ff6d-2ba3-cd8a" type="profile"/>
+        <infoLink id="620f-7023-45bb-9932" name="天锤导弹发射器" hidden="false" targetId="b808-ff6d-2ba3-cd8a" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="20.0"/>
@@ -3283,7 +3283,7 @@
     </selectionEntry>
     <selectionEntry id="ba62-f2c3-d7bb-4f5d" name="狙击步枪" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="a548-48ec-3b5d-ce69" name="Sniper rifle" hidden="false" targetId="45a4-5982-7f8b-fb33" type="profile"/>
+        <infoLink id="a548-48ec-3b5d-ce69" name="狙击步枪" hidden="false" targetId="45a4-5982-7f8b-fb33" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="2.0"/>
@@ -3291,9 +3291,9 @@
         <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cfc3-3735-a2e8-53cd" name="Special issue 爆弹枪" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="cfc3-3735-a2e8-53cd" name="特殊用途爆弹枪" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="098b-2796-d106-42b4" name="Special issue 爆弹枪" hidden="false" targetId="a57c-ff3f-49d4-f3b8" type="profile"/>
+        <infoLink id="098b-2796-d106-42b4" name="特殊用途爆弹枪" hidden="false" targetId="a57c-ff3f-49d4-f3b8" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -3373,8 +3373,8 @@
     </selectionEntry>
     <selectionEntry id="353e-3e4d-a6ed-d25c" name="双联重型等离子炮" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="3be8-90fb-c838-397d" name="双联 重型等离子炮, 标准" hidden="false" targetId="3f51-8cbe-78c2-0b36" type="profile"/>
-        <infoLink id="d490-9625-1289-448e" name="双联 重型等离子炮, Supercharge" hidden="false" targetId="f2db-d913-989b-2841" type="profile"/>
+        <infoLink id="3be8-90fb-c838-397d" name="双联重型等离子炮, 标准" hidden="false" targetId="3f51-8cbe-78c2-0b36" type="profile"/>
+        <infoLink id="d490-9625-1289-448e" name="双联重型等离子炮, Supercharge" hidden="false" targetId="f2db-d913-989b-2841" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="24.0"/>
@@ -3404,8 +3404,8 @@
     </selectionEntry>
     <selectionEntry id="3f51-b8fa-86ce-7388" name="双联等离子枪" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="3275-afdc-4d56-864f" name="双联 等离子枪, 标准" hidden="false" targetId="f7ba-88b9-c604-cd89" type="profile"/>
-        <infoLink id="1a87-46dc-7286-778b" name="双联 等离子枪, Supercharge" hidden="false" targetId="840a-7f35-72ad-baef" type="profile"/>
+        <infoLink id="3275-afdc-4d56-864f" name="双联等离子枪, 标准" hidden="false" targetId="f7ba-88b9-c604-cd89" type="profile"/>
+        <infoLink id="1a87-46dc-7286-778b" name="双联等离子枪, Supercharge" hidden="false" targetId="840a-7f35-72ad-baef" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="20.0"/>
@@ -3426,7 +3426,7 @@
     </selectionEntry>
     <selectionEntry id="250a-10f2-a1c6-36ff" name="爆燃炮" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="90d9-ccf7-d99a-8335" name="Volkite charger" hidden="false" targetId="c943-413e-8c92-ae9b" type="profile"/>
+        <infoLink id="90d9-ccf7-d99a-8335" name="爆燃枪" hidden="false" targetId="c943-413e-8c92-ae9b" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="3.0"/>
@@ -3466,7 +3466,7 @@
     </selectionEntry>
     <selectionEntry id="02d5-5c02-db70-d933" name="冠军之刃" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="6599-af39-e5fa-062b" name="Champion&apos;s blade" hidden="false" targetId="cd4f-c27a-233f-0f55" type="profile"/>
+        <infoLink id="6599-af39-e5fa-062b" name="冠军之刃" hidden="false" targetId="cd4f-c27a-233f-0f55" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -3476,7 +3476,7 @@
     </selectionEntry>
     <selectionEntry id="bc0b-c19f-0b71-081e" name="战斗刀" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="c560-8ac3-2800-1e80" name="Combat knife" hidden="false" targetId="397f-3a5d-7443-5144" type="profile"/>
+        <infoLink id="c560-8ac3-2800-1e80" name="战斗刀" hidden="false" targetId="397f-3a5d-7443-5144" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -3553,7 +3553,7 @@
     </selectionEntry>
     <selectionEntry id="0140-c9f2-0524-34cc" name="圣物刃" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="547d-7f85-1acc-fc56" name="圣物blade" hidden="false" targetId="ea0a-a19e-1e9a-b830" type="profile"/>
+        <infoLink id="547d-7f85-1acc-fc56" name="圣物之刃" hidden="false" targetId="ea0a-a19e-1e9a-b830" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="9.0"/>
@@ -3563,7 +3563,7 @@
     </selectionEntry>
     <selectionEntry id="d858-d958-0efe-edbc" name="撼地锤" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="159d-c648-1ac9-7433" name="Seismic hammer" hidden="false" targetId="67f2-aac1-ece9-6115" type="profile"/>
+        <infoLink id="159d-c648-1ac9-7433" name="撼地锤" hidden="false" targetId="67f2-aac1-ece9-6115" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="40.0"/>
@@ -3677,7 +3677,7 @@
     </selectionEntry>
     <selectionEntry id="2e50-f562-c0df-3e83" name="双联伊卡洛斯激光炮" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="dac7-a356-1c84-5f48" name="双联 Icarus 激光炮" hidden="false" targetId="2ea1-2be3-90c0-8d4c" type="profile"/>
+        <infoLink id="dac7-a356-1c84-5f48" name="双联Icarus 激光炮" hidden="false" targetId="2ea1-2be3-90c0-8d4c" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -3901,7 +3901,7 @@
     </selectionEntry>
     <selectionEntry id="2b29-bc1f-cebc-3d95" name="阿斯塔特霰弹枪" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="0e5a-92dd-437d-b191" name="Astartes shotgun" hidden="false" targetId="961a-afdd-b0a9-f43d" type="profile"/>
+        <infoLink id="0e5a-92dd-437d-b191" name="阿斯塔特霰弹枪" hidden="false" targetId="961a-afdd-b0a9-f43d" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -3911,7 +3911,7 @@
     </selectionEntry>
     <selectionEntry id="d3c0-0759-f387-630f" name="战斗刀" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="03f8-2185-3487-32ad" name="Combat knife" hidden="false" targetId="397f-3a5d-7443-5144" type="profile"/>
+        <infoLink id="03f8-2185-3487-32ad" name="战斗刀" hidden="false" targetId="397f-3a5d-7443-5144" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -3992,7 +3992,7 @@
     </selectionEntry>
     <selectionEntry id="e6b0-ca4c-c256-cdb0" name="突击爆弹" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="42a1-9769-7a1c-ab31" name="Assault bolter" hidden="false" targetId="21ef-7459-ad22-ece0" type="profile"/>
+        <infoLink id="42a1-9769-7a1c-ab31" name="突击爆弹" hidden="false" targetId="21ef-7459-ad22-ece0" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="8.0"/>
@@ -4012,7 +4012,7 @@
     </selectionEntry>
     <selectionEntry id="db90-b325-244d-3e35" name="狙击步枪" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="bd49-4355-a1d9-b17a" name="Sniper rifle" hidden="false" targetId="45a4-5982-7f8b-fb33" type="profile"/>
+        <infoLink id="bd49-4355-a1d9-b17a" name="狙击步枪" hidden="false" targetId="45a4-5982-7f8b-fb33" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="2.0"/>
@@ -4022,8 +4022,8 @@
     </selectionEntry>
     <selectionEntry id="c532-64ab-c72a-b0bd" name="阿斯塔特榴弹发射器" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="0a0a-2a74-6bd1-0f7c" name="Astartes grenade launcher, 破片手雷" hidden="false" targetId="3735-f76f-f06c-1d71" type="profile"/>
-        <infoLink id="04f6-2f20-fb2d-1f27" name="Astartes grenade launcher, 穿甲手雷" hidden="false" targetId="ac6d-bf1b-73d0-e6af" type="profile"/>
+        <infoLink id="0a0a-2a74-6bd1-0f7c" name="阿斯塔特榴弹发射器, 破片手雷" hidden="false" targetId="3735-f76f-f06c-1d71" type="profile"/>
+        <infoLink id="04f6-2f20-fb2d-1f27" name="阿斯塔特榴弹发射器, 穿甲手雷" hidden="false" targetId="ac6d-bf1b-73d0-e6af" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="6.0"/>
@@ -4153,13 +4153,13 @@
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d26c-78ff-aba4-7741" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="7b7f-11e9-7ffc-2c28" name="双联 Long-barrelled 自动炮" hidden="false" collective="true" import="true" type="upgrade">
+            <selectionEntry id="7b7f-11e9-7ffc-2c28" name="双联Long-barrelled 自动炮" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6759-9d4c-a18c-e03e" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7479-8e06-b43b-36cc" type="max"/>
               </constraints>
               <profiles>
-                <profile id="1dad-1154-dc7e-7b30" name="双联 Long-barrelled 自动炮" publicationId="28ec-711c-pubN91434" page="115" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+                <profile id="1dad-1154-dc7e-7b30" name="双联Long-barrelled 自动炮" publicationId="28ec-711c-pubN91434" page="115" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="射程" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72寸</characteristic>
                     <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 4</characteristic>
@@ -4403,7 +4403,7 @@
     </selectionEntry>
     <selectionEntry id="d9b3-4b4e-714e-b467" name="链锯拳" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="0cac-5996-b46d-1abf" name="Chainfist" hidden="false" targetId="8194-4688-65b3-f996" type="profile"/>
+        <infoLink id="0cac-5996-b46d-1abf" name="链锯拳" hidden="false" targetId="8194-4688-65b3-f996" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="11.0"/>
@@ -4744,7 +4744,7 @@
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If you roll three or more 命中 骰 of 1 for 这个模型&apos;s lascannons or 双联 lascannons in the same phase, it experiences a power overload and 遭受 6 致命伤.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If you roll three or more 命中 骰 of 1 for 这个模型&apos;s lascannons or 双联lascannons in the same phase, it experiences a power overload and 遭受 6 致命伤.</characteristic>
           </characteristics>
         </profile>
         <profile id="27ee-a8ba-ee83-4fa3" name="机魂之力" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -4795,7 +4795,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e14-8b36-6e72-8afc" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="08ab-a8a3-a266-f002" name="双联 Helfrost Cannon" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="08ab-a8a3-a266-f002" name="双联Helfrost Cannon" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -4804,7 +4804,7 @@
                 </modifier>
               </modifiers>
               <profiles>
-                <profile id="f726-8978-cbcd-2a42" name="双联 Helfrost Cannon (Dispersed Beam)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+                <profile id="f726-8978-cbcd-2a42" name="双联Helfrost Cannon (Dispersed Beam)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="射程" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
                     <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 2D3</characteristic>
@@ -4814,7 +4814,7 @@
                     <characteristic name="能力" typeId="837d-5e63-aeb7-1410">If a 模型 遭受 any unsaved wounds from 这个武器 but is not slain, 投掷1个D6, 结果为6, the target 遭受 1点致命伤.</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="9b24-2450-ad3f-9499" name="双联 Helfrost Cannon (Focused Beam)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+                <profile id="9b24-2450-ad3f-9499" name="双联Helfrost Cannon (Focused Beam)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="射程" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
                     <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 2</characteristic>
@@ -4844,7 +4844,7 @@
               </modifiers>
             </entryLink>
             <entryLink id="8acf-e31f-f58b-2e9a" name="双联激光炮" hidden="false" collective="false" import="true" targetId="ee18-b1cd-6b60-464d" type="selectionEntry"/>
-            <entryLink id="bb29-c6fa-5c34-fd34" name="Reaper 自动炮" hidden="false" collective="false" import="true" targetId="5ab4-1ee7-95ad-7e15" type="selectionEntry">
+            <entryLink id="bb29-c6fa-5c34-fd34" name="收割者自动炮" hidden="false" collective="false" import="true" targetId="5ab4-1ee7-95ad-7e15" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -8435,7 +8435,7 @@
         <characteristic name="能力" typeId="837d-5e63-aeb7-1410">自动命中.</characteristic>
       </characteristics>
     </profile>
-    <profile id="e92d-1654-a3f9-f981" name="Space Marine Shotgun" publicationId="28ec-711c-pubN72690" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+    <profile id="e92d-1654-a3f9-f981" name="星际战士霰弹枪" publicationId="28ec-711c-pubN72690" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="射程" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12寸</characteristic>
         <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 2</characteristic>
@@ -9118,7 +9118,7 @@
         <characteristic name="能力" typeId="837d-5e63-aeb7-1410">对飞行关键字单位命中骰+1,其他单位-1</characteristic>
       </characteristics>
     </profile>
-    <profile id="a57c-ff3f-49d4-f3b8" name="Special issue 爆弹枪" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+    <profile id="a57c-ff3f-49d4-f3b8" name="特殊用途爆弹枪" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="射程" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">30寸</characteristic>
         <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">速射 1</characteristic>
@@ -9410,7 +9410,7 @@
     </profile>
     <profile id="b754-9672-4689-cefb" name="迷彩斗篷" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If every 模型 in a 单位 拥有 camo cloak you can add 2 to saving throws made for 模型 in the 单位 when they receive the benefits of cover, 而不是 1.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If every 模型 in a 单位 拥有 迷彩斗篷 you can add 2 to saving throws made for 模型 in the 单位 when they receive the benefits of cover, 而不是 1.</characteristic>
       </characteristics>
     </profile>
     <profile id="d0a0-002c-8278-a70e" name="战斗盾" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -9423,7 +9423,7 @@
         <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">获得3+特保</characteristic>
       </characteristics>
     </profile>
-    <profile id="042e-bff6-0d45-8423" name="Grenade harness" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+    <profile id="042e-bff6-0d45-8423" name="集数榴弹" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="射程" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12寸</characteristic>
         <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 D6</characteristic>

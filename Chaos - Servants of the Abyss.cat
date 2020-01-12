@@ -256,7 +256,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="58d5-94fb-8a13-f443" name="Plasma pistol" hidden="false" collective="false" import="true" targetId="83be-1ba9-c326-4760" type="selectionEntry">
+        <entryLink id="58d5-94fb-8a13-f443" name="等离子手枪" hidden="false" collective="false" import="true" targetId="83be-1ba9-c326-4760" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="points" value="0.0"/>
           </modifiers>
@@ -557,13 +557,13 @@
         <categoryLink id="9373-78b6-ba8e-417c" name="New CategoryLink" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="48c3-e6a4-2e76-fe65" name="Traitor Sergeant" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="48c3-e6a4-2e76-fe65" name="Traitor士官" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d44-66ee-e2d2-f026" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee9b-a2c2-fbf9-614d" type="max"/>
           </constraints>
           <profiles>
-            <profile id="b9d6-a329-7023-d079" name="Traitor Sergeant" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+            <profile id="b9d6-a329-7023-d079" name="Traitor士官" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
               <characteristics>
                 <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6寸</characteristic>
                 <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
@@ -1212,19 +1212,19 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="731e-d276-2d6b-e67b" name="Cultist附带Grenade Launcher" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="731e-d276-2d6b-e67b" name="Cultist附带榴弹发射器" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f043-cb11-68be-22dc" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b958-fe53-eadf-b773" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="d609-505f-3010-3132" name="Grenade launcher" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="d609-505f-3010-3132" name="榴弹发射器" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2314-66a2-3545-115c" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6bc1-3290-c563-4572" type="max"/>
               </constraints>
               <profiles>
-                <profile id="c108-fb7f-d4ec-493e" name="Grenade launcher - Frag" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+                <profile id="c108-fb7f-d4ec-493e" name="榴弹发射器 - Frag" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 D6</characteristic>
@@ -1234,7 +1234,7 @@
                     <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="1c14-ebbe-883b-9563" name="Grenade launcher - Krak" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+                <profile id="1c14-ebbe-883b-9563" name="榴弹发射器 - Krak" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 1</characteristic>
@@ -1244,7 +1244,7 @@
                     <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="735a-55fa-f2a6-d4dd" name="Grenade launcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+                <profile id="735a-55fa-f2a6-d4dd" name="榴弹发射器" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464"/>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2"/>

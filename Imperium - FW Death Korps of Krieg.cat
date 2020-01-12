@@ -65,7 +65,7 @@
     <categoryEntry id="5c6e-6e46-0a3e-a710" name="Heavy Mortar Battery" hidden="false"/>
     <categoryEntry id="35e5-d612-a147-4c9c" name="Heavy 四联发射器 Battery" hidden="false"/>
     <categoryEntry id="3d9c-9e4a-d73c-685f" name="Rapier 激光毁灭者 battery" hidden="false"/>
-    <categoryEntry id="c59c-be13-3335-ccb7" name="Salamander Scout Tank" hidden="false"/>
+    <categoryEntry id="c59c-be13-3335-ccb7" name="Salamander 侦察兵 Tank" hidden="false"/>
     <categoryEntry id="3e6d-f4c0-bae2-83f3" name="Styges Thunderer Seige Tank" hidden="false"/>
     <categoryEntry id="7486-a51c-c68c-1090" name="Medusa" hidden="false"/>
     <categoryEntry id="5120-68a7-27ad-7779" name="Basilisks" hidden="false"/>
@@ -171,7 +171,7 @@
     <entryLink id="2bf9-e268-aeb7-cb54" name="Master of Ordnance" hidden="false" collective="false" import="true" targetId="8ebe-a59f-90f8-ec1b" type="selectionEntry"/>
     <entryLink id="30ea-13ca-525f-243c" name="四联发射器 Battery" hidden="false" collective="false" import="true" targetId="9aa8-4fd8-be38-b3de" type="selectionEntry"/>
     <entryLink id="9ccf-55fb-4bb6-a6af" name="Raiper 激光毁灭者 Battery" hidden="false" collective="false" import="true" targetId="9588-6b43-4b49-2850" type="selectionEntry"/>
-    <entryLink id="c955-ae2c-7fd6-3e51" name="Salamander Scout Tank" hidden="false" collective="false" import="true" targetId="ec42-9365-7323-8340" type="selectionEntry"/>
+    <entryLink id="c955-ae2c-7fd6-3e51" name="Salamander 侦察兵 Tank" hidden="false" collective="false" import="true" targetId="ec42-9365-7323-8340" type="selectionEntry"/>
     <entryLink id="a57d-f1ef-6a14-f829" name="Styges Thunderer Seige Tank" hidden="false" collective="false" import="true" targetId="46be-5940-dbcb-7970" type="selectionEntry"/>
     <entryLink id="c259-7616-1f05-da6a" name="坦克指挥官" hidden="false" collective="false" import="true" targetId="7542-e702-54d6-8ada" type="selectionEntry"/>
     <entryLink id="743e-5ec1-28dd-8c42" name="Stormsword" hidden="false" collective="false" import="true" targetId="569e-366a-f551-4512" type="selectionEntry"/>
@@ -1012,7 +1012,7 @@
               </constraints>
               <entryLinks>
                 <entryLink id="76cf-73a1-39cf-d30d" name="链锯剑" hidden="false" collective="false" import="true" targetId="0dd1-2e2b-7dd1-5495" type="selectionEntry"/>
-                <entryLink id="ec13-65a8-61e1-770b" name="Power axe" hidden="false" collective="false" import="true" targetId="3292-34e6-f679-d5b9" type="selectionEntry"/>
+                <entryLink id="ec13-65a8-61e1-770b" name="动力斧" hidden="false" collective="false" import="true" targetId="3292-34e6-f679-d5b9" type="selectionEntry"/>
                 <entryLink id="6e26-f638-e247-1727" name="动力拳套" hidden="false" collective="false" import="true" targetId="f122-3720-fa32-4215" type="selectionEntry">
                   <modifiers>
                     <modifier type="set" field="points" value="8"/>
@@ -1029,7 +1029,7 @@
               <entryLinks>
                 <entryLink id="2ff2-711b-0d4e-834d" name="激光手枪" hidden="false" collective="false" import="true" targetId="c10b-e1a4-c913-ae15" type="selectionEntry"/>
                 <entryLink id="df6c-bd44-a388-3a85" name="爆弹手枪" hidden="false" collective="false" import="true" targetId="d5a4-fe83-422a-0394" type="selectionEntry"/>
-                <entryLink id="d689-8590-fede-562e" name="Plasma Pistol" hidden="false" collective="false" import="true" targetId="c7c7-8bb0-8ce3-c29b" type="selectionEntry">
+                <entryLink id="d689-8590-fede-562e" name="等离子手枪" hidden="false" collective="false" import="true" targetId="c7c7-8bb0-8ce3-c29b" type="selectionEntry">
                   <modifiers>
                     <modifier type="set" field="points" value="5"/>
                   </modifiers>
@@ -1067,7 +1067,7 @@
                 <infoLink id="09a9-bbc8-5965-bf4a" name="Hades Veterans" hidden="false" targetId="a55e-c10a-f378-b564" type="profile"/>
               </infoLinks>
               <entryLinks>
-                <entryLink id="9d10-36fe-63e7-8ac5" name="Shotgun" hidden="false" collective="false" import="true" targetId="ac0e-2ef1-746b-ed8b" type="selectionEntry">
+                <entryLink id="9d10-36fe-63e7-8ac5" name="霰弹枪" hidden="false" collective="false" import="true" targetId="ac0e-2ef1-746b-ed8b" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a3bf-7976-b017-558e" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5643-4293-0489-05e1" type="max"/>
@@ -1086,7 +1086,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="f6fa-32b1-f620-a26e" name="Veteran附带Special 武器" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="f6fa-32b1-f620-a26e" name="Veteran附带特殊武器" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="df62-4d25-8d14-6002" type="max"/>
               </constraints>
@@ -1094,7 +1094,7 @@
                 <infoLink id="a082-fbd3-b1d9-06cb" name="Hades Veterans" hidden="false" targetId="a55e-c10a-f378-b564" type="profile"/>
               </infoLinks>
               <entryLinks>
-                <entryLink id="da69-177d-0822-a07a" name="星界军 Special 武器" hidden="false" collective="false" import="true" targetId="a465-d3f9-68f9-2e55" type="selectionEntryGroup">
+                <entryLink id="da69-177d-0822-a07a" name="星界军 特殊武器" hidden="false" collective="false" import="true" targetId="a465-d3f9-68f9-2e55" type="selectionEntryGroup">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="865b-b113-d590-e8e2" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24b2-1347-8a87-479c" type="min"/>
@@ -1126,7 +1126,7 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ec42-9365-7323-8340" name="Salamander Scout Tank" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="ec42-9365-7323-8340" name="Salamander 侦察兵 Tank" hidden="false" collective="false" import="true" type="单位">
       <categoryLinks>
         <categoryLink id="4731-fc36-80ce-7f1a" name="New CategoryLink" hidden="false" targetId="3263-4233-4344-6228" primary="false"/>
         <categoryLink id="9849-68ea-23d4-d177" name="New CategoryLink" hidden="false" targetId="d4b7-c4c8-ac38-ddfd" primary="false"/>
@@ -1137,13 +1137,13 @@
         <categoryLink id="01da-1f6e-db6a-5b84" name="New CategoryLink" hidden="false" targetId="c5f0-cacf-7f2d-86e8" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="e439-1b77-32d2-fef2" name="Salamander Scout Tank" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="e439-1b77-32d2-fef2" name="Salamander 侦察兵 Tank" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6d8-f8d7-12f8-213d" type="min"/>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f03f-3a04-dc77-5da1" type="max"/>
           </constraints>
           <profiles>
-            <profile id="2545-b607-6078-326e" name="Salamander Scout Tank 1" hidden="false" typeId="e6d5-85c5-7b01-a3c4" typeName="损伤表 - M/BS/A">
+            <profile id="2545-b607-6078-326e" name="Salamander 侦察兵 Tank 1" hidden="false" typeId="e6d5-85c5-7b01-a3c4" typeName="损伤表 - M/BS/A">
               <characteristics>
                 <characteristic name="剩余W" typeId="233c-fa78-4641-68d9">6-10+</characteristic>
                 <characteristic name="M" typeId="fc73-9b3f-5e4b-86b9">12寸</characteristic>
@@ -1151,7 +1151,7 @@
                 <characteristic name="A" typeId="2e64-2e5c-f4d1-52d3">3</characteristic>
               </characteristics>
             </profile>
-            <profile id="a2ee-63f1-6040-d6e2" name="Salamander Scout Tank 2" hidden="false" typeId="e6d5-85c5-7b01-a3c4" typeName="损伤表 - M/BS/A">
+            <profile id="a2ee-63f1-6040-d6e2" name="Salamander 侦察兵 Tank 2" hidden="false" typeId="e6d5-85c5-7b01-a3c4" typeName="损伤表 - M/BS/A">
               <characteristics>
                 <characteristic name="剩余W" typeId="233c-fa78-4641-68d9">3-5</characteristic>
                 <characteristic name="M" typeId="fc73-9b3f-5e4b-86b9">8寸</characteristic>
@@ -1159,7 +1159,7 @@
                 <characteristic name="A" typeId="2e64-2e5c-f4d1-52d3">D3</characteristic>
               </characteristics>
             </profile>
-            <profile id="5ae5-8ce3-1be7-0c0f" name="Salamander Scout Tank 3" hidden="false" typeId="e6d5-85c5-7b01-a3c4" typeName="损伤表 - M/BS/A">
+            <profile id="5ae5-8ce3-1be7-0c0f" name="Salamander 侦察兵 Tank 3" hidden="false" typeId="e6d5-85c5-7b01-a3c4" typeName="损伤表 - M/BS/A">
               <characteristics>
                 <characteristic name="剩余W" typeId="233c-fa78-4641-68d9">1-2</characteristic>
                 <characteristic name="M" typeId="fc73-9b3f-5e4b-86b9">4寸</characteristic>
@@ -1167,7 +1167,7 @@
                 <characteristic name="A" typeId="2e64-2e5c-f4d1-52d3">1</characteristic>
               </characteristics>
             </profile>
-            <profile id="fccd-7b54-afe4-4457" name="Salamander Scout Tank" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+            <profile id="fccd-7b54-afe4-4457" name="Salamander 侦察兵 Tank" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
               <characteristics>
                 <characteristic name="M" typeId="0bdf-a96e-9e38-7779">*</characteristic>
                 <characteristic name="WS" typeId="e7f0-1278-0250-df0c">6+</characteristic>
@@ -1180,7 +1180,7 @@
                 <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
               </characteristics>
             </profile>
-            <profile id="0098-9d20-9773-0c6e" name="Scout 载具" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+            <profile id="0098-9d20-9773-0c6e" name="侦察兵 载具" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
                 <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of the first battle round but before the first turn begins, you can move 这个单位 至多 9寸. It cannot end this move 范围内 9寸 of 任何敌方模型. If both players have 单位 that can do this, the player who is taking the first turn moves their 单位 first.</characteristic>
               </characteristics>
@@ -2882,7 +2882,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="3ada-7d84-8805-a9e1" name="DK Guardsman w/Special 武器" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="3ada-7d84-8805-a9e1" name="DK Guardsman装备特殊武器" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="317c-ff0b-eaa5-4996" type="max"/>
               </constraints>
@@ -2890,7 +2890,7 @@
                 <infoLink id="1229-7b90-9210-edd9" name="Death Korps Guardsman" hidden="false" targetId="9fe8-46df-c068-50a1" type="profile"/>
               </infoLinks>
               <entryLinks>
-                <entryLink id="803a-185b-511e-70da" name="DKOK Special 武器" hidden="false" collective="false" import="true" targetId="0df8-380a-b086-1c64" type="selectionEntryGroup">
+                <entryLink id="803a-185b-511e-70da" name="DKOK 特殊武器" hidden="false" collective="false" import="true" targetId="0df8-380a-b086-1c64" type="selectionEntryGroup">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f8e-d24c-dffd-2037" type="min"/>
                   </constraints>
@@ -2908,7 +2908,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="a2b9-6eec-13fb-b810" name="DK Guardsman w/Vox-caster" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="a2b9-6eec-13fb-b810" name="DK Guardsman装备Vox-caster" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e065-a4b8-59b7-b910" type="max"/>
               </constraints>
@@ -2941,7 +2941,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="d6fa-6549-d8f2-62d6" name="DK Guardsman w/Platoon 标准" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="d6fa-6549-d8f2-62d6" name="DK Guardsman装备Platoon 标准" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3adb-9f87-e26b-0a92" type="max"/>
               </constraints>
@@ -3124,7 +3124,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="0339-e9bc-54a3-5a6f" name="Grenadier w/Special 武器" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="0339-e9bc-54a3-5a6f" name="Grenadier装备特殊武器" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6b0-cf0e-2d9b-7bc1" type="max"/>
               </constraints>
@@ -3499,7 +3499,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="7dd8-25f6-3ca3-bb5a" name="Veteran w/Vox-caster" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="7dd8-25f6-3ca3-bb5a" name="Veteran装备Vox-caster" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="710e-f8a7-3eb8-891e" type="max"/>
               </constraints>
@@ -3526,7 +3526,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="a860-34ce-bde1-6815" name="Veteran w/Special 武器" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="a860-34ce-bde1-6815" name="Veteran装备特殊武器" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a827-c02b-b98a-340e" type="min"/>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd9f-944e-af90-9234" type="max"/>
@@ -3535,7 +3535,7 @@
                 <infoLink id="a4d8-f6ff-7d24-0866" name="Death Korps Veterans" hidden="false" targetId="c371-9555-44e9-4a99" type="profile"/>
               </infoLinks>
               <entryLinks>
-                <entryLink id="8a9d-60fe-a559-141a" name="DKOK Special 武器 BS3" hidden="false" collective="false" import="true" targetId="531f-4711-cd17-8d70" type="selectionEntryGroup"/>
+                <entryLink id="8a9d-60fe-a559-141a" name="DKOK 特殊武器 BS3" hidden="false" collective="false" import="true" targetId="531f-4711-cd17-8d70" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="7.0"/>
@@ -3614,7 +3614,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd04-f1df-bf1b-9e2b" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="8e67-8a77-c172-5c25" name="Krieg Combat Shotgun" hidden="false" collective="false" import="true" targetId="f99b-d266-a2d5-9561" type="selectionEntry">
+                <entryLink id="8e67-8a77-c172-5c25" name="Krieg Combat 霰弹枪" hidden="false" collective="false" import="true" targetId="f99b-d266-a2d5-9561" type="selectionEntry">
                   <modifiers>
                     <modifier type="set" field="65b6-f988-7c74-513c" value="0.0"/>
                   </modifiers>
@@ -3694,7 +3694,7 @@
                 <infoLink id="f7d6-e1a1-fe6c-ccf3" name="Death Korps Engineer" hidden="false" targetId="549d-0922-9d7f-5283" type="profile"/>
               </infoLinks>
               <entryLinks>
-                <entryLink id="bec2-15dd-88e7-917a" name="Krieg Combat Shotgun" hidden="false" collective="false" import="true" targetId="f99b-d266-a2d5-9561" type="selectionEntry"/>
+                <entryLink id="bec2-15dd-88e7-917a" name="Krieg Combat 霰弹枪" hidden="false" collective="false" import="true" targetId="f99b-d266-a2d5-9561" type="selectionEntry"/>
                 <entryLink id="2d8c-5ae7-e292-8303" name="Acid Gas Bomb" hidden="false" collective="false" import="true" targetId="ff12-4f22-79fe-13c7" type="selectionEntry"/>
                 <entryLink id="dfb1-5fdc-23e0-7081" name="破片和穿甲手雷" hidden="false" collective="false" import="true" targetId="cddf-945e-1335-e681" type="selectionEntry">
                   <constraints>
@@ -3709,7 +3709,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="dea1-6721-7d62-651b" name="Engineer w/Vox-caster" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="dea1-6721-7d62-651b" name="Engineer装备Vox-caster" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d423-2a63-73ae-b2b1" type="max"/>
               </constraints>
@@ -3723,7 +3723,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="930a-6c2b-c229-6c4a" type="min"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="de9e-7c5d-e8b0-d27b" name="Krieg Combat Shotgun" hidden="false" collective="false" import="true" targetId="f99b-d266-a2d5-9561" type="selectionEntry"/>
+                <entryLink id="de9e-7c5d-e8b0-d27b" name="Krieg Combat 霰弹枪" hidden="false" collective="false" import="true" targetId="f99b-d266-a2d5-9561" type="selectionEntry"/>
                 <entryLink id="ce6a-8f4a-f751-36d2" name="Acid Gas Bomb" hidden="false" collective="false" import="true" targetId="ff12-4f22-79fe-13c7" type="selectionEntry"/>
                 <entryLink id="79fd-e5d8-eb7b-78e1" name="破片和穿甲手雷" hidden="false" collective="false" import="true" targetId="cddf-945e-1335-e681" type="selectionEntry">
                   <constraints>
@@ -3738,7 +3738,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="5b5c-75f3-69dd-9e1e" name="Engineer with Special 武器" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="5b5c-75f3-69dd-9e1e" name="Engineer with 特殊武器" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b4d8-8e19-2bc1-95dd" type="max"/>
               </constraints>
@@ -3746,7 +3746,7 @@
                 <infoLink id="6a28-9c99-e509-2255" name="Death Korps Engineer" hidden="false" targetId="549d-0922-9d7f-5283" type="profile"/>
               </infoLinks>
               <entryLinks>
-                <entryLink id="8a11-d181-9e8b-2b37" name="DKOK Special 武器 BS3" hidden="false" collective="false" import="true" targetId="531f-4711-cd17-8d70" type="selectionEntryGroup"/>
+                <entryLink id="8a11-d181-9e8b-2b37" name="DKOK 特殊武器 BS3" hidden="false" collective="false" import="true" targetId="531f-4711-cd17-8d70" type="selectionEntryGroup"/>
                 <entryLink id="cda6-b687-4ad1-b39f" name="Acid Gas Bomb" hidden="false" collective="false" import="true" targetId="ff12-4f22-79fe-13c7" type="selectionEntry"/>
                 <entryLink id="4f18-af17-643e-eede" name="破片和穿甲手雷" hidden="false" collective="false" import="true" targetId="cddf-945e-1335-e681" type="selectionEntry">
                   <constraints>
@@ -3788,7 +3788,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81a8-9b5f-18c3-7c92" type="min"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="6b30-f174-acdc-5a72" name="Kreig Combat Shotgun" hidden="false" collective="false" import="true" targetId="a4df-840e-0ad4-0bf4" type="selectionEntry">
+                <entryLink id="6b30-f174-acdc-5a72" name="Kreig Combat 霰弹枪" hidden="false" collective="false" import="true" targetId="a4df-840e-0ad4-0bf4" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="14c5-9c94-31e8-2963" type="min"/>
                     <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6ea-d88a-4e39-fe68" type="max"/>
@@ -3809,7 +3809,7 @@
                 <infoLink id="2369-c11c-128a-5c5a" name="Death Korps Engineer" hidden="false" targetId="549d-0922-9d7f-5283" type="profile"/>
               </infoLinks>
               <entryLinks>
-                <entryLink id="989f-b865-d2e8-b485" name="Krieg Combat Shotgun" hidden="false" collective="false" import="true" targetId="f99b-d266-a2d5-9561" type="selectionEntry"/>
+                <entryLink id="989f-b865-d2e8-b485" name="Krieg Combat 霰弹枪" hidden="false" collective="false" import="true" targetId="f99b-d266-a2d5-9561" type="selectionEntry"/>
                 <entryLink id="cda2-7239-e9a5-7d94" name="Acid Gas Bomb" hidden="false" collective="false" import="true" targetId="ff12-4f22-79fe-13c7" type="selectionEntry"/>
                 <entryLink id="d14a-81ab-ae45-0142" name="Demolition Charge" hidden="false" collective="false" import="true" targetId="2963-fc44-0c33-22cb" type="selectionEntry">
                   <constraints>
@@ -4191,7 +4191,7 @@
           <entryLinks>
             <entryLink id="33c2-dd06-c990-63be" name="激光手枪" hidden="false" collective="false" import="true" targetId="c10b-e1a4-c913-ae15" type="selectionEntry"/>
             <entryLink id="3047-3567-9a5e-864e" name="爆弹手枪" hidden="false" collective="false" import="true" targetId="d5a4-fe83-422a-0394" type="selectionEntry"/>
-            <entryLink id="e56c-73f2-07e3-61e2" name="Plasma Pistol" hidden="false" collective="false" import="true" targetId="c7c7-8bb0-8ce3-c29b" type="selectionEntry"/>
+            <entryLink id="e56c-73f2-07e3-61e2" name="等离子手枪" hidden="false" collective="false" import="true" targetId="c7c7-8bb0-8ce3-c29b" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="e118-ce21-5535-de74" name="肉搏武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="40da-24d8-7748-73c3">
@@ -5059,14 +5059,14 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f99b-d266-a2d5-9561" name="Krieg Combat Shotgun" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="f99b-d266-a2d5-9561" name="Krieg Combat 霰弹枪" hidden="false" collective="true" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb80-264e-205b-3c31" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="65b6-f988-7c74-513c" type="min"/>
       </constraints>
       <infoLinks>
-        <infoLink id="3fea-a207-ed28-6f05" name="Krieg Combat Shotgun (carcass shot)" hidden="false" targetId="f985-58f8-3e74-48b7" type="profile"/>
-        <infoLink id="f3d3-f065-e27a-0929" name="Krieg Combat Shotgun (solid shot)" hidden="false" targetId="a4e6-847f-0b8e-ef28" type="profile"/>
+        <infoLink id="3fea-a207-ed28-6f05" name="Krieg Combat 霰弹枪 (carcass shot)" hidden="false" targetId="f985-58f8-3e74-48b7" type="profile"/>
+        <infoLink id="f3d3-f065-e27a-0929" name="Krieg Combat 霰弹枪 (solid shot)" hidden="false" targetId="a4e6-847f-0b8e-ef28" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="1.0"/>
@@ -6328,7 +6328,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="942d-cc47-131c-7251" name="2 Heavy Flamers" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="942d-cc47-131c-7251" name="2 Heavy 喷火器" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e1b-732d-cb97-1199" type="max"/>
               </constraints>
@@ -6643,7 +6643,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="504e-71b4-555d-db30" name="4 Heavy Flamers" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="504e-71b4-555d-db30" name="4 Heavy 喷火器" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eef7-ee19-e258-0442" type="max"/>
               </constraints>
@@ -6678,7 +6678,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02dd-5953-0dfd-2cec" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="d1e9-51c9-3336-a4e7" name="双联 Heavy Stubber" hidden="false" collective="false" import="true" targetId="eb78-2763-6922-6326" type="selectionEntry">
+        <entryLink id="d1e9-51c9-3336-a4e7" name="双联Heavy Stubber" hidden="false" collective="false" import="true" targetId="eb78-2763-6922-6326" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="14a6-9f76-91a1-261d" value="2"/>
           </modifiers>
@@ -6767,7 +6767,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="2258-8849-ed0c-c8a0" name="2 Heavy Flamers" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="2258-8849-ed0c-c8a0" name="2 Heavy 喷火器" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4059-9bdc-d21d-85ef" type="max"/>
               </constraints>
@@ -6798,7 +6798,7 @@
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="4bd8-c70a-c136-65d0" name="损伤表 (Macharius)" hidden="false" collective="false" import="true" targetId="bea6-8c17-aa26-9aaf" type="selectionEntry"/>
-        <entryLink id="c890-96a6-02bf-f121" name="双联 Heavy Stubber" hidden="false" collective="false" import="true" targetId="eb78-2763-6922-6326" type="selectionEntry">
+        <entryLink id="c890-96a6-02bf-f121" name="双联Heavy Stubber" hidden="false" collective="false" import="true" targetId="eb78-2763-6922-6326" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ab2-8955-13b9-b496" type="min"/>
           </constraints>
@@ -6845,13 +6845,13 @@
         <infoLink id="95f6-e19d-1109-6bb3" name="Steel Behemoth" hidden="false" targetId="62e4-243e-c188-2d88" type="profile"/>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="fff2-3a71-9ce8-4406" name="双联 Earthshaker Cannon" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="fff2-3a71-9ce8-4406" name="双联Earthshaker Cannon" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="71a3-82dc-9b98-e579" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="073f-5cbc-51fe-2fc4" type="min"/>
           </constraints>
           <profiles>
-            <profile id="e99c-aa91-e884-6766" name="双联 Earthshaker Cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+            <profile id="e99c-aa91-e884-6766" name="双联Earthshaker Cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">240寸</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 2D6</characteristic>
@@ -7099,12 +7099,12 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="eb78-2763-6922-6326" name="双联 Heavy Stubber" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="eb78-2763-6922-6326" name="双联Heavy Stubber" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="14a6-9f76-91a1-261d" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="727b-bd4f-7020-832b" name="双联 Heavy Stubber" hidden="false" targetId="5a02-5165-adc7-f9a8" type="profile"/>
+        <infoLink id="727b-bd4f-7020-832b" name="双联Heavy Stubber" hidden="false" targetId="5a02-5165-adc7-f9a8" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="8.0"/>
@@ -7187,7 +7187,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="aa08-96a5-9551-b30c" name="2 Heavy Flamers" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="aa08-96a5-9551-b30c" name="2 Heavy 喷火器" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4429-a9a5-8ce4-abcf" type="max"/>
               </constraints>
@@ -7309,7 +7309,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="7a81-2984-1429-472e" name="2 Heavy Flamers" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="7a81-2984-1429-472e" name="2 Heavy 喷火器" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87c4-5d8f-bc8a-1948" type="max"/>
               </constraints>
@@ -7340,7 +7340,7 @@
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="06e7-0e07-492f-ae1a" name="损伤表 (Macharius)" hidden="false" collective="false" import="true" targetId="bea6-8c17-aa26-9aaf" type="selectionEntry"/>
-        <entryLink id="3aa3-99dc-6d6f-8130" name="双联 Heavy Stubber" hidden="false" collective="false" import="true" targetId="eb78-2763-6922-6326" type="selectionEntry">
+        <entryLink id="3aa3-99dc-6d6f-8130" name="双联Heavy Stubber" hidden="false" collective="false" import="true" targetId="eb78-2763-6922-6326" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c194-e26a-45f0-8754" type="min"/>
           </constraints>
@@ -7426,7 +7426,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="9819-1de5-4552-07e4" name="2 Heavy Flamers" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="9819-1de5-4552-07e4" name="2 Heavy 喷火器" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12f6-f471-94c4-1958" type="max"/>
               </constraints>
@@ -7457,7 +7457,7 @@
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="445d-a935-db88-7f35" name="损伤表 (Macharius)" hidden="false" collective="false" import="true" targetId="bea6-8c17-aa26-9aaf" type="selectionEntry"/>
-        <entryLink id="1463-a171-8163-511e" name="双联 Heavy Stubber" hidden="false" collective="false" import="true" targetId="eb78-2763-6922-6326" type="selectionEntry">
+        <entryLink id="1463-a171-8163-511e" name="双联Heavy Stubber" hidden="false" collective="false" import="true" targetId="eb78-2763-6922-6326" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59b7-d139-97b7-b151" type="min"/>
           </constraints>
@@ -7545,10 +7545,10 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a4df-840e-0ad4-0bf4" name="Kreig Combat Shotgun" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="a4df-840e-0ad4-0bf4" name="Kreig Combat 霰弹枪" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="f3e6-2f60-1ae1-4b03" name="Krieg Combat Shotgun (carcass shot)" hidden="false" targetId="f985-58f8-3e74-48b7" type="profile"/>
-        <infoLink id="575f-ea2b-3bd6-ff23" name="Krieg Combat Shotgun (solid shot)" hidden="false" targetId="a4e6-847f-0b8e-ef28" type="profile"/>
+        <infoLink id="f3e6-2f60-1ae1-4b03" name="Krieg Combat 霰弹枪 (carcass shot)" hidden="false" targetId="f985-58f8-3e74-48b7" type="profile"/>
+        <infoLink id="575f-ea2b-3bd6-ff23" name="Krieg Combat 霰弹枪 (solid shot)" hidden="false" targetId="a4e6-847f-0b8e-ef28" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="1.0"/>
@@ -7603,9 +7603,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ac0e-2ef1-746b-ed8b" name="Shotgun" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="ac0e-2ef1-746b-ed8b" name="霰弹枪" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="44ca-cb36-4e6e-f0e9" name="Shotgun" hidden="false" targetId="07cb-70d7-15c3-5117" type="profile"/>
+        <infoLink id="44ca-cb36-4e6e-f0e9" name="霰弹枪" hidden="false" targetId="07cb-70d7-15c3-5117" type="profile"/>
       </infoLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -7613,10 +7613,10 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c7c7-8bb0-8ce3-c29b" name="Plasma Pistol" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="c7c7-8bb0-8ce3-c29b" name="等离子手枪" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="67cb-b34e-5e97-1c09" name="Plasma pistol, 标准" hidden="false" targetId="ff12-161a-ca85-339f" type="profile"/>
-        <infoLink id="5706-a242-8680-b248" name="Plasma pistol, Supercharge" hidden="false" targetId="5779-2931-fe17-2b27" type="profile"/>
+        <infoLink id="67cb-b34e-5e97-1c09" name="等离子手枪, 标准" hidden="false" targetId="ff12-161a-ca85-339f" type="profile"/>
+        <infoLink id="5706-a242-8680-b248" name="等离子手枪, Supercharge" hidden="false" targetId="5779-2931-fe17-2b27" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="5.0"/>
@@ -7794,7 +7794,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ab2-8cf8-0139-b623" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="ff30-b2e3-dea0-dcb9" name="2 双联 重爆弹 Sponsons" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="ff30-b2e3-dea0-dcb9" name="2 双联重爆弹 Sponsons" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f538-2903-cc69-7d4b" type="max"/>
               </constraints>
@@ -8105,7 +8105,7 @@
       <profiles>
         <profile id="fd1c-4111-13bf-4b18" name="The Emperor&apos;s Benediction" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">COMMISSAR or LORD COMMISSAR with a bolt pistol only. The Emperor’s Benediction replaces the model’s bolt pistol and has the following profile:</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">COMMISSAR or LORD COMMISSAR with a 爆弹手枪 only. The Emperor’s Benediction replaces the model’s 爆弹手枪 and has the following profile:</characteristic>
           </characteristics>
         </profile>
         <profile id="910d-2804-fb98-9426" name="The Emperor&apos;s Benediction" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -8513,7 +8513,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="950c-f5b1-d37b-abf7" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="3f88-859d-08f3-1c54" name="双联 Heavy Stubber" hidden="false" collective="false" import="true" targetId="eb78-2763-6922-6326" type="selectionEntry">
+        <entryLink id="3f88-859d-08f3-1c54" name="双联Heavy Stubber" hidden="false" collective="false" import="true" targetId="eb78-2763-6922-6326" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="23b5-bccd-cac9-8b15" type="max"/>
           </constraints>
@@ -8569,7 +8569,7 @@
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="94e4-d88c-b6a8-533f" name="2 Bolt Pistols" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="94e4-d88c-b6a8-533f" name="2 爆弹手枪s" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a51-5f1e-f5b5-92c9" type="max"/>
           </constraints>
@@ -8621,7 +8621,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb1c-89d4-cf9c-889a" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="ab5f-b079-ebac-c6f1" name="Plasma Pistol" hidden="false" collective="false" import="true" targetId="c7c7-8bb0-8ce3-c29b" type="selectionEntry">
+        <entryLink id="ab5f-b079-ebac-c6f1" name="等离子手枪" hidden="false" collective="false" import="true" targetId="c7c7-8bb0-8ce3-c29b" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="074f-64b2-7687-742e" type="max"/>
           </constraints>
@@ -8633,18 +8633,18 @@
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="0df8-380a-b086-1c64" name="DKOK Special 武器" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="0df8-380a-b086-1c64" name="DKOK 特殊武器" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8967-731f-0333-a24c" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7ae-73ea-5cb0-8788" type="min"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="c51f-d0a0-bae6-2fbb" name="Grenade Launcher" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="c51f-d0a0-bae6-2fbb" name="榴弹发射器" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49a6-203e-d496-e34c" type="max"/>
           </constraints>
           <profiles>
-            <profile id="99c7-9276-197b-d518" name="Grenade Launcher, 破片手雷" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+            <profile id="99c7-9276-197b-d518" name="榴弹发射器, 破片手雷" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 D6</characteristic>
@@ -8654,7 +8654,7 @@
                 <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
               </characteristics>
             </profile>
-            <profile id="e370-6942-cb6d-2ada" name="Grenade Launcher, 穿甲手雷" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+            <profile id="e370-6942-cb6d-2ada" name="榴弹发射器, 穿甲手雷" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 1</characteristic>
@@ -8725,7 +8725,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c683-8d86-d681-f106" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="509b-5c26-5ddf-432f" name="Power axe" hidden="false" collective="false" import="true" targetId="3292-34e6-f679-d5b9" type="selectionEntry">
+        <entryLink id="509b-5c26-5ddf-432f" name="动力斧" hidden="false" collective="false" import="true" targetId="3292-34e6-f679-d5b9" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="points" value="5"/>
           </modifiers>
@@ -8733,7 +8733,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd45-e7b2-1141-f8b7" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="d0db-762b-d803-621c" name="Power maul" hidden="false" collective="false" import="true" targetId="6ea7-1195-7144-438e" type="selectionEntry">
+        <entryLink id="d0db-762b-d803-621c" name="动力锤" hidden="false" collective="false" import="true" targetId="6ea7-1195-7144-438e" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="points" value="4"/>
           </modifiers>
@@ -8959,7 +8959,7 @@
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="93cd-2c4b-65f8-666e" name="Heavy Flamers" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="93cd-2c4b-65f8-666e" name="Heavy 喷火器" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f2fb-1b23-cc03-8873" type="max"/>
           </constraints>
@@ -9001,17 +9001,17 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="a465-d3f9-68f9-2e55" name="星界军 Special 武器" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="a465-d3f9-68f9-2e55" name="星界军 特殊武器" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8220-0c7e-d14b-50f2" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="32e3-f0f7-2dfa-f97c" name="Grenade Launcher" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="32e3-f0f7-2dfa-f97c" name="榴弹发射器" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e11-502d-66dc-b3ab" type="max"/>
           </constraints>
           <profiles>
-            <profile id="6eab-2231-2c4e-4acc" name="Grenade Launcher (Frag)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+            <profile id="6eab-2231-2c4e-4acc" name="榴弹发射器 (Frag)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 D6</characteristic>
@@ -9021,7 +9021,7 @@
                 <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
               </characteristics>
             </profile>
-            <profile id="569d-ea9f-3ffb-16bd" name="Grenade Launcher (Krak)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+            <profile id="569d-ea9f-3ffb-16bd" name="榴弹发射器 (Krak)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 1</characteristic>
@@ -9040,7 +9040,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="a885-13b2-b5cc-c861" name="Sniper rifle" hidden="false" collective="false" import="true" targetId="ba62-f2c3-d7bb-4f5d" type="selectionEntry">
+        <entryLink id="a885-13b2-b5cc-c861" name="狙击步枪" hidden="false" collective="false" import="true" targetId="ba62-f2c3-d7bb-4f5d" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="points" value="2"/>
           </modifiers>
@@ -9079,7 +9079,7 @@
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb04-79d2-1fb8-fdfa" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="a1c1-5168-2a46-688d" name="2 激光炮, 双联 重爆弹 Sponsons" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="a1c1-5168-2a46-688d" name="2 激光炮, 双联重爆弹 Sponsons" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="68e6-910c-0478-f89d" type="max"/>
           </constraints>
@@ -9141,18 +9141,18 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="531f-4711-cd17-8d70" name="DKOK Special 武器 BS3" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="531f-4711-cd17-8d70" name="DKOK 特殊武器 BS3" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a9a6-5890-0812-b383" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ce1-1cfd-6f0c-a000" type="min"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="d378-ec70-c15d-7a25" name="Grenade Launcher" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="d378-ec70-c15d-7a25" name="榴弹发射器" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3a7-ec3e-f1e6-9da9" type="max"/>
           </constraints>
           <profiles>
-            <profile id="6dc9-355b-a89e-b4c7" name="Grenade Launcher, 破片手雷" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+            <profile id="6dc9-355b-a89e-b4c7" name="榴弹发射器, 破片手雷" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 D6</characteristic>
@@ -9162,7 +9162,7 @@
                 <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
               </characteristics>
             </profile>
-            <profile id="101d-41c2-5ee5-e5b8" name="Grenade Launcher, 穿甲手雷" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+            <profile id="101d-41c2-5ee5-e5b8" name="榴弹发射器, 穿甲手雷" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 1</characteristic>
@@ -9213,12 +9213,12 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22a9-8d1a-aca1-042b" type="min"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="e8e7-00b4-be1c-3dbe" name="Grenade Launcher" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="e8e7-00b4-be1c-3dbe" name="榴弹发射器" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1b8-c00d-bb6c-345d" type="max"/>
           </constraints>
           <profiles>
-            <profile id="81cd-1fa6-6528-1e7b" name="Grenade Launcher, 破片手雷" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+            <profile id="81cd-1fa6-6528-1e7b" name="榴弹发射器, 破片手雷" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 D6</characteristic>
@@ -9228,7 +9228,7 @@
                 <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
               </characteristics>
             </profile>
-            <profile id="865d-bf6b-bc3f-0662" name="Grenade Launcher, 穿甲手雷" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+            <profile id="865d-bf6b-bc3f-0662" name="榴弹发射器, 穿甲手雷" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 1</characteristic>
@@ -9913,7 +9913,7 @@
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
       </characteristics>
     </profile>
-    <profile id="a4e6-847f-0b8e-ef28" name="Krieg Combat Shotgun (solid shot)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+    <profile id="a4e6-847f-0b8e-ef28" name="Krieg Combat 霰弹枪 (solid shot)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12寸</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 2</characteristic>
@@ -9923,7 +9923,7 @@
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
       </characteristics>
     </profile>
-    <profile id="f985-58f8-3e74-48b7" name="Krieg Combat Shotgun (carcass shot)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+    <profile id="f985-58f8-3e74-48b7" name="Krieg Combat 霰弹枪 (carcass shot)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12寸</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 2</characteristic>
@@ -10213,10 +10213,10 @@
     </profile>
     <profile id="62e4-243e-c188-2d88" name="Steel Behemoth" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 does not suffer the penalty to its 命中 骰 for moving and firing 重型武器. 这个模型 can 撤退 in the 移动阶段 and still shoot and/or charge during its turn. It can, except when firing 坚守射击, also still fire its 武器 if 敌方单位 are 范围内 1寸 of it (but only its 双联 重爆弹 or 双联重喷火 can target 单位 that are 范围内 1寸 of it – its other guns 必须 target other 单位). 此外, 这个模型 only gains a bonus to its save in cover if at least half the 模型 is obscured from the firer.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 does not suffer the penalty to its 命中 骰 for moving and firing 重型武器. 这个模型 can 撤退 in the 移动阶段 and still shoot and/or charge during its turn. It can, except when firing 坚守射击, also still fire its 武器 if 敌方单位 are 范围内 1寸 of it (but only its 双联重爆弹 or 双联重喷火 can target 单位 that are 范围内 1寸 of it – its other guns 必须 target other 单位). 此外, 这个模型 only gains a bonus to its save in cover if at least half the 模型 is obscured from the firer.</characteristic>
       </characteristics>
     </profile>
-    <profile id="5a02-5165-adc7-f9a8" name="双联 Heavy Stubber" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+    <profile id="5a02-5165-adc7-f9a8" name="双联Heavy Stubber" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36寸</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 6</characteristic>

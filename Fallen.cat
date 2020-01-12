@@ -149,13 +149,13 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
         <categoryLink id="55a0-c6f8-5e06-2758" name="New CategoryLink" hidden="false" targetId="e12c-dd25-cbab-a30d" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="d4bb-e35f-e8a5-9cd8" name="Cypher&apos;s bolt pistol" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="d4bb-e35f-e8a5-9cd8" name="Cypher&apos;s 爆弹手枪" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0cf-e1b4-e33c-a960" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f35-83b6-afe3-0899" type="min"/>
           </constraints>
           <profiles>
-            <profile id="6943-79c0-dde3-d281" name="Cypher&apos;s bolt pistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+            <profile id="6943-79c0-dde3-d281" name="Cypher&apos;s 爆弹手枪" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">16寸</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手枪 3</characteristic>
@@ -172,13 +172,13 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="fd14-b46e-2da2-92d5" name="Cypher&apos;s plasma pistol" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="fd14-b46e-2da2-92d5" name="Cypher&apos;s 等离子手枪" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="649d-b125-8b5d-e42c" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="095d-63a0-5e99-d965" type="min"/>
           </constraints>
           <profiles>
-            <profile id="7966-a7b3-1fb8-4f2d" name="Cypher&apos;s plasma pistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+            <profile id="7966-a7b3-1fb8-4f2d" name="Cypher&apos;s 等离子手枪" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12寸</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手枪 2</characteristic>
@@ -326,14 +326,14 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="8037-44b7-f9f2-45bc" name="Fallen附带Heavy or Special 武器" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="8037-44b7-f9f2-45bc" name="Fallen附带Heavy or 特殊武器" hidden="false" collective="false" import="true" type="model">
               <modifiers>
                 <modifier type="set" field="name" value="Fallen附带Heavy 武器">
                   <conditions>
                     <condition field="selections" scope="8037-44b7-f9f2-45bc" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1e5c-7492-b14e-1edb" type="equalTo"/>
                   </conditions>
                 </modifier>
-                <modifier type="set" field="name" value="Fallen附带Special 武器">
+                <modifier type="set" field="name" value="Fallen附带特殊武器">
                   <conditions>
                     <condition field="selections" scope="8037-44b7-f9f2-45bc" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7633-de22-b73b-e128" type="equalTo"/>
                   </conditions>
@@ -360,7 +360,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
                         <entryLink id="1ca7-8ddb-e029-d2da" name="导弹发射器" hidden="false" collective="false" import="true" targetId="1469-1964-7a91-94d4" type="selectionEntry"/>
                       </entryLinks>
                     </selectionEntryGroup>
-                    <selectionEntryGroup id="7633-de22-b73b-e128" name="Special 武器" hidden="false" collective="false" import="true">
+                    <selectionEntryGroup id="7633-de22-b73b-e128" name="特殊武器" hidden="false" collective="false" import="true">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7ff-ae3d-c2e9-a975" type="max"/>
                       </constraints>
@@ -432,7 +432,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
               <selectionEntries>
                 <selectionEntry id="3ee7-36b3-2c19-27a6" name="Fallen附带肉搏武器" hidden="false" collective="false" import="true" type="model">
                   <selectionEntryGroups>
-                    <selectionEntryGroup id="43bc-34f9-24a5-111f" name="肉搏 Options" hidden="false" collective="false" import="true">
+                    <selectionEntryGroup id="43bc-34f9-24a5-111f" name="肉搏武器选项" hidden="false" collective="false" import="true">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b877-522a-ca5d-c520" type="max"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c11c-290b-215c-4f6a" type="min"/>
@@ -461,9 +461,9 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
                       <entryLinks>
                         <entryLink id="080a-3122-7264-fad0" name="链锯剑" hidden="false" collective="false" import="true" targetId="0dd1-2e2b-7dd1-5495" type="selectionEntry"/>
                         <entryLink id="1045-a657-475a-1bc9" name="闪电爪" hidden="false" collective="false" import="true" targetId="90de-7b01-e401-888b" type="selectionEntry"/>
-                        <entryLink id="a379-13ef-f7ae-6e4c" name="Power axe" hidden="false" collective="false" import="true" targetId="3292-34e6-f679-d5b9" type="selectionEntry"/>
+                        <entryLink id="a379-13ef-f7ae-6e4c" name="动力斧" hidden="false" collective="false" import="true" targetId="3292-34e6-f679-d5b9" type="selectionEntry"/>
                         <entryLink id="5f86-22c9-f96b-0634" name="动力拳套" hidden="false" collective="false" import="true" targetId="f122-3720-fa32-4215" type="selectionEntry"/>
-                        <entryLink id="1953-b312-73b9-9967" name="Power maul" hidden="false" collective="false" import="true" targetId="6ea7-1195-7144-438e" type="selectionEntry"/>
+                        <entryLink id="1953-b312-73b9-9967" name="动力锤" hidden="false" collective="false" import="true" targetId="6ea7-1195-7144-438e" type="selectionEntry"/>
                         <entryLink id="0cc8-e9ce-d174-6561" name="动力剑" hidden="false" collective="false" import="true" targetId="bc9e-551d-9afb-78d5" type="selectionEntry"/>
                         <entryLink id="afc7-f84a-2cf4-b37f" name="雷锤" hidden="false" collective="false" import="true" targetId="0e57-eaf5-763f-9c45" type="selectionEntry"/>
                       </entryLinks>
@@ -495,9 +495,9 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
                     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="15b3-dff7-ecc3-ec7e" name="Fallen w/Special or Combi 武器" hidden="false" collective="false" import="true" type="model">
+                <selectionEntry id="15b3-dff7-ecc3-ec7e" name="Fallen装备Special or Combi 武器" hidden="false" collective="false" import="true" type="model">
                   <modifiers>
-                    <modifier type="set" field="name" value="Fallen附带Special 武器">
+                    <modifier type="set" field="name" value="Fallen附带特殊武器">
                       <conditions>
                         <condition field="selections" scope="15b3-dff7-ecc3-ec7e" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8aeb-2c9f-e020-c29a" type="equalTo"/>
                       </conditions>
@@ -515,7 +515,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="43c9-93c2-5a4b-c459" type="min"/>
                       </constraints>
                       <selectionEntryGroups>
-                        <selectionEntryGroup id="8aeb-2c9f-e020-c29a" name="Special 武器" hidden="false" collective="false" import="true">
+                        <selectionEntryGroup id="8aeb-2c9f-e020-c29a" name="特殊武器" hidden="false" collective="false" import="true">
                           <constraints>
                             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d119-da32-bd2f-5eb7" type="max"/>
                           </constraints>
@@ -567,7 +567,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b58f-45ea-dcc3-db0e" type="min"/>
                       </constraints>
                     </entryLink>
-                    <entryLink id="3b8e-b8f6-fada-2ac2" name="闪电爪 (Pair)" hidden="false" collective="false" import="true" targetId="7603-6241-ab8b-4603" type="selectionEntry">
+                    <entryLink id="3b8e-b8f6-fada-2ac2" name="闪电爪 (成对)" hidden="false" collective="false" import="true" targetId="7603-6241-ab8b-4603" type="selectionEntry">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75a3-05c1-f6d9-1d0b" type="max"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3cc3-da4d-ef99-d16d" type="min"/>
@@ -608,7 +608,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0bb6-7e38-2096-bcf0" type="min"/>
                       </constraints>
                     </entryLink>
-                    <entryLink id="53ba-b6ad-31ab-8d01" name="Plasma pistol" hidden="false" collective="false" import="true" targetId="83be-1ba9-c326-4760" type="selectionEntry">
+                    <entryLink id="53ba-b6ad-31ab-8d01" name="等离子手枪" hidden="false" collective="false" import="true" targetId="83be-1ba9-c326-4760" type="selectionEntry">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="83e3-660f-d55c-e061" type="max"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ee5-efa1-c8b7-e3df" type="min"/>
@@ -1119,7 +1119,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
         </profile>
         <profile id="397e-3bfb-60ce-27cc" name="The Black Mace" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models with a power maul or accursed crozius only. The Black Mace replaces the bearer&apos;s power maul or accursed crozius.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models with a 动力锤 or accursed crozius only. The Black Mace replaces the bearer&apos;s 动力锤 or accursed crozius.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1226,12 +1226,12 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b4e-4b60-7125-a1d2" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="9df1-80cf-6853-610e" name="Plasma pistol" hidden="false" collective="false" import="true" targetId="83be-1ba9-c326-4760" type="selectionEntry">
+        <entryLink id="9df1-80cf-6853-610e" name="等离子手枪" hidden="false" collective="false" import="true" targetId="83be-1ba9-c326-4760" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2ec-bb41-f79e-50d4" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="ef85-e067-169d-ff0f" name="Power axe" hidden="false" collective="false" import="true" targetId="3292-34e6-f679-d5b9" type="selectionEntry">
+        <entryLink id="ef85-e067-169d-ff0f" name="动力斧" hidden="false" collective="false" import="true" targetId="3292-34e6-f679-d5b9" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c84-74e8-fce2-8a5b" type="max"/>
           </constraints>
@@ -1241,7 +1241,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc98-7caf-4532-7df0" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="a77d-f3e9-aab4-565a" name="Power maul" hidden="false" collective="false" import="true" targetId="6ea7-1195-7144-438e" type="selectionEntry">
+        <entryLink id="a77d-f3e9-aab4-565a" name="动力锤" hidden="false" collective="false" import="true" targetId="6ea7-1195-7144-438e" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00ad-b55a-d984-c5eb" type="max"/>
           </constraints>
@@ -1350,7 +1350,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8481-dca9-f8ee-8912" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="e813-57e6-a638-98b3" name="Plasma pistol" hidden="false" collective="false" import="true" targetId="83be-1ba9-c326-4760" type="selectionEntry"/>
+        <entryLink id="e813-57e6-a638-98b3" name="等离子手枪" hidden="false" collective="false" import="true" targetId="83be-1ba9-c326-4760" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="9403-1579-1d82-447a" name="肉搏武器" hidden="false" collective="false" import="true">
@@ -1375,7 +1375,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
             <cost name="pts" typeId="points" value="5.0"/>
           </costs>
         </entryLink>
-        <entryLink id="6be8-453e-30e4-a10e" name="Power axe" hidden="false" collective="false" import="true" targetId="3292-34e6-f679-d5b9" type="selectionEntry"/>
+        <entryLink id="6be8-453e-30e4-a10e" name="动力斧" hidden="false" collective="false" import="true" targetId="3292-34e6-f679-d5b9" type="selectionEntry"/>
         <entryLink id="a0bc-0a8c-8e97-7da7" name="动力拳套" hidden="false" collective="false" import="true" targetId="f122-3720-fa32-4215" type="selectionEntry"/>
         <entryLink id="bb23-1707-105f-a6be" name="New EntryLink" hidden="false" collective="false" import="true" targetId="6ea7-1195-7144-438e" type="selectionEntry"/>
         <entryLink id="f0f1-2c3b-3bed-56f0" name="动力剑" hidden="false" collective="false" import="true" targetId="bc9e-551d-9afb-78d5" type="selectionEntry"/>
