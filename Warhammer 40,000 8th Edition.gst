@@ -10,7 +10,7 @@
     <publication id="28ec-711c-pubN98266" name="帝国 Nihilus: Vigilus Defiant"/>
     <publication id="28ec-711c-pubN110542" name="白矮人 Feb 2019"/>
     <publication id="28ec-711c-pubN113754" name="Stronghold Assault"/>
-    <publication id="28ec-711c-pubN118139" name="索引: Xenos 2"/>
+    <publication id="28ec-711c-pubN118139" name="索引: 异性 2"/>
     <publication id="82b3-73d0-72b2-3180" name="Warhammer 40,000 Update - April 2019"/>
     <publication id="2ec0-6d53-e36b-9895" name="CA 2018"/>
     <publication id="5b08-09e5-a80a-fd67" name="Psychic Awakening - Phoenix Rising"/>
