@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="61c6-c8c5-a304-ff5f" name="死灵" revision="58" battleScribeVersion="2.03" authorName="BSData-CHN" authorContact="@Dr. Toboggan" authorUrl="https://github.com/BSData-CHN" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="61c6-c8c5-a304-ff5f" name="死灵" revision="1" battleScribeVersion="2.03" authorName="BSData-CHN" authorContact="@Dr. Toboggan" authorUrl="https://github.com/BSData-CHN" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="61c6-c8c5-pubN65537" name="圣典: 死灵"/>
     <publication id="61c6-c8c5-pubN79401" name="帝国装甲 - 索引: Xenos"/>
@@ -6614,7 +6614,7 @@
       <profiles>
         <profile id="c49b-39e3-a6fb-9dce" name="Aggressively Territorial" publicationId="61c6-c8c5-pubN65537" hidden="false" typeId="e31c-30b0-b621-edf7" typeName="Dynastic Code">
           <characteristics>
-            <characteristic name="Description" typeId="b1f8-a131-2cef-6c8b">Re-roll hit rolls of 1 for 单位 with this code whenever they shoot, including when firing Overwatch, as long as they did not move in the preceding 移动阶段 and they have not disembarked from a Transport during this turn.</characteristic>
+            <characteristic name="Description" typeId="b1f8-a131-2cef-6c8b">Re-roll hit rolls of 1 for 单位 with this code whenever they shoot, including when firing 坚守射击, as long as they did not move in the preceding 移动阶段 and they have not disembarked from a Transport during this turn.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7331,7 +7331,7 @@
       <description>If your army is Battle-Forged, all Troops 单位 in 死灵 Detachments gain this ability.  Such a 单位 that is 范围内 range of an objective marker (as specified in the mission) controls that objective marker even if there are more 敌方模型 范围内 range of it.  If an 敌方单位 范围内 range of the same objective marker 拥有 similar ability, then the objective marker is controlled by the player who has the most 模型 范围内 range of it as normal.</description>
     </rule>
     <rule id="be91-749b-2582-eb83" name="Fractured Personality (Instructions)" publicationId="61c6-c8c5-pubN65537" hidden="false">
-      <description>Before the battle, you can pick one of the abilities opposite to apply to 这个模型 for the duration of the battle.  Alternatively, you can roll two D6 to randomly determine two abilities and apply them both to 这个模型 for the duration of the battle (duplicate results have no effect).
+      <description>Before the battle, you can pick one of the abilities opposite to apply to 这个模型 for the duration of the battle.  Alternatively, you can roll two D6 to randomly determine two abilities and apply them both to 这个模型 for the duration of the battle (duplicate results have no 效果).
 
 1) Cosmic tyrant
 2) Immune to Natural Law
@@ -7555,7 +7555,7 @@
     </profile>
     <profile id="1150-997b-6843-8342" name="Immobile" publicationId="61c6-c8c5-pubN79401" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 不能移动 for any reason, except when it is set up using the Teleportation Matrix ability, nor can it fight in the 肉搏阶段. 敌方模型 automatically hit 这个模型 in the 肉搏阶段 – do not make hit rolls. It can, except when firing Overwatch, also still fire its 武器 if 敌方单位 are 范围内 1” of it (but only its tesla arc can target 单位 that are 范围内 1” of it – its other guns must target other units). 此外, 友方单位 can still target 敌方单位 that are 范围内 1” of 这个模型.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 不能移动 for any reason, except when it is set up using the Teleportation Matrix ability, nor can it fight in the 肉搏阶段. 敌方模型 automatically hit 这个模型 in the 肉搏阶段 – do not make hit rolls. It can, except when firing 坚守射击, also still fire its 武器 if 敌方单位 are 范围内 1寸 of it (but only its tesla arc can target 单位 that are 范围内 1寸 of it – its other guns must target other units). 此外, 友方单位 can still target 敌方单位 that are 范围内 1寸 of 这个模型.</characteristic>
       </characteristics>
     </profile>
     <profile id="f313-c1b7-f327-746e" name="Immortal Pride" publicationId="61c6-c8c5-pubN65537" hidden="false" typeId="0bb9-43c2-e91f-436e" typeName="Warlord Trait">

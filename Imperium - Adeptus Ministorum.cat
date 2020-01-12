@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d124-b283-2ff7-beae" name="帝国 - Adepta Sororitas" revision="95" battleScribeVersion="2.03" authorName="BSData-CHN" authorContact="Discord: @Alphalas, @CrusherJoe | Twitter: @kingoverlord, @TheAwesomesauce" authorUrl="https://github.com/BSData-CHN" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d124-b283-2ff7-beae" name="帝国 - Adepta Sororitas" revision="1" battleScribeVersion="2.03" authorName="BSData-CHN" authorContact="Discord: @Alphalas, @CrusherJoe | Twitter: @kingoverlord, @TheAwesomesauce" authorUrl="https://github.com/BSData-CHN" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="d124-b283-pubN67455" name="索引: Imperium 2"/>
     <publication id="d124-b283-pubN72234" name="圣典: Adepta Sororitas"/>
@@ -8,7 +8,7 @@
   <profileTypes>
     <profileType id="081f-7081-e636-aa9d" name="Triumph of Saint Katherine Wounds">
       <characteristicTypes>
-        <characteristicType id="fc9b-f764-5a8f-4c65" name="Remaining Wounds"/>
+        <characteristicType id="fc9b-f764-5a8f-4c65" name="剩余W"/>
         <characteristicType id="3f9b-1017-39f6-a0e0" name="A"/>
         <characteristicType id="8316-d548-d775-880b" name="圣物"/>
       </characteristicTypes>
@@ -736,7 +736,7 @@
               <profiles>
                 <profile id="e52a-de2a-5e7a-d86c" name="Brazier of Holy Fire" publicationId="d124-b283-pubN72234" page="77" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Whilst 任何模型 from your army that have braziers of holy fire are 范围内 6寸 of any 敌方 恶魔 units, subtract 1 from the LD characteristic of each of those 敌方单位. 此外, if 这个模型拥有 brazier of holy fire, then 一次性, when 这个模型 fires 坚守射击 or is chosen to shoot with, it can unleash the brazier&apos;s holy flames. When it does, select one 敌方单位 范围内 12寸 of 这个模型 (if firing Overwatch, you must select the 单位 that has declared a charge 对抗 这个模型) and 投掷1个D6; 结果为2+ 那个敌方单位 遭受 D3 致命伤 (if 那个敌方单位 is a 恶魔, it 遭受 D6 致命伤 instead).</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Whilst 任何模型 from your army that have braziers of holy fire are 范围内 6寸 of any 敌方 恶魔 units, subtract 1 from the LD characteristic of each of those 敌方单位. 此外, if 这个模型拥有 brazier of holy fire, then 一次性, when 这个模型 fires 坚守射击 or is chosen to shoot with, it can unleash the brazier&apos;s holy flames. When it does, select one 敌方单位 范围内 12寸 of 这个模型 (if firing 坚守射击, you must select the 单位 that has declared a charge 对抗 这个模型) and 投掷1个D6; 结果为2+ 那个敌方单位 遭受 D3 致命伤 (if 那个敌方单位 is a 恶魔, it 遭受 D6 致命伤 instead).</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3995,7 +3995,7 @@
         </profile>
         <profile id="8351-bbb0-d09d-ba79" name="Firing Ports" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">至多 6 模型 上车 on 这个模型 can attack in their 射击阶段. Measure the range and draw line of sight from any point on 这个模型. When they do so, any restrictions or modifiers that apply to 这个模型 also apply to its passengers; for example, the passengers cannot shoot if 这个模型 has Fallen Back in the same turn, cannot shoot (except with Pistols) if 这个模型 is 范围内 1” of an 敌方单位, and so on.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">至多 6 模型 上车 on 这个模型 can attack in their 射击阶段. Measure the range and draw line of sight from any point on 这个模型. When they do so, any restrictions or modifiers that apply to 这个模型 also apply to its passengers; for example, the passengers cannot shoot if 这个模型 has Fallen Back in the same turn, cannot shoot (except with Pistols) if 这个模型 is 范围内 1寸 of an 敌方单位, and so on.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4702,7 +4702,7 @@
       <profiles>
         <profile id="94bf-4bf1-ec99-bf1d" name="Stoic Endurance" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When a 模型 with this conviction would lose a wound, 投掷1个D6; 结果为six that wound is not lost. 此外 when resolving an attack made with a weapon with an Armor Penetration characteristic of -1 对抗 a 单位 with this conviction, that weapon has an armour penetration characteristic of 0 for that attack. Whilst the 单位 with this conviction is under the effect of an Imagifier’s Tale of the Stoic ability, 武器 with an Armour Penetration characteristic of -2 are also treated as having an Armor Penetration characteristic of 0 when resolving 攻击 对抗 那个单位.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When a 模型 with this conviction would lose a wound, 投掷1个D6; 结果为six that wound is not lost. 此外 when resolving an attack made with a weapon with an Armor Penetration characteristic of -1 对抗 a 单位 with this conviction, that weapon has an armour penetration characteristic of 0 for that attack. Whilst the 单位 with this conviction is under the 效果 of an Imagifier’s Tale of the Stoic ability, 武器 with an Armour Penetration characteristic of -2 are also treated as having an Armor Penetration characteristic of 0 when resolving 攻击 对抗 那个单位.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4968,7 +4968,7 @@
         </profile>
         <profile id="05c2-4fdf-bce9-8189" name="Relics of the Matriarchs" publicationId="d124-b283-pubN72234" page="79" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型拥有 number of relics as detailed in the 损伤表. Each relic grants 这个模型 an ability as follows. 这个模型 can only have one of each relic. When 这个模型 遭受 damage that reduces its number of relics, select which of the relics (and their abilities) 这个模型 no longer has. If 这个模型 regains lost wounds that increases it number of relics, select which of the relics (and their abilities) 这个模型 regains.
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型拥有 number of relics as detailed in the 损伤表. Each 圣物 grants 这个模型 an ability as follows. 这个模型 can only have one of each 圣物. When 这个模型 遭受 damage that reduces its number of relics, select which of the relics (and their abilities) 这个模型 no longer has. If 这个模型 regains lost wounds that increases it number of relics, select which of the relics (and their abilities) 这个模型 regains.
 
 • Censer of the Sacred Rose: Gain a Miracle dice as the start of each turn (note that is each turn, not battle round)
 • Simulacrum of the Ebon Chalice: At the start of your 射击阶段, 投掷1个D6 for each 敌方单位 范围内 6” of 这个模型, adding 1 to the result if the 单位 being rolled for is a 灵能者 and 1 to the result if the 单位 being rolled for is a CHAOS unit. One a 5+ the 单位 being rolled for 遭受 D3 致命伤.
@@ -4980,21 +4980,21 @@
         </profile>
         <profile id="c0b8-455c-0998-3cb4" name="Saint Katherine 1" publicationId="d124-b283-pubN72234" page="79" hidden="false" typeId="081f-7081-e636-aa9d" typeName="Triumph of Saint Katherine Wounds">
           <characteristics>
-            <characteristic name="Remaining Wounds" typeId="fc9b-f764-5a8f-4c65">10-18+</characteristic>
+            <characteristic name="剩余W" typeId="fc9b-f764-5a8f-4c65">10-18+</characteristic>
             <characteristic name="A" typeId="3f9b-1017-39f6-a0e0">14</characteristic>
             <characteristic name="圣物" typeId="8316-d548-d775-880b">5</characteristic>
           </characteristics>
         </profile>
         <profile id="f9b0-0728-0471-bf47" name="Saint Katherine 2" publicationId="d124-b283-pubN72234" page="79" hidden="false" typeId="081f-7081-e636-aa9d" typeName="Triumph of Saint Katherine Wounds">
           <characteristics>
-            <characteristic name="Remaining Wounds" typeId="fc9b-f764-5a8f-4c65">5-9</characteristic>
+            <characteristic name="剩余W" typeId="fc9b-f764-5a8f-4c65">5-9</characteristic>
             <characteristic name="A" typeId="3f9b-1017-39f6-a0e0">8</characteristic>
             <characteristic name="圣物" typeId="8316-d548-d775-880b">2</characteristic>
           </characteristics>
         </profile>
         <profile id="1e03-bac5-8ff5-14fd" name="Saint Katherine 3" publicationId="d124-b283-pubN72234" page="79" hidden="false" typeId="081f-7081-e636-aa9d" typeName="Triumph of Saint Katherine Wounds">
           <characteristics>
-            <characteristic name="Remaining Wounds" typeId="fc9b-f764-5a8f-4c65">1-4</characteristic>
+            <characteristic name="剩余W" typeId="fc9b-f764-5a8f-4c65">1-4</characteristic>
             <characteristic name="A" typeId="3f9b-1017-39f6-a0e0">6</characteristic>
             <characteristic name="圣物" typeId="8316-d548-d775-880b">1</characteristic>
           </characteristics>
@@ -6326,7 +6326,7 @@ Only 步兵单位, BEAST units, SWARM 单位 and 单位 that can FLY can be set 
           <profiles>
             <profile id="ce69-bfee-fa2b-9697" name="Book of St. Lucius" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 3” to the range of aura abilities of a 模型 with this relic</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 3” to the range of aura abilities of a 模型 with this 圣物</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6363,7 +6363,7 @@ Only 步兵单位, BEAST units, SWARM 单位 and 单位 that can FLY can be set 
           <profiles>
             <profile id="b2ec-7f0c-b9f3-8dcc" name="圣物: Annunciation of the creed" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">ORDER OF THE EBON CHALICE 模型 equipped with a condemnor 爆弹枪 only. This relic replaces a condemnor 爆弹枪 and has the following profile</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">ORDER OF THE EBON CHALICE 模型 equipped with a condemnor 爆弹枪 only. This 圣物 replaces a condemnor 爆弹枪 and has the following profile</characteristic>
               </characteristics>
             </profile>
             <profile id="4114-6ec5-f48c-233c" name="圣物: Annunciation of the creed" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -6373,7 +6373,7 @@ Only 步兵单位, BEAST units, SWARM 单位 and 单位 that can FLY can be set 
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">ORDER OF THE EBON CHALICE 模型 equipped with a condemnor 爆弹枪 only. This relic replaces a condemnor 爆弹枪 and has the following profile</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">ORDER OF THE EBON CHALICE 模型 equipped with a condemnor 爆弹枪 only. This 圣物 replaces a condemnor 爆弹枪 and has the following profile</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6420,7 +6420,7 @@ Only 步兵单位, BEAST units, SWARM 单位 and 单位 that can FLY can be set 
             </profile>
             <profile id="ca03-5919-0e7d-009f" name="圣物: Beneficence" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">ORDER OF THE BLOODY ROSE 模型 equipped with a chainsword only. This relic replaces a chainsword and has the following profile￼</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">ORDER OF THE BLOODY ROSE 模型 equipped with a chainsword only. This 圣物 replaces a chainsword and has the following profile￼</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6455,7 +6455,7 @@ Only 步兵单位, BEAST units, SWARM 单位 and 单位 that can FLY can be set 
             </profile>
             <profile id="fbdf-fcd7-b833-ec94" name="Blade of Admonition" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This Relic Replaces a Blessed Blade</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This 圣物 Replaces a Blessed Blade</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6480,7 +6480,7 @@ Only 步兵单位, BEAST units, SWARM 单位 and 单位 that can FLY can be set 
           <profiles>
             <profile id="9210-cfd2-c2b8-7401" name="Braizer of Eternal Flame" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Model with a brazier of holy fire only. This relic replaces a brazier of holy fire. When a psychic test is taken for an 敌方模型 with an 18” of a 模型 from your army with this relic, subtract two from the result￼
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Model with a brazier of holy fire only. This 圣物 replaces a brazier of holy fire. When a psychic test is taken for an 敌方模型 with an 18” of a 模型 from your army with this 圣物, subtract two from the result￼
 </characteristic>
               </characteristics>
             </profile>
@@ -6511,7 +6511,7 @@ Only 步兵单位, BEAST units, SWARM 单位 and 单位 that can FLY can be set 
           <profiles>
             <profile id="0a41-082a-f12d-32e6" name="圣物: Casket of penance" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Order of the valorous heart 模型 only. Subtract one from the toughness characteristic of 敌方单位 whilst there are 范围内 1” of a 模型 from your army with this relic.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Order of the valorous heart 模型 only. Subtract one from the toughness characteristic of 敌方单位 whilst there are 范围内 1寸 of a 模型 from your army with this 圣物.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6529,7 +6529,7 @@ Only 步兵单位, BEAST units, SWARM 单位 and 单位 that can FLY can be set 
           <profiles>
             <profile id="f453-7b74-b990-df37" name="圣物: Iron surplice of st istaela" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A 模型 with this relic 拥有 save characteristic of 2+. 此外, when resolving an attack made 对抗 that 模型 an unmodified roll of 1, 2, or 3 always fails, irrespective of any abilities that the weapon or the 模型 making the attack may have</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A 模型 with this 圣物 拥有 save characteristic of 2+. 此外, when resolving an attack made 对抗 that 模型 an unmodified roll of 1, 2, or 3 always fails, irrespective of any abilities that the weapon or the 模型 making the attack may have</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6566,9 +6566,9 @@ Only 步兵单位, BEAST units, SWARM 单位 and 单位 that can FLY can be set 
           <profiles>
             <profile id="3dca-f4b9-3653-4254" name="圣物: Light of St Agnaetha " hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">ORDER OF THE SACRED ROSE 模型 with a brazier of holy fire only. This relic replaces a brazier of holy fire. Subtract one from the LD characteristic of 敌方 demon 单位 whilst they are 范围内 6” of a 模型 from your army with this relic. 此外 once per phase, with that 模型 fires 坚守射击 or is chosen to shoot with, it can unleash the light of Saint Agnaetha’s holy frames. When it does select one 敌方单位 范围内 12 inches of that 模型 (if firing 坚守射击 you must select the charging unit) and 投掷1个D6; 结果为2+ the 敌方 遭受 D3 致命伤; if that 敌方 is a demon unit, it 遭受 d6 致命伤 instead.
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">ORDER OF THE SACRED ROSE 模型 with a brazier of holy fire only. This 圣物 replaces a brazier of holy fire. Subtract one from the LD characteristic of 敌方 demon 单位 whilst they are 范围内 6” of a 模型 from your army with this 圣物. 此外 once per phase, with that 模型 fires 坚守射击 or is chosen to shoot with, it can unleash the light of Saint Agnaetha’s holy frames. When it does select one 敌方单位 范围内 12 inches of that 模型 (if firing 坚守射击 you must select the charging unit) and 投掷1个D6; 结果为2+ the 敌方 遭受 D3 致命伤; if that 敌方 is a demon unit, it 遭受 d6 致命伤 instead.
 
-When a 模型 from your army with this relic unleashes the holy flames, after its affects have been resolved, you can discard one miracle base. If you do not, that 模型 cannot unleash the light of Saint Agnaetha’s holy flames again during this battle.
+When a 模型 from your army with this 圣物 unleashes the holy flames, after its affects have been resolved, you can discard one miracle base. If you do not, that 模型 cannot unleash the light of Saint Agnaetha’s holy flames again during this battle.
 </characteristic>
               </characteristics>
             </profile>
@@ -6587,7 +6587,7 @@ When a 模型 from your army with this relic unleashes the holy flames, after it
           <profiles>
             <profile id="66fd-1502-b879-f225" name="圣物: Litanies of Faith" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per turn, if a 模型 from your army with this relic is 战场上 when you gain a miracle dice, you can re-roll that dice</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per turn, if a 模型 from your army with this 圣物 is 战场上 when you gain a miracle dice, you can re-roll that dice</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6612,7 +6612,7 @@ When a 模型 from your army with this relic unleashes the holy flames, after it
           <profiles>
             <profile id="9da4-b77d-57b0-c9e7" name="Mantle of Ophelia" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Canoness 模型 only. A 模型 with this relic 拥有 3+ 特殊保护
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Canoness 模型 only. A 模型 with this 圣物 拥有 3+ 特殊保护
 </characteristic>
               </characteristics>
             </profile>
@@ -6660,7 +6660,7 @@ When a 模型 from your army with this relic unleashes the holy flames, after it
             </profile>
             <profile id="86c5-bd84-4f43-be03" name="圣物: Martyr&apos;s Vengance" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">ORDER OF OUR MARTYRED LADY 模型 equiped with an inferno pistol only. This Relic replaces an inferno pistol and has the following profile:</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">ORDER OF OUR MARTYRED LADY 模型 equiped with an inferno pistol only. This 圣物 replaces an inferno pistol and has the following profile:</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6690,7 +6690,7 @@ When a 模型 from your army with this relic unleashes the holy flames, after it
           <profiles>
             <profile id="9a97-43b5-b0f2-8cd2" name="圣物: Quicksilver Veil" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">ORDER OF THE ARGENT SHROUD only. When resolving an attack made 对抗 a 模型 with this relic subtract one from the hit roll.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">ORDER OF THE ARGENT SHROUD only. When resolving an attack made 对抗 a 模型 with this 圣物 subtract one from the hit roll.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6708,7 +6708,7 @@ When a 模型 from your army with this relic unleashes the holy flames, after it
           <profiles>
             <profile id="1d08-af71-4447-fe66" name="圣物: Triptych of the Macharian Crusade" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When a 模型 with this relic would lose a wound, 投掷1个D6; 结果为5+ that wound is not lost</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When a 模型 with this 圣物 would lose a wound, 投掷1个D6; 结果为5+ that wound is not lost</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6825,7 +6825,7 @@ When a 模型 from your army with this relic unleashes the holy flames, after it
           <profiles>
             <profile id="5bc9-645b-4828-d041" name="Book of St. Lucius" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 3” to the range of aura abilities of a 模型 with this relic</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 3” to the range of aura abilities of a 模型 with this 圣物</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6853,7 +6853,7 @@ When a 模型 from your army with this relic unleashes the holy flames, after it
     <rule id="eac3-8d18-c0ab-a2c0" name="Sacred Rites" publicationId="d124-b283-pubN72234" page="76" hidden="false">
       <description>If every 单位 in your army has the ADEPTA SORORITAS and/or ADEPTUS MINISTORUM Faction keywords, this 单位 gains an ability depending on which Sacred Rite is active for your army.
 
-Determine which Sacred Rite is active for all 单位 from your army with this ability at the start of the battle. To do so, after deployment but before the first battle round begins, select one Sacred Rite from the following table to be active. Alternatively, you can roll two D6 to randomly generate two Sacred Rites to be active (a duplicate result has no additional effect, but is considered to be active for the purposes of the Battle Rites Stratagem). In either case, Sacred Rites are active until the end of the battle.
+Determine which Sacred Rite is active for all 单位 from your army with this ability at the start of the battle. To do so, after deployment but before the first battle round begins, select one Sacred Rite from the following table to be active. Alternatively, you can roll two D6 to randomly generate two Sacred Rites to be active (a duplicate result has no additional 效果, but is considered to be active for the purposes of the Battle Rites Stratagem). In either case, Sacred Rites are active until the end of the battle.
 
 1. Hand of the Emperor:
 When a 单位 with this Sacred Rite Advances, add 1 to the Advance roll. When you make a charge roll for a 单位 with this Sacred Rite, add 1 to the result.

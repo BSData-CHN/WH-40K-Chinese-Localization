@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="422a-a40e-3f7c-e8b3" name="混沌 - 恶魔" revision="72" battleScribeVersion="2.03" authorName="BSData-CHN" authorContact="@Mad_Spy" authorUrl="https://github.com/BSData-CHN" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="422a-a40e-3f7c-e8b3" name="混沌 - 恶魔" revision="1" battleScribeVersion="2.03" authorName="BSData-CHN" authorContact="@Mad_Spy" authorUrl="https://github.com/BSData-CHN" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="422a-a40e-pubN71142" name="Dataslate: 比拉克"/>
     <publication id="422a-a40e-pubN120961" name="索引: Chaos"/>
@@ -13,19 +13,19 @@
         <characteristicType id="ae18-03b2-5d77-bd35" name="Other"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="b764-10e0-373e-7176" name="Boon of Change - D3 Roll">
+    <profileType id="b764-10e0-373e-7176" name="Boon of Change - D3投掷">
       <characteristicTypes>
-        <characteristicType id="fa1f-c762-e6c4-1582" name="Effect"/>
+        <characteristicType id="fa1f-c762-e6c4-1582" name="效果"/>
       </characteristicTypes>
     </profileType>
     <profileType id="5dca-3ffa-586b-4fde" name="Tally">
       <characteristicTypes>
-        <characteristicType id="7a9f-a64c-d063-fff3" name="Effect"/>
+        <characteristicType id="7a9f-a64c-d063-fff3" name="效果"/>
       </characteristicTypes>
     </profileType>
     <profileType id="23d7-4237-f378-5bcb" name="损伤表, Plague Hulk">
       <characteristicTypes>
-        <characteristicType id="aedc-97dc-b948-4b71" name="Remaining Wounds"/>
+        <characteristicType id="aedc-97dc-b948-4b71" name="剩余W"/>
         <characteristicType id="0b47-007e-010f-42fb" name="M"/>
         <characteristicType id="d402-30d0-dc2b-35d8" name="BS"/>
         <characteristicType id="a406-16c9-0803-bd9e" name="A"/>
@@ -994,7 +994,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink id="1c6a-883a-4f48-8646" name="Rewards of Chaos (1 Relic)" hidden="false" collective="false" import="true" targetId="825e-be67-d23e-3e72" type="selectionEntry"/>
+    <entryLink id="1c6a-883a-4f48-8646" name="Rewards of Chaos (1 圣物)" hidden="false" collective="false" import="true" targetId="825e-be67-d23e-3e72" type="selectionEntry"/>
     <entryLink id="fbd9-1aff-f91c-db2d" name="Rewards of Chaos (2 Relics)" hidden="false" collective="false" import="true" targetId="9a8e-6f0d-36d2-7b97" type="selectionEntry"/>
     <entryLink id="14db-8d6c-a8d0-75c8" name="炼狱琴魔" hidden="false" collective="false" import="true" targetId="12ca-0227-bf6e-21e0" type="selectionEntry">
       <modifiers>
@@ -3536,7 +3536,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">+2</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 a CHARACTER is slain by 这个武器, you can add a Chaos Spawn 模型 to your army. Set up the Chaos Spawn 范围内 6寸 of the character and more than 1” from 任何敌方模型 before they are removed as a casualty.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 a CHARACTER is slain by 这个武器, you can add a Chaos Spawn 模型 to your army. Set up the Chaos Spawn 范围内 6寸 of the character and more than 1寸 from 任何敌方模型 before they are removed as a casualty.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4558,37 +4558,37 @@ Matched Play: 模型 added to 这个单位 using the Split ability 必须 paid f
         </profile>
         <profile id="709c-1322-50b7-f3fd" name="0-1" hidden="false" typeId="5dca-3ffa-586b-4fde" typeName="Tally">
           <characteristics>
-            <characteristic name="Effect" typeId="7a9f-a64c-d063-fff3">No effect</characteristic>
+            <characteristic name="效果" typeId="7a9f-a64c-d063-fff3">No 效果</characteristic>
           </characteristics>
         </profile>
         <profile id="ed4c-a41f-8305-4b26" name="2" hidden="false" typeId="5dca-3ffa-586b-4fde" typeName="Tally">
           <characteristics>
-            <characteristic name="Effect" typeId="7a9f-a64c-d063-fff3">Re-roll hit rolls of 1 for all 友方 纳垢 恶魔.</characteristic>
+            <characteristic name="效果" typeId="7a9f-a64c-d063-fff3">Re-roll hit rolls of 1 for all 友方 纳垢 恶魔.</characteristic>
           </characteristics>
         </profile>
         <profile id="0cf2-ffa7-3567-1341" name="3" hidden="false" typeId="5dca-3ffa-586b-4fde" typeName="Tally">
           <characteristics>
-            <characteristic name="Effect" typeId="7a9f-a64c-d063-fff3">Increase the Move characteristics of all 友方 纳垢 恶魔 by 1.</characteristic>
+            <characteristic name="效果" typeId="7a9f-a64c-d063-fff3">Increase the Move characteristics of all 友方 纳垢 恶魔 by 1.</characteristic>
           </characteristics>
         </profile>
         <profile id="4a7b-9bcd-a076-f2e1" name="4" hidden="false" typeId="5dca-3ffa-586b-4fde" typeName="Tally">
           <characteristics>
-            <characteristic name="Effect" typeId="7a9f-a64c-d063-fff3">Increase the Strength characteristics of all 友方 纳垢 恶魔 by 1.</characteristic>
+            <characteristic name="效果" typeId="7a9f-a64c-d063-fff3">Increase the Strength characteristics of all 友方 纳垢 恶魔 by 1.</characteristic>
           </characteristics>
         </profile>
         <profile id="b787-9d88-4108-a56b" name="5" hidden="false" typeId="5dca-3ffa-586b-4fde" typeName="Tally">
           <characteristics>
-            <characteristic name="Effect" typeId="7a9f-a64c-d063-fff3">Increase the Toughness characteristics of all 友方 纳垢 恶魔 by 1.</characteristic>
+            <characteristic name="效果" typeId="7a9f-a64c-d063-fff3">Increase the Toughness characteristics of all 友方 纳垢 恶魔 by 1.</characteristic>
           </characteristics>
         </profile>
         <profile id="babe-bf60-5041-66cc" name="6" hidden="false" typeId="5dca-3ffa-586b-4fde" typeName="Tally">
           <characteristics>
-            <characteristic name="Effect" typeId="7a9f-a64c-d063-fff3">Increase the 攻击 characteristics of all 友方 纳垢 恶魔 by 1.</characteristic>
+            <characteristic name="效果" typeId="7a9f-a64c-d063-fff3">Increase the 攻击 characteristics of all 友方 纳垢 恶魔 by 1.</characteristic>
           </characteristics>
         </profile>
         <profile id="0862-3f06-0a30-b9bc" name="7 or more" hidden="false" typeId="5dca-3ffa-586b-4fde" typeName="Tally">
           <characteristics>
-            <characteristic name="Effect" typeId="7a9f-a64c-d063-fff3">Re-roll rolls of 1 for 友方 纳垢 恶魔 Disgustingly Resilient ability.</characteristic>
+            <characteristic name="效果" typeId="7a9f-a64c-d063-fff3">Re-roll rolls of 1 for 友方 纳垢 恶魔 Disgustingly Resilient ability.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7720,27 +7720,27 @@ Matched Play: 模型 added to 这个单位 using the Split ability 必须 paid f
         </profile>
         <profile id="a73d-7e07-a28e-3aa1" name="Unholy Frenzy - 0" hidden="false" typeId="5dca-3ffa-586b-4fde" typeName="Tally">
           <characteristics>
-            <characteristic name="Effect" typeId="7a9f-a64c-d063-fff3">No benefit</characteristic>
+            <characteristic name="效果" typeId="7a9f-a64c-d063-fff3">No benefit</characteristic>
           </characteristics>
         </profile>
         <profile id="a596-fc80-099f-139a" name="Unholy Frenzy - 1" hidden="false" typeId="5dca-3ffa-586b-4fde" typeName="Tally">
           <characteristics>
-            <characteristic name="Effect" typeId="7a9f-a64c-d063-fff3">+1 Move</characteristic>
+            <characteristic name="效果" typeId="7a9f-a64c-d063-fff3">+1 Move</characteristic>
           </characteristics>
         </profile>
         <profile id="f533-108f-77bc-be82" name="Unholy Frenzy - 2-3" hidden="false" typeId="5dca-3ffa-586b-4fde" typeName="Tally">
           <characteristics>
-            <characteristic name="Effect" typeId="7a9f-a64c-d063-fff3">+1 Strength</characteristic>
+            <characteristic name="效果" typeId="7a9f-a64c-d063-fff3">+1 Strength</characteristic>
           </characteristics>
         </profile>
         <profile id="ec66-b3c9-0ef9-2822" name="Unholy Frenzy - 4-6" hidden="false" typeId="5dca-3ffa-586b-4fde" typeName="Tally">
           <characteristics>
-            <characteristic name="Effect" typeId="7a9f-a64c-d063-fff3">An additional +1 Strength and +1 攻击</characteristic>
+            <characteristic name="效果" typeId="7a9f-a64c-d063-fff3">An additional +1 Strength and +1 攻击</characteristic>
           </characteristics>
         </profile>
         <profile id="f242-a7ae-2156-f993" name="Unholy Frenzy - 7+" hidden="false" typeId="5dca-3ffa-586b-4fde" typeName="Tally">
           <characteristics>
-            <characteristic name="Effect" typeId="7a9f-a64c-d063-fff3">For each additional point scored, Uraka heals 1 Wound.</characteristic>
+            <characteristic name="效果" typeId="7a9f-a64c-d063-fff3">For each additional point scored, Uraka heals 1 Wound.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8441,7 +8441,7 @@ Matched Play: 模型 added to 这个单位 using the Split ability 必须 paid f
         </profile>
         <profile id="1e56-73c6-d418-20cb" name="Noisome Tide of Flesh" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Cor&apos;bax&apos;s feculent mass is a seething, half-liquid 惧妖 that simply flows over obstacles and swamps anything, be it blade or bullet, that strikes it, with little outward effect. Cor&apos;bax ignores any penalty to charge rolls made for him because of terrain. 此外, when making rolls for Cor&apos;bax&apos;s Disgustingly Resilient ability 对抗 wounds caused by 攻击 with a Damage of 1, wounds are ignored 结果为4+.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Cor&apos;bax&apos;s feculent mass is a seething, half-liquid 惧妖 that simply flows over obstacles and swamps anything, be it blade or bullet, that strikes it, with little outward 效果. Cor&apos;bax ignores any penalty to charge rolls made for him because of terrain. 此外, when making rolls for Cor&apos;bax&apos;s Disgustingly Resilient ability 对抗 wounds caused by 攻击 with a Damage of 1, wounds are ignored 结果为4+.</characteristic>
           </characteristics>
         </profile>
         <profile id="c09f-9fdd-3aa5-a56f" name="Putrid Demise" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -9245,19 +9245,19 @@ Matched Play: 模型 added to 这个单位 using the Split ability 必须 paid f
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c5d-2743-e22d-7133" type="max"/>
       </constraints>
       <profiles>
-        <profile id="a81d-be14-8bbe-1dd3" name="1 - Extra Limb" hidden="false" typeId="b764-10e0-373e-7176" typeName="Boon of Change - D3 Roll">
+        <profile id="a81d-be14-8bbe-1dd3" name="1 - Extra Limb" hidden="false" typeId="b764-10e0-373e-7176" typeName="Boon of Change - D3投掷">
           <characteristics>
-            <characteristic name="Effect" typeId="fa1f-c762-e6c4-1582">+1 Attack</characteristic>
+            <characteristic name="效果" typeId="fa1f-c762-e6c4-1582">+1 Attack</characteristic>
           </characteristics>
         </profile>
-        <profile id="e7ea-5226-2b60-79e7" name="2 - Mystic Strength" hidden="false" typeId="b764-10e0-373e-7176" typeName="Boon of Change - D3 Roll">
+        <profile id="e7ea-5226-2b60-79e7" name="2 - Mystic Strength" hidden="false" typeId="b764-10e0-373e-7176" typeName="Boon of Change - D3投掷">
           <characteristics>
-            <characteristic name="Effect" typeId="fa1f-c762-e6c4-1582">+1 Strength</characteristic>
+            <characteristic name="效果" typeId="fa1f-c762-e6c4-1582">+1 Strength</characteristic>
           </characteristics>
         </profile>
-        <profile id="13b1-8bea-d19b-4efe" name="3 - Iron Skin" hidden="false" typeId="b764-10e0-373e-7176" typeName="Boon of Change - D3 Roll">
+        <profile id="13b1-8bea-d19b-4efe" name="3 - Iron Skin" hidden="false" typeId="b764-10e0-373e-7176" typeName="Boon of Change - D3投掷">
           <characteristics>
-            <characteristic name="Effect" typeId="fa1f-c762-e6c4-1582">+1 Toughness</characteristic>
+            <characteristic name="效果" typeId="fa1f-c762-e6c4-1582">+1 Toughness</characteristic>
           </characteristics>
         </profile>
         <profile id="0a92-3cc9-b2e1-1eba" name="Boon of Change" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
@@ -10904,7 +10904,7 @@ Matched Play: 模型 added to 这个单位 using the Split ability 必须 paid f
         </profile>
         <profile id="b75c-28eb-41c9-4beb" name="Plague Hulk of Nurgle1" hidden="false" typeId="23d7-4237-f378-5bcb" typeName="损伤表, Plague Hulk">
           <characteristics>
-            <characteristic name="Remaining Wounds" typeId="aedc-97dc-b948-4b71">8-14+</characteristic>
+            <characteristic name="剩余W" typeId="aedc-97dc-b948-4b71">8-14+</characteristic>
             <characteristic name="M" typeId="0b47-007e-010f-42fb">7寸</characteristic>
             <characteristic name="BS" typeId="d402-30d0-dc2b-35d8">4+</characteristic>
             <characteristic name="A" typeId="a406-16c9-0803-bd9e">3</characteristic>
@@ -10912,7 +10912,7 @@ Matched Play: 模型 added to 这个单位 using the Split ability 必须 paid f
         </profile>
         <profile id="7f08-9640-df8d-6303" name="Plague Hulk of Nurgle2" hidden="false" typeId="23d7-4237-f378-5bcb" typeName="损伤表, Plague Hulk">
           <characteristics>
-            <characteristic name="Remaining Wounds" typeId="aedc-97dc-b948-4b71">4-7</characteristic>
+            <characteristic name="剩余W" typeId="aedc-97dc-b948-4b71">4-7</characteristic>
             <characteristic name="M" typeId="0b47-007e-010f-42fb">5寸</characteristic>
             <characteristic name="BS" typeId="d402-30d0-dc2b-35d8">5+</characteristic>
             <characteristic name="A" typeId="a406-16c9-0803-bd9e">3</characteristic>
@@ -10920,7 +10920,7 @@ Matched Play: 模型 added to 这个单位 using the Split ability 必须 paid f
         </profile>
         <profile id="9f1f-2c1d-7c53-186b" name="Plague Hulk of Nurgle3" hidden="false" typeId="23d7-4237-f378-5bcb" typeName="损伤表, Plague Hulk">
           <characteristics>
-            <characteristic name="Remaining Wounds" typeId="aedc-97dc-b948-4b71">1-3</characteristic>
+            <characteristic name="剩余W" typeId="aedc-97dc-b948-4b71">1-3</characteristic>
             <characteristic name="M" typeId="0b47-007e-010f-42fb">3寸</characteristic>
             <characteristic name="BS" typeId="d402-30d0-dc2b-35d8">6+</characteristic>
             <characteristic name="A" typeId="a406-16c9-0803-bd9e">D3</characteristic>
@@ -11175,7 +11175,7 @@ Matched Play: 模型 added to 这个单位 using the Split ability 必须 paid f
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="825e-be67-d23e-3e72" name="Rewards of Chaos (1 Relic)" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="825e-be67-d23e-3e72" name="Rewards of Chaos (1 圣物)" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="13b1-9b23-1d68-8d75" value="0.0">
           <conditions>
@@ -11381,7 +11381,7 @@ Matched Play: 模型 added to 这个单位 using the Split ability 必须 paid f
             <characteristic name="S" typeId="59b1-319e-ec13-d466">+1</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 a 模型 is slain by 这个武器, the bearer 恢复1点失去的W. Re-roll all failed wound rolls made for 这个武器 when targeting an AELDARI unit.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 a 模型 is slain by 这个武器, the bearer 恢复1点失去的W. Re-roll all failed wound rolls made for 这个武器 when targeting an 艾尔达 unit.</characteristic>
           </characteristics>
         </profile>
         <profile id="d6c1-2f01-5fc3-fdfa" name="Soulstealer" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">

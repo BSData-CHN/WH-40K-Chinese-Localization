@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ce57-cc1c-37cb-cb71" name="混沌 - 死亡守卫" revision="76" battleScribeVersion="2.03" authorName="BSData-CHN" authorContact="@Mad_Spy" authorUrl="https://github.com/BSData-CHN" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ce57-cc1c-37cb-cb71" name="混沌 - 死亡守卫" revision="1" battleScribeVersion="2.03" authorName="BSData-CHN" authorContact="@Mad_Spy" authorUrl="https://github.com/BSData-CHN" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="ce57-cc1c-pubN85391" name="索引: Chaos FAQ"/>
     <publication id="ce57-cc1c-pubN85402" name="索引: Chaos"/>
@@ -8,8 +8,8 @@
   <profileTypes>
     <profileType id="df7f-89aa-8f5b-9d81" name="Gift of Contagion table">
       <characteristicTypes>
-        <characteristicType id="cd06-e404-83c7-28c2" name="D3 Roll"/>
-        <characteristicType id="04da-4341-1718-541a" name="Effect"/>
+        <characteristicType id="cd06-e404-83c7-28c2" name="D3投掷"/>
+        <characteristicType id="04da-4341-1718-541a" name="效果"/>
       </characteristicTypes>
     </profileType>
     <profileType id="c295-780c-d1dd-e59f" name="Mortarion 损伤表">
@@ -30,7 +30,7 @@
     </profileType>
     <profileType id="6c48-3f8e-adc6-e417" name="Mutated Beyond Reason">
       <characteristicTypes>
-        <characteristicType id="be9e-2b06-438b-d717" name="Effect"/>
+        <characteristicType id="be9e-2b06-438b-d717" name="效果"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
@@ -120,7 +120,7 @@
     <entryLink id="d1fc-3f04-5d42-cda6" name="恶魔王子" hidden="false" collective="false" import="true" targetId="4445-6367-dac4-307a" type="selectionEntry"/>
     <entryLink id="d969-855b-434d-1b85" name="Felthius&apos; Cohort" hidden="false" collective="false" import="true" targetId="dd30-03a4-3c18-4c5c" type="selectionEntry"/>
     <entryLink id="ef76-cc34-c5a1-3bcd" name="Necrosius the Undying" hidden="false" collective="false" import="true" targetId="8e02-debd-f5af-3d20" type="selectionEntry"/>
-    <entryLink id="570c-1ef0-2477-00af" name="Gifts of Decay (1 Relic)" hidden="false" collective="false" import="true" targetId="7906-7754-69cd-1c2c" type="selectionEntry"/>
+    <entryLink id="570c-1ef0-2477-00af" name="Gifts of Decay (1 圣物)" hidden="false" collective="false" import="true" targetId="7906-7754-69cd-1c2c" type="selectionEntry"/>
     <entryLink id="feb0-0814-f4a6-4665" name="Gifts of Decay (2 Relics)" hidden="false" collective="false" import="true" targetId="fe51-f3fa-7a36-7dcd" type="selectionEntry"/>
     <entryLink id="1599-0b89-ecb2-60b8" name="Mamon Transfigured" hidden="false" collective="false" import="true" targetId="ef5e-8c5d-1f82-96a3" type="selectionEntry"/>
     <entryLink id="723f-8b9a-03f1-ccc6" name="兰德掠袭者 Variant (Open Play)" hidden="false" collective="false" import="true" targetId="5ea6-c789-f6b9-5c00" type="selectionEntry">
@@ -215,7 +215,7 @@
         <categoryLink id="63ea-fae9-84b1-b1ff" name="阵营: 纳垢" hidden="false" targetId="0fb6-fcaf-b180-5dda" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="392f-387d-90d8-c2e5" name="Hellforged Dreadclaw Drop Pod" hidden="false" collective="false" import="true" targetId="f5b8-443f-f85c-90f1" type="selectionEntry">
+    <entryLink id="392f-387d-90d8-c2e5" name="Hellforged Dreadclaw 空降舱" hidden="false" collective="false" import="true" targetId="f5b8-443f-f85c-90f1" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="8261-e3e6-6d73-9af8" name="阵营: 死亡守卫" hidden="false" targetId="8308-6393-0ce1-4bf9" primary="false"/>
         <categoryLink id="4279-adab-a7ce-9b08" name="阵营: 纳垢" hidden="false" targetId="0fb6-fcaf-b180-5dda" primary="false"/>
@@ -339,7 +339,7 @@
 • The firing model’s target is 范围内 half the weapon’s maximum range.
 • The firing 模型 is 步兵 and every 模型 in its 单位 remained stationary in your previous 移动阶段.
 • The firing 模型 is a 终结者, 摩托, 百夫长, 无畏 or HELBRUTE.
-For the purposes of this ability, a 速射爆弹武器 is any weapon with the 速射 type whose profile includes the word ‘bolt’ (e.g. 爆弹枪, 爆弹步枪, 风暴爆弹, 复合爆弹, 飓风爆弹, 地狱爆弹枪, etc.). This also applies when firing the 爆弹枪 profile of 复合武器 (including the 爆弹武器 profile of Relics such as Blood Song and the Lion’s Wrath) and when firing relics that replace a 速射爆弹武器, so long as the relic is also a 速射武器 (e.g. Primarch’s Wrath and Fury of Deimos). The Gauntlets of Ultramar and the Talon of Horus are also 速射爆弹武器, as is the 卫士之矛 used by Deathwatch Watch Masters.</description>
+For the purposes of this ability, a 速射爆弹武器 is any weapon with the 速射 type whose profile includes the word ‘bolt’ (e.g. 爆弹枪, 爆弹步枪, 风暴爆弹, 复合爆弹, 飓风爆弹, 地狱爆弹枪, etc.). This also applies when firing the 爆弹枪 profile of 复合武器 (including the 爆弹武器 profile of Relics such as Blood Song and the Lion’s Wrath) and when firing relics that replace a 速射爆弹武器, so long as the 圣物 is also a 速射武器 (e.g. Primarch’s Wrath and Fury of Deimos). The Gauntlets of Ultramar and the Talon of Horus are also 速射爆弹武器, as is the 卫士之矛 used by Deathwatch Watch Masters.</description>
     </rule>
   </rules>
   <infoLinks>
@@ -565,17 +565,17 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
         </profile>
         <profile id="9e91-14bf-fa7f-4865" name="1 - Razor Claws" hidden="false" typeId="6c48-3f8e-adc6-e417" typeName="Mutated Beyond Reason">
           <characteristics>
-            <characteristic name="Effect" typeId="be9e-2b06-438b-d717">The hideous mutations of all Chaos Spawn in the 单位 have an AP of -4 until the end of the 肉搏阶段.</characteristic>
+            <characteristic name="效果" typeId="be9e-2b06-438b-d717">The hideous mutations of all Chaos Spawn in the 单位 have an AP of -4 until the end of the 肉搏阶段.</characteristic>
           </characteristics>
         </profile>
         <profile id="1291-662a-a28e-fb22" name="2 - Grasping Pseudopods" hidden="false" typeId="6c48-3f8e-adc6-e417" typeName="Mutated Beyond Reason">
           <characteristics>
-            <characteristic name="Effect" typeId="be9e-2b06-438b-d717">Each Chaos Spawn in the 单位 adds 2 to its 攻击 characteristic until the end of the 肉搏阶段.</characteristic>
+            <characteristic name="效果" typeId="be9e-2b06-438b-d717">Each Chaos Spawn in the 单位 adds 2 to its 攻击 characteristic until the end of the 肉搏阶段.</characteristic>
           </characteristics>
         </profile>
         <profile id="ec27-ba38-6234-b5f5" name="3 - Toxic Haemorrhage" hidden="false" typeId="6c48-3f8e-adc6-e417" typeName="Mutated Beyond Reason">
           <characteristics>
-            <characteristic name="Effect" typeId="be9e-2b06-438b-d717">可以重投失败的造伤骰 for 这个单位 until the end of the 肉搏阶段.</characteristic>
+            <characteristic name="效果" typeId="be9e-2b06-438b-d717">可以重投失败的造伤骰 for 这个单位 until the end of the 肉搏阶段.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2418,7 +2418,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 hits on hit rolls of 5+ (even when firing Overwatch), regardless of any modifiers.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 hits on hit rolls of 5+ (even when firing 坚守射击), regardless of any modifiers.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3293,20 +3293,20 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
         </profile>
         <profile id="99ba-86d7-afd7-dc23" name="Gift of Contagion 1" hidden="false" typeId="df7f-89aa-8f5b-9d81" typeName="Gift of Contagion table">
           <characteristics>
-            <characteristic name="D3 Roll" typeId="cd06-e404-83c7-28c2">1</characteristic>
-            <characteristic name="Effect" typeId="04da-4341-1718-541a">Flyblown Palsy: -1 Attack</characteristic>
+            <characteristic name="D3投掷" typeId="cd06-e404-83c7-28c2">1</characteristic>
+            <characteristic name="效果" typeId="04da-4341-1718-541a">Flyblown Palsy: -1 Attack</characteristic>
           </characteristics>
         </profile>
         <profile id="0647-d548-277b-1b57" name="Gift of Contagion 2" hidden="false" typeId="df7f-89aa-8f5b-9d81" typeName="Gift of Contagion table">
           <characteristics>
-            <characteristic name="D3 Roll" typeId="cd06-e404-83c7-28c2">2</characteristic>
-            <characteristic name="Effect" typeId="04da-4341-1718-541a">Muscular Atrophy: -1 Strength</characteristic>
+            <characteristic name="D3投掷" typeId="cd06-e404-83c7-28c2">2</characteristic>
+            <characteristic name="效果" typeId="04da-4341-1718-541a">Muscular Atrophy: -1 Strength</characteristic>
           </characteristics>
         </profile>
         <profile id="c0c1-9c30-3a4c-f850" name="Gift of Contagion 3" hidden="false" typeId="df7f-89aa-8f5b-9d81" typeName="Gift of Contagion table">
           <characteristics>
-            <characteristic name="D3 Roll" typeId="cd06-e404-83c7-28c2">3</characteristic>
-            <characteristic name="Effect" typeId="04da-4341-1718-541a">Liquefying Ague: -1 Toughness</characteristic>
+            <characteristic name="D3投掷" typeId="cd06-e404-83c7-28c2">3</characteristic>
+            <characteristic name="效果" typeId="04da-4341-1718-541a">Liquefying Ague: -1 Toughness</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6221,7 +6221,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7906-7754-69cd-1c2c" name="Gifts of Decay (1 Relic)" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="7906-7754-69cd-1c2c" name="Gifts of Decay (1 圣物)" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e574-f1a8-8ab0-d5a0" type="max"/>
       </constraints>

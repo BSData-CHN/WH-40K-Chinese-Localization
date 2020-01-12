@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0cc2-3545-6762-a3f7" name="帝国 - Grey Knights" revision="49" battleScribeVersion="2.03" authorName="BSData-CHN" authorContact="@Tekton" authorUrl="https://github.com/BSData-CHN" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0cc2-3545-6762-a3f7" name="帝国 - Grey Knights" revision="1" battleScribeVersion="2.03" authorName="BSData-CHN" authorContact="@Tekton" authorUrl="https://github.com/BSData-CHN" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="0cc2-3545-pubN71293" name="索引: Imperium 1"/>
     <publication id="0cc2-3545-pubN96526" name="帝国装甲 - 索引: 阿斯塔特修会"/>
@@ -64,7 +64,7 @@
           </constraints>
           <infoLinks>
             <infoLink id="3009-fb70-053d-cc4c" name="Brotherhood of 灵能者" hidden="false" targetId="5a9b-93d7-3e90-9672" type="rule"/>
-            <infoLink id="77eb-4b12-b245-6bd8" name="Knights of Titan" hidden="false" targetId="a26c-3bc4-cd1f-10bf" type="rule"/>
+            <infoLink id="77eb-4b12-b245-6bd8" name="Knights of 泰坦" hidden="false" targetId="a26c-3bc4-cd1f-10bf" type="rule"/>
           </infoLinks>
           <costs>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -127,7 +127,7 @@
     <entryLink id="210b-0941-6039-3965" name="Stormtalon Gunship" hidden="false" collective="false" import="true" targetId="546a-1474-e2e0-989a" type="selectionEntry"/>
     <entryLink id="ef78-5ea8-6010-5d2c" name="Grand Master in Nemesis Dreadknight" hidden="false" collective="false" import="true" targetId="0abf-b3fb-43c9-08d2" type="selectionEntry"/>
     <entryLink id="f1b9-7c3b-b86d-8d26" name="Grey Knight Chaplain" hidden="false" collective="false" import="true" targetId="b6ec-8c15-3e7d-bb6a" type="selectionEntry"/>
-    <entryLink id="daf8-fa3b-af05-b261" name="Armoury of Titan" hidden="false" collective="false" import="true" targetId="887a-2749-e111-629e" type="selectionEntry">
+    <entryLink id="daf8-fa3b-af05-b261" name="Armoury of 泰坦" hidden="false" collective="false" import="true" targetId="887a-2749-e111-629e" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="57f8-03de-f1df-2a43" name="New CategoryLink" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
       </categoryLinks>
@@ -5764,12 +5764,12 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="887a-2749-e111-629e" name="Armoury of Titan" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="887a-2749-e111-629e" name="Armoury of 泰坦" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f06-4f3c-1ca6-a6ef" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="49df-9913-f078-7315" name="Armoury of Titan" hidden="false" collective="false" import="true" targetId="0589-b86f-dfcf-4ea5" type="selectionEntryGroup"/>
+        <entryLink id="49df-9913-f078-7315" name="Armoury of 泰坦" hidden="false" collective="false" import="true" targetId="0589-b86f-dfcf-4ea5" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -6880,13 +6880,13 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="0589-b86f-dfcf-4ea5" name="Armoury of Titan" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="0589-b86f-dfcf-4ea5" name="Armoury of 泰坦" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ecd-61ce-20af-8310" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a2b-9331-85d2-05da" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="38af-c298-4b17-90a7" name="1 Additional Relic" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="38af-c298-4b17-90a7" name="1 Additional 圣物" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -7040,7 +7040,7 @@
           </constraints>
           <rules>
             <rule id="e488-789a-c9df-e6a1" name="5: Nemesis Lord" hidden="false">
-              <description>You can add 1 to the Damage characteristic of your Warlord&apos;s 肉搏武器. If you 主将 wields a Relic of Titan that is a 肉搏武器, chose another 主将 Trait or re-roll this result.</description>
+              <description>You can add 1 to the Damage characteristic of your Warlord&apos;s 肉搏武器. If you 主将 wields a 圣物 of 泰坦 that is a 肉搏武器, chose another 主将 Trait or re-roll this result.</description>
             </rule>
           </rules>
           <costs>
@@ -7125,7 +7125,7 @@
       <description>When 这个单位 manifests the 惩击 psychic power, it only 拥有 range of 3寸, but it inflicts D6 致命伤 而不是 D3 (whether or not the result of the psychic test is more than 10).</description>
     </rule>
     <rule id="75f4-89e6-fc18-2369" name="机魂之力" hidden="false">
-      <description>这个模型 does not suffer the penalty to hit rolls for moving and firing 重型武器.</description>
+      <description>这个模型移动后射击重型武器没有命中惩罚.</description>
     </rule>
     <rule id="31de-fab0-5ddd-b01a" name="爆炸 (D6)" hidden="false">
       <description>如果这个模型W降为0, 投掷1个D6 before removing it from the battlefield and before 上车 模型 下车. 结果为6则爆炸, 每个单位 范围内 6寸 遭受 D6 moral wounds.</description>
@@ -7196,7 +7196,7 @@
     <rule id="514c-89bc-7cc3-597c" name="Spiritual Leaders" hidden="false">
       <description>All 友方 Grey Knights 单位 范围内 6寸 of 这个模型 can use the Chaplains LD 而不是 thier own.</description>
     </rule>
-    <rule id="a26c-3bc4-cd1f-10bf" name="Knights of Titan" publicationId="0cc2-3545-pubN112001" page="96" hidden="false">
+    <rule id="a26c-3bc4-cd1f-10bf" name="Knights of 泰坦" publicationId="0cc2-3545-pubN112001" page="96" hidden="false">
       <description>If your army is Battle-forged, all Troops 单位 in GREY KNIGHTS Detachments gain this ability. Such a 单位 that is 范围内 range of an objective marker (as specified in the mission) controls that objective marker even if there are more 敌方模型 范围内 range of that objective marker. If an 敌方单位 范围内 range of the same objective marker 拥有 similar ability, then the objective marker is controlled by the player who has the most 模型 范围内 range of it as normal.</description>
     </rule>
     <rule id="7157-559f-a8f5-6657" name="Crash and Burn" hidden="false">

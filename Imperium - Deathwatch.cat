@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="203b-f8dd-2a64-2676" name="帝国 - Deathwatch" revision="82" battleScribeVersion="2.03" authorName="BSData-CHN" authorContact="@BSData-CHN" authorUrl="https://github.com/BSData-CHN" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="203b-f8dd-2a64-2676" name="帝国 - Deathwatch" revision="1" battleScribeVersion="2.03" authorName="BSData-CHN" authorContact="@BSData-CHN" authorUrl="https://github.com/BSData-CHN" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="203b-f8dd-pubN65537" name="圣典: Deathwatch"/>
     <publication id="203b-f8dd-pubN98915" name="Chapter Approved 2017"/>
@@ -225,7 +225,7 @@
         <infoLink id="3bf8-5274-4b6b-d0cf" name="爆弹训练" hidden="false" targetId="5a7e-f984-487c-d767" type="rule"/>
       </infoLinks>
     </entryLink>
-    <entryLink id="ed97-00c2-7b8c-1371" name="Armory of the Watch Fortress (1 Relic)" hidden="false" collective="false" import="true" targetId="dabd-ecc7-837d-b625" type="selectionEntry"/>
+    <entryLink id="ed97-00c2-7b8c-1371" name="Armory of the Watch Fortress (1 圣物)" hidden="false" collective="false" import="true" targetId="dabd-ecc7-837d-b625" type="selectionEntry"/>
     <entryLink id="afc3-c2f1-8e80-f87c" name="Armory of the Watch Fortress (2 Relics)" hidden="false" collective="false" import="true" targetId="622b-8747-871b-9cab" type="selectionEntry"/>
     <entryLink id="5642-c3e5-9d47-79dc" name="Chaplain in 终结者 Armor" hidden="false" collective="false" import="true" targetId="c8a9-325a-950f-f888" type="selectionEntry">
       <infoLinks>
@@ -5218,7 +5218,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             <characteristic name="S" typeId="59b1-319e-ec13-d466">0</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">0</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">A shock greande doesn&apos;t inflict any damage. Instead, 每次 a shock grenade hits an 敌方 步兵单位, it is stunned until the end of the turn - it cannot fire 坚守射击 and your opponent must subtract 1 from any hit rolls made for the unit. Second and subsequent hits from a shock grenade have no additional effect.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">A shock greande doesn&apos;t inflict any damage. Instead, 每次 a shock grenade hits an 敌方 步兵单位, it is stunned until the end of the turn - it cannot fire 坚守射击 and your opponent must subtract 1 from any hit rolls made for the unit. Second and subsequent hits from a shock grenade have no additional 效果.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5718,7 +5718,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             <characteristic name="S" typeId="59b1-319e-ec13-d466">0</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">0</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">A shock greande doesn&apos;t inflict any damage. Instead, 每次 a shock grenade hits an 敌方 步兵单位, it is stunned until the end of the turn - it cannot fire 坚守射击 and your opponent must subtract 1 from any hit rolls made for the unit. Second and subsequent hits from a shock grenade have no additional effect.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">A shock greande doesn&apos;t inflict any damage. Instead, 每次 a shock grenade hits an 敌方 步兵单位, it is stunned until the end of the turn - it cannot fire 坚守射击 and your opponent must subtract 1 from any hit rolls made for the unit. Second and subsequent hits from a shock grenade have no additional 效果.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5728,7 +5728,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3e51-549b-82eb-e555" name="Deathwatch Relic" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="3e51-549b-82eb-e555" name="Deathwatch 圣物" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="8793-7dbb-2346-95f1" value="2">
           <conditions>
@@ -5780,7 +5780,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="dabd-ecc7-837d-b625" name="Armory of the Watch Fortress (1 Relic)" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="dabd-ecc7-837d-b625" name="Armory of the Watch Fortress (1 圣物)" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0861-995d-37fd-b2f9" type="max"/>
       </constraints>
@@ -5881,7 +5881,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
       <profiles>
         <profile id="67b9-35e3-7bf2-279d" name="Castellan of the Black Vault" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the Damage characteristic of one weapon carried by your 主将. Note that this 不能 a Relic of the Vigilant, and does not affect a weapon using the Banebolts of Eryxia</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the Damage characteristic of one weapon carried by your 主将. Note that this 不能 a 圣物 of the Vigilant, and does not affect a weapon using the Banebolts of Eryxia</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7573,7 +7573,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
               <characteristics>
                 <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">7</characteristic>
                 <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">3D6寸</characteristic>
-                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, roll 3D6 and select a 可见 敌方单位 范围内 that many inches of the 灵能者 (if no 敌方模型 are 范围内 range, this power has no further effect). Draw an imaginary straight line between the 灵能者 and that model; each 敌方单位 that this line passes over or through 遭受 1点致命伤.</characteristic>
+                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, roll 3D6 and select a 可见 敌方单位 范围内 that many inches of the 灵能者 (if no 敌方模型 are 范围内 range, this power has no further 效果). Draw an imaginary straight line between the 灵能者 and that model; each 敌方单位 that this line passes over or through 遭受 1点致命伤.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8172,7 +8172,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             </profile>
           </profiles>
           <entryLinks>
-            <entryLink id="7806-03a8-cd4b-5f6b" name="Deathwatch Relic" hidden="false" collective="false" import="true" targetId="3e51-549b-82eb-e555" type="selectionEntry"/>
+            <entryLink id="7806-03a8-cd4b-5f6b" name="Deathwatch 圣物" hidden="false" collective="false" import="true" targetId="3e51-549b-82eb-e555" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -8192,7 +8192,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             </profile>
           </profiles>
           <entryLinks>
-            <entryLink id="63e5-5347-e887-97a0" name="Deathwatch Relic" hidden="false" collective="false" import="true" targetId="3e51-549b-82eb-e555" type="selectionEntry"/>
+            <entryLink id="63e5-5347-e887-97a0" name="Deathwatch 圣物" hidden="false" collective="false" import="true" targetId="3e51-549b-82eb-e555" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -8219,7 +8219,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             </profile>
           </profiles>
           <entryLinks>
-            <entryLink id="15dd-2bed-04d4-7bc7" name="Deathwatch Relic" hidden="false" collective="false" import="true" targetId="3e51-549b-82eb-e555" type="selectionEntry"/>
+            <entryLink id="15dd-2bed-04d4-7bc7" name="Deathwatch 圣物" hidden="false" collective="false" import="true" targetId="3e51-549b-82eb-e555" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -8246,7 +8246,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             </profile>
           </profiles>
           <entryLinks>
-            <entryLink id="9f9b-b2c6-7dc4-0d38" name="Deathwatch Relic" hidden="false" collective="false" import="true" targetId="3e51-549b-82eb-e555" type="selectionEntry"/>
+            <entryLink id="9f9b-b2c6-7dc4-0d38" name="Deathwatch 圣物" hidden="false" collective="false" import="true" targetId="3e51-549b-82eb-e555" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -8266,7 +8266,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             </profile>
           </profiles>
           <entryLinks>
-            <entryLink id="4df2-e2b4-8528-0808" name="Deathwatch Relic" hidden="false" collective="false" import="true" targetId="3e51-549b-82eb-e555" type="selectionEntry"/>
+            <entryLink id="4df2-e2b4-8528-0808" name="Deathwatch 圣物" hidden="false" collective="false" import="true" targetId="3e51-549b-82eb-e555" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -8298,7 +8298,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             </profile>
           </profiles>
           <entryLinks>
-            <entryLink id="75d3-d8bc-71c4-458e" name="Deathwatch Relic" hidden="false" collective="false" import="true" targetId="3e51-549b-82eb-e555" type="selectionEntry"/>
+            <entryLink id="75d3-d8bc-71c4-458e" name="Deathwatch 圣物" hidden="false" collective="false" import="true" targetId="3e51-549b-82eb-e555" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>

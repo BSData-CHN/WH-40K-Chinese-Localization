@@ -2399,17 +2399,17 @@
         </profile>
         <profile id="abe7-f841-acc8-c3f4" name="Landing Pad Configuration" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Units can move across 这个模型 as if it were a terrain feature. When 这个模型 is set up 战场上, select either the Shielded or Unfurled configuration to be in effect. At the start of your 移动阶段, if there are no 敌方模型 范围内 1寸 of the Skyshield Landing Pad, you can change which configuration is in effect:</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Units can move across 这个模型 as if it were a terrain feature. When 这个模型 is set up 战场上, select either the Shielded or Unfurled configuration to be in 效果. At the start of your 移动阶段, if there are no 敌方模型 范围内 1寸 of the Skyshield Landing Pad, you can change which configuration is in 效果:</characteristic>
           </characteristics>
         </profile>
         <profile id="c01d-4736-944f-b007" name="Shielded" hidden="false" typeId="002f-cc4a-c4e3-0261" typeName="登陆平台配置">
           <characteristics>
-            <characteristic name="影响" typeId="f566-bacc-9414-7661">Whilst this configuration is in effect, 模型 that are on top of the Skyshield Landing Pad have a 5+ 特殊保护 对抗 any 攻击 made in the 射击阶段 if the attacking 模型 is not also on top of the Skyshield Landing Pad. The Skyshield Landing Pad itself does not receive an 特殊保护 in this manner.</characteristic>
+            <characteristic name="影响" typeId="f566-bacc-9414-7661">Whilst this configuration is in 效果, 模型 that are on top of the Skyshield Landing Pad have a 5+ 特殊保护 对抗 any 攻击 made in the 射击阶段 if the attacking 模型 is not also on top of the Skyshield Landing Pad. The Skyshield Landing Pad itself does not receive an 特殊保护 in this manner.</characteristic>
           </characteristics>
         </profile>
         <profile id="c1ed-3585-4739-2266" name="Unfurled" hidden="false" typeId="002f-cc4a-c4e3-0261" typeName="登陆平台配置">
           <characteristics>
-            <characteristic name="影响" typeId="f566-bacc-9414-7661">Whilst this configuration is in effect, if a 友方 载具 单位 with the FLYER Battlefield Role spends its entire turn on top of a Skyshield Landing Pad in this configuration, that 模型 regains 至多 D3 lost wounds at the end of the turn.</characteristic>
+            <characteristic name="影响" typeId="f566-bacc-9414-7661">Whilst this configuration is in 效果, if a 友方 载具 单位 with the FLYER Battlefield Role spends its entire turn on top of a Skyshield Landing Pad in this configuration, that 模型 regains 至多 D3 lost wounds at the end of the turn.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4630,7 +4630,7 @@
         </profile>
         <profile id="0fff-6dcb-d884-e8df" name="Webway Strike" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">After you set up 这个模型, any AELDARI 单位 you have not yet set up 部署期间, other than fortifications, can be set up in a webway spar rather than being set up 战场上. One 单位 in a webway spar can emerge from each 友方 Webway Gate at the end of each of your 移动阶段 - Set them up wholly 范围内 3寸 of the webway gate and more than 9寸 away from 任何敌方模型. If all friendlyWebway Gates have been destroyed, 任何单位 that have not yet arrived from a webway spar are considered to be slain</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">After you set up 这个模型, any 艾尔达 单位 you have not yet set up 部署期间, other than fortifications, can be set up in a webway spar rather than being set up 战场上. One 单位 in a webway spar can emerge from each 友方 Webway Gate at the end of each of your 移动阶段 - Set them up wholly 范围内 3寸 of the webway gate and more than 9寸 away from 任何敌方模型. If all friendlyWebway Gates have been destroyed, 任何单位 that have not yet arrived from a webway spar are considered to be slain</characteristic>
           </characteristics>
         </profile>
         <profile id="1b16-1941-d120-15ee" name="Webway Gate" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -4756,7 +4756,7 @@
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 does not suffer the penalty to hit rolls for moving and firing 重型武器.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型移动后射击重型武器没有命中惩罚.</characteristic>
           </characteristics>
         </profile>
         <profile id="2ee8-19c2-86f5-2169" name="兰德掠袭者" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
@@ -6289,7 +6289,7 @@
                   <profiles>
                     <profile id="96c5-a669-528a-1d64" name="26: Defensive Fighter" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When 这个模型 fires Overwatch, it successfully hits on rolls of 5 or 6, 而不是 only 6.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When 这个模型 fires 坚守射击, it successfully hits on rolls of 5 or 6, 而不是 only 6.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7922,7 +7922,7 @@
       <description>The 5 CPs from this detachment can only be spent on Stronghold Assault Stratagems.</description>
     </rule>
     <rule id="5a7e-f984-487c-d767" name="爆弹训练" publicationId="28ec-711c-pubN110542" hidden="false">
-      <description>All 阿斯塔特修会 and 阿斯塔特叛军 模型 gain this ability. 而不是 following the normal rules for 速射 武器, 速射爆弹武器 used by 模型 with this ability make double the number of 攻击 if any of the following conditions apply: 1) The firing 模型的 target is 范围内 half the weapon&apos;s maximum range. 2)    The firing 模型 is 步兵 and every 模型 in its 单位 remained stationary in your previous 移动阶段. 3) The firing 模型 is a 终结者, 摩托, 百夫长, or 无畏. For the purposes of this ability a 速射爆弹武器 is any weapon with the 速射 type whose name includes the word &apos;bolt&apos; (e.g. 爆弹枪, 爆弹步枪, 风暴爆弹, 复合爆弹, 飓风爆弹, 地狱爆弹枪, etc.) This also applies when firing the 爆弹枪 profile of a combi-weapon (including the 爆弹武器 profile of Relics such as Blood Song and the Lion&apos;s Wrath) and when firing relics that replace a 速射爆弹武器, so long as the relic is also a rapid-fire weapon (e.g. Primarch&apos;s Wrath, Fury of Deimos, etc) The gauntlets of ultramar and the Talon of Horus are also considered 速射爆弹武器, as is the 卫士之矛 used by Deathwatch Watch Masters.</description>
+      <description>All 阿斯塔特修会 and 阿斯塔特叛军 模型 gain this ability. 而不是 following the normal rules for 速射 武器, 速射爆弹武器 used by 模型 with this ability make double the number of 攻击 if any of the following conditions apply: 1) The firing 模型的 target is 范围内 half the weapon&apos;s maximum range. 2)    The firing 模型 is 步兵 and every 模型 in its 单位 remained stationary in your previous 移动阶段. 3) The firing 模型 is a 终结者, 摩托, 百夫长, or 无畏. For the purposes of this ability a 速射爆弹武器 is any weapon with the 速射 type whose name includes the word &apos;bolt&apos; (e.g. 爆弹枪, 爆弹步枪, 风暴爆弹, 复合爆弹, 飓风爆弹, 地狱爆弹枪, etc.) This also applies when firing the 爆弹枪 profile of a combi-weapon (including the 爆弹武器 profile of Relics such as Blood Song and the Lion&apos;s Wrath) and when firing relics that replace a 速射爆弹武器, so long as the 圣物 is also a rapid-fire weapon (e.g. Primarch&apos;s Wrath, Fury of Deimos, etc) The gauntlets of ultramar and the Talon of Horus are also considered 速射爆弹武器, as is the 卫士之矛 used by Deathwatch Watch Masters.</description>
     </rule>
     <rule id="01a4-bec8-b573-fde7" name="死亡天使" hidden="false">
       <description>这个单位 has the following abilities: And They Shall Know No Fear, Bolter Discipline, Shock Assault and Combat Doctrines.’</description>
