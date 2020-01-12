@@ -10,7 +10,7 @@
     <categoryEntry id="b0c7-cff4-f82b-2007" name="阵营: Servants of the Abyss" hidden="false"/>
     <categoryEntry id="6140-918a-372e-e4c8" name="混沌领主" hidden="false"/>
     <categoryEntry id="2cd3-3a95-3ba5-f6a8" name="Obsidius Mallex" hidden="false"/>
-    <categoryEntry id="2c15-9ceb-667c-b09a" name="Rogue Psyker" hidden="false"/>
+    <categoryEntry id="2c15-9ceb-667c-b09a" name="Rogue 灵能者" hidden="false"/>
     <categoryEntry id="3b97-0693-7ef2-a209" name="Negavolt Cultists" hidden="false"/>
     <categoryEntry id="4fe7-7414-b7a9-6632" name="混沌 Space Marines" hidden="false"/>
     <categoryEntry id="f435-306a-dc02-a1ff" name="Black Legionnaires" hidden="false"/>
@@ -104,7 +104,7 @@
   </selectionEntries>
   <entryLinks>
     <entryLink id="254c-526d-2d8b-1a4b" name="Obsidius Mallex" hidden="false" collective="false" import="true" targetId="25bc-f094-37a2-21fe" type="selectionEntry"/>
-    <entryLink id="2cad-26fa-a45d-3995" name="Rogue Psyker" hidden="false" collective="false" import="true" targetId="ff93-aa12-825c-1a53" type="selectionEntry">
+    <entryLink id="2cad-26fa-a45d-3995" name="Rogue 灵能者" hidden="false" collective="false" import="true" targetId="ff93-aa12-825c-1a53" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -116,7 +116,7 @@
         <categoryLink id="571f-505f-27f6-3ff7" name="Elites" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="5f1a-c55d-2661-8c57" name="Rogue Psyker" hidden="false" collective="false" import="true" targetId="ff93-aa12-825c-1a53" type="selectionEntry">
+    <entryLink id="5f1a-c55d-2661-8c57" name="Rogue 灵能者" hidden="false" collective="false" import="true" targetId="ff93-aa12-825c-1a53" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -272,12 +272,12 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ff93-aa12-825c-1a53" name="Rogue Psyker" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="ff93-aa12-825c-1a53" name="Rogue 灵能者" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6373-4635-23e3-b08c" type="max"/>
       </constraints>
       <profiles>
-        <profile id="d6d5-b7fe-dc1a-b07f" name="Rogue Psyker" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="d6d5-b7fe-dc1a-b07f" name="Rogue 灵能者" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6寸</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
@@ -295,11 +295,11 @@
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll any dice rolls of 1 when taking a psychic test for 这个模型. However, 这个模型 遭受 Perils of the Warp on any psychic test that is a double, not just a double 1 or double 6.</characteristic>
           </characteristics>
         </profile>
-        <profile id="59e4-9f21-7e7e-2079" name="Rogue Psyker" hidden="false" typeId="bc97-dea9-9e88-bb7d" typeName="Psyker">
+        <profile id="59e4-9f21-7e7e-2079" name="Rogue 灵能者" hidden="false" typeId="bc97-dea9-9e88-bb7d" typeName="灵能者">
           <characteristics>
             <characteristic name="Cast" typeId="5afb-9914-904b-d3b3">1</characteristic>
             <characteristic name="Deny" typeId="b5ac-9c20-5d5a-6f9b">1</characteristic>
-            <characteristic name="Powers Known" typeId="69d7-b45e-00a2-7e46">Smite</characteristic>
+            <characteristic name="Powers Known" typeId="69d7-b45e-00a2-7e46">惩击</characteristic>
             <characteristic name="Other" typeId="c2e2-f115-0003-5d7b">-</characteristic>
           </characteristics>
         </profile>
@@ -313,8 +313,8 @@
         <categoryLink id="25df-62d3-0bef-53c2" name="阵营: Servants of the Abyss" hidden="false" targetId="b0c7-cff4-f82b-2007" primary="false"/>
         <categoryLink id="7471-c052-1e47-8aa7" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
         <categoryLink id="87f2-5f18-16b5-c229" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
-        <categoryLink id="b239-55eb-60ae-724f" name="Psyker" hidden="false" targetId="e691-aad7-d21c-1023" primary="false"/>
-        <categoryLink id="73b0-b485-9ea0-0065" name="Rogue Psyker" hidden="false" targetId="2c15-9ceb-667c-b09a" primary="false"/>
+        <categoryLink id="b239-55eb-60ae-724f" name="灵能者" hidden="false" targetId="e691-aad7-d21c-1023" primary="false"/>
+        <categoryLink id="73b0-b485-9ea0-0065" name="Rogue 灵能者" hidden="false" targetId="2c15-9ceb-667c-b09a" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="145b-6acf-d82b-232d" name="混沌 stave" hidden="false" collective="false" import="true" type="upgrade">
@@ -342,7 +342,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="de83-ca3b-6f6e-bf9c" name="Smite" hidden="false" collective="false" import="true" targetId="03fd-db47-5333-1e1f" type="selectionEntry">
+        <entryLink id="de83-ca3b-6f6e-bf9c" name="惩击" hidden="false" collective="false" import="true" targetId="03fd-db47-5333-1e1f" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0b0-4b18-5398-8602" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7724-1a6e-b76d-e93e" type="max"/>
@@ -590,7 +590,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12e6-a853-23bb-c9dc" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="0597-1821-6409-5f56" name="Frag grenade" hidden="false" collective="false" import="true" targetId="f68e-9984-71fe-6bca" type="selectionEntry">
+            <entryLink id="0597-1821-6409-5f56" name="破片手雷" hidden="false" collective="false" import="true" targetId="f68e-9984-71fe-6bca" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0254-afe8-65bd-8b4e" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b6e-d139-788c-0113" type="max"/>
@@ -609,7 +609,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2769-c0fa-1642-1950" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="068c-4f01-102b-a1d5" name="Flamer" hidden="false" collective="false" import="true" targetId="fd22-6743-2d4c-dd62" type="selectionEntry">
+            <entryLink id="068c-4f01-102b-a1d5" name="喷火器" hidden="false" collective="false" import="true" targetId="fd22-6743-2d4c-dd62" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="points" value="0.0"/>
               </modifiers>
@@ -618,7 +618,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8034-cd8e-80ec-7ec9" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="bdd5-2ff4-0fba-724c" name="Frag grenade" hidden="false" collective="false" import="true" targetId="f68e-9984-71fe-6bca" type="selectionEntry">
+            <entryLink id="bdd5-2ff4-0fba-724c" name="破片手雷" hidden="false" collective="false" import="true" targetId="f68e-9984-71fe-6bca" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c48f-68b1-8af4-7a86" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af21-dfc7-b1c5-dd8e" type="max"/>
@@ -657,7 +657,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89d0-fc5d-f6f8-ba7f" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="cbcd-8694-c2b0-20a0" name="Frag grenade" hidden="false" targetId="fdd8-1a5f-5722-d6ee" type="profile"/>
+                <infoLink id="cbcd-8694-c2b0-20a0" name="破片手雷" hidden="false" targetId="fdd8-1a5f-5722-d6ee" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -698,7 +698,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e0b-db70-b3e7-45b1" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="d7d0-1102-7d17-6645" name="Frag grenade" hidden="false" targetId="fdd8-1a5f-5722-d6ee" type="profile"/>
+                <infoLink id="d7d0-1102-7d17-6645" name="破片手雷" hidden="false" targetId="fdd8-1a5f-5722-d6ee" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -708,7 +708,7 @@
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink id="7dbb-900d-2f28-636a" name="Krak grenade" hidden="false" collective="false" import="true" targetId="0f23-cd69-d106-371e" type="selectionEntry">
+            <entryLink id="7dbb-900d-2f28-636a" name="穿甲手雷" hidden="false" collective="false" import="true" targetId="0f23-cd69-d106-371e" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9596-978e-5f7a-1944" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07bc-caaf-763a-c5f8" type="max"/>
@@ -756,7 +756,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8261-f4d5-d738-b1ee" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="6b96-b693-4edd-058e" name="Frag grenade" hidden="false" targetId="fdd8-1a5f-5722-d6ee" type="profile"/>
+                <infoLink id="6b96-b693-4edd-058e" name="破片手雷" hidden="false" targetId="fdd8-1a5f-5722-d6ee" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>

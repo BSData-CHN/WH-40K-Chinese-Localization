@@ -3,14 +3,14 @@
   <publications>
     <publication id="28ec-711c-pubN72690" name="Warhammer 40,000 Rulebook"/>
     <publication id="28ec-711c-pubN73170" name="CA 2017"/>
-    <publication id="28ec-711c-pubN77581" name="Index: Imperium 2"/>
-    <publication id="28ec-711c-pubN78977" name="Index: Imperium 1"/>
-    <publication id="28ec-711c-pubN91434" name="Imperial Armour - Index: Astra Militarum"/>
+    <publication id="28ec-711c-pubN77581" name="索引: Imperium 2"/>
+    <publication id="28ec-711c-pubN78977" name="索引: Imperium 1"/>
+    <publication id="28ec-711c-pubN91434" name="帝国装甲 - 索引: Astra Militarum"/>
     <publication id="28ec-711c-pubN97206" name="warhammer_40000_termite_assault_drill_en-2.pdf"/>
-    <publication id="28ec-711c-pubN98266" name="Imperium Nihilus: Vigilus Defiant"/>
-    <publication id="28ec-711c-pubN110542" name="White Dwarf Feb 2019"/>
+    <publication id="28ec-711c-pubN98266" name="帝国 Nihilus: Vigilus Defiant"/>
+    <publication id="28ec-711c-pubN110542" name="白矮人 Feb 2019"/>
     <publication id="28ec-711c-pubN113754" name="Stronghold Assault"/>
-    <publication id="28ec-711c-pubN118139" name="Index: Xenos 2"/>
+    <publication id="28ec-711c-pubN118139" name="索引: Xenos 2"/>
     <publication id="82b3-73d0-72b2-3180" name="Warhammer 40,000 Update - April 2019"/>
     <publication id="2ec0-6d53-e36b-9895" name="CA 2018"/>
     <publication id="5b08-09e5-a80a-fd67" name="Psychic Awakening - Phoenix Rising"/>
@@ -231,7 +231,7 @@
           </constraints>
         </categoryLink>
         <categoryLink id="9b48-cd5f-3949-adc6" name="主将" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
-        <categoryLink id="a8d7-367a-2dfd-6b79" name="圣物 Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
+        <categoryLink id="a8d7-367a-2dfd-6b79" name="圣物Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
           <modifiers>
             <modifier type="increment" field="54d4-89c3-38b6-8877" value="1">
               <repeats>
@@ -248,7 +248,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="54d4-89c3-38b6-8877" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="c5d5-0449-f57d-550d" name="圣物 Heavy Support" hidden="false" targetId="6c4c-a416-b8cb-c380" primary="false">
+        <categoryLink id="c5d5-0449-f57d-550d" name="圣物Heavy Support" hidden="false" targetId="6c4c-a416-b8cb-c380" primary="false">
           <modifiers>
             <modifier type="increment" field="9dff-5b31-a31d-ddf2" value="1">
               <repeats>
@@ -265,7 +265,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9dff-5b31-a31d-ddf2" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="c094-1b6f-b2e9-21ba" name="圣物 HQ" hidden="false" targetId="655f-e142-dfa9-11a4" primary="false">
+        <categoryLink id="c094-1b6f-b2e9-21ba" name="圣物HQ" hidden="false" targetId="655f-e142-dfa9-11a4" primary="false">
           <modifiers>
             <modifier type="increment" field="8d95-029f-78db-83ae" value="1">
               <repeats>
@@ -351,7 +351,7 @@
           </constraints>
         </categoryLink>
         <categoryLink id="70a3-5965-8dfd-0dff" name="主将" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
-        <categoryLink id="f91f-9faa-2dff-6fbb" name="圣物 Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
+        <categoryLink id="f91f-9faa-2dff-6fbb" name="圣物Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
           <modifiers>
             <modifier type="increment" field="54d4-89c3-38b6-8877" value="1">
               <repeats>
@@ -368,7 +368,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="54d4-89c3-38b6-8877" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="8174-cdef-2342-bdd2" name="圣物 Heavy Support" hidden="false" targetId="6c4c-a416-b8cb-c380" primary="false">
+        <categoryLink id="8174-cdef-2342-bdd2" name="圣物Heavy Support" hidden="false" targetId="6c4c-a416-b8cb-c380" primary="false">
           <modifiers>
             <modifier type="increment" field="9dff-5b31-a31d-ddf2" value="1">
               <repeats>
@@ -385,7 +385,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9dff-5b31-a31d-ddf2" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="f6a9-c625-86c9-7614" name="圣物 HQ" hidden="false" targetId="655f-e142-dfa9-11a4" primary="false">
+        <categoryLink id="f6a9-c625-86c9-7614" name="圣物HQ" hidden="false" targetId="655f-e142-dfa9-11a4" primary="false">
           <modifiers>
             <modifier type="increment" field="8d95-029f-78db-83ae" value="1">
               <repeats>
@@ -474,7 +474,7 @@
           </constraints>
         </categoryLink>
         <categoryLink id="b505-6d2b-bb65-191e" name="主将" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
-        <categoryLink id="386d-9c19-e897-b48e" name="圣物 Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
+        <categoryLink id="386d-9c19-e897-b48e" name="圣物Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
           <modifiers>
             <modifier type="increment" field="54d4-89c3-38b6-8877" value="1">
               <repeats>
@@ -491,7 +491,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="54d4-89c3-38b6-8877" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="d9cb-8644-0367-f245" name="圣物 Heavy Support" hidden="false" targetId="6c4c-a416-b8cb-c380" primary="false">
+        <categoryLink id="d9cb-8644-0367-f245" name="圣物Heavy Support" hidden="false" targetId="6c4c-a416-b8cb-c380" primary="false">
           <modifiers>
             <modifier type="increment" field="9dff-5b31-a31d-ddf2" value="1">
               <repeats>
@@ -508,7 +508,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9dff-5b31-a31d-ddf2" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="bbb8-1fa2-3f91-6a77" name="圣物 HQ" hidden="false" targetId="655f-e142-dfa9-11a4" primary="false">
+        <categoryLink id="bbb8-1fa2-3f91-6a77" name="圣物HQ" hidden="false" targetId="655f-e142-dfa9-11a4" primary="false">
           <modifiers>
             <modifier type="increment" field="8d95-029f-78db-83ae" value="1">
               <repeats>
@@ -594,7 +594,7 @@
           </constraints>
         </categoryLink>
         <categoryLink id="c3f6-3055-bcd0-788b" name="主将" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
-        <categoryLink id="6eb8-3c2f-13e7-17e1" name="圣物 Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
+        <categoryLink id="6eb8-3c2f-13e7-17e1" name="圣物Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
           <modifiers>
             <modifier type="increment" field="54d4-89c3-38b6-8877" value="1">
               <repeats>
@@ -611,7 +611,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="54d4-89c3-38b6-8877" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="8c66-ed10-ee5d-bf81" name="圣物 Heavy Support" hidden="false" targetId="6c4c-a416-b8cb-c380" primary="false">
+        <categoryLink id="8c66-ed10-ee5d-bf81" name="圣物Heavy Support" hidden="false" targetId="6c4c-a416-b8cb-c380" primary="false">
           <modifiers>
             <modifier type="increment" field="9dff-5b31-a31d-ddf2" value="1">
               <repeats>
@@ -628,7 +628,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9dff-5b31-a31d-ddf2" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="5bb0-6e99-04b4-f883" name="圣物 HQ" hidden="false" targetId="655f-e142-dfa9-11a4" primary="false">
+        <categoryLink id="5bb0-6e99-04b4-f883" name="圣物HQ" hidden="false" targetId="655f-e142-dfa9-11a4" primary="false">
           <modifiers>
             <modifier type="increment" field="8d95-029f-78db-83ae" value="1">
               <repeats>
@@ -714,7 +714,7 @@
           </constraints>
         </categoryLink>
         <categoryLink id="0144-c043-6326-c755" name="主将" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
-        <categoryLink id="dff9-8621-e2dd-b4e3" name="圣物 Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
+        <categoryLink id="dff9-8621-e2dd-b4e3" name="圣物Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
           <modifiers>
             <modifier type="increment" field="54d4-89c3-38b6-8877" value="1">
               <repeats>
@@ -731,7 +731,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="54d4-89c3-38b6-8877" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="2a04-69a5-87bc-14fc" name="圣物 Heavy Support" hidden="false" targetId="6c4c-a416-b8cb-c380" primary="false">
+        <categoryLink id="2a04-69a5-87bc-14fc" name="圣物Heavy Support" hidden="false" targetId="6c4c-a416-b8cb-c380" primary="false">
           <modifiers>
             <modifier type="increment" field="9dff-5b31-a31d-ddf2" value="1">
               <repeats>
@@ -748,7 +748,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9dff-5b31-a31d-ddf2" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="2653-3387-463f-c068" name="圣物 HQ" hidden="false" targetId="655f-e142-dfa9-11a4" primary="false">
+        <categoryLink id="2653-3387-463f-c068" name="圣物HQ" hidden="false" targetId="655f-e142-dfa9-11a4" primary="false">
           <modifiers>
             <modifier type="increment" field="8d95-029f-78db-83ae" value="1">
               <repeats>
@@ -834,7 +834,7 @@
           </constraints>
         </categoryLink>
         <categoryLink id="5411-43af-9074-78ae" name="主将" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
-        <categoryLink id="43a0-ffe6-d029-9152" name="圣物 Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
+        <categoryLink id="43a0-ffe6-d029-9152" name="圣物Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
           <modifiers>
             <modifier type="increment" field="54d4-89c3-38b6-8877" value="1">
               <repeats>
@@ -851,7 +851,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="54d4-89c3-38b6-8877" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="b5b0-80f4-016e-51f8" name="圣物 Heavy Support" hidden="false" targetId="6c4c-a416-b8cb-c380" primary="false">
+        <categoryLink id="b5b0-80f4-016e-51f8" name="圣物Heavy Support" hidden="false" targetId="6c4c-a416-b8cb-c380" primary="false">
           <modifiers>
             <modifier type="increment" field="9dff-5b31-a31d-ddf2" value="1">
               <repeats>
@@ -868,7 +868,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9dff-5b31-a31d-ddf2" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="c59f-786c-5f4d-432f" name="圣物 HQ" hidden="false" targetId="655f-e142-dfa9-11a4" primary="false">
+        <categoryLink id="c59f-786c-5f4d-432f" name="圣物HQ" hidden="false" targetId="655f-e142-dfa9-11a4" primary="false">
           <modifiers>
             <modifier type="increment" field="8d95-029f-78db-83ae" value="1">
               <repeats>
@@ -932,7 +932,7 @@
           </constraints>
         </categoryLink>
         <categoryLink id="2421-180e-769d-d51f" name="主将" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
-        <categoryLink id="2e59-df4f-9429-ef1a" name="圣物 Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
+        <categoryLink id="2e59-df4f-9429-ef1a" name="圣物Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
           <modifiers>
             <modifier type="increment" field="54d4-89c3-38b6-8877" value="1">
               <repeats>
@@ -949,7 +949,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="54d4-89c3-38b6-8877" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="c32f-1035-9b39-65de" name="圣物 HQ" hidden="false" targetId="655f-e142-dfa9-11a4" primary="false">
+        <categoryLink id="c32f-1035-9b39-65de" name="圣物HQ" hidden="false" targetId="655f-e142-dfa9-11a4" primary="false">
           <modifiers>
             <modifier type="increment" field="8d95-029f-78db-83ae" value="1">
               <repeats>
@@ -1022,7 +1022,7 @@
           </constraints>
         </categoryLink>
         <categoryLink id="9ca8-4fb9-709b-b9a6" name="主将" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
-        <categoryLink id="5ae3-7417-3751-8480" name="圣物 Lord of War" hidden="false" targetId="3216-79af-660b-7711" primary="false">
+        <categoryLink id="5ae3-7417-3751-8480" name="圣物Lord of War" hidden="false" targetId="3216-79af-660b-7711" primary="false">
           <modifiers>
             <modifier type="increment" field="c99e-bf0a-6e60-819c" value="1">
               <repeats>
@@ -1212,7 +1212,7 @@
           </constraints>
         </categoryLink>
         <categoryLink id="7187-699d-2503-992c" name="主将" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
-        <categoryLink id="f717-1d3f-dd97-4126" name="圣物 Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
+        <categoryLink id="f717-1d3f-dd97-4126" name="圣物Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
           <modifiers>
             <modifier type="increment" field="54d4-89c3-38b6-8877" value="1">
               <repeats>
@@ -1229,7 +1229,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="54d4-89c3-38b6-8877" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="c884-2e22-b770-2ea4" name="圣物 Heavy Support" hidden="false" targetId="6c4c-a416-b8cb-c380" primary="false">
+        <categoryLink id="c884-2e22-b770-2ea4" name="圣物Heavy Support" hidden="false" targetId="6c4c-a416-b8cb-c380" primary="false">
           <modifiers>
             <modifier type="increment" field="9dff-5b31-a31d-ddf2" value="1">
               <repeats>
@@ -1246,7 +1246,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9dff-5b31-a31d-ddf2" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="fba2-4040-ac19-c9f9" name="圣物 HQ" hidden="false" targetId="655f-e142-dfa9-11a4" primary="false">
+        <categoryLink id="fba2-4040-ac19-c9f9" name="圣物HQ" hidden="false" targetId="655f-e142-dfa9-11a4" primary="false">
           <modifiers>
             <modifier type="increment" field="8d95-029f-78db-83ae" value="1">
               <repeats>
@@ -1336,7 +1336,7 @@
           </constraints>
         </categoryLink>
         <categoryLink id="3c3b-27e3-c0b7-b3ee" name="主将" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
-        <categoryLink id="4191-d1fc-fa74-f144" name="圣物 Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
+        <categoryLink id="4191-d1fc-fa74-f144" name="圣物Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
           <modifiers>
             <modifier type="increment" field="54d4-89c3-38b6-8877" value="1">
               <repeats>
@@ -1353,7 +1353,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="54d4-89c3-38b6-8877" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="fee7-452a-1930-e058" name="圣物 Heavy Support" hidden="false" targetId="6c4c-a416-b8cb-c380" primary="false">
+        <categoryLink id="fee7-452a-1930-e058" name="圣物Heavy Support" hidden="false" targetId="6c4c-a416-b8cb-c380" primary="false">
           <modifiers>
             <modifier type="increment" field="9dff-5b31-a31d-ddf2" value="1">
               <repeats>
@@ -1370,7 +1370,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9dff-5b31-a31d-ddf2" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="0711-642a-731c-6618" name="圣物 HQ" hidden="false" targetId="655f-e142-dfa9-11a4" primary="false">
+        <categoryLink id="0711-642a-731c-6618" name="圣物HQ" hidden="false" targetId="655f-e142-dfa9-11a4" primary="false">
           <modifiers>
             <modifier type="increment" field="8d95-029f-78db-83ae" value="1">
               <repeats>
@@ -1460,7 +1460,7 @@
           </constraints>
         </categoryLink>
         <categoryLink id="eed4-ea5f-257c-0699" name="主将" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
-        <categoryLink id="e346-2f51-2beb-4df1" name="圣物 Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
+        <categoryLink id="e346-2f51-2beb-4df1" name="圣物Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
           <modifiers>
             <modifier type="increment" field="54d4-89c3-38b6-8877" value="1">
               <repeats>
@@ -1477,7 +1477,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="54d4-89c3-38b6-8877" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="fc1e-73ca-8982-5ee9" name="圣物 Heavy Support" hidden="false" targetId="6c4c-a416-b8cb-c380" primary="false">
+        <categoryLink id="fc1e-73ca-8982-5ee9" name="圣物Heavy Support" hidden="false" targetId="6c4c-a416-b8cb-c380" primary="false">
           <modifiers>
             <modifier type="increment" field="9dff-5b31-a31d-ddf2" value="1">
               <repeats>
@@ -1494,7 +1494,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9dff-5b31-a31d-ddf2" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="ea6a-5689-5bbb-04fe" name="圣物 HQ" hidden="false" targetId="655f-e142-dfa9-11a4" primary="false">
+        <categoryLink id="ea6a-5689-5bbb-04fe" name="圣物HQ" hidden="false" targetId="655f-e142-dfa9-11a4" primary="false">
           <modifiers>
             <modifier type="increment" field="8d95-029f-78db-83ae" value="1">
               <repeats>
@@ -1590,7 +1590,7 @@
           </constraints>
         </categoryLink>
         <categoryLink id="3e5e-b1fa-a208-60bd" name="主将" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
-        <categoryLink id="414e-4ecb-b1e8-75c3" name="圣物 Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
+        <categoryLink id="414e-4ecb-b1e8-75c3" name="圣物Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
           <modifiers>
             <modifier type="increment" field="54d4-89c3-38b6-8877" value="1">
               <repeats>
@@ -1607,7 +1607,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="54d4-89c3-38b6-8877" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="52e7-ca29-a7fd-9577" name="圣物 Heavy Support" hidden="false" targetId="6c4c-a416-b8cb-c380" primary="false">
+        <categoryLink id="52e7-ca29-a7fd-9577" name="圣物Heavy Support" hidden="false" targetId="6c4c-a416-b8cb-c380" primary="false">
           <modifiers>
             <modifier type="increment" field="9dff-5b31-a31d-ddf2" value="1">
               <repeats>
@@ -1624,7 +1624,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9dff-5b31-a31d-ddf2" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="fe7d-0ab3-77ba-4216" name="圣物 HQ" hidden="false" targetId="655f-e142-dfa9-11a4" primary="false">
+        <categoryLink id="fe7d-0ab3-77ba-4216" name="圣物HQ" hidden="false" targetId="655f-e142-dfa9-11a4" primary="false">
           <modifiers>
             <modifier type="increment" field="8d95-029f-78db-83ae" value="1">
               <repeats>
@@ -1806,7 +1806,7 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="e1b5-aeea-1332-2ba6" name="Automated Weapons (炮架)" hidden="false" targetId="57f6-edd9-6170-5c91" type="profile"/>
+            <infoLink id="e1b5-aeea-1332-2ba6" name="Automated 武器 (炮架)" hidden="false" targetId="57f6-edd9-6170-5c91" type="profile"/>
           </infoLinks>
           <categoryLinks>
             <categoryLink id="9fd3-c4ec-8e01-1949" name="New CategoryLink" hidden="false" targetId="c8fd-783f-3230-493e" primary="false"/>
@@ -1818,8 +1818,8 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9fde-5a10-7c2a-f4d3" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="143e-c847-95e7-8941" name="Icarus Lascannon" hidden="false" collective="false" import="true" targetId="c0a2-9100-e1e5-8bc0" type="selectionEntry"/>
-                <entryLink id="3f88-b691-eea1-9a21" name="Quad-gun" hidden="false" collective="false" import="true" targetId="e4c2-0571-1de7-02e1" type="selectionEntry"/>
+                <entryLink id="143e-c847-95e7-8941" name="Icarus 激光炮" hidden="false" collective="false" import="true" targetId="c0a2-9100-e1e5-8bc0" type="selectionEntry"/>
+                <entryLink id="3f88-b691-eea1-9a21" name="四联-gun" hidden="false" collective="false" import="true" targetId="e4c2-0571-1de7-02e1" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -1874,8 +1874,8 @@
       <infoLinks>
         <infoLink id="cbf3-33ac-73e9-50c7" name="Immobile" hidden="false" targetId="8830-2c9e-ad7e-e57d" type="profile"/>
         <infoLink id="769e-c3f8-d4d9-8c25" name="Fire Points (15)" hidden="false" targetId="298d-b8cf-d3ed-04d8" type="profile"/>
-        <infoLink id="d1b0-0bbd-8997-301b" name="Automated Weapons" hidden="false" targetId="a179-f592-3224-72c9" type="profile"/>
-        <infoLink id="1dcc-a6af-664d-6aa0" name="Explodes (2D6寸 / D6)" hidden="false" targetId="4ab1-b4c4-a404-8c2f" type="profile">
+        <infoLink id="d1b0-0bbd-8997-301b" name="Automated 武器" hidden="false" targetId="a179-f592-3224-72c9" type="profile"/>
+        <infoLink id="1dcc-a6af-664d-6aa0" name="爆炸 (2D6寸 / D6)" hidden="false" targetId="4ab1-b4c4-a404-8c2f" type="profile">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -1922,7 +1922,7 @@
                 </profile>
                 <profile id="14b1-1529-10dd-db95" name="Magazine Explosion (Macro-cannon)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 在载具被移除及任何在这个载具上的模型下车前投掷1个D6. On a 6 its magazine explodes, 每个单位 范围内 2D6寸 遭受 D6 致命伤.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 在载具被移除及任何在这个载具上的模型下车前投掷1个D6. On a 6 its magazine 爆炸, 每个单位 范围内 2D6寸 遭受 D6 致命伤.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1941,7 +1941,7 @@
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">-</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">-</characteristic>
-                    <characteristic name="能力" typeId="837d-5e63-aeb7-1410">这个武器 may target units that are not visible to the bearer, even when firing in accordance with the Automated Weapons ability. Each time you hit the target with 这个武器 it 遭受 D6 致命伤. If a model is wounded but but not slain by this attack, roll another dice; on a 6, the model 遭受 a further D6 致命伤.</characteristic>
+                    <characteristic name="能力" typeId="837d-5e63-aeb7-1410">这个武器 may target units that are not visible to the bearer, even when firing in accordance with the Automated 武器 ability. Each time you hit the target with 这个武器 it 遭受 D6 致命伤. If a model is wounded but but not slain by this attack, roll another dice; on a 6, the model 遭受 a further D6 致命伤.</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="43f6-b40f-134b-8b48" name="Containment Failure" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -1960,7 +1960,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="a66e-a15d-3c96-15b1" name="Heavy bolter (Fortification)" hidden="false" collective="false" import="true" targetId="05be-50b6-5107-9878" type="selectionEntry">
+        <entryLink id="a66e-a15d-3c96-15b1" name="重爆弹 (Fortification)" hidden="false" collective="false" import="true" targetId="05be-50b6-5107-9878" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="points" value="8"/>
           </modifiers>
@@ -1992,13 +1992,13 @@
         </profile>
         <profile id="fbfc-1394-e5aa-dd70" name="Firestorm Redoubt" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
           <characteristics>
-            <characteristic name="容量" typeId="15aa-1916-a38b-d223">这个模型 has a transport capacity of two INFANTRY units, up to a total of 20 models.</characteristic>
+            <characteristic name="容量" typeId="15aa-1916-a38b-d223">这个模型 has a transport capacity of two INFANTRY units, up to a total of 20 模型.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="b11a-a139-6119-52ed" name="Automated Weapons" hidden="false" targetId="a179-f592-3224-72c9" type="profile"/>
-        <infoLink id="0742-2d6a-ef9a-1b79" name="Explodes (2D6寸)" hidden="false" targetId="8e81-7c95-43ba-6e0d" type="profile"/>
+        <infoLink id="b11a-a139-6119-52ed" name="Automated 武器" hidden="false" targetId="a179-f592-3224-72c9" type="profile"/>
+        <infoLink id="0742-2d6a-ef9a-1b79" name="爆炸 (2D6寸)" hidden="false" targetId="8e81-7c95-43ba-6e0d" type="profile"/>
         <infoLink id="84d5-245f-1b88-9f78" name="Immobile" hidden="false" targetId="8830-2c9e-ad7e-e57d" type="profile"/>
         <infoLink id="3561-f63b-9ff0-4d7b" name="Fire Points (10)" hidden="false" targetId="220a-170b-5fd7-36f2" type="profile"/>
       </infoLinks>
@@ -2010,7 +2010,7 @@
         <categoryLink id="fa58-ca2c-b0b5-c6d0" name="New CategoryLink" hidden="false" targetId="9df5-bb14-9326-4108" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="6b20-ef2b-2cd6-222b" name="Turret Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="fb25-ec0f-c484-622b">
+        <selectionEntryGroup id="6b20-ef2b-2cd6-222b" name="Turret 武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="fb25-ec0f-c484-622b">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3346-ddd7-7275-e9d9" type="min"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96ec-64eb-2025-a461" type="max"/>
@@ -2026,7 +2026,7 @@
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5f6-db37-e502-ccda" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="fb25-ec0f-c484-622b" name="Quad Icarus Lascannon" hidden="false" collective="false" import="true" targetId="76b1-73c7-7aef-26d3" type="selectionEntry">
+            <entryLink id="fb25-ec0f-c484-622b" name="四联 Icarus 激光炮" hidden="false" collective="false" import="true" targetId="76b1-73c7-7aef-26d3" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f83-e228-815b-ecbf" type="max"/>
               </constraints>
@@ -2075,13 +2075,13 @@
         </profile>
         <profile id="cf90-f8df-224e-6333" name="Fortress of Redemption" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
           <characteristics>
-            <characteristic name="容量" typeId="15aa-1916-a38b-d223">这个模型 has a transport capacity of 2 INFANTRY units, up to a total of 30 models.</characteristic>
+            <characteristic name="容量" typeId="15aa-1916-a38b-d223">这个模型 has a transport capacity of 2 INFANTRY units, up to a total of 30 模型.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="61db-ee11-8700-123d" name="Explodes (2D6寸 / D6)" hidden="false" targetId="4ab1-b4c4-a404-8c2f" type="profile"/>
-        <infoLink id="7ab9-38c1-031c-2c5c" name="Automated Weapons (Icarus)" hidden="false" targetId="0f50-2ea2-b251-a213" type="profile"/>
+        <infoLink id="61db-ee11-8700-123d" name="爆炸 (2D6寸 / D6)" hidden="false" targetId="4ab1-b4c4-a404-8c2f" type="profile"/>
+        <infoLink id="7ab9-38c1-031c-2c5c" name="Automated 武器 (Icarus)" hidden="false" targetId="0f50-2ea2-b251-a213" type="profile"/>
         <infoLink id="0f07-c1f6-f80f-45ff" name="Fire Points (15)" hidden="false" targetId="298d-b8cf-d3ed-04d8" type="profile"/>
       </infoLinks>
       <categoryLinks>
@@ -2126,13 +2126,13 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="1450-a5d3-3532-acca" name="Twin Icarus Lascannon" hidden="false" collective="false" import="true" targetId="2e50-f562-c0df-3e83" type="selectionEntry">
+        <entryLink id="1450-a5d3-3532-acca" name="双联 Icarus 激光炮" hidden="false" collective="false" import="true" targetId="2e50-f562-c0df-3e83" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b49a-b333-4e3d-90e7" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb71-e225-fac2-2f10" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="fffa-4525-6695-92fe" name="Heavy bolter (Fortification)" hidden="false" collective="false" import="true" targetId="05be-50b6-5107-9878" type="selectionEntry">
+        <entryLink id="fffa-4525-6695-92fe" name="重爆弹 (Fortification)" hidden="false" collective="false" import="true" targetId="05be-50b6-5107-9878" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c87-3102-a6de-4c2a" type="max"/>
           </constraints>
@@ -2161,15 +2161,15 @@
         </profile>
         <profile id="aaaa-857c-b390-65ca" name="Imperial Bastion" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
           <characteristics>
-            <characteristic name="容量" typeId="15aa-1916-a38b-d223">这个模型 has a transport capacity of two INFANTRY units, up to a total of 20 models.</characteristic>
+            <characteristic name="容量" typeId="15aa-1916-a38b-d223">这个模型 has a transport capacity of two INFANTRY units, up to a total of 20 模型.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="8307-c6dd-a354-b880" name="Automated Weapons" hidden="false" targetId="a179-f592-3224-72c9" type="profile"/>
+        <infoLink id="8307-c6dd-a354-b880" name="Automated 武器" hidden="false" targetId="a179-f592-3224-72c9" type="profile"/>
         <infoLink id="8598-082d-0393-627b" name="Fire Points (10)" hidden="false" targetId="220a-170b-5fd7-36f2" type="profile"/>
         <infoLink id="0d23-67e2-23ad-bf28" name="Immobile" hidden="false" targetId="8830-2c9e-ad7e-e57d" type="profile"/>
-        <infoLink id="808f-e911-b586-909f" name="Explodes (2D6寸)" hidden="false" targetId="8e81-7c95-43ba-6e0d" type="profile"/>
+        <infoLink id="808f-e911-b586-909f" name="爆炸 (2D6寸)" hidden="false" targetId="8e81-7c95-43ba-6e0d" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="4258-6773-c0a4-1ccb" name="New CategoryLink" hidden="false" targetId="9df5-bb14-9326-4108" primary="false"/>
@@ -2178,18 +2178,18 @@
         <categoryLink id="0e2f-b5d4-56be-a2a4" name="New CategoryLink" hidden="false" targetId="6cc4-1b62-8e8a-05cd" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="334c-d125-6a4b-67e2" name="Turret Weapon" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="334c-d125-6a4b-67e2" name="炮塔武器" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc1f-b2cb-1915-0ffa" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="852a-14a5-5ed0-62f4" name="Icarus Lascannon" hidden="false" collective="false" import="true" targetId="c0a2-9100-e1e5-8bc0" type="selectionEntry"/>
-            <entryLink id="6552-c24e-97a5-afe9" name="Quad-gun" hidden="false" collective="false" import="true" targetId="e4c2-0571-1de7-02e1" type="selectionEntry"/>
+            <entryLink id="852a-14a5-5ed0-62f4" name="Icarus 激光炮" hidden="false" collective="false" import="true" targetId="c0a2-9100-e1e5-8bc0" type="selectionEntry"/>
+            <entryLink id="6552-c24e-97a5-afe9" name="四联-gun" hidden="false" collective="false" import="true" targetId="e4c2-0571-1de7-02e1" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="e9d2-249f-cbc1-de00" name="Heavy bolter (Fortification)" hidden="false" collective="false" import="true" targetId="05be-50b6-5107-9878" type="selectionEntry">
+        <entryLink id="e9d2-249f-cbc1-de00" name="重爆弹 (Fortification)" hidden="false" collective="false" import="true" targetId="05be-50b6-5107-9878" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="points" value="8"/>
           </modifiers>
@@ -2222,15 +2222,15 @@
         </profile>
         <profile id="9507-2858-f7ba-6d90" name="Imperial Bunker" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
           <characteristics>
-            <characteristic name="容量" typeId="15aa-1916-a38b-d223">这个模型 has a transport capacity of 2 INFANTRY units, up to a total of 10 models.</characteristic>
+            <characteristic name="容量" typeId="15aa-1916-a38b-d223">这个模型 has a transport capacity of 2 INFANTRY units, up to a total of 10 模型.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="91f3-2a84-82db-9301" name="Fire Points (5)" hidden="false" targetId="e433-6678-6be1-355c" type="profile"/>
-        <infoLink id="29ac-4fcb-46e9-f992" name="Explodes" hidden="false" targetId="9446-1148-da70-4028" type="profile"/>
+        <infoLink id="29ac-4fcb-46e9-f992" name="爆炸" hidden="false" targetId="9446-1148-da70-4028" type="profile"/>
         <infoLink id="0aea-5296-9f61-7e62" name="Immobile" hidden="false" targetId="8830-2c9e-ad7e-e57d" type="profile"/>
-        <infoLink id="a56d-bc73-e4ad-3efe" name="Automated Weapons" hidden="false" targetId="a179-f592-3224-72c9" type="profile"/>
+        <infoLink id="a56d-bc73-e4ad-3efe" name="Automated 武器" hidden="false" targetId="a179-f592-3224-72c9" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="c44d-b022-ad05-5261" name="New CategoryLink" hidden="false" targetId="9df5-bb14-9326-4108" primary="false"/>
@@ -2240,13 +2240,13 @@
         <categoryLink id="32ae-b2d1-e021-8545" name="New CategoryLink" hidden="false" targetId="6cc4-1b62-8e8a-05cd" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="83e6-4a13-0176-4a37" name="Turret Weapon" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="83e6-4a13-0176-4a37" name="炮塔武器" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="327e-0678-14bc-aa3e" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="37d7-e794-47f7-5795" name="Icarus Lascannon" hidden="false" collective="false" import="true" targetId="c0a2-9100-e1e5-8bc0" type="selectionEntry"/>
-            <entryLink id="1fd3-bc12-ddc5-6c04" name="Quad-gun" hidden="false" collective="false" import="true" targetId="e4c2-0571-1de7-02e1" type="selectionEntry"/>
+            <entryLink id="37d7-e794-47f7-5795" name="Icarus 激光炮" hidden="false" collective="false" import="true" targetId="c0a2-9100-e1e5-8bc0" type="selectionEntry"/>
+            <entryLink id="1fd3-bc12-ddc5-6c04" name="四联-gun" hidden="false" collective="false" import="true" targetId="e4c2-0571-1de7-02e1" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -2337,18 +2337,18 @@
         </profile>
         <profile id="7f96-4bff-c6ed-aa8b" name="Plasma Obliterator" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
           <characteristics>
-            <characteristic name="容量" typeId="15aa-1916-a38b-d223">这个模型 has a transport capacity of two INFANTRY units, up to a total of 20 models.</characteristic>
+            <characteristic name="容量" typeId="15aa-1916-a38b-d223">这个模型 has a transport capacity of two INFANTRY units, up to a total of 20 模型.</characteristic>
           </characteristics>
         </profile>
         <profile id="e232-2e1e-1955-a5c0" name="Plasma Explosion" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When 这个模型 is destroyed, 投掷1个D6 before any 上车 models disembark, and before removing it from play. On a 4+ it explodes, 每个单位 范围内 D6寸 遭受 D6 致命伤.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When 这个模型 is destroyed, 投掷1个D6 before any 上车 models disembark, and before removing it from play. On a 4+ it 爆炸, 每个单位 范围内 D6寸 遭受 D6 致命伤.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="43e7-2daa-522c-c250" name="Immobile" hidden="false" targetId="8830-2c9e-ad7e-e57d" type="profile"/>
-        <infoLink id="90c0-f1f9-e26a-1ddf" name="Automated Weapons" hidden="false" targetId="a179-f592-3224-72c9" type="profile"/>
+        <infoLink id="90c0-f1f9-e26a-1ddf" name="Automated 武器" hidden="false" targetId="a179-f592-3224-72c9" type="profile"/>
         <infoLink id="fc09-fde6-e2bb-a8d2" name="Fire Points (10)" hidden="false" targetId="220a-170b-5fd7-36f2" type="profile"/>
       </infoLinks>
       <selectionEntries>
@@ -2436,9 +2436,9 @@
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="4ca0-bdc4-9090-1647" name="Fully Automated Weapons" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
+        <profile id="4ca0-bdc4-9090-1647" name="Fully Automated 武器" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型&apos;s weapons can only target the closest visible 敌方单位. Attacks made with the Quad Icarus Lascannons can instead target the closest visible 敌方单位 that can FLY. In either case, if two or more units are equally close, you can choose which is targeted.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型&apos;s 武器 can only target the closest visible 敌方单位. Attacks made with the 四联 Icarus Lascannons can instead target the closest visible 敌方单位 that can FLY. In either case, if two or more units are equally close, you can choose which is targeted.</characteristic>
           </characteristics>
         </profile>
         <profile id="4e2c-1874-14f7-56d8" name="Vengeance Weapon Battery" publicationId="28ec-711c-pubN77581" page="132" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
@@ -2457,7 +2457,7 @@
       </profiles>
       <infoLinks>
         <infoLink id="9ff0-e1ea-d6b4-f945" name="Immobile" hidden="false" targetId="8830-2c9e-ad7e-e57d" type="profile"/>
-        <infoLink id="02a2-99ca-97cb-5db5" name="Explodes (2D6寸)" hidden="false" targetId="8e81-7c95-43ba-6e0d" type="profile"/>
+        <infoLink id="02a2-99ca-97cb-5db5" name="爆炸 (2D6寸)" hidden="false" targetId="8e81-7c95-43ba-6e0d" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="1247-5dd1-35a3-5f1d" name="New CategoryLink" hidden="false" targetId="53cd-314c-599b-8616" primary="false"/>
@@ -2480,7 +2480,7 @@
               <entryLinks>
                 <entryLink id="7038-c503-0bab-3e60" name="惩罚者加特林炮" hidden="false" collective="false" import="true" targetId="3ee3-74ec-d970-9b43" type="selectionEntry"/>
                 <entryLink id="2306-0500-d9b4-79f6" name="Battle cannon" hidden="false" collective="false" import="true" targetId="1d7b-4f46-b77b-ead1" type="selectionEntry"/>
-                <entryLink id="65bd-a8d8-bfef-d1ea" name="Quad Icarus Lascannon" hidden="false" collective="false" import="true" targetId="76b1-73c7-7aef-26d3" type="selectionEntry"/>
+                <entryLink id="65bd-a8d8-bfef-d1ea" name="四联 Icarus 激光炮" hidden="false" collective="false" import="true" targetId="76b1-73c7-7aef-26d3" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -2534,7 +2534,7 @@
     </selectionEntry>
     <selectionEntry id="fd22-6743-2d4c-dd62" name="喷火器" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="266d-d13b-34e5-b2c6" name="Flamer" hidden="false" targetId="cdc3-3459-a28c-a9cf" type="profile"/>
+        <infoLink id="266d-d13b-34e5-b2c6" name="喷火器" hidden="false" targetId="cdc3-3459-a28c-a9cf" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="6.0"/>
@@ -2544,7 +2544,7 @@
     </selectionEntry>
     <selectionEntry id="05ab-e7cc-e856-c36f" name="重爆弹" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="f5ff-ee10-df57-d926" name="Heavy bolter" hidden="false" targetId="e2b0-b9f1-6c38-584c" type="profile"/>
+        <infoLink id="f5ff-ee10-df57-d926" name="重爆弹" hidden="false" targetId="e2b0-b9f1-6c38-584c" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="10.0"/>
@@ -2554,7 +2554,7 @@
     </selectionEntry>
     <selectionEntry id="efc8-c51d-5b02-a3a2" name="热熔枪" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="02b8-d775-29e8-e297" name="Meltagun" hidden="false" targetId="ec4c-1132-ddaf-db8e" type="profile"/>
+        <infoLink id="02b8-d775-29e8-e297" name="热熔枪" hidden="false" targetId="ec4c-1132-ddaf-db8e" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="14.0"/>
@@ -2636,8 +2636,8 @@
     </selectionEntry>
     <selectionEntry id="cddf-945e-1335-e681" name="破片和穿甲手雷" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="61a4-e2d3-522d-c838" name="Frag grenade" hidden="false" targetId="fdd8-1a5f-5722-d6ee" type="profile"/>
-        <infoLink id="b250-1f2e-4904-0eb4" name="Krak grenade" hidden="false" targetId="3bf6-b4f7-6b2f-bb7b" type="profile"/>
+        <infoLink id="61a4-e2d3-522d-c838" name="破片手雷" hidden="false" targetId="fdd8-1a5f-5722-d6ee" type="profile"/>
+        <infoLink id="b250-1f2e-4904-0eb4" name="穿甲手雷" hidden="false" targetId="3bf6-b4f7-6b2f-bb7b" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="0.0"/>
@@ -2657,8 +2657,8 @@
     </selectionEntry>
     <selectionEntry id="1469-1964-7a91-94d4" name="导弹发射器" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="6858-d52c-3eb7-eba5" name="Missile launcher, Frag missile" hidden="false" targetId="603d-3e82-38f6-c5c3" type="profile"/>
-        <infoLink id="5e42-5359-431e-68e1" name="Missile launcher, Krak missile" hidden="false" targetId="8161-3b0e-8048-0e83" type="profile"/>
+        <infoLink id="6858-d52c-3eb7-eba5" name="导弹发射器-破片导弹" hidden="false" targetId="603d-3e82-38f6-c5c3" type="profile"/>
+        <infoLink id="5e42-5359-431e-68e1" name="导弹发射器-穿甲导弹" hidden="false" targetId="8161-3b0e-8048-0e83" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="20.0"/>
@@ -2669,7 +2669,7 @@
     <selectionEntry id="c6a1-e0c4-c1b1-dce1" name="复合喷火器" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="73e7-91e7-a433-8ea5" name="爆弹枪" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
-        <infoLink id="7405-10db-da34-a45f" name="Flamer" hidden="false" targetId="cdc3-3459-a28c-a9cf" type="profile"/>
+        <infoLink id="7405-10db-da34-a45f" name="喷火器" hidden="false" targetId="cdc3-3459-a28c-a9cf" type="profile"/>
         <infoLink id="e750-f8e4-4667-b083" name="Combi Weapon" hidden="false" targetId="a269-b8d9-67c5-4009" type="rule"/>
       </infoLinks>
       <costs>
@@ -2694,7 +2694,7 @@
     <selectionEntry id="c445-e211-f316-5d83" name="复合热熔枪" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="ed40-44ba-772a-dbe8" name="爆弹枪" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
-        <infoLink id="bac3-c746-cec0-e45d" name="Meltagun" hidden="false" targetId="ec4c-1132-ddaf-db8e" type="profile"/>
+        <infoLink id="bac3-c746-cec0-e45d" name="热熔枪" hidden="false" targetId="ec4c-1132-ddaf-db8e" type="profile"/>
         <infoLink id="89f9-614c-9804-9dda" name="Combi Weapon" hidden="false" targetId="a269-b8d9-67c5-4009" type="rule"/>
       </infoLinks>
       <costs>
@@ -2705,7 +2705,7 @@
     </selectionEntry>
     <selectionEntry id="a908-4664-11cd-f8b2" name="激光炮" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="3036-38da-528d-0a80" name="Lascannon" hidden="false" targetId="f14a-07e5-5465-69cf" type="profile"/>
+        <infoLink id="3036-38da-528d-0a80" name="激光炮" hidden="false" targetId="f14a-07e5-5465-69cf" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="25.0"/>
@@ -2725,7 +2725,7 @@
     </selectionEntry>
     <selectionEntry id="2b37-65ee-9443-b4ef" name="多管热熔" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="f137-6527-ee90-112e" name="Multi-melta" hidden="false" targetId="1768-d7b9-37ba-f3bf" type="profile"/>
+        <infoLink id="f137-6527-ee90-112e" name="多管热熔" hidden="false" targetId="1768-d7b9-37ba-f3bf" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="22.0"/>
@@ -2752,7 +2752,7 @@
     </selectionEntry>
     <selectionEntry id="5210-8cb2-b5a2-a04f" name="自动炮" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="4520-d92c-87d9-6f07" name="Autocannon" hidden="false" targetId="fa99-0671-b31a-22d7" type="profile"/>
+        <infoLink id="4520-d92c-87d9-6f07" name="自动炮" hidden="false" targetId="fa99-0671-b31a-22d7" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="10.0"/>
@@ -2882,7 +2882,7 @@
     </selectionEntry>
     <selectionEntry id="51b0-3d46-5af4-683e" name="突击炮" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="4e22-30bc-2ef4-dc94" name="Assault cannon" hidden="false" targetId="20dc-1fbb-dc65-7f04" type="profile"/>
+        <infoLink id="4e22-30bc-2ef4-dc94" name="突击炮" hidden="false" targetId="20dc-1fbb-dc65-7f04" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="22.0"/>
@@ -2892,8 +2892,8 @@
     </selectionEntry>
     <selectionEntry id="b4dd-2ff1-9f8e-ab00" name="阿斯塔特榴弹发射器" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="e7d6-7efe-25b6-e4e0" name="Astartes grenade launcher, Frag grenade" hidden="false" targetId="3735-f76f-f06c-1d71" type="profile"/>
-        <infoLink id="0997-a5c0-e849-4e85" name="Astartes grenade launcher, Krak grenade" hidden="false" targetId="ac6d-bf1b-73d0-e6af" type="profile"/>
+        <infoLink id="e7d6-7efe-25b6-e4e0" name="Astartes grenade launcher, 破片手雷" hidden="false" targetId="3735-f76f-f06c-1d71" type="profile"/>
+        <infoLink id="0997-a5c0-e849-4e85" name="Astartes grenade launcher, 穿甲手雷" hidden="false" targetId="ac6d-bf1b-73d0-e6af" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="6.0"/>
@@ -3048,7 +3048,7 @@
     </selectionEntry>
     <selectionEntry id="f68e-9984-71fe-6bca" name="破片手雷" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="7ad5-6b5c-ebb9-6058" name="Frag grenade" hidden="false" targetId="fdd8-1a5f-5722-d6ee" type="profile"/>
+        <infoLink id="7ad5-6b5c-ebb9-6058" name="破片手雷" hidden="false" targetId="fdd8-1a5f-5722-d6ee" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -3088,8 +3088,8 @@
     </selectionEntry>
     <selectionEntry id="221a-6109-61df-015e" name="重型等离子炮" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="240d-2761-dd9a-ff79" name="Heavy plasma cannon, Standard" hidden="false" targetId="9272-c0bc-9bd7-e6e0" type="profile"/>
-        <infoLink id="0656-5ec5-5535-4b75" name="Heavy plasma cannon, Supercharge" hidden="false" targetId="691d-11e2-ebfb-d4ad" type="profile"/>
+        <infoLink id="240d-2761-dd9a-ff79" name="重型等离子炮, Standard" hidden="false" targetId="9272-c0bc-9bd7-e6e0" type="profile"/>
+        <infoLink id="0656-5ec5-5535-4b75" name="重型等离子炮, Supercharge" hidden="false" targetId="691d-11e2-ebfb-d4ad" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="16.0"/>
@@ -3099,7 +3099,7 @@
     </selectionEntry>
     <selectionEntry id="32bf-b117-4ecf-5165" name="猎人杀手导弹" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="7d77-e384-878e-fcad" name="Hunter-killer missile" hidden="false" targetId="e2a9-e8fc-3a6b-2eec" type="profile"/>
+        <infoLink id="7d77-e384-878e-fcad" name="猎杀导弹" hidden="false" targetId="e2a9-e8fc-3a6b-2eec" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="6.0"/>
@@ -3129,7 +3129,7 @@
     </selectionEntry>
     <selectionEntry id="db1d-3a08-13f2-72fa" name="凯尔斯型突击炮" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="d25f-5bb7-0c99-a99d" name="Kheres pattern assault cannon" hidden="false" targetId="10cf-9931-74ee-504e" type="profile"/>
+        <infoLink id="d25f-5bb7-0c99-a99d" name="Kheres pattern 突击炮" hidden="false" targetId="10cf-9931-74ee-504e" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="25.0"/>
@@ -3139,7 +3139,7 @@
     </selectionEntry>
     <selectionEntry id="0f23-cd69-d106-371e" name="穿甲手雷" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="b02a-8529-f881-426e" name="Krak grenade" hidden="false" targetId="3bf6-b4f7-6b2f-bb7b" type="profile"/>
+        <infoLink id="b02a-8529-f881-426e" name="穿甲手雷" hidden="false" targetId="3bf6-b4f7-6b2f-bb7b" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -3241,9 +3241,9 @@
         <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="974d-570e-66b3-e971" name="Predator autocannon" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="974d-570e-66b3-e971" name="猎食者自动炮" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="4308-2c36-1034-f89d" name="Predator autocannon" hidden="false" targetId="2c56-ff56-a155-032d" type="profile"/>
+        <infoLink id="4308-2c36-1034-f89d" name="猎食者自动炮" hidden="false" targetId="2c56-ff56-a155-032d" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="40.0"/>
@@ -3253,7 +3253,7 @@
     </selectionEntry>
     <selectionEntry id="5ab4-1ee7-95ad-7e15" name="收割者自动炮" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="bdb9-b64e-9576-00a4" name="Reaper autocannon" hidden="false" targetId="9c2a-cd9e-dc44-ca31" type="profile"/>
+        <infoLink id="bdb9-b64e-9576-00a4" name="Reaper 自动炮" hidden="false" targetId="9c2a-cd9e-dc44-ca31" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="10.0"/>
@@ -3263,7 +3263,7 @@
     </selectionEntry>
     <selectionEntry id="dc9d-4795-4788-d6e6" name="天锤导弹发射器" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="620f-7023-45bb-9932" name="Skyhammer missile launcher" hidden="false" targetId="b808-ff6d-2ba3-cd8a" type="profile"/>
+        <infoLink id="620f-7023-45bb-9932" name="Skyhammer 导弹发射器" hidden="false" targetId="b808-ff6d-2ba3-cd8a" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="20.0"/>
@@ -3273,7 +3273,7 @@
     </selectionEntry>
     <selectionEntry id="cd63-9586-da03-ec49" name="天矛导弹发射器" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="d202-4a12-6369-4e2f" name="Skyspear missile launcher" hidden="false" targetId="11e1-cbd0-5c56-dce9" type="profile"/>
+        <infoLink id="d202-4a12-6369-4e2f" name="Skyspear 导弹发射器" hidden="false" targetId="11e1-cbd0-5c56-dce9" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -3311,9 +3311,9 @@
         <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="38e3-37a8-42a3-e195" name="Stormstrike missile launcher" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="38e3-37a8-42a3-e195" name="Stormstrike 导弹发射器" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="70a6-4e0b-6bd9-fe7c" name="Stormstrike missile launcher" hidden="false" targetId="f465-e051-3946-f328" type="profile"/>
+        <infoLink id="70a6-4e0b-6bd9-fe7c" name="Stormstrike 导弹发射器" hidden="false" targetId="f465-e051-3946-f328" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="21.0"/>
@@ -3333,7 +3333,7 @@
     </selectionEntry>
     <selectionEntry id="f787-a3af-72b5-60d1" name="双联突击炮" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="30e4-32d1-78d3-b30f" name="Twin assault cannon" hidden="false" targetId="acb8-7501-1f1b-b483" type="profile"/>
+        <infoLink id="30e4-32d1-78d3-b30f" name="双联突击炮" hidden="false" targetId="acb8-7501-1f1b-b483" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="44.0"/>
@@ -3343,7 +3343,7 @@
     </selectionEntry>
     <selectionEntry id="afe0-3771-1982-92b4" name="双联自动炮" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="4490-0f73-36d7-34cb" name="Twin autocannon" hidden="false" targetId="3a89-dec9-f41d-7719" type="profile"/>
+        <infoLink id="4490-0f73-36d7-34cb" name="双联自动炮" hidden="false" targetId="3a89-dec9-f41d-7719" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="33.0"/>
@@ -3363,7 +3363,7 @@
     </selectionEntry>
     <selectionEntry id="8d70-a6af-cbad-f08c" name="双联重喷火" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="d9de-a3b3-6441-b50b" name="Twin heavy flamer" hidden="false" targetId="1a79-9730-f078-07b6" type="profile"/>
+        <infoLink id="d9de-a3b3-6441-b50b" name="双联重喷火" hidden="false" targetId="1a79-9730-f078-07b6" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="28.0"/>
@@ -3373,8 +3373,8 @@
     </selectionEntry>
     <selectionEntry id="353e-3e4d-a6ed-d25c" name="双联重型等离子炮" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="3be8-90fb-c838-397d" name="Twin heavy plasma cannon, Standard" hidden="false" targetId="3f51-8cbe-78c2-0b36" type="profile"/>
-        <infoLink id="d490-9625-1289-448e" name="Twin heavy plasma cannon, Supercharge" hidden="false" targetId="f2db-d913-989b-2841" type="profile"/>
+        <infoLink id="3be8-90fb-c838-397d" name="双联 重型等离子炮, Standard" hidden="false" targetId="3f51-8cbe-78c2-0b36" type="profile"/>
+        <infoLink id="d490-9625-1289-448e" name="双联 重型等离子炮, Supercharge" hidden="false" targetId="f2db-d913-989b-2841" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="24.0"/>
@@ -3384,7 +3384,7 @@
     </selectionEntry>
     <selectionEntry id="ee18-b1cd-6b60-464d" name="双联激光炮" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="bf1a-c284-f2bb-8d85" name="Twin lascannon" hidden="false" targetId="1662-54b9-46da-fefc" type="profile"/>
+        <infoLink id="bf1a-c284-f2bb-8d85" name="双联激光炮" hidden="false" targetId="1662-54b9-46da-fefc" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="40.0"/>
@@ -3394,7 +3394,7 @@
     </selectionEntry>
     <selectionEntry id="d496-bdd5-426e-3e80" name="双联多管热熔" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="8a52-c639-ada7-589e" name="Twin multi-melta" hidden="false" targetId="c3c9-08d7-bfae-4ff7" type="profile"/>
+        <infoLink id="8a52-c639-ada7-589e" name="双联多管热熔" hidden="false" targetId="c3c9-08d7-bfae-4ff7" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="40.0"/>
@@ -3404,8 +3404,8 @@
     </selectionEntry>
     <selectionEntry id="3f51-b8fa-86ce-7388" name="双联等离子枪" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="3275-afdc-4d56-864f" name="Twin plasma gun, Standard" hidden="false" targetId="f7ba-88b9-c604-cd89" type="profile"/>
-        <infoLink id="1a87-46dc-7286-778b" name="Twin plasma gun, Supercharge" hidden="false" targetId="840a-7f35-72ad-baef" type="profile"/>
+        <infoLink id="3275-afdc-4d56-864f" name="双联 plasma gun, Standard" hidden="false" targetId="f7ba-88b9-c604-cd89" type="profile"/>
+        <infoLink id="1a87-46dc-7286-778b" name="双联 plasma gun, Supercharge" hidden="false" targetId="840a-7f35-72ad-baef" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="20.0"/>
@@ -3415,8 +3415,8 @@
     </selectionEntry>
     <selectionEntry id="6027-7017-756a-600c" name="台风导弹发射器" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="335c-b198-9014-aec2" name="Typhoon missile launcher, Frag missile" hidden="false" targetId="b1e6-7453-eb78-87c1" type="profile"/>
-        <infoLink id="508e-280a-4c63-9bcd" name="Typhoon missile launcher, Krak missile" hidden="false" targetId="aea5-27f0-dcde-06c1" type="profile"/>
+        <infoLink id="335c-b198-9014-aec2" name="台风导弹发射器-破片导弹" hidden="false" targetId="b1e6-7453-eb78-87c1" type="profile"/>
+        <infoLink id="508e-280a-4c63-9bcd" name="台风导弹发射器-穿甲导弹" hidden="false" targetId="aea5-27f0-dcde-06c1" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="32.0"/>
@@ -3434,9 +3434,9 @@
         <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e640-c148-5944-6874" name="Whirlwind castellan launcher" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="e640-c148-5944-6874" name="旋风 castellan launcher" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="1592-a4c4-a23a-42bd" name="Whirlwind castellan launcher" hidden="false" targetId="b4c9-cb72-ef2f-76cb" type="profile"/>
+        <infoLink id="1592-a4c4-a23a-42bd" name="旋风 castellan launcher" hidden="false" targetId="b4c9-cb72-ef2f-76cb" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="15.0"/>
@@ -3444,9 +3444,9 @@
         <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="79a5-23f2-b542-a73f" name="Whirlwind vengeance launcher" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="79a5-23f2-b542-a73f" name="旋风 vengeance launcher" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="353d-4d12-80de-dd6c" name="Whirlwind vengeance launcher" hidden="false" targetId="f4df-b39c-08a7-5255" type="profile"/>
+        <infoLink id="353d-4d12-80de-dd6c" name="旋风 vengeance launcher" hidden="false" targetId="f4df-b39c-08a7-5255" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="20.0"/>
@@ -3553,7 +3553,7 @@
     </selectionEntry>
     <selectionEntry id="0140-c9f2-0524-34cc" name="圣物刃" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="547d-7f85-1acc-fc56" name="圣物 blade" hidden="false" targetId="ea0a-a19e-1e9a-b830" type="profile"/>
+        <infoLink id="547d-7f85-1acc-fc56" name="圣物blade" hidden="false" targetId="ea0a-a19e-1e9a-b830" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="9.0"/>
@@ -3573,7 +3573,7 @@
     </selectionEntry>
     <selectionEntry id="61ae-3901-0a79-4ec9" name="伺服臂" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="d471-58e2-7035-8849" name="Servo-arm" hidden="false" targetId="9112-c49a-ee46-0f81" type="profile"/>
+        <infoLink id="d471-58e2-7035-8849" name="伺服臂" hidden="false" targetId="9112-c49a-ee46-0f81" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -3637,7 +3637,7 @@
         </modifier>
       </modifiers>
       <infoLinks>
-        <infoLink id="c84e-aca5-a769-ee7f" name="Storm shield" hidden="false" targetId="541d-ade9-7496-9c62" type="profile"/>
+        <infoLink id="c84e-aca5-a769-ee7f" name="风暴盾" hidden="false" targetId="541d-ade9-7496-9c62" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="2.0"/>
@@ -3667,7 +3667,7 @@
     </selectionEntry>
     <selectionEntry id="c0a2-9100-e1e5-8bc0" name="伊卡洛斯激光炮" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="5768-a1a7-3cf6-ebfe" name="Icarus Lascannon" hidden="false" targetId="cb26-27b4-9393-a768" type="profile"/>
+        <infoLink id="5768-a1a7-3cf6-ebfe" name="Icarus 激光炮" hidden="false" targetId="cb26-27b4-9393-a768" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="25.0"/>
@@ -3677,7 +3677,7 @@
     </selectionEntry>
     <selectionEntry id="2e50-f562-c0df-3e83" name="双联伊卡洛斯激光炮" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="dac7-a356-1c84-5f48" name="Twin Icarus Lascannon" hidden="false" targetId="2ea1-2be3-90c0-8d4c" type="profile"/>
+        <infoLink id="dac7-a356-1c84-5f48" name="双联 Icarus 激光炮" hidden="false" targetId="2ea1-2be3-90c0-8d4c" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -3687,7 +3687,7 @@
     </selectionEntry>
     <selectionEntry id="76b1-73c7-7aef-26d3" name="四联伊卡洛斯激光炮" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="adbb-1be8-bbc4-4470" name="Quad Icarus Lascannon" hidden="false" targetId="d503-4001-e4b8-c804" type="profile"/>
+        <infoLink id="adbb-1be8-bbc4-4470" name="四联 Icarus 激光炮" hidden="false" targetId="d503-4001-e4b8-c804" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="70.0"/>
@@ -3697,7 +3697,7 @@
     </selectionEntry>
     <selectionEntry id="e4c2-0571-1de7-02e1" name="四联防空炮" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="1b8e-6544-9049-edf1" name="Quad-gun" hidden="false" targetId="3922-981d-ccb7-c169" type="profile"/>
+        <infoLink id="1b8e-6544-9049-edf1" name="四联-gun" hidden="false" targetId="3922-981d-ccb7-c169" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="30.0"/>
@@ -3767,7 +3767,7 @@
     </selectionEntry>
     <selectionEntry id="03fd-db47-5333-1e1f" name="惩击" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="72f4-48ff-fafb-c876" name="Smite" hidden="false" targetId="5821-6c45-8572-7e0e" type="profile"/>
+        <infoLink id="72f4-48ff-fafb-c876" name="惩击" hidden="false" targetId="5821-6c45-8572-7e0e" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -3982,7 +3982,7 @@
         </modifier>
       </modifiers>
       <infoLinks>
-        <infoLink id="6e80-54c9-444c-9140" name="Storm shield" hidden="false" targetId="541d-ade9-7496-9c62" type="profile"/>
+        <infoLink id="6e80-54c9-444c-9140" name="风暴盾" hidden="false" targetId="541d-ade9-7496-9c62" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="2.0"/>
@@ -4022,8 +4022,8 @@
     </selectionEntry>
     <selectionEntry id="c532-64ab-c72a-b0bd" name="阿斯塔特榴弹发射器" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="0a0a-2a74-6bd1-0f7c" name="Astartes grenade launcher, Frag grenade" hidden="false" targetId="3735-f76f-f06c-1d71" type="profile"/>
-        <infoLink id="04f6-2f20-fb2d-1f27" name="Astartes grenade launcher, Krak grenade" hidden="false" targetId="ac6d-bf1b-73d0-e6af" type="profile"/>
+        <infoLink id="0a0a-2a74-6bd1-0f7c" name="Astartes grenade launcher, 破片手雷" hidden="false" targetId="3735-f76f-f06c-1d71" type="profile"/>
+        <infoLink id="04f6-2f20-fb2d-1f27" name="Astartes grenade launcher, 穿甲手雷" hidden="false" targetId="ac6d-bf1b-73d0-e6af" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="6.0"/>
@@ -4095,7 +4095,7 @@
           <profiles>
             <profile id="c06f-8621-9a9e-4a64" name="Gate Section" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
               <characteristics>
-                <characteristic name="容量" typeId="15aa-1916-a38b-d223">Any number of INFANTRY CHARACTERS and one other INFANTRY unit, up to a maximum of 20 models.</characteristic>
+                <characteristic name="容量" typeId="15aa-1916-a38b-d223">Any number of INFANTRY CHARACTERS and one other INFANTRY unit, up to a maximum of 20 模型.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4130,7 +4130,7 @@
           <profiles>
             <profile id="13d3-851e-838d-3e67" name="Wall Section" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
               <characteristics>
-                <characteristic name="容量" typeId="15aa-1916-a38b-d223">Any number of INFANTRY CHARACTERS and one other INFANTRY unit, up to a maximum of 20 models.</characteristic>
+                <characteristic name="容量" typeId="15aa-1916-a38b-d223">Any number of INFANTRY CHARACTERS and one other INFANTRY unit, up to a maximum of 20 模型.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4153,13 +4153,13 @@
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d26c-78ff-aba4-7741" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="7b7f-11e9-7ffc-2c28" name="Twin Long-barrelled Autocannon" hidden="false" collective="true" import="true" type="upgrade">
+            <selectionEntry id="7b7f-11e9-7ffc-2c28" name="双联 Long-barrelled 自动炮" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6759-9d4c-a18c-e03e" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7479-8e06-b43b-36cc" type="max"/>
               </constraints>
               <profiles>
-                <profile id="1dad-1154-dc7e-7b30" name="Twin Long-barrelled Autocannon" publicationId="28ec-711c-pubN91434" page="115" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+                <profile id="1dad-1154-dc7e-7b30" name="双联 Long-barrelled 自动炮" publicationId="28ec-711c-pubN91434" page="115" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="射程" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72寸</characteristic>
                     <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 4</characteristic>
@@ -4185,7 +4185,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="8dde-9320-f50a-6c1f" name="Turret Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="d232-4017-cd9f-b55a">
+        <selectionEntryGroup id="8dde-9320-f50a-6c1f" name="Turret 武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="d232-4017-cd9f-b55a">
           <modifiers>
             <modifier type="increment" field="85b6-136c-3441-7c71" value="1">
               <repeats>
@@ -4210,7 +4210,7 @@
                 <modifier type="set" field="points" value="14"/>
               </modifiers>
             </entryLink>
-            <entryLink id="a84e-e180-55eb-d56c" name="Twin lascannon" hidden="false" collective="false" import="true" targetId="ee18-b1cd-6b60-464d" type="selectionEntry">
+            <entryLink id="a84e-e180-55eb-d56c" name="双联激光炮" hidden="false" collective="false" import="true" targetId="ee18-b1cd-6b60-464d" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="points" value="40"/>
               </modifiers>
@@ -4251,12 +4251,12 @@
         </profile>
         <profile id="d146-c17b-222c-3b02" name="Reactor Explosion" publicationId="28ec-711c-pubN91434" page="53" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 投掷1个D6 before removing it from the battlefield and before any models disembark. On a 6 its reactor explodes, 每个单位 范围内 2D6寸 遭受 D6 致命伤.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 投掷1个D6 before removing it from the battlefield and before any models disembark. On a 6 its reactor 爆炸, 每个单位 范围内 2D6寸 遭受 D6 致命伤.</characteristic>
           </characteristics>
         </profile>
         <profile id="4766-36e8-d6fa-53a2" name="Primus Redoubt" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
           <characteristics>
-            <characteristic name="容量" typeId="15aa-1916-a38b-d223">Any number of INFANTRY CHARACTERS and one other INFANTRY unit, up to a maximum of 20 models.</characteristic>
+            <characteristic name="容量" typeId="15aa-1916-a38b-d223">Any number of INFANTRY CHARACTERS and one other INFANTRY unit, up to a maximum of 20 模型.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4264,13 +4264,13 @@
         <infoLink id="4231-88a3-9766-c5ab" name="Immobile" hidden="false" targetId="8830-2c9e-ad7e-e57d" type="profile"/>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="279b-3e86-f8f2-3cd6" name="Dual Turbo-laser Destructor" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="279b-3e86-f8f2-3cd6" name="Dual 涡轮激光毁灭者" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b62f-357c-6080-23b4" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db4c-b408-1839-18b0" type="max"/>
           </constraints>
           <profiles>
-            <profile id="021d-ee95-1021-9783" name="Dual Turbo-laser Destructor" publicationId="28ec-711c-pubN91434" page="112" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+            <profile id="021d-ee95-1021-9783" name="Dual 涡轮激光毁灭者" publicationId="28ec-711c-pubN91434" page="112" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="射程" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">96寸</characteristic>
                 <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Macro 2D3</characteristic>
@@ -4294,9 +4294,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f221-cff6-2246-cd0d" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="4449-1153-8f2f-cf7c" name="Air Defence Missiles" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="4449-1153-8f2f-cf7c" name="防空导弹" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="9bab-9b39-e151-eefa" name="Air Defence Missiles" publicationId="28ec-711c-pubN91434" page="112" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+                <profile id="9bab-9b39-e151-eefa" name="防空导弹" publicationId="28ec-711c-pubN91434" page="112" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="射程" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48寸</characteristic>
                     <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 D3</characteristic>
@@ -4313,9 +4313,9 @@
                 <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="dc8e-4fdf-7ce1-2d52" name="Icarus Quad Lascannon" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="dc8e-4fdf-7ce1-2d52" name="伊卡洛斯四联激光炮" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="a93c-ebe0-7c65-202d" name="Icarus Quad Lascannon" publicationId="28ec-711c-pubN91434" page="113" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+                <profile id="a93c-ebe0-7c65-202d" name="伊卡洛斯四联激光炮" publicationId="28ec-711c-pubN91434" page="113" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="射程" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">96寸</characteristic>
                     <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 4</characteristic>
@@ -4339,25 +4339,25 @@
                 <modifier type="set" field="points" value="22"/>
               </modifiers>
             </entryLink>
-            <entryLink id="6f16-8ed5-835b-6edb" name="Icarus Lascannon" hidden="false" collective="false" import="true" targetId="c0a2-9100-e1e5-8bc0" type="selectionEntry"/>
-            <entryLink id="2f90-2ff5-3a2a-4079" name="Multi-melta" hidden="false" collective="false" import="true" targetId="2b37-65ee-9443-b4ef" type="selectionEntry">
+            <entryLink id="6f16-8ed5-835b-6edb" name="Icarus 激光炮" hidden="false" collective="false" import="true" targetId="c0a2-9100-e1e5-8bc0" type="selectionEntry"/>
+            <entryLink id="2f90-2ff5-3a2a-4079" name="多管热熔" hidden="false" collective="false" import="true" targetId="2b37-65ee-9443-b4ef" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="points" value="20"/>
               </modifiers>
             </entryLink>
-            <entryLink id="fac3-8167-b856-599f" name="Quad-gun" hidden="false" collective="false" import="true" targetId="e4c2-0571-1de7-02e1" type="selectionEntry"/>
+            <entryLink id="fac3-8167-b856-599f" name="四联-gun" hidden="false" collective="false" import="true" targetId="e4c2-0571-1de7-02e1" type="selectionEntry"/>
             <entryLink id="fef2-2d4a-1246-88ed" name="双联重爆弹" hidden="false" collective="false" import="true" targetId="09d8-7790-ed3f-4d6d" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="points" value="14"/>
               </modifiers>
             </entryLink>
-            <entryLink id="f33b-85de-5839-5ec3" name="Twin lascannon" hidden="false" collective="false" import="true" targetId="ee18-b1cd-6b60-464d" type="selectionEntry">
+            <entryLink id="f33b-85de-5839-5ec3" name="双联激光炮" hidden="false" collective="false" import="true" targetId="ee18-b1cd-6b60-464d" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="points" value="40"/>
               </modifiers>
             </entryLink>
-            <entryLink id="d620-9bba-0653-37a6" name="Whirlwind castellan launcher" hidden="false" collective="false" import="true" targetId="e640-c148-5944-6874" type="selectionEntry"/>
-            <entryLink id="bf29-eeff-3d7e-237b" name="Whirlwind vengeance launcher" hidden="false" collective="false" import="true" targetId="79a5-23f2-b542-a73f" type="selectionEntry">
+            <entryLink id="d620-9bba-0653-37a6" name="旋风 castellan launcher" hidden="false" collective="false" import="true" targetId="e640-c148-5944-6874" type="selectionEntry"/>
+            <entryLink id="bf29-eeff-3d7e-237b" name="旋风 vengeance launcher" hidden="false" collective="false" import="true" targetId="79a5-23f2-b542-a73f" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="points" value="30"/>
               </modifiers>
@@ -4366,7 +4366,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="32ef-5dde-0a92-aef5" name="Heavy bolter (Fortification)" hidden="false" collective="false" import="true" targetId="05be-50b6-5107-9878" type="selectionEntry">
+        <entryLink id="32ef-5dde-0a92-aef5" name="重爆弹 (Fortification)" hidden="false" collective="false" import="true" targetId="05be-50b6-5107-9878" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="points" value="8"/>
           </modifiers>
@@ -4413,8 +4413,8 @@
     </selectionEntry>
     <selectionEntry id="bb78-534a-7b77-edbc" name="破片和穿甲手雷" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="c071-4905-b8fc-7f26" name="Frag grenade" hidden="false" targetId="fdd8-1a5f-5722-d6ee" type="profile"/>
-        <infoLink id="c848-9c6b-2c80-2b76" name="Krak grenade" hidden="false" targetId="3bf6-b4f7-6b2f-bb7b" type="profile"/>
+        <infoLink id="c071-4905-b8fc-7f26" name="破片手雷" hidden="false" targetId="fdd8-1a5f-5722-d6ee" type="profile"/>
+        <infoLink id="c848-9c6b-2c80-2b76" name="穿甲手雷" hidden="false" targetId="3bf6-b4f7-6b2f-bb7b" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="0.0"/>
@@ -4666,7 +4666,7 @@
         <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60af-dded-dcf0-5c49" type="max"/>
       </constraints>
       <profiles>
-        <profile id="2b96-91be-5017-bd85" name="Transport" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
+        <profile id="2b96-91be-5017-bd85" name="运载能力" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
           <modifiers>
             <modifier type="increment" field="15aa-1916-a38b-d223" value="16">
               <conditions>
@@ -4693,13 +4693,13 @@
                 <condition field="selections" scope="5ea6-c789-f6b9-5c00" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7a60-bc15-dc4b-eba5" type="equalTo"/>
               </conditions>
             </modifier>
-            <modifier type="append" field="15aa-1916-a38b-d223" value="INFANTRY models. Each 跳跃背包 or TERMINATOR model takes the space of two other models. It cannot transport PRIMARIS models."/>
+            <modifier type="append" field="15aa-1916-a38b-d223" value="步兵模型. Each 跳跃背包 or 终结者 model takes the space of two other 模型. 不能运输 原铸 模型."/>
           </modifiers>
           <characteristics>
             <characteristic name="容量" typeId="15aa-1916-a38b-d223">0</characteristic>
           </characteristics>
         </profile>
-        <profile id="6b86-9982-a828-cd05" name="Land Raider 1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
+        <profile id="6b86-9982-a828-cd05" name="兰德掠袭者 1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
             <characteristic name="剩余 W" typeId="8e45-c866-b2d4-c9ab">9-16+</characteristic>
             <characteristic name="参数 1" typeId="bf41-c860-50bc-2a7e">10寸</characteristic>
@@ -4707,7 +4707,7 @@
             <characteristic name="参数 3" typeId="df06-8eca-150f-90ba">6</characteristic>
           </characteristics>
         </profile>
-        <profile id="5df6-03db-d1b8-96a9" name="Land Raider 2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
+        <profile id="5df6-03db-d1b8-96a9" name="兰德掠袭者 2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
             <characteristic name="剩余 W" typeId="8e45-c866-b2d4-c9ab">5-8</characteristic>
             <characteristic name="参数 1" typeId="bf41-c860-50bc-2a7e">5寸</characteristic>
@@ -4715,7 +4715,7 @@
             <characteristic name="参数 3" typeId="df06-8eca-150f-90ba">D6</characteristic>
           </characteristics>
         </profile>
-        <profile id="5797-b722-3f07-d14b" name="Land Raider 3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
+        <profile id="5797-b722-3f07-d14b" name="兰德掠袭者 3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
             <characteristic name="剩余 W" typeId="8e45-c866-b2d4-c9ab">1-4</characteristic>
             <characteristic name="参数 1" typeId="bf41-c860-50bc-2a7e">3寸</characteristic>
@@ -4744,10 +4744,10 @@
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If you roll three or more hit rolls of 1 for 这个模型&apos;s lascannons or twin lascannons in the same phase, it experiences a power overload and 遭受 6 致命伤.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If you roll three or more hit rolls of 1 for 这个模型&apos;s lascannons or 双联 lascannons in the same phase, it experiences a power overload and 遭受 6 致命伤.</characteristic>
           </characteristics>
         </profile>
-        <profile id="27ee-a8ba-ee83-4fa3" name="Power of the Machine Spirit" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
+        <profile id="27ee-a8ba-ee83-4fa3" name="机魂之力" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -4759,7 +4759,7 @@
             <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 does not suffer the penalty to hit rolls for moving and firing 重型武器.</characteristic>
           </characteristics>
         </profile>
-        <profile id="2ee8-19c2-86f5-2169" name="Land Raider" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+        <profile id="2ee8-19c2-86f5-2169" name="兰德掠袭者" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">*</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">6+</characteristic>
@@ -4795,7 +4795,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e14-8b36-6e72-8afc" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="08ab-a8a3-a266-f002" name="Twin Helfrost Cannon" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="08ab-a8a3-a266-f002" name="双联 Helfrost Cannon" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -4804,7 +4804,7 @@
                 </modifier>
               </modifiers>
               <profiles>
-                <profile id="f726-8978-cbcd-2a42" name="Twin Helfrost Cannon (Dispersed Beam)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+                <profile id="f726-8978-cbcd-2a42" name="双联 Helfrost Cannon (Dispersed Beam)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="射程" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
                     <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 2D3</characteristic>
@@ -4814,7 +4814,7 @@
                     <characteristic name="能力" typeId="837d-5e63-aeb7-1410">If a model 遭受 any unsaved wounds from 这个武器 but is not slain, 投掷1个D6, on a 6, the target 遭受 1点致命伤.</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="9b24-2450-ad3f-9499" name="Twin Helfrost Cannon (Focused Beam)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+                <profile id="9b24-2450-ad3f-9499" name="双联 Helfrost Cannon (Focused Beam)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="射程" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
                     <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 2</characteristic>
@@ -4834,7 +4834,7 @@
           </selectionEntries>
           <entryLinks>
             <entryLink id="2439-d817-d7d3-a43c" name="双联重爆弹" hidden="false" collective="false" import="true" targetId="09d8-7790-ed3f-4d6d" type="selectionEntry"/>
-            <entryLink id="6226-855d-7acf-547d" name="Twin assault cannon" hidden="false" collective="false" import="true" targetId="f787-a3af-72b5-60d1" type="selectionEntry">
+            <entryLink id="6226-855d-7acf-547d" name="双联突击炮" hidden="false" collective="false" import="true" targetId="f787-a3af-72b5-60d1" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -4843,8 +4843,8 @@
                 </modifier>
               </modifiers>
             </entryLink>
-            <entryLink id="8acf-e31f-f58b-2e9a" name="Twin lascannon" hidden="false" collective="false" import="true" targetId="ee18-b1cd-6b60-464d" type="selectionEntry"/>
-            <entryLink id="bb29-c6fa-5c34-fd34" name="Reaper autocannon" hidden="false" collective="false" import="true" targetId="5ab4-1ee7-95ad-7e15" type="selectionEntry">
+            <entryLink id="8acf-e31f-f58b-2e9a" name="双联激光炮" hidden="false" collective="false" import="true" targetId="ee18-b1cd-6b60-464d" type="selectionEntry"/>
+            <entryLink id="bb29-c6fa-5c34-fd34" name="Reaper 自动炮" hidden="false" collective="false" import="true" targetId="5ab4-1ee7-95ad-7e15" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -4855,7 +4855,7 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="0e1f-1b28-0bf9-b80c" name="Primary Sponson Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="7a60-bc15-dc4b-eba5">
+        <selectionEntryGroup id="0e1f-1b28-0bf9-b80c" name="Primary 侧弦武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="7a60-bc15-dc4b-eba5">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bed3-0faf-f2fc-a073" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e433-24b1-9a8b-16b8" type="max"/>
@@ -4905,9 +4905,9 @@
                 <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="7a60-bc15-dc4b-eba5" name="Two Twin Lascannons" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="7a60-bc15-dc4b-eba5" name="2双联激光炮" hidden="false" collective="false" import="true" type="upgrade">
               <entryLinks>
-                <entryLink id="0c02-9fdb-d113-3674" name="Twin lascannon" hidden="false" collective="false" import="true" targetId="ee18-b1cd-6b60-464d" type="selectionEntry">
+                <entryLink id="0c02-9fdb-d113-3674" name="双联激光炮" hidden="false" collective="false" import="true" targetId="ee18-b1cd-6b60-464d" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6989-bde6-6174-a70d" type="min"/>
                     <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52d9-136c-796f-4fc4" type="max"/>
@@ -4922,17 +4922,17 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="834e-966b-8bc8-02c7" name="Secondary Sponson Weapons" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="834e-966b-8bc8-02c7" name="Secondary 侧弦武器" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cba0-646b-8ebf-81dd" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="8f5d-5ceb-53f9-c6a5" name="Two heavy bolters" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="8f5d-5ceb-53f9-c6a5" name="2重爆弹" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c448-8843-7bdf-a67f" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="14e7-8f25-216e-3000" name="Heavy bolter" hidden="false" collective="false" import="true" targetId="05ab-e7cc-e856-c36f" type="selectionEntry">
+                <entryLink id="14e7-8f25-216e-3000" name="重爆弹" hidden="false" collective="false" import="true" targetId="05ab-e7cc-e856-c36f" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c18-ec7b-d8c2-a713" type="min"/>
                     <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97c3-2c18-ec2c-45d3" type="max"/>
@@ -4945,7 +4945,7 @@
                 <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="100d-0ca1-f00e-3e00" name="Two heavy flamers" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="100d-0ca1-f00e-3e00" name="2重喷火" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="86f3-2090-3332-374b" type="max"/>
               </constraints>
@@ -4963,12 +4963,12 @@
                 <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="bee9-24e4-ca9a-b716" name="Two lascannons" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="bee9-24e4-ca9a-b716" name="2激光炮" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c70-8f02-4086-f5cd" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="8444-3d0b-9c8c-8375" name="Lascannon" hidden="false" collective="false" import="true" targetId="a908-4664-11cd-f8b2" type="selectionEntry">
+                <entryLink id="8444-3d0b-9c8c-8375" name="激光炮" hidden="false" collective="false" import="true" targetId="a908-4664-11cd-f8b2" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d8d4-52c0-d910-a1d7" type="min"/>
                     <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9afb-ce73-4ed6-11a2" type="max"/>
@@ -5005,12 +5005,12 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8984-9458-7b12-57cd" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="1606-40e5-9458-06bd" name="Combi-flamer" hidden="false" collective="false" import="true" targetId="c6a1-e0c4-c1b1-dce1" type="selectionEntry">
+            <entryLink id="1606-40e5-9458-06bd" name="复合喷火器" hidden="false" collective="false" import="true" targetId="c6a1-e0c4-c1b1-dce1" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a5b-31a3-411e-c98a" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="ff43-e0f2-f29b-bcdb" name="Combi-melta" hidden="false" collective="false" import="true" targetId="c445-e211-f316-5d83" type="selectionEntry">
+            <entryLink id="ff43-e0f2-f29b-bcdb" name="复合热熔" hidden="false" collective="false" import="true" targetId="c445-e211-f316-5d83" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4759-33c5-e579-9533" type="max"/>
               </constraints>
@@ -5043,7 +5043,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d61-8a58-f35f-e9f9" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="ca0c-4148-4987-e822" name="Hunter-killer missile" hidden="false" collective="false" import="true" targetId="32bf-b117-4ecf-5165" type="selectionEntry">
+        <entryLink id="ca0c-4148-4987-e822" name="猎杀导弹" hidden="false" collective="false" import="true" targetId="32bf-b117-4ecf-5165" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -5055,7 +5055,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6119-2370-4ef2-a756" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="cce2-029e-b1d6-b554" name="Multi-melta" hidden="false" collective="false" import="true" targetId="2b37-65ee-9443-b4ef" type="selectionEntry">
+        <entryLink id="cce2-029e-b1d6-b554" name="多管热熔" hidden="false" collective="false" import="true" targetId="2b37-65ee-9443-b4ef" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -5644,7 +5644,7 @@
     </selectionEntry>
     <selectionEntry id="05be-50b6-5107-9878" name="重爆弹 (工事)" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="48cb-7499-9f11-1912" name="Heavy bolter" hidden="false" targetId="e2b0-b9f1-6c38-584c" type="profile"/>
+        <infoLink id="48cb-7499-9f11-1912" name="重爆弹" hidden="false" targetId="e2b0-b9f1-6c38-584c" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="8.0"/>
@@ -5669,15 +5669,15 @@
         </profile>
         <profile id="5f18-9c8a-8931-75f8" name="Imperial Bastion" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
           <characteristics>
-            <characteristic name="容量" typeId="15aa-1916-a38b-d223">这个模型 has a transport capacity of two INFANTRY units, up to a total of 20 models.</characteristic>
+            <characteristic name="容量" typeId="15aa-1916-a38b-d223">这个模型 has a transport capacity of two INFANTRY units, up to a total of 20 模型.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="c1dc-4a23-3edb-5dde" name="Automated Weapons" hidden="false" targetId="a179-f592-3224-72c9" type="profile"/>
+        <infoLink id="c1dc-4a23-3edb-5dde" name="Automated 武器" hidden="false" targetId="a179-f592-3224-72c9" type="profile"/>
         <infoLink id="490e-4da6-1416-77de" name="Fire Points (10)" hidden="false" targetId="220a-170b-5fd7-36f2" type="profile"/>
         <infoLink id="da51-cc6a-c922-1b2a" name="Immobile" hidden="false" targetId="8830-2c9e-ad7e-e57d" type="profile"/>
-        <infoLink id="b530-7a78-1e5f-f52e" name="Explodes (2D6寸)" hidden="false" targetId="8e81-7c95-43ba-6e0d" type="profile"/>
+        <infoLink id="b530-7a78-1e5f-f52e" name="爆炸 (2D6寸)" hidden="false" targetId="8e81-7c95-43ba-6e0d" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="4df8-7815-eff1-e046" name="New CategoryLink" hidden="false" targetId="53cd-314c-599b-8616" primary="false"/>
@@ -5686,18 +5686,18 @@
         <categoryLink id="7183-4744-1d44-14b2" name="阵营: Chaos" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="c364-48d4-1ac4-52ae" name="Turret Weapon" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="c364-48d4-1ac4-52ae" name="炮塔武器" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f9e-dd07-768f-f562" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="d471-4482-637a-264a" name="Icarus Lascannon" hidden="false" collective="false" import="true" targetId="c0a2-9100-e1e5-8bc0" type="selectionEntry"/>
-            <entryLink id="dc4c-d3ce-d0a8-37ab" name="Quad-gun" hidden="false" collective="false" import="true" targetId="e4c2-0571-1de7-02e1" type="selectionEntry"/>
+            <entryLink id="d471-4482-637a-264a" name="Icarus 激光炮" hidden="false" collective="false" import="true" targetId="c0a2-9100-e1e5-8bc0" type="selectionEntry"/>
+            <entryLink id="dc4c-d3ce-d0a8-37ab" name="四联-gun" hidden="false" collective="false" import="true" targetId="e4c2-0571-1de7-02e1" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="6e8f-c7b9-60a7-b395" name="Heavy bolter (Fortification)" hidden="false" collective="false" import="true" targetId="05be-50b6-5107-9878" type="selectionEntry">
+        <entryLink id="6e8f-c7b9-60a7-b395" name="重爆弹 (Fortification)" hidden="false" collective="false" import="true" targetId="05be-50b6-5107-9878" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="points" value="8"/>
           </modifiers>
@@ -6238,7 +6238,7 @@
                   <profiles>
                     <profile id="a650-fc6c-fd84-e191" name="23: Deadly Marksman" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the Damage characteristic of ranged weapons used by 这个模型. </characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the Damage characteristic of ranged 武器 used by 这个模型. </characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6425,7 +6425,7 @@
                   <profiles>
                     <profile id="d50b-f421-da38-fd5a" name="42: Stealthy" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Subtract 1 from hit rolls for attacks made with ranged weapons that target 这个模型.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Subtract 1 from hit rolls for attacks made with ranged 武器 that target 这个模型.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6718,7 +6718,7 @@
                   <profiles>
                     <profile id="7d61-3f69-1234-5baa" name="02: Auto-loader" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s ranged weapons. Increase the number of shots 这个武器 makes by 1 (e.g. a Pistol 1 weapon becomes a Pistol 2 weapon). </characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s ranged 武器. Increase the number of shots 这个武器 makes by 1 (e.g. a Pistol 1 weapon becomes a Pistol 2 weapon). </characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6735,7 +6735,7 @@
                   <profiles>
                     <profile id="85ee-c700-2b30-ad37" name="03: Penetrator Rounds" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s ranged weapons. Improve that weapon’s AP characteristic by 1 (e.g. AP -1 becomes AP -2).</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s ranged 武器. Improve that weapon’s AP characteristic by 1 (e.g. AP -1 becomes AP -2).</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6752,7 +6752,7 @@
                   <profiles>
                     <profile id="97fa-de67-99e0-29fd" name="04: High Calibre" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s ranged weapons. Add 1 to that weapon’s Strength characteristic.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s ranged 武器. Add 1 to that weapon’s Strength characteristic.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6769,7 +6769,7 @@
                   <profiles>
                     <profile id="65fb-9911-be6a-53d6" name="05: Improved Sights" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s ranged weapons. Add 6寸 to that weapon’s Range characteristic. </characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s ranged 武器. Add 6寸 to that weapon’s Range characteristic. </characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6786,7 +6786,7 @@
                   <profiles>
                     <profile id="d1b4-cfe9-6852-26f5" name="06: Inferno Round" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s ranged weapons. Add the following ability to that weapon: ‘Units do not receive the benefit of cover to their saving throws against attacks made with 这个武器.’</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s ranged 武器. Add the following ability to that weapon: ‘Units do not receive the benefit of cover to their saving throws against attacks made with 这个武器.’</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6803,7 +6803,7 @@
                   <profiles>
                     <profile id="74dd-199a-f33e-c54f" name="07: Artificer Weapon" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s weapons. Add 1 to that weapon’s Damage characteristic.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s 武器. Add 1 to that weapon’s Damage characteristic.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6820,7 +6820,7 @@
                   <profiles>
                     <profile id="37ad-2ef0-0868-af26" name="08: Finely Balanced" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s melee weapons. Add the following ability to that weapon: ‘Each time the bearer fights, it can make 1 additional attack with 这个武器.’</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s melee 武器. Add the following ability to that weapon: ‘Each time the bearer fights, it can make 1 additional attack with 这个武器.’</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6837,7 +6837,7 @@
                   <profiles>
                     <profile id="1ce8-bd94-7cf0-e20f" name="09: Shredder" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s melee weapons. Add the following ability to that weapon: ‘You can re-roll failed wound rolls for attacks made with 这个武器.’</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s melee 武器. Add the following ability to that weapon: ‘You can re-roll failed wound rolls for attacks made with 这个武器.’</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6854,7 +6854,7 @@
                   <profiles>
                     <profile id="96c3-0639-a1a2-86e0" name="10: Brutal" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s melee weapons. Improve that weapon’s Strength characteristic by 1 (e.g. User becomes +1, +1 becomes +2).</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s melee 武器. Improve that weapon’s Strength characteristic by 1 (e.g. User becomes +1, +1 becomes +2).</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6871,7 +6871,7 @@
                   <profiles>
                     <profile id="ae27-0269-204d-ceb0" name="11: Razor-edged" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s melee weapons. Improve that weapon’s AP characteristic by 1 (e.g. AP -1 becomes AP -2).</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s melee 武器. Improve that weapon’s AP characteristic by 1 (e.g. AP -1 becomes AP -2).</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6888,7 +6888,7 @@
                   <profiles>
                     <profile id="c8c0-671c-6174-969c" name="12: Heirloom" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s melee weapons. Add the following ability to that weapon: ‘Each unmodified hit roll of 6 made for attacks with 这个武器 scores 2 hits 而不是 1’.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s melee 武器. Add the following ability to that weapon: ‘Each unmodified hit roll of 6 made for attacks with 这个武器 scores 2 hits 而不是 1’.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6916,7 +6916,7 @@
                   <profiles>
                     <profile id="93ca-1b49-0a5c-c32b" name="1: Psychic Might" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the number of psychic powers this character can attempt to manifest in your 灵能阶段. </characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the number of 灵能 this character can attempt to manifest in your 灵能阶段. </characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6933,7 +6933,7 @@
                   <profiles>
                     <profile id="797e-b18b-5171-c011" name="2: Adamantium Will" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the number of psychic powers this character can attempt to deny in your opponent’s 灵能阶段.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the number of 灵能 this character can attempt to deny in your opponent’s 灵能阶段.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6950,7 +6950,7 @@
                   <profiles>
                     <profile id="68b1-73d2-33ee-8089" name="3: Master of Lore" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the number of psychic powers 这个模型 knows from one of the psychic disciplines available to them.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the number of 灵能 这个模型 knows from one of the psychic disciplines available to them.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7249,7 +7249,7 @@
               <profiles>
                 <profile id="591c-3344-f7bf-7f91" name="R1: Deadeye Shots" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time you roll an unmodified wound roll of 6 for an attack with one of 这个单位’s ranged weapons, increase the Damage characteristic of that attack by 1. </characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time you roll an unmodified wound roll of 6 for an attack with one of 这个单位’s ranged 武器, increase the Damage characteristic of that attack by 1. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7600,7 +7600,7 @@
               <profiles>
                 <profile id="fe4c-12e6-6f1b-b1b4" name="R4: Volatile Death Throes " hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 is destroyed, its controlling player can choose for it to automatically trigger death throes (see Codex: 泰伦) – no dice roll is required.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 is destroyed, its controlling player can choose for it to automatically trigger death throes (see 圣典: 泰伦) – no dice roll is required.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7741,7 +7741,7 @@
               <profiles>
                 <profile id="49eb-d748-c449-7525" name="R2: Experimental Ammunition" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Select one of the ranged weapons used by one or more models in 这个单位. Add 1 to the Damage characteristic of that weapon for attacks made by 那个单位.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Select one of the ranged 武器 used by one or more models in 这个单位. Add 1 to the Damage characteristic of that weapon for attacks made by 那个单位.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7758,7 +7758,7 @@
               <profiles>
                 <profile id="6514-25a9-ae1e-781d" name="R2: Advanced Targeting" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 6寸 to the maximum range of 这个单位’s Heavy and 速射 weapons that have an unmodified maximum range of 24寸 or longer. </characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 6寸 to the maximum range of 这个单位’s Heavy and 速射 武器 that have an unmodified maximum range of 24寸 or longer. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7853,12 +7853,12 @@
                 <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="c271-fdbc-e7be-9838" name="R5: Blessed Weapons" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="c271-fdbc-e7be-9838" name="R5: Blessed 武器" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e9b-a56f-7e6f-8526" type="max"/>
               </constraints>
               <profiles>
-                <profile id="1c8f-af4c-400c-8e80" name="R5: Blessed Weapons" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
+                <profile id="1c8f-af4c-400c-8e80" name="R5: Blessed 武器" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
                     <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 has a damage table, double the number of wounds it has remaining for the purposes of determining what its Ballistic Skill characteristic is.</characteristic>
                   </characteristics>
@@ -7898,7 +7898,7 @@
       <description>Models 上车 on 这个模型 can attack in their 射击阶段. Measure the range and draw line of sight from any point on the model. When they do so, any restrictions or modifiers that apply to 这个模型 also apply to its passenger; for example, the passengers cannot shoot if 这个模型 has Fallen Back in the same turn, cannot shoot (except with Pistols) if 这个模型 is 范围内 1寸 of an 敌方单位, and so on.</description>
     </rule>
     <rule id="51af-0fb9-3ca5-d307" name="烟雾发生器" hidden="false">
-      <description>Once per game, 而不是 shooting any weapons in the 射击阶段, this models can use its smoke launchers; if it does so, until your next 射击阶段 your opponent must subtract 1 from any hit rolls that target it.</description>
+      <description>Once per game, 而不是 shooting any 武器 in the 射击阶段, this models can use its 烟雾发射器; if it does so, until your next 射击阶段 your opponent must subtract 1 from any hit rolls that target it.</description>
     </rule>
     <rule id="4ea8-94d3-ba39-042f" name="And They Shall Know No Fear" hidden="false">
       <description>You can re-roll failed 士气测试 for 这个单位.</description>
@@ -7922,7 +7922,7 @@
       <description>The 5 CPs from this detachment can only be spent on Stronghold Assault Stratagems.</description>
     </rule>
     <rule id="5a7e-f984-487c-d767" name="爆弹训练" publicationId="28ec-711c-pubN110542" hidden="false">
-      <description>All 阿斯塔特修会 and 阿斯塔特叛军 models gain this ability. 而不是 following the normal rules for 速射 weapons, 速射爆弹武器 used by models with this ability make double the number of attacks if any of the following conditions apply: 1) The firing model&apos;s target is 范围内 half the weapon&apos;s maximum range. 2)    The firing model is INFANTRY and every model in its unit remained stationary in your previous 移动阶段. 3) The firing model is a TERMINATOR, BIKER, CENTURION, or DREADNOUGHT. For the purposes of this ability a 速射爆弹武器 is any weapon with the 速射 type whose name includes the word &apos;bolt&apos; (e.g. 爆弹枪, 爆弹步枪, 风暴爆弹, 复合爆弹, 飓风爆弹, 地狱爆弹枪, etc.) This also applies when firing the 爆弹枪 profile of a combi-weapon (including the 爆弹武器 profile of Relics such as Blood Song and the Lion&apos;s Wrath) and when firing relics that replace a 速射爆弹武器, so long as the relic is also a rapid-fire weapon (e.g. Primarch&apos;s Wrath, Fury of Deimos, etc) The gauntlets of ultramar and the Talon of Horus are also considered 速射爆弹武器, as is the 卫士之矛 used by Deathwatch Watch Masters.</description>
+      <description>All 阿斯塔特修会 and 阿斯塔特叛军 models gain this ability. 而不是 following the normal rules for 速射 武器, 速射爆弹武器 used by models with this ability make double the number of attacks if any of the following conditions apply: 1) The firing model&apos;s target is 范围内 half the weapon&apos;s maximum range. 2)    The firing model is INFANTRY and every model in its unit remained stationary in your previous 移动阶段. 3) The firing model is a 终结者, BIKER, 百夫长, or DREADNOUGHT. For the purposes of this ability a 速射爆弹武器 is any weapon with the 速射 type whose name includes the word &apos;bolt&apos; (e.g. 爆弹枪, 爆弹步枪, 风暴爆弹, 复合爆弹, 飓风爆弹, 地狱爆弹枪, etc.) This also applies when firing the 爆弹枪 profile of a combi-weapon (including the 爆弹武器 profile of Relics such as Blood Song and the Lion&apos;s Wrath) and when firing relics that replace a 速射爆弹武器, so long as the relic is also a rapid-fire weapon (e.g. Primarch&apos;s Wrath, Fury of Deimos, etc) The gauntlets of ultramar and the Talon of Horus are also considered 速射爆弹武器, as is the 卫士之矛 used by Deathwatch Watch Masters.</description>
     </rule>
     <rule id="01a4-bec8-b573-fde7" name="死亡天使" hidden="false">
       <description>这个单位 has the following abilities: And They Shall Know No Fear, Bolter Discipline, Shock Assault and Combat Doctrines.’</description>
@@ -8185,7 +8185,7 @@
         <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="e294-a5c7-e01e-0a82" name="Close Combat Weapon" publicationId="28ec-711c-pubN72690" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+    <profile id="e294-a5c7-e01e-0a82" name="肉搏武器" publicationId="28ec-711c-pubN72690" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="射程" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
         <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -8372,7 +8372,7 @@
     </profile>
     <profile id="c883-3078-1367-cc2c" name="烟雾发射器" publicationId="28ec-711c-pubN72690" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per game, 而不是 shooting any weapons in the 射击阶段, the vehicle can use its 烟雾发射器; until your next 射击阶段 your opponent must subtract 1 from 所有命中骰 for ranged weapons that target 这个载具.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per game, 而不是 shooting any 武器 in the 射击阶段, the vehicle can use its 烟雾发射器; until your next 射击阶段 your opponent must subtract 1 from 所有命中骰 for ranged 武器 that target 这个载具.</characteristic>
       </characteristics>
     </profile>
     <profile id="20dc-1fbb-dc65-7f04" name="突击炮" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -8465,7 +8465,7 @@
         <characteristic name="能力" typeId="837d-5e63-aeb7-1410"/>
       </characteristics>
     </profile>
-    <profile id="0964-678c-96c7-28af" name="Dragon&apos;s Breath Flamer" publicationId="28ec-711c-pubN72690" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+    <profile id="0964-678c-96c7-28af" name="Dragon&apos;s Breath 喷火器" publicationId="28ec-711c-pubN72690" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="射程" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Template</characteristic>
         <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 1</characteristic>
@@ -8587,7 +8587,7 @@
     </profile>
     <profile id="e144-1293-ec28-d3a9" name="Void Shield" publicationId="28ec-711c-pubN113754" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each hit scored against the model will instead hit a void shield (whilst they remain). Close combat attacks come from inside the shield and therefore are not stopped. Void shields have an Armour Value of 12. A glancing or penetrating hit (or any hit from a Destroyer weapon) scored against a void shield causes it to collapse. After all the void shields have collapsed, further hits strike the model instead. At the end of each of the controlling player&apos;s turns, roll one dice for each collapsed void  shield: each roll of 5+ instantly restores one collapsed shield.  If a weapon uses a template or blast marker and it hits one or more units protected by a Void Shield Zone, ignore the number of hits it would normally cause to the units, instead roll to pen the void shield once using the weapons normal rules, profile for each template or blast marker that hits.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each hit scored against the model will instead hit a void shield (whilst they remain). Close combat attacks come from inside the shield and therefore are not stopped. Void shields have an Armour Value of 12. A glancing or penetrating hit (or any hit from a Destroyer weapon) scored against a void shield causes it to collapse. After all the void shields have collapsed, further hits strike the model instead. At the end of each of the controlling player&apos;s turns, roll one dice for each collapsed void  shield: each roll of 5+ instantly restores one collapsed shield.  If a weapon uses a template or blast marker and it hits one or more units protected by a Void Shield Zone, ignore the number of hits it would normally cause to the units, instead roll to pen the void shield once using the 武器 normal rules, profile for each template or blast marker that hits.</characteristic>
       </characteristics>
     </profile>
     <profile id="31ba-2b94-6600-22f3" name="Magos Machine Spirit" publicationId="28ec-711c-pubN113754" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -8635,7 +8635,7 @@
     </profile>
     <profile id="705c-91aa-6591-507b" name="炮架 (Details)" publicationId="28ec-711c-pubN113754" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A model in cover behind a 炮架 has a 4+ cover save. One non-vehicle model in base contact with a 炮架 can fire it 而不是 firing its own weapons. A model that fires a 炮架 has the Relentless special rule for that shooting attack. A 炮架 can be shot at and attacked in close combat. It is hit automatically in close combat.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A model in cover behind a 炮架 has a 4+ cover save. One non-vehicle model in base contact with a 炮架 can fire it 而不是 firing its own 武器. A model that fires a 炮架 has the Relentless special rule for that shooting attack. A 炮架 can be shot at and attacked in close combat. It is hit automatically in close combat.</characteristic>
       </characteristics>
     </profile>
     <profile id="70aa-366f-15ac-da4d" name="Comms Relay" publicationId="28ec-711c-pubN113754" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -8693,9 +8693,9 @@
         <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Area Terrain. A model in cover behind wreckage or rubble has a 4+ cover save.</characteristic>
       </characteristics>
     </profile>
-    <profile id="f0ec-023c-4865-fe5a" name="Psychic Hood" publicationId="28ec-711c-pubN72690" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
+    <profile id="f0ec-023c-4865-fe5a" name="灵能头箍" publicationId="28ec-711c-pubN72690" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time a unit (or model) is targeted by an 敌方 psychic power and is 范围内 12寸 of a 友方模型 with a psychic hood, the wearer of the hood can attempt to Deny the Witch in their stead, as if he were in the target unit.  If the Deny the Witch attempt is failed, the psychic power is resolved as normal, but effects only the initial target, not the wearer of the hood.  If a model with a psychic hood is 上车 in a vehicle or building, he can only use the hood to nullify powers targeting the vehicle or building he is 上车 within.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time a unit (or model) is targeted by an 敌方 psychic power and is 范围内 12寸 of a 友方模型 with a 灵能头箍, the wearer of the hood can attempt to Deny the Witch in their stead, as if he were in the target unit.  If the Deny the Witch attempt is failed, the psychic power is resolved as normal, but effects only the initial target, not the wearer of the hood.  If a model with a 灵能头箍 is 上车 in a vehicle or building, he can only use the hood to nullify powers targeting the vehicle or building he is 上车 within.</characteristic>
       </characteristics>
     </profile>
     <profile id="98ac-5132-9ebd-c355" name="Orbital Strike" publicationId="28ec-711c-pubN72690" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -9078,7 +9078,7 @@
         <characteristic name="能力" typeId="837d-5e63-aeb7-1410">命中骰出1,在伤害结算完成后移除使用者</characteristic>
       </characteristics>
     </profile>
-    <profile id="2c56-ff56-a155-032d" name="Predator autocannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+    <profile id="2c56-ff56-a155-032d" name="猎食者自动炮" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="射程" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48寸</characteristic>
         <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 2D3</characteristic>
@@ -9128,7 +9128,7 @@
         <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="f465-e051-3946-f328" name="Stormstrike missile launcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+    <profile id="f465-e051-3946-f328" name="Stormstrike 导弹发射器" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="射程" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72寸</characteristic>
         <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 1</characteristic>
@@ -9278,7 +9278,7 @@
         <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="b4c9-cb72-ef2f-76cb" name="Whirlwind castellan launcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+    <profile id="b4c9-cb72-ef2f-76cb" name="旋风 castellan launcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="射程" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72寸</characteristic>
         <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 2D6</characteristic>
@@ -9288,7 +9288,7 @@
         <characteristic name="能力" typeId="837d-5e63-aeb7-1410">这个武器 can target units that are not visible to the firing model.</characteristic>
       </characteristics>
     </profile>
-    <profile id="f4df-b39c-08a7-5255" name="Whirlwind vengeance launcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+    <profile id="f4df-b39c-08a7-5255" name="旋风 vengeance launcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="射程" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72寸</characteristic>
         <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 2D3</characteristic>
@@ -9525,34 +9525,34 @@
         <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">After 这个模型 has been set up on the battlefield it cannot move for any reason, and no units can embark upon it.</characteristic>
       </characteristics>
     </profile>
-    <profile id="a179-f592-3224-72c9" name="Automated Weapons" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
+    <profile id="a179-f592-3224-72c9" name="Automated 武器" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
         <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Unless a 友方单位 is 上车 aboard 这个模型, it can only target the closest visible 敌方单位 when it makes attacks. If two or more units are equally close, you can choose which is targeted.</characteristic>
       </characteristics>
     </profile>
     <profile id="429b-91d2-8356-7150" name="Magazine Explosion" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 在载具被移除及任何在这个载具上的模型下车前投掷1个D6. On a 6 its magazine explodes, 每个单位 范围内 2D6寸 遭受 D3 致命伤.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 在载具被移除及任何在这个载具上的模型下车前投掷1个D6. On a 6 its magazine 爆炸, 每个单位 范围内 2D6寸 遭受 D3 致命伤.</characteristic>
       </characteristics>
     </profile>
     <profile id="e433-6678-6be1-355c" name="Fire Points (5)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Up to 5 models 上车 aboard 这个模型 can shoot in your 射击阶段, measuring and drawing line of sight from any point on 这个模型. When they do so, any restrictions and modifiers that apply to 这个模型 also apply to its 上车 models.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Up to 5 models 上车 aboard 这个模型 can shoot in your 射击阶段, measuring and drawing line of sight from any point on 这个模型. When they do so, any restrictions and modifiers that apply to 这个模型 also apply to its 上车 模型.</characteristic>
       </characteristics>
     </profile>
     <profile id="220a-170b-5fd7-36f2" name="Fire Points (10)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Up to 10 models 上车 aboard 这个模型 can shoot in your 射击阶段, measuring and drawing line of sight from any point on 这个模型. When they do so, any restrictions and modifiers that apply to 这个模型 also apply to its 上车 models.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Up to 10 models 上车 aboard 这个模型 can shoot in your 射击阶段, measuring and drawing line of sight from any point on 这个模型. When they do so, any restrictions and modifiers that apply to 这个模型 also apply to its 上车 模型.</characteristic>
       </characteristics>
     </profile>
     <profile id="298d-b8cf-d3ed-04d8" name="Fire Points (15)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Up to 15 models 上车 aboard 这个模型 can shoot in your 射击阶段, measuring and drawing line of sight from any point on 这个模型. When they do so, any restrictions and modifiers that apply to 这个模型 also apply to its 上车 models.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Up to 15 models 上车 aboard 这个模型 can shoot in your 射击阶段, measuring and drawing line of sight from any point on 这个模型. When they do so, any restrictions and modifiers that apply to 这个模型 also apply to its 上车 模型.</characteristic>
       </characteristics>
     </profile>
     <profile id="57f6-edd9-6170-5c91" name="自动武器 (炮架)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Unless a 友方 INFANTRY model is 范围内 1寸 of 这个模型, 这个模型 can only target the closest visible 敌方单位 when it makes attacks. If two or more units are equally close, you can choose which is targeted.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Unless a 友方 步兵模型 is 范围内 1寸 of 这个模型, 这个模型 can only target the closest visible 敌方单位 when it makes attacks. If two or more units are equally close, you can choose which is targeted.</characteristic>
       </characteristics>
     </profile>
     <profile id="c60f-7b10-88fd-9eba" name="静态防御网络 (Aegis)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -9617,7 +9617,7 @@
         <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of your 移动阶段, you can remove 这个模型 from the battlefield. At the end of your next 移动阶段, set it up again, anywhere on the battlefield that is more than 9寸 away from any 敌方模型.</characteristic>
       </characteristics>
     </profile>
-    <profile id="8e81-7c95-43ba-6e0d" name="Explodes (2D6寸)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
+    <profile id="8e81-7c95-43ba-6e0d" name="爆炸 (2D6寸)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
         <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When 这个模型 is destroyed, 投掷1个D6 before any 上车 models 下车 and before removing it from play. 结果为6则爆炸, 每个单位 范围内 2D6寸 遭受 D3 致命伤.</characteristic>
       </characteristics>
@@ -9627,14 +9627,14 @@
         <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Every model in 这个单位 must be set up so that it is in end-to-end contact with at least one other 友方 WALL OF MARTYRS model. After it is set up, models in 这个单位 are treated as terrain features that follow the rules for Barricades (pg 106).</characteristic>
       </characteristics>
     </profile>
-    <profile id="4ab1-b4c4-a404-8c2f" name="Explodes (2D6寸 / D6)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
+    <profile id="4ab1-b4c4-a404-8c2f" name="爆炸 (2D6寸 / D6)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
         <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When 这个模型 is destroyed, 投掷1个D6 before any 上车 models 下车 and before removing it from play. 结果为6则爆炸, 每个单位 范围内 2D6寸 遭受 D6 致命伤.</characteristic>
       </characteristics>
     </profile>
-    <profile id="0f50-2ea2-b251-a213" name="Automated Weapons (Icarus)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
+    <profile id="0f50-2ea2-b251-a213" name="Automated 武器 (Icarus)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Unless a 友方单位 is 上车 aboard 这个模型, 这个模型&apos;s weapons can only target the closest visible 敌方单位. Attacks made with the Icarus Lascannon can instead target the closest visible 敌方单位 that can FLY. In either case, if two or more units are equally close, you may choose which is targeted.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Unless a 友方单位 is 上车 aboard 这个模型, 这个模型&apos;s 武器 can only target the closest visible 敌方单位. Attacks made with the Icarus 激光炮 can instead target the closest visible 敌方单位 that can FLY. In either case, if two or more units are equally close, you may choose which is targeted.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

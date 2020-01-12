@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f731-6aa6-c141-8937" name="Imperium - Officio Assassinorum" revision="11" battleScribeVersion="2.03" authorName="BSData-CHN" authorContact="Discord: @Alphalas | Twitter: @kingoverlord" authorUrl="https://github.com/BSData-CHN" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f731-6aa6-c141-8937" name="帝国 - Officio Assassinorum" revision="11" battleScribeVersion="2.03" authorName="BSData-CHN" authorContact="Discord: @Alphalas | Twitter: @kingoverlord" authorUrl="https://github.com/BSData-CHN" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
-    <publication id="f731-6aa6-pubN65537" name="Index: Imperium 2"/>
-    <publication id="f731-6aa6-pubN66377" name="Codex: Officio Assassinorum"/>
+    <publication id="f731-6aa6-pubN65537" name="索引: Imperium 2"/>
+    <publication id="f731-6aa6-pubN66377" name="圣典: Officio Assassinorum"/>
   </publications>
   <categoryEntries>
     <categoryEntry id="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" name="Elites" hidden="false"/>
@@ -77,8 +77,8 @@
           </constraints>
         </categoryLink>
         <categoryLink id="bf38-950d-c2fe-675e" name="主将" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
-        <categoryLink id="40ac-0dab-737b-4ac1" name="圣物 Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false"/>
-        <categoryLink id="6076-877b-5363-d98e" name="圣物 Heavy Support" hidden="false" targetId="6c4c-a416-b8cb-c380" primary="false"/>
+        <categoryLink id="40ac-0dab-737b-4ac1" name="圣物Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false"/>
+        <categoryLink id="6076-877b-5363-d98e" name="圣物Heavy Support" hidden="false" targetId="6c4c-a416-b8cb-c380" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
@@ -144,7 +144,7 @@
               <description>Use this Stratagem at the start of the 肉搏阶段. Choose one CULEXUS ASSASSIN from your army. 敌方单位 范围内 3寸 of that model cannot be chosen to fight 这个阶段 until after all other units have done so, even if they charged. If one of those units has an ability that allows them to fight first 这个阶段, they instead fight in 这个阶段 as if they do not have that ability.</description>
             </rule>
             <rule id="2802-7ced-96c6-a859" name="Stratagem (Culexus) Pariah&apos;s Gaze - 1 CP" hidden="false">
-              <description>Use this Stratagem in your 射击阶段, before choosing a CULEXUS ASSASSIN to shoot with. 直到阶段结束, the Damage charateristic of that model&apos;s ranged weapons is increased to D3.</description>
+              <description>Use this Stratagem in your 射击阶段, before choosing a CULEXUS ASSASSIN to shoot with. 直到阶段结束, the Damage charateristic of that model&apos;s ranged 武器 is increased to D3.</description>
             </rule>
           </rules>
           <costs>
@@ -371,12 +371,12 @@
         </profile>
         <profile id="188f-a12e-5ec8-001c" name="Abomination" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 can never be targeted or affected by psychic powers in any way. PSYKERS that are 范围内 18寸 of any Culexus Assassins must subtract 2 from Psychic tests and Deny the witch tests they take.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 can never be targeted or affected by 灵能 in any way. PSYKERS that are 范围内 18寸 of any Culexus Assassins must subtract 2 from Psychic tests and Deny the witch tests they take.</characteristic>
           </characteristics>
         </profile>
         <profile id="a9b3-8751-d45c-5aa1" name="Psychic Assassin" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 can target a CHARACTER that is a PSYKER, even if it is not the closest 敌方单位. 此外, 这个模型 can make an attack with a psyk-out grenade in the same phase it uses it&apos;s animus speculum.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 can target a CHARACTER that is a 灵能者, even if it is not the closest 敌方单位. 此外, 这个模型 can make an attack with a psyk-out grenade in the same phase it uses it&apos;s animus speculum.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -551,7 +551,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">You can reroll failed wound rolls for 这个武器 if the target is an INFANTRY model</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">You can reroll failed wound rolls for 这个武器 if the target is an 步兵模型</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -599,17 +599,17 @@
       <profiles>
         <profile id="c61f-a4b1-dfed-3178" name="Spy Mask" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Enemy models do not gain the bonus to thier saving throws for being in cover against attacks made with ranged weapons by 这个模型.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Enemy models do not gain the bonus to thier saving throws for being in cover against attacks made with ranged 武器 by 这个模型.</characteristic>
           </characteristics>
         </profile>
         <profile id="9a9e-b03d-a60f-17bd" name="Stealth Suit" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Subtract 1 from hit rolls for attacks made with ranged weapons that target 这个模型. If 这个模型 is in or on a terrain feature, subtract 2 instead.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Subtract 1 from hit rolls for attacks made with ranged 武器 that target 这个模型. If 这个模型 is in or on a terrain feature, subtract 2 instead.</characteristic>
           </characteristics>
         </profile>
         <profile id="2f1e-0051-0924-f5a5" name="Deadshot" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 can target a CHARACTER even if it is not the closest 敌方单位. 此外, each time an unmodified wound roll of 6 is made for an attack with a ranged weapon by 这个模型, the Damage for that attack is D6</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 can target a CHARACTER even if it is not the closest 敌方单位. 此外, each time an unmodified wound roll of 6 is made for an attack with a 远程武器 by 这个模型, the Damage for that attack is D6</characteristic>
           </characteristics>
         </profile>
         <profile id="73a4-db77-cbfd-54af" name="Vindicare Assassin" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
@@ -627,12 +627,12 @@
         </profile>
         <profile id="4c5b-5f0a-bd8c-0a8c" name="Faultless Aim" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 remained stationary in its previous 移动阶段, it always hits on a 2+ when firing a ranged weapon, regardless of modifiers. (hit rolls of 6 are still required when firing overwatch)</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 remained stationary in its previous 移动阶段, it always hits on a 2+ when firing a 远程武器, regardless of modifiers. (hit rolls of 6 are still required when firing overwatch)</characteristic>
           </characteristics>
         </profile>
         <profile id="afbe-7c9e-41ca-f2ad" name="Head Shot" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">After 这个模型 has made an attack with a ranged weapon, 投掷1个D6 if a model suffered damage from that attack but has not been slain; on a 3+ that model 遭受 1 致命伤 and, if that model is not slain, you can roll one more D6. This time, that model 遭受 1 致命伤 on a 4+. Keep rolling one D6, increasing the result required, to cause 1点致命伤 by 1 each time, until the model being rolled for is slain or the roll is failed.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">After 这个模型 has made an attack with a 远程武器, 投掷1个D6 if a model suffered damage from that attack but has not been slain; on a 3+ that model 遭受 1 致命伤 and, if that model is not slain, you can roll one more D6. This time, that model 遭受 1 致命伤 on a 4+. Keep rolling one D6, increasing the result required, to cause 1点致命伤 by 1 each time, until the model being rolled for is slain or the roll is failed.</characteristic>
           </characteristics>
         </profile>
       </profiles>

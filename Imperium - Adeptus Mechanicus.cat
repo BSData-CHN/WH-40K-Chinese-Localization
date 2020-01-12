@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="ebe8-544e-1fe8-fcde" name="帝国 - 机械修会" revision="65" battleScribeVersion="2.03" authorName="BSData-CHN" authorContact="@Thairne" authorUrl="https://github.com/BSData-CHN" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
-    <publication id="ebe8-544e-pubN65537" name="Codex: Adeptus Mechanicus"/>
-    <publication id="ebe8-544e-pubN67401" name="Index: Imperium 2"/>
+    <publication id="ebe8-544e-pubN65537" name="圣典: Adeptus Mechanicus"/>
+    <publication id="ebe8-544e-pubN67401" name="索引: Imperium 2"/>
     <publication id="ebe8-544e-pubN79295" name="Forgeworld Datasheet"/>
     <publication id="ebe8-544e-pubN79743" name="Warhammer 40,000 Rulebook"/>
   </publications>
@@ -400,7 +400,7 @@
         <categoryLink id="6146-3aa1-8550-2cd1" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="a337-6ae9-c966-611b" name="Servo-arm" hidden="false" collective="false" import="true" targetId="61ae-3901-0a79-4ec9" type="selectionEntry">
+        <entryLink id="a337-6ae9-c966-611b" name="伺服臂" hidden="false" collective="false" import="true" targetId="61ae-3901-0a79-4ec9" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a40-01de-fe47-ca4d" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06b8-9d4b-5b23-37fd" type="max"/>
@@ -697,7 +697,7 @@
         </profile>
         <profile id="7a01-c204-b1cf-4ab5" name="战斗程序: 保护" publicationId="ebe8-544e-pubN65537" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Whilst this battle protocol is in effect, 这个单位 cannot move or charge, but you can double the number of shots it makes with each of its ranged weapons – i.e., the heavy phosphor blaster’s Type becomes Heavy 6 and the incendine combustor’s Type becomes Heavy 2D6.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Whilst this battle protocol is in effect, 这个单位 cannot move or charge, but you can double the number of shots it makes with each of its ranged 武器 – i.e., the heavy phosphor blaster’s Type becomes Heavy 6 and the incendine combustor’s Type becomes Heavy 2D6.</characteristic>
           </characteristics>
         </profile>
         <profile id="c5a9-c7bd-25ce-8013" name="战斗程序: 征服" publicationId="ebe8-544e-pubN65537" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -712,7 +712,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="ed41-48d6-df8c-10e1" name="Explodes (Kastelan)" hidden="false" targetId="00d1-0722-554a-b4c9" type="profile"/>
+        <infoLink id="ed41-48d6-df8c-10e1" name="爆炸 (Kastelan)" hidden="false" targetId="00d1-0722-554a-b4c9" type="profile"/>
         <infoLink id="b328-27c4-2dd6-1342" name="Canticles of the Omnissiah" hidden="false" targetId="ad49-5c00-b6ea-2ac7" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -854,7 +854,7 @@
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b57b-f9d7-bf8c-7d9e" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="2f2d-507c-deaf-b9bc" name="Servitor (Heavy Bolter)" hidden="false" collective="false" import="true" targetId="4526-a1d2-ac13-1eb4" type="selectionEntry">
+            <entryLink id="2f2d-507c-deaf-b9bc" name="Servitor (重爆弹)" hidden="false" collective="false" import="true" targetId="4526-a1d2-ac13-1eb4" type="selectionEntry">
               <modifiers>
                 <modifier type="decrement" field="6e45-baf7-a332-5dfc" value="1">
                   <repeats>
@@ -871,7 +871,7 @@
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e45-baf7-a332-5dfc" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="8cab-eaa3-51c1-a4ec" name="Servitor (Multi-Melta)" hidden="false" collective="false" import="true" targetId="2047-6917-9ec2-6026" type="selectionEntry">
+            <entryLink id="8cab-eaa3-51c1-a4ec" name="Servitor (多管热熔)" hidden="false" collective="false" import="true" targetId="2047-6917-9ec2-6026" type="selectionEntry">
               <modifiers>
                 <modifier type="decrement" field="685d-eff4-946c-9323" value="1">
                   <repeats>
@@ -1295,7 +1295,7 @@
     <selectionEntry id="bd87-5ad4-01bf-3025" name="巴利斯塔利铁骑兵" publicationId="ebe8-544e-pubN65537" page="81" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="9a87-44e5-f4b4-8e5e" name="Bionics" hidden="false" targetId="d060-09ec-5fdb-2f06" type="profile"/>
-        <infoLink id="04a6-a9a1-53c3-1bef" name="Explodes (Dragoon/Ballistarii)" hidden="false" targetId="5598-d415-3456-e531" type="profile"/>
+        <infoLink id="04a6-a9a1-53c3-1bef" name="爆炸 (Dragoon/Ballistarii)" hidden="false" targetId="5598-d415-3456-e531" type="profile"/>
         <infoLink id="204a-af77-edfb-70c7" name="Canticles of the Omnissiah" hidden="false" targetId="ad49-5c00-b6ea-2ac7" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -1331,7 +1331,7 @@
       </profiles>
       <infoLinks>
         <infoLink id="1635-ec41-610c-0b41" name="Bionics" hidden="false" targetId="d060-09ec-5fdb-2f06" type="profile"/>
-        <infoLink id="23c8-06ac-09e0-0245" name="Explodes (Dragoon/Ballistarii)" hidden="false" targetId="5598-d415-3456-e531" type="profile"/>
+        <infoLink id="23c8-06ac-09e0-0245" name="爆炸 (Dragoon/Ballistarii)" hidden="false" targetId="5598-d415-3456-e531" type="profile"/>
         <infoLink id="4e50-338d-cfff-e348" name="Canticles of the Omnissiah" hidden="false" targetId="ad49-5c00-b6ea-2ac7" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -1422,7 +1422,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="3903-41c2-941b-cdaf" name="Explodes (Dunecrawler)" hidden="false" targetId="be14-6add-1a95-1bdc" type="profile"/>
+        <infoLink id="3903-41c2-941b-cdaf" name="爆炸 (Dunecrawler)" hidden="false" targetId="be14-6add-1a95-1bdc" type="profile"/>
         <infoLink id="8e5f-ab0f-a2f1-cca7" name="Canticles of the Omnissiah" hidden="false" targetId="ad49-5c00-b6ea-2ac7" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -1474,7 +1474,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6f7a-0cf6-029d-aea1" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="b3e0-37b7-2c79-2a73" name="Twin Heavy Phosphor Blaster" hidden="false" collective="false" import="true" targetId="f8f0-88de-cdbb-a426" type="selectionEntry">
+            <entryLink id="b3e0-37b7-2c79-2a73" name="双联 Heavy Phosphor Blaster" hidden="false" collective="false" import="true" targetId="f8f0-88de-cdbb-a426" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8b23-7aae-e10d-db53" type="max"/>
               </constraints>
@@ -1608,7 +1608,7 @@
         <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="dd3a-1341-729a-c0a1" name="圣物 (Metalica): The Adamantine Arm" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="dd3a-1341-729a-c0a1" name="圣物(Metalica): The Adamantine Arm" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -1758,7 +1758,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Each time the bearer fights, they can make D6 additional attacks using this weapons&apos; profile. You can re-roll failed wound rolls for 这个武器 when attacking INFANTRY models.</characteristic>
+            <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Each time the bearer fights, they can make D6 additional attacks using this 武器&apos; profile. You can re-roll failed wound rolls for 这个武器 when attacking 步兵模型.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1802,7 +1802,7 @@
         <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5d3f-2ee9-8d9c-919f" name="圣物 (Graia): The Cerebral Techno-Mitre" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="5d3f-2ee9-8d9c-919f" name="圣物(Graia): The Cerebral Techno-Mitre" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -1855,7 +1855,7 @@
         <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3228-797e-d677-6b7e" name="圣物 (Mars): The Red Axe" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="3228-797e-d677-6b7e" name="圣物(Mars): The Red Axe" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -1896,7 +1896,7 @@
         <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="66e3-838a-45fa-9c3d" name="圣物 (Lucius): The Solar Flare" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="66e3-838a-45fa-9c3d" name="圣物(Lucius): The Solar Flare" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -1925,7 +1925,7 @@
         <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4237-13da-2272-8927" name="圣物 (Stygies VIII): The Omnissiah&apos;s Hand" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="4237-13da-2272-8927" name="圣物(Stygies VIII): The Omnissiah&apos;s Hand" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -1954,7 +1954,7 @@
         <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="646a-757f-57dc-daf1" name="圣物 (Ryza): Weapon XCIX" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="646a-757f-57dc-daf1" name="圣物(Ryza): Weapon XCIX" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -2014,7 +2014,7 @@
         <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4f83-44e8-24f2-36a0" name="圣物 (Agripinaa): The Eye of Xi-Lexum" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="4f83-44e8-24f2-36a0" name="圣物(Agripinaa): The Eye of Xi-Lexum" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -2709,7 +2709,7 @@
       <profiles>
         <profile id="df74-145c-df7c-5bed" name="Relentless March" publicationId="ebe8-544e-pubN65537" hidden="false" typeId="63a5-ad0e-43c1-d2f0" typeName="铸造世界教条">
           <characteristics>
-            <characteristic name="描述" typeId="44d2-8832-413f-95fe">If a unit with this dogma Advances, it can ignore the penalty for firing Assault weapons and treats all 速射 weapons it is armed with as Assault weapons until the end of the turn (e.g. a 速射 1 weapon is treated as an Assault 1 weapon).</characteristic>
+            <characteristic name="描述" typeId="44d2-8832-413f-95fe">If a unit with this dogma Advances, it can ignore the penalty for firing Assault 武器 and treats all 速射 武器 it is armed with as Assault 武器 until the end of the turn (e.g. a 速射 1 weapon is treated as an Assault 1 weapon).</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3073,12 +3073,12 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b8a-f268-acaf-516d" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="985c-0373-5ca3-fded" name="Twin Cognis Autocannon" hidden="false" collective="false" import="true" targetId="01c1-3717-ff88-c44f" type="selectionEntry">
+            <entryLink id="985c-0373-5ca3-fded" name="双联 Cognis 自动炮" hidden="false" collective="false" import="true" targetId="01c1-3717-ff88-c44f" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a57-ede3-2662-9135" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="db77-6e18-8e7f-3064" name="Twin Cognis Lascannon" hidden="false" collective="false" import="true" targetId="71fc-e2ff-b6e1-6f41" type="selectionEntry">
+            <entryLink id="db77-6e18-8e7f-3064" name="双联 Cognis 激光炮" hidden="false" collective="false" import="true" targetId="71fc-e2ff-b6e1-6f41" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="79ed-3bc8-200e-5b03" type="max"/>
               </constraints>
@@ -3438,7 +3438,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="79c7-82b2-2e68-ac0c" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="7210-3562-f71e-408e" name="Cognis Flamer" hidden="false" collective="false" import="true" targetId="9041-9e93-9a3b-8d33" type="selectionEntry">
+            <entryLink id="7210-3562-f71e-408e" name="Cognis 喷火器" hidden="false" collective="false" import="true" targetId="9041-9e93-9a3b-8d33" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3b44-dd89-8e3a-5433" type="max"/>
               </constraints>
@@ -3961,7 +3961,7 @@
         <infoLink id="fafd-6843-1250-5a52" name="Servitor" hidden="false" targetId="687a-18a7-5e74-1495" type="profile"/>
       </infoLinks>
       <entryLinks>
-        <entryLink id="f41a-29fb-9a49-7fd7" name="Heavy Bolter" hidden="false" collective="false" import="true" targetId="376e-9c57-dce7-1a4f" type="selectionEntry">
+        <entryLink id="f41a-29fb-9a49-7fd7" name="重爆弹" hidden="false" collective="false" import="true" targetId="376e-9c57-dce7-1a4f" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2003-94b8-8a92-62a2" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb25-f2cb-1d96-ccb9" type="min"/>
@@ -3982,7 +3982,7 @@
         <infoLink id="5852-f800-92b0-ff0e" name="Servitor" hidden="false" targetId="687a-18a7-5e74-1495" type="profile"/>
       </infoLinks>
       <entryLinks>
-        <entryLink id="4663-1bdc-c756-f2c5" name="Multi-Melta" hidden="false" collective="false" import="true" targetId="5974-42c4-bd2e-facb" type="selectionEntry">
+        <entryLink id="4663-1bdc-c756-f2c5" name="多管热熔" hidden="false" collective="false" import="true" targetId="5974-42c4-bd2e-facb" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a418-fca0-c25b-8915" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="668f-d124-fc6c-3fa3" type="min"/>
@@ -4029,7 +4029,7 @@
     </selectionEntry>
     <selectionEntry id="376e-9c57-dce7-1a4f" name="重爆弹" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="d0f1-794d-fa89-e1b1" name="Heavy bolter" hidden="false" targetId="e2b0-b9f1-6c38-584c" type="profile"/>
+        <infoLink id="d0f1-794d-fa89-e1b1" name="重爆弹" hidden="false" targetId="e2b0-b9f1-6c38-584c" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="10.0"/>
@@ -4039,7 +4039,7 @@
     </selectionEntry>
     <selectionEntry id="5974-42c4-bd2e-facb" name="多管热熔" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="a725-f0a9-d38a-98f7" name="Multi-melta" hidden="false" targetId="1768-d7b9-37ba-f3bf" type="profile"/>
+        <infoLink id="a725-f0a9-d38a-98f7" name="多管热熔" hidden="false" targetId="1768-d7b9-37ba-f3bf" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="22.0"/>
@@ -4049,7 +4049,7 @@
     </selectionEntry>
     <selectionEntry id="cfe5-d5e7-fd71-897a" name="伺服臂" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="3f90-efd9-e894-bef2" name="Servo-arm" hidden="false" targetId="9112-c49a-ee46-0f81" type="profile"/>
+        <infoLink id="3f90-efd9-e894-bef2" name="伺服臂" hidden="false" targetId="9112-c49a-ee46-0f81" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -4375,7 +4375,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="482e-477b-2845-43e0" name="Melee Weapons" hidden="false" collective="false" import="true" targetId="a079-fbc2-add4-aea8" type="selectionEntryGroup">
+        <entryLink id="482e-477b-2845-43e0" name="Melee 武器" hidden="false" collective="false" import="true" targetId="a079-fbc2-add4-aea8" type="selectionEntryGroup">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="83ed-9e5d-e4cd-f774" type="max"/>
           </constraints>
@@ -4536,7 +4536,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="6e7a-1ba4-b03d-8140" name="Melee Weapons" hidden="false" collective="false" import="true" targetId="a079-fbc2-add4-aea8" type="selectionEntryGroup">
+        <entryLink id="6e7a-1ba4-b03d-8140" name="Melee 武器" hidden="false" collective="false" import="true" targetId="a079-fbc2-add4-aea8" type="selectionEntryGroup">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="994f-c826-1ced-a006" type="max"/>
           </constraints>
@@ -4938,7 +4938,7 @@
         <infoLink id="0b87-b104-c783-15e4" name="Servitor" hidden="false" targetId="687a-18a7-5e74-1495" type="profile"/>
       </infoLinks>
       <entryLinks>
-        <entryLink id="b37c-1913-eba7-3acc" name="Servo-arm" hidden="false" collective="false" import="true" targetId="cfe5-d5e7-fd71-897a" type="selectionEntry">
+        <entryLink id="b37c-1913-eba7-3acc" name="伺服臂" hidden="false" collective="false" import="true" targetId="cfe5-d5e7-fd71-897a" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3507-d568-2217-72e4" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ea9-12f2-0cc0-9bb9" type="max"/>
@@ -5103,7 +5103,7 @@
         <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="dcc3-9f9f-f1d7-7f7f" name="圣物 (Cybernetica Cohort): Doctrina Foreas Servo Skull" hidden="true" collective="false" import="true" type="upgrade">
+    <selectionEntry id="dcc3-9f9f-f1d7-7f7f" name="圣物(Cybernetica Cohort): Doctrina Foreas Servo Skull" hidden="true" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -5127,7 +5127,7 @@
         <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a74b-989f-677d-872d" name="圣物 (Servitor Maniple): The Genecog Corpus" hidden="true" collective="false" import="true" type="upgrade">
+    <selectionEntry id="a74b-989f-677d-872d" name="圣物(Servitor Maniple): The Genecog Corpus" hidden="true" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditionGroups>
@@ -5183,7 +5183,7 @@
         </profile>
         <profile id="c196-8aff-b021-304b" name="重力场操控 - 武器加强" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of your 移动阶段, 这个模型 can choose to either bolster his warriors or his warrior&apos;s weapons.    Until the start of your next 移动阶段, 这个模型 can not move for any reason and the ranges of ranged weapons of 友方 &lt;FORGE WORLD&gt; units are armed with are increased whilst they are 范围内 6寸 of any models using the Bolster Weapons ability: If the weapon has an unmodified range of 24寸 or more, increase its range by 6寸. Otherwise increase its range by 3寸</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of your 移动阶段, 这个模型 can choose to either bolster his warriors or his warrior&apos;s 武器.    Until the start of your next 移动阶段, 这个模型 can not move for any reason and the ranges of ranged 武器 of 友方 &lt;FORGE WORLD&gt; units are armed with are increased whilst they are 范围内 6寸 of any models using the Bolster 武器 ability: If the weapon has an unmodified range of 24寸 or more, increase its range by 6寸. Otherwise increase its range by 3寸</characteristic>
           </characteristics>
         </profile>
         <profile id="2a98-0cb1-0981-6988" name="受祝改造" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -5193,7 +5193,7 @@
         </profile>
         <profile id="39fe-b5b5-5fbf-3c1a" name="重力场操控 - 战士加强" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of your 移动阶段, 这个模型 can choose to either bolster his warriors or his warrior&apos;s weapons.  Until the start of your next 移动阶段, add 1寸 to the Move characteristic of 友方 &lt;FORGE WORLD&gt; units that start their move 范围内 6寸 of any models using the Bolster Warriors ability, and add 1寸 to Advance and Charge rolls made for 友方单位 that are 范围内 6寸 of any model that uses the Bolster Warriors ability when the roll is made.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of your 移动阶段, 这个模型 can choose to either bolster his warriors or his warrior&apos;s 武器.  Until the start of your next 移动阶段, add 1寸 to the Move characteristic of 友方 &lt;FORGE WORLD&gt; units that start their move 范围内 6寸 of any models using the Bolster Warriors ability, and add 1寸 to Advance and Charge rolls made for 友方单位 that are 范围内 6寸 of any model that uses the Bolster Warriors ability when the roll is made.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5388,14 +5388,14 @@
       <infoLinks>
         <infoLink id="472a-f0e0-1c8c-0b7a" name="Canticles of the Omnissiah" hidden="false" targetId="ad49-5c00-b6ea-2ac7" type="rule"/>
         <infoLink id="dee9-de66-3b30-4a7c" name="Hover Platform" hidden="false" targetId="1a7e-c002-54b2-9233" type="profile"/>
-        <infoLink id="dc03-0339-4dc5-6ce9" name="Explodes (Skorpius)" hidden="false" targetId="03d5-2314-e4e4-9a46" type="profile"/>
+        <infoLink id="dc03-0339-4dc5-6ce9" name="爆炸 (Skorpius)" hidden="false" targetId="03d5-2314-e4e4-9a46" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="3cc4-f937-2499-d380" name="阵营: Adeptus Mechanicus" hidden="false" targetId="ca27-5069-1c2c-a28b" primary="false"/>
         <categoryLink id="90ef-787c-e779-e02f" name="阵营: 帝国" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false"/>
         <categoryLink id="02a5-4798-faef-a2e2" name="阵营: Skitarii" hidden="false" targetId="cdee-83f1-5387-56cc" primary="false"/>
         <categoryLink id="c334-dfea-da61-1a1b" name="Skorpius Dunerider" hidden="false" targetId="4263-32a1-d24d-1ccb" primary="false"/>
-        <categoryLink id="83b2-4fe6-663d-383e" name="Transport" hidden="false" targetId="6cc4-1b62-8e8a-05cd" primary="false"/>
+        <categoryLink id="83b2-4fe6-663d-383e" name="运载能力" hidden="false" targetId="6cc4-1b62-8e8a-05cd" primary="false"/>
         <categoryLink id="c3ce-2e5f-374f-485a" name="Vehicle" hidden="false" targetId="c8fd-783f-3230-493e" primary="false"/>
         <categoryLink id="aa6b-515d-abca-92d5" name="New CategoryLink" hidden="false" targetId="1b66-3f5f-6705-079a" primary="true"/>
       </categoryLinks>
@@ -5414,7 +5414,7 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0dc1-c6dd-7445-ef62" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="ad34-c83f-18ce-b321" name="Twin Cognis Heavy Stubber" hidden="false" collective="false" import="true" targetId="1551-5486-9735-7492" type="selectionEntry">
+        <entryLink id="ad34-c83f-18ce-b321" name="双联 Cognis Heavy Stubber" hidden="false" collective="false" import="true" targetId="1551-5486-9735-7492" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="965d-04be-d465-97a0" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ab8-58da-054c-4bcf" type="min"/>
@@ -5470,7 +5470,7 @@
       <infoLinks>
         <infoLink id="2d23-564f-8e81-4020" name="Canticles of the Omnissiah" hidden="false" targetId="ad49-5c00-b6ea-2ac7" type="rule"/>
         <infoLink id="da72-d727-c1ec-8b3e" name="Hover Platform" hidden="false" targetId="1a7e-c002-54b2-9233" type="profile"/>
-        <infoLink id="c4ac-5449-00d2-61dc" name="Explodes (Skorpius)" hidden="false" targetId="03d5-2314-e4e4-9a46" type="profile"/>
+        <infoLink id="c4ac-5449-00d2-61dc" name="爆炸 (Skorpius)" hidden="false" targetId="03d5-2314-e4e4-9a46" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="0540-6292-54c5-739b" name="阵营: 帝国" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false"/>
@@ -5501,7 +5501,7 @@
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a45-6f2e-5a4b-d741" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="4289-7922-5f9f-5cae" name="Disruptor Missile Launcher" hidden="false" collective="false" import="true" targetId="301f-9b56-8877-810d" type="selectionEntry">
+        <entryLink id="4289-7922-5f9f-5cae" name="Disruptor 导弹发射器" hidden="false" collective="false" import="true" targetId="301f-9b56-8877-810d" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7e3-d295-71a9-ec4d" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a695-6bd4-d6fb-2385" type="min"/>
@@ -6094,32 +6094,32 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3d9-46c7-8a9b-5446" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="7912-97e7-25f7-62d4" name="圣物 (Mars): The Red Axe" hidden="false" collective="false" import="true" targetId="3228-797e-d677-6b7e" type="selectionEntry">
+        <entryLink id="7912-97e7-25f7-62d4" name="圣物(Mars): The Red Axe" hidden="false" collective="false" import="true" targetId="3228-797e-d677-6b7e" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1604-7ac0-cf4e-6052" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="d0f4-f863-bb23-376f" name="圣物 (Graia): The Cerebral Techno-Mitre" hidden="false" collective="false" import="true" targetId="5d3f-2ee9-8d9c-919f" type="selectionEntry">
+        <entryLink id="d0f4-f863-bb23-376f" name="圣物(Graia): The Cerebral Techno-Mitre" hidden="false" collective="false" import="true" targetId="5d3f-2ee9-8d9c-919f" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5600-9584-74ad-ae1e" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="072c-0f06-cb94-d217" name="圣物 (Metalica): The Adamantine Arm" hidden="false" collective="false" import="true" targetId="dd3a-1341-729a-c0a1" type="selectionEntry">
+        <entryLink id="072c-0f06-cb94-d217" name="圣物(Metalica): The Adamantine Arm" hidden="false" collective="false" import="true" targetId="dd3a-1341-729a-c0a1" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1cd7-4373-fc24-337c" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="6df1-1162-8627-5dd7" name="圣物 (Lucius): The Solar Flare" hidden="false" collective="false" import="true" targetId="66e3-838a-45fa-9c3d" type="selectionEntry">
+        <entryLink id="6df1-1162-8627-5dd7" name="圣物(Lucius): The Solar Flare" hidden="false" collective="false" import="true" targetId="66e3-838a-45fa-9c3d" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0086-aebf-d7ae-2994" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="9d4f-b041-e4c5-9ab8" name="圣物 (Ryza): Weapon XCIX" hidden="false" collective="false" import="true" targetId="646a-757f-57dc-daf1" type="selectionEntry">
+        <entryLink id="9d4f-b041-e4c5-9ab8" name="圣物(Ryza): Weapon XCIX" hidden="false" collective="false" import="true" targetId="646a-757f-57dc-daf1" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e98-a7da-3765-fb8c" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="c3a5-3778-7ea6-1813" name="圣物 (Agripinaa): The Eye of Xi-Lexum" hidden="false" collective="false" import="true" targetId="4f83-44e8-24f2-36a0" type="selectionEntry">
+        <entryLink id="c3a5-3778-7ea6-1813" name="圣物(Agripinaa): The Eye of Xi-Lexum" hidden="false" collective="false" import="true" targetId="4f83-44e8-24f2-36a0" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0aa6-7283-1721-e2e4" type="max"/>
           </constraints>
@@ -6129,7 +6129,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8691-c12b-c5f1-e997" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="1eed-289f-2b64-b657" name="圣物 (Stygies VIII): The Omnissiah&apos;s Hand" hidden="false" collective="false" import="true" targetId="4237-13da-2272-8927" type="selectionEntry">
+        <entryLink id="1eed-289f-2b64-b657" name="圣物(Stygies VIII): The Omnissiah&apos;s Hand" hidden="false" collective="false" import="true" targetId="4237-13da-2272-8927" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4452-a4be-35a8-f006" type="max"/>
           </constraints>
@@ -6159,7 +6159,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d59-2e40-a6c2-9bcb" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="8293-d5f7-d6cb-f8d0" name="圣物 (Cybernetica Cohort): Doctrina Foreas Servo Skull" hidden="false" collective="false" import="true" targetId="dcc3-9f9f-f1d7-7f7f" type="selectionEntry">
+        <entryLink id="8293-d5f7-d6cb-f8d0" name="圣物(Cybernetica Cohort): Doctrina Foreas Servo Skull" hidden="false" collective="false" import="true" targetId="dcc3-9f9f-f1d7-7f7f" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -6171,7 +6171,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54ff-fbc9-9dcb-855d" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="7741-3ff7-6f16-ca5d" name="圣物 (Servitor Maniple): The Genecog Corpus" hidden="false" collective="false" import="true" targetId="a74b-989f-677d-872d" type="selectionEntry">
+        <entryLink id="7741-3ff7-6f16-ca5d" name="圣物(Servitor Maniple): The Genecog Corpus" hidden="false" collective="false" import="true" targetId="a74b-989f-677d-872d" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd08-ab84-0f29-1eed" type="max"/>
           </constraints>
@@ -6636,7 +6636,7 @@ You can re-roll failed hit rolls of 1 for affected units in the 射击阶段.</d
     </profile>
     <profile id="a393-0ab6-7e6b-d526" name="First-Hand Field Testing" publicationId="ebe8-544e-pubN65537" hidden="false" typeId="7df1-74bd-09c9-492c" typeName="主将特性">
       <characteristics>
-        <characteristic name="描述" typeId="696e-7a95-ff17-7c91">When setting up your 主将, choose on of their weapons (this cannot be an Arcana Mechanicum); increase Strength and Damage characteristics of that weapon by 1.</characteristic>
+        <characteristic name="描述" typeId="696e-7a95-ff17-7c91">When setting up your 主将, choose on of their 武器 (this cannot be an Arcana Mechanicum); increase Strength and Damage characteristics of that weapon by 1.</characteristic>
       </characteristics>
     </profile>
     <profile id="b5bf-7d90-a4fd-cafd" name="Ordered Efficiency" publicationId="ebe8-544e-pubN65537" hidden="false" typeId="7df1-74bd-09c9-492c" typeName="主将特性">
@@ -6651,7 +6651,7 @@ You can re-roll failed hit rolls of 1 for affected units in the 射击阶段.</d
     </profile>
     <profile id="95f0-222c-8a8c-e06d" name="Emotionless Clarity" publicationId="ebe8-544e-pubN65537" hidden="false" typeId="7df1-74bd-09c9-492c" typeName="主将特性">
       <characteristics>
-        <characteristic name="描述" typeId="696e-7a95-ff17-7c91">Models in 友方 GRAIA units 范围内 6寸 of your 主将 can shoot with Assault and 速射 weapons even if there are 敌方单位 范围内 1寸 of their own unit, but only if they target the closest 敌方单位. In such circumstances, the model can shoot even if other 友方单位 are 范围内 1寸 of the same unit.</characteristic>
+        <characteristic name="描述" typeId="696e-7a95-ff17-7c91">Models in 友方 GRAIA units 范围内 6寸 of your 主将 can shoot with Assault and 速射 武器 even if there are 敌方单位 范围内 1寸 of their own unit, but only if they target the closest 敌方单位. In such circumstances, the model can shoot even if other 友方单位 are 范围内 1寸 of the same unit.</characteristic>
       </characteristics>
     </profile>
     <profile id="a97f-5cb6-d5d2-7c14" name="Prime Hermeticon" publicationId="ebe8-544e-pubN65537" hidden="false" typeId="7df1-74bd-09c9-492c" typeName="主将特性">

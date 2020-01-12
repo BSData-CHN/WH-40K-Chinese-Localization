@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="62ed-66a0-988c-e34e" name="Imperium - Elysian Drop Troops" revision="72" battleScribeVersion="2.03" authorName="Still mostly CrusherJoe, though Alphalas will tell you he does all the work (he lies! lol)" authorContact="Discord: @Alphalas, @CrusherJoe | Twitter: @kingoverlord, @theawesomesauce" authorUrl="https://github.com/BSData-CHN" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="62ed-66a0-988c-e34e" name="帝国 - Elysian Drop Troops" revision="72" battleScribeVersion="2.03" authorName="Still mostly CrusherJoe, though Alphalas will tell you he does all the work (he lies! lol)" authorContact="Discord: @Alphalas, @CrusherJoe | Twitter: @kingoverlord, @theawesomesauce" authorUrl="https://github.com/BSData-CHN" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
-    <publication id="62ed-66a0-pubN69354" name="Codex: Astra Militarum"/>
-    <publication id="62ed-66a0-pubN91709" name="Codex: Genestealer Cults"/>
-    <publication id="62ed-66a0-pubN92006" name="Imperial Armour - Index: Forces of the Astra Militarum"/>
+    <publication id="62ed-66a0-pubN69354" name="圣典: Astra Militarum"/>
+    <publication id="62ed-66a0-pubN91709" name="圣典: Genestealer Cults"/>
+    <publication id="62ed-66a0-pubN92006" name="帝国装甲 - 索引: Forces of the Astra Militarum"/>
   </publications>
   <profileTypes>
     <profileType id="8164-003b-2cc1-99b3" name="损伤表 (M,BS)">
@@ -28,7 +28,7 @@
     <categoryEntry id="40d7-cd1e-34ce-2fd4" name="Elysian Lord Commissar" hidden="false"/>
     <categoryEntry id="80ee-875e-7eab-b9d1" name="Elysian Platoon Commander" hidden="false"/>
     <categoryEntry id="bb7e-e7dd-8549-42c0" name="Elysian Sniper Squad" hidden="false"/>
-    <categoryEntry id="e502-54b5-4d6a-3027" name="Elysian Special Weapons Squad" hidden="false"/>
+    <categoryEntry id="e502-54b5-4d6a-3027" name="Elysian Special 武器 Squad" hidden="false"/>
     <categoryEntry id="ccf7-c274-738d-ca94" name="Elysian Veterans Squad" hidden="false"/>
     <categoryEntry id="d749-7321-ab56-4459" name="Lightning Strike Fighter" hidden="false"/>
     <categoryEntry id="03bc-85d7-40af-1b8c" name="Officer of the Fleet" hidden="false"/>
@@ -152,7 +152,7 @@
         <categoryLink id="3ea2-a830-161b-e8c6" name="New CategoryLink" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="a27c-d10c-7cd9-3039" name="Elysian Special Weapons Squad" hidden="false" collective="false" import="true" targetId="3b6e-250f-ad7e-0c00" type="selectionEntry">
+    <entryLink id="a27c-d10c-7cd9-3039" name="Elysian Special 武器 Squad" hidden="false" collective="false" import="true" targetId="3b6e-250f-ad7e-0c00" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="91be-ee1a-88c2-aef7" name="New CategoryLink" hidden="false" targetId="3263-4233-4344-6228" primary="false"/>
         <categoryLink id="e7bd-1d25-146f-acdb" name="New CategoryLink" hidden="false" targetId="e502-54b5-4d6a-3027" primary="false"/>
@@ -381,9 +381,9 @@
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be50-8b59-c8aa-8ea0" type="max"/>
           </constraints>
           <profiles>
-            <profile id="785c-f7ee-bcac-6156" name="Transport: Valkyrie" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="Transport">
+            <profile id="785c-f7ee-bcac-6156" name="Transport: Valkyrie" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
               <characteristics>
-                <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">这个模型 can transport 12 ASTRA MiLITARUM INFANTRY models.  Each 重型武器 Team or Veteran 重型武器 Team takes the place of two other models and each OGRYN takes the space of three other models.</characteristic>
+                <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">这个模型 可以运输 12 ASTRA MiLITARUM 步兵模型.  Each 重型武器 Team or Veteran 重型武器 Team takes the place of two other models and each OGRYN takes the space of three other 模型.</characteristic>
               </characteristics>
             </profile>
             <profile id="745f-4ed0-d79b-df05" name="Valkyrie" publicationId="62ed-66a0-pubN69354" page="48" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
@@ -444,7 +444,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dda1-558d-3b63-ab77" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="c872-e7eb-237a-40ae" name="Heavy bolter" hidden="false" collective="false" import="true" targetId="05ab-e7cc-e856-c36f" type="selectionEntry">
+                <entryLink id="c872-e7eb-237a-40ae" name="重爆弹" hidden="false" collective="false" import="true" targetId="05ab-e7cc-e856-c36f" type="selectionEntry">
                   <modifiers>
                     <modifier type="set" field="points" value="8"/>
                   </modifiers>
@@ -483,7 +483,7 @@
                 </selectionEntry>
               </selectionEntries>
               <entryLinks>
-                <entryLink id="0bcd-1308-0152-4641" name="Lascannon" hidden="false" collective="false" import="true" targetId="a908-4664-11cd-f8b2" type="selectionEntry">
+                <entryLink id="0bcd-1308-0152-4641" name="激光炮" hidden="false" collective="false" import="true" targetId="a908-4664-11cd-f8b2" type="selectionEntry">
                   <modifiers>
                     <modifier type="set" field="points" value="15.0"/>
                   </modifiers>
@@ -495,7 +495,7 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="2446-17f5-4741-5fc8" name="Wing-mounted Weapons" hidden="false" collective="false" import="true" targetId="08d1-89fb-dc8f-b6ef" type="selectionEntryGroup"/>
+            <entryLink id="2446-17f5-4741-5fc8" name="Wing-mounted 武器" hidden="false" collective="false" import="true" targetId="08d1-89fb-dc8f-b6ef" type="selectionEntryGroup"/>
             <entryLink id="70ca-9a34-1c08-14c0" name="Unit has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
             <entryLink id="02ee-1f56-30f0-60f7" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
           </entryLinks>
@@ -538,7 +538,7 @@
                 <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 moved over 10寸 in the 移动阶段, it gains a 5+ 特殊保护.</characteristic>
               </characteristics>
             </profile>
-            <profile id="77ad-6ef3-fbe8-0146" name="Explodes" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+            <profile id="77ad-6ef3-fbe8-0146" name="爆炸" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
                 <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 在载具被移除及任何在这个载具上的模型下车前投掷1个D6. 结果为6则爆炸, 每个单位 范围内 6寸 遭受 1 致命伤.</characteristic>
               </characteristics>
@@ -559,7 +559,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47b5-4557-d210-032b" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="d1e8-ca7c-0804-7bf4" name="Krak Grenade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                    <profile id="d1e8-ca7c-0804-7bf4" name="穿甲手雷" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                       <characteristics>
                         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36寸</characteristic>
                         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 2</characteristic>
@@ -569,7 +569,7 @@
                         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
                       </characteristics>
                     </profile>
-                    <profile id="4177-41c2-de8c-ef93" name="Frag Grenade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                    <profile id="4177-41c2-de8c-ef93" name="破片手雷" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                       <characteristics>
                         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36寸</characteristic>
                         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 2D6</characteristic>
@@ -600,7 +600,7 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="0841-8b2a-0307-2f79" name="Hunter-killer missile" hidden="false" collective="false" import="true" targetId="32bf-b117-4ecf-5165" type="selectionEntry">
+            <entryLink id="0841-8b2a-0307-2f79" name="猎杀导弹" hidden="false" collective="false" import="true" targetId="32bf-b117-4ecf-5165" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab26-5668-2b0f-ea4e" type="max"/>
               </constraints>
@@ -652,7 +652,7 @@
                 <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 does not suffer the penalty to hit for shooting a Heavy Weapon on a turn in which it has moved.</characteristic>
               </characteristics>
             </profile>
-            <profile id="77c2-297c-9062-a8e5" name="Explodes" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+            <profile id="77c2-297c-9062-a8e5" name="爆炸" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
                 <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 在载具被移除及任何在这个载具上的模型下车前投掷1个D6. 结果为6则爆炸, 每个单位 范围内 6寸 遭受 1 致命伤.</characteristic>
               </characteristics>
@@ -662,18 +662,18 @@
             <infoLink id="9ed7-ff75-243f-175b" name="Aerial Drop" hidden="false" targetId="b2ac-24d0-fec8-1d3c" type="profile"/>
           </infoLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup id="3c30-3dd2-0243-0411" name="Twin Multi-laser" hidden="false" collective="false" import="true" defaultSelectionEntryId="ca7e-5066-d38b-5dbe">
+            <selectionEntryGroup id="3c30-3dd2-0243-0411" name="双联 Multi-laser" hidden="false" collective="false" import="true" defaultSelectionEntryId="ca7e-5066-d38b-5dbe">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eefa-6dde-50aa-62c1" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a12-c85e-3ef0-01f7" type="min"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="ca7e-5066-d38b-5dbe" name="Twin Multi-Laser" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="ca7e-5066-d38b-5dbe" name="双联 Multi-Laser" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bfc8-5b4d-3037-502f" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="26d8-31c4-d71f-d9f2" name="Twin Multi-Laser" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                    <profile id="26d8-31c4-d71f-d9f2" name="双联 Multi-Laser" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                       <characteristics>
                         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36寸</characteristic>
                         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 6</characteristic>
@@ -692,7 +692,7 @@
                 </selectionEntry>
               </selectionEntries>
               <entryLinks>
-                <entryLink id="f07e-bcdc-ea81-4d86" name="Twin lascannon" hidden="false" collective="false" import="true" targetId="ee18-b1cd-6b60-464d" type="selectionEntry">
+                <entryLink id="f07e-bcdc-ea81-4d86" name="双联激光炮" hidden="false" collective="false" import="true" targetId="ee18-b1cd-6b60-464d" type="selectionEntry">
                   <modifiers>
                     <modifier type="set" field="points" value="40"/>
                   </modifiers>
@@ -704,7 +704,7 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="cce3-e693-c4b7-f60f" name="Hunter-killer missile" hidden="false" collective="false" import="true" targetId="32bf-b117-4ecf-5165" type="selectionEntry">
+            <entryLink id="cce3-e693-c4b7-f60f" name="猎杀导弹" hidden="false" collective="false" import="true" targetId="32bf-b117-4ecf-5165" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b40-378f-32a8-f5c1" type="max"/>
               </constraints>
@@ -784,14 +784,14 @@
             <categoryLink id="0104-8e08-22ea-f27c" name="Aircraft" hidden="false" targetId="d569-3d56-cd24-6a31" primary="false"/>
           </categoryLinks>
           <selectionEntries>
-            <selectionEntry id="eaef-b74e-9d13-cd08" name="Twin 惩罚者加特林炮s" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="eaef-b74e-9d13-cd08" name="双联 惩罚者加特林炮s" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7223-aba4-f0ed-8629" type="max"/>
               </constraints>
               <infoLinks>
                 <infoLink id="7249-dcd0-0958-55c6" name="惩罚者加特林炮" hidden="false" targetId="9fac-07c9-3595-784e" type="profile">
                   <modifiers>
-                    <modifier type="append" field="name" value="Twin"/>
+                    <modifier type="append" field="name" value="双联"/>
                     <modifier type="set" field="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 40"/>
                   </modifiers>
                 </infoLink>
@@ -804,7 +804,7 @@
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
-            <selectionEntryGroup id="f520-9dd2-8868-36c7" name="Twin Multi-Laser" hidden="false" collective="false" import="true" defaultSelectionEntryId="d7e4-4104-0a02-8491">
+            <selectionEntryGroup id="f520-9dd2-8868-36c7" name="双联 Multi-Laser" hidden="false" collective="false" import="true" defaultSelectionEntryId="d7e4-4104-0a02-8491">
               <modifiers>
                 <modifier type="set" field="49d5-2b8e-5068-fe3d" value="0.0">
                   <conditions>
@@ -822,14 +822,14 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49d5-2b8e-5068-fe3d" type="min"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="d7e4-4104-0a02-8491" name="Twin Multi-Laser" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="d7e4-4104-0a02-8491" name="双联 Multi-Laser" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7fa3-9397-2421-b471" type="max"/>
                   </constraints>
                   <infoLinks>
                     <infoLink id="baec-637c-c256-88de" name="Multi-laser" hidden="false" targetId="92be-1bfc-f355-f214" type="profile">
                       <modifiers>
-                        <modifier type="append" field="name" value="Twin"/>
+                        <modifier type="append" field="name" value="双联"/>
                         <modifier type="set" field="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 6"/>
                       </modifiers>
                     </infoLink>
@@ -855,7 +855,7 @@
                 </selectionEntry>
               </selectionEntries>
               <entryLinks>
-                <entryLink id="a3dc-05e2-3ff5-11b9" name="Twin autocannon" hidden="false" collective="false" import="true" targetId="afe0-3771-1982-92b4" type="selectionEntry">
+                <entryLink id="a3dc-05e2-3ff5-11b9" name="双联自动炮" hidden="false" collective="false" import="true" targetId="afe0-3771-1982-92b4" type="selectionEntry">
                   <modifiers>
                     <modifier type="set" field="points" value="25"/>
                   </modifiers>
@@ -863,7 +863,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="061d-7ea4-23ee-ed29" type="max"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="9211-cd45-633c-24af" name="Twin lascannon" hidden="false" collective="false" import="true" targetId="ee18-b1cd-6b60-464d" type="selectionEntry">
+                <entryLink id="9211-cd45-633c-24af" name="双联激光炮" hidden="false" collective="false" import="true" targetId="ee18-b1cd-6b60-464d" type="selectionEntry">
                   <modifiers>
                     <modifier type="set" field="points" value="40"/>
                   </modifiers>
@@ -948,7 +948,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e4c8-3937-7b3b-0aa3" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="bf87-8126-203b-e9a1" name="Hunter-killer missile" hidden="false" targetId="e2a9-e8fc-3a6b-2eec" type="profile"/>
+                    <infoLink id="bf87-8126-203b-e9a1" name="猎杀导弹" hidden="false" targetId="e2a9-e8fc-3a6b-2eec" type="profile"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="36.0"/>
@@ -973,7 +973,7 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="8bd3-8359-cb0e-1fe4" name="Heavy bolter" hidden="false" collective="false" import="true" targetId="05ab-e7cc-e856-c36f" type="selectionEntry">
+            <entryLink id="8bd3-8359-cb0e-1fe4" name="重爆弹" hidden="false" collective="false" import="true" targetId="05ab-e7cc-e856-c36f" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="points" value="8"/>
               </modifiers>
@@ -1040,9 +1040,9 @@
                 <characteristic name="BS" typeId="b868-6cda-4902-e237">4+</characteristic>
               </characteristics>
             </profile>
-            <profile id="f450-8740-0270-b138" name="Vendetta Transport Capacity" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="Transport">
+            <profile id="f450-8740-0270-b138" name="Vendetta Transport Capacity" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
               <characteristics>
-                <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">这个模型 can transport 12 ASTRA MILITARUM INFANTRY models.  Each Heavy Weapon Team or Veteran Heavy Weapon Team takes the place of two other models.  这个模型 may not transport OGRYNS.</characteristic>
+                <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">这个模型 可以运输 12 ASTRA MILITARUM 步兵模型.  Each Heavy Weapon Team or Veteran Heavy Weapon Team takes the place of two other 模型.  这个模型 may not transport OGRYNS.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1064,7 +1064,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff50-c97c-c88e-cd66" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="359c-2ffd-4bfe-c509" name="Heavy bolter" hidden="false" collective="false" import="true" targetId="05ab-e7cc-e856-c36f" type="selectionEntry">
+                <entryLink id="359c-2ffd-4bfe-c509" name="重爆弹" hidden="false" collective="false" import="true" targetId="05ab-e7cc-e856-c36f" type="selectionEntry">
                   <modifiers>
                     <modifier type="set" field="points" value="8"/>
                   </modifiers>
@@ -1082,18 +1082,18 @@
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
-            <selectionEntryGroup id="1311-9693-9d6f-8f65" name="Twin Lascannons" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="1311-9693-9d6f-8f65" name="双联 Lascannons" hidden="false" collective="false" import="true">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1da7-a23f-df1f-642e" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1416-3a6e-d362-efb5" type="min"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="ab54-278e-1d30-687b" name="2 Twin Lascannons" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="ab54-278e-1d30-687b" name="2 双联 Lascannons" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4598-1396-42a6-2a2d" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="79cf-19fa-db04-7376" name="Twin lascannon" hidden="false" targetId="1662-54b9-46da-fefc" type="profile"/>
+                    <infoLink id="79cf-19fa-db04-7376" name="双联激光炮" hidden="false" targetId="1662-54b9-46da-fefc" type="profile"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="80.0"/>
@@ -1118,7 +1118,7 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="ac80-b2c5-186c-cb1a" name="Twin lascannon" hidden="false" collective="false" import="true" targetId="ee18-b1cd-6b60-464d" type="selectionEntry">
+            <entryLink id="ac80-b2c5-186c-cb1a" name="双联激光炮" hidden="false" collective="false" import="true" targetId="ee18-b1cd-6b60-464d" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="points" value="40.0"/>
               </modifiers>
@@ -1151,7 +1151,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="967d-5e4f-b6c3-1975" type="min"/>
           </constraints>
           <profiles>
-            <profile id="4f02-f64c-8f31-f1d3" name="Explodes" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+            <profile id="4f02-f64c-8f31-f1d3" name="爆炸" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
                 <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 在载具被移除及任何在这个载具上的模型下车前投掷1个D6. 结果为6则爆炸, 每个单位 范围内 6寸 遭受 D3 致命伤.</characteristic>
               </characteristics>
@@ -1176,7 +1176,7 @@
             </profile>
             <profile id="8483-f2b2-9236-e8bd" name="Automated Artillery" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 has a twin heavy bolter, it will automatically shoot at the nearest 敌方 INFANTRY unit in the 射击阶段 范围内 range. If 这个模型 has a twin lascannon, it will automatically shoot at the nearest 敌方 non-INFANTRY model in the 射击阶段 范围内 range. If there are none of the specified types of unit in range or line of sight, the closest visible 敌方单位 of any kind must be targeted. However, in all cases 这个模型 may only target 敌方 CHARACTER models if they are the closest model.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 has a 双联 重爆弹, it will automatically shoot at the nearest 敌方 INFANTRY unit in the 射击阶段 范围内 range. If 这个模型 has a 双联激光炮, it will automatically shoot at the nearest 敌方 non-步兵模型 in the 射击阶段 范围内 range. If there are none of the specified types of unit in range or line of sight, the closest visible 敌方单位 of any kind must be targeted. However, in all cases 这个模型 may only target 敌方 CHARACTER models if they are the closest model.</characteristic>
               </characteristics>
             </profile>
             <profile id="004f-afbf-b4f1-b74b" name="Immobile" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -1192,7 +1192,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="510c-08b4-7f6d-18b1" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="5e1d-f8f7-cbda-df89" name="Twin lascannon" hidden="false" collective="false" import="true" targetId="ee18-b1cd-6b60-464d" type="selectionEntry">
+                <entryLink id="5e1d-f8f7-cbda-df89" name="双联激光炮" hidden="false" collective="false" import="true" targetId="ee18-b1cd-6b60-464d" type="selectionEntry">
                   <modifiers>
                     <modifier type="set" field="points" value="40"/>
                   </modifiers>
@@ -1248,9 +1248,9 @@
                 <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">​At the start of any of 这个模型’s 射击阶段, so long as it has not Advanced, it may choose to detonate its Cyclops demolition charge. When it does so, every unit (both 友方 and enemy) 范围内 D6寸 is automatically hit by 这个武器 using the profile stated above – roll separately for each unit. Once 这个模型 has detonated its Cyclops demolition charge, remove it from play. Any Cyclops Demolition Vehicle that is removed from play in this way does not award Victory points in scenarios that offer Victory points for slaying 敌方单位.</characteristic>
               </characteristics>
             </profile>
-            <profile id="befb-1d27-dde3-f9f3" name="Explodes" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+            <profile id="befb-1d27-dde3-f9f3" name="爆炸" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 在载具被移除及任何在这个载具上的模型下车前投掷1个D6. On a 3+ it explodes, 每个单位 范围内 6寸 遭受 D3 致命伤.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 在载具被移除及任何在这个载具上的模型下车前投掷1个D6. On a 3+ it 爆炸, 每个单位 范围内 6寸 遭受 D3 致命伤.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1399,7 +1399,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="15a8-f871-7c92-212e" name="Twin autocannon" hidden="false" collective="false" import="true" targetId="afe0-3771-1982-92b4" type="selectionEntry">
+        <entryLink id="15a8-f871-7c92-212e" name="双联自动炮" hidden="false" collective="false" import="true" targetId="afe0-3771-1982-92b4" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="points" value="25"/>
           </modifiers>
@@ -1408,7 +1408,7 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b83-90a0-1011-3878" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="3605-d292-8e06-bde1" name="Twin lascannon" hidden="false" collective="false" import="true" targetId="ee18-b1cd-6b60-464d" type="selectionEntry">
+        <entryLink id="3605-d292-8e06-bde1" name="双联激光炮" hidden="false" collective="false" import="true" targetId="ee18-b1cd-6b60-464d" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="points" value="40"/>
           </modifiers>
@@ -1473,7 +1473,7 @@
         <categoryLink id="85bf-7807-b2e2-94f8" name="Aircraft" hidden="false" targetId="d569-3d56-cd24-6a31" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="3fc1-5a01-8603-c7e4" name="Long Barreled Autocannon" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="3fc1-5a01-8603-c7e4" name="Long Barreled 自动炮" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="2dd8-c4a8-9ba3-b5a6" value="0.0">
               <conditions>
@@ -1491,7 +1491,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2dd8-c4a8-9ba3-b5a6" type="min"/>
           </constraints>
           <profiles>
-            <profile id="1d01-e28b-e379-495a" name="Long Barreled Autocannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="1d01-e28b-e379-495a" name="Long Barreled 自动炮" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72寸</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 2</characteristic>
@@ -1584,7 +1584,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="b848-8925-af8c-e74b" name="Twin lascannon" hidden="false" collective="false" import="true" targetId="ee18-b1cd-6b60-464d" type="selectionEntry">
+        <entryLink id="b848-8925-af8c-e74b" name="双联激光炮" hidden="false" collective="false" import="true" targetId="ee18-b1cd-6b60-464d" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="points" value="40"/>
           </modifiers>
@@ -1738,13 +1738,13 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="c9cf-81f0-d9d0-0943" name="Two Missile Launchers" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="c9cf-81f0-d9d0-0943" name="2导弹发射器" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b10-d15c-5a33-098f" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="fb1b-58aa-a7d5-6fa4" name="Missile launcher, Krak missile" hidden="false" targetId="8161-3b0e-8048-0e83" type="profile"/>
-                <infoLink id="4b6f-4098-bb72-cc46" name="Missile launcher, Frag missile" hidden="false" targetId="603d-3e82-38f6-c5c3" type="profile"/>
+                <infoLink id="fb1b-58aa-a7d5-6fa4" name="导弹发射器-穿甲导弹" hidden="false" targetId="8161-3b0e-8048-0e83" type="profile"/>
+                <infoLink id="4b6f-4098-bb72-cc46" name="导弹发射器-破片导弹" hidden="false" targetId="603d-3e82-38f6-c5c3" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -1752,12 +1752,12 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="0671-f5c8-0950-6473" name="2 Autocannon" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="0671-f5c8-0950-6473" name="2 自动炮" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39e1-3bd5-fb3c-7115" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="7ed5-00d6-8299-dfe4" name="Autocannon" hidden="false" targetId="fa99-0671-b31a-22d7" type="profile"/>
+                <infoLink id="7ed5-00d6-8299-dfe4" name="自动炮" hidden="false" targetId="fa99-0671-b31a-22d7" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -1782,7 +1782,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="fb20-2e7b-2572-24b9" name="Lascannon" hidden="false" collective="false" import="true" targetId="a908-4664-11cd-f8b2" type="selectionEntry">
+        <entryLink id="fb20-2e7b-2572-24b9" name="激光炮" hidden="false" collective="false" import="true" targetId="a908-4664-11cd-f8b2" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="points" value="15.0"/>
           </modifiers>
@@ -1839,22 +1839,22 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8bd-f845-2c83-4b4c" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="dd5b-301f-c0b3-040b" name="Elysian Ranged weapons" hidden="false" collective="false" import="true" targetId="8154-55fb-024d-1e46" type="selectionEntryGroup"/>
+            <entryLink id="dd5b-301f-c0b3-040b" name="Elysian Ranged 武器" hidden="false" collective="false" import="true" targetId="8154-55fb-024d-1e46" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="907f-3516-f8d6-49ab" name="Elysian Melee Weapons" hidden="false" collective="false" import="true" targetId="8951-19ee-4d4f-29a9" type="selectionEntryGroup">
+        <entryLink id="907f-3516-f8d6-49ab" name="Elysian Melee 武器" hidden="false" collective="false" import="true" targetId="8951-19ee-4d4f-29a9" type="selectionEntryGroup">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e52-6e9b-4c89-d76e" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="96e1-6bd2-20dc-91c7" name="Krak grenade" hidden="false" collective="false" import="true" targetId="0f23-cd69-d106-371e" type="selectionEntry">
+        <entryLink id="96e1-6bd2-20dc-91c7" name="穿甲手雷" hidden="false" collective="false" import="true" targetId="0f23-cd69-d106-371e" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca77-9a4e-8b3e-9094" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="b439-b45a-17c9-7d0f" name="Frag grenade" hidden="false" collective="false" import="true" targetId="f68e-9984-71fe-6bca" type="selectionEntry">
+        <entryLink id="b439-b45a-17c9-7d0f" name="破片手雷" hidden="false" collective="false" import="true" targetId="f68e-9984-71fe-6bca" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c31-e3e2-91e1-a1e4" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af92-4f26-c465-fda0" type="min"/>
@@ -1936,24 +1936,24 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="83e0-d46c-76f3-0753" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="50bf-91f4-8577-22ae" name="Elysian Ranged weapons" hidden="false" collective="false" import="true" targetId="8154-55fb-024d-1e46" type="selectionEntryGroup"/>
+            <entryLink id="50bf-91f4-8577-22ae" name="Elysian Ranged 武器" hidden="false" collective="false" import="true" targetId="8154-55fb-024d-1e46" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="b5e9-6e2f-ae66-9fb5" name="Krak grenade" hidden="false" collective="false" import="true" targetId="0f23-cd69-d106-371e" type="selectionEntry">
+        <entryLink id="b5e9-6e2f-ae66-9fb5" name="穿甲手雷" hidden="false" collective="false" import="true" targetId="0f23-cd69-d106-371e" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ada6-466a-f88f-263f" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a4b-b6d7-6191-edea" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="e49b-3f5b-47be-2716" name="Frag grenade" hidden="false" collective="false" import="true" targetId="f68e-9984-71fe-6bca" type="selectionEntry">
+        <entryLink id="e49b-3f5b-47be-2716" name="破片手雷" hidden="false" collective="false" import="true" targetId="f68e-9984-71fe-6bca" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b079-d9fc-48c3-c7e8" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a15e-d306-c91c-d406" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="9365-227b-c243-bdef" name="Elysian Melee Weapons" hidden="false" collective="false" import="true" targetId="8951-19ee-4d4f-29a9" type="selectionEntryGroup">
+        <entryLink id="9365-227b-c243-bdef" name="Elysian Melee 武器" hidden="false" collective="false" import="true" targetId="8951-19ee-4d4f-29a9" type="selectionEntryGroup">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2985-89bf-6487-f064" type="max"/>
           </constraints>
@@ -2040,7 +2040,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db19-542b-b316-13fe" type="min"/>
               </constraints>
             </entryLink>
-            <entryLink id="3a7a-7fb8-e773-4c2f" name="Krak grenade" hidden="false" collective="false" import="true" targetId="0f23-cd69-d106-371e" type="selectionEntry">
+            <entryLink id="3a7a-7fb8-e773-4c2f" name="穿甲手雷" hidden="false" collective="false" import="true" targetId="0f23-cd69-d106-371e" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c12-113e-7f16-feb4" type="max"/>
               </constraints>
@@ -2101,12 +2101,12 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e9b-b31d-0bf3-d898" type="min"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="8234-1b4d-9871-0e03" name="Krak grenade" hidden="false" collective="false" import="true" targetId="0f23-cd69-d106-371e" type="selectionEntry">
+                <entryLink id="8234-1b4d-9871-0e03" name="穿甲手雷" hidden="false" collective="false" import="true" targetId="0f23-cd69-d106-371e" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9692-36d7-52be-43da" type="max"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="4b53-309d-d821-c98f" name="Elysian Special weapons" hidden="false" collective="false" import="true" targetId="7835-492b-5a1f-df3b" type="selectionEntryGroup"/>
+                <entryLink id="4b53-309d-d821-c98f" name="Elysian Special 武器" hidden="false" collective="false" import="true" targetId="7835-492b-5a1f-df3b" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="5.0"/>
@@ -2129,7 +2129,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c0a-c82d-314c-85a3" type="min"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="543c-a868-4259-9ed9" name="Krak grenade" hidden="false" collective="false" import="true" targetId="0f23-cd69-d106-371e" type="selectionEntry">
+                <entryLink id="543c-a868-4259-9ed9" name="穿甲手雷" hidden="false" collective="false" import="true" targetId="0f23-cd69-d106-371e" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c6c-f99a-3dcf-6d54" type="max"/>
                   </constraints>
@@ -2155,7 +2155,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="653c-6d29-10df-0adf" type="min"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="8e6f-d49a-9594-f293" name="Krak grenade" hidden="false" collective="false" import="true" targetId="0f23-cd69-d106-371e" type="selectionEntry">
+                <entryLink id="8e6f-d49a-9594-f293" name="穿甲手雷" hidden="false" collective="false" import="true" targetId="0f23-cd69-d106-371e" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f12-394c-615c-0b94" type="max"/>
                   </constraints>
@@ -2221,7 +2221,7 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3b6e-250f-ad7e-0c00" name="Elysian Special Weapons Squad" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="3b6e-250f-ad7e-0c00" name="Elysian Special 武器 Squad" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="3004-8ded-c62a-6a3f" name="Aerial Drop" hidden="false" targetId="b2ac-24d0-fec8-1d3c" type="profile"/>
       </infoLinks>
@@ -2263,13 +2263,13 @@
             <infoLink id="b97a-c6fa-0797-3154" name="Guardsman" hidden="false" targetId="c0ac-eaf8-9629-5062" type="profile"/>
           </infoLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup id="b61e-ada4-9817-8159" name="Special Weapons" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="b61e-ada4-9817-8159" name="Special 武器" hidden="false" collective="false" import="true">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9363-a99b-c196-34ea" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c532-a1f1-0654-4b8d" type="min"/>
               </constraints>
               <entryLinks>
-                <entryLink id="f041-a6a0-7ef7-d9e5" name="Elysian Special weapons" hidden="false" collective="false" import="true" targetId="7835-492b-5a1f-df3b" type="selectionEntryGroup"/>
+                <entryLink id="f041-a6a0-7ef7-d9e5" name="Elysian Special 武器" hidden="false" collective="false" import="true" targetId="7835-492b-5a1f-df3b" type="selectionEntryGroup"/>
                 <entryLink id="f60d-c461-dec4-1b17" name="Breacher Charge" hidden="false" collective="false" import="true" targetId="f1e2-96a9-3dfc-c7d7" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
@@ -2329,7 +2329,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8471-e883-e0ab-2b0f" type="max"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="02cc-38a8-41f5-e8cd" name="Elysian Ranged weapons" hidden="false" collective="false" import="true" targetId="8154-55fb-024d-1e46" type="selectionEntryGroup"/>
+                <entryLink id="02cc-38a8-41f5-e8cd" name="Elysian Ranged 武器" hidden="false" collective="false" import="true" targetId="8154-55fb-024d-1e46" type="selectionEntryGroup"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -2340,7 +2340,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f6b-22ca-43dd-4782" type="min"/>
               </constraints>
             </entryLink>
-            <entryLink id="213f-acea-b719-354f" name="Elysian Melee Weapons" hidden="false" collective="false" import="true" targetId="8951-19ee-4d4f-29a9" type="selectionEntryGroup"/>
+            <entryLink id="213f-acea-b719-354f" name="Elysian Melee 武器" hidden="false" collective="false" import="true" targetId="8951-19ee-4d4f-29a9" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="7.0"/>
@@ -2447,7 +2447,7 @@
                 <infoLink id="816b-9782-5605-299a" name="Veteran Guardsmen" hidden="false" targetId="076c-b390-86e6-2ae9" type="profile"/>
               </infoLinks>
               <entryLinks>
-                <entryLink id="86a1-0b2d-d614-0628" name="Elysian Special weapons BS3" hidden="false" collective="false" import="true" targetId="4c82-1b74-49d1-d127" type="selectionEntryGroup"/>
+                <entryLink id="86a1-0b2d-d614-0628" name="Elysian Special 武器 BS3" hidden="false" collective="false" import="true" targetId="4c82-1b74-49d1-d127" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="7.0"/>
@@ -2460,7 +2460,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6b96-4454-6f7b-f2fe" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="6f3d-f42e-abc3-edfb" name="Vetera Weapons Team" hidden="false" targetId="1a11-9219-59bd-8c63" type="profile"/>
+                <infoLink id="6f3d-f42e-abc3-edfb" name="Vetera 武器 Team" hidden="false" targetId="1a11-9219-59bd-8c63" type="profile"/>
               </infoLinks>
               <selectionEntryGroups>
                 <selectionEntryGroup id="4112-460a-17ff-aa6b" name="激光枪" hidden="false" collective="false" import="true" defaultSelectionEntryId="da7d-76d9-a38e-ee43">
@@ -2507,7 +2507,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="05fd-2c40-1dfb-7272" name="Veteran W/ Heavy Flamer" page="0" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="05fd-2c40-1dfb-7272" name="Veteran W/ 重喷火" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5cb8-ba7b-fb01-d5ad" type="max"/>
               </constraints>
@@ -2670,13 +2670,13 @@
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <entryLinks>
-                <entryLink id="8aff-18ca-8cc8-8b2b" name="Frag grenade" hidden="false" collective="false" import="true" targetId="f68e-9984-71fe-6bca" type="selectionEntry">
+                <entryLink id="8aff-18ca-8cc8-8b2b" name="破片手雷" hidden="false" collective="false" import="true" targetId="f68e-9984-71fe-6bca" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da4b-d89a-09bc-0dfc" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae23-c735-02c6-ef0e" type="min"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="aab1-4e1c-7e67-4456" name="Krak grenade" hidden="false" collective="false" import="true" targetId="0f23-cd69-d106-371e" type="selectionEntry">
+                <entryLink id="aab1-4e1c-7e67-4456" name="穿甲手雷" hidden="false" collective="false" import="true" targetId="0f23-cd69-d106-371e" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="995c-c5a9-e8ee-0e6a" type="max"/>
                   </constraints>
@@ -2716,13 +2716,13 @@
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <entryLinks>
-                <entryLink id="4794-16a0-f13b-7074" name="Frag grenade" hidden="false" collective="false" import="true" targetId="f68e-9984-71fe-6bca" type="selectionEntry">
+                <entryLink id="4794-16a0-f13b-7074" name="破片手雷" hidden="false" collective="false" import="true" targetId="f68e-9984-71fe-6bca" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2c3-9cb3-0961-375d" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5615-f24d-14a4-16a6" type="min"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="7fdb-10aa-74d9-de52" name="Krak grenade" hidden="false" collective="false" import="true" targetId="0f23-cd69-d106-371e" type="selectionEntry">
+                <entryLink id="7fdb-10aa-74d9-de52" name="穿甲手雷" hidden="false" collective="false" import="true" targetId="0f23-cd69-d106-371e" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e00-56ed-13d3-ba59" type="max"/>
                   </constraints>
@@ -2763,13 +2763,13 @@
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <entryLinks>
-                <entryLink id="1840-55bc-9f48-7440" name="Frag grenade" hidden="false" collective="false" import="true" targetId="f68e-9984-71fe-6bca" type="selectionEntry">
+                <entryLink id="1840-55bc-9f48-7440" name="破片手雷" hidden="false" collective="false" import="true" targetId="f68e-9984-71fe-6bca" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e82a-4b45-2bc1-350a" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="429e-4f10-aa82-9257" type="min"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="8b51-1b69-4d45-07b3" name="Krak grenade" hidden="false" collective="false" import="true" targetId="0f23-cd69-d106-371e" type="selectionEntry">
+                <entryLink id="8b51-1b69-4d45-07b3" name="穿甲手雷" hidden="false" collective="false" import="true" targetId="0f23-cd69-d106-371e" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0cd-7dfe-72d3-f245" type="max"/>
                   </constraints>
@@ -2829,13 +2829,13 @@
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <entryLinks>
-                <entryLink id="1eb6-587f-6797-c70e" name="Frag grenade" hidden="false" collective="false" import="true" targetId="f68e-9984-71fe-6bca" type="selectionEntry">
+                <entryLink id="1eb6-587f-6797-c70e" name="破片手雷" hidden="false" collective="false" import="true" targetId="f68e-9984-71fe-6bca" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dcd2-93a4-d610-5762" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="55d9-cfbf-f223-01ef" type="min"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="964d-1a2f-03d2-1932" name="Krak grenade" hidden="false" collective="false" import="true" targetId="0f23-cd69-d106-371e" type="selectionEntry">
+                <entryLink id="964d-1a2f-03d2-1932" name="穿甲手雷" hidden="false" collective="false" import="true" targetId="0f23-cd69-d106-371e" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87cb-8170-871c-760d" type="max"/>
                   </constraints>
@@ -2855,14 +2855,14 @@
                 <infoLink id="d390-dbc2-c3aa-c7b2" name="Veteran Guardsmen" hidden="false" targetId="076c-b390-86e6-2ae9" type="profile"/>
               </infoLinks>
               <entryLinks>
-                <entryLink id="b28d-ad6b-c7d8-fb0e" name="Elysian Special weapons BS3" hidden="false" collective="false" import="true" targetId="4c82-1b74-49d1-d127" type="selectionEntryGroup"/>
-                <entryLink id="b844-6997-7e01-0365" name="Frag grenade" hidden="false" collective="false" import="true" targetId="f68e-9984-71fe-6bca" type="selectionEntry">
+                <entryLink id="b28d-ad6b-c7d8-fb0e" name="Elysian Special 武器 BS3" hidden="false" collective="false" import="true" targetId="4c82-1b74-49d1-d127" type="selectionEntryGroup"/>
+                <entryLink id="b844-6997-7e01-0365" name="破片手雷" hidden="false" collective="false" import="true" targetId="f68e-9984-71fe-6bca" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5648-86f0-68d6-cbb0" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="26d7-619d-9a8d-c419" type="min"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="fb89-55f8-f1cc-7e61" name="Krak grenade" hidden="false" collective="false" import="true" targetId="0f23-cd69-d106-371e" type="selectionEntry">
+                <entryLink id="fb89-55f8-f1cc-7e61" name="穿甲手雷" hidden="false" collective="false" import="true" targetId="0f23-cd69-d106-371e" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2db-8037-9c27-d560" type="max"/>
                   </constraints>
@@ -2879,17 +2879,17 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a248-e305-25d4-4593" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="c0d6-2c92-cde8-731b" name="Vetera Weapons Team" hidden="false" targetId="1a11-9219-59bd-8c63" type="profile"/>
+                <infoLink id="c0d6-2c92-cde8-731b" name="Vetera 武器 Team" hidden="false" targetId="1a11-9219-59bd-8c63" type="profile"/>
               </infoLinks>
               <entryLinks>
                 <entryLink id="d9d5-d150-5dab-1574" name="Elysian 重型武器" hidden="false" collective="false" import="true" targetId="dc7f-ee0b-e028-5d0f" type="selectionEntryGroup"/>
-                <entryLink id="3e67-302c-17e9-880e" name="Frag grenade" hidden="false" collective="false" import="true" targetId="f68e-9984-71fe-6bca" type="selectionEntry">
+                <entryLink id="3e67-302c-17e9-880e" name="破片手雷" hidden="false" collective="false" import="true" targetId="f68e-9984-71fe-6bca" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="55ac-9027-fa7d-ab2f" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="725b-ef43-2ae9-ac7f" type="min"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="f691-d0d2-3b0e-2eae" name="Krak grenade" hidden="false" collective="false" import="true" targetId="0f23-cd69-d106-371e" type="selectionEntry">
+                <entryLink id="f691-d0d2-3b0e-2eae" name="穿甲手雷" hidden="false" collective="false" import="true" targetId="0f23-cd69-d106-371e" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df7c-78bd-5944-79b3" type="max"/>
                   </constraints>
@@ -2940,7 +2940,7 @@
                 <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of the first battle round but before the first turn begins, you can move 这个单位 up to 9寸.  It cannot end this move 范围内 9寸 of any 敌方模型.  If both players have units that can do this, the player who is taking the first turn moves their units first.</characteristic>
               </characteristics>
             </profile>
-            <profile id="8f33-2583-886c-1ee3" name="Explodes" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+            <profile id="8f33-2583-886c-1ee3" name="爆炸" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
                 <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 在载具被移除及任何在这个载具上的模型下车前投掷1个D6. 结果为6则爆炸, 每个单位 范围内 3寸 遭受 1 致命伤.</characteristic>
               </characteristics>
@@ -2948,22 +2948,22 @@
           </profiles>
           <infoLinks>
             <infoLink id="5ecc-65c2-fd13-de6b" name="Aerial Drop" hidden="false" targetId="b2ac-24d0-fec8-1d3c" type="profile"/>
-            <infoLink id="5a1c-7ace-f11b-6960" name="Smoke Launchers" hidden="false" targetId="c883-3078-1367-cc2c" type="profile"/>
+            <infoLink id="5a1c-7ace-f11b-6960" name="烟雾发射器" hidden="false" targetId="c883-3078-1367-cc2c" type="profile"/>
           </infoLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup id="a560-a7fa-f7c9-01ae" name="Heavy Bolter" hidden="false" collective="false" import="true" defaultSelectionEntryId="274b-b161-5f0b-16ff">
+            <selectionEntryGroup id="a560-a7fa-f7c9-01ae" name="重爆弹" hidden="false" collective="false" import="true" defaultSelectionEntryId="274b-b161-5f0b-16ff">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0206-dd92-8631-963e" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e075-1b6b-60bf-3e71" type="min"/>
               </constraints>
               <entryLinks>
                 <entryLink id="41a8-8b1f-a085-f9ff" name="重喷火" hidden="false" collective="false" import="true" targetId="18bc-b335-29c2-2ae2" type="selectionEntry"/>
-                <entryLink id="6277-0961-aead-84b8" name="Multi-melta" hidden="false" collective="false" import="true" targetId="2b37-65ee-9443-b4ef" type="selectionEntry">
+                <entryLink id="6277-0961-aead-84b8" name="多管热熔" hidden="false" collective="false" import="true" targetId="2b37-65ee-9443-b4ef" type="selectionEntry">
                   <modifiers>
                     <modifier type="set" field="points" value="15"/>
                   </modifiers>
                 </entryLink>
-                <entryLink id="274b-b161-5f0b-16ff" name="Heavy bolter" hidden="false" collective="false" import="true" targetId="05ab-e7cc-e856-c36f" type="selectionEntry">
+                <entryLink id="274b-b161-5f0b-16ff" name="重爆弹" hidden="false" collective="false" import="true" targetId="05ab-e7cc-e856-c36f" type="selectionEntry">
                   <modifiers>
                     <modifier type="set" field="points" value="8"/>
                   </modifiers>
@@ -2972,7 +2972,7 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="a31f-9ed9-496a-da0a" name="Hunter-killer missile" hidden="false" collective="false" import="true" targetId="32bf-b117-4ecf-5165" type="selectionEntry">
+            <entryLink id="a31f-9ed9-496a-da0a" name="猎杀导弹" hidden="false" collective="false" import="true" targetId="32bf-b117-4ecf-5165" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="191a-f6dd-4a46-39c0" type="max"/>
               </constraints>
@@ -3027,7 +3027,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d0a-115d-a9f7-709c" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="4670-a702-b652-0c71" name="Elysian Ranged weapons" hidden="false" collective="false" import="true" targetId="8154-55fb-024d-1e46" type="selectionEntryGroup"/>
+            <entryLink id="4670-a702-b652-0c71" name="Elysian Ranged 武器" hidden="false" collective="false" import="true" targetId="8154-55fb-024d-1e46" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="e40a-1dc3-cb60-4717" name="Heirlooms of Conquest" hidden="false" collective="false" import="true">
@@ -3168,7 +3168,7 @@
               <profiles>
                 <profile id="bf23-aa52-295a-76cc" name="The Deathmask of Ollanius" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">INFANTRY model only. The bearer of this item has a 4+ 特殊保护. 此外, once per game, at the start of any of your turns, the bearer may immediately heal D3 wounds.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">步兵模型 only. The bearer of this item has a 4+ 特殊保护. 此外, once per game, at the start of any of your turns, the bearer may immediately heal D3 wounds.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3182,18 +3182,18 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="8e5f-a2a2-1f91-c84d" name="Krak grenade" hidden="false" collective="false" import="true" targetId="0f23-cd69-d106-371e" type="selectionEntry">
+        <entryLink id="8e5f-a2a2-1f91-c84d" name="穿甲手雷" hidden="false" collective="false" import="true" targetId="0f23-cd69-d106-371e" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="075b-0bdf-a777-8844" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="e73a-aa58-2985-4802" name="Frag grenade" hidden="false" collective="false" import="true" targetId="f68e-9984-71fe-6bca" type="selectionEntry">
+        <entryLink id="e73a-aa58-2985-4802" name="破片手雷" hidden="false" collective="false" import="true" targetId="f68e-9984-71fe-6bca" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdd7-3a7c-4383-5c79" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f08-76bc-990c-dee5" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="1db0-e397-7cd4-bc02" name="Elysian Melee Weapons" hidden="false" collective="false" import="true" targetId="8951-19ee-4d4f-29a9" type="selectionEntryGroup"/>
+        <entryLink id="1db0-e397-7cd4-bc02" name="Elysian Melee 武器" hidden="false" collective="false" import="true" targetId="8951-19ee-4d4f-29a9" type="selectionEntryGroup"/>
         <entryLink id="889d-8797-ce0a-0be5" name="Melta bombs" hidden="false" collective="false" import="true" targetId="8ed2-3e2c-4d52-af79" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="points" value="0.0"/>
@@ -3248,7 +3248,7 @@
             </profile>
           </profiles>
           <entryLinks>
-            <entryLink id="98c7-99b2-0b73-6c82" name="Frag grenade" hidden="false" collective="false" import="true" targetId="f68e-9984-71fe-6bca" type="selectionEntry">
+            <entryLink id="98c7-99b2-0b73-6c82" name="破片手雷" hidden="false" collective="false" import="true" targetId="f68e-9984-71fe-6bca" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff2a-6b9c-5c98-009d" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5a2-b813-044d-5253" type="min"/>
@@ -3359,7 +3359,7 @@
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="5731-fdfb-b806-77ae" name="Valkyrie Sky Talon" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="Transport">
+        <profile id="5731-fdfb-b806-77ae" name="Valkyrie Sky Talon" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
           <characteristics>
             <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">1 ELYSIAN TAUROS or 2 ELYSIAN DROP SENTINELS</characteristic>
           </characteristics>
@@ -3401,7 +3401,7 @@
         <categoryLink id="d27a-4752-963b-6e71" name="Aircraft" hidden="false" targetId="d569-3d56-cd24-6a31" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="7ac2-4481-7650-17c1" name="Heavy bolter" hidden="false" collective="false" import="true" targetId="05ab-e7cc-e856-c36f" type="selectionEntry">
+        <entryLink id="7ac2-4481-7650-17c1" name="重爆弹" hidden="false" collective="false" import="true" targetId="05ab-e7cc-e856-c36f" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="points" value="8"/>
           </modifiers>
@@ -3410,7 +3410,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1a1-e56d-9fdb-46bd" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="8d3f-90bb-1755-49ee" name="Wing-mounted Weapons Sky Talon" hidden="false" collective="false" import="true" targetId="7432-3006-e603-8ed9" type="selectionEntryGroup"/>
+        <entryLink id="8d3f-90bb-1755-49ee" name="Wing-mounted 武器 Sky Talon" hidden="false" collective="false" import="true" targetId="7432-3006-e603-8ed9" type="selectionEntryGroup"/>
         <entryLink id="45a1-312c-2dc4-bdc6" name="Unit has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
         <entryLink id="c5f2-d340-2998-8c6b" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
@@ -3432,7 +3432,7 @@
     </selectionEntry>
     <selectionEntry id="f848-4032-7dd1-fd34" name="Frag Grenades" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="298a-7351-431e-18d1" name="Frag grenade" hidden="false" targetId="fdd8-1a5f-5722-d6ee" type="profile"/>
+        <infoLink id="298a-7351-431e-18d1" name="破片手雷" hidden="false" targetId="fdd8-1a5f-5722-d6ee" type="profile"/>
       </infoLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -3493,7 +3493,7 @@
     </selectionEntry>
     <selectionEntry id="bb82-af7a-a705-e174" name="Krak Grenades" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="aa06-46a2-ea07-3b2b" name="Krak grenade" hidden="false" targetId="3bf6-b4f7-6b2f-bb7b" type="profile"/>
+        <infoLink id="aa06-46a2-ea07-3b2b" name="穿甲手雷" hidden="false" targetId="3bf6-b4f7-6b2f-bb7b" type="profile"/>
       </infoLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -3657,7 +3657,7 @@
       <profiles>
         <profile id="b597-deef-89c4-6d5a" name="The Deathmask of Ollanius" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">INFANTRY model only. The bearer of this item has a 4+ 特殊保护. 此外, once per game, at the start of any of your turns, the bearer may immediately heal D3 wounds.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">步兵模型 only. The bearer of this item has a 4+ 特殊保护. 此外, once per game, at the start of any of your turns, the bearer may immediately heal D3 wounds.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3727,7 +3727,7 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="08d1-89fb-dc8f-b6ef" name="Wing-mounted Weapons" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="08d1-89fb-dc8f-b6ef" name="Wing-mounted 武器" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cee7-73ba-b497-7031" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bc64-691f-ff49-047c" type="max"/>
@@ -3790,7 +3790,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="9123-818c-7a94-6036" name="Missile launcher" hidden="false" collective="false" import="true" targetId="1469-1964-7a91-94d4" type="selectionEntry">
+        <entryLink id="9123-818c-7a94-6036" name="导弹发射器" hidden="false" collective="false" import="true" targetId="1469-1964-7a91-94d4" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="points" value="10.0"/>
           </modifiers>
@@ -3798,7 +3798,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba09-9e4b-fa71-9324" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="fa33-643f-f7b2-ab4e" name="Heavy bolter" hidden="false" collective="false" import="true" targetId="05ab-e7cc-e856-c36f" type="selectionEntry">
+        <entryLink id="fa33-643f-f7b2-ab4e" name="重爆弹" hidden="false" collective="false" import="true" targetId="05ab-e7cc-e856-c36f" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="points" value="8"/>
           </modifiers>
@@ -3808,7 +3808,7 @@
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="8951-19ee-4d4f-29a9" name="Elysian Melee Weapons" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="8951-19ee-4d4f-29a9" name="Elysian Melee 武器" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="941b-48f0-01ed-f26e" type="max"/>
       </constraints>
@@ -3831,7 +3831,7 @@
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="8154-55fb-024d-1e46" name="Elysian Ranged weapons" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="8154-55fb-024d-1e46" name="Elysian Ranged 武器" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c2f-3177-700a-097d" type="max"/>
       </constraints>
@@ -3889,7 +3889,7 @@
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="7835-492b-5a1f-df3b" name="Elysian Special weapons" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="7835-492b-5a1f-df3b" name="Elysian Special 武器" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="283a-e4a5-9023-9939" type="max"/>
       </constraints>
@@ -3958,7 +3958,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdda-0b33-fb9d-516b" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="75bf-dba0-4fce-ad93" name="Meltagun" hidden="false" collective="false" import="true" targetId="efc8-c51d-5b02-a3a2" type="selectionEntry">
+        <entryLink id="75bf-dba0-4fce-ad93" name="热熔枪" hidden="false" collective="false" import="true" targetId="efc8-c51d-5b02-a3a2" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="points" value="10"/>
           </modifiers>
@@ -3966,7 +3966,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5448-305b-9acc-7b34" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="4bc9-116d-fac2-f3f7" name="Flamer" hidden="false" collective="false" import="true" targetId="fd22-6743-2d4c-dd62" type="selectionEntry">
+        <entryLink id="4bc9-116d-fac2-f3f7" name="喷火器" hidden="false" collective="false" import="true" targetId="fd22-6743-2d4c-dd62" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="points" value="6"/>
           </modifiers>
@@ -3976,7 +3976,7 @@
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="4c82-1b74-49d1-d127" name="Elysian Special weapons BS3" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="4c82-1b74-49d1-d127" name="Elysian Special 武器 BS3" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cee2-7a0f-9025-5afa" type="max"/>
       </constraints>
@@ -4045,7 +4045,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9cb2-da0c-125d-8d76" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="e265-c50c-9720-cb15" name="Meltagun" hidden="false" collective="false" import="true" targetId="efc8-c51d-5b02-a3a2" type="selectionEntry">
+        <entryLink id="e265-c50c-9720-cb15" name="热熔枪" hidden="false" collective="false" import="true" targetId="efc8-c51d-5b02-a3a2" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="points" value="14"/>
           </modifiers>
@@ -4053,7 +4053,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f478-afaf-f52a-d237" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="3de8-d902-c311-6dab" name="Flamer" hidden="false" collective="false" import="true" targetId="fd22-6743-2d4c-dd62" type="selectionEntry">
+        <entryLink id="3de8-d902-c311-6dab" name="喷火器" hidden="false" collective="false" import="true" targetId="fd22-6743-2d4c-dd62" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="points" value="6"/>
           </modifiers>
@@ -4063,7 +4063,7 @@
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="7432-3006-e603-8ed9" name="Wing-mounted Weapons Sky Talon" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="7432-3006-e603-8ed9" name="Wing-mounted 武器 Sky Talon" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="92fa-5969-a177-a972" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="de6f-3c3e-0e4e-ba58" type="max"/>
@@ -4317,7 +4317,7 @@
           <profiles>
             <profile id="64cb-1523-3b7b-dc17" name="Brood Brothers" publicationId="62ed-66a0-pubN91709" page="109" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">INFANTRY models in BROOD BROTHERS Detachments increase their LD characteristic by 1 and they gain the Unquestioning Loyalty ability. Furthermore, a unit with the BROOD BROTHERS keyword cannot use the Aerial Drop ability.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">步兵模型 in BROOD BROTHERS Detachments increase their LD characteristic by 1 and they gain the Unquestioning Loyalty ability. Furthermore, a unit with the BROOD BROTHERS keyword cannot use the Aerial Drop ability.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4420,7 +4420,7 @@
         <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">5+</characteristic>
       </characteristics>
     </profile>
-    <profile id="1a11-9219-59bd-8c63" name="Veteran Weapons Team" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+    <profile id="1a11-9219-59bd-8c63" name="Veteran 武器 Team" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
       <characteristics>
         <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6寸</characteristic>
         <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
@@ -4548,7 +4548,7 @@
     </profile>
     <profile id="481f-bc31-fadc-653b" name="Move and Fire" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Move and Fire! All INFANTRY models in the ordered units count their weapons as being Assault weapons until the end of the turn. </characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Move and Fire! All 步兵模型 in the ordered units count their 武器 as being Assault 武器 until the end of the turn. </characteristic>
       </characteristics>
     </profile>
     <profile id="1b65-2ec6-7372-f2b1" name="Get Back in the Fight" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">

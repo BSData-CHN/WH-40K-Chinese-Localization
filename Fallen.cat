@@ -29,7 +29,7 @@
       </categoryLinks>
     </entryLink>
     <entryLink id="0f1f-01a6-cdef-78d6" name="Specialist Detachment" hidden="false" collective="false" import="true" targetId="1431-f0a4-42a6-bbc5" type="selectionEntry"/>
-    <entryLink id="6e41-55d5-6e88-42d0" name="混沌 Rhino" hidden="false" collective="false" import="true" targetId="b76d-3fd6-ae75-f2b8" type="selectionEntry">
+    <entryLink id="6e41-55d5-6e88-42d0" name="混沌 犀牛" hidden="false" collective="false" import="true" targetId="b76d-3fd6-ae75-f2b8" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -75,10 +75,10 @@
   <rules>
     <rule id="47e0-2f52-0200-d91d" name="爆弹训练" hidden="false">
       <description>All 阿斯塔特修会, 阿斯塔特叛军 and FALLEN models gain this ability.
-而不是 following the normal rules for 速射 weapons, models in 这个单位 firing 速射爆弹武器 make double the number of attacks if any of the following apply:
+而不是 following the normal rules for 速射 武器, models in 这个单位 firing 速射爆弹武器 make double the number of attacks if any of the following apply:
 • The firing model’s target is 范围内 half the weapon’s maximum range.
 • The firing model is INFANTRY and every model in its unit remained stationary in your previous 移动阶段.
-• The firing model is a TERMINATOR, BIKER, CENTURION, DREADNOUGHT or HELBRUTE.
+• The firing model is a 终结者, BIKER, 百夫长, DREADNOUGHT or HELBRUTE.
 For the purposes of this ability, a 速射爆弹武器 is any weapon with the 速射 type whose profile includes the word ‘bolt’ (e.g. 爆弹枪, 爆弹步枪, 风暴爆弹, 复合爆弹, 飓风爆弹, 地狱爆弹枪, etc.). This also applies when firing the 爆弹枪 profile of 复合武器 (including the 爆弹武器 profile of Relics such as Blood Song and the Lion’s Wrath) and when firing relics that replace a 速射爆弹武器, so long as the relic is also a 速射武器 (e.g. Primarch’s Wrath and Fury of Deimos). The Gauntlets of Ultramar and the Talon of Horus are also 速射爆弹武器, as is the 卫士之矛 used by Deathwatch Watch Masters.</description>
     </rule>
   </rules>
@@ -108,7 +108,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="2471-5af3-0c5d-2660" name="Blazing Weapons" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="2471-5af3-0c5d-2660" name="Blazing 武器" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Cypher can use his pistols in your 射击阶段 even if he has Advanced or Fallen Back in the same turn.</characteristic>
           </characteristics>
@@ -354,19 +354,19 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9301-7d05-aa0d-3ba9" type="max"/>
                       </constraints>
                       <entryLinks>
-                        <entryLink id="ad11-c624-8f21-9450" name="Autocannon" hidden="false" collective="false" import="true" targetId="5210-8cb2-b5a2-a04f" type="selectionEntry"/>
-                        <entryLink id="fdc9-3c16-e03a-02f3" name="Heavy bolter" hidden="false" collective="false" import="true" targetId="05ab-e7cc-e856-c36f" type="selectionEntry"/>
-                        <entryLink id="8a85-e211-471d-5541" name="Lascannon" hidden="false" collective="false" import="true" targetId="a908-4664-11cd-f8b2" type="selectionEntry"/>
-                        <entryLink id="1ca7-8ddb-e029-d2da" name="Missile launcher" hidden="false" collective="false" import="true" targetId="1469-1964-7a91-94d4" type="selectionEntry"/>
+                        <entryLink id="ad11-c624-8f21-9450" name="自动炮" hidden="false" collective="false" import="true" targetId="5210-8cb2-b5a2-a04f" type="selectionEntry"/>
+                        <entryLink id="fdc9-3c16-e03a-02f3" name="重爆弹" hidden="false" collective="false" import="true" targetId="05ab-e7cc-e856-c36f" type="selectionEntry"/>
+                        <entryLink id="8a85-e211-471d-5541" name="激光炮" hidden="false" collective="false" import="true" targetId="a908-4664-11cd-f8b2" type="selectionEntry"/>
+                        <entryLink id="1ca7-8ddb-e029-d2da" name="导弹发射器" hidden="false" collective="false" import="true" targetId="1469-1964-7a91-94d4" type="selectionEntry"/>
                       </entryLinks>
                     </selectionEntryGroup>
-                    <selectionEntryGroup id="7633-de22-b73b-e128" name="Special weapons" hidden="false" collective="false" import="true">
+                    <selectionEntryGroup id="7633-de22-b73b-e128" name="Special 武器" hidden="false" collective="false" import="true">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7ff-ae3d-c2e9-a975" type="max"/>
                       </constraints>
                       <entryLinks>
-                        <entryLink id="12e3-529a-7342-acd3" name="Flamer" hidden="false" collective="false" import="true" targetId="fd22-6743-2d4c-dd62" type="selectionEntry"/>
-                        <entryLink id="e6fa-be70-16a1-c543" name="Meltagun" hidden="false" collective="false" import="true" targetId="efc8-c51d-5b02-a3a2" type="selectionEntry"/>
+                        <entryLink id="12e3-529a-7342-acd3" name="喷火器" hidden="false" collective="false" import="true" targetId="fd22-6743-2d4c-dd62" type="selectionEntry"/>
+                        <entryLink id="e6fa-be70-16a1-c543" name="热熔枪" hidden="false" collective="false" import="true" targetId="efc8-c51d-5b02-a3a2" type="selectionEntry"/>
                         <entryLink id="4178-345f-5ba4-776c" name="Plasma gun" hidden="false" collective="false" import="true" targetId="8c14-22cc-93ce-b85a" type="selectionEntry"/>
                       </entryLinks>
                     </selectionEntryGroup>
@@ -430,7 +430,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
                 <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f32f-5c81-2041-88d2" type="max"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="3ee7-36b3-2c19-27a6" name="Fallen w/ Melee weapon" hidden="false" collective="false" import="true" type="model">
+                <selectionEntry id="3ee7-36b3-2c19-27a6" name="Fallen w/ 肉搏武器" hidden="false" collective="false" import="true" type="model">
                   <selectionEntryGroups>
                     <selectionEntryGroup id="43bc-34f9-24a5-111f" name="Melee Options" hidden="false" collective="false" import="true">
                       <constraints>
@@ -515,13 +515,13 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="43c9-93c2-5a4b-c459" type="min"/>
                       </constraints>
                       <selectionEntryGroups>
-                        <selectionEntryGroup id="8aeb-2c9f-e020-c29a" name="Special weapons" hidden="false" collective="false" import="true">
+                        <selectionEntryGroup id="8aeb-2c9f-e020-c29a" name="Special 武器" hidden="false" collective="false" import="true">
                           <constraints>
                             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d119-da32-bd2f-5eb7" type="max"/>
                           </constraints>
                           <entryLinks>
-                            <entryLink id="797e-3b48-548f-9e45" name="Flamer" hidden="false" collective="false" import="true" targetId="fd22-6743-2d4c-dd62" type="selectionEntry"/>
-                            <entryLink id="bad7-615b-705e-8c64" name="Meltagun" hidden="false" collective="false" import="true" targetId="efc8-c51d-5b02-a3a2" type="selectionEntry"/>
+                            <entryLink id="797e-3b48-548f-9e45" name="喷火器" hidden="false" collective="false" import="true" targetId="fd22-6743-2d4c-dd62" type="selectionEntry"/>
+                            <entryLink id="bad7-615b-705e-8c64" name="热熔枪" hidden="false" collective="false" import="true" targetId="efc8-c51d-5b02-a3a2" type="selectionEntry"/>
                             <entryLink id="c48f-2e2b-e085-0d73" name="Plasma gun" hidden="false" collective="false" import="true" targetId="8c14-22cc-93ce-b85a" type="selectionEntry"/>
                           </entryLinks>
                         </selectionEntryGroup>
@@ -531,8 +531,8 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
                           </constraints>
                           <entryLinks>
                             <entryLink id="218e-c1c6-3294-6f29" name="复合爆弹" hidden="false" collective="false" import="true" targetId="eba0-9fc6-5334-a390" type="selectionEntry"/>
-                            <entryLink id="2e53-26de-715e-fda5" name="Combi-flamer" hidden="false" collective="false" import="true" targetId="c6a1-e0c4-c1b1-dce1" type="selectionEntry"/>
-                            <entryLink id="9926-8c69-2399-aca0" name="Combi-melta" hidden="false" collective="false" import="true" targetId="c445-e211-f316-5d83" type="selectionEntry"/>
+                            <entryLink id="2e53-26de-715e-fda5" name="复合喷火器" hidden="false" collective="false" import="true" targetId="c6a1-e0c4-c1b1-dce1" type="selectionEntry"/>
+                            <entryLink id="9926-8c69-2399-aca0" name="复合热熔" hidden="false" collective="false" import="true" targetId="c445-e211-f316-5d83" type="selectionEntry"/>
                             <entryLink id="a91f-791b-c365-1313" name="Combi-plasma" hidden="false" collective="false" import="true" targetId="fdce-cdf7-21a9-f9ac" type="selectionEntry"/>
                           </entryLinks>
                         </selectionEntryGroup>
@@ -652,7 +652,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b76d-3fd6-ae75-f2b8" name="混沌 Rhino" page="" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="b76d-3fd6-ae75-f2b8" name="混沌 犀牛" page="" hidden="false" collective="false" import="true" type="model">
       <modifierGroups>
         <modifierGroup>
           <conditions>
@@ -665,7 +665,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
         </modifierGroup>
       </modifierGroups>
       <profiles>
-        <profile id="99e9-4f45-c7e0-8c17" name="混沌 Rhino" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="99e9-4f45-c7e0-8c17" name="混沌 犀牛" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">*</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">6+</characteristic>
@@ -678,7 +678,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="cd01-b7c0-e40b-45a6" name="混沌 Rhino" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
+        <profile id="cd01-b7c0-e40b-45a6" name="混沌 犀牛" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
             <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">-</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">M</characteristic>
@@ -710,9 +710,9 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">1</characteristic>
           </characteristics>
         </profile>
-        <profile id="1e25-c5dc-c1ea-6ce8" name="混沌 Rhino" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="Transport">
+        <profile id="1e25-c5dc-c1ea-6ce8" name="混沌 犀牛" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
           <characteristics>
-            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">这个模型 can transport 10 FALLEN INFANTRY models. It cannot, however, transport TERMINATORS , 泯灭密教 or 跳跃背包 models.</characteristic>
+            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">这个模型 可以运输 10 FALLEN 步兵模型. It cannot, however, transport TERMINATORS , 泯灭密教 or 跳跃背包 模型.</characteristic>
           </characteristics>
         </profile>
         <profile id="51c0-1450-ae1c-ec04" name="Self-repair" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -722,7 +722,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="157b-8713-9ff1-46f6" name="Explodes" hidden="false" targetId="9446-1148-da70-4028" type="profile"/>
+        <infoLink id="157b-8713-9ff1-46f6" name="爆炸" hidden="false" targetId="9446-1148-da70-4028" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="36b6-aeb5-999d-254a" name="New CategoryLink" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
@@ -733,7 +733,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
         <categoryLink id="bc48-6395-7df0-fb22" name="Fallen Angels" hidden="false" targetId="cd82-15ee-cad6-4909" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="347b-67ea-d9a8-3388" name="Smoke Launchers" hidden="false" collective="false" import="true" targetId="2da9-e64f-fece-7504" type="selectionEntry">
+        <entryLink id="347b-67ea-d9a8-3388" name="烟雾发射器" hidden="false" collective="false" import="true" targetId="2da9-e64f-fece-7504" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="63cd-abe4-1806-5621" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="14d4-4a06-cde3-6deb" type="min"/>
@@ -769,11 +769,11 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2da9-e64f-fece-7504" name="Smoke Launchers" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="2da9-e64f-fece-7504" name="烟雾发射器" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="30c0-0ba5-ce4f-7027" name="Smoke Launchers" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="30c0-0ba5-ce4f-7027" name="烟雾发射器" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per game, 而不是 shooting any weapons in the 射击阶段, 这个模型 can use its Smoke Launchers; until your next 射击阶段 your opponent must subtract 1 from 所有命中骰 for ranged weapons that target 这个载具.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per game, 而不是 shooting any 武器 in the 射击阶段, 这个模型 can use its 烟雾发射器; until your next 射击阶段 your opponent must subtract 1 from 所有命中骰 for ranged 武器 that target 这个载具.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -812,11 +812,11 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="eb17-8fea-be47-cdd7" name="Sorcerer" hidden="false" typeId="bc97-dea9-9e88-bb7d" typeName="Psyker">
+        <profile id="eb17-8fea-be47-cdd7" name="Sorcerer" hidden="false" typeId="bc97-dea9-9e88-bb7d" typeName="灵能者">
           <characteristics>
             <characteristic name="Cast" typeId="5afb-9914-904b-d3b3">2</characteristic>
             <characteristic name="Deny" typeId="b5ac-9c20-5d5a-6f9b">1</characteristic>
-            <characteristic name="Powers Known" typeId="69d7-b45e-00a2-7e46">Smite and 2 powers from the Dark Hereticus discipline</characteristic>
+            <characteristic name="Powers Known" typeId="69d7-b45e-00a2-7e46">惩击 and 2 powers from the Dark Hereticus discipline</characteristic>
             <characteristic name="Other" typeId="c2e2-f115-0003-5d7b"/>
           </characteristics>
         </profile>
@@ -888,7 +888,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
           <entryLinks>
             <entryLink id="dda7-09b2-d73a-7454" name="手枪" hidden="false" collective="false" import="true" targetId="6a10-ee77-8b15-f6fe" type="selectionEntryGroup"/>
             <entryLink id="9fa9-1862-380f-4d3f" name="复合武器" hidden="false" collective="false" import="true" targetId="ffc2-d6e9-682a-771b" type="selectionEntryGroup"/>
-            <entryLink id="abf7-8c26-b8e0-d00e" name="Melee Weapons" hidden="false" collective="false" import="true" targetId="9403-1579-1d82-447a" type="selectionEntryGroup"/>
+            <entryLink id="abf7-8c26-b8e0-d00e" name="Melee 武器" hidden="false" collective="false" import="true" targetId="9403-1579-1d82-447a" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -899,7 +899,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73a6-835a-d9de-5977" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="5b0c-b247-d429-6d77" name="Smite" hidden="false" collective="false" import="true" targetId="03fd-db47-5333-1e1f" type="selectionEntry">
+        <entryLink id="5b0c-b247-d429-6d77" name="惩击" hidden="false" collective="false" import="true" targetId="03fd-db47-5333-1e1f" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6110-4e9d-1a76-a529" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ffca-6bdb-7511-3562" type="min"/>
@@ -952,7 +952,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
           <characteristics>
             <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">8</characteristic>
             <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">12寸</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, select a visible 敌方单位 范围内 12寸 of the psyker. Until the start of your next 灵能阶段, 那个单位 cannot take 特殊保护s.</characteristic>
+            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, select a visible 敌方单位 范围内 12寸 of the 灵能者. Until the start of your next 灵能阶段, 那个单位 cannot take 特殊保护s.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1009,7 +1009,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
           <characteristics>
             <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">6</characteristic>
             <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">12寸</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, select a 阿斯塔特叛军 model 范围内 12寸 of the psyker. Until the start of your next 灵能阶段, add 2 to the model&apos;s Strength characteristic and 1 to its Attacks characteristic.</characteristic>
+            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, select a 阿斯塔特叛军 model 范围内 12寸 of the 灵能者. Until the start of your next 灵能阶段, add 2 to the model&apos;s Strength characteristic and 1 to its Attacks characteristic.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1028,7 +1028,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
           <characteristics>
             <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">7</characteristic>
             <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, select a 阿斯塔特叛军 unit 范围内 18寸 of the psyker. You can add 1 to 所有命中骰 made for 那个单位 until the start of your next 灵能阶段.</characteristic>
+            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, select a 阿斯塔特叛军 unit 范围内 18寸 of the 灵能者. You can add 1 to 所有命中骰 made for 那个单位 until the start of your next 灵能阶段.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1047,7 +1047,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
           <characteristics>
             <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">6</characteristic>
             <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">3寸</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, pick a 友方 阿斯塔特叛军 unit 范围内 3寸 of the psyker. 那个单位 can immediately move as if it were its 移动阶段. You cannot use Warptime on a unit more than once in each 灵能阶段.</characteristic>
+            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, pick a 友方 阿斯塔特叛军 unit 范围内 3寸 of the 灵能者. 那个单位 can immediately move as if it were its 移动阶段. You cannot use Warptime on a unit more than once in each 灵能阶段.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1205,8 +1205,8 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
               </constraints>
             </entryLink>
             <entryLink id="bcb6-19b3-7877-3ba0" name="复合爆弹" hidden="false" collective="false" import="true" targetId="eba0-9fc6-5334-a390" type="selectionEntry"/>
-            <entryLink id="22c0-1462-a5e3-c962" name="Combi-flamer" hidden="false" collective="false" import="true" targetId="c6a1-e0c4-c1b1-dce1" type="selectionEntry"/>
-            <entryLink id="0fe3-e273-14b7-c017" name="Combi-melta" hidden="false" collective="false" import="true" targetId="c445-e211-f316-5d83" type="selectionEntry"/>
+            <entryLink id="22c0-1462-a5e3-c962" name="复合喷火器" hidden="false" collective="false" import="true" targetId="c6a1-e0c4-c1b1-dce1" type="selectionEntry"/>
+            <entryLink id="0fe3-e273-14b7-c017" name="复合热熔" hidden="false" collective="false" import="true" targetId="c445-e211-f316-5d83" type="selectionEntry"/>
             <entryLink id="11cc-7404-9f34-b93f" name="Combi-plasma" hidden="false" collective="false" import="true" targetId="fdce-cdf7-21a9-f9ac" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
@@ -1287,8 +1287,8 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab60-8bba-4b09-5bd9" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="a3ed-9cd8-d6bb-3338" name="Combi-flamer" hidden="false" collective="false" import="true" targetId="c6a1-e0c4-c1b1-dce1" type="selectionEntry"/>
-        <entryLink id="11b9-eecd-3882-daba" name="Combi-melta" hidden="false" collective="false" import="true" targetId="c445-e211-f316-5d83" type="selectionEntry"/>
+        <entryLink id="a3ed-9cd8-d6bb-3338" name="复合喷火器" hidden="false" collective="false" import="true" targetId="c6a1-e0c4-c1b1-dce1" type="selectionEntry"/>
+        <entryLink id="11b9-eecd-3882-daba" name="复合热熔" hidden="false" collective="false" import="true" targetId="c445-e211-f316-5d83" type="selectionEntry"/>
         <entryLink id="b9ed-7843-fc5c-e6cb" name="New EntryLink" hidden="false" collective="false" import="true" targetId="fdce-cdf7-21a9-f9ac" type="selectionEntry"/>
         <entryLink id="50b5-52d1-7e43-5554" name="复合爆弹" hidden="false" collective="false" import="true" targetId="eba0-9fc6-5334-a390" type="selectionEntry"/>
       </entryLinks>
@@ -1353,7 +1353,7 @@ For the purposes of this ability, a 速射爆弹武器 is any weapon with the �
         <entryLink id="e813-57e6-a638-98b3" name="Plasma pistol" hidden="false" collective="false" import="true" targetId="83be-1ba9-c326-4760" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="9403-1579-1d82-447a" name="Melee Weapons" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="9403-1579-1d82-447a" name="Melee 武器" hidden="false" collective="false" import="true">
       <modifiers>
         <modifier type="set" field="7dc6-0b17-0990-ad06" value="2">
           <conditions>

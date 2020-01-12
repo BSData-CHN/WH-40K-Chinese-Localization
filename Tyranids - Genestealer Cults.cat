@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="83b2-e602-931a-fea1" name="泰伦 - Genestealer Cults" revision="46" battleScribeVersion="2.03" authorName="BSData-CHN" authorContact="@GenWilhelm" authorUrl="https://github.com/BSData-CHN" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
-    <publication id="83b2-e602-pubN65537" name="Codex: Genestealer Cults"/>
-    <publication id="83b2-e602-pubN88803" name="Imperium Nihilus: Vigilus Defiant"/>
+    <publication id="83b2-e602-pubN65537" name="圣典: Genestealer Cults"/>
+    <publication id="83b2-e602-pubN88803" name="帝国 Nihilus: Vigilus Defiant"/>
   </publications>
   <profileTypes>
     <profileType id="ec1e-7b4c-1c12-17a1" name="损伤表 - M, BS, A">
@@ -57,7 +57,7 @@
     <entryLink id="ad3a-7afb-d2d0-9d2d" name="Cult Leman Russ" hidden="false" collective="false" import="true" targetId="f6f6-2f9e-c4e0-2998" type="selectionEntry"/>
     <entryLink id="cfd8-4a83-760f-0d2a" name="Goliath Rockgrinder" hidden="false" collective="false" import="true" targetId="edbd-4366-0054-e184" type="selectionEntry"/>
     <entryLink id="b707-a464-5ad1-8c43" name="[Reference] Discipline: Broodmind" hidden="false" collective="false" import="true" targetId="036a-59ef-d643-5569" type="selectionEntry"/>
-    <entryLink id="a637-f7c0-6ccf-3734" name="[Reference] Power: Smite" hidden="false" collective="false" import="true" targetId="ef3b-5329-0708-d49c" type="selectionEntry"/>
+    <entryLink id="a637-f7c0-6ccf-3734" name="[Reference] Power: 惩击" hidden="false" collective="false" import="true" targetId="ef3b-5329-0708-d49c" type="selectionEntry"/>
     <entryLink id="06bd-9356-760b-365d" name="Insurrectionists" hidden="false" collective="false" import="true" targetId="0302-d2e5-e287-b15f" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="743f-6fba-bcd8-8b95" name="New CategoryLink" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
@@ -472,10 +472,10 @@
               </constraints>
               <entryLinks>
                 <entryLink id="0bc2-f195-d9e3-7cf6" name="Autopistol" hidden="false" collective="false" import="true" targetId="001e-d0e9-b805-6182" type="selectionEntry"/>
-                <entryLink id="d7ca-7460-5ca4-0716" name="Hand Flamer" hidden="false" collective="false" import="true" targetId="18d6-e1b1-ab81-23cb" type="selectionEntry"/>
+                <entryLink id="d7ca-7460-5ca4-0716" name="Hand 喷火器" hidden="false" collective="false" import="true" targetId="18d6-e1b1-ab81-23cb" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="f744-135f-b68d-cd51" name="Melee Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="0652-b9c7-9065-7878">
+            <selectionEntryGroup id="f744-135f-b68d-cd51" name="肉搏武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="0652-b9c7-9065-7878">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54ae-9db1-f5ac-5d34" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2477-6675-ad3b-2eb3" type="min"/>
@@ -566,7 +566,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="74dc-eae2-8d0e-d310" name="Acolyte Hybrid (Hand Flamer)" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="74dc-eae2-8d0e-d310" name="Acolyte Hybrid (Hand 喷火器)" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="19.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62ea-f82b-5aae-2b36" type="max"/>
               </constraints>
@@ -586,7 +586,7 @@
                 </profile>
               </profiles>
               <entryLinks>
-                <entryLink id="d35c-1510-b162-0307" name="Hand Flamer" hidden="false" collective="false" import="true" targetId="18d6-e1b1-ab81-23cb" type="selectionEntry">
+                <entryLink id="d35c-1510-b162-0307" name="Hand 喷火器" hidden="false" collective="false" import="true" targetId="18d6-e1b1-ab81-23cb" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2de8-c6bb-e966-ccf8" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9e9-c674-dac6-cb6e" type="max"/>
@@ -650,7 +650,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d6a6-cad5-a732-a729" type="max"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink id="d3b7-58b2-f975-343c" name="Hand Flamer" hidden="false" collective="false" import="true" targetId="c7b0-516a-f031-e4e9" type="selectionEntry"/>
+                    <entryLink id="d3b7-58b2-f975-343c" name="Hand 喷火器" hidden="false" collective="false" import="true" targetId="c7b0-516a-f031-e4e9" type="selectionEntry"/>
                     <entryLink id="5fa1-4da6-1bc9-8cf5" name="Autopistol" hidden="false" collective="false" import="true" targetId="0985-3683-24db-1b07" type="selectionEntry"/>
                   </entryLinks>
                 </selectionEntryGroup>
@@ -822,8 +822,8 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="d45b-3ba4-01f6-defd" name="Explodes (6+/3寸/1)" hidden="false" targetId="9420-2013-27d9-c8cd" type="profile"/>
-        <infoLink id="14fc-d93d-69c3-b11a" name="Smoke Launchers" hidden="false" targetId="eb65-363e-41a8-5cf5" type="profile"/>
+        <infoLink id="d45b-3ba4-01f6-defd" name="爆炸 (6+/3寸/1)" hidden="false" targetId="9420-2013-27d9-c8cd" type="profile"/>
+        <infoLink id="14fc-d93d-69c3-b11a" name="烟雾发射器" hidden="false" targetId="eb65-363e-41a8-5cf5" type="profile"/>
         <infoLink id="fc4d-14b7-b7dd-c7ae" name="Cult Ambush" hidden="false" targetId="e624-3023-b8b4-18fa" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -863,15 +863,15 @@
               <entryLinks>
                 <entryLink id="dd12-5732-11a3-7bd1" name="Multi-laser" hidden="false" collective="false" import="true" targetId="1322-8762-d23a-dc0c" type="selectionEntry"/>
                 <entryLink id="c3a2-b1ed-6450-e0b8" name="重喷火" hidden="false" collective="false" import="true" targetId="bd55-83d6-4b00-5f2f" type="selectionEntry"/>
-                <entryLink id="b037-0df4-76da-1f79" name="Autocannon" hidden="false" collective="false" import="true" targetId="4f48-c2bf-69ad-157f" type="selectionEntry"/>
-                <entryLink id="32c5-a7e1-acf0-6f81" name="Missile Launcher" hidden="false" collective="false" import="true" targetId="eb20-7e8b-4806-b84e" type="selectionEntry"/>
-                <entryLink id="431a-479a-7b1a-c81f" name="Lascannon" hidden="false" collective="false" import="true" targetId="db1e-7ae4-bd03-21ca" type="selectionEntry"/>
+                <entryLink id="b037-0df4-76da-1f79" name="自动炮" hidden="false" collective="false" import="true" targetId="4f48-c2bf-69ad-157f" type="selectionEntry"/>
+                <entryLink id="32c5-a7e1-acf0-6f81" name="导弹发射器" hidden="false" collective="false" import="true" targetId="eb20-7e8b-4806-b84e" type="selectionEntry"/>
+                <entryLink id="431a-479a-7b1a-c81f" name="激光炮" hidden="false" collective="false" import="true" targetId="db1e-7ae4-bd03-21ca" type="selectionEntry"/>
                 <entryLink id="9ae6-37f1-c3fc-1c3a" name="Plasma Cannon" hidden="false" collective="false" import="true" targetId="077b-596a-fc56-222b" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="5d61-4687-eac3-85c5" name="Hunter-killer Missile" hidden="false" collective="false" import="true" targetId="799b-3424-af4c-0958" type="selectionEntry">
+            <entryLink id="5d61-4687-eac3-85c5" name="猎杀导弹" hidden="false" collective="false" import="true" targetId="799b-3424-af4c-0958" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c82-9afe-0803-19fb" type="max"/>
               </constraints>
@@ -914,9 +914,9 @@
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="fc1c-5611-8cb4-d0a5" name="Cult Chimera" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="Transport">
+        <profile id="fc1c-5611-8cb4-d0a5" name="Cult Chimera" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
           <characteristics>
-            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">Up to 12 BROOD BROTHERS INFANTRY models. Each Brood Brothers Weapons Team takes the space of two other models. Each ASTRA MILITARUM 重型武器 Team takes the space of two other models and each OGRYN takes the space of three other models. If, during deployment, 这个单位 is set up in ambush using the Cult Ambush ability, only units with the Cult Ambush ability can be inside when it is set up.</characteristic>
+            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">Up to 12 BROOD BROTHERS 步兵模型. Each Brood Brothers 武器 Team takes the space of two other 模型. Each ASTRA MILITARUM 重型武器 Team takes the space of two other models and each OGRYN takes the space of three other 模型. If, during deployment, 这个单位 is set up in ambush using the Cult Ambush ability, only units with the Cult Ambush ability can be inside when it is set up.</characteristic>
           </characteristics>
         </profile>
         <profile id="10dc-2dad-984f-7d8e" name="Cult Chimera (1)" hidden="false" typeId="ec1e-7b4c-1c12-17a1" typeName="损伤表 - M, BS, A">
@@ -951,8 +951,8 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="ed5a-d852-f188-4782" name="Explodes (6+/6寸/D3)" hidden="false" targetId="7f8e-7d4a-13a0-e8ab" type="profile"/>
-        <infoLink id="0ad1-25c0-6d1b-d151" name="Smoke Launchers" hidden="false" targetId="eb65-363e-41a8-5cf5" type="profile"/>
+        <infoLink id="ed5a-d852-f188-4782" name="爆炸 (6+/6寸/D3)" hidden="false" targetId="7f8e-7d4a-13a0-e8ab" type="profile"/>
+        <infoLink id="0ad1-25c0-6d1b-d151" name="烟雾发射器" hidden="false" targetId="eb65-363e-41a8-5cf5" type="profile"/>
         <infoLink id="1fde-2567-471c-453f" name="Cult Ambush" hidden="false" targetId="e624-3023-b8b4-18fa" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -970,17 +970,17 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c0d-5a72-a875-ce5b" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="c8ed-be61-68f6-a3e5" name="Heavy Bolter" hidden="false" collective="false" import="true" targetId="778f-017e-aa20-74c1" type="selectionEntry"/>
+            <entryLink id="c8ed-be61-68f6-a3e5" name="重爆弹" hidden="false" collective="false" import="true" targetId="778f-017e-aa20-74c1" type="selectionEntry"/>
             <entryLink id="2d09-feb5-a859-4180" name="重喷火" hidden="false" collective="false" import="true" targetId="bd55-83d6-4b00-5f2f" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="19ce-8210-057a-c59d" name="Turret Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="81f4-b28e-9be3-856a">
+        <selectionEntryGroup id="19ce-8210-057a-c59d" name="炮塔武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="81f4-b28e-9be3-856a">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ebcf-c5e5-df14-9d57" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c071-7953-e41d-b677" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="53e8-9020-3156-3c36" name="Heavy Bolter" hidden="false" collective="false" import="true" targetId="778f-017e-aa20-74c1" type="selectionEntry"/>
+            <entryLink id="53e8-9020-3156-3c36" name="重爆弹" hidden="false" collective="false" import="true" targetId="778f-017e-aa20-74c1" type="selectionEntry"/>
             <entryLink id="1fe4-cb4c-f11d-131f" name="重喷火" hidden="false" collective="false" import="true" targetId="bd55-83d6-4b00-5f2f" type="selectionEntry"/>
             <entryLink id="81f4-b28e-9be3-856a" name="Multi-laser" hidden="false" collective="false" import="true" targetId="1322-8762-d23a-dc0c" type="selectionEntry"/>
           </entryLinks>
@@ -1002,7 +1002,7 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1266-47b5-051f-7f58" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="bc67-4023-ffa9-2f33" name="Hunter-killer Missile" hidden="false" collective="false" import="true" targetId="799b-3424-af4c-0958" type="selectionEntry">
+        <entryLink id="bc67-4023-ffa9-2f33" name="猎杀导弹" hidden="false" collective="false" import="true" targetId="799b-3424-af4c-0958" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67db-1fe4-8811-de16" type="max"/>
           </constraints>
@@ -1058,7 +1058,7 @@
         </profile>
         <profile id="a01b-daaa-7396-00c2" name="Grinding Advance" publicationId="83b2-e602-pubN65537" page="98" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 remains stationary or moves under half speed in its 移动阶段 (i.e. it moves a distance in inches less than half of its current Move characteristic) it can shoot its turret weapon twice in the following 射击阶段 (the turret weapon must target the same unit both times). Furthermore, hit rolls for 这个模型&apos;s turret weapon do not suffer the penalty for moving and shooting a Heavy weapon. The following weapons are turret weapons: battle cannon, eradicator nova cannon, exterminator autocannon and vanquisher battle cannon.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 remains stationary or moves under half speed in its 移动阶段 (i.e. it moves a distance in inches less than half of its current Move characteristic) it can shoot its 炮塔武器 twice in the following 射击阶段 (the 炮塔武器 must target the same unit both times). Furthermore, hit rolls for 这个模型&apos;s 炮塔武器 do not suffer the penalty for moving and shooting a Heavy weapon. The following 武器 are turret 武器: battle cannon, eradicator nova cannon, exterminator 自动炮 and vanquisher battle cannon.</characteristic>
           </characteristics>
         </profile>
         <profile id="9d8a-7ac7-4957-7c48" name="Emergency Plasma Vents" publicationId="83b2-e602-pubN65537" page="98" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -1074,8 +1074,8 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="6644-7ae8-ad1d-5273" name="Explodes (6+/6寸/D3)" hidden="false" targetId="7f8e-7d4a-13a0-e8ab" type="profile"/>
-        <infoLink id="dc1d-9994-b0fe-ace8" name="Smoke Launchers" hidden="false" targetId="eb65-363e-41a8-5cf5" type="profile"/>
+        <infoLink id="6644-7ae8-ad1d-5273" name="爆炸 (6+/6寸/D3)" hidden="false" targetId="7f8e-7d4a-13a0-e8ab" type="profile"/>
+        <infoLink id="dc1d-9994-b0fe-ace8" name="烟雾发射器" hidden="false" targetId="eb65-363e-41a8-5cf5" type="profile"/>
         <infoLink id="50a0-c6d4-eaed-347a" name="Cult Ambush" hidden="false" targetId="e624-3023-b8b4-18fa" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -1086,7 +1086,7 @@
         <categoryLink id="519b-9ce3-0576-cb24" name="阵营: Brood Brothers" hidden="false" targetId="87e6-28da-b1dd-7a2a" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="1e3b-dfb9-fd9b-2001" name="Turret Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="08e6-27f2-7f6e-48f1">
+        <selectionEntryGroup id="1e3b-dfb9-fd9b-2001" name="炮塔武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="08e6-27f2-7f6e-48f1">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70e2-372f-5ca9-2989" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6a1-f658-da07-4797" type="max"/>
@@ -1094,7 +1094,7 @@
           <entryLinks>
             <entryLink id="08e6-27f2-7f6e-48f1" name="Battle Cannon" hidden="false" collective="false" import="true" targetId="a35f-bd7e-2695-1fa6" type="selectionEntry"/>
             <entryLink id="8a37-edd9-c30e-8181" name="Eradicator Nova Cannon" hidden="false" collective="false" import="true" targetId="4f4a-118d-a4fa-79a9" type="selectionEntry"/>
-            <entryLink id="8457-8627-d8d1-d535" name="Exterminator Autocannon" hidden="false" collective="false" import="true" targetId="0519-24af-3679-8f8f" type="selectionEntry"/>
+            <entryLink id="8457-8627-d8d1-d535" name="Exterminator 自动炮" hidden="false" collective="false" import="true" targetId="0519-24af-3679-8f8f" type="selectionEntry"/>
             <entryLink id="fc20-abcf-e8bb-5c12" name="Vanquisher Battle Cannon" hidden="false" collective="false" import="true" targetId="d542-f7ec-dd29-47c0" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
@@ -1104,31 +1104,31 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb6f-58d6-0092-9ff5" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="5a43-19db-f6b4-af15" name="Heavy Bolter" hidden="false" collective="false" import="true" targetId="778f-017e-aa20-74c1" type="selectionEntry"/>
-            <entryLink id="5d38-16dd-8fa9-e895" name="Lascannon" hidden="false" collective="false" import="true" targetId="db1e-7ae4-bd03-21ca" type="selectionEntry"/>
+            <entryLink id="5a43-19db-f6b4-af15" name="重爆弹" hidden="false" collective="false" import="true" targetId="778f-017e-aa20-74c1" type="selectionEntry"/>
+            <entryLink id="5d38-16dd-8fa9-e895" name="激光炮" hidden="false" collective="false" import="true" targetId="db1e-7ae4-bd03-21ca" type="selectionEntry"/>
             <entryLink id="dda1-5838-48b1-55d7" name="重喷火" hidden="false" collective="false" import="true" targetId="bd55-83d6-4b00-5f2f" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="9d71-78a1-aa9e-30af" name="Sponson Weapons" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="9d71-78a1-aa9e-30af" name="侧弦武器" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="783c-7586-4f5e-4e45" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="6d09-6a23-910b-9a4a" name="Heavy Bolter" hidden="false" collective="false" import="true" targetId="778f-017e-aa20-74c1" type="selectionEntry">
+            <entryLink id="6d09-6a23-910b-9a4a" name="重爆弹" hidden="false" collective="false" import="true" targetId="778f-017e-aa20-74c1" type="selectionEntry">
               <modifiers>
-                <modifier type="set" field="name" value="2x Heavy Bolter"/>
+                <modifier type="set" field="name" value="2x 重爆弹"/>
                 <modifier type="increment" field="points" value="8"/>
               </modifiers>
             </entryLink>
             <entryLink id="026b-40f4-5034-efd6" name="重喷火" hidden="false" collective="false" import="true" targetId="bd55-83d6-4b00-5f2f" type="selectionEntry">
               <modifiers>
-                <modifier type="set" field="name" value="2x Heavy Flamer"/>
+                <modifier type="set" field="name" value="2x 重喷火"/>
                 <modifier type="increment" field="points" value="14"/>
               </modifiers>
             </entryLink>
-            <entryLink id="c7d3-1dc3-4bb1-c671" name="Multi-melta" hidden="false" collective="false" import="true" targetId="6fe0-23b2-a20c-1f37" type="selectionEntry">
+            <entryLink id="c7d3-1dc3-4bb1-c671" name="多管热熔" hidden="false" collective="false" import="true" targetId="6fe0-23b2-a20c-1f37" type="selectionEntry">
               <modifiers>
-                <modifier type="set" field="name" value="2x Multi-melta"/>
+                <modifier type="set" field="name" value="2x 多管热熔"/>
                 <modifier type="increment" field="points" value="15"/>
               </modifiers>
             </entryLink>
@@ -1151,7 +1151,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="b71d-07f0-0af2-440c" name="Hunter-killer Missile" hidden="false" collective="false" import="true" targetId="799b-3424-af4c-0958" type="selectionEntry">
+        <entryLink id="b71d-07f0-0af2-440c" name="猎杀导弹" hidden="false" collective="false" import="true" targetId="799b-3424-af4c-0958" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2832-f3b6-6175-011f" type="max"/>
           </constraints>
@@ -1228,8 +1228,8 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="a5fe-91cf-e11d-f26d" name="Explodes (Sentinel)" hidden="false" targetId="9420-2013-27d9-c8cd" type="profile"/>
-        <infoLink id="5ad6-9873-7fc0-d4ca" name="Smoke Launchers" hidden="false" targetId="eb65-363e-41a8-5cf5" type="profile"/>
+        <infoLink id="a5fe-91cf-e11d-f26d" name="爆炸 (Sentinel)" hidden="false" targetId="9420-2013-27d9-c8cd" type="profile"/>
+        <infoLink id="5ad6-9873-7fc0-d4ca" name="烟雾发射器" hidden="false" targetId="eb65-363e-41a8-5cf5" type="profile"/>
         <infoLink id="e2d9-9583-6153-f54b" name="Cult Ambush" hidden="false" targetId="e624-3023-b8b4-18fa" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -1269,14 +1269,14 @@
               <entryLinks>
                 <entryLink id="1169-163f-b5c5-909d" name="Multi-laser" hidden="false" collective="false" import="true" targetId="1322-8762-d23a-dc0c" type="selectionEntry"/>
                 <entryLink id="e817-e7bb-482b-861c" name="重喷火" hidden="false" collective="false" import="true" targetId="bd55-83d6-4b00-5f2f" type="selectionEntry"/>
-                <entryLink id="7e42-b1e3-726b-6cb2" name="Autocannon" hidden="false" collective="false" import="true" targetId="4f48-c2bf-69ad-157f" type="selectionEntry"/>
-                <entryLink id="e562-53f3-79e0-00a6" name="Missile Launcher" hidden="false" collective="false" import="true" targetId="eb20-7e8b-4806-b84e" type="selectionEntry"/>
-                <entryLink id="0728-540a-72ce-f7d7" name="Lascannon" hidden="false" collective="false" import="true" targetId="db1e-7ae4-bd03-21ca" type="selectionEntry"/>
+                <entryLink id="7e42-b1e3-726b-6cb2" name="自动炮" hidden="false" collective="false" import="true" targetId="4f48-c2bf-69ad-157f" type="selectionEntry"/>
+                <entryLink id="e562-53f3-79e0-00a6" name="导弹发射器" hidden="false" collective="false" import="true" targetId="eb20-7e8b-4806-b84e" type="selectionEntry"/>
+                <entryLink id="0728-540a-72ce-f7d7" name="激光炮" hidden="false" collective="false" import="true" targetId="db1e-7ae4-bd03-21ca" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="3c68-b8b0-ddc5-4479" name="Hunter-killer Missile" hidden="false" collective="false" import="true" targetId="799b-3424-af4c-0958" type="selectionEntry">
+            <entryLink id="3c68-b8b0-ddc5-4479" name="猎杀导弹" hidden="false" collective="false" import="true" targetId="799b-3424-af4c-0958" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ad9-b08e-c06f-9ff9" type="max"/>
               </constraints>
@@ -1343,9 +1343,9 @@
             <characteristic name="A" typeId="3bb2-d15a-15bb-e44e">D3</characteristic>
           </characteristics>
         </profile>
-        <profile id="0271-a592-7379-1738" name="Goliath Rockgrinder" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="Transport">
+        <profile id="0271-a592-7379-1738" name="Goliath Rockgrinder" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
           <characteristics>
-            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">Up to 6 &lt;CULT&gt; INFANTRY models. Each PATRIARCH takes the space of five other models.</characteristic>
+            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">Up to 6 &lt;CULT&gt; 步兵模型. Each PATRIARCH takes the space of five other 模型.</characteristic>
           </characteristics>
         </profile>
         <profile id="02ed-1049-fccf-0fb6" name="Goliath Rockgrinder" hidden="true" typeId="b900-0afb-e411-2cbb" typeName="Keywords">
@@ -1357,7 +1357,7 @@
       </profiles>
       <infoLinks>
         <infoLink id="7724-9e10-51cb-7b4f" name="Rugged Construction" hidden="false" targetId="3611-cf4f-35bb-4f1d" type="profile"/>
-        <infoLink id="ca27-13ba-163b-6c86" name="Explodes (6+/6寸/D3)" hidden="false" targetId="7f8e-7d4a-13a0-e8ab" type="profile"/>
+        <infoLink id="ca27-13ba-163b-6c86" name="爆炸 (6+/6寸/D3)" hidden="false" targetId="7f8e-7d4a-13a0-e8ab" type="profile"/>
         <infoLink id="6b5f-73c7-b013-dfba" name="Cult Ambush" hidden="false" targetId="e624-3023-b8b4-18fa" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -1369,7 +1369,7 @@
         <categoryLink id="649b-0102-6ce3-004d" name="阵营: &lt;Cult&gt;" hidden="false" targetId="1117-30a3-a004-bdbd" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="8247-5d3d-d0c0-f24c" name="Turret Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="d047-9aff-3114-0fb1">
+        <selectionEntryGroup id="8247-5d3d-d0c0-f24c" name="炮塔武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="d047-9aff-3114-0fb1">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f408-bd19-b9b1-d440" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9272-b3c6-3b3b-4d50" type="max"/>
@@ -1454,9 +1454,9 @@
             <characteristic name="A" typeId="3bb2-d15a-15bb-e44e">1</characteristic>
           </characteristics>
         </profile>
-        <profile id="c364-d537-6e00-f644" name="Goliath Truck" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="Transport">
+        <profile id="c364-d537-6e00-f644" name="Goliath Truck" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
           <characteristics>
-            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">Up to 10 &lt;CULT&gt; INFANTRY models. Each PATRIARCH takes the space of five other models.</characteristic>
+            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">Up to 10 &lt;CULT&gt; 步兵模型. Each PATRIARCH takes the space of five other 模型.</characteristic>
           </characteristics>
         </profile>
         <profile id="37fa-53d6-39a0-a589" name="Goliath Truck" hidden="true" typeId="b900-0afb-e411-2cbb" typeName="Keywords">
@@ -1468,7 +1468,7 @@
       </profiles>
       <infoLinks>
         <infoLink id="1d3d-7887-d174-fae7" name="Open-topped" hidden="false" targetId="85e0-86c8-dc67-9be5" type="profile"/>
-        <infoLink id="cac8-3535-04c0-631d" name="Explodes (6+/6寸/D3)" hidden="false" targetId="7f8e-7d4a-13a0-e8ab" type="profile"/>
+        <infoLink id="cac8-3535-04c0-631d" name="爆炸 (6+/6寸/D3)" hidden="false" targetId="7f8e-7d4a-13a0-e8ab" type="profile"/>
         <infoLink id="dd9a-b9f2-27ac-8969" name="Rugged Construction" hidden="false" targetId="3611-cf4f-35bb-4f1d" type="profile"/>
         <infoLink id="d93e-87df-c0c4-fc14" name="Cult Ambush" hidden="false" targetId="e624-3023-b8b4-18fa" type="rule"/>
       </infoLinks>
@@ -1487,7 +1487,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d8e1-d880-18b2-e478" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="e5bd-f9af-4c74-a4e9" name="Twin Autocannon" hidden="false" collective="false" import="true" targetId="c86b-ee60-46b5-c901" type="selectionEntry">
+        <entryLink id="e5bd-f9af-4c74-a4e9" name="双联自动炮" hidden="false" collective="false" import="true" targetId="c86b-ee60-46b5-c901" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="efeb-5f04-8c7a-3134" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a91b-b250-03c1-be5c" type="max"/>
@@ -1556,7 +1556,7 @@
             </profile>
           </profiles>
           <selectionEntryGroups>
-            <selectionEntryGroup id="dd2b-f7dd-fdff-0d15" name="Metamorph Weapons" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="dd2b-f7dd-fdff-0d15" name="Metamorph 武器" hidden="false" collective="false" import="true">
               <modifiers>
                 <modifier type="decrement" field="0d52-ec28-944f-5da1" value="1">
                   <conditions>
@@ -1630,9 +1630,9 @@
                     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="4559-ce33-7e63-6511" name="Hand Flamer" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="4559-ce33-7e63-6511" name="Hand 喷火器" hidden="false" collective="false" import="true" type="upgrade">
                   <infoLinks>
-                    <infoLink id="97dc-8135-5a02-e1f2" name="Hand Flamer" hidden="false" targetId="4e9a-9741-11e8-945d" type="profile"/>
+                    <infoLink id="97dc-8135-5a02-e1f2" name="Hand 喷火器" hidden="false" targetId="4e9a-9741-11e8-945d" type="profile"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="1.0"/>
@@ -1678,7 +1678,7 @@
             </profile>
           </profiles>
           <selectionEntryGroups>
-            <selectionEntryGroup id="7421-1c6b-3e6f-8bf0" name="Metamorph Weapons" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="7421-1c6b-3e6f-8bf0" name="Metamorph 武器" hidden="false" collective="false" import="true">
               <modifiers>
                 <modifier type="decrement" field="ca8f-7e88-6199-5fd5" value="1">
                   <conditions>
@@ -1752,9 +1752,9 @@
                     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="d97a-feb0-dc87-95d2" name="Hand Flamer" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="d97a-feb0-dc87-95d2" name="Hand 喷火器" hidden="false" collective="false" import="true" type="upgrade">
                   <infoLinks>
-                    <infoLink id="c396-5c98-3ee4-205c" name="Hand Flamer" hidden="false" targetId="4e9a-9741-11e8-945d" type="profile"/>
+                    <infoLink id="c396-5c98-3ee4-205c" name="Hand 喷火器" hidden="false" targetId="4e9a-9741-11e8-945d" type="profile"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="1.0"/>
@@ -1831,28 +1831,28 @@
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+/5++</characteristic>
           </characteristics>
         </profile>
-        <profile id="5851-ba40-e2d6-0a73" name="Patriarch" hidden="false" typeId="bc97-dea9-9e88-bb7d" typeName="Psyker">
+        <profile id="5851-ba40-e2d6-0a73" name="Patriarch" hidden="false" typeId="bc97-dea9-9e88-bb7d" typeName="灵能者">
           <characteristics>
             <characteristic name="Cast" typeId="5afb-9914-904b-d3b3">1</characteristic>
             <characteristic name="Deny" typeId="b5ac-9c20-5d5a-6f9b">1</characteristic>
-            <characteristic name="Powers Known" typeId="69d7-b45e-00a2-7e46">Smite + 2 Broodmind</characteristic>
+            <characteristic name="Powers Known" typeId="69d7-b45e-00a2-7e46">惩击 + 2 Broodmind</characteristic>
             <characteristic name="Other" typeId="c2e2-f115-0003-5d7b">-</characteristic>
           </characteristics>
         </profile>
         <profile id="bebb-7325-a6aa-8614" name="Brood Telepathy" publicationId="83b2-e602-pubN65537" page="80" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">命中骰+1 for attacks made by &lt;CULT&gt; GENESTEALER units in the 肉搏阶段 whilst they are 范围内 6寸 of of any 友方 &lt;CULT&gt; PATRIARCH models.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">命中骰+1 for attacks made by &lt;CULT&gt; GENESTEALER units in the 肉搏阶段 whilst they are 范围内 6寸 of of any 友方 &lt;CULT&gt; PATRIARCH 模型.</characteristic>
           </characteristics>
         </profile>
         <profile id="29ee-79d3-646f-83b8" name="Living Idol" publicationId="83b2-e602-pubN65537" page="80" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">&lt;CULT&gt; and BROOD BROTHERS units automatically pass 士气测试 whilst they are 范围内 6寸 of any 友方 &lt;CULT&gt; PATRIARCH models.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">&lt;CULT&gt; and BROOD BROTHERS units automatically pass 士气测试 whilst they are 范围内 6寸 of any 友方 &lt;CULT&gt; PATRIARCH 模型.</characteristic>
           </characteristics>
         </profile>
         <profile id="3ec1-e6a3-0e72-9322" name="Patriarch" hidden="true" typeId="b900-0afb-e411-2cbb" typeName="Keywords">
           <characteristics>
             <characteristic name="Keywords (Faction)" typeId="6b92-2d97-5144-62bc">泰伦, Genestealer Cults, &lt;Cult&gt;</characteristic>
-            <characteristic name="Keywords (Basic)" typeId="ce6c-4765-4bb8-bd49">Infantry, Genestealer, Character, Psyker, Patriarch</characteristic>
+            <characteristic name="Keywords (Basic)" typeId="ce6c-4765-4bb8-bd49">Infantry, Genestealer, Character, 灵能者, Patriarch</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1898,7 +1898,7 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a014-9920-6870-76c9" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="1774-5854-fb0b-3925" name="Psychic Powers" hidden="false" collective="false" import="true" targetId="3160-b9d2-66a2-3a30" type="selectionEntryGroup">
+        <entryLink id="1774-5854-fb0b-3925" name="灵能" hidden="false" collective="false" import="true" targetId="3160-b9d2-66a2-3a30" type="selectionEntryGroup">
           <modifiers>
             <modifier type="increment" field="f805-9671-abe9-a1c5" value="1">
               <conditions>
@@ -2065,7 +2065,7 @@
       <profiles>
         <profile id="c59a-8f72-2a16-738e" name="Flurry of Claws" publicationId="83b2-e602-pubN65537" page="89" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the Attacks characteristic of models in 这个单位 whilst it contains 10 or more models.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the Attacks characteristic of models in 这个单位 whilst it contains 10 or more 模型.</characteristic>
           </characteristics>
         </profile>
         <profile id="0988-c4bd-da75-3399" name="Purestrain Genestealers" hidden="true" typeId="b900-0afb-e411-2cbb" typeName="Keywords">
@@ -2277,9 +2277,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4f48-c2bf-69ad-157f" name="Autocannon" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="4f48-c2bf-69ad-157f" name="自动炮" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="a393-16f0-7842-1b6e" name="Autocannon" hidden="false" targetId="fa99-0671-b31a-22d7" type="profile"/>
+        <infoLink id="a393-16f0-7842-1b6e" name="自动炮" hidden="false" targetId="fa99-0671-b31a-22d7" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="10.0"/>
@@ -2367,9 +2367,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0519-24af-3679-8f8f" name="Exterminator Autocannon" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="0519-24af-3679-8f8f" name="Exterminator 自动炮" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="dca1-6519-f330-ebe6" name="Exterminator Autocannon" hidden="false" targetId="ff2d-8509-aca0-8a5b" type="profile"/>
+        <infoLink id="dca1-6519-f330-ebe6" name="Exterminator 自动炮" hidden="false" targetId="ff2d-8509-aca0-8a5b" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="17.0"/>
@@ -2377,9 +2377,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1a2d-dbc0-3f7b-bef1" name="Flamer" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="1a2d-dbc0-3f7b-bef1" name="喷火器" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="3f4d-0131-3de2-c558" name="Flamer" hidden="false" targetId="cdc3-3459-a28c-a9cf" type="profile"/>
+        <infoLink id="3f4d-0131-3de2-c558" name="喷火器" hidden="false" targetId="cdc3-3459-a28c-a9cf" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="6.0"/>
@@ -2398,9 +2398,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="18d6-e1b1-ab81-23cb" name="Hand Flamer" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="18d6-e1b1-ab81-23cb" name="Hand 喷火器" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="d39e-619f-0192-d4d3" name="Hand Flamer" hidden="false" targetId="4e9a-9741-11e8-945d" type="profile"/>
+        <infoLink id="d39e-619f-0192-d4d3" name="Hand 喷火器" hidden="false" targetId="4e9a-9741-11e8-945d" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="1.0"/>
@@ -2408,9 +2408,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="778f-017e-aa20-74c1" name="Heavy Bolter" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="778f-017e-aa20-74c1" name="重爆弹" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="ee55-6999-bb29-0096" name="Heavy bolter" hidden="false" targetId="e2b0-b9f1-6c38-584c" type="profile"/>
+        <infoLink id="ee55-6999-bb29-0096" name="重爆弹" hidden="false" targetId="e2b0-b9f1-6c38-584c" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="8.0"/>
@@ -2459,9 +2459,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="799b-3424-af4c-0958" name="Hunter-killer Missile" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="799b-3424-af4c-0958" name="猎杀导弹" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="2917-0124-2346-27d7" name="Hunter-killer missile" hidden="false" targetId="e2a9-e8fc-3a6b-2eec" type="profile"/>
+        <infoLink id="2917-0124-2346-27d7" name="猎杀导弹" hidden="false" targetId="e2a9-e8fc-3a6b-2eec" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="6.0"/>
@@ -2469,9 +2469,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="db1e-7ae4-bd03-21ca" name="Lascannon" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="db1e-7ae4-bd03-21ca" name="激光炮" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="5ae1-716d-1a55-9bb7" name="Lascannon" hidden="false" targetId="f14a-07e5-5465-69cf" type="profile"/>
+        <infoLink id="5ae1-716d-1a55-9bb7" name="激光炮" hidden="false" targetId="f14a-07e5-5465-69cf" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="20.0"/>
@@ -2519,16 +2519,16 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="eb20-7e8b-4806-b84e" name="Missile Launcher" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="eb20-7e8b-4806-b84e" name="导弹发射器" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="87de-da36-7a82-6702" name="Missile launcher, Frag missile" hidden="false" targetId="603d-3e82-38f6-c5c3" type="profile">
+        <infoLink id="87de-da36-7a82-6702" name="导弹发射器-破片导弹" hidden="false" targetId="603d-3e82-38f6-c5c3" type="profile">
           <modifiers>
-            <modifier type="set" field="name" value="Missile Launcher (Frag)"/>
+            <modifier type="set" field="name" value="导弹发射器 (Frag)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="8db8-f20e-66e2-15b2" name="Missile launcher, Krak missile" hidden="false" targetId="8161-3b0e-8048-0e83" type="profile">
+        <infoLink id="8db8-f20e-66e2-15b2" name="导弹发射器-穿甲导弹" hidden="false" targetId="8161-3b0e-8048-0e83" type="profile">
           <modifiers>
-            <modifier type="set" field="name" value="Missile Launcher (Krak)"/>
+            <modifier type="set" field="name" value="导弹发射器 (Krak)"/>
           </modifiers>
         </infoLink>
       </infoLinks>
@@ -2558,9 +2558,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6fe0-23b2-a20c-1f37" name="Multi-melta" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="6fe0-23b2-a20c-1f37" name="多管热熔" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="2472-bbe8-13e9-3010" name="Multi-melta" hidden="false" targetId="1768-d7b9-37ba-f3bf" type="profile"/>
+        <infoLink id="2472-bbe8-13e9-3010" name="多管热熔" hidden="false" targetId="1768-d7b9-37ba-f3bf" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="15.0"/>
@@ -2610,9 +2610,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c86b-ee60-46b5-c901" name="Twin Autocannon" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="c86b-ee60-46b5-c901" name="双联自动炮" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="a294-ebf6-fb11-0f8e" name="Twin Autocannon" hidden="false" targetId="805d-8596-25f8-b51e" type="profile"/>
+        <infoLink id="a294-ebf6-fb11-0f8e" name="双联自动炮" hidden="false" targetId="805d-8596-25f8-b51e" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="20.0"/>
@@ -2745,11 +2745,11 @@
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">5+</characteristic>
           </characteristics>
         </profile>
-        <profile id="2d5d-3026-7acf-b936" name="Magus" hidden="false" typeId="bc97-dea9-9e88-bb7d" typeName="Psyker">
+        <profile id="2d5d-3026-7acf-b936" name="Magus" hidden="false" typeId="bc97-dea9-9e88-bb7d" typeName="灵能者">
           <characteristics>
             <characteristic name="Cast" typeId="5afb-9914-904b-d3b3">1</characteristic>
             <characteristic name="Deny" typeId="b5ac-9c20-5d5a-6f9b">1</characteristic>
-            <characteristic name="Powers Known" typeId="69d7-b45e-00a2-7e46">Smite + 2 Broodmind</characteristic>
+            <characteristic name="Powers Known" typeId="69d7-b45e-00a2-7e46">惩击 + 2 Broodmind</characteristic>
             <characteristic name="Other" typeId="c2e2-f115-0003-5d7b">-</characteristic>
           </characteristics>
         </profile>
@@ -2761,7 +2761,7 @@
         <profile id="f91b-d383-0475-bbd3" name="Magus" hidden="true" typeId="b900-0afb-e411-2cbb" typeName="Keywords">
           <characteristics>
             <characteristic name="Keywords (Faction)" typeId="6b92-2d97-5144-62bc">泰伦, Genestealer Cults, &lt;Cult&gt;</characteristic>
-            <characteristic name="Keywords (Basic)" typeId="ce6c-4765-4bb8-bd49">Infantry, Character, Psyker, Magus</characteristic>
+            <characteristic name="Keywords (Basic)" typeId="ce6c-4765-4bb8-bd49">Infantry, Character, 灵能者, Magus</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2827,7 +2827,7 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="794a-b16a-1e27-855f" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="ad9e-d51b-dc28-a395" name="Psychic Powers" hidden="false" collective="false" import="true" targetId="3160-b9d2-66a2-3a30" type="selectionEntryGroup">
+        <entryLink id="ad9e-d51b-dc28-a395" name="灵能" hidden="false" collective="false" import="true" targetId="3160-b9d2-66a2-3a30" type="selectionEntryGroup">
           <modifiers>
             <modifier type="increment" field="87ff-67ef-0021-16d5" value="1">
               <conditions>
@@ -2910,7 +2910,7 @@
             </profile>
           </profiles>
           <selectionEntryGroups>
-            <selectionEntryGroup id="e077-998c-801b-3936" name="Weapons" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="e077-998c-801b-3936" name="武器" hidden="false" collective="false" import="true">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7cc4-7588-fd56-c1ae" type="min"/>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8bb-a88f-78bc-b6c7" type="max"/>
@@ -2944,7 +2944,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a65d-0bea-a756-9be7" type="max"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="02bf-df4c-c56c-2a05" name="Melee Weapons" hidden="false" collective="false" import="true" targetId="4c27-8bdf-9361-d353" type="selectionEntryGroup">
+                <entryLink id="02bf-df4c-c56c-2a05" name="Melee 武器" hidden="false" collective="false" import="true" targetId="4c27-8bdf-9361-d353" type="selectionEntryGroup">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49c0-2db9-a628-d214" type="max"/>
                   </constraints>
@@ -3253,12 +3253,12 @@
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
-            <selectionEntryGroup id="9c78-bd8e-89d1-0dd4" name="Special Weapons" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="9c78-bd8e-89d1-0dd4" name="Special 武器" hidden="false" collective="false" import="true">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8be9-3787-2e2d-8576" type="max"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="8dc7-c32b-5058-fbab" name="Neophyte Hybrid (Flamer)" hidden="false" collective="false" import="true" type="model">
+                <selectionEntry id="8dc7-c32b-5058-fbab" name="Neophyte Hybrid (喷火器)" hidden="false" collective="false" import="true" type="model">
                   <constraints>
                     <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="63e3-f21e-26b7-36ce" type="max"/>
                   </constraints>
@@ -3290,7 +3290,7 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="48a7-9044-1545-3950" type="max"/>
                       </constraints>
                     </entryLink>
-                    <entryLink id="ed59-dd9e-09b4-c1af" name="Flamer" hidden="false" collective="false" import="true" targetId="9a03-890a-9d08-a7d5" type="selectionEntry">
+                    <entryLink id="ed59-dd9e-09b4-c1af" name="喷火器" hidden="false" collective="false" import="true" targetId="9a03-890a-9d08-a7d5" type="selectionEntry">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bcf9-1c69-ec27-e0d1" type="max"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="691c-af83-4b48-e31d" type="min"/>
@@ -3478,9 +3478,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ef3b-5329-0708-d49c" name="[Reference] Power: Smite" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="ef3b-5329-0708-d49c" name="[Reference] Power: 惩击" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="db40-fe0a-bb61-424b" name="0. Smite" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+        <profile id="db40-fe0a-bb61-424b" name="0. 惩击" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
           <characteristics>
             <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">5</characteristic>
             <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
@@ -3760,9 +3760,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c7b0-516a-f031-e4e9" name="Hand Flamer" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="c7b0-516a-f031-e4e9" name="Hand 喷火器" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="a4b5-7258-260a-bd9c" name="Hand Flamer" hidden="false" targetId="4e9a-9741-11e8-945d" type="profile"/>
+        <infoLink id="a4b5-7258-260a-bd9c" name="Hand 喷火器" hidden="false" targetId="4e9a-9741-11e8-945d" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="1.0"/>
@@ -4022,7 +4022,7 @@
               <profiles>
                 <profile id="9be5-af11-41f2-278e" name="Devoted Zealots" publicationId="83b2-e602-pubN65537" page="109" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投命中骰 for attacks made with melee weapons by a unit with this Cult Creed in a turn in which it made a 冲锋移动, was charged or performed a Heroic Intervention.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投命中骰 for attacks made with melee 武器 by a unit with this Cult Creed in a turn in which it made a 冲锋移动, was charged or performed a Heroic Intervention.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4050,7 +4050,7 @@
               <profiles>
                 <profile id="1720-3c97-54ce-fe51" name="Cyborgised Hybrids" publicationId="83b2-e602-pubN65537" page="109" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">All models with this Cult Creed have a 6+ 特殊保护. Models with this Cult Creed that already have an 特殊保护 instead improve their 特殊保护 by 1 (to a maximum of 3+). 此外, INFANTRY models with this Cult Creed do not suffer the penalty to their hit rolls for moving and shooting 重型武器.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">All models with this Cult Creed have a 6+ 特殊保护. Models with this Cult Creed that already have an 特殊保护 instead improve their 特殊保护 by 1 (to a maximum of 3+). 此外, 步兵模型 with this Cult Creed do not suffer the penalty to their hit rolls for moving and shooting 重型武器.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4064,7 +4064,7 @@
               <profiles>
                 <profile id="4036-4164-ef52-ddbe" name="Nomadic Survivalists" publicationId="83b2-e602-pubN65537" page="109" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When making saving throws (excluding invulnerable saving throws) for a model with this Cult Creed, add 1 to the result if the weapon being used to make the attack has an Armour Penetration characteristic of 0 or -1. 此外, BIKER models with this Cult Creed do not suffer the penalty to their hit rolls for moving and shooting 重型武器 or for Advancing and shooting Assault weapons.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When making saving throws (excluding invulnerable saving throws) for a model with this Cult Creed, add 1 to the result if the weapon being used to make the attack has an Armour Penetration characteristic of 0 or -1. 此外, BIKER models with this Cult Creed do not suffer the penalty to their hit rolls for moving and shooting 重型武器 or for Advancing and shooting Assault 武器.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4240,12 +4240,12 @@
                 <cost name="pts" typeId="points" value="4.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="b66b-2cc7-7b17-5486" name="Brood Brothers Weapons Team" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="b66b-2cc7-7b17-5486" name="Brood Brothers 武器 Team" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a56e-0833-5de0-51ad" type="max"/>
               </constraints>
               <profiles>
-                <profile id="6427-c0a8-52db-176a" name="Brood Brothers Weapons Team" publicationId="83b2-e602-pubN65537" page="86" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+                <profile id="6427-c0a8-52db-176a" name="Brood Brothers 武器 Team" publicationId="83b2-e602-pubN65537" page="86" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
                   <characteristics>
                     <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6寸</characteristic>
                     <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
@@ -4332,12 +4332,12 @@
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
-            <selectionEntryGroup id="47f3-4a53-b6cb-080d" name="Special Weapons" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="47f3-4a53-b6cb-080d" name="Special 武器" hidden="false" collective="false" import="true">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="026f-a67f-ffe1-0212" type="max"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="986a-1db6-b62d-1cd2" name="Brood Brother (Flamer)" hidden="false" collective="false" import="true" type="model">
+                <selectionEntry id="986a-1db6-b62d-1cd2" name="Brood Brother (喷火器)" hidden="false" collective="false" import="true" type="model">
                   <constraints>
                     <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d00-e029-7052-43ca" type="max"/>
                   </constraints>
@@ -4363,7 +4363,7 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02e6-7e82-4b06-884b" type="max"/>
                       </constraints>
                     </entryLink>
-                    <entryLink id="402b-94c2-a8d2-cef6" name="Flamer" hidden="false" collective="false" import="true" targetId="9a03-890a-9d08-a7d5" type="selectionEntry">
+                    <entryLink id="402b-94c2-a8d2-cef6" name="喷火器" hidden="false" collective="false" import="true" targetId="9a03-890a-9d08-a7d5" type="selectionEntry">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be37-81fc-20a0-2b56" type="min"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="812f-f36d-5e5b-e7fe" type="max"/>
@@ -4438,13 +4438,13 @@
         <categoryLink id="267f-d208-1eb4-a4e7" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="bd81-9b63-57ff-e444" name="Brood Brothers Weapons Team" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="bd81-9b63-57ff-e444" name="Brood Brothers 武器 Team" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b97-3751-ca63-78c4" type="min"/>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db05-75d1-4974-e477" type="max"/>
           </constraints>
           <profiles>
-            <profile id="90c1-e95c-170a-2d48" name="Brood Brothers Weapons Team" publicationId="83b2-e602-pubN65537" page="99" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+            <profile id="90c1-e95c-170a-2d48" name="Brood Brothers 武器 Team" publicationId="83b2-e602-pubN65537" page="99" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
               <characteristics>
                 <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6寸</characteristic>
                 <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
@@ -4465,11 +4465,11 @@
                 <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1902-e849-bc92-14d5" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="25cc-50c6-8519-293a" name="Autocannon" hidden="false" collective="false" import="true" targetId="4f48-c2bf-69ad-157f" type="selectionEntry"/>
-                <entryLink id="8b67-b754-2fd6-9a41" name="Heavy Bolter" hidden="false" collective="false" import="true" targetId="778f-017e-aa20-74c1" type="selectionEntry"/>
-                <entryLink id="9c1e-6bc4-04d5-564f" name="Lascannon" hidden="false" collective="false" import="true" targetId="db1e-7ae4-bd03-21ca" type="selectionEntry"/>
+                <entryLink id="25cc-50c6-8519-293a" name="自动炮" hidden="false" collective="false" import="true" targetId="4f48-c2bf-69ad-157f" type="selectionEntry"/>
+                <entryLink id="8b67-b754-2fd6-9a41" name="重爆弹" hidden="false" collective="false" import="true" targetId="778f-017e-aa20-74c1" type="selectionEntry"/>
+                <entryLink id="9c1e-6bc4-04d5-564f" name="激光炮" hidden="false" collective="false" import="true" targetId="db1e-7ae4-bd03-21ca" type="selectionEntry"/>
                 <entryLink id="96c6-ebd7-b612-9907" name="Mortar" hidden="false" collective="false" import="true" targetId="c8a9-b0ac-3f49-81a5" type="selectionEntry"/>
-                <entryLink id="7aa9-6d2c-cb28-84d7" name="Missile Launcher" hidden="false" collective="false" import="true" targetId="eb20-7e8b-4806-b84e" type="selectionEntry"/>
+                <entryLink id="7aa9-6d2c-cb28-84d7" name="导弹发射器" hidden="false" collective="false" import="true" targetId="eb20-7e8b-4806-b84e" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -4629,7 +4629,7 @@
                 </profile>
               </profiles>
               <selectionEntryGroups>
-                <selectionEntryGroup id="d419-9b3e-f3e7-21a3" name="Atalan Weapons" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="d419-9b3e-f3e7-21a3" name="Atalan 武器" hidden="false" collective="false" import="true">
                   <constraints>
                     <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b162-8a8e-ce25-88da" type="max"/>
                     <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d75e-b0e5-dca7-b0ed" type="min"/>
@@ -4727,7 +4727,7 @@
                 </profile>
               </profiles>
               <entryLinks>
-                <entryLink id="4a0b-fe61-ee5c-4ac4" name="Atalan Weapons" hidden="false" collective="false" import="true" targetId="a2d0-5987-eb12-3a52" type="selectionEntryGroup">
+                <entryLink id="4a0b-fe61-ee5c-4ac4" name="Atalan 武器" hidden="false" collective="false" import="true" targetId="a2d0-5987-eb12-3a52" type="selectionEntryGroup">
                   <constraints>
                     <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a355-51c2-281e-a8e5" type="min"/>
                     <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="85da-85dc-fcc3-51cd" type="max"/>
@@ -5380,7 +5380,7 @@
       <profiles>
         <profile id="4954-635e-e90e-81fe" name="Spotter" publicationId="83b2-e602-pubN65537" page="103" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If a model has a spotter, increase the Range characteristic of its ranged weapons by 6寸.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If a model has a spotter, increase the Range characteristic of its ranged 武器 by 6寸.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5414,7 +5414,7 @@
       </profiles>
       <infoLinks>
         <infoLink id="96d7-314f-6fbc-6dca" name="Cult Ambush" hidden="false" targetId="e624-3023-b8b4-18fa" type="rule"/>
-        <infoLink id="6ea9-666e-9d94-0d4b" name="Explodes (6+/3寸/1)" hidden="false" targetId="9420-2013-27d9-c8cd" type="profile"/>
+        <infoLink id="6ea9-666e-9d94-0d4b" name="爆炸 (6+/3寸/1)" hidden="false" targetId="9420-2013-27d9-c8cd" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="1204-d39b-fdb5-dc59" name="阵营: &lt;Cult&gt;" hidden="false" targetId="1117-30a3-a004-bdbd" primary="false"/>
@@ -5451,7 +5451,7 @@
               </constraints>
               <entryLinks>
                 <entryLink id="e03e-6e1d-4da6-fa7c" name="Heavy Mining Laser" hidden="false" collective="false" import="true" targetId="a8ce-45ce-ea8f-f22b" type="selectionEntry"/>
-                <entryLink id="a31b-969d-df0c-7b5e" name="Missile Launcher" hidden="false" collective="false" import="true" targetId="eb20-7e8b-4806-b84e" type="selectionEntry"/>
+                <entryLink id="a31b-969d-df0c-7b5e" name="导弹发射器" hidden="false" collective="false" import="true" targetId="eb20-7e8b-4806-b84e" type="selectionEntry"/>
                 <entryLink id="29ab-8b04-c42f-0768" name="Heavy Mortar" hidden="false" collective="false" import="true" targetId="603d-c311-7be1-d614" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
@@ -5525,7 +5525,7 @@
         </profile>
         <profile id="3fb9-3e7f-1903-c11f" name="Heroic Deeds, Heroic Inspiration" publicationId="83b2-e602-pubN65537" page="92" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 kills any 敌方模型 with its ranged weapons, then 直到阶段结束, after resolving its attacks, re-roll hit rolls of 1 for attacks made by 友方 &lt;CULT&gt; INFANTRY units whilst they are 范围内 6寸 of 这个模型.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 kills any 敌方模型 with its ranged 武器, then 直到阶段结束, after resolving its attacks, re-roll hit rolls of 1 for attacks made by 友方 &lt;CULT&gt; INFANTRY units whilst they are 范围内 6寸 of 这个模型.</characteristic>
           </characteristics>
         </profile>
         <profile id="8f2e-0862-7e82-f5db" name="Preternatural Senses" publicationId="83b2-e602-pubN65537" page="92" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -5595,9 +5595,9 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9a03-890a-9d08-a7d5" name="Flamer" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="9a03-890a-9d08-a7d5" name="喷火器" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="e060-35ba-6735-5806" name="Flamer" hidden="false" targetId="cdc3-3459-a28c-a9cf" type="profile"/>
+        <infoLink id="e060-35ba-6735-5806" name="喷火器" hidden="false" targetId="cdc3-3459-a28c-a9cf" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="6.0"/>
@@ -5659,7 +5659,7 @@
     </selectionEntry>
     <selectionEntry id="1c01-a716-69dd-00c2" name="Frag Grenades" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="3a41-5062-1940-0649" name="Frag Grenade" hidden="false" targetId="ef45-e91a-fd5d-020e" type="profile"/>
+        <infoLink id="3a41-5062-1940-0649" name="破片手雷" hidden="false" targetId="ef45-e91a-fd5d-020e" type="profile"/>
       </infoLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -5868,9 +5868,9 @@ If your opponent has the first turn, then none of their units can be set up or e
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="87b1-40a9-6106-ca5e" name="Special Weapons" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="87b1-40a9-6106-ca5e" name="Special 武器" hidden="false" collective="false" import="true">
       <entryLinks>
-        <entryLink id="9ad9-b08d-c0c3-d02f" name="Flamer" hidden="false" collective="false" import="true" targetId="1a2d-dbc0-3f7b-bef1" type="selectionEntry"/>
+        <entryLink id="9ad9-b08d-c0c3-d02f" name="喷火器" hidden="false" collective="false" import="true" targetId="1a2d-dbc0-3f7b-bef1" type="selectionEntry"/>
         <entryLink id="0021-a41f-377c-03e5" name="Grenade Launcher" hidden="false" collective="false" import="true" targetId="d3ee-98a3-8052-371e" type="selectionEntry"/>
         <entryLink id="5d57-36f2-6d71-ccdb" name="Webber" hidden="false" collective="false" import="true" targetId="205b-888d-82ab-665a" type="selectionEntry"/>
       </entryLinks>
@@ -5883,7 +5883,7 @@ If your opponent has the first turn, then none of their units can be set up or e
         <entryLink id="b3db-951f-6475-2a37" name="Autopistol" hidden="false" collective="false" import="true" targetId="0985-3683-24db-1b07" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="4c27-8bdf-9361-d353" name="Melee Weapons" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="4c27-8bdf-9361-d353" name="Melee 武器" hidden="false" collective="false" import="true">
       <entryLinks>
         <entryLink id="4954-7c4f-bb03-a90e" name="Chainsword" hidden="false" collective="false" import="true" targetId="cf05-7342-c11b-5e43" type="selectionEntry"/>
         <entryLink id="afc2-2816-505c-9b9d" name="Power Pick" hidden="false" collective="false" import="true" targetId="9ef9-9e00-e935-43d9" type="selectionEntry"/>
@@ -5891,7 +5891,7 @@ If your opponent has the first turn, then none of their units can be set up or e
         <entryLink id="bafc-6b70-e09f-0a26" name="Cultist Knife" hidden="false" collective="false" import="true" targetId="183e-a985-718e-26a5" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="ec93-7a8b-1a76-3f89" name="Heavy Mining Weapons" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="ec93-7a8b-1a76-3f89" name="Heavy Mining 武器" hidden="false" collective="false" import="true">
       <entryLinks>
         <entryLink id="e630-f3bf-5227-6ba8" name="Heavy Stubber" hidden="false" collective="false" import="true" targetId="6ebe-58fe-449f-121d" type="selectionEntry"/>
         <entryLink id="79b9-c97e-682a-554d" name="Seismic Cannon" hidden="false" collective="false" import="true" targetId="a8b1-6a95-53f9-ef1a" type="selectionEntry"/>
@@ -5900,14 +5900,14 @@ If your opponent has the first turn, then none of their units can be set up or e
     </selectionEntryGroup>
     <selectionEntryGroup id="3d95-27c8-2032-bd53" name="重型武器" hidden="false" collective="false" import="true">
       <entryLinks>
-        <entryLink id="0a12-6a70-b541-8a03" name="Autocannon" hidden="false" collective="false" import="true" targetId="4f48-c2bf-69ad-157f" type="selectionEntry"/>
-        <entryLink id="956d-c2be-6c96-e41e" name="Heavy Bolter" hidden="false" collective="false" import="true" targetId="778f-017e-aa20-74c1" type="selectionEntry"/>
-        <entryLink id="163b-3553-d1ac-592a" name="Lascannon" hidden="false" collective="false" import="true" targetId="db1e-7ae4-bd03-21ca" type="selectionEntry"/>
+        <entryLink id="0a12-6a70-b541-8a03" name="自动炮" hidden="false" collective="false" import="true" targetId="4f48-c2bf-69ad-157f" type="selectionEntry"/>
+        <entryLink id="956d-c2be-6c96-e41e" name="重爆弹" hidden="false" collective="false" import="true" targetId="778f-017e-aa20-74c1" type="selectionEntry"/>
+        <entryLink id="163b-3553-d1ac-592a" name="激光炮" hidden="false" collective="false" import="true" targetId="db1e-7ae4-bd03-21ca" type="selectionEntry"/>
         <entryLink id="34c0-0eeb-959e-8923" name="Mortar" hidden="false" collective="false" import="true" targetId="c8a9-b0ac-3f49-81a5" type="selectionEntry"/>
-        <entryLink id="bde0-4240-1c0b-481b" name="Missile Launcher" hidden="false" collective="false" import="true" targetId="eb20-7e8b-4806-b84e" type="selectionEntry"/>
+        <entryLink id="bde0-4240-1c0b-481b" name="导弹发射器" hidden="false" collective="false" import="true" targetId="eb20-7e8b-4806-b84e" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="3160-b9d2-66a2-3a30" name="Psychic Powers" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="3160-b9d2-66a2-3a30" name="灵能" hidden="false" collective="false" import="true">
       <entryLinks>
         <entryLink id="4980-8a06-f505-56fd" name="1. Mass Hypnosis" hidden="false" collective="false" import="true" targetId="4ba9-f0ac-394e-31ce" type="selectionEntry"/>
         <entryLink id="c848-a420-c163-867d" name="6. Might From Beyond" hidden="false" collective="false" import="true" targetId="e6fc-86fe-42c4-f3c1" type="selectionEntry"/>
@@ -6027,7 +6027,7 @@ If your opponent has the first turn, then none of their units can be set up or e
           <profiles>
             <profile id="ad6a-4661-32c5-8cfc" name="Vial of the Grandsire&apos;s Blood" publicationId="83b2-e602-pubN88803" page="187" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the LD characteristic of 友方 GENESTEALER CULTS units 范围内 6寸 of the bearer. 此外, once per battle, at the start of the 肉搏阶段, you can pick a GENESTEALER CULTS INFANTRY model 范围内 3寸 of the bearer. Add 2 to that model&apos;s Attacks and Strength characteristics until the end of that phase.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the LD characteristic of 友方 GENESTEALER CULTS units 范围内 6寸 of the bearer. 此外, once per battle, at the start of the 肉搏阶段, you can pick a GENESTEALER CULTS 步兵模型 范围内 3寸 of the bearer. Add 2 to that model&apos;s Attacks and Strength characteristics until the end of that phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6078,7 +6078,7 @@ If your opponent has the first turn, then none of their units can be set up or e
           <profiles>
             <profile id="758b-441c-95eb-008d" name="Amulet of the Voidwyrm" publicationId="83b2-e602-pubN65537" page="116" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to saving throws made for the bearer against ranged weapons. 此外, 敌方单位 cannot fire 坚守射击 at the bearer&apos;s unit.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to saving throws made for the bearer against ranged 武器. 此外, 敌方单位 cannot fire 坚守射击 at the bearer&apos;s unit.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6095,7 +6095,7 @@ If your opponent has the first turn, then none of their units can be set up or e
           <profiles>
             <profile id="212f-dba8-4e91-d35f" name="Scourge of Distant Stars" publicationId="83b2-e602-pubN65537" page="116" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">命中骰+1 for attacks made with the bearer&apos;s melee weapons. 此外, each time an 敌方模型 targets the bearer with a 肉搏武器 and your opponent rolls an unmodified hit roll of 1, the attacker&apos;s unit 遭受 1 致命伤 after all of its attacks have been resolved.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">命中骰+1 for attacks made with the bearer&apos;s melee 武器. 此外, each time an 敌方模型 targets the bearer with a 肉搏武器 and your opponent rolls an unmodified hit roll of 1, the attacker&apos;s unit 遭受 1 致命伤 after all of its attacks have been resolved.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6310,7 +6310,7 @@ If your opponent has the first turn, then none of their units can be set up or e
           <profiles>
             <profile id="b986-5278-5242-5a35" name="Vockor&apos;s Talisman" publicationId="83b2-e602-pubN65537" page="117" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">HIVECULT only. 可以重投命中骰 for attacks made with the bearer&apos;s melee weapons when targeting 敌方 CHARACTERS. 此外, each time you roll a wound roll of 6+ for an attack with one of the bearer&apos;s melee weapons, that attack inflicts 1 致命伤 on the target 此外 to any normal damage, unless it is targeting a VEHICLE or TITANIC unit.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">HIVECULT only. 可以重投命中骰 for attacks made with the bearer&apos;s melee 武器 when targeting 敌方 CHARACTERS. 此外, each time you roll a wound roll of 6+ for an attack with one of the bearer&apos;s melee 武器, that attack inflicts 1 致命伤 on the target 此外 to any normal damage, unless it is targeting a VEHICLE or TITANIC unit.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6443,7 +6443,7 @@ If your opponent has the first turn, then none of their units can be set up or e
           <profiles>
             <profile id="e969-4957-1ff2-470b" name="Reliquary of Saint Tenndarc" publicationId="83b2-e602-pubN65537" page="117" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">PAUPER PRINCES only. 友方 PAUPER PRINCES units automatically pass 士气测试 whilst they are 范围内 6寸 of the bearer. 此外, 投掷1个D6 each time a PAUPER PRINCES INFANTRY or BIKER model is destroyed whilst it is 范围内 6寸 of the bearer, before removing that model from the battlefield. On a 4+ that model can either shoot with one of its ranged weapons as if it were your 射击阶段, or can make a single melee attack with a 肉搏武器 as if it were the 肉搏阶段.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">PAUPER PRINCES only. 友方 PAUPER PRINCES units automatically pass 士气测试 whilst they are 范围内 6寸 of the bearer. 此外, 投掷1个D6 each time a PAUPER PRINCES INFANTRY or BIKER model is destroyed whilst it is 范围内 6寸 of the bearer, before removing that model from the battlefield. On a 4+ that model can either shoot with one of its ranged 武器 as if it were your 射击阶段, or can make a single melee attack with a 肉搏武器 as if it were the 肉搏阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6798,7 +6798,7 @@ If your opponent has the first turn, then none of their units can be set up or e
               <profiles>
                 <profile id="2500-704f-8eb0-0271" name="Bio-alchemist" publicationId="83b2-e602-pubN65537" page="115" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Increase the Damage characteristic of weapons (other than Sacred Relics of the Cult or weapons modified by Sacred Relics of the Cult) used by your 主将 by 1.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Increase the Damage characteristic of 武器 (other than Sacred Relics of the Cult or 武器 modified by Sacred Relics of the Cult) used by your 主将 by 1.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -6842,7 +6842,7 @@ If your opponent has the first turn, then none of their units can be set up or e
               <profiles>
                 <profile id="52f8-984f-0ee6-f84b" name="Hivelord" publicationId="83b2-e602-pubN65537" page="115" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Re-roll hit rolls of 1 for attacks made with ranged weapons by 友方 HIVECULT units whilst they are 范围内 6寸 of your 主将.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Re-roll hit rolls of 1 for attacks made with ranged 武器 by 友方 HIVECULT units whilst they are 范围内 6寸 of your 主将.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -6971,7 +6971,7 @@ If your opponent has the first turn, then none of their units can be set up or e
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="a2d0-5987-eb12-3a52" name="Atalan Weapons" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="a2d0-5987-eb12-3a52" name="Atalan 武器" hidden="false" collective="false" import="true">
       <entryLinks>
         <entryLink id="1e1f-8b86-e44b-dfc2" name="自动枪" hidden="false" collective="false" import="true" targetId="5752-d165-5e03-d38c" type="selectionEntry">
           <modifiers>
@@ -7069,7 +7069,7 @@ When you set up a unit in ambush, place one ambush marker anywhere on the battle
 
 In matched play, units set up in ambush using this rule count as being set up on the battlefield for the purposes of Tactical Reserves.
 
-For ambush markers, see Codex: Genestealer Cults p79.</description>
+For ambush markers, see 圣典: Genestealer Cults p79.</description>
     </rule>
     <rule id="83cc-a64d-d8bd-7a4a" name="Unquestioning Loyalty" publicationId="83b2-e602-pubN65537" page="75" hidden="false">
       <description>Each time you fail a saving throw for a &lt;CULT&gt; CHARACTER model, and each time a &lt;CULT&gt; CHARACTER 遭受 1点致命伤, before allocating damage check to see if it is 范围内 3寸 of any &lt;CULT&gt; or BROOD BROTHERS units with this ability. If it is, 可以选择1个 of those units and 投掷1个D6; on a 4+ you do not inflict any damage on the character, but one model in the selected unit (your choice) is slain. Otherwise, the character 遭受 damage as normal.</description>
@@ -7081,11 +7081,11 @@ For ambush markers, see Codex: Genestealer Cults p79.</description>
 
 If your army is Battle-forged, you can only include one ASTRA MILITARUM Detachment (one in which every unit has the ASTRA MILITARUM keyword) in your army for each GENESTEALER CULTS Detachment in that army. You cannot include ASTRA MILITARUM named characters in these Detachments, and these Detachments cannot be Specialist Detachments. These ASTRA MILITARUM Detachments are then known as BROOD BROTHERS Detachments, and every unit in them that has the &lt;REGIMENT&gt; or MILITARUM TEMPESTUS keyword must replace it in every instance on its datasheet with BROOD BROTHERS (if a unit does not have either of these keywords, it simply gains the BROOD BROTHERS keyword).
 
-BROOD BROTHERS Detachments do not gain any of the Detachment abilities listed in Codex: Astra Militarum, such as Regimental Doctrines, nor can they use any regiment-specific Stratagems, Orders etc. Furthermore, INFANTRY models in BROOD BROTHERS Detachments increase their LD characteristic by 1 and they gain the Unquestioning Loyalty ability. Units in BROOD BROTHERS Detachments do not gain the Cult Ambush ability. Your 主将 cannot be from a BROOD BROTHERS Detachment, and you cannot give any Relics to BROOD BROTHERS CHARACTERS. 此外, the Command Benefits of all BROOD BROTHERS Detachments included in your army in this way are halved (rounding up). This reflects that such Detachments are not a Genestealer Cult&apos;s primary fighting force, and the acquisition of such military assets is costly in terms of resource. The command benefits of Auxiliary Support Detachments are unaffected.
+BROOD BROTHERS Detachments do not gain any of the Detachment abilities listed in 圣典: Astra Militarum, such as Regimental Doctrines, nor can they use any regiment-specific Stratagems, Orders etc. Furthermore, 步兵模型 in BROOD BROTHERS Detachments increase their LD characteristic by 1 and they gain the Unquestioning Loyalty ability. Units in BROOD BROTHERS Detachments do not gain the Cult Ambush ability. Your 主将 cannot be from a BROOD BROTHERS Detachment, and you cannot give any Relics to BROOD BROTHERS CHARACTERS. 此外, the Command Benefits of all BROOD BROTHERS Detachments included in your army in this way are halved (rounding up). This reflects that such Detachments are not a Genestealer Cult&apos;s primary fighting force, and the acquisition of such military assets is costly in terms of resource. The command benefits of Auxiliary Support Detachments are unaffected.
 
-BROOD BROTHERS units that have the Voice of Command or Tank Orders abilities (see Codex: Astra Militarum) cannot issue orders to any unit that has the GENSTEALER CULTS Faction keyword, nor can they issue orders to units that they would not have been able to issue orders to before they gained the BROOD BROTHERS keyword (e.g. a BROOD BROTHERS COMPANY COMMANDER cannot issue orders to a BROOD BROTHERS OGRYN unit or to a BROOD BROTHERS TEMPESTUS SCIONS unit).
+BROOD BROTHERS units that have the Voice of Command or Tank Orders abilities (see 圣典: Astra Militarum) cannot issue orders to any unit that has the GENSTEALER CULTS Faction keyword, nor can they issue orders to units that they would not have been able to issue orders to before they gained the BROOD BROTHERS keyword (e.g. a BROOD BROTHERS COMPANY COMMANDER cannot issue orders to a BROOD BROTHERS OGRYN unit or to a BROOD BROTHERS TEMPESTUS SCIONS unit).
 
-BROOD BROTHERS TAUROX PRIMES can only transport 10 BROOD BROTHERS OFFICIO PREFECTUS INFANTRY models or 10 INFANTRY models that replaced their MILITARUM TEMPESTUS keyword with BROOD BROTHERS.</description>
+BROOD BROTHERS TAUROX PRIMES can only transport 10 BROOD BROTHERS OFFICIO PREFECTUS 步兵模型 or 10 步兵模型 that replaced their MILITARUM TEMPESTUS keyword with BROOD BROTHERS.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -7139,7 +7139,7 @@ BROOD BROTHERS TAUROX PRIMES can only transport 10 BROOD BROTHERS OFFICIO PREFEC
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Units in cover do not receive any bonus to their saving throws against wounds caused by 这个武器.</characteristic>
       </characteristics>
     </profile>
-    <profile id="ff2d-8509-aca0-8a5b" name="Exterminator Autocannon" publicationId="83b2-e602-pubN65537" page="102" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="ff2d-8509-aca0-8a5b" name="Exterminator 自动炮" publicationId="83b2-e602-pubN65537" page="102" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48寸</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 4</characteristic>
@@ -7169,7 +7169,7 @@ BROOD BROTHERS TAUROX PRIMES can only transport 10 BROOD BROTHERS OFFICIO PREFEC
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="4e9a-9741-11e8-945d" name="Hand Flamer" publicationId="83b2-e602-pubN65537" page="102" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="4e9a-9741-11e8-945d" name="Hand 喷火器" publicationId="83b2-e602-pubN65537" page="102" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6寸</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手枪 D6</characteristic>
@@ -7269,7 +7269,7 @@ BROOD BROTHERS TAUROX PRIMES can only transport 10 BROOD BROTHERS OFFICIO PREFEC
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">All wound rolls of 6+ have an AP of -4.</characteristic>
       </characteristics>
     </profile>
-    <profile id="805d-8596-25f8-b51e" name="Twin Autocannon" publicationId="83b2-e602-pubN65537" page="103" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="805d-8596-25f8-b51e" name="双联自动炮" publicationId="83b2-e602-pubN65537" page="103" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48寸</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 4</characteristic>
@@ -7494,19 +7494,19 @@ BROOD BROTHERS TAUROX PRIMES can only transport 10 BROOD BROTHERS OFFICIO PREFEC
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">投掷1个D6 each time 这个模型 loses a wounds; on a 6 the wound is not lost.</characteristic>
       </characteristics>
     </profile>
-    <profile id="9420-2013-27d9-c8cd" name="Explodes (6+/3寸/1)" publicationId="83b2-e602-pubN65537" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="9420-2013-27d9-c8cd" name="爆炸 (6+/3寸/1)" publicationId="83b2-e602-pubN65537" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If a model in 这个单位 is reduced to 0 wounds, 投掷1个D6 before removing it from the battlefield. 结果为6则爆炸, 每个单位 范围内 3寸 遭受 1 致命伤.</characteristic>
       </characteristics>
     </profile>
-    <profile id="7f8e-7d4a-13a0-e8ab" name="Explodes (6+/6寸/D3)" publicationId="83b2-e602-pubN65537" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="7f8e-7d4a-13a0-e8ab" name="爆炸 (6+/6寸/D3)" publicationId="83b2-e602-pubN65537" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 在载具被移除及任何在这个载具上的模型下车前投掷1个D6. 结果为6则爆炸, 每个单位 范围内 6寸 遭受 D3 致命伤.</characteristic>
       </characteristics>
     </profile>
-    <profile id="eb65-363e-41a8-5cf5" name="Smoke Launchers" publicationId="83b2-e602-pubN65537" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="eb65-363e-41a8-5cf5" name="烟雾发射器" publicationId="83b2-e602-pubN65537" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per game, 而不是 shooting its weapons in the 射击阶段, this models can use its smoke launchers. If it does so, subtract 1 from hit rolls for attacks made with ranged weapons that target it until your next 射击阶段.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per game, 而不是 shooting its 武器 in the 射击阶段, this models can use its 烟雾发射器. If it does so, subtract 1 from hit rolls for attacks made with ranged 武器 that target it until your next 射击阶段.</characteristic>
       </characteristics>
     </profile>
     <profile id="85e0-86c8-dc67-9be5" name="Open-topped" publicationId="83b2-e602-pubN65537" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -7518,7 +7518,7 @@ BROOD BROTHERS TAUROX PRIMES can only transport 10 BROOD BROTHERS OFFICIO PREFEC
       <characteristics>
         <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">7</characteristic>
         <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
-        <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Select an 敌方单位 范围内 18寸 of and visible to the psyker. Until the start of your next 灵能阶段, the target cannot fire Overwatch, fights last in the 肉搏阶段 even if it charged, and must subtract 1 from its hit rolls. If the target has a rule that allows it to fight first in the 肉搏阶段 even if it did not charge, then 而不是 fighting last in the 肉搏阶段, it fights as if it did not have that ability and did not charge.</characteristic>
+        <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Select an 敌方单位 范围内 18寸 of and visible to the 灵能者. Until the start of your next 灵能阶段, the target cannot fire Overwatch, fights last in the 肉搏阶段 even if it charged, and must subtract 1 from its hit rolls. If the target has a rule that allows it to fight first in the 肉搏阶段 even if it did not charge, then 而不是 fighting last in the 肉搏阶段, it fights as if it did not have that ability and did not charge.</characteristic>
       </characteristics>
     </profile>
     <profile id="9590-a181-8f47-1500" name="Mind Control" publicationId="83b2-e602-pubN65537" page="113" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
@@ -7532,7 +7532,7 @@ BROOD BROTHERS TAUROX PRIMES can only transport 10 BROOD BROTHERS OFFICIO PREFEC
       <characteristics>
         <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">7</characteristic>
         <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
-        <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Select a 友方 GENESTEALER CULTS INFANTRY or BIKER unit 范围内 18寸 of the psyker. Add 1 to the Strength and Attacks characteristics of all models in 那个单位 until the start of your next 灵能阶段.</characteristic>
+        <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Select a 友方 GENESTEALER CULTS INFANTRY or BIKER unit 范围内 18寸 of the 灵能者. Add 1 to the Strength and Attacks characteristics of all models in 那个单位 until the start of your next 灵能阶段.</characteristic>
       </characteristics>
     </profile>
     <profile id="34b7-c526-c2d4-2857" name="Bestial Vigour" publicationId="83b2-e602-pubN65537" page="88" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -7586,7 +7586,7 @@ BROOD BROTHERS TAUROX PRIMES can only transport 10 BROOD BROTHERS OFFICIO PREFEC
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">曲射.</characteristic>
       </characteristics>
     </profile>
-    <profile id="ef45-e91a-fd5d-020e" name="Frag Grenade" publicationId="83b2-e602-pubN65537" page="102" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="ef45-e91a-fd5d-020e" name="破片手雷" publicationId="83b2-e602-pubN65537" page="102" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6寸</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手雷 D6</characteristic>
@@ -7627,14 +7627,14 @@ BROOD BROTHERS TAUROX PRIMES can only transport 10 BROOD BROTHERS OFFICIO PREFEC
       <characteristics>
         <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">6</characteristic>
         <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
-        <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Select an 敌方模型 范围内 18寸 of and visible to the psyker. Each player rolls a D6 and adds their model&apos;s LD characteristic to their result. If your score is higher, the 敌方模型&apos;s unit 遭受 1 致命伤; if the selected model is still alive you then repeat this process (each player rolling a D6 and adding their respective LD) until either the selected model is destroyed, your opponent rolls a 6, and/or your opponent&apos;s result is equal to or higher than yours.</characteristic>
+        <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Select an 敌方模型 范围内 18寸 of and visible to the 灵能者. Each player rolls a D6 and adds their model&apos;s LD characteristic to their result. If your score is higher, the 敌方模型&apos;s unit 遭受 1 致命伤; if the selected model is still alive you then repeat this process (each player rolling a D6 and adding their respective LD) until either the selected model is destroyed, your opponent rolls a 6, and/or your opponent&apos;s result is equal to or higher than yours.</characteristic>
       </characteristics>
     </profile>
     <profile id="714d-ecf6-e9da-fcd1" name="Psychic Stimulus" publicationId="83b2-e602-pubN65537" page="113" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
       <characteristics>
         <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">6</characteristic>
         <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
-        <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Select a 友方 GENESTEALER CULTS unit 范围内 18寸 of the psyker. Until the start of your next 灵能阶段, 那个单位 can charge even if it Advanced (though not if it Fell Back) and they always fight first in the 肉搏阶段, even if they didn&apos;t charge. If your opponent has units that charged, or that have a similar ability, then alternate choosing units to fight with, starting with the player whose turn is taking place.</characteristic>
+        <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Select a 友方 GENESTEALER CULTS unit 范围内 18寸 of the 灵能者. Until the start of your next 灵能阶段, 那个单位 can charge even if it Advanced (though not if it Fell Back) and they always fight first in the 肉搏阶段, even if they didn&apos;t charge. If your opponent has units that charged, or that have a similar ability, then alternate choosing units to fight with, starting with the player whose turn is taking place.</characteristic>
       </characteristics>
     </profile>
     <profile id="170d-c6e8-1293-44e3" name="Heavy Power Hammer" publicationId="83b2-e602-pubN65537" page="104" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
