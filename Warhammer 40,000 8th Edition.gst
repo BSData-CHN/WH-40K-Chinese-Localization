@@ -2260,7 +2260,7 @@
       <profiles>
         <profile id="808f-d24a-ba7c-7d24" name="Stalwart Defence" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the LD characteristic of 模型 in 帝国 步兵单位 whilst their 单位 is 范围内 an 帝国 Defence Line.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the LD值 of 模型 in 帝国 步兵单位 whilst their 单位 is 范围内 an 帝国 Defence Line.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4450,7 +4450,7 @@
       <profiles>
         <profile id="32c0-34b1-f061-3d51" name="Legendary Fighter" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个主将 charges in the 冲锋阶段, add 1 to their 攻击 characteristic until the end of the ensuing 肉搏阶段.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个主将 charges in the 冲锋阶段, add 1 to their A值 until the end of the ensuing 肉搏阶段.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4467,7 +4467,7 @@
       <profiles>
         <profile id="f457-a366-e21d-196f" name="Inspiring Leader" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">友方单位 范围内 6寸 of 这个主将 can add 1 to their LD characteristic.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">友方单位 范围内 6寸 of 这个主将 can add 1 to their LD值.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6187,7 +6187,7 @@
                   <profiles>
                     <profile id="b2ef-4f86-c2cb-c4f2" name="16: Deadly Charge" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the 攻击 characteristic of 这个模型 in the 肉搏阶段 if it made a 冲锋移动 this turn. </characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the A值 of 这个模型 in the 肉搏阶段 if it made a 冲锋移动 this turn. </characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6238,7 +6238,7 @@
                   <profiles>
                     <profile id="a650-fc6c-fd84-e191" name="23: Deadly Marksman" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the 伤害 characteristic of ranged 武器 used by 这个模型. </characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the D值 of ranged 武器 used by 这个模型. </characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6442,7 +6442,7 @@
                   <profiles>
                     <profile id="b3f5-feaf-9334-bb2a" name="43: Hard to Kill" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Wound 骰 of 1, 2 or 3 made for 攻击 that target 这个模型 always fail, even if the attack 拥有 Strength characteristic higher than 这个模型’s Toughness characteristic.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Wound 骰 of 1, 2 or 3 made for 攻击 that target 这个模型 always fail, even if the attack 拥有 S值 higher than 这个模型’s T值.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6578,7 +6578,7 @@
                   <profiles>
                     <profile id="cf24-b6fd-64fb-2e10" name="55: Terrifying" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">减少 1 from the LD characteristic of 敌方单位 while they are 范围内 3寸 of 这个模型.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">减少 1 from the LD值 of 敌方单位 while they are 范围内 3寸 of 这个模型.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6629,7 +6629,7 @@
                   <profiles>
                     <profile id="e1b2-a287-6f47-905c" name="62: Swift Advance" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">当这个模型加速时, add 6寸 to its Move characteristic for that 移动阶段 而不是 rolling a D6</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">当这个模型加速时, add 6寸 to its M值 for that 移动阶段 而不是 rolling a D6</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6697,7 +6697,7 @@
                   <profiles>
                     <profile id="4a42-4231-7509-9afa" name="66: Direct Fire" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 you make a wound roll of 6+ in the 射击阶段 for a 友方 &lt;Sub-faction&gt;单位 范围内 6寸 of 这个模型, the AP characteristic of that attack is improved by 1 (e.g. AP -1 becomes AP -2).</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 you make a wound roll of 6+ in the 射击阶段 for a 友方 &lt;Sub-faction&gt;单位 范围内 6寸 of 这个模型, the AP值 of that attack is improved by 1 (e.g. AP -1 becomes AP -2).</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6735,7 +6735,7 @@
                   <profiles>
                     <profile id="85ee-c700-2b30-ad37" name="03: Penetrator Rounds" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s ranged 武器. Improve that weapon’s AP characteristic by 1 (e.g. AP -1 becomes AP -2).</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s ranged 武器. Improve that weapon’s AP值 by 1 (e.g. AP -1 becomes AP -2).</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6752,7 +6752,7 @@
                   <profiles>
                     <profile id="97fa-de67-99e0-29fd" name="04: High Calibre" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s ranged 武器. Add 1 to that weapon’s Strength characteristic.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s ranged 武器. Add 1 to that weapon’s S值.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6769,7 +6769,7 @@
                   <profiles>
                     <profile id="65fb-9911-be6a-53d6" name="05: Improved Sights" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s ranged 武器. Add 6寸 to that weapon’s Range characteristic. </characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s ranged 武器. Add 6寸 to that weapon’s 射程. </characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6803,7 +6803,7 @@
                   <profiles>
                     <profile id="74dd-199a-f33e-c54f" name="07: Artificer Weapon" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s 武器. Add 1 to that weapon’s 伤害 characteristic.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s 武器. Add 1 to that weapon’s D值.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6854,7 +6854,7 @@
                   <profiles>
                     <profile id="96c3-0639-a1a2-86e0" name="10: Brutal" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s 肉搏 武器. Improve that weapon’s Strength characteristic by 1 (e.g. User becomes +1, +1 becomes +2).</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s 肉搏 武器. Improve that weapon’s S值 by 1 (e.g. User becomes +1, +1 becomes +2).</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6871,7 +6871,7 @@
                   <profiles>
                     <profile id="ae27-0269-204d-ceb0" name="11: Razor-edged" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s 肉搏 武器. Improve that weapon’s AP characteristic by 1 (e.g. AP -1 becomes AP -2).</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s 肉搏 武器. Improve that weapon’s AP值 by 1 (e.g. AP -1 becomes AP -2).</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6971,7 +6971,7 @@
                   <profiles>
                     <profile id="9f66-befe-4666-5240" name="02: Old War Wound" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Select a result from this table, or roll 2D6 to randomly select a result (重投 if you get this result again). 减少 or worsen 这个模型’s characteristic by the amount described in the result you picked 而不是 adding or improving it (e.g. if the Ferocious Combatant result was selected, an 攻击 characteristic of 3 would become 2, while if the Dead-eyed result was selected, a BS of 3+ would become 4+)</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Select a result from this table, or roll 2D6 to randomly select a result (重投 if you get this result again). 减少 or worsen 这个模型’s characteristic by the amount described in the result you picked 而不是 adding or improving it (e.g. if the Ferocious Combatant result was selected, an A值 of 3 would become 2, while if the Dead-eyed result was selected, a BS of 3+ would become 4+)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6988,7 +6988,7 @@
                   <profiles>
                     <profile id="4573-56a8-9be7-681e" name="03: Courageous" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to 这个模型’s LD characteristic.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to 这个模型’s LD值.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7005,7 +7005,7 @@
                   <profiles>
                     <profile id="5eea-41a6-c5ef-2098" name="04: Ferocious Combatant" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to 这个模型’s 攻击 characteristic.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to 这个模型’s A值.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7022,7 +7022,7 @@
                   <profiles>
                     <profile id="e8a0-c6f1-bce1-1922" name="05: Mighty" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to 这个模型’s Strength characteristic. </characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to 这个模型’s S值. </characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7039,7 +7039,7 @@
                   <profiles>
                     <profile id="a848-ed5a-e35c-dc1b" name="06: Dead-eyed" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Improve 这个模型’s Ballistic Skill characteristic by 1 (e.g. BS 3+ will become BS 2+), to a maximum of 2+.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Improve 这个模型’s BS值 by 1 (e.g. BS 3+ will become BS 2+), to a maximum of 2+.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7056,7 +7056,7 @@
                   <profiles>
                     <profile id="404b-1264-bf6c-14e1" name="07: Fleet" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 2寸 to 这个模型’s Move characteristic. </characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 2寸 to 这个模型’s M值. </characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7073,7 +7073,7 @@
                   <profiles>
                     <profile id="ccdc-ad4a-1079-8b4d" name="08: Blademaster" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Improve 这个模型’s Weapon Skill characteristic by 1 (e.g. WS 3+ will become WS 2+), to a maximum of 2+.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Improve 这个模型’s WS值 by 1 (e.g. WS 3+ will become WS 2+), to a maximum of 2+.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7090,7 +7090,7 @@
                   <profiles>
                     <profile id="3e88-8098-ccb3-7401" name="09: Enhanced Physiology" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to 这个模型’s Toughness characteristic.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to 这个模型’s T值.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7107,7 +7107,7 @@
                   <profiles>
                     <profile id="bc54-473a-845d-58a1" name="10: Toughened Armor" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Improve 这个模型’s Save characteristic by 1 (e.g. Sv 5+ will become Sv 4+), to a maximum of 2+.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Improve 这个模型’s SV值 by 1 (e.g. Sv 5+ will become Sv 4+), to a maximum of 2+.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7141,7 +7141,7 @@
                   <profiles>
                     <profile id="d87e-223c-47a9-bf97" name="12: Heroic Constitution" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to 这个模型’s Wounds characteristic.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to 这个模型’s W值.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7249,7 +7249,7 @@
               <profiles>
                 <profile id="591c-3344-f7bf-7f91" name="R1: Deadeye Shots" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 you roll an unmodified wound roll of 6 for an attack with one of 这个单位’s ranged 武器, increase the 伤害 characteristic of that attack by 1. </characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 you roll an unmodified wound roll of 6 for an attack with one of 这个单位’s ranged 武器, increase the D值 of that attack by 1. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7266,7 +7266,7 @@
               <profiles>
                 <profile id="91f1-f358-86de-96ad" name="R1: Grizzled" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个单位 ignores penalties to their LD characteristic. </characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个单位 ignores penalties to their LD值. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7317,7 +7317,7 @@
               <profiles>
                 <profile id="4425-d2f7-088b-4818" name="R3: Trophy Takers" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">减少 1 from the LD characteristic of 敌方单位 while they are 范围内 6寸 of 这个单位. </characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">减少 1 from the LD值 of 敌方单位 while they are 范围内 6寸 of 这个单位. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7351,7 +7351,7 @@
               <profiles>
                 <profile id="cf6f-8830-33e8-0d6d" name="R5: Brutal" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the Strength and 攻击 characteristic of 模型 in 这个单位 during any turn in which they made a successful 冲锋移动.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the Strength and A值 of 模型 in 这个单位 during any turn in which they made a successful 冲锋移动.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7532,7 +7532,7 @@
               <profiles>
                 <profile id="8495-07fa-e001-b2cd" name="R2: Terrifying" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">减少 1 from the LD characteristic of 敌方单位 while they are 范围内 6寸 of 这个模型. </characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">减少 1 from the LD值 of 敌方单位 while they are 范围内 6寸 of 这个模型. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7741,7 +7741,7 @@
               <profiles>
                 <profile id="49eb-d748-c449-7525" name="R2: Experimental Ammunition" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Select one of the ranged 武器 used by one or more 模型 in 这个单位. Add 1 to the 伤害 characteristic of that weapon for 攻击 made by 那个单位.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Select one of the ranged 武器 used by one or more 模型 in 这个单位. Add 1 to the D值 of that weapon for 攻击 made by 那个单位.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7775,7 +7775,7 @@
               <profiles>
                 <profile id="ef9b-9554-c5f0-78ed" name="R3: Ablative Armor" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">攻击 对抗 这个单位 that have an AP characteristic of -1 are treated as having an AP characteristic of 0 instead.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">攻击 对抗 这个单位 that have an AP值 of -1 are treated as having an AP值 of 0 instead.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7809,7 +7809,7 @@
               <profiles>
                 <profile id="2faa-8fc5-6f09-b65c" name="R4: Blessed Drive" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型拥有 损伤表, double the number of wounds it has remaining for the purposes of determining what its Move characteristic is.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型拥有 损伤表, double the number of wounds it has remaining for the purposes of determining what its M值 is.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7843,7 +7843,7 @@
               <profiles>
                 <profile id="2a67-bed9-43ec-968b" name="R5: Prominent Trophy" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the LD characteristic of 友方单位 while they are 范围内 6寸 of 这个单位. 减少 1 from the LD characteristic of 敌方单位 while they are 范围内 6寸 of 这个单位. </characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the LD值 of 友方单位 while they are 范围内 6寸 of 这个单位. 减少 1 from the LD值 of 敌方单位 while they are 范围内 6寸 of 这个单位. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7860,7 +7860,7 @@
               <profiles>
                 <profile id="1c8f-af4c-400c-8e80" name="R5: Blessed 武器" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型拥有 损伤表, double the number of wounds it has remaining for the purposes of determining what its Ballistic Skill characteristic is.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型拥有 损伤表, double the number of wounds it has remaining for the purposes of determining what its BS值 is.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7880,7 +7880,7 @@
       <description>If a target 遭受 an unsaved Wound from a close combat attack made by 这个模型, the target is reduced to 0 Wounds and is removed as a casualty.</description>
     </rule>
     <rule id="2053-118c-c2b7-c8ac" name="Executioner" hidden="false">
-      <description>这个模型 re-骰 所有 失败的 To Wound 骰 对抗 targets with a Wounds characteristic of 2 or more.</description>
+      <description>这个模型 re-骰 所有 失败的 To Wound 骰 对抗 targets with a W值 of 2 or more.</description>
     </rule>
     <rule id="74b3-2e30-9d76-a958" name="Infiltrator" hidden="false">
       <description>部署期间, 这个单位 can be set up 任何位置 战场上 that is not 范围内 your opponent&apos;s 部署区 and is more than 12寸 from any 敌方单位.</description>
@@ -7906,9 +7906,9 @@
     <rule id="ce5a-0526-287b-4ff8" name="主将特性" hidden="false">
       <description>If your 主将 is a CHARACTER, it can use a 主将 Trait. 立即 before either player starts to deploy their army, you can roll a D3 on the 主将 Trait table here to determine what 主将 Trait your 主将 has. Alternatively, choose the trait that most suits your Warlord&apos;s temperament or style of war.
 
-1) Legendary Fighter: If 这个主将 charges in the 冲锋阶段, add 1 to their 攻击 characteristic until the end of the ensuing 肉搏阶段.
+1) Legendary Fighter: If 这个主将 charges in the 冲锋阶段, add 1 to their A值 until the end of the ensuing 肉搏阶段.
 
-2) Inspiring Leader: 友方单位 范围内 6寸 of 这个主将 can add 1 to their LD characteristic.
+2) Inspiring Leader: 友方单位 范围内 6寸 of 这个主将 can add 1 to their LD值.
 
 3) Tenacious Survivor: Roll a dice 每次 这个主将 失去1点W.  结果为6, the 主将 shrugs off the 伤害 and does not lose the wound.</description>
     </rule>
@@ -7928,10 +7928,10 @@
       <description>这个单位 has the following abilities: And They Shall Know No Fear, Bolter Discipline, Shock Assault and Combat Doctrines.’</description>
     </rule>
     <rule id="f9ce-5a8b-7abd-2395" name="雷霆突击" hidden="false">
-      <description>If 这个单位 makes a 冲锋移动, is charged or performs a Heroic Intervention, add 1 to the 攻击 characteristic of 模型 in 这个单位 until the end of the turn.</description>
+      <description>If 这个单位 makes a 冲锋移动, is charged or performs a Heroic Intervention, add 1 to the A值 of 模型 in 这个单位 until the end of the turn.</description>
     </rule>
     <rule id="73c3-c791-cd2f-6ad2" name="Hateful Assault" hidden="false">
-      <description>If 这个单位 makes a 冲锋移动, is charged or performs a Heroic Intervention, add 1 to the 攻击 characteristic of 模型 in 这个单位 until the end of the turn.</description>
+      <description>If 这个单位 makes a 冲锋移动, is charged or performs a Heroic Intervention, add 1 to the A值 of 模型 in 这个单位 until the end of the turn.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -9579,12 +9579,12 @@
     </profile>
     <profile id="589d-78cf-845c-2b65" name="Legendary Fighter" publicationId="28ec-711c-pubN72690" page="186" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个主将 charges in the 冲锋阶段, add 1 to their 攻击 characteristic until the end of the ensuing 肉搏阶段.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个主将 charges in the 冲锋阶段, add 1 to their A值 until the end of the ensuing 肉搏阶段.</characteristic>
       </characteristics>
     </profile>
     <profile id="add7-15e6-fb9e-25e4" name="Inspiring Leader" publicationId="28ec-711c-pubN72690" page="186" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">友方单位 范围内 6寸 of 这个主将 can add 1 to their LD characteristic.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">友方单位 范围内 6寸 of 这个主将 can add 1 to their LD值.</characteristic>
       </characteristics>
     </profile>
     <profile id="7a19-046d-bf4e-bae3" name="Tenacious Survivor" publicationId="28ec-711c-pubN72690" page="186" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
