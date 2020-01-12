@@ -2,7 +2,7 @@
 <catalogue id="62ed-66a0-988c-e34e" name="帝国 - Elysian Drop Troops" revision="1" battleScribeVersion="2.03" authorName="Still mostly CrusherJoe, though Alphalas will tell you he does 所有 the work (he lies! lol)" authorContact="Discord: @Alphalas, @CrusherJoe | Twitter: @kingoverlord, @theawesomesauce" authorUrl="https://github.com/BSData-CHN" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="62ed-66a0-pubN69354" name="圣典: 星界军"/>
-    <publication id="62ed-66a0-pubN91709" name="圣典: Genestealer Cults"/>
+    <publication id="62ed-66a0-pubN91709" name="圣典: 基因窃取者教团"/>
     <publication id="62ed-66a0-pubN92006" name="帝国装甲 - 索引: 星界军"/>
   </publications>
   <profileTypes>
@@ -302,7 +302,7 @@
         <categoryLink id="fe40-a5f9-c391-7bc1" name="New CategoryLink" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="bceb-2fd8-bd33-6304" name="Operative Requisition Sanctioned" hidden="false" collective="false" import="true" targetId="0b7d-bfe1-b63e-ecb6" type="selectionEntry"/>
+    <entryLink id="bceb-2fd8-bd33-6304" name="刺客出击许可" hidden="false" collective="false" import="true" targetId="0b7d-bfe1-b63e-ecb6" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="a495-cb89-a201-af6b" name="Officer of the Fleet" page="0" hidden="false" collective="false" import="true" type="model">
@@ -327,7 +327,7 @@
         </profile>
         <profile id="b2f3-a3ec-f355-999d" name="Air Raid Requested" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, in your 射击阶段 you can pick an 敌方单位, other than a CHARACTER, which is 可见 to 这个模型 任何位置 战场上, and then 投掷1个D6. 结果为roll of 1-3, nothing happens.  结果为roll of 4+ the target 单位 遭受 D3 致命伤. 结果为roll of 6, the target 单位 遭受 3 致命伤. You may only call in one air raid per turn, regardless of the number of Officers of the Fleet.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, in your 射击阶段 you can pick an 敌方单位, other than a 人物, which is 可见 to 这个模型 任何位置 战场上, and then 投掷1个D6. 结果为roll of 1-3, nothing happens.  结果为roll of 4+ the target 单位 遭受 D3 致命伤. 结果为roll of 6, the target 单位 遭受 3 致命伤. You may only call in one air raid per turn, regardless of the number of Officers of the Fleet.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -335,15 +335,15 @@
         <categoryLink id="6d16-7174-a01e-b4b3" name="New CategoryLink" hidden="false" targetId="3263-4233-4344-6228" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="20ae-c936-059e-f0d6" name="Laspistol" hidden="false" collective="false" import="true" targetId="c10b-e1a4-c913-ae15" type="selectionEntry">
+        <entryLink id="20ae-c936-059e-f0d6" name="激光手枪" hidden="false" collective="false" import="true" targetId="c10b-e1a4-c913-ae15" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8fb0-01b4-6a23-f266" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="440f-a146-72cf-e50e" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="1d31-d60f-09cd-564e" name="Heirlooms of Conquest" hidden="false" collective="false" import="true" targetId="6a6e-e0ec-babc-6703" type="selectionEntryGroup"/>
-        <entryLink id="0cb9-5353-2581-e412" name="Is A Custom Character" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
-        <entryLink id="46a2-3123-8f9c-5ba3" name="Custom Character Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
+        <entryLink id="0cb9-5353-2581-e412" name="Is A Custom 人物" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
+        <entryLink id="46a2-3123-8f9c-5ba3" name="Custom 人物 Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
         <entryLink id="f515-42fc-22a4-d5ef" name="主将特性" hidden="false" collective="false" import="true" targetId="21a1-cfa7-a290-45f7" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
@@ -1176,7 +1176,7 @@
             </profile>
             <profile id="8483-f2b2-9236-e8bd" name="Automated Artillery" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型拥有 双联 重爆弹, it will 自动 shoot at the nearest 敌方 步兵单位 in the 射击阶段 范围内 range. If 这个模型拥有 双联激光炮, it will 自动 shoot at the nearest 敌方 non-步兵模型 in the 射击阶段 范围内 range. If there are none of the specified types of 单位 in range or line of sight, the closest 可见 敌方单位 of any kind 必须 targeted. 然而, in 所有 cases 这个模型 may only target 敌方 CHARACTER 模型 if they are the closest model.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型拥有 双联 重爆弹, it will 自动 shoot at the nearest 敌方 步兵单位 in the 射击阶段 范围内 range. If 这个模型拥有 双联激光炮, it will 自动 shoot at the nearest 敌方 non-步兵模型 in the 射击阶段 范围内 range. If there are none of the specified types of 单位 in range or line of sight, the closest 可见 敌方单位 of any kind 必须 targeted. 然而, in 所有 cases 这个模型 may only target 敌方 人物 模型 if they are the closest model.</characteristic>
               </characteristics>
             </profile>
             <profile id="004f-afbf-b4f1-b74b" name="Immobile" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -1828,13 +1828,13 @@
         <infoLink id="3260-d31a-2518-1fdb" name="Voice of Command" hidden="false" targetId="6d71-66b0-4b44-050b" type="profile"/>
       </infoLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="b6b2-047b-218b-673a" name="Laspistol" hidden="false" collective="false" import="true" defaultSelectionEntryId="ec40-0b47-ffea-0cfe">
+        <selectionEntryGroup id="b6b2-047b-218b-673a" name="激光手枪" hidden="false" collective="false" import="true" defaultSelectionEntryId="ec40-0b47-ffea-0cfe">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5425-f2a6-1660-b917" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="efd5-4ad3-6dc1-eb6b" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="ec40-0b47-ffea-0cfe" name="Laspistol" hidden="false" collective="false" import="true" targetId="c10b-e1a4-c913-ae15" type="selectionEntry">
+            <entryLink id="ec40-0b47-ffea-0cfe" name="激光手枪" hidden="false" collective="false" import="true" targetId="c10b-e1a4-c913-ae15" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8bd-f845-2c83-4b4c" type="max"/>
               </constraints>
@@ -1872,8 +1872,8 @@
           </modifiers>
         </entryLink>
         <entryLink id="5a9d-e2c3-3153-42ae" name="Heirlooms of Conquest" hidden="false" collective="false" import="true" targetId="6a6e-e0ec-babc-6703" type="selectionEntryGroup"/>
-        <entryLink id="0239-bd94-0119-604a" name="Is A Custom Character" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
-        <entryLink id="dbd3-dcc2-c104-d4fc" name="Custom Character Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
+        <entryLink id="0239-bd94-0119-604a" name="Is A Custom 人物" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
+        <entryLink id="dbd3-dcc2-c104-d4fc" name="Custom 人物 Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="3.0"/>
@@ -1978,8 +1978,8 @@
           </modifiers>
         </entryLink>
         <entryLink id="5d88-4ffc-2e16-ae93" name="Heirlooms of Conquest" hidden="false" collective="false" import="true" targetId="6a6e-e0ec-babc-6703" type="selectionEntryGroup"/>
-        <entryLink id="ce38-cc31-c987-a1af" name="Is A Custom Character" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
-        <entryLink id="80ed-381e-2c39-dbac" name="Custom Character Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
+        <entryLink id="ce38-cc31-c987-a1af" name="Is A Custom 人物" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
+        <entryLink id="80ed-381e-2c39-dbac" name="Custom 人物 Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="4.0"/>
@@ -2001,7 +2001,7 @@
             <infoLink id="2365-4f01-264f-e98d" name="Sergeant" hidden="false" targetId="8f89-4a15-c044-7013" type="profile"/>
           </infoLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup id="4927-fc6f-d2c4-081f" name="Laspistol" hidden="false" collective="false" import="true" defaultSelectionEntryId="82f9-340e-e110-2a61">
+            <selectionEntryGroup id="4927-fc6f-d2c4-081f" name="激光手枪" hidden="false" collective="false" import="true" defaultSelectionEntryId="82f9-340e-e110-2a61">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8147-61c4-73fc-6097" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e28-afa1-53e6-5c0c" type="min"/>
@@ -2015,7 +2015,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d68-b2d2-7289-2fbd" type="max"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="82f9-340e-e110-2a61" name="Laspistol" hidden="false" collective="false" import="true" targetId="c10b-e1a4-c913-ae15" type="selectionEntry">
+                <entryLink id="82f9-340e-e110-2a61" name="激光手枪" hidden="false" collective="false" import="true" targetId="c10b-e1a4-c913-ae15" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2aa-afab-4d3c-00a3" type="max"/>
                   </constraints>
@@ -2319,12 +2319,12 @@
             <infoLink id="1244-2dfa-f104-a98d" name="老兵士官" hidden="false" targetId="305d-f278-4cf4-feb3" type="profile"/>
           </infoLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup id="8a37-d3b6-8f4a-6f47" name="Laspistol" hidden="false" collective="false" import="true" defaultSelectionEntryId="555c-ea7f-c4d6-8987">
+            <selectionEntryGroup id="8a37-d3b6-8f4a-6f47" name="激光手枪" hidden="false" collective="false" import="true" defaultSelectionEntryId="555c-ea7f-c4d6-8987">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e8f-7a2e-5ff1-b2bf" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="555c-ea7f-c4d6-8987" name="Laspistol" hidden="false" collective="false" import="true" targetId="c10b-e1a4-c913-ae15" type="selectionEntry">
+                <entryLink id="555c-ea7f-c4d6-8987" name="激光手枪" hidden="false" collective="false" import="true" targetId="c10b-e1a4-c913-ae15" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8471-e883-e0ab-2b0f" type="max"/>
                   </constraints>
@@ -2661,7 +2661,7 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e1f-29ce-a35c-1a86" type="max"/>
                       </constraints>
                     </entryLink>
-                    <entryLink id="02b3-9d62-45db-8bed" name="Laspistol" hidden="false" collective="false" import="true" targetId="c10b-e1a4-c913-ae15" type="selectionEntry">
+                    <entryLink id="02b3-9d62-45db-8bed" name="激光手枪" hidden="false" collective="false" import="true" targetId="c10b-e1a4-c913-ae15" type="selectionEntry">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59fc-c537-0ead-0951" type="max"/>
                       </constraints>
@@ -2707,7 +2707,7 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c63-3b76-5f2d-cd46" type="max"/>
                       </constraints>
                     </entryLink>
-                    <entryLink id="4d53-f1cf-14c2-b0fc" name="Laspistol" hidden="false" collective="false" import="true" targetId="c10b-e1a4-c913-ae15" type="selectionEntry">
+                    <entryLink id="4d53-f1cf-14c2-b0fc" name="激光手枪" hidden="false" collective="false" import="true" targetId="c10b-e1a4-c913-ae15" type="selectionEntry">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="181d-b70c-f08e-bfd7" type="max"/>
                       </constraints>
@@ -2754,7 +2754,7 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d487-117e-6c14-0d50" type="max"/>
                       </constraints>
                     </entryLink>
-                    <entryLink id="00ca-9074-c62d-5c6e" name="Laspistol" hidden="false" collective="false" import="true" targetId="c10b-e1a4-c913-ae15" type="selectionEntry">
+                    <entryLink id="00ca-9074-c62d-5c6e" name="激光手枪" hidden="false" collective="false" import="true" targetId="c10b-e1a4-c913-ae15" type="selectionEntry">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a45b-2892-00e5-1d80" type="max"/>
                       </constraints>
@@ -2820,7 +2820,7 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d01-042d-6def-becc" type="max"/>
                       </constraints>
                     </entryLink>
-                    <entryLink id="ccf3-7b8d-7b27-9946" name="Laspistol" hidden="false" collective="false" import="true" targetId="c10b-e1a4-c913-ae15" type="selectionEntry">
+                    <entryLink id="ccf3-7b8d-7b27-9946" name="激光手枪" hidden="false" collective="false" import="true" targetId="c10b-e1a4-c913-ae15" type="selectionEntry">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0de-0836-ef83-5541" type="max"/>
                       </constraints>
@@ -3016,13 +3016,13 @@
         <infoLink id="636f-320a-321b-1217" name="Voice of Command" hidden="false" targetId="6d71-66b0-4b44-050b" type="profile"/>
       </infoLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="2016-c926-3aee-6756" name="Laspistol" hidden="false" collective="false" import="true" defaultSelectionEntryId="6c87-20bf-9b53-bd41">
+        <selectionEntryGroup id="2016-c926-3aee-6756" name="激光手枪" hidden="false" collective="false" import="true" defaultSelectionEntryId="6c87-20bf-9b53-bd41">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59e3-607b-3b47-cf2d" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="558d-836e-4f8e-a857" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="6c87-20bf-9b53-bd41" name="Laspistol" hidden="false" collective="false" import="true" targetId="c10b-e1a4-c913-ae15" type="selectionEntry">
+            <entryLink id="6c87-20bf-9b53-bd41" name="激光手枪" hidden="false" collective="false" import="true" targetId="c10b-e1a4-c913-ae15" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d0a-115d-a9f7-709c" type="max"/>
               </constraints>
@@ -3059,7 +3059,7 @@
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 can target a Character even if it is not the closest 敌方单位, unless the bearer is 范围内 1寸 of an 敌方单位.</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 can target a 人物 even if it is not the closest 敌方单位, unless the bearer is 范围内 1寸 of an 敌方单位.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3213,8 +3213,8 @@
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="b1ec-44e8-890e-45e2" name="Is A Custom Character" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
-        <entryLink id="95f6-4244-6abc-4b5a" name="Custom Character Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
+        <entryLink id="b1ec-44e8-890e-45e2" name="Is A Custom 人物" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
+        <entryLink id="95f6-4244-6abc-4b5a" name="Custom 人物 Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="2.0"/>
@@ -3691,7 +3691,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 can target a Character even if it is not the closest 敌方单位, unless the bearer is 范围内 1寸 of an 敌方单位.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 can target a 人物 even if it is not the closest 敌方单位, unless the bearer is 范围内 1寸 of an 敌方单位.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4277,7 +4277,7 @@
               <profiles>
                 <profile id="dfe2-2831-bf4d-07bd" name="Master of Command" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Your 主将 gains the Voice of Command ability. If your 主将 already has the Voice of Command or Tank Orders ability, they may instead issue one additional order per turn.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Your 主将 获得 Voice of Command ability. If your 主将 already has the Voice of Command or Tank Orders ability, they may instead issue one additional order per turn.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>

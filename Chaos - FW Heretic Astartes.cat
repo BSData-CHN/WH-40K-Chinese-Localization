@@ -715,7 +715,7 @@
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">2</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每个成功的命中骰 made with 这个武器 inflicts 1点致命伤 而不是 the normal 伤害. If any 命中 roll made in a given phase results in a score of a &apos;1&apos;, then the firing 单位 遭受 1 致命伤. This 效果 can only occur once per phase regardless of how many results of 1 are rolled.</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每个成功的命中骰 made with 这个武器 inflicts 1点致命伤 而不是 the normal 伤害. If 任何命中 roll made in a given phase results in a score of a &apos;1&apos;, then the firing 单位 遭受 1 致命伤. This 效果 can only occur once per phase regardless of how many results of 1 are rolled.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1233,7 +1233,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If any 命中 骰 made in a given phase results in a score of a 1, then the firing 单位 遭受 1 致命伤. </characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If 任何命中 骰 made in a given phase results in a score of a 1, then the firing 单位 遭受 1 致命伤. </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2678,7 +2678,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If any 命中 roll made in a given phase results in a score or a 1, then the firing 单位 遭受 1 致命伤.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If 任何命中 roll made in a given phase results in a score or a 1, then the firing 单位 遭受 1 致命伤.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2733,7 +2733,7 @@
       <profiles>
         <profile id="ef3b-00aa-fa52-1c5a" name="Artillery" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A Hellforged Rapier can only fire its 远程武器 if a 友方 &lt;军团&gt; Chaos Space Marine Crewman 模型 from the same 单位 is 范围内 3寸. A single Chaos Space Marine Crewman cannot operate multiple Hellforged Rapiers in this way in a single turn. If 所有 of the Chaos Space Marine Crewman from the same 单位 范围内 6寸 of a Hellforged Rapier are slain, it loses the Artillery ability and gains the 恶魔 Unleashed ability and operates under the rules of that ability instead.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A Hellforged Rapier can only fire its 远程武器 if a 友方 &lt;军团&gt; Chaos Space Marine Crewman 模型 from the same 单位 is 范围内 3寸. A single Chaos Space Marine Crewman cannot operate multiple Hellforged Rapiers in this way in a single turn. If 所有 of the Chaos Space Marine Crewman from the same 单位 范围内 6寸 of a Hellforged Rapier are slain, it loses the Artillery ability and 获得 恶魔 Unleashed ability and operates under the rules of that ability instead.</characteristic>
           </characteristics>
         </profile>
         <profile id="e2c0-7deb-1ae0-1ad6" name="恶魔 Unleashed" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -6227,7 +6227,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">10</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-5</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">6</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If any 命中 骰 made for 这个武器 result in one or more results of a &apos;1&apos;, the firing 载具 遭受 3 致命伤.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If 任何命中 骰 made for 这个武器 result in one or more results of a &apos;1&apos;, the firing 载具 遭受 3 致命伤.</characteristic>
               </characteristics>
             </profile>
             <profile id="6d01-1f60-5a67-4c60" name="激光齐射炮-齐射" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -6598,13 +6598,13 @@
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="3641-cfd8-80a7-ce99" name="Daemonic Ritual" hidden="false">
-      <description>而不是 moving in their 移动阶段, any Chaos Character can, at the end of their 移动阶段, attempt to summon a 恶魔 单位 with this ability by performing a Daemonic Ritual (the character cannot do so if they arrived as reinforcements this turn, or if they themselves have been summoned to the battlefield this turn).
+      <description>而不是 moving in their 移动阶段, any Chaos 人物 can, at the end of their 移动阶段, attempt to summon a 恶魔 单位 with this ability by performing a Daemonic Ritual (the 人物 cannot do so if they arrived as reinforcements this turn, or if they themselves have been summoned to the battlefield this turn).
 
-If they do so, first choose one of the four Chaos Gods - 恐虐, 奸奇, 纳垢, or 色孽. A Character who owes allegiance to one of the Dark Gods can attempt to summon the 单位 of their patron - for example, a 恐虐 Character could only attempt to summon 恐虐 恶魔.
+If they do so, first choose one of the four Chaos Gods - 恐虐, 奸奇, 纳垢, or 色孽. A 人物 who owes allegiance to one of the Dark Gods can attempt to summon the 单位 of their patron - for example, a 恐虐 人物 could only attempt to summon 恐虐 恶魔.
 
-Roll 至多 3 dice - this is your summoning roll. You can summon one new 单位 with the Daemonic Ritual ability to the battlefield that 拥有 Power Rating equal to or less than the total result so long as it has the same Chaos God 关键字 you chose at the start (in the case of 单位 that have the choice of allegiance, such as Furies, the 单位 when summoned will have this 关键字.) 这个单位 is treated as reinforcements for your army and can be placed 任何位置 战场上 that is entirely 范围内 12寸 of the character and is more than 9寸 from 任何敌方模型. If the total rolled is insufficient to summon any 单位, the ritual fails and no new 单位 is summoned.
+Roll 至多 3 dice - this is your summoning roll. You can summon one new 单位 with the Daemonic Ritual ability to the battlefield that 拥有 Power Rating equal to or less than the total result so long as it has the same Chaos God 关键字 you chose at the start (in the case of 单位 that have the choice of allegiance, such as Furies, the 单位 when summoned will have this 关键字.) 这个单位 is treated as reinforcements for your army and can be placed 任何位置 战场上 that is entirely 范围内 12寸 of the 人物 and is more than 9寸 from 任何敌方模型. If the total rolled is insufficient to summon any 单位, the ritual fails and no new 单位 is summoned.
 
-If your summoning roll included any doubles, your character then 遭受 1点致命伤. If it contained any triples, it instead 遭受 D3 致命伤.</description>
+If your summoning roll included any doubles, your 人物 then 遭受 1点致命伤. If it contained any triples, it instead 遭受 D3 致命伤.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

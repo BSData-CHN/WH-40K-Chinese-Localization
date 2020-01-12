@@ -16,7 +16,7 @@
       <categoryLinks>
         <categoryLink id="72be-be4d-aeaa-14fe" name="New CategoryLink" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
         <categoryLink id="c53d-db45-3263-5bcf" name="Astropath" hidden="false" targetId="0529-accb-b64c-d8a9" primary="false"/>
-        <categoryLink id="6bcf-909f-1eee-68e0" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
+        <categoryLink id="6bcf-909f-1eee-68e0" name="人物" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
         <categoryLink id="60ee-f65e-8ef1-a6c0" name="阵营: 星界军" hidden="false" targetId="3263-4233-4344-6228" primary="false"/>
         <categoryLink id="a8b3-295f-8a70-69c8" name="阵营: Astra Telepathica" hidden="false" targetId="4e73-491c-d01a-5318" primary="false"/>
         <categoryLink id="e17d-217a-a696-77af" name="阵营: 帝国" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false"/>
@@ -40,7 +40,7 @@
     <entryLink id="c9b6-dbde-5c24-172f" name="原铸 灵能者" hidden="false" collective="false" import="true" targetId="9b5a-effd-2444-2b49" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="6a85-0514-474c-6089" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
-        <categoryLink id="299e-b067-f888-04f9" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
+        <categoryLink id="299e-b067-f888-04f9" name="人物" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
         <categoryLink id="e6e6-8170-4b2d-38bc" name="阵营: 星界军" hidden="false" targetId="3263-4233-4344-6228" primary="false"/>
         <categoryLink id="71be-9ae8-d316-9f9d" name="阵营: Astra Telepathica" hidden="false" targetId="4e73-491c-d01a-5318" primary="false"/>
         <categoryLink id="c827-2ef2-5b37-10aa" name="阵营: 帝国" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false"/>
@@ -50,7 +50,7 @@
         <categoryLink id="0806-a75c-151f-f880" name="灵能者" hidden="false" targetId="e691-aad7-d21c-1023" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="bceb-2fd8-bd33-6304" name="Operative Requisition Sanctioned" hidden="false" collective="false" import="true" targetId="0b7d-bfe1-b63e-ecb6" type="selectionEntry"/>
+    <entryLink id="bceb-2fd8-bd33-6304" name="刺客出击许可" hidden="false" collective="false" import="true" targetId="0b7d-bfe1-b63e-ecb6" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="cdb8-0d45-6cd1-5c7b" name="Astropath" publicationId="104e-06dd-pubN65713" page="102" hidden="false" collective="false" import="true" type="model">
@@ -115,7 +115,7 @@
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink id="c564-8f5f-515a-1735" name="Laspistol" hidden="false" collective="false" import="true" targetId="c10b-e1a4-c913-ae15" type="selectionEntry"/>
+            <entryLink id="c564-8f5f-515a-1735" name="激光手枪" hidden="false" collective="false" import="true" targetId="c10b-e1a4-c913-ae15" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -139,8 +139,8 @@
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="e015-42fd-224f-4146" name="Is A Custom Character" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
-        <entryLink id="c602-1e59-f69c-0fba" name="Custom Character Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
+        <entryLink id="e015-42fd-224f-4146" name="Is A Custom 人物" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
+        <entryLink id="c602-1e59-f69c-0fba" name="Custom 人物 Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
         <entryLink id="f767-27c9-6260-d760" name="主将" hidden="false" collective="false" import="true" targetId="8c9b-d95d-cea9-a212" type="selectionEntry"/>
       </entryLinks>
       <costs>
@@ -202,13 +202,13 @@
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="19e0-434e-c233-8b11" name="Laspistol" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="19e0-434e-c233-8b11" name="激光手枪" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac0c-f81d-d43e-a301" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1665-f03b-5e5f-cb14" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="3b2b-369c-8d7c-3ea4" name="Laspistol" hidden="false" targetId="f2b7-768f-a270-de64" type="profile"/>
+            <infoLink id="3b2b-369c-8d7c-3ea4" name="激光手枪" hidden="false" targetId="f2b7-768f-a270-de64" type="profile"/>
           </infoLinks>
           <costs>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -223,7 +223,7 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e6f-8022-07ef-955c" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="831d-613a-9a29-9745" name="Is A Custom Character" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
+        <entryLink id="831d-613a-9a29-9745" name="Is A Custom 人物" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
         <entryLink id="82e7-5c61-e7f6-95f8" name="Warlord Traits (BRB)" hidden="false" collective="false" import="true" targetId="d442-1f03-d9da-e77f" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="ddaf-3652-257e-33de" value="0.0">
@@ -238,7 +238,7 @@
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="22d3-6c9d-5646-d0eb" name="Custom Character Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
+        <entryLink id="22d3-6c9d-5646-d0eb" name="Custom 人物 Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
         <entryLink id="d16e-a9ee-143e-ac0a" name="主将" hidden="false" collective="false" import="true" targetId="8c9b-d95d-cea9-a212" type="selectionEntry"/>
       </entryLinks>
       <costs>
@@ -297,13 +297,13 @@
             </profile>
           </profiles>
           <selectionEntries>
-            <selectionEntry id="884a-9e33-844f-9ce1" name="Laspistol" hidden="false" collective="true" import="true" type="upgrade">
+            <selectionEntry id="884a-9e33-844f-9ce1" name="激光手枪" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff54-6223-6862-4e14" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d98f-ff54-ab04-03a9" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="038b-bba2-808a-e53d" name="Laspistol" hidden="false" targetId="f2b7-768f-a270-de64" type="profile"/>
+                <infoLink id="038b-bba2-808a-e53d" name="激光手枪" hidden="false" targetId="f2b7-768f-a270-de64" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>

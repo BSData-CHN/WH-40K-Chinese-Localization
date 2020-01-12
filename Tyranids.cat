@@ -106,7 +106,7 @@
     <categoryEntry id="dc2c-fdd5-528b-e9ad" name="阵营: &lt;虫巢舰队&gt;" hidden="false"/>
     <categoryEntry id="9c32-eba0-ea9e-1e0d" name="Hive Tyrant" hidden="false"/>
     <categoryEntry id="d482-6830-b5c2-bb33" name="Carnifex" hidden="false"/>
-    <categoryEntry id="df7c-355d-38a6-261f" name="Genestealer" hidden="false"/>
+    <categoryEntry id="df7c-355d-38a6-261f" name="基因窃取者" hidden="false"/>
     <categoryEntry id="cc90-4ec4-47e7-6aaf" name="Lictor" hidden="false"/>
     <categoryEntry id="7b29-b270-99fe-4de7" name="Synapse" hidden="false"/>
     <categoryEntry id="e73a-a897-c34f-6206" name="Zoanthrope" hidden="false"/>
@@ -309,13 +309,13 @@
         </profile>
         <profile id="16de-8e90-9574-508b" name="Brood Telepathy" publicationId="7150-5917-pubN65537" page="84" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">命中骰+1 in the 肉搏阶段 for &lt;虫巢舰队&gt; Genestealer 单位 范围内 6寸 of and 友方 &lt;虫巢舰队&gt; Broodlords.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">命中骰+1 in the 肉搏阶段 for &lt;虫巢舰队&gt; 基因窃取者 单位 范围内 6寸 of and 友方 &lt;虫巢舰队&gt; Broodlords.</characteristic>
           </characteristics>
         </profile>
         <profile id="aad7-01b8-2160-d974" name="Broodlord" hidden="true" typeId="b900-0afb-e411-2cbb" typeName="Keywords">
           <characteristics>
             <characteristic name="Keywords (Faction)" typeId="6b92-2d97-5144-62bc">泰伦, &lt;虫巢舰队&gt;</characteristic>
-            <characteristic name="Keywords (Basic)" typeId="ce6c-4765-4bb8-bd49">Character, 步兵, Genestealer, 灵能者, Synapse, Broodlord</characteristic>
+            <characteristic name="Keywords (Basic)" typeId="ce6c-4765-4bb8-bd49">人物, 步兵, 基因窃取者, 灵能者, Synapse, Broodlord</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -354,8 +354,8 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5e60-fe83-2601-0798" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="2330-8b6f-f898-6270" name="Is a Custom Character" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
-        <entryLink id="ad70-02a6-8ca8-9246" name="Custom Character Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
+        <entryLink id="2330-8b6f-f898-6270" name="Is a Custom 人物" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
+        <entryLink id="ad70-02a6-8ca8-9246" name="Custom 人物 Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
         <entryLink id="959c-16e2-64f3-c223" name="Adaptive Physiology" hidden="false" collective="false" import="true" targetId="ed23-c139-601b-d1f2" type="selectionEntry"/>
         <entryLink id="718e-0057-6475-3030" name="Power: 惩击" hidden="false" collective="false" import="true" targetId="de0e-92ba-1682-b5a0" type="selectionEntry"/>
       </entryLinks>
@@ -795,13 +795,13 @@
         <categoryLink id="ae77-f796-459f-28df" name="New CategoryLink" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="c4f3-a07b-eb36-3bf0" name="Genestealer" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="c4f3-a07b-eb36-3bf0" name="基因窃取者" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a840-d12e-6434-77c8" type="min"/>
             <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="63a1-1317-001b-7867" type="max"/>
           </constraints>
           <profiles>
-            <profile id="1df9-ea04-1c1f-6323" name="Genestealer" publicationId="7150-5917-pubN65537" page="89" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+            <profile id="1df9-ea04-1c1f-6323" name="基因窃取者" publicationId="7150-5917-pubN65537" page="89" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
               <modifiers>
                 <modifier type="set" field="c0df-df94-abd7-e8d3" value="4+/5++">
                   <conditions>
@@ -1436,7 +1436,7 @@
           </modifiers>
           <characteristics>
             <characteristic name="Keywords (Faction)" typeId="6b92-2d97-5144-62bc">泰伦, &lt;虫巢舰队&gt;</characteristic>
-            <characteristic name="Keywords (Basic)" typeId="ce6c-4765-4bb8-bd49">Character, 巨兽, 灵能者, Synapse, Hive Tyrant</characteristic>
+            <characteristic name="Keywords (Basic)" typeId="ce6c-4765-4bb8-bd49">人物, 巨兽, 灵能者, Synapse, Hive Tyrant</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1490,7 +1490,7 @@
             <profile id="be45-fc4e-7e0f-9655" name="Hive Tyrant with Wings" hidden="true" typeId="b900-0afb-e411-2cbb" typeName="Keywords">
               <characteristics>
                 <characteristic name="Keywords (Faction)" typeId="6b92-2d97-5144-62bc">泰伦, &lt;虫巢舰队&gt;</characteristic>
-                <characteristic name="Keywords (Basic)" typeId="ce6c-4765-4bb8-bd49">Character, 巨兽, 灵能者, Synapse, Fly, Hive Tyrant</characteristic>
+                <characteristic name="Keywords (Basic)" typeId="ce6c-4765-4bb8-bd49">人物, 巨兽, 灵能者, Synapse, Fly, Hive Tyrant</characteristic>
               </characteristics>
             </profile>
             <profile id="157e-c6d7-e1aa-0bdb" name="Swooping Assault" publicationId="7150-5917-pubN65537" page="85" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -1599,8 +1599,8 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fb2f-b3ea-8ab3-9c88" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="c13d-ee5b-e8dc-9b82" name="Is a Custom Character" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
-        <entryLink id="b337-93cb-5caf-88f8" name="Custom Character Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
+        <entryLink id="c13d-ee5b-e8dc-9b82" name="Is a Custom 人物" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
+        <entryLink id="b337-93cb-5caf-88f8" name="Custom 人物 Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
         <entryLink id="e7d5-51b5-70b5-a6e3" name="Adaptive Physiology" hidden="false" collective="false" import="true" targetId="ed23-c139-601b-d1f2" type="selectionEntry"/>
         <entryLink id="e881-5ccc-775e-93d5" name="Power: 惩击" hidden="false" collective="false" import="true" targetId="de0e-92ba-1682-b5a0" type="selectionEntry"/>
       </entryLinks>
@@ -2959,7 +2959,7 @@
         <profile id="0fcb-ffda-0946-a999" name="Tervigon" hidden="true" typeId="b900-0afb-e411-2cbb" typeName="Keywords">
           <characteristics>
             <characteristic name="Keywords (Faction)" typeId="6b92-2d97-5144-62bc">泰伦, &lt;虫巢舰队&gt;</characteristic>
-            <characteristic name="Keywords (Basic)" typeId="ce6c-4765-4bb8-bd49">Character, 巨兽, 灵能者, Synapse, Tervigon</characteristic>
+            <characteristic name="Keywords (Basic)" typeId="ce6c-4765-4bb8-bd49">人物, 巨兽, 灵能者, Synapse, Tervigon</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3017,8 +3017,8 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e44c-3845-6a09-e026" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="c6bf-5770-29bc-dceb" name="Is a Custom Character" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
-        <entryLink id="19f0-d0fd-4a19-4f45" name="Custom Character Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
+        <entryLink id="c6bf-5770-29bc-dceb" name="Is a Custom 人物" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
+        <entryLink id="19f0-d0fd-4a19-4f45" name="Custom 人物 Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
         <entryLink id="b64f-fd33-2b75-ab37" name="Adaptive Physiology" hidden="false" collective="false" import="true" targetId="ed23-c139-601b-d1f2" type="selectionEntry"/>
         <entryLink id="bdc7-136a-efaa-8796" name="Power: 惩击" hidden="false" collective="false" import="true" targetId="de0e-92ba-1682-b5a0" type="selectionEntry"/>
       </entryLinks>
@@ -3266,7 +3266,7 @@
         <profile id="0864-a676-9a81-afdf" name="Trygon Prime" hidden="true" typeId="b900-0afb-e411-2cbb" typeName="Keywords">
           <characteristics>
             <characteristic name="Keywords (Faction)" typeId="6b92-2d97-5144-62bc">泰伦, &lt;虫巢舰队&gt;</characteristic>
-            <characteristic name="Keywords (Basic)" typeId="ce6c-4765-4bb8-bd49">巨兽, Character, Synapse, Trygon Prime</characteristic>
+            <characteristic name="Keywords (Basic)" typeId="ce6c-4765-4bb8-bd49">巨兽, 人物, Synapse, Trygon Prime</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3282,7 +3282,7 @@
         <categoryLink id="458c-2000-a713-9734" name="New CategoryLink" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="true"/>
         <categoryLink id="f2aa-ad44-c333-cb34" name="New CategoryLink" hidden="false" targetId="3b77-decb-d468-6bcc" primary="false"/>
         <categoryLink id="2fdb-bf95-6f77-1591" name="New CategoryLink" hidden="false" targetId="7b29-b270-99fe-4de7" primary="false"/>
-        <categoryLink id="7b04-b18b-4d58-00ee" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
+        <categoryLink id="7b04-b18b-4d58-00ee" name="人物" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="cb1c-f094-65bd-54a7" name="Tail Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="8aa6-fcbc-c79c-0497">
@@ -3331,8 +3331,8 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6ddd-f373-c8f9-51cd" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="7a6a-175d-b3c2-f12c" name="Custom Character Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
-        <entryLink id="1c6d-a0ea-e6a8-8942" name="Is a Custom Character" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
+        <entryLink id="7a6a-175d-b3c2-f12c" name="Custom 人物 Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
+        <entryLink id="1c6d-a0ea-e6a8-8942" name="Is a Custom 人物" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
         <entryLink id="cda8-4713-1f29-9012" name="Adaptive Physiology" hidden="false" collective="false" import="true" targetId="ed23-c139-601b-d1f2" type="selectionEntry"/>
       </entryLinks>
       <costs>
@@ -4412,13 +4412,13 @@
         </profile>
         <profile id="a912-7831-ab57-fb1c" name="It&apos;s After Me!" publicationId="7150-5917-pubN65537" page="93" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of the first battle round but before the first turn begins, pick a CHARACTER from the opposing army. You can 重投 命中 and wound 骰 in the 肉搏阶段 for any of Deathleaper&apos;s 攻击 that target that CHARACTER.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of the first battle round but before the first turn begins, pick a 人物 from the opposing army. You can 重投 命中 and wound 骰 in the 肉搏阶段 for any of Deathleaper&apos;s 攻击 that target that 人物.</characteristic>
           </characteristics>
         </profile>
         <profile id="2a2c-f444-9ca7-15f9" name="Deathleaper" hidden="true" typeId="b900-0afb-e411-2cbb" typeName="Keywords">
           <characteristics>
             <characteristic name="Keywords (Faction)" typeId="6b92-2d97-5144-62bc">泰伦, &lt;虫巢舰队&gt;</characteristic>
-            <characteristic name="Keywords (Basic)" typeId="ce6c-4765-4bb8-bd49">Character, 步兵, Lictor, Deathleaper</characteristic>
+            <characteristic name="Keywords (Basic)" typeId="ce6c-4765-4bb8-bd49">人物, 步兵, Lictor, Deathleaper</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4512,7 +4512,7 @@
         <profile id="6937-fb19-3119-6d9a" name="Old One Eye" hidden="true" typeId="b900-0afb-e411-2cbb" typeName="Keywords">
           <characteristics>
             <characteristic name="Keywords (Faction)" typeId="6b92-2d97-5144-62bc">泰伦, &lt;虫巢舰队&gt;</characteristic>
-            <characteristic name="Keywords (Basic)" typeId="ce6c-4765-4bb8-bd49">Character, 巨兽, Carnifex, Old One Eye</characteristic>
+            <characteristic name="Keywords (Basic)" typeId="ce6c-4765-4bb8-bd49">人物, 巨兽, Carnifex, Old One Eye</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4599,7 +4599,7 @@
         <profile id="9d8e-b769-37c9-f311" name="The Red Terror" hidden="true" typeId="b900-0afb-e411-2cbb" typeName="Keywords">
           <characteristics>
             <characteristic name="Keywords (Faction)" typeId="6b92-2d97-5144-62bc">泰伦, &lt;虫巢舰队&gt;</characteristic>
-            <characteristic name="Keywords (Basic)" typeId="ce6c-4765-4bb8-bd49">Character, 步兵, Ravener, The Red Terror</characteristic>
+            <characteristic name="Keywords (Basic)" typeId="ce6c-4765-4bb8-bd49">人物, 步兵, Ravener, The Red Terror</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4706,7 +4706,7 @@
         <profile id="629a-3269-852f-6715" name="The Swarmlord" hidden="true" typeId="b900-0afb-e411-2cbb" typeName="Keywords">
           <characteristics>
             <characteristic name="Keywords (Faction)" typeId="6b92-2d97-5144-62bc">泰伦, &lt;虫巢舰队&gt;</characteristic>
-            <characteristic name="Keywords (Basic)" typeId="ce6c-4765-4bb8-bd49">Character, 巨兽, Hive Tyrant, 灵能者, Synapse, The Swarmlord</characteristic>
+            <characteristic name="Keywords (Basic)" typeId="ce6c-4765-4bb8-bd49">人物, 巨兽, Hive Tyrant, 灵能者, Synapse, The Swarmlord</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4798,7 +4798,7 @@
         <profile id="31bd-40a5-88c3-fd10" name="Tyranid Prime" hidden="true" typeId="b900-0afb-e411-2cbb" typeName="Keywords">
           <characteristics>
             <characteristic name="Keywords (Faction)" typeId="6b92-2d97-5144-62bc">泰伦, &lt;虫巢舰队&gt;</characteristic>
-            <characteristic name="Keywords (Basic)" typeId="ce6c-4765-4bb8-bd49">Character, 步兵, Synapse, Tyranid Prime</characteristic>
+            <characteristic name="Keywords (Basic)" typeId="ce6c-4765-4bb8-bd49">人物, 步兵, Synapse, Tyranid Prime</characteristic>
           </characteristics>
         </profile>
         <profile id="4b0d-45f3-38d8-3497" name="Alpha Warrior" publicationId="7150-5917-pubN65537" page="86" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -4910,8 +4910,8 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="32f4-0f33-5af0-4ad1" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="64f9-2689-c887-a16b" name="Is a Custom Character" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
-        <entryLink id="caee-4f29-db76-6c32" name="Custom Character Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
+        <entryLink id="64f9-2689-c887-a16b" name="Is a Custom 人物" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
+        <entryLink id="caee-4f29-db76-6c32" name="Custom 人物 Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
         <entryLink id="7785-33df-95af-4a42" name="Adaptive Physiology" hidden="false" collective="false" import="true" targetId="ed23-c139-601b-d1f2" type="selectionEntry"/>
       </entryLinks>
       <costs>
@@ -5801,7 +5801,7 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b2e2-50ef-bfed-5f84" name="[Reference] Discipline: Hive Mind" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="b2e2-50ef-bfed-5f84" name="[参考] Discipline: Hive Mind" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="162e-b14c-566c-6073" name="Catalyst" hidden="false" targetId="0e28-706e-4fd4-3e50" type="profile">
           <modifiers>
@@ -6005,7 +6005,7 @@
         </profile>
         <profile id="cb36-e469-3d7f-4d20" name="巨型 巨兽" publicationId="7150-5917-pubN101066" page="19" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A Barbed Hierodule can 撤退 in the 移动阶段 and still shoot and/or charge during its turn. When a Barbed Hierodule 撤退, it can even move over 敌方 步兵模型, though at the end of its move it 必须 more than 1寸 away from 所有 敌方单位. A Barbed Hierodule can shoot even if there are 敌方模型 范围内 1寸 of it, as long as 所有 敌方模型 have the 步兵 关键字. 这种情况下, it can shoot the 敌方单位 that is 范围内 1寸 of it or any other 可见 敌方单位 that is 范围内 range and more than 1寸 away from any 友方模型. 此外, the Barbed Hierodule can move and fire 重型武器 without suffering the penalty to its 命中 骰. Finally, the Barbed Hierodule only gains the benefit of cover if at least half of the 模型 is obscured from the bearer.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A Barbed Hierodule can 撤退 in the 移动阶段 and still shoot and/or charge during its turn. When a Barbed Hierodule 撤退, it can even move over 敌方 步兵模型, though at the end of its move it 必须 more than 1寸 away from 所有 敌方单位. A Barbed Hierodule can shoot even if there are 敌方模型 范围内 1寸 of it, as long as 所有 敌方模型 have the 步兵 关键字. 这种情况下, it can shoot the 敌方单位 that is 范围内 1寸 of it or any other 可见 敌方单位 that is 范围内 range and more than 1寸 away from any 友方模型. 此外, the Barbed Hierodule can move and fire 重型武器 without suffering the penalty to its 命中 骰. Finally, the Barbed Hierodule only 获得 benefit of cover if at least half of the 模型 is obscured from the bearer.</characteristic>
           </characteristics>
         </profile>
         <profile id="a8ee-415f-1c64-45f1" name="Barbed Hierodule" hidden="true" typeId="b900-0afb-e411-2cbb" typeName="Keywords">
@@ -6205,7 +6205,7 @@
         </profile>
         <profile id="699a-fcfb-82c8-47d9" name="Flying 巨型 巨兽" publicationId="7150-5917-pubN101066" page="19" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A Harridan can 撤退 in the 移动阶段 and still shoot and/or charge during its turn. When a Harridan 撤退, it can even move over 敌方 步兵模型, though at the end of its move it 必须 more than 1寸 away from 所有 敌方单位. A Harridan can shoot even if there are 敌方模型 范围内 1寸 of it, as long as 所有 敌方模型 have the 步兵 关键字. 这种情况下, it can shoot the 敌方单位 that is 范围内 1寸 of it or any other 可见 敌方单位 that is 范围内 range and more than 1寸 away from any 友方模型. 此外, the Harridan can move and fire 重型武器 without suffering the penalty to its 命中 骰. Finally, the Harridan only gains the benefit of cover if at least half of the 模型 is obscured from the bearer.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A Harridan can 撤退 in the 移动阶段 and still shoot and/or charge during its turn. When a Harridan 撤退, it can even move over 敌方 步兵模型, though at the end of its move it 必须 more than 1寸 away from 所有 敌方单位. A Harridan can shoot even if there are 敌方模型 范围内 1寸 of it, as long as 所有 敌方模型 have the 步兵 关键字. 这种情况下, it can shoot the 敌方单位 that is 范围内 1寸 of it or any other 可见 敌方单位 that is 范围内 range and more than 1寸 away from any 友方模型. 此外, the Harridan can move and fire 重型武器 without suffering the penalty to its 命中 骰. Finally, the Harridan only 获得 benefit of cover if at least half of the 模型 is obscured from the bearer.</characteristic>
           </characteristics>
         </profile>
         <profile id="9736-ab71-746c-de3d" name="Harridan" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
@@ -6287,7 +6287,7 @@
         <profile id="6f95-c29b-d837-2acc" name="Malanthrope" hidden="true" typeId="b900-0afb-e411-2cbb" typeName="Keywords">
           <characteristics>
             <characteristic name="Keywords (Faction)" typeId="6b92-2d97-5144-62bc">泰伦, &lt;虫巢舰队&gt;</characteristic>
-            <characteristic name="Keywords (Basic)" typeId="ce6c-4765-4bb8-bd49">巨兽, Character, Fly, Malanthrope</characteristic>
+            <characteristic name="Keywords (Basic)" typeId="ce6c-4765-4bb8-bd49">巨兽, 人物, Fly, Malanthrope</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6344,7 +6344,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="f5bd-2184-b333-4ac1" name="Malanthrope (Custom Character)" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="f5bd-2184-b333-4ac1" name="Malanthrope (Custom 人物)" hidden="false" collective="false" import="true" type="model">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -6377,7 +6377,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9079-45fa-d7ce-754e" type="min"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="082c-f6ca-cc37-4ce2" name="Custom Character Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup">
+                <entryLink id="082c-f6ca-cc37-4ce2" name="Custom 人物 Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup">
                   <modifiers>
                     <modifier type="set" field="hidden" value="false"/>
                   </modifiers>
@@ -6528,7 +6528,7 @@
         </profile>
         <profile id="d682-1ce2-2e20-81f8" name="巨型 巨兽" publicationId="7150-5917-pubN101066" page="19" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A Scythed Hierodule can 撤退 in the 移动阶段 and still shoot and/or charge during its turn. When a Scythed Hierodule 撤退, it can even move over 敌方 步兵模型, though at the end of its move it 必须 more than 1寸 away from 所有 敌方单位. A Scythed Hierodule can shoot even if there are 敌方模型 范围内 1寸 of it, as long as 所有 敌方模型 have the 步兵 关键字. 这种情况下, it can shoot the 敌方单位 that is 范围内 1寸 of it or any other 可见 敌方单位 that is 范围内 range and more than 1寸 away from any 友方模型. 此外, the Scythed Hierodule can move and fire 重型武器 without suffering the penalty to its 命中 骰. Finally, the Scythed Hierodule only gains the benefit of cover if at least half of the 模型 is obscured from the bearer.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A Scythed Hierodule can 撤退 in the 移动阶段 and still shoot and/or charge during its turn. When a Scythed Hierodule 撤退, it can even move over 敌方 步兵模型, though at the end of its move it 必须 more than 1寸 away from 所有 敌方单位. A Scythed Hierodule can shoot even if there are 敌方模型 范围内 1寸 of it, as long as 所有 敌方模型 have the 步兵 关键字. 这种情况下, it can shoot the 敌方单位 that is 范围内 1寸 of it or any other 可见 敌方单位 that is 范围内 range and more than 1寸 away from any 友方模型. 此外, the Scythed Hierodule can move and fire 重型武器 without suffering the penalty to its 命中 骰. Finally, the Scythed Hierodule only 获得 benefit of cover if at least half of the 模型 is obscured from the bearer.</characteristic>
           </characteristics>
         </profile>
         <profile id="e1a5-bc54-40a5-d19e" name="Scythed Hierodule" hidden="true" typeId="b900-0afb-e411-2cbb" typeName="Keywords">
@@ -6640,7 +6640,7 @@
         </profile>
         <profile id="e31b-5933-1a4b-5224" name="巨型 巨兽" publicationId="7150-5917-pubN101066" page="20" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A Hierophant Bio-泰坦 can 撤退 in the 移动阶段 and still shoot and/or charge during its turn. When a Hierophant Bio-泰坦 撤退, it can even move over 敌方 步兵模型, though at the end of its move it 必须 more than 1寸 away from 所有 敌方单位. A Hierophant Bio-泰坦 can shoot even if there are 敌方模型 范围内 1寸 of it, as long as 所有 敌方模型 have the 步兵 关键字. 这种情况下, it can shoot the 敌方单位 that is 范围内 1寸 of it or any other 可见 敌方单位 that is 范围内 range and more than 1寸 away from any 友方模型. 此外, the Hierophant Bio-泰坦 can move and fire 重型武器 without suffering the penalty to its 命中 骰. Finally, the Hierophant Bio-泰坦 only gains the benefit of cover if at least half of the 模型 is obscured from the bearer.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A Hierophant Bio-泰坦 can 撤退 in the 移动阶段 and still shoot and/or charge during its turn. When a Hierophant Bio-泰坦 撤退, it can even move over 敌方 步兵模型, though at the end of its move it 必须 more than 1寸 away from 所有 敌方单位. A Hierophant Bio-泰坦 can shoot even if there are 敌方模型 范围内 1寸 of it, as long as 所有 敌方模型 have the 步兵 关键字. 这种情况下, it can shoot the 敌方单位 that is 范围内 1寸 of it or any other 可见 敌方单位 that is 范围内 range and more than 1寸 away from any 友方模型. 此外, the Hierophant Bio-泰坦 can move and fire 重型武器 without suffering the penalty to its 命中 骰. Finally, the Hierophant Bio-泰坦 only 获得 benefit of cover if at least half of the 模型 is obscured from the bearer.</characteristic>
           </characteristics>
         </profile>
         <profile id="b45b-d17c-7722-1954" name="Hierophant Bio-泰坦" hidden="true" typeId="b900-0afb-e411-2cbb" typeName="Keywords">
@@ -6704,7 +6704,7 @@
               <profiles>
                 <profile id="88e2-5521-556f-569d" name="Swarm Incubation Chamber" publicationId="7150-5917-pubN101066" page="20" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A Hierophant Bio-泰坦 with this ability gains the TRANSPORT 关键字, and 可以运输 至多 20 &lt;虫巢舰队&gt; GENESTEALERS, TERMAGANTS or HORMAGAUNTS, or a 单位 of 至多 6 HIVE GUARD, TYRANT GUARD or TYRANID WARRIORS. It may also transport a single &lt;虫巢舰队&gt; TYRANID PRIME or BROODLORD.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A Hierophant Bio-泰坦 with this ability 获得 TRANSPORT 关键字, and 可以运输 至多 20 &lt;虫巢舰队&gt; GENESTEALERS, TERMAGANTS or HORMAGAUNTS, or a 单位 of 至多 6 HIVE GUARD, TYRANT GUARD or TYRANID WARRIORS. It may also transport a single &lt;虫巢舰队&gt; TYRANID PRIME or BROODLORD.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7730,7 +7730,7 @@
         <profile id="383f-e9b9-f130-f4f2" name="Neurothrope" hidden="true" typeId="b900-0afb-e411-2cbb" typeName="Keywords">
           <characteristics>
             <characteristic name="Keywords (Faction)" typeId="6b92-2d97-5144-62bc">泰伦, &lt;虫巢舰队&gt;</characteristic>
-            <characteristic name="Keywords (Basic)" typeId="ce6c-4765-4bb8-bd49">Character, Fly, 步兵, Zoanthrope, 灵能者, Synapse, Neurothrope</characteristic>
+            <characteristic name="Keywords (Basic)" typeId="ce6c-4765-4bb8-bd49">人物, Fly, 步兵, Zoanthrope, 灵能者, Synapse, Neurothrope</characteristic>
           </characteristics>
         </profile>
         <profile id="ddb3-da0c-92ed-b1ca" name="Neurothrope" hidden="false" typeId="bc97-dea9-9e88-bb7d" typeName="灵能者">
@@ -7786,8 +7786,8 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5c70-8d8e-113a-3e1c" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="ff8a-d002-8da6-104c" name="Is a Custom Character" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
-        <entryLink id="7adb-3451-1e28-2884" name="Custom Character Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
+        <entryLink id="ff8a-d002-8da6-104c" name="Is a Custom 人物" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
+        <entryLink id="7adb-3451-1e28-2884" name="Custom 人物 Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
         <entryLink id="e5eb-a26f-58a7-f0bf" name="Adaptive Physiology" hidden="false" collective="false" import="true" targetId="ed23-c139-601b-d1f2" type="selectionEntry"/>
         <entryLink id="e81b-41b3-e7ab-165b" name="Power: 惩击" hidden="false" collective="false" import="true" targetId="de0e-92ba-1682-b5a0" type="selectionEntry"/>
       </entryLinks>
@@ -8027,7 +8027,7 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="dc31-a954-25ed-be9a" name="[Reference] Extensions of the Hive Mind" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="dc31-a954-25ed-be9a" name="[参考] Extensions of the Hive Mind" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="c604-fa36-ecce-8543" name="Extensions of the Hive Mind" publicationId="7150-5917-pubN65537" page="116" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
@@ -8137,7 +8137,7 @@
               <profiles>
                 <profile id="1082-336d-afda-69b7" name="Unnatural Reactions" publicationId="f000-7b0c-01bf-7630" page="76" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个单位 can perform Heroic Interventions as if it were a CHARACTER. 此外, 这个单位 can perform a Heroic Intervention if there are 敌方单位 范围内 6寸 of them 而不是 3寸, and when doing so 可以移动至多 6寸 而不是 3寸.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个单位 can perform Heroic Interventions as if it were a 人物. 此外, 这个单位 can perform a Heroic Intervention if there are 敌方单位 范围内 6寸 of them 而不是 3寸, and when doing so 可以移动至多 6寸 而不是 3寸.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -8208,7 +8208,7 @@
               <profiles>
                 <profile id="a670-3dfe-f96a-93b7" name="Synaptic Enhancement" publicationId="f000-7b0c-01bf-7630" page="77" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 gains the Shadow in the Warp and Synapse abilities (see 圣典: 泰伦), and gains the SYNAPSE 关键字.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 获得 Shadow in the Warp and Synapse abilities (see 圣典: 泰伦), and 获得 SYNAPSE 关键字.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -9278,7 +9278,7 @@
           <selectionEntries>
             <selectionEntry id="1ac1-fc4b-273a-173d" name="1. Alien Cunning" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
-                <modifier type="set" field="name" value="Warlord Trait: Alien Cunning"/>
+                <modifier type="set" field="name" value="主将特性: Alien Cunning"/>
                 <modifier type="set" field="hidden" value="true">
                   <conditionGroups>
                     <conditionGroup type="or">
@@ -9309,7 +9309,7 @@
             </selectionEntry>
             <selectionEntry id="942d-cb3d-b245-1450" name="2. Heightened Senses" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
-                <modifier type="set" field="name" value="Warlord Trait: Heightened Senses"/>
+                <modifier type="set" field="name" value="主将特性: Heightened Senses"/>
                 <modifier type="set" field="hidden" value="true">
                   <conditionGroups>
                     <conditionGroup type="or">
@@ -9340,7 +9340,7 @@
             </selectionEntry>
             <selectionEntry id="101e-24a3-ec94-9119" name="3. Synaptic Lynchpin" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
-                <modifier type="set" field="name" value="Warlord Trait: Synaptic Lynchpin"/>
+                <modifier type="set" field="name" value="主将特性: Synaptic Lynchpin"/>
                 <modifier type="set" field="hidden" value="true">
                   <conditionGroups>
                     <conditionGroup type="or">
@@ -9372,7 +9372,7 @@
             </selectionEntry>
             <selectionEntry id="9248-5937-3434-37a5" name="4. Mind Eater" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
-                <modifier type="set" field="name" value="Warlord Trait: Mind Eater"/>
+                <modifier type="set" field="name" value="主将特性: Mind Eater"/>
                 <modifier type="set" field="hidden" value="true">
                   <conditionGroups>
                     <conditionGroup type="or">
@@ -9391,7 +9391,7 @@
               <profiles>
                 <profile id="1fb5-1c0b-7b3c-05db" name="Mind Eater" publicationId="7150-5917-pubN65537" page="124" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 the 主将 slays an 敌方 CHARACTER in the 肉搏阶段, choose a 友方 &lt;虫巢舰队&gt; 单位 范围内 3寸. 在阶段结束时, 那个单位 can move (and Advance if you wish) as if it was your 移动阶段.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 the 主将 slays an 敌方 人物 in the 肉搏阶段, choose a 友方 &lt;虫巢舰队&gt; 单位 范围内 3寸. 在阶段结束时, 那个单位 can move (and Advance if you wish) as if it was your 移动阶段.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -9403,7 +9403,7 @@
             </selectionEntry>
             <selectionEntry id="9179-7949-c275-8568" name="5. Instinctive Killer" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
-                <modifier type="set" field="name" value="Warlord Trait: Instinctive Killer"/>
+                <modifier type="set" field="name" value="主将特性: Instinctive Killer"/>
                 <modifier type="set" field="hidden" value="true">
                   <conditionGroups>
                     <conditionGroup type="or">
@@ -9435,7 +9435,7 @@
             </selectionEntry>
             <selectionEntry id="7647-ea87-0427-b47d" name="6. Adaptive Biology" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
-                <modifier type="set" field="name" value="Warlord Trait: Adaptive Biology"/>
+                <modifier type="set" field="name" value="主将特性: Adaptive Biology"/>
                 <modifier type="set" field="hidden" value="true">
                   <conditionGroups>
                     <conditionGroup type="or">
@@ -9476,7 +9476,7 @@
                     </conditionGroup>
                   </conditionGroups>
                 </modifier>
-                <modifier type="set" field="name" value="Warlord Trait: Monstrous Hunger"/>
+                <modifier type="set" field="name" value="主将特性: Monstrous Hunger"/>
                 <modifier type="set" field="hidden" value="true">
                   <conditionGroups>
                     <conditionGroup type="or">
@@ -9518,7 +9518,7 @@
                     </conditionGroup>
                   </conditionGroups>
                 </modifier>
-                <modifier type="set" field="name" value="Warlord Trait: One Step Ahead"/>
+                <modifier type="set" field="name" value="主将特性: One Step Ahead"/>
                 <modifier type="set" field="hidden" value="true">
                   <conditionGroups>
                     <conditionGroup type="or">
@@ -9560,7 +9560,7 @@
                     </conditionGroup>
                   </conditionGroups>
                 </modifier>
-                <modifier type="set" field="name" value="Warlord Trait: Soul Hunger"/>
+                <modifier type="set" field="name" value="主将特性: Soul Hunger"/>
                 <modifier type="set" field="hidden" value="true">
                   <conditionGroups>
                     <conditionGroup type="or">
@@ -9602,7 +9602,7 @@
                     </conditionGroup>
                   </conditionGroups>
                 </modifier>
-                <modifier type="set" field="name" value="Warlord Trait: Perfectly Adapted"/>
+                <modifier type="set" field="name" value="主将特性: Perfectly Adapted"/>
                 <modifier type="set" field="hidden" value="true">
                   <conditionGroups>
                     <conditionGroup type="or">
@@ -9644,7 +9644,7 @@
                     </conditionGroup>
                   </conditionGroups>
                 </modifier>
-                <modifier type="set" field="name" value="Warlord Trait: Lethal Miasma"/>
+                <modifier type="set" field="name" value="主将特性: Lethal Miasma"/>
                 <modifier type="set" field="hidden" value="true">
                   <conditionGroups>
                     <conditionGroup type="or">
@@ -9686,7 +9686,7 @@
                     </conditionGroup>
                   </conditionGroups>
                 </modifier>
-                <modifier type="set" field="name" value="Warlord Trait: Insidious Threat"/>
+                <modifier type="set" field="name" value="主将特性: Insidious Threat"/>
                 <modifier type="set" field="hidden" value="true">
                   <conditionGroups>
                     <conditionGroup type="or">
@@ -9728,7 +9728,7 @@
                     </conditionGroup>
                   </conditionGroups>
                 </modifier>
-                <modifier type="set" field="name" value="Warlord Trait: Endless Regeneration"/>
+                <modifier type="set" field="name" value="主将特性: Endless Regeneration"/>
                 <modifier type="set" field="hidden" value="true">
                   <conditionGroups>
                     <conditionGroup type="or">
@@ -10688,7 +10688,7 @@
     </profile>
     <profile id="b830-920a-231b-073d" name="Instinctive Behaviour" publicationId="7150-5917-pubN65537" page="82" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Unless a &lt;虫巢舰队&gt; 单位 with this ability is 范围内 24寸 of any 友方 &lt;虫巢舰队&gt; Synapse 单位, you 必须 减少 1 from any 命中 骰 made for it when 射击 any target other than the nearest 可见 敌方单位, and you 必须 减少 2 from its charge roll if it declares a charge 对抗 任何单位 other than the nearest 敌方单位.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Unless a &lt;虫巢舰队&gt; 单位 with this ability is 范围内 24寸 of any 友方 &lt;虫巢舰队&gt; Synapse 单位, you 必须 减少 1 from 任何命中 骰 made for it when 射击 any target other than the nearest 可见 敌方单位, and you 必须 减少 2 from its charge roll if it declares a charge 对抗 任何单位 other than the nearest 敌方单位.</characteristic>
       </characteristics>
     </profile>
     <profile id="80e2-63ea-dc79-e5c7" name="Psychic Scream" publicationId="7150-5917-pubN65537" page="121" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">

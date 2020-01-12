@@ -3173,8 +3173,8 @@
         </entryLink>
         <entryLink id="c8ff-730c-6401-86a8" name="主将" hidden="false" collective="false" import="true" targetId="01cf-00c7-c4af-701b" type="selectionEntry"/>
         <entryLink id="5935-3ea0-3bd7-0e93" name="主将特性" hidden="false" collective="false" import="true" targetId="4f55-3af3-89ff-791e" type="selectionEntryGroup"/>
-        <entryLink id="e93d-401c-6209-6820" name="Is a Custom Character" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
-        <entryLink id="54dc-06aa-163a-3087" name="Custom Character Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
+        <entryLink id="e93d-401c-6209-6820" name="Is a Custom 人物" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
+        <entryLink id="54dc-06aa-163a-3087" name="Custom 人物 Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
         <entryLink id="2077-3f7b-570a-d5a1" name="战略: 战地指挥官 (-1 CP)" hidden="false" collective="false" import="true" targetId="d043-3847-e963-fb5d" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
@@ -5682,7 +5682,7 @@
         </profile>
         <profile id="9f6b-b72a-0f99-e3b7" name="Matrial Superiority" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 is 范围内 1寸 of any 敌方 CHARACTER 模型 at the start of the 肉搏阶段, it can fight first in that 肉搏阶段, even if it did not charge. If the 敌方 has 单位 that have charged or that have a similar ability, then alternate choosing 单位 to fight with, starting with the player whose turn is taking place.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 is 范围内 1寸 of any 敌方 人物 模型 at the start of the 肉搏阶段, it can fight first in that 肉搏阶段, even if it did not charge. If the 敌方 has 单位 that have charged or that have a similar ability, then alternate choosing 单位 to fight with, starting with the player whose turn is taking place.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11416,7 +11416,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
                   <profiles>
                     <profile id="d1db-9c38-546c-0a21" name="Born Heroes " hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">CHARACTER 单位 with this tactic can perform a Heroic Intervention if there are any 敌方单位 范围内 6寸 of them 而不是 3寸, and when doing so 可以移动至多 6寸 而不是 3寸.</characteristic>
+                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">人物 单位 with this tactic can perform a Heroic Intervention if there are any 敌方单位 范围内 6寸 of them 而不是 3寸, and when doing so 可以移动至多 6寸 而不是 3寸.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -12357,7 +12357,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="3668-3938-57a9-1928" name="Sergeant Chronus (Tank Commander)" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+        <profile id="3668-3938-57a9-1928" name="Sergeant Chronus (坦克指挥官)" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">-</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">-</characteristic>
@@ -12383,7 +12383,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
             <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="9a16-9e88-af34-a60c" name="Tank Commander" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="9a16-9e88-af34-a60c" name="坦克指挥官" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Sergeant Chronus always begins the game commanding a 载具. Whilst commanding the 载具, use that 载具&apos;s normal profile, 武器, abilities, keywords, and characteristics, with the exception of its Ballistic Skill - use Sergeant Chronus&apos; Ballistic Skill of 2+ when firing with the vechicle instead. If Sergeant Chronus is commanding a 载具 at the start of your turn, he can restore one lost wounds it has suffered.  If Sergeant Chronus&apos; 载具 has been reduced to 0 wounds, set him up 范围内 3寸 before removing the 载具 from the battlefield. He is treated as a passenger disembarking from a destroyed transport. Assuming he survives, Sergeant Chronus then uses the 步兵 profile above and the keywords below. He is equipped with a bolt pistol, 伺服臂, and frag and krak grenades.</characteristic>
           </characteristics>
@@ -13096,7 +13096,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
       </infoLinks>
       <categoryLinks>
         <categoryLink id="b3ff-17e5-fd0f-ddea" name="黑圣堂" hidden="false" targetId="a6c0-28c2-e5f6-9af7" primary="false"/>
-        <categoryLink id="2246-e62c-3f1e-7800" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
+        <categoryLink id="2246-e62c-3f1e-7800" name="人物" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
         <categoryLink id="87c3-1365-e8cf-cf17" name="Emperor&apos;s Champion" hidden="false" targetId="5d23-3296-acc5-4889" primary="false"/>
         <categoryLink id="4337-d4f6-233b-2216" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false"/>
         <categoryLink id="feb9-3505-fbd3-7875" name="步兵" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
@@ -13117,7 +13117,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">+2</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">You can 重投 any 失败的 wound 骰 when attacking with 这个武器 if the target is a CHARACTER or a 巨兽.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">You can 重投 any 失败的 wound 骰 when attacking with 这个武器 if the target is a 人物 or a 巨兽.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13773,7 +13773,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
             <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 can target a CHARACTER 单位 even if it is not the closest 敌方单位. When resolving an attack made with 这个武器, a wound roll of 6+ inflicts 1 致命伤 对目标 此外 to any other 伤害</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 can target a 人物 单位 even if it is not the closest 敌方单位. When resolving an attack made with 这个武器, a wound roll of 6+ inflicts 1 致命伤 对目标 此外 to any other 伤害</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -14046,7 +14046,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 has Strength x2 if the target is a CHARACTER.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 has Strength x2 if the target is a 人物.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -14648,7 +14648,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
             <characteristic name="S" typeId="59b1-319e-ec13-d466">0</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">0</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">A shock grenade doesn&apos;t inflict any 伤害. Instead, 每次 a shock grenade 命中 an 敌方 步兵单位, it is stunned until the end of the turn - it cannot fire 坚守射击 and your opponent 必须 减少 1 from any 命中 骰 made for the 单位. Second and subsequent 命中 from a shock grenade have no additional 效果.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">A shock grenade doesn&apos;t inflict any 伤害. Instead, 每次 a shock grenade 命中 an 敌方 步兵单位, it is stunned until the end of the turn - it cannot fire 坚守射击 and your opponent 必须 减少 1 from 任何命中 骰 made for the 单位. Second and subsequent 命中 from a shock grenade have no additional 效果.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -16315,12 +16315,12 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
       <profiles>
         <profile id="ce48-cd3e-0c2b-0aa7" name="Honour Guard of Macragge" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">投掷1个D6 每次 a 友方 ULTRAMARINES CHARACTER 失去1点W whilst they are 范围内 3寸 of 这个单位; 结果为2+ a 模型 from 这个单位 can intercept that 命中 - that ULTRAMARINES CHARACTER does not lose a wound but 这个单位 遭受 1点致命伤.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">投掷1个D6 每次 a 友方 ULTRAMARINES 人物 失去1点W whilst they are 范围内 3寸 of 这个单位; 结果为2+ a 模型 from 这个单位 can intercept that 命中 - that ULTRAMARINES 人物 does not lose a wound but 这个单位 遭受 1点致命伤.</characteristic>
           </characteristics>
         </profile>
         <profile id="0a74-d894-7b88-059e" name="Heroes of Ultramar" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个单位 can perform Heroic Intervention as if they were a CHARACTER.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个单位 can perform Heroic Intervention as if they were a 人物.</characteristic>
           </characteristics>
         </profile>
         <profile id="7dca-34d1-770c-12ad" name="Calgar&apos;s Honour Guard" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -16501,7 +16501,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
         <categoryLink id="da87-eb5f-71e5-6fe8" name="帝国" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false"/>
         <categoryLink id="df2b-82d7-9555-cd69" name="阿斯塔特修会" hidden="false" targetId="c7b7-edbc-bc14-6238" primary="false"/>
         <categoryLink id="b339-5c7d-a4bb-3d10" name="极限战士" hidden="false" targetId="80e7-f1d9-9195-7944" primary="false"/>
-        <categoryLink id="1ef5-432d-3a0e-144c" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
+        <categoryLink id="1ef5-432d-3a0e-144c" name="人物" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
         <categoryLink id="b3b3-0a20-7274-8569" name="步兵" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
         <categoryLink id="a08c-1843-d730-15f4" name="战团长" hidden="false" targetId="7dbf-fe75-1337-8efe" primary="false"/>
         <categoryLink id="6d04-4c7f-e969-9fc0" name="Marneus Calgar" hidden="false" targetId="f03d-1d11-7bda-1ea4" primary="false"/>
@@ -16921,7 +16921,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
       <categoryLinks>
         <categoryLink id="eb42-bfc1-f5d7-e6eb" name="阵营: 帝国" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false"/>
         <categoryLink id="b4f0-36ba-04c8-5955" name="阵营: 阿斯塔特修会" hidden="false" targetId="c7b7-edbc-bc14-6238" primary="false"/>
-        <categoryLink id="5fc6-796f-3950-dbab" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
+        <categoryLink id="5fc6-796f-3950-dbab" name="人物" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
         <categoryLink id="17b5-2263-5f6c-1f74" name="步兵" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
         <categoryLink id="8115-f3da-04e3-7c77" name="先锋军" hidden="false" targetId="5b58-36bd-930c-e8be" primary="false"/>
         <categoryLink id="8013-9d69-3d8a-b005" name="原铸" hidden="false" targetId="53b7-cff3-c3b4-d36a" primary="false"/>
@@ -17118,7 +17118,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
       <categoryLinks>
         <categoryLink id="d27b-9af5-0206-1282" name="阵营: 帝国" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false"/>
         <categoryLink id="0edb-a343-fd46-d883" name="阵营: 阿斯塔特修会" hidden="false" targetId="c7b7-edbc-bc14-6238" primary="false"/>
-        <categoryLink id="f750-289e-4d86-a010" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
+        <categoryLink id="f750-289e-4d86-a010" name="人物" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
         <categoryLink id="e671-f888-a194-6cef" name="步兵" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
         <categoryLink id="8fa3-4205-015f-afdb" name="先锋军" hidden="false" targetId="5b58-36bd-930c-e8be" primary="false"/>
         <categoryLink id="980e-c5ba-23da-d642" name="原铸" hidden="false" targetId="53b7-cff3-c3b4-d36a" primary="false"/>
@@ -17495,7 +17495,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
       <categoryLinks>
         <categoryLink id="52e6-be1d-b104-bd06" name="阵营: 帝国" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false"/>
         <categoryLink id="7af3-f6be-28ef-1de2" name="阵营: 阿斯塔特修会" hidden="false" targetId="c7b7-edbc-bc14-6238" primary="false"/>
-        <categoryLink id="1b67-d500-a1da-f7cb" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
+        <categoryLink id="1b67-d500-a1da-f7cb" name="人物" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
         <categoryLink id="38a1-1a4e-75e6-153e" name="步兵" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
         <categoryLink id="4872-0e60-bbe7-4fc7" name="先锋军" hidden="false" targetId="5b58-36bd-930c-e8be" primary="false"/>
         <categoryLink id="318e-a23b-4b1b-3359" name="原铸" hidden="false" targetId="53b7-cff3-c3b4-d36a" primary="false"/>
@@ -17515,7 +17515,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 can target a CHARACTER even if it it not the closest 敌方单位.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 can target a 人物 even if it it not the closest 敌方单位.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -17839,7 +17839,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
             <characteristic name="S" typeId="59b1-319e-ec13-d466">-</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">-</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 can target a CHARACTER even if it is not the closest 敌方单位. 此外, when attacking with 这个武器, choose one of the profiles below.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 can target a 人物 even if it is not the closest 敌方单位. 此外, when attacking with 这个武器, choose one of the profiles below.</characteristic>
           </characteristics>
         </profile>
         <profile id="d128-c467-6225-c852" name="Bolt sniper rifle - Executioner round" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -17869,7 +17869,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
             <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 can target a CHARACTER 单位 even if it is not the closest 敌方单位.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 can target a 人物 单位 even if it is not the closest 敌方单位.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -18357,7 +18357,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
       <categoryLinks>
         <categoryLink id="24fc-e169-2aa7-909c" name="旗手" hidden="false" targetId="2d28-8fed-1b2d-1999" primary="false"/>
         <categoryLink id="7bd3-dfbc-e236-87ad" name="终结者" hidden="false" targetId="dde8-898c-1e03-99e5" primary="false"/>
-        <categoryLink id="b9c1-02d2-9e77-e8be" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
+        <categoryLink id="b9c1-02d2-9e77-e8be" name="人物" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
         <categoryLink id="55e3-e3be-ae94-d812" name="阵营: 阿斯塔特修会" hidden="false" targetId="c7b7-edbc-bc14-6238" primary="false"/>
         <categoryLink id="c2fc-48f5-860c-f575" name="阵营: 帝国" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false"/>
         <categoryLink id="7206-c56f-4ec7-2db3" name="步兵" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
@@ -18543,7 +18543,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
               <profiles>
                 <profile id="e30f-299b-2b69-9097" name="Orbital Comms Array" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">In your 射击阶段, one 模型 from your army with an orbital comms array that has not been used this battle can use it to call in an orbital barrage. If it does, select one point 战场上 and 投掷1个D6 for each 单位 范围内 D6寸 of that point, subtracting 1 from the result if the 单位 being rolled for is a CHARACTER. 结果为4+ the 单位 being rolled for 遭受 D3 致命伤.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">In your 射击阶段, one 模型 from your army with an orbital comms array that has not been used this battle can use it to call in an orbital barrage. If it does, select one point 战场上 and 投掷1个D6 for each 单位 范围内 D6寸 of that point, subtracting 1 from the result if the 单位 being rolled for is a 人物. 结果为4+ the 单位 being rolled for 遭受 D3 致命伤.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -19348,7 +19348,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
         <categoryLink id="8c47-653f-5c15-9787" name="阵营: 帝国" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false"/>
         <categoryLink id="3dc4-508b-fbf3-d2c4" name="阵营: 阿斯塔特修会" hidden="false" targetId="c7b7-edbc-bc14-6238" primary="false"/>
         <categoryLink id="61e8-02ac-6f8e-68f5" name="白疤" hidden="false" targetId="4bc8-f25c-c7ca-5b6b" primary="false"/>
-        <categoryLink id="e45d-2acf-2dfb-5873" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
+        <categoryLink id="e45d-2acf-2dfb-5873" name="人物" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
         <categoryLink id="1c2f-90c9-b915-92fc" name="连长" hidden="false" targetId="8352-7f67-7e2b-3b4f" primary="false"/>
         <categoryLink id="5bcc-d307-f26b-4127" name="Kor&apos;sarro Khan" hidden="false" targetId="d5ca-2a13-4e72-72ba" primary="false"/>
         <categoryLink id="0b12-bfc9-e9a7-22ac" name="步兵" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
@@ -19369,7 +19369,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">+2</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When resolving an attack made with 这个武器 对抗 a CHARACTER 单位, you can 重投 the wound roll and you can 重投 the 伤害 roll.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When resolving an attack made with 这个武器 对抗 a 人物 单位, you can 重投 the wound roll and you can 重投 the 伤害 roll.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -19521,7 +19521,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
             <characteristic name="S" typeId="59b1-319e-ec13-d466">-</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">-</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 can target a CHARACTER even if it is not the closest 敌方单位. 此外, when attacking with 这个武器, choose one of the profiles below.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 can target a 人物 even if it is not the closest 敌方单位. 此外, when attacking with 这个武器, choose one of the profiles below.</characteristic>
           </characteristics>
         </profile>
         <profile id="5469-c7dd-ac2f-f8d8" name="Bolt sniper rifle - Executioner round" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -19541,7 +19541,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
             <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 can target a CHARACTER 单位 even if it is not the closest 敌方单位.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 can target a 人物 单位 even if it is not the closest 敌方单位.</characteristic>
           </characteristics>
         </profile>
         <profile id="591f-30fb-eb78-fea8" name="Bolt sniper rifle - Mortis round" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -20005,7 +20005,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
       </infoLinks>
       <categoryLinks>
         <categoryLink id="dd71-7270-0a85-9b54" name="连长" hidden="false" targetId="8352-7f67-7e2b-3b4f" primary="false"/>
-        <categoryLink id="bcd8-a472-c6ec-bc9d" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
+        <categoryLink id="bcd8-a472-c6ec-bc9d" name="人物" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
         <categoryLink id="3cd5-3acb-76cd-85b3" name="阵营: 阿斯塔特修会" hidden="false" targetId="c7b7-edbc-bc14-6238" primary="false"/>
         <categoryLink id="4c5d-f469-549a-e003" name="阵营: 帝国" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false"/>
         <categoryLink id="1a24-d05f-ba6c-988d" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
@@ -20932,7 +20932,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
         <categoryLink id="31b0-d434-1a5b-db47" name="阵营: 帝国" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false"/>
         <categoryLink id="be9a-4ec9-1a4e-2194" name="阵营: 阿斯塔特修会" hidden="false" targetId="c7b7-edbc-bc14-6238" primary="false"/>
         <categoryLink id="f112-1e73-ad9d-750d" name="白疤" hidden="false" targetId="4bc8-f25c-c7ca-5b6b" primary="false"/>
-        <categoryLink id="3f3e-5034-44b8-3a81" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
+        <categoryLink id="3f3e-5034-44b8-3a81" name="人物" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
         <categoryLink id="174d-03c4-b4b5-ab9a" name="连长" hidden="false" targetId="8352-7f67-7e2b-3b4f" primary="false"/>
         <categoryLink id="4882-23bd-8423-0eff" name="Kor&apos;sarro Khan" hidden="false" targetId="d5ca-2a13-4e72-72ba" primary="false"/>
         <categoryLink id="0014-478d-80ec-1f29" name="步兵" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
@@ -20953,7 +20953,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">+2</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When resolving an attack made with 这个武器 对抗 a CHARACTER 单位, you can 重投 the wound roll and you can 重投 the 伤害 roll.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When resolving an attack made with 这个武器 对抗 a 人物 单位, you can 重投 the wound roll and you can 重投 the 伤害 roll.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -22397,7 +22397,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">+1</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When the bearer fights, it makes 1 additional attack with 这个武器. 此外, when resolving an attack made with 这个武器 对抗 a CHARACTER 单位, 这个武器 拥有 D值 of 3</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When the bearer fights, it makes 1 additional attack with 这个武器. 此外, when resolving an attack made with 这个武器 对抗 a 人物 单位, 这个武器 拥有 D值 of 3</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -22432,7 +22432,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 can target a CHARACTER 单位 even if it is not the closest 敌方单位. When resolving an attack made with 这个武器, you can add 1 to the 命中 roll.此外, when resolving an attack made with 这个武器, the target does not receive the benefit of cover to its saving throw.</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 can target a 人物 单位 even if it is not the closest 敌方单位. When resolving an attack made with 这个武器, you can add 1 to the 命中 roll.此外, when resolving an attack made with 这个武器, the target does not receive the benefit of cover to its saving throw.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -23273,7 +23273,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
               <profiles>
                 <profile id="99d5-6266-cfc2-e40a" name="Champion of Humanity" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to this Warlord’s A值 whilst there are any 敌方 CHARACTER 单位 范围内 1寸 of them. When resolving an attack made with a 肉搏武器 by 这个主将 对抗 a CHARACTER 单位, add 1 to the 命中 roll and wound roll.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to this Warlord’s A值 whilst there are any 敌方 人物 单位 范围内 1寸 of them. When resolving an attack made with a 肉搏武器 by 这个主将 对抗 a 人物 单位, add 1 to the 命中 roll and wound roll.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -23835,7 +23835,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
               <profiles>
                 <profile id="5c2a-59e9-5291-4bb8" name="Trophy Taker" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When 这个主将 destroys an 敌方 CHARACTER model, add 1 to their A值 until the end of the battle.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When 这个主将 destroys an 敌方 人物 model, add 1 to their A值 until the end of the battle.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -24312,7 +24312,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
               <profiles>
                 <profile id="66fd-880d-866c-41e8" name="Fleetmaster" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, at the end of your 肉搏阶段, if 这个主将 remained stationary and did not make any 攻击 this turn it can call down an orbital strike. If it does, select one point 战场上 and 投掷1个D6 for each 单位 范围内 D6寸 of that point, subtracting 1 from the result if the 单位 being rolled for is a CHARACTER. 结果为4+ the 单位 being rolled for 遭受 D3 致命伤. </characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, at the end of your 肉搏阶段, if 这个主将 remained stationary and did not make any 攻击 this turn it can call down an orbital strike. If it does, select one point 战场上 and 投掷1个D6 for each 单位 范围内 D6寸 of that point, subtracting 1 from the result if the 单位 being rolled for is a 人物. 结果为4+ the 单位 being rolled for 遭受 D3 致命伤. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -24863,7 +24863,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
               <characteristics>
                 <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">6</characteristic>
                 <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
-                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, select an 敌方模型 范围内 18寸 of and 可见 to the 灵能者. That 模型的 单位 遭受 1点致命伤. If your army is Battle-forged, and the 模型 you chose was a CHARACTER, you can then roll 3D6. If the result is equal to or higher than that 模型的 LD值, you gain 1 指挥点数.</characteristic>
+                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, select an 敌方模型 范围内 18寸 of and 可见 to the 灵能者. That 模型的 单位 遭受 1点致命伤. If your army is Battle-forged, and the 模型 you chose was a 人物, you can then roll 3D6. If the result is equal to or higher than that 模型的 LD值, you gain 1 指挥点数.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -25612,7 +25612,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="3b38-5418-4ae0-ec8d" name="Teeth of Mars" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="3b38-5418-4ae0-ec8d" name="Teeth of 火星" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -25624,7 +25624,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1b1a-4d55-520f-99e3" type="max"/>
               </constraints>
               <profiles>
-                <profile id="ebbf-5581-7c02-c8eb" name="Teeth of Mars" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="ebbf-5581-7c02-c8eb" name="Teeth of 火星" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -25768,7 +25768,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 can target a CHARACTER 单位 even if it is not the closest 敌方单位. mwhen resolving an attack made with 这个武器, you can add 1 to the 命中 roll</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 can target a 人物 单位 even if it is not the closest 敌方单位. mwhen resolving an attack made with 这个武器, you can add 1 to the 命中 roll</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -27127,17 +27127,17 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
     </profile>
     <profile id="9324-447f-0ae6-0bc3" name="Honour or Death" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 必须 perform a Heroic Intervention if it is able to do so. It can perform a Heroic Intervention if there are any 敌方单位 范围内 6寸 of it 而不是 3寸 if any of those 敌方单位 is a CHARACTER, and when doing so 可以移动至多 6寸 而不是 3寸 so long as it ends that move closer to the closest 敌方 CHARACTER model</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 必须 perform a Heroic Intervention if it is able to do so. It can perform a Heroic Intervention if there are any 敌方单位 范围内 6寸 of it 而不是 3寸 if any of those 敌方单位 is a 人物, and when doing so 可以移动至多 6寸 而不是 3寸 so long as it ends that move closer to the closest 敌方 人物 model</characteristic>
       </characteristics>
     </profile>
     <profile id="d488-59b5-28cb-96fd" name="Command Squad Bodyguard" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Roll a dice 每次 a 友方 &lt;人物&gt; CHARACTER 失去1点W whilst they are 范围内 3寸 of 这个单位; 结果为2+ a 模型 from this squad can intercept that 命中 - the charater does not lose a wound but this unt 遭受 1点致命伤.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Roll a dice 每次 a 友方 &lt;人物&gt; 人物 失去1点W whilst they are 范围内 3寸 of 这个单位; 结果为2+ a 模型 from this squad can intercept that 命中 - the charater does not lose a wound but this unt 遭受 1点致命伤.</characteristic>
       </characteristics>
     </profile>
     <profile id="bde4-2791-d683-a7ed" name="摩托 Bodyguard" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Roll a dice 每次 a 友方 &lt;人物&gt; 摩托 CHARACTER 失去1点W whilst they are 范围内 3寸 of 这个单位; 结果为2+ a 模型 from this squad can intercept that 命中 - the charater does not lose a wound but this unt 遭受 1点致命伤.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Roll a dice 每次 a 友方 &lt;人物&gt; 摩托 人物 失去1点W whilst they are 范围内 3寸 of 这个单位; 结果为2+ a 模型 from this squad can intercept that 命中 - the charater does not lose a wound but this unt 遭受 1点致命伤.</characteristic>
       </characteristics>
     </profile>
     <profile id="3e31-4e4b-6ab6-d90b" name="Combat Squads" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -27847,17 +27847,17 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
     </profile>
     <profile id="7cbf-7a62-18e3-6b18" name="Superlative Duellist" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made with a 肉搏武器 by 这个模型 对抗 a CHARACTER 单位, you can 重投 the 命中 roll and you can reroll the wound roll. </characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made with a 肉搏武器 by 这个模型 对抗 a 人物 单位, you can 重投 the 命中 roll and you can reroll the wound roll. </characteristic>
       </characteristics>
     </profile>
     <profile id="c1ae-78d7-31b4-55ea" name="Martial Superiority" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 is 范围内 1寸 of any 敌方 CHARACTER 模型 at the start of the 肉搏阶段, it can fight first in the 肉搏阶段, even if it did not charge.  If the 敌方 has 单位 that have charged, or that have a similar ability, then alternate choosing 单位 to fight with, starting with the player who&apos;s turn is taking place. </characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 is 范围内 1寸 of any 敌方 人物 模型 at the start of the 肉搏阶段, it can fight first in the 肉搏阶段, even if it did not charge.  If the 敌方 has 单位 that have charged, or that have a similar ability, then alternate choosing 单位 to fight with, starting with the player who&apos;s turn is taking place. </characteristic>
       </characteristics>
     </profile>
     <profile id="0e8b-44ab-6b00-31ae" name="Orbital Comms Array" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">In your 射击阶段, one 模型 from your army with an Orbital Comms Array that has not been used this battle can use it to call an orbital barrage. If it does select a point 战场上 and 投掷1个D6 for each 单位 范围内 D6&quot; of that point, subtracting 1 from the result if the 单位 being rolled for is a CHARACTER. 结果为4+ 那个单位 遭受 D3 致命伤. </characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">In your 射击阶段, one 模型 from your army with an Orbital Comms Array that has not been used this battle can use it to call an orbital barrage. If it does select a point 战场上 and 投掷1个D6 for each 单位 范围内 D6&quot; of that point, subtracting 1 from the result if the 单位 being rolled for is a 人物. 结果为4+ 那个单位 遭受 D3 致命伤. </characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

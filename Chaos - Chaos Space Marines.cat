@@ -703,7 +703,7 @@
         <categoryLink id="41fc-8898-8074-e205" name="New CategoryLink" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="0cb3-da2d-a0ac-d421" name="Field Commander" hidden="false" collective="false" import="true" targetId="7f22-c028-b4c2-5705" type="selectionEntry"/>
+    <entryLink id="0cb3-da2d-a0ac-d421" name="战地指挥官" hidden="false" collective="false" import="true" targetId="7f22-c028-b4c2-5705" type="selectionEntry"/>
     <entryLink id="7fd0-6a12-0f85-17f9" name="Noctilith Crown" hidden="false" collective="false" import="true" targetId="6825-fb23-c2ae-158b" type="selectionEntry"/>
     <entryLink id="6eec-84eb-b57a-41e5" name="Master of Executions" hidden="false" collective="false" import="true" targetId="c795-4e34-a710-9224" type="selectionEntry"/>
     <entryLink id="89a0-1098-6ee9-d917" name="Lord Discordant on Helstalker" hidden="false" collective="false" import="true" targetId="f4e6-255e-5ba6-72f7" type="selectionEntry"/>
@@ -1231,13 +1231,13 @@
       <description>If your army is Battle-forged, 所有 Troops 单位 in Chaos Space Marine Detachments gain this ability. Such a 单位 that is 范围内 range of an objective marker (as specified in the mission) controls that objective marker even if there are more 敌方模型 范围内 range of it. If an 敌方单位 范围内 range of the same objective marker 拥有 similar ability, then the objective marker is controlled by the player who has the most 模型 范围内 range as normal.</description>
     </rule>
     <rule id="7dec-bbba-9283-4893" name="Daemonic Ritual" hidden="false">
-      <description>而不是 moving in their 移动阶段, any CHAOS CHARACTER can, at the end of their 移动阶段, attempt to summon a 恶魔 单位 with this ability by performing a Daemonic Ritual (the character cannot do so if they arrived as reinforcements this turn, or if they themselves have been summoned to the battlefield this turn).
+      <description>而不是 moving in their 移动阶段, any CHAOS 人物 can, at the end of their 移动阶段, attempt to summon a 恶魔 单位 with this ability by performing a Daemonic Ritual (the 人物 cannot do so if they arrived as reinforcements this turn, or if they themselves have been summoned to the battlefield this turn).
 
-If they do, first choose one of the four Chaos Gods - 恐虐, 奸奇, 纳垢, or 色孽. A CHARACTER who owes allegiance to one of the Dark Gods can only attempt to summon the 单位 of their patron - for example, a 恐虐 CHARACTER could only attempt to summon 恐虐 恶魔.
+If they do, first choose one of the four Chaos Gods - 恐虐, 奸奇, 纳垢, or 色孽. A 人物 who owes allegiance to one of the Dark Gods can only attempt to summon the 单位 of their patron - for example, a 恐虐 人物 could only attempt to summon 恐虐 恶魔.
 
-Roll 至多 3 dice - this is your summoning roll. You can summon one new 单位 with the Daemonic Ritual ability to the battlefield that 拥有 Power Rating equal to or less than the total result so long as it has the same Chaos God 关键字 you chose at the start. 这个单位 is treated as reinforcements for your army and can be placed 任何位置 战场上 that is wholly 范围内 12&quot; of the character and is more than 9&quot; from 任何敌方模型. If the total rolled is insufficient to summon any 单位, the ritual fails and no new 单位 is summoned.
+Roll 至多 3 dice - this is your summoning roll. You can summon one new 单位 with the Daemonic Ritual ability to the battlefield that 拥有 Power Rating equal to or less than the total result so long as it has the same Chaos God 关键字 you chose at the start. 这个单位 is treated as reinforcements for your army and can be placed 任何位置 战场上 that is wholly 范围内 12&quot; of the 人物 and is more than 9&quot; from 任何敌方模型. If the total rolled is insufficient to summon any 单位, the ritual fails and no new 单位 is summoned.
 
-If your summoning roll included any doubles, your character then 遭受 1点致命伤. If it contained any triples, it instead 遭受 D3 致命伤.</description>
+If your summoning roll included any doubles, your 人物 then 遭受 1点致命伤. If it contained any triples, it instead 遭受 D3 致命伤.</description>
     </rule>
     <rule id="3f88-ffc2-dc81-0672" name="Reavers and Despoilers" hidden="true">
       <modifiers>
@@ -1826,8 +1826,8 @@ If your summoning roll included any doubles, your character then 遭受 1点致�
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed94-a782-ae04-3c31" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="e69a-ed3b-8cc7-2730" name="Is a Custom Character" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
-        <entryLink id="c2ed-0ed2-a8c5-7b99" name="Custom Character Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
+        <entryLink id="e69a-ed3b-8cc7-2730" name="Is a Custom 人物" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
+        <entryLink id="c2ed-0ed2-a8c5-7b99" name="Custom 人物 Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
         <entryLink id="a009-f906-7f40-c547" name="Warlord Traits (Specialist)" hidden="false" collective="false" import="true" targetId="b18e-298b-df58-c375" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
@@ -2442,8 +2442,8 @@ If your summoning roll included any doubles, your character then 遭受 1点致�
           </constraints>
         </entryLink>
         <entryLink id="ada7-e804-237d-5d78" name="主将特性" hidden="false" collective="false" import="true" targetId="b34c-6c4b-d22c-25b5" type="selectionEntryGroup"/>
-        <entryLink id="c9f9-82c9-feea-6682" name="Is a Custom Character" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
-        <entryLink id="1c2f-6488-2d47-ef71" name="Custom Character Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
+        <entryLink id="c9f9-82c9-feea-6682" name="Is a Custom 人物" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
+        <entryLink id="1c2f-6488-2d47-ef71" name="Custom 人物 Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
         <entryLink id="8750-cf31-0d8b-7a5d" name="Warlord Traits (Specialist)" hidden="false" collective="false" import="true" targetId="b18e-298b-df58-c375" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
@@ -2611,8 +2611,8 @@ If your summoning roll included any doubles, your character then 遭受 1点致�
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="618c-8b44-b947-c72e" name="Is a Custom Character" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
-        <entryLink id="da8e-38e9-9fc0-5862" name="Custom Character Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
+        <entryLink id="618c-8b44-b947-c72e" name="Is a Custom 人物" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
+        <entryLink id="da8e-38e9-9fc0-5862" name="Custom 人物 Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
         <entryLink id="731a-98d3-33e9-6333" name="Warlord Traits (Specialist)" hidden="false" collective="false" import="true" targetId="b18e-298b-df58-c375" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
@@ -4086,7 +4086,7 @@ If your summoning roll included any doubles, your character then 遭受 1点致�
         </profile>
         <profile id="0012-7e7a-f5a7-5891" name="Duellist&apos;s Pride" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If Lucius the Eternal directs 所有 of his 攻击 对抗 a single 敌方 Character, roll an extra 2 攻击. These extra 攻击 必须 also be directed at that character.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If Lucius the Eternal directs 所有 of his 攻击 对抗 a single 敌方 人物, roll an extra 2 攻击. These extra 攻击 必须 also be directed at that 人物.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5203,8 +5203,8 @@ If your summoning roll included any doubles, your character then 遭受 1点致�
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="4981-9290-9ba0-19f2" name="Is a Custom Character" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
-        <entryLink id="e267-ed36-60b2-ef88" name="Custom Character Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
+        <entryLink id="4981-9290-9ba0-19f2" name="Is a Custom 人物" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
+        <entryLink id="e267-ed36-60b2-ef88" name="Custom 人物 Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
         <entryLink id="8abd-92dc-437c-3ec9" name="Warlord Traits (Specialist)" hidden="false" collective="false" import="true" targetId="b18e-298b-df58-c375" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
@@ -5418,8 +5418,8 @@ If your summoning roll included any doubles, your character then 遭受 1点致�
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="086f-d2a0-09fb-684f" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="5e02-5034-f070-e277" name="Is a Custom Character" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
-        <entryLink id="7f6d-e65a-2ce8-edbd" name="Custom Character Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
+        <entryLink id="5e02-5034-f070-e277" name="Is a Custom 人物" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
+        <entryLink id="7f6d-e65a-2ce8-edbd" name="Custom 人物 Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
         <entryLink id="56a0-2176-7a56-3ed3" name="Warlord Traits (Specialist)" hidden="false" collective="false" import="true" targetId="b18e-298b-df58-c375" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
@@ -5506,8 +5506,8 @@ If your summoning roll included any doubles, your character then 遭受 1点致�
           </constraints>
         </entryLink>
         <entryLink id="59e3-e7a6-da0e-07fb" name="主将特性" hidden="false" collective="false" import="true" targetId="b34c-6c4b-d22c-25b5" type="selectionEntryGroup"/>
-        <entryLink id="e9d6-aaa3-2fa4-b09b" name="Is a Custom Character" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
-        <entryLink id="f9a1-263c-f0dd-5230" name="Custom Character Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
+        <entryLink id="e9d6-aaa3-2fa4-b09b" name="Is a Custom 人物" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
+        <entryLink id="f9a1-263c-f0dd-5230" name="Custom 人物 Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
         <entryLink id="d71e-3055-f71d-9d82" name="Warlord Traits (Specialist)" hidden="false" collective="false" import="true" targetId="b18e-298b-df58-c375" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
@@ -5587,8 +5587,8 @@ If your summoning roll included any doubles, your character then 遭受 1点致�
           </constraints>
         </entryLink>
         <entryLink id="5bb8-2acf-ea42-68a6" name="主将特性" hidden="false" collective="false" import="true" targetId="b34c-6c4b-d22c-25b5" type="selectionEntryGroup"/>
-        <entryLink id="8edd-c112-01c8-d5f8" name="Is a Custom Character" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
-        <entryLink id="b5ef-3e34-9209-47f9" name="Custom Character Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
+        <entryLink id="8edd-c112-01c8-d5f8" name="Is a Custom 人物" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
+        <entryLink id="b5ef-3e34-9209-47f9" name="Custom 人物 Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
         <entryLink id="5cb6-9a13-29b2-ed95" name="Warlord Traits (Specialist)" hidden="false" collective="false" import="true" targetId="b18e-298b-df58-c375" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
@@ -5694,8 +5694,8 @@ If your summoning roll included any doubles, your character then 遭受 1点致�
           </constraints>
         </entryLink>
         <entryLink id="c9e2-f1c9-87c3-325f" name="主将特性" hidden="false" collective="false" import="true" targetId="b34c-6c4b-d22c-25b5" type="selectionEntryGroup"/>
-        <entryLink id="8247-4f66-5238-aa9b" name="Is a Custom Character" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
-        <entryLink id="cd76-2786-f6ad-9711" name="Custom Character Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
+        <entryLink id="8247-4f66-5238-aa9b" name="Is a Custom 人物" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
+        <entryLink id="cd76-2786-f6ad-9711" name="Custom 人物 Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
         <entryLink id="b3c9-7e84-4922-fea9" name="Warlord Traits (Specialist)" hidden="false" collective="false" import="true" targetId="b18e-298b-df58-c375" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
@@ -5805,8 +5805,8 @@ If your summoning roll included any doubles, your character then 遭受 1点致�
           </constraints>
         </entryLink>
         <entryLink id="f6e2-2116-e698-e2c2" name="主将特性" hidden="false" collective="false" import="true" targetId="b34c-6c4b-d22c-25b5" type="selectionEntryGroup"/>
-        <entryLink id="796b-600a-f797-8da2" name="Is a Custom Character" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
-        <entryLink id="6a46-99a3-7e9f-6d2f" name="Custom Character Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
+        <entryLink id="796b-600a-f797-8da2" name="Is a Custom 人物" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
+        <entryLink id="6a46-99a3-7e9f-6d2f" name="Custom 人物 Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
         <entryLink id="8c24-ee49-b70b-b0f2" name="Warlord Traits (Specialist)" hidden="false" collective="false" import="true" targetId="b18e-298b-df58-c375" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
@@ -5911,8 +5911,8 @@ If your summoning roll included any doubles, your character then 遭受 1点致�
           </constraints>
         </entryLink>
         <entryLink id="0a48-9a93-5a49-5740" name="主将特性" hidden="false" collective="false" import="true" targetId="b34c-6c4b-d22c-25b5" type="selectionEntryGroup"/>
-        <entryLink id="3e66-87a5-16b9-8f2b" name="Is a Custom Character" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
-        <entryLink id="8fe0-2360-094f-6703" name="Custom Character Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
+        <entryLink id="3e66-87a5-16b9-8f2b" name="Is a Custom 人物" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
+        <entryLink id="8fe0-2360-094f-6703" name="Custom 人物 Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
         <entryLink id="44e3-4a86-8e4c-2298" name="Warlord Traits (Specialist)" hidden="false" collective="false" import="true" targetId="b18e-298b-df58-c375" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
@@ -6018,8 +6018,8 @@ If your summoning roll included any doubles, your character then 遭受 1点致�
           </constraints>
         </entryLink>
         <entryLink id="48b5-67c3-80be-fb13" name="主将特性" hidden="false" collective="false" import="true" targetId="b34c-6c4b-d22c-25b5" type="selectionEntryGroup"/>
-        <entryLink id="d7ef-7138-8ab6-2aaf" name="Is a Custom Character" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
-        <entryLink id="476e-4d20-51c5-c51a" name="Custom Character Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
+        <entryLink id="d7ef-7138-8ab6-2aaf" name="Is a Custom 人物" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
+        <entryLink id="476e-4d20-51c5-c51a" name="Custom 人物 Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
         <entryLink id="72e8-240a-76f0-a5d2" name="Warlord Traits (Specialist)" hidden="false" collective="false" import="true" targetId="b18e-298b-df58-c375" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
@@ -6094,8 +6094,8 @@ If your summoning roll included any doubles, your character then 遭受 1点致�
           </constraints>
         </entryLink>
         <entryLink id="3b2e-17df-6b65-4a3c" name="主将特性" hidden="false" collective="false" import="true" targetId="b34c-6c4b-d22c-25b5" type="selectionEntryGroup"/>
-        <entryLink id="4ff8-c3be-0f0a-8866" name="Is a Custom Character" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
-        <entryLink id="6add-4e10-1d9f-7d50" name="Custom Character Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
+        <entryLink id="4ff8-c3be-0f0a-8866" name="Is a Custom 人物" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
+        <entryLink id="6add-4e10-1d9f-7d50" name="Custom 人物 Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
         <entryLink id="ce27-7106-09af-19a3" name="Warlord Traits (Specialist)" hidden="false" collective="false" import="true" targetId="b18e-298b-df58-c375" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
@@ -6206,8 +6206,8 @@ If your summoning roll included any doubles, your character then 遭受 1点致�
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="4517-5bfa-9741-eabf" name="Is a Custom Character" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
-        <entryLink id="d072-8597-b24c-b253" name="Custom Character Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
+        <entryLink id="4517-5bfa-9741-eabf" name="Is a Custom 人物" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
+        <entryLink id="d072-8597-b24c-b253" name="Custom 人物 Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
         <entryLink id="d84a-e1a5-fb42-b160" name="Warlord Traits (Specialist)" hidden="false" collective="false" import="true" targetId="b18e-298b-df58-c375" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
@@ -6364,8 +6364,8 @@ If your summoning roll included any doubles, your character then 遭受 1点致�
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="16c4-8a49-8d51-edf3" name="Is a Custom Character" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
-        <entryLink id="6f6e-02da-3840-d37e" name="Custom Character Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
+        <entryLink id="16c4-8a49-8d51-edf3" name="Is a Custom 人物" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
+        <entryLink id="6f6e-02da-3840-d37e" name="Custom 人物 Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
         <entryLink id="0957-c156-ad3d-86a5" name="Warlord Traits (Specialist)" hidden="false" collective="false" import="true" targetId="b18e-298b-df58-c375" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
@@ -6549,8 +6549,8 @@ If your summoning roll included any doubles, your character then 遭受 1点致�
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="940e-d76d-573a-3c07" name="Is a Custom Character" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
-        <entryLink id="31a5-e82a-6a49-e08f" name="Custom Character Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
+        <entryLink id="940e-d76d-573a-3c07" name="Is a Custom 人物" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
+        <entryLink id="31a5-e82a-6a49-e08f" name="Custom 人物 Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
         <entryLink id="6c66-e19d-5c11-75e1" name="Warlord Traits (Specialist)" hidden="false" collective="false" import="true" targetId="b18e-298b-df58-c375" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
@@ -6727,8 +6727,8 @@ If your summoning roll included any doubles, your character then 遭受 1点致�
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="c08b-ef5b-c2a2-00c7" name="Is a Custom Character" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
-        <entryLink id="ea6d-f8b7-ed77-ca77" name="Custom Character Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
+        <entryLink id="c08b-ef5b-c2a2-00c7" name="Is a Custom 人物" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
+        <entryLink id="ea6d-f8b7-ed77-ca77" name="Custom 人物 Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
         <entryLink id="a9b8-7b9b-8671-4ddd" name="Warlord Traits (Specialist)" hidden="false" collective="false" import="true" targetId="b18e-298b-df58-c375" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
@@ -6906,8 +6906,8 @@ If your summoning roll included any doubles, your character then 遭受 1点致�
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="dff2-3b53-e4ff-3da6" name="Is a Custom Character" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
-        <entryLink id="5ef5-3df4-2fee-9f4f" name="Custom Character Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
+        <entryLink id="dff2-3b53-e4ff-3da6" name="Is a Custom 人物" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
+        <entryLink id="5ef5-3df4-2fee-9f4f" name="Custom 人物 Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
         <entryLink id="4bf1-01da-b691-5809" name="Warlord Traits (Specialist)" hidden="false" collective="false" import="true" targetId="b18e-298b-df58-c375" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
@@ -7060,8 +7060,8 @@ If your summoning roll included any doubles, your character then 遭受 1点致�
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="56e8-68fa-8137-52dc" name="Is a Custom Character" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
-        <entryLink id="30ff-d982-bb68-3c89" name="Custom Character Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
+        <entryLink id="56e8-68fa-8137-52dc" name="Is a Custom 人物" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
+        <entryLink id="30ff-d982-bb68-3c89" name="Custom 人物 Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
         <entryLink id="eadc-34f0-4a50-b186" name="Warlord Traits (Specialist)" hidden="false" collective="false" import="true" targetId="b18e-298b-df58-c375" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
@@ -7094,7 +7094,7 @@ If your summoning roll included any doubles, your character then 遭受 1点致�
       <profiles>
         <profile id="3ce1-ad54-409c-f107" name="Icon of Excess" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果1个单位 has an Icon of Excess, its Death to the False Emperor ability takes efffect on any 命中 骰 of 5+, rather than 6+.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果1个单位 has an Icon of Excess, its Death to the False Emperor ability takes efffect on 任何命中 骰 of 5+, rather than 6+.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10192,7 +10192,7 @@ If your summoning roll included any doubles, your character then 遭受 1点致�
           <characteristics>
             <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">6</characteristic>
             <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">6&quot;</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, select an 敌方单位 that is 范围内 6&quot; of the 灵能者 and 可见 to him and 投掷1个D6. If the result is greater than the 敌方&apos;s Toughness, it 遭受 D3+3 致命伤. If a Character is slain by this power, you can add a Chaos Spawn to your army 范围内 6&quot; of the character and more than 1&quot; from 任何敌方模型 before they are removed as a casualty.</characteristic>
+            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, select an 敌方单位 that is 范围内 6&quot; of the 灵能者 and 可见 to him and 投掷1个D6. If the result is greater than the 敌方&apos;s Toughness, it 遭受 D3+3 致命伤. If a 人物 is slain by this power, you can add a Chaos Spawn to your army 范围内 6&quot; of the 人物 and more than 1&quot; from 任何敌方模型 before they are removed as a casualty.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10448,7 +10448,7 @@ If your summoning roll included any doubles, your character then 遭受 1点致�
             <characteristic name="S" typeId="59b1-319e-ec13-d466">+1</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">At the start of the first battle round but before the first turn has begun, you 必须 nominate one 敌方 CHARACTER to be the target of the bearer of the Murder Sword (this can be a character not yet set up 战场上). Remember to tell your opponent which character you have nominated. 每次攻击 made with the Murder Sword that 命中 the selected character 自动 inflicts 1点致命伤 upon that character 而不是 the normal 伤害.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">At the start of the first battle round but before the first turn has begun, you 必须 nominate one 敌方 人物 to be the target of the bearer of the Murder Sword (this can be a 人物 not yet set up 战场上). Remember to tell your opponent which 人物 you have nominated. 每次攻击 made with the Murder Sword that 命中 the selected 人物 自动 inflicts 1点致命伤 upon that 人物 而不是 the normal 伤害.</characteristic>
           </characteristics>
         </profile>
         <profile id="4077-c7d8-c4c8-a795" name="The Murder Sword" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -10605,7 +10605,7 @@ If your summoning roll included any doubles, your character then 遭受 1点致�
             <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 can be fired 范围内 1&quot; of an 敌方单位, and can target 敌方单位 范围内 1&quot; of 友方单位. If an 敌方 CHARACTER 模型 is wounded by Blissgiver but not slain, 投掷1个D6 在阶段结束时, 结果为6, they suffer D3 致命伤.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 can be fired 范围内 1&quot; of an 敌方单位, and can target 敌方单位 范围内 1&quot; of 友方单位. If an 敌方 人物 模型 is wounded by Blissgiver but not slain, 投掷1个D6 在阶段结束时, 结果为6, they suffer D3 致命伤.</characteristic>
           </characteristics>
         </profile>
         <profile id="5d6b-fb35-59a5-c342" name="Blissgiver" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -10676,8 +10676,8 @@ If your summoning roll included any doubles, your character then 遭受 1点致�
           </constraints>
         </entryLink>
         <entryLink id="a74c-3f0e-e914-ef0a" name="主将特性" hidden="false" collective="false" import="true" targetId="b34c-6c4b-d22c-25b5" type="selectionEntryGroup"/>
-        <entryLink id="12be-ed6a-ecea-abe9" name="Is a Custom Character" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
-        <entryLink id="34bf-b809-9d00-4549" name="Custom Character Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
+        <entryLink id="12be-ed6a-ecea-abe9" name="Is a Custom 人物" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
+        <entryLink id="34bf-b809-9d00-4549" name="Custom 人物 Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
         <entryLink id="476c-301a-6726-f923" name="Warlord Traits (Specialist)" hidden="false" collective="false" import="true" targetId="b18e-298b-df58-c375" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
@@ -11257,8 +11257,8 @@ If your summoning roll included any doubles, your character then 遭受 1点致�
           </constraints>
         </entryLink>
         <entryLink id="9b93-fa9c-44b8-71f6" name="Artefacts of Chaos" hidden="false" collective="false" import="true" targetId="5876-fcc5-8283-1aca" type="selectionEntryGroup"/>
-        <entryLink id="1c9b-4d9a-9bef-db74" name="Is a Custom Character" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
-        <entryLink id="d275-3b5b-b550-a5de" name="Custom Character Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
+        <entryLink id="1c9b-4d9a-9bef-db74" name="Is a Custom 人物" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
+        <entryLink id="d275-3b5b-b550-a5de" name="Custom 人物 Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
         <entryLink id="2f78-673c-5f8b-fcc6" name="Warlord Traits (Specialist)" hidden="false" collective="false" import="true" targetId="b18e-298b-df58-c375" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
@@ -11293,7 +11293,7 @@ If your summoning roll included any doubles, your character then 遭受 1点致�
             <characteristic name="S" typeId="59b1-319e-ec13-d466">-</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Successful 命中 骰 with 这个武器 inflict 致命伤. If any 命中 roll made in a given phase with 这个武器 results in a score of a &apos;1&apos;, then the firing 单位 遭受 one 致命伤 在阶段结束时.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Successful 命中 骰 with 这个武器 inflict 致命伤. If 任何命中 roll made in a given phase with 这个武器 results in a score of a &apos;1&apos;, then the firing 单位 遭受 one 致命伤 在阶段结束时.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11365,7 +11365,7 @@ If your summoning roll included any doubles, your character then 遭受 1点致�
         <categoryLink id="0a29-e5fc-a6f2-929d" name="阵营: Chaos" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
         <categoryLink id="affc-f849-b898-19fc" name="阵营: 阿斯塔特叛军" hidden="false" targetId="ca10-a5dd-f54f-0ed5" primary="false"/>
         <categoryLink id="8023-d81b-0be7-ee9b" name="阵营: &lt;军团&gt;" hidden="false" targetId="b2b6-8e4a-9c74-cc37" primary="false"/>
-        <categoryLink id="72e8-8d2c-053d-b32b" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
+        <categoryLink id="72e8-8d2c-053d-b32b" name="人物" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
         <categoryLink id="8019-4b5a-12da-c163" name="步兵" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
         <categoryLink id="6621-a070-8fe2-97b1" name="战争铁匠" hidden="false" targetId="b36f-fae2-eca4-6d1f" primary="false"/>
       </categoryLinks>
@@ -11463,8 +11463,8 @@ If your summoning roll included any doubles, your character then 遭受 1点致�
         <entryLink id="9c3a-76af-fbde-5f63" name="Mark of Chaos" hidden="false" collective="false" import="true" targetId="45e8-d3d1-105b-90a3" type="selectionEntryGroup"/>
         <entryLink id="d0ca-f7be-8e9e-c218" name="主将特性" hidden="false" collective="false" import="true" targetId="b34c-6c4b-d22c-25b5" type="selectionEntryGroup"/>
         <entryLink id="5b2f-a98f-35e6-692b" name="Artefacts of Chaos" hidden="false" collective="false" import="true" targetId="5876-fcc5-8283-1aca" type="selectionEntryGroup"/>
-        <entryLink id="f049-19bd-4a33-e867" name="Is a Custom Character" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
-        <entryLink id="9987-6273-cc44-650c" name="Custom Character Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
+        <entryLink id="f049-19bd-4a33-e867" name="Is a Custom 人物" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
+        <entryLink id="9987-6273-cc44-650c" name="Custom 人物 Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
         <entryLink id="9e22-77df-4ee1-6eef" name="Warlord Traits (Specialist)" hidden="false" collective="false" import="true" targetId="b18e-298b-df58-c375" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
@@ -11726,7 +11726,7 @@ If your summoning roll included any doubles, your character then 遭受 1点致�
             <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When targeting a CHARACTER model, every wound roll of 6+ inflicts becomes AP -4 and 伤害 3. Roll saves for these wounds separately.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When targeting a 人物 model, every wound roll of 6+ inflicts becomes AP -4 and 伤害 3. Roll saves for these wounds separately.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11825,7 +11825,7 @@ If your summoning roll included any doubles, your character then 遭受 1点致�
         </profile>
         <profile id="8ec5-a908-1d19-58f8" name="Head-claimer" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 an 敌方 CHARACTER is slain by an attack made by 这个模型, add 1 to 这个模型’s A值.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 an 敌方 人物 is slain by an attack made by 这个模型, add 1 to 这个模型’s A值.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11847,7 +11847,7 @@ If your summoning roll included any doubles, your character then 遭受 1点致�
         <categoryLink id="f50e-23f2-e8dc-1ff1" name="混沌" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
         <categoryLink id="8095-0611-9eaa-64e7" name="阵营: 阿斯塔特叛军" hidden="false" targetId="ca10-a5dd-f54f-0ed5" primary="false"/>
         <categoryLink id="a255-d282-1835-c3a4" name="阵营: 黑军团" hidden="false" targetId="1f29-4695-dfe7-e893" primary="false"/>
-        <categoryLink id="eaae-6bd7-61ba-ef96" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
+        <categoryLink id="eaae-6bd7-61ba-ef96" name="人物" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
         <categoryLink id="338e-a077-da7f-7dda" name="步兵" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
         <categoryLink id="e934-9694-eccf-ccc6" name="Raptor" hidden="false" targetId="826d-b98f-849c-2494" primary="false"/>
         <categoryLink id="002f-a4bf-435f-aa9a" name="跳跃背包" hidden="false" targetId="f627-f23e-a3b4-dc2c" primary="false"/>
@@ -11935,7 +11935,7 @@ If your summoning roll included any doubles, your character then 遭受 1点致�
         <categoryLink id="ad43-dc9a-dd5c-472f" name="阵营: 阿斯塔特叛军" hidden="false" targetId="ca10-a5dd-f54f-0ed5" primary="false"/>
         <categoryLink id="c822-1efb-6bf7-cc65" name="阵营: 黑军团" hidden="false" targetId="1f29-4695-dfe7-e893" primary="false"/>
         <categoryLink id="8361-b40e-8603-c265" name="阵营: Servants of the Abyss" hidden="false" targetId="48ea-dc35-3421-1d44" primary="false"/>
-        <categoryLink id="fa31-f141-03c6-7ae1" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
+        <categoryLink id="fa31-f141-03c6-7ae1" name="人物" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
         <categoryLink id="aa7b-718f-dae2-2dbe" name="步兵" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
         <categoryLink id="4e7f-3e68-6a99-90bc" name="混沌领主" hidden="false" targetId="eb55-bd6b-3e75-d505" primary="false"/>
         <categoryLink id="3941-0c50-e2a4-3063" name="Obsidius Mallex" hidden="false" targetId="cbd3-b114-7523-5776" primary="false"/>
@@ -12028,7 +12028,7 @@ If your summoning roll included any doubles, your character then 遭受 1点致�
         <categoryLink id="347f-6d37-c037-9e6d" name="&lt;混沌印记&gt;" hidden="false" targetId="a61a-08c8-c7f7-9f78" primary="false"/>
         <categoryLink id="136a-eeb7-0325-05a1" name="阵营: 阿斯塔特叛军" hidden="false" targetId="ca10-a5dd-f54f-0ed5" primary="false"/>
         <categoryLink id="08c1-c0d6-6ee6-64de" name="阵营: &lt;军团&gt;" hidden="false" targetId="b2b6-8e4a-9c74-cc37" primary="false"/>
-        <categoryLink id="b738-cc30-0972-7d67" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
+        <categoryLink id="b738-cc30-0972-7d67" name="人物" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
         <categoryLink id="e274-c5eb-32ad-619b" name="步兵" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
         <categoryLink id="4c4c-9832-c961-9f7c" name="灵能者" hidden="false" targetId="e691-aad7-d21c-1023" primary="false"/>
         <categoryLink id="4237-00b9-ecee-ee9e" name="Master of Possession" hidden="false" targetId="5eb2-4f76-c46f-9530" primary="false"/>
@@ -12090,8 +12090,8 @@ If your summoning roll included any doubles, your character then 遭受 1点致�
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="7f8f-2a8d-b6e7-3c0b" name="Is a Custom Character" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
-        <entryLink id="3c9c-1ae3-0fbf-fa24" name="Custom Character Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
+        <entryLink id="7f8f-2a8d-b6e7-3c0b" name="Is a Custom 人物" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
+        <entryLink id="3c9c-1ae3-0fbf-fa24" name="Custom 人物 Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
         <entryLink id="de99-218d-9acd-350c" name="Artefacts of Chaos (Reaver)" hidden="false" collective="false" import="true" targetId="c524-957d-6e90-c45b" type="selectionEntryGroup"/>
         <entryLink id="3dad-1265-4ba3-4ac1" name="Reaver Lord Artefact" hidden="false" collective="false" import="true" targetId="eed7-3e77-45e0-fa17" type="selectionEntry"/>
         <entryLink id="e4e3-e5f0-02b2-2c33" name="We Are Alpharius" hidden="false" collective="false" import="true" targetId="2633-9684-dace-c39c" type="selectionEntry"/>
@@ -12273,7 +12273,7 @@ If your summoning roll included any doubles, your character then 遭受 1点致�
         <categoryLink id="6085-8d35-e7c8-56ca" name="阵营: &lt;军团&gt;" hidden="false" targetId="b2b6-8e4a-9c74-cc37" primary="false"/>
         <categoryLink id="62aa-fc26-9ba2-5640" name="步兵" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
         <categoryLink id="439c-f479-ccf0-6970" name="恶魔" hidden="false" targetId="0bc5-6451-5612-4a25" primary="false"/>
-        <categoryLink id="be4e-c5ac-0627-dda3" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
+        <categoryLink id="be4e-c5ac-0627-dda3" name="人物" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
         <categoryLink id="66c2-d7d2-e2d8-242e" name="Greater Possessed" hidden="false" targetId="5fab-39ff-b611-c269" primary="false"/>
         <categoryLink id="e167-a066-dd1a-4675" name="New CategoryLink" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
       </categoryLinks>
@@ -12443,7 +12443,7 @@ If your summoning roll included any doubles, your character then 遭受 1点致�
           <characteristics>
             <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">5</characteristic>
             <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">肉搏</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, then until the start of your next 灵能阶段, the AP值 of the 灵能者&apos;s 肉搏武器 is improved by 2 (e.g. an AP of -1 becomes -3). Furthermore, until the start of your next 灵能阶段, 每次 the 灵能者 destroys an 敌方 步兵 CHARACTER in the 肉搏阶段, you can add a Chaos Spawn 模型 to your army. If the destroyed 模型 was 阿斯塔特修会 or 阿斯塔特叛军, you can instead add a Greater Possessed 模型 to your army. If a new 模型 is added to your army, 放置 范围内 6&quot; of the 灵能者 and more than 1&quot; from 任何敌方模型. 此外, 每次 the 灵能者 destroys an 敌方 载具 模型 in the 肉搏阶段 that could explode, it 自动 爆炸; no dice roll is made and any 致命伤 suffered by the 灵能者 in the resulting explosion are ignored.</characteristic>
+            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, then until the start of your next 灵能阶段, the AP值 of the 灵能者&apos;s 肉搏武器 is improved by 2 (e.g. an AP of -1 becomes -3). Furthermore, until the start of your next 灵能阶段, 每次 the 灵能者 destroys an 敌方 步兵 人物 in the 肉搏阶段, you can add a Chaos Spawn 模型 to your army. If the destroyed 模型 was 阿斯塔特修会 or 阿斯塔特叛军, you can instead add a Greater Possessed 模型 to your army. If a new 模型 is added to your army, 放置 范围内 6&quot; of the 灵能者 and more than 1&quot; from 任何敌方模型. 此外, 每次 the 灵能者 destroys an 敌方 载具 模型 in the 肉搏阶段 that could explode, it 自动 爆炸; no dice roll is made and any 致命伤 suffered by the 灵能者 in the resulting explosion are ignored.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -12610,7 +12610,7 @@ If your summoning roll included any doubles, your character then 遭受 1点致�
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7f22-c028-b4c2-5705" name="Field Commander" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="7f22-c028-b4c2-5705" name="战地指挥官" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -12704,12 +12704,12 @@ If your summoning roll included any doubles, your character then 遭受 1点致�
       <profiles>
         <profile id="1bbd-2beb-89fb-1cdc" name="Trophy-taker" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per 肉搏阶段, you can 重投 one 命中 roll, wound roll or 伤害 roll for an attack made by 这个模型 that targets a CHARACTER.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per 肉搏阶段, you can 重投 one 命中 roll, wound roll or 伤害 roll for an attack made by 这个模型 that targets a 人物.</characteristic>
           </characteristics>
         </profile>
         <profile id="adf3-8c17-0202-e7e1" name="Warp-sighted Butcher" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">After the 敌方 has completed 所有 of their charge moves, 这个模型 can perform a Heroic Intervention if it is 范围内 3&quot; of 任何敌方模型, or 6&quot; of any 敌方 人物. If 这个模型 is 范围内 6&quot; of any 敌方 人物, it 可以移动至多 6&quot; when performing a Heroic Intervention 而不是 3&quot; as long as it finishes this move 范围内 1&quot; of the nearest 敌方 CHARACTER.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">After the 敌方 has completed 所有 of their charge moves, 这个模型 can perform a Heroic Intervention if it is 范围内 3&quot; of 任何敌方模型, or 6&quot; of any 敌方 人物. If 这个模型 is 范围内 6&quot; of any 敌方 人物, it 可以移动至多 6&quot; when performing a Heroic Intervention 而不是 3&quot; as long as it finishes this move 范围内 1&quot; of the nearest 敌方 人物.</characteristic>
           </characteristics>
         </profile>
         <profile id="5a1b-87ae-c58e-20b6" name="Master of Executions" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
@@ -12735,7 +12735,7 @@ If your summoning roll included any doubles, your character then 遭受 1点致�
         <categoryLink id="0308-86cb-66bc-34e6" name="阵营: &lt;军团&gt;" hidden="false" targetId="b2b6-8e4a-9c74-cc37" primary="false"/>
         <categoryLink id="0576-dfb0-b162-6660" name="阵营: 阿斯塔特叛军" hidden="false" targetId="ca10-a5dd-f54f-0ed5" primary="false"/>
         <categoryLink id="fff0-a510-670f-60bc" name="步兵" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
-        <categoryLink id="840c-38ad-e664-51ac" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
+        <categoryLink id="840c-38ad-e664-51ac" name="人物" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
         <categoryLink id="d70d-7230-c83c-4f7b" name="Master of Execution" hidden="false" targetId="c59b-a4e0-238a-a32b" primary="false"/>
         <categoryLink id="3db9-6d6f-aa63-0be9" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
         <categoryLink id="9041-3a3c-adb2-81bf" name="阵营: 恐虐" hidden="false" targetId="dfc5-aa04-9546-1b4c" primary="false"/>
@@ -12767,8 +12767,8 @@ If your summoning roll included any doubles, your character then 遭受 1点致�
       </selectionEntries>
       <entryLinks>
         <entryLink id="7407-a921-7b56-7c0f" name="主将" hidden="false" collective="false" import="true" targetId="398a-c8da-c8bd-da58" type="selectionEntry"/>
-        <entryLink id="adcd-43c0-61ff-2008" name="Is a Custom Character" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
-        <entryLink id="1d50-a5c1-bf91-48bb" name="Custom Character Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
+        <entryLink id="adcd-43c0-61ff-2008" name="Is a Custom 人物" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
+        <entryLink id="1d50-a5c1-bf91-48bb" name="Custom 人物 Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
         <entryLink id="e3ab-2190-a6e3-a3aa" name="主将特性" hidden="false" collective="false" import="true" targetId="b34c-6c4b-d22c-25b5" type="selectionEntryGroup"/>
         <entryLink id="e512-6bf8-85a0-7298" name="Warlord Traits (Specialist)" hidden="false" collective="false" import="true" targetId="b18e-298b-df58-c375" type="selectionEntryGroup"/>
         <entryLink id="a744-fd66-31d5-6078" name="爆弹手枪" hidden="false" collective="false" import="true" targetId="0334-f487-8229-0c1a" type="selectionEntry">
@@ -13081,7 +13081,7 @@ If your summoning roll included any doubles, your character then 遭受 1点致�
         <categoryLink id="cb5b-e874-6ee8-3a7f" name="阵营: &lt;混沌印记&gt;" hidden="false" targetId="a61a-08c8-c7f7-9f78" primary="false"/>
         <categoryLink id="1509-d748-c8fd-804b" name="阵营: 阿斯塔特叛军" hidden="false" targetId="ca10-a5dd-f54f-0ed5" primary="false"/>
         <categoryLink id="1bb9-6429-250a-f07f" name="阵营: &lt;军团&gt;" hidden="false" targetId="b2b6-8e4a-9c74-cc37" primary="false"/>
-        <categoryLink id="cbe0-d157-fe44-faef" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
+        <categoryLink id="cbe0-d157-fe44-faef" name="人物" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
         <categoryLink id="bef8-f96f-59b6-d569" name="载具" hidden="false" targetId="c8fd-783f-3230-493e" primary="false"/>
         <categoryLink id="1774-dcb7-8df1-7fc4" name="恶魔" hidden="false" targetId="0bc5-6451-5612-4a25" primary="false"/>
         <categoryLink id="db2e-71b6-8223-48b4" name="恶魔引擎" hidden="false" targetId="c35d-97e7-5b2a-0a70" primary="false"/>
@@ -13221,10 +13221,10 @@ If your summoning roll included any doubles, your character then 遭受 1点致�
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="adee-7ba2-f31c-885a" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="1b31-d166-2aa4-ef81" name="Is a Custom Character" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
+        <entryLink id="1b31-d166-2aa4-ef81" name="Is a Custom 人物" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
         <entryLink id="43d2-573a-382a-7988" name="主将" hidden="false" collective="false" import="true" targetId="398a-c8da-c8bd-da58" type="selectionEntry"/>
         <entryLink id="a33f-a691-fe80-f4e3" name="主将特性" hidden="false" collective="false" import="true" targetId="b34c-6c4b-d22c-25b5" type="selectionEntryGroup"/>
-        <entryLink id="db38-ea30-dbe6-e2de" name="Custom Character Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
+        <entryLink id="db38-ea30-dbe6-e2de" name="Custom 人物 Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
         <entryLink id="c5ed-1d84-d190-4c2f" name="Artefacts of Chaos" hidden="false" collective="false" import="true" targetId="5876-fcc5-8283-1aca" type="selectionEntryGroup"/>
         <entryLink id="6564-5734-77bd-4127" name="Warlord Traits (Specialist)" hidden="false" collective="false" import="true" targetId="b18e-298b-df58-c375" type="selectionEntryGroup">
           <modifiers>
@@ -13706,7 +13706,7 @@ If your summoning roll included any doubles, your character then 遭受 1点致�
       <profiles>
         <profile id="ca9b-7c34-944c-e917" name="Cloak of Conquest" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 the bearer slays an 敌方 CHARACTER, add 1 to the bearer’s Strength, 攻击 and LD characteristics until the end of the battle.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 the bearer slays an 敌方 人物, add 1 to the bearer’s Strength, 攻击 and LD characteristics until the end of the battle.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -15351,7 +15351,7 @@ If your summoning roll included any doubles, your character then 遭受 1点致�
           <profiles>
             <profile id="56a7-53ae-04c8-a884" name="Black Crusaders" publicationId="cb54-c035-pubN125652" page="157" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, 所有 CHARACTER, 步兵, BIKERS and HELBRUTE 单位 in 黑军团 Detachments gain the following ability: Add 1 to the LD值 of 模型 in 单位 with this trait. 此外, 如果1个单位 with this trait Advanced, it treats 所有 速射 武器 as Assault 武器 until the end of the turn (i.e. a 速射 2 weapon is treated as an Assault 2 weapon).</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, 所有 人物, 步兵, BIKERS and HELBRUTE 单位 in 黑军团 Detachments gain the following ability: Add 1 to the LD值 of 模型 in 单位 with this trait. 此外, 如果1个单位 with this trait Advanced, it treats 所有 速射 武器 as Assault 武器 until the end of the turn (i.e. a 速射 2 weapon is treated as an Assault 2 weapon).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15368,7 +15368,7 @@ If your summoning roll included any doubles, your character then 遭受 1点致�
           <profiles>
             <profile id="04b5-616b-e468-c069" name="Siege Lords" publicationId="cb54-c035-pubN125652" page="157" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, 所有 CHARACTER, 步兵, BIKERS and HELBRUTE 单位 in an IRON WARRIORS Detachment gain the following ability: 敌方单位 attacked by 单位 with this trait do not gain any bonus to their saving throws for being in cover. 此外, 可以重投失败的造伤骰 for 单位 with this trait when they target a 建筑.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, 所有 人物, 步兵, BIKERS and HELBRUTE 单位 in an IRON WARRIORS Detachment gain the following ability: 敌方单位 attacked by 单位 with this trait do not gain any bonus to their saving throws for being in cover. 此外, 可以重投失败的造伤骰 for 单位 with this trait when they target a 建筑.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15385,7 +15385,7 @@ If your summoning roll included any doubles, your character then 遭受 1点致�
           <profiles>
             <profile id="f09d-25b8-50c4-a0f4" name="Dark Raiders" publicationId="cb54-c035-pubN125652" page="157" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, 所有 CHARACTER, 步兵, BIKERS and HELBRUTE 单位 in a Renegade Chapters Detachment gain the following ability: 单位 with this trait can Advance and charge in the same turn.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, 所有 人物, 步兵, BIKERS and HELBRUTE 单位 in a Renegade Chapters Detachment gain the following ability: 单位 with this trait can Advance and charge in the same turn.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15402,7 +15402,7 @@ If your summoning roll included any doubles, your character then 遭受 1点致�
           <profiles>
             <profile id="50f0-29e9-409c-b9fe" name="Butcher&apos;s Nails" publicationId="cb54-c035-pubN125652" page="157" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, 所有 CHARACTER, 步兵, BIKERS and HELBRUTE 单位 in a 吞世者 Detachment gain the following ability: When a 单位 with this trait makes a successful charge, you can make one additional attack with each of its 模型 in the subsequent 肉搏阶段.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, 所有 人物, 步兵, BIKERS and HELBRUTE 单位 in a 吞世者 Detachment gain the following ability: When a 单位 with this trait makes a successful charge, you can make one additional attack with each of its 模型 in the subsequent 肉搏阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15419,7 +15419,7 @@ If your summoning roll included any doubles, your character then 遭受 1点致�
           <profiles>
             <profile id="c584-aea0-603f-098e" name="Terror Tactics" publicationId="cb54-c035-pubN125652" page="157" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, 所有 CHARACTER, 步兵, BIKERS and HELBRUTE 单位 in a NIGHT LORDS Detachment gain the following ability: 模型 in 敌方单位 必须 减少 1 from their LD值 for each 单位 with this trait which is 范围内 6&quot; of theirs (to a maximum of -3).</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, 所有 人物, 步兵, BIKERS and HELBRUTE 单位 in a NIGHT LORDS Detachment gain the following ability: 模型 in 敌方单位 必须 减少 1 from their LD值 for each 单位 with this trait which is 范围内 6&quot; of theirs (to a maximum of -3).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15436,7 +15436,7 @@ If your summoning roll included any doubles, your character then 遭受 1点致�
           <profiles>
             <profile id="0f4b-de79-90bd-aedf" name="Flawless Perfection" publicationId="cb54-c035-pubN125652" page="157" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, 所有 CHARACTER, 步兵, BIKERS and HELBRUTE 单位 in an EMPERORS CHILDREN Detachment gain the following ability: 单位 with this trait always fight first in the 肉搏阶段, even if they didn&apos;t charge. If the 敌方 has 单位 that have charged, or that have a similar ability, then alternate choosing 单位 to fight, starting with the player whose turn is taking place.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, 所有 人物, 步兵, BIKERS and HELBRUTE 单位 in an EMPERORS CHILDREN Detachment gain the following ability: 单位 with this trait always fight first in the 肉搏阶段, even if they didn&apos;t charge. If the 敌方 has 单位 that have charged, or that have a similar ability, then alternate choosing 单位 to fight, starting with the player whose turn is taking place.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15453,7 +15453,7 @@ If your summoning roll included any doubles, your character then 遭受 1点致�
           <profiles>
             <profile id="87d5-65ea-9be6-2a3f" name="Hidden In Plain Sight" publicationId="cb54-c035-pubN125652" page="157" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, 所有 CHARACTER, 步兵, BIKERS and HELBRUTE 单位 in an 阿尔法军团 Detachment gain the following ability: Your opponent 必须 减少 1 from 命中 骰 that target 单位 with this trait if they are more than 12&quot; away.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, 所有 人物, 步兵, BIKERS and HELBRUTE 单位 in an 阿尔法军团 Detachment gain the following ability: Your opponent 必须 减少 1 from 命中 骰 that target 单位 with this trait if they are more than 12&quot; away.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15470,7 +15470,7 @@ If your summoning roll included any doubles, your character then 遭受 1点致�
           <profiles>
             <profile id="aaf3-2aa8-88f4-1280" name="Profane Zeal" publicationId="cb54-c035-pubN125652" page="157" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, 所有 CHARACTER, 步兵, BIKERS and HELBRUTE 单位 in a WORD BEARERS Detachment gain the following ability: You can 重投 失败的 士气测试 for 单位 with this trait.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, 所有 人物, 步兵, BIKERS and HELBRUTE 单位 in a WORD BEARERS Detachment gain the following ability: You can 重投 失败的 士气测试 for 单位 with this trait.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15599,7 +15599,7 @@ If your summoning roll included any doubles, your character then 遭受 1点致�
           <profiles>
             <profile id="b6a2-31cf-4c53-0c3f" name="Raiders from the Maelstrom" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, 所有 CHARACTER, 步兵, BIKERS and HELBRUTE 单位 in RED CORSAIRS Detachments gain the following ability: 单位 with this trait can Advance and charge in the same turn. 此外, if a Detachment contains three or more 单位 with this trait, that Detachment&apos;s Command Benefits are increased by 1 指挥点数. That Detachment&apos;s Command Benefits are increased by 3 指挥点数 if it contains three or more 单位 of CHAOS 星际战士 with this trait.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, 所有 人物, 步兵, BIKERS and HELBRUTE 单位 in RED CORSAIRS Detachments gain the following ability: 单位 with this trait can Advance and charge in the same turn. 此外, if a Detachment contains three or more 单位 with this trait, that Detachment&apos;s Command Benefits are increased by 1 指挥点数. That Detachment&apos;s Command Benefits are increased by 3 指挥点数 if it contains three or more 单位 of CHAOS 星际战士 with this trait.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15616,7 +15616,7 @@ If your summoning roll included any doubles, your character then 遭受 1点致�
           <profiles>
             <profile id="8fca-503b-9b70-bcaa" name="A Moment&apos;s Peace" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, 所有 CHARACTER, 步兵, BIKERS and HELBRUTE 单位 in CRIMSON SLAUGHTER Detachments gain the following ability: 如果1个单位 with this trait destroys an 敌方单位, 投掷1个D6. 结果为5+, you gain 1 指挥点数. 此外, 那个单位 自动 passes 士气测试 until the end of the turn.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, 所有 人物, 步兵, BIKERS and HELBRUTE 单位 in CRIMSON SLAUGHTER Detachments gain the following ability: 如果1个单位 with this trait destroys an 敌方单位, 投掷1个D6. 结果为5+, you gain 1 指挥点数. 此外, 那个单位 自动 passes 士气测试 until the end of the turn.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15633,7 +15633,7 @@ If your summoning roll included any doubles, your character then 遭受 1点致�
           <profiles>
             <profile id="15e0-6876-a580-b9d6" name="Rend the Foe" publicationId="cb54-c035-pubN153092" page="197" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, 所有 CHARACTER, 步兵, BIKERS and HELBRUTE 单位 in BRAZEN BEASTS Detachments gain the following ability: 每次 you make a wound roll of 6+ for an attack made by a 模型 with this trait in the 肉搏阶段 during a turn in which it charged, was charged, or performed a Heroic Intervention, that 命中 is resolved with an AP of -4.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, 所有 人物, 步兵, BIKERS and HELBRUTE 单位 in BRAZEN BEASTS Detachments gain the following ability: 每次 you make a wound roll of 6+ for an attack made by a 模型 with this trait in the 肉搏阶段 during a turn in which it charged, was charged, or performed a Heroic Intervention, that 命中 is resolved with an AP of -4.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15650,7 +15650,7 @@ If your summoning roll included any doubles, your character then 遭受 1点致�
           <profiles>
             <profile id="298b-3c3f-d365-11e2" name="Omniscient" publicationId="cb54-c035-pubN153092" page="197" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, 所有 CHARACTER, 步兵, BIKERS and HELBRUTE 单位 in SCOURGED Detachments gain the following ability: You can 重投 one 命中 roll for an attack made by a 模型 with this trait 每次 it shoots or fights. 此外, when a 单位 with this trait fires 坚守射击, they successfully 命中 结果为roll of 5+, 而不是 only 6, irrespective of the firing 模型的 Ballistic Skill or any modifiers.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, 所有 人物, 步兵, BIKERS and HELBRUTE 单位 in SCOURGED Detachments gain the following ability: You can 重投 one 命中 roll for an attack made by a 模型 with this trait 每次 it shoots or fights. 此外, when a 单位 with this trait fires 坚守射击, they successfully 命中 结果为roll of 5+, 而不是 only 6, irrespective of the firing 模型的 Ballistic Skill or any modifiers.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15667,7 +15667,7 @@ If your summoning roll included any doubles, your character then 遭受 1点致�
           <profiles>
             <profile id="8176-e2ec-8adf-c289" name="Death to the Imperfect" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, 所有 CHARACTER, 步兵, BIKERS and HELBRUTE 单位 in FLAWLESS HOST Detachments gain the following ability: 每次 you roll a 命中 roll of 6+ for an attack made by a 模型 with this trait in the 肉搏阶段, it can 立即 make an extra attack 对抗 the same 单位 using the same weapon (this is in addtion to any extra 攻击 granted by the Death to the False Emperor ability). These extra 攻击 cannot themselves generate any further 攻击.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, 所有 人物, 步兵, BIKERS and HELBRUTE 单位 in FLAWLESS HOST Detachments gain the following ability: 每次 you roll a 命中 roll of 6+ for an attack made by a 模型 with this trait in the 肉搏阶段, it can 立即 make an extra attack 对抗 the same 单位 using the same weapon (this is in addtion to any extra 攻击 granted by the Death to the False Emperor ability). These extra 攻击 cannot themselves generate any further 攻击.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15684,7 +15684,7 @@ If your summoning roll included any doubles, your character then 遭受 1点致�
           <profiles>
             <profile id="8aa9-557c-7729-d497" name="Bringers of Oblivion" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, 所有 CHARACTER, 步兵, BIKERS and HELBRUTE 单位 in PURGE Detachments gain the following ability: 可以重投命中骰 for 攻击 made by 单位 with this trait that target 敌方单位 that have lost one or more wounds already this turn.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, 所有 人物, 步兵, BIKERS and HELBRUTE 单位 in PURGE Detachments gain the following ability: 可以重投命中骰 for 攻击 made by 单位 with this trait that target 敌方单位 that have lost one or more wounds already this turn.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -16376,7 +16376,7 @@ If your summoning roll included any doubles, your character then 遭受 1点致�
               <profiles>
                 <profile id="45da-1bec-44db-3882" name="Book of the Reviler" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Model that is not a 恶魔 only. Before the battle, a 模型 with this 圣物 can read from the Book of the Reviler. If it does, randomly generate two Chaos Boons for that 模型 from the table found in the Chaos Boon Stratagem (see 圣典: Chaos 星际战士), re-rolling Spawndom and Daemonhood and duplicate results. Note that doing so does not cost any 指挥点数, and an 敌方 CHARACTER, 载具 or 巨兽 模型 does not have to have been destroyed.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Model that is not a 恶魔 only. Before the battle, a 模型 with this 圣物 can read from the Book of the Reviler. If it does, randomly generate two Chaos Boons for that 模型 from the table found in the Chaos Boon Stratagem (see 圣典: Chaos 星际战士), re-rolling Spawndom and Daemonhood and duplicate results. Note that doing so does not cost any 指挥点数, and an 敌方 人物, 载具 or 巨兽 模型 does not have to have been destroyed.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -16742,7 +16742,7 @@ If your summoning roll included any doubles, your character then 遭受 1点致�
               <profiles>
                 <profile id="ca49-2f01-6281-d4f3" name="Insidium" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A 模型 with this 圣物 gains the 恶魔 关键字 (if it does not already have it). Add 1 to the Strength, Toughness and Wounds characteristics of that model.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A 模型 with this 圣物 获得 恶魔 关键字 (if it does not already have it). Add 1 to the Strength, Toughness and Wounds characteristics of that model.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -17419,7 +17419,7 @@ If your summoning roll included any doubles, your character then 遭受 1点致�
           <profiles>
             <profile id="54af-d215-bc9d-259c" name="Carve the Runes" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 your 主将 slays an 敌方 CHARACTER, add 2 to your Warlord&apos;s Strength and 攻击 characteristics until the end of the battle.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 your 主将 slays an 敌方 人物, add 2 to your Warlord&apos;s Strength and 攻击 characteristics until the end of the battle.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -18733,7 +18733,7 @@ If your summoning roll included any doubles, your character then 遭受 1点致�
           <profiles>
             <profile id="fd38-426f-916b-df98" name="Exalted Possession" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个主将 gains the POSSESSED and 恶魔 keywords (if they don’t already have them). Add 1 to the Strength and 攻击 characteristics of 这个主将, and add 1&quot; to this Warlord’s M值.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个主将 获得 POSSESSED and 恶魔 keywords (if they don’t already have them). Add 1 to the Strength and 攻击 characteristics of 这个主将, and add 1&quot; to this Warlord’s M值.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -18918,8 +18918,8 @@ If your summoning roll included any doubles, your character then 遭受 1点致�
           <profiles>
             <profile id="ea6a-5c05-a55b-8bd2" name="I am Alpharius" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">此外 to 这个主将 Trait, 这个主将 has one randomly generated Chaos Space Marine 主将 Trait from 圣典: Chaos 星际战士. If 这个主将 is destroyed, you can 立即 select another 阿尔法军团 CHARACTER 模型 from your army to take their place and generate a 主将 Trait for them (including this one). If the mission you are playing grants victory points for destroying
-the 敌方 主将, your opponent will only achieve that objective if 所有 of the 阿尔法军团 CHARACTER 模型 from your army have been destroyed.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">此外 to 这个主将 Trait, 这个主将 has one randomly generated Chaos Space Marine 主将 Trait from 圣典: Chaos 星际战士. If 这个主将 is destroyed, you can 立即 select another 阿尔法军团 人物 模型 from your army to take their place and generate a 主将 Trait for them (including this one). If the mission you are playing grants victory points for destroying
+the 敌方 主将, your opponent will only achieve that objective if 所有 of the 阿尔法军团 人物 模型 from your army have been destroyed.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -18953,7 +18953,7 @@ the 敌方 主将, your opponent will only achieve that objective if 所有 of t
           <profiles>
             <profile id="1126-95e9-dff0-a1a1" name="Headhunter" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个主将 can target CHARACTER 单位 even if they are not the closest 敌方单位. When resolving an attack made with a 远程武器 by 这个主将, an unmodified 命中 roll of 6 inflicts 1 致命伤 对目标 此外 to any other 伤害.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个主将 can target 人物 单位 even if they are not the closest 敌方单位. When resolving an attack made with a 远程武器 by 这个主将, an unmodified 命中 roll of 6 inflicts 1 致命伤 对目标 此外 to any other 伤害.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -19248,7 +19248,7 @@ the 敌方 主将, your opponent will only achieve that objective if 所有 of t
           <profiles>
             <profile id="ce6d-71c4-7088-c914" name="Disciple of 恐虐" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made with a 肉搏武器 by 这个主将 对抗 an 敌方 CHARACTER 单位 or a 单位 that contains 任何模型 with a W值 of 5 or more, you can 重投 the 命中 roll and you can 重投 the wound roll.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made with a 肉搏武器 by 这个主将 对抗 an 敌方 人物 单位 or a 单位 that contains 任何模型 with a W值 of 5 or more, you can 重投 the 命中 roll and you can 重投 the wound roll.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -19499,7 +19499,7 @@ the 敌方 主将, your opponent will only achieve that objective if 所有 of t
     </profile>
     <profile id="8b01-0911-05af-1e11" name="For the Dark Gods" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投失败的命中骰 for this character if the target is an 敌方 CHARACTER.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投失败的命中骰 for this 人物 if the target is an 敌方 人物.</characteristic>
       </characteristics>
     </profile>
     <profile id="6862-b0e9-3af0-00f4" name="Eternal Vendetta" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -19539,7 +19539,7 @@ the 敌方 主将, your opponent will only achieve that objective if 所有 of t
     </profile>
     <profile id="4c67-249d-36d7-4bfc" name="Slaughterborn" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When an 敌方 CHARACTER, 巨兽 or 巨型 模型 is destroyed as a result of an attack made by 这个主将, add 1 to this Warlord’s 攻击 and Strength characteristics.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When an 敌方 人物, 巨兽 or 巨型 模型 is destroyed as a result of an attack made by 这个主将, add 1 to this Warlord’s 攻击 and Strength characteristics.</characteristic>
       </characteristics>
     </profile>
     <profile id="17d1-2906-ef22-a4f2" name="Stimulated By Pain" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -19580,7 +19580,7 @@ the 敌方 主将, your opponent will only achieve that objective if 所有 of t
     </profile>
     <profile id="6e5b-ea09-b034-3d46" name="Reaver Lord" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Your army can have one extra 圣物, chosen from the Artefacts of Chaos, which 必须 given to a RED CORSAIRS CHARACTER from your army that does not already have a 圣物. This 圣物 必须 different to any relics already included in your army. 此外, 每次 your 主将 slays an 敌方 CHARACTER, add 1 to your Warlord&apos;s A值 until the end of the battle.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Your army can have one extra 圣物, chosen from the Artefacts of Chaos, which 必须 given to a RED CORSAIRS 人物 from your army that does not already have a 圣物. This 圣物 必须 different to any relics already included in your army. 此外, 每次 your 主将 slays an 敌方 人物, add 1 to your Warlord&apos;s A值 until the end of the battle.</characteristic>
       </characteristics>
     </profile>
     <profile id="6841-2da0-34fd-1bf7" name="Reaper chaincannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
