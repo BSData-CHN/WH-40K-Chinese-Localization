@@ -1992,7 +1992,7 @@
         </profile>
         <profile id="fbfc-1394-e5aa-dd70" name="Firestorm Redoubt" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
           <characteristics>
-            <characteristic name="容量" typeId="15aa-1916-a38b-d223">这个模型 has a transport capacity of two INFANTRY units, up to a total of 20 模型.</characteristic>
+            <characteristic name="容量" typeId="15aa-1916-a38b-d223">这个模型 拥有 transport capacity of two 步兵单位, up to a total of 20 模型.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2075,7 +2075,7 @@
         </profile>
         <profile id="cf90-f8df-224e-6333" name="Fortress of Redemption" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
           <characteristics>
-            <characteristic name="容量" typeId="15aa-1916-a38b-d223">这个模型 has a transport capacity of 2 INFANTRY units, up to a total of 30 模型.</characteristic>
+            <characteristic name="容量" typeId="15aa-1916-a38b-d223">这个模型 拥有 transport capacity of 2 步兵单位, up to a total of 30 模型.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2161,7 +2161,7 @@
         </profile>
         <profile id="aaaa-857c-b390-65ca" name="Imperial Bastion" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
           <characteristics>
-            <characteristic name="容量" typeId="15aa-1916-a38b-d223">这个模型 has a transport capacity of two INFANTRY units, up to a total of 20 模型.</characteristic>
+            <characteristic name="容量" typeId="15aa-1916-a38b-d223">这个模型 拥有 transport capacity of two 步兵单位, up to a total of 20 模型.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2222,7 +2222,7 @@
         </profile>
         <profile id="9507-2858-f7ba-6d90" name="Imperial Bunker" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
           <characteristics>
-            <characteristic name="容量" typeId="15aa-1916-a38b-d223">这个模型 has a transport capacity of 2 INFANTRY units, up to a total of 10 模型.</characteristic>
+            <characteristic name="容量" typeId="15aa-1916-a38b-d223">这个模型 拥有 transport capacity of 2 步兵单位, up to a total of 10 模型.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2260,7 +2260,7 @@
       <profiles>
         <profile id="808f-d24a-ba7c-7d24" name="Stalwart Defence" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the LD characteristic of models in IMPERIUM INFANTRY units whilst their unit is 范围内 an Imperial Defence Line.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the LD characteristic of models in IMPERIUM 步兵单位 whilst their unit is 范围内 an Imperial Defence Line.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2337,7 +2337,7 @@
         </profile>
         <profile id="7f96-4bff-c6ed-aa8b" name="Plasma Obliterator" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
           <characteristics>
-            <characteristic name="容量" typeId="15aa-1916-a38b-d223">这个模型 has a transport capacity of two INFANTRY units, up to a total of 20 模型.</characteristic>
+            <characteristic name="容量" typeId="15aa-1916-a38b-d223">这个模型 拥有 transport capacity of two 步兵单位, up to a total of 20 模型.</characteristic>
           </characteristics>
         </profile>
         <profile id="e232-2e1e-1955-a5c0" name="Plasma Explosion" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -4095,7 +4095,7 @@
           <profiles>
             <profile id="c06f-8621-9a9e-4a64" name="Gate Section" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
               <characteristics>
-                <characteristic name="容量" typeId="15aa-1916-a38b-d223">Any number of INFANTRY CHARACTERS and one other INFANTRY unit, up to a maximum of 20 模型.</characteristic>
+                <characteristic name="容量" typeId="15aa-1916-a38b-d223">Any number of 步兵 人物 and one other 步兵单位, up to a maximum of 20 模型.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4130,7 +4130,7 @@
           <profiles>
             <profile id="13d3-851e-838d-3e67" name="Wall Section" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
               <characteristics>
-                <characteristic name="容量" typeId="15aa-1916-a38b-d223">Any number of INFANTRY CHARACTERS and one other INFANTRY unit, up to a maximum of 20 模型.</characteristic>
+                <characteristic name="容量" typeId="15aa-1916-a38b-d223">Any number of 步兵 人物 and one other 步兵单位, up to a maximum of 20 模型.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4246,7 +4246,7 @@
         </profile>
         <profile id="888f-fcce-8911-d3c3" name="Force Dome" publicationId="28ec-711c-pubN91434" page="53" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 has a 5+ 特殊保护.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 拥有 5+ 特殊保护.</characteristic>
           </characteristics>
         </profile>
         <profile id="d146-c17b-222c-3b02" name="Reactor Explosion" publicationId="28ec-711c-pubN91434" page="53" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -4256,7 +4256,7 @@
         </profile>
         <profile id="4766-36e8-d6fa-53a2" name="Primus Redoubt" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
           <characteristics>
-            <characteristic name="容量" typeId="15aa-1916-a38b-d223">Any number of INFANTRY CHARACTERS and one other INFANTRY unit, up to a maximum of 20 模型.</characteristic>
+            <characteristic name="容量" typeId="15aa-1916-a38b-d223">Any number of 步兵 人物 and one other 步兵单位, up to a maximum of 20 模型.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4620,17 +4620,17 @@
         </profile>
         <profile id="ba08-5714-b31c-5cf5" name="Shimmering Arrival" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When you set up 这个模型 during deployment, it can be set up anywhere on the battlefield that is more than 12寸 from the 敌方 部署区 and any 敌方模型, and more than 3寸 from any other terrain features or the center of any objective markers.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When you set up 这个模型 部署期间, it can be set up anywhere on the battlefield that is more than 12寸 from the 敌方 部署区 and any 敌方模型, and more than 3寸 from any other terrain features or the center of any objective markers.</characteristic>
           </characteristics>
         </profile>
         <profile id="9f52-e8b6-268d-fa2d" name="Eldritch Aura" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 has a 5+ 特殊保护</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 拥有 5+ 特殊保护</characteristic>
           </characteristics>
         </profile>
         <profile id="0fff-6dcb-d884-e8df" name="Webway Strike" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">After you set up 这个模型, any AELDARI units you have not yet set up during deployment, other than fortifications, can be set up in a webway spar rather than being set up on the battlefield. One unit in a webway spar can emerge from each 友方 Webway Gate at the end of each of your 移动阶段 - Set them up wholly 范围内 3寸 of the webway gate and more than 9寸 away from any 敌方模型. If all friendlyWebway Gates have been destroyed, any units that have not yet arrived from a webway spar are considered to be slain</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">After you set up 这个模型, any AELDARI units you have not yet set up 部署期间, other than fortifications, can be set up in a webway spar rather than being set up on the battlefield. One unit in a webway spar can emerge from each 友方 Webway Gate at the end of each of your 移动阶段 - Set them up wholly 范围内 3寸 of the webway gate and more than 9寸 away from any 敌方模型. If all friendlyWebway Gates have been destroyed, any units that have not yet arrived from a webway spar are considered to be slain</characteristic>
           </characteristics>
         </profile>
         <profile id="1b16-1941-d120-15ee" name="Webway Gate" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -5337,7 +5337,7 @@
       <profiles>
         <profile id="77bb-80fe-ed8e-125a" name="战地指挥官" publicationId="28ec-711c-pubN98266" page="169" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Use this Stratagem before the battle if you used any Specialist Detachment Stratagems when choosing your army. Choose one CHARACTER from your army that has gained a keyword from a Specialist Detachment Stratagem that is not your 主将 and is not a named character. You can give that character the 主将 Trait of the Specialist Detachment they are part of (note that this character is only regarded as your 主将 for the purpose of that 主将 Trait). This Stratagem can only be used once for each Specialist Detachment Stratagem you have used (spend 1 CP each time you use it). No two characters can have the same 主将 Trait.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Use this Stratagem before the battle if you used any Specialist Detachment Stratagems when choosing your army. Choose one CHARACTER from your army that has gained a keyword from a Specialist Detachment Stratagem that is not your 主将 and is not a named character. You can give that character the 主将 Trait of the Specialist Detachment they are part of (note that this character is only regarded as your 主将 for the purpose of that 主将 Trait). This Stratagem can only be used once for each Specialist Detachment Stratagem you have used (spend 1 CP each time you use it). No two 人物 can have the same 主将 Trait.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5629,7 +5629,7 @@
       <profiles>
         <profile id="504b-fc17-56ce-c8b8" name="刺客出击许可" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can only use this Stratagem if your 主将 has the IMPERIUM Faction keyword (excluding FALLEN) and your army does not contain any OFFICIO ASSASSINORUM units. Use this Stratagem during deployment. Add 1 OFFICIO ASSASSINORUM unit of your choice to your army. Remember that in a matched play game, you must pay reinforcement points for any new unit added to your army. You can only use this Stratagem once per battle.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can only use this Stratagem if your 主将 has the IMPERIUM Faction keyword (excluding FALLEN) and your army does not contain any OFFICIO ASSASSINORUM units. Use this Stratagem 部署期间. Add 1 OFFICIO ASSASSINORUM unit of your choice to your army. Remember that in a matched play game, you must pay reinforcement points for any new unit added to your army. You can only use this Stratagem once per battle.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5669,7 +5669,7 @@
         </profile>
         <profile id="5f18-9c8a-8931-75f8" name="Imperial Bastion" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
           <characteristics>
-            <characteristic name="容量" typeId="15aa-1916-a38b-d223">这个模型 has a transport capacity of two INFANTRY units, up to a total of 20 模型.</characteristic>
+            <characteristic name="容量" typeId="15aa-1916-a38b-d223">这个模型 拥有 transport capacity of two 步兵单位, up to a total of 20 模型.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5871,7 +5871,7 @@
               <profiles>
                 <profile id="3912-170b-9164-4c9e" name="Counterfire Master" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll failed hit rolls for 友方单位 范围内 6寸 of your 主将 (this includes any BUILDING they are 上车 within, and any other units 上车 范围内 the same building).</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投失败的命中骰 for 友方单位 范围内 6寸 of your 主将 (this includes any BUILDING they are 上车 within, and any other units 上车 范围内 the same building).</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5997,7 +5997,7 @@
               <profiles>
                 <profile id="4d41-0980-77f6-159c" name="2. Conqueror of Worlds" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个主将 is 范围内 range of an objective marker (see above) it controls that objective marker even if there are more 敌方模型 范围内 range of the same objective marker. If an 敌方单位 范围内 range of the same objective marker has a similar ability, then the objective marker is controlled by the player who has the most models 范围内 range of it as normal.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个主将 is 范围内 range of an objective marker (see above) it controls that objective marker even if there are more 敌方模型 范围内 range of the same objective marker. If an 敌方单位 范围内 range of the same objective marker 拥有 similar ability, then the objective marker is controlled by the player who has the most models 范围内 range of it as normal.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -6119,7 +6119,7 @@
                   <profiles>
                     <profile id="2cfd-c772-8ded-a00b" name="12: Beast Hunter" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll failed wound rolls for attacks made by 这个模型 in the 肉搏阶段 if the target is a MONSTER unit.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投失败的造伤骰 for attacks made by 这个模型 in the 肉搏阶段 if the target is a MONSTER unit.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6170,7 +6170,7 @@
                   <profiles>
                     <profile id="a80d-c26c-f77c-82b8" name="15: Zealot" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll failed hit rolls for 这个模型 in the 肉搏阶段 if it made a 冲锋移动, performed a Heroic Intervention, or was charged this turn.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投失败的命中骰 for 这个模型 in the 肉搏阶段 if it made a 冲锋移动, performed a Heroic Intervention, or was charged this turn.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6408,7 +6408,7 @@
                   <profiles>
                     <profile id="eada-5268-3152-d12e" name="41: Infiltrator" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up 这个模型 in ambush, 而不是 placing it on the battlefield. At the end of any of your 移动阶段 it can reveal its location – set it up anywhere on the battlefield that is more than 9寸 from any 敌方模型.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">部署期间, 可以放置 这个模型 in ambush, 而不是 placing it on the battlefield. At the end of any of your 移动阶段 it can reveal its location – set it up anywhere on the battlefield that is more than 9寸 from any 敌方模型.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6442,7 +6442,7 @@
                   <profiles>
                     <profile id="b3f5-feaf-9334-bb2a" name="43: Hard to Kill" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Wound rolls of 1, 2 or 3 made for attacks that target 这个模型 always fail, even if the attack has a Strength characteristic higher than 这个模型’s Toughness characteristic.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Wound rolls of 1, 2 or 3 made for attacks that target 这个模型 always fail, even if the attack 拥有 Strength characteristic higher than 这个模型’s Toughness characteristic.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6837,7 +6837,7 @@
                   <profiles>
                     <profile id="1ce8-bd94-7cf0-e20f" name="09: Shredder" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s melee 武器. Add the following ability to that weapon: ‘You can re-roll failed wound rolls for attacks made with 这个武器.’</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s melee 武器. Add the following ability to that weapon: ‘可以重投失败的造伤骰 for attacks made with 这个武器.’</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7634,7 +7634,7 @@
               <profiles>
                 <profile id="44e4-101d-e364-2de4" name="R5: Just Making it Angry" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 has a damage table, double the number of wounds it has remaining for the purposes of determining what its Strength and Attacks characteristics are.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 拥有 damage table, double the number of wounds it has remaining for the purposes of determining what its Strength and Attacks characteristics are.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7809,7 +7809,7 @@
               <profiles>
                 <profile id="2faa-8fc5-6f09-b65c" name="R4: Blessed Drive" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 has a damage table, double the number of wounds it has remaining for the purposes of determining what its Move characteristic is.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 拥有 damage table, double the number of wounds it has remaining for the purposes of determining what its Move characteristic is.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7860,7 +7860,7 @@
               <profiles>
                 <profile id="1c8f-af4c-400c-8e80" name="R5: Blessed 武器" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 has a damage table, double the number of wounds it has remaining for the purposes of determining what its Ballistic Skill characteristic is.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 拥有 damage table, double the number of wounds it has remaining for the purposes of determining what its Ballistic Skill characteristic is.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7883,7 +7883,7 @@
       <description>这个模型 re-rolls all failed To Wound rolls against targets with a Wounds characteristic of 2 or more.</description>
     </rule>
     <rule id="74b3-2e30-9d76-a958" name="Infiltrator" hidden="false">
-      <description>During deployment, 这个单位 can be set up anywhere on the battlefield that is not 范围内 your opponent&apos;s 部署区 and is more than 12寸 from any 敌方单位.</description>
+      <description>部署期间, 这个单位 can be set up anywhere on the battlefield that is not 范围内 your opponent&apos;s 部署区 and is more than 12寸 from any 敌方单位.</description>
     </rule>
     <rule id="15ea-860d-9eb6-21c3" name="Airborne" hidden="false">
       <description>这个模型 cannot charge, can only be charged by units that can FLY, and can only attack or be attacked in the 肉搏阶段 by units that can FLY.</description>
@@ -7922,7 +7922,7 @@
       <description>The 5 CPs from this detachment can only be spent on Stronghold Assault Stratagems.</description>
     </rule>
     <rule id="5a7e-f984-487c-d767" name="爆弹训练" publicationId="28ec-711c-pubN110542" hidden="false">
-      <description>All 阿斯塔特修会 and 阿斯塔特叛军 models gain this ability. 而不是 following the normal rules for 速射 武器, 速射爆弹武器 used by models with this ability make double the number of attacks if any of the following conditions apply: 1) The firing model&apos;s target is 范围内 half the weapon&apos;s maximum range. 2)    The firing model is INFANTRY and every model in its unit remained stationary in your previous 移动阶段. 3) The firing model is a 终结者, BIKER, 百夫长, or DREADNOUGHT. For the purposes of this ability a 速射爆弹武器 is any weapon with the 速射 type whose name includes the word &apos;bolt&apos; (e.g. 爆弹枪, 爆弹步枪, 风暴爆弹, 复合爆弹, 飓风爆弹, 地狱爆弹枪, etc.) This also applies when firing the 爆弹枪 profile of a combi-weapon (including the 爆弹武器 profile of Relics such as Blood Song and the Lion&apos;s Wrath) and when firing relics that replace a 速射爆弹武器, so long as the relic is also a rapid-fire weapon (e.g. Primarch&apos;s Wrath, Fury of Deimos, etc) The gauntlets of ultramar and the Talon of Horus are also considered 速射爆弹武器, as is the 卫士之矛 used by Deathwatch Watch Masters.</description>
+      <description>All 阿斯塔特修会 and 阿斯塔特叛军 models gain this ability. 而不是 following the normal rules for 速射 武器, 速射爆弹武器 used by models with this ability make double the number of attacks if any of the following conditions apply: 1) The firing model&apos;s target is 范围内 half the weapon&apos;s maximum range. 2)    The firing model is 步兵 and every model in its unit remained stationary in your previous 移动阶段. 3) The firing model is a 终结者, 摩托, 百夫长, or 无畏. For the purposes of this ability a 速射爆弹武器 is any weapon with the 速射 type whose name includes the word &apos;bolt&apos; (e.g. 爆弹枪, 爆弹步枪, 风暴爆弹, 复合爆弹, 飓风爆弹, 地狱爆弹枪, etc.) This also applies when firing the 爆弹枪 profile of a combi-weapon (including the 爆弹武器 profile of Relics such as Blood Song and the Lion&apos;s Wrath) and when firing relics that replace a 速射爆弹武器, so long as the relic is also a rapid-fire weapon (e.g. Primarch&apos;s Wrath, Fury of Deimos, etc) The gauntlets of ultramar and the Talon of Horus are also considered 速射爆弹武器, as is the 卫士之矛 used by Deathwatch Watch Masters.</description>
     </rule>
     <rule id="01a4-bec8-b573-fde7" name="死亡天使" hidden="false">
       <description>这个单位 has the following abilities: And They Shall Know No Fear, Bolter Discipline, Shock Assault and Combat Doctrines.’</description>
@@ -8357,12 +8357,12 @@
     </profile>
     <profile id="fbed-42ff-591d-13f3" name="Dozer Blade" publicationId="28ec-711c-pubN72690" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Can re-roll dangerous terrain tests. Treat the vehicles front armour as +1 higher when ramming.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Can re-roll dangerous terrain tests. Treat the 载具 front armour as +1 higher when ramming.</characteristic>
       </characteristics>
     </profile>
     <profile id="cdda-8935-b495-3a35" name="额外装甲" publicationId="28ec-711c-pubN72690" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Vehicles treat crew stunned as crew shaken instead</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">载具 treat crew stunned as crew shaken instead</characteristic>
       </characteristics>
     </profile>
     <profile id="4b04-2a83-8ae7-d134" name="探照灯" publicationId="28ec-711c-pubN72690" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -8582,7 +8582,7 @@
     </profile>
     <profile id="58a2-c92e-57cc-d44c" name="Ammunition Dump" publicationId="28ec-711c-pubN77581" page="110" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A model in cover behind an ammunition dump has a 5+ cover save. Any model 范围内 2寸 of an ammunition dump re-rolls failed To Hit rolls of 1 in the 射击阶段.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A model in cover behind an ammunition dump 拥有 5+ cover save. Any model 范围内 2寸 of an ammunition dump re-rolls failed To Hit rolls of 1 in the 射击阶段.</characteristic>
       </characteristics>
     </profile>
     <profile id="e144-1293-ec28-d3a9" name="Void Shield" publicationId="28ec-711c-pubN113754" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -8607,17 +8607,17 @@
     </profile>
     <profile id="68d8-f686-c260-76db" name="Barricades" publicationId="28ec-711c-pubN113754" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A model in cover behind a barricade or wall has a 4+ cover save. Models that are in base contact with a barricade or wall are treated as being in base contact with any 敌方模型 who are directly opposite them and in base contact with the other side of that barricade or wall. Units charging an 敌方 that is behind a barricade or wall count as charging through difficult terrain.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A model in cover behind a barricade or wall 拥有 4+ cover save. Models that are in base contact with a barricade or wall are treated as being in base contact with any 敌方模型 who are directly opposite them and in base contact with the other side of that barricade or wall. Units charging an 敌方 that is behind a barricade or wall count as charging through difficult terrain.</characteristic>
       </characteristics>
     </profile>
     <profile id="e158-7adf-1565-ef08" name="Tanglewire" publicationId="28ec-711c-pubN113754" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Dangerous Terrain. A model in cover behind tanglewire has a 6+ cover save.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Dangerous Terrain. A model in cover behind tanglewire 拥有 6+ cover save.</characteristic>
       </characteristics>
     </profile>
     <profile id="4a45-65e5-2d8c-8792" name="Tank Traps" publicationId="28ec-711c-pubN113754" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Impassable Terrain to non-Skimmer vehicles, Dangerous Terrain to Bikes, and open ground for all other units. A model in cover behind tank traps hasa 4+ cover save.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Impassable Terrain to non-Skimmer 载具, Dangerous Terrain to Bikes, and open ground for all other units. A model in cover behind tank traps hasa 4+ cover save.</characteristic>
       </characteristics>
     </profile>
     <profile id="1da7-2e0b-0114-762c" name="炮座" publicationId="28ec-711c-pubN113754" page="" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
@@ -8635,12 +8635,12 @@
     </profile>
     <profile id="705c-91aa-6591-507b" name="炮架 (Details)" publicationId="28ec-711c-pubN113754" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A model in cover behind a 炮架 has a 4+ cover save. One non-vehicle model in base contact with a 炮架 can fire it 而不是 firing its own 武器. A model that fires a 炮架 has the Relentless special rule for that shooting attack. A 炮架 can be shot at and attacked in close combat. It is hit automatically in close combat.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A model in cover behind a 炮架 拥有 4+ cover save. One non-vehicle model in base contact with a 炮架 can fire it 而不是 firing its own 武器. A model that fires a 炮架 has the Relentless special rule for that shooting attack. A 炮架 can be shot at and attacked in close combat. It is hit automatically in close combat.</characteristic>
       </characteristics>
     </profile>
     <profile id="70aa-366f-15ac-da4d" name="Comms Relay" publicationId="28ec-711c-pubN113754" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Any player with an unengaged model 范围内 2寸 of a comms relay can re-roll Reserves rolls. A model in cover behind a comms relay has a 5+ cover save.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Any player with an unengaged model 范围内 2寸 of a comms relay can re-roll Reserves rolls. A model in cover behind a comms relay 拥有 5+ cover save.</characteristic>
       </characteristics>
     </profile>
     <profile id="39bf-dff4-053a-7360" name="Macro Shell" publicationId="28ec-711c-pubN77581" page="111" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -8685,12 +8685,12 @@
     </profile>
     <profile id="7571-d9f2-17b0-c3e0" name="Imperial Statuary" publicationId="28ec-711c-pubN113754" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A model from the Armies of the Imperium that is 范围内 2寸 of Imperial Statuary terrain has the Fearless special rule. A model in cover behind Imperial Statuary has a 3+ cover save.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A model from the Armies of the Imperium that is 范围内 2寸 of Imperial Statuary terrain has the Fearless special rule. A model in cover behind Imperial Statuary 拥有 3+ cover save.</characteristic>
       </characteristics>
     </profile>
     <profile id="7d5c-1af6-942c-8ca2" name="Wreckage and Rubble" publicationId="28ec-711c-pubN113754" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Area Terrain. A model in cover behind wreckage or rubble has a 4+ cover save.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Area Terrain. A model in cover behind wreckage or rubble 拥有 4+ cover save.</characteristic>
       </characteristics>
     </profile>
     <profile id="f0ec-023c-4865-fe5a" name="灵能头箍" publicationId="28ec-711c-pubN72690" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -9410,7 +9410,7 @@
     </profile>
     <profile id="b754-9672-4689-cefb" name="迷彩斗篷" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If every model in a unit has a camo cloak you can add 2 to saving throws made for models in the unit when they receive the benefits of cover, 而不是 1.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If every model in a unit 拥有 camo cloak you can add 2 to saving throws made for models in the unit when they receive the benefits of cover, 而不是 1.</characteristic>
       </characteristics>
     </profile>
     <profile id="d0a0-002c-8278-a70e" name="战斗盾" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">

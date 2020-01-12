@@ -247,7 +247,7 @@
         <categoryLink id="71f2-0973-8c07-4fac" name="阵营: Astra Militarum" hidden="false" targetId="3263-4233-4344-6228" primary="false"/>
         <categoryLink id="3678-c27d-4fc2-6e69" name="阵营: Astra Telepathica" hidden="false" targetId="fac9-80d5-a022-1805" primary="false"/>
         <categoryLink id="9827-f4d0-f5ae-80ed" name="阵营: Scholastica Psykana" hidden="false" targetId="e33e-8d7c-5155-72e9" primary="false"/>
-        <categoryLink id="d4bc-3216-27c9-ea90" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
+        <categoryLink id="d4bc-3216-27c9-ea90" name="步兵" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
         <categoryLink id="0d54-f9f5-e616-a9a6" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
         <categoryLink id="4fa7-fcf5-f63e-ab5f" name="灵能者" hidden="false" targetId="e691-aad7-d21c-1023" primary="false"/>
         <categoryLink id="8ffd-a5e3-1f89-654f" name="原铸 灵能者" hidden="false" targetId="75a7-e5c7-78de-739b" primary="false"/>
@@ -264,7 +264,7 @@
               <characteristics>
                 <characteristic name="释放需求" typeId="5ffd-b800-c317-532a">8</characteristic>
                 <characteristic name="距离" typeId="fd64-cbc4-94de-24cc">12寸</characteristic>
-                <characteristic name="效果" typeId="ad96-dfa4-b4ed-656d">If manifested, select a 友方 ASTRA MILITARUM INFANTRY unit 范围内 12寸 of the 灵能者. 命中骰+1 for attacks made by 那个单位 until the start of your next 灵能阶段.</characteristic>
+                <characteristic name="效果" typeId="ad96-dfa4-b4ed-656d">If manifested, select a 友方 ASTRA MILITARUM 步兵单位 范围内 12寸 of the 灵能者. 命中骰+1 for attacks made by 那个单位 until the start of your next 灵能阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -488,7 +488,7 @@
         <categoryLink id="3f55-c251-de36-ccc1" name="New CategoryLink" hidden="false" targetId="2146-87ec-415f-6461" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="ad22-0104-d3a9-f32f" name="Infantry Squad" hidden="false" collective="false" import="true" targetId="2df54b12-1848-0cde-11ca-2aaebb9acaec" type="selectionEntry">
+    <entryLink id="ad22-0104-d3a9-f32f" name="步兵 Squad" hidden="false" collective="false" import="true" targetId="2df54b12-1848-0cde-11ca-2aaebb9acaec" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -2341,7 +2341,7 @@
   </entryLinks>
   <rules>
     <rule id="431d-d055-dd6e-d714" name="人类卫士" hidden="false">
-      <description>If your army is Battle-forged, all Troops units in ASTRA MILITARUM Detachments and all LEMAN RUSS units in Spearhead Detachments gain this ability. Such a unit that is 范围内 range of an objective marker (as specified in the mission) controls the objective marker even if there are more 敌方模型 范围内 range of it. If an 敌方单位 范围内 range of the same objective marker has a similar ability, then the objective marker is controlled by the player who has the most models in range as normal.</description>
+      <description>If your army is Battle-forged, all Troops units in ASTRA MILITARUM Detachments and all LEMAN RUSS units in Spearhead Detachments gain this ability. Such a unit that is 范围内 range of an objective marker (as specified in the mission) controls the objective marker even if there are more 敌方模型 范围内 range of it. If an 敌方单位 范围内 range of the same objective marker 拥有 similar ability, then the objective marker is controlled by the player who has the most models in range as normal.</description>
     </rule>
   </rules>
   <sharedSelectionEntries>
@@ -2598,7 +2598,7 @@
         </profile>
         <profile id="3da9-3795-a0e7-6c37" name="Power Field" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Commisar Yarrick has a 4+ 特殊保护.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Commisar Yarrick 拥有 4+ 特殊保护.</characteristic>
           </characteristics>
         </profile>
         <profile id="7c0d-e994-6252-7d93" name="Hero of Hades Hive" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -3484,7 +3484,7 @@
         </profile>
         <profile id="15a5-a67e-f4d5-13f8" name="Supreme Commander" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Lord Castellan Creed&apos;s Voice of Command ability has a range of 12寸, and he may use this abililty three times in each of your turns. Resolve the effects of the first order before issuing the second order, and so on.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Lord Castellan Creed&apos;s Voice of Command ability 拥有 range of 12寸, and he may use this abililty three times in each of your turns. Resolve the effects of the first order before issuing the second order, and so on.</characteristic>
           </characteristics>
         </profile>
         <profile id="d20a-0e3f-32fe-9ab4" name="Tactical Genius" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -3672,7 +3672,7 @@
           <description>If Nork Deddog is slain in the 肉搏阶段, you can immediately fight with him before removing his model as a casualty, even if he has already been chosen to fight during that phase.</description>
         </rule>
         <rule id="29e7-7271-8bee-91fd" name="Loyal to the End" publicationId="53e9d88f--pubN88319" page="58" hidden="false">
-          <description>投掷1个D6 each time a 友方 Astra Militarum Infantry Character (excluding Ogryns) loses a wound whilst they are 范围内 3寸 of Nork Deddog; on a 2+ the Astra Militarum character does not lose a wound but Nork Deddog 遭受 1点致命伤.</description>
+          <description>投掷1个D6 each time a 友方 Astra Militarum 步兵 Character (excluding Ogryns) loses a wound whilst they are 范围内 3寸 of Nork Deddog; on a 2+ the Astra Militarum character does not lose a wound but Nork Deddog 遭受 1点致命伤.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -4332,7 +4332,7 @@
       <profiles>
         <profile id="7e60-39ff-5ecf-e507" name="天生隐蔽" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When you set up 这个单位 during deployment, it can be set up anywhere on the battlefield that is more than 18寸 away from the 敌方 部署区 and any 敌方模型.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When you set up 这个单位 部署期间, it can be set up anywhere on the battlefield that is more than 18寸 away from the 敌方 部署区 and any 敌方模型.</characteristic>
           </characteristics>
         </profile>
         <profile id="2043-4f77-b859-fb19" name="最佳狙击点" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -4398,7 +4398,7 @@
       <profiles>
         <profile id="9cfb-dc5f-20e4-b4f7" name="Flanking Manoeuvres" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up 这个单位 riding around the flanks 而不是 placing it on the battlefield.  At the end of any of your 移动阶段 the unit can join the battle - set it up so that all models in the unit are 范围内 7寸 of a battlefield edge of your choice and more than 9寸 from any 敌方模型.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">部署期间, 可以放置 这个单位 riding around the flanks 而不是 placing it on the battlefield.  At the end of any of your 移动阶段 the unit can join the battle - set it up so that all models in the unit are 范围内 7寸 of a battlefield edge of your choice and more than 9寸 from any 敌方模型.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5133,7 +5133,7 @@
         </profile>
         <profile id="c513-fca7-d6e4-9db6" name="Been There, Seen It, Killed It" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll failed wound rolls made for Colonel &apos;Iron Hand&apos; Straken in the 肉搏阶段 when targeting 敌方 MONSTERS.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投失败的造伤骰 made for Colonel &apos;Iron Hand&apos; Straken in the 肉搏阶段 when targeting 敌方 MONSTERS.</characteristic>
           </characteristics>
         </profile>
         <profile id="ea68-ab7f-07a3-699a" name="Cold Steel and Courage" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -5557,7 +5557,7 @@
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                    <characteristic name="能力" typeId="837d-5e63-aeb7-1410">这个武器 can target units not visible to the bearer.  You can re-roll failed wound rolls for 这个武器.</characteristic>
+                    <characteristic name="能力" typeId="837d-5e63-aeb7-1410">这个武器 can target units not visible to the bearer.  可以重投失败的造伤骰 for 这个武器.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -6776,7 +6776,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">16</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-5</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2D6</characteristic>
-                <characteristic name="能力" typeId="837d-5e63-aeb7-1410">You can re-roll failed wound rolls when targeting TITANIC units with 这个武器.</characteristic>
+                <characteristic name="能力" typeId="837d-5e63-aeb7-1410">可以重投失败的造伤骰 when targeting TITANIC units with 这个武器.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9589,7 +9589,7 @@
             </profile>
             <profile id="1bf1-25cc-c74c-bde1" name="Automated Artillery" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
               <characteristics>
-                <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 has a 双联 重爆弹, it will automatically shoot at the nearest 敌方 INFANTRY unit in the 射击阶段 范围内 range. If 这个模型 has a 双联激光炮, it will automatically shoot at the nearest 敌方 non-步兵模型 in the 射击阶段 范围内 range. If there are none of the specified types of unit in range or line of sight, the closest visible 敌方单位 of any kind must be targeted. However, in all cases 这个模型 may only target 敌方 CHARACTER models if they are the closest model.</characteristic>
+                <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 拥有 双联 重爆弹, it will automatically shoot at the nearest 敌方 步兵单位 in the 射击阶段 范围内 range. If 这个模型 拥有 双联激光炮, it will automatically shoot at the nearest 敌方 non-步兵模型 in the 射击阶段 范围内 range. If there are none of the specified types of unit in range or line of sight, the closest visible 敌方单位 of any kind must be targeted. However, in all cases 这个模型 may only target 敌方 CHARACTER models if they are the closest model.</characteristic>
               </characteristics>
             </profile>
             <profile id="3a51-de73-1565-e91e" name="Immobile" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -10655,7 +10655,7 @@
         </profile>
         <profile id="ae72-c0d5-efa6-8efb" name="Subterranean Assault" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set 这个单位 up underground 而不是 placing it on the battlefield. At the end of any of your 移动阶段, 这个单位 may drill up from the ground and into battle - set it up anywhere on the battlefield that is more than 9寸 away from 敌方模型.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">部署期间, you can set 这个单位 up underground 而不是 placing it on the battlefield. At the end of any of your 移动阶段, 这个单位 may drill up from the ground and into battle - set it up anywhere on the battlefield that is more than 9寸 away from 敌方模型.</characteristic>
           </characteristics>
         </profile>
         <profile id="1fc8-b024-e2a1-0dff" name="Seperate Orders" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -10665,7 +10665,7 @@
         </profile>
         <profile id="2e8a-40a0-1484-2686" name="Whirling Blades" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The Hades Breaching Drill has a 4+ 特殊保护 in the 肉搏阶段.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The Hades Breaching Drill 拥有 4+ 特殊保护 in the 肉搏阶段.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11738,7 +11738,7 @@
         </profile>
         <profile id="4e96-c897-9718-3d51" name="Heavy Armored Prow" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 has a 5+ 特殊保护 against shooting attacks.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 拥有 5+ 特殊保护 against shooting attacks.</characteristic>
           </characteristics>
         </profile>
         <profile id="9360-9d07-56cd-4d44" name="Steel Behemoth" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -13173,7 +13173,7 @@
         </profile>
         <profile id="6a43-e704-d806-aeef" name="Heavy Armored Front" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 has a 5+ 特殊保护 against shooting attacks.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 拥有 5+ 特殊保护 against shooting attacks.</characteristic>
           </characteristics>
         </profile>
         <profile id="fbdc-ae3b-6ef1-c118" name="Steel Behemoth" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -14129,7 +14129,7 @@
                   <profiles>
                     <profile id="d451-f27c-3e48-4b17" name="Defense Searchlight" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 has a defence searchlight, at the start of your 射击阶段 it may select a single 敌方单位 范围内 48寸 and line of sight. One 友方 Infantry or Sabre 武器 Battery unit adds 1 to any hit rolls that target the chosen unit until the end of the 射击阶段. A single unit cannot benefit from multiple Defence Searchlights.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 拥有 defence searchlight, at the start of your 射击阶段 it may select a single 敌方单位 范围内 48寸 and line of sight. One 友方 步兵 or Sabre 武器 Battery unit adds 1 to any hit rolls that target the chosen unit until the end of the 射击阶段. A single unit cannot benefit from multiple Defence Searchlights.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -14765,7 +14765,7 @@
         </profile>
         <profile id="96e5-861b-aa21-5a65" name="Aerial Assault" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set 这个单位 up in the sky 而不是 placing it on the battlefield. At the end of any of your 移动阶段, 这个单位 may fly into battle – set it up anywhere on the battlefield that is more than 9寸 away from 敌方模型.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">部署期间, you can set 这个单位 up in the sky 而不是 placing it on the battlefield. At the end of any of your 移动阶段, 这个单位 may fly into battle – set it up anywhere on the battlefield that is more than 9寸 away from 敌方模型.</characteristic>
           </characteristics>
         </profile>
         <profile id="a292-c135-4397-703c" name="Aquilla Lander Transport" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
@@ -14859,7 +14859,7 @@
             </profile>
             <profile id="9a9c-0239-3c01-c247" name="Aerial Assault" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
               <characteristics>
-                <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set 这个单位 up in the sky 而不是 placing it on the battlefield. At the end of any of your 移动阶段, 这个单位 may fly into battle – set it up anywhere on the battlefield that is more than 9寸 away from 敌方模型.</characteristic>
+                <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">部署期间, you can set 这个单位 up in the sky 而不是 placing it on the battlefield. At the end of any of your 移动阶段, 这个单位 may fly into battle – set it up anywhere on the battlefield that is more than 9寸 away from 敌方模型.</characteristic>
               </characteristics>
             </profile>
             <profile id="f80b-622a-f16b-ae05" name="Repair" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -15773,7 +15773,7 @@
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="效果" typeId="e15a-5346-1d34-3504">The ordered unit can shoot at 敌方单位 that are 范围内 1寸 of 友方单位 直到阶段结束, but each time you roll a hit roll of 1 for such an attack, resolve that attack against a 友方单位 范围内 1寸 of the target unit instead. You may choose which 友方单位 is hit. This order may not be issued to a unit which is 范围内 1寸 of an 敌方单位.</characteristic>
+            <characteristic name="效果" typeId="e15a-5346-1d34-3504">The ordered unit can shoot at 敌方单位 that are 范围内 1寸 of 友方单位 直到阶段结束, but each time you roll a hit roll of 1 for such an attack, resolve that attack against a 友方单位 范围内 1寸 of the target unit instead. You may choose which 友方单位 is hit. This order 不能 issued to a unit which is 范围内 1寸 of an 敌方单位.</characteristic>
           </characteristics>
         </profile>
         <profile id="38f3-8b61-06e0-4db6" name="Repel the Enemy!" hidden="false" typeId="5c3a-03e3-c48d-726c" typeName="星界军命令">
@@ -15797,7 +15797,7 @@
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="效果" typeId="e15a-5346-1d34-3504">直到阶段结束, the ordered unit can shoot and then immediately embark 范围内 a 友方 ARMAGEDDON TRANSPORT VEHICLE, as long as all models in the unit are 范围内 3寸 of the vehicle. This order may not be issued to a unit which disembarked in the preceding 移动阶段.</characteristic>
+            <characteristic name="效果" typeId="e15a-5346-1d34-3504">直到阶段结束, the ordered unit can shoot and then immediately embark 范围内 a 友方 ARMAGEDDON TRANSPORT VEHICLE, as long as all models in the unit are 范围内 3寸 of the vehicle. This order 不能 issued to a unit which disembarked in the preceding 移动阶段.</characteristic>
           </characteristics>
         </profile>
         <profile id="89d7-da67-7b92-59a1" name="Elimination Protocol Sanctioned!" hidden="false" typeId="5c3a-03e3-c48d-726c" typeName="星界军命令">
@@ -15809,7 +15809,7 @@
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="效果" typeId="e15a-5346-1d34-3504">You can re-roll failed wound rolls for models from the ordered unit when attacking any 敌方 VEHICLES or MONSTERS 这个阶段.</characteristic>
+            <characteristic name="效果" typeId="e15a-5346-1d34-3504">可以重投失败的造伤骰 for models from the ordered unit when attacking any 敌方 载具 or MONSTERS 这个阶段.</characteristic>
           </characteristics>
         </profile>
         <profile id="0408-58d4-0f0b-7a7c" name="Form Firing Squad!" hidden="false" typeId="5c3a-03e3-c48d-726c" typeName="星界军命令">
@@ -15821,7 +15821,7 @@
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="效果" typeId="e15a-5346-1d34-3504">直到阶段结束, the ordered unit can target CHARACTERS with their 速射 武器, even if they are not the closest 敌方单位.</characteristic>
+            <characteristic name="效果" typeId="e15a-5346-1d34-3504">直到阶段结束, the ordered unit can target 人物 with their 速射 武器, even if they are not the closest 敌方单位.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -16131,12 +16131,12 @@
         </profile>
         <profile id="a7d2-f259-1665-aa0d" name="玫瑰念珠" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 has a 4+ 特殊保护.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 拥有 4+ 特殊保护.</characteristic>
           </characteristics>
         </profile>
         <profile id="ae91-7cad-35b4-63d7" name="战争祷言" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can add 1 to the Attacks characteristic of all models in an ADEPTUS MINISTORUM INFANTRY and ASTRA MILITARUM INFANTRY units that 范围内 6寸 of any 友方 MINISTORUM PRIESTS.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can add 1 to the Attacks characteristic of all models in an ADEPTUS MINISTORUM 步兵 and ASTRA MILITARUM 步兵单位 that 范围内 6寸 of any 友方 MINISTORUM PRIESTS.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -16410,12 +16410,12 @@
         </profile>
         <profile id="3017-f63c-c6b1-72c9" name="生化改造" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 has a 6+ 特殊保护. </characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 拥有 6+ 特殊保护. </characteristic>
           </characteristics>
         </profile>
         <profile id="21c2-73ae-6b96-3c1f" name="机械大师" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of your 移动阶段 这个模型 can repair a single 友方 &lt;FORGEWORLD&gt;, ASTRAMILITARUM VEHICLE or QUESTOR MECHANICUS model 范围内 3寸. If the model being repaired is a &lt;FORGEWORLD&gt; or ASTRA MILITARUM model, it regains D3 lost wounds; if it is a QUESTOR MECHANICUS model, it regains 1 lost wound. A model may not be the target of the Master of Machines ability more than once per turn.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of your 移动阶段 这个模型 can repair a single 友方 &lt;FORGEWORLD&gt;, ASTRAMILITARUM VEHICLE or QUESTOR MECHANICUS model 范围内 3寸. If the model being repaired is a &lt;FORGEWORLD&gt; or ASTRA MILITARUM model, it regains D3 lost wounds; if it is a QUESTOR MECHANICUS model, it regains 1 lost wound. A model 不能 the target of the Master of Machines ability more than once per turn.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -16673,7 +16673,7 @@
       </profiles>
       <rules>
         <rule id="dc03-5c0d-d63a-5eca" name="Bodyguard" hidden="false">
-          <description>投掷1个D6 each time a 友方 Astra Militarum Infantry Character (excluding Ogryns) loses a wound whilst they are 范围内 3寸 of any models with this ability; on a 3+ the Astra Militarum character does not lose a wound but one model with this ability 遭受 1点致命伤. 此外, 这个模型 may not be selected as your 主将, and may not be given a 主将 Trait.</description>
+          <description>投掷1个D6 each time a 友方 Astra Militarum 步兵 Character (excluding Ogryns) loses a wound whilst they are 范围内 3寸 of any models with this ability; on a 3+ the Astra Militarum character does not lose a wound but one model with this ability 遭受 1点致命伤. 此外, 这个模型 不能 selected as your 主将, and 不能 given a 主将 Trait.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -16735,7 +16735,7 @@
               <profiles>
                 <profile id="6aba-1d19-9504-1407" name="Bullgryn Plate" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A model in Bullgryn Plate has a Save characteristic of 4+.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A model in Bullgryn Plate 拥有 Save characteristic of 4+.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -16893,7 +16893,7 @@
         </profile>
         <profile id="0a8a-9599-112d-f362" name="Lethal Ambush" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up Sly Marbo in ambush 而不是 placing him on the battlefield. At the end of any of your 移动阶段 he can emerge from hiding and attack -- set him up anywhere on the battlefield that is more than 9寸 away from any 敌方模型. Sly Marbo can then do one of the actions in the Lethal Ambush table below.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">部署期间, 可以放置 Sly Marbo in ambush 而不是 placing him on the battlefield. At the end of any of your 移动阶段 he can emerge from hiding and attack -- set him up anywhere on the battlefield that is more than 9寸 away from any 敌方模型. Sly Marbo can then do one of the actions in the Lethal Ambush table below.</characteristic>
           </characteristics>
         </profile>
         <profile id="0a1c-4827-45c8-d83f" name="One With His Surroundings" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -16926,7 +16926,7 @@
         </profile>
         <profile id="02dc-0b6b-f11b-1c23" name="Snipe with the Pistol" hidden="false" typeId="7bf1-f257-0dfd-89c4" typeName="Lethal Ambush">
           <characteristics>
-            <characteristic name="Effect" typeId="7b99-9b3e-d21d-c1d9">Sly Marbo can immediately shoot his ripper pistol as if it were the 射击阶段 (doing so does not prevent him from shooting in the 射击阶段 of this turn). 此外, unitil the start of your next turn, Sly Marbo can target 敌方 CHARACTERS when he shoots his ripper pistol even if another 敌方单位 is closer.</characteristic>
+            <characteristic name="Effect" typeId="7b99-9b3e-d21d-c1d9">Sly Marbo can immediately shoot his ripper pistol as if it were the 射击阶段 (doing so does not prevent him from shooting in the 射击阶段 of this turn). 此外, unitil the start of your next turn, Sly Marbo can target 敌方 人物 when he shoots his ripper pistol even if another 敌方单位 is closer.</characteristic>
           </characteristics>
         </profile>
         <profile id="ddd6-558a-e35d-79ca" name="Detonate Concealed Explosives" hidden="false" typeId="7bf1-f257-0dfd-89c4" typeName="Lethal Ambush">
@@ -16952,7 +16952,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                <characteristic name="能力" typeId="837d-5e63-aeb7-1410">这个武器 wounds INFANTRY units on a roll of 2+.</characteristic>
+                <characteristic name="能力" typeId="837d-5e63-aeb7-1410">这个武器 wounds 步兵单位 on a roll of 2+.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -16975,7 +16975,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">+1</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                <characteristic name="能力" typeId="837d-5e63-aeb7-1410">这个武器 wounds INFANTRY units on a roll of 2+.</characteristic>
+                <characteristic name="能力" typeId="837d-5e63-aeb7-1410">这个武器 wounds 步兵单位 on a roll of 2+.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -17138,7 +17138,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">16</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-5</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2D6</characteristic>
-                <characteristic name="能力" typeId="837d-5e63-aeb7-1410">You can re-roll failed wound rolls when targeting TITANIC units with 这个武器.</characteristic>
+                <characteristic name="能力" typeId="837d-5e63-aeb7-1410">可以重投失败的造伤骰 when targeting TITANIC units with 这个武器.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -17494,7 +17494,7 @@
       <profiles>
         <profile id="a2da-93b9-7362-5611" name="Find the Best Spot" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When you set up 这个单位 during deployment, it can be set up anywhere on the battlefield that is more than 18寸 away from the 敌方 部署区 and any 敌方模型.
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When you set up 这个单位 部署期间, it can be set up anywhere on the battlefield that is more than 18寸 away from the 敌方 部署区 and any 敌方模型.
 </characteristic>
           </characteristics>
         </profile>
@@ -17548,7 +17548,7 @@
           </profiles>
           <categoryLinks>
             <categoryLink id="8e1a-a78d-265d-ce22" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
-            <categoryLink id="9d19-7772-f8a4-88c1" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
+            <categoryLink id="9d19-7772-f8a4-88c1" name="步兵" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
             <categoryLink id="8d0f-19f6-7d07-ebc3" name="Ratling" hidden="false" targetId="9f85-8aad-750e-ccad" primary="false"/>
             <categoryLink id="4964-a4d6-3d02-c010" name="Rein" hidden="false" targetId="7ad6-765f-9f57-3049" primary="false"/>
           </categoryLinks>
@@ -17607,7 +17607,7 @@
           </profiles>
           <categoryLinks>
             <categoryLink id="61ab-6b3e-3afb-11ba" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
-            <categoryLink id="0d72-8519-5cdc-cd66" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
+            <categoryLink id="0d72-8519-5cdc-cd66" name="步兵" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
             <categoryLink id="efda-dac7-1e78-f17c" name="Ratling" hidden="false" targetId="9f85-8aad-750e-ccad" primary="false"/>
             <categoryLink id="a675-2904-f373-76d2" name="Raus" hidden="false" targetId="8a40-4cea-e8d3-d23e" primary="false"/>
           </categoryLinks>
@@ -18102,7 +18102,7 @@
       <profiles>
         <profile id="50b2-c878-1380-fd9f" name="The Deathmask of Ollanius" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">步兵模型 only. The bearer of this item has a 4+ 特殊保护. 此外, once per game, at the start of any of your turns, the bearer may immediately heal D3 wounds.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">步兵模型 only. The bearer of this item 拥有 4+ 特殊保护. 此外, once per game, at the start of any of your turns, the bearer may immediately heal D3 wounds.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -18131,7 +18131,7 @@
       <profiles>
         <profile id="7c8d-1cb2-dbb7-2137" name="The Dagger of Tu&apos;Sakh" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up the bearer and one ASTRA MILITARUM INFANTRY unit from your army behind 敌方 lines 而不是 placing them on the battlefield. The infantry unit must have the same &lt;REGIMENT&gt; keyword as the bearer if the bearer has one.At the end of any of your 移动阶段 these units can launch their daring attack – set them up 范围内 3寸 of each other, anywhere on the battlefield that is wholly 范围内 6寸 of any battlefield edge and more than 9寸 away from any 敌方模型.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">部署期间, 可以放置 the bearer and one ASTRA MILITARUM 步兵单位 from your army behind 敌方 lines 而不是 placing them on the battlefield. The 步兵单位 must have the same &lt;REGIMENT&gt; keyword as the bearer if the bearer has one.At the end of any of your 移动阶段 these units can launch their daring attack – set them up 范围内 3寸 of each other, anywhere on the battlefield that is wholly 范围内 6寸 of any battlefield edge and more than 9寸 away from any 敌方模型.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -18148,7 +18148,7 @@
       <profiles>
         <profile id="5b87-158a-9233-d6ad" name="Industrial Efficiency" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">INFANTRY units with this doctrine may double the number of attacks they make with 速射 武器 at a range of up to 18寸, rather than half the weapon’s range as normal. VEHICLES with this doctrine treat attacks against them with an AP of -1 as having AP 0.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">步兵单位 with this doctrine may double the number of attacks they make with 速射 武器 at a range of up to 18寸, rather than half the weapon’s range as normal. 载具 with this doctrine treat attacks against them with an AP of -1 as having AP 0.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -18190,7 +18190,7 @@
       <profiles>
         <profile id="5fa9-39a5-feb4-f5cd" name="Born Soldiers" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Re-roll hit rolls of 1 in the 射击阶段 for units with this doctrine if they did not move in the previous 移动阶段. If an INFANTRY unit with this doctrine is issued the ‘Take Aim!’ order and it did not move in the previous 移动阶段, re-roll all failed hit rolls for the unit 直到阶段结束 instead.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Re-roll hit rolls of 1 in the 射击阶段 for units with this doctrine if they did not move in the previous 移动阶段. If an 步兵单位 with this doctrine is issued the ‘Take Aim!’ order and it did not move in the previous 移动阶段, re-roll all failed hit rolls for the unit 直到阶段结束 instead.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -18215,7 +18215,7 @@
       <profiles>
         <profile id="afb3-61c4-1abe-19f6" name="Superior Tactical Training" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Roll a dice each time your 主将 issues an order or tank order. On a 4+ that order can affect an additional CADIAN unit of the same type as the original target (INFANTRY or LEMAN RUSS) 范围内 6寸 of the 主将.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Roll a dice each time your 主将 issues an order or tank order. On a 4+ that order can affect an additional CADIAN unit of the same type as the original target (步兵 or LEMAN RUSS) 范围内 6寸 of the 主将.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -18232,7 +18232,7 @@
       <profiles>
         <profile id="a027-d574-b9d8-42d4" name="Brutal Strength" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">INFANTRY units with this doctrine add 1 to their Strength characteristic. 此外, they can add 1 to their LD characteristic if they are 范围内 6寸 of a 友方 CATACHAN OFFICER. Each time a VEHICLE with this doctrine fires a 远程武器 that makes a random number of attacks (e.g. Heavy D6, Heavy 2D6 etc.) you can re-roll one of the dice used to determine the number of attacks made.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">步兵单位 with this doctrine add 1 to their Strength characteristic. 此外, they can add 1 to their LD characteristic if they are 范围内 6寸 of a 友方 CATACHAN OFFICER. Each time a VEHICLE with this doctrine fires a 远程武器 that makes a random number of attacks (e.g. Heavy D6, Heavy 2D6 etc.) you can re-roll one of the dice used to determine the number of attacks made.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -18257,7 +18257,7 @@
       <profiles>
         <profile id="b44d-8ee2-9398-1c98" name="Lead From the Front" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个主将 can perform a Heroic Intervention if, after the 敌方 has completed all their charge moves, they are 范围内 6寸 of any 敌方单位. 这个主将 可以移动至多 6寸 when performing a Heroic Intervention, so long as they end the move closer to the nearest 敌方模型. 此外, if your 主将 charged, was charged or performed a Heroic Intervention, then until the end of the turn you can re-roll failed hit rolls made for them.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个主将 can perform a Heroic Intervention if, after the 敌方 has completed all their charge moves, they are 范围内 6寸 of any 敌方单位. 这个主将 可以移动至多 6寸 when performing a Heroic Intervention, so long as they end the move closer to the nearest 敌方模型. 此外, if your 主将 charged, was charged or performed a Heroic Intervention, then until the end of the turn 可以重投失败的命中骰 made for them.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -18316,7 +18316,7 @@
       <profiles>
         <profile id="036e-7654-e46f-4da7" name="Parade Drill" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If the base of every model in an INFANTRY unit with this doctrine is touching the base of at least one other model from the same unit, the unit has +1 LD and 命中骰+1 made for models in 那个单位 when firing Overwatch. 命中骰+1 made for VEHICLES with this doctrine when firing 坚守射击 if they are 范围内 3寸 of one or more other 友方 MORDIAN VEHICLES. These modifers to hit rolls are an exception to the normal rules which do not allow modifers when making 坚守射击 shots – in such cases a result of 7 is also a successful hit.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If the base of every model in an 步兵单位 with this doctrine is touching the base of at least one other model from the same unit, the unit has +1 LD and 命中骰+1 made for models in 那个单位 when firing Overwatch. 命中骰+1 made for 载具 with this doctrine when firing 坚守射击 if they are 范围内 3寸 of one or more other 友方 MORDIAN 载具. These modifers to hit rolls are an exception to the normal rules which do not allow modifers when making 坚守射击 shots – in such cases a result of 7 is also a successful hit.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -18358,7 +18358,7 @@
       <profiles>
         <profile id="274c-18ea-0b3d-fe83" name="Swift as the Wind" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">INFANTRY units with this doctrine can Advance and still shoot any weapon type (except 重型武器). When they do so, they do not suffer the usual penalties to hit rolls for Assault 武器. VEHICLES with this doctrine do not suffer the penalty to their hit rolls for moving and firing 重型武器. If a TITANIC VEHICLE with this doctrine Advances, it treats all 重型武器 it is equipped with as Assault 武器 until the end of the turn (e.g. a Heavy D6 weapon is treated as an Assault D6 weapon).</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">步兵单位 with this doctrine can Advance and still shoot any weapon type (except 重型武器). When they do so, they do not suffer the usual penalties to hit rolls for Assault 武器. 载具 with this doctrine do not suffer the penalty to their hit rolls for moving and firing 重型武器. If a TITANIC VEHICLE with this doctrine Advances, it treats all 重型武器 it is equipped with as Assault 武器 until the end of the turn (e.g. a Heavy D6 weapon is treated as an Assault D6 weapon).</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -18442,7 +18442,7 @@
       <profiles>
         <profile id="b9bd-af65-13fd-3753" name="Grim Demeanour" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">INFANTRY units with this doctrine halve the number of models that flee, rounding up, if they fail a Morale test. VEHICLES with this doctrine that have a damage table double the number of Wounds they have remaining for the purposes of determining what their characteristics are.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">步兵单位 with this doctrine halve the number of models that flee, rounding up, if they fail a Morale test. 载具 with this doctrine that have a damage table double the number of Wounds they have remaining for the purposes of determining what their characteristics are.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -18819,7 +18819,7 @@
       <profiles>
         <profile id="ef1f-2fbc-2812-3f2d" name="Grave-Chute Commando" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">命中骰+1 for attacks made by 友方 TEMPESTUS DROP FORCE INFANTRY units that disembarked from a friendlyTEMPESTUS DROP FORCE VALKYRIE this turn while they are 范围内 6寸 of your 主将.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">命中骰+1 for attacks made by 友方 TEMPESTUS DROP FORCE 步兵单位 that disembarked from a friendlyTEMPESTUS DROP FORCE VALKYRIE this turn while they are 范围内 6寸 of your 主将.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -18843,7 +18843,7 @@
       <profiles>
         <profile id="7eb5-91a0-b0c9-f1e3" name="The Shield of Mortwald" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The bearer has a 3+ 特殊保护, which cannot be re-rolled for any reason. The 第1次 this 特殊保护 is failed, the Shield of Mortwald ceases to function for the rest of the battle.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The bearer 拥有 3+ 特殊保护, which cannot be re-rolled for any reason. The 第1次 this 特殊保护 is failed, the Shield of Mortwald ceases to function for the rest of the battle.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -19039,7 +19039,7 @@
         <categoryLink id="6774-5b94-ab5c-1dac" name="帝国" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false"/>
         <categoryLink id="bf4f-a5ac-fa4c-f050" name="Officio Prefectus" hidden="false" targetId="5988-2982-1dde-215b" primary="false"/>
         <categoryLink id="f10d-43e9-beda-b728" name="Severina Raine" hidden="false" targetId="fc42-b246-2f5e-1e22" primary="false"/>
-        <categoryLink id="abff-aa39-0b69-f440" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
+        <categoryLink id="abff-aa39-0b69-f440" name="步兵" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
         <categoryLink id="b144-c9e6-93a4-f896" name="Commissar" hidden="false" targetId="fa52-8fb7-1c87-80e6" primary="false"/>
         <categoryLink id="7060-cc9a-445b-f03f" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
       </categoryLinks>
@@ -19137,7 +19137,7 @@
         </profile>
         <profile id="f475-bd40-cd7c-a428" name="Zealot" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll failed hit rolls for Gotfret de Montbard in a turn in which he charged, made a Heroic Intervention, or was charged by an 敌方单位.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投失败的命中骰 for Gotfret de Montbard in a turn in which he charged, made a Heroic Intervention, or was charged by an 敌方单位.</characteristic>
           </characteristics>
         </profile>
         <profile id="0733-6048-a799-9197" name="Gotfret de Montbard" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
@@ -19192,7 +19192,7 @@ Use this Act of Faith at the start of the Morale phase. If successful, the selec
         <categoryLink id="a06a-f62a-8380-3332" name="阵营: Adeptus Ministorum" hidden="false" targetId="2009-635c-b08f-f825" primary="false"/>
         <categoryLink id="9a72-7cd2-56c4-1d24" name="阵营: Astra Militarum" hidden="false" targetId="3263-4233-4344-6228" primary="false"/>
         <categoryLink id="2277-8d5c-a2ea-28e5" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
-        <categoryLink id="dc6f-64c2-8e51-0e6c" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
+        <categoryLink id="dc6f-64c2-8e51-0e6c" name="步兵" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
         <categoryLink id="0c65-8e5e-ab93-f901" name="Ecclesiarchy Battle Conclave" hidden="false" targetId="3337-ea0e-68ae-0ae9" primary="false"/>
         <categoryLink id="91b1-9a6c-22c2-9e01" name="Crusader" hidden="false" targetId="4fff-e2dd-ec8b-86a9" primary="false"/>
         <categoryLink id="8303-1e42-baaf-157f" name="Gotfret de Montbard" hidden="false" targetId="9473-29de-f2a8-7aba" primary="false"/>
@@ -20523,7 +20523,7 @@ Use this Act of Faith at the start of the Morale phase. If successful, the selec
               <profiles>
                 <profile id="c254-756d-1606-55e6" name="Old Grudges" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">After deployment, but before the first battle round begins, choose a unit in your opponent’s army. You can re-roll failed wound rolls for ASTRA MILITARUM units from your army that target the unit you chose whilst they are 范围内 6寸 of your 主将.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">After deployment, but before the first battle round begins, choose a unit in your opponent’s army. 可以重投失败的造伤骰 for ASTRA MILITARUM units from your army that target the unit you chose whilst they are 范围内 6寸 of your 主将.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -20559,7 +20559,7 @@ Use this Act of Faith at the start of the Morale phase. If successful, the selec
               <profiles>
                 <profile id="194c-0b36-d6a2-1005" name="Draconian Disiplinarian" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll failed 士气测试 for 友方 ASTRA MILITARUM INFANTRY units 范围内 6寸 of your 主将 in the Morale phase.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll failed 士气测试 for 友方 ASTRA MILITARUM 步兵单位 范围内 6寸 of your 主将 in the Morale phase.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -20668,7 +20668,7 @@ Use this Act of Faith at the start of the Morale phase. If successful, the selec
         <entryLink id="1267-151e-35e3-63e1" name="Tempestus Drop Force, -1CP" hidden="false" collective="false" import="true" targetId="8250-3dbc-81bc-946f" type="selectionEntry"/>
         <entryLink id="4eee-eb57-7d99-6d8d" name="Emperor&apos;s Wrath Artillery Company" hidden="false" collective="false" import="true" targetId="b6f6-eaa2-01d9-d145" type="selectionEntry"/>
         <entryLink id="eaa1-bfe6-d160-b43c" name="Emperor&apos;s Fist Tank Company" hidden="false" collective="false" import="true" targetId="34d6-8b14-6c47-dcd4" type="selectionEntry"/>
-        <entryLink id="9408-3ffd-0986-0dd7" name="Emperor&apos;s Conclave Infantry Company" hidden="false" collective="false" import="true" targetId="b84e-5bea-add7-5b04" type="selectionEntry"/>
+        <entryLink id="9408-3ffd-0986-0dd7" name="Emperor&apos;s Conclave 步兵 Company" hidden="false" collective="false" import="true" targetId="b84e-5bea-add7-5b04" type="selectionEntry"/>
         <entryLink id="74b9-e91b-959d-44d6" name="Emperor&apos;s Blade Assault Company" hidden="false" collective="false" import="true" targetId="236f-fa07-98c3-dd95" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
@@ -20854,7 +20854,7 @@ Spirit of the Martyr: One model in the unit recovers D3 lost wounds, or you can 
     </profile>
     <profile id="2ff26b94-8048-d15d-c541-fd4da0f49571" name="指挥之声" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个单位 may issue one order per turn to the soldiers under their command at the start of their 射击阶段. Orders may only be issued to INFANTRY units 范围内 6寸 of 这个单位 that have the same &lt;REGIMENT&gt; keyword as 这个单位. To issue an order, pick a target unit and choose which order you wish to issue from the table below. A unit may only be affected by one order per turn.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个单位 may issue one order per turn to the soldiers under their command at the start of their 射击阶段. Orders may only be issued to 步兵单位 范围内 6寸 of 这个单位 that have the same &lt;REGIMENT&gt; keyword as 这个单位. To issue an order, pick a target unit and choose which order you wish to issue from the table below. A unit may only be affected by one order per turn.</characteristic>
       </characteristics>
     </profile>
     <profile id="d4f6537c-b82c-db68-b6d6-03eefe4de298" name="老兵" publicationId="53e9d88f--pubN88319" page="30" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
@@ -20890,7 +20890,7 @@ Spirit of the Martyr: One model in the unit recovers D3 lost wounds, or you can 
     </profile>
     <profile id="3508-2ef3-22d7-b5b9" name="Medi-pack" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of any of your 移动阶段, a model with a medi-pack can attempt to heal a single model.  Select a 友方 ASTRA MILITARUM INFANTRY unit 范围内 3寸 and 投掷1个D6.  On a roll of a 4+, one model in the unit recovers a wound it lost earlier in the battle (if the model has a Wounds characteristic of 1, one model slain earlier in the battle is returned to the unit instead).  A unit can only be the target of this ability once in each turn.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of any of your 移动阶段, a model with a medi-pack can attempt to heal a single model.  Select a 友方 ASTRA MILITARUM 步兵单位 范围内 3寸 and 投掷1个D6.  On a roll of a 4+, one model in the unit recovers a wound it lost earlier in the battle (if the model 拥有 Wounds characteristic of 1, one model slain earlier in the battle is returned to the unit instead).  A unit can only be the target of this ability once in each turn.</characteristic>
       </characteristics>
     </profile>
     <profile id="3635-257d-26f1-26e8" name="卫军" publicationId="53e9d88f--pubN88319" page="36" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
@@ -20936,7 +20936,7 @@ Spirit of the Martyr: One model in the unit recovers D3 lost wounds, or you can 
     </profile>
     <profile id="0a6c-a8e0-8fd8-b3f0" name="空中降下" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up 这个模型 in a high altitude transport, ready to deploy via grav-chute, 而不是 placing it on the battlefield.  At the end of any of your 移动阶段 the model can make an aerial drop - set it up anywhere on the battlefield that is more than 9寸 away from any 敌方模型.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">部署期间, 可以放置 这个模型 in a high altitude transport, ready to deploy via grav-chute, 而不是 placing it on the battlefield.  At the end of any of your 移动阶段 the model can make an aerial drop - set it up anywhere on the battlefield that is more than 9寸 away from any 敌方模型.</characteristic>
       </characteristics>
     </profile>
     <profile id="59561fd3-8437-5e2e-1080-fe4d29ae4a60" name="黎曼鲁斯" publicationId="53e9d88f--pubN88319" page="46" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
@@ -21175,7 +21175,7 @@ Spirit of the Martyr: One model in the unit recovers D3 lost wounds, or you can 
     </profile>
     <profile id="017f-29b9-fbf3-10e8" name="狂热" publicationId="53e9d88f--pubN88319" page="99" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll failed hit rolls for 这个单位 in a turn in which it charged, made a heroic intervention, or was changed by an 敌方单位.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投失败的命中骰 for 这个单位 in a turn in which it charged, made a heroic intervention, or was changed by an 敌方单位.</characteristic>
       </characteristics>
     </profile>
     <profile id="12dd-ab65-2ad9-8ec0" name="Ecclesiarchy Battle Conclave" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">

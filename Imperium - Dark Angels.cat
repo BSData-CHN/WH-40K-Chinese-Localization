@@ -63,7 +63,7 @@
     <categoryEntry id="160f-939d-71f8-d55e" name="鸦翼 Black Knights" hidden="false"/>
     <categoryEntry id="dd42-11cf-d9ad-0523" name="鸦翼 兰德速攻艇 Vengeance" hidden="false"/>
     <categoryEntry id="f047-a791-a6fa-988d" name="Aggressors" hidden="false"/>
-    <categoryEntry id="a79d-1cce-4986-1411" name="Redemptor Dreadnought" hidden="false"/>
+    <categoryEntry id="a79d-1cce-4986-1411" name="Redemptor 无畏" hidden="false"/>
     <categoryEntry id="c5df-0f2f-5057-0d93" name="Reivers" hidden="false"/>
     <categoryEntry id="36e1-8af0-88e4-eb03" name="Repulsor" hidden="false"/>
     <categoryEntry id="e81b-895a-4cde-559b" name="Stormraven Gunship" hidden="false"/>
@@ -179,7 +179,7 @@
     <entryLink id="a000-3fad-957a-9de3" name="原铸药剂师" hidden="false" collective="false" import="true" targetId="ad3a-0af6-bb47-2450" type="selectionEntry"/>
     <entryLink id="25cb-cac7-2b73-c2d5" name="原铸智库" hidden="false" collective="false" import="true" targetId="7f9a-c35b-c628-75b8" type="selectionEntry"/>
     <entryLink id="2899-943e-9b16-c465" name="New EntryLink" hidden="false" collective="false" import="true" targetId="bdc9-7961-488a-82c9" type="selectionEntry"/>
-    <entryLink id="4a27-23f2-7564-cbb4" name="Redemptor Dreadnought" hidden="false" collective="false" import="true" targetId="0302-b9be-57f5-aa03" type="selectionEntry"/>
+    <entryLink id="4a27-23f2-7564-cbb4" name="Redemptor 无畏" hidden="false" collective="false" import="true" targetId="0302-b9be-57f5-aa03" type="selectionEntry"/>
     <entryLink id="9271-5789-6655-b332" name="Reiver Squad" hidden="false" collective="false" import="true" targetId="d7e2-7547-8118-04d9" type="selectionEntry"/>
     <entryLink id="b638-6117-fd29-61aa" name="Repulsor" hidden="false" collective="false" import="true" targetId="0884-ae94-d12a-da29" type="selectionEntry"/>
     <entryLink id="ed06-6118-faa5-c35e" name="Stormraven Gunship" hidden="false" collective="false" import="true" targetId="60ad-e9d6-88a0-bf07" type="selectionEntry"/>
@@ -595,7 +595,7 @@
       <profiles>
         <profile id="e1d7-46e3-6dc8-c9ed" name="跳跃背包突袭" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, if 这个模型 has a 跳跃背包, you can set it up high in the skies 而不是 placing it on the battlefield. At the end of any of your 移动阶段 这个模型 can assault from above - set it up anywhere on the battlefield that is more than 9寸 away from any 敌方模型.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">部署期间, if 这个模型 拥有 跳跃背包, you can set it up high in the skies 而不是 placing it on the battlefield. At the end of any of your 移动阶段 这个模型 can assault from above - set it up anywhere on the battlefield that is more than 9寸 away from any 敌方模型.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2725,7 +2725,7 @@
     </selectionEntry>
     <selectionEntry id="002e-7c43-59e8-3496" name="无畏" publicationId="b8fe-8d38-pubN65537" page="101" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="set" field="name" value="Dreadnought [Legends]">
+        <modifier type="set" field="name" value="无畏 [Legends]">
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
@@ -2765,7 +2765,7 @@
         <categoryLink id="54b0-b2b6-ea47-6cd6" name="New CategoryLink" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="ad6e-4389-6ef2-7a49" name="Dreadnought 重型武器" hidden="false" collective="false" import="true" targetId="345e-609b-29f8-73af" type="selectionEntryGroup">
+        <entryLink id="ad6e-4389-6ef2-7a49" name="无畏 重型武器" hidden="false" collective="false" import="true" targetId="345e-609b-29f8-73af" type="selectionEntryGroup">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d9b1-fa27-2874-4dc9" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e27-51e9-e41f-3eb3" type="min"/>
@@ -2783,7 +2783,7 @@
     </selectionEntry>
     <selectionEntry id="ab51-c3f2-9c5a-ecd2" name="神圣无畏" publicationId="b8fe-8d38-pubN65537" page="101" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="set" field="name" value="Venerable Dreadnought [Legends]">
+        <modifier type="set" field="name" value="Venerable 无畏 [Legends]">
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
@@ -3526,7 +3526,7 @@
         <categoryLink id="b287-96ee-5cb7-3e79" name="New CategoryLink" hidden="false" targetId="3fd6-0b4f-6e16-5a7b" primary="false"/>
         <categoryLink id="2a33-5ebd-7323-0509" name="New CategoryLink" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="true"/>
         <categoryLink id="1bee-a95a-b6ab-76bb" name="阵营: 帝国" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false"/>
-        <categoryLink id="01c4-7048-0e4c-1f21" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
+        <categoryLink id="01c4-7048-0e4c-1f21" name="步兵" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
         <categoryLink id="f356-51e9-b94e-d688" name="Devastator Squad" hidden="false" targetId="b10d-87e4-fe53-dbbf" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -3777,7 +3777,7 @@
         </profile>
         <profile id="5f5e-5746-1d9a-f5a9" name="Drop Pod Assault" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up 这个模型, along with any units 上车 within  it, in orbit 而不是 deploying it on the battlefield. At the end of any of your 移动阶段 这个单位 can perform a drop pod assault - set it up on the battlefield anywhere that is more than 9寸 away from 敌方模型. Any models inside must immediately disembark, but they must be set up more than 9寸 from any 敌方模型. Any model that cannot be set up because there is not enough room is slain.
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">部署期间, 可以放置 这个模型, along with any units 上车 within  it, in orbit 而不是 deploying it on the battlefield. At the end of any of your 移动阶段 这个单位 can perform a drop pod assault - set it up on the battlefield anywhere that is more than 9寸 away from 敌方模型. Any models inside must immediately disembark, but they must be set up more than 9寸 from any 敌方模型. Any model that cannot be set up because there is not enough room is slain.
 
 Matched Play: 这个模型 and any units 上车 aboard it are exempt from the Tactical Reserves matched play rule, except that if it and any units 上车 aboard it have not arrived on the battlefield by the end of the third battle round, they count as having been destroyed.</characteristic>
           </characteristics>
@@ -4329,7 +4329,7 @@ Matched Play: 这个模型 and any units 上车 aboard it are exempt from the Ta
         </profile>
         <profile id="13df-b7ed-9f73-ff13" name="Aquila aegis field" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 has a 5+ 特殊保护.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 拥有 5+ 特殊保护.</characteristic>
           </characteristics>
         </profile>
         <profile id="105f-5279-6fea-3bd7" name="Data augurs" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -4777,7 +4777,7 @@ Matched Play: 这个模型 and any units 上车 aboard it are exempt from the Ta
         <categoryLink id="b82d-930d-883c-3d41" name="New CategoryLink" hidden="false" targetId="c7b7-edbc-bc14-6238" primary="false"/>
         <categoryLink id="2e29-a69e-5f7f-9c93" name="阵营: Dark Angels" hidden="false" targetId="3fd6-0b4f-6e16-5a7b" primary="false"/>
         <categoryLink id="d56f-4671-1211-53ad" name="阵营: 帝国" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false"/>
-        <categoryLink id="b826-c434-58a4-6eb2" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
+        <categoryLink id="b826-c434-58a4-6eb2" name="步兵" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
         <categoryLink id="f32e-8be2-f6d8-fb15" name="奴工" hidden="false" targetId="ce28-1b47-6296-6292" primary="false"/>
         <categoryLink id="7a81-48f1-31ed-709b" name="New CategoryLink" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
       </categoryLinks>
@@ -5116,7 +5116,7 @@ Matched Play: 这个模型 and any units 上车 aboard it are exempt from the Ta
         </profile>
         <profile id="040e-6829-e326-5951" name="战团长" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll failed hit rolls for  &lt;DARK ANGELS&gt; units 范围内 6寸 of Azrael.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投失败的命中骰 for  &lt;DARK ANGELS&gt; units 范围内 6寸 of Azrael.</characteristic>
           </characteristics>
         </profile>
         <profile id="b8e1-60be-0451-9951" name="Supreme Tactician" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -5126,7 +5126,7 @@ Matched Play: 这个模型 and any units 上车 aboard it are exempt from the Ta
         </profile>
         <profile id="aab6-05e2-36be-614a" name="Lion Helm" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Azrael is accompanied by a relic bearer who carries the Lion Helm, an artefact that generates a powerful force field. As a result, all 友方 DARK ANGELS INFANTRY and DARK ANGELS BIKERmodels 范围内 6寸 of Azrael have a 4+ 特殊保护. The relic bearer model must always remain as close to Azrael as possible, but is otherwise ignored for all gaming purposes. Remove the relic bearer if Azrael is slain.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Azrael is accompanied by a relic bearer who carries the Lion Helm, an artefact that generates a powerful force field. As a result, all 友方 DARK ANGELS 步兵 and DARK ANGELS BIKERmodels 范围内 6寸 of Azrael have a 4+ 特殊保护. The relic bearer model must always remain as close to Azrael as possible, but is otherwise ignored for all gaming purposes. Remove the relic bearer if Azrael is slain.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5289,7 +5289,7 @@ Matched Play: 这个模型 and any units 上车 aboard it are exempt from the Ta
         </profile>
         <profile id="1d7c-a119-2a59-949e" name="Grandmaster of the 死翼" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll failed hit rolls for 友方 &lt;死翼&gt; units 范围内 6寸 of Belial.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投失败的命中骰 for 友方 &lt;死翼&gt; units 范围内 6寸 of Belial.</characteristic>
           </characteristics>
         </profile>
         <profile id="3b97-ceee-f65d-01b0" name="Parrying blade" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -5394,7 +5394,7 @@ Matched Play: 这个模型 and any units 上车 aboard it are exempt from the Ta
       <profiles>
         <profile id="9e5d-2c2f-3d80-e21b" name="铁关环" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 has a 4+ 特殊保护.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 拥有 4+ 特殊保护.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5993,7 +5993,7 @@ Matched Play: 这个模型 and any units 上车 aboard it are exempt from the Ta
         </profile>
         <profile id="5679-251b-d075-cb0a" name="Exemplar of Hate" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll failed hit rolls during the 肉搏阶段 for 友方  &lt;人物&gt; units that are 范围内 6寸 of Asmodai. 此外, increase the Attacks statistics of 友方 &lt;人物&gt; INFANTRY and BIKE units by 1 whilst they are 范围内 6寸 of Asmodai.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投失败的命中骰 during the 肉搏阶段 for 友方  &lt;人物&gt; units that are 范围内 6寸 of Asmodai. 此外, increase the Attacks statistics of 友方 &lt;人物&gt; 步兵 and BIKE units by 1 whilst they are 范围内 6寸 of Asmodai.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6088,12 +6088,12 @@ Matched Play: 这个模型 and any units 上车 aboard it are exempt from the Ta
         </profile>
         <profile id="d780-238f-80f1-91e6" name="Keeper of the Keys" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Ezekiel has a 4+ 特殊保护.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Ezekiel 拥有 4+ 特殊保护.</characteristic>
           </characteristics>
         </profile>
         <profile id="fb73-e7af-bfb7-b9ca" name="Book of Salvation" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Any 友方  &lt;人物&gt; INFANTRY or BIKE models 范围内 6寸 of Ezekiel that are slain in the 肉搏阶段 may pile in and make a single close combat attack before being removed.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Any 友方  &lt;人物&gt; 步兵 or BIKE models 范围内 6寸 of Ezekiel that are slain in the 肉搏阶段 may pile in and make a single close combat attack before being removed.</characteristic>
           </characteristics>
         </profile>
         <profile id="60e7-0cfe-1efc-4356" name="Ezekiel" hidden="false" typeId="bc97-dea9-9e88-bb7d" typeName="灵能者">
@@ -7178,13 +7178,13 @@ Matched Play: 这个模型 and any units 上车 aboard it are exempt from the Ta
         <categoryLink id="42d6-15ac-0061-93a4" name="New CategoryLink" hidden="false" targetId="1810-3d3f-573a-17a6" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="4c23-24af-6649-9c91" name="鸦翼 Biker" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="4c23-24af-6649-9c91" name="鸦翼 摩托" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="730f-9bed-5837-474a" type="min"/>
             <constraint field="selections" scope="parent" value="7.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ff8-750b-f02f-c36d" type="max"/>
           </constraints>
           <profiles>
-            <profile id="2982-10e4-8c41-5199" name="鸦翼 Biker" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+            <profile id="2982-10e4-8c41-5199" name="鸦翼 摩托" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
               <characteristics>
                 <characteristic name="M" typeId="0bdf-a96e-9e38-7779">14寸</characteristic>
                 <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -7396,7 +7396,7 @@ Matched Play: 这个模型 and any units 上车 aboard it are exempt from the Ta
         <categoryLink id="a13a-24fa-4732-9f6e" name="阵营: Dark Angels" hidden="false" targetId="3fd6-0b4f-6e16-5a7b" primary="false"/>
         <categoryLink id="fe9e-ad27-8f7f-5b5a" name="阵营: 鸦翼" hidden="false" targetId="694b-e6b7-a740-8c14" primary="false"/>
         <categoryLink id="33ff-3c54-c711-4cb6" name="阵营: 帝国" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false"/>
-        <categoryLink id="4ece-5884-5a51-6b84" name="Biker" hidden="false" targetId="1c6f-0311-3eba-3180" primary="false"/>
+        <categoryLink id="4ece-5884-5a51-6b84" name="摩托" hidden="false" targetId="1c6f-0311-3eba-3180" primary="false"/>
         <categoryLink id="9f89-9a8f-b4c5-754b" name="攻击摩托小队" hidden="false" targetId="1a09-5a34-4d13-acd3" primary="false"/>
         <categoryLink id="1ae4-bcc6-82d9-b368" name="New CategoryLink" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="true"/>
       </categoryLinks>
@@ -9088,9 +9088,9 @@ Matched Play: 这个模型 and any units 上车 aboard it are exempt from the Ta
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0302-b9be-57f5-aa03" name="Redemptor Dreadnought" publicationId="b8fe-8d38-pubN65537" page="102" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="0302-b9be-57f5-aa03" name="Redemptor 无畏" publicationId="b8fe-8d38-pubN65537" page="102" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="36a9-d376-7750-02dc" name="Redemptor Dreadnought" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="36a9-d376-7750-02dc" name="Redemptor 无畏" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">*</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">*</characteristic>
@@ -9103,7 +9103,7 @@ Matched Play: 这个模型 and any units 上车 aboard it are exempt from the Ta
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="289b-f777-7b1a-68a2" name="Redemptor Dreadnought 1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
+        <profile id="289b-f777-7b1a-68a2" name="Redemptor 无畏 1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
             <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">7-13+</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">8寸</characteristic>
@@ -9111,7 +9111,7 @@ Matched Play: 这个模型 and any units 上车 aboard it are exempt from the Ta
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="0bd5-563d-5d32-be08" name="Redemptor Dreadnought 2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
+        <profile id="0bd5-563d-5d32-be08" name="Redemptor 无畏 2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
             <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">4-6</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">6寸</characteristic>
@@ -9119,7 +9119,7 @@ Matched Play: 这个模型 and any units 上车 aboard it are exempt from the Ta
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">4+</characteristic>
           </characteristics>
         </profile>
-        <profile id="7df0-e2a5-2a8a-8c89" name="Redemptor Dreadnought 3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
+        <profile id="7df0-e2a5-2a8a-8c89" name="Redemptor 无畏 3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
             <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">1-3</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">4寸</characteristic>
@@ -9138,7 +9138,7 @@ Matched Play: 这个模型 and any units 上车 aboard it are exempt from the Ta
         <categoryLink id="5b09-c33e-7b9e-461d" name="New CategoryLink" hidden="false" targetId="c8fd-783f-3230-493e" primary="false"/>
         <categoryLink id="4f33-b4d0-0854-18ba" name="New CategoryLink" hidden="false" targetId="3fd6-0b4f-6e16-5a7b" primary="false"/>
         <categoryLink id="a328-111f-d7b9-90d3" name="New CategoryLink" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
-        <categoryLink id="ac20-9eb6-d1ad-04a6" name="Redemptor Dreadnought" hidden="false" targetId="a79d-1cce-4986-1411" primary="false"/>
+        <categoryLink id="ac20-9eb6-d1ad-04a6" name="Redemptor 无畏" hidden="false" targetId="a79d-1cce-4986-1411" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="450e-90de-ed91-53d0" name="Armament 1" hidden="false" collective="false" import="true" defaultSelectionEntryId="028a-7cc8-4920-4aa3">
@@ -9463,7 +9463,7 @@ Matched Play: 这个模型 and any units 上车 aboard it are exempt from the Ta
       <profiles>
         <profile id="e8f6-6447-00f9-fc14" name="Grapnel Launcher" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When models with grapnel launchers move do not count any vertical distance they move against the total they can move that turn. 此外, during deployment you can set up 这个单位 if it is equipped with grapnel launchers behing 敌方 lines 而不是 placing it on the battlefield. At the the end of your 移动阶段 这个单位 can join the battle. Set it up 范围内 6寸 of a battlefield edge of your choice and more than 9寸 away from any 敌方模型.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When models with grapnel launchers move do not count any vertical distance they move against the total they can move that turn. 此外, 部署期间 可以放置 这个单位 if it is equipped with grapnel launchers behing 敌方 lines 而不是 placing it on the battlefield. At the the end of your 移动阶段 这个单位 can join the battle. Set it up 范围内 6寸 of a battlefield edge of your choice and more than 9寸 away from any 敌方模型.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9492,7 +9492,7 @@ Matched Play: 这个模型 and any units 上车 aboard it are exempt from the Ta
             <characteristic name="S" typeId="59b1-319e-ec13-d466">0</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">0</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">A shock greande doesn&apos;t inflict any damage. Instead, each time a shock grenade hits an 敌方 INFANTRY unit, it is stunned until the end of the turn - it cannot fire 坚守射击 and your opponent must subtract 1 from any hit rolls made for the unit. Second and subsequent hits from a shock grenade have no additional effect.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">A shock greande doesn&apos;t inflict any damage. Instead, each time a shock grenade hits an 敌方 步兵单位, it is stunned until the end of the turn - it cannot fire 坚守射击 and your opponent must subtract 1 from any hit rolls made for the unit. Second and subsequent hits from a shock grenade have no additional effect.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9506,7 +9506,7 @@ Matched Play: 这个模型 and any units 上车 aboard it are exempt from the Ta
       <profiles>
         <profile id="b43d-5872-70be-e3e9" name="Grav Chutes" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set it up in high orbit 而不是 placing it on the battlefield. At the end of any of your 移动阶段 这个单位 can descend - set it up anywhere on the battlefield that is more than 9寸 away from any 敌方模型.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">部署期间, you can set it up in high orbit 而不是 placing it on the battlefield. At the end of any of your 移动阶段 这个单位 can descend - set it up anywhere on the battlefield that is more than 9寸 away from any 敌方模型.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9555,9 +9555,9 @@ Matched Play: 这个模型 and any units 上车 aboard it are exempt from the Ta
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">1</characteristic>
           </characteristics>
         </profile>
-        <profile id="773c-5256-d66c-ffd1" name="Hover Tank" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="773c-5256-d66c-ffd1" name="悬浮坦克" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Distances and ranges are always measured to and from 这个模型&apos;s hull even though it has a base.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Distances and ranges are always measured to and from 这个模型&apos;s hull even though it 拥有 base.</characteristic>
           </characteristics>
         </profile>
         <profile id="ab0b-893e-f122-5b03" name="Repulsor Field" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -9612,7 +9612,7 @@ Matched Play: 这个模型 and any units 上车 aboard it are exempt from the Ta
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="044e-9207-3556-33d8" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="62a3-c586-f5cd-6083" name="Ironhail Heavy Stubber" hidden="false" collective="false" import="true" targetId="6368-ca9b-ecbf-1510" type="selectionEntry"/>
+            <entryLink id="62a3-c586-f5cd-6083" name="铁幕重机枪" hidden="false" collective="false" import="true" targetId="6368-ca9b-ecbf-1510" type="selectionEntry"/>
             <entryLink id="17f5-0d86-cb81-ecbb" name="Onslaught Gatling Cannon" hidden="false" collective="false" import="true" targetId="ec8a-d4d9-3b81-370b" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
@@ -9700,7 +9700,7 @@ Matched Play: 这个模型 and any units 上车 aboard it are exempt from the Ta
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="5d85-3021-6673-2e92" name="Ironhail Heavy Stubber" hidden="false" collective="false" import="true" targetId="b938-c8ee-9b04-f0a4" type="selectionEntry">
+        <entryLink id="5d85-3021-6673-2e92" name="铁幕重机枪" hidden="false" collective="false" import="true" targetId="b938-c8ee-9b04-f0a4" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b523-1206-b6a5-364e" type="max"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49b1-6eef-259e-e651" type="min"/>
@@ -9720,9 +9720,9 @@ Matched Play: 这个模型 and any units 上车 aboard it are exempt from the Ta
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ec8a-d4d9-3b81-370b" name="Ironhail Heavy Stubber" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="ec8a-d4d9-3b81-370b" name="铁幕重机枪" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="d777-4095-1423-6ad4" name="Ironhail Heavy Stubber" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="d777-4095-1423-6ad4" name="铁幕重机枪" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 3</characteristic>
@@ -9934,7 +9934,7 @@ Matched Play: 这个模型 and any units 上车 aboard it are exempt from the Ta
       <profiles>
         <profile id="6cf3-7f12-5576-1c51" name="运载能力" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
           <characteristics>
-            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">这个模型 可以运输 12 DARK ANGELS 步兵模型 and 1 DARK ANGELS DREADNOUGHT. Each 跳跃背包 or 终结者 model takes the space of two other 步兵模型. 不能运输 原铸 models or REDEMPTOR DREADNOUGHTS.</characteristic>
+            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">这个模型 可以运输 12 DARK ANGELS 步兵模型 and 1 DARK ANGELS 无畏. Each 跳跃背包 or 终结者 model takes the space of two other 步兵模型. 不能运输 原铸 models or REDEMPTOR DREADNOUGHTS.</characteristic>
           </characteristics>
         </profile>
         <profile id="29b3-5dc7-4378-e57d" name="Stormraven Gunship" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
@@ -10336,17 +10336,17 @@ Matched Play: 这个模型 and any units 上车 aboard it are exempt from the Ta
         <categoryLink id="d561-d147-5c49-cb2e" name="阵营: 阿斯塔特修会" hidden="false" targetId="c7b7-edbc-bc14-6238" primary="false"/>
         <categoryLink id="fa63-7b57-c625-4fb7" name="阵营: Dark Angels" hidden="false" targetId="3fd6-0b4f-6e16-5a7b" primary="false"/>
         <categoryLink id="0836-1b90-d3c5-d766" name="摩托小队" hidden="false" targetId="cacc-940d-5be5-0940" primary="false"/>
-        <categoryLink id="d641-5ca8-e8f4-264e" name="Biker" hidden="false" targetId="1c6f-0311-3eba-3180" primary="false"/>
+        <categoryLink id="d641-5ca8-e8f4-264e" name="摩托" hidden="false" targetId="1c6f-0311-3eba-3180" primary="false"/>
         <categoryLink id="dfdf-8e5a-dacd-bffe" name="侦察摩托小队" hidden="false" targetId="cb2a-a5a3-7e30-68f2" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="2659-3483-7797-ddbc" name="Scout Biker Sergeant" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="2659-3483-7797-ddbc" name="Scout 摩托 Sergeant" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da5c-ad2c-69c6-8f46" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42e2-bd8c-4220-f6b2" type="max"/>
           </constraints>
           <profiles>
-            <profile id="b6cd-60ac-f408-e0db" name="Scout Biker Sergeant" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+            <profile id="b6cd-60ac-f408-e0db" name="Scout 摩托 Sergeant" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
               <characteristics>
                 <characteristic name="M" typeId="0bdf-a96e-9e38-7779">16寸</characteristic>
                 <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -10412,12 +10412,12 @@ Matched Play: 这个模型 and any units 上车 aboard it are exempt from the Ta
             <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e341-3e08-9f29-acd5" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="2057-6b43-dea4-bffb" name="Scout Biker (Grenade Launcher)" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="2057-6b43-dea4-bffb" name="Scout 摩托 (Grenade Launcher)" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0d3-6847-40df-5c1b" type="max"/>
               </constraints>
               <profiles>
-                <profile id="49a5-d7c0-43b4-8166" name="Scout Biker" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+                <profile id="49a5-d7c0-43b4-8166" name="Scout 摩托" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
                   <characteristics>
                     <characteristic name="M" typeId="0bdf-a96e-9e38-7779">16寸</characteristic>
                     <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -10469,12 +10469,12 @@ Matched Play: 这个模型 and any units 上车 aboard it are exempt from the Ta
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="e1ee-492e-9f00-6d91" name="Scout Biker" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="e1ee-492e-9f00-6d91" name="Scout 摩托" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b797-5329-db39-898c" type="max"/>
               </constraints>
               <profiles>
-                <profile id="830b-7729-2e68-8bc3" name="Scout Biker" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+                <profile id="830b-7729-2e68-8bc3" name="Scout 摩托" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
                   <characteristics>
                     <characteristic name="M" typeId="0bdf-a96e-9e38-7779">16寸</characteristic>
                     <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -11182,7 +11182,7 @@ Matched Play: 这个模型 and any units 上车 aboard it are exempt from the Ta
         </profile>
         <profile id="7bc5-0961-41d1-9843" name="Cataphractii Armor and 铁光环" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 has a 3+ 特殊保护, but you must halve the result of the dice rolled when determining how far it Advances</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 拥有 3+ 特殊保护, but you must halve the result of the dice rolled when determining how far it Advances</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -12226,7 +12226,7 @@ Matched Play: 这个模型 and any units 上车 aboard it are exempt from the Ta
         <categoryLink id="e185-9265-bb8c-48c2" name="New CategoryLink" hidden="false" targetId="c7b7-edbc-bc14-6238" primary="false"/>
         <categoryLink id="4534-c96a-0086-cbf1" name="New CategoryLink" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="true"/>
         <categoryLink id="6823-dead-ef6f-0da8" name="Fly" hidden="false" targetId="3117-16d8-fcef-4f56" primary="false"/>
-        <categoryLink id="9858-ef98-be20-29a6" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
+        <categoryLink id="9858-ef98-be20-29a6" name="步兵" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
         <categoryLink id="f470-97e8-ca07-4c64" name="原铸" hidden="false" targetId="53b7-cff3-c3b4-d36a" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -12264,7 +12264,7 @@ Matched Play: 这个模型 and any units 上车 aboard it are exempt from the Ta
               <profiles>
                 <profile id="f3cd-d673-5ba6-9cbe" name="Grav-chute" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up 这个单位 in low altitude 而不是 placing it on the battlefield. At the end of any of your 移动阶段 这个单位 can descend - set it up anywhere on the battlefield that is more than 9寸 away from any 敌方模型.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">部署期间, 可以放置 这个单位 in low altitude 而不是 placing it on the battlefield. At the end of any of your 移动阶段 这个单位 can descend - set it up anywhere on the battlefield that is more than 9寸 away from any 敌方模型.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -12330,7 +12330,7 @@ Matched Play: 这个模型 and any units 上车 aboard it are exempt from the Ta
               <profiles>
                 <profile id="4516-3f58-d194-5154" name="Grav-chute" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up 这个单位 in low altitude 而不是 placing it on the battlefield. At the end of any of your 移动阶段 这个单位 can descend - set it up anywhere on the battlefield that is more than 9寸 away from any 敌方模型.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">部署期间, 可以放置 这个单位 in low altitude 而不是 placing it on the battlefield. At the end of any of your 移动阶段 这个单位 can descend - set it up anywhere on the battlefield that is more than 9寸 away from any 敌方模型.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -12423,7 +12423,7 @@ Matched Play: 这个模型 and any units 上车 aboard it are exempt from the Ta
         <categoryLink id="694d-503c-5aa1-6c47" name="阵营: 帝国" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false"/>
         <categoryLink id="e913-6f30-1b82-e122" name="阵营: Dark Angels" hidden="false" targetId="3fd6-0b4f-6e16-5a7b" primary="false"/>
         <categoryLink id="ea63-9a6d-1569-513a" name="阵营: 阿斯塔特修会" hidden="false" targetId="c7b7-edbc-bc14-6238" primary="false"/>
-        <categoryLink id="7897-8bb9-9cfa-8786" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
+        <categoryLink id="7897-8bb9-9cfa-8786" name="步兵" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
         <categoryLink id="1ac9-5dcb-9ed4-cfa3" name="原铸" hidden="false" targetId="53b7-cff3-c3b4-d36a" primary="false"/>
         <categoryLink id="ce5a-2c02-7ac1-eab8" name="Infiltrator Squad" hidden="false" targetId="a66b-b1ac-f872-3961" primary="false"/>
         <categoryLink id="745c-1630-d92a-d98a" name="New CategoryLink" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
@@ -12671,7 +12671,7 @@ Matched Play: 这个模型 and any units 上车 aboard it are exempt from the Ta
         <categoryLink id="4dfe-766d-65ee-001b" name="阵营: Dark Angels" hidden="false" targetId="3fd6-0b4f-6e16-5a7b" primary="false"/>
         <categoryLink id="ee62-eee4-aaa5-ea61" name="阵营: 帝国" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false"/>
         <categoryLink id="3d11-f2d8-30d5-260a" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
-        <categoryLink id="c43d-e526-2228-465c" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
+        <categoryLink id="c43d-e526-2228-465c" name="步兵" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
         <categoryLink id="a11e-8389-514a-2512" name="先锋军" hidden="false" targetId="825f-d783-903c-c54a" primary="false"/>
         <categoryLink id="2641-c06f-ebfa-51bf" name="原铸" hidden="false" targetId="53b7-cff3-c3b4-d36a" primary="false"/>
         <categoryLink id="1b23-ef4f-d689-296e" name="Lieutnant" hidden="false" targetId="dcdc-0852-a133-666c" primary="false"/>
@@ -12720,7 +12720,7 @@ Matched Play: 这个模型 and any units 上车 aboard it are exempt from the Ta
                   <profiles>
                     <profile id="70df-6877-aee7-5184" name="Grav-chute" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up 这个模型 in low altitude 而不是 placing it on the battlefield. At the end of any of your 移动阶段 这个模型 can descend - set it up anywhere on the battlefield that is more than 9寸 away from any 敌方模型.</characteristic>
+                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">部署期间, 可以放置 这个模型 in low altitude 而不是 placing it on the battlefield. At the end of any of your 移动阶段 这个模型 can descend - set it up anywhere on the battlefield that is more than 9寸 away from any 敌方模型.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -12834,7 +12834,7 @@ Matched Play: 这个模型 and any units 上车 aboard it are exempt from the Ta
         <categoryLink id="09aa-6b6a-2d8b-183c" name="阵营: Dark Angels" hidden="false" targetId="3fd6-0b4f-6e16-5a7b" primary="false"/>
         <categoryLink id="a2e7-1492-5815-c731" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
         <categoryLink id="7b7a-ed8a-de10-234a" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
-        <categoryLink id="d890-f5f4-5036-1a18" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
+        <categoryLink id="d890-f5f4-5036-1a18" name="步兵" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
         <categoryLink id="93d8-bfe1-a3d3-bb6b" name="灵能者" hidden="false" targetId="e691-aad7-d21c-1023" primary="false"/>
         <categoryLink id="b5f7-7662-41c6-5aef" name="原铸" hidden="false" targetId="53b7-cff3-c3b4-d36a" primary="false"/>
         <categoryLink id="539b-a9ca-dbb8-f76e" name="先锋军" hidden="false" targetId="825f-d783-903c-c54a" primary="false"/>
@@ -12929,7 +12929,7 @@ Matched Play: 这个模型 and any units 上车 aboard it are exempt from the Ta
         <categoryLink id="eb7e-ecda-9775-cb32" name="阵营: Dark Angels" hidden="false" targetId="3fd6-0b4f-6e16-5a7b" primary="false"/>
         <categoryLink id="1620-a128-acb0-2266" name="阵营: 帝国" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false"/>
         <categoryLink id="702d-1e72-2c5f-8740" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
-        <categoryLink id="4588-5543-642f-3c09" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
+        <categoryLink id="4588-5543-642f-3c09" name="步兵" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
         <categoryLink id="e984-5c4e-b071-7a39" name="先锋军" hidden="false" targetId="825f-d783-903c-c54a" primary="false"/>
         <categoryLink id="6f13-26d3-1ae4-a30b" name="原铸" hidden="false" targetId="53b7-cff3-c3b4-d36a" primary="false"/>
         <categoryLink id="57db-8fc3-e667-1e91" name="Master" hidden="false" targetId="8352-7f67-7e2b-3b4f" primary="false"/>
@@ -13018,7 +13018,7 @@ Matched Play: 这个模型 and any units 上车 aboard it are exempt from the Ta
         <categoryLink id="a5bd-80a6-0f97-a4af" name="阵营: 阿斯塔特修会" hidden="false" targetId="c7b7-edbc-bc14-6238" primary="false"/>
         <categoryLink id="1d7d-6209-96af-d0bf" name="阵营: Dark Angels" hidden="false" targetId="3fd6-0b4f-6e16-5a7b" primary="false"/>
         <categoryLink id="fffb-9b43-d28e-3119" name="阵营: 帝国" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false"/>
-        <categoryLink id="9575-b246-5df9-551c" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
+        <categoryLink id="9575-b246-5df9-551c" name="步兵" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
         <categoryLink id="5405-dd85-3d4b-30f7" name="先锋军" hidden="false" targetId="825f-d783-903c-c54a" primary="false"/>
         <categoryLink id="37c1-c2d2-f429-e081" name="原铸" hidden="false" targetId="53b7-cff3-c3b4-d36a" primary="false"/>
         <categoryLink id="6db2-092d-2723-4b34" name="Elimination Squad" hidden="false" targetId="092f-e8c6-6aea-4445" primary="false"/>
@@ -13270,9 +13270,9 @@ Matched Play: 这个模型 and any units 上车 aboard it are exempt from the Ta
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 remains stationary or moves under half speed in its 移动阶段 (i.e. it moves a distance in inches less than half of its current Move characterisitc), it can shoot its heavy 激光毁灭者 or macro plasma incinerator twice in the following 射击阶段 (这个武器 must target the same unit both times).</characteristic>
           </characteristics>
         </profile>
-        <profile id="65ab-0ece-c0ef-ea2e" name="Hover Tank" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="65ab-0ece-c0ef-ea2e" name="悬浮坦克" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Distances and ranges are always measured to and from 这个模型&apos;s hull even though it has a base.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Distances and ranges are always measured to and from 这个模型&apos;s hull even though it 拥有 base.</characteristic>
           </characteristics>
         </profile>
         <profile id="caa2-f4f6-f06c-3fac" name="Repulsor Field" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -13379,7 +13379,7 @@ Matched Play: 这个模型 and any units 上车 aboard it are exempt from the Ta
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2dc-841e-4ce3-fd0a" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="8c0c-4627-dce5-c90a" name="Ironhail Heavy Stubber" hidden="false" collective="false" import="true" targetId="ec8a-d4d9-3b81-370b" type="selectionEntry">
+        <entryLink id="8c0c-4627-dce5-c90a" name="铁幕重机枪" hidden="false" collective="false" import="true" targetId="ec8a-d4d9-3b81-370b" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ebf4-889d-9f0c-caee" type="max"/>
           </constraints>
@@ -13450,7 +13450,7 @@ Matched Play: 这个模型 and any units 上车 aboard it are exempt from the Ta
         </profile>
         <profile id="8bb8-2ba1-a488-c0df" name="运载能力" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
           <characteristics>
-            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">这个模型 has a transport capacity of 6 DARK ANGELS 原铸 步兵模型. 不能运输 跳跃背包 or MK X GRAVIS 模型.</characteristic>
+            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">这个模型 拥有 transport capacity of 6 DARK ANGELS 原铸 步兵模型. 不能运输 跳跃背包 or MK X GRAVIS 模型.</characteristic>
           </characteristics>
         </profile>
         <profile id="103a-d0c6-f8a3-f852" name="爆炸" hidden="false" typeId="0891-2df5-19c2-de63" typeName="爆炸">
@@ -13477,7 +13477,7 @@ Matched Play: 这个模型 and any units 上车 aboard it are exempt from the Ta
               <profiles>
                 <profile id="6870-3a78-c6fc-0d1d" name="Shield Dome" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A model with a shield dome has a 4+ 特殊保护.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A model with a shield dome 拥有 4+ 特殊保护.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -13660,7 +13660,7 @@ wounds.</characteristic>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="6bdd-3e68-fdfc-8770" name="Ironhail Heavy Stubber" hidden="false" collective="false" import="true" targetId="ec8a-d4d9-3b81-370b" type="selectionEntry">
+        <entryLink id="6bdd-3e68-fdfc-8770" name="铁幕重机枪" hidden="false" collective="false" import="true" targetId="ec8a-d4d9-3b81-370b" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02b3-c8a1-7bff-fb70" type="max"/>
           </constraints>
@@ -13698,7 +13698,7 @@ wounds.</characteristic>
         <infoLink id="f881-a8eb-ca72-572b" name="Defenders of Humanity" hidden="false" targetId="a73d-0094-3e4e-e4ed" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="925e-65fe-98b8-d2f7" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
+        <categoryLink id="925e-65fe-98b8-d2f7" name="步兵" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
         <categoryLink id="a042-c9c9-cfa6-e924" name="New CategoryLink" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
         <categoryLink id="2de6-6388-01a3-14fa" name="阵营: 帝国" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false"/>
         <categoryLink id="537d-9a70-8a3b-103c" name="阵营: Dark Angels" hidden="false" targetId="3fd6-0b4f-6e16-5a7b" primary="false"/>
@@ -13865,7 +13865,7 @@ wounds.</characteristic>
         </profile>
         <profile id="e0ad-5184-4249-386c" name="Heavy Sidearm" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Whilst 这个模型 is 范围内 1寸 of any 敌方单位, its 重爆弹 has a Type characteristic of Pistol 3</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Whilst 这个模型 is 范围内 1寸 of any 敌方单位, its 重爆弹 拥有 Type characteristic of Pistol 3</characteristic>
           </characteristics>
         </profile>
         <profile id="b9c9-ebe2-9a65-edb4" name="Invictor Tactical Warsuit 1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
@@ -14001,7 +14001,7 @@ wounds.</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab1b-e987-392a-aa98" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="b5d9-59c2-ca1f-66cd" name="Ironhail Heavy Stubber" hidden="false" collective="false" import="true" targetId="ec8a-d4d9-3b81-370b" type="selectionEntry">
+        <entryLink id="b5d9-59c2-ca1f-66cd" name="铁幕重机枪" hidden="false" collective="false" import="true" targetId="ec8a-d4d9-3b81-370b" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f6c-ce79-a10c-1c07" type="max"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ffa-d695-b7dd-329b" type="min"/>
@@ -14410,7 +14410,7 @@ wounds.</characteristic>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="345e-609b-29f8-73af" name="Dreadnought 重型武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="c765-d2e3-9320-d18c">
+    <selectionEntryGroup id="345e-609b-29f8-73af" name="无畏 重型武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="c765-d2e3-9320-d18c">
       <entryLinks>
         <entryLink id="b732-4e9d-83bd-a282" name="New EntryLink" hidden="false" collective="false" import="true" targetId="8d70-a6af-cbad-f08c" type="selectionEntry"/>
         <entryLink id="b41f-007b-7a36-1642" name="双联自动炮" hidden="false" collective="false" import="true" targetId="afe0-3771-1982-92b4" type="selectionEntry">
@@ -14546,7 +14546,7 @@ wounds.</characteristic>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="0f5d-5463-7908-f599" name="Dreadnought Arm 武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="a3e8-193e-158d-a9d5">
+    <selectionEntryGroup id="0f5d-5463-7908-f599" name="无畏 Arm 武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="a3e8-193e-158d-a9d5">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="676e-9316-24b3-dd63" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7fbc-b6ba-7b9a-37f9" type="min"/>
@@ -14778,7 +14778,7 @@ wounds.</characteristic>
               <profiles>
                 <profile id="7dce-3108-6d93-0db1" name="Huntsman" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Your 主将 can fire their Pistol, 速射 and Grenade 武器 at 敌方 CHARACTERS even if they are not the closest 敌方模型. 此外, whenever your 主将 piles in or performs a Heroic Intervention, they can move towards the closest 敌方 CHARACTER 而不是 the closest 敌方模型.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Your 主将 can fire their Pistol, 速射 and Grenade 武器 at 敌方 人物 even if they are not the closest 敌方模型. 此外, whenever your 主将 piles in or performs a Heroic Intervention, they can move towards the closest 敌方 CHARACTER 而不是 the closest 敌方模型.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -14888,7 +14888,7 @@ wounds.</characteristic>
               <profiles>
                 <profile id="ab13-67dd-fb66-dd3d" name="Princeps of Deceit" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your 主将 has this trait, then at the start of the first battle round, but before the first turn has begun, pick up to three 友方 DARK ANGELS infantry units that are on the battlefield. You can immediately remove these units from the battlefield and set them up again as described in the Deployment section of the mission you are playing (if both players have abilities that allow them to redeploy units, roll off and the winner chooses which player redeploys their units first)</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your 主将 has this trait, then at the start of the first battle round, but before the first turn has begun, pick up to three 友方 DARK ANGELS 步兵单位 that are on the battlefield. You can immediately remove these units from the battlefield and set them up again as described in the Deployment section of the mission you are playing (if both players have abilities that allow them to redeploy units, roll off and the winner chooses which player redeploys their units first)</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -15133,7 +15133,7 @@ wounds.</characteristic>
               <characteristics>
                 <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">6</characteristic>
                 <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
-                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, select a 友方 阿斯塔特修会 PHOBOS unit 范围内 18寸 of the 灵能者. Until the start of your next 灵能阶段, you can re-roll failed hit rolls for attacks made with 那个单位&apos;s ranged 武器, and 敌方模型 do not receive the benefit of cover to their saving throws against ranged attacks made by 那个单位.</characteristic>
+                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, select a 友方 阿斯塔特修会 PHOBOS unit 范围内 18寸 of the 灵能者. Until the start of your next 灵能阶段, 可以重投失败的命中骰 for attacks made with 那个单位&apos;s ranged 武器, and 敌方模型 do not receive the benefit of cover to their saving throws against ranged attacks made by 那个单位.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15233,7 +15233,7 @@ wounds.</characteristic>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="a73d-0094-3e4e-e4ed" name="Defenders of Humanity" hidden="false">
-      <description>A unit with this ability that is 范围内 range of an objective marker (as specified in the mission) controls the objective marker even if there are more 敌方模型 范围内 range of that objective marker. If an 敌方单位 范围内 range of the same objective marker has a similar ability, then the objective marker is controlled by the player who has the most models 范围内 range of it as normal.</description>
+      <description>A unit with this ability that is 范围内 range of an objective marker (as specified in the mission) controls the objective marker even if there are more 敌方模型 范围内 range of that objective marker. If an 敌方单位 范围内 range of the same objective marker 拥有 similar ability, then the objective marker is controlled by the player who has the most models 范围内 range of it as normal.</description>
     </rule>
     <rule id="451a-c379-c037-7a51" name="Grim Resolve" hidden="false">
       <description>You can re-roll 所有命中骰 of 1 for 这个单位 whenever it shoots (including when firing Overwatch) so long as it did not move in its prior 移动阶段. 此外, 这个单位 can never lose more than one model as the result of any single failed morale test.</description>
@@ -15243,7 +15243,7 @@ wounds.</characteristic>
   <sharedProfiles>
     <profile id="242c-3bac-1ff3-48b0" name="铁关环" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 has a 4+ 特殊保护.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 拥有 4+ 特殊保护.</characteristic>
       </characteristics>
     </profile>
     <profile id="922c-75db-5ca4-3750" name="战争之仪" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -15253,7 +15253,7 @@ wounds.</characteristic>
     </profile>
     <profile id="d566-23fd-55a5-103f" name="传送打击" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up 这个模型 in a teleportarium chamber 而不是 placing it on the battlefield. At the end of any of your 移动阶段 这个模型 can teleport into battle - set it up anywhere on the battlefield that is more than 9寸 away from any 敌方模型.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">部署期间, 可以放置 这个模型 in a teleportarium chamber 而不是 placing it on the battlefield. At the end of any of your 移动阶段 这个模型 can teleport into battle - set it up anywhere on the battlefield that is more than 9寸 away from any 敌方模型.</characteristic>
       </characteristics>
     </profile>
     <profile id="8b5e-cf89-dccf-ba25" name="灵能头箍" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -15263,7 +15263,7 @@ wounds.</characteristic>
     </profile>
     <profile id="8338-b768-e496-e97b" name="Crux Terminatus" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 has a 5+ 特殊保护.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 拥有 5+ 特殊保护.</characteristic>
       </characteristics>
     </profile>
     <profile id="34e2-fb94-2737-3c2d" name="Blessing of the Omnissiah" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -15273,7 +15273,7 @@ wounds.</characteristic>
     </profile>
     <profile id="9287-78a9-f594-c601" name="Litanies of Hate" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll failed hit rolls in the 肉搏阶段 for 友方 &lt;人物&gt; units 范围内 6寸 of 这个模型.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投失败的命中骰 in the 肉搏阶段 for 友方 &lt;人物&gt; units 范围内 6寸 of 这个模型.</characteristic>
       </characteristics>
     </profile>
     <profile id="3f26-e8cb-ea53-e656" name="Spiritual Leaders" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -15283,12 +15283,12 @@ wounds.</characteristic>
     </profile>
     <profile id="b355-bd49-c5a5-805f" name="Rosarius" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 has a 4+ 特殊保护.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 拥有 4+ 特殊保护.</characteristic>
       </characteristics>
     </profile>
     <profile id="e4ce-f00b-ae14-2cd0" name="Narthecium" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of any of your 移动阶段, the Apothecary can attempt to heal or revive a single model. Select a 友方 &lt;人物&gt; INFANTRY or BIKER unit 范围内 3寸 of the Apothecary. If 那个单位 contains a wounded model, it immediately regains D3 lost wounds. If the chosen unit contains no wounded models but one or more of it&apos;s models have been slain during the battle, 投掷1个D6. On a 4+ a single slain model is returned to the unit with 1 wound remaining. If the Apothecary fails to revive a model he can do nothing else for the remainder of the turn (shoot, charge, fight, ect) as he recovers gene-seed of the fallen warrior. A unit can only be the target of the Narthecium ability once in each turn.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of any of your 移动阶段, the Apothecary can attempt to heal or revive a single model. Select a 友方 &lt;人物&gt; 步兵 or 摩托 unit 范围内 3寸 of the Apothecary. If 那个单位 contains a wounded model, it immediately regains D3 lost wounds. If the chosen unit contains no wounded models but one or more of it&apos;s models have been slain during the battle, 投掷1个D6. On a 4+ a single slain model is returned to the unit with 1 wound remaining. If the Apothecary fails to revive a model he can do nothing else for the remainder of the turn (shoot, charge, fight, ect) as he recovers gene-seed of the fallen warrior. A unit can only be the target of the Narthecium ability once in each turn.</characteristic>
       </characteristics>
     </profile>
     <profile id="ca86-a970-9bab-d29a" name="Tactical Precision" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -15298,7 +15298,7 @@ wounds.</characteristic>
     </profile>
     <profile id="b6ba-39af-6402-3665" name="Company Heroes" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, all models in 这个单位 must be set up at the same time, though they do not need to be set up in unit coherency. From that point onwards, each 原铸 Lieutenant is treated as a separate unit.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">部署期间, all models in 这个单位 must be set up at the same time, though they do not need to be set up in unit coherency. From that point onwards, each 原铸 Lieutenant is treated as a separate unit.</characteristic>
       </characteristics>
     </profile>
     <profile id="6586-5d43-b320-83cf" name="Astartes Banner" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -15308,7 +15308,7 @@ wounds.</characteristic>
     </profile>
     <profile id="9a48-b883-2c2b-71cb" name="战斗盾" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 has a 5+ 特殊保护.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 拥有 5+ 特殊保护.</characteristic>
       </characteristics>
     </profile>
     <profile id="9324-447f-0ae6-0bc3" name="Honour or Death" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -15321,9 +15321,9 @@ wounds.</characteristic>
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Roll a dice each time a 友方 &lt;人物&gt; CHARACTER loses a wound whilst they are 范围内 3寸 of 这个单位; on a 2+ a model from this squad can intercept that hit - the character does not lose a wound but 这个单位 遭受 1点致命伤.</characteristic>
       </characteristics>
     </profile>
-    <profile id="bde4-2791-d683-a7ed" name="Biker Bodyguard" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="bde4-2791-d683-a7ed" name="摩托 Bodyguard" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Roll a dice each time a 友方 &lt;人物&gt; BIKER CHARACTER loses a wound whilst they are 范围内 3寸 of 这个单位; on a 2+ a model from this squad can intercept that hit - the character does not lose a wound but 这个单位 遭受 1点致命伤.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Roll a dice each time a 友方 &lt;人物&gt; 摩托 CHARACTER loses a wound whilst they are 范围内 3寸 of 这个单位; on a 2+ a model from this squad can intercept that hit - the character does not lose a wound but 这个单位 遭受 1点致命伤.</characteristic>
       </characteristics>
     </profile>
     <profile id="3e31-4e4b-6ab6-d90b" name="Combat Squads" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -15400,7 +15400,7 @@ wounds.</characteristic>
     </profile>
     <profile id="9182-b000-d9d0-3ec3" name="原子能护盾" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 has a 5+ 特殊保护.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 拥有 5+ 特殊保护.</characteristic>
       </characteristics>
     </profile>
     <profile id="b08d-e2be-c4d2-d661" name="死翼 终结者" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
@@ -15436,7 +15436,7 @@ wounds.</characteristic>
     </profile>
     <profile id="33ea-29e3-151e-9f9b" name="Meteoric Descent" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set it up in high orbit 而不是 placing it on the battlefield. At the end of any of your 移动阶段 这个单位 can use a meteoric descent - set it up anywhere on the battlefield that is more than 9寸 away from any 敌方模型.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">部署期间, you can set it up in high orbit 而不是 placing it on the battlefield. At the end of any of your 移动阶段 这个单位 can use a meteoric descent - set it up anywhere on the battlefield that is more than 9寸 away from any 敌方模型.</characteristic>
       </characteristics>
     </profile>
     <profile id="a59d-dcf2-38a7-c570" name="攻击摩托" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
@@ -15531,7 +15531,7 @@ wounds.</characteristic>
     </profile>
     <profile id="26fe-39da-69e7-abb3" name="传送打击" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can setup 这个模型/unit in a teleportarium chamber 而不是 placing him on the battlefield. At the end of any of your 移动阶段 it can teleport into battle - set it up on the battlefield anywhere that is more than 9寸 away from any 敌方模型.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">部署期间, you can setup 这个模型/unit in a teleportarium chamber 而不是 placing him on the battlefield. At the end of any of your 移动阶段 it can teleport into battle - set it up on the battlefield anywhere that is more than 9寸 away from any 敌方模型.</characteristic>
       </characteristics>
     </profile>
     <profile id="641e-d9a7-e5c2-ee75" name="爆炸" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -15611,12 +15611,12 @@ wounds.</characteristic>
     </profile>
     <profile id="68ca-5ee7-e69b-3228" name="Grand Master of the 鸦翼" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll failed hit rolls for 友方 鸦翼 units 范围内 6寸 of 这个模型.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投失败的命中骰 for 友方 鸦翼 units 范围内 6寸 of 这个模型.</characteristic>
       </characteristics>
     </profile>
     <profile id="1f9b-e02c-2010-158e" name="Inner Circle" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个单位 automatically passes 士气测试. 此外, you can re-roll failed hit rolls in the 肉搏阶段 for attacks by 这个单位 that target a FALLEN unit.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个单位 automatically passes 士气测试. 此外, 可以重投失败的命中骰 in the 肉搏阶段 for attacks by 这个单位 that target a FALLEN unit.</characteristic>
       </characteristics>
     </profile>
     <profile id="458f-f5d2-edc8-5049" name="Hover Jet" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -15641,7 +15641,7 @@ wounds.</characteristic>
     </profile>
     <profile id="ecfd-1756-b59a-998a" name="Concealed Position" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When you set up 这个模型 during deployment, it can be set up anywhere on the battlefield that is more than 9寸 from the 敌方 部署区 and any 敌方模型.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When you set up 这个模型 部署期间, it can be set up anywhere on the battlefield that is more than 9寸 from the 敌方 部署区 and any 敌方模型.</characteristic>
       </characteristics>
     </profile>
     <profile id="c2ad-c436-5495-cb5a" name="雷霆突击" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -15651,7 +15651,7 @@ wounds.</characteristic>
     </profile>
     <profile id="78e6-c667-c714-bf9e" name="Concealed Positions" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When you set up 这个单位 during deployment, it can be set up anywhere on the battlefield that is more than 9寸 from the 敌方 部署区 and any 敌方模型.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When you set up 这个单位 部署期间, it can be set up anywhere on the battlefield that is more than 9寸 from the 敌方 部署区 and any 敌方模型.</characteristic>
       </characteristics>
     </profile>
     <profile id="da90-95f1-918c-5a6d" name="重型爆弹手枪" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">

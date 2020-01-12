@@ -27,7 +27,7 @@
     <categoryEntry id="4c12-36d0-6232-ad4a" name="地狱轰击者小队" hidden="false"/>
     <categoryEntry id="90f0-6ff0-18b9-a715" name="原铸" hidden="false"/>
     <categoryEntry id="8c4f-c48d-c2a7-4228" name="Inceptor Squad" hidden="false"/>
-    <categoryEntry id="0a45-a68a-1263-c551" name="Redemptor Dreadnought" hidden="false"/>
+    <categoryEntry id="0a45-a68a-1263-c551" name="Redemptor 无畏" hidden="false"/>
     <categoryEntry id="73e1-4931-1a94-f870" name="Reiver Squad" hidden="false"/>
     <categoryEntry id="c704-6107-8e00-2e06" name="Repulsor" hidden="false"/>
     <categoryEntry id="e45d-7039-02ab-dc2b" name="Repulsor Executioner" hidden="false"/>
@@ -201,7 +201,7 @@
         <infoLink id="030e-2dde-a1ac-3844" name="爆弹训练" hidden="false" targetId="5a7e-f984-487c-d767" type="rule"/>
       </infoLinks>
     </entryLink>
-    <entryLink id="dea7-8ad7-2ecb-aed4" name="Redemptor Dreadnought" hidden="false" collective="false" import="true" targetId="f234-52d4-37c2-cd1e" type="selectionEntry">
+    <entryLink id="dea7-8ad7-2ecb-aed4" name="Redemptor 无畏" hidden="false" collective="false" import="true" targetId="f234-52d4-37c2-cd1e" type="selectionEntry">
       <infoLinks>
         <infoLink id="ec74-3541-0d16-9cbe" name="雷霆突击" hidden="false" targetId="f9ce-5a8b-7abd-2395" type="rule"/>
         <infoLink id="96b8-9a83-bb40-213c" name="爆弹训练" hidden="false" targetId="5a7e-f984-487c-d767" type="rule"/>
@@ -581,7 +581,7 @@
       <profiles>
         <profile id="e3d5-d6f3-af66-0e53" name="跳跃背包 Assult" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, if 这个模型 has a 跳跃背包, you can set it up high in the skies 而不是 placing it on the battlefield. At the end of any of your 移动阶段 这个模型 can assault from above - set it up anywhere on the battlefield that is more than 9寸 away from any 敌方模型.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">部署期间, if 这个模型 拥有 跳跃背包, you can set it up high in the skies 而不是 placing it on the battlefield. At the end of any of your 移动阶段 这个模型 can assault from above - set it up anywhere on the battlefield that is more than 9寸 away from any 敌方模型.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1032,8 +1032,8 @@
         <categoryLink id="c0df-58e4-581c-865c" name="New CategoryLink" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="ce20-8b37-ba3b-8c58" name="Dreadnought Arm 武器" hidden="false" collective="false" import="true" targetId="6a64-f8c8-acc2-9a35" type="selectionEntryGroup"/>
-        <entryLink id="3129-5f4b-cba3-0485" name="Dreadnought 重型武器" hidden="false" collective="false" import="true" targetId="2846-aada-ddb5-e3cb" type="selectionEntryGroup">
+        <entryLink id="ce20-8b37-ba3b-8c58" name="无畏 Arm 武器" hidden="false" collective="false" import="true" targetId="6a64-f8c8-acc2-9a35" type="selectionEntryGroup"/>
+        <entryLink id="3129-5f4b-cba3-0485" name="无畏 重型武器" hidden="false" collective="false" import="true" targetId="2846-aada-ddb5-e3cb" type="selectionEntryGroup">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f78a-d5ea-2e32-e353" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c9c8-d7d0-6706-b099" type="min"/>
@@ -1052,7 +1052,7 @@
       <profiles>
         <profile id="4a71-6edb-4974-3771" name="Drop Pod Assault" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During Deployment, you can set 这个模型, along with any units 上车 范围内 it, in orbit 而不是 placing it on the battlefield. At the end of any of your 移动阶段 这个模型 can perform a drop pod assault.  - set it up anywhere on the battlefield that is more that 9寸 away from any 敌方模型. Any models 上车 inside must immediately disembark, but they must be set up more than 9寸 away from any 敌方模型. Any models that cannot be set up because there is not enough room are slain.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">部署期间, you can set 这个模型, along with any units 上车 范围内 it, in orbit 而不是 placing it on the battlefield. At the end of any of your 移动阶段 这个模型 can perform a drop pod assault.  - set it up anywhere on the battlefield that is more that 9寸 away from any 敌方模型. Any models 上车 inside must immediately disembark, but they must be set up more than 9寸 away from any 敌方模型. Any models that cannot be set up because there is not enough room are slain.</characteristic>
           </characteristics>
         </profile>
         <profile id="d98d-7e56-4c84-5335" name="运载能力" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
@@ -1645,7 +1645,7 @@
       <profiles>
         <profile id="a72e-7b58-1687-29b4" name="运载能力" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
           <characteristics>
-            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">这个模型 可以运输 6 CHAPTER 步兵模型. 不能运输 跳跃背包, TERMINATORS, 原铸, or 百夫长 模型.</characteristic>
+            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">这个模型 可以运输 6 CHAPTER 步兵模型. 不能运输 跳跃背包, 终结者, 原铸, or 百夫长 模型.</characteristic>
           </characteristics>
         </profile>
         <profile id="1aab-52f6-b333-cb93" name="豪猪装甲车" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
@@ -1840,7 +1840,7 @@
         <categoryLink id="6b2c-cd7f-8fbb-0f21" name="New CategoryLink" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="054f-82bf-dee7-600b" name="Dreadnought Arm 武器" hidden="false" collective="false" import="true" targetId="6a64-f8c8-acc2-9a35" type="selectionEntryGroup"/>
+        <entryLink id="054f-82bf-dee7-600b" name="无畏 Arm 武器" hidden="false" collective="false" import="true" targetId="6a64-f8c8-acc2-9a35" type="selectionEntryGroup"/>
         <entryLink id="88b0-0026-1d9b-9da0" name="New EntryLink" hidden="false" collective="false" import="true" targetId="2846-aada-ddb5-e3cb" type="selectionEntryGroup">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="964d-2012-fb7c-c1bb" type="max"/>
@@ -1870,7 +1870,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">You can re-roll failed wound rolls for 这个武器.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">可以重投失败的造伤骰 for 这个武器.</characteristic>
           </characteristics>
         </profile>
         <profile id="f38a-2748-a106-fd59" name="DW Shotgun - Xenopurge Slug" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -2067,7 +2067,7 @@
         </profile>
         <profile id="886c-12fc-30df-687d" name="Watch Master" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll failed hit rolls for 友方 DEATHWATCH units 范围内 6寸 of 这个模型.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投失败的命中骰 for 友方 DEATHWATCH units 范围内 6寸 of 这个模型.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2271,9 +2271,9 @@
       <profiles>
         <profile id="da3d-f10b-8a72-a3cf" name="Mixed Unit" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A unit of Veterans can contain models with different Toughness characteristics. If this is the case,  use the Toughness characteristic of the majority of the models in the unit when the 敌方 makes wound rolls against it. If there is no majority, the Deathwatch player can choose which of the values is used. For the purposes of the Bolter Discipline ability and for determining what models a vehicle 可以运输, Terminators have the 终结者 keyword, Bikers do not have the INFANTRY keyword and instead have the BIKER keyword, and Vanguard Veterans have the 跳跃背包 keyword.
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A unit of Veterans can contain models with different Toughness characteristics. If this is the case,  use the Toughness characteristic of the majority of the models in the unit when the 敌方 makes wound rolls against it. If there is no majority, the Deathwatch player can choose which of the values is used. For the purposes of the Bolter Discipline ability and for determining what models a vehicle 可以运输, 终结者 have the 终结者 keyword, Bikers do not have the 步兵 keyword and instead have the 摩托 keyword, and Vanguard Veterans have the 跳跃背包 keyword.
 
-For the purposes of setting up on or moving through Battlefield Terrain, 这个单位 is treated as an INFANTRY unit, even if it contains any BIKER 模型.</characteristic>
+For the purposes of setting up on or moving through Battlefield Terrain, 这个单位 is treated as an 步兵单位, even if it contains any 摩托 模型.</characteristic>
           </characteristics>
         </profile>
         <profile id="0631-4d40-f337-919a" name="Vanguard Strike" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -2331,7 +2331,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个单位 automatically passes 士气测试 if it contains any Terminators.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个单位 automatically passes 士气测试 if it contains any 终结者.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2610,7 +2610,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
                 <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f8f-1fb9-600d-1b91" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="f457-89d9-de4b-1903" name="Biker" hidden="false" collective="false" import="true" targetId="ad2a-bcbe-d7d3-302a" type="selectionEntry">
+            <entryLink id="f457-89d9-de4b-1903" name="摩托" hidden="false" collective="false" import="true" targetId="ad2a-bcbe-d7d3-302a" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="e356-c769-5920-6e14" value="2"/>
               </modifiers>
@@ -2618,7 +2618,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
                 <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c4c-1682-1c21-19c2" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="25f9-d99b-0ec1-0e93" name="Biker w/ Teleport Homer" hidden="false" collective="false" import="true" targetId="8ca5-40fa-24f7-de58" type="selectionEntry">
+            <entryLink id="25f9-d99b-0ec1-0e93" name="摩托 w/ Teleport Homer" hidden="false" collective="false" import="true" targetId="8ca5-40fa-24f7-de58" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="e356-c769-5920-6e14" value="2"/>
               </modifiers>
@@ -2702,7 +2702,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
       <profiles>
         <profile id="486f-66dc-64a6-37a1" name="战斗盾" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A model with a combat shield has a 5+ invul save.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A model with a combat shield 拥有 5+ invul save.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2884,7 +2884,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
       <profiles>
         <profile id="df28-59b1-95bc-89fb" name="Deathwatch Teleport Homer" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个单位 has a Deathwatch teleport homer, place it anywhere in your 部署区 when your army deploys.  If an 敌方模型 is ever 范围内 9寸 of the Deathwatch teleport homer, it is deactivated and removed from the battlefield.  Whilst there are any 友方 Deathwatch teleport homers on the battlefield, a unit that contains one or more Deathwatch Terminators can perform an emergency teleport 而不是 moving in its 移动阶段.  At the end fo the 移动阶段, remove the unit and then set it up with all models 范围内 6寸 of a 友方 Deathwatch teleport homer.  That Deathwatch teleport homer then shorts out and is removed from the battlefield.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个单位 拥有 Deathwatch teleport homer, place it anywhere in your 部署区 when your army deploys.  If an 敌方模型 is ever 范围内 9寸 of the Deathwatch teleport homer, it is deactivated and removed from the battlefield.  Whilst there are any 友方 Deathwatch teleport homers on the battlefield, a unit that contains one or more Deathwatch 终结者 can perform an emergency teleport 而不是 moving in its 移动阶段.  At the end fo the 移动阶段, remove the unit and then set it up with all models 范围内 6寸 of a 友方 Deathwatch teleport homer.  That Deathwatch teleport homer then shorts out and is removed from the battlefield.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2894,7 +2894,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2e20-75c9-c6de-83a8" name="Terminators" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="2e20-75c9-c6de-83a8" name="终结者" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="increment" field="e356-c769-5920-6e14" value="13">
           <conditions>
@@ -3026,7 +3026,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
       <profiles>
         <profile id="96d9-cfe5-88a4-5450" name="Jet Pack Assault" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up 这个单位 high in the skies 而不是 placing it on the battlefield, at the end of any of your 移动阶段 这个单位 can assault from above - set it up anywhere on the battlefield that is more than 9寸 away from any 敌方模型.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">部署期间, 可以放置 这个单位 high in the skies 而不是 placing it on the battlefield, at the end of any of your 移动阶段 这个单位 can assault from above - set it up anywhere on the battlefield that is more than 9寸 away from any 敌方模型.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3197,13 +3197,13 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e4b-27c3-e9bd-da5a" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="c51d-2b9c-240b-a83c" name="Deathwatch Biker Sergeant" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="c51d-2b9c-240b-a83c" name="Deathwatch 摩托 Sergeant" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4244-0a6f-cb61-6e09" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3823-ccab-009a-c3d7" type="min"/>
               </constraints>
               <profiles>
-                <profile id="5f62-a0b8-5872-0afa" name="Deathwatch Biker Sergeant" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+                <profile id="5f62-a0b8-5872-0afa" name="Deathwatch 摩托 Sergeant" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
                   <characteristics>
                     <characteristic name="M" typeId="0bdf-a96e-9e38-7779">14寸</characteristic>
                     <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -3240,12 +3240,12 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink id="1bbb-7c00-2fb8-e0c4" name="Biker" hidden="false" collective="false" import="true" targetId="ad2a-bcbe-d7d3-302a" type="selectionEntry">
+            <entryLink id="1bbb-7c00-2fb8-e0c4" name="摩托" hidden="false" collective="false" import="true" targetId="ad2a-bcbe-d7d3-302a" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb08-11ec-a5f8-3b06" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="6147-2ef3-0fbb-8b3e" name="Biker w/ Teleport Homer" hidden="false" collective="false" import="true" targetId="8ca5-40fa-24f7-de58" type="selectionEntry">
+            <entryLink id="6147-2ef3-0fbb-8b3e" name="摩托 w/ Teleport Homer" hidden="false" collective="false" import="true" targetId="8ca5-40fa-24f7-de58" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="48dc-2a7d-a9d6-631f" type="max"/>
               </constraints>
@@ -3267,7 +3267,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
       <profiles>
         <profile id="1e5b-9610-c724-9a7d" name="运载能力" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
           <characteristics>
-            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">这个模型 可以运输 12 DEATHWATCH 步兵模型. Each 跳跃背包 or TERMINATORS model takes the space of 2 other 模型.  It can also transport DEATHWATCH BIKER models - each takes up the space of 3 other 模型. 不能运输 原铸 模型.</characteristic>
+            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">这个模型 可以运输 12 DEATHWATCH 步兵模型. Each 跳跃背包 or 终结者 model takes the space of 2 other 模型.  It can also transport DEATHWATCH 摩托 models - each takes up the space of 3 other 模型. 不能运输 原铸 模型.</characteristic>
           </characteristics>
         </profile>
         <profile id="2b60-5b12-67c0-5adb" name="Corvus Blackstar" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
@@ -3561,9 +3561,9 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ad2a-bcbe-d7d3-302a" name="Biker" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="ad2a-bcbe-d7d3-302a" name="摩托" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="4819-189a-2d8b-c4cd" name="Deathwatch Biker" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="4819-189a-2d8b-c4cd" name="Deathwatch 摩托" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">14寸</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -3611,12 +3611,12 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8ca5-40fa-24f7-de58" name="Biker w/ Teleport Homer" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="8ca5-40fa-24f7-de58" name="摩托 w/ Teleport Homer" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1abf-6b8c-3955-858d" type="max"/>
       </constraints>
       <profiles>
-        <profile id="a716-2590-7360-2fb1" name="Deathwatch Biker" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="a716-2590-7360-2fb1" name="Deathwatch 摩托" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">14寸</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -4263,7 +4263,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
         </profile>
         <profile id="103b-5f7f-7f80-29b1" name="Meteoric Descent" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set it up in high orbit 而不是 placing it on the battlefield. At the end of any of your 移动阶段 这个单位 can use a meteoric descent - set it up anywhere on the battlefield that is more than 9寸 away from any 敌方模型.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">部署期间, you can set it up in high orbit 而不是 placing it on the battlefield. At the end of any of your 移动阶段 这个单位 can use a meteoric descent - set it up anywhere on the battlefield that is more than 9寸 away from any 敌方模型.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4891,9 +4891,9 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f234-52d4-37c2-cd1e" name="Redemptor Dreadnought" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="f234-52d4-37c2-cd1e" name="Redemptor 无畏" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="17d2-b004-ea1d-dbd3" name="Redemptor Dreadnought" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="17d2-b004-ea1d-dbd3" name="Redemptor 无畏" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">*</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">*</characteristic>
@@ -5041,7 +5041,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
       <profiles>
         <profile id="ad6b-57b3-7d69-48ed" name="Grapnel Launcher" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When models with grapnel launchers move in the 移动阶段, do not count any vertical distance they move against the total they can move (i.e. moving vertically is free for these models in the 移动阶段). 此外, during deployment you can set up 这个单位 if it is equipped with grapnel launchers behing 敌方 lines 而不是 placing it on the battlefield. At the the end of your 移动阶段 这个单位 can join the battle. Set it up 范围内 6寸 of a battlefield edge of your choice and more than 9寸 away from any 敌方模型.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When models with grapnel launchers move in the 移动阶段, do not count any vertical distance they move against the total they can move (i.e. moving vertically is free for these models in the 移动阶段). 此外, 部署期间 可以放置 这个单位 if it is equipped with grapnel launchers behing 敌方 lines 而不是 placing it on the battlefield. At the the end of your 移动阶段 这个单位 can join the battle. Set it up 范围内 6寸 of a battlefield edge of your choice and more than 9寸 away from any 敌方模型.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5055,7 +5055,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
       <profiles>
         <profile id="ef16-db45-0dae-c61c" name="Grav Chutes" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set it up in high orbit 而不是 placing it on the battlefield. At the end of any of your 移动阶段 这个单位 can descend - set it up anywhere on the battlefield that is more than 9寸 away from any 敌方模型.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">部署期间, you can set it up in high orbit 而不是 placing it on the battlefield. At the end of any of your 移动阶段 这个单位 can descend - set it up anywhere on the battlefield that is more than 9寸 away from any 敌方模型.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5218,7 +5218,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             <characteristic name="S" typeId="59b1-319e-ec13-d466">0</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">0</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">A shock greande doesn&apos;t inflict any damage. Instead, each time a shock grenade hits an 敌方 INFANTRY unit, it is stunned until the end of the turn - it cannot fire 坚守射击 and your opponent must subtract 1 from any hit rolls made for the unit. Second and subsequent hits from a shock grenade have no additional effect.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">A shock greande doesn&apos;t inflict any damage. Instead, each time a shock grenade hits an 敌方 步兵单位, it is stunned until the end of the turn - it cannot fire 坚守射击 and your opponent must subtract 1 from any hit rolls made for the unit. Second and subsequent hits from a shock grenade have no additional effect.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5249,9 +5249,9 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
     </selectionEntry>
     <selectionEntry id="a421-6071-270b-4dfe" name="Repulsor" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="d3f8-b8d3-482d-c0b9" name="Hover Tank" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="d3f8-b8d3-482d-c0b9" name="悬浮坦克" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Distanes and ranges are always measured to and from 这个模型&apos;s hull even though it has a base.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Distanes and ranges are always measured to and from 这个模型&apos;s hull even though it 拥有 base.</characteristic>
           </characteristics>
         </profile>
         <profile id="9410-9a95-9653-8305" name="Repulsor Field" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -5343,7 +5343,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
           </constraints>
           <entryLinks>
             <entryLink id="8fb1-efc9-d10a-bee6" name="Onslaught Gatling Cannon" hidden="false" collective="false" import="true" targetId="c0f7-9881-973a-1a8b" type="selectionEntry"/>
-            <entryLink id="3d02-6e67-2878-cd64" name="Ironhail Heavy Stubber" hidden="false" collective="false" import="true" targetId="5420-1ee8-5e2f-b5a0" type="selectionEntry"/>
+            <entryLink id="3d02-6e67-2878-cd64" name="铁幕重机枪" hidden="false" collective="false" import="true" targetId="5420-1ee8-5e2f-b5a0" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="61b8-2e1e-0cca-7a8e" name="Weapon Option 4" hidden="false" collective="false" import="true" defaultSelectionEntryId="6e61-4736-c67a-0351">
@@ -5380,7 +5380,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="9895-967c-5f24-16ff" name="Ironhail Heavy Stubber" hidden="false" collective="false" import="true" targetId="5420-1ee8-5e2f-b5a0" type="selectionEntry">
+        <entryLink id="9895-967c-5f24-16ff" name="铁幕重机枪" hidden="false" collective="false" import="true" targetId="5420-1ee8-5e2f-b5a0" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ddf-c564-efa9-d789" type="max"/>
           </constraints>
@@ -5400,9 +5400,9 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5420-1ee8-5e2f-b5a0" name="Ironhail Heavy Stubber" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="5420-1ee8-5e2f-b5a0" name="铁幕重机枪" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="65e9-d6c6-d5a4-e2b1" name="Ironhail Heavy Stubber" hidden="false" targetId="c709-7b99-9785-403d" type="profile"/>
+        <infoLink id="65e9-d6c6-d5a4-e2b1" name="铁幕重机枪" hidden="false" targetId="c709-7b99-9785-403d" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="6.0"/>
@@ -5613,7 +5613,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
       <profiles>
         <profile id="a3e3-89bb-c7b6-c015" name="Bane of Monstrosities" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll failed wound rolls for your 主将 when attacking 敌方 VEHICLES or MONSTERS.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投失败的造伤骰 for your 主将 when attacking 敌方 载具 or MONSTERS.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5718,7 +5718,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             <characteristic name="S" typeId="59b1-319e-ec13-d466">0</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">0</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">A shock greande doesn&apos;t inflict any damage. Instead, each time a shock grenade hits an 敌方 INFANTRY unit, it is stunned until the end of the turn - it cannot fire 坚守射击 and your opponent must subtract 1 from any hit rolls made for the unit. Second and subsequent hits from a shock grenade have no additional effect.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">A shock greande doesn&apos;t inflict any damage. Instead, each time a shock grenade hits an 敌方 步兵单位, it is stunned until the end of the turn - it cannot fire 坚守射击 and your opponent must subtract 1 from any hit rolls made for the unit. Second and subsequent hits from a shock grenade have no additional effect.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6348,7 +6348,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 always wounds on a 2+ (except against VEHICLES and TITANIC units).</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 always wounds on a 2+ (except against 载具 and TITANIC units).</characteristic>
           </characteristics>
         </profile>
         <profile id="7be2-1e07-c475-97b6" name="Master-crafted 爆弹枪 - Hellfire" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -6358,7 +6358,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 always wounds on a 2+ (except against VEHICLES and TITANIC units).</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 always wounds on a 2+ (except against 载具 and TITANIC units).</characteristic>
           </characteristics>
         </profile>
         <profile id="2799-c98e-f393-12f7" name="Master-crafted stalker 爆弹步枪 - Kraken" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -6418,7 +6418,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 always wounds on a 2+ (except against VEHICLES and TITANIC units).</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 always wounds on a 2+ (except against 载具 and TITANIC units).</characteristic>
           </characteristics>
         </profile>
         <profile id="0274-1238-6f46-7fdb" name="风暴爆弹 - Dragonfire" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -6448,7 +6448,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 always wounds on a 2+ (except against VEHICLES and TITANIC units).</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 always wounds on a 2+ (except against 载具 and TITANIC units).</characteristic>
           </characteristics>
         </profile>
         <profile id="41bb-70de-47d4-9f28" name="Absolver Bolt Pistol - Dragonfire" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -6478,7 +6478,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 always wounds on a 2+ (except against VEHICLES and TITANIC units).</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 always wounds on a 2+ (except against 载具 and TITANIC units).</characteristic>
           </characteristics>
         </profile>
         <profile id="0328-ffb2-795b-775b" name="Auto 爆弹步枪 - Dragonfire" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -6508,7 +6508,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 always wounds on a 2+ (except against VEHICLES and TITANIC units).</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 always wounds on a 2+ (except against 载具 and TITANIC units).</characteristic>
           </characteristics>
         </profile>
         <profile id="25a9-3782-3afd-6f32" name="Bolt Carbine - Dragonfire" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -6538,7 +6538,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 always wounds on a 2+ (except against VEHICLES and TITANIC units).</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 always wounds on a 2+ (except against 载具 and TITANIC units).</characteristic>
           </characteristics>
         </profile>
         <profile id="0b89-0404-bda7-5431" name="Bolt Pistol - Dragonfire" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -6568,7 +6568,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 always wounds on a 2+ (except against VEHICLES and TITANIC units).</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 always wounds on a 2+ (except against 载具 and TITANIC units).</characteristic>
           </characteristics>
         </profile>
         <profile id="7503-c8f0-a442-5254" name="爆弹步枪 - Dragonfire" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -6598,7 +6598,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 always wounds on a 2+ (except against VEHICLES and TITANIC units).</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 always wounds on a 2+ (except against 载具 and TITANIC units).</characteristic>
           </characteristics>
         </profile>
         <profile id="834f-46bc-ee3a-2096" name="爆弹枪 - Dragonfire" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -6638,7 +6638,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 always wounds on a 2+ (except against VEHICLES and TITANIC units).</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 always wounds on a 2+ (except against 载具 and TITANIC units).</characteristic>
           </characteristics>
         </profile>
         <profile id="c922-5e47-1322-09d7" name="Heavy Bolt Pistol - Kraken" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -6658,7 +6658,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 always wounds on a 2+ (except against VEHICLES and TITANIC units).</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 always wounds on a 2+ (except against 载具 and TITANIC units).</characteristic>
           </characteristics>
         </profile>
         <profile id="7e61-c549-8c3c-b4fa" name="Heavy Bolt Pistol - Dragonfire" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -6738,7 +6738,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 always wounds on a 2+ (except against VEHICLES and TITANIC units).</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 always wounds on a 2+ (except against 载具 and TITANIC units).</characteristic>
           </characteristics>
         </profile>
         <profile id="c95d-70c4-a095-b72f" name="Master-crafted stalker 爆弹步枪 - Dragonfire" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -6778,7 +6778,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 always wounds on a 2+ (except against VEHICLES and TITANIC units).</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 always wounds on a 2+ (except against 载具 and TITANIC units).</characteristic>
           </characteristics>
         </profile>
         <profile id="1b67-e58e-f1a1-72ac" name="Stalker 爆弹步枪 - Dragonfire" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -6808,7 +6808,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 always wounds on a 2+ (except against VEHICLES and TITANIC units).</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 always wounds on a 2+ (except against 载具 and TITANIC units).</characteristic>
           </characteristics>
         </profile>
         <profile id="9326-3e89-7510-76a9" name="Stalker Pattern 爆弹枪 - Dragonfire" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -6838,7 +6838,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 always wounds on a 2+ (except against VEHICLES and TITANIC units).</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 always wounds on a 2+ (except against 载具 and TITANIC units).</characteristic>
           </characteristics>
         </profile>
         <profile id="e228-b529-d366-5821" name="双联 爆弹枪 - Kraken" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -7119,14 +7119,14 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
         </profile>
         <profile id="42ff-914a-0a8a-2ffd" name="Narthecium" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of any of your 移动阶段, the Apothecary can attempt to heal or revive a single model. Select a 友方 DEATHWATCH INFANTRY or BIKER unit 范围内 3寸 of the Apothecary. If 那个单位 contains a wounded model, it immediately regains D3 lost wounds. If the chosen unit contains no wounded models but one or more of its models have been slain during the battle, 投掷1个D6. On a 4+ a single slain model is returned to the unit with 1 wound remaining. If the Apothecary fails to revive a model he can do nothing else for the remainder of the turn (shoot, charge, fight, etc.) as he recovers the gene-seed of the fallen warrior. A unit can only be the target of the Narthecium ability once in each turn.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of any of your 移动阶段, the Apothecary can attempt to heal or revive a single model. Select a 友方 DEATHWATCH 步兵 or 摩托 unit 范围内 3寸 of the Apothecary. If 那个单位 contains a wounded model, it immediately regains D3 lost wounds. If the chosen unit contains no wounded models but one or more of its models have been slain during the battle, 投掷1个D6. On a 4+ a single slain model is returned to the unit with 1 wound remaining. If the Apothecary fails to revive a model he can do nothing else for the remainder of the turn (shoot, charge, fight, etc.) as he recovers the gene-seed of the fallen warrior. A unit can only be the target of the Narthecium ability once in each turn.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <categoryLinks>
         <categoryLink id="33d4-c28f-baaf-5f0b" name="Elites" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
         <categoryLink id="ceaa-95bd-1c9b-a89d" name="Deathwatch" hidden="false" targetId="c82e-cd8d-e26d-a2c1" primary="false"/>
-        <categoryLink id="d9ee-8585-3a69-0fad" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
+        <categoryLink id="d9ee-8585-3a69-0fad" name="步兵" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
         <categoryLink id="9752-ae21-22b0-b5c1" name="阿斯塔特修会" hidden="false" targetId="c7b7-edbc-bc14-6238" primary="false"/>
         <categoryLink id="9ddd-34e5-75eb-5c1e" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
         <categoryLink id="e571-cf67-b0f9-cca1" name="帝国" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false"/>
@@ -7213,7 +7213,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
         <categoryLink id="5a60-7959-9598-4756" name="Deathwatch" hidden="false" targetId="c82e-cd8d-e26d-a2c1" primary="false"/>
         <categoryLink id="4f77-9838-189a-3269" name="Elites" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
         <categoryLink id="f199-6ff8-626c-2995" name="帝国" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false"/>
-        <categoryLink id="0b48-edcf-0b0a-190a" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
+        <categoryLink id="0b48-edcf-0b0a-190a" name="步兵" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
         <categoryLink id="753f-3115-bd89-3e45" name="终结者" hidden="false" targetId="b86e-a36b-2bfb-9401" primary="false"/>
       </categoryLinks>
       <entryLinks>
@@ -7272,9 +7272,9 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">1</characteristic>
           </characteristics>
         </profile>
-        <profile id="5eb4-f431-1181-021d" name="Hover Tank" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="5eb4-f431-1181-021d" name="悬浮坦克" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Distances and ranges are always measured to and from 这个模型&apos;s hull even though it has a base.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Distances and ranges are always measured to and from 这个模型&apos;s hull even though it 拥有 base.</characteristic>
           </characteristics>
         </profile>
         <profile id="25b6-6fbd-6b27-cd9b" name="Repulsor Field" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -7364,7 +7364,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8c0-e7f3-75be-1b67" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="254a-5a48-2063-53a2" name="Ironhail Heavy Stubber" hidden="false" collective="false" import="true" targetId="5420-1ee8-5e2f-b5a0" type="selectionEntry">
+        <entryLink id="254a-5a48-2063-53a2" name="铁幕重机枪" hidden="false" collective="false" import="true" targetId="5420-1ee8-5e2f-b5a0" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d80f-187a-05bf-20ab" type="max"/>
           </constraints>
@@ -7425,7 +7425,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
         <entryLink id="652a-a5e7-cf80-635e" name="Combi-grav" hidden="false" collective="false" import="true" targetId="7be8-ceab-bba7-a265" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="6a64-f8c8-acc2-9a35" name="Dreadnought Arm 武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="c239-abe2-fc65-e862">
+    <selectionEntryGroup id="6a64-f8c8-acc2-9a35" name="无畏 Arm 武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="c239-abe2-fc65-e862">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ec47-fe57-c361-6f25" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8803-4277-1905-71e2" type="min"/>
@@ -7436,7 +7436,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
         <entryLink id="33cb-8ee5-1190-92ea" name="无畏肉搏武器附加重喷火" hidden="false" collective="false" import="true" targetId="1720-3d63-ee7e-b95e" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="2846-aada-ddb5-e3cb" name="Dreadnought 重型武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="fa16-1079-2da0-a62d">
+    <selectionEntryGroup id="2846-aada-ddb5-e3cb" name="无畏 重型武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="fa16-1079-2da0-a62d">
       <entryLinks>
         <entryLink id="18ba-f131-e27f-d133" name="New EntryLink" hidden="false" collective="false" import="true" targetId="ee18-b1cd-6b60-464d" type="selectionEntry"/>
         <entryLink id="fa16-1079-2da0-a62d" name="New EntryLink" hidden="false" collective="false" import="true" targetId="51b0-3d46-5af4-683e" type="selectionEntry"/>
@@ -8167,7 +8167,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
           <profiles>
             <profile id="4ad5-b3cb-da51-da8a" name="The Beacon Angelis" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per battle, at the end of your 移动阶段, the bearer can use the Beacon Angelis to teleport a 友方单位 to his position. When he does so, select a DEATHWATCH INFANTRY or BIKER unit that is either on the battlefield, or that is in a teleportarium. In either case, remove 这个单位 and then set it up wholly 范围内 6寸 of the bearer and more than 9寸 from any 敌方模型 (any model that cannot be set up is slain).</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per battle, at the end of your 移动阶段, the bearer can use the Beacon Angelis to teleport a 友方单位 to his position. When he does so, select a DEATHWATCH 步兵 or 摩托 unit that is either on the battlefield, or that is in a teleportarium. In either case, remove 这个单位 and then set it up wholly 范围内 6寸 of the bearer and more than 9寸 from any 敌方模型 (any model that cannot be set up is slain).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8214,7 +8214,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
           <profiles>
             <profile id="01f2-2360-10d2-59c0" name="Dominus Aegis" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models with a 风暴盾 only. The Dominus Aegis replaces the bearer’s 风暴盾. The bearer has a 3+ 特殊保护. 此外, if the bearer does not move in your 移动阶段, then until the start of your next 移动阶段, 友方 DEATHWATCH models 范围内 6寸 of the bearer gain a 5+ 特殊保护</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models with a 风暴盾 only. The Dominus Aegis replaces the bearer’s 风暴盾. The bearer 拥有 3+ 特殊保护. 此外, if the bearer does not move in your 移动阶段, then until the start of your next 移动阶段, 友方 DEATHWATCH models 范围内 6寸 of the bearer gain a 5+ 特殊保护</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8241,7 +8241,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
           <profiles>
             <profile id="5e2c-855e-f9fd-b8e1" name="Osseus Key" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Watch Masters only. 敌方 VEHICLES subtract 1 from their hit rolls whilst they are 范围内 9寸 of 这个模型. Each time the bearer fights, you can make one additional attack with the Osseus Key against an 敌方 VEHICLE 范围内 1寸 of them; if this attack hits, the target unit 遭受 D3 致命伤.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Watch Masters only. 敌方 载具 subtract 1 from their hit rolls whilst they are 范围内 9寸 of 这个模型. Each time the bearer fights, you can make one additional attack with the Osseus Key against an 敌方 VEHICLE 范围内 1寸 of them; if this attack hits, the target unit 遭受 D3 致命伤.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8293,7 +8293,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When setting up the bearer, pick one of the following keywords: 兽人, TYRANID, T’AU EMPIRE, AELDARIor 死灵. You can re-roll failed wound rolls for 这个武器 when attacking 敌方单位 with that keyword</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When setting up the bearer, pick one of the following keywords: 兽人, TYRANID, T’AU EMPIRE, AELDARIor 死灵. 可以重投失败的造伤骰 for 这个武器 when attacking 敌方单位 with that keyword</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8319,7 +8319,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
       <description>Add 1 to the hit rolls for 这个武器 when targeting a unit that is in cover.</description>
     </rule>
     <rule id="0ec7-dd83-aae0-26c5" name="SIA - Hellfire Rounds" hidden="false">
-      <description>这个武器 always wounds on a 2+ (except against VEHICLES and TITANIC units).</description>
+      <description>这个武器 always wounds on a 2+ (except against 载具 and TITANIC units).</description>
     </rule>
     <rule id="2371-87ae-e67e-ab08" name="SIA - Kraken Bolts" hidden="false">
       <description>Add 3寸 to the range of 这个武器 if it is a Pistol – or 6寸 otherwise – and improve the AP of the attack by 1 (e.g. an AP of 0 becomes -1), to a maximum AP of -2.</description>
@@ -8362,7 +8362,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
     </profile>
     <profile id="7e82-cdc9-6125-be30" name="Rosarius" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 has a 4+ 特殊保护.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 拥有 4+ 特殊保护.</characteristic>
       </characteristics>
     </profile>
     <profile id="5043-8c45-ff63-01bb" name="战争之仪" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -8377,17 +8377,17 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
     </profile>
     <profile id="b7b9-274a-1b87-3b67" name="Litanies of Hate" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll failed hit rolls in the 肉搏阶段 for 友方 &lt;CHPATER&gt; units 范围内 6寸 of 这个模型.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投失败的命中骰 in the 肉搏阶段 for 友方 &lt;CHPATER&gt; units 范围内 6寸 of 这个模型.</characteristic>
       </characteristics>
     </profile>
     <profile id="83c5-c731-4688-c8eb" name="铁关环" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 has a 4+ 特殊保护.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 拥有 4+ 特殊保护.</characteristic>
       </characteristics>
     </profile>
     <profile id="daa1-9682-4f79-bdc3" name="Crux Terminatus" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Terminators have a 5+ 特殊保护.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">终结者 have a 5+ 特殊保护.</characteristic>
       </characteristics>
     </profile>
     <profile id="1baf-0fae-82e1-da51" name="Combat Squads" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -8407,7 +8407,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
     </profile>
     <profile id="0cd3-5fb0-83ba-2475" name="传送打击" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up 这个模型 in a teleportarium chamber 而不是 placing it on the battlefield. At the end of any of your 移动阶段 这个模型 can teleport into battle - set it up anywhere on the battlefield that is more than 9寸 away from any 敌方模型.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">部署期间, 可以放置 这个模型 in a teleportarium chamber 而不是 placing it on the battlefield. At the end of any of your 移动阶段 这个模型 can teleport into battle - set it up anywhere on the battlefield that is more than 9寸 away from any 敌方模型.</characteristic>
       </characteristics>
     </profile>
     <profile id="a3b8-74b3-06b9-db2c" name="Frag Assault Launchers" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -8552,7 +8552,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
     </profile>
     <profile id="0f8d-0c8e-c28b-a2b1" name="Narthecium" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of any of your 移动阶段, the Apothecary can attempt to heal or revive a singel model. Select a 友方 &lt;人物&gt; INFANTRY or BIKER unit 范围内 3寸 of the Apothecary. If 那个单位 contains a wounded model, it immediately regains D3 lost wounds. If the chosen unit contains no wounded models but one or more of its models have been slain during the battle, 投掷1个D6. On a 4+ a single slain model is returned to the unit with 1 wound remaining. I fthe Apothecary fails to revive a model he can do nothing else for the remainder of the turn (shoot, charge, fight, ect.) as he recovers gene-seed of the fallen warrior. A unit can only be the target of the Narthecium ability once in each turn.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of any of your 移动阶段, the Apothecary can attempt to heal or revive a singel model. Select a 友方 &lt;人物&gt; 步兵 or 摩托 unit 范围内 3寸 of the Apothecary. If 那个单位 contains a wounded model, it immediately regains D3 lost wounds. If the chosen unit contains no wounded models but one or more of its models have been slain during the battle, 投掷1个D6. On a 4+ a single slain model is returned to the unit with 1 wound remaining. I fthe Apothecary fails to revive a model he can do nothing else for the remainder of the turn (shoot, charge, fight, ect.) as he recovers gene-seed of the fallen warrior. A unit can only be the target of the Narthecium ability once in each turn.</characteristic>
       </characteristics>
     </profile>
     <profile id="ac67-1fe2-ecff-e890" name="Heavy Onslaught Gatling Cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -8635,7 +8635,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="c709-7b99-9785-403d" name="Ironhail Heavy Stubber" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="c709-7b99-9785-403d" name="铁幕重机枪" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36寸</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 3</characteristic>
