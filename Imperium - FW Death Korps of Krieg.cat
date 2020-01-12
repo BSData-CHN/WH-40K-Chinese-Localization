@@ -89,7 +89,7 @@
     <categoryEntry id="cebd-62b7-7d99-a244" name="Malcador Defender" hidden="false"/>
     <categoryEntry id="923e-80a0-2539-3aa4" name="Malcador Heavy tank" hidden="false"/>
     <categoryEntry id="0ab2-5a41-9bf8-6f1f" name="Malcador Infernus" hidden="false"/>
-    <categoryEntry id="6aeb-8e63-e256-ad8c" name="Styges Destroyer Tank Hunter" hidden="false"/>
+    <categoryEntry id="6aeb-8e63-e256-ad8c" name="Styges Destroyer Tank 猎手" hidden="false"/>
     <categoryEntry id="0c9a-234f-2c6b-6256" name="Arkurian Pattern Stormblade" hidden="false"/>
     <categoryEntry id="fe68-d7f1-aa17-6a1e" name="Gorgon" hidden="false"/>
     <categoryEntry id="f3c0-1829-3c7e-51e3" name="Macharius" hidden="false"/>
@@ -228,7 +228,7 @@
         <categoryLink id="3220-a911-d4a2-dea6" name="New CategoryLink" hidden="false" targetId="bdda-36f0-4f32-1639" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="0bde-5110-39ec-3039" name="Stygies Destroyer Tank Hunter" hidden="false" collective="false" import="true" targetId="eca0-47bf-4d66-475b" type="selectionEntry">
+    <entryLink id="0bde-5110-39ec-3039" name="Stygies Destroyer Tank 猎手" hidden="false" collective="false" import="true" targetId="eca0-47bf-4d66-475b" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="268c-5aae-4806-e1d1" name="New CategoryLink" hidden="false" targetId="3263-4233-4344-6228" primary="false"/>
         <categoryLink id="0384-1d10-6489-76c0" name="New CategoryLink" hidden="false" targetId="d4b7-c4c8-ac38-ddfd" primary="false"/>
@@ -6466,15 +6466,15 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="eca0-47bf-4d66-475b" name="Stygies Destroyer Tank Hunter" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="eca0-47bf-4d66-475b" name="Stygies Destroyer Tank 猎手" hidden="false" collective="false" import="true" type="model">
       <selectionEntries>
-        <selectionEntry id="ef91-c57b-5dba-45a9" name="Styges Destroyer Tank Hunter" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="ef91-c57b-5dba-45a9" name="Styges Destroyer Tank 猎手" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c904-984c-fef8-4adf" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b74d-3465-ad21-ade7" type="min"/>
           </constraints>
           <profiles>
-            <profile id="1e78-6804-8c46-a09a" name="Styges Destroyer Tank Hunter" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+            <profile id="1e78-6804-8c46-a09a" name="Styges Destroyer Tank 猎手" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
               <characteristics>
                 <characteristic name="M" typeId="0bdf-a96e-9e38-7779">*</characteristic>
                 <characteristic name="WS" typeId="e7f0-1278-0250-df0c">6+</characteristic>
@@ -6487,7 +6487,7 @@
                 <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
               </characteristics>
             </profile>
-            <profile id="f405-3fec-27a6-0f2e" name="Styges Destroyer Tank Hunter 1" hidden="false" typeId="e6d5-85c5-7b01-a3c4" typeName="损伤表 - M/BS/A">
+            <profile id="f405-3fec-27a6-0f2e" name="Styges Destroyer Tank 猎手 1" hidden="false" typeId="e6d5-85c5-7b01-a3c4" typeName="损伤表 - M/BS/A">
               <characteristics>
                 <characteristic name="剩余W" typeId="233c-fa78-4641-68d9">6-13+</characteristic>
                 <characteristic name="M" typeId="fc73-9b3f-5e4b-86b9">10寸</characteristic>
@@ -6495,7 +6495,7 @@
                 <characteristic name="A" typeId="2e64-2e5c-f4d1-52d3">3</characteristic>
               </characteristics>
             </profile>
-            <profile id="a413-522e-7827-0f10" name="Styges Destroyer Tank Hunter 2" hidden="false" typeId="e6d5-85c5-7b01-a3c4" typeName="损伤表 - M/BS/A">
+            <profile id="a413-522e-7827-0f10" name="Styges Destroyer Tank 猎手 2" hidden="false" typeId="e6d5-85c5-7b01-a3c4" typeName="损伤表 - M/BS/A">
               <characteristics>
                 <characteristic name="剩余W" typeId="233c-fa78-4641-68d9">3-5</characteristic>
                 <characteristic name="M" typeId="fc73-9b3f-5e4b-86b9">7寸</characteristic>
@@ -6503,7 +6503,7 @@
                 <characteristic name="A" typeId="2e64-2e5c-f4d1-52d3">D3</characteristic>
               </characteristics>
             </profile>
-            <profile id="69ea-3a09-330e-8a5c" name="Styges Destroyer Tank Hunter 3" hidden="false" typeId="e6d5-85c5-7b01-a3c4" typeName="损伤表 - M/BS/A">
+            <profile id="69ea-3a09-330e-8a5c" name="Styges Destroyer Tank 猎手 3" hidden="false" typeId="e6d5-85c5-7b01-a3c4" typeName="损伤表 - M/BS/A">
               <characteristics>
                 <characteristic name="剩余W" typeId="233c-fa78-4641-68d9">1-2</characteristic>
                 <characteristic name="M" typeId="fc73-9b3f-5e4b-86b9">4寸</characteristic>
@@ -6511,7 +6511,7 @@
                 <characteristic name="A" typeId="2e64-2e5c-f4d1-52d3">1</characteristic>
               </characteristics>
             </profile>
-            <profile id="7517-24c0-d4b9-b5b1" name="Tank Hunter" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+            <profile id="7517-24c0-d4b9-b5b1" name="Tank 猎手" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
                 <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 攻击 a 载具 with it&apos;s heavy 激光毁灭者 array, roll 2 dice when rolling 伤害 and discard the lowest result.</characteristic>
               </characteristics>

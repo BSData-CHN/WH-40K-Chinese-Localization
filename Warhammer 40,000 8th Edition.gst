@@ -6112,12 +6112,12 @@
                     <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="fbd4-985a-2c1c-4e3a" name="12: Beast Hunter" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="fbd4-985a-2c1c-4e3a" name="12: Beast 猎手" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3552-92e2-7c0f-d877" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="2cfd-c772-8ded-a00b" name="12: Beast Hunter" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
+                    <profile id="2cfd-c772-8ded-a00b" name="12: Beast 猎手" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
                         <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投失败的造伤骰 for 攻击 made by 这个模型 in the 肉搏阶段 if the target is a 巨兽 单位.</characteristic>
                       </characteristics>

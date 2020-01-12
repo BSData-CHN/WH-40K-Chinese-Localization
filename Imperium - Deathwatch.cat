@@ -10,8 +10,8 @@
     <categoryEntry id="396b-5c0d-df9b-45f6" name="无畏" hidden="false"/>
     <categoryEntry id="c81f-06b5-05de-3efe" name="空降舱" hidden="false"/>
     <categoryEntry id="609a-f634-76a0-b838" name="兰德掠袭者" hidden="false"/>
-    <categoryEntry id="50d8-02ec-0b7d-be00" name="兰德掠袭者 Crusader" hidden="false"/>
-    <categoryEntry id="2560-e46a-937d-38de" name="兰德掠袭者 Redeemer" hidden="false"/>
+    <categoryEntry id="50d8-02ec-0b7d-be00" name="兰德掠袭者十字军" hidden="false"/>
+    <categoryEntry id="2560-e46a-937d-38de" name="兰德掠袭者救世主" hidden="false"/>
     <categoryEntry id="5d07-819e-466e-8ec9" name="智库" hidden="false"/>
     <categoryEntry id="dc61-f649-c828-2c12" name="豪猪装甲车" hidden="false"/>
     <categoryEntry id="a102-e08e-60d5-569e" name="犀牛" hidden="false"/>
@@ -26,7 +26,7 @@
     <categoryEntry id="fe4a-5222-06e9-0b07" name="Agressor Squad" hidden="false"/>
     <categoryEntry id="4c12-36d0-6232-ad4a" name="地狱轰击者小队" hidden="false"/>
     <categoryEntry id="90f0-6ff0-18b9-a715" name="原铸" hidden="false"/>
-    <categoryEntry id="8c4f-c48d-c2a7-4228" name="Inceptor Squad" hidden="false"/>
+    <categoryEntry id="8c4f-c48d-c2a7-4228" name="先驱者小队" hidden="false"/>
     <categoryEntry id="0a45-a68a-1263-c551" name="Redemptor 无畏" hidden="false"/>
     <categoryEntry id="73e1-4931-1a94-f870" name="Reiver Squad" hidden="false"/>
     <categoryEntry id="c704-6107-8e00-2e06" name="Repulsor" hidden="false"/>
@@ -57,7 +57,7 @@
         <infoLink id="e3ce-4d8e-959e-af32" name="爆弹训练" hidden="false" targetId="5a7e-f984-487c-d767" type="rule"/>
       </infoLinks>
     </entryLink>
-    <entryLink id="8ae1-d256-a172-9e9a" name="兰德掠袭者 Crusader" hidden="false" collective="false" import="true" targetId="dab0-6f58-e737-09e1" type="selectionEntry">
+    <entryLink id="8ae1-d256-a172-9e9a" name="兰德掠袭者十字军" hidden="false" collective="false" import="true" targetId="dab0-6f58-e737-09e1" type="selectionEntry">
       <infoLinks>
         <infoLink id="2b97-b735-471b-9167" name="雷霆突击" hidden="false" targetId="f9ce-5a8b-7abd-2395" type="rule"/>
         <infoLink id="334e-2911-48f7-4dbd" name="爆弹训练" hidden="false" targetId="5a7e-f984-487c-d767" type="rule"/>
@@ -165,7 +165,7 @@
         <infoLink id="12c3-926e-db21-0dd3" name="爆弹训练" hidden="false" targetId="5a7e-f984-487c-d767" type="rule"/>
       </infoLinks>
     </entryLink>
-    <entryLink id="1e08-7417-2a97-5779" name="Inceptor Squad" hidden="false" collective="false" import="true" targetId="7fac-0e2d-2d88-4f28" type="selectionEntry">
+    <entryLink id="1e08-7417-2a97-5779" name="先驱者小队" hidden="false" collective="false" import="true" targetId="7fac-0e2d-2d88-4f28" type="selectionEntry">
       <infoLinks>
         <infoLink id="1212-a71e-3754-40b1" name="雷霆突击" hidden="false" targetId="f9ce-5a8b-7abd-2395" type="rule"/>
         <infoLink id="a326-4b0f-7260-7782" name="爆弹训练" hidden="false" targetId="5a7e-f984-487c-d767" type="rule"/>
@@ -1218,7 +1218,7 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="386d-3e9e-bfaf-bcfe" name="兰德掠袭者 Redeemer" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="386d-3e9e-bfaf-bcfe" name="兰德掠袭者救世主" hidden="false" collective="false" import="true" type="单位">
       <profiles>
         <profile id="7a59-0972-7caf-9d62" name="运载能力" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
           <characteristics>
@@ -1320,7 +1320,7 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="dab0-6f58-e737-09e1" name="兰德掠袭者 Crusader" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="dab0-6f58-e737-09e1" name="兰德掠袭者十字军" hidden="false" collective="false" import="true" type="单位">
       <profiles>
         <profile id="a8cf-8a1a-a9f4-dc5a" name="运载能力" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
           <characteristics>
@@ -1900,9 +1900,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e288-ff4f-404b-062d" name="Stalker Pattern 爆弹枪" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="e288-ff4f-404b-062d" name="潜伏者 Pattern 爆弹枪" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="c6b5-277d-ab82-f87e" name="Stalker Pattern 爆弹枪" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="c6b5-277d-ab82-f87e" name="潜伏者 Pattern 爆弹枪" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">30寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 2</characteristic>
@@ -4170,12 +4170,12 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="dfc7-1862-33bb-5fcc" name="Master-crafted stalker 爆弹步枪, bolt pistol" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="dfc7-1862-33bb-5fcc" name="Master-crafted 潜伏者 爆弹步枪, bolt pistol" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e87-e529-0025-3e92" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="6c57-aa75-e0d8-f705" name="Master-crafted stalker 爆弹步枪" hidden="false" collective="false" import="true" targetId="581b-a264-b452-892b" type="selectionEntry">
+                <entryLink id="6c57-aa75-e0d8-f705" name="Master-crafted 潜伏者 爆弹步枪" hidden="false" collective="false" import="true" targetId="581b-a264-b452-892b" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f249-b1b0-111d-4634" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5559-66f6-5858-4c50" type="min"/>
@@ -4228,9 +4228,9 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="581b-a264-b452-892b" name="Master-crafted stalker 爆弹步枪" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="581b-a264-b452-892b" name="Master-crafted 潜伏者 爆弹步枪" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="5f94-176a-c065-fc64" name="Master-crafted stalker 爆弹步枪" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="5f94-176a-c065-fc64" name="Master-crafted 潜伏者 爆弹步枪" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 1</characteristic>
@@ -4247,7 +4247,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7fac-0e2d-2d88-4f28" name="Inceptor Squad" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="7fac-0e2d-2d88-4f28" name="先驱者小队" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="increment" field="e356-c769-5920-6e14" value="10">
           <conditions>
@@ -4482,7 +4482,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
                         <modifier type="set" field="points" value="1"/>
                       </modifiers>
                     </entryLink>
-                    <entryLink id="5d87-2217-7afb-31ef" name="Stalker 爆弹步枪" hidden="false" collective="false" import="true" targetId="f1db-c752-001e-eed8" type="selectionEntry"/>
+                    <entryLink id="5d87-2217-7afb-31ef" name="潜伏者 爆弹步枪" hidden="false" collective="false" import="true" targetId="f1db-c752-001e-eed8" type="selectionEntry"/>
                     <entryLink id="6129-f907-0df0-5a96" name="Chainsword" hidden="false" collective="false" import="true" targetId="0dd1-2e2b-7dd1-5495" type="selectionEntry">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7893-ca19-ac25-0913" type="max"/>
@@ -4549,7 +4549,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
                   <entryLinks>
                     <entryLink id="da94-125a-2d66-0ad5" name="自动爆弹步枪" hidden="false" collective="false" import="true" targetId="fc62-c44a-81d2-9e7b" type="selectionEntry"/>
                     <entryLink id="9775-7ef3-fd9a-0121" name="爆弹步枪" hidden="false" collective="false" import="true" targetId="fbf3-4fc8-f474-e3db" type="selectionEntry"/>
-                    <entryLink id="4108-aff8-66f5-a909" name="Stalker 爆弹步枪" hidden="false" collective="false" import="true" targetId="f1db-c752-001e-eed8" type="selectionEntry"/>
+                    <entryLink id="4108-aff8-66f5-a909" name="潜伏者 爆弹步枪" hidden="false" collective="false" import="true" targetId="f1db-c752-001e-eed8" type="selectionEntry"/>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -4651,9 +4651,9 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f1db-c752-001e-eed8" name="Stalker 爆弹步枪" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="f1db-c752-001e-eed8" name="潜伏者 爆弹步枪" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="e087-2913-e3e7-82cd" name="Stalker 爆弹步枪" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="e087-2913-e3e7-82cd" name="潜伏者 爆弹步枪" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 1</characteristic>
@@ -6361,7 +6361,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 always wounds 结果为2+ (except 对抗 载具 and 巨型 单位).</characteristic>
           </characteristics>
         </profile>
-        <profile id="2799-c98e-f393-12f7" name="Master-crafted stalker 爆弹步枪 - Kraken" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="2799-c98e-f393-12f7" name="Master-crafted 潜伏者 爆弹步枪 - Kraken" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">42寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 1</characteristic>
@@ -6371,7 +6371,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
           </characteristics>
         </profile>
-        <profile id="2cd9-607d-fb9b-78be" name="Stalker 爆弹步枪 - Vengeance" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="2cd9-607d-fb9b-78be" name="潜伏者 爆弹步枪 - Vengeance" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">30寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 1</characteristic>
@@ -6381,7 +6381,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
           </characteristics>
         </profile>
-        <profile id="3252-314b-568a-7bba" name="Stalker Pattern 爆弹枪 - Vengeance" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="3252-314b-568a-7bba" name="潜伏者 Pattern 爆弹枪 - Vengeance" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 2</characteristic>
@@ -6731,7 +6731,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Add 1 to the 命中 骰 for 这个武器 when targeting a 单位 that is in cover.</characteristic>
           </characteristics>
         </profile>
-        <profile id="ab22-d101-4138-21b8" name="Master-crafted stalker 爆弹步枪 - Hellfire" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="ab22-d101-4138-21b8" name="Master-crafted 潜伏者 爆弹步枪 - Hellfire" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 1</characteristic>
@@ -6741,7 +6741,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 always wounds 结果为2+ (except 对抗 载具 and 巨型 单位).</characteristic>
           </characteristics>
         </profile>
-        <profile id="c95d-70c4-a095-b72f" name="Master-crafted stalker 爆弹步枪 - Dragonfire" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="c95d-70c4-a095-b72f" name="Master-crafted 潜伏者 爆弹步枪 - Dragonfire" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 1</characteristic>
@@ -6751,7 +6751,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Add 1 to the 命中 骰 for 这个武器 when targeting a 单位 that is in cover.</characteristic>
           </characteristics>
         </profile>
-        <profile id="68ba-2ce7-955e-12e3" name="Master-crafted stalker 爆弹步枪 - Vengeance" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="68ba-2ce7-955e-12e3" name="Master-crafted 潜伏者 爆弹步枪 - Vengeance" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">30寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 1</characteristic>
@@ -6761,7 +6761,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
           </characteristics>
         </profile>
-        <profile id="1f09-130f-787e-5c69" name="Stalker 爆弹步枪 - Kraken" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="1f09-130f-787e-5c69" name="潜伏者 爆弹步枪 - Kraken" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">42寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 1</characteristic>
@@ -6771,7 +6771,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
           </characteristics>
         </profile>
-        <profile id="b4d8-01a3-3fc2-035c" name="Stalker 爆弹步枪 - Hellfire" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="b4d8-01a3-3fc2-035c" name="潜伏者 爆弹步枪 - Hellfire" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 1</characteristic>
@@ -6781,7 +6781,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 always wounds 结果为2+ (except 对抗 载具 and 巨型 单位).</characteristic>
           </characteristics>
         </profile>
-        <profile id="1b67-e58e-f1a1-72ac" name="Stalker 爆弹步枪 - Dragonfire" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="1b67-e58e-f1a1-72ac" name="潜伏者 爆弹步枪 - Dragonfire" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 1</characteristic>
@@ -6791,7 +6791,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Add 1 to the 命中 骰 for 这个武器 when targeting a 单位 that is in cover.</characteristic>
           </characteristics>
         </profile>
-        <profile id="746f-2d19-01d6-6a5f" name="Stalker Pattern 爆弹枪 - Kraken" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="746f-2d19-01d6-6a5f" name="潜伏者 Pattern 爆弹枪 - Kraken" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 2</characteristic>
@@ -6801,7 +6801,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
           </characteristics>
         </profile>
-        <profile id="c6ee-6423-34b5-c80d" name="Stalker Pattern 爆弹枪 - Hellfire" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="c6ee-6423-34b5-c80d" name="潜伏者 Pattern 爆弹枪 - Hellfire" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">30寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 2</characteristic>
@@ -6811,7 +6811,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 always wounds 结果为2+ (except 对抗 载具 and 巨型 单位).</characteristic>
           </characteristics>
         </profile>
-        <profile id="9326-3e89-7510-76a9" name="Stalker Pattern 爆弹枪 - Dragonfire" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="9326-3e89-7510-76a9" name="潜伏者 Pattern 爆弹枪 - Dragonfire" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">30寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 2</characteristic>
@@ -7816,7 +7816,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="045d-a5d1-f3e5-949d" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="a448-3b5c-817e-3463" name="Stalker Pattern 爆弹枪" hidden="false" collective="false" import="true" targetId="e288-ff4f-404b-062d" type="selectionEntry">
+        <entryLink id="a448-3b5c-817e-3463" name="潜伏者 Pattern 爆弹枪" hidden="false" collective="false" import="true" targetId="e288-ff4f-404b-062d" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9727-bb4d-9716-30cd" type="max"/>
           </constraints>
@@ -8112,7 +8112,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21e8-d2cd-b4c7-ec0f" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="95fa-9987-d141-9d50" name="Stalker Pattern 爆弹枪" hidden="false" collective="false" import="true" targetId="e288-ff4f-404b-062d" type="selectionEntry">
+            <entryLink id="95fa-9987-d141-9d50" name="潜伏者 Pattern 爆弹枪" hidden="false" collective="false" import="true" targetId="e288-ff4f-404b-062d" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7786-fc9b-2bd0-ce83" type="max"/>
               </constraints>
@@ -8313,7 +8313,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
     <rule id="3ddc-7d56-adf0-a82b" name="Special Issue Ammunition" hidden="false">
       <description>When 这个单位 fires any ranged 武器 from the following list, you can choose for it to fire special ammunition. If you do so, the Bolter Discipline ability does not apply when resolving their shots, but you instead choose one kind of ammunition from the table to the right and apply the corresponding modifier.
 
-(absolver bolt pistol, auto 爆弹步枪, bolt carbine, bolt pistol(and heavy), 爆弹枪(and combi), 爆弹步枪 双联 爆弹枪, stalker pattern 爆弹枪/rifle, 风暴爆弹, hellfire extremis(爆弹枪 profile), 所有 master crafted 爆弹武器 or a 卫士之矛) Table: Dragonfire Bolt, Hellfire Round, Kraken Bolt, Vengeance Round</description>
+(absolver bolt pistol, auto 爆弹步枪, bolt carbine, bolt pistol(and heavy), 爆弹枪(and combi), 爆弹步枪 双联 爆弹枪, 潜伏者 pattern 爆弹枪/rifle, 风暴爆弹, hellfire extremis(爆弹枪 profile), 所有 master crafted 爆弹武器 or a 卫士之矛) Table: Dragonfire Bolt, Hellfire Round, Kraken Bolt, Vengeance Round</description>
     </rule>
     <rule id="972a-9cd4-7057-d4e5" name="SIA - Dragonfire Rounds" hidden="false">
       <description>Add 1 to the 命中 骰 for 这个武器 when targeting a 单位 that is in cover.</description>
