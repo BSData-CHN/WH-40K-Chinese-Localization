@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gameSystem id="28ec-711c-d87f-3aeb" name="战锤40K 8版" revision="1" battleScribeVersion="2.03" authorName="BSData-CHN" authorContact="@Developer" authorUrl="https://github.com/BSData-CHN" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
-    <publication id="28ec-711c-pubN72690" name="Warhammer 40,000 Rulebook"/>
+    <publication id="28ec-711c-pubN72690" name="战锤40K 总规则"/>
     <publication id="28ec-711c-pubN73170" name="CA 2017"/>
     <publication id="28ec-711c-pubN77581" name="索引: 帝国 2"/>
     <publication id="28ec-711c-pubN78977" name="索引: 帝国 1"/>
     <publication id="28ec-711c-pubN91434" name="帝国装甲 - 索引: 星界军"/>
     <publication id="28ec-711c-pubN97206" name="warhammer_40000_termite_assault_drill_en-2.pdf"/>
-    <publication id="28ec-711c-pubN98266" name="帝国 Nihilus: Vigilus Defiant"/>
+    <publication id="28ec-711c-pubN98266" name="帝国警戒星: Vigilus Defiant"/>
     <publication id="28ec-711c-pubN110542" name="白矮人 Feb 2019"/>
-    <publication id="28ec-711c-pubN113754" name="Stronghold Assault"/>
+    <publication id="28ec-711c-pubN113754" name="要塞突袭"/>
     <publication id="28ec-711c-pubN118139" name="索引: 异性 2"/>
-    <publication id="82b3-73d0-72b2-3180" name="Warhammer 40,000 Update - April 2019"/>
+    <publication id="82b3-73d0-72b2-3180" name="战锤40K 更新 - April 2019"/>
     <publication id="2ec0-6d53-e36b-9895" name="CA 2018"/>
-    <publication id="5b08-09e5-a80a-fd67" name="Psychic Awakening - Phoenix Rising"/>
+    <publication id="5b08-09e5-a80a-fd67" name="灵能觉醒 - 凤凰崛起"/>
   </publications>
   <costTypes>
     <costType id="points" name="分" defaultCostLimit="0.0"/>
@@ -73,8 +73,8 @@
         <characteristicType id="9c9f-9774-a358-3a39" name="T"/>
         <characteristicType id="f330-5e6e-4110-0978" name="W"/>
         <characteristicType id="13fc-b29b-31f2-ab9f" name="A"/>
-        <characteristicType id="00ca-f8b8-876d-b705" name="Ld"/>
-        <characteristicType id="c0df-df94-abd7-e8d3" name="Save"/>
+        <characteristicType id="00ca-f8b8-876d-b705" name="LD"/>
+        <characteristicType id="c0df-df94-abd7-e8d3" name="SV"/>
       </characteristicTypes>
     </profileType>
     <profileType id="50ea-3b64-d9ae-0e3f" name="损伤表 - BS">
@@ -1391,7 +1391,7 @@
     </forceEntry>
     <forceEntry id="c048-e584-e628-474e" name="要塞突袭-进攻方 +5指挥点" publicationId="28ec-711c-pubN73170" page="46" hidden="false">
       <infoLinks>
-        <infoLink id="4540-d21a-a58f-7415" name="Stronghold Assault Detachment" hidden="false" targetId="91d7-8a00-1945-fab1" type="rule"/>
+        <infoLink id="4540-d21a-a58f-7415" name="要塞突袭 Detachment" hidden="false" targetId="91d7-8a00-1945-fab1" type="rule"/>
       </infoLinks>
       <forceEntries>
         <forceEntry id="ecdd-b72a-f9dd-a02a" name="要塞突袭-进攻方" hidden="false">
@@ -1515,7 +1515,7 @@
     </forceEntry>
     <forceEntry id="e6cd-ac5b-db70-84ff" name="要塞突袭-防守方 +5指挥点" publicationId="28ec-711c-pubN73170" page="46" hidden="false">
       <infoLinks>
-        <infoLink id="5f34-6b5d-80a0-d80d" name="Stronghold Assault Detachment" hidden="false" targetId="91d7-8a00-1945-fab1" type="rule"/>
+        <infoLink id="5f34-6b5d-80a0-d80d" name="要塞突袭 Detachment" hidden="false" targetId="91d7-8a00-1945-fab1" type="rule"/>
       </infoLinks>
       <forceEntries>
         <forceEntry id="bfc9-d668-8dec-a0ee" name="要塞突袭-防守方" hidden="false">
@@ -1800,8 +1800,8 @@
                 <characteristic name="T" typeId="9c9f-9774-a358-3a39">7</characteristic>
                 <characteristic name="W" typeId="f330-5e6e-4110-0978">3</characteristic>
                 <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">-</characteristic>
-                <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">-</characteristic>
-                <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
+                <characteristic name="LD" typeId="00ca-f8b8-876d-b705">-</characteristic>
+                <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1854,8 +1854,8 @@
             <characteristic name="T" typeId="9c9f-9774-a358-3a39">10</characteristic>
             <characteristic name="W" typeId="f330-5e6e-4110-0978">30</characteristic>
             <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">-</characteristic>
-            <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">-</characteristic>
-            <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
+            <characteristic name="LD" typeId="00ca-f8b8-876d-b705">-</characteristic>
+            <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
         <profile id="f991-21bd-0497-9611" name="Containment Failure" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -1986,8 +1986,8 @@
             <characteristic name="T" typeId="9c9f-9774-a358-3a39">8</characteristic>
             <characteristic name="W" typeId="f330-5e6e-4110-0978">20</characteristic>
             <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">-</characteristic>
-            <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">-</characteristic>
-            <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
+            <characteristic name="LD" typeId="00ca-f8b8-876d-b705">-</characteristic>
+            <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
         <profile id="fbfc-1394-e5aa-dd70" name="Firestorm Redoubt" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
@@ -2051,8 +2051,8 @@
             <characteristic name="T" typeId="9c9f-9774-a358-3a39">10</characteristic>
             <characteristic name="W" typeId="f330-5e6e-4110-0978">30</characteristic>
             <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">0</characteristic>
-            <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">9</characteristic>
-            <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
+            <characteristic name="LD" typeId="00ca-f8b8-876d-b705">9</characteristic>
+            <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
         <profile id="6c91-1bed-eb98-ebba" name="Fortress of Redemption (1)" hidden="false" typeId="50ea-3b64-d9ae-0e3f" typeName="损伤表 - BS">
@@ -2155,8 +2155,8 @@
             <characteristic name="T" typeId="9c9f-9774-a358-3a39">9</characteristic>
             <characteristic name="W" typeId="f330-5e6e-4110-0978">20</characteristic>
             <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">-</characteristic>
-            <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">-</characteristic>
-            <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
+            <characteristic name="LD" typeId="00ca-f8b8-876d-b705">-</characteristic>
+            <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
         <profile id="aaaa-857c-b390-65ca" name="帝国 Bastion" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
@@ -2216,8 +2216,8 @@
             <characteristic name="T" typeId="9c9f-9774-a358-3a39">8</characteristic>
             <characteristic name="W" typeId="f330-5e6e-4110-0978">12</characteristic>
             <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">-</characteristic>
-            <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">-</characteristic>
-            <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
+            <characteristic name="LD" typeId="00ca-f8b8-876d-b705">-</characteristic>
+            <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
         <profile id="9507-2858-f7ba-6d90" name="帝国 Bunker" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
@@ -2331,8 +2331,8 @@
             <characteristic name="T" typeId="9c9f-9774-a358-3a39">9</characteristic>
             <characteristic name="W" typeId="f330-5e6e-4110-0978">20</characteristic>
             <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">-</characteristic>
-            <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">-</characteristic>
-            <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
+            <characteristic name="LD" typeId="00ca-f8b8-876d-b705">-</characteristic>
+            <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
         <profile id="7f96-4bff-c6ed-aa8b" name="Plasma Obliterator" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
@@ -2393,8 +2393,8 @@
             <characteristic name="T" typeId="9c9f-9774-a358-3a39">8</characteristic>
             <characteristic name="W" typeId="f330-5e6e-4110-0978">20</characteristic>
             <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">-</characteristic>
-            <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">-</characteristic>
-            <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
+            <characteristic name="LD" typeId="00ca-f8b8-876d-b705">-</characteristic>
+            <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
           </characteristics>
         </profile>
         <profile id="abe7-f841-acc8-c3f4" name="Landing Pad Configuration" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -2450,8 +2450,8 @@
             <characteristic name="T" typeId="9c9f-9774-a358-3a39">8</characteristic>
             <characteristic name="W" typeId="f330-5e6e-4110-0978">10</characteristic>
             <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">-</characteristic>
-            <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">-</characteristic>
-            <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
+            <characteristic name="LD" typeId="00ca-f8b8-876d-b705">-</characteristic>
+            <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2508,8 +2508,8 @@
             <characteristic name="T" typeId="9c9f-9774-a358-3a39">8</characteristic>
             <characteristic name="W" typeId="f330-5e6e-4110-0978">18</characteristic>
             <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">-</characteristic>
-            <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">-</characteristic>
-            <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
+            <characteristic name="LD" typeId="00ca-f8b8-876d-b705">-</characteristic>
+            <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
           </characteristics>
         </profile>
         <profile id="c818-46ac-f5b8-cd39" name="Projected Void Shields" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -4063,8 +4063,8 @@
             <characteristic name="T" typeId="9c9f-9774-a358-3a39">10</characteristic>
             <characteristic name="W" typeId="f330-5e6e-4110-0978">5</characteristic>
             <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">-</characteristic>
-            <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">-</characteristic>
-            <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">2+</characteristic>
+            <characteristic name="LD" typeId="00ca-f8b8-876d-b705">-</characteristic>
+            <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">2+</characteristic>
           </characteristics>
         </profile>
         <profile id="7c71-893b-e33d-c857" name="Mighty Bulwark" publicationId="28ec-711c-pubN91434" page="52" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -4235,8 +4235,8 @@
             <characteristic name="T" typeId="9c9f-9774-a358-3a39">8</characteristic>
             <characteristic name="W" typeId="f330-5e6e-4110-0978">20</characteristic>
             <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">-</characteristic>
-            <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">-</characteristic>
-            <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+/5++</characteristic>
+            <characteristic name="LD" typeId="00ca-f8b8-876d-b705">-</characteristic>
+            <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">3+/5++</characteristic>
           </characteristics>
         </profile>
         <profile id="51d4-df4c-ff22-356e" name="Battle Crew" publicationId="28ec-711c-pubN91434" page="53" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -4538,7 +4538,7 @@
                     <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="76d3-0012-c152-b50d" name="Stronghold Assault" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="76d3-0012-c152-b50d" name="要塞突袭" hidden="false" collective="false" import="true" type="upgrade">
                   <costs>
                     <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
                     <cost name="分" typeId="points" value="0.0"/>
@@ -4614,8 +4614,8 @@
             <characteristic name="T" typeId="9c9f-9774-a358-3a39">8</characteristic>
             <characteristic name="W" typeId="f330-5e6e-4110-0978">14</characteristic>
             <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">-</characteristic>
-            <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">-</characteristic>
-            <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
+            <characteristic name="LD" typeId="00ca-f8b8-876d-b705">-</characteristic>
+            <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
         <profile id="ba08-5714-b31c-5cf5" name="Shimmering Arrival" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -4768,8 +4768,8 @@
             <characteristic name="T" typeId="9c9f-9774-a358-3a39">8</characteristic>
             <characteristic name="W" typeId="f330-5e6e-4110-0978">16</characteristic>
             <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">*</characteristic>
-            <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">9</characteristic>
-            <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">2+</characteristic>
+            <characteristic name="LD" typeId="00ca-f8b8-876d-b705">9</characteristic>
+            <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">2+</characteristic>
           </characteristics>
         </profile>
         <profile id="ee43-4b72-0be8-656e" name="Daemonic Machine Spirit" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -5156,8 +5156,8 @@
             <characteristic name="T" typeId="9c9f-9774-a358-3a39">8</characteristic>
             <characteristic name="W" typeId="f330-5e6e-4110-0978">10</characteristic>
             <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">*</characteristic>
-            <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">8</characteristic>
-            <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
+            <characteristic name="LD" typeId="00ca-f8b8-876d-b705">8</characteristic>
+            <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
         <profile id="a9ff-6709-6e30-8fde" name="损伤表 1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
@@ -5663,8 +5663,8 @@
             <characteristic name="T" typeId="9c9f-9774-a358-3a39">9</characteristic>
             <characteristic name="W" typeId="f330-5e6e-4110-0978">20</characteristic>
             <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">-</characteristic>
-            <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">-</characteristic>
-            <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
+            <characteristic name="LD" typeId="00ca-f8b8-876d-b705">-</characteristic>
+            <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
         <profile id="5f18-9c8a-8931-75f8" name="帝国 Bastion" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
@@ -5855,7 +5855,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="6d80-f955-1f1c-459e" name="Stronghold Assault Defender" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="6d80-f955-1f1c-459e" name="要塞突袭 Defender" hidden="false" collective="false" import="true">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -5895,9 +5895,9 @@
                 <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="8bc6-4856-60a1-56b4" name="3. Stronghold Assault Defender" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="8bc6-4856-60a1-56b4" name="3. 要塞突袭 Defender" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="68da-2b3c-0bc8-5b73" name="Stronghold Assault Defender" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
+                <profile id="68da-2b3c-0bc8-5b73" name="要塞突袭 Defender" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
                     <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You have one bonus 指挥点数 – this can only be spent 结果为Stronghold Assault Stratagem.</characteristic>
                   </characteristics>
@@ -5911,7 +5911,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="4857-0c03-64df-6378" name="Stronghold Assault Attacker" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="4857-0c03-64df-6378" name="要塞突袭 Attacker" hidden="false" collective="false" import="true">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -5951,9 +5951,9 @@
                 <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="d4be-616e-a6d7-9c22" name="3. Stronghold Assault Attacker" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="d4be-616e-a6d7-9c22" name="3. 要塞突袭 Attacker" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="ee27-24ae-bb21-836e" name="Stronghold Assault Attacker" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
+                <profile id="ee27-24ae-bb21-836e" name="要塞突袭 Attacker" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
                     <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You have one bonus 指挥点数 – this can only be spent 结果为Stronghold Assault Stratagem.</characteristic>
                   </characteristics>
@@ -7919,7 +7919,7 @@
       <description>The 5 CPs from this detachment can only be spent on Planetstrike Stratagems.</description>
     </rule>
     <rule id="91d7-8a00-1945-fab1" name="要塞突袭分队" publicationId="28ec-711c-pubN73170" page="46" hidden="false">
-      <description>The 5 CPs from this detachment can only be spent on Stronghold Assault Stratagems.</description>
+      <description>The 5 CPs from this detachment can only be spent on 要塞突袭 Stratagems.</description>
     </rule>
     <rule id="5a7e-f984-487c-d767" name="爆弹训练" publicationId="28ec-711c-pubN110542" hidden="false">
       <description>所有 阿斯塔特修会 and 阿斯塔特叛军 模型 gain this ability. 而不是 following the normal rules for 速射 武器, 速射爆弹武器 used by 模型 with this ability make double the number of 攻击 if any of the following conditions apply: 1) The firing 模型的 target is 范围内 half the weapon&apos;s maximum range. 2)    The firing 模型 is 步兵 and every 模型 in its 单位 remained stationary in your previous 移动阶段. 3) The firing 模型 is a 终结者, 摩托, 百夫长, or 无畏. For the purposes of this ability a 速射爆弹武器 is any weapon with the 速射 type whose name includes the word &apos;bolt&apos; (e.g. 爆弹枪, 爆弹步枪, 风暴爆弹, 复合爆弹, 飓风爆弹, 地狱爆弹枪, etc.) This also applies when firing the 爆弹枪 profile of a combi-weapon (including the 爆弹武器 profile of Relics such as Blood Song and the Lion&apos;s Wrath) and when firing relics that replace a 速射爆弹武器, so long as the 圣物 is also a rapid-fire weapon (e.g. Primarch&apos;s Wrath, Fury of Deimos, etc) The gauntlets of ultramar and the Talon of Horus are also considered 速射爆弹武器, as is the 卫士之矛 used by Deathwatch Watch Masters.</description>
@@ -8629,8 +8629,8 @@
         <characteristic name="T" typeId="9c9f-9774-a358-3a39">7</characteristic>
         <characteristic name="W" typeId="f330-5e6e-4110-0978">2</characteristic>
         <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">-</characteristic>
-        <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">-</characteristic>
-        <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
+        <characteristic name="LD" typeId="00ca-f8b8-876d-b705">-</characteristic>
+        <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
       </characteristics>
     </profile>
     <profile id="705c-91aa-6591-507b" name="炮架 (Details)" publicationId="28ec-711c-pubN113754" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
