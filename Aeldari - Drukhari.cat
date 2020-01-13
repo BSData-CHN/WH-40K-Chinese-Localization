@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="e0a4-2172-4397-e39a" name="艾尔达 - Drukhari" revision="1" battleScribeVersion="2.03" authorName="BSData-CHN" authorContact="@BSData-CHN" authorUrl="https://github.com/BSData-CHN" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="e0a4-2172-4397-e39a" name="艾尔达 - 黑暗灵族" revision="1" battleScribeVersion="2.03" authorName="BSData-CHN" authorContact="@BSData-CHN" authorUrl="https://github.com/BSData-CHN" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
-    <publication id="e0a4-2172-pubN65537" name="圣典: Drukhari"/>
+    <publication id="e0a4-2172-pubN65537" name="圣典: 黑暗灵族"/>
     <publication id="e0a4-2172-pubN101270" name="帝国装甲 - 索引: 异形"/>
-    <publication id="d36f-0c87-284a-7055" name="Warhammer Legends - Drukhari"/>
+    <publication id="d36f-0c87-284a-7055" name="战锤传奇 - 黑暗灵族"/>
   </publications>
   <categoryEntries>
     <categoryEntry id="dd05-8f0e-b393-b91f" name="Archon" hidden="false"/>
@@ -14,7 +14,7 @@
     <categoryEntry id="53ad-d29f-5f37-2a82" name="阵营: &lt;Kabal&gt;" hidden="false"/>
     <categoryEntry id="99c9-6127-f78b-1f66" name="阵营: &lt;Wych Cult&gt;" hidden="false"/>
     <categoryEntry id="6a01-e1fc-d03d-8390" name="阵营: 艾尔达" hidden="false"/>
-    <categoryEntry id="bd42-0139-0789-e05b" name="阵营: Drukhari" hidden="false"/>
+    <categoryEntry id="bd42-0139-0789-e05b" name="阵营: 黑暗灵族" hidden="false"/>
     <categoryEntry id="2081-49f0-1e15-a9f3" name="阵营: Incubi" hidden="false"/>
     <categoryEntry id="f16a-5e3b-9a49-2b42" name="阵营: Prophets of Flesh" hidden="false"/>
     <categoryEntry id="4c47-af86-571d-3176" name="阵营: Wych Cult of Strife" hidden="false"/>
@@ -46,7 +46,7 @@
     <categoryEntry id="db6a-df50-9c8f-2c52" name="Tantalus" hidden="false"/>
     <categoryEntry id="1018-59aa-c195-3ed9" name="Ravager" hidden="false"/>
     <categoryEntry id="a028-67e7-ffca-214b" name="Voidraven Bomber" hidden="false"/>
-    <categoryEntry id="dbdf-5a53-d746-429d" name="阵营: Reborn Drukhari" hidden="false"/>
+    <categoryEntry id="dbdf-5a53-d746-429d" name="阵营: 重生黑暗灵族" hidden="false"/>
   </categoryEntries>
   <entryLinks>
     <entryLink id="9cf3-09b4-05fe-4ec9" name="Archon" hidden="false" collective="false" import="true" targetId="3ea9-f42c-d816-b91a" type="selectionEntry">
@@ -482,7 +482,7 @@
       </modifiers>
     </entryLink>
     <entryLink id="68ea-6051-ef3e-9a69" name="Prizes from the Dark City (1 圣物)" hidden="false" collective="false" import="true" targetId="5b96-79e6-8d10-f8a8" type="selectionEntry"/>
-    <entryLink id="6a67-060b-3b68-091b" name="Prizes from the Dark City (2 Relics)" hidden="false" collective="false" import="true" targetId="139b-880c-ff27-ce49" type="selectionEntry"/>
+    <entryLink id="6a67-060b-3b68-091b" name="Prizes from the Dark City (2 圣物)" hidden="false" collective="false" import="true" targetId="139b-880c-ff27-ce49" type="selectionEntry"/>
     <entryLink id="e35e-710f-cdcd-0bef" name="Fixed Combat Drug Selections" hidden="false" collective="false" import="true" targetId="6760-a738-ee4f-e400" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
@@ -635,7 +635,7 @@
         </entryLink>
         <entryLink id="6f5a-0763-afcb-3eba" name="是自定义人物" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
         <entryLink id="76b0-f95f-0f5b-8ef9" name="自定义人物选项" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
-        <entryLink id="ea85-5755-02a5-3f2f" name="Relics of Ynnead" hidden="false" collective="false" import="true" targetId="dd63-a565-82cc-6f48" type="selectionEntryGroup"/>
+        <entryLink id="ea85-5755-02a5-3f2f" name="圣物 of Ynnead" hidden="false" collective="false" import="true" targetId="dd63-a565-82cc-6f48" type="selectionEntryGroup"/>
         <entryLink id="1f47-1968-4a41-6949" name="主将特性" hidden="false" collective="false" import="true" targetId="7e9f-01e9-280e-18cb" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
@@ -1138,7 +1138,7 @@
       <profiles>
         <profile id="184c-98d5-4a0d-1472" name="Raider" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
           <characteristics>
-            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">这个模型 可以运输 10 INCUBI or DRUKHARI 步兵模型. Each Grotesque takes the space of two 模型. 这个模型 cannot transport Hellions or SKYBOARD 模型. </characteristic>
+            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">这个模型 可以运输 10 INCUBI or 黑暗灵族 步兵模型. Each Grotesque takes the space of two 模型. 这个模型 cannot transport Hellions or SKYBOARD 模型. </characteristic>
           </characteristics>
         </profile>
         <profile id="7545-acb9-51de-7827" name="Raider" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
@@ -1318,7 +1318,7 @@
         <categoryLink id="35a3-79c0-396c-dbdf" name="New CategoryLink" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="true"/>
         <categoryLink id="9242-11fe-2100-73f5" name="阵营: &lt;Kabal&gt;" hidden="false" targetId="53ad-d29f-5f37-2a82" primary="false"/>
         <categoryLink id="a472-5d4d-f0d9-04c9" name="阵营: 艾尔达" hidden="false" targetId="6a01-e1fc-d03d-8390" primary="false"/>
-        <categoryLink id="d183-38af-df7a-a7a1" name="阵营: Drukhari" hidden="false" targetId="bd42-0139-0789-e05b" primary="false"/>
+        <categoryLink id="d183-38af-df7a-a7a1" name="阵营: 黑暗灵族" hidden="false" targetId="bd42-0139-0789-e05b" primary="false"/>
         <categoryLink id="e999-8932-e154-b9e3" name="Fly" hidden="false" targetId="3117-16d8-fcef-4f56" primary="false"/>
         <categoryLink id="866d-0cd9-8677-9ee6" name="载具" hidden="false" targetId="c8fd-783f-3230-493e" primary="false"/>
         <categoryLink id="b44b-939c-f0b2-674e" name="Ravager" hidden="false" targetId="1018-59aa-c195-3ed9" primary="false"/>
@@ -1443,7 +1443,7 @@
       <categoryLinks>
         <categoryLink id="3f45-fd3b-13a9-83a1" name="New CategoryLink" hidden="false" targetId="e888-1504-aa61-95ff" primary="true"/>
         <categoryLink id="c50a-6e68-694a-579e" name="阵营: 艾尔达" hidden="false" targetId="dbb4-dfd1-04b9-5980" primary="false"/>
-        <categoryLink id="2e1a-54d1-4a31-5aa8" name="阵营: Drukhari" hidden="false" targetId="bd42-0139-0789-e05b" primary="false"/>
+        <categoryLink id="2e1a-54d1-4a31-5aa8" name="阵营: 黑暗灵族" hidden="false" targetId="bd42-0139-0789-e05b" primary="false"/>
         <categoryLink id="2615-fbef-4761-28d2" name="阵营: &lt;Kabal&gt;" hidden="false" targetId="53ad-d29f-5f37-2a82" primary="false"/>
         <categoryLink id="111d-15bc-eb6b-0b68" name="阵营: &lt;Wych Cult&gt;" hidden="false" targetId="99c9-6127-f78b-1f66" primary="false"/>
         <categoryLink id="c8f3-93c2-3dba-2161" name="载具" hidden="false" targetId="c8fd-783f-3230-493e" primary="false"/>
@@ -1488,7 +1488,7 @@
             </profile>
             <profile id="6ae2-e054-fe46-94c2" name="Razorwing missile" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When attacking with 这个武器, choose one of these profiles: Monoscythe missile, Necrotoxin missile, Shatterfield missile.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">使用这个武器时, choose one of these profiles: Monoscythe missile, Necrotoxin missile, Shatterfield missile.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2031,7 +2031,7 @@
         <entryLink id="51c0-d59b-de20-fdf4" name="Combat Drug Selection" hidden="false" collective="false" import="true" targetId="9907-fab0-a6f9-6fba" type="selectionEntryGroup"/>
         <entryLink id="fae1-98db-a8d6-81ad" name="是自定义人物" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
         <entryLink id="cf56-f396-cea9-8560" name="自定义人物选项" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
-        <entryLink id="1636-dce8-61d8-73a8" name="Relics of Ynnead" hidden="false" collective="false" import="true" targetId="dd63-a565-82cc-6f48" type="selectionEntryGroup"/>
+        <entryLink id="1636-dce8-61d8-73a8" name="圣物 of Ynnead" hidden="false" collective="false" import="true" targetId="dd63-a565-82cc-6f48" type="selectionEntryGroup"/>
         <entryLink id="f88e-2331-10e3-aa80" name="主将特性" hidden="false" collective="false" import="true" targetId="7e9f-01e9-280e-18cb" type="selectionEntryGroup"/>
         <entryLink id="40e5-5013-fe66-18f8" name="主将特性 (Succubus)" hidden="false" collective="false" import="true" targetId="4516-7293-d621-b0e0" type="selectionEntryGroup">
           <modifiers>
@@ -2070,7 +2070,7 @@
       <profiles>
         <profile id="9f6f-3c93-cbee-0422" name="Venom" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
           <characteristics>
-            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">这个模型 可以运输 5 DRUKHARI 步兵模型, other than Grotesques, Scourges, and SKYBOARD 模型.</characteristic>
+            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">这个模型 可以运输 5 黑暗灵族 步兵模型, other than Grotesques, Scourges, and SKYBOARD 模型.</characteristic>
           </characteristics>
         </profile>
         <profile id="f8c7-5149-1715-3bf8" name="Venom" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
@@ -2877,7 +2877,7 @@
                         <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
                         <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
                         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 the bearer fights, it can make 1 additional attack with 这个武器. </characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">持有者每次攻击, 这个武器可以造成 1 点额外攻击. </characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2947,7 +2947,7 @@
                             <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
                             <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
                             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 the bearer fights, it can make 1 additional attack with 这个武器. </characteristic>
+                            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">持有者每次攻击, 这个武器可以造成 1 点额外攻击. </characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -3074,7 +3074,7 @@
         </profile>
         <profile id="c548-1db3-7c74-c8c0" name="Beastmaster" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">所有 友方 DRUKHARI BEAST 单位 that are 范围内 6寸 of a Beastmaster can 重投命中的 1, and 所有 友方 DRUKHARI BEAST 单位 that are 范围内 6寸 of a Beastmaster can use the Beastmaster&apos;s LD 而不是 their own. 此外, if your army is Battle-forged, then for each Beastmaster in your army you 必须 include at least one DRUKHARI BEAST 单位 in a detachment for each Beastmaster in that detachment. DRUKHARI BEAST 单位 do not take up slots in a Detachment that includes any Beastmasters. 这个模型 can never have a 主将 Trait</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">所有 友方 黑暗灵族 BEAST 单位 that are 范围内 6寸 of a Beastmaster can 重投命中的 1, and 所有 友方 黑暗灵族 BEAST 单位 that are 范围内 6寸 of a Beastmaster can use the Beastmaster&apos;s LD 而不是 他们自己的. 此外, if your army is Battle-forged, then for each Beastmaster in your army you 必须 include at least one 黑暗灵族 BEAST 单位 in a detachment for each Beastmaster in that detachment. 黑暗灵族 BEAST 单位 do not take up slots in a Detachment that includes any Beastmasters. 这个模型 can never have a 主将 Trait</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3425,7 +3425,7 @@
                             <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
                             <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
                             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 the bearer fights, it can make 1 additional attack with 这个武器. 可以重投失败的命中骰 for 这个武器. </characteristic>
+                            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">持有者每次攻击, 这个武器可以造成 1 点额外攻击. 可以重投失败的命中骰 for 这个武器. </characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -3469,7 +3469,7 @@
                             <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
                             <characteristic name="AP" typeId="75aa-a838-b675-6484">-1 </characteristic>
                             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 the bearer fights, it can make 1 additional attack with 这个武器. You can 重投 失败的 to wound 骰 for 这个武器. </characteristic>
+                            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">持有者每次攻击, 这个武器可以造成 1 点额外攻击. You can 重投 失败的 to wound 骰 for 这个武器. </characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -3538,7 +3538,7 @@
                             <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
                             <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
                             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 the bearer fights, it can make 1 additional attack with 这个武器. </characteristic>
+                            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">持有者每次攻击, 这个武器可以造成 1 点额外攻击. </characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -3609,7 +3609,7 @@
                         <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
                         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
                         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 the bearer fights, it can make 1 additional attack with 这个武器. </characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">持有者每次攻击, 这个武器可以造成 1 点额外攻击. </characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -3649,7 +3649,7 @@
         <categoryLink id="27d0-35bd-097d-95c0" name="New CategoryLink" hidden="false" targetId="98b7-d351-e823-fc09" primary="false"/>
         <categoryLink id="b8b3-b76e-11fc-a8e2" name="New CategoryLink" hidden="false" targetId="3117-16d8-fcef-4f56" primary="false"/>
         <categoryLink id="f9e9-9088-49ff-7f99" name="阵营: 艾尔达" hidden="false" targetId="6a01-e1fc-d03d-8390" primary="false"/>
-        <categoryLink id="7f91-b8e4-f9c5-32bf" name="阵营: Drukhari" hidden="false" targetId="bd42-0139-0789-e05b" primary="false"/>
+        <categoryLink id="7f91-b8e4-f9c5-32bf" name="阵营: 黑暗灵族" hidden="false" targetId="bd42-0139-0789-e05b" primary="false"/>
         <categoryLink id="031d-ea5d-d596-a443" name="阵营: &lt;Haemonculus Coven&gt;" hidden="false" targetId="c3cc-22d9-1014-b496" primary="false"/>
         <categoryLink id="44c6-bd69-9eff-c104" name="巨兽" hidden="false" targetId="3b77-decb-d468-6bcc" primary="false"/>
       </categoryLinks>
@@ -3808,7 +3808,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When the bearer fights with dual blades, it can make 2 additional 攻击 with 这个武器.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When the bearer fights with dual blades, 可以造成 2 additional 攻击 with 这个武器.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4500,7 +4500,7 @@
         </profile>
         <profile id="2ca0-5d03-209d-559f" name="Natural Perfection" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of each battle round, choose one of the following of Lelith Hesperax&apos;s characteristics: Move, Strength, Toughness, 攻击, or LD. The characteristic you choose is increased by 1 until the end of this battle round (if you choose Move or LD, it is increased by 2 until the end of the battle round)</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">开始时 of each battle round, choose one of the following of Lelith Hesperax&apos;s characteristics: Move, Strength, Toughness, 攻击, or LD. The characteristic you choose is increased by 1 until the end of this battle round (if you choose Move or LD, it is increased by 2 until the end of the battle round)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4544,7 +4544,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 the bearer fights, it can make 2 additional 攻击 with 这个武器. </characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">持有者每次攻击, 可以造成 2 additional 攻击 with 这个武器. </characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4567,7 +4567,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">A 模型 armed with two penetrating blades can make 1 additional attack with them 每次 it fights. </characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">A 模型 armed with two penetrating blades can make 1 额外攻击 with them 每次 it fights. </characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4636,7 +4636,7 @@
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">A 模型 armed with two penetrating blades can make 1 additional attack with them 每次 it fights. </characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">A 模型 armed with two penetrating blades can make 1 额外攻击 with them 每次 it fights. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4714,7 +4714,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">1</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">如果1个单位 is 命中 by one or more phantasm 榴弹发射器s, 减少 one from its LD until the end of the turn .</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">如果1个单位 is 命中 by one or more phantasm 榴弹发射器s, 减少 one from its LD 直到回合结束 .</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4736,7 +4736,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">*</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Poisoned 武器 (p87). 每次 the bearer fights, it can make 1 additional attack with 这个武器.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Poisoned 武器 (p87). 持有者每次攻击, 这个武器可以造成 1 点额外攻击.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5166,7 +5166,7 @@
         </profile>
         <profile id="439e-defe-9114-a8af" name="Haemovores" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">投掷1个D6 for each 敌方单位 范围内 3寸 of Urien Rakarth at the start of the 肉搏阶段. 结果为6 那个单位 遭受 1点致命伤.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">投掷1个D6 for each 敌方单位 范围内 3寸 of Urien Rakarth 开始时 of the 肉搏阶段. 结果为6 那个单位 遭受 1点致命伤.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5342,7 +5342,7 @@
         <categoryLink id="39de-6e2f-d10f-703c" name="阵营: &lt;Wych Cult&gt;" hidden="false" targetId="99c9-6127-f78b-1f66" primary="false"/>
         <categoryLink id="8f17-fcb4-f504-00fd" name="阵营: &lt;Kabal&gt;" hidden="false" targetId="53ad-d29f-5f37-2a82" primary="false"/>
         <categoryLink id="4297-4a96-8e9b-944f" name="Fly" hidden="false" targetId="3117-16d8-fcef-4f56" primary="false"/>
-        <categoryLink id="7f1c-1be8-f59b-d442" name="阵营: Drukhari" hidden="false" targetId="bd42-0139-0789-e05b" primary="false"/>
+        <categoryLink id="7f1c-1be8-f59b-d442" name="阵营: 黑暗灵族" hidden="false" targetId="bd42-0139-0789-e05b" primary="false"/>
         <categoryLink id="8b10-ed4f-d61e-3172" name="载具" hidden="false" targetId="c8fd-783f-3230-493e" primary="false"/>
         <categoryLink id="78c4-4621-241a-06cd" name="Voidraven Bomber" hidden="false" targetId="a028-67e7-ffca-214b" primary="false"/>
       </categoryLinks>
@@ -5373,7 +5373,7 @@
           <profiles>
             <profile id="9c63-9e8b-ef31-e996" name="Voidraven Missiles" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When attacking with 这个武器, choose one of these profiles: Implosion missile, Shatterfield missile.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">使用这个武器时, choose one of these profiles: Implosion missile, Shatterfield missile.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5638,7 +5638,7 @@
                             <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
                             <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
                             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 the bearer fights, it can make 1 additional attack with 这个武器.</characteristic>
+                            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">持有者每次攻击, 这个武器可以造成 1 点额外攻击.</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -5712,7 +5712,7 @@
                         <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
                         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
                         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 the bearer fights, it can make 1 additional attack with 这个武器.</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">持有者每次攻击, 这个武器可以造成 1 点额外攻击.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6347,7 +6347,7 @@
             </profile>
             <profile id="b29a-a26c-8164-9bd1" name="Storm Vortex Projector" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When attacking with 这个武器, choose one of the profiles寸 - Blast - Beam</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">使用这个武器时, choose one of the profiles寸 - Blast - Beam</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6493,12 +6493,12 @@
         </profile>
         <profile id="9617-bc6e-2cdf-d726" name="Chariot of Tortured Souls" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If you 主将 is 上车 on the Tantalus, 所有 友方单位 范围内 line of sight of the Tantalus use the Warlord&apos;s LD值 而不是 their own. This ability does not apply to 单位 that are entirely on or 范围内 cover, even if they can draw line of sight to the Tantalus. </characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If you 主将 is 上车 on the Tantalus, 所有 友方单位 范围内 line of sight of the Tantalus use the Warlord&apos;s LD值 而不是 他们自己的. This ability does not apply to 单位 that are entirely on or 范围内 cover, even if they can draw line of sight to the Tantalus. </characteristic>
           </characteristics>
         </profile>
         <profile id="2d61-638e-063d-115f" name="Tantalus" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
           <characteristics>
-            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">这个模型 可以运输 16 INCUBI or DRUKHARI 步兵模型. Each Grotesque takes the space of two 模型. </characteristic>
+            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">这个模型 可以运输 16 INCUBI or 黑暗灵族 步兵模型. Each Grotesque takes the space of two 模型. </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6803,7 +6803,7 @@
                           <profiles>
                             <profile id="85b8-df5c-6a09-dee8" name="Experimental Creations" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                               <characteristics>
-                                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the S值 of 所有 模型 with this obsession. When resolving an attack made with a poisoned 肉搏武器 by a 模型 with this obsession 对抗 a 单位 that 拥有 lower T值 than the attacking model, add 1 to the wound roll. For the purposes of this obsession, a poisoned 肉搏武器 is any 肉搏武器 with the Poisoned 武器 ability (see 圣典: Drukhari).’</characteristic>
+                                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the S值 of 所有 模型 with this obsession. When resolving an attack made with a poisoned 肉搏武器 by a 模型 with this obsession 对抗 a 单位 that 拥有 lower T值 than the attacking model, add 1 to the wound roll. For the purposes of this obsession, a poisoned 肉搏武器 is any 肉搏武器 with the Poisoned 武器 ability (see 圣典: 黑暗灵族).’</characteristic>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -6837,7 +6837,7 @@
                           <profiles>
                             <profile id="9e2d-717b-d3f3-3142" name="Masters of Mutagens" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                               <characteristics>
-                                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made with a poisoned 武器 by a 模型 with this obsession 对抗 a 单位 that is not a 载具 or 巨型, an unmodified 命中 roll of 6 自动 scores a 命中 and successfully wounds the target (do not make a wound roll). This does not apply to Artefacts of Cruelty. For the purposes of this obsession, a poisoned 武器 is any 武器 with the Poisoned 武器 ability (see 圣典: Drukhari).</characteristic>
+                                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made with a poisoned 武器 by a 模型 with this obsession 对抗 a 单位 that is not a 载具 or 巨型, an unmodified 命中 roll of 6 自动 scores a 命中 and successfully wounds the target (do not make a wound roll). This does not apply to Artefacts of Cruelty. For the purposes of this obsession, a poisoned 武器 is any 武器 with the Poisoned 武器 ability (see 圣典: 黑暗灵族).</characteristic>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -6854,7 +6854,7 @@
                           <profiles>
                             <profile id="c8c0-f629-0d06-b4a2" name="Master Torturers" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                               <characteristics>
-                                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When the Torturer’s Craft Stratagem (see 圣典: Drukhari) is used 结果为单位 with this obsession, it only costs 1 指挥点数 而不是 2.</characteristic>
+                                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When the Torturer’s Craft Stratagem (see 圣典: 黑暗灵族) is used 结果为单位 with this obsession, it only costs 1 指挥点数 而不是 2.</characteristic>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -7026,7 +7026,7 @@
                           <profiles>
                             <profile id="0846-9ad9-12b6-dff8" name="Meticulous Flayers" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                               <characteristics>
-                                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">单位 with this obsession that have the Power From Pain ability always benefit from the Eager to Flay bonus (see 圣典: Drukhari), even during the first battle round. When resolving an attack made with a 肉搏武器 by a 模型 with this obsession 对抗 a 单位 that is not a 载具 or 巨型, an unmodified 命中 roll of 6 自动 scores a 命中 and successfully wounds the target (do not make a wound roll).</characteristic>
+                                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">单位 with this obsession that have the Power From Pain ability always benefit from the Eager to Flay bonus (see 圣典: 黑暗灵族), even during the first battle round. When resolving an attack made with a 肉搏武器 by a 模型 with this obsession 对抗 a 单位 that is not a 载具 or 巨型, an unmodified 命中 roll of 6 自动 scores a 命中 and successfully wounds the target (do not make a wound roll).</characteristic>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -7060,7 +7060,7 @@
                           <profiles>
                             <profile id="b706-8d45-c9d4-1579" name="Soul Bound" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                               <characteristics>
-                                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When an Inured to Suffering roll is made for a 模型 with this obsession, 重投 a roll of 1. 单位 with this obsession that do not have the Power From Pain ability instead gain the Inured to Suffering bonus (see 圣典: Drukhari).</characteristic>
+                                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When an Inured to Suffering roll is made for a 模型 with this obsession, 重投 a roll of 1. 单位 with this obsession that do not have the Power From Pain ability instead gain the Inured to Suffering bonus (see 圣典: 黑暗灵族).</characteristic>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -7077,7 +7077,7 @@
                           <profiles>
                             <profile id="9053-3a7a-497b-1218" name="Toxin Crafters" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                               <characteristics>
-                                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made with a poisoned 武器 by a 模型 with this obsession, on an unmodified wound roll of 6 add 1 to the D值 of that 武器 for that attack. This does not apply to Artefacts of Cruelty. For the purposes of this obsession, a poisoned 武器 is any 武器 that has the Poisoned 武器 ability (see 圣典: Drukhari).</characteristic>
+                                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made with a poisoned 武器 by a 模型 with this obsession, on an unmodified wound roll of 6 add 1 to the D值 of that 武器 for that attack. This does not apply to Artefacts of Cruelty. For the purposes of this obsession, a poisoned 武器 is any 武器 that has the Poisoned 武器 ability (see 圣典: 黑暗灵族).</characteristic>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -7094,7 +7094,7 @@
                           <profiles>
                             <profile id="165f-6bee-ee1c-77e5" name="Webway Raiders" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                               <characteristics>
-                                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The Webway Portal Stratagem (see 圣典: Drukhari) can be used one additional time per battle for each Detachment (excluding Auxiliary Support Detachments) in your army that contains 单位 with this obsession. The second and any subsequent uses of this Stratagem can only be used to set up 单位 with this obsession in the webway.</characteristic>
+                                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The Webway Portal Stratagem (see 圣典: 黑暗灵族) can be used one additional time per battle for each Detachment (excluding Auxiliary Support Detachments) in your army that contains 单位 with this obsession. The second and any subsequent uses of this Stratagem can only be used to set up 单位 with this obsession in the webway.</characteristic>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -7212,7 +7212,7 @@
                           <profiles>
                             <profile id="d99d-5f09-3587-fcb7" name="The Art of Pain" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                               <characteristics>
-                                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Whilst 单位 with this obsession that have the Power From Pain ability (see 圣典: Drukhari) are 范围内 1寸 of any 敌方单位, they treat the current battle round as being 1 higher than it actually is when determining what bonuses they gain from that ability.</characteristic>
+                                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Whilst 单位 with this obsession that have the Power From Pain ability (see 圣典: 黑暗灵族) are 范围内 1寸 of any 敌方单位, they treat the current battle round as being 1 higher than it actually is when determining what bonuses they gain from that ability.</characteristic>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -7294,7 +7294,7 @@
                           <profiles>
                             <profile id="bca5-f4ad-7d85-4f57" name="Stimulant Innovators" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                               <characteristics>
-                                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When the Hyperstimm Backlash Stratagem (see 圣典: Drukhari) is used 结果为单位 with this obsession, it only costs 1 指挥点数 而不是 2.</characteristic>
+                                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When the Hyperstimm Backlash Stratagem (see 圣典: 黑暗灵族) is used 结果为单位 with this obsession, it only costs 1 指挥点数 而不是 2.</characteristic>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -7389,7 +7389,7 @@
       <profiles>
         <profile id="e221-f938-0230-d3c2" name="Spirit Probe" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">重投 wound 骰 of 1 for 友方 DRUKHARI 单位 in the 肉搏阶段 whilst they are 范围内 6寸 of any 友方 Cronos with a spirit probe. 此外, if a Cronos with a spirit probe inflicts one or more unsaved wounds in the 肉搏阶段, you can pick a 友方 DRUKHARI 单位 范围内 6寸 of it that is not a 载具. The 单位 you pick regains 1 lost wound.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">重投 wound 骰 of 1 for 友方 黑暗灵族 单位 in the 肉搏阶段 whilst they are 范围内 6寸 of any 友方 Cronos with a spirit probe. 此外, if a Cronos with a spirit probe inflicts one or more unsaved wounds in the 肉搏阶段, you can pick a 友方 黑暗灵族 单位 范围内 6寸 of it that is not a 载具. The 单位 you pick regains 1 lost wound.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7509,7 +7509,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">+1</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If a 模型 is equipped with two macro-scalpels, 每次 it fights it can make 1 additional attack with them.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If a 模型 is equipped with two macro-scalpels, 每次 it fights 可以造成 1 额外攻击 with them.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7704,7 +7704,7 @@
       <profiles>
         <profile id="22eb-acae-1597-1d6b" name="Famed Savagery" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Increase this Warlord’s Strength and 攻击 characteristics by 1 during any turn in which they charged, were charged or made a Heroic Intervention</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Increase this Warlord’s S和A值 by 1 during any turn in which they charged, were charged or made a Heroic Intervention</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7756,7 +7756,7 @@
       <profiles>
         <profile id="adb6-4e4d-6eaa-0ffc" name="Fear Incarnate" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Roll 2D6 for each 敌方单位 that is 范围内 3寸 of your 主将 at the start of the 肉搏阶段. If the result exceeds the highest LD值 in 那个单位, it 遭受 1点致命伤.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Roll 2D6 for each 敌方单位 that is 范围内 3寸 of your 主将 开始时 of the 肉搏阶段. If the result exceeds the highest LD值 in 那个单位, it 遭受 1点致命伤.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7805,7 +7805,7 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="-1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="139b-880c-ff27-ce49" name="Prizes from the Dark City (2 Relics)" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="139b-880c-ff27-ce49" name="Prizes from the Dark City (2 圣物)" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -8086,7 +8086,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">*</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Poisoned 武器 (pg 87). 每次 the bearer fights, it can make 3 additional 攻击 with 这个武器</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Poisoned 武器 (pg 87). 持有者每次攻击, 可以造成 3 additional 攻击 with 这个武器</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8290,7 +8290,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">+1</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 the bearer fights, it can make 2 additional 攻击 with 这个武器. 投掷1个D6 at the end of each 肉搏阶段 in which the bearer attacked using 这个武器; 结果为1 they suffer 1点致命伤.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">持有者每次攻击, 可以造成 2 additional 攻击 with 这个武器. 投掷1个D6 at the end of each 肉搏阶段 in which the bearer attacked using 这个武器; 结果为1 they suffer 1点致命伤.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8497,7 +8497,7 @@
           <profiles>
             <profile id="1a6d-ed33-51a3-8258" name="The Phial Bouquet" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">投掷1个D6 at the start of each battle round to randomly determine a Combat Drug from the table on page 87. Until the start of the next battle round, 这个模型 gains that bonus 此外 to any other Combat Drug bonuses they have (duplicate results are cumulative).</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">投掷1个D6 开始时 of each battle round to randomly determine a Combat Drug from the table on page 87. Until the start of the next battle round, 这个模型 gains that bonus 此外 to any other Combat Drug bonuses they have (duplicate results are cumulative).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8569,7 +8569,7 @@
           <profiles>
             <profile id="1857-d46e-6510-2f44" name="The Vexator Mask" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">敌方单位 cannot fire 坚守射击 at the bearer. 此外, at the start of each 肉搏阶段, select an 敌方单位 范围内 6寸 of the bearer. 那个单位 cannot fight until 所有 other 单位 that are able to have done so. If the 单位 has an ability that allows it to fight first in the 肉搏阶段, it instead fights as if it did not have this ability. If both players have 单位 that cannot fight until 所有 other 单位 have done so, then alternate choosing which of those 单位 to fight with, starting with the player whose turn is taking place</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">敌方单位 cannot fire 坚守射击 at the bearer. 此外, 开始时 of each 肉搏阶段, select an 敌方单位 范围内 6寸 of the bearer. 那个单位 cannot fight until 所有 other 单位 that are able to have done so. If the 单位 has an ability that allows it to fight first in the 肉搏阶段, it instead fights as if it did not have this ability. If both players have 单位 that cannot fight until 所有 other 单位 have done so, then alternate choosing which of those 单位 to fight with, starting with the player whose turn is taking place</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8666,7 +8666,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 the bearer fights, it can make 1 additional attack with 这个武器. 可以重投失败的造伤骰 for 这个武器. </characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">持有者每次攻击, 这个武器可以造成 1 点额外攻击. 可以重投失败的造伤骰 for 这个武器. </characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8688,7 +8688,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 the bearer fights, it can make D3 additional 攻击 with 这个武器. 可以重投失败的命中骰 for 这个武器.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">持有者每次攻击, 可以造成 D3 additional 攻击 with 这个武器. 可以重投失败的命中骰 for 这个武器.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8710,7 +8710,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 the bearer fights, it can make 1 additional attack with 这个武器. If an 步兵单位 is affected by the No Escape ability whilst it is 范围内 3寸 of an 敌方模型 armed with 这个武器, the 单位’s controlling player 骰 a D3 而不是 a D6 when making the roll-off</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">持有者每次攻击, 这个武器可以造成 1 点额外攻击. If an 步兵单位 is affected by the No Escape ability whilst it is 范围内 3寸 of an 敌方模型 armed with 这个武器, the 单位’s controlling player 骰 a D3 而不是 a D6 when making the roll-off</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9115,7 +9115,7 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="dd63-a565-82cc-6f48" name="Relics of Ynnead" hidden="true" collective="false" import="true">
+    <selectionEntryGroup id="dd63-a565-82cc-6f48" name="圣物 of Ynnead" hidden="true" collective="false" import="true">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditionGroups>
@@ -9275,7 +9275,7 @@ Battle Round 5+ -  Mantle of Agony: 减少 1 from the LD of 敌方单位 that ar
           </conditions>
         </modifier>
       </modifiers>
-      <description>As soon as 任何单位 is destroyed, 所有 单位 from your army with this ability benefit from Soulburst actions until the end of the turn. Whilst a 单位 is benefiting from Soulburst actions, it always fights first in the 肉搏阶段, even if it didn&apos;t charge. If a 模型 that is benefiting from Soulburst actions made a 冲锋移动 this turn, or already has an ability that allows it to always fight first in the 肉搏阶段, then whilst it is benefiting from Soulburst actions you also 命中骰+1 for 攻击 made with 肉搏武器 by that model. If the 敌方 has 单位 that made a 冲锋移动 this turn, or that have abilities that allow them to always fight first in the 肉搏阶段, then alternate choosing 单位 to fight with, starting with the player whose turn is taking place.</description>
+      <description>As soon as 任何单位 is destroyed, 所有 单位 from your army with this ability benefit from Soulburst actions 直到回合结束. Whilst a 单位 is benefiting from Soulburst actions, it always fights first in the 肉搏阶段, even if it didn&apos;t charge. If a 模型 that is benefiting from Soulburst actions made a 冲锋移动 this turn, or already has an ability that allows it to always fight first in the 肉搏阶段, then whilst it is benefiting from Soulburst actions you also 命中骰+1 for 攻击 made with 肉搏武器 by that model. If the 敌方 has 单位 that made a 冲锋移动 this turn, or that have abilities that allow them to always fight first in the 肉搏阶段, then alternate choosing 单位 to fight with, starting with the player whose turn is taking place.</description>
     </rule>
     <rule id="ce60-330c-c13b-617b" name="Poisoned 武器" hidden="false">
       <description>这个武器 wounds 结果为4+, 除非目标为载具 or 巨型 单位, 这种情况下造伤固定为6+.</description>
@@ -9288,7 +9288,7 @@ Battle Round 5+ -  Mantle of Agony: 减少 1 from the LD of 敌方单位 that ar
           </conditions>
         </modifier>
       </modifiers>
-      <description>If your army is Battle-forged, 所有 Troops 单位 in Drukhari detachments gain this ability. Such a 单位 that is 范围内 range of an objective marker (as specified in the mission) controls that objective marker even if there are more 敌方模型 范围内 range of it. If an 敌方单位 范围内 range of the same objective marker 拥有 similar ability, then the objective marker is controlled by the player who has the most 模型 范围内 range as normal.</description>
+      <description>If your army is Battle-forged, 所有 Troops 单位 in 黑暗灵族 detachments gain this ability. Such a 单位 that is 范围内 range of an objective marker (as specified in the mission) controls that objective marker even if there are more 敌方模型 范围内 range of it. If an 敌方单位 范围内 range of the same objective marker 拥有 similar ability, then the objective marker is controlled by the player who has the most 模型 范围内 range as normal.</description>
     </rule>
     <rule id="4a7e-ceca-8097-9d9e" name="Reclaim the Galaxy" hidden="false">
       <modifiers>

@@ -246,7 +246,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">x2</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">6</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When attacking with 这个武器, 减少 1 from the 命中 roll.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">使用这个武器时, 命中骰-1.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1239,7 +1239,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="26c7-5732-95cd-9b81" name="Death to the False Emperor" hidden="false" targetId="4bcb-b16c-694a-a7d3" type="profile"/>
+        <infoLink id="26c7-5732-95cd-9b81" name="诛杀伪帝" hidden="false" targetId="4bcb-b16c-694a-a7d3" type="profile"/>
         <infoLink id="4aa9-b3fa-2ef9-c499" name="Master of Mechanisms" hidden="false" targetId="2ced-4050-292b-cfa5" type="profile"/>
         <infoLink id="f39f-6d07-d08f-5b28" name="Gift of the Hellforge" hidden="false" targetId="f236-9ee0-a886-3eb4" type="profile"/>
         <infoLink id="660f-9030-7589-7155" name="Infernal Augmetics" hidden="false" targetId="a77a-098d-282c-1d8a" type="profile"/>
@@ -1309,7 +1309,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="415e-9119-11ec-d4f2" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="82ff-0e0c-bd4f-411c" name="Mark of Chaos" hidden="false" collective="false" import="true" targetId="e995-0196-cbe4-37e7" type="selectionEntryGroup"/>
+        <entryLink id="82ff-0e0c-bd4f-411c" name="Mark of 混沌" hidden="false" collective="false" import="true" targetId="e995-0196-cbe4-37e7" type="selectionEntryGroup"/>
         <entryLink id="f17f-504d-1b19-d0ea" name="是自定义人物" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
         <entryLink id="9d71-559a-23e8-7bcc" name="自定义人物选项" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
       </entryLinks>
@@ -1351,7 +1351,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="8e32-5666-2ab4-79b9" name="Death to the False Emperor" hidden="false" targetId="4bcb-b16c-694a-a7d3" type="profile"/>
+        <infoLink id="8e32-5666-2ab4-79b9" name="诛杀伪帝" hidden="false" targetId="4bcb-b16c-694a-a7d3" type="profile"/>
         <infoLink id="0006-91fa-3ae0-58b3" name="Master of Mechanisms" hidden="false" targetId="2ced-4050-292b-cfa5" type="profile"/>
         <infoLink id="0128-468d-63d8-44bb" name="Gift of the Hellforge" hidden="false" targetId="f236-9ee0-a886-3eb4" type="profile"/>
         <infoLink id="2d60-426d-18ca-1889" name="Infernal Augmetics" hidden="false" targetId="a77a-098d-282c-1d8a" type="profile"/>
@@ -1444,7 +1444,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="472e-fdaf-99a5-7cb8" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="8fb1-4845-1249-139e" name="Mark of Chaos" hidden="false" collective="false" import="true" targetId="e995-0196-cbe4-37e7" type="selectionEntryGroup"/>
+        <entryLink id="8fb1-4845-1249-139e" name="Mark of 混沌" hidden="false" collective="false" import="true" targetId="e995-0196-cbe4-37e7" type="selectionEntryGroup"/>
         <entryLink id="a75a-2c56-a254-7029" name="是自定义人物" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
         <entryLink id="a820-b8b6-c9d9-be0d" name="自定义人物选项" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
       </entryLinks>
@@ -1652,7 +1652,7 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="e995-0196-cbe4-37e7" name="Mark of Chaos" hidden="false" collective="false" import="true" defaultSelectionEntryId="1a84-b181-0054-24df">
+    <selectionEntryGroup id="e995-0196-cbe4-37e7" name="Mark of 混沌" hidden="false" collective="false" import="true" defaultSelectionEntryId="1a84-b181-0054-24df">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de67-088b-bb83-64dd" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3648-c2cd-a8d8-155f" type="min"/>
@@ -1698,7 +1698,7 @@
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="1a84-b181-0054-24df" name="No Chaos Mark" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="1a84-b181-0054-24df" name="No 混沌 Mark" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -1744,7 +1744,7 @@
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of your 移动阶段, a Hellwright can repair a single 恶魔引擎/QUESTOR TRAITOROUS or 黑机械教 载具 (other than 模型 飞行关键字) 范围内 1寸. That 模型 regains D3 lost wounds. A Hellwright can instead curse a single 敌方 载具 范围内 18寸. 投掷1个D6; 结果为roll of 2+ that 载具 遭受 1点致命伤. A 载具 不能 repaired or cursed by more than one Hellwright in the same turn.</characteristic>
       </characteristics>
     </profile>
-    <profile id="4bcb-b16c-694a-a7d3" name="Death to the False Emperor" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="4bcb-b16c-694a-a7d3" name="诛杀伪帝" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 you roll a 命中 roll of 6+ for a 模型 with this ability in the 肉搏阶段, it can, if it was targeting an 帝国 单位, 立即 make an extra attack 对抗 the same 单位 using the same 武器. These extra 攻击 cannot themselves generate any further 攻击.</characteristic>
       </characteristics>
@@ -1766,7 +1766,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 the bearer fights, it can make 2 additional 攻击 with 这个武器.</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">持有者每次攻击, 可以造成 2 additional 攻击 with 这个武器.</characteristic>
       </characteristics>
     </profile>
     <profile id="f236-9ee0-a886-3eb4" name="Gift of the Hellforge" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">

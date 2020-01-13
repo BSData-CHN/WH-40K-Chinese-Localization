@@ -31,8 +31,8 @@
     <categoryEntry id="9972-756f-2114-0371" name="马尔卡多防御者" hidden="false"/>
     <categoryEntry id="a77b-1d03-a608-2359" name="Renegade 指挥官" hidden="false"/>
     <categoryEntry id="4acb-cb6a-2058-4217" name="Malefic lord" hidden="false"/>
-    <categoryEntry id="bb27-3e52-da09-e073" name="Rogue 灵能者 coven" hidden="false"/>
-    <categoryEntry id="fb2e-8635-8778-a9e4" name="Renegade cultists" hidden="false"/>
+    <categoryEntry id="bb27-3e52-da09-e073" name="流浪灵能者 coven" hidden="false"/>
+    <categoryEntry id="fb2e-8635-8778-a9e4" name="Renegade 教徒" hidden="false"/>
     <categoryEntry id="d778-ce62-7674-495d" name="Renegade Militia 小队" hidden="false"/>
     <categoryEntry id="60df-4bb1-a831-9d5c" name="Renegade mutant rabble" hidden="false"/>
     <categoryEntry id="ca4f-19a8-9864-c10b" name="混沌 spawn" hidden="false"/>
@@ -294,7 +294,7 @@
         <categoryLink id="917f-ee51-553f-8472" name="New CategoryLink" hidden="false" targetId="05a7-e634-b238-5f56" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="8b24-68ab-4bb7-7898" name="Rogue 灵能者 Coven" hidden="false" collective="false" import="true" targetId="cc2b-c20c-6216-b16f" type="selectionEntry">
+    <entryLink id="8b24-68ab-4bb7-7898" name="流浪灵能者 Coven" hidden="false" collective="false" import="true" targetId="cc2b-c20c-6216-b16f" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="761c-0625-de98-1d92" name="New CategoryLink" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
         <categoryLink id="5010-9ef5-04eb-d90b" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
@@ -304,7 +304,7 @@
         <categoryLink id="af88-9f96-cc3d-e20a" name="New CategoryLink" hidden="false" targetId="05a7-e634-b238-5f56" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="1ce5-1a7f-8270-cf5d" name="Renegade Cultists" hidden="false" collective="false" import="true" targetId="f774-b101-2d53-46e1" type="selectionEntry">
+    <entryLink id="1ce5-1a7f-8270-cf5d" name="Renegade 教徒" hidden="false" collective="false" import="true" targetId="f774-b101-2d53-46e1" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="a699-03e8-0206-5cc2" name="New CategoryLink" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
         <categoryLink id="5da3-7ef3-7ffa-56ac" name="New CategoryLink" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
@@ -485,7 +485,7 @@
     <entryLink id="3ed7-04c8-7e1c-c938" name="Valdor Tank 猎手" hidden="false" collective="false" import="true" targetId="6100-9b7a-6db6-c0b4" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="123b-9508-9f82-4e38" name="New CategoryLink" hidden="false" targetId="c888f08a-6cea-4a01-8126-d374a9231554" primary="true"/>
-        <categoryLink id="4771-b9e9-0ce6-244f" name="阵营: Chaos" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
+        <categoryLink id="4771-b9e9-0ce6-244f" name="阵营: 混沌" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
         <categoryLink id="4579-57d8-1688-1572" name="Renegades And Heretics" hidden="false" targetId="05a7-e634-b238-5f56" primary="false"/>
         <categoryLink id="5f9a-8674-362d-7c59" name="载具" hidden="false" targetId="c8fd-783f-3230-493e" primary="false"/>
         <categoryLink id="86e0-6443-5e6e-30a3" name="巨型" hidden="false" targetId="bdda-36f0-4f32-1639" primary="false"/>
@@ -562,9 +562,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="871e-4e0f-8cd7-97d2" name="Brutal Assault 武器" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="871e-4e0f-8cd7-97d2" name="野蛮突击武器" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="8675-4b31-9df8-f617" name="Brutal assault 武器" hidden="false" targetId="b7ce-fea3-f689-34d6" type="profile"/>
+        <infoLink id="8675-4b31-9df8-f617" name="野蛮突击武器" hidden="false" targetId="b7ce-fea3-f689-34d6" type="profile"/>
       </infoLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -2944,7 +2944,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="073f-a630-c9b4-3b01" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="c5d4-efba-6516-ce23" name="Autopistol" hidden="false" collective="false" import="true" targetId="0507-a97d-4f7f-83b4" type="selectionEntry">
+            <entryLink id="c5d4-efba-6516-ce23" name="自动手枪" hidden="false" collective="false" import="true" targetId="0507-a97d-4f7f-83b4" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="points" value="0.0"/>
               </modifiers>
@@ -2995,7 +2995,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="43ed-e14a-3bf9-6120" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="fad2-ee80-ba92-56a6" name="Brutal Assault 武器" hidden="false" collective="false" import="true" targetId="871e-4e0f-8cd7-97d2" type="selectionEntry">
+            <entryLink id="fad2-ee80-ba92-56a6" name="野蛮突击武器" hidden="false" collective="false" import="true" targetId="871e-4e0f-8cd7-97d2" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f85-5cdc-a734-3bab" type="max"/>
               </constraints>
@@ -3087,9 +3087,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cc2b-c20c-6216-b16f" name="Rogue 灵能者 Coven" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="cc2b-c20c-6216-b16f" name="流浪灵能者 Coven" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="705d-ea08-a7f5-da6a" name="Rogue 灵能者" hidden="false" typeId="bc97-dea9-9e88-bb7d" typeName="灵能者">
+        <profile id="705d-ea08-a7f5-da6a" name="流浪灵能者" hidden="false" typeId="bc97-dea9-9e88-bb7d" typeName="灵能者">
           <characteristics>
             <characteristic name="Cast" typeId="5afb-9914-904b-d3b3">1</characteristic>
             <characteristic name="Deny" typeId="b5ac-9c20-5d5a-6f9b">1</characteristic>
@@ -3097,7 +3097,7 @@
             <characteristic name="Other" typeId="c2e2-f115-0003-5d7b">If 这个单位 遭受 Perils of the Warp, it 遭受 D3 致命伤, but 单位 范围内 6寸 will only suffer 伤害 if Perils of the Warp causes the last 模型 in the manifesting 单位 to be slain.</characteristic>
           </characteristics>
         </profile>
-        <profile id="c085-5db2-2bb0-e325" name="Choir of Chaos" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="c085-5db2-2bb0-e325" name="Choir of 混沌" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 you take a Psychic test or 否定巫术测试 for 这个单位, you may choose to roll 3D6 而不是 2D6: if you do so, 这个单位 遭受 D3 致命伤. If 所有 the 模型 in the 单位 is slain the test is 自动 失败的.</characteristic>
           </characteristics>
@@ -3107,13 +3107,13 @@
         <infoLink id="a2c1-696a-6658-e78e" name="混沌 Covenant" hidden="false" targetId="60bc-f557-e4db-bce7" type="profile"/>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="f2bf-d4b3-1a71-3e95" name="Rogue 灵能者" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="f2bf-d4b3-1a71-3e95" name="流浪灵能者" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="593c-3384-f2ff-8381" type="min"/>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb3b-c417-3ff6-e38d" type="max"/>
           </constraints>
           <profiles>
-            <profile id="1901-d990-ebb7-dabe" name="Rogue 灵能者" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+            <profile id="1901-d990-ebb7-dabe" name="流浪灵能者" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
               <characteristics>
                 <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6寸</characteristic>
                 <characteristic name="WS" typeId="e7f0-1278-0250-df0c">5+</characteristic>
@@ -3171,7 +3171,7 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f774-b101-2d53-46e1" name="Renegade Cultists" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="f774-b101-2d53-46e1" name="Renegade 教徒" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="increment" field="e356-c769-5920-6e14" value="3">
           <repeats>
@@ -3216,16 +3216,16 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7f7-9a9f-edd8-a73c" type="min"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="8345-11ff-bbd3-4cac" name="霰弹枪, Brutal assault 武器" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="8345-11ff-bbd3-4cac" name="霰弹枪, 野蛮突击武器" hidden="false" collective="false" import="true" type="upgrade">
                   <profiles>
-                    <profile id="743a-775f-84e1-43b2" name="Brutal assault 武器" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+                    <profile id="743a-775f-84e1-43b2" name="野蛮突击武器" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                       <characteristics>
                         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
                         <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
                         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
                         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 the bearer fights, it can make 1 additional attack with 这个武器.</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">持有者每次攻击, 这个武器可以造成 1 点额外攻击.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -3238,21 +3238,21 @@
                     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="2e5c-80f1-541a-1403" name="Autopistol, Brutal assault 武器" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="2e5c-80f1-541a-1403" name="自动手枪, 野蛮突击武器" hidden="false" collective="false" import="true" type="upgrade">
                   <profiles>
-                    <profile id="a663-cf73-26d1-cd5b" name="Brutal assault 武器" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+                    <profile id="a663-cf73-26d1-cd5b" name="野蛮突击武器" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                       <characteristics>
                         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
                         <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
                         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
                         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 the bearer fights, it can make 1 additional attack with 这个武器.</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">持有者每次攻击, 这个武器可以造成 1 点额外攻击.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink id="4966-ebe2-a446-8634" name="Autopistol" hidden="false" targetId="2481-001b-00f9-501b" type="profile"/>
+                    <infoLink id="4966-ebe2-a446-8634" name="自动手枪" hidden="false" targetId="2481-001b-00f9-501b" type="profile"/>
                   </infoLinks>
                   <costs>
                     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -3274,7 +3274,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="e051-7e19-12ee-970d" name="Renegade Cultists" hidden="false" collective="false" import="true" defaultSelectionEntryId="3cbd-56a7-f851-14ab">
+        <selectionEntryGroup id="e051-7e19-12ee-970d" name="Renegade 教徒" hidden="false" collective="false" import="true" defaultSelectionEntryId="3cbd-56a7-f851-14ab">
           <constraints>
             <constraint field="selections" scope="parent" value="29.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c14-cbe1-bc19-b873" type="max"/>
             <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="def5-f663-5494-8f4b" type="min"/>
@@ -3347,9 +3347,9 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="735c-a933-6475-34e5" name="Renegade Cultist附带autopistol and brutal assault 武器" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="735c-a933-6475-34e5" name="Renegade Cultist附带自动手枪 and 野蛮突击武器" hidden="false" collective="false" import="true" type="model">
               <profiles>
-                <profile id="8bae-d660-24b5-9a6a" name="混沌 Cultist附带Brutal assault 武器" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+                <profile id="8bae-d660-24b5-9a6a" name="混沌 Cultist附带野蛮突击武器" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
                   <characteristics>
                     <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6寸</characteristic>
                     <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
@@ -3364,13 +3364,13 @@
                 </profile>
               </profiles>
               <selectionEntries>
-                <selectionEntry id="3df4-fd8d-7453-a784" name="Autopistol" hidden="false" collective="true" import="true" type="upgrade">
+                <selectionEntry id="3df4-fd8d-7453-a784" name="自动手枪" hidden="false" collective="true" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="970f-4d37-7ab3-d5df" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd23-9acc-bd8e-33f6" type="min"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="88c0-3e48-a7d8-c244" name="Autopistol" hidden="false" targetId="2481-001b-00f9-501b" type="profile"/>
+                    <infoLink id="88c0-3e48-a7d8-c244" name="自动手枪" hidden="false" targetId="2481-001b-00f9-501b" type="profile"/>
                   </infoLinks>
                   <costs>
                     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -3380,7 +3380,7 @@
                 </selectionEntry>
               </selectionEntries>
               <entryLinks>
-                <entryLink id="fd33-b2bd-9cd2-bc2d" name="Brutal assault 武器" hidden="false" collective="false" import="true" targetId="34ef-156f-f6a2-8941" type="selectionEntry">
+                <entryLink id="fd33-b2bd-9cd2-bc2d" name="野蛮突击武器" hidden="false" collective="false" import="true" targetId="34ef-156f-f6a2-8941" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc13-9bfa-bcce-c87f" type="min"/>
                   </constraints>
@@ -3676,10 +3676,10 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1d6-aa45-cef1-669b" type="min"/>
                   </constraints>
                   <selectionEntries>
-                    <selectionEntry id="be17-0a49-d790-3a11" name="Autopistol and Brutal assault 武器" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="be17-0a49-d790-3a11" name="自动手枪 and 野蛮突击武器" hidden="false" collective="false" import="true" type="upgrade">
                       <infoLinks>
-                        <infoLink id="4224-249d-018d-9ba6" name="Autopistol" hidden="false" targetId="2481-001b-00f9-501b" type="profile"/>
-                        <infoLink id="bdc7-b529-e12b-1c99" name="Brutal assault 武器" hidden="false" targetId="b7ce-fea3-f689-34d6" type="profile"/>
+                        <infoLink id="4224-249d-018d-9ba6" name="自动手枪" hidden="false" targetId="2481-001b-00f9-501b" type="profile"/>
+                        <infoLink id="bdc7-b529-e12b-1c99" name="野蛮突击武器" hidden="false" targetId="b7ce-fea3-f689-34d6" type="profile"/>
                       </infoLinks>
                       <costs>
                         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -3687,10 +3687,10 @@
                         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="a6e4-a6d0-45ea-bd2d" name="激光手枪 and Brutal assault 武器" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="a6e4-a6d0-45ea-bd2d" name="激光手枪 and 野蛮突击武器" hidden="false" collective="false" import="true" type="upgrade">
                       <infoLinks>
                         <infoLink id="f743-0197-cfa0-fa56" name="激光手枪" hidden="false" targetId="f2b7-768f-a270-de64" type="profile"/>
-                        <infoLink id="ef06-2c33-42d9-ae4a" name="Brutal assault 武器" hidden="false" targetId="b7ce-fea3-f689-34d6" type="profile"/>
+                        <infoLink id="ef06-2c33-42d9-ae4a" name="野蛮突击武器" hidden="false" targetId="b7ce-fea3-f689-34d6" type="profile"/>
                       </infoLinks>
                       <costs>
                         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -3732,10 +3732,10 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ba4-22b2-fcfe-0a8a" type="min"/>
                   </constraints>
                   <selectionEntries>
-                    <selectionEntry id="e9e9-59ee-b249-2ecb" name="Autopistol and Brutal assault 武器" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="e9e9-59ee-b249-2ecb" name="自动手枪 and 野蛮突击武器" hidden="false" collective="false" import="true" type="upgrade">
                       <infoLinks>
-                        <infoLink id="601e-2b49-ad8c-0d73" name="Autopistol" hidden="false" targetId="2481-001b-00f9-501b" type="profile"/>
-                        <infoLink id="ee74-da85-b475-a739" name="Brutal assault 武器" hidden="false" targetId="b7ce-fea3-f689-34d6" type="profile"/>
+                        <infoLink id="601e-2b49-ad8c-0d73" name="自动手枪" hidden="false" targetId="2481-001b-00f9-501b" type="profile"/>
+                        <infoLink id="ee74-da85-b475-a739" name="野蛮突击武器" hidden="false" targetId="b7ce-fea3-f689-34d6" type="profile"/>
                       </infoLinks>
                       <costs>
                         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -3743,10 +3743,10 @@
                         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="7c2c-8d05-04e4-5fc0" name="激光手枪 and Brutal assault 武器" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="7c2c-8d05-04e4-5fc0" name="激光手枪 and 野蛮突击武器" hidden="false" collective="false" import="true" type="upgrade">
                       <infoLinks>
                         <infoLink id="3ca9-b496-a32a-e60c" name="激光手枪" hidden="false" targetId="f2b7-768f-a270-de64" type="profile"/>
-                        <infoLink id="9049-74b2-7ace-19bb" name="Brutal assault 武器" hidden="false" targetId="b7ce-fea3-f689-34d6" type="profile"/>
+                        <infoLink id="9049-74b2-7ace-19bb" name="野蛮突击武器" hidden="false" targetId="b7ce-fea3-f689-34d6" type="profile"/>
                       </infoLinks>
                       <costs>
                         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -3798,10 +3798,10 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="ea24-af5f-4da7-c6d5" name="Renegade Militia with Autopistol, Brutal assault 武器" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="ea24-af5f-4da7-c6d5" name="Renegade Militia with 自动手枪, 野蛮突击武器" hidden="false" collective="false" import="true" type="model">
               <infoLinks>
-                <infoLink id="fe48-b347-9dc2-1c0d" name="Autopistol" hidden="false" targetId="2481-001b-00f9-501b" type="profile"/>
-                <infoLink id="0a2b-0f57-1d51-4d0d" name="Brutal assault 武器" hidden="false" targetId="b7ce-fea3-f689-34d6" type="profile"/>
+                <infoLink id="fe48-b347-9dc2-1c0d" name="自动手枪" hidden="false" targetId="2481-001b-00f9-501b" type="profile"/>
+                <infoLink id="0a2b-0f57-1d51-4d0d" name="野蛮突击武器" hidden="false" targetId="b7ce-fea3-f689-34d6" type="profile"/>
               </infoLinks>
               <entryLinks>
                 <entryLink id="de59-c0e7-41d4-7174" name="破片手雷" hidden="false" collective="false" import="true" targetId="8ab0-97c4-72d7-a0e2" type="selectionEntry">
@@ -3835,10 +3835,10 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="3ee7-4f49-9f91-4cb9" name="Renegade Militia with 激光手枪, Brutal Assault 武器" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="3ee7-4f49-9f91-4cb9" name="Renegade Militia with 激光手枪, 野蛮突击武器" hidden="false" collective="false" import="true" type="model">
               <infoLinks>
                 <infoLink id="92ed-b9d6-b1d4-3f53" name="激光手枪" hidden="false" targetId="f2b7-768f-a270-de64" type="profile"/>
-                <infoLink id="4c0e-6329-d7f9-a000" name="Brutal assault 武器" hidden="false" targetId="b7ce-fea3-f689-34d6" type="profile"/>
+                <infoLink id="4c0e-6329-d7f9-a000" name="野蛮突击武器" hidden="false" targetId="b7ce-fea3-f689-34d6" type="profile"/>
               </infoLinks>
               <entryLinks>
                 <entryLink id="8cc1-5fc0-b3c4-f492" name="破片手雷" hidden="false" collective="false" import="true" targetId="8ab0-97c4-72d7-a0e2" type="selectionEntry">
@@ -3967,9 +3967,9 @@
                         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="e421-b226-0a64-08f0" name="Autopistol" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="e421-b226-0a64-08f0" name="自动手枪" hidden="false" collective="false" import="true" type="upgrade">
                       <infoLinks>
-                        <infoLink id="70cc-0bbc-02a2-c895" name="Autopistol" hidden="false" targetId="2481-001b-00f9-501b" type="profile"/>
+                        <infoLink id="70cc-0bbc-02a2-c895" name="自动手枪" hidden="false" targetId="2481-001b-00f9-501b" type="profile"/>
                       </infoLinks>
                       <costs>
                         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -4027,9 +4027,9 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="497d-3ecb-847b-ab0b" name="Mutant with Autopistol" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="497d-3ecb-847b-ab0b" name="Mutant with 自动手枪" hidden="false" collective="false" import="true" type="model">
               <infoLinks>
-                <infoLink id="a6dd-6e8d-e901-2a8b" name="Autopistol" hidden="false" targetId="2481-001b-00f9-501b" type="profile"/>
+                <infoLink id="a6dd-6e8d-e901-2a8b" name="自动手枪" hidden="false" targetId="2481-001b-00f9-501b" type="profile"/>
               </infoLinks>
               <entryLinks>
                 <entryLink id="3f3f-5618-ad18-8b43" name="破片手雷" hidden="false" collective="false" import="true" targetId="8ab0-97c4-72d7-a0e2" type="selectionEntry">
@@ -4177,12 +4177,12 @@
             </profile>
             <profile id="f788-e599-cd27-19e9" name="Mutated Beyond Reason" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When a 单位 of Chaos Spawn makes its close combat 攻击, roll a D3 and consult the table below.   1: Razor Claws: The hideous mutations of 所有 Chaos Spawn in the 单位 have an AP of -4 until the end of the 肉搏阶段. 2: Grasping Pseudopods: Each Chaos Spawn in the 单位 adds 2 to its A值 until the end of the 肉搏阶段. 3: Toxic Haemorrhage: 可以重投失败的造伤骰 for 这个单位 until the end of the 肉搏阶段.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When a 单位 of 混沌 Spawn makes its close combat 攻击, roll a D3 and consult the table below.   1: Razor Claws: The hideous mutations of 所有 混沌 Spawn in the 单位 have an AP of -4 until the end of the 肉搏阶段. 2: Grasping Pseudopods: Each 混沌 Spawn in the 单位 adds 2 to its A值 until the end of the 肉搏阶段. 3: Toxic Haemorrhage: 可以重投失败的造伤骰 for 这个单位 until the end of the 肉搏阶段.</characteristic>
               </characteristics>
             </profile>
             <profile id="8f9c-2109-d520-919e" name="Fearsome" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">敌方单位 范围内 1寸 of any Chaos Spawn 必须 substract 1 from their LD.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">敌方单位 范围内 1寸 of any 混沌 Spawn 必须 substract 1 from their LD.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4720,7 +4720,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="16d8-a326-e4dd-24ed" name="Disciple with Chaos Sigil" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="16d8-a326-e4dd-24ed" name="Disciple with 混沌 Sigil" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="192e-054f-d103-5293" type="max"/>
               </constraints>
@@ -4995,9 +4995,9 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="d561-af92-2af8-e2be" name="Murder Cultists" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="d561-af92-2af8-e2be" name="Murder 教徒" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="88e1-7154-3b2a-948e" name="Murder Cultists" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                <profile id="88e1-7154-3b2a-948e" name="Murder 教徒" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
                     <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can reroll 失败的 命中 骰 for 这个单位 in the 肉搏阶段.</characteristic>
                   </characteristics>
@@ -5193,16 +5193,16 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="0cb5-7c0d-1934-bdfc" name="Marauder With Brutal assault 武器/激光手枪" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="0cb5-7c0d-1934-bdfc" name="Marauder With 野蛮突击武器/激光手枪" hidden="false" collective="false" import="true" type="model">
               <profiles>
-                <profile id="b661-ca2f-de99-4599" name="Brutal assault 武器" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+                <profile id="b661-ca2f-de99-4599" name="野蛮突击武器" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 the bearer fights, it can make 1 additional attack with 这个武器.</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">持有者每次攻击, 这个武器可以造成 1 点额外攻击.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5229,21 +5229,21 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="736b-e1de-f3de-b361" name="Marauder With Brutal assault 武器/Autopistol" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="736b-e1de-f3de-b361" name="Marauder With 野蛮突击武器/自动手枪" hidden="false" collective="false" import="true" type="model">
               <profiles>
-                <profile id="c331-9a65-c088-7f05" name="Brutal assault 武器" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+                <profile id="c331-9a65-c088-7f05" name="野蛮突击武器" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 the bearer fights, it can make 1 additional attack with 这个武器.</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">持有者每次攻击, 这个武器可以造成 1 点额外攻击.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink id="1e30-897a-b12a-e48f" name="Autopistol" hidden="false" targetId="2481-001b-00f9-501b" type="profile"/>
+                <infoLink id="1e30-897a-b12a-e48f" name="自动手枪" hidden="false" targetId="2481-001b-00f9-501b" type="profile"/>
               </infoLinks>
               <entryLinks>
                 <entryLink id="40cb-a109-bf12-99b7" name="破片手雷" hidden="false" collective="false" import="true" targetId="8ab0-97c4-72d7-a0e2" type="selectionEntry">
@@ -5660,7 +5660,7 @@
             </profile>
             <profile id="1297-6825-b51e-a0f4" name="Plague Stimms" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of the 肉搏阶段 you may activate the combat stimms - if so, 投掷1个D6. 结果为1, one Plague Ogryn in the 单位 is 立即 slain. 结果为2-6, each  Plague Ogryn increases their A值 by 1. 结果为6, each Plague Ogryn in the 单位 gains D3 攻击 (roll for each 单位).</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">开始时 of the 肉搏阶段 you may activate the combat stimms - if so, 投掷1个D6. 结果为1, one Plague Ogryn in the 单位 is 立即 slain. 结果为2-6, each  Plague Ogryn increases their A值 by 1. 结果为6, each Plague Ogryn in the 单位 gains D3 攻击 (roll for each 单位).</characteristic>
               </characteristics>
             </profile>
             <profile id="c2a6-a106-2d76-a3b3" name="Shower of Bile" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -5670,7 +5670,7 @@
             </profile>
             <profile id="12cd-3684-d4d2-4282" name="Scions of 纳垢" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Regardless of the Chaos Covenant your 主将 chooses, Plague Ogryns always (and only) benefit from the Covenant of 纳垢.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Regardless of the 混沌 Covenant your 主将 chooses, Plague Ogryns always (and only) benefit from the Covenant of 纳垢.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5819,7 +5819,7 @@
       <profiles>
         <profile id="98eb-0afd-ad91-2dd2" name="混沌 Sigil" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个单位 contains a 模型 with a Chaos sigil, when taking a Morale test for 这个单位, roll one additional D6 and discard the highest result. If two of the highest results are the same, select one of those dice to discard.
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个单位 contains a 模型 with a 混沌 sigil, when taking a Morale test for 这个单位, roll one additional D6 and discard the highest result. If two of the highest results are the same, select one of those dice to discard.
 </characteristic>
           </characteristics>
         </profile>
@@ -6801,7 +6801,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If 这个模型 does not move during the 移动阶段, in the preceding 射击阶段, change 这个武器’s Type to Heavy 30 until the end of the turn.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If 这个模型 does not move during the 移动阶段, in the preceding 射击阶段, change 这个武器’s Type to Heavy 30 直到回合结束.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7126,7 +7126,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1333-cac6-2bd6-c376" type="max"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="cd32-e307-8ac6-a798" name="Autopistol" hidden="false" collective="false" import="true" targetId="0507-a97d-4f7f-83b4" type="selectionEntry">
+                <entryLink id="cd32-e307-8ac6-a798" name="自动手枪" hidden="false" collective="false" import="true" targetId="0507-a97d-4f7f-83b4" type="selectionEntry">
                   <modifiers>
                     <modifier type="set" field="ab0c-43d9-3a55-62f3" value="0.0"/>
                   </modifiers>
@@ -7278,12 +7278,12 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="34ef-156f-f6a2-8941" name="Brutal assault 武器" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="34ef-156f-f6a2-8941" name="野蛮突击武器" hidden="false" collective="true" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="88f2-45a5-1229-016f" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="4eb7-45c3-5204-6687" name="Brutal assault 武器" hidden="false" targetId="b7ce-fea3-f689-34d6" type="profile"/>
+        <infoLink id="4eb7-45c3-5204-6687" name="野蛮突击武器" hidden="false" targetId="b7ce-fea3-f689-34d6" type="profile"/>
       </infoLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -7552,7 +7552,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7cda-43e1-3215-ef6b" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="85ff-a328-7833-00b8" name="Brutal Assault 武器" hidden="false" collective="false" import="true" targetId="871e-4e0f-8cd7-97d2" type="selectionEntry">
+        <entryLink id="85ff-a328-7833-00b8" name="野蛮突击武器" hidden="false" collective="false" import="true" targetId="871e-4e0f-8cd7-97d2" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa7a-661f-4551-f5aa" type="max"/>
           </constraints>
@@ -8004,7 +8004,7 @@
     <rule id="cc56-4c8d-55d6-3671" name="Specialists" hidden="false">
       <description>Before the game starts, choose one of the following abilities, these apply for the duration of the battle.
 - Stalkers: Your oponent 必须 substract 1 from 命中 骰 for 攻击 that target 这个单位 in the 射击阶段. additionally, 模型 in the 单位 gain +1 for their saving throw if they are in cover
-- Murder Cultists: You can reroll 失败的 命中 骰 for 这个单位 in the 肉搏阶段
+- Murder 教徒: You can reroll 失败的 命中 骰 for 这个单位 in the 肉搏阶段
 - Hereteks: 所有 模型 in 这个单位 have a sV值 of 4+ 而不是 5+. The entire 单位 also gains Krak grenades</description>
     </rule>
   </sharedRules>
@@ -8019,14 +8019,14 @@
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
       </characteristics>
     </profile>
-    <profile id="b7ce-fea3-f689-34d6" name="Brutal assault 武器" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+    <profile id="b7ce-fea3-f689-34d6" name="野蛮突击武器" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 the bearer fights, it can make 1 additional attack with 这个武器.</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">持有者每次攻击, 这个武器可以造成 1 点额外攻击.</characteristic>
       </characteristics>
     </profile>
     <profile id="4fcf-7187-77eb-060b" name="Warp Flux" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
@@ -8047,7 +8047,7 @@
       <characteristics>
         <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">10</characteristic>
         <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">6寸</characteristic>
-        <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Every RENEGADES AND HERETICS 步兵单位 (except 这个单位) 范围内 6寸 re-骰 失败的 charge 骰 and re-骰 失败的 命中 骰 and wound 骰 in the 肉搏阶段 for the rest of the turn. At the start of the Morale phase, each affected 单位 遭受 D3 致命伤.</characteristic>
+        <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Every RENEGADES AND HERETICS 步兵单位 (except 这个单位) 范围内 6寸 re-骰 失败的 charge 骰 and re-骰 失败的 命中 骰 and wound 骰 in the 肉搏阶段 for the rest of the turn. 开始时 of the Morale phase, each affected 单位 遭受 D3 致命伤.</characteristic>
       </characteristics>
     </profile>
     <profile id="5d78-0f21-25e1-b2b0" name="Multi Laser" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -8088,17 +8088,17 @@
     </profile>
     <profile id="6386-f77c-96a5-b693" name="Avalanche of Muscle" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个单位 makes a 冲锋移动, add 1 to the A值 of every 模型 in the 单位 until the end of the turn.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个单位 makes a 冲锋移动, add 1 to the A值 of every 模型 in the 单位 直到回合结束.</characteristic>
       </characteristics>
     </profile>
     <profile id="dfbb-346d-f8f4-b5aa" name="Combat Stimms" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of the 肉搏阶段 you may activate the combat stimms - If so, 投掷1个D6. 结果为1. One Ogryn in the 单位 is 立即 slain. 结果为2-6, each Ogryn increases their attack characteristick by 1. 结果为6, each Ogryn in the 单位 gains D3 攻击 (roll for each 单位)</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">开始时 of the 肉搏阶段 you may activate the combat stimms - If so, 投掷1个D6. 结果为1. One Ogryn in the 单位 is 立即 slain. 结果为2-6, each Ogryn increases their attack characteristick by 1. 结果为6, each Ogryn in the 单位 gains D3 攻击 (roll for each 单位)</characteristic>
       </characteristics>
     </profile>
     <profile id="837e-423b-9d3b-7772" name="侦察载具" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of the first battle round but before the first turn begins, you can move 这个单位 至多 9寸. It cannot end this move 范围内 9寸 of 任何敌方模型. If both players have 单位 that can do this, the player who is taking first turn moves their 单位 first. </characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">开始时 of the first battle round but before the first turn begins, you can move 这个单位 至多 9寸. It cannot end this move 范围内 9寸 of 任何敌方模型. If both players have 单位 that can do this, the player who is taking first turn moves their 单位 first. </characteristic>
       </characteristics>
     </profile>
     <profile id="4bf2-36fc-8ef2-2ad3" name="Hellstrike missiles" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">

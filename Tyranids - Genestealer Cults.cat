@@ -471,7 +471,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="528d-f842-ae23-1d54" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="0bc2-f195-d9e3-7cf6" name="Autopistol" hidden="false" collective="false" import="true" targetId="001e-d0e9-b805-6182" type="selectionEntry"/>
+                <entryLink id="0bc2-f195-d9e3-7cf6" name="自动手枪" hidden="false" collective="false" import="true" targetId="001e-d0e9-b805-6182" type="selectionEntry"/>
                 <entryLink id="d7ca-7460-5ca4-0716" name="手持喷火器" hidden="false" collective="false" import="true" targetId="18d6-e1b1-ab81-23cb" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
@@ -535,7 +535,7 @@
                 </profile>
               </profiles>
               <entryLinks>
-                <entryLink id="bcc9-8946-fecc-1ef7" name="Autopistol" hidden="false" collective="false" import="true" targetId="001e-d0e9-b805-6182" type="selectionEntry">
+                <entryLink id="bcc9-8946-fecc-1ef7" name="自动手枪" hidden="false" collective="false" import="true" targetId="001e-d0e9-b805-6182" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="baf1-a450-1ad3-a6a5" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb00-ff73-e280-858f" type="max"/>
@@ -651,7 +651,7 @@
                   </constraints>
                   <entryLinks>
                     <entryLink id="d3b7-58b2-f975-343c" name="手持喷火器" hidden="false" collective="false" import="true" targetId="c7b0-516a-f031-e4e9" type="selectionEntry"/>
-                    <entryLink id="5fa1-4da6-1bc9-8cf5" name="Autopistol" hidden="false" collective="false" import="true" targetId="0985-3683-24db-1b07" type="selectionEntry"/>
+                    <entryLink id="5fa1-4da6-1bc9-8cf5" name="自动手枪" hidden="false" collective="false" import="true" targetId="0985-3683-24db-1b07" type="selectionEntry"/>
                   </entryLinks>
                 </selectionEntryGroup>
                 <selectionEntryGroup id="b660-bc4e-b615-c984" name="Heavy 武器" hidden="false" collective="false" import="true">
@@ -783,7 +783,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="33f3-b4a0-6836-d76f" name="Autopistol" hidden="false" collective="false" import="true" targetId="001e-d0e9-b805-6182" type="selectionEntry">
+        <entryLink id="33f3-b4a0-6836-d76f" name="自动手枪" hidden="false" collective="false" import="true" targetId="001e-d0e9-b805-6182" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="65fc-edf0-1d25-69b3" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2eb2-6d22-1eb7-418b" type="min"/>
@@ -1058,7 +1058,7 @@
         </profile>
         <profile id="a01b-daaa-7396-00c2" name="Grinding Advance" publicationId="83b2-e602-pubN65537" page="98" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 remains stationary or moves under half speed in its 移动阶段 (i.e. it moves a distance in inches less than half of its current M值) it can shoot its 炮塔武器 twice in the following 射击阶段 (the 炮塔武器 必须 target the same 单位 both times). Furthermore, 命中 骰 for 这个模型&apos;s 炮塔武器 do not suffer the penalty for moving and 射击 a Heavy 武器. The following 武器 are turret 武器: 战斗炮, eradicator nova cannon, exterminator 自动炮 and vanquisher 战斗炮.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 remains stationary or moves under half speed in its 移动阶段 (i.e. it moves a distance in inches less than half of its current M值) it can shoot its 炮塔武器 twice in the following 射击阶段 (the 炮塔武器 必须 target the same 单位 both times). Furthermore, 命中 骰 for 这个模型的 炮塔武器 do not suffer the penalty for moving and 射击 a Heavy 武器. The following 武器 are turret 武器: 战斗炮, eradicator nova cannon, exterminator 自动炮 and vanquisher 战斗炮.</characteristic>
           </characteristics>
         </profile>
         <profile id="9d8a-7ac7-4957-7c48" name="Emergency Plasma Vents" publicationId="83b2-e602-pubN65537" page="98" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -1217,7 +1217,7 @@
       <profiles>
         <profile id="c8b4-539b-8ee3-c54f" name="侦察载具" publicationId="83b2-e602-pubN65537" page="97" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of the first battle round but before the first turn begins, you can move 这个单位 至多 9寸. It cannot end this move 范围内 9寸 of 任何敌方模型. If both players have 单位 that can do this, the player who is taking the first turn moves their 单位 first.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">开始时 of the first battle round but before the first turn begins, you can move 这个单位 至多 9寸. It cannot end this move 范围内 9寸 of 任何敌方模型. If both players have 单位 that can do this, the player who is taking the first turn moves their 单位 first.</characteristic>
           </characteristics>
         </profile>
         <profile id="b095-d9a8-fe0a-af37" name="Cult 侦察兵 Sentinels" hidden="true" typeId="b900-0afb-e411-2cbb" typeName="Keywords">
@@ -1620,9 +1620,9 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f45-11b3-4b2b-d8b9" type="max"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="26d8-4cc5-e00e-e28c" name="Autopistol" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="26d8-4cc5-e00e-e28c" name="自动手枪" hidden="false" collective="false" import="true" type="upgrade">
                   <infoLinks>
-                    <infoLink id="2347-2cd0-f6fd-de46" name="Autopistol" hidden="false" targetId="2481-001b-00f9-501b" type="profile"/>
+                    <infoLink id="2347-2cd0-f6fd-de46" name="自动手枪" hidden="false" targetId="2481-001b-00f9-501b" type="profile"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0.0"/>
@@ -1742,9 +1742,9 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2318-8cfa-3e0a-c9ee" type="max"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="d0d2-bcd5-b4ca-b6df" name="Autopistol" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="d0d2-bcd5-b4ca-b6df" name="自动手枪" hidden="false" collective="false" import="true" type="upgrade">
                   <infoLinks>
-                    <infoLink id="2b60-b8cd-7173-debf" name="Autopistol" hidden="false" targetId="2481-001b-00f9-501b" type="profile"/>
+                    <infoLink id="2b60-b8cd-7173-debf" name="自动手枪" hidden="false" targetId="2481-001b-00f9-501b" type="profile"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0.0"/>
@@ -2287,9 +2287,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="001e-d0e9-b805-6182" name="Autopistol" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="001e-d0e9-b805-6182" name="自动手枪" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="c2ae-14ad-ef19-b295" name="Autopistol" hidden="false" targetId="2481-001b-00f9-501b" type="profile"/>
+        <infoLink id="c2ae-14ad-ef19-b295" name="自动手枪" hidden="false" targetId="2481-001b-00f9-501b" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -2755,7 +2755,7 @@
         </profile>
         <profile id="d0a0-befc-cec1-64ce" name="Spiritual Leader" publicationId="83b2-e602-pubN65537" page="81" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">&lt;教团&gt; 单位 (other than 灵能者) 范围内 6寸 of any 友方 &lt;教团&gt; MAGUS 模型 at the start of your opponent&apos;s 灵能阶段 can attempt to deny one psychic power manifested 范围内 12寸 of them that phase as if they were themselves a 灵能者 (measure range to 任何模型 in the 单位).</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">&lt;教团&gt; 单位 (other than 灵能者) 范围内 6寸 of any 友方 &lt;教团&gt; MAGUS 模型 开始时 of your opponent&apos;s 灵能阶段 can attempt to deny one psychic power manifested 范围内 12寸 of them that phase as if they were themselves a 灵能者 (measure range to 任何模型 in the 单位).</characteristic>
           </characteristics>
         </profile>
         <profile id="f91b-d383-0475-bbd3" name="Magus" hidden="true" typeId="b900-0afb-e411-2cbb" typeName="Keywords">
@@ -2807,13 +2807,13 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="5ae9-fbc4-9be9-4f9a" name="Autopistol" hidden="false" collective="false" import="true" targetId="001e-d0e9-b805-6182" type="selectionEntry">
+        <entryLink id="5ae9-fbc4-9be9-4f9a" name="自动手枪" hidden="false" collective="false" import="true" targetId="001e-d0e9-b805-6182" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c8cf-cbfb-9097-c370" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e78-2954-cb06-38a2" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="b3e3-f8a8-12eb-d6a1" name="Force stave" hidden="false" collective="false" import="true" targetId="6f9a-c4fe-3132-d011" type="selectionEntry">
+        <entryLink id="b3e3-f8a8-12eb-d6a1" name="Force 杖" hidden="false" collective="false" import="true" targetId="6f9a-c4fe-3132-d011" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="points" value="0.0"/>
           </modifiers>
@@ -2930,7 +2930,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5078-1999-81fe-f30c" type="max"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="1559-b235-f07e-e6b9" name="Autopistol" hidden="false" collective="false" import="true" targetId="0985-3683-24db-1b07" type="selectionEntry">
+                <entryLink id="1559-b235-f07e-e6b9" name="自动手枪" hidden="false" collective="false" import="true" targetId="0985-3683-24db-1b07" type="selectionEntry">
                   <modifiers>
                     <modifier type="set" field="d47f-bb42-d3e4-365d" value="0.0"/>
                   </modifiers>
@@ -3000,7 +3000,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c88d-be3a-5b09-ba9b" type="max"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="7921-86a2-d86b-d907" name="Autopistol" hidden="false" collective="false" import="true" targetId="001e-d0e9-b805-6182" type="selectionEntry">
+                <entryLink id="7921-86a2-d86b-d907" name="自动手枪" hidden="false" collective="false" import="true" targetId="001e-d0e9-b805-6182" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2dbc-9bdd-6bd1-0a0d" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4d3-8351-7ee7-3459" type="max"/>
@@ -3045,7 +3045,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5503-d18a-a33f-8c97" type="max"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="8b12-c295-e097-020d" name="Autopistol" hidden="false" collective="false" import="true" targetId="001e-d0e9-b805-6182" type="selectionEntry">
+                <entryLink id="8b12-c295-e097-020d" name="自动手枪" hidden="false" collective="false" import="true" targetId="001e-d0e9-b805-6182" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f61-ded4-88db-d050" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35c0-2bba-aed9-9211" type="max"/>
@@ -3090,7 +3090,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c18-dd72-e45e-2cf1" type="max"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="9192-e3aa-fd12-ec15" name="Autopistol" hidden="false" collective="false" import="true" targetId="001e-d0e9-b805-6182" type="selectionEntry">
+                <entryLink id="9192-e3aa-fd12-ec15" name="自动手枪" hidden="false" collective="false" import="true" targetId="001e-d0e9-b805-6182" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e3e-be7d-e2ab-737c" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dfa6-fb3b-a0db-502a" type="max"/>
@@ -3136,7 +3136,7 @@
                     </profile>
                   </profiles>
                   <entryLinks>
-                    <entryLink id="306c-3f25-1e56-5962" name="Autopistol" hidden="false" collective="false" import="true" targetId="001e-d0e9-b805-6182" type="selectionEntry">
+                    <entryLink id="306c-3f25-1e56-5962" name="自动手枪" hidden="false" collective="false" import="true" targetId="001e-d0e9-b805-6182" type="selectionEntry">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="802b-c802-8e19-c856" type="min"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8429-55b7-2ca6-9b59" type="max"/>
@@ -3181,7 +3181,7 @@
                     </profile>
                   </profiles>
                   <entryLinks>
-                    <entryLink id="b2e6-90f7-bc6d-d06b" name="Autopistol" hidden="false" collective="false" import="true" targetId="001e-d0e9-b805-6182" type="selectionEntry">
+                    <entryLink id="b2e6-90f7-bc6d-d06b" name="自动手枪" hidden="false" collective="false" import="true" targetId="001e-d0e9-b805-6182" type="selectionEntry">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5604-d9d9-52f9-682c" type="min"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1798-d749-605f-96d8" type="max"/>
@@ -3226,7 +3226,7 @@
                     </profile>
                   </profiles>
                   <entryLinks>
-                    <entryLink id="ce18-5ecd-cf5b-c3dc" name="Autopistol" hidden="false" collective="false" import="true" targetId="001e-d0e9-b805-6182" type="selectionEntry">
+                    <entryLink id="ce18-5ecd-cf5b-c3dc" name="自动手枪" hidden="false" collective="false" import="true" targetId="001e-d0e9-b805-6182" type="selectionEntry">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="faeb-2a79-5f55-2752" type="min"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9507-0162-0bf7-720a" type="max"/>
@@ -3278,7 +3278,7 @@
                     </profile>
                   </profiles>
                   <entryLinks>
-                    <entryLink id="4aa2-2c7f-4bf6-7e01" name="Autopistol" hidden="false" collective="false" import="true" targetId="001e-d0e9-b805-6182" type="selectionEntry">
+                    <entryLink id="4aa2-2c7f-4bf6-7e01" name="自动手枪" hidden="false" collective="false" import="true" targetId="001e-d0e9-b805-6182" type="selectionEntry">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d4b-96e5-b0c5-3126" type="min"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="23d2-c1c4-7c07-83d8" type="max"/>
@@ -3323,7 +3323,7 @@
                     </profile>
                   </profiles>
                   <entryLinks>
-                    <entryLink id="0339-8d1c-c598-acd6" name="Autopistol" hidden="false" collective="false" import="true" targetId="001e-d0e9-b805-6182" type="selectionEntry">
+                    <entryLink id="0339-8d1c-c598-acd6" name="自动手枪" hidden="false" collective="false" import="true" targetId="001e-d0e9-b805-6182" type="selectionEntry">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e98-16c7-b18a-6d16" type="min"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="43c4-92d9-df02-738a" type="max"/>
@@ -3368,7 +3368,7 @@
                     </profile>
                   </profiles>
                   <entryLinks>
-                    <entryLink id="12ae-e038-6ae6-ca28" name="Autopistol" hidden="false" collective="false" import="true" targetId="001e-d0e9-b805-6182" type="selectionEntry">
+                    <entryLink id="12ae-e038-6ae6-ca28" name="自动手枪" hidden="false" collective="false" import="true" targetId="001e-d0e9-b805-6182" type="selectionEntry">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e8e-23d0-29aa-2524" type="min"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6809-1b74-6270-ff12" type="max"/>
@@ -3669,7 +3669,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">x2</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When attacking with 这个武器, 减少 1 from the 命中 roll. 伤害 骰 of 1 or 2 made for 这个武器 count as 3 instead.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">使用这个武器时, 命中骰-1. 伤害 骰 of 1 or 2 made for 这个武器 count as 3 instead.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3692,7 +3692,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 a 模型 guided by a Familiar fights, it can make 2 additional 攻击 with 这个武器.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 a 模型 guided by a Familiar fights, 可以造成 2 additional 攻击 with 这个武器.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3750,9 +3750,9 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0985-3683-24db-1b07" name="Autopistol" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="0985-3683-24db-1b07" name="自动手枪" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="08fc-01f4-6a2d-5ce5" name="Autopistol" hidden="false" targetId="2481-001b-00f9-501b" type="profile"/>
+        <infoLink id="08fc-01f4-6a2d-5ce5" name="自动手枪" hidden="false" targetId="2481-001b-00f9-501b" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -3866,7 +3866,7 @@
       <profiles>
         <profile id="f95e-fcc1-e8ab-e96e" name="Augur of the Insurgent" publicationId="83b2-e602-pubN88803" page="187" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can 重投 Advance and charge 骰 for 友方 DELIVERANCE BROODSURGE 单位 if they are 范围内 6寸 of your 主将 when the roll is made.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can 重投 加速和冲锋 骰 for 友方 DELIVERANCE BROODSURGE 单位 if they are 范围内 6寸 of your 主将 when the roll is made.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3968,7 +3968,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="bca7-9887-deee-1ca6" name="Autopistol" hidden="false" collective="false" import="true" targetId="001e-d0e9-b805-6182" type="selectionEntry">
+        <entryLink id="bca7-9887-deee-1ca6" name="自动手枪" hidden="false" collective="false" import="true" targetId="001e-d0e9-b805-6182" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc11-354e-037e-38f7" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bda5-a388-8d4a-9e2b" type="max"/>
@@ -3978,7 +3978,7 @@
         <entryLink id="635d-a1cf-43c7-11d6" name="自定义人物选项" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
         <entryLink id="c49e-8e4f-2add-eb46" name="主将" hidden="false" collective="false" import="true" targetId="afad-6465-5489-7fb9" type="selectionEntry"/>
         <entryLink id="2bad-fc40-9868-d9c3" name="主将特性" hidden="false" collective="false" import="true" targetId="3c5c-af51-2d54-8cbf" type="selectionEntryGroup"/>
-        <entryLink id="028d-bdf9-8c89-bc7d" name="Sacred Relics of the Cult" hidden="false" collective="false" import="true" targetId="ccd1-3759-0432-5c59" type="selectionEntryGroup"/>
+        <entryLink id="028d-bdf9-8c89-bc7d" name="Sacred 圣物 of the Cult" hidden="false" collective="false" import="true" targetId="ccd1-3759-0432-5c59" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="2.0"/>
@@ -4008,7 +4008,7 @@
               <profiles>
                 <profile id="1a4c-1614-ca8e-4358" name="Subterranean Ambushers" publicationId="83b2-e602-pubN65537" page="109" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Until the end of the first battle round, add 1 to Advance and charge 骰 made for 单位 with this Cult Creed. Starting from the second battle round, 如果1个单位 with this Cult Creed is set up 战场上, then until the end of that turn, add 1 to Advance and charge 骰 made for 那个单位.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Until the end of the first battle round, add 1 to 加速和冲锋 骰 made for 单位 with this Cult Creed. Starting from the second battle round, 如果1个单位 with this Cult Creed is set up 战场上, then until the end of that turn, add 1 to 加速和冲锋 骰 made for 那个单位.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4156,7 +4156,7 @@
             </profile>
           </profiles>
           <entryLinks>
-            <entryLink id="7c8b-dc38-ee74-70b7" name="Frag Grenades" hidden="false" collective="false" import="true" targetId="1c01-a716-69dd-00c2" type="selectionEntry">
+            <entryLink id="7c8b-dc38-ee74-70b7" name="破片手雷" hidden="false" collective="false" import="true" targetId="1c01-a716-69dd-00c2" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1315-b0f6-9d2b-e27a" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af09-7caf-dc78-c741" type="max"/>
@@ -4221,7 +4221,7 @@
                 </profile>
               </profiles>
               <entryLinks>
-                <entryLink id="1880-9edc-f294-0700" name="Frag Grenades" hidden="false" collective="false" import="true" targetId="1c01-a716-69dd-00c2" type="selectionEntry">
+                <entryLink id="1880-9edc-f294-0700" name="破片手雷" hidden="false" collective="false" import="true" targetId="1c01-a716-69dd-00c2" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="15df-40c0-c7b5-405d" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca10-c171-2b51-bf67" type="max"/>
@@ -4260,7 +4260,7 @@
                 </profile>
               </profiles>
               <entryLinks>
-                <entryLink id="5f8c-2dd8-10e0-5b67" name="Frag Grenades" hidden="false" collective="false" import="true" targetId="1c01-a716-69dd-00c2" type="selectionEntry">
+                <entryLink id="5f8c-2dd8-10e0-5b67" name="破片手雷" hidden="false" collective="false" import="true" targetId="1c01-a716-69dd-00c2" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="76a7-27b7-c1cc-50c2" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f546-4a50-890e-f700" type="max"/>
@@ -4305,7 +4305,7 @@
                 </profile>
               </profiles>
               <entryLinks>
-                <entryLink id="0892-2bba-a595-b077" name="Frag Grenades" hidden="false" collective="false" import="true" targetId="1c01-a716-69dd-00c2" type="selectionEntry">
+                <entryLink id="0892-2bba-a595-b077" name="破片手雷" hidden="false" collective="false" import="true" targetId="1c01-a716-69dd-00c2" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6d2-7f8f-f8d3-e9c9" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdcc-61a3-64e7-aad6" type="max"/>
@@ -4357,7 +4357,7 @@
                     </profile>
                   </profiles>
                   <entryLinks>
-                    <entryLink id="e5d0-d11a-62c6-3791" name="Frag Grenades" hidden="false" collective="false" import="true" targetId="1c01-a716-69dd-00c2" type="selectionEntry">
+                    <entryLink id="e5d0-d11a-62c6-3791" name="破片手雷" hidden="false" collective="false" import="true" targetId="1c01-a716-69dd-00c2" type="selectionEntry">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4fc-6782-f9c1-9e41" type="min"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02e6-7e82-4b06-884b" type="max"/>
@@ -4396,7 +4396,7 @@
                     </profile>
                   </profiles>
                   <entryLinks>
-                    <entryLink id="487d-e63a-8f95-4430" name="Frag Grenades" hidden="false" collective="false" import="true" targetId="1c01-a716-69dd-00c2" type="selectionEntry">
+                    <entryLink id="487d-e63a-8f95-4430" name="破片手雷" hidden="false" collective="false" import="true" targetId="1c01-a716-69dd-00c2" type="selectionEntry">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da43-797b-61a7-cae2" type="min"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a82c-3908-105f-2e37" type="max"/>
@@ -4480,7 +4480,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0b2-1253-c3e7-2b79" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="e2dd-a24a-e008-db70" name="Frag Grenades" hidden="false" collective="false" import="true" targetId="1c01-a716-69dd-00c2" type="selectionEntry">
+            <entryLink id="e2dd-a24a-e008-db70" name="破片手雷" hidden="false" collective="false" import="true" targetId="1c01-a716-69dd-00c2" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac45-61c0-e097-abb9" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec08-539b-6747-0cda" type="max"/>
@@ -4574,7 +4574,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75a8-cbef-f1eb-b857" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="df60-0ec6-fc06-7563" name="Autopistol" hidden="false" collective="false" import="true" targetId="0985-3683-24db-1b07" type="selectionEntry"/>
+                <entryLink id="df60-0ec6-fc06-7563" name="自动手枪" hidden="false" collective="false" import="true" targetId="0985-3683-24db-1b07" type="selectionEntry"/>
                 <entryLink id="8b8b-daa6-55c1-b4ec" name="霰弹枪" hidden="false" collective="false" import="true" targetId="2094-c9a6-a426-0970" type="selectionEntry"/>
                 <entryLink id="9ee2-02ab-b04e-b632" name="Power Pick" hidden="false" collective="false" import="true" targetId="b8a8-e888-80bc-c52f" type="selectionEntry"/>
                 <entryLink id="919e-1e1c-24a5-ef98" name="Improvised 武器" hidden="false" collective="false" import="true" targetId="54ad-7ee1-3a18-ab02" type="selectionEntry"/>
@@ -4582,7 +4582,7 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="4a43-f620-537a-a495" name="Autopistol" hidden="false" collective="false" import="true" targetId="0985-3683-24db-1b07" type="selectionEntry">
+            <entryLink id="4a43-f620-537a-a495" name="自动手枪" hidden="false" collective="false" import="true" targetId="0985-3683-24db-1b07" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8e8d-4c28-8450-ba5b" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6348-e86e-5316-8ee3" type="min"/>
@@ -4635,7 +4635,7 @@
                     <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d75e-b0e5-dca7-b0ed" type="min"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink id="0e76-1b76-5a36-b9d5" name="Autopistol" hidden="false" collective="false" import="true" targetId="0985-3683-24db-1b07" type="selectionEntry">
+                    <entryLink id="0e76-1b76-5a36-b9d5" name="自动手枪" hidden="false" collective="false" import="true" targetId="0985-3683-24db-1b07" type="selectionEntry">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f1ee-3da8-49ab-370c" type="max"/>
                       </constraints>
@@ -4687,7 +4687,7 @@
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <entryLinks>
-                <entryLink id="482b-1fa5-5ed1-c042" name="Autopistol" hidden="false" collective="false" import="true" targetId="0985-3683-24db-1b07" type="selectionEntry">
+                <entryLink id="482b-1fa5-5ed1-c042" name="自动手枪" hidden="false" collective="false" import="true" targetId="0985-3683-24db-1b07" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="be4e-25d6-9670-11bc" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e516-d5cb-f3c9-f5c8" type="min"/>
@@ -4733,7 +4733,7 @@
                     <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="85da-85dc-fcc3-51cd" type="max"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="b58d-03cc-f9b3-b19c" name="Autopistol" hidden="false" collective="false" import="true" targetId="0985-3683-24db-1b07" type="selectionEntry">
+                <entryLink id="b58d-03cc-f9b3-b19c" name="自动手枪" hidden="false" collective="false" import="true" targetId="0985-3683-24db-1b07" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c21-4e31-c949-3540" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="84db-5945-e798-c8cf" type="max"/>
@@ -4793,7 +4793,7 @@
         </profile>
         <profile id="409b-9829-6d37-ff4f" name="Priority Target Sighted" publicationId="83b2-e602-pubN65537" page="83" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of your 射击阶段, select an 敌方单位 that is 可见 to and 范围内 36寸 of 这个模型. 直到阶段结束, 命中骰+1 for 攻击 made by 友方 &lt;教团&gt; 单位 that target 那个敌方单位 whilst they are 范围内 6寸 of 这个模型 (or 范围内 12寸 if they are a 友方 &lt;教团&gt; 摩托 单位). An 敌方单位 can only be selected as the target of this ability once per phase.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">开始时 of your 射击阶段, select an 敌方单位 that is 可见 to and 范围内 36寸 of 这个模型. 直到阶段结束, 命中骰+1 for 攻击 made by 友方 &lt;教团&gt; 单位 that target 那个敌方单位 whilst they are 范围内 6寸 of 这个模型 (or 范围内 12寸 if they are a 友方 &lt;教团&gt; 摩托 单位). An 敌方单位 can only be selected as the target of this ability once per phase.</characteristic>
           </characteristics>
         </profile>
         <profile id="8050-0da2-0443-4796" name="Skilled Outrider" publicationId="83b2-e602-pubN65537" page="83" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -4839,7 +4839,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="34f1-3c0c-315c-2520" name="Autopistol" hidden="false" collective="false" import="true" targetId="0985-3683-24db-1b07" type="selectionEntry">
+        <entryLink id="34f1-3c0c-315c-2520" name="自动手枪" hidden="false" collective="false" import="true" targetId="0985-3683-24db-1b07" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e0f-be86-47cc-d8d1" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2698-fa74-9b3f-f3fd" type="max"/>
@@ -4993,12 +4993,12 @@
       <profiles>
         <profile id="255a-bdc7-0118-09c6" name="Scrambler Array" publicationId="83b2-e602-pubN65537" page="90" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">敌方单位 that are set up 战场上 as reinforcements 不能 set up 范围内 12寸 of 这个模型. 此外, at the start of your 射击阶段, 投掷1个D6 for each 敌方单位 that is 范围内 6寸 of any CLAMAVUSES from your army; 结果为6 那个敌方单位 遭受 1 致命伤.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">敌方单位 that are set up 战场上 as reinforcements 不能 set up 范围内 12寸 of 这个模型. 此外, 开始时 of your 射击阶段, 投掷1个D6 for each 敌方单位 that is 范围内 6寸 of any CLAMAVUSES from your army; 结果为6 那个敌方单位 遭受 1 致命伤.</characteristic>
           </characteristics>
         </profile>
         <profile id="d540-4a32-65d2-84e8" name="Proclamator Hailer" publicationId="83b2-e602-pubN65537" page="90" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the LD值 of &lt;教团&gt; 单位 whilst they are 范围内 6寸 of any 友方 &lt;教团&gt; CLAMAVUSES. 此外, add 1 to Advance and charge 骰 made for &lt;教团&gt; 单位 that are 范围内 6寸 of any 友方 &lt;教团&gt; CLAMAVUSES when the roll is made.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the LD值 of &lt;教团&gt; 单位 whilst they are 范围内 6寸 of any 友方 &lt;教团&gt; CLAMAVUSES. 此外, add 1 to 加速和冲锋 骰 made for &lt;教团&gt; 单位 that are 范围内 6寸 of any 友方 &lt;教团&gt; CLAMAVUSES when the roll is made.</characteristic>
           </characteristics>
         </profile>
         <profile id="5a1d-9efd-4272-ef05" name="Clamavus" publicationId="83b2-e602-pubN65537" page="90" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
@@ -5027,7 +5027,7 @@
         <categoryLink id="9f00-157a-c249-498d" name="步兵" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="4ccc-9f7b-3024-7639" name="Autopistol" hidden="false" collective="false" import="true" targetId="001e-d0e9-b805-6182" type="selectionEntry">
+        <entryLink id="4ccc-9f7b-3024-7639" name="自动手枪" hidden="false" collective="false" import="true" targetId="001e-d0e9-b805-6182" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2450-c350-96f1-0f44" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dffa-dd09-c731-0ea4" type="max"/>
@@ -5035,7 +5035,7 @@
         </entryLink>
         <entryLink id="e382-eabd-f847-0058" name="主将" hidden="false" collective="false" import="true" targetId="afad-6465-5489-7fb9" type="selectionEntry"/>
         <entryLink id="cc1f-a46b-6794-67f7" name="主将特性" hidden="false" collective="false" import="true" targetId="3c5c-af51-2d54-8cbf" type="selectionEntryGroup"/>
-        <entryLink id="37a0-eb00-1410-6ef8" name="Sacred Relics of the Cult" hidden="false" collective="false" import="true" targetId="ccd1-3759-0432-5c59" type="selectionEntryGroup"/>
+        <entryLink id="37a0-eb00-1410-6ef8" name="Sacred 圣物 of the Cult" hidden="false" collective="false" import="true" targetId="ccd1-3759-0432-5c59" type="selectionEntryGroup"/>
         <entryLink id="8eab-ce40-bdbd-f27f" name="自定义人物选项" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
         <entryLink id="233d-6476-ad6a-d8df" name="是自定义人物" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
       </entryLinks>
@@ -5116,7 +5116,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 a 模型 guided by a Familiar fights, it can make 2 additional 攻击 with 这个武器.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 a 模型 guided by a Familiar fights, 可以造成 2 additional 攻击 with 这个武器.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5182,7 +5182,7 @@
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">1</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 the bearer fights, it can make 1 additional attack with 这个武器. 这个武器 always wounds 结果为2+ 除非目标为载具 or 巨型 单位.</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">持有者每次攻击, 这个武器可以造成 1 点额外攻击. 这个武器 always wounds 结果为2+ 除非目标为载具 or 巨型 单位.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5250,7 +5250,7 @@
         <categoryLink id="7a24-6715-8862-d5b3" name="步兵" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="d379-ace3-fc36-39a6" name="Autopistol" hidden="false" collective="false" import="true" targetId="001e-d0e9-b805-6182" type="selectionEntry">
+        <entryLink id="d379-ace3-fc36-39a6" name="自动手枪" hidden="false" collective="false" import="true" targetId="001e-d0e9-b805-6182" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31ae-a66e-77de-6fca" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd72-476b-34d6-5c78" type="max"/>
@@ -5282,7 +5282,7 @@
         </profile>
         <profile id="4754-be84-0916-88cc" name="Activate the Drill" publicationId="83b2-e602-pubN65537" page="101" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If a 模型 from your army is 结果为Tectonic Fragdrill at the end of your 移动阶段, and there are no 敌方模型 on it, you can activate the drill. If you do so, first 投掷1个D6 for every 单位 on the ground level that is 范围内 3寸 of the tip of 这个模型&apos;s large drill; 结果为6 那个单位 立即 遭受 D6 致命伤. Then 投掷1个D6, adding 1 to the result for each other time the drill on 这个模型 has been activated this battle. If the total is less than 6, the Seismic Tremors result below takes 效果. 结果为6+ the Seismic Tremors and Seismic Quake results below take 效果. The Seismic Quake result can only take 效果 一次性, regardless of how many Tectonic Fragdrills are 战场上.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If a 模型 from your army is 结果为Tectonic Fragdrill at the end of your 移动阶段, and there are no 敌方模型 on it, you can activate the drill. If you do so, first 投掷1个D6 for every 单位 on the ground level that is 范围内 3寸 of the tip of 这个模型的 large drill; 结果为6 那个单位 立即 遭受 D6 致命伤. Then 投掷1个D6, adding 1 to the result for each other time the drill on 这个模型 has been activated this battle. If the total is less than 6, the Seismic Tremors result below takes 效果. 结果为6+ the Seismic Tremors and Seismic Quake results below take 效果. The Seismic Quake result can only take 效果 一次性, regardless of how many Tectonic Fragdrills are 战场上.</characteristic>
           </characteristics>
         </profile>
         <profile id="9bf3-737b-10a0-2217" name="Seismic Tremors" hidden="false" typeId="05e2-717b-01b5-60fa" typeName="Tectonic Fragdrill">
@@ -5366,7 +5366,7 @@
       <profiles>
         <profile id="9075-40e9-ef11-81f4" name="Flare Launcher" publicationId="83b2-e602-pubN65537" page="103" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If a 模型 is equipped with a flare launcher, 投掷1个D6 每次 it 失去1点W. 结果为6, that wound is not lost. 此外, once per game, at the start of your 移动阶段, 可以选择1个 &lt;教团&gt; 摩托 单位 范围内 6寸 of 这个模型, 那个单位 moves and additional 6寸 if it Advances 这个阶段 - no dice roll is necessary.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If a 模型 is equipped with a flare launcher, 投掷1个D6 每次 it 失去1点W. 结果为6, that wound is not lost. 此外, once per game, 开始时 of your 移动阶段, 可以选择1个 &lt;教团&gt; 摩托 单位 范围内 6寸 of 这个模型, 那个单位 moves and additional 6寸 if it Advances 这个阶段 - no dice roll is necessary.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5408,7 +5408,7 @@
       <profiles>
         <profile id="05d7-96ef-10d3-a96a" name="侦察载具" publicationId="83b2-e602-pubN65537" page="94" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of the first battle round but before the first turn begins, you can move 这个单位 至多 9寸. It cannot end this move 范围内 9寸 of 任何敌方模型. If both players have 单位 that can do this, the player who is taking the first turn moves their 单位 first.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">开始时 of the first battle round but before the first turn begins, you can move 这个单位 至多 9寸. It cannot end this move 范围内 9寸 of 任何敌方模型. If both players have 单位 that can do this, the player who is taking the first turn moves their 单位 first.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5657,7 +5657,7 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1c01-a716-69dd-00c2" name="Frag Grenades" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="1c01-a716-69dd-00c2" name="破片手雷" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="3a41-5062-1940-0649" name="破片手雷" hidden="false" targetId="ef45-e91a-fd5d-020e" type="profile"/>
       </infoLinks>
@@ -5734,12 +5734,12 @@
       <profiles>
         <profile id="50c8-35e0-1587-6e94" name="Grandsire&apos;s Gifts" publicationId="83b2-e602-pubN65537" page="112" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Use this Stratagem before the battle. Your army can have one extra Sacred 圣物 of the Cult for 1 CP, or two extra Sacred Relics of the Cult for 3 CPs. 所有 of the Sacred Relics of the Cult that you include 必须 different and be given to different 基因窃取者教团 人物. This Stratagem can only be used 一次性.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Use this Stratagem before the battle. Your army can have one extra Sacred 圣物 of the Cult for 1 CP, or two extra Sacred 圣物 of the Cult for 3 CPs. 所有 of the Sacred 圣物 of the Cult that you include 必须 different and be given to different 基因窃取者教团 人物. This Stratagem can only be used 一次性.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <selectionEntryGroups>
-        <selectionEntryGroup id="84c3-c9c4-a0f2-c6ea" name="Extra Sacred Relics" hidden="false" collective="false" import="true" defaultSelectionEntryId="fa0b-74e9-9f08-778c">
+        <selectionEntryGroup id="84c3-c9c4-a0f2-c6ea" name="Extra Sacred 圣物" hidden="false" collective="false" import="true" defaultSelectionEntryId="fa0b-74e9-9f08-778c">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="93d6-bcb9-fc83-bede" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9203-6080-8512-5f50" type="max"/>
@@ -5752,7 +5752,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="-1.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="ad44-e9fc-74b1-7dc5" name="2 Extra Sacred Relics" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="ad44-e9fc-74b1-7dc5" name="2 Extra Sacred 圣物" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -5855,7 +5855,7 @@
         <rule id="3c58-7627-ae55-e267" name="Ambush Markers" publicationId="83b2-e602-pubN65537" page="79" hidden="false">
           <description>Ambush markers are not 单位 and 不能 targeted, attacked or destroyed. When measuring to or from ambush markers, always measure to the centre of the marker. If you are playing a mission that uses Concealed Deployment, the Concealed Deployment rules only apply to 单位 that do not have the Cult Ambush ability. If you are playing a mission that uses Sentries, Sentry 模型 不能 set up in ambush, even if they have the Cult Ambush ability.
 
-If you have the first turn, you 必须 reveal 所有 of your ambush markers at the start of your 移动阶段, one at a time, before moving any 单位. 每次 you reveal an ambush marker, select one 单位 from your army that you set up in ambush, then set up one 模型 from 那个单位 范围内 1寸 of that ambush marker. Then remove that marker before setting up the rest of that 模型的 单位 wholly 范围内 6寸 of the first model, wholly 范围内 your 部署区 and more than 9寸 from 任何敌方模型 (任何模型 that 不能 placed are destroyed). If it is your turn, 那个单位 can still move and shoot normally during the turn it is set up, but if it is a TRANSPORT, 单位 that 下车 from it this turn 不能 set up 范围内 9寸 of 任何敌方模型. Note that unless these 单位 actually move during this 移动阶段, they do not count as having moved in their 移动阶段 for any rules purposes, such as 射击 重型武器.
+If you have the first turn, you 必须 reveal 所有 of your ambush markers 开始时 of your 移动阶段, one at a time, before moving any 单位. 每次 you reveal an ambush marker, select one 单位 from your army that you set up in ambush, then set up one 模型 from 那个单位 范围内 1寸 of that ambush marker. Then remove that marker before setting up the rest of that 模型的 单位 wholly 范围内 6寸 of the first model, wholly 范围内 your 部署区 and more than 9寸 from 任何敌方模型 (任何模型 that 不能 placed are destroyed). If it is your turn, 那个单位 can still move and shoot normally during the turn it is set up, but if it is a TRANSPORT, 单位 that 下车 from it this turn 不能 set up 范围内 9寸 of 任何敌方模型. Note that unless these 单位 actually move during this 移动阶段, they do not count as having moved in their 移动阶段 for any rules purposes, such as 射击 重型武器.
 
 If your opponent has the first turn, then none of their 单位 can be set up or end a move 范围内 9寸 of any of your ambush markers. At the end of your opponent&apos;s first 移动阶段, after they have set up 所有 of their 单位 from reinforcements (if any), reveal 所有 of your ambush markers as described above before continuing with the turn</description>
         </rule>
@@ -5880,7 +5880,7 @@ If your opponent has the first turn, then none of their 单位 can be set up or 
         <entryLink id="7644-926a-ba01-89db" name="爆弹手枪" hidden="false" collective="false" import="true" targetId="efec-1bb9-1d69-458e" type="selectionEntry"/>
         <entryLink id="cc8c-029c-b630-99bc" name="激光手枪" hidden="false" collective="false" import="true" targetId="1d26-0e4c-c46a-7357" type="selectionEntry"/>
         <entryLink id="b5a9-2f88-08e2-e748" name="Web Pistol" hidden="false" collective="false" import="true" targetId="382f-f99f-f4e9-e7c6" type="selectionEntry"/>
-        <entryLink id="b3db-951f-6475-2a37" name="Autopistol" hidden="false" collective="false" import="true" targetId="0985-3683-24db-1b07" type="selectionEntry"/>
+        <entryLink id="b3db-951f-6475-2a37" name="自动手枪" hidden="false" collective="false" import="true" targetId="0985-3683-24db-1b07" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="4c27-8bdf-9361-d353" name="肉搏武器" hidden="false" collective="false" import="true">
@@ -5917,7 +5917,7 @@ If your opponent has the first turn, then none of their 单位 can be set up or 
         <entryLink id="96fd-c12e-fa41-04c0" name="5. Psychic Stimulus" hidden="false" collective="false" import="true" targetId="f01b-2e31-956b-d326" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="ccd1-3759-0432-5c59" name="Sacred Relics of the Cult" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="ccd1-3759-0432-5c59" name="Sacred 圣物 of the Cult" hidden="false" collective="false" import="true">
       <modifiers>
         <modifier type="increment" field="22ce-8d9f-044b-0f0b" value="1.0">
           <conditionGroups>
@@ -6027,7 +6027,7 @@ If your opponent has the first turn, then none of their 单位 can be set up or 
           <profiles>
             <profile id="ad6a-4661-32c5-8cfc" name="Vial of the Grandsire&apos;s Blood" publicationId="83b2-e602-pubN88803" page="187" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the LD值 of 友方 基因窃取者教团 单位 范围内 6寸 of the bearer. 此外, 一次性, at the start of the 肉搏阶段, you can pick a 基因窃取者教团 步兵模型 范围内 3寸 of the bearer. Add 2 to that 模型的 攻击 and Strength characteristics until the end of that phase.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the LD值 of 友方 基因窃取者教团 单位 范围内 6寸 of the bearer. 此外, 一次性, 开始时 of the 肉搏阶段, you can pick a 基因窃取者教团 步兵模型 范围内 3寸 of the bearer. Add 2 to that 模型的 攻击 and Strength characteristics until the end of that phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6129,7 +6129,7 @@ If your opponent has the first turn, then none of their 单位 can be set up or 
           <profiles>
             <profile id="bf96-005b-6e68-974f" name="Scourge of Distant Stars" publicationId="83b2-e602-pubN65537" page="116" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Oppressor&apos;s Bane replaces the bearer&apos;s autopistol or one of their liberator autostubs.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Oppressor&apos;s Bane replaces the bearer&apos;s 自动手枪 or one of their liberator autostubs.</characteristic>
               </characteristics>
             </profile>
             <profile id="f89b-5f63-7442-0cf4" name="Oppressor&apos;s Bane" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -6179,7 +6179,7 @@ If your opponent has the first turn, then none of their 单位 can be set up or 
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 the bearer fights, it can make 1 additional attack with 这个武器. 这个武器 always wounds 结果为2+ 除非目标为载具 or 巨型 单位. If a 人物 模型 loses any wounds as a result of an attack with 这个武器 but is not slain, it 遭受 D3 致命伤 after the bearer has made 所有 of its 攻击.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">持有者每次攻击, 这个武器可以造成 1 点额外攻击. 这个武器 always wounds 结果为2+ 除非目标为载具 or 巨型 单位. If a 人物 模型 loses any wounds as a result of an attack with 这个武器 but is not slain, it 遭受 D3 致命伤 after the bearer has made 所有 of its 攻击.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6208,7 +6208,7 @@ If your opponent has the first turn, then none of their 单位 can be set up or 
           <profiles>
             <profile id="5b25-5238-371c-6b3c" name="The Gift from Beyond" publicationId="83b2-e602-pubN65537" page="117" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 2 to wound 骰 for 攻击 made with 这个模型&apos;s Jackal 狙击步枪 or silencer 狙击步枪 除非目标为载具 or 巨型 单位.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 2 to wound 骰 for 攻击 made with 这个模型的 Jackal 狙击步枪 or silencer 狙击步枪 除非目标为载具 or 巨型 单位.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6267,7 +6267,7 @@ If your opponent has the first turn, then none of their 单位 can be set up or 
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 the bearer fights, it can make 4 additional 攻击 with 这个武器.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">持有者每次攻击, 可以造成 4 additional 攻击 with 这个武器.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6363,7 +6363,7 @@ If your opponent has the first turn, then none of their 单位 can be set up or 
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="d392-460f-a648-b2f0" name="Metallophagic Stave" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="d392-460f-a648-b2f0" name="Metallophagic 杖" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -6397,12 +6397,12 @@ If your opponent has the first turn, then none of their 单位 can be set up or 
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="930e-b119-3918-ffe2" type="max"/>
           </constraints>
           <profiles>
-            <profile id="6865-2743-6909-8d54" name="Metallophagic Stave" publicationId="83b2-e602-pubN65537" page="117" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+            <profile id="6865-2743-6909-8d54" name="Metallophagic 杖" publicationId="83b2-e602-pubN65537" page="117" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">RUSTED CLAW only. The Metallophagic Stave replaces the bearer&apos;s force stave.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">RUSTED CLAW only. The Metallophagic 杖 replaces the bearer&apos;s force 杖.</characteristic>
               </characteristics>
             </profile>
-            <profile id="bdab-2804-d11d-5d82" name="Metallophagic Stave" publicationId="83b2-e602-pubN65537" page="117" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+            <profile id="bdab-2804-d11d-5d82" name="Metallophagic 杖" publicationId="83b2-e602-pubN65537" page="117" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -6798,7 +6798,7 @@ If your opponent has the first turn, then none of their 单位 can be set up or 
               <profiles>
                 <profile id="2500-704f-8eb0-0271" name="Bio-alchemist" publicationId="83b2-e602-pubN65537" page="115" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Increase the D值 of 武器 (other than Sacred Relics of the Cult or 武器 modified by Sacred Relics of the Cult) used by your 主将 by 1.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Increase the D值 of 武器 (other than Sacred 圣物 of the Cult or 武器 modified by Sacred 圣物 of the Cult) used by your 主将 by 1.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -6985,7 +6985,7 @@ If your opponent has the first turn, then none of their 单位 can be set up or 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f5ec-f2fb-1b74-774c" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="532f-0a51-ee35-be84" name="Autopistol" hidden="false" collective="false" import="true" targetId="0985-3683-24db-1b07" type="selectionEntry">
+        <entryLink id="532f-0a51-ee35-be84" name="自动手枪" hidden="false" collective="false" import="true" targetId="0985-3683-24db-1b07" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="18ec-c1bb-5dc3-6fe6" type="max"/>
           </constraints>
@@ -7081,7 +7081,7 @@ For ambush markers, see 圣典: 基因窃取者教团 p79.</description>
 
 If your army is Battle-forged, you can only include one 星界军 Detachment (one in which every 单位 has the 星界军 关键字) in your army for each 基因窃取者教团 Detachment in that army. You cannot include 星界军 named 人物 in these Detachments, and these Detachments 不能 Specialist Detachments. These 星界军 Detachments are then known as BROOD BROTHERS Detachments, and every 单位 in them that has the &lt;REGIMENT&gt; or MILITARUM TEMPESTUS 关键字 必须 replace it in every instance on its datasheet with BROOD BROTHERS (如果1个单位 does not have either of these keywords, it simply 获得 BROOD BROTHERS 关键字).
 
-BROOD BROTHERS Detachments do not gain any of the Detachment abilities listed in 圣典: 星界军, such as Regimental Doctrines, nor can they use any regiment-specific Stratagems, Orders etc. Furthermore, 步兵模型 in BROOD BROTHERS Detachments increase their LD值 by 1 and they gain the Unquestioning Loyalty ability. 单位 in BROOD BROTHERS Detachments do not gain the Cult Ambush ability. Your 主将 不能 from a BROOD BROTHERS Detachment, and you cannot give any Relics to BROOD BROTHERS 人物. 此外, the Command Benefits of 所有 BROOD BROTHERS Detachments included in your army in this way are halved (rounding up). This reflects that such Detachments are not a 基因窃取者 Cult&apos;s primary fighting force, and the acquisition of such military assets is costly in terms of resource. The command benefits of Auxiliary Support Detachments are unaffected.
+BROOD BROTHERS Detachments do not gain any of the Detachment abilities listed in 圣典: 星界军, such as Regimental Doctrines, nor can they use any regiment-specific Stratagems, Orders etc. Furthermore, 步兵模型 in BROOD BROTHERS Detachments increase their LD值 by 1 and they gain the Unquestioning Loyalty ability. 单位 in BROOD BROTHERS Detachments do not gain the Cult Ambush ability. Your 主将 不能 from a BROOD BROTHERS Detachment, and you cannot give any 圣物 to BROOD BROTHERS 人物. 此外, the Command Benefits of 所有 BROOD BROTHERS Detachments included in your army in this way are halved (rounding up). This reflects that such Detachments are not a 基因窃取者 Cult&apos;s primary fighting force, and the acquisition of such military assets is costly in terms of resource. The command benefits of Auxiliary Support Detachments are unaffected.
 
 BROOD BROTHERS 单位 that have the Voice of Command or 坦克命令 abilities (see 圣典: 星界军) cannot issue orders to 任何单位 that has the GENSTEALER CULTS Faction 关键字, nor can they issue orders to 单位 that they would not have been able to issue orders to before they gained the BROOD BROTHERS 关键字 (e.g. a BROOD BROTHERS COMPANY 指挥官 cannot issue orders to a BROOD BROTHERS OGRYN 单位 or to a BROOD BROTHERS TEMPESTUS SCIONS 单位).
 
@@ -7326,7 +7326,7 @@ BROOD BROTHERS TAUROX PRIMES can only transport 10 BROOD BROTHERS OFFICIO PREFEC
         <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 the bearer fights, it can make 1 additional attack with 这个武器.</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">持有者每次攻击, 这个武器可以造成 1 点额外攻击.</characteristic>
       </characteristics>
     </profile>
     <profile id="0ed3-40c7-242c-a144" name="Drilldozer Blade" publicationId="83b2-e602-pubN65537" page="104" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -7396,7 +7396,7 @@ BROOD BROTHERS TAUROX PRIMES can only transport 10 BROOD BROTHERS OFFICIO PREFEC
         <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 the bearer fights, it can make 1 additional attack with 这个武器. Add 1 to 所有命中骰 for 这个武器.</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">持有者每次攻击, 这个武器可以造成 1 点额外攻击. Add 1 to 所有命中骰 for 这个武器.</characteristic>
       </characteristics>
     </profile>
     <profile id="2fe7-e1b2-b00a-6d44" name="Metamorph Whip" publicationId="83b2-e602-pubN65537" page="104" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -7436,7 +7436,7 @@ BROOD BROTHERS TAUROX PRIMES can only transport 10 BROOD BROTHERS OFFICIO PREFEC
         <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 a 模型 with a rending claw makes an attack with 这个武器, it can make one additional attack with its rending claw.</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 a 模型 with a rending claw makes an attack with 这个武器, 可以造成 one 额外攻击 with its rending claw.</characteristic>
       </characteristics>
     </profile>
     <profile id="ac22-464b-0093-c26d" name="Purestrain Talons" publicationId="83b2-e602-pubN65537" page="104" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -7446,7 +7446,7 @@ BROOD BROTHERS TAUROX PRIMES can only transport 10 BROOD BROTHERS OFFICIO PREFEC
         <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When attacking with 这个武器 可以重投命中骰 of 1.</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">使用这个武器时 可以重投命中骰 of 1.</characteristic>
       </characteristics>
     </profile>
     <profile id="40db-88ed-10e4-c29d" name="Rending Claw(s)" publicationId="83b2-e602-pubN65537" page="104" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -7532,7 +7532,7 @@ BROOD BROTHERS TAUROX PRIMES can only transport 10 BROOD BROTHERS OFFICIO PREFEC
       <characteristics>
         <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">7</characteristic>
         <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
-        <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Select a 友方 基因窃取者教团 步兵 or 摩托 单位 范围内 18寸 of the 灵能者. Add 1 to the Strength and 攻击 characteristics of 所有 模型 in 那个单位 until the start of your next 灵能阶段.</characteristic>
+        <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Select a 友方 基因窃取者教团 步兵 or 摩托 单位 范围内 18寸 of the 灵能者. Add 1 to the S和A值 of 所有 模型 in 那个单位 until the start of your next 灵能阶段.</characteristic>
       </characteristics>
     </profile>
     <profile id="34b7-c526-c2d4-2857" name="Bestial Vigour" publicationId="83b2-e602-pubN65537" page="88" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -7547,7 +7547,7 @@ BROOD BROTHERS TAUROX PRIMES can only transport 10 BROOD BROTHERS OFFICIO PREFEC
         <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 the bearer fights, it can make one additional attack with 这个武器.</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">持有者每次攻击, 可以造成 one 额外攻击 with 这个武器.</characteristic>
       </characteristics>
     </profile>
     <profile id="daa2-3ccb-d2b1-7358" name="Aberrant" publicationId="83b2-e602-pubN65537" page="88" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
@@ -7627,7 +7627,7 @@ BROOD BROTHERS TAUROX PRIMES can only transport 10 BROOD BROTHERS OFFICIO PREFEC
       <characteristics>
         <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">6</characteristic>
         <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
-        <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Select an 敌方模型 范围内 18寸 of and 可见 to the 灵能者. Each player 骰 a D6 and adds their 模型的 LD值 to their result. If your score is higher, the 敌方模型&apos;s 单位 遭受 1 致命伤; if the selected 模型 is still alive you then repeat this process (each player rolling a D6 and adding their respective LD) until either the selected 模型 is destroyed, your opponent 骰 a 6, and/or your opponent&apos;s result is equal to or higher than yours.</characteristic>
+        <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Select an 敌方模型 范围内 18寸 of and 可见 to the 灵能者. Each player 骰 a D6 and adds their 模型的 LD值 to their result. If your score is higher, the 敌方模型的 单位 遭受 1 致命伤; if the selected 模型 is still alive you then repeat this process (each player rolling a D6 and adding their respective LD) until either the selected 模型 is destroyed, your opponent 骰 a 6, and/or your opponent&apos;s result is equal to or higher than yours.</characteristic>
       </characteristics>
     </profile>
     <profile id="714d-ecf6-e9da-fcd1" name="Psychic Stimulus" publicationId="83b2-e602-pubN65537" page="113" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">

@@ -769,7 +769,7 @@
     </forceEntry>
     <forceEntry id="3c85-9649-d2da-9bde" name="袭扰分队 +1指挥点" hidden="false">
       <forceEntries>
-        <forceEntry id="6fb7-031b-0276-59c9" name="Outrider Detachment" hidden="false">
+        <forceEntry id="6fb7-031b-0276-59c9" name="袭扰分队" hidden="false">
           <categoryLinks>
             <categoryLink id="d657-ba0c-61e5-5180" name="游戏选项" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
             <categoryLink id="0264-8ffd-31bc-2d30" name="指挥槽位" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false"/>
@@ -2399,7 +2399,7 @@
         </profile>
         <profile id="abe7-f841-acc8-c3f4" name="Landing Pad Configuration" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">单位 can move across 这个模型 as if it were a terrain feature. When 这个模型 is set up 战场上, select either the Shielded or Unfurled configuration to be in 效果. At the start of your 移动阶段, if there are no 敌方模型 范围内 1寸 of the Skyshield Landing Pad, you can change which configuration is in 效果:</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">单位 can move across 这个模型 as if it were a terrain feature. When 这个模型 is set up 战场上, select either the Shielded or Unfurled configuration to be in 效果. 开始时 of your 移动阶段, if there are no 敌方模型 范围内 1寸 of the Skyshield Landing Pad, you can change which configuration is in 效果:</characteristic>
           </characteristics>
         </profile>
         <profile id="c01d-4736-944f-b007" name="Shielded" hidden="false" typeId="002f-cc4a-c4e3-0261" typeName="登陆平台配置">
@@ -2438,7 +2438,7 @@
       <profiles>
         <profile id="4ca0-bdc4-9090-1647" name="Fully Automated 武器" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型&apos;s 武器 只能瞄准 the closest 可见 敌方单位. 攻击 made with the 四联 Icarus Lascannons can instead target the closest 可见 敌方单位 飞行关键字. In either case, if two or more 单位 are equally close, you can choose which is targeted.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型的 武器 只能瞄准 the closest 可见 敌方单位. 攻击 made with the 四联 Icarus Lascannons can instead target the closest 可见 敌方单位 飞行关键字. In either case, if two or more 单位 are equally close, you can choose which is targeted.</characteristic>
           </characteristics>
         </profile>
         <profile id="4e2c-1874-14f7-56d8" name="Vengeance 武器 Battery" publicationId="28ec-711c-pubN77581" page="132" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
@@ -2772,7 +2772,7 @@
     </selectionEntry>
     <selectionEntry id="0507-a97d-4f7f-83b4" name="自动手枪" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="a383-6bcd-79e0-591a" name="Autopistol" hidden="false" targetId="2481-001b-00f9-501b" type="profile"/>
+        <infoLink id="a383-6bcd-79e0-591a" name="自动手枪" hidden="false" targetId="2481-001b-00f9-501b" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -2822,7 +2822,7 @@
     </selectionEntry>
     <selectionEntry id="6f9a-c4fe-3132-d011" name="动力杖" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="2552-08c9-9419-8a06" name="Force stave" hidden="false" targetId="ed69-f85e-5982-9ab8" type="profile"/>
+        <infoLink id="2552-08c9-9419-8a06" name="Force 杖" hidden="false" targetId="ed69-f85e-5982-9ab8" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="8.0"/>
@@ -4241,7 +4241,7 @@
         </profile>
         <profile id="51d4-df4c-ff22-356e" name="Battle Crew" publicationId="28ec-711c-pubN91434" page="53" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You may add 1 to 这个模型&apos;s 命中 骰 when making 射击攻击 对抗 模型 with the 巨型 关键字.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You may add 1 to 这个模型的 命中 骰 when making 射击攻击 对抗 模型 with the 巨型 关键字.</characteristic>
           </characteristics>
         </profile>
         <profile id="888f-fcce-8911-d3c3" name="Force Dome" publicationId="28ec-711c-pubN91434" page="53" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -4744,7 +4744,7 @@
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If you roll three or more 命中 骰 of 1 for 这个模型&apos;s lascannons or 双联lascannons in the same phase, it experiences a power overload and 遭受 6 致命伤.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If you roll three or more 命中 骰 of 1 for 这个模型的 lascannons or 双联lascannons in the same phase, it experiences a power overload and 遭受 6 致命伤.</characteristic>
           </characteristics>
         </profile>
         <profile id="27ee-a8ba-ee83-4fa3" name="机魂之力" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -5683,7 +5683,7 @@
         <categoryLink id="4df8-7815-eff1-e046" name="New CategoryLink" hidden="false" targetId="53cd-314c-599b-8616" primary="false"/>
         <categoryLink id="978e-859f-01e2-0f29" name="New CategoryLink" hidden="false" targetId="c8fd-783f-3230-493e" primary="false"/>
         <categoryLink id="2fc6-7c3b-6b23-4dff" name="New CategoryLink" hidden="false" targetId="6cc4-1b62-8e8a-05cd" primary="false"/>
-        <categoryLink id="7183-4744-1d44-14b2" name="阵营: Chaos" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
+        <categoryLink id="7183-4744-1d44-14b2" name="阵营: 混沌" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="c364-48d4-1ac4-52ae" name="炮塔武器" hidden="false" collective="false" import="true">
@@ -6153,7 +6153,7 @@
                   <profiles>
                     <profile id="4a64-cba7-3757-7487" name="14: Duelist" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to 这个模型’s Strength and 攻击 characteristics while it is 范围内 1寸 of any 敌方 人物 单位.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to 这个模型’s S和A值 while it is 范围内 1寸 of any 敌方 人物 单位.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6391,7 +6391,7 @@
                   <profiles>
                     <profile id="09a4-6f7c-d011-706c" name="36: Impervious" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 regains 1 lost wound at the start of your turn. </characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 regains 1 lost wound 开始时 of your turn. </characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6459,7 +6459,7 @@
                   <profiles>
                     <profile id="faf9-46bb-7bee-126c" name="44: Strategic Feint" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of the first battle round but before the first turn begins, you can pick a 友方 &lt;Sub-faction&gt; 单位 范围内 6寸 of 这个模型 and 放置 again, 任何位置 wholly 范围内 your 部署区. If your opponent has 任何单位 with similar abilities, roll off; starting with the winner of the roll-off, take it in turns to resolve these abilities.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">开始时 of the first battle round but before the first turn begins, you can pick a 友方 &lt;Sub-faction&gt; 单位 范围内 6寸 of 这个模型 and 放置 again, 任何位置 wholly 范围内 your 部署区. If your opponent has 任何单位 with similar abilities, roll off; starting with the winner of the roll-off, take it in turns to resolve these abilities.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6510,7 +6510,7 @@
                   <profiles>
                     <profile id="fa5f-6cdc-2d50-3139" name="51: Inspirational Leader" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">友方 &lt;Sub-faction&gt;单位 can use 这个模型’s LD 而不是 their own while they are 范围内 6寸 of it.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">友方 &lt;Sub-faction&gt;单位 can use 这个模型’s LD 而不是 他们自己的 while they are 范围内 6寸 of it.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6820,7 +6820,7 @@
                   <profiles>
                     <profile id="37ad-2ef0-0868-af26" name="08: Finely Balanced" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s 肉搏武器. Add the following ability to that 武器: ‘每次 the bearer fights, it can make 1 additional attack with 这个武器.’</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s 肉搏武器. Add the following ability to that 武器: ‘持有者每次攻击, 这个武器可以造成 1 点额外攻击.’</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7232,7 +7232,7 @@
               <profiles>
                 <profile id="6748-2c2f-3f15-4d1b" name="R1: Agile" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can 重投 Advance and Charge 骰 for 这个单位. </characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can 重投 加速和冲锋 骰 for 这个单位. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7634,7 +7634,7 @@
               <profiles>
                 <profile id="44e4-101d-e364-2de4" name="R5: Just Making it Angry" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型拥有 损伤表, double the number of wounds it has remaining for the purposes of determining what its Strength and 攻击 characteristics are.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型拥有 损伤表, double the number of wounds it has remaining for the purposes of determining what its S和A值 are.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7651,7 +7651,7 @@
               <profiles>
                 <profile id="8a74-576a-8469-143a" name="R5: Eager" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of the first battle round but before the first turn begins, you can move 这个模型 至多 5寸. It cannot end this move 范围内 9寸 of 任何敌方模型. If both players have 单位 that can do this, the player who is taking the first turn moves their 单位 first. </characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">开始时 of the first battle round but before the first turn begins, you can move 这个模型 至多 5寸. It cannot end this move 范围内 9寸 of 任何敌方模型. If both players have 单位 that can do this, the player who is taking the first turn moves their 单位 first. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7913,7 +7913,7 @@
 3) Tenacious Survivor: Roll a dice 每次 这个主将 失去1点W.  结果为6, the 主将 shrugs off the 伤害 and does not lose the wound.</description>
     </rule>
     <rule id="a269-b8d9-67c5-4009" name="复合武器" hidden="false">
-      <description>When attacking with 这个武器, choose one or both of the profiles. If you choose both, 减少 1 from 所有命中骰 for 这个武器.</description>
+      <description>使用这个武器时, choose one or both of the profiles. If you choose both, 减少 1 from 所有命中骰 for 这个武器.</description>
     </rule>
     <rule id="cc24-45b1-6aa4-55bb" name="行星打击分队" publicationId="28ec-711c-pubN73170" page="34" hidden="false">
       <description>The 5 CPs from this detachment can only be spent on Planetstrike Stratagems.</description>
@@ -7922,16 +7922,16 @@
       <description>The 5 CPs from this detachment can only be spent on 要塞突袭 Stratagems.</description>
     </rule>
     <rule id="5a7e-f984-487c-d767" name="爆弹训练" publicationId="28ec-711c-pubN110542" hidden="false">
-      <description>所有 阿斯塔特修会 and 阿斯塔特叛军 模型 gain this ability. 而不是 following the normal rules for 速射 武器, 速射爆弹武器 used by 模型 with this ability make double the number of 攻击 if any of the following conditions apply: 1) The firing 模型的 target is 范围内 half the 武器&apos;s maximum range. 2)    The firing 模型 is 步兵 and every 模型 in its 单位 remained stationary in your previous 移动阶段. 3) The firing 模型 is a 终结者, 摩托, 百夫长, or 无畏. For the purposes of this ability a 速射爆弹武器 is any 武器 with the 速射 type whose name includes the word &apos;bolt&apos; (e.g. 爆弹枪, 爆弹步枪, 风暴爆弹, 复合爆弹, 飓风爆弹, 地狱爆弹枪, etc.) This also applies when firing the 爆弹枪 profile of a combi-武器 (including the 爆弹武器 profile of Relics such as Blood Song and the Lion&apos;s Wrath) and when firing relics that replace a 速射爆弹武器, so long as the 圣物 is also a rapid-fire 武器 (e.g. Primarch&apos;s Wrath, Fury of Deimos, etc) The gauntlets of ultramar and the Talon of Horus are also considered 速射爆弹武器, as is the 卫士之矛 used by 死亡守望 Watch Masters.</description>
+      <description>所有 阿斯塔特修会 and 阿斯塔特叛军 模型 gain this ability. 而不是 following the normal rules for 速射 武器, 速射爆弹武器 used by 模型 with this ability make double the number of 攻击 if any of the following conditions apply: 1) The firing 模型的 target is 范围内 half the 武器&apos;s maximum range. 2)    The firing 模型 is 步兵 and every 模型 in its 单位 remained stationary in your previous 移动阶段. 3) The firing 模型 is a 终结者, 摩托, 百夫长, or 无畏. For the purposes of this ability a 速射爆弹武器 is any 武器 with the 速射 type whose name includes the word &apos;bolt&apos; (e.g. 爆弹枪, 爆弹步枪, 风暴爆弹, 复合爆弹, 飓风爆弹, 地狱爆弹枪, etc.) This also applies when firing the 爆弹枪 profile of a combi-武器 (including the 爆弹武器 profile of 圣物 such as Blood Song and the Lion&apos;s Wrath) and when firing 圣物 that replace a 速射爆弹武器, so long as the 圣物 is also a rapid-fire 武器 (e.g. Primarch&apos;s Wrath, Fury of Deimos, etc) The gauntlets of ultramar and the Talon of Horus are also considered 速射爆弹武器, as is the 卫士之矛 used by 死亡守望 Watch Masters.</description>
     </rule>
     <rule id="01a4-bec8-b573-fde7" name="死亡天使" hidden="false">
       <description>这个单位 has the following abilities: 他们无所畏惧, Bolter Discipline, Shock Assault and Combat Doctrines.’</description>
     </rule>
     <rule id="f9ce-5a8b-7abd-2395" name="雷霆突击" hidden="false">
-      <description>If 这个单位 makes a 冲锋移动, is charged or performs a Heroic Intervention, add 1 to the A值 of 模型 in 这个单位 until the end of the turn.</description>
+      <description>If 这个单位 makes a 冲锋移动, is charged or performs a Heroic Intervention, add 1 to the A值 of 模型 in 这个单位 直到回合结束.</description>
     </rule>
     <rule id="73c3-c791-cd2f-6ad2" name="Hateful Assault" hidden="false">
-      <description>If 这个单位 makes a 冲锋移动, is charged or performs a Heroic Intervention, add 1 to the A值 of 模型 in 这个单位 until the end of the turn.</description>
+      <description>If 这个单位 makes a 冲锋移动, is charged or performs a Heroic Intervention, add 1 to the A值 of 模型 in 这个单位 直到回合结束.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -9497,7 +9497,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">x2</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
-        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">When a 模型 攻击 with 这个武器, you 必须 减少 1 from the 命中 roll.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">When a 模型 攻击 with 这个武器, you 必须 命中骰-1.</characteristic>
       </characteristics>
     </profile>
     <profile id="9873-9487-e878-7e93" name="驱灵手雷" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -9614,7 +9614,7 @@
     </profile>
     <profile id="46f3-7be5-6ec3-4fde" name="Rapid Tunnelling" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of your 移动阶段, you can remove 这个模型 from the battlefield. At the end of your next 移动阶段, 放置 again, 任何位置 战场上 that is more than 9寸 away from 任何敌方模型.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">开始时 of your 移动阶段, you can remove 这个模型 from the battlefield. At the end of your next 移动阶段, 放置 again, 任何位置 战场上 that is more than 9寸 away from 任何敌方模型.</characteristic>
       </characteristics>
     </profile>
     <profile id="8e81-7c95-43ba-6e0d" name="爆炸 (2D6寸)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -9634,7 +9634,7 @@
     </profile>
     <profile id="0f50-2ea2-b251-a213" name="Automated 武器 (Icarus)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Unless a 友方单位 is 上车 aboard 这个模型, 这个模型&apos;s 武器 只能瞄准 the closest 可见 敌方单位. 攻击 made with the Icarus 激光炮 can instead target the closest 可见 敌方单位 飞行关键字. In either case, if two or more 单位 are equally close, you may choose which is targeted.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Unless a 友方单位 is 上车 aboard 这个模型, 这个模型的 武器 只能瞄准 the closest 可见 敌方单位. 攻击 made with the Icarus 激光炮 can instead target the closest 可见 敌方单位 飞行关键字. In either case, if two or more 单位 are equally close, you may choose which is targeted.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
