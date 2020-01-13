@@ -151,8 +151,8 @@
   <forceEntries>
     <forceEntry id="589a-ffd9-4f49-f8ae" name="Super-Heavy Auxiliary Detachment -3CP (The Eight)" publicationId="2ec0-6d53-e36b-9895" page="114" hidden="false">
       <categoryLinks>
-        <categoryLink id="cec2-0bfb-687a-420a" name="No Force Org Slot" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
-        <categoryLink id="4d32-01e0-5e9c-bb0f" name="Lord of War" hidden="false" targetId="c888f08a-6cea-4a01-8126-d374a9231554" primary="false">
+        <categoryLink id="cec2-0bfb-687a-420a" name="游戏选项" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
+        <categoryLink id="4d32-01e0-5e9c-bb0f" name="战争之王槽位" hidden="false" targetId="c888f08a-6cea-4a01-8126-d374a9231554" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a4f3-612a-0cb5-e260" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1af-7db0-008e-1f3c" type="min"/>
@@ -231,7 +231,7 @@
     <entryLink id="5a83-ebab-47e7-5b43" name="Dahyak Grekh" hidden="false" collective="false" import="true" targetId="5ba3-6735-0de4-56bf" type="selectionEntry"/>
     <entryLink id="ef69-08cf-a255-2739" name="The Eight" hidden="false" collective="false" import="true" targetId="2b21-8566-e761-2d44" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="1d3d-96a1-cbd1-612a" name="Lord of War" hidden="false" targetId="c888f08a-6cea-4a01-8126-d374a9231554" primary="true"/>
+        <categoryLink id="1d3d-96a1-cbd1-612a" name="战争之王槽位" hidden="false" targetId="c888f08a-6cea-4a01-8126-d374a9231554" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -3326,7 +3326,7 @@
     <selectionEntry id="32af-cfde-8de0-180a" name="Tidewall Gunrig" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
         <infoLink id="3dbb-e819-a03c-332b" name="Tidewall Gunrig" hidden="false" targetId="9a4a-378f-8daf-a1bf" type="profile"/>
-        <infoLink id="e3f7-06ab-4f45-b022" name="Fortification" hidden="false" targetId="e2ef-269f-8ab5-9b20" type="profile"/>
+        <infoLink id="e3f7-06ab-4f45-b022" name="工事槽位" hidden="false" targetId="e2ef-269f-8ab5-9b20" type="profile"/>
         <infoLink id="67ab-cd25-936a-0a63" name="Open-topped" hidden="false" targetId="b21d-2b95-7a43-1500" type="profile"/>
         <infoLink id="2032-d316-6c85-6555" name="Mobile Defence Platform" hidden="false" targetId="a341-7d9b-b950-e289" type="profile"/>
         <infoLink id="df9c-4fb2-258d-a7de" name="Automated 武器" hidden="false" targetId="e1c5-02b3-b9bb-f83d" type="profile"/>
@@ -3358,7 +3358,7 @@
     </selectionEntry>
     <selectionEntry id="b5cb-0fc1-45ac-867a" name="Tidewall Droneport" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
-        <infoLink id="860d-44a6-0485-2584" name="Fortification" hidden="false" targetId="e2ef-269f-8ab5-9b20" type="profile"/>
+        <infoLink id="860d-44a6-0485-2584" name="工事槽位" hidden="false" targetId="e2ef-269f-8ab5-9b20" type="profile"/>
         <infoLink id="4e9a-ebbc-8939-e44c" name="Mobile Defence Platform" hidden="false" targetId="a341-7d9b-b950-e289" type="profile"/>
         <infoLink id="79e6-0684-fe11-8c59" name="Open-topped" hidden="false" targetId="b21d-2b95-7a43-1500" type="profile"/>
         <infoLink id="b2bf-55d0-df00-31d0" name="爆炸" hidden="false" targetId="ed2c-4b7d-a3cb-0417" type="rule"/>
@@ -3391,7 +3391,7 @@
     </selectionEntry>
     <selectionEntry id="dea0-7a6e-89e0-9928" name="Tidewall Shieldline" publicationId="c0bb-c0cd-pubN68738" page="117" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
-        <infoLink id="d88c-b166-111d-a056" name="Fortification" hidden="false" targetId="e2ef-269f-8ab5-9b20" type="profile"/>
+        <infoLink id="d88c-b166-111d-a056" name="工事槽位" hidden="false" targetId="e2ef-269f-8ab5-9b20" type="profile"/>
         <infoLink id="6d6c-fe6e-43da-05a9" name="Tidewall Network" hidden="false" targetId="5380-3b12-fe9e-d460" type="profile"/>
         <infoLink id="f415-dfca-cb09-cab3" name="Mobile Defence Platform" hidden="false" targetId="a341-7d9b-b950-e289" type="profile"/>
         <infoLink id="058b-6982-7121-80cd" name="Open-topped" hidden="false" targetId="b21d-2b95-7a43-1500" type="profile"/>
@@ -11811,7 +11811,7 @@ Tactical Drones accompanying 单位 use their own datasheet (pg 109), while prof
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Unless a 友方 钛帝国 步兵单位 is 上车 on 这个模型, its supremacy railgun 只能瞄准 the nearest 可见 敌方. If two 单位 are equally close, you may choose which is targeted.</characteristic>
       </characteristics>
     </profile>
-    <profile id="e2ef-269f-8ab5-9b20" name="Fortification" publicationId="c0bb-c0cd-pubN68738" page="117-119" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="e2ef-269f-8ab5-9b20" name="工事槽位" publicationId="c0bb-c0cd-pubN68738" page="117-119" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A Tidewall 不能移动 independently, nor can it fight in the 肉搏阶段. 敌方模型 自动 命中 这个模型 in the 肉搏阶段 - do not make 命中 骰. 然而, 这个模型 can still shoot if there are 敌方模型 范围内 1寸 of it, and 友方单位 can still target 敌方单位 that are 范围内 1寸 of 这个模型.</characteristic>
       </characteristics>

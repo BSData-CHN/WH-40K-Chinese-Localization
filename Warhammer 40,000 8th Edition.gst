@@ -168,42 +168,42 @@
       <forceEntries>
         <forceEntry id="22fe-e36f-71e2-b796" name="巡逻分队" hidden="false">
           <categoryLinks>
-            <categoryLink id="08b9-da67-2327-6c1e" name="No Force Org Slot" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
-            <categoryLink id="9217-73a1-3624-1f7d" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false"/>
-            <categoryLink id="54ff-9b86-6104-b32c" name="Troops" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false"/>
-            <categoryLink id="277f-2488-2867-06fc" name="Elites" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false"/>
-            <categoryLink id="093d-d3a6-7a43-35b2" name="Fast Attack" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false"/>
-            <categoryLink id="37de-4b8c-3cf3-00f3" name="Heavy Support" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false"/>
+            <categoryLink id="08b9-da67-2327-6c1e" name="游戏选项" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
+            <categoryLink id="9217-73a1-3624-1f7d" name="指挥槽位" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false"/>
+            <categoryLink id="54ff-9b86-6104-b32c" name="基础槽位" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false"/>
+            <categoryLink id="277f-2488-2867-06fc" name="精英槽位" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false"/>
+            <categoryLink id="093d-d3a6-7a43-35b2" name="快速槽位" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false"/>
+            <categoryLink id="37de-4b8c-3cf3-00f3" name="重型槽位" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false"/>
             <categoryLink id="f494-d4ee-0846-773f" name="Flyer" hidden="false" targetId="e888-1504-aa61-95ff" primary="false"/>
             <categoryLink id="e62c-d409-cb2b-4d75" name="Dedicated Transport" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false"/>
           </categoryLinks>
         </forceEntry>
       </forceEntries>
       <categoryLinks>
-        <categoryLink id="b804-eab0-fa1a-b573" name="No Force Org Slot" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
-        <categoryLink id="b201-7a22-83be-fcd2" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false">
+        <categoryLink id="b804-eab0-fa1a-b573" name="游戏选项" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
+        <categoryLink id="b201-7a22-83be-fcd2" name="指挥槽位" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f309-30a4-c2a6-80cf" type="max"/>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d2f4-9572-bf17-f45e" type="min"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="701d-f8cf-a497-db95" name="Troops" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false">
+        <categoryLink id="701d-f8cf-a497-db95" name="基础槽位" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0ecb-6e0d-163a-7998" type="max"/>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="57c7-2337-eef8-a7d3" type="min"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="fddc-2c95-ab7e-05ed" name="Elites" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false">
+        <categoryLink id="fddc-2c95-ab7e-05ed" name="精英槽位" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="73fa-b4ab-fa31-5a83" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="1216-7505-893f-c142" name="Fast Attack" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false">
+        <categoryLink id="1216-7505-893f-c142" name="快速槽位" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="08b0-f175-30f0-0de3" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="7059-67eb-1416-d1d4" name="Heavy Support" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false">
+        <categoryLink id="7059-67eb-1416-d1d4" name="重型槽位" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0b3c-8105-4ba6-882e" type="max"/>
           </constraints>
@@ -288,42 +288,42 @@
       <forceEntries>
         <forceEntry id="c7fc-1172-cd53-2dae" name="连级分队" hidden="false">
           <categoryLinks>
-            <categoryLink id="8ef3-97b6-69fc-bd6b" name="No Force Org Slot" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
-            <categoryLink id="b941-009e-b700-f512" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false"/>
-            <categoryLink id="69a8-6416-9c97-27a5" name="Troops" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false"/>
-            <categoryLink id="30b0-63c8-a9d5-d86f" name="Elites" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false"/>
-            <categoryLink id="92b8-6537-f303-6ab4" name="Heavy Support" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false"/>
+            <categoryLink id="8ef3-97b6-69fc-bd6b" name="游戏选项" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
+            <categoryLink id="b941-009e-b700-f512" name="指挥槽位" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false"/>
+            <categoryLink id="69a8-6416-9c97-27a5" name="基础槽位" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false"/>
+            <categoryLink id="30b0-63c8-a9d5-d86f" name="精英槽位" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false"/>
+            <categoryLink id="92b8-6537-f303-6ab4" name="重型槽位" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false"/>
             <categoryLink id="c2f9-82ad-e4c6-bc61" name="Flyer" hidden="false" targetId="e888-1504-aa61-95ff" primary="false"/>
             <categoryLink id="1d9c-2d5c-cea2-6bd0" name="Dedicated Transport" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false"/>
-            <categoryLink id="1153-a2ee-cd37-9992" name="Fast Attack" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false"/>
+            <categoryLink id="1153-a2ee-cd37-9992" name="快速槽位" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false"/>
           </categoryLinks>
         </forceEntry>
       </forceEntries>
       <categoryLinks>
-        <categoryLink id="0e1f-72c2-388e-0869" name="No Force Org Slot" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
-        <categoryLink id="dc98-c3a9-900b-5345" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false">
+        <categoryLink id="0e1f-72c2-388e-0869" name="游戏选项" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
+        <categoryLink id="dc98-c3a9-900b-5345" name="指挥槽位" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9fdc-aad8-04dc-bf45" type="max"/>
             <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9d84-0125-d23f-786e" type="min"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="661b-1f7f-2072-c68b" name="Troops" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false">
+        <categoryLink id="661b-1f7f-2072-c68b" name="基础槽位" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="058b-2417-368a-4d3c" type="max"/>
             <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b397-7bc5-a7ef-0345" type="min"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="a2eb-3d38-65c9-7f8c" name="Elites" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false">
+        <categoryLink id="a2eb-3d38-65c9-7f8c" name="精英槽位" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4137-b9ab-7541-4fab" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="bdc2-a72f-6142-ad2a" name="Fast Attack" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false">
+        <categoryLink id="bdc2-a72f-6142-ad2a" name="快速槽位" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="bfea-6d49-c363-b5da" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="4aa4-d6f8-2d17-3d40" name="Heavy Support" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false">
+        <categoryLink id="4aa4-d6f8-2d17-3d40" name="重型槽位" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ef09-021e-4bc9-4715" type="max"/>
           </constraints>
@@ -408,44 +408,44 @@
       <forceEntries>
         <forceEntry id="daea-75d3-1073-2ba0" name="旅级分队" hidden="false">
           <categoryLinks>
-            <categoryLink id="96dd-3c8b-0bee-f79f" name="No Force Org Slot" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
-            <categoryLink id="52dd-a45a-dd33-e109" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false"/>
-            <categoryLink id="2e30-b534-8d26-e6d7" name="Troops" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false"/>
-            <categoryLink id="9d9f-64f3-f99a-6e23" name="Elites" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false"/>
-            <categoryLink id="6261-7f89-2a6a-7b08" name="Fast Attack" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false"/>
-            <categoryLink id="cb04-2f0d-3fcf-a1e8" name="Heavy Support" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false"/>
+            <categoryLink id="96dd-3c8b-0bee-f79f" name="游戏选项" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
+            <categoryLink id="52dd-a45a-dd33-e109" name="指挥槽位" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false"/>
+            <categoryLink id="2e30-b534-8d26-e6d7" name="基础槽位" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false"/>
+            <categoryLink id="9d9f-64f3-f99a-6e23" name="精英槽位" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false"/>
+            <categoryLink id="6261-7f89-2a6a-7b08" name="快速槽位" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false"/>
+            <categoryLink id="cb04-2f0d-3fcf-a1e8" name="重型槽位" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false"/>
             <categoryLink id="b6e5-fe15-806b-2f33" name="Flyer" hidden="false" targetId="e888-1504-aa61-95ff" primary="false"/>
             <categoryLink id="b07f-f4bc-532d-ab27" name="Dedicated Transport" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false"/>
           </categoryLinks>
         </forceEntry>
       </forceEntries>
       <categoryLinks>
-        <categoryLink id="4683-00c9-930d-6336" name="No Force Org Slot" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
-        <categoryLink id="b656-705b-2154-356b" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false">
+        <categoryLink id="4683-00c9-930d-6336" name="游戏选项" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
+        <categoryLink id="b656-705b-2154-356b" name="指挥槽位" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="043f-5e79-dc42-8a9a" type="max"/>
             <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b292-bdd5-4643-fb35" type="min"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="c296-bcb4-c3e2-5d9b" name="Troops" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false">
+        <categoryLink id="c296-bcb4-c3e2-5d9b" name="基础槽位" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="12.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9e74-855c-c621-10cd" type="max"/>
             <constraint field="selections" scope="force" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6aaf-4a21-6ece-5f40" type="min"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="e010-a74e-f838-e69e" name="Elites" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false">
+        <categoryLink id="e010-a74e-f838-e69e" name="精英槽位" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="8.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5c79-1719-c8e2-514f" type="max"/>
             <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="26ad-d4af-1418-57e9" type="min"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="d151-d45a-2c2a-b9ba" name="Fast Attack" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false">
+        <categoryLink id="d151-d45a-2c2a-b9ba" name="快速槽位" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="396f-a437-1885-5daa" type="max"/>
             <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="baef-14a4-74e0-79ce" type="min"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="98d2-b315-2f7b-58ee" name="Heavy Support" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false">
+        <categoryLink id="98d2-b315-2f7b-58ee" name="重型槽位" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e422-ae6f-331f-24ea" type="max"/>
             <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="86b7-1215-30a0-1035" type="min"/>
@@ -531,42 +531,42 @@
       <forceEntries>
         <forceEntry id="780c-2ab9-34f4-7c30" name="先锋分队" hidden="false">
           <categoryLinks>
-            <categoryLink id="669a-cc7e-c5e0-cf5b" name="No Force Org Slot" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
-            <categoryLink id="50c7-e2c2-95f3-ffee" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false"/>
-            <categoryLink id="cce8-785d-5a88-5a90" name="Troops" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false"/>
-            <categoryLink id="3454-6e68-f1d5-8ab8" name="Elites" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false"/>
-            <categoryLink id="3ef6-bbd6-4973-b0cc" name="Fast Attack" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false"/>
-            <categoryLink id="0ef4-18ef-934a-1d58" name="Heavy Support" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false"/>
+            <categoryLink id="669a-cc7e-c5e0-cf5b" name="游戏选项" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
+            <categoryLink id="50c7-e2c2-95f3-ffee" name="指挥槽位" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false"/>
+            <categoryLink id="cce8-785d-5a88-5a90" name="基础槽位" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false"/>
+            <categoryLink id="3454-6e68-f1d5-8ab8" name="精英槽位" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false"/>
+            <categoryLink id="3ef6-bbd6-4973-b0cc" name="快速槽位" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false"/>
+            <categoryLink id="0ef4-18ef-934a-1d58" name="重型槽位" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false"/>
             <categoryLink id="5936-09c6-fea5-3d3f" name="Flyer" hidden="false" targetId="e888-1504-aa61-95ff" primary="false"/>
             <categoryLink id="1466-b410-7bf3-3015" name="Dedicated Transport" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false"/>
           </categoryLinks>
         </forceEntry>
       </forceEntries>
       <categoryLinks>
-        <categoryLink id="4683-00c9-930d-6336" name="No Force Org Slot" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
-        <categoryLink id="a158-6003-3ee2-5924" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false">
+        <categoryLink id="4683-00c9-930d-6336" name="游戏选项" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
+        <categoryLink id="a158-6003-3ee2-5924" name="指挥槽位" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f270-7df9-99d8-e027" type="max"/>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="abc2-8ad1-f686-0172" type="min"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="4068-9117-bd80-10fc" name="Troops" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false">
+        <categoryLink id="4068-9117-bd80-10fc" name="基础槽位" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c1e7-468c-fe43-d580" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="93c3-802d-d4e3-b9d7" name="Elites" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false">
+        <categoryLink id="93c3-802d-d4e3-b9d7" name="精英槽位" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4b0f-d3dd-bca2-8ced" type="min"/>
             <constraint field="selections" scope="force" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9603-b2c6-9e1a-946a" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="c88f-aa81-d819-da77" name="Fast Attack" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false">
+        <categoryLink id="c88f-aa81-d819-da77" name="快速槽位" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ca10-643a-ffaa-3342" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="ab1b-5f97-6328-4418" name="Heavy Support" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false">
+        <categoryLink id="ab1b-5f97-6328-4418" name="重型槽位" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d33a-1180-53e1-0555" type="max"/>
           </constraints>
@@ -651,41 +651,41 @@
       <forceEntries>
         <forceEntry id="c50f-184b-1482-8ce7" name="矛头分队" hidden="false">
           <categoryLinks>
-            <categoryLink id="3120-2d38-2fe2-ca1a" name="No Force Org Slot" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
-            <categoryLink id="fadb-d53e-8308-d517" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false"/>
-            <categoryLink id="2d5a-69d3-eb5e-0c39" name="Troops" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false"/>
-            <categoryLink id="74c8-5e08-977c-a44a" name="Elites" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false"/>
-            <categoryLink id="f779-910f-8f59-a042" name="Fast Attack" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false"/>
-            <categoryLink id="5170-e172-b302-a93e" name="Heavy Support" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false"/>
+            <categoryLink id="3120-2d38-2fe2-ca1a" name="游戏选项" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
+            <categoryLink id="fadb-d53e-8308-d517" name="指挥槽位" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false"/>
+            <categoryLink id="2d5a-69d3-eb5e-0c39" name="基础槽位" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false"/>
+            <categoryLink id="74c8-5e08-977c-a44a" name="精英槽位" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false"/>
+            <categoryLink id="f779-910f-8f59-a042" name="快速槽位" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false"/>
+            <categoryLink id="5170-e172-b302-a93e" name="重型槽位" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false"/>
             <categoryLink id="5eeb-2543-69d8-ca6f" name="Flyer" hidden="false" targetId="e888-1504-aa61-95ff" primary="false"/>
             <categoryLink id="51c8-aab8-02db-6836" name="Dedicated Transport" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false"/>
           </categoryLinks>
         </forceEntry>
       </forceEntries>
       <categoryLinks>
-        <categoryLink id="6c3b-d81d-e237-32fa" name="No Force Org Slot" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
-        <categoryLink id="a13f-7b3a-ceac-64f4" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false">
+        <categoryLink id="6c3b-d81d-e237-32fa" name="游戏选项" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
+        <categoryLink id="a13f-7b3a-ceac-64f4" name="指挥槽位" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ce99-608b-86c4-5b9a" type="max"/>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0b53-16a1-bdc7-cf5e" type="min"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="5862-f041-e42b-e6f8" name="Troops" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false">
+        <categoryLink id="5862-f041-e42b-e6f8" name="基础槽位" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6444-d07b-4ef9-8cec" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="9b17-44f6-5142-5e8e" name="Elites" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false">
+        <categoryLink id="9b17-44f6-5142-5e8e" name="精英槽位" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7aac-c770-ee8a-adc4" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="0ee6-a712-57b5-5989" name="Fast Attack" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false">
+        <categoryLink id="0ee6-a712-57b5-5989" name="快速槽位" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="719a-f8e0-720d-3ede" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="77dd-9959-8bd0-2d1c" name="Heavy Support" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false">
+        <categoryLink id="77dd-9959-8bd0-2d1c" name="重型槽位" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e7f4-cf63-0319-c3f8" type="min"/>
             <constraint field="selections" scope="force" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a987-dbff-cc58-ec1a" type="max"/>
@@ -771,42 +771,42 @@
       <forceEntries>
         <forceEntry id="6fb7-031b-0276-59c9" name="Outrider Detachment" hidden="false">
           <categoryLinks>
-            <categoryLink id="d657-ba0c-61e5-5180" name="No Force Org Slot" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
-            <categoryLink id="0264-8ffd-31bc-2d30" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false"/>
-            <categoryLink id="6426-b63b-64e2-2ff6" name="Troops" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false"/>
-            <categoryLink id="a107-162a-d1ae-e45f" name="Elites" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false"/>
-            <categoryLink id="3c24-fb50-3f0a-2d1d" name="Fast Attack" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false"/>
-            <categoryLink id="5667-7ab6-831b-6bf9" name="Heavy Support" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false"/>
+            <categoryLink id="d657-ba0c-61e5-5180" name="游戏选项" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
+            <categoryLink id="0264-8ffd-31bc-2d30" name="指挥槽位" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false"/>
+            <categoryLink id="6426-b63b-64e2-2ff6" name="基础槽位" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false"/>
+            <categoryLink id="a107-162a-d1ae-e45f" name="精英槽位" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false"/>
+            <categoryLink id="3c24-fb50-3f0a-2d1d" name="快速槽位" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false"/>
+            <categoryLink id="5667-7ab6-831b-6bf9" name="重型槽位" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false"/>
             <categoryLink id="b48d-94da-807f-1dad" name="Flyer" hidden="false" targetId="e888-1504-aa61-95ff" primary="false"/>
             <categoryLink id="e8c7-f93f-12cc-1a41" name="Dedicated Transport" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false"/>
           </categoryLinks>
         </forceEntry>
       </forceEntries>
       <categoryLinks>
-        <categoryLink id="1870-00e5-1915-3ab8" name="No Force Org Slot" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
-        <categoryLink id="b196-6b9f-fb28-4ca9" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false">
+        <categoryLink id="1870-00e5-1915-3ab8" name="游戏选项" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
+        <categoryLink id="b196-6b9f-fb28-4ca9" name="指挥槽位" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="65a6-7192-50e6-c304" type="max"/>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="fc9e-6e21-855a-f620" type="min"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="dd58-b2cf-743f-684f" name="Troops" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false">
+        <categoryLink id="dd58-b2cf-743f-684f" name="基础槽位" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="aa4e-0058-e7ee-ffd5" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="8068-967b-3617-c99f" name="Elites" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false">
+        <categoryLink id="8068-967b-3617-c99f" name="精英槽位" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c09a-c953-5d76-d7a3" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="22b3-8488-1b3d-b0d4" name="Fast Attack" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false">
+        <categoryLink id="22b3-8488-1b3d-b0d4" name="快速槽位" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2903-28dd-bd78-a2dc" type="min"/>
             <constraint field="selections" scope="force" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8068-4e51-e29a-c888" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="32ec-2287-21fd-6d05" name="Heavy Support" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false">
+        <categoryLink id="32ec-2287-21fd-6d05" name="重型槽位" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8c26-0eee-61de-e734" type="max"/>
           </constraints>
@@ -891,28 +891,28 @@
       <forceEntries>
         <forceEntry id="b0ab-9c0d-ff4b-c17e" name="至高指挥分队" hidden="false">
           <categoryLinks>
-            <categoryLink id="0f46-1b70-2074-9f38" name="No Force Org Slot" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
-            <categoryLink id="c631-e906-2086-fdf9" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false"/>
-            <categoryLink id="08df-b76b-e405-c10a" name="Elites" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false"/>
-            <categoryLink id="ead4-93ca-c5e6-a4f0" name="Lord of War" hidden="false" targetId="c888f08a-6cea-4a01-8126-d374a9231554" primary="false"/>
+            <categoryLink id="0f46-1b70-2074-9f38" name="游戏选项" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
+            <categoryLink id="c631-e906-2086-fdf9" name="指挥槽位" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false"/>
+            <categoryLink id="08df-b76b-e405-c10a" name="精英槽位" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false"/>
+            <categoryLink id="ead4-93ca-c5e6-a4f0" name="战争之王槽位" hidden="false" targetId="c888f08a-6cea-4a01-8126-d374a9231554" primary="false"/>
             <categoryLink id="12c8-6b62-f26a-239a" name="Dedicated Transport" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false"/>
           </categoryLinks>
         </forceEntry>
       </forceEntries>
       <categoryLinks>
-        <categoryLink id="6fed-d770-852f-a123" name="No Force Org Slot" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
-        <categoryLink id="8a3d-3602-7ef5-9ab1" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false">
+        <categoryLink id="6fed-d770-852f-a123" name="游戏选项" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
+        <categoryLink id="8a3d-3602-7ef5-9ab1" name="指挥槽位" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="41c1-510e-2e3b-76fc" type="max"/>
             <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e6a9-7171-c907-0e15" type="min"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="b448-138d-b4aa-5025" name="Elites" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false">
+        <categoryLink id="b448-138d-b4aa-5025" name="精英槽位" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1d59-1fea-8611-cf48" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="c6de-132c-1b7e-69d3" name="Lord of War" hidden="false" targetId="c888f08a-6cea-4a01-8126-d374a9231554" primary="false">
+        <categoryLink id="c6de-132c-1b7e-69d3" name="战争之王槽位" hidden="false" targetId="c888f08a-6cea-4a01-8126-d374a9231554" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b702-8fc0-cb44-1728" type="max"/>
           </constraints>
@@ -1008,14 +1008,14 @@
       <forceEntries>
         <forceEntry id="6576-b25c-8ce9-8860" name="超重型分队" hidden="false">
           <categoryLinks>
-            <categoryLink id="d689-19e3-5f4f-d9e5" name="No Force Org Slot" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
-            <categoryLink id="97d5-c11b-a1c8-2693" name="Lord of War" hidden="false" targetId="c888f08a-6cea-4a01-8126-d374a9231554" primary="false"/>
+            <categoryLink id="d689-19e3-5f4f-d9e5" name="游戏选项" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
+            <categoryLink id="97d5-c11b-a1c8-2693" name="战争之王槽位" hidden="false" targetId="c888f08a-6cea-4a01-8126-d374a9231554" primary="false"/>
           </categoryLinks>
         </forceEntry>
       </forceEntries>
       <categoryLinks>
-        <categoryLink id="964d-8f7c-1171-8b98" name="No Force Org Slot" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
-        <categoryLink id="c0a7-80ba-6d10-0724" name="Lord of War" hidden="false" targetId="c888f08a-6cea-4a01-8126-d374a9231554" primary="false">
+        <categoryLink id="964d-8f7c-1171-8b98" name="游戏选项" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
+        <categoryLink id="c0a7-80ba-6d10-0724" name="战争之王槽位" hidden="false" targetId="c888f08a-6cea-4a01-8126-d374a9231554" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e8fa-5d51-0e94-764b" type="max"/>
             <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="67f2-9795-52db-5a70" type="min"/>
@@ -1045,13 +1045,13 @@
       <forceEntries>
         <forceEntry id="444e-30c9-5181-aa6b" name="制空分队" hidden="false">
           <categoryLinks>
-            <categoryLink id="3da0-f292-3c4c-f65b" name="No Force Org Slot" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
+            <categoryLink id="3da0-f292-3c4c-f65b" name="游戏选项" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
             <categoryLink id="2061-bcdc-2bbf-6c08" name="Flyer" hidden="false" targetId="e888-1504-aa61-95ff" primary="false"/>
           </categoryLinks>
         </forceEntry>
       </forceEntries>
       <categoryLinks>
-        <categoryLink id="e09e-267a-4f71-9e08" name="No Force Org Slot" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
+        <categoryLink id="e09e-267a-4f71-9e08" name="游戏选项" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
         <categoryLink id="425c-179c-46b3-5ee8" name="Flyer" hidden="false" targetId="e888-1504-aa61-95ff" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="79cf-a0c0-267b-41b3" type="max"/>
@@ -1063,8 +1063,8 @@
     </forceEntry>
     <forceEntry id="224b-1070-218f-fdf4" name="超重型支援分队" hidden="false">
       <categoryLinks>
-        <categoryLink id="a4f9-671f-1bad-73f1" name="No Force Org Slot" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
-        <categoryLink id="fd86-521c-89cd-53b4" name="Lord of War" hidden="false" targetId="c888f08a-6cea-4a01-8126-d374a9231554" primary="false">
+        <categoryLink id="a4f9-671f-1bad-73f1" name="游戏选项" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
+        <categoryLink id="fd86-521c-89cd-53b4" name="战争之王槽位" hidden="false" targetId="c888f08a-6cea-4a01-8126-d374a9231554" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4384-497e-3b4a-d259" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b8f-4518-f394-33f4" type="min"/>
@@ -1077,14 +1077,14 @@
       <forceEntries>
         <forceEntry id="a39c-5420-c141-262c" name="防御工事网络" hidden="false">
           <categoryLinks>
-            <categoryLink id="460d-2811-ab00-a30a" name="No Force Org Slot" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
-            <categoryLink id="5cfe-bc29-4cc8-a694" name="Fortification" hidden="false" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a" primary="false"/>
+            <categoryLink id="460d-2811-ab00-a30a" name="游戏选项" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
+            <categoryLink id="5cfe-bc29-4cc8-a694" name="工事槽位" hidden="false" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a" primary="false"/>
           </categoryLinks>
         </forceEntry>
       </forceEntries>
       <categoryLinks>
-        <categoryLink id="4cf2-55de-1de3-bdfd" name="No Force Org Slot" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
-        <categoryLink id="4fb0-8ba2-1ea6-973e" name="Fortification" hidden="false" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a" primary="false">
+        <categoryLink id="4cf2-55de-1de3-bdfd" name="游戏选项" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
+        <categoryLink id="4fb0-8ba2-1ea6-973e" name="工事槽位" hidden="false" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="26f5-481b-d941-b4ca" type="min"/>
             <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0214-a689-7537-aafa" type="max"/>
@@ -1110,12 +1110,12 @@
         </rule>
       </rules>
       <categoryLinks>
-        <categoryLink id="fd67-6351-2009-87d7" name="No Force Org Slot" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
-        <categoryLink id="765e-ebad-7cd0-d952" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false"/>
-        <categoryLink id="4251-29e5-bb48-d668" name="Troops" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false"/>
-        <categoryLink id="d2bf-84f3-f089-ae42" name="Elites" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false"/>
-        <categoryLink id="db20-7a0f-2a50-f1c7" name="Fast Attack" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false"/>
-        <categoryLink id="9153-b8bd-1f8a-9f1f" name="Heavy Support" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false"/>
+        <categoryLink id="fd67-6351-2009-87d7" name="游戏选项" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
+        <categoryLink id="765e-ebad-7cd0-d952" name="指挥槽位" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false"/>
+        <categoryLink id="4251-29e5-bb48-d668" name="基础槽位" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false"/>
+        <categoryLink id="d2bf-84f3-f089-ae42" name="精英槽位" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false"/>
+        <categoryLink id="db20-7a0f-2a50-f1c7" name="快速槽位" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false"/>
+        <categoryLink id="9153-b8bd-1f8a-9f1f" name="重型槽位" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false"/>
         <categoryLink id="0960-9271-26d6-1831" name="Flyer" hidden="false" targetId="e888-1504-aa61-95ff" primary="false"/>
         <categoryLink id="1d7c-3253-d90d-6e3a" name="Dedicated Transport" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false"/>
         <categoryLink id="09fb-b9a5-3cb5-b0d5" name="主将" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
@@ -1128,16 +1128,16 @@
     </forceEntry>
     <forceEntry id="44da-9aaf-181b-5ece" name="自由军队 (阵营)" hidden="false">
       <categoryLinks>
-        <categoryLink id="00d9-069d-5354-97e7" name="No Force Org Slot" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
-        <categoryLink id="5a8c-53a4-c961-7905" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false"/>
-        <categoryLink id="8a81-4291-964c-1f95" name="Troops" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false"/>
-        <categoryLink id="24e9-deff-3ba2-7cf9" name="Elites" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false"/>
-        <categoryLink id="d486-01d8-2603-a869" name="Fast Attack" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false"/>
-        <categoryLink id="5ed1-c11a-2ce1-7199" name="Heavy Support" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false"/>
+        <categoryLink id="00d9-069d-5354-97e7" name="游戏选项" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
+        <categoryLink id="5a8c-53a4-c961-7905" name="指挥槽位" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false"/>
+        <categoryLink id="8a81-4291-964c-1f95" name="基础槽位" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false"/>
+        <categoryLink id="24e9-deff-3ba2-7cf9" name="精英槽位" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false"/>
+        <categoryLink id="d486-01d8-2603-a869" name="快速槽位" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false"/>
+        <categoryLink id="5ed1-c11a-2ce1-7199" name="重型槽位" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false"/>
         <categoryLink id="0ee9-f3b9-cc0c-40a8" name="Flyer" hidden="false" targetId="e888-1504-aa61-95ff" primary="false"/>
         <categoryLink id="d5f2-dac9-5cf7-ddac" name="Dedicated Transport" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false"/>
-        <categoryLink id="b474-2366-f02e-6f49" name="Lord of War" hidden="false" targetId="c888f08a-6cea-4a01-8126-d374a9231554" primary="false"/>
-        <categoryLink id="7751-b628-068c-ae45" name="Fortification" hidden="false" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a" primary="false"/>
+        <categoryLink id="b474-2366-f02e-6f49" name="战争之王槽位" hidden="false" targetId="c888f08a-6cea-4a01-8126-d374a9231554" primary="false"/>
+        <categoryLink id="7751-b628-068c-ae45" name="工事槽位" hidden="false" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a" primary="false"/>
         <categoryLink id="9a65-6b3b-5e44-03e8" name="主将" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
       </categoryLinks>
     </forceEntry>
@@ -1148,43 +1148,43 @@
       <forceEntries>
         <forceEntry id="19c2-d22a-7ab4-53f1" name="行星打击-进攻方" hidden="false">
           <categoryLinks>
-            <categoryLink id="b9de-d698-5dba-a52d" name="No Force Org Slot" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
-            <categoryLink id="9c52-f689-6c7d-c819" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false"/>
-            <categoryLink id="5b41-41c5-eb22-bb56" name="Troops" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false"/>
-            <categoryLink id="4d08-f2b8-c821-2d6b" name="Elites" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false"/>
-            <categoryLink id="7597-dd7f-9622-4751" name="Fast Attack" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false"/>
-            <categoryLink id="b2b9-dc58-ec81-65a1" name="Heavy Support" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false"/>
+            <categoryLink id="b9de-d698-5dba-a52d" name="游戏选项" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
+            <categoryLink id="9c52-f689-6c7d-c819" name="指挥槽位" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false"/>
+            <categoryLink id="5b41-41c5-eb22-bb56" name="基础槽位" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false"/>
+            <categoryLink id="4d08-f2b8-c821-2d6b" name="精英槽位" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false"/>
+            <categoryLink id="7597-dd7f-9622-4751" name="快速槽位" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false"/>
+            <categoryLink id="b2b9-dc58-ec81-65a1" name="重型槽位" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false"/>
             <categoryLink id="f9f2-5dcb-2b12-ae84" name="Flyer" hidden="false" targetId="e888-1504-aa61-95ff" primary="false"/>
             <categoryLink id="9b4c-7cd9-cbbb-292a" name="Dedicated Transport" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false"/>
           </categoryLinks>
         </forceEntry>
       </forceEntries>
       <categoryLinks>
-        <categoryLink id="958b-ff62-a5a2-f12c" name="No Force Org Slot" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
-        <categoryLink id="4b40-d755-270f-aa80" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false">
+        <categoryLink id="958b-ff62-a5a2-f12c" name="游戏选项" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
+        <categoryLink id="4b40-d755-270f-aa80" name="指挥槽位" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f239-065f-a65a-84f1" type="max"/>
             <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ac19-fec5-e58d-8e45" type="min"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="5ce4-5803-13a7-ab08" name="Troops" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false">
+        <categoryLink id="5ce4-5803-13a7-ab08" name="基础槽位" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="cf98-c5be-6bc1-0297" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="605c-44ed-3cbd-5a3a" name="Elites" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false">
+        <categoryLink id="605c-44ed-3cbd-5a3a" name="精英槽位" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="9.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c55b-b52b-fd75-635f" type="max"/>
             <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="89f8-3871-6593-6b74" type="min"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="79b3-c8c5-cc7a-6371" name="Fast Attack" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false">
+        <categoryLink id="79b3-c8c5-cc7a-6371" name="快速槽位" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="79c8-04a6-15e1-a20c" type="max"/>
             <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="596f-0d22-ad3d-8f03" type="min"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="d1e3-0590-f89f-1506" name="Heavy Support" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false">
+        <categoryLink id="d1e3-0590-f89f-1506" name="重型槽位" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4976-b422-3e65-af73" type="max"/>
           </constraints>
@@ -1272,42 +1272,42 @@
       <forceEntries>
         <forceEntry id="9fd1-149e-1542-a91c" name="行星打击-防守方" hidden="false">
           <categoryLinks>
-            <categoryLink id="d981-db39-9da3-c9f8" name="No Force Org Slot" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
-            <categoryLink id="7edd-0b96-420a-c9bd" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false"/>
-            <categoryLink id="f2aa-977c-2f18-1698" name="Troops" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false"/>
-            <categoryLink id="f29c-5abe-183f-53a9" name="Elites" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false"/>
-            <categoryLink id="fab4-b28d-9808-c49f" name="Fast Attack" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false"/>
-            <categoryLink id="6ffe-1026-e06c-f498" name="Heavy Support" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false"/>
+            <categoryLink id="d981-db39-9da3-c9f8" name="游戏选项" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
+            <categoryLink id="7edd-0b96-420a-c9bd" name="指挥槽位" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false"/>
+            <categoryLink id="f2aa-977c-2f18-1698" name="基础槽位" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false"/>
+            <categoryLink id="f29c-5abe-183f-53a9" name="精英槽位" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false"/>
+            <categoryLink id="fab4-b28d-9808-c49f" name="快速槽位" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false"/>
+            <categoryLink id="6ffe-1026-e06c-f498" name="重型槽位" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false"/>
             <categoryLink id="a9dc-4176-d12f-e79c" name="Flyer" hidden="false" targetId="e888-1504-aa61-95ff" primary="false"/>
             <categoryLink id="55d6-e46b-5d87-b994" name="Dedicated Transport" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false"/>
           </categoryLinks>
         </forceEntry>
       </forceEntries>
       <categoryLinks>
-        <categoryLink id="0b64-fa2c-fe0a-f9de" name="No Force Org Slot" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
-        <categoryLink id="7d81-8310-6094-cf8d" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false">
+        <categoryLink id="0b64-fa2c-fe0a-f9de" name="游戏选项" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
+        <categoryLink id="7d81-8310-6094-cf8d" name="指挥槽位" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7881-e2a1-efe3-ec8f" type="max"/>
             <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="aa5c-ef89-d9dc-c8ef" type="min"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="38fb-adc3-e7fd-8c60" name="Troops" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false">
+        <categoryLink id="38fb-adc3-e7fd-8c60" name="基础槽位" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="9.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="79c3-96c1-d10f-343d" type="max"/>
             <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a53f-10de-0d0b-210a" type="min"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="014c-9365-320c-f41e" name="Elites" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false">
+        <categoryLink id="014c-9365-320c-f41e" name="精英槽位" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="feab-fb5a-e238-40c9" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="3a52-1f6c-9ff8-c340" name="Fast Attack" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false">
+        <categoryLink id="3a52-1f6c-9ff8-c340" name="快速槽位" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4644-c976-dedb-dfc0" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="8590-a401-cb74-b5b3" name="Heavy Support" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false">
+        <categoryLink id="8590-a401-cb74-b5b3" name="重型槽位" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="cf16-4bce-3c83-2736" type="max"/>
             <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4cf4-226b-660e-a0aa" type="min"/>
@@ -1396,42 +1396,42 @@
       <forceEntries>
         <forceEntry id="ecdd-b72a-f9dd-a02a" name="要塞突袭-进攻方" hidden="false">
           <categoryLinks>
-            <categoryLink id="0b8a-c61e-2476-113b" name="No Force Org Slot" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
-            <categoryLink id="e2ec-1211-c558-8e0d" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false"/>
-            <categoryLink id="939c-bed4-8b91-1dce" name="Troops" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false"/>
-            <categoryLink id="673d-3c4a-9004-3b11" name="Elites" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false"/>
-            <categoryLink id="7e1f-2e3e-7b33-4f37" name="Fast Attack" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false"/>
-            <categoryLink id="98e3-b638-93a6-716a" name="Heavy Support" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false"/>
+            <categoryLink id="0b8a-c61e-2476-113b" name="游戏选项" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
+            <categoryLink id="e2ec-1211-c558-8e0d" name="指挥槽位" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false"/>
+            <categoryLink id="939c-bed4-8b91-1dce" name="基础槽位" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false"/>
+            <categoryLink id="673d-3c4a-9004-3b11" name="精英槽位" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false"/>
+            <categoryLink id="7e1f-2e3e-7b33-4f37" name="快速槽位" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false"/>
+            <categoryLink id="98e3-b638-93a6-716a" name="重型槽位" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false"/>
             <categoryLink id="226d-278e-f933-0315" name="Flyer" hidden="false" targetId="e888-1504-aa61-95ff" primary="false"/>
             <categoryLink id="01fa-07f7-0209-abdc" name="Dedicated Transport" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false"/>
           </categoryLinks>
         </forceEntry>
       </forceEntries>
       <categoryLinks>
-        <categoryLink id="0a94-a878-e103-6083" name="No Force Org Slot" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
-        <categoryLink id="cd87-e443-1d40-5ccc" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false">
+        <categoryLink id="0a94-a878-e103-6083" name="游戏选项" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
+        <categoryLink id="cd87-e443-1d40-5ccc" name="指挥槽位" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="143a-8ba5-d44b-3108" type="max"/>
             <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1415-6d30-9f9d-407b" type="min"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="eae6-d11b-d86e-fa3c" name="Troops" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false">
+        <categoryLink id="eae6-d11b-d86e-fa3c" name="基础槽位" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f4a7-77ee-74dd-1da4" type="max"/>
             <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4b81-f009-e9f6-8219" type="min"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="96f9-887c-ee0a-bca2" name="Elites" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false">
+        <categoryLink id="96f9-887c-ee0a-bca2" name="精英槽位" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ee8e-ccd1-787c-e23d" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="a617-c535-ae01-ab51" name="Fast Attack" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false">
+        <categoryLink id="a617-c535-ae01-ab51" name="快速槽位" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d37c-cc18-9ae0-f90d" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="8609-55c5-3e7a-623f" name="Heavy Support" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false">
+        <categoryLink id="8609-55c5-3e7a-623f" name="重型槽位" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6d7a-4989-74e8-2a0c" type="min"/>
             <constraint field="selections" scope="force" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="85c7-f616-15be-2e7a" type="max"/>
@@ -1520,43 +1520,43 @@
       <forceEntries>
         <forceEntry id="bfc9-d668-8dec-a0ee" name="要塞突袭-防守方" hidden="false">
           <categoryLinks>
-            <categoryLink id="3547-81af-f102-632e" name="No Force Org Slot" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
-            <categoryLink id="0e3c-008f-7e8a-3f6d" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false"/>
-            <categoryLink id="aaf4-ea80-63a1-328b" name="Troops" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false"/>
-            <categoryLink id="1e95-c712-47b6-ebbd" name="Elites" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false"/>
-            <categoryLink id="0f0d-d815-436c-8775" name="Fast Attack" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false"/>
-            <categoryLink id="bd09-2ffc-fe1a-508c" name="Heavy Support" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false"/>
+            <categoryLink id="3547-81af-f102-632e" name="游戏选项" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
+            <categoryLink id="0e3c-008f-7e8a-3f6d" name="指挥槽位" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false"/>
+            <categoryLink id="aaf4-ea80-63a1-328b" name="基础槽位" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false"/>
+            <categoryLink id="1e95-c712-47b6-ebbd" name="精英槽位" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false"/>
+            <categoryLink id="0f0d-d815-436c-8775" name="快速槽位" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false"/>
+            <categoryLink id="bd09-2ffc-fe1a-508c" name="重型槽位" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false"/>
             <categoryLink id="311d-4ffb-0807-9e37" name="Flyer" hidden="false" targetId="e888-1504-aa61-95ff" primary="false"/>
-            <categoryLink id="3fcb-1ea2-66d6-c8bb" name="Fortification" hidden="false" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a" primary="false"/>
+            <categoryLink id="3fcb-1ea2-66d6-c8bb" name="工事槽位" hidden="false" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a" primary="false"/>
             <categoryLink id="607f-451f-4b13-2410" name="Dedicated Transport" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false"/>
           </categoryLinks>
         </forceEntry>
       </forceEntries>
       <categoryLinks>
-        <categoryLink id="722b-09e4-f228-16be" name="No Force Org Slot" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
-        <categoryLink id="7f5c-0518-2449-ad67" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false">
+        <categoryLink id="722b-09e4-f228-16be" name="游戏选项" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
+        <categoryLink id="7f5c-0518-2449-ad67" name="指挥槽位" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c371-f9a7-5f77-851c" type="max"/>
             <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8a7c-e440-38be-c05c" type="min"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="1698-4cdd-e737-378e" name="Troops" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false">
+        <categoryLink id="1698-4cdd-e737-378e" name="基础槽位" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7957-3942-3a51-bf32" type="max"/>
             <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ed80-2bef-b904-524f" type="min"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="bc3c-de9d-7396-70fe" name="Elites" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false">
+        <categoryLink id="bc3c-de9d-7396-70fe" name="精英槽位" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6610-dd45-6d5e-741a" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="2f71-ff59-4f31-33ec" name="Fast Attack" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false">
+        <categoryLink id="2f71-ff59-4f31-33ec" name="快速槽位" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="75a7-ed04-b0b8-2059" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="daad-ff2c-83ab-fc5d" name="Heavy Support" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false">
+        <categoryLink id="daad-ff2c-83ab-fc5d" name="重型槽位" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f2c3-3aa4-a133-3f5c" type="max"/>
           </constraints>
@@ -1566,7 +1566,7 @@
             <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9de2-55d2-ac58-82c0" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="b8d5-5f9d-d63d-7c91" name="Fortification" hidden="false" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a" primary="false">
+        <categoryLink id="b8d5-5f9d-d63d-7c91" name="工事槽位" hidden="false" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="253c-09cc-11d9-403d" type="max"/>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="191b-0f65-3883-b447" type="min"/>
@@ -1646,15 +1646,15 @@
     <forceEntry id="bffe-7939-c2e6-8f83" name="支援分队" hidden="false">
       <categoryLinks>
         <categoryLink id="f441-862d-4164-4496" name="Reinforcement Points" hidden="false" targetId="7320-eafd-02c1-94da" primary="false"/>
-        <categoryLink id="b1d5-50d6-6742-8377" name="No Force Org Slot" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
-        <categoryLink id="5aab-fcd9-f431-a112" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false"/>
-        <categoryLink id="40f1-eadd-f55e-7be9" name="Troops" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false"/>
-        <categoryLink id="2d7b-0099-a47e-c62c" name="Elites" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false"/>
-        <categoryLink id="9c1f-f31c-f8ba-48b4" name="Fast Attack" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false"/>
-        <categoryLink id="f0ff-1f62-8d73-3c71" name="Heavy Support" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false"/>
+        <categoryLink id="b1d5-50d6-6742-8377" name="游戏选项" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
+        <categoryLink id="5aab-fcd9-f431-a112" name="指挥槽位" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false"/>
+        <categoryLink id="40f1-eadd-f55e-7be9" name="基础槽位" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false"/>
+        <categoryLink id="2d7b-0099-a47e-c62c" name="精英槽位" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false"/>
+        <categoryLink id="9c1f-f31c-f8ba-48b4" name="快速槽位" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false"/>
+        <categoryLink id="f0ff-1f62-8d73-3c71" name="重型槽位" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false"/>
         <categoryLink id="73bb-f183-0427-db60" name="Flyer" hidden="false" targetId="e888-1504-aa61-95ff" primary="false"/>
         <categoryLink id="0283-c857-f6d8-f26f" name="Dedicated Transport" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false"/>
-        <categoryLink id="8b22-7e29-d1a4-9845" name="Lord of War" hidden="false" targetId="c888f08a-6cea-4a01-8126-d374a9231554" primary="false"/>
+        <categoryLink id="8b22-7e29-d1a4-9845" name="战争之王槽位" hidden="false" targetId="c888f08a-6cea-4a01-8126-d374a9231554" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
@@ -1735,12 +1735,12 @@
     </entryLink>
     <entryLink id="ec87-f19e-eee2-1ba8" name="Detachment CP" hidden="false" collective="false" import="true" targetId="9d97-2793-9882-d48a" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="22be-7889-5bf9-b0b5" name="No Force Org Slot" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
+        <categoryLink id="22be-7889-5bf9-b0b5" name="游戏选项" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="44e3-c224-ba82-1b55" name="Battle-forged CP" hidden="false" collective="false" import="true" targetId="f29d-8a5d-18b6-a071" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="b5f1-b0a6-bb4a-be2d" name="No Force Org Slot" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
+        <categoryLink id="b5f1-b0a6-bb4a-be2d" name="游戏选项" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="074a-5af4-0bed-a6a7" name="Reinforcements" hidden="false" collective="false" import="true" targetId="af7a-d57e-4972-12d3" type="selectionEntry">
@@ -1750,7 +1750,7 @@
     </entryLink>
     <entryLink id="d692-f83a-aa11-a25a" name="Primus Redoubt" hidden="false" collective="false" import="true" targetId="b801-d1d1-7c34-facf" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="340b-ca49-5722-d355" name="Fortification" hidden="false" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a" primary="true"/>
+        <categoryLink id="340b-ca49-5722-d355" name="工事槽位" hidden="false" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -5634,7 +5634,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="e597-e135-2c00-3232" name="No Force Org Slot" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
+        <categoryLink id="e597-e135-2c00-3232" name="游戏选项" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
       </categoryLinks>
       <costs>
         <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="-2.0"/>
