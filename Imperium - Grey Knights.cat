@@ -1005,7 +1005,7 @@
     <selectionEntry id="7673-0a94-2ef7-6e96" name="Sacred Banner" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
         <rule id="6a0c-1eae-622d-2837" name="Sacred Banner" hidden="false">
-          <description>友方 Grey Knights 单位 范围内 6寸 of any sacred banners add 1 to their LD characteristics. 此外, 模型 from 友方 Grey Knights 步兵单位 that are 范围内 6寸 of any sacred banners when they fight can make 1 额外攻击 that phase.</description>
+          <description>友方 Grey Knights 单位 6寸范围内 of any sacred banners add 1 to their LD characteristics. 此外, 模型 from 友方 Grey Knights 步兵单位 that are 6寸范围内 of any sacred banners when they fight can make 1 额外攻击 that phase.</description>
         </rule>
       </rules>
       <costs>
@@ -1036,7 +1036,7 @@
           <characteristics>
             <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">5</characteristic>
             <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">6寸</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">When Brother-连长 Stern manifests the 惩击 psychic power, it 拥有 range of 6寸 rather than 18寸. Additionally, the target 单位 遭受 only 1 致命伤 rather than D3 (whether or not the result of the Psychic test is more than 10) – unless the target is a 恶魔, 这种情况下it 遭受 3 致命伤 而不是 D3 – and 所有 恶魔 单位 范围内 6寸 of Brother-连长 Stern also suffer 1点致命伤.</characteristic>
+            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">When Brother-连长 Stern manifests the 惩击 psychic power, it 拥有 range of 6寸 rather than 18寸. Additionally, the target 单位 遭受 only 1 致命伤 rather than D3 (whether or not the result of the Psychic test is more than 10) – unless the target is a 恶魔, 这种情况下it 遭受 3 致命伤 而不是 D3 – and 所有 恶魔 单位 6寸范围内 of Brother-连长 Stern also suffer 1点致命伤.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3689,7 +3689,7 @@
         <infoLink id="eaaf-61bc-5a94-62ac" name="New InfoLink" hidden="false" targetId="caa9-022d-f498-7b5a" type="profile"/>
         <infoLink id="b7e3-57c8-6929-5c97" name="Airborne" hidden="false" targetId="15ea-860d-9eb6-21c3" type="rule"/>
         <infoLink id="864f-4cb3-af14-1209" name="机魂之力" hidden="false" targetId="75f4-89e6-fc18-2369" type="rule"/>
-        <infoLink id="489f-d382-95f7-93fb" name="Hard to 命中" hidden="false" targetId="9caa-ff00-a5bd-5f04" type="rule"/>
+        <infoLink id="489f-d382-95f7-93fb" name="难以命中" hidden="false" targetId="9caa-ff00-a5bd-5f04" type="rule"/>
         <infoLink id="4978-4647-4b7b-2f89" name="爆弹训练" hidden="false" targetId="5a7e-f984-487c-d767" type="rule"/>
         <infoLink id="9a5d-f6e6-ddd5-c30e" name="超音速" hidden="false" targetId="127f-1e53-dae0-3b45" type="rule"/>
         <infoLink id="43ec-89e6-f8d4-5546" name="坠毁" hidden="false" targetId="7157-559f-a8f5-6657" type="rule"/>
@@ -3708,13 +3708,13 @@
         <categoryLink id="9e94-7c63-4297-b67d" name="飞行器槽位" hidden="false" targetId="d569-3d56-cd24-6a31" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="b8b3-8b46-3d65-d551" name="Stormstrike 导弹发射器" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="b8b3-8b46-3d65-d551" name="风暴直击导弹发射器" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a17a-9147-82d4-51a4" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8578-4bcc-3c90-5a9f" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="3a0b-9b65-b7c7-41a3" name="Stormstrike 导弹发射器" hidden="false" collective="false" import="true" targetId="38e3-37a8-42a3-e195" type="selectionEntry">
+            <entryLink id="3a0b-9b65-b7c7-41a3" name="风暴直击导弹发射器" hidden="false" collective="false" import="true" targetId="38e3-37a8-42a3-e195" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a45-792a-db9e-b801" type="min"/>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d49-553a-b2b5-7fa8" type="max"/>
@@ -4742,7 +4742,7 @@
       </profiles>
       <rules>
         <rule id="a770-a19c-c703-6f18" name="爆炸" hidden="false">
-          <description>如果这个模型W降为0 骰 a D6 before removing it from the battlefied; 结果为6则爆炸 每个单位 范围内 6寸 遭受 D6 致命伤.</description>
+          <description>如果这个模型W降为0 骰 a D6 before removing it from the battlefied; 结果为6则爆炸 6寸范围内每个单位遭受 D6 致命伤.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -4933,7 +4933,7 @@
         </profile>
         <profile id="83a1-cfc8-be37-28c5" name="坠毁" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 在被移除前投掷1个D6 and before any 上车 模型 下车; 结果为6 it crashes 每个单位 范围内 6寸 遭受 2D6 致命伤.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 在被移除前投掷1个D6 and before any 上车 模型 下车; 结果为6 it crashes 6寸范围内每个单位遭受 2D6 致命伤.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5096,7 +5096,7 @@
       <infoLinks>
         <infoLink id="4206-24e5-34fc-63f5" name="风暴隼拦截机" hidden="false" targetId="8575-51fb-b21d-be82" type="profile"/>
         <infoLink id="5be8-de68-a230-3689" name="Airborne" hidden="false" targetId="15ea-860d-9eb6-21c3" type="rule"/>
-        <infoLink id="165c-28e3-ae12-36b9" name="Hard to 命中" hidden="false" targetId="9caa-ff00-a5bd-5f04" type="rule"/>
+        <infoLink id="165c-28e3-ae12-36b9" name="难以命中" hidden="false" targetId="9caa-ff00-a5bd-5f04" type="rule"/>
         <infoLink id="f44a-478c-928f-a112" name="Interceptor" hidden="false" targetId="2dcf-4662-7632-86a4" type="rule"/>
         <infoLink id="29e1-ccb9-f841-86a6" name="坠毁" hidden="false" targetId="7157-559f-a8f5-6657" type="rule"/>
         <infoLink id="9e08-a1d0-235d-cdcb" name="Infernium Halo-launcher" hidden="false" targetId="8a28-a2dd-2193-3602" type="rule"/>
@@ -5213,12 +5213,12 @@
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="d30e-c7c5-5cd2-fc43" name="Las-Talon" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="d30e-c7c5-5cd2-fc43" name="激光爪" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e682-09e8-065e-7b83" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="05d6-fd3c-8e1a-5123" name="Las-talon" hidden="false" collective="false" import="true" targetId="5ca6-11eb-52e7-aad9" type="selectionEntry">
+                <entryLink id="05d6-fd3c-8e1a-5123" name="激光爪" hidden="false" collective="false" import="true" targetId="5ca6-11eb-52e7-aad9" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8296-7494-67fd-7ded" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd02-7816-b8dd-3380" type="min"/>
@@ -5275,7 +5275,7 @@
         <infoLink id="5e34-8867-c69d-b3a7" name="风暴爪炮艇" hidden="false" targetId="5a0e-235a-0970-04a4" type="profile"/>
         <infoLink id="f43e-dcc5-c038-442e" name="Airborne" hidden="false" targetId="15ea-860d-9eb6-21c3" type="rule"/>
         <infoLink id="1ec1-5a16-2b08-5b45" name="超音速" hidden="false" targetId="127f-1e53-dae0-3b45" type="rule"/>
-        <infoLink id="aeb6-f848-b529-f37d" name="Hard to 命中" hidden="false" targetId="9caa-ff00-a5bd-5f04" type="rule"/>
+        <infoLink id="aeb6-f848-b529-f37d" name="难以命中" hidden="false" targetId="9caa-ff00-a5bd-5f04" type="rule"/>
         <infoLink id="c097-497c-e1d7-bdef" name="坠毁" hidden="false" targetId="7157-559f-a8f5-6657" type="rule"/>
         <infoLink id="f2db-1ec5-5549-66f6" name="悬浮" hidden="false" targetId="8a1c-f19a-913b-f084" type="rule"/>
         <infoLink id="a8b9-7e01-7802-e580" name="Strafing Run" hidden="false" targetId="9db1-c749-214e-4336" type="rule"/>
@@ -6982,7 +6982,7 @@
           </constraints>
           <rules>
             <rule id="ce37-7119-1d79-1ab0" name="3: Unyielding Anvil" hidden="false">
-              <description>友方 Grey Knights 单位 that are 范围内 6寸 of your 主将 自动通过 士气测试.</description>
+              <description>友方 Grey Knights 单位 that are 6寸范围内 of your 主将 自动通过 士气测试.</description>
             </rule>
           </rules>
           <costs>
@@ -7011,7 +7011,7 @@
           </constraints>
           <rules>
             <rule id="e15d-a19f-a89f-2764" name="4: First to the Fray" hidden="false">
-              <description>可以重投失败的冲锋骰 for your 主将 and 友方 Grey Knights 单位 that are 范围内 6寸 of him 开始时 of the 冲锋阶段.</description>
+              <description>可以重投失败的冲锋骰 for your 主将 and 友方 Grey Knights 单位 that are 6寸范围内 of him 开始时 of the 冲锋阶段.</description>
             </rule>
           </rules>
           <costs>
@@ -7104,10 +7104,10 @@
       <description>部署期间, 可以放置 这个单位 in a teleportarium chamber 而不是 placing it 战场上. At the end of any of your 移动阶段 这个单位 can teleport into battle - 放置在战场上的任何位置 that is more than 9寸 away from 任何敌方模型.</description>
     </rule>
     <rule id="191c-9909-f353-4013" name="Psychic Locus" hidden="false">
-      <description>When a 友方 Grey Knights 单位 范围内 6寸 of a (Brother-Captains) manifests the 惩击 power, double its range.</description>
+      <description>When a 友方 Grey Knights 单位 6寸范围内 of a (Brother-Captains) manifests the 惩击 power, double its range.</description>
     </rule>
     <rule id="427d-369d-bb71-3387" name="战争之仪" hidden="false">
-      <description>可以重投命中骰 of 1 for 友方 (Grey Knights) 单位 范围内 6寸 of 这个模型.</description>
+      <description>可以重投命中骰 of 1 for 友方 (Grey Knights) 这个模型6寸范围内的单位.</description>
     </rule>
     <rule id="c424-f335-287f-f14c" name="Rites of Banishment" hidden="false">
       <description>When 这个单位 manifests the 惩击 psychic power, it 拥有 range of 12寸 rather than 18寸. Additionally, the target 单位 遭受 only 1 致命伤 rather than D3 (whether or not the result of the Psychic test is more than 10) - unless the target is a 恶魔 这种情况下it 遭受 3 致命伤 而不是 D3.</description>
@@ -7128,19 +7128,19 @@
       <description>这个模型移动后射击重型武器没有命中惩罚.</description>
     </rule>
     <rule id="31de-fab0-5ddd-b01a" name="爆炸 (D6)" hidden="false">
-      <description>如果这个模型W降为0, 投掷1个D6 before removing it from the battlefield and before 上车 模型 下车. 结果为6则爆炸, 每个单位 范围内 6寸 遭受 D6 moral wounds.</description>
+      <description>如果这个模型W降为0, 投掷1个D6 before removing it from the battlefield and before 上车 模型 下车. 结果为6则爆炸, 6寸范围内每个单位遭受 D6 moral wounds.</description>
     </rule>
     <rule id="26e6-5bea-00f5-f6b5" name="破片突击发射器" hidden="false">
-      <description>投掷1个D6 每次 这个模型 完成冲锋移动 范围内 1寸 of an 敌方单位; 结果为	4+ 那个单位 遭受 D3 致命伤.</description>
+      <description>投掷1个D6 每次 这个模型 完成冲锋移动 1寸范围内 of an 敌方单位; 结果为	4+ 那个单位 遭受 D3 致命伤.</description>
     </rule>
     <rule id="1bb5-8f02-92d0-2d98" name="Unyielding 旗手" hidden="false">
       <description>投掷1个D6 每次 这个模型 失去1点W; 结果为6 the 伤害 is ignored and that wound is not lost.</description>
     </rule>
     <rule id="e6ba-6b69-817b-b366" name="Blessings of the Omnissiah" hidden="false">
-      <description>At the end of your 移动阶段 这个模型 can repair a single (战团) 载具 范围内 1寸. That 模型 恢复 D3 失去的W. A 模型 can only be repaired once per turn. </description>
+      <description>At the end of your 移动阶段 这个模型 can repair a single (战团) 载具 1寸范围内. That 模型 恢复 D3 失去的W. A 模型 can only be repaired once per turn. </description>
     </rule>
     <rule id="e641-f77e-a5bb-c4fe" name="意识锁定" hidden="false">
-      <description>Servitors improve both their 武器 Skill and Ballistic Skill to 4+, LD to 9, whilst they are 范围内 6寸 of any 友方 Techmarines.</description>
+      <description>Servitors improve both their 武器 Skill and Ballistic Skill to 4+, LD to 9, whilst they are 6寸范围内 of any 友方 Techmarines.</description>
     </rule>
     <rule id="0d53-bb62-4547-796e" name="灵能头箍" hidden="false">
       <description>You can add 1 to Deny the Witch tests you take for 这个模型 对抗 敌方 灵能者 单位 范围内 12寸.</description>
@@ -7161,7 +7161,7 @@
       <description>投掷1个D6 每次 这个模型 失去1点W; 结果为6 the 伤害 is ignored and the wound is not lost.</description>
     </rule>
     <rule id="0d43-9cb7-e979-9451" name="Psyk-out Assault Launchers" hidden="false">
-      <description>投掷1个D6 每次 这个模型 finished a 冲锋移动 范围内 1寸 of an 敌方单位; 结果为4+ 那个单位 遭受 1 致命伤, increasing to D3 致命伤 if 那个单位 is a (灵能者).</description>
+      <description>投掷1个D6 每次 这个模型 finished a 冲锋移动 1寸范围内 of an 敌方单位; 结果为4+ 那个单位 遭受 1 致命伤, increasing to D3 致命伤 if 那个单位 is a (灵能者).</description>
     </rule>
     <rule id="8a1c-f19a-913b-f084" name="悬浮" hidden="false">
       <description>Before 这个模型 moves in your 移动阶段, you can declare it will hover. Its M值 becomes 20寸 unitl the end of the phase, and it loses the Airborne, Colossal Flyer and 超音速 abiities until the beginning of your next 移动阶段.</description>
@@ -7176,13 +7176,13 @@
       <description>部署期间, 可以放置 Lord Kaldor Draigo in the warp 而不是 placing him 战场上. At the end of any of your 移动阶段 Lord Kaldor Draigo can emerge from the warp – set him up 任何位置 战场上 that is more than 9寸 away from 任何敌方模型.</description>
     </rule>
     <rule id="5e20-12a8-78b5-6d3f" name="Bane of Evil" hidden="false">
-      <description>When a 友方 (GREY KNIGHTS) 单位 范围内 6寸 of Lord Kaldor Draigo makes an attack 对抗 a (恶魔) 单位 in the 肉搏阶段, you can 重投 伤害 骰 for 那个单位.</description>
+      <description>When a 友方 (GREY KNIGHTS) 单位 6寸范围内 of Lord Kaldor Draigo makes an attack 对抗 a (恶魔) 单位 in the 肉搏阶段, you can 重投 伤害 骰 for 那个单位.</description>
     </rule>
     <rule id="0975-04aa-4a85-ef72" name="战团长" hidden="false">
-      <description>可以重投失败的命中骰 for 友方 GREY KNIGHTS 单位 that are 范围内 6寸 of Lord Kaldor Draigo.</description>
+      <description>可以重投失败的命中骰 for 友方 GREY KNIGHTS 单位 that are 6寸范围内 of Lord Kaldor Draigo.</description>
     </rule>
     <rule id="f873-8fea-db05-216b" name="灵能者 小队" hidden="false">
-      <description>When manifesting or denying a psychic power, first select a 模型 in the 单位 - measure range, visibility, etc. from 这个模型. If the 单位 遭受 Perils of the Warp, it 遭受 D3 致命伤 as described in the core rules, but 单位 范围内 6寸 with only suffer 伤害 if the Perils of the Warp cause the last 模型 in the manifesting 单位 to be slain.</description>
+      <description>When manifesting or denying a psychic power, first select a 模型 in the 单位 - measure range, visibility, etc. from 这个模型. If the 单位 遭受 Perils of the Warp, it 遭受 D3 致命伤 as described in the core rules, but 单位 6寸范围内 with only suffer 伤害 if the Perils of the Warp cause the last 模型 in the manifesting 单位 to be slain.</description>
     </rule>
     <rule id="5a9b-93d7-3e90-9672" name="Brotherhood of 灵能者" publicationId="0cc2-3545-pubN112001" page="96" hidden="false">
       <description>If your army is Battle-forged, 所有 灵能者 in Grey Knight Detachments 获得这个能力. You can add 1 to Psychic tests and Deny the Witch tests taken for such a 单位.</description>
@@ -7191,16 +7191,16 @@
       <description>这个模型拥有 4+ 特殊保护.</description>
     </rule>
     <rule id="4d40-b79d-a7a3-1395" name="Litanies of Hate" hidden="false">
-      <description>可以重投失败的命中骰 in the 肉搏阶段 for 友方 Grey Knight 单位 范围内 6寸 of 这个模型.</description>
+      <description>可以重投失败的命中骰 in the 肉搏阶段 for 友方 Grey Knight 这个模型6寸范围内的单位.</description>
     </rule>
     <rule id="514c-89bc-7cc3-597c" name="精神领袖" hidden="false">
-      <description>所有 友方 Grey Knights 单位 范围内 6寸 of 这个模型 can use the Chaplains LD 而不是 thier own.</description>
+      <description>所有 友方 Grey Knights 这个模型6寸范围内的单位 can use the Chaplains LD 而不是 thier own.</description>
     </rule>
     <rule id="a26c-3bc4-cd1f-10bf" name="Knights of 泰坦" publicationId="0cc2-3545-pubN112001" page="96" hidden="false">
       <description>If your army is Battle-forged, 所有 Troops 单位 in GREY KNIGHTS Detachments 获得这个能力. Such a 单位 that is 范围内 range of an objective marker (as specified in the mission) controls that objective marker even if there are more 敌方模型 范围内 range of that objective marker. If an 敌方单位 范围内 range of the same objective marker 拥有 similar ability, then the objective marker is controlled by the player who has the most 模型 范围内 range of it as normal.</description>
     </rule>
     <rule id="7157-559f-a8f5-6657" name="坠毁" hidden="false">
-      <description>如果这个模型W降为0, 投掷1个D6 before removing it from the battlefield; 结果为6则爆炸, 每个单位 范围内 6寸 遭受 D3 moral wounds.</description>
+      <description>如果这个模型W降为0, 投掷1个D6 before removing it from the battlefield; 结果为6则爆炸, 6寸范围内每个单位遭受 D3 moral wounds.</description>
     </rule>
     <rule id="8a28-a2dd-2193-3602" name="Infernium Halo-launcher" hidden="false">
       <description>You can 重投 save 骰 of 1 for 这个模型.</description>
@@ -7212,7 +7212,7 @@
       <description>命中骰+1 for 这个模型 when targeting an 敌方 in the 射击阶段 that cannot FLY.</description>
     </rule>
     <rule id="56f3-8e33-0a1b-fbd7" name="Domina Liber Demonica" hidden="false">
-      <description>所有 敌方 (恶魔) 单位 必须 减少 1 from their LD charachteristic whilst they are 范围内 6寸 of the bearer.</description>
+      <description>所有 敌方 (恶魔) 单位 必须 减少 1 from their LD charachteristic whilst they are 6寸范围内 of the bearer.</description>
     </rule>
     <rule id="5423-ad56-2aa0-3fbe" name="Curiass of Sacrifice" hidden="false">
       <description>(步兵) 模型 only. 投掷1个D6 每次 the bearer 失去1点W. 结果为5+, the 伤害 is ignored and the bearer does not lose a wound.</description>
@@ -7599,7 +7599,7 @@
         <characteristic name="Cast" typeId="5afb-9914-904b-d3b3">1</characteristic>
         <characteristic name="Deny" typeId="b5ac-9c20-5d5a-6f9b">1</characteristic>
         <characteristic name="Powers Known" typeId="69d7-b45e-00a2-7e46">1</characteristic>
-        <characteristic name="Other" typeId="c2e2-f115-0003-5d7b">When manifesting or denying a psychic power, first select a 模型 in the 单位 - measure range, visibility, etc. from 这个模型. If the 单位 遭受 Perils of the Warp, is 遭受 D3 致命伤 as described in the core rules, but 单位 范围内 6寸 with only suffer 伤害 if the Perils of the Warp cause the last 模型 in the manifesting 单位 to be slain.</characteristic>
+        <characteristic name="Other" typeId="c2e2-f115-0003-5d7b">When manifesting or denying a psychic power, first select a 模型 in the 单位 - measure range, visibility, etc. from 这个模型. If the 单位 遭受 Perils of the Warp, is 遭受 D3 致命伤 as described in the core rules, but 单位 6寸范围内 with only suffer 伤害 if the Perils of the Warp cause the last 模型 in the manifesting 单位 to be slain.</characteristic>
       </characteristics>
     </profile>
     <profile id="0e74-2adc-df5c-ef69" name="Purifier" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
@@ -7663,7 +7663,7 @@
       <characteristics>
         <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">5</characteristic>
         <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
-        <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, the closest 敌方单位 范围内 18寸 遭受 D3 致命伤. If the result of the Psychic test was more than 10, the target 遭受 D6 致命伤 instead.</characteristic>
+        <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, the closest 敌方单位 18寸范围内 遭受 D3 致命伤. If the result of the Psychic test was more than 10, the target 遭受 D6 致命伤 instead.</characteristic>
       </characteristics>
     </profile>
     <profile id="cccc-a033-cf65-962b" name="灵能者 (Sanctic 3/2)" hidden="false" typeId="bc97-dea9-9e88-bb7d" typeName="灵能者">
@@ -7678,7 +7678,7 @@
       <characteristics>
         <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">5</characteristic>
         <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
-        <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, pick a 友方 (Grey Knights) 单位 范围内 18寸 of the 灵能者. Until your next 灵能阶段, the 单位 you picked is able to target 敌方单位 that are not 可见 to them, and 单位 they target with 射击攻击 do not gain any bonus to their saving throws for being in cover.</characteristic>
+        <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, pick a 友方 (Grey Knights) 单位 18寸范围内 of the 灵能者. Until your next 灵能阶段, the 单位 you picked is able to target 敌方单位 that are not 可见 to them, and 单位 they target with 射击攻击 do not gain any bonus to their saving throws for being in cover.</characteristic>
       </characteristics>
     </profile>
     <profile id="79e4-c23d-7939-80cb" name="Banner of Refining Flame" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
