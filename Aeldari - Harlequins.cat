@@ -65,7 +65,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If the target is 范围内 half range of 这个武器, roll two dice when inflicting 伤害 with it and discard the lowest result.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器瞄准一半范围内的目标时, 伤害投掷2个骰子并舍弃最低结果.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -658,7 +658,7 @@
         </profile>
         <profile id="d8e1-d702-5c4a-d0f0" name="Blitz" publicationId="7d24-b92f-pubN65537" page="60" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, 而不是 making a normal move with the Solitaire, you can make a Blitz move with it. If you do so, add 2D6寸 to the 模型的 M值 for this turn. 此外, the 模型的 A值 is increased to 10 for the rest of the turn. This ability 不能 used if the 模型 has been selected as the target of the 寸Twilight Pathways寸 psychic power in the previous 灵能阶段. A 模型 cannot Advance and use this ability in the same turn.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, 而不是 making a normal move with the Solitaire, you can make a Blitz move with it. If you do so, add 2D6寸 to the 模型的 M值 for this turn. 此外, the 模型的 A值 增加到 10 for the rest of the turn. This ability 不能 used if the 模型 has been selected as the target of the 寸Twilight Pathways寸 psychic power in the previous 灵能阶段. A 模型 cannot Advance and use this ability in the same turn.</characteristic>
           </characteristics>
         </profile>
         <profile id="488e-748a-f100-134a" name="Impossible Form" publicationId="7d24-b92f-pubN65537" page="60" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -1144,7 +1144,7 @@
                 <entryLink id="ded2-5c33-9d5e-f252" name="New EntryLink" hidden="false" collective="false" import="true" targetId="5cec-256b-7cfd-038f" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="da8f-311e-480d-371a" name="Skyweavers Ranged 武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="dc56-dc99-421c-05e4">
+            <selectionEntryGroup id="da8f-311e-480d-371a" name="Skyweavers 远程武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="dc56-dc99-421c-05e4">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b847-8813-00fa-a7bd" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="deed-5e1c-024b-d7c5" type="max"/>
@@ -1346,7 +1346,7 @@
       <profiles>
         <profile id="ca57-de54-b3fc-b3fd" name="The Dreaming Shadow: Sombre Sentinels" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When a 单位 with this form fails a Morale test, only one 模型 from 这个单位 必须 flee. 此外, 每次 a 模型 with this form is slain or flees, 投掷1个D6 before removing that model: 结果为4+, that 模型 can either shoot with one of its ranged 武器 as if it were the 射击阶段, or make a single attack as if it were the 肉搏阶段.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When a 单位 with this form fails a Morale test, only one 模型 from 这个单位 必须 flee. 此外, 每次 a 模型 with this form is slain or flees, 投掷1个D6 before removing that model: 结果为4+, that 模型 can either shoot with one of its 远程武器 as if it were the 射击阶段, or make a single attack as if it were the 肉搏阶段.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1360,7 +1360,7 @@
       <profiles>
         <profile id="c882-1b97-c57a-9425" name="The Silent Shroud: Dance of Nightmares Made Flesh" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">减少 1 from the LD值 of 敌方单位 while they are 范围内 6寸 of 任何单位 from your army with this form. 此外, whenever your opponent takes a morale test for a 单位 that is 范围内 6寸 of 任何单位 from your army with this form, they 必须 roll two dice and discard the lowest result.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">减少 1 from the LD值 of 敌方单位 while they are 范围内 6寸 of 任何单位 from your army with this form. 此外, whenever your opponent takes a morale test for a 单位 that is 范围内 6寸 of 任何单位 from your army with this form, they 必须 roll two dice and 舍弃最低结果.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1582,7 +1582,7 @@
       <profiles>
         <profile id="7a59-5a5a-260f-ac4b" name="The Starmist Raiment" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The wearer 拥有 3+ 特殊保护 对抗 ranged 武器. 此外, 敌方单位 cannot fire 坚守射击 at the wearer during a turn in which the wearer Advanced.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The wearer 拥有 3+ 特殊保护 对抗 远程武器. 此外, 敌方单位 cannot fire 坚守射击 at the wearer during a turn in which the wearer Advanced.</characteristic>
           </characteristics>
         </profile>
       </profiles>

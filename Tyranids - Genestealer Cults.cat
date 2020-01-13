@@ -964,7 +964,7 @@
         <categoryLink id="c716-a31b-9835-fb78" name="阵营: Brood Brothers" hidden="false" targetId="87e6-28da-b1dd-7a2a" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="5769-1c1b-7f63-fb7e" name="Hull 武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="c8ed-be61-68f6-a3e5">
+        <selectionEntryGroup id="5769-1c1b-7f63-fb7e" name="车体武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="c8ed-be61-68f6-a3e5">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="284d-5753-e266-1447" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c0d-5a72-a875-ce5b" type="max"/>
@@ -991,7 +991,7 @@
           </constraints>
           <entryLinks>
             <entryLink id="09ac-4f25-013b-62ff" name="风暴爆弹" hidden="false" collective="false" import="true" targetId="faa0-b7ea-b217-329c" type="selectionEntry"/>
-            <entryLink id="2c15-df8b-33f3-93a5" name="Heavy Stubber" hidden="false" collective="false" import="true" targetId="6ebe-58fe-449f-121d" type="selectionEntry"/>
+            <entryLink id="2c15-df8b-33f3-93a5" name="重机枪" hidden="false" collective="false" import="true" targetId="6ebe-58fe-449f-121d" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -1058,7 +1058,7 @@
         </profile>
         <profile id="a01b-daaa-7396-00c2" name="Grinding Advance" publicationId="83b2-e602-pubN65537" page="98" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 remains stationary or moves under half speed in its 移动阶段 (i.e. it moves a distance in inches less than half of its current M值) it can shoot its 炮塔武器 twice in the following 射击阶段 (the 炮塔武器 必须 target the same 单位 both times). Furthermore, 命中 骰 for 这个模型&apos;s 炮塔武器 do not suffer the penalty for moving and 射击 a Heavy 武器. The following 武器 are turret 武器: battle cannon, eradicator nova cannon, exterminator 自动炮 and vanquisher battle cannon.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 remains stationary or moves under half speed in its 移动阶段 (i.e. it moves a distance in inches less than half of its current M值) it can shoot its 炮塔武器 twice in the following 射击阶段 (the 炮塔武器 必须 target the same 单位 both times). Furthermore, 命中 骰 for 这个模型&apos;s 炮塔武器 do not suffer the penalty for moving and 射击 a Heavy 武器. The following 武器 are turret 武器: 战斗炮, eradicator nova cannon, exterminator 自动炮 and vanquisher 战斗炮.</characteristic>
           </characteristics>
         </profile>
         <profile id="9d8a-7ac7-4957-7c48" name="Emergency Plasma Vents" publicationId="83b2-e602-pubN65537" page="98" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -1092,13 +1092,13 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6a1-f658-da07-4797" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="08e6-27f2-7f6e-48f1" name="Battle Cannon" hidden="false" collective="false" import="true" targetId="a35f-bd7e-2695-1fa6" type="selectionEntry"/>
+            <entryLink id="08e6-27f2-7f6e-48f1" name="战斗炮" hidden="false" collective="false" import="true" targetId="a35f-bd7e-2695-1fa6" type="selectionEntry"/>
             <entryLink id="8a37-edd9-c30e-8181" name="Eradicator Nova Cannon" hidden="false" collective="false" import="true" targetId="4f4a-118d-a4fa-79a9" type="selectionEntry"/>
             <entryLink id="8457-8627-d8d1-d535" name="Exterminator 自动炮" hidden="false" collective="false" import="true" targetId="0519-24af-3679-8f8f" type="selectionEntry"/>
-            <entryLink id="fc20-abcf-e8bb-5c12" name="Vanquisher Battle Cannon" hidden="false" collective="false" import="true" targetId="d542-f7ec-dd29-47c0" type="selectionEntry"/>
+            <entryLink id="fc20-abcf-e8bb-5c12" name="Vanquisher 战斗炮" hidden="false" collective="false" import="true" targetId="d542-f7ec-dd29-47c0" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="da2c-965f-c497-965c" name="Hull 武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="5a43-19db-f6b4-af15">
+        <selectionEntryGroup id="da2c-965f-c497-965c" name="车体武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="5a43-19db-f6b4-af15">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5fb9-6a31-aeb5-93dc" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb6f-58d6-0092-9ff5" type="max"/>
@@ -1146,7 +1146,7 @@
           </constraints>
           <entryLinks>
             <entryLink id="c03f-58de-38af-161c" name="风暴爆弹" hidden="false" collective="false" import="true" targetId="faa0-b7ea-b217-329c" type="selectionEntry"/>
-            <entryLink id="63f2-3494-c9bc-a181" name="Heavy Stubber" hidden="false" collective="false" import="true" targetId="6ebe-58fe-449f-121d" type="selectionEntry"/>
+            <entryLink id="63f2-3494-c9bc-a181" name="重机枪" hidden="false" collective="false" import="true" targetId="6ebe-58fe-449f-121d" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -1215,7 +1215,7 @@
     </selectionEntry>
     <selectionEntry id="26bd-a844-711b-bdf6" name="Cult 侦察兵 Sentinels" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="c8b4-539b-8ee3-c54f" name="侦察兵 载具" publicationId="83b2-e602-pubN65537" page="97" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="c8b4-539b-8ee3-c54f" name="侦察载具" publicationId="83b2-e602-pubN65537" page="97" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of the first battle round but before the first turn begins, you can move 这个单位 至多 9寸. It cannot end this move 范围内 9寸 of 任何敌方模型. If both players have 单位 that can do this, the player who is taking the first turn moves their 单位 first.</characteristic>
           </characteristics>
@@ -1382,7 +1382,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="859e-9afe-8e0a-a4c8" name="Heavy Stubber" hidden="false" collective="false" import="true" targetId="6ebe-58fe-449f-121d" type="selectionEntry">
+        <entryLink id="859e-9afe-8e0a-a4c8" name="重机枪" hidden="false" collective="false" import="true" targetId="6ebe-58fe-449f-121d" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="afa2-42a2-07ac-f1d2" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c498-f8f3-3ce0-375e" type="max"/>
@@ -1481,7 +1481,7 @@
         <categoryLink id="aca2-3259-c54a-3c4b" name="阵营: &lt;教团&gt;" hidden="false" targetId="1117-30a3-a004-bdbd" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="82e8-00a7-29a0-1412" name="Heavy Stubber" hidden="false" collective="false" import="true" targetId="6ebe-58fe-449f-121d" type="selectionEntry">
+        <entryLink id="82e8-00a7-29a0-1412" name="重机枪" hidden="false" collective="false" import="true" targetId="6ebe-58fe-449f-121d" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11ee-242c-837e-b05b" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d8e1-d880-18b2-e478" type="max"/>
@@ -2297,9 +2297,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a35f-bd7e-2695-1fa6" name="Battle Cannon" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="a35f-bd7e-2695-1fa6" name="战斗炮" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="d3b9-a217-0562-6c16" name="Battle Cannon" hidden="false" targetId="bc34-f1ec-56fa-2829" type="profile"/>
+        <infoLink id="d3b9-a217-0562-6c16" name="战斗炮" hidden="false" targetId="bc34-f1ec-56fa-2829" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="22.0"/>
@@ -2449,9 +2449,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6ebe-58fe-449f-121d" name="Heavy Stubber" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="6ebe-58fe-449f-121d" name="重机枪" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="daaa-538e-2964-9b7f" name="Heavy stubber" hidden="false" targetId="0031-0314-5b36-a220" type="profile"/>
+        <infoLink id="daaa-538e-2964-9b7f" name="重机枪" hidden="false" targetId="0031-0314-5b36-a220" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="2.0"/>
@@ -2571,7 +2571,7 @@
     <selectionEntry id="077b-596a-fc56-222b" name="Plasma Cannon" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="9093-73ec-118a-9308" name="Plasma cannon, 标准" hidden="false" targetId="7983-8451-cdc3-ce7e" type="profile"/>
-        <infoLink id="48c1-3655-4127-7788" name="Plasma cannon, Supercharge" hidden="false" targetId="fbb2-f4cb-e47d-1d10" type="profile"/>
+        <infoLink id="48c1-3655-4127-7788" name="Plasma cannon, 过载" hidden="false" targetId="fbb2-f4cb-e47d-1d10" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="10.0"/>
@@ -2680,9 +2680,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d542-f7ec-dd29-47c0" name="Vanquisher Battle Cannon" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="d542-f7ec-dd29-47c0" name="Vanquisher 战斗炮" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="dd76-5fbf-7a28-188a" name="Vanquisher Battle Cannon" hidden="false" targetId="4067-1dfa-a235-9ec0" type="profile"/>
+        <infoLink id="dd76-5fbf-7a28-188a" name="Vanquisher 战斗炮" hidden="false" targetId="4067-1dfa-a235-9ec0" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="15.0"/>
@@ -3148,7 +3148,7 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05e6-060c-67b5-d5c4" type="max"/>
                       </constraints>
                     </entryLink>
-                    <entryLink id="f8a9-b4e9-ae29-badb" name="Heavy Stubber" hidden="false" collective="false" import="true" targetId="58e8-8d7e-15c4-b230" type="selectionEntry">
+                    <entryLink id="f8a9-b4e9-ae29-badb" name="重机枪" hidden="false" collective="false" import="true" targetId="58e8-8d7e-15c4-b230" type="selectionEntry">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f551-e0ee-d5c4-5b5c" type="min"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc53-e8a4-525c-b532" type="max"/>
@@ -3956,7 +3956,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">+1</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 always wounds 结果为2+ unless it is targeting a 载具 or 巨型 单位. If a 人物 loses any wounds as a result of an attack with 这个武器, 投掷1个D6 for it after 所有 of the bearer&apos;s 攻击 have been resolved; if the result is higher than that 模型的 W值, it 遭受 D3 致命伤.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 always wounds 结果为2+ 除非目标为载具 or 巨型 单位. If a 人物 loses any wounds as a result of an attack with 这个武器, 投掷1个D6 for it after 所有 of the bearer&apos;s 攻击 have been resolved; if the result is higher than that 模型的 W值, it 遭受 D3 致命伤.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4564,7 +4564,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2152-2a03-9fb0-24b0" type="min"/>
               </constraints>
               <entryLinks>
-                <entryLink id="089c-f9af-7db6-c427" name="Heavy Stubber" hidden="false" collective="false" import="true" targetId="6ebe-58fe-449f-121d" type="selectionEntry"/>
+                <entryLink id="089c-f9af-7db6-c427" name="重机枪" hidden="false" collective="false" import="true" targetId="6ebe-58fe-449f-121d" type="selectionEntry"/>
                 <entryLink id="e63c-edb6-e76d-85c1" name="Mining Laser" hidden="false" collective="false" import="true" targetId="7af4-ad23-b97f-64f3" type="selectionEntry"/>
                 <entryLink id="84c8-c7a9-43d1-1e2d" name="Atalan Incinerator" hidden="false" collective="false" import="true" targetId="3b58-3685-a921-a6f7" type="selectionEntry"/>
               </entryLinks>
@@ -5182,7 +5182,7 @@
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">1</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 the bearer fights, it can make 1 additional attack with 这个武器. 这个武器 always wounds 结果为2+ unless it is targeting a 载具 or 巨型 单位.</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 the bearer fights, it can make 1 additional attack with 这个武器. 这个武器 always wounds 结果为2+ 除非目标为载具 or 巨型 单位.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5380,7 +5380,7 @@
       <profiles>
         <profile id="4954-635e-e90e-81fe" name="Spotter" publicationId="83b2-e602-pubN65537" page="103" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If a 模型 拥有 spotter, increase the 射程 of its ranged 武器 by 6寸.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If a 模型 拥有 spotter, increase the 射程 of its 远程武器 by 6寸.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5406,7 +5406,7 @@
     </selectionEntry>
     <selectionEntry id="5f1f-775f-00e2-eb90" name="Achilles Ridgerunners" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="05d7-96ef-10d3-a96a" name="侦察兵 载具" publicationId="83b2-e602-pubN65537" page="94" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="05d7-96ef-10d3-a96a" name="侦察载具" publicationId="83b2-e602-pubN65537" page="94" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of the first battle round but before the first turn begins, you can move 这个单位 至多 9寸. It cannot end this move 范围内 9寸 of 任何敌方模型. If both players have 单位 that can do this, the player who is taking the first turn moves their 单位 first.</characteristic>
           </characteristics>
@@ -5452,7 +5452,7 @@
               <entryLinks>
                 <entryLink id="e03e-6e1d-4da6-fa7c" name="Heavy Mining Laser" hidden="false" collective="false" import="true" targetId="a8ce-45ce-ea8f-f22b" type="selectionEntry"/>
                 <entryLink id="a31b-969d-df0c-7b5e" name="导弹发射器" hidden="false" collective="false" import="true" targetId="eb20-7e8b-4806-b84e" type="selectionEntry"/>
-                <entryLink id="29ab-8b04-c42f-0768" name="Heavy Mortar" hidden="false" collective="false" import="true" targetId="603d-c311-7be1-d614" type="selectionEntry"/>
+                <entryLink id="29ab-8b04-c42f-0768" name="重型迫击炮" hidden="false" collective="false" import="true" targetId="603d-c311-7be1-d614" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="d56d-ee18-ca18-27c6" name="Equipment" hidden="false" collective="false" import="true" defaultSelectionEntryId="32a7-d93c-f5e4-22b7">
@@ -5468,7 +5468,7 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="cb05-0f57-7b86-7275" name="Heavy Stubber" hidden="false" collective="false" import="true" targetId="6ebe-58fe-449f-121d" type="selectionEntry">
+            <entryLink id="cb05-0f57-7b86-7275" name="重机枪" hidden="false" collective="false" import="true" targetId="6ebe-58fe-449f-121d" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f59-b8ff-48a4-186f" type="min"/>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c85-d812-faac-b9ba" type="max"/>
@@ -5525,7 +5525,7 @@
         </profile>
         <profile id="3fb9-3e7f-1903-c11f" name="Heroic Deeds, Heroic Inspiration" publicationId="83b2-e602-pubN65537" page="92" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 kills 任何敌方模型 with its ranged 武器, then 直到阶段结束, after resolving its 攻击, 重投命中的 1 for 攻击 made by 友方 &lt;教团&gt; 步兵单位 whilst they are 范围内 6寸 of 这个模型.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 kills 任何敌方模型 with its 远程武器, then 直到阶段结束, after resolving its 攻击, 重投命中的 1 for 攻击 made by 友方 &lt;教团&gt; 步兵单位 whilst they are 范围内 6寸 of 这个模型.</characteristic>
           </characteristics>
         </profile>
         <profile id="8f2e-0862-7e82-f5db" name="Preternatural Senses" publicationId="83b2-e602-pubN65537" page="92" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -5626,9 +5626,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="58e8-8d7e-15c4-b230" name="Heavy Stubber" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="58e8-8d7e-15c4-b230" name="重机枪" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="4bb1-3cd1-e971-b305" name="Heavy stubber" hidden="false" targetId="0031-0314-5b36-a220" type="profile"/>
+        <infoLink id="4bb1-3cd1-e971-b305" name="重机枪" hidden="false" targetId="0031-0314-5b36-a220" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="2.0"/>
@@ -5667,9 +5667,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="603d-c311-7be1-d614" name="Heavy Mortar" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="603d-c311-7be1-d614" name="重型迫击炮" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="bea3-a41a-bdad-9060" name="Heavy Mortar" hidden="false" targetId="c896-f8f4-62c4-b631" type="profile"/>
+        <infoLink id="bea3-a41a-bdad-9060" name="重型迫击炮" hidden="false" targetId="c896-f8f4-62c4-b631" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="8.0"/>
@@ -5893,7 +5893,7 @@ If your opponent has the first turn, then none of their 单位 can be set up or 
     </selectionEntryGroup>
     <selectionEntryGroup id="ec93-7a8b-1a76-3f89" name="Heavy Mining 武器" hidden="false" collective="false" import="true">
       <entryLinks>
-        <entryLink id="e630-f3bf-5227-6ba8" name="Heavy Stubber" hidden="false" collective="false" import="true" targetId="6ebe-58fe-449f-121d" type="selectionEntry"/>
+        <entryLink id="e630-f3bf-5227-6ba8" name="重机枪" hidden="false" collective="false" import="true" targetId="6ebe-58fe-449f-121d" type="selectionEntry"/>
         <entryLink id="79b9-c97e-682a-554d" name="Seismic Cannon" hidden="false" collective="false" import="true" targetId="a8b1-6a95-53f9-ef1a" type="selectionEntry"/>
         <entryLink id="47b3-c958-63c9-8ff1" name="Mining Laser" hidden="false" collective="false" import="true" targetId="7af4-ad23-b97f-64f3" type="selectionEntry"/>
       </entryLinks>
@@ -6078,7 +6078,7 @@ If your opponent has the first turn, then none of their 单位 can be set up or 
           <profiles>
             <profile id="758b-441c-95eb-008d" name="Amulet of the Voidwyrm" publicationId="83b2-e602-pubN65537" page="116" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to saving throws made for the bearer 对抗 ranged 武器. 此外, 敌方单位 cannot fire 坚守射击 at the bearer&apos;s 单位.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to saving throws made for the bearer 对抗 远程武器. 此外, 敌方单位 cannot fire 坚守射击 at the bearer&apos;s 单位.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6179,7 +6179,7 @@ If your opponent has the first turn, then none of their 单位 can be set up or 
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 the bearer fights, it can make 1 additional attack with 这个武器. 这个武器 always wounds 结果为2+ unless it is targeting a 载具 or 巨型 单位. If a 人物 模型 loses any wounds as a result of an attack with 这个武器 but is not slain, it 遭受 D3 致命伤 after the bearer has made 所有 of its 攻击.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 the bearer fights, it can make 1 additional attack with 这个武器. 这个武器 always wounds 结果为2+ 除非目标为载具 or 巨型 单位. If a 人物 模型 loses any wounds as a result of an attack with 这个武器 but is not slain, it 遭受 D3 致命伤 after the bearer has made 所有 of its 攻击.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6208,7 +6208,7 @@ If your opponent has the first turn, then none of their 单位 can be set up or 
           <profiles>
             <profile id="5b25-5238-371c-6b3c" name="The Gift from Beyond" publicationId="83b2-e602-pubN65537" page="117" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 2 to wound 骰 for 攻击 made with 这个模型&apos;s Jackal 狙击步枪 or silencer 狙击步枪 unless it is targeting a 载具 or 巨型 单位.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 2 to wound 骰 for 攻击 made with 这个模型&apos;s Jackal 狙击步枪 or silencer 狙击步枪 除非目标为载具 or 巨型 单位.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6310,7 +6310,7 @@ If your opponent has the first turn, then none of their 单位 can be set up or 
           <profiles>
             <profile id="b986-5278-5242-5a35" name="Vockor&apos;s Talisman" publicationId="83b2-e602-pubN65537" page="117" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">HIVECULT only. 可以重投命中骰 for 攻击 made with the bearer&apos;s 肉搏武器 when targeting 敌方 人物. 此外, 每次 you roll a wound roll of 6+ for an attack with one of the bearer&apos;s 肉搏武器, that attack inflicts 1 致命伤 对目标 此外 to any normal 伤害, unless it is targeting a 载具 or 巨型 单位.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">HIVECULT only. 可以重投命中骰 for 攻击 made with the bearer&apos;s 肉搏武器 when targeting 敌方 人物. 此外, 每次 you roll a wound roll of 6+ for an attack with one of the bearer&apos;s 肉搏武器, that attack inflicts 1 致命伤 对目标 此外 to any normal 伤害, 除非目标为载具 or 巨型 单位.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6443,7 +6443,7 @@ If your opponent has the first turn, then none of their 单位 can be set up or 
           <profiles>
             <profile id="e969-4957-1ff2-470b" name="Reliquary of Saint Tenndarc" publicationId="83b2-e602-pubN65537" page="117" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">PAUPER PRINCES only. 友方 PAUPER PRINCES 单位 自动通过 士气测试 whilst they are 范围内 6寸 of the bearer. 此外, 投掷1个D6 每次 a PAUPER PRINCES 步兵 or 摩托 模型 is destroyed whilst it is 范围内 6寸 of the bearer, before removing that 模型 from the battlefield. 结果为4+ that 模型 can either shoot with one of its ranged 武器 as if it were your 射击阶段, or can make a single 肉搏 attack with a 肉搏武器 as if it were the 肉搏阶段.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">PAUPER PRINCES only. 友方 PAUPER PRINCES 单位 自动通过 士气测试 whilst they are 范围内 6寸 of the bearer. 此外, 投掷1个D6 每次 a PAUPER PRINCES 步兵 or 摩托 模型 is destroyed whilst it is 范围内 6寸 of the bearer, before removing that 模型 from the battlefield. 结果为4+ that 模型 can either shoot with one of its 远程武器 as if it were your 射击阶段, or can make a single 肉搏 attack with a 肉搏武器 as if it were the 肉搏阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6842,7 +6842,7 @@ If your opponent has the first turn, then none of their 单位 can be set up or 
               <profiles>
                 <profile id="52f8-984f-0ee6-f84b" name="Hivelord" publicationId="83b2-e602-pubN65537" page="115" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">重投命中的 1 for 攻击 made with ranged 武器 by 友方 HIVECULT 单位 whilst they are 范围内 6寸 of your 主将.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">重投命中的 1 for 攻击 made with 远程武器 by 友方 HIVECULT 单位 whilst they are 范围内 6寸 of your 主将.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7246,7 +7246,7 @@ BROOD BROTHERS TAUROX PRIMES can only transport 10 BROOD BROTHERS OFFICIO PREFEC
         <characteristic name="S" typeId="59b1-319e-ec13-d466">2</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 always wounds 结果为2+ unless it is targeting a 载具 or 巨型 单位.</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 always wounds 结果为2+ 除非目标为载具 or 巨型 单位.</characteristic>
       </characteristics>
     </profile>
     <profile id="76be-3ada-1c2a-b1d6" name="Seismic Cannon (Long-wave)" publicationId="83b2-e602-pubN65537" page="103" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -7279,7 +7279,7 @@ BROOD BROTHERS TAUROX PRIMES can only transport 10 BROOD BROTHERS OFFICIO PREFEC
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="4067-1dfa-a235-9ec0" name="Vanquisher Battle Cannon" publicationId="83b2-e602-pubN65537" page="103" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+    <profile id="4067-1dfa-a235-9ec0" name="Vanquisher 战斗炮" publicationId="83b2-e602-pubN65537" page="103" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72寸</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 1</characteristic>
@@ -7476,7 +7476,7 @@ BROOD BROTHERS TAUROX PRIMES can only transport 10 BROOD BROTHERS OFFICIO PREFEC
         <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 always wounds 结果为2+ unless it is targeting a 载具 or 巨型 单位. 每次 you roll a wound roll of 6+ for 这个武器, that 命中 is resolved with an AP of -4.</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 always wounds 结果为2+ 除非目标为载具 or 巨型 单位. 每次 you roll a wound roll of 6+ for 这个武器, that 命中 is resolved with an AP of -4.</characteristic>
       </characteristics>
     </profile>
     <profile id="0e98-6c7e-d9a4-281f" name="Lightning Reflexes" publicationId="83b2-e602-pubN65537" page="89" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -7506,7 +7506,7 @@ BROOD BROTHERS TAUROX PRIMES can only transport 10 BROOD BROTHERS OFFICIO PREFEC
     </profile>
     <profile id="eb65-363e-41a8-5cf5" name="烟雾发射器" publicationId="83b2-e602-pubN65537" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per game, 而不是 射击 its 武器 in the 射击阶段, this 模型 can use its 烟雾发射器. If it does so, 减少 1 from 命中 骰 for 攻击 made with ranged 武器 that target it until your next 射击阶段.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per game, 而不是 射击 its 武器 in the 射击阶段, this 模型 can use its 烟雾发射器. If it does so, 减少 1 from 命中 骰 for 攻击 made with 远程武器 that target it until your next 射击阶段.</characteristic>
       </characteristics>
     </profile>
     <profile id="85e0-86c8-dc67-9be5" name="Open-topped" publicationId="83b2-e602-pubN65537" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -7576,7 +7576,7 @@ BROOD BROTHERS TAUROX PRIMES can only transport 10 BROOD BROTHERS OFFICIO PREFEC
         <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">5+</characteristic>
       </characteristics>
     </profile>
-    <profile id="c896-f8f4-62c4-b631" name="Heavy Mortar" publicationId="83b2-e602-pubN65537" page="102" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+    <profile id="c896-f8f4-62c4-b631" name="重型迫击炮" publicationId="83b2-e602-pubN65537" page="102" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48寸</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 D6</characteristic>

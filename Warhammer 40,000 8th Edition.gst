@@ -2021,7 +2021,7 @@
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="106f-6d59-f6b8-974c" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="4757-3df7-2d72-9545" name="Battle cannon" hidden="false" collective="false" import="true" targetId="1d7b-4f46-b77b-ead1" type="selectionEntry">
+            <entryLink id="4757-3df7-2d72-9545" name="战斗炮" hidden="false" collective="false" import="true" targetId="1d7b-4f46-b77b-ead1" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5f6-db37-e502-ccda" type="max"/>
               </constraints>
@@ -2479,7 +2479,7 @@
               </constraints>
               <entryLinks>
                 <entryLink id="7038-c503-0bab-3e60" name="惩罚者加特林炮" hidden="false" collective="false" import="true" targetId="3ee3-74ec-d970-9b43" type="selectionEntry"/>
-                <entryLink id="2306-0500-d9b4-79f6" name="Battle cannon" hidden="false" collective="false" import="true" targetId="1d7b-4f46-b77b-ead1" type="selectionEntry"/>
+                <entryLink id="2306-0500-d9b4-79f6" name="战斗炮" hidden="false" collective="false" import="true" targetId="1d7b-4f46-b77b-ead1" type="selectionEntry"/>
                 <entryLink id="65bd-a8d8-bfef-d1ea" name="四联 Icarus 激光炮" hidden="false" collective="false" import="true" targetId="76b1-73c7-7aef-26d3" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
@@ -2565,7 +2565,7 @@
     <selectionEntry id="8c14-22cc-93ce-b85a" name="等离子枪" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="1f9f-f5f3-6d03-4b6c" name="等离子枪, 标准" hidden="false" targetId="03e5-60f2-4726-5cdd" type="profile"/>
-        <infoLink id="24b5-23de-bf9d-1f41" name="等离子枪, Supercharge" hidden="false" targetId="acb5-7b58-0d17-a33a" type="profile"/>
+        <infoLink id="24b5-23de-bf9d-1f41" name="等离子枪, 过载" hidden="false" targetId="acb5-7b58-0d17-a33a" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="11.0"/>
@@ -2576,7 +2576,7 @@
     <selectionEntry id="83be-1ba9-c326-4760" name="等离子手枪" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="38e5-b1e6-b737-f20c" name="等离子手枪, 标准" hidden="false" targetId="ff12-161a-ca85-339f" type="profile"/>
-        <infoLink id="1514-2a22-0f8a-615c" name="等离子手枪, Supercharge" hidden="false" targetId="5779-2931-fe17-2b27" type="profile"/>
+        <infoLink id="1514-2a22-0f8a-615c" name="等离子手枪, 过载" hidden="false" targetId="5779-2931-fe17-2b27" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="5.0"/>
@@ -2682,7 +2682,7 @@
       <infoLinks>
         <infoLink id="4d1d-71c8-ca26-be0c" name="爆弹枪" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
         <infoLink id="643c-5084-06fe-4146" name="等离子枪, 标准" hidden="false" targetId="03e5-60f2-4726-5cdd" type="profile"/>
-        <infoLink id="fa33-f484-5ce8-add5" name="等离子枪, Supercharge" hidden="false" targetId="acb5-7b58-0d17-a33a" type="profile"/>
+        <infoLink id="fa33-f484-5ce8-add5" name="等离子枪, 过载" hidden="false" targetId="acb5-7b58-0d17-a33a" type="profile"/>
         <infoLink id="0078-b3a9-c2e8-c96f" name="Combi 武器" hidden="false" targetId="a269-b8d9-67c5-4009" type="rule"/>
       </infoLinks>
       <costs>
@@ -2782,7 +2782,7 @@
     </selectionEntry>
     <selectionEntry id="1d7b-4f46-b77b-ead1" name="战斗炮" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="2dd4-28a0-308d-971c" name="Battle Cannon" hidden="false" targetId="bc34-f1ec-56fa-2829" type="profile"/>
+        <infoLink id="2dd4-28a0-308d-971c" name="战斗炮" hidden="false" targetId="bc34-f1ec-56fa-2829" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="30.0"/>
@@ -2792,7 +2792,7 @@
     </selectionEntry>
     <selectionEntry id="cfa3-5fcd-af10-5520" name="重机枪" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="7ef1-ba4e-ac69-450a" name="Heavy stubber" hidden="false" targetId="0031-0314-5b36-a220" type="profile"/>
+        <infoLink id="7ef1-ba4e-ac69-450a" name="重机枪" hidden="false" targetId="0031-0314-5b36-a220" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="2.0"/>
@@ -3089,7 +3089,7 @@
     <selectionEntry id="221a-6109-61df-015e" name="重型等离子炮" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="240d-2761-dd9a-ff79" name="重型等离子炮, 标准" hidden="false" targetId="9272-c0bc-9bd7-e6e0" type="profile"/>
-        <infoLink id="0656-5ec5-5535-4b75" name="重型等离子炮, Supercharge" hidden="false" targetId="691d-11e2-ebfb-d4ad" type="profile"/>
+        <infoLink id="0656-5ec5-5535-4b75" name="重型等离子炮, 过载" hidden="false" targetId="691d-11e2-ebfb-d4ad" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="16.0"/>
@@ -3200,7 +3200,7 @@
     <selectionEntry id="5aaf-d2e4-ec59-0407" name="等离子爆裂枪" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="a0c1-a7e9-e251-3e0a" name="等离子爆裂枪, 标准" hidden="false" targetId="3937-3d5e-da78-af96" type="profile"/>
-        <infoLink id="c52c-a7f9-cdf1-f9bc" name="等离子爆裂枪, Supercharge" hidden="false" targetId="ae8f-c03c-8929-bedc" type="profile"/>
+        <infoLink id="c52c-a7f9-cdf1-f9bc" name="等离子爆裂枪, 过载" hidden="false" targetId="ae8f-c03c-8929-bedc" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="17.0"/>
@@ -3211,7 +3211,7 @@
     <selectionEntry id="eb15-db61-5d4f-b65e" name="等离子炮" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="2278-2fe0-53cd-bec4" name="Plasma cannon, 标准" hidden="false" targetId="7983-8451-cdc3-ce7e" type="profile"/>
-        <infoLink id="3533-33d5-765f-1a0b" name="Plasma cannon, Supercharge" hidden="false" targetId="fbb2-f4cb-e47d-1d10" type="profile"/>
+        <infoLink id="3533-33d5-765f-1a0b" name="Plasma cannon, 过载" hidden="false" targetId="fbb2-f4cb-e47d-1d10" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="16.0"/>
@@ -3222,7 +3222,7 @@
     <selectionEntry id="d1e1-23e0-2777-dc7b" name="等离子切割器" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="b4e8-8bed-1585-a12e" name="Plasma cutter, 标准" hidden="false" targetId="614c-c09f-c4b4-504f" type="profile"/>
-        <infoLink id="2843-69c5-0ff9-71f5" name="Plasma cutter, Supercharge" hidden="false" targetId="7eea-38c1-0f2c-ce0f" type="profile"/>
+        <infoLink id="2843-69c5-0ff9-71f5" name="Plasma cutter, 过载" hidden="false" targetId="7eea-38c1-0f2c-ce0f" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="5.0"/>
@@ -3233,7 +3233,7 @@
     <selectionEntry id="d8c6-5a0f-4e89-c05a" name="Plasma incinerator" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="3a5a-979d-4e6c-906f" name="Plasma incinerator, 标准" hidden="false" targetId="474e-aeec-1b23-c181" type="profile"/>
-        <infoLink id="600d-51ac-4e72-98a3" name="Plasma incinerator, Supercharge" hidden="false" targetId="bd7b-6edf-e450-9b4a" type="profile"/>
+        <infoLink id="600d-51ac-4e72-98a3" name="Plasma incinerator, 过载" hidden="false" targetId="bd7b-6edf-e450-9b4a" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="15.0"/>
@@ -3374,7 +3374,7 @@
     <selectionEntry id="353e-3e4d-a6ed-d25c" name="双联重型等离子炮" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="3be8-90fb-c838-397d" name="双联重型等离子炮, 标准" hidden="false" targetId="3f51-8cbe-78c2-0b36" type="profile"/>
-        <infoLink id="d490-9625-1289-448e" name="双联重型等离子炮, Supercharge" hidden="false" targetId="f2db-d913-989b-2841" type="profile"/>
+        <infoLink id="d490-9625-1289-448e" name="双联重型等离子炮, 过载" hidden="false" targetId="f2db-d913-989b-2841" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="24.0"/>
@@ -3405,7 +3405,7 @@
     <selectionEntry id="3f51-b8fa-86ce-7388" name="双联等离子枪" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="3275-afdc-4d56-864f" name="双联等离子枪, 标准" hidden="false" targetId="f7ba-88b9-c604-cd89" type="profile"/>
-        <infoLink id="1a87-46dc-7286-778b" name="双联等离子枪, Supercharge" hidden="false" targetId="840a-7f35-72ad-baef" type="profile"/>
+        <infoLink id="1a87-46dc-7286-778b" name="双联等离子枪, 过载" hidden="false" targetId="840a-7f35-72ad-baef" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="20.0"/>
@@ -4034,7 +4034,7 @@
     <selectionEntry id="801b-d6b0-333f-bc49" name="等离子焚化枪" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="3ca6-5a00-ea4f-4277" name="Plasma incinerator, 标准" hidden="false" targetId="474e-aeec-1b23-c181" type="profile"/>
-        <infoLink id="2cf6-aaa4-6d7b-0d25" name="Plasma incinerator, Supercharge" hidden="false" targetId="bd7b-6edf-e450-9b4a" type="profile"/>
+        <infoLink id="2cf6-aaa4-6d7b-0d25" name="Plasma incinerator, 过载" hidden="false" targetId="bd7b-6edf-e450-9b4a" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="15.0"/>
@@ -4334,7 +4334,7 @@
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink id="23f4-f1cb-709c-4502" name="Battle cannon" hidden="false" collective="false" import="true" targetId="1d7b-4f46-b77b-ead1" type="selectionEntry">
+            <entryLink id="23f4-f1cb-709c-4502" name="战斗炮" hidden="false" collective="false" import="true" targetId="1d7b-4f46-b77b-ead1" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="points" value="22"/>
               </modifiers>
@@ -6238,7 +6238,7 @@
                   <profiles>
                     <profile id="a650-fc6c-fd84-e191" name="23: Deadly Marksman" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the D值 of ranged 武器 used by 这个模型. </characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the D值 of 远程武器 used by 这个模型. </characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6425,7 +6425,7 @@
                   <profiles>
                     <profile id="d50b-f421-da38-fd5a" name="42: Stealthy" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">减少 1 from 命中 骰 for 攻击 made with ranged 武器 that target 这个模型.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">减少 1 from 命中 骰 for 攻击 made with 远程武器 that target 这个模型.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6718,7 +6718,7 @@
                   <profiles>
                     <profile id="7d61-3f69-1234-5baa" name="02: Auto-loader" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s ranged 武器. Increase the number of shots 这个武器 makes by 1 (e.g. a Pistol 1 武器 becomes a Pistol 2 武器). </characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s 远程武器. Increase the number of shots 这个武器 makes by 1 (e.g. a Pistol 1 武器 becomes a Pistol 2 武器). </characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6735,7 +6735,7 @@
                   <profiles>
                     <profile id="85ee-c700-2b30-ad37" name="03: Penetrator Rounds" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s ranged 武器. Improve that 武器’s AP值 by 1 (e.g. AP -1 becomes AP -2).</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s 远程武器. Improve that 武器’s AP值 by 1 (e.g. AP -1 becomes AP -2).</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6752,7 +6752,7 @@
                   <profiles>
                     <profile id="97fa-de67-99e0-29fd" name="04: High Calibre" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s ranged 武器. Add 1 to that 武器’s S值.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s 远程武器. Add 1 to that 武器’s S值.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6769,7 +6769,7 @@
                   <profiles>
                     <profile id="65fb-9911-be6a-53d6" name="05: Improved Sights" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s ranged 武器. Add 6寸 to that 武器’s 射程. </characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s 远程武器. Add 6寸 to that 武器’s 射程. </characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6786,7 +6786,7 @@
                   <profiles>
                     <profile id="d1b4-cfe9-6852-26f5" name="06: Inferno Round" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s ranged 武器. Add the following ability to that 武器: ‘单位 do not receive the benefit of cover to their saving throws 对抗 攻击 made with 这个武器.’</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s 远程武器. Add the following ability to that 武器: ‘单位 do not receive the benefit of cover to their saving throws 对抗 攻击 made with 这个武器.’</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7249,7 +7249,7 @@
               <profiles>
                 <profile id="591c-3344-f7bf-7f91" name="R1: Deadeye Shots" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 you roll an unmodified wound roll of 6 for an attack with one of 这个单位’s ranged 武器, increase the D值 of that attack by 1. </characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 you roll an unmodified wound roll of 6 for an attack with one of 这个单位’s 远程武器, increase the D值 of that attack by 1. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7741,7 +7741,7 @@
               <profiles>
                 <profile id="49eb-d748-c449-7525" name="R2: Experimental Ammunition" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Select one of the ranged 武器 used by one or more 模型 in 这个单位. Add 1 to the D值 of that 武器 for 攻击 made by 那个单位.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Select one of the 远程武器 used by one or more 模型 in 这个单位. Add 1 to the D值 of that 武器 for 攻击 made by 那个单位.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -8105,7 +8105,7 @@
         <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="585f-2120-0288-93b5" name="Inferno Cannon" publicationId="28ec-711c-pubN72690" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+    <profile id="585f-2120-0288-93b5" name="地狱炮" publicationId="28ec-711c-pubN72690" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="射程" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12 + Template</characteristic>
         <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 1, Torrent</characteristic>
@@ -8372,7 +8372,7 @@
     </profile>
     <profile id="c883-3078-1367-cc2c" name="烟雾发射器" publicationId="28ec-711c-pubN72690" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per game, 而不是 射击 any 武器 in the 射击阶段, the 载具 can use its 烟雾发射器; until your next 射击阶段 your opponent 必须 减少 1 from 所有命中骰 for ranged 武器 that target 这个载具.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per game, 而不是 射击 any 武器 in the 射击阶段, the 载具 can use its 烟雾发射器; until your next 射击阶段 your opponent 必须 减少 1 from 所有命中骰 for 远程武器 that target 这个载具.</characteristic>
       </characteristics>
     </profile>
     <profile id="20dc-1fbb-dc65-7f04" name="突击炮" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">

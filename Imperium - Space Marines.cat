@@ -9684,11 +9684,11 @@ Matched Play: 这个模型 and 任何单位 上车 aboard it are exempt from the
             <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">2+</characteristic>
           </characteristics>
         </profile>
-        <profile id="2cca-2ae6-c808-30d8" name="Artillery" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="2cca-2ae6-c808-30d8" name="炮兵" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Operated Artillery:You can only shoot with a Thunderfire Cannon if it is being operated. At the start of 任何阶段, each Techmarine Gunner 模型 from your army can operate one 友方 &lt;人物&gt;Thunderfire Cannon 模型 范围内 3寸 of it. Until the end of that phase, whilst it is 范围内 3寸 of that Thunderfire Cannon, that Techmarine Gunner is said to be operating that Thunderfire Cannon
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Operated 炮兵:You can only shoot with a Thunderfire Cannon if it is being operated. At the start of 任何阶段, each Techmarine Gunner 模型 from your army can operate one 友方 &lt;人物&gt;Thunderfire Cannon 模型 范围内 3寸 of it. Until the end of that phase, whilst it is 范围内 3寸 of that Thunderfire Cannon, that Techmarine Gunner is said to be operating that Thunderfire Cannon
 
-Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is divided into two 单位, one containing the Thunderfire Cannon and the other the Techmarine Gunner. If at any point there are no 友方 &lt;人物&gt; Techmarine Gunner 单位 范围内 6寸 of a Thunderfire Cannon, that Thunderfire Cannon is destroyed.</characteristic>
+Crewed 炮兵:After 这个单位 is set up 战场上 for the 第1次, it is divided into two 单位, one containing the Thunderfire Cannon and the other the Techmarine Gunner. If at any point there are no 友方 &lt;人物&gt; Techmarine Gunner 单位 范围内 6寸 of a Thunderfire Cannon, that Thunderfire Cannon is destroyed.</characteristic>
           </characteristics>
         </profile>
         <profile id="9e14-5a0e-c2f0-6fe1" name="Techmarine Gunner" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -11309,7 +11309,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
                   <profiles>
                     <profile id="a20e-2388-35b0-976f" name="Long-range Marksmen" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 3寸 to the 射程 of ranged 武器 模型 with this tactic are equipped with.</characteristic>
+                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 3寸 to the 射程 of 远程武器 模型 with this tactic are equipped with.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -11534,7 +11534,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
                       </constraints>
                       <rules>
                         <rule id="9c72-ad6a-d4df-daea" name="Scions of Gulliman" hidden="false">
-                          <description>Whilst the Tactical Doctrine is active, 模型 with this ability that moved in your 移动阶段, but did not Advance or 撤退, can make 攻击 with ranged 武器 in the following 射击阶段 as if their 单位 had remained stationary this turn.</description>
+                          <description>Whilst the Tactical Doctrine is active, 模型 with this ability that moved in your 移动阶段, but did not Advance or 撤退, can make 攻击 with 远程武器 in the following 射击阶段 as if their 单位 had remained stationary this turn.</description>
                         </rule>
                       </rules>
                       <costs>
@@ -12457,7 +12457,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="133c-6d1c-d62d-6b19" name="Tyrannic War Veterans" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="133c-6d1c-d62d-6b19" name="Tyrannic War 老兵" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="increment" field="e356-c769-5920-6e14" value="5.0">
           <conditions>
@@ -12525,7 +12525,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
         <categoryLink id="b700-7340-7299-820a" name="New CategoryLink" hidden="false" targetId="80e7-f1d9-9195-7944" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="f6b7-b7b3-879e-60f1" name="Tyrannic War Veterans" hidden="false" collective="false" import="true" defaultSelectionEntryId="2c43-deb6-3d36-62c3">
+        <selectionEntryGroup id="f6b7-b7b3-879e-60f1" name="Tyrannic War 老兵" hidden="false" collective="false" import="true" defaultSelectionEntryId="2c43-deb6-3d36-62c3">
           <constraints>
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16b2-dbf8-dae1-4682" type="min"/>
             <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a013-7919-8a79-856a" type="max"/>
@@ -15238,7 +15238,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
     <selectionEntry id="1264-1af5-8ab4-0afa" name="Plasma incinerator" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="b923-5fd4-819f-00cc" name="Plasma incinerator, 标准" hidden="false" targetId="474e-aeec-1b23-c181" type="profile"/>
-        <infoLink id="b5d7-499e-472e-d133" name="Plasma incinerator, Supercharge" hidden="false" targetId="bd7b-6edf-e450-9b4a" type="profile"/>
+        <infoLink id="b5d7-499e-472e-d133" name="Plasma incinerator, 过载" hidden="false" targetId="bd7b-6edf-e450-9b4a" type="profile"/>
       </infoLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -16735,7 +16735,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
             </profile>
             <profile id="2dca-9af3-830d-9936" name="烟雾发射器" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, 而不是 射击 any 武器 in the 射击阶段, a Suppressor士官 can use its 烟雾发射器; until your next 射击阶段, your opponent 必须 减少 1 from 命中 骰 for 攻击 made with ranged 武器 that target 这个单位.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, 而不是 射击 any 武器 in the 射击阶段, a Suppressor士官 can use its 烟雾发射器; until your next 射击阶段, your opponent 必须 减少 1 from 命中 骰 for 攻击 made with 远程武器 that target 这个单位.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -17205,7 +17205,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
       <profiles>
         <profile id="0576-ef77-d205-a1e7" name="Smoke Grenades" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, 而不是 射击 any 武器 in the 射击阶段, 这个单位 can use its smoke grenades; until your next 射击阶段, your opponent 必须 减少 1 from 命中 骰 for 攻击 made with ranged 武器 that target 这个单位.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, 而不是 射击 any 武器 in the 射击阶段, 这个单位 can use its smoke grenades; until your next 射击阶段, your opponent 必须 减少 1 from 命中 骰 for 攻击 made with 远程武器 that target 这个单位.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -18885,7 +18885,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
       <profiles>
         <profile id="f6d6-3cac-a373-6d24" name="Smoke Grenades" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, 而不是 射击 any 武器 in the 射击阶段, 这个单位 can use its smoke grenades; until your next 射击阶段, your opponent 必须 减少 1 from 命中 骰 for 攻击 made with ranged 武器 that target 这个单位.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, 而不是 射击 any 武器 in the 射击阶段, 这个单位 can use its smoke grenades; until your next 射击阶段, your opponent 必须 减少 1 from 命中 骰 for 攻击 made with 远程武器 that target 这个单位.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -23153,7 +23153,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
               <profiles>
                 <profile id="3b23-2447-66cb-9466" name="标准 of Righteous Hatred" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models that shoot with one of their ranged 武器, or make a single attack with one of their 肉搏武器, as a result of 这个模型&apos;s 阿斯塔特战旗 ability always resolve their attack as if they had BS and WS 2+</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models that shoot with one of their 远程武器, or make a single attack with one of their 肉搏武器, as a result of 这个模型&apos;s 阿斯塔特战旗 ability always resolve their attack as if they had BS and WS 2+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -23658,7 +23658,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
               <profiles>
                 <profile id="e96e-444c-e02b-6579" name="Marksman&apos;s Honors" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the D值 of ranged 武器 这个主将 is equipped with. This does not apply to Grenades or Relics. </characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the D值 of 远程武器 这个主将 is equipped with. This does not apply to Grenades or Relics. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -25732,7 +25732,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
               <profiles>
                 <profile id="804a-856a-2d43-649a" name="Korvidari Bolts" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When you give a 模型 this 圣物, select one 爆弹武器 (see 圣典: 星际战士) that 模型 is equipped with. When that 模型 is chosen to shoot with, you can choose for that 武器 to fire a korvidari bolt. If you do, when choosing targets for that 模型 and when choosing ranged 武器, that 武器’s 射程 is increased by 6寸 and it can target 单位 that are not 可见 to the bearer, but only one attack can be made with that 武器</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When you give a 模型 this 圣物, select one 爆弹武器 (see 圣典: 星际战士) that 模型 is equipped with. When that 模型 is chosen to shoot with, you can choose for that 武器 to fire a korvidari bolt. If you do, when choosing targets for that 模型 and when choosing 远程武器, that 武器’s 射程 is increased by 6寸 and it can target 单位 that are not 可见 to the bearer, but only one attack can be made with that 武器</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -27668,7 +27668,7 @@ Crewed Artillery:After 这个单位 is set up 战场上 for the 第1次, it is d
     </profile>
     <profile id="50ea-a0de-bbfa-8449" name="自动发射器" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">而不是 射击 any 武器 in the 射击阶段, the 载具 can use its Auto Launchers; until your next 射击阶段 your opponent 必须 减少 1 from 所有命中骰 for ranged 武器 that target 这个载具.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">而不是 射击 any 武器 in the 射击阶段, the 载具 can use its Auto Launchers; until your next 射击阶段 your opponent 必须 减少 1 from 所有命中骰 for 远程武器 that target 这个载具.</characteristic>
       </characteristics>
     </profile>
     <profile id="0385-2744-d0c8-c271" name="穿甲风暴榴弹发射器" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">

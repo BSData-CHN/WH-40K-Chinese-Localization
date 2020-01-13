@@ -203,7 +203,7 @@
         <categoryLink id="1bcd-b983-71c5-d45a" name="阵营: 纳垢" hidden="false" targetId="0fb6-fcaf-b180-5dda" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="df43-0c72-07e4-bca8" name="魔铸 Rapier Battery" hidden="false" collective="false" import="true" targetId="ffd9-5eea-5484-df0a" type="selectionEntry">
+    <entryLink id="df43-0c72-07e4-bca8" name="魔铸 细剑Battery" hidden="false" collective="false" import="true" targetId="ffd9-5eea-5484-df0a" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="3854-d9f3-bb28-b3da" name="阵营: 死亡守卫" hidden="false" targetId="8308-6393-0ce1-4bf9" primary="false"/>
         <categoryLink id="eada-e077-9ee4-405d" name="阵营: 纳垢" hidden="false" targetId="0fb6-fcaf-b180-5dda" primary="false"/>
@@ -928,7 +928,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7bb8-0882-739f-b242" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="e325-f843-faa1-0750" name="Battle cannon" hidden="false" collective="false" import="true" targetId="1d7b-4f46-b77b-ead1" type="selectionEntry">
+        <entryLink id="e325-f843-faa1-0750" name="战斗炮" hidden="false" collective="false" import="true" targetId="1d7b-4f46-b77b-ead1" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="points" value="0.0"/>
           </modifiers>
@@ -2824,7 +2824,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
                   </constraints>
                   <entryLinks>
                     <entryLink id="1893-4379-67e3-7765" name="喷火器" hidden="false" collective="false" import="true" targetId="fd22-6743-2d4c-dd62" type="selectionEntry"/>
-                    <entryLink id="6ec7-2b94-02c6-5890" name="Heavy stubber" hidden="false" collective="false" import="true" targetId="cfa3-5fcd-af10-5520" type="selectionEntry"/>
+                    <entryLink id="6ec7-2b94-02c6-5890" name="重机枪" hidden="false" collective="false" import="true" targetId="cfa3-5fcd-af10-5520" type="selectionEntry"/>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -2947,7 +2947,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
         </profile>
         <profile id="ee18-83ec-db94-15dc" name="Tocsin of Misery" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">单位 必须 减少 1 from their LD whilst they are 范围内 7寸 of any 敌方 Noxious Blightbringers (灵能者 必须 减少 2 instead). 此外, if a 死亡守卫 单位 is 范围内 7寸 of 这个模型 when it Advances, roll two dice and discard the lowest result when determining the distance.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">单位 必须 减少 1 from their LD whilst they are 范围内 7寸 of any 敌方 Noxious Blightbringers (灵能者 必须 减少 2 instead). 此外, if a 死亡守卫 单位 is 范围内 7寸 of 这个模型 when it Advances, roll two dice and 舍弃最低结果 when determining the distance.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3950,7 +3950,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
                           <infoLinks>
                             <infoLink id="78c0-a34d-fa6f-79e8" name="动力拳套" hidden="false" targetId="3520-0bb4-90f2-084b" type="profile"/>
                             <infoLink id="590b-0bc7-dfac-1519" name="等离子枪, 标准" hidden="false" targetId="03e5-60f2-4726-5cdd" type="profile"/>
-                            <infoLink id="e480-afc2-3e09-a139" name="等离子枪, Supercharge" hidden="false" targetId="acb5-7b58-0d17-a33a" type="profile"/>
+                            <infoLink id="e480-afc2-3e09-a139" name="等离子枪, 过载" hidden="false" targetId="acb5-7b58-0d17-a33a" type="profile"/>
                           </infoLinks>
                           <costs>
                             <cost name="pts" typeId="points" value="20.0"/>
@@ -6302,7 +6302,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">*</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">攻击 made with 这个武器 自动 命中 the selected target. 这个武器 always wounds 结果为result of a 2+ unless the target 单位 has the 载具 关键字, in which case a result of 6+ is required.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">攻击 made with 这个武器 自动 命中 the selected target. 这个武器 always wounds 结果为result of a 2+ unless the target 单位 has the 载具 关键字, 这种情况下a result of 6+ is required.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6706,7 +6706,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
           <profiles>
             <profile id="7567-31d2-45b1-c5d7" name="Dolorous Knell" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Noxious Blightbringer only. 投掷1个D6 for each 敌方单位 范围内 7寸 of the bearer of the Dolorous Knell at the start of each Morale phase. 结果为6, 那个单位 遭受 1点致命伤. 此外, if an 敌方单位 takes a Morale test whilst they are 范围内 7寸 of the bearer, your opponent 必须 roll two dice and discard the lowest result.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Noxious Blightbringer only. 投掷1个D6 for each 敌方单位 范围内 7寸 of the bearer of the Dolorous Knell at the start of each Morale phase. 结果为6, 那个单位 遭受 1点致命伤. 此外, if an 敌方单位 takes a Morale test whilst they are 范围内 7寸 of the bearer, your opponent 必须 roll two dice and 舍弃最低结果.</characteristic>
               </characteristics>
             </profile>
           </profiles>

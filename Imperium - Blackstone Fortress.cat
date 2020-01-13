@@ -43,7 +43,7 @@
         </profile>
         <profile id="14d3-c54a-fefb-7c9f" name="Servo-skull Assisted Targeting" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">敌方单位 do not receive the benefit of cover to their saving throws for 攻击 made with ranged 武器 by Neyam Shai Murad.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">敌方单位 do not receive the benefit of cover to their saving throws for 攻击 made with 远程武器 by Neyam Shai Murad.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -156,7 +156,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 wounds 结果为4+, unless it is targeting a 载具 or 巨型 单位, in which case it wounds 结果为6+.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 wounds 结果为4+, 除非目标为载具 or 巨型 单位, 这种情况下造伤固定为6+.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -166,13 +166,13 @@
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="842b-91ab-3fc3-e589" name="Monomolecular rapier" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="842b-91ab-3fc3-e589" name="Monomolecular 细剑" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4310-0819-d6ba-fcc4" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c172-d316-e273-90c1" type="max"/>
           </constraints>
           <profiles>
-            <profile id="001a-28df-4167-2ab2" name="Monomolecular rapier" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+            <profile id="001a-28df-4167-2ab2" name="Monomolecular 细剑" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>

@@ -1036,7 +1036,7 @@
           <characteristics>
             <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">5</characteristic>
             <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">6寸</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">When Brother-连长 Stern manifests the 惩击 psychic power, it 拥有 range of 6寸 rather than 18寸. Additionally, the target 单位 遭受 only 1 致命伤 rather than D3 (whether or not the result of the Psychic test is more than 10) – unless the target is a 恶魔, in which case it 遭受 3 致命伤 而不是 D3 – and 所有 恶魔 单位 范围内 6寸 of Brother-连长 Stern also suffer 1点致命伤.</characteristic>
+            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">When Brother-连长 Stern manifests the 惩击 psychic power, it 拥有 range of 6寸 rather than 18寸. Additionally, the target 单位 遭受 only 1 致命伤 rather than D3 (whether or not the result of the Psychic test is more than 10) – unless the target is a 恶魔, 这种情况下it 遭受 3 致命伤 而不是 D3 – and 所有 恶魔 单位 范围内 6寸 of Brother-连长 Stern also suffer 1点致命伤.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3166,7 +3166,7 @@
         <categoryLink id="e8f3-071d-461c-0366" name="阵营: 帝国" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="d20a-7d91-4312-6bc0" name="Ranged 武器" hidden="false" collective="true" import="true">
+        <selectionEntryGroup id="d20a-7d91-4312-6bc0" name="远程武器" hidden="false" collective="true" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="69ba-108d-f404-bab0" type="max"/>
           </constraints>
@@ -5535,7 +5535,7 @@
         <categoryLink id="568d-f404-1cdd-eb44" name="阵营: 帝国" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="94e8-e417-ef28-5431" name="Ranged 武器" hidden="false" collective="true" import="true">
+        <selectionEntryGroup id="94e8-e417-ef28-5431" name="远程武器" hidden="false" collective="true" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="85c8-31dc-c185-eb0c" type="max"/>
           </constraints>
@@ -6564,7 +6564,7 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="ae47-9014-02a8-8add" name="Grey Knights Ranged 武器 (终结者)" hidden="false" collective="false" import="true" defaultSelectionEntryId="157e-75cd-ac3d-ebf8">
+    <selectionEntryGroup id="ae47-9014-02a8-8add" name="Grey Knights 远程武器 (终结者)" hidden="false" collective="false" import="true" defaultSelectionEntryId="157e-75cd-ac3d-ebf8">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="64eb-ec6b-636f-b552" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d308-92d3-4217-995c" type="max"/>
@@ -7110,7 +7110,7 @@
       <description>可以重投命中骰 of 1 for 友方 (Grey Knights) 单位 范围内 6寸 of 这个模型.</description>
     </rule>
     <rule id="c424-f335-287f-f14c" name="Rites of Banishment" hidden="false">
-      <description>When 这个单位 manifests the 惩击 psychic power, it 拥有 range of 12寸 rather than 18寸. Additionally, the target 单位 遭受 only 1 致命伤 rather than D3 (whether or not the result of the Psychic test is more than 10) - unless the target is a 恶魔 in which case it 遭受 3 致命伤 而不是 D3.</description>
+      <description>When 这个单位 manifests the 惩击 psychic power, it 拥有 range of 12寸 rather than 18寸. Additionally, the target 单位 遭受 only 1 致命伤 rather than D3 (whether or not the result of the Psychic test is more than 10) - unless the target is a 恶魔 这种情况下it 遭受 3 致命伤 而不是 D3.</description>
     </rule>
     <rule id="c046-073b-7a50-c436" name="战斗小队" hidden="false">
       <description>Before 任何模型 are deployed at the start of the game, if this 单位 contains 10 模型 it may be split into two 单位, each containing 5 模型.</description>
@@ -7449,7 +7449,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If the target is 范围内 half range of 这个武器, roll two dice when inflicting 伤害 and discard the lowest result.</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器瞄准一半范围内的目标时, roll two dice when inflicting 伤害 and 舍弃最低结果.</characteristic>
       </characteristics>
     </profile>
     <profile id="8173-7261-c4f6-d62f" name="猎杀导弹" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -7649,7 +7649,7 @@
       <characteristics>
         <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">5</characteristic>
         <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">12寸</characteristic>
-        <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, the closest 敌方单位 范围内 12寸 遭受 1 致命伤; unless target is a 恶魔, in which case it causes 3 致命伤.</characteristic>
+        <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, the closest 敌方单位 范围内 12寸 遭受 1 致命伤; unless target is a 恶魔, 这种情况下it causes 3 致命伤.</characteristic>
       </characteristics>
     </profile>
     <profile id="c61a-b479-1b4d-8638" name="惩击 (Purifying Flame)" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
@@ -7736,7 +7736,7 @@
       <characteristics>
         <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">8</characteristic>
         <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">12寸</characteristic>
-        <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, a vortex opens above the nearest 可见 敌方模型 范围内 12寸 of the 灵能者. That 模型的 单位, and every other 单位 范围内 3寸 of that 模型 遭受 D3 致命伤. The number of 致命伤 inflicted is increased to D6 if the power is manifested with a Psychic test of 12+.</characteristic>
+        <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, a vortex opens above the nearest 可见 敌方模型 范围内 12寸 of the 灵能者. That 模型的 单位, and every other 单位 范围内 3寸 of that 模型 遭受 D3 致命伤. The number of 致命伤 inflicted 增加到 D6 if the power is manifested with a Psychic test of 12+.</characteristic>
       </characteristics>
     </profile>
     <profile id="f64f-bd74-1c65-6a8e" name="Fury of Deimos" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">

@@ -105,7 +105,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="36b3-9e5d-5509-bac4" name="Heavy stubber or 热熔枪" hidden="false" collective="false" import="true" defaultSelectionEntryId="6fa5-e017-c96d-b420">
+        <selectionEntryGroup id="36b3-9e5d-5509-bac4" name="重机枪 or 热熔枪" hidden="false" collective="false" import="true" defaultSelectionEntryId="6fa5-e017-c96d-b420">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ca2-547e-b5f2-4efa" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a388-2772-7449-a88b" type="min"/>
@@ -1591,15 +1591,15 @@
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="9633-a6da-36df-de8e" name="Rapid-fire battle cannon and heavy stubber" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="9633-a6da-36df-de8e" name="Rapid-fire 战斗炮 and 重机枪" hidden="false" collective="false" import="true" type="upgrade">
           <selectionEntries>
-            <selectionEntry id="1945-d85e-9e3f-ed3d" name="Rapid-fire battle cannon" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="1945-d85e-9e3f-ed3d" name="Rapid-fire 战斗炮" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a53d-7e62-f9cc-2334" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0716-fb6a-8185-5e36" type="max"/>
               </constraints>
               <profiles>
-                <profile id="9a75-0c0f-441f-a184" name="Rapid-fire battle cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+                <profile id="9a75-0c0f-441f-a184" name="Rapid-fire 战斗炮" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72寸</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 2D6</characteristic>
@@ -1618,7 +1618,7 @@
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink id="7175-261d-9b66-5bc1" name="Heavy stubber" hidden="false" collective="false" import="true" targetId="cfa3-5fcd-af10-5520" type="selectionEntry">
+            <entryLink id="7175-261d-9b66-5bc1" name="重机枪" hidden="false" collective="false" import="true" targetId="cfa3-5fcd-af10-5520" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2a35-d8be-9fa2-c8df" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e67a-f853-0fb2-f461" type="min"/>
@@ -1640,7 +1640,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">9</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When attacking 单位 with 5 or more models, change 这个武器&apos;s Type to Heavy D6. If the target is 范围内 half range, roll two dice when inflicting 伤害 and discard the lowest result.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When attacking 单位 with 5 or more models, change 这个武器&apos;s Type to Heavy D6. If the target is 范围内 half range, roll two dice when inflicting 伤害 and 舍弃最低结果.</characteristic>
               </characteristics>
             </profile>
           </profiles>

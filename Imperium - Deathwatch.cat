@@ -2192,7 +2192,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">*</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">自动命中, and wounds 结果为2+, unless it is targeting a 载具, in which case it wounds 结果为6+</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">自动命中, and wounds 结果为2+, 除非目标为载具, 这种情况下造伤固定为6+</characteristic>
               </characteristics>
             </profile>
             <profile id="672e-cf09-5b89-58b7" name="Hellfire Extremis" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -2267,11 +2267,11 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d82f-47c7-40a0-5ee0" name="Veterans" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="d82f-47c7-40a0-5ee0" name="老兵" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="da3d-f10b-8a72-a3cf" name="Mixed 单位" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A 单位 of Veterans can contain 模型 with different Toughness characteristics. If this is the case,  use the T值 of the majority of the 模型 in the 单位 when the 敌方 makes wound 骰 对抗 it. If there is no majority, the 死亡守望 player can choose which of the values is used. For the purposes of the Bolter Discipline ability and for determining what 模型 a 载具 可以运输, 终结者 have the 终结者 关键字, 摩托 do not have the 步兵 关键字 and instead have the 摩托 关键字, and 先锋老兵 have the 跳跃背包 关键字.
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A 单位 of 老兵 can contain 模型 with different Toughness characteristics. If this is the case,  use the T值 of the majority of the 模型 in the 单位 when the 敌方 makes wound 骰 对抗 it. If there is no majority, the 死亡守望 player can choose which of the values is used. For the purposes of the Bolter Discipline ability and for determining what 模型 a 载具 可以运输, 终结者 have the 终结者 关键字, 摩托 do not have the 步兵 关键字 and instead have the 摩托 关键字, and 先锋老兵 have the 跳跃背包 关键字.
 
 For the purposes of setting up on or moving through Battlefield Terrain, 这个单位 is treated as an 步兵单位, even if it contains any 摩托 模型.</characteristic>
           </characteristics>
@@ -5700,7 +5700,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
       <infoLinks>
         <infoLink id="2bc7-ca30-52c1-002a" name="爆弹枪" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
         <infoLink id="d6d3-073d-cf31-9c5e" name="等离子枪, 标准" hidden="false" targetId="03e5-60f2-4726-5cdd" type="profile"/>
-        <infoLink id="4610-9cfe-6766-16ce" name="等离子枪, Supercharge" hidden="false" targetId="acb5-7b58-0d17-a33a" type="profile"/>
+        <infoLink id="4610-9cfe-6766-16ce" name="等离子枪, 过载" hidden="false" targetId="acb5-7b58-0d17-a33a" type="profile"/>
         <infoLink id="ca80-a24f-d600-b6a5" name="Combi 武器" hidden="false" targetId="a269-b8d9-67c5-4009" type="rule"/>
       </infoLinks>
       <costs>
@@ -8311,7 +8311,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="3ddc-7d56-adf0-a82b" name="特殊用途弹药" hidden="false">
-      <description>When 这个单位 fires any ranged 武器 from the following list, you can choose for it to fire special ammunition. If you do so, the Bolter Discipline ability does not apply when resolving their shots, but you instead choose one kind of ammunition from the table to the right and apply the corresponding modifier.
+      <description>When 这个单位 fires any 远程武器 from the following list, you can choose for it to fire special ammunition. If you do so, the Bolter Discipline ability does not apply when resolving their shots, but you instead choose one kind of ammunition from the table to the right and apply the corresponding modifier.
 
 (absolver 爆弹手枪, auto 爆弹步枪, bolt carbine, 爆弹手枪(and heavy), 爆弹枪(and combi), 爆弹步枪 双联爆弹枪, 潜伏者型爆弹枪/rifle, 风暴爆弹, hellfire extremis(爆弹枪 profile), 所有 master crafted 爆弹武器 or a 卫士之矛) Table: Dragonfire Bolt, Hellfire Round, Kraken Bolt, Vengeance Round</description>
     </rule>
@@ -8667,7 +8667,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
     </profile>
     <profile id="6710-38a3-8a32-3619" name="自动发射器" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">而不是 射击 any 武器 in the 射击阶段, the 载具 can use its Auto Launchers; until your next 射击阶段 your opponent 必须 减少 1 from 所有命中骰 for ranged 武器 that target 这个载具.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">而不是 射击 any 武器 in the 射击阶段, the 载具 can use its Auto Launchers; until your next 射击阶段 your opponent 必须 减少 1 from 所有命中骰 for 远程武器 that target 这个载具.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

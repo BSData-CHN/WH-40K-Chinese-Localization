@@ -4175,7 +4175,7 @@ Matched Play: 这个模型 and 任何单位 上车 aboard it are exempt from the
       <profiles>
         <profile id="d249-439b-f06e-e6ed" name="烟雾发射器" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per game, a 模型 equipped with 烟雾发射器 can use them 而不是 射击 any 武器 in the 射击阶段; until your next 射击阶段 your opponent 必须 减少 1 from 所有命中骰 for ranged 武器 that target 这个载具.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per game, a 模型 equipped with 烟雾发射器 can use them 而不是 射击 any 武器 in the 射击阶段; until your next 射击阶段 your opponent 必须 减少 1 from 所有命中骰 for 远程武器 that target 这个载具.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5217,7 +5217,7 @@ Matched Play: 这个模型 and 任何单位 上车 aboard it are exempt from the
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">7</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 can be 过载 by the bearer before firing. If they do so, increase the strength and 伤害 of 这个武器 by 1 for this turn. On 任何命中 骰 of 1 when firing supercharge, the bearer is slain after 所有 the 武器&apos;s shots have been resolved.</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 can be 过载 by the bearer before firing. If they do so, increase the strength and 伤害 of 这个武器 by 1 for this turn. On 任何命中 骰 of 1 when firing 过载, the bearer is slain after 所有 the 武器&apos;s shots have been resolved.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -9774,7 +9774,7 @@ Matched Play: 这个模型 and 任何单位 上车 aboard it are exempt from the
       <profiles>
         <profile id="eeae-d9fc-4d3d-8f99" name="自动发射器" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">而不是 射击 any 武器 in the 射击阶段, the 载具 can use its Auto Launchers; until your next 射击阶段 your opponent 必须 减少 1 from 所有命中骰 for ranged 武器 that target 这个载具.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">而不是 射击 any 武器 in the 射击阶段, the 载具 can use its Auto Launchers; until your next 射击阶段 your opponent 必须 减少 1 from 所有命中骰 for 远程武器 that target 这个载具.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -12071,17 +12071,17 @@ Matched Play: 这个模型 and 任何单位 上车 aboard it are exempt from the
             <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When attacking with 这个武器, you can shoot either the 爆弹枪, the 等离子爆裂枪, or both. If you fire both, 减少 1 from 所有命中骰 made for 这个武器. In either case, 每次 you fire the 等离子爆裂枪, choose either the 标准 or supercharge profile; if you roll 任何命中 骰 of 1 when firing a 过载 等离子爆裂枪, the bearer is slain after 所有 the 武器’s shots have been resolved</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When attacking with 这个武器, you can shoot either the 爆弹枪, the 等离子爆裂枪, or both. If you fire both, 减少 1 from 所有命中骰 made for 这个武器. In either case, 每次 you fire the 等离子爆裂枪, choose either the 标准 or 过载 profile; if you roll 任何命中 骰 of 1 when firing a 过载 等离子爆裂枪, the bearer is slain after 所有 the 武器’s shots have been resolved</characteristic>
           </characteristics>
         </profile>
-        <profile id="d26f-1445-3ecc-d927" name="等离子爆裂枪 (supercharge)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="d26f-1445-3ecc-d927" name="等离子爆裂枪 (过载)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 2</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When attacking with 这个武器, you can shoot either the 爆弹枪, the 等离子爆裂枪, or both. If you fire both, 减少 1 from 所有命中骰 made for 这个武器. In either case, 每次 you fire the 等离子爆裂枪, choose either the 标准 or supercharge profile; if you roll 任何命中 骰 of 1 when firing a 过载 等离子爆裂枪, the bearer is slain after 所有 the 武器’s shots have been resolved</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When attacking with 这个武器, you can shoot either the 爆弹枪, the 等离子爆裂枪, or both. If you fire both, 减少 1 from 所有命中骰 made for 这个武器. In either case, 每次 you fire the 等离子爆裂枪, choose either the 标准 or 过载 profile; if you roll 任何命中 骰 of 1 when firing a 过载 等离子爆裂枪, the bearer is slain after 所有 the 武器’s shots have been resolved</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -12263,7 +12263,7 @@ Matched Play: 这个模型 and 任何单位 上车 aboard it are exempt from the
             </profile>
             <profile id="7cd4-9dcc-26ed-d1b0" name="烟雾发射器" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, 而不是 射击 any 武器 in the 射击阶段, a Suppressor士官 can use its 烟雾发射器; until your next 射击阶段, your opponent 必须 减少 1 from 命中 骰 for 攻击 made with ranged 武器 that target 这个单位.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, 而不是 射击 any 武器 in the 射击阶段, a Suppressor士官 can use its 烟雾发射器; until your next 射击阶段, your opponent 必须 减少 1 from 命中 骰 for 攻击 made with 远程武器 that target 这个单位.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12420,7 +12420,7 @@ Matched Play: 这个模型 and 任何单位 上车 aboard it are exempt from the
       <profiles>
         <profile id="f066-13ba-51d5-8f31" name="Smoke Grenades" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, 而不是 射击 any 武器 in the 射击阶段, 这个单位 can use its smoke grenades; until your next 射击阶段, your opponent 必须 减少 1 from 命中 骰 for 攻击 made with ranged 武器 that target 这个单位.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, 而不是 射击 any 武器 in the 射击阶段, 这个单位 can use its smoke grenades; until your next 射击阶段, your opponent 必须 减少 1 from 命中 骰 for 攻击 made with 远程武器 that target 这个单位.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -13855,7 +13855,7 @@ wounds.</characteristic>
       <profiles>
         <profile id="042b-88ce-e9d2-16e0" name="Smoke Grenades" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, 而不是 射击 any 武器 in the 射击阶段, 这个单位 can use its smoke grenades; until your next 射击阶段, your opponent 必须 减少 1 from 命中 骰 for 攻击 made with ranged 武器 that target 这个单位.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, 而不是 射击 any 武器 in the 射击阶段, 这个单位 can use its smoke grenades; until your next 射击阶段, your opponent 必须 减少 1 from 命中 骰 for 攻击 made with 远程武器 that target 这个单位.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -14546,7 +14546,7 @@ wounds.</characteristic>
               <characteristics>
                 <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">6</characteristic>
                 <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">-</characteristic>
-                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, until the start of your next 灵能阶段, your opponent 必须 roll 2 dice and discard the lowest result when taking 士气测试 for 任何单位 that is 范围内 6寸 of the 灵能者.</characteristic>
+                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, until the start of your next 灵能阶段, your opponent 必须 roll 2 dice and 舍弃最低结果 when taking 士气测试 for 任何单位 that is 范围内 6寸 of the 灵能者.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -14956,7 +14956,7 @@ wounds.</characteristic>
               <profiles>
                 <profile id="2374-97c3-8b3e-93cc" name="Marksman&apos;s Honors" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The D值 of ranged 武器 your 主将 is armed with is increased by 1. 此外, you can 重投 失败的 to hi 骰 and wound 骰 for 射击攻击 made by your 主将. 这个主将 trait does not aply to Grenade 武器, but does apply to 战团 Relics.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The D值 of 远程武器 your 主将 is armed with is increased by 1. 此外, you can 重投 失败的 to hi 骰 and wound 骰 for 射击攻击 made by your 主将. 这个主将 trait does not aply to Grenade 武器, but does apply to 战团 Relics.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -15145,7 +15145,7 @@ wounds.</characteristic>
               <characteristics>
                 <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">6</characteristic>
                 <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
-                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, select a 友方 阿斯塔特修会 PHOBOS 单位 范围内 18寸 of the 灵能者. Until the start of your next 灵能阶段, 可以重投失败的命中骰 for 攻击 made with 那个单位&apos;s ranged 武器, and 敌方模型 do not receive the benefit of cover to their saving throws 对抗 ranged 攻击 made by 那个单位.</characteristic>
+                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, select a 友方 阿斯塔特修会 PHOBOS 单位 范围内 18寸 of the 灵能者. Until the start of your next 灵能阶段, 可以重投失败的命中骰 for 攻击 made with 那个单位&apos;s 远程武器, and 敌方模型 do not receive the benefit of cover to their saving throws 对抗 ranged 攻击 made by 那个单位.</characteristic>
               </characteristics>
             </profile>
           </profiles>

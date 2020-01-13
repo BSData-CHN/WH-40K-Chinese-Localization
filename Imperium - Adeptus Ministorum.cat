@@ -1627,7 +1627,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ed1-3d28-362f-0b47" type="max"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="a465-0cfc-7909-5cd9" name="Ranged 武器" hidden="false" collective="false" import="true" targetId="6e4d-1ac7-ebe3-ab59" type="selectionEntryGroup"/>
+                <entryLink id="a465-0cfc-7909-5cd9" name="远程武器" hidden="false" collective="false" import="true" targetId="6e4d-1ac7-ebe3-ab59" type="selectionEntryGroup"/>
                 <entryLink id="b40d-21dc-0796-cef0" name="肉搏武器" hidden="false" collective="false" import="true" targetId="8235-67f6-27ad-1348" type="selectionEntryGroup"/>
               </entryLinks>
             </selectionEntryGroup>
@@ -4240,7 +4240,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">自动命中 If the target is a CHAOS 单位, roll two D6 to determine the number of 攻击 made with 这个武器 and discard the lowest result.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">自动命中 If the target is a CHAOS 单位, roll two D6 to determine the number of 攻击 made with 这个武器 and 舍弃最低结果.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4651,7 +4651,7 @@
       <profiles>
         <profile id="ab8b-26db-b460-dabe" name="Deeds, Not Words" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When a 单位 with this conviction Advances, it can fire ranged 武器 as if it had moved without Advancing.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When a 单位 with this conviction Advances, it can fire 远程武器 as if it had moved without Advancing.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6042,7 +6042,7 @@ Only 步兵单位, BEAST 单位, SWARM 单位 and 单位 飞行关键字 can be 
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="6e4d-1ac7-ebe3-ab59" name="Ranged 武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="69d1-719f-dec4-8427">
+    <selectionEntryGroup id="6e4d-1ac7-ebe3-ab59" name="远程武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="69d1-719f-dec4-8427">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6da3-7437-597d-bed5" type="max"/>
       </constraints>
@@ -6655,7 +6655,7 @@ When a 模型 from your army with this 圣物 unleashes the holy flames, after i
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">9</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When resolving an attack with 这个武器, roll 2d6 when inflicting 伤害 with it and discard the lowest result.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When resolving an attack with 这个武器, roll 2d6 when inflicting 伤害 with it and 舍弃最低结果.</characteristic>
               </characteristics>
             </profile>
             <profile id="86c5-bd84-4f43-be03" name="圣物: Martyr&apos;s Vengance" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -6859,7 +6859,7 @@ Determine which Sacred Rite is active for 所有 单位 from your army with this
 When a 单位 with this Sacred Rite Advances, add 1 to the Advance roll. When you make a charge roll for a 单位 with this Sacred Rite, add 1 to the result.
 
 2. Spirit of the Martyr:
-When a 模型 wih this Sacred Rite is destroyed, 投掷1个D6 before removing the 模型 from play. 结果为5+ that 模型 can either shoot with one of its ranged 武器 as if it were your 射击阶段, or make one attack with one of its 肉搏武器 as if it were the 肉搏阶段 (if the 模型 拥有 损伤表, use the bottom 损伤表 of that table when 射击 with that 远程武器 or resolving that attack with a 肉搏武器).
+When a 模型 wih this Sacred Rite is destroyed, 投掷1个D6 before removing the 模型 from play. 结果为5+ that 模型 can either shoot with one of its 远程武器 as if it were your 射击阶段, or make one attack with one of its 肉搏武器 as if it were the 肉搏阶段 (if the 模型 拥有 损伤表, use the bottom 损伤表 of that table when 射击 with that 远程武器 or resolving that attack with a 肉搏武器).
 
 3. Aegis of the Emperor:
 When a 否定巫术测试 is taken for a 模型 with this Sacred Rite, add 3 to the roll.
@@ -6903,7 +6903,7 @@ When a Morale test is taken for a 单位 with this Sacred Rite, you can 重投 t
         <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If the target is 范围内 half range of 这个武器, roll two D6 when inflicting 伤害 with it and discard the lowest result.</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器瞄准一半范围内的目标时, roll two D6 when inflicting 伤害 with it and 舍弃最低结果.</characteristic>
       </characteristics>
     </profile>
     <profile id="4f34-c709-b2bd-a310" name="手持喷火器" publicationId="d124-b283-pubN67455" page="157" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">

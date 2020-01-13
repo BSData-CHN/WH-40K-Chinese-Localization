@@ -1232,7 +1232,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-                <characteristic name="能力" typeId="837d-5e63-aeb7-1410">If the target is 范围内 half range of 这个武器, roll two dice when inflicting 伤害 with it and discard the lowest result.</characteristic>
+                <characteristic name="能力" typeId="837d-5e63-aeb7-1410">这个武器瞄准一半范围内的目标时, 伤害投掷2个骰子并舍弃最低结果.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2271,7 +2271,7 @@
         <categoryLink id="0ceb-07bb-5db0-db98" name="New CategoryLink" hidden="false" targetId="d743-4a7d-abd9-9018" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="73c2-e684-27cf-e109" name="Hull 武器" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="73c2-e684-27cf-e109" name="车体武器" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="063d-dbb1-a2e6-ead1" type="max"/>
           </constraints>
@@ -3481,9 +3481,9 @@
         <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5ad5-7d1b-02e1-7de4" name="Castellum battle cannon" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="5ad5-7d1b-02e1-7de4" name="Castellum 战斗炮" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="6a5c-b431-2447-e56c" name="Castellum battle cannon" hidden="false" targetId="ef3f-3c15-6ca6-c0ef" type="profile"/>
+        <infoLink id="6a5c-b431-2447-e56c" name="Castellum 战斗炮" hidden="false" targetId="ef3f-3c15-6ca6-c0ef" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="55.0"/>
@@ -3606,7 +3606,7 @@
     <selectionEntry id="9b0a-25bb-9380-8135" name="Bloodfire" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="884c-ec6b-4e91-f603" name="Bloodfire, 标准" hidden="false" targetId="f4aa-a311-4f70-f275" type="profile"/>
-        <infoLink id="777c-b531-a732-a8dc" name="Bloodfire, Supercharge" hidden="false" targetId="d1b5-2d80-f95c-a41a" type="profile"/>
+        <infoLink id="777c-b531-a732-a8dc" name="Bloodfire, 过载" hidden="false" targetId="d1b5-2d80-f95c-a41a" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -3637,7 +3637,7 @@
     <selectionEntry id="3fb4-f296-aa09-da0d" name="重型等离子炮" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="dd42-5001-3790-1428" name="重型等离子炮, 标准" hidden="false" targetId="9272-c0bc-9bd7-e6e0" type="profile"/>
-        <infoLink id="12d5-8ae7-1b0e-dc10" name="重型等离子炮, Supercharge" hidden="false" targetId="691d-11e2-ebfb-d4ad" type="profile"/>
+        <infoLink id="12d5-8ae7-1b0e-dc10" name="重型等离子炮, 过载" hidden="false" targetId="691d-11e2-ebfb-d4ad" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="16.0"/>
@@ -3820,7 +3820,7 @@
     <selectionEntry id="6a51-52ef-2c31-f81e" name="Kane&apos;s 等离子手枪" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="34eb-6b52-0023-a8cd" name="Kane&apos;s 等离子手枪, 标准" hidden="false" targetId="e191-a4e9-fbb5-a9ab" type="profile"/>
-        <infoLink id="e0bd-12e9-518d-c80d" name="Kane&apos;s 等离子手枪, Supercharge" hidden="false" targetId="4103-813e-bc4c-1449" type="profile"/>
+        <infoLink id="e0bd-12e9-518d-c80d" name="Kane&apos;s 等离子手枪, 过载" hidden="false" targetId="4103-813e-bc4c-1449" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -3862,7 +3862,7 @@
     <selectionEntry id="1040-3a30-e188-17a6" name="Masterwork plasma cutter" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="49f1-4096-a021-2773" name="Masterwork plasma cutter, 标准" hidden="false" targetId="60dd-6568-a927-bf77" type="profile"/>
-        <infoLink id="e8ec-b227-7059-fca9" name="Masterwork plasma cutter, Supercharge" hidden="false" targetId="472a-8684-01c4-e85f" type="profile"/>
+        <infoLink id="e8ec-b227-7059-fca9" name="Masterwork plasma cutter, 过载" hidden="false" targetId="472a-8684-01c4-e85f" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -3915,7 +3915,7 @@
     <selectionEntry id="9d9c-ce64-2117-9048" name="Plasma charger" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="74cb-b73d-9374-9a68" name="Plasma charger, 标准" hidden="false" targetId="88eb-a134-28af-6bcf" type="profile"/>
-        <infoLink id="ab89-64c7-4c3a-e721" name="Plasma charger, Supercharge" hidden="false" targetId="8245-fb69-fa1e-9ceb" type="profile"/>
+        <infoLink id="ab89-64c7-4c3a-e721" name="Plasma charger, 过载" hidden="false" targetId="8245-fb69-fa1e-9ceb" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -5046,7 +5046,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="e563-a465-04b7-d714" name="Hull 武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="d2ce-62fc-f877-027d">
+        <selectionEntryGroup id="e563-a465-04b7-d714" name="车体武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="d2ce-62fc-f877-027d">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6579-023e-9b8e-497c" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6f1-a622-2aa2-c8dc" type="max"/>
@@ -5518,7 +5518,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="defb-ccd3-7a18-e7fe" name="Hull 武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="2763-d223-ddbb-c243">
+        <selectionEntryGroup id="defb-ccd3-7a18-e7fe" name="车体武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="2763-d223-ddbb-c243">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce53-24fb-08ee-d99f" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c5c-43ff-36ee-66bd" type="max"/>
@@ -5696,7 +5696,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="198f-2856-1ab6-c8f3" name="Hull 武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="72a1-5417-8990-1925">
+        <selectionEntryGroup id="198f-2856-1ab6-c8f3" name="车体武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="72a1-5417-8990-1925">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd93-5914-53f1-f413" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="924a-aed9-858f-773b" type="max"/>
@@ -7676,7 +7676,7 @@
     <selectionEntry id="58a4-c616-2b06-62bd" name="细剑武器平台" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="6ba1-e305-9d51-f69c" name="星际战士炮手" hidden="false" targetId="5e7a-d287-7af3-85d7" type="profile"/>
-        <infoLink id="0c12-e776-3530-2da0" name="Artillery" hidden="false" targetId="813c-413f-ff72-bf1c" type="profile"/>
+        <infoLink id="0c12-e776-3530-2da0" name="炮兵" hidden="false" targetId="813c-413f-ff72-bf1c" type="profile"/>
         <infoLink id="55c6-c135-0aab-cfba" name="死亡天使" hidden="false" targetId="01a4-bec8-b573-fde7" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -7798,7 +7798,7 @@
     <selectionEntry id="3021-f871-0263-ccb1" name="狼蛛岗哨炮" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="9cb6-4454-6c4c-23a6" name="Immobile" hidden="false" targetId="02a4-6392-7114-50dd" type="profile"/>
-        <infoLink id="4595-16e8-e953-cd3c" name="Automated Artillery" hidden="false" targetId="985b-dfbe-2c04-dc5a" type="profile"/>
+        <infoLink id="4595-16e8-e953-cd3c" name="Automated 炮兵" hidden="false" targetId="985b-dfbe-2c04-dc5a" type="profile"/>
         <infoLink id="6095-eddb-e01a-fdf3" name="死亡天使" hidden="false" targetId="01a4-bec8-b573-fde7" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -8079,7 +8079,7 @@
                     <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c76f-5187-1c54-4d0c" type="max"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="6050-1080-6ec7-99fa" name="Castellum battle cannon" hidden="false" collective="false" import="true" targetId="5ad5-7d1b-02e1-7de4" type="selectionEntry">
+                <entryLink id="6050-1080-6ec7-99fa" name="Castellum 战斗炮" hidden="false" collective="false" import="true" targetId="5ad5-7d1b-02e1-7de4" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61bd-be22-1ae0-cdc6" type="max"/>
                   </constraints>
@@ -8337,7 +8337,7 @@
     <selectionEntry id="61e9-1bc0-ffac-ab32" name="Plasma eradicator" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="669d-fc0f-3126-1b0b" name="Plasma eradicator, 标准" hidden="false" targetId="b8c4-20b8-ec72-d9fb" type="profile"/>
-        <infoLink id="7b1c-6d1d-5c2c-fd45" name="Plasma eradicator, Supercharge" hidden="false" targetId="3f09-1b9b-bf77-3b5c" type="profile"/>
+        <infoLink id="7b1c-6d1d-5c2c-fd45" name="Plasma eradicator, 过载" hidden="false" targetId="3f09-1b9b-bf77-3b5c" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="25.0"/>
@@ -8436,7 +8436,7 @@
         <categoryLink id="2812-fc3d-90d3-97c6" name="New CategoryLink" hidden="false" targetId="d743-4a7d-abd9-9018" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="456f-3581-4923-d0d5" name="Hull 武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="1a7c-ccc4-88ab-2bd9">
+        <selectionEntryGroup id="456f-3581-4923-d0d5" name="车体武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="1a7c-ccc4-88ab-2bd9">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d5a8-289f-d477-b254" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="583d-00bf-4c01-bd3e" type="max"/>
@@ -10264,7 +10264,7 @@
         <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="d1b5-2d80-f95c-a41a" name="Bloodfire, Supercharge" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+    <profile id="d1b5-2d80-f95c-a41a" name="Bloodfire, 过载" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="射程" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12寸</characteristic>
         <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手枪 1</characteristic>
@@ -10304,7 +10304,7 @@
         <characteristic name="能力" typeId="837d-5e63-aeb7-1410">对飞行关键字目标命中骰+1,对其他所有目标命中骰-1. 这个武器 can target 单位 not 可见 to the firing model.</characteristic>
       </characteristics>
     </profile>
-    <profile id="ef3f-3c15-6ca6-c0ef" name="Castellum battle cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+    <profile id="ef3f-3c15-6ca6-c0ef" name="Castellum 战斗炮" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="射程" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72寸</characteristic>
         <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 D6</characteristic>
@@ -10321,7 +10321,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">If the target is 范围内 half range of 这个武器, roll two dice when inflicting 伤害 with it and discard the lowest result.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">这个武器瞄准一半范围内的目标时, 伤害投掷2个骰子并舍弃最低结果.</characteristic>
       </characteristics>
     </profile>
     <profile id="dc4f-b267-9878-3faa" name="Cyclonic melta lance" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -10331,7 +10331,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">9</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">If the target is 范围内 half range of 这个武器, roll two dice when inflicting 伤害 with it and discard the lowest result.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">这个武器瞄准一半范围内的目标时, 伤害投掷2个骰子并舍弃最低结果.</characteristic>
       </characteristics>
     </profile>
     <profile id="08b6-7632-eabd-c0bf" name="Deathstorm cannon array" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -10371,7 +10371,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">10</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-5</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
-        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">If the 圣物 Typhon does not move in the 移动阶段, then the range of 这个武器 is increased to 48寸 for the duration of the current turn.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">If the 圣物 Typhon does not move in the 移动阶段, then the range of 这个武器 增加到 48寸 for the duration of the current turn.</characteristic>
       </characteristics>
     </profile>
     <profile id="a9bc-ebb4-f0e6-3cf3" name="残暴之刃加速炮-HE弹" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -10534,7 +10534,7 @@
         <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="4103-813e-bc4c-1449" name="Kane&apos;s 等离子手枪, Supercharge" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+    <profile id="4103-813e-bc4c-1449" name="Kane&apos;s 等离子手枪, 过载" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="射程" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12寸</characteristic>
         <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手枪 2</characteristic>
@@ -10561,7 +10561,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">12</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">If 这个武器 successfully inflicts 伤害, roll an additional D6. 结果为result of a &apos;3-5&apos;, the 武器&apos;s 伤害 is increased to 2D6. 结果为result of a &apos;6&apos;, the 武器&apos;s 伤害 is increased to 3D6.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">如果这个武器 成功造成 伤害, 额外投掷1个 D6. 结果为result of a &apos;3-5&apos;, the 武器&apos;s 伤害 增加到 2D6. 结果为result of a &apos;6&apos;, the 武器&apos;s 伤害 增加到 3D6.</characteristic>
       </characteristics>
     </profile>
     <profile id="66f9-70c2-2adc-514d" name="激光齐射炮-齐射" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -10591,7 +10591,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">10</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">If the target of an attack by 这个武器 is 范围内 half range, roll an additional dice when inflicting 伤害 and discard the lowest result.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">If the target of an attack by 这个武器 is 范围内 half range, 额外投掷1个 dice when inflicting 伤害 and 舍弃最低结果.</characteristic>
       </characteristics>
     </profile>
     <profile id="0643-f2a4-4a3d-b019" name="Malice" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -10614,7 +10614,7 @@
         <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="472a-8684-01c4-e85f" name="Masterwork plasma cutter, Supercharge" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+    <profile id="472a-8684-01c4-e85f" name="Masterwork plasma cutter, 过载" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="射程" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12寸</characteristic>
         <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 1</characteristic>
@@ -10674,7 +10674,7 @@
         <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="8245-fb69-fa1e-9ceb" name="Plasma charger, Supercharge" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+    <profile id="8245-fb69-fa1e-9ceb" name="Plasma charger, 过载" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="射程" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">8寸</characteristic>
         <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手枪 3</characteristic>
@@ -10791,7 +10791,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">9</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">If the target is 范围内 half range of 这个武器, roll two dice when inflicting 伤害 with it and discard the lowest result.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">这个武器瞄准一半范围内的目标时, 伤害投掷2个骰子并舍弃最低结果.</characteristic>
       </characteristics>
     </profile>
     <profile id="5115-e568-bbff-f5df" name="天矛阵列" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -10901,7 +10901,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">10</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">If the target of an attack by 这个武器 is 范围内 half range, roll an additional dice when inflicting 伤害 and discard the lowest result.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">If the target of an attack by 这个武器 is 范围内 half range, 额外投掷1个 dice when inflicting 伤害 and 舍弃最低结果.</characteristic>
       </characteristics>
     </profile>
     <profile id="2298-cb44-9815-8ede" name="双联火山炮" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -12260,7 +12260,7 @@
         <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When a 细剑武器平台 is set up 战场上, its 星际战士炮手 are set up in 单位 coherency with it. From that point onwards the 星际战士炮手 are treated as one 单位 and the 细剑武器平台 as another. The 星际战士炮手 may only be chosen as a target in the 射击阶段 if they are the closest 可见 敌方单位 to the firer.</characteristic>
       </characteristics>
     </profile>
-    <profile id="813c-413f-ff72-bf1c" name="Artillery" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
+    <profile id="813c-413f-ff72-bf1c" name="炮兵" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
         <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The 细剑武器平台 can only fire its 武器 if at least one of the 星际战士炮手 it was deployed with is 范围内 3寸. If both of the 星际战士炮手 the 细剑武器平台 was depolyed with are slain, the 细剑武器平台 is also removed as slain.</characteristic>
       </characteristics>
@@ -12321,7 +12321,7 @@
         <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 不能移动 for any reason, nor can it fight in the 肉搏阶段. 敌方模型 自动 命中 这个模型 in the 肉搏阶段 - do not make 命中 骰. 然而, 这个模型 can still shoot if there are 敌方模型 范围内 1寸 of it, and 友方单位 can still target 敌方单位 that are 范围内 1寸 of 这个模型.</characteristic>
       </characteristics>
     </profile>
-    <profile id="985b-dfbe-2c04-dc5a" name="Automated Artillery" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
+    <profile id="985b-dfbe-2c04-dc5a" name="Automated 炮兵" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
         <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型拥有 双联重爆弹, it will 自动 shoot at the nearest 敌方 步兵单位 in the 射击阶段 范围内 range. If 这个模型拥有 双联激光炮, it will 自动 shoot at the nearest non-步兵模型 in the 射击阶段 范围内 range. If there are none of the specified types of 单位 in range then the closest 单位 of any kind 必须 targeted, 然而 in 所有 cases 这个模型 may only shoot an 敌方 人物 if it is the closest 模型 of any type.</characteristic>
       </characteristics>
@@ -12824,7 +12824,7 @@
         <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="3f09-1b9b-bf77-3b5c" name="Plasma eradicator, Supercharge" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+    <profile id="3f09-1b9b-bf77-3b5c" name="Plasma eradicator, 过载" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="射程" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36寸</characteristic>
         <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 D3</characteristic>
@@ -13034,7 +13034,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">If the target is 范围内 half range of 这个武器, roll two dice when inflicting 伤害 with it and discard the lowest result.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">这个武器瞄准一半范围内的目标时, 伤害投掷2个骰子并舍弃最低结果.</characteristic>
       </characteristics>
     </profile>
     <profile id="5f03-cfb6-63f4-8896" name="Subterranean Assault" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">

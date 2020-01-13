@@ -9787,7 +9787,7 @@
         <categoryLink id="321b-83a6-1736-445b" name="New CategoryLink" hidden="false" targetId="d402-e2d4-f850-c7ad" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="878e-089e-509b-4a9e" name="Ranged 武器" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="878e-089e-509b-4a9e" name="远程武器" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b4d3-fcc9-d25f-7cf1" type="min"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e66-0e92-2413-e422" type="max"/>
@@ -11046,7 +11046,7 @@
     <selectionEntry id="2435-5a1e-56b6-ff0f" name="Macro plasma incinerator" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="12b7-5415-257b-966d" name="Macro plasma incinerator, 标准" hidden="false" targetId="c9c4-f7e8-baea-983a" type="profile"/>
-        <infoLink id="0120-43cf-4d5f-909a" name="Macro plasma incinerator, Supercharge" hidden="false" targetId="f943-56af-7f60-b36f" type="profile"/>
+        <infoLink id="0120-43cf-4d5f-909a" name="Macro plasma incinerator, 过载" hidden="false" targetId="f943-56af-7f60-b36f" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="31.0"/>
@@ -11237,7 +11237,7 @@
     <selectionEntry id="4b68-6f66-3be1-95b3" name="等离子灭绝者" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="0be7-4f6b-9f4a-11a3" name="等离子灭绝者, 标准" hidden="false" targetId="f816-3706-cae8-788b" type="profile"/>
-        <infoLink id="cc1e-8e61-0885-efc0" name="等离子灭绝者, Supercharge" hidden="false" targetId="785f-7f4e-9434-8e2c" type="profile"/>
+        <infoLink id="cc1e-8e61-0885-efc0" name="等离子灭绝者, 过载" hidden="false" targetId="785f-7f4e-9434-8e2c" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="17.0"/>
@@ -11248,7 +11248,7 @@
     <selectionEntry id="d256-b942-3a92-a369" name="突击等离子焚化者" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="4c1b-f84e-efac-1346" name="突击等离子焚化者, 标准" hidden="false" targetId="6d64-c135-ed9f-b484" type="profile"/>
-        <infoLink id="186e-4d46-975c-cc67" name="突击等离子焚化者, Supercharge" hidden="false" targetId="c3ca-2e36-b615-47bb" type="profile"/>
+        <infoLink id="186e-4d46-975c-cc67" name="突击等离子焚化者, 过载" hidden="false" targetId="c3ca-2e36-b615-47bb" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="15.0"/>
@@ -11259,7 +11259,7 @@
     <selectionEntry id="c6ce-815a-0b7d-e636" name="重型等离子焚化者" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="4546-a747-9db9-90a8" name="重型等离子焚化者, 标准" hidden="false" targetId="0fda-f003-5fbe-57ad" type="profile"/>
-        <infoLink id="72e9-f6ef-f849-0566" name="重型等离子焚化者, Supercharge" hidden="false" targetId="1d16-817e-6d97-425e" type="profile"/>
+        <infoLink id="72e9-f6ef-f849-0566" name="重型等离子焚化者, 过载" hidden="false" targetId="1d16-817e-6d97-425e" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="17.0"/>
@@ -12818,7 +12818,7 @@
         <categoryLink id="7755-6888-9364-329c" name="飞行器槽位" hidden="false" targetId="d569-3d56-cd24-6a31" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="d938-297c-b635-cac6" name="Hull 武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="398f-19ea-1af2-8ea9">
+        <selectionEntryGroup id="d938-297c-b635-cac6" name="车体武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="398f-19ea-1af2-8ea9">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2604-cb5b-7ef4-d71d" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7d4-6b46-d4d2-0d06" type="max"/>
@@ -14740,7 +14740,7 @@
             </profile>
             <profile id="5d7a-9290-fdd6-831a" name="烟雾发射器" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, 而不是 射击 any 武器 in the 射击阶段, a Suppressor士官 can use its 烟雾发射器; until your next 射击阶段, your opponent 必须 减少 1 from 命中 骰 for 攻击 made with ranged 武器 that target 这个单位.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, 而不是 射击 any 武器 in the 射击阶段, a Suppressor士官 can use its 烟雾发射器; until your next 射击阶段, your opponent 必须 减少 1 from 命中 骰 for 攻击 made with 远程武器 that target 这个单位.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15832,7 +15832,7 @@ The Primed Haywire Mine is represented by the Primed Haywire Mine model, but doe
       <profiles>
         <profile id="53b4-9ae6-55ec-7e62" name="Smoke Grenades" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, 而不是 射击 any 武器 in the 射击阶段, 这个单位 can use its smoke grenades; until your next 射击阶段, your opponent 必须 减少 1 from 命中 骰 for 攻击 made with ranged 武器 that target 这个单位.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, 而不是 射击 any 武器 in the 射击阶段, 这个单位 can use its smoke grenades; until your next 射击阶段, your opponent 必须 减少 1 from 命中 骰 for 攻击 made with 远程武器 that target 这个单位.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -16801,7 +16801,7 @@ The Primed Haywire Mine is represented by the Primed Haywire Mine model, but doe
           <profiles>
             <profile id="6081-09ce-4b55-075a" name="Marksman&apos;s Honors" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The D值 of ranged 武器 your 主将 is armed with is increased by 1. 此外, you can 重投 失败的 to hi 骰 and wound 骰 for 射击攻击 made by your 主将. 这个主将 trait does not aply to Grenade 武器, but does apply to 战团 Relics.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The D值 of 远程武器 your 主将 is armed with is increased by 1. 此外, you can 重投 失败的 to hi 骰 and wound 骰 for 射击攻击 made by your 主将. 这个主将 trait does not aply to Grenade 武器, but does apply to 战团 Relics.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -17736,7 +17736,7 @@ The AP值 of Pistol and 肉搏武器 这个模型 is equipped with is improved b
         <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If the target is 范围内 half range of 这个武器, roll two dice when inflicting 伤害 with it and discard the lowest result.</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器瞄准一半范围内的目标时, 伤害投掷2个骰子并舍弃最低结果.</characteristic>
       </characteristics>
     </profile>
     <profile id="acf2-9015-83ab-146c" name="星际战士" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
@@ -19204,7 +19204,7 @@ The AP值 of Pistol and 肉搏武器 这个模型 is equipped with is improved b
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="f943-56af-7f60-b36f" name="Macro plasma incinerator, Supercharge" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+    <profile id="f943-56af-7f60-b36f" name="Macro plasma incinerator, 过载" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy D6</characteristic>
@@ -19257,7 +19257,7 @@ The AP值 of Pistol and 肉搏武器 这个模型 is equipped with is improved b
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="785f-7f4e-9434-8e2c" name="等离子灭绝者, Supercharge" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+    <profile id="785f-7f4e-9434-8e2c" name="等离子灭绝者, 过载" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18&quot;</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault D3</characteristic>
@@ -19277,7 +19277,7 @@ The AP值 of Pistol and 肉搏武器 这个模型 is equipped with is improved b
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="c3ca-2e36-b615-47bb" name="突击等离子焚化者, Supercharge" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+    <profile id="c3ca-2e36-b615-47bb" name="突击等离子焚化者, 过载" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2</characteristic>
@@ -19297,7 +19297,7 @@ The AP值 of Pistol and 肉搏武器 这个模型 is equipped with is improved b
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="1d16-817e-6d97-425e" name="重型等离子焚化者, Supercharge" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+    <profile id="1d16-817e-6d97-425e" name="重型等离子焚化者, 过载" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1</characteristic>
@@ -19387,7 +19387,7 @@ The AP值 of Pistol and 肉搏武器 这个模型 is equipped with is improved b
     </profile>
     <profile id="ee71-cd55-0219-fae9" name="自动发射器" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">而不是 射击 any 武器 in the 射击阶段, 这个模型 can use its auto launchers; until your next 射击阶段 your opponent 必须 减少 1 from 所有命中骰 for ranged 武器 that target 这个载具.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">而不是 射击 any 武器 in the 射击阶段, 这个模型 can use its auto launchers; until your next 射击阶段 your opponent 必须 减少 1 from 所有命中骰 for 远程武器 that target 这个载具.</characteristic>
       </characteristics>
     </profile>
     <profile id="cb8d-e1e4-3ca6-9d20" name="战团长 (Blood Angels)" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
