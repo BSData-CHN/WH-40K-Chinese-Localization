@@ -112,7 +112,7 @@
     <categoryEntry id="9c30-7511-285c-bdfd" name="XV88 Broadside Battlesuits" hidden="false"/>
     <categoryEntry id="71f8-087f-7063-cfe1" name="MV8 Missile Drones" hidden="false"/>
     <categoryEntry id="6f6c-3d50-c592-a8ed" name="TX78 Sky Ray Gunship" hidden="false"/>
-    <categoryEntry id="7627-3775-902e-8b3c" name="MV71 Sniper Drones" hidden="false"/>
+    <categoryEntry id="7627-3775-902e-8b3c" name="MV71 狙击 Drones" hidden="false"/>
     <categoryEntry id="6ce0-d7d5-b6f0-3b6d" name="KV128 Stormsurge" hidden="false"/>
     <categoryEntry id="bf5c-3877-7c87-0693" name="TY7 Devilfish" hidden="false"/>
     <categoryEntry id="8ee5-d7e2-b6d6-0907" name="AX3 Razorshark Strike Fighter" hidden="false"/>
@@ -169,7 +169,7 @@
     <entryLink id="67b1-1853-eae8-55a6" name="Tactical Drones" hidden="false" collective="false" import="true" targetId="94e2-9b39-4330-f8cc" type="selectionEntry"/>
     <entryLink id="3ecd-dd3f-e8a9-996c" name="Pathfinder Team" hidden="false" collective="false" import="true" targetId="667d-7920-7891-ee16" type="selectionEntry"/>
     <entryLink id="1cfa-1dca-0acb-c44d" name="Firesight Marksman" hidden="false" collective="false" import="true" targetId="70c3-64e5-fb85-a6a1" type="selectionEntry"/>
-    <entryLink id="fa30-80f3-71cf-1713" name="MV71 Sniper Drones" hidden="false" collective="false" import="true" targetId="5f36-512d-11ef-2d9c" type="selectionEntry"/>
+    <entryLink id="fa30-80f3-71cf-1713" name="MV71 狙击 Drones" hidden="false" collective="false" import="true" targetId="5f36-512d-11ef-2d9c" type="selectionEntry"/>
     <entryLink id="ae94-a8c6-f1b3-9182" name="TX4 Piranhas" hidden="false" collective="false" import="true" targetId="f9e5-9bdc-4429-6559" type="selectionEntry"/>
     <entryLink id="7664-df7c-26b1-67ab" name="TY7 Devilfish" hidden="false" collective="false" import="true" targetId="bb68-4241-12ee-c4fa" type="selectionEntry"/>
     <entryLink id="e62d-e20b-96db-81c4" name="Longstrike" hidden="false" collective="false" import="true" targetId="7e62-75f7-0f54-c000" type="selectionEntry"/>
@@ -1780,7 +1780,7 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5f36-512d-11ef-2d9c" name="MV71 Sniper Drones" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="5f36-512d-11ef-2d9c" name="MV71 狙击 Drones" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="increment" field="e356-c769-5920-6e14" value="3">
           <conditions>
@@ -1805,14 +1805,14 @@
         <categoryLink id="c381-5cc5-bcbb-2b5a" name="New CategoryLink" hidden="false" targetId="7627-3775-902e-8b3c" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="e3d3-bca6-a798-0a4e" name="MV71 Sniper Drone" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="e3d3-bca6-a798-0a4e" name="MV71 狙击 Drone" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f64f-b8a8-3a82-52e8" type="min"/>
             <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6091-e042-3cfa-cd08" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="cf21-f8cb-a317-35d4" name="MV71 Sniper Drone" hidden="false" targetId="e81d-4c64-657a-56af" type="profile"/>
-            <infoLink id="ea8a-616b-821a-4161" name="Sniper Drone Stealth Field" hidden="false" targetId="b80c-72c0-f503-00e1" type="profile"/>
+            <infoLink id="cf21-f8cb-a317-35d4" name="MV71 狙击 Drone" hidden="false" targetId="e81d-4c64-657a-56af" type="profile"/>
+            <infoLink id="ea8a-616b-821a-4161" name="狙击 Drone Stealth Field" hidden="false" targetId="b80c-72c0-f503-00e1" type="profile"/>
             <infoLink id="f0eb-6276-dde7-c870" name="Saviour Protocols" hidden="false" targetId="9482-16e3-9287-b47f" type="rule"/>
             <infoLink id="db24-830b-1076-48d5" name="For the Greater Good" hidden="false" targetId="9a3a-31af-3eb4-fc3d" type="rule"/>
           </infoLinks>
@@ -9924,7 +9924,7 @@ Tactical Drones accompanying 单位 use their own datasheet (pg 109), while prof
         <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
       </characteristics>
     </profile>
-    <profile id="e81d-4c64-657a-56af" name="MV71 Sniper Drone" publicationId="c0bb-c0cd-pubN68738" page="113" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+    <profile id="e81d-4c64-657a-56af" name="MV71 狙击 Drone" publicationId="c0bb-c0cd-pubN68738" page="113" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
       <characteristics>
         <characteristic name="M" typeId="0bdf-a96e-9e38-7779">8寸</characteristic>
         <characteristic name="WS" typeId="e7f0-1278-0250-df0c">5+</characteristic>
@@ -11693,14 +11693,14 @@ Tactical Drones accompanying 单位 use their own datasheet (pg 109), while prof
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If a 友方 Command-link Drone is 范围内 3寸 of Commander Shadowsun at the start of your 射击阶段, nominate a single 友方 钛帝国 单位 范围内 12寸 of the drone. 重投命中的 1 for 那个单位 直到阶段结束.</characteristic>
       </characteristics>
     </profile>
-    <profile id="b80c-72c0-f503-00e1" name="Sniper Drone Stealth Field" publicationId="c0bb-c0cd-pubN68738" page="113" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="b80c-72c0-f503-00e1" name="狙击 Drone Stealth Field" publicationId="c0bb-c0cd-pubN68738" page="113" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">减少 1 from 命中 骰 in the 射击阶段 for 攻击 made 对抗 这个单位 unless it is 范围内 12寸 of the firing model.</characteristic>
       </characteristics>
     </profile>
     <profile id="e5a6-3a23-52a7-d531" name="Drone Uplink" publicationId="c0bb-c0cd-pubN68738" page="104" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">命中骰+1 for &lt;家门&gt; MV71 Sniper Drones in the 射击阶段 when they attack a 单位 可见 to a 友方 &lt;家门&gt; Firesight Marksman.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">命中骰+1 for &lt;家门&gt; MV71 狙击 Drones in the 射击阶段 when they attack a 单位 可见 to a 友方 &lt;家门&gt; Firesight Marksman.</characteristic>
       </characteristics>
     </profile>
     <profile id="5fa2-64f5-8b8f-e82a" name="Marksman Stealth Field" publicationId="c0bb-c0cd-pubN68738" page="104" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">

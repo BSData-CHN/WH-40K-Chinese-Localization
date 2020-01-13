@@ -12,7 +12,7 @@
     <categoryEntry id="474f-e7ea-c714-6eb4" name="Armoured Sentinel" hidden="false"/>
     <categoryEntry id="ab04-e20f-6785-3cb5" name="沙罗曼蛇侦察坦克" hidden="false"/>
     <categoryEntry id="2e45-c856-4cc0-3c6a" name="Arvus lighter" hidden="false"/>
-    <categoryEntry id="426c-44f4-90e3-2d42" name="Valkyries" hidden="false"/>
+    <categoryEntry id="426c-44f4-90e3-2d42" name="女武神" hidden="false"/>
     <categoryEntry id="0c39-4a04-aab4-e207" name="黎曼鲁斯 Battle Tank" hidden="false"/>
     <categoryEntry id="7c09-06dc-b80a-1b6f" name="黎曼鲁斯 Demolishers" hidden="false"/>
     <categoryEntry id="cacf-321b-e39c-fab5" name="石化蜥蜴" hidden="false"/>
@@ -94,7 +94,7 @@
         <categoryLink id="773c-885e-f019-22d3" name="New CategoryLink" hidden="false" targetId="c8fd-783f-3230-493e" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="48e9-158b-fb2e-3644" name="Valkyries" hidden="false" collective="false" import="true" targetId="74c5-585f-681a-bcd6" type="selectionEntry">
+    <entryLink id="48e9-158b-fb2e-3644" name="女武神" hidden="false" collective="false" import="true" targetId="74c5-585f-681a-bcd6" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="1b45-004c-f56c-dada" name="New CategoryLink" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
         <categoryLink id="693f-c321-d065-1a1a" name="New CategoryLink" hidden="false" targetId="e888-1504-aa61-95ff" primary="true"/>
@@ -1110,7 +1110,7 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="74c5-585f-681a-bcd6" name="Valkyries" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="74c5-585f-681a-bcd6" name="女武神" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="af6d-60cd-1061-ac00" name="载具中队" hidden="false" targetId="ac84-a4d0-3a58-2a83" type="profile"/>
       </infoLinks>
@@ -1118,13 +1118,13 @@
         <categoryLink id="18cb-5179-02cf-a68b" name="飞行器槽位" hidden="false" targetId="d569-3d56-cd24-6a31" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="050b-9702-7d74-7f99" name="Valkyrie" page="" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="050b-9702-7d74-7f99" name="女武神" page="" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7c1-e83c-14d5-c13d" type="min"/>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d42-e559-1f3d-61b1" type="max"/>
           </constraints>
           <profiles>
-            <profile id="79e4-d189-9f9f-dc04" name="Transport: Valkyrie" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
+            <profile id="79e4-d189-9f9f-dc04" name="Transport: 女武神" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
               <characteristics>
                 <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">这个模型 可以运输 12 RENEGADES AND HERETICS 步兵模型.  Each 重型武器组 or 老兵 重型武器组 takes the place of two other 模型 and each OGRYN takes the space of three other 模型.</characteristic>
               </characteristics>
@@ -1134,7 +1134,7 @@
                 <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Before 这个模型 moves in your 移动阶段, you can declare it will hover. It&apos;s M值 becomes 20寸 直到阶段结束, and it loses the Airborne, Hard to 命中 and 超音速 abilities until the beginning of your next 移动阶段.</characteristic>
               </characteristics>
             </profile>
-            <profile id="8095-130e-b3af-6521" name="Valkyrie" publicationId="2ebb-7865-pubN72363" page="48" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+            <profile id="8095-130e-b3af-6521" name="女武神" publicationId="2ebb-7865-pubN72363" page="48" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
               <characteristics>
                 <characteristic name="M" typeId="0bdf-a96e-9e38-7779">*</characteristic>
                 <characteristic name="WS" typeId="e7f0-1278-0250-df0c">6+</characteristic>
@@ -1147,7 +1147,7 @@
                 <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
               </characteristics>
             </profile>
-            <profile id="d822-86a6-2c70-54d0" name="Valkyrie" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
+            <profile id="d822-86a6-2c70-54d0" name="女武神" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
               <characteristics>
                 <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">-</characteristic>
                 <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">M</characteristic>
@@ -1155,7 +1155,7 @@
                 <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">-</characteristic>
               </characteristics>
             </profile>
-            <profile id="f2dc-2e6f-737f-4b17" name="Valkyrie1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
+            <profile id="f2dc-2e6f-737f-4b17" name="女武神1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
               <characteristics>
                 <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">8-14+</characteristic>
                 <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">20-45寸</characteristic>
@@ -1163,7 +1163,7 @@
                 <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba"/>
               </characteristics>
             </profile>
-            <profile id="9433-48f9-94cc-b10e" name="Valkyrie2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
+            <profile id="9433-48f9-94cc-b10e" name="女武神2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
               <characteristics>
                 <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">4-7</characteristic>
                 <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">20-30寸</characteristic>
@@ -1171,7 +1171,7 @@
                 <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">-</characteristic>
               </characteristics>
             </profile>
-            <profile id="e8d7-a309-4500-391e" name="Valkyrie3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
+            <profile id="e8d7-a309-4500-391e" name="女武神3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
               <characteristics>
                 <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">1-3</characteristic>
                 <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">20寸</characteristic>
@@ -1186,7 +1186,7 @@
             </profile>
             <profile id="4c41-8af4-7e8b-31a3" name="Grav Chute Insertion" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models may 下车 from 这个载具 at any point during its move, but if the Valkyrie moves more than 20寸, you 必须 投掷1个D6 for each 模型 disembarking. 结果为1, that 模型 is slain.  Models that 下车 in this manner 必须 set up more than 9寸 from 任何敌方模型.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models may 下车 from 这个载具 at any point during its move, but if the 女武神 moves more than 20寸, you 必须 投掷1个D6 for each 模型 disembarking. 结果为1, that 模型 is slain.  Models that 下车 in this manner 必须 set up more than 9寸 from 任何敌方模型.</characteristic>
               </characteristics>
             </profile>
             <profile id="8517-9501-18c1-07ff" name="Roving Gunship" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">

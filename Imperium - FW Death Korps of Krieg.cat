@@ -2941,7 +2941,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="d6fa-6549-d8f2-62d6" name="DK 卫军装备Platoon 标准" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="d6fa-6549-d8f2-62d6" name="DK 卫军装备排 标准" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3adb-9f87-e26b-0a92" type="max"/>
               </constraints>
@@ -2955,7 +2955,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="23cd-34a3-962b-b55b" type="max"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="8a87-3554-34bc-62b9" name="死亡兵团Platoon 标准" hidden="false" collective="false" import="true" targetId="5060-9f60-51be-9902" type="selectionEntry">
+                <entryLink id="8a87-3554-34bc-62b9" name="死亡兵团排 标准" hidden="false" collective="false" import="true" targetId="5060-9f60-51be-9902" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73a6-63ff-9b99-7ca0" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ec1-5fba-d6c9-485e" type="max"/>
@@ -3480,7 +3480,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a3a-605e-18a9-25ba" type="min"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink id="a52e-82aa-23a1-75d2" name="死亡兵团Platoon 标准" hidden="false" collective="false" import="true" targetId="5060-9f60-51be-9902" type="selectionEntry"/>
+                    <entryLink id="a52e-82aa-23a1-75d2" name="死亡兵团排 标准" hidden="false" collective="false" import="true" targetId="5060-9f60-51be-9902" type="selectionEntry"/>
                     <entryLink id="f250-d99f-0cd5-05cf" name="死亡兵团Regimental 标准" hidden="false" collective="false" import="true" targetId="7f88-f384-4a84-255a" type="selectionEntry"/>
                   </entryLinks>
                 </selectionEntryGroup>
@@ -5009,9 +5009,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5060-9f60-51be-9902" name="死亡兵团Platoon 标准" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="5060-9f60-51be-9902" name="死亡兵团排 标准" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="bad7-994b-d202-8bb4" name="死亡兵团Platoon 标准" hidden="false" targetId="37d1-c17b-6b45-492b" type="profile"/>
+        <infoLink id="bad7-994b-d202-8bb4" name="死亡兵团排 标准" hidden="false" targetId="37d1-c17b-6b45-492b" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="5.0"/>
@@ -8105,7 +8105,7 @@
       <profiles>
         <profile id="fd1c-4111-13bf-4b18" name="The Emperor&apos;s Benediction" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">政委 or LORD 政委 with a 爆弹手枪 only. The Emperor’s Benediction replaces the model’s 爆弹手枪 and has the following profile:</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">政委 or高阶政委 with a 爆弹手枪 only. The Emperor’s Benediction replaces the model’s 爆弹手枪 and has the following profile:</characteristic>
           </characteristics>
         </profile>
         <profile id="910d-2804-fb98-9426" name="The Emperor&apos;s Benediction" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -9798,9 +9798,9 @@
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If a 友方 克里格死亡兵团军官 is 范围内 3寸 of a 单位 with a vox-caster when using thier Voice of Command ability, you may extend the range of the order to 18寸 if the target 单位 also contains a vox-caster.</characteristic>
       </characteristics>
     </profile>
-    <profile id="37d1-c17b-6b45-492b" name="死亡兵团Platoon 标准" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="37d1-c17b-6b45-492b" name="死亡兵团排 标准" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">所有 friendsly 克里格死亡兵团单位 范围内 6寸 of one or more 单位 with a 死亡兵团Platoon 标准 may add 1 to their LD when taking 士气测试.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">所有 friendsly 克里格死亡兵团单位 范围内 6寸 of one or more 单位 with a 死亡兵团排 标准 may add 1 to their LD when taking 士气测试.</characteristic>
       </characteristics>
     </profile>
     <profile id="39b8-17e5-93e8-001b" name="死亡兵团死亡骑兵" publicationId="91ff-e116-pubN65631" page="67" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
