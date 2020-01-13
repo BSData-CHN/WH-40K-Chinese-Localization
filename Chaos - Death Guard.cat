@@ -335,7 +335,7 @@
     </rule>
     <rule id="3e60-7d53-e6ae-d91d" name="爆弹训练" hidden="false">
       <description>所有 阿斯塔特修会, 阿斯塔特叛军 and 堕天使 模型 获得这个能力.
-而不是 following the normal rules for 速射 武器, 模型 in 这个单位 firing 速射爆弹武器 make 双倍 of 攻击 if any of the following apply:
+而不是 following the normal rules for 速射 武器, 这个单位中的模型 firing 速射爆弹武器 make 双倍 of 攻击 if any of the following apply:
 • The firing model’s target is 范围内 half the 武器的 最大射程.
 • The firing 模型 is 步兵 and every 模型 in its 单位 remained stationary in your previous 移动阶段.
 • The firing 模型 is a 终结者, 摩托, 百夫长, 无畏 or 地狱兽.
@@ -1192,7 +1192,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
         </profile>
         <profile id="19cc-a383-292a-c9ff" name="腐臭爆炸" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 投掷1个D6 before removing it from the battlefield; 结果为4+ it 爆炸, 7寸范围内每个单位遭受 1 致命伤.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 投掷1个D6 被移除前 从 战场; 结果为4+ it 爆炸, 7寸范围内每个单位遭受 1 致命伤.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1401,7 +1401,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
         </profile>
         <profile id="0311-5d3a-c729-4220" name="纳垢领主" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can 重投 所有命中骰 of 1 made for 友方 纳垢 &lt;军团&gt; 这个模型6寸范围内的单位.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投 所有命中骰 of 1 made for 友方 纳垢 &lt;军团&gt; 这个模型6寸范围内的单位.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3484,7 +3484,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
         </profile>
         <profile id="7868-12b9-8bb3-7d42" name="Putrid Demise" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When 莫塔里安 loses his last wound (after failing his 可憎坚韧 roll), roll a dice before removing the 模型 from the battlefield; 结果为4+ he 爆炸, showering 所有 nearby in putrid filth and disease - each 单位 范围内 7寸 遭受 D3 致命伤 unless it has the 纳垢 关键字. </characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When 莫塔里安 loses his last wound (after failing his 可憎坚韧 roll), roll a dice before removing the 模型 from the 战场; 结果为4+ he 爆炸, showering 所有 nearby in putrid filth and disease - each 单位 范围内 7寸 遭受 D3 致命伤 unless it has the 纳垢 关键字. </characteristic>
           </characteristics>
         </profile>
         <profile id="055e-9cce-da4e-9f73" name="莫塔里安" hidden="false" typeId="bc97-dea9-9e88-bb7d" typeName="灵能者">
@@ -3905,13 +3905,13 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
         <categoryLink id="0f50-d1a4-4741-1bd9" name="New CategoryLink" hidden="false" targetId="a50f-7a19-7624-5793" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="ca83-09ca-3ee4-4245" name="Plague Champion" page="" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="ca83-09ca-3ee4-4245" name="Plague 冠军" page="" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="33ca-75bb-9093-cd7f" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="122b-bf6b-0413-1f9e" type="max"/>
           </constraints>
           <profiles>
-            <profile id="0f2e-4f9b-006e-7d4a" name="Plague Champion" page="0" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+            <profile id="0f2e-4f9b-006e-7d4a" name="Plague 冠军" page="0" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
               <characteristics>
                 <characteristic name="M" typeId="0bdf-a96e-9e38-7779">5寸</characteristic>
                 <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -3990,7 +3990,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
                         </selectionEntryGroup>
                       </selectionEntryGroups>
                       <entryLinks>
-                        <entryLink id="5a7a-1b4b-c950-8cb8" name="Champion Equipment" hidden="false" collective="false" import="true" targetId="1912-576e-6a2b-5c6e" type="selectionEntryGroup">
+                        <entryLink id="5a7a-1b4b-c950-8cb8" name="冠军 Equipment" hidden="false" collective="false" import="true" targetId="1912-576e-6a2b-5c6e" type="selectionEntryGroup">
                           <modifiers>
                             <modifier type="set" field="0593-89c5-25e7-d094" value="0.0">
                               <conditions>
@@ -4581,13 +4581,13 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
         <categoryLink id="328b-d6b4-cbb7-e22c" name="New CategoryLink" hidden="false" targetId="1e74-2c48-7179-152e" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="dd27-cdde-3a05-090b" name="Blightlord Champion" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="dd27-cdde-3a05-090b" name="Blightlord 冠军" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61a1-188a-0261-8e46" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e94-a009-8094-b2e6" type="min"/>
           </constraints>
           <profiles>
-            <profile id="cdbe-c1cf-7404-61fa" name="Blightlord Champion" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+            <profile id="cdbe-c1cf-7404-61fa" name="Blightlord 冠军" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
               <characteristics>
                 <characteristic name="M" typeId="0bdf-a96e-9e38-7779">4寸</characteristic>
                 <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -4817,7 +4817,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
         </profile>
         <profile id="8ff3-4608-e8b1-fc13" name="腐臭爆炸" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If a Myphitic Blight-hauler is reduced to 0 Wounds, roll a dice before removing it from the battlefield, 结果为4+ it 爆炸, 7寸范围内每个单位遭受 1 致命伤.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If a Myphitic Blight-hauler is reduced to 0 Wounds, roll a dice 被移除前 从 战场, 结果为4+ it 爆炸, 7寸范围内每个单位遭受 1 致命伤.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4982,7 +4982,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
         </profile>
         <profile id="7fc5-cb80-d1f8-ee3b" name="爆炸" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 投掷1个D6 before removing it from the battlefield. 结果为5+ it 爆炸, 6寸范围内每个单位遭受 D3 致命伤.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 投掷1个D6 被移除前 从 战场. 结果为5+ it 爆炸, 6寸范围内每个单位遭受 D3 致命伤.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5211,7 +5211,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
             <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">自动命中 You can 重投 wounds 骰 of 1 for 这个武器.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">自动命中 可以重投 wounds 骰 of 1 for 这个武器.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5257,7 +5257,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
         </profile>
         <profile id="6f21-62a1-1e20-8643" name="Pestilential Explosion" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, roll a dice before removing it from the battlefield. 结果为4+, its racks of 瘟疫手雷 explode, 7寸范围内每个单位遭受 1 致命伤 unless it has the 纳垢 关键字.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, roll a dice 被移除前 从 战场. 结果为4+, its racks of 瘟疫手雷 explode, 7寸范围内每个单位遭受 1 致命伤 unless it has the 纳垢 关键字.</characteristic>
           </characteristics>
         </profile>
         <profile id="c549-cba5-9b73-141f" name="Blight Racks" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -5463,7 +5463,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
         </profile>
         <profile id="deb8-091b-e8b3-8853" name="Festering Zealot" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can 重投 所有 失败的 命中 骰 in the 肉搏阶段 for 友方 死亡守卫 单位 that are 范围内 7寸 of 这个模型.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投 所有 失败的 命中 骰 in the 肉搏阶段 for 友方 死亡守卫 单位 that are 范围内 7寸 of 这个模型.</characteristic>
           </characteristics>
         </profile>
         <profile id="5c3b-a6a0-4014-38bd" name="The Seven-fold Chant" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -5556,7 +5556,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
         </profile>
         <profile id="7b54-35be-9651-04c6" name="Unholy Death&apos;s Head" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each Foul Blightspawn carries a single unholy death&apos;s head grenade. 一次性, a Foul Blightspawn, or another 友方 死亡守卫 人物 范围内 3寸 of him, can throw an unholy death&apos;s head grenade 而不是 either a 瘟疫手雷 or a hyper 瘟疫手雷. When they do so, change that 武器&apos;s type to Grenade 2D6.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each Foul Blightspawn carries a single unholy death&apos;s head 手雷. 一次性, a Foul Blightspawn, or another 友方 死亡守卫 人物 范围内 3寸 of him, can throw an unholy death&apos;s head 手雷 而不是 either a 瘟疫手雷 or a hyper 瘟疫手雷. When they do so, change that 武器&apos;s type to 手雷 2D6.</characteristic>
           </characteristics>
         </profile>
         <profile id="4faf-e50c-48b2-53af" name="Revolting Stench" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -5716,7 +5716,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
         </profile>
         <profile id="ef39-8946-1a4b-bab1" name="Plaguebringer" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Model with plague knife, balesword or 动力剑 only. Plaguebringer replaces the bearer&apos;s plague knife, balesword or 动力剑.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Model with plague knife, balesword or 动力剑 only. Plaguebringer replaces 持有者&apos;s plague knife, balesword or 动力剑.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5767,13 +5767,13 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
         <categoryLink id="63ff-42d1-9fd9-9baf" name="New CategoryLink" hidden="false" targetId="a50f-7a19-7624-5793" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="1211-05e5-9fcd-7a37" name="Plague Champion" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="1211-05e5-9fcd-7a37" name="Plague 冠军" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fae0-a75c-9f83-0539" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="277f-4030-7aa0-ec89" type="min"/>
           </constraints>
           <profiles>
-            <profile id="6bb3-447c-7a09-9cc1" name="Plague Champion" page="0" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+            <profile id="6bb3-447c-7a09-9cc1" name="Plague 冠军" page="0" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
               <characteristics>
                 <characteristic name="M" typeId="0bdf-a96e-9e38-7779">5寸</characteristic>
                 <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -6502,7 +6502,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="1912-576e-6a2b-5c6e" name="Champion Equipment" hidden="false" collective="false" import="true" defaultSelectionEntryId="fdb4-16ca-f677-e192">
+    <selectionEntryGroup id="1912-576e-6a2b-5c6e" name="冠军 Equipment" hidden="false" collective="false" import="true" defaultSelectionEntryId="fdb4-16ca-f677-e192">
       <constraints>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0593-89c5-25e7-d094" type="max"/>
       </constraints>
@@ -6658,7 +6658,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
           <profiles>
             <profile id="6340-8c21-ed99-6764" name="The Suppurating Plate" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The bearer 拥有 SV值 of 2+. 此外, roll a dice 每次 这个模型 passes a saving throw in the 肉搏阶段. 结果为4+, the 单位 that inflicted that wound 遭受 1点致命伤 after 所有 of its own 攻击 have been resolved.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">持有者 拥有 SV值 of 2+. 此外, roll a dice 每次 这个模型 passes a saving throw in the 肉搏阶段. 结果为4+, the 单位 that inflicted that wound 遭受 1点致命伤 after 所有 of its own 攻击 have been resolved.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6682,7 +6682,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
           <profiles>
             <profile id="153d-9d17-44c4-b42a" name="The Pandemic Staff" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">灵能者 only. The bearer of the Pandemic Staff adds 1 to their Psychic test when attempting to manifest the 惩击 power.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">灵能者 only. 持有者 of the Pandemic Staff adds 1 to their Psychic test when attempting to manifest the 惩击 power.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6706,7 +6706,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
           <profiles>
             <profile id="7567-31d2-45b1-c5d7" name="Dolorous Knell" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">丧钟使者 only. 投掷1个D6 for each 敌方单位 范围内 7寸 of the bearer of the Dolorous Knell 开始时 of each Morale phase. 结果为6, 那个单位 遭受 1点致命伤. 此外, if an 敌方单位 takes a Morale test whilst they are 范围内 7寸 of the bearer, your opponent 必须 roll two dice and 舍弃最低结果.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">丧钟使者 only. 投掷1个D6 for each 敌方单位 范围内 7寸 of 持有者 of the Dolorous Knell 开始时 of each Morale phase. 结果为6, 那个单位 遭受 1点致命伤. 此外, if an 敌方单位 takes a Morale test whilst they are 范围内 7寸 of 持有者, your opponent 必须 roll two dice and 舍弃最低结果.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6745,7 +6745,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
           <profiles>
             <profile id="b256-2216-3bb0-c7d0" name="Fugaris&apos; Helm" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Increase the range of the bearer’s aura abilities (e.g.Arch-contaminator, 纳垢’s Gift, Tocsin of Misery etc.) by 3寸.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Increase the range of 持有者’s aura abilities (e.g.Arch-contaminator, 纳垢’s Gift, Tocsin of Misery etc.) by 3寸.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7204,7 +7204,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntryGroup>
-    <selectionEntryGroup id="2142-4fb8-0ffd-a8c2" name="死亡守卫 主将 Traits" publicationId="ce57-cc1c-pubN108736" page="97" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="2142-4fb8-0ffd-a8c2" name="死亡守卫 主将特性s" publicationId="ce57-cc1c-pubN108736" page="97" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbb8-594d-1d83-3753" type="max"/>
       </constraints>
@@ -7301,7 +7301,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22a1-030e-7fca-2c3d" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="a14a-f30a-52b2-a4a0" name="死亡守卫 主将 Traits" hidden="false" collective="false" import="true" targetId="2142-4fb8-0ffd-a8c2" type="selectionEntryGroup"/>
+        <entryLink id="a14a-f30a-52b2-a4a0" name="死亡守卫 主将特性s" hidden="false" collective="false" import="true" targetId="2142-4fb8-0ffd-a8c2" type="selectionEntryGroup"/>
         <entryLink id="b5aa-f1bc-4b84-8302" name="主将特性 (BRB)" hidden="false" collective="false" import="true" targetId="d442-1f03-d9da-e77f" type="selectionEntryGroup"/>
         <entryLink id="fb91-d6c0-3c9c-09f0" name="主将特性 (CA)" hidden="false" collective="false" import="true" targetId="f673-3d9b-bb1b-377f" type="selectionEntryGroup"/>
       </entryLinks>
@@ -7311,12 +7311,12 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
     <rule id="bbee-472d-f29f-4288" name="恶魔仪式" hidden="false">
       <description>而不是 moving in their 移动阶段, any 死亡守卫 人物 can, at the end of their 移动阶段, attempt to summon a 纳垢 恶魔 单位 具有这个能力的 by performing a 恶魔仪式 (the 人物 cannot do so if they arrived as reinforcements this turn).
 
-Roll 至多 3 dice - this is your summoning roll. You can summon one new 纳垢 恶魔 单位 with the 恶魔仪式 ability to the battlefield that 拥有 Power Rating equal to or less than the total result. 这个单位 is treated as reinforcements for your army and can be placed 任何位置 战场上 that is entirely 范围内 12寸 of the 人物 and is more than 9寸 from 任何敌方模型. If the total rolled is insufficient to summon any 单位, the ritual fails and no new 单位 is summoned.
+Roll 至多 3 dice - this is your summoning roll. You can summon one new 纳垢 恶魔 单位 with the 恶魔仪式 ability to the 战场 that 拥有 Power Rating equal to or less than the total result. 这个单位 is treated as reinforcements for your army and can be placed 任何位置 战场上 that is entirely 范围内 12寸 of the 人物 and is more than 9寸 from 任何敌方模型. If the total rolled is insufficient to summon any 单位, the ritual fails and no new 单位 is summoned.
 
 If your summoning roll included any doubles, your 人物 then 遭受 1点致命伤. If it contained any triples, it instead 遭受 D3 致命伤.</description>
     </rule>
     <rule id="6625-1efb-fc0e-69f2" name="憎恨突击" hidden="false">
-      <description>If 这个单位 makes a 冲锋移动, is charged or performs a Heroic Intervention, add 1 to the A值 of 模型 in 这个单位 直到回合结束.</description>
+      <description>如果这个单位进行冲锋移动, 冲锋成功或进行英勇干预, 这个单位中的模型 A+1, 直到回合结束.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

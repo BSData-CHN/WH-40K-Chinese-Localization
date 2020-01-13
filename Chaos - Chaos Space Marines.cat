@@ -52,7 +52,7 @@
     <categoryEntry id="31eb-b14e-89a2-73d1" name="魅魔" hidden="false"/>
     <categoryEntry id="ab84-97e0-111c-9ff0" name="瘟疫使者" hidden="false"/>
     <categoryEntry id="2398-1be3-3391-6984" name="阵营: Crimson Slaughter" hidden="false"/>
-    <categoryEntry id="4796-e195-faf7-d932" name="Exalted Champion" hidden="false"/>
+    <categoryEntry id="4796-e195-faf7-d932" name="Exalted 冠军" hidden="false"/>
     <categoryEntry id="b36f-fae2-eca4-6d1f" name="战争铁匠" hidden="false"/>
     <categoryEntry id="1e3f-0a7b-0c8f-84db" name="阵营: 阿尔法军团" hidden="false"/>
     <categoryEntry id="860d-2aae-803c-0164" name="阵营: The Faithless" hidden="false"/>
@@ -518,7 +518,7 @@
       </modifiers>
     </entryLink>
     <entryLink id="d026-a600-c6c5-755d" name="混沌Bastion" hidden="false" collective="false" import="true" targetId="4d4c-d7a0-0056-7af1" type="selectionEntry"/>
-    <entryLink id="e4d2-7747-15b8-289f" name="Exalted Champion" hidden="false" collective="false" import="true" targetId="9f4a-9156-265b-266e" type="selectionEntry"/>
+    <entryLink id="e4d2-7747-15b8-289f" name="Exalted 冠军" hidden="false" collective="false" import="true" targetId="9f4a-9156-265b-266e" type="selectionEntry"/>
     <entryLink id="c8f9-c4b4-c825-0d88" name="Vrosh Tattersoul" hidden="false" collective="false" import="true" targetId="36f0-3b3d-1a2a-bd29" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
@@ -1231,11 +1231,11 @@
       <description>If your army is Battle-forged, 所有 Troops 单位 in 混沌星际战士Detachments 获得这个能力. Such a 单位 that is 范围内 range of an objective marker (as specified in the mission) controls that objective marker even if there are more 敌方模型 范围内 range of it. If an 敌方单位 范围内 range of the same objective marker 拥有 similar ability, then the objective marker is controlled by the player who has the most 模型 范围内 range as normal.</description>
     </rule>
     <rule id="7dec-bbba-9283-4893" name="恶魔仪式" hidden="false">
-      <description>而不是 moving in their 移动阶段, any 混沌人物 can, at the end of their 移动阶段, attempt to summon a 恶魔 单位 具有这个能力的 by performing a 恶魔仪式 (the 人物 cannot do so if they arrived as reinforcements this turn, or if they themselves have been summoned to the battlefield this turn).
+      <description>而不是 moving in their 移动阶段, any 混沌人物 can, at the end of their 移动阶段, attempt to summon a 恶魔 单位 具有这个能力的 by performing a 恶魔仪式 (the 人物 cannot do so if they arrived as reinforcements this turn, or if they themselves have been summoned to the 战场 this turn).
 
 If they do, first choose one of the four 混沌Gods - 恐虐, 奸奇, 纳垢, or 色孽. A 人物 who owes allegiance to one of the Dark Gods can only attempt to summon the 单位 of their patron - for example, a 恐虐 人物 could only attempt to summon 恐虐 恶魔.
 
-Roll 至多 3 dice - this is your summoning roll. You can summon one new 单位 with the 恶魔仪式 ability to the battlefield that 拥有 Power Rating equal to or less than the total result so long as it has the same 混沌God 关键字 you chose 开始时. 这个单位 is treated as reinforcements for your army and can be placed 任何位置 战场上 that is wholly 范围内 12寸 of the 人物 and is more than 9寸 from 任何敌方模型. If the total rolled is insufficient to summon any 单位, the ritual fails and no new 单位 is summoned.
+Roll 至多 3 dice - this is your summoning roll. You can summon one new 单位 with the 恶魔仪式 ability to the 战场 that 拥有 Power Rating equal to or less than the total result so long as it has the same 混沌God 关键字 you chose 开始时. 这个单位 is treated as reinforcements for your army and can be placed 任何位置 战场上 that is wholly 范围内 12寸 of the 人物 and is more than 9寸 from 任何敌方模型. If the total rolled is insufficient to summon any 单位, the ritual fails and no new 单位 is summoned.
 
 If your summoning roll included any doubles, your 人物 then 遭受 1点致命伤. If it contained any triples, it instead 遭受 D3 致命伤.</description>
     </rule>
@@ -3526,7 +3526,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 you roll a 命中 roll of 1 when firing 这个武器, the bearer 遭受 1点致命伤.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 you roll a 命中 roll of 1 when firing 这个武器, 持有者 遭受 1点致命伤.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3592,7 +3592,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The Battlefield Role of 吞世者 恐虐 Berzerkers is Troops 而不是 Elites.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The 战场 Role of 吞世者 恐虐 Berzerkers is Troops 而不是 Elites.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3608,13 +3608,13 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         <categoryLink id="d1b1-3fee-cc4c-e234" name="New CategoryLink" hidden="false" targetId="dfc5-aa04-9546-1b4c" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="8713-bf56-1ba2-fdb2" name="Berzerker Champion" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="8713-bf56-1ba2-fdb2" name="Berzerker 冠军" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf75-6ee3-958b-55a6" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a1d-3a9e-981c-95c5" type="max"/>
           </constraints>
           <profiles>
-            <profile id="fee3-a817-87b4-dea2" name="Berzerker Champion" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+            <profile id="fee3-a817-87b4-dea2" name="Berzerker 冠军" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
               <characteristics>
                 <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6寸</characteristic>
                 <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -3635,7 +3635,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78b4-81dc-023a-0fd8" type="min"/>
               </constraints>
             </entryLink>
-            <entryLink id="9166-c010-4bd0-e5b9" name="Berzerker Champion Equipment" hidden="false" collective="false" import="true" targetId="5b48-1826-d51e-ae56" type="selectionEntryGroup"/>
+            <entryLink id="9166-c010-4bd0-e5b9" name="Berzerker 冠军 Equipment" hidden="false" collective="false" import="true" targetId="5b48-1826-d51e-ae56" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="15.0"/>
@@ -4076,7 +4076,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </profile>
         <profile id="daa0-9d0d-9d16-e38e" name="Lord of 色孽" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can 重投 所有命中骰 of 1 made for 友方 帝子 这个模型6寸范围内的单位.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投 所有命中骰 of 1 made for 友方 帝子 这个模型6寸范围内的单位.</characteristic>
           </characteristics>
         </profile>
         <profile id="8705-2d85-3452-957b" name="Armour of Shrieking Souls" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -4590,13 +4590,13 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         <categoryLink id="8eee-34b9-d38b-7cdb" name="New CategoryLink" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="ccf9-1340-88d0-82d1" name="Plague Champion" page="" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="ccf9-1340-88d0-82d1" name="Plague 冠军" page="" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8007-88f6-0497-ff19" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="970c-c091-41e3-f4ab" type="max"/>
           </constraints>
           <profiles>
-            <profile id="9d49-6194-3b73-0e73" name="Plague Champion" page="0" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+            <profile id="9d49-6194-3b73-0e73" name="Plague 冠军" page="0" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
               <characteristics>
                 <characteristic name="M" typeId="0bdf-a96e-9e38-7779">5寸</characteristic>
                 <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -4802,7 +4802,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                             <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
                             <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
                             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 自动 命中 its target. You can 重投 wounds 骰 of 1 for 这个武器.</characteristic>
+                            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 自动 命中 its target. 可以重投 wounds 骰 of 1 for 这个武器.</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -5296,13 +5296,13 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="7902-4a50-d0b7-531f" name="Warp Talon Champion" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="7902-4a50-d0b7-531f" name="Warp Talon 冠军" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f17-64ec-08db-8108" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f00-861c-f50a-03ed" type="max"/>
           </constraints>
           <profiles>
-            <profile id="fbf0-1472-df14-55bf" name="Warp Talon Champion" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+            <profile id="fbf0-1472-df14-55bf" name="Warp Talon 冠军" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
               <characteristics>
                 <characteristic name="M" typeId="0bdf-a96e-9e38-7779">12寸</characteristic>
                 <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -5630,7 +5630,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </profile>
         <profile id="da6b-7b33-2a54-4ac6" name="Lord of 奸奇" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can 重投 所有命中骰 of 1 made for 友方 奸奇 &lt;军团&gt; 这个模型6寸范围内的单位.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投 所有命中骰 of 1 made for 友方 奸奇 &lt;军团&gt; 这个模型6寸范围内的单位.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5848,7 +5848,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </profile>
         <profile id="fa15-d1cc-8f04-3eeb" name="纳垢领主" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can 重投 所有命中骰 of 1 made for 友方 纳垢 &lt;军团&gt; 这个模型6寸范围内的单位.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投 所有命中骰 of 1 made for 友方 纳垢 &lt;军团&gt; 这个模型6寸范围内的单位.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5954,7 +5954,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </profile>
         <profile id="e3a4-124f-48bd-f320" name="Lord of 色孽" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can 重投 所有命中骰 of 1 made for 友方 色孽 (Legion) 这个模型6寸范围内的单位.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投 所有命中骰 of 1 made for 友方 色孽 (Legion) 这个模型6寸范围内的单位.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7145,7 +7145,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
       <profiles>
         <profile id="ed5e-f293-87ab-43af" name="Icon of Wrath" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can 重投 charge 骰 for 单位 with an Icon of Wrath.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投 charge 骰 for 单位 with an Icon of Wrath.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7315,13 +7315,13 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         <categoryLink id="8c37-108e-9deb-b9a0" name="混沌星际战士" hidden="false" targetId="b096-59fd-a5eb-5739" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="cf18-2a14-90ea-09a9" name="Aspiring Champion" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="cf18-2a14-90ea-09a9" name="Aspiring 冠军" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b82-efc8-6567-6507" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc08-a817-e40a-94b2" type="max"/>
           </constraints>
           <profiles>
-            <profile id="e0ad-aeb7-4f46-3675" name="Aspiring Champion" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+            <profile id="e0ad-aeb7-4f46-3675" name="Aspiring 冠军" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
               <characteristics>
                 <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6寸</characteristic>
                 <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -7342,7 +7342,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5168-c1e7-f89a-7c99" type="min"/>
               </constraints>
             </entryLink>
-            <entryLink id="9f04-4d30-9c6c-a3a3" name="Champion Equipment (ranged)" hidden="false" collective="false" import="true" targetId="ad90-3560-ea09-82ef" type="selectionEntryGroup"/>
+            <entryLink id="9f04-4d30-9c6c-a3a3" name="冠军 Equipment (ranged)" hidden="false" collective="false" import="true" targetId="ad90-3560-ea09-82ef" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="11.0"/>
@@ -7649,13 +7649,13 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         <categoryLink id="a41a-7e1c-a61d-8510" name="New CategoryLink" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="83b8-70b9-b2e2-61e5" name="Chosen Champion" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="83b8-70b9-b2e2-61e5" name="Chosen 冠军" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6fe6-1b60-6f96-2e0c" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad78-2516-304c-ccac" type="max"/>
           </constraints>
           <profiles>
-            <profile id="ef04-4cda-bcf2-84a5" name="Chosen Champion" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+            <profile id="ef04-4cda-bcf2-84a5" name="Chosen 冠军" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
               <characteristics>
                 <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6寸</characteristic>
                 <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -7670,7 +7670,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             </profile>
           </profiles>
           <selectionEntryGroups>
-            <selectionEntryGroup id="f944-b811-6bd2-c5b5" name="Champion Equipment" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="f944-b811-6bd2-c5b5" name="冠军 Equipment" hidden="false" collective="false" import="true">
               <modifiers>
                 <modifier type="set" field="cd2f-9caa-1901-eb8d" value="3">
                   <conditionGroups>
@@ -8576,13 +8576,13 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         <categoryLink id="7035-0cc3-6df0-65c2" name="阵营: &lt;军团&gt;" hidden="false" targetId="b2b6-8e4a-9c74-cc37" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="97b3-7f1e-7f15-9700" name="Aspiring Champion" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="97b3-7f1e-7f15-9700" name="Aspiring 冠军" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c1c0-54a0-ce04-45f3" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="766b-1195-b029-5697" type="max"/>
           </constraints>
           <profiles>
-            <profile id="ce3d-79ee-e9a3-5305" name="Aspiring Champion" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+            <profile id="ce3d-79ee-e9a3-5305" name="Aspiring 冠军" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
               <characteristics>
                 <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6寸</characteristic>
                 <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -8603,7 +8603,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="946b-a29e-217c-aa4a" type="min"/>
               </constraints>
             </entryLink>
-            <entryLink id="c0c9-733e-4ee2-8bed" name="Havoc Champion Equipment" hidden="false" collective="false" import="true" targetId="a69e-b155-4833-233a" type="selectionEntryGroup"/>
+            <entryLink id="c0c9-733e-4ee2-8bed" name="Havoc 冠军 Equipment" hidden="false" collective="false" import="true" targetId="a69e-b155-4833-233a" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="14.0"/>
@@ -8793,7 +8793,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
       <profiles>
         <profile id="f5d1-03f7-5c9b-1527" name="Music of the Apocalypse" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 a 模型 in 这个单位 is slain, it is driven to make one last attack before succumbing to its injuries. Do not remove the slain 模型 yet - after the attacking 单位 has finished making 所有 its 攻击, the slain 模型 can shoot with one of its 远程武器 as if it were your 射击阶段. The slain 模型 is then removed as a casualty as normal.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 a 这个单位中的模型 is slain, it is driven to make one last attack before succumbing to its injuries. Do not remove the slain 模型 yet - after the attacking 单位 has finished making 所有 its 攻击, the slain 模型 can shoot with one of its 远程武器 as if it were your 射击阶段. The slain 模型 is then removed as a casualty as normal.</characteristic>
           </characteristics>
         </profile>
         <profile id="f5f3-601e-e449-a5e6" name="Noise Marine" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
@@ -8818,7 +8818,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The Battlefield Role of 帝子 Noise Marines is Troops 而不是 Elites.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The 战场 Role of 帝子 Noise Marines is Troops 而不是 Elites.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8834,13 +8834,13 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         <categoryLink id="bac9-d7d9-b52a-c282" name="New CategoryLink" hidden="false" targetId="b2b6-8e4a-9c74-cc37" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="e87b-9cae-23f5-f2c1" name="Noise Champion" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="e87b-9cae-23f5-f2c1" name="Noise 冠军" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16b8-5766-0040-b7af" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="76b1-eb9e-0e34-3818" type="max"/>
           </constraints>
           <profiles>
-            <profile id="4444-9b7a-f41d-f9a7" name="Noise Champion" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+            <profile id="4444-9b7a-f41d-f9a7" name="Noise 冠军" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
               <characteristics>
                 <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6寸</characteristic>
                 <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -8862,7 +8862,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
               </constraints>
             </entryLink>
             <entryLink id="edfa-e5e0-8c15-8502" name="Doom siren" hidden="false" collective="false" import="true" targetId="bbb0-94d7-d83a-bf45" type="selectionEntry"/>
-            <entryLink id="2c59-199d-f706-0a15" name="Noise Champion Equipment" hidden="false" collective="false" import="true" targetId="711c-ecf3-754c-4a93" type="selectionEntryGroup"/>
+            <entryLink id="2c59-199d-f706-0a15" name="Noise 冠军 Equipment" hidden="false" collective="false" import="true" targetId="711c-ecf3-754c-4a93" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="13.0"/>
@@ -9088,7 +9088,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
       <profiles>
         <profile id="00b5-454d-8d75-a56d" name="奸奇偏爱" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">所有 模型 in 这个单位 have a 5+ 特殊保护.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">所有 这个单位中的模型 have a 5+ 特殊保护.</characteristic>
           </characteristics>
         </profile>
         <profile id="1c10-0c20-681d-d1cc" name="红字战士" page="0" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
@@ -9587,13 +9587,13 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="da04-0363-6ad9-d979" name="摩托 Champion" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="da04-0363-6ad9-d979" name="摩托 冠军" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbc8-36ec-7546-ce84" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f5b3-7575-45e9-f43b" type="max"/>
           </constraints>
           <profiles>
-            <profile id="0f85-c319-db00-20d9" name="摩托 Champion" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+            <profile id="0f85-c319-db00-20d9" name="摩托 冠军" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
               <characteristics>
                 <characteristic name="M" typeId="0bdf-a96e-9e38-7779">14寸</characteristic>
                 <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -9620,7 +9620,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9501-a2df-bf57-bcc3" type="min"/>
               </constraints>
             </entryLink>
-            <entryLink id="2c21-2f5e-a4f8-b184" name="Champion Equipment" hidden="false" collective="false" import="true" targetId="961b-1b26-a347-2982" type="selectionEntryGroup"/>
+            <entryLink id="2c21-2f5e-a4f8-b184" name="冠军 Equipment" hidden="false" collective="false" import="true" targetId="961b-1b26-a347-2982" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="21.0"/>
@@ -9752,13 +9752,13 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         <categoryLink id="94e9-0fbd-cb5d-1ab8" name="New CategoryLink" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="d4a0-d7d9-64b4-3969" name="Raptor Champion" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="d4a0-d7d9-64b4-3969" name="Raptor 冠军" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="83bb-aaac-6798-f9cd" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78d1-8871-d5bb-3e92" type="max"/>
           </constraints>
           <profiles>
-            <profile id="aaab-a4a1-60ff-f018" name="Raptor Champion" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+            <profile id="aaab-a4a1-60ff-f018" name="Raptor 冠军" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
               <characteristics>
                 <characteristic name="M" typeId="0bdf-a96e-9e38-7779">12寸</characteristic>
                 <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -9779,7 +9779,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3fe1-c571-2db0-de19" type="min"/>
               </constraints>
             </entryLink>
-            <entryLink id="5ce5-af2e-909f-eb7f" name="肉搏 Champion Equipment" hidden="false" collective="false" import="true" targetId="5b48-1826-d51e-ae56" type="selectionEntryGroup"/>
+            <entryLink id="5ce5-af2e-909f-eb7f" name="肉搏 冠军 Equipment" hidden="false" collective="false" import="true" targetId="5b48-1826-d51e-ae56" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="15.0"/>
@@ -9998,7 +9998,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </profile>
         <profile id="cb89-a2d5-4ac3-fc08" name="Magazine Explosion" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, before removing the 模型 from the battlefield* and before 任何模型 下车 投掷1个D6; 结果为6 its magazine 爆炸, 2D6寸范围内每个单位遭受 D3 致命伤.  *If you cannot physically remove 这个模型 from your battlefield when it is 被消灭 (because, for example, it is glued to the surface), then regardless of whether its magazine 爆炸 or not, it is wrecked - from that point on, 模型 can no longer embark inside it, it can no longer shoot, etc.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, before removing the 模型 from the 战场* and before 任何模型 下车 投掷1个D6; 结果为6 its magazine 爆炸, 2D6寸范围内每个单位遭受 D3 致命伤.  *If you cannot physically remove 这个模型 from your 战场 when it is 被消灭 (because, for example, it is glued to the surface), then regardless of whether its magazine 爆炸 or not, it is wrecked - from that point on, 模型 can no longer embark inside it, it can no longer shoot, etc.</characteristic>
           </characteristics>
         </profile>
         <profile id="27b4-226e-b7a2-6b91" name="混沌Bastion" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
@@ -10299,7 +10299,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </profile>
         <profile id="b00e-1bc3-17d1-f972" name="Axe of Blind Fury" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models with a 动力斧 only. The Axe of Blind Fury replaces the bearer&apos;s 动力斧.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models with a 动力斧 only. The Axe of Blind Fury replaces 持有者&apos;s 动力斧.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10313,7 +10313,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
       <profiles>
         <profile id="f05a-183b-495e-39ac" name="Eye of 奸奇" publicationId="cb54-c035-pubN125652" page="162" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The bearer of the Eye of 奸奇 adds 1 to their Psychic test when attempting to manifest the 惩击 power.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">持有者 of the Eye of 奸奇 adds 1 to their Psychic test when attempting to manifest the 惩击 power.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10327,7 +10327,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
       <profiles>
         <profile id="a725-82cd-9f4c-ffd7" name="Intoxicating Elixir" publicationId="cb54-c035-pubN125652" page="162" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the bearer&apos;s S和A值.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to 持有者&apos;s S和A值.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10358,7 +10358,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </profile>
         <profile id="c501-4606-5ffa-c6cf" name="Puscleaver" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models with a 动力剑 only. Puscleaver replaces the bearer&apos;s 动力剑.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models with a 动力剑 only. Puscleaver replaces 持有者&apos;s 动力剑.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10372,7 +10372,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
       <profiles>
         <profile id="fafb-ab3c-afa8-b137" name="Talisman of Burning Blood" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The bearer of the Talisman of Burning Blood can 加速和冲锋 in the same turn. Furthermore, the bearer can 重投 失败的 charge 骰.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">持有者 of the Talisman of Burning Blood can 加速和冲锋 in the same turn. Furthermore, 持有者 can 重投 失败的 charge 骰.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10408,7 +10408,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </profile>
         <profile id="0080-5a20-99be-c987" name="The Black Mace" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models with a 动力锤 or accursed crozius only. The Black Mace replaces the bearer&apos;s 动力锤 or accursed crozius.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models with a 动力锤 or accursed crozius only. The Black Mace replaces 持有者&apos;s 动力锤 or accursed crozius.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10422,7 +10422,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
       <profiles>
         <profile id="3df8-f38b-8735-4ca8" name="The Eye of Night" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The Bearer can unleash the power of the Eye of Night 一次性, in their 射击阶段, 而不是 firing any other 武器. When they do so, select a 可见 载具 单位 and 投掷1个D6; 结果为2+, 那个单位 遭受 D3 致命伤.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">持有者 can unleash the power of the Eye of Night 一次性, in their 射击阶段, 而不是 firing any other 武器. When they do so, select a 可见 载具 单位 and 投掷1个D6; 结果为2+, 那个单位 遭受 D3 致命伤.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10448,12 +10448,12 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <characteristic name="S" typeId="59b1-319e-ec13-d466">+1</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">开始时 of the first battle round but before the first turn has begun, you 必须 nominate one 敌方 人物 to be the target of the bearer of the Murder Sword (this can be a 人物 not yet 放置 战场上). Remember to tell your opponent which 人物 you have nominated. 每次攻击 made with the Murder Sword that 命中 the selected 人物 自动 inflicts 1点致命伤 upon that 人物 而不是 the normal 伤害.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">开始时 of the first battle round but before the first turn has begun, you 必须 nominate one 敌方 人物 to be the target of 持有者 of the Murder Sword (this can be a 人物 not yet 放置 战场上). Remember to tell your opponent which 人物 you have nominated. 每次攻击 made with the Murder Sword that 命中 the selected 人物 自动 inflicts 1点致命伤 upon that 人物 而不是 the normal 伤害.</characteristic>
           </characteristics>
         </profile>
         <profile id="4077-c7d8-c4c8-a795" name="The Murder Sword" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models with a 动力剑 only. The Murder sword replaces the bearer&apos;s 动力剑.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models with a 动力剑 only. The Murder sword replaces 持有者&apos;s 动力剑.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10489,7 +10489,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </profile>
         <profile id="d1c8-a7b5-79d6-8627" name="The Cursed Crozius" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models with a 动力锤 or accursed crozius only. The Cursed Crozius replaces the bearer&apos;s 动力锤 or accursed crozius.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models with a 动力锤 or accursed crozius only. The Cursed Crozius replaces 持有者&apos;s 动力锤 or accursed crozius.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10503,7 +10503,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
       <profiles>
         <profile id="b088-420f-45ed-6efb" name="Fleshmetal Exoskeleton" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The bearer of the Fleshmetal Exoskeleton 拥有 SV值 of 2+. 此外, 这个模型 heals 1 wound 在每个玩家回合开始.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">持有者 of the Fleshmetal Exoskeleton 拥有 SV值 of 2+. 此外, 这个模型 heals 1 wound 在每个玩家回合开始.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10517,7 +10517,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
       <profiles>
         <profile id="0a2a-a035-7b44-8b8c" name="Brass Collar of Borghaster" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The bearer of the Brass Collar of Borghaster can attempt to deny one psychic power in each 敌方 灵能阶段. If 这个模型 makes a successful 否定巫术测试, the 灵能者 that was attempting to manifest the power 立即 遭受 Perils of the Warp.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">持有者 of the Brass Collar of Borghaster can attempt to deny one psychic power in each 敌方 灵能阶段. If 这个模型 makes a successful 否定巫术测试, the 灵能者 that was attempting to manifest the power 立即 遭受 Perils of the Warp.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10548,7 +10548,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </profile>
         <profile id="ea6a-ea46-00f4-5e8e" name="Blade of the 九头蛇" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models with a 链锯剑 only. The Blade of the 九头蛇 replaces the bearer&apos;s 链锯剑.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models with a 链锯剑 only. The Blade of the 九头蛇 replaces 持有者&apos;s 链锯剑.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10579,7 +10579,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </profile>
         <profile id="e85c-a0d2-d338-6a2d" name="Claws of the Black Hunt" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models with two lightning claws only. The Claws of the Black Hunt replaces both of the bearer&apos;s lightning claws.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models with two lightning claws only. The Claws of the Black Hunt replaces both of 持有者&apos;s lightning claws.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10610,7 +10610,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </profile>
         <profile id="5d6b-fb35-59a5-c342" name="Blissgiver" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models with a 爆弹手枪 only. Blissgiver replaces the bearer&apos;s 爆弹手枪.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models with a 爆弹手枪 only. Blissgiver replaces 持有者&apos;s 爆弹手枪.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10620,9 +10620,9 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9f4a-9156-265b-266e" name="Exalted Champion" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="9f4a-9156-265b-266e" name="Exalted 冠军" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="15da-690b-2656-74c1" name="Exalted Champion" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+        <profile id="15da-690b-2656-74c1" name="Exalted 冠军" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6寸</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">2+</characteristic>
@@ -10637,7 +10637,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </profile>
         <profile id="a39d-94c0-6523-2e8b" name="Aspire to Glory" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投失败的造伤骰 in the 肉搏阶段 for 友方 &lt;军团&gt; 单位 that are 6寸范围内 of an Exalted Champion.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投失败的造伤骰 in the 肉搏阶段 for 友方 &lt;军团&gt; 单位 that are 6寸范围内 of an Exalted 冠军.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -12286,7 +12286,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           <profiles>
             <profile id="a52a-934e-5c7a-a485" name="Champions of the Host" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The 第1次 这个单位 is 放置, 所有 模型 in 这个单位 必须 放置 at the same time, though they do not need to be 放置 in 单位 coherency. From that point onwards, each Greater 附魔 is treated as a separate 单位.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The 第1次 这个单位 is 放置, 所有 这个单位中的模型 必须 放置 at the same time, though they do not need to be 放置 in 单位 coherency. From that point onwards, each Greater 附魔 is treated as a separate 单位.</characteristic>
               </characteristics>
             </profile>
             <profile id="d562-2504-1d99-c98f" name="Locus of Power" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -12386,7 +12386,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           <characteristics>
             <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">7</characteristic>
             <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">N/A</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, the 灵能者 can 立即 summon attempt to summon a 单位 of 恶魔 to the battlefield using the 恶魔仪式 ability as if it were the 移动阶段. When doing so, roll 至多 4 dice 而不是 至多 3. The 灵能者 will not suffer any 致命伤 as a result of doubles or triples being rolled for this 恶魔仪式.</characteristic>
+            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, the 灵能者 can 立即 summon attempt to summon a 单位 of 恶魔 to the 战场 using the 恶魔仪式 ability as if it were the 移动阶段. When doing so, roll 至多 4 dice 而不是 至多 3. The 灵能者 will not suffer any 致命伤 as a result of doubles or triples being rolled for this 恶魔仪式.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -12424,7 +12424,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           <characteristics>
             <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">7</characteristic>
             <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, select a 友方 混沌卵, &lt;军团&gt; 附魔, or &lt;军团&gt; 泯灭密教 单位 18寸范围内 of the 灵能者. Until the start of your next 灵能阶段, 那个单位 will gain a bonus depending on what 单位 it is, as below: 1. You can 重投 the dice when rolling for that 混沌卵&apos;s Mutated Beyond Reason ability. 2. You can 重投 the dice when rolling for the A值 of 那个单位 of 附魔 due to its Writhing Tentacles ability. 3. You can 重投 one of the dice when rolling for the Strength, AP and 伤害 characteristics of that 泯灭密教 单位&apos;s 武器 due to its Fleshmetal Guns or Fleshmetal 武器 ability.</characteristic>
+            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, select a 友方 混沌卵, &lt;军团&gt; 附魔, or &lt;军团&gt; 泯灭密教 单位 18寸范围内 of the 灵能者. Until the start of your next 灵能阶段, 那个单位 will gain a bonus depending on what 单位 it is, as below: 1. 可以重投 the dice when rolling for that 混沌卵&apos;s Mutated Beyond Reason ability. 2. 可以重投 the dice when rolling for the A值 of 那个单位 of 附魔 due to its Writhing Tentacles ability. 3. 可以重投 one of the dice when rolling for the Strength, AP and 伤害 characteristics of that 泯灭密教 单位&apos;s 武器 due to its Fleshmetal Guns or Fleshmetal 武器 ability.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -12508,7 +12508,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
       <profiles>
         <profile id="caf1-8da5-2daa-2d1a" name="Loathsome Aura" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">混沌单位 have a 5+ 特殊保护 while they are wholly 6寸范围内 of 这个模型. 此外, you can 重投 Psychic tests for 混沌灵能者 while they are 6寸范围内 of 这个模型. 开始时 of the seond and third battle rounds, the range of both of these aura abilities is increased by 3寸 (i.e. it is 9寸 in the second battle round, and 12寸 in the third and subsequent battle rounds).</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">混沌单位 have a 5+ 特殊保护 while they are wholly 6寸范围内 of 这个模型. 此外, 可以重投 Psychic tests for 混沌灵能者 while they are 6寸范围内 of 这个模型. 开始时 of the seond and third battle rounds, the range of both of these aura abilities is increased by 3寸 (i.e. it is 9寸 in the second battle round, and 12寸 in the third and subsequent battle rounds).</characteristic>
           </characteristics>
         </profile>
         <profile id="718b-b5ce-340e-645d" name="Noctilith Crown" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
@@ -12531,7 +12531,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </profile>
         <profile id="d504-599d-09f7-e15e" name="Unstable Energies" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 投掷1个D6 before removing it from the battlefield. 结果为6, each 单位 范围内 D6寸 of 这个模型 遭受 D6 致命伤.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 投掷1个D6 被移除前 从 战场. 结果为6, each 单位 范围内 D6寸 of 这个模型 遭受 D6 致命伤.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -12600,7 +12600,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </profile>
         <profile id="7460-5307-7671-174b" name="Angelsbane" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models with a 复合爆弹 only. Angelsbane replaces the bearer&apos;s 复合爆弹.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models with a 复合爆弹 only. Angelsbane replaces 持有者&apos;s 复合爆弹.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -12704,12 +12704,12 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
       <profiles>
         <profile id="1bbd-2beb-89fb-1cdc" name="Trophy-taker" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per 肉搏阶段, you can 重投 one 命中 roll, wound roll or 伤害 roll for an attack made by 这个模型 that targets a 人物.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per 肉搏阶段, 可以重投 one 命中 roll, wound roll or 伤害 roll for an attack made by 这个模型 that targets a 人物.</characteristic>
           </characteristics>
         </profile>
         <profile id="adf3-8c17-0202-e7e1" name="Warp-sighted Butcher" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">After the 敌方 has completed 所有 of their charge moves, 这个模型 can perform a Heroic Intervention if it is 范围内 3寸 of 任何敌方模型, or 6寸 of any 敌方 人物. If 这个模型 is 6寸范围内 of any 敌方 人物, it 可以移动至多 6寸 when performing a Heroic Intervention 而不是 3寸 as long as it finishes this move 1寸范围内 of the nearest 敌方 人物.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">After the 敌方 has completed 所有 of their charge moves, 这个模型 can perform a 英勇干预 if it is 范围内 3寸 of 任何敌方模型, or 6寸 of any 敌方 人物. If 这个模型 is 6寸范围内 of any 敌方 人物, it 可以移动至多 6寸 when performing a 英勇干预 而不是 3寸 as long as it finishes this move 1寸范围内 of the nearest 敌方 人物.</characteristic>
           </characteristics>
         </profile>
         <profile id="5a1b-87ae-c58e-20b6" name="Master of Executions" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
@@ -12850,7 +12850,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
       <profiles>
         <profile id="619e-5854-7232-3bc8" name="Flawless Cloak" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the bearer&apos;s A值. 此外, increase the range of the bearer&apos;s aura abilities (e.g. 混沌领主, Demagogue, etc.) by 3寸.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to 持有者&apos;s A值. 此外, increase the range of 持有者&apos;s aura abilities (e.g. 混沌领主, Demagogue, etc.) by 3寸.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -12912,7 +12912,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
       <profiles>
         <profile id="40ea-7ad2-2212-38f9" name="The 恶魔&apos;s Eye" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">开始时 of your 射击阶段, pick a 友方 DEVASTATION BATTERY 单位 6寸范围内 of the bearer. 敌方单位 do no receive the benefit of cover 对抗 那个单位&apos;s 武器 这个阶段.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">开始时 of your 射击阶段, pick a 友方 DEVASTATION BATTERY 单位 6寸范围内 of 持有者. 敌方单位 do no receive the benefit of cover 对抗 那个单位&apos;s 武器 这个阶段.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -12943,7 +12943,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <characteristic name="S" typeId="59b1-319e-ec13-d466">+1</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If the bearer slays 任何敌方模型 in the 肉搏阶段 使用这个武器, then from the end of that 肉搏阶段 until the end of the battle, wound 骰 for 攻击 made 使用这个武器 are 自动 successful (no wound roll is made).</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If 持有者 slays 任何敌方模型 in the 肉搏阶段 使用这个武器, then from the end of that 肉搏阶段 until the end of the battle, wound 骰 for 攻击 made 使用这个武器 are 自动 successful (no wound roll is made).</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -12957,7 +12957,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
       <profiles>
         <profile id="6760-cc95-7768-bfc8" name="Orb of Unlife" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">PURGE 模型 only. 一次性, in the 射击阶段, the bearer can throw the Orb of Unlife 而不是 firing any 远程武器. If they do so, pick a point 战场上 范围内 8寸 of the bearer. 投掷1个D6 for each 单位 范围内 D6寸 of that point, subtracting 2 from the result if the 单位 is a 载具. 结果为4+, 那个单位 遭受 D3 致命伤.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">PURGE 模型 only. 一次性, in the 射击阶段, 持有者 can throw the Orb of Unlife 而不是 firing any 远程武器. If they do so, pick a point 战场上 范围内 8寸 of 持有者. 投掷1个D6 for each 单位 范围内 D6寸 of that point, subtracting 2 from the result if the 单位 is a 载具. 结果为4+, 那个单位 遭受 D3 致命伤.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -12971,7 +12971,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
       <profiles>
         <profile id="ad76-c788-e09c-1d83" name="Book of Untruth" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">SCOURGED 模型 only. 每次 an 敌方 灵能者 18寸范围内 of the bearer successfully manifests a psychic power, 投掷1个D6. 结果为5+, that 灵能者 遭受 1 致命伤.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">SCOURGED 模型 only. 每次 an 敌方 灵能者 18寸范围内 of 持有者 successfully manifests a psychic power, 投掷1个D6. 结果为5+, that 灵能者 遭受 1 致命伤.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -12985,7 +12985,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
       <profiles>
         <profile id="5014-260e-adb0-75b1" name="Daemonflesh Plate" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">BRAZEN BEASTS 模型 only. The bearer 拥有 SV值 of 2+. 此外, add 1 to the bearer&apos;s Move and 攻击 characteristics.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">BRAZEN BEASTS 模型 only. 持有者 拥有 SV值 of 2+. 此外, add 1 to 持有者&apos;s Move and 攻击 characteristics.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -13101,7 +13101,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">+2</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If the bearer made a 冲锋移动 or performed a Heroic Intervention this turn, 攻击 使用这个武器 are made with a S值 of x2 而不是 +2.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If 持有者 made a 冲锋移动 or performed a 英勇干预 this turn, 攻击 使用这个武器 are made with a S值 of x2 而不是 +2.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13276,7 +13276,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
       <profiles>
         <profile id="fb8d-0e2f-acdf-bb71" name="Followers" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Only one 单位 of Dark Disciples can be included in your army for each Dark Apostle in your army. &lt;军团&gt; Dark Disciples 单位 do not take up slots in a Detachment that includes any &lt;军团&gt; Dark Apostles. While 这个单位 is 范围内 2寸 of any 友方 &lt;军团&gt; Dark Apostles, 敌方模型 can only shoot 这个单位 if it is the closest 敌方单位 (ignore 人物 with a W值 of less than 10 when determining if 这个单位 is the closest 敌方单位 to the firing model).</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Only one 单位 of Dark Disciples can be included in your army for each Dark Apostle in your army. &lt;军团&gt; Dark Disciples 单位 do not take up slots in a Detachment that includes any &lt;军团&gt; Dark Apostles. While 这个单位 is 范围内 2寸 of any 友方 &lt;军团&gt; Dark Apostles, 敌方模型 can only shoot 这个单位 if it is the closest 敌方单位 (ignore 人物 with a W值 of less than 10 when determining 如果这个单位 is the closest 敌方单位 to the firing model).</characteristic>
           </characteristics>
         </profile>
         <profile id="ca71-e3f4-bdaf-02f3" name="圣物of Corruption" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -13515,7 +13515,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </profile>
         <profile id="ba82-40f9-cd69-f35b" name="The 地狱Tome" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The bearer is armed with a 远程武器 with the profile below 此外 to any other 远程武器 it is armed with.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">持有者 is armed with a 远程武器 with the profile below 此外 to any other 远程武器 it is armed with.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -13536,7 +13536,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
       <profiles>
         <profile id="9210-efb9-a68d-6325" name="The Burning Rod" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Model with 立场杖 only. The Burning Rod replaces the bearer’s 立场杖 and has the following profile.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Model with 立场杖 only. The Burning Rod replaces 持有者’s 立场杖 and has the following profile.</characteristic>
           </characteristics>
         </profile>
         <profile id="9d68-d80a-d8d1-c71f" name="The Burning Rod" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -13546,7 +13546,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <characteristic name="S" typeId="59b1-319e-ec13-d466">+3</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">At the end of each 肉搏阶段, you can pick a 单位 1寸范围内 of the bearer. 那个单位 遭受 1 致命伤.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">At the end of each 肉搏阶段, you can pick a 单位 1寸范围内 of 持有者. 那个单位 遭受 1 致命伤.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -13567,7 +13567,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
       <profiles>
         <profile id="47ed-4e06-10ef-2c24" name="Mecha-serpents" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Model with mechatendrils only. The Mecha-serpents replace the bearer’s mechatendrils and have the profile below.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Model with mechatendrils only. The Mecha-serpents replace 持有者’s mechatendrils and have the profile below.</characteristic>
           </characteristics>
         </profile>
         <profile id="5a11-4b86-820e-759c" name="Mecha-serpents" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -13577,7 +13577,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <characteristic name="S" typeId="59b1-319e-ec13-d466">+1</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">持有者每次攻击, 可以造成 1 (and only 1) attack 使用这个武器 for each 敌方模型 1寸范围内 of the bearer.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">持有者每次攻击, 可以造成 1 (and only 1) attack 使用这个武器 for each 敌方模型 1寸范围内 of 持有者.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -13621,7 +13621,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
       <profiles>
         <profile id="ac35-8f11-9754-2994" name="Chiropteran Wings" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">投掷1个D6 for each 敌方单位 that was moved across by the bearer in the Movement or 冲锋阶段. 结果为4+, 那个单位 遭受 D3 致命伤.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">投掷1个D6 for each 敌方单位 that was moved across by 持有者 in the Movement or 冲锋阶段. 结果为4+, 那个单位 遭受 D3 致命伤.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -13655,7 +13655,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </profile>
         <profile id="b03f-49b1-3008-803f" name="Ghorisvex&apos;s Teeth" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Model with 链锯剑 only. Ghorisvex’s Teeth replaces the bearer’s 链锯剑 and has the profile below.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Model with 链锯剑 only. Ghorisvex’s Teeth replaces 持有者’s 链锯剑 and has the profile below.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -13672,7 +13672,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
       <profiles>
         <profile id="6378-5492-9006-458d" name="Trophies of Slaughter" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the LD值 of 友方 黑军团 单位 while they are 6寸范围内 of the bearer. 此外, 减少 1 from the LD值 of 敌方单位 while they are 6寸范围内 of the bearer.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the LD值 of 友方 黑军团 单位 while they are 6寸范围内 of 持有者. 此外, 减少 1 from the LD值 of 敌方单位 while they are 6寸范围内 of 持有者.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -13689,7 +13689,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
       <profiles>
         <profile id="7cbd-cde2-9f01-55ba" name="Sightless Helm" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Worsen the bearer’s BS值 by 1 (e.g. BS 2+ becomes BS 3+), but improve the AP值 of 所有 of the bearer’s 武器 by 1 (e.g. AP 0 becomes AP -1).</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Worsen 持有者’s BS值 by 1 (e.g. BS 2+ becomes BS 3+), but improve the AP值 of 所有 of 持有者’s 武器 by 1 (e.g. AP 0 becomes AP -1).</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -13706,7 +13706,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
       <profiles>
         <profile id="ca9b-7c34-944c-e917" name="Cloak of Conquest" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 the bearer slays an 敌方 人物, add 1 to the bearer’s Strength, 攻击 and LD characteristics until the end of the battle.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 持有者 slays an 敌方 人物, add 1 to 持有者’s Strength, 攻击 and LD characteristics until the end of the battle.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -13740,7 +13740,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </profile>
         <profile id="3bcc-8098-d2f7-62a3" name="Spineshiver Blade" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Model with 动力剑 only. The Spineshiver Blade replaces the bearer’s 动力剑 and has the profile below.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Model with 动力剑 only. The Spineshiver Blade replaces 持有者’s 动力剑 and has the profile below.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -13854,7 +13854,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
       <profiles>
         <profile id="4c91-6304-7020-39ca" name="Council of Traitors" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Use this Stratagem before the battle if your 主将 is a 黑军团 混沌LORD, 恶魔王子 or ABADDON THE DESPOILER. Pick 至多 one 黑军团 DARK APOSTLE and 至多 one 黑军团 巫师 from your army. Generate a 主将 Trait for each 模型 you picked (note that these 模型 are only regarded as your 主将 for the purposes of these 主将 Traits). You can only use this Stratagem 一次性. No two 人物 from your army can have the same 主将 Trait.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Use this Stratagem before the battle if your 主将 is a 黑军团 混沌LORD, 恶魔王子 or ABADDON THE DESPOILER. Pick 至多 one 黑军团 DARK APOSTLE and 至多 one 黑军团 巫师 from your army. Generate a 主将特性 for each 模型 you picked (note that these 模型 are only regarded as your 主将 for the purposes of these 主将特性s). You can only use this Stratagem 一次性. No two 人物 from your army can have the same 主将特性.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -14029,7 +14029,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When resolving an attack made 使用这个武器, you can 重投 the wound roll. When rolling for 这个武器’s 恶魔 武器 ability, 结果为2+ you can make a number of 额外的 攻击 equal to the result 使用这个武器 这个阶段.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When resolving an attack made 使用这个武器, 可以重投 the wound roll. When rolling for 这个武器’s 恶魔 武器 ability, 结果为2+ you can make a number of 额外的 攻击 equal to the result 使用这个武器 这个阶段.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -14269,7 +14269,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <characteristic name="S" typeId="59b1-319e-ec13-d466">+1</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When resolving an attack made 对抗 the bearer, 命中骰-1.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When resolving an attack made 对抗 持有者, 命中骰-1.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -14321,7 +14321,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
       <profiles>
         <profile id="265f-f9ad-e825-7f96" name="Siegebreaker Mace" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models with a 动力锤 or accursed crozius only. This 圣物 replaces the bearer&apos;s 动力锤 or accursed crozius.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models with a 动力锤 or accursed crozius only. This 圣物 replaces 持有者&apos;s 动力锤 or accursed crozius.</characteristic>
           </characteristics>
         </profile>
         <profile id="d64c-81cf-18c3-4508" name="Siegebreaker Mace - Swing" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -14341,7 +14341,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <characteristic name="S" typeId="59b1-319e-ec13-d466">x2</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When the bearer fights using the smash profile, it can only make two 攻击. When resolving an attack made with the smash profile, roll two D6 when inflicting 伤害 with it and discard one of the results.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When 持有者 fights using the smash profile, it can only make two 攻击. When resolving an attack made with the smash profile, roll two D6 when inflicting 伤害 with it and discard one of the results.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -14438,7 +14438,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">开始时 of the 肉搏阶段, the bearer can look upon their reflection. Until the end of that phase, 这个武器 拥有 S值 of x2, and when resolving an attack made 使用这个武器, 命中骰-1.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">开始时 of the 肉搏阶段, 持有者 can look upon their reflection. Until the end of that phase, 这个武器 拥有 S值 of x2, and when resolving an attack made 使用这个武器, 命中骰-1.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -14530,7 +14530,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <characteristic name="S" typeId="59b1-319e-ec13-d466">+1</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When the bearer would lose a wound, 投掷1个D6; 结果为5+ that wound is not lost.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When 持有者 would lose a wound, 投掷1个D6; 结果为5+ that wound is not lost.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -14820,7 +14820,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="ad90-3560-ea09-82ef" name="Champion Equipment (ranged)" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="ad90-3560-ea09-82ef" name="冠军 Equipment (ranged)" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6788-0de9-fe7a-4496" type="max"/>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c90-8a15-2c07-e17a" type="min"/>
@@ -15470,7 +15470,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           <profiles>
             <profile id="aaf3-2aa8-88f4-1280" name="Profane Zeal" publicationId="cb54-c035-pubN125652" page="157" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, 所有 人物, 步兵, 摩托 and 地狱兽 单位 in a WORD BEARERS Detachment gain the following ability: You can 重投 失败的 士气测试 for 单位 with this trait.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, 所有 人物, 步兵, 摩托 and 地狱兽 单位 in a WORD BEARERS Detachment gain the following ability: 可以重投 失败的 士气测试 for 单位 with this trait.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15633,7 +15633,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           <profiles>
             <profile id="15e0-6876-a580-b9d6" name="Rend the Foe" publicationId="cb54-c035-pubN153092" page="197" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, 所有 人物, 步兵, 摩托 and 地狱兽 单位 in BRAZEN BEASTS Detachments gain the following ability: 每次 you make a wound roll of 6+ for an attack made by a 模型 with this trait in the 肉搏阶段 during a turn in which it charged, was charged, or performed a Heroic Intervention, that 命中 is resolved with an AP of -4.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, 所有 人物, 步兵, 摩托 and 地狱兽 单位 in BRAZEN BEASTS Detachments gain the following ability: 每次 you make a wound roll of 6+ for an attack made by a 模型 with this trait in the 肉搏阶段 during a turn in which it charged, was charged, or performed a 英勇干预, that 命中 is resolved with an AP of -4.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15650,7 +15650,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           <profiles>
             <profile id="298b-3c3f-d365-11e2" name="Omniscient" publicationId="cb54-c035-pubN153092" page="197" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, 所有 人物, 步兵, 摩托 and 地狱兽 单位 in SCOURGED Detachments gain the following ability: You can 重投 one 命中 roll for an attack made by a 模型 with this trait 每次 it shoots or fights. 此外, when a 单位 with this trait fires 坚守射击, they successfully 命中 结果为roll of 5+, 而不是 only 6, irrespective of the firing 模型的 Ballistic Skill or any modifiers.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, 所有 人物, 步兵, 摩托 and 地狱兽 单位 in SCOURGED Detachments gain the following ability: 可以重投 one 命中 roll for an attack made by a 模型 with this trait 每次 it shoots or fights. 此外, when a 单位 with this trait fires 坚守射击, they successfully 命中 结果为roll of 5+, 而不是 only 6, irrespective of the firing 模型的 Ballistic Skill or any modifiers.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15696,7 +15696,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="5b48-1826-d51e-ae56" name="Champion Equipment (肉搏)" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="5b48-1826-d51e-ae56" name="冠军 Equipment (肉搏)" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04c0-408e-9e6d-64d7" type="max"/>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="168a-f7fc-ac23-5fdf" type="min"/>
@@ -16424,7 +16424,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
               <profiles>
                 <profile id="789d-b6e4-3a36-bfb1" name="Epistle of Lorgar" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When a 模型 with this 圣物 chants a prayer, you can 重投 the dice to determine if that prayer is heard. Add 1 to the LD值 of 模型 in 友方 WORD BEARERS
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When a 模型 with this 圣物 chants a prayer, 可以重投 the dice to determine if that prayer is heard. Add 1 to the LD值 of 模型 in 友方 WORD BEARERS
 单位 whilst their 单位 is 6寸范围内 of 这个模型.</characteristic>
                   </characteristics>
                 </profile>
@@ -16572,7 +16572,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">+1</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When a 模型 with this 圣物 fights, it makes D3 额外的 攻击 使用这个武器, or D6 额外的 攻击 使用这个武器 if it made a 冲锋移动 or performed a Heroic Intervention this turn.</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When a 模型 with this 圣物 fights, it makes D3 额外的 攻击 使用这个武器, or D6 额外的 攻击 使用这个武器 if it made a 冲锋移动 or performed a 英勇干预 this turn.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -16771,7 +16771,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When the bearer fights, it makes 4 额外的 攻击 使用这个武器, and only those 4 攻击 can be made 使用这个武器. When resolving an attack made 使用这个武器, if a 命中 is scored the target 遭受 1 致命伤 and the attack sequence ends.</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When 持有者 fights, it makes 4 额外的 攻击 使用这个武器, and only those 4 攻击 can be made 使用这个武器. When resolving an attack made 使用这个武器, if a 命中 is scored the target 遭受 1 致命伤 and the attack sequence ends.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -16837,7 +16837,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
               <profiles>
                 <profile id="2f22-e3bf-9f47-d624" name="Raiment Repulsive" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made by a 模型 with this 圣物, you can 重投 the 命中 roll and you can 重投 the wound roll. When a charge roll is made for a 模型 with this 圣物, you can 重投 the result.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made by a 模型 with this 圣物, 可以重投 the 命中 roll and 可以重投 the wound roll. When a charge roll is made for a 模型 with this 圣物, 可以重投 the result.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -16861,7 +16861,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
               <profiles>
                 <profile id="bf45-7fac-8468-3f20" name="Remnant of the Maraviglia" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">祭司 模型 only. 一次性, 而不是 chanting a prayer, a 模型 with this 圣物 can broadcast the Remnant of the Maraviglia. Until the end of that battle round, when resolving an attack made by a 模型 in a 友方 EMPEROR’S CHILDREN 单位 6寸范围内 of a 模型 with this 圣物, you can 重投 the wound roll.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">祭司 模型 only. 一次性, 而不是 chanting a prayer, a 模型 with this 圣物 can broadcast the Remnant of the Maraviglia. Until the end of that battle round, when resolving an attack made by a 模型 in a 友方 EMPEROR’S CHILDREN 单位 6寸范围内 of a 模型 with this 圣物, 可以重投 the wound roll.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -16954,7 +16954,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
               <profiles>
                 <profile id="eced-af38-4c64-38cb" name="Banner of Rage" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">祭司 模型 only. 一次性, 开始时 of the 肉搏阶段, a 模型 with this 圣物 can unfurl the Banner of Rage. If they do, 直到阶段结束, add 1 to the A值 of 模型 in 友方 吞世者 单位 whilst their 单位 is 6寸范围内 of that model.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">祭司 模型 only. 一次性, 开始时 of the 肉搏阶段, a 模型 with this 圣物 can unfurl the Banner of Rage. If they do, 直到阶段结束, A+1 of 模型 in 友方 吞世者 单位 whilst their 单位 is 6寸范围内 of that model.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -17014,7 +17014,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntryGroup>
-    <selectionEntryGroup id="961b-1b26-a347-2982" name="摩托 Champion Equipment" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="961b-1b26-a347-2982" name="摩托 冠军 Equipment" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e24e-59e4-7341-5dc9" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3bb8-c7a5-f168-8d1c" type="min"/>
@@ -17109,7 +17109,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntryGroup>
-    <selectionEntryGroup id="711c-ecf3-754c-4a93" name="Noise Champion Equipment" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="711c-ecf3-754c-4a93" name="Noise 冠军 Equipment" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36ab-fb6d-f135-1082" type="max"/>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d77-a5a5-34de-7ca2" type="min"/>
@@ -17302,12 +17302,12 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="4507-09c1-bbec-4f68" name="6. Exalted Champion" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="4507-09c1-bbec-4f68" name="6. Exalted 冠军" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a5a9-36f2-77d3-810f" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="1927-70d7-0fb1-8f4f" name="Exalted Champion" hidden="false" targetId="462c-fab8-354b-f690" type="profile"/>
+            <infoLink id="1927-70d7-0fb1-8f4f" name="Exalted 冠军" hidden="false" targetId="462c-fab8-354b-f690" type="profile"/>
           </infoLinks>
           <costs>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -17467,7 +17467,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           <profiles>
             <profile id="3042-6056-b550-c31c" name="Blessed Mission" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">重投 wound 骰 of 1 for 攻击 made by your 主将. 此外, you can 重投 伤害 骰 for 武器 used by your 主将.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">重投 wound 骰 of 1 for 攻击 made by your 主将. 此外, 可以重投 伤害 骰 for 武器 used by your 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -17659,7 +17659,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           <profiles>
             <profile id="ae8b-0102-cf9f-17db" name="Reader of Fate" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, you can 重投 a 失败的 Psychic test or 否定巫术测试 for your 主将. 此外, if your army is Battle-forged, 投掷1个D6 每次 your 主将 successfully manifests a psychic power; 结果为6 you gain 1 指挥点数.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, 可以重投 a 失败的 Psychic test or 否定巫术测试 for your 主将. 此外, if your army is Battle-forged, 投掷1个D6 每次 your 主将 successfully manifests a psychic power; 结果为6 you gain 1 指挥点数.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -17693,7 +17693,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           <profiles>
             <profile id="c21c-ad52-17a2-5bed" name="Warp Lord" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can 重投 骰 of 1 when taking a Psychic test for your 主将.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投 骰 of 1 when taking a Psychic test for your 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -17710,7 +17710,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           <profiles>
             <profile id="84f5-389d-7c5b-ebd5" name="恶魔-bound Power" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to your Warlord&apos;s S值. 此外, you can 重投 伤害 骰 made for 攻击 with your Warlord&apos;s 立场武器. For the purposes of 这个主将 Trait, a 立场武器 is any 武器 whose name includes the word &apos;force&apos; (excluding Artefacts of 混沌).</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to your Warlord&apos;s S值. 此外, 可以重投 伤害 骰 made for 攻击 with your Warlord&apos;s 立场武器. For the purposes of 这个主将特性, a 立场武器 is any 武器 whose name includes the word &apos;force&apos; (excluding Artefacts of 混沌).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -18014,7 +18014,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           <profiles>
             <profile id="0d0a-aa5a-0886-c5ce" name="Exultant Preacher" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can 重投 charge 骰 for 友方 CULT OF THE DAMNED 单位 while they are 6寸范围内 of your 主将.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投 charge 骰 for 友方 CULT OF THE DAMNED 单位 while they are 6寸范围内 of your 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -18137,7 +18137,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           <profiles>
             <profile id="2c62-32e7-2d7c-8fd9" name="Black-clad Brute" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to your Warlord’s S值. 此外, after your 主将 makes a 冲锋移动, pick an 敌方单位 1寸范围内 of your 主将 and 投掷1个D6. 结果为4+, 那个单位 遭受 D3 致命伤.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to your Warlord’s S值. 此外, after your 主将进行冲锋移动, pick an 敌方单位 1寸范围内 of your 主将 and 投掷1个D6. 结果为4+, 那个单位 遭受 D3 致命伤.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -18196,7 +18196,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="a69e-b155-4833-233a" name="Havoc Champion Equipment" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="a69e-b155-4833-233a" name="Havoc 冠军 Equipment" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="26d8-fdcc-ac2f-4696" type="max"/>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="69de-2ac0-8658-45c3" type="min"/>
@@ -18747,7 +18747,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           <profiles>
             <profile id="9840-83aa-d291-ef73" name="恶魔 Whispers" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, roll one D3 before the battle begins; you gain a number of 额外的 指挥点数 equal to the result. 一次性, if 这个主将 is 战场上, you can 重投 a single 命中 roll, wound roll, 伤害 roll or saving throw.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, roll one D3 before the battle begins; you gain a number of 额外的 指挥点数 equal to the result. 一次性, if 这个主将 is 战场上, 可以重投 a single 命中 roll, wound roll, 伤害 roll or saving throw.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -18761,7 +18761,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           <profiles>
             <profile id="206d-2187-4c31-ec26" name="Master of the Union" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the A值 of 模型 in 友方 WORD BEARERS 恶魔 单位 whilst their 单位 is 6寸范围内 of 这个主将.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A+1 of 模型 in 友方 WORD BEARERS 恶魔 单位 whilst their 单位 is 6寸范围内 of 这个主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -18817,7 +18817,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           <profiles>
             <profile id="0af4-6b7c-b409-8805" name="Night Haunter&apos;s Curse" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性 round, you can 重投 a single 命中 roll, wound roll, 伤害 roll, Advance roll, charge roll or saving throw made for 这个主将.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性 round, 可以重投 a single 命中 roll, wound roll, 伤害 roll, Advance roll, charge roll or saving throw made for 这个主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -18859,7 +18859,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           <profiles>
             <profile id="0a07-b15a-53ff-153d" name="Killing Fury" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add D3 to the A值 of 这个主将 in a turn in which they made a 冲锋移动, were charged or performed a Heroic Intervention. These 额外的 攻击 last until the end of the 肉搏阶段.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add D3 to the A值 of 这个主将 in a turn in which they made a 冲锋移动, were charged or performed a 英勇干预. These 额外的 攻击 last until the end of the 肉搏阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -18918,7 +18918,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           <profiles>
             <profile id="ea6a-5c05-a55b-8bd2" name="I am Alpharius" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">此外 to 这个主将 Trait, 这个主将 has one randomly generated 混沌星际战士主将 Trait from 圣典: 混沌星际战士. If 这个主将 is 被消灭, you can 立即 select another 阿尔法军团 人物 模型 from your army to take their place and generate a 主将 Trait for them (including this one). If the mission you are playing grants victory points for destroying
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">此外 to 这个主将特性, 这个主将 has one randomly generated 混沌星际战士主将特性 from 圣典: 混沌星际战士. If 这个主将 is 被消灭, you can 立即 select another 阿尔法军团 人物 模型 from your army to take their place and generate a 主将特性 for them (including this one). If the mission you are playing grants victory points for destroying
 the 敌方 主将, your opponent will only achieve that objective if 所有 of the 阿尔法军团 人物 模型 from your army have been 被消灭.</characteristic>
               </characteristics>
             </profile>
@@ -18970,7 +18970,7 @@ the 敌方 主将, your opponent will only achieve that objective if 所有 of t
           <profiles>
             <profile id="7e2b-22b8-5931-6359" name="Master of Diversion" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">开始时 of the first battle round, before the first turn begins, select 至多 three other 友方 阿尔法军团 单位 战场上. Remove these 单位 from the battlefield and set them up again following the usual deployment rules for those 单位 and the mission. If you redeploy a TRANSPORT model, 所有 单位 上车 inside it remain so when it is 放置 again.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">开始时 of the first battle round, before the first turn begins, select 至多 three other 友方 阿尔法军团 单位 战场上. Remove these 单位 from the 战场 and set them up again following the usual deployment rules for those 单位 and the mission. If you redeploy a TRANSPORT model, 所有 单位 上车 inside it remain so when it is 放置 again.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -19004,7 +19004,7 @@ the 敌方 主将, your opponent will only achieve that objective if 所有 of t
           <profiles>
             <profile id="416b-6c10-65fa-d570" name="Faceless 指挥官" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, at the end of your 移动阶段, you can remove 这个主将 from the battlefield and set them up again 范围内 3寸 of a 友方 阿尔法军团 步兵单位 and more than 9寸 away from 敌方模型.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, at the end of your 移动阶段, you can remove 这个主将 from the 战场 and set them up again 范围内 3寸 of a 友方 阿尔法军团 步兵单位 and more than 9寸 away from 敌方模型.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -19196,7 +19196,7 @@ the 敌方 主将, your opponent will only achieve that objective if 所有 of t
           <profiles>
             <profile id="b22b-2976-2833-a096" name="Loathsome Grace" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When a charge roll is made for 这个主将, you can 重投 the dice. If 这个主将 makes a 冲锋移动 or performs a Heroic Intervention, add 1 to their S和A值 until the end of the subsequent 肉搏阶段.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When a charge roll is made for 这个主将, 可以重投 the dice. If 这个主将 进行冲锋移动或进行英勇干预, add 1 to their S和A值 until the end of the subsequent 肉搏阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -19248,7 +19248,7 @@ the 敌方 主将, your opponent will only achieve that objective if 所有 of t
           <profiles>
             <profile id="ce6d-71c4-7088-c914" name="Disciple of 恐虐" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made with a 肉搏武器 by 这个主将 对抗 an 敌方 人物 单位 or a 单位 that contains 任何模型 with a W值 of 5 or more, you can 重投 the 命中 roll and you can 重投 the wound roll.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made with a 肉搏武器 by 这个主将 对抗 an 敌方 人物 单位 or a 单位 that contains 任何模型 with a W值 of 5 or more, 可以重投 the 命中 roll and 可以重投 the wound roll.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -19290,7 +19290,7 @@ the 敌方 主将, your opponent will only achieve that objective if 所有 of t
           <profiles>
             <profile id="3734-2724-2e49-0240" name="Battle-lust" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个主将 can perform a Heroic Intervention if there are any 敌方单位 6寸范围内 of them 而不是 3寸, and when doing so 可以移动至多 6寸 而不是 3寸. 这个主将 always fights first in the 肉搏阶段 even if they didn’t charge. If the 敌方 has 单位 that have charged, or that have a similar ability, then alternate choosing 单位 to fight with, starting with the player whose turn is taking place.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个主将 can perform a 英勇干预 if there are any 敌方单位 6寸范围内 of them 而不是 3寸, and when doing so 可以移动至多 6寸 而不是 3寸. 这个主将 always fights first in the 肉搏阶段 even if they didn’t charge. If the 敌方 has 单位 that have charged, or that have a similar ability, then alternate choosing 单位 to fight with, starting with the player whose turn is taking place.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -19330,7 +19330,7 @@ the 敌方 主将, your opponent will only achieve that objective if 所有 of t
     <profile id="1287-6659-b04f-fe37" name="瘟疫手雷" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6寸</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Grenade D6</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手雷 D6</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
@@ -19527,7 +19527,7 @@ the 敌方 主将, your opponent will only achieve that objective if 所有 of t
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The opposing player 必须 roll an extra dice when taking 士气测试 for 单位 6寸范围内 of your 主将, and use the highest result.</characteristic>
       </characteristics>
     </profile>
-    <profile id="462c-fab8-354b-f690" name="Exalted Champion" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="462c-fab8-354b-f690" name="Exalted 冠军" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to your Warlord’s A值.</characteristic>
       </characteristics>
@@ -19598,10 +19598,10 @@ the 敌方 主将, your opponent will only achieve that objective if 所有 of t
     <infoGroup id="9bbf-a7df-8d09-b667" name="Special Abilities" hidden="false">
       <rules>
         <rule id="dfc0-3276-8ad6-eea9" name="憎恨突击" hidden="false">
-          <description>If 这个单位 makes a 冲锋移动, is charged or performs a Heroic Intervention, add 1 to the A值 of 模型 in 这个单位 直到回合结束.</description>
+          <description>如果这个单位进行冲锋移动, 冲锋成功或进行英勇干预, 这个单位中的模型 A+1, 直到回合结束.</description>
         </rule>
         <rule id="e990-5b43-7340-bfe9" name="Hateful Volleys" hidden="false">
-          <description>而不是 following the normal rules for 速射 武器, 模型 in 这个单位 firing 速射爆弹武器 make 双倍 of 攻击 if any of the following apply:
+          <description>而不是 following the normal rules for 速射 武器, 这个单位中的模型 firing 速射爆弹武器 make 双倍 of 攻击 if any of the following apply:
 • The firing model’s target is 范围内 half the 武器的 最大射程.
 • The firing 模型 is 步兵 and every 模型 in its 单位 remained stationary in your previous 移动阶段.
 • The firing 模型 is a 终结者, 摩托 or 地狱兽.

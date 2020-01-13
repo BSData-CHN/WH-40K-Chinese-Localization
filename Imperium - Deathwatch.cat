@@ -13,7 +13,7 @@
     <categoryEntry id="50d8-02ec-0b7d-be00" name="兰德掠袭者十字军型" hidden="false"/>
     <categoryEntry id="2560-e46a-937d-38de" name="兰德掠袭者救世主型" hidden="false"/>
     <categoryEntry id="5d07-819e-466e-8ec9" name="智库" hidden="false"/>
-    <categoryEntry id="dc61-f649-c828-2c12" name="豪猪装甲车" hidden="false"/>
+    <categoryEntry id="dc61-f649-c828-2c12" name="豪猪" hidden="false"/>
     <categoryEntry id="a102-e08e-60d5-569e" name="犀牛" hidden="false"/>
     <categoryEntry id="f33a-a51b-0a0f-db77" name="神圣无畏" hidden="false"/>
     <categoryEntry id="c82e-cd8d-e26d-a2c1" name="阵营: 死亡守望" hidden="false"/>
@@ -23,7 +23,7 @@
     <categoryEntry id="ae9f-868d-2286-91f6" name="Kill Team" hidden="false"/>
     <categoryEntry id="3266-4496-a016-a4c0" name="先锋老兵" hidden="false"/>
     <categoryEntry id="40dc-74a1-5f7c-e292" name="Corvus Blackstar" hidden="false"/>
-    <categoryEntry id="fe4a-5222-06e9-0b07" name="Agressor 小队" hidden="false"/>
+    <categoryEntry id="fe4a-5222-06e9-0b07" name="Agressor小队" hidden="false"/>
     <categoryEntry id="4c12-36d0-6232-ad4a" name="地狱轰击者小队" hidden="false"/>
     <categoryEntry id="90f0-6ff0-18b9-a715" name="原铸" hidden="false"/>
     <categoryEntry id="8c4f-c48d-c2a7-4228" name="先驱者小队" hidden="false"/>
@@ -339,7 +339,7 @@
         <infoLink id="cc8a-4497-fd87-b460" name="爆弹训练" hidden="false" targetId="5a7e-f984-487c-d767" type="rule"/>
       </infoLinks>
     </entryLink>
-    <entryLink id="46a7-d377-f7f1-9904" name="地狱火型豪猪装甲车" hidden="false" collective="false" import="true" targetId="6674-0cac-4050-84b9" type="selectionEntry">
+    <entryLink id="46a7-d377-f7f1-9904" name="地狱火型豪猪" hidden="false" collective="false" import="true" targetId="6674-0cac-4050-84b9" type="selectionEntry">
       <infoLinks>
         <infoLink id="2268-1235-e448-e3bb" name="雷霆突击" hidden="false" targetId="f9ce-5a8b-7abd-2395" type="rule"/>
         <infoLink id="cef6-4485-08bc-2505" name="爆弹训练" hidden="false" targetId="5a7e-f984-487c-d767" type="rule"/>
@@ -1641,14 +1641,14 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="50a2-4244-4bad-1768" name="豪猪装甲车" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="50a2-4244-4bad-1768" name="豪猪" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="a72e-7b58-1687-29b4" name="运载能力" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
           <characteristics>
             <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">这个模型 可以运输 6 战团 步兵模型. 不能运输 跳跃背包, 终结者, 原铸, or 百夫长 模型.</characteristic>
           </characteristics>
         </profile>
-        <profile id="1aab-52f6-b333-cb93" name="豪猪装甲车" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+        <profile id="1aab-52f6-b333-cb93" name="豪猪" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">*</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">6+</characteristic>
@@ -2157,7 +2157,7 @@
             <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">3+/4++</characteristic>
           </characteristics>
         </profile>
-        <profile id="00d8-cc86-ae31-13f9" name="Unstoppable Champion" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="00d8-cc86-ae31-13f9" name="Unstoppable 冠军" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">投掷1个D6 whenever Watch 连长 Artemis 失去1点W.  结果为6, he does not lose that wound.</characteristic>
           </characteristics>
@@ -2273,7 +2273,7 @@
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A 单位 of 老兵 can contain 模型 with different Toughness characteristics. If this is the case,  use the T值 of the majority of the 模型 in the 单位 when the 敌方 makes wound 骰 对抗 it. If there is no majority, the 死亡守望 player can choose which of the values is used. For the purposes of the Bolter Discipline ability and for determining what 模型 a 载具 可以运输, 终结者have the 终结者关键字, 摩托 do not have the 步兵 关键字 and instead have the 摩托 关键字, and 先锋老兵 have the 跳跃背包 关键字.
 
-For the purposes of setting up on or moving through Battlefield Terrain, 这个单位 is treated as an 步兵单位, even if it contains any 摩托 模型.</characteristic>
+For the purposes of setting up on or moving through 战场 Terrain, 这个单位 is treated as an 步兵单位, even if it contains any 摩托 模型.</characteristic>
           </characteristics>
         </profile>
         <profile id="0631-4d40-f337-919a" name="Vanguard Strike" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -2884,7 +2884,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
       <profiles>
         <profile id="df28-59b1-95bc-89fb" name="死亡守望传送信标" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个单位 拥有 死亡守望传送信标, place it 任何位置 in your 部署区 when your army deploys.  If an 敌方模型 is ever 范围内 9寸 of the 死亡守望传送信标, it is deactivated and removed from the battlefield.  Whilst there are any 友方 死亡守望 teleport homers 战场上, a 单位 that contains one or more 死亡守望终结者 can perform an emergency teleport 而不是 moving in its 移动阶段.  At the end fo the 移动阶段, remove the 单位 and then 放置 with 所有 模型 6寸范围内 of a 友方 死亡守望传送信标.  That 死亡守望传送信标 then shorts out and is removed from the battlefield.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个单位 拥有 死亡守望传送信标, place it 任何位置 in your 部署区 when your army deploys.  If an 敌方模型 is ever 范围内 9寸 of the 死亡守望传送信标, it is deactivated and removed from the 战场.  Whilst there are any 友方 死亡守望 teleport homers 战场上, a 单位 that contains one or more 死亡守望终结者 can perform an emergency teleport 而不是 moving in its 移动阶段.  At the end fo the 移动阶段, remove the 单位 and then 放置 with 所有 模型 6寸范围内 of a 友方 死亡守望传送信标.  That 死亡守望传送信标 then shorts out and is removed from the 战场.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4390,7 +4390,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
       <profiles>
         <profile id="58de-6018-4d2c-bd27" name="Mixed 单位" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A 单位 of 仲裁者 can contain 模型 with different Toughness characteristics. If this is the case, use the T值 of the majority of the 模型 in the 单位 when the 敌方 makes wound 骰 对抗 it. If there is no majority, the 死亡守望 player may choose which of the values is used.  For the purposes of determining what 模型 a 载具 可以运输, Aggressors and 先驱者 have the MARK X GRAVIS 关键字 and 先驱者 have the 跳跃背包 关键字.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A 单位 of 仲裁者can contain 模型 with different Toughness characteristics. If this is the case, use the T值 of the majority of the 模型 in the 单位 when the 敌方 makes wound 骰 对抗 it. If there is no majority, the 死亡守望 player may choose which of the values is used.  For the purposes of determining what 模型 a 载具 可以运输, Aggressors and 先驱者 have the MARK X GRAVIS 关键字 and 先驱者 have the 跳跃背包 关键字.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4408,7 +4408,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
         <categoryLink id="4484-21b9-cf68-d050" name="New CategoryLink" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="4e0a-d2b7-3c04-cf75" name="- 小队" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="4e0a-d2b7-3c04-cf75" name="-小队" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c323-8db7-2a1a-0ffc" type="min"/>
             <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a8c-5715-0b0c-ca16" type="max"/>
@@ -4674,7 +4674,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
       <profiles>
         <profile id="a2fb-15a3-d225-88df" name="辅助榴弹发射器" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If a 模型 is armed with a 辅助榴弹发射器, increace the range of any Grenade 武器 they have to 30寸</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If a 模型 is armed with a 辅助榴弹发射器, increace the range of any 手雷 武器 they have to 30寸</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5041,7 +5041,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
       <profiles>
         <profile id="ad6b-57b3-7d69-48ed" name="Grapnel Launcher" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When 模型 with grapnel launchers move in the 移动阶段, do not count any vertical distance they move 对抗 the total they can move (i.e. moving vertically is free for these 模型 in the 移动阶段). 此外, 部署期间 可以放置 这个单位 if it is equipped with grapnel launchers behing 敌方 lines 而不是 placing it 战场上. At the the end of your 移动阶段 这个单位 can join the battle. 放置 6寸范围内 of a battlefield edge of your choice and more than 9寸 away from 任何敌方模型.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When 模型 with grapnel launchers move in the 移动阶段, do not count any vertical distance they move 对抗 the total they can move (i.e. moving vertically is free for these 模型 in the 移动阶段). 此外, 部署期间 可以放置 这个单位 if it is equipped with grapnel launchers behing 敌方 lines 而不是 placing it 战场上. At the the end of your 移动阶段 这个单位 can join the battle. 放置 6寸范围内 of a 战场 edge of your choice and more than 9寸 away from 任何敌方模型.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5218,7 +5218,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             <characteristic name="S" typeId="59b1-319e-ec13-d466">0</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">0</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">A shock greande doesn&apos;t inflict any 伤害. Instead, 每次 a shock grenade 命中 an 敌方 步兵单位, it is stunned 直到回合结束 - it cannot fire 坚守射击 and your opponent 必须 减少 1 from 任何命中 骰 made for the 单位. Second and subsequent 命中 from a shock grenade have no 额外的 效果.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">A shock greande doesn&apos;t inflict any 伤害. Instead, 每次 a shock 手雷 命中 an 敌方 步兵单位, it is stunned 直到回合结束 - it cannot fire 坚守射击 and your opponent 必须 减少 1 from 任何命中 骰 made for the 单位. Second and subsequent 命中 from a shock 手雷 have no 额外的 效果.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5385,7 +5385,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ddf-c564-efa9-d789" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="03e9-fcff-0e8e-80be" name="穿甲storm Grenade-launcher" hidden="false" collective="false" import="true" targetId="2806-cbc8-3481-e140" type="selectionEntry">
+        <entryLink id="03e9-fcff-0e8e-80be" name="穿甲storm 手雷-launcher" hidden="false" collective="false" import="true" targetId="2806-cbc8-3481-e140" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b5a-a374-5cbb-6100" type="min"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="124e-03fb-7407-996a" type="max"/>
@@ -5410,7 +5410,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2806-cbc8-3481-e140" name="穿甲storm Grenade-launcher" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="2806-cbc8-3481-e140" name="穿甲storm 手雷-launcher" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="d2f2-7162-8e97-782f" name="穿甲风暴榴弹发射器" hidden="false" targetId="f8d1-851e-97c6-c1df" type="profile"/>
       </infoLinks>
@@ -5718,7 +5718,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             <characteristic name="S" typeId="59b1-319e-ec13-d466">0</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">0</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">A shock greande doesn&apos;t inflict any 伤害. Instead, 每次 a shock grenade 命中 an 敌方 步兵单位, it is stunned 直到回合结束 - it cannot fire 坚守射击 and your opponent 必须 减少 1 from 任何命中 骰 made for the 单位. Second and subsequent 命中 from a shock grenade have no 额外的 效果.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">A shock greande doesn&apos;t inflict any 伤害. Instead, 每次 a shock 手雷 命中 an 敌方 步兵单位, it is stunned 直到回合结束 - it cannot fire 坚守射击 and your opponent 必须 减少 1 from 任何命中 骰 made for the 单位. Second and subsequent 命中 from a shock 手雷 have no 额外的 效果.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5830,7 +5830,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
       <profiles>
         <profile id="0a6a-5adb-68ed-47b0" name="Lord of Hidden Knowledge" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, if your 主将 is 战场上, you can 重投 a 命中 roll, wound roll, 伤害 roll or saving throw. 此外, if your army is Battle-forged and your 主将 is 战场上, 投掷1个D6 每次 you use a Stratagem; 结果为5+, you gain a 指挥点数.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, if your 主将 is 战场上, 可以重投 a 命中 roll, wound roll, 伤害 roll or saving throw. 此外, if your army is Battle-forged and your 主将 is 战场上, 投掷1个D6 每次 you use a Stratagem; 结果为5+, you gain a 指挥点数.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6049,7 +6049,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
         </profile>
         <profile id="71c0-142c-8778-c5b6" name="Fire Storm" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When 这个单位 fires 坚守射击 or is chosen to shoot with, 模型 in 这个单位 can shoot twice if 这个单位 did not move this turn.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When 这个单位 fires 坚守射击 or is chosen to shoot with, 这个单位中的模型 can shoot twice 如果这个单位 did not move this turn.</characteristic>
           </characteristics>
         </profile>
         <profile id="8320-92c4-bf3a-28b2" name="Relentless Advance" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -6061,7 +6061,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A 单位 of 仲裁者 that includes any Aggressors does not suffer any penalty to their 命中 骰 for Advancing and firing Assault 武器, or for moving and firing 重型武器.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A 单位 of 仲裁者that includes any Aggressors does not suffer any penalty to their 命中 骰 for Advancing and firing Assault 武器, or for moving and firing 重型武器.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6134,7 +6134,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During the 移动阶段, 先驱者 can move across 模型 as if they were not there, and when moving across terrain features, vertical distance is not counted 对抗 the total these 模型 can move (i.e. moving vertically is free for these 模型 in the 移动阶段). During the 冲锋阶段, 先驱者 can move across 模型 (other than Buildings) as if they were not there. 此外, when a 单位 of 仲裁者 that includes any 先驱者 撤退, it can shoot later that turn as if it could FLY.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During the 移动阶段, 先驱者 can move across 模型 as if they were not there, and when moving across terrain features, vertical distance is not counted 对抗 the total these 模型 can move (i.e. moving vertically is free for these 模型 in the 移动阶段). During the 冲锋阶段, 先驱者 can move across 模型 (other than Buildings) as if they were not there. 此外, when a 单位 of 仲裁者that includes any 先驱者 撤退, it can shoot later that turn as if it could FLY.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7497,7 +7497,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
               <characteristics>
                 <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">6</characteristic>
                 <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
-                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, pick an 阿斯塔特修会 单位 18寸范围内 of the 灵能者. Until the start of your next 灵能阶段, you can 重投 charge 骰 and Advance 骰 for 那个单位 and they always fight first in the 肉搏阶段, even if they didn&apos;t charge. If the 敌方单位 also has 单位 that have charged, or that have a similar ability, then alternate choosing 单位 to fight with, starting with the player whose turn is taking place.</characteristic>
+                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, pick an 阿斯塔特修会 单位 18寸范围内 of the 灵能者. Until the start of your next 灵能阶段, 可以重投 charge 骰 and Advance 骰 for 那个单位 and they always fight first in the 肉搏阶段, even if they didn&apos;t charge. If the 敌方单位 also has 单位 that have charged, or that have a similar ability, then alternate choosing 单位 to fight with, starting with the player whose turn is taking place.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8167,7 +8167,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
           <profiles>
             <profile id="4ad5-b3cb-da51-da8a" name="The Beacon Angelis" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, at the end of your 移动阶段, the bearer can use the Beacon Angelis to teleport a 友方单位 to his position. When he does so, select a 死亡守望 步兵 or 摩托 单位 that is either 战场上, or that is in a teleportarium. In either case, remove 这个单位 and then 放置 wholly 6寸范围内 of the bearer and more than 9寸 from 任何敌方模型 (任何模型 that 不能 放置 is slain).</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, at the end of your 移动阶段, 持有者 can use the Beacon Angelis to teleport a 友方单位 to his position. When he does so, select a 死亡守望 步兵 or 摩托 单位 that is either 战场上, or that is in a teleportarium. In either case, remove 这个单位 and then 放置 wholly 6寸范围内 of 持有者 and more than 9寸 from 任何敌方模型 (任何模型 that 不能 放置 is slain).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8187,7 +8187,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
           <profiles>
             <profile id="52a1-34c4-b960-387f" name="Bane Bolts of Eryxia" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models with the 特殊用途弹药 ability only. Add 1 to the 伤害 of any 特殊用途弹药 fired by the bearer. 此外, for each wound roll of 6+ made for any 特殊用途弹药 fired by the bearer, the target 遭受 1点致命伤 此外 to the normal 伤害.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models with the 特殊用途弹药 ability only. Add 1 to the 伤害 of any 特殊用途弹药 fired by 持有者. 此外, for each wound roll of 6+ made for any 特殊用途弹药 fired by 持有者, the target 遭受 1点致命伤 此外 to the normal 伤害.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8214,7 +8214,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
           <profiles>
             <profile id="01f2-2360-10d2-59c0" name="Dominus Aegis" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models with a 风暴盾 only. The Dominus Aegis replaces the bearer’s 风暴盾. The bearer 拥有 3+ 特殊保护. 此外, if the bearer does not move in your 移动阶段, then until the start of your next 移动阶段, 友方 死亡守望 模型 6寸范围内 of the bearer gain a 5+ 特殊保护</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models with a 风暴盾 only. The Dominus Aegis replaces 持有者’s 风暴盾. 持有者 拥有 3+ 特殊保护. 此外, if 持有者 does not move in your 移动阶段, then until the start of your next 移动阶段, 友方 死亡守望 模型 6寸范围内 of 持有者 gain a 5+ 特殊保护</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8261,7 +8261,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
           <profiles>
             <profile id="8bb7-c311-9275-ab39" name="Tome of the Ectoclades" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">在每个玩家回合开始, pick a Mission Tactic (pg 94). Until the start of your next turn, you can choose to apply either the effects of the Mission Tactic that is currently active or the Mission Tactic you have chosen for the Tome of Ectoclades to any 死亡守望 单位 from your army 6寸范围内 of the bearer 每次 they attack</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">在每个玩家回合开始, pick a Mission Tactic (pg 94). Until the start of your next turn, you can choose to apply either the effects of the Mission Tactic that is currently active or the Mission Tactic you have chosen for the Tome of Ectoclades to any 死亡守望 单位 from your army 6寸范围内 of 持有者 每次 they attack</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8293,7 +8293,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When setting up the bearer, pick one of the following keywords: 兽人, TYRANID, T’AU EMPIRE, AELDARIor 死灵. 可以重投失败的造伤骰 for 这个武器 when attacking 敌方单位 with that 关键字</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When setting up 持有者, pick one of the following keywords: 兽人, TYRANID, T’AU EMPIRE, AELDARIor 死灵. 可以重投失败的造伤骰 for 这个武器 when attacking 敌方单位 with that 关键字</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8352,7 +8352,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
     </profile>
     <profile id="5449-84ea-b594-a19a" name="精神领袖" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">所有 友方 &lt;人物&gt; 这个模型6寸范围内的单位 can use the Chaplain&apos;s LD 而不是 他们自己的.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">所有 友方 &lt;人物&gt; 这个模型6寸范围内的单位 can use the 牧师&apos;s LD 而不是 他们自己的.</characteristic>
       </characteristics>
     </profile>
     <profile id="8cf4-50e8-6b2b-00f8" name="Tactical Precision" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -8417,7 +8417,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
     </profile>
     <profile id="3311-4a28-ced2-0d5b" name="Unyielding 旗手" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">投掷1个D6 每次 这个模型 失去1点W; 结果为6 the 伤害 is ignored and that wound is lost.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">投掷1个D6 每次 这个模型 失去1点W; 结果为6 the 伤害被忽略 and that wound is lost.</characteristic>
       </characteristics>
     </profile>
     <profile id="af84-b41c-ffc1-c23f" name="自动爆弹风暴拳套 (肉搏)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">

@@ -969,7 +969,7 @@
       <profiles>
         <profile id="cd85-2261-da44-28c2" name="Shrouded From Sight" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Your opponent 必须 减少 1 from the 命中 骰 of any 攻击 that target 这个单位. 此外, 模型 in 这个单位 have a 5+ 特殊保护. </characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Your opponent 必须 减少 1 from the 命中 骰 of any 攻击 that target 这个单位. 此外, 这个单位中的模型 have a 5+ 特殊保护. </characteristic>
           </characteristics>
         </profile>
         <profile id="a3f7-44ac-546a-809b" name="From Out of the Shadows" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -1261,7 +1261,7 @@
       <profiles>
         <profile id="d8af-dd17-1097-e7df" name="爆炸" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 投掷1个D6 before removing it from the battlefield. 结果为6则爆炸, 6寸范围内每个单位遭受 D3 致命伤.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 投掷1个D6 被移除前 从 战场. 结果为6则爆炸, 6寸范围内每个单位遭受 D3 致命伤.</characteristic>
           </characteristics>
         </profile>
         <profile id="07ec-f864-ac4e-8c24" name="Ravager" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
@@ -1430,7 +1430,7 @@
         </profile>
         <profile id="bad8-940a-be7e-2e9d" name="坠毁" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 投掷1个D6 before removing it from the battlefield. 结果为6则爆炸, 6寸范围内每个单位遭受 D3 致命伤.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 投掷1个D6 被移除前 从 战场. 结果为6则爆炸, 6寸范围内每个单位遭受 D3 致命伤.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1649,13 +1649,13 @@
             <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4ed5-ba9f-62de-925f" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="c9e6-b1a7-d025-f51f" name="Arena Champion" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="c9e6-b1a7-d025-f51f" name="Arena 冠军" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3471-c16d-d9fe-d435" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d846-6314-26be-ee79" type="min"/>
               </constraints>
               <profiles>
-                <profile id="028c-3ef8-cd29-bbb3" name="Arena Champion" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+                <profile id="028c-3ef8-cd29-bbb3" name="Arena 冠军" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
                   <characteristics>
                     <characteristic name="M" typeId="0bdf-a96e-9e38-7779">18寸</characteristic>
                     <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -1922,7 +1922,7 @@
         </profile>
         <profile id="6367-6543-418a-711f" name="Brides of Death" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">In the 肉搏阶段 you can 重投 所有命中骰 of 1 made for 友方 &lt;WYCH CULT&gt; 单位 that are 6寸范围内 of 这个模型. </characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">In the 肉搏阶段 可以重投 所有命中骰 of 1 made for 友方 &lt;WYCH CULT&gt; 单位 that are 6寸范围内 of 这个模型. </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2386,7 +2386,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">You can make a maximum of one 肉搏攻击 with a shock prow each turn (any remaining 攻击 必须 made with a different 肉搏武器).  If the bearer charged this turn, successful 攻击 使用这个武器 have a D值 of D3 而不是 1. </characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">You can make a maximum of one 肉搏攻击 with a shock prow each turn (any remaining 攻击 必须 made with a different 肉搏武器).  If 持有者 charged this turn, successful 攻击 使用这个武器 have a D值 of D3 而不是 1. </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2656,7 +2656,7 @@
         </profile>
         <profile id="0b30-889c-7ce4-61b2" name="Cold-blooded 保镖" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">投掷1个D6 每次 a &lt;KABAL&gt; ARCHON 失去1点W whilst they are 范围内 3寸 of 这个模型; 结果为2+ 这个模型 intercepts that 命中 - the Archon does not lose a wound but 这个模型 遭受 1点致命伤. </characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">投掷1个D6 每次 a &lt;KABAL&gt; ARCHON 失去1点W whilst they are 范围内 3寸 of 这个模型; 结果为2+ 这个模型 intercepts that 命中 - the Archon 不会失去W but 这个模型 遭受 1点致命伤. </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3074,7 +3074,7 @@
         </profile>
         <profile id="c548-1db3-7c74-c8c0" name="Beastmaster" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">所有 友方 黑暗灵族 BEAST 单位 that are 6寸范围内 of a Beastmaster can 重投命中的 1, and 所有 友方 黑暗灵族 BEAST 单位 that are 6寸范围内 of a Beastmaster can use the Beastmaster&apos;s LD 而不是 他们自己的. 此外, if your army is Battle-forged, then for each Beastmaster in your army you 必须 include at least one 黑暗灵族 BEAST 单位 in a detachment for each Beastmaster in that detachment. 黑暗灵族 BEAST 单位 do not take up slots in a Detachment that includes any Beastmasters. 这个模型 can never have a 主将 Trait</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">所有 友方 黑暗灵族 BEAST 单位 that are 6寸范围内 of a Beastmaster can 重投命中的 1, and 所有 友方 黑暗灵族 BEAST 单位 that are 6寸范围内 of a Beastmaster can use the Beastmaster&apos;s LD 而不是 他们自己的. 此外, if your army is Battle-forged, then for each Beastmaster in your army you 必须 include at least one 黑暗灵族 BEAST 单位 in a detachment for each Beastmaster in that detachment. 黑暗灵族 BEAST 单位 do not take up slots in a Detachment that includes any Beastmasters. 这个模型 can never have a 主将特性</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3469,7 +3469,7 @@
                             <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
                             <characteristic name="AP" typeId="75aa-a838-b675-6484">-1 </characteristic>
                             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">持有者每次攻击, 这个武器可以造成 1 点额外攻击. You can 重投 失败的 to wound 骰 for 这个武器. </characteristic>
+                            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">持有者每次攻击, 这个武器可以造成 1 点额外攻击. 可以重投 失败的 to wound 骰 for 这个武器. </characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -3677,7 +3677,7 @@
                 </profile>
                 <profile id="265e-a548-212a-df8b" name="爆炸" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 投掷1个D6 before removing it from the battlefield. 结果为6则爆炸, 6寸范围内每个单位遭受 1点致命伤.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 投掷1个D6 被移除前 从 战场. 结果为6则爆炸, 6寸范围内每个单位遭受 1点致命伤.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3808,7 +3808,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When the bearer fights with dual blades, 可以造成 2 额外的 攻击 使用这个武器.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When 持有者 fights with dual blades, 可以造成 2 额外的 攻击 使用这个武器.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3887,7 +3887,7 @@
       <profiles>
         <profile id="da61-e4b3-b55e-474d" name="命中 and Run" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个单位 撤退 it can charge in the same turn.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个单位 撤退 it can charge in the same turn.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4485,7 +4485,7 @@
         </profile>
         <profile id="fe17-c07d-c71e-f57a" name="Brides of Death" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">In the 肉搏阶段 you can 重投 所有命中骰 of 1 made for 友方 CULT OF STRIFE 单位 that are 6寸范围内 of Lelith Hesperax.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">In the 肉搏阶段 可以重投 所有命中骰 of 1 made for 友方 CULT OF STRIFE 单位 that are 6寸范围内 of Lelith Hesperax.</characteristic>
           </characteristics>
         </profile>
         <profile id="5025-8d56-aca7-3943" name="Quicksilver Dodge" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -4768,7 +4768,7 @@
       </profiles>
       <infoLinks>
         <infoLink id="1ee4-845e-ea6f-4060" name="Power from Pain" hidden="false" targetId="e6c3-8502-de0a-9515" type="rule"/>
-        <infoLink id="bd80-ea50-55b5-bc1f" name="Plasma Grenade" hidden="false" targetId="0af6-7d16-f390-605e" type="profile"/>
+        <infoLink id="bd80-ea50-55b5-bc1f" name="Plasma 手雷" hidden="false" targetId="0af6-7d16-f390-605e" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="da83-9562-dfe4-0823" name="New CategoryLink" hidden="false" targetId="6a01-e1fc-d03d-8390" primary="false"/>
@@ -4935,7 +4935,7 @@
       <profiles>
         <profile id="6c13-9d47-a62b-f4f1" name="爆炸" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 投掷1个D6 before removing it from the battlefield. 结果为6则爆炸, 6寸范围内每个单位遭受 1点致命伤.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 投掷1个D6 被移除前 从 战场. 结果为6则爆炸, 6寸范围内每个单位遭受 1点致命伤.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5325,7 +5325,7 @@
         </profile>
         <profile id="d171-18a0-643d-c42c" name="坠毁" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 投掷1个D6 before removing it from the battlefield. 结果为6则爆炸, 6寸范围内每个单位遭受 D3 致命伤.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 投掷1个D6 被移除前 从 战场. 结果为6则爆炸, 6寸范围内每个单位遭受 D3 致命伤.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5550,7 +5550,7 @@
         <infoLink id="1650-5c16-5e4a-572c" name="Power from Pain" hidden="false" targetId="e6c3-8502-de0a-9515" type="rule"/>
         <infoLink id="1178-2b87-4a67-0d38" name="Combat Drugs" hidden="false" targetId="cffc-8d1c-aae4-07bd" type="rule"/>
         <infoLink id="ef85-2e15-9d66-e2d9" name="Strength from Death" hidden="false" targetId="a2dc-6516-aaab-8cf9" type="rule"/>
-        <infoLink id="11ae-5712-ed2f-0031" name="Plasma Grenade" hidden="false" targetId="0af6-7d16-f390-605e" type="profile"/>
+        <infoLink id="11ae-5712-ed2f-0031" name="Plasma 手雷" hidden="false" targetId="0af6-7d16-f390-605e" type="profile"/>
         <infoLink id="b71d-9e61-8459-1a21" name="Reclaim the Galaxy" hidden="false" targetId="4a7e-ceca-8097-9d9e" type="rule"/>
         <infoLink id="6358-dfe8-6346-982b" name="Vanguard of the Dark City" hidden="false" targetId="7e9a-0704-b687-8a5d" type="rule"/>
       </infoLinks>
@@ -6299,7 +6299,7 @@
         </profile>
         <profile id="216e-3721-2864-5085" name="爆炸" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 投掷1个D6 before removing it from the battlefield. 结果为5+ it 爆炸, 6寸范围内每个单位遭受 D3 致命伤.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 投掷1个D6 被移除前 从 战场. 结果为5+ it 爆炸, 6寸范围内每个单位遭受 D3 致命伤.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6478,7 +6478,7 @@
         </profile>
         <profile id="c114-0fa7-7f67-9486" name="爆炸" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 投掷1个D6 before removing it from the battlefield. 结果为6+ it 爆炸, 9寸范围内每个单位遭受 D6 致命伤.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 投掷1个D6 被移除前 从 战场. 结果为6+ it 爆炸, 9寸范围内每个单位遭受 D6 致命伤.</characteristic>
           </characteristics>
         </profile>
         <profile id="7592-38df-615a-9f2b" name="Enhanced Aethersails" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -6871,7 +6871,7 @@
                           <profiles>
                             <profile id="7082-8b61-67f5-d876" name="Obsessive Collectors" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                               <characteristics>
-                                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When an 敌方单位 is 被消灭 as a result of an attack made with a 肉搏武器 by a 模型 in a 单位 from your army with this obsession, 可以选择1个 模型 in the attacking model’s 单位 to regain 至多 D3 lo st wounds .’ If the attacking 模型 is a Wrack, you can instead return 至多 D3 被消灭 模型 to 那个单位, placing them 战场上 and in 单位 coherency (if the 模型 不能 placed in this way, they are not returned to the battlefield).</characteristic>
+                                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When an 敌方单位 is 被消灭 as a result of an attack made with a 肉搏武器 by a 模型 in a 单位 from your army with this obsession, 可以选择1个 模型 in the attacking model’s 单位 to regain 至多 D3 lo st wounds .’ If the attacking 模型 is a Wrack, you can instead return 至多 D3 被消灭 模型 to 那个单位, placing them 战场上 and in 单位 coherency (if the 模型 不能 placed in this way, they are not returned to the 战场).</characteristic>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -7131,7 +7131,7 @@
                   <profiles>
                     <profile id="8e18-e437-edac-c845" name="Cult of Strife" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Increase the A值 of 模型 with this obsession by 1 during any turn in which they charged, were charged or made a Heroic Intervention</characteristic>
+                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Increase the A值 of 模型 with this obsession by 1 during any turn in which they charged, were charged or made a 英勇干预</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7236,7 +7236,7 @@
                           <profiles>
                             <profile id="3a58-df01-ab96-ce3d" name="Berserk Fugue" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                               <characteristics>
-                                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made with a 肉搏武器 by a 模型 with this obsession that made a 冲锋移动, was charged or performed a Heroic Intervention this turn, an unmodified 命中 roll of 6 scores 1 额外的 命中. You cannot select this obsession if you have already selected the Precise Killers obsession.</characteristic>
+                                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made with a 肉搏武器 by a 模型 with this obsession that made a 冲锋移动, was charged or performed a 英勇干预 this turn, an unmodified 命中 roll of 6 scores 1 额外的 命中. You cannot select this obsession if you have already selected the Precise Killers obsession.</characteristic>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -7490,7 +7490,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">The bearer can make a maximum of one attack with the ichor injector each turn. (Any remaining 攻击 必须 made with a different 肉搏武器). 可以重投造伤骰 for 这个武器. 每次 you roll a wound roll of 6+ for 这个武器, the target 遭受 D3 致命伤 此外 to any other 伤害. </characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">持有者 can make a maximum of one attack with the ichor injector each turn. (Any remaining 攻击 必须 made with a different 肉搏武器). 可以重投造伤骰 for 这个武器. 每次 you roll a wound roll of 6+ for 这个武器, the target 遭受 D3 致命伤 此外 to any other 伤害. </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7564,7 +7564,7 @@
       <profiles>
         <profile id="9144-0ef4-04d5-cbda" name="Soulthirst" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to this Warlord’s A值 in any turn in which they charged, were charged or made a Heroic Intervention. 此外, 这个主将 恢复 1 失去的W 每次 they slay an 敌方模型 in the 肉搏阶段.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to this Warlord’s A值 in any turn in which they charged, were charged or made a 英勇干预. 此外, 这个主将 恢复 1 失去的W 每次 they slay an 敌方模型 in the 肉搏阶段.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7704,7 +7704,7 @@
       <profiles>
         <profile id="22eb-acae-1597-1d6b" name="Famed Savagery" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Increase this Warlord’s S和A值 by 1 during any turn in which they charged, were charged or made a Heroic Intervention</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Increase this Warlord’s S和A值 by 1 during any turn in which they charged, were charged or made a 英勇干预</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8055,7 +8055,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">*</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Poisoned 武器 (p87). Add 2 to wound 骰 made for 这个武器, 除非目标为载具. 每次 这个武器 kills an 敌方模型, the bearer 恢复 1 失去的W.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Poisoned 武器 (p87). Add 2 to wound 骰 made for 这个武器, 除非目标为载具. 每次 这个武器 kills an 敌方模型, 持有者 恢复 1 失去的W.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8290,7 +8290,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">+1</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">持有者每次攻击, 可以造成 2 额外的 攻击 使用这个武器. 投掷1个D6 at the end of each 肉搏阶段 in which the bearer attacked using 这个武器; 结果为1 they suffer 1点致命伤.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">持有者每次攻击, 可以造成 2 额外的 攻击 使用这个武器. 投掷1个D6 at the end of each 肉搏阶段 in which 持有者 attacked using 这个武器; 结果为1 they suffer 1点致命伤.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8307,7 +8307,7 @@
           <profiles>
             <profile id="1df8-8a68-9fd2-6a5a" name="The Helm of Spite" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The bearer can attempt to deny one psychic power in each 敌方 灵能阶段 in the same manner as a 灵能者. 此外, 每次 the bearer makes a successful 否定巫术测试, the 灵能者 that attempted to manifest that power 遭受 Perils of the Warp</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">持有者 can attempt to deny one psychic power in each 敌方 灵能阶段 in the same manner as a 灵能者. 此外, 每次 持有者 makes a successful 否定巫术测试, the 灵能者 that attempted to manifest that power 遭受 Perils of the Warp</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8331,7 +8331,7 @@
           <profiles>
             <profile id="aa3d-933a-3523-4f31" name="The Nightmare Doll" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Whenever you make an Inured to Suffering roll (pg 87) for the bearer, that wound is not lost 结果为roll of 4+ 而不是 6.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Whenever you make an Inured to Suffering roll (pg 87) for 持有者, that wound is not lost 结果为roll of 4+ 而不是 6.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8353,7 +8353,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">-</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">-</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">You can only use 这个武器 一次性. If it 命中, the target 遭受 D3 致命伤. If 任何敌方模型 are slain by 这个武器 then, for the remainder of the turn, 友方单位 with the Power from Pain ability treat the current battle round as being 1 higher than it actually is when determining what bonuses they gain, so long as they remain 6寸范围内 of the bearer. This is cumulative with other, similar effects</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">You can only use 这个武器 一次性. If it 命中, the target 遭受 D3 致命伤. If 任何敌方模型 are slain by 这个武器 then, for the remainder of the turn, 友方单位 with the Power from Pain ability treat the current battle round as being 1 higher than it actually is when determining what bonuses they gain, so long as they remain 6寸范围内 of 持有者. This is cumulative with other, similar effects</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8389,7 +8389,7 @@
           <profiles>
             <profile id="1349-cfde-b975-94f6" name="Writ of the Living Muse" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">KABAL OF THE BLACK HEART Archon only. 重投 wound 骰 of 1 for 友方 KABAL OF THE BLACK HEARTunits 6寸范围内 of the bearer.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">KABAL OF THE BLACK HEART Archon only. 重投 wound 骰 of 1 for 友方 KABAL OF THE BLACK HEARTunits 6寸范围内 of 持有者.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8533,7 +8533,7 @@
           <profiles>
             <profile id="ff15-a913-36af-3303" name="Traitor&apos;s Embrace" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">CULT OF THE CURSED BLADE Succubus only. 投掷1个D6 if the bearer is slain in the 肉搏阶段. 结果为2+ the 单位 that killed 这个模型 遭受 D6 致命伤 after it has finished making 所有 of its 攻击</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">CULT OF THE CURSED BLADE Succubus only. 投掷1个D6 if 持有者 is slain in the 肉搏阶段. 结果为2+ the 单位 that killed 这个模型 遭受 D6 致命伤 after it has finished making 所有 of its 攻击</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8569,7 +8569,7 @@
           <profiles>
             <profile id="1857-d46e-6510-2f44" name="The Vexator Mask" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">敌方单位 cannot fire 坚守射击 at the bearer. 此外, 开始时 of each 肉搏阶段, select an 敌方单位 6寸范围内 of the bearer. 那个单位 cannot fight until 所有 other 单位 that are able to have done so. If the 单位 has an ability that allows it to fight first in the 肉搏阶段, it instead fights as if it did not have this ability. If both players have 单位 that cannot fight until 所有 other 单位 have done so, then alternate choosing which of those 单位 to fight with, starting with the player whose turn is taking place</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">敌方单位 cannot fire 坚守射击 at 持有者. 此外, 开始时 of each 肉搏阶段, select an 敌方单位 6寸范围内 of 持有者. 那个单位 cannot fight until 所有 other 单位 that are able to have done so. If the 单位 has an ability that allows it to fight first in the 肉搏阶段, it instead fights as if it did not have this ability. If both players have 单位 that cannot fight until 所有 other 单位 have done so, then alternate choosing which of those 单位 to fight with, starting with the player whose turn is taking place</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9251,7 +9251,7 @@
     <rule id="3216-c874-7ca1-2150" name="Insensible to Pain" hidden="false"/>
     <rule id="e6c3-8502-de0a-9515" name="Power from Pain" hidden="false">
       <description>Battle Round 1 - Inured to Suffering: 投掷1个D6 每次 a 模型 具有这个能力的 失去1点W.  结果为6 the 模型 does not lose that wound.
-Battle Round 2 -  Eager to Flay: You can 重投 the dice when determining how far a 单位 具有这个能力的 moves when it Advances or charges.
+Battle Round 2 -  Eager to Flay: 可以重投 the dice when determining how far a 单位 具有这个能力的 moves when it Advances or charges.
 Battle Round 3 -  Flensing Fury: 命中骰+1 made for a 单位 具有这个能力的 in the 肉搏阶段.
 Battle round 4 -  Emboldened by Bloodshed: 单位 具有这个能力的 自动通过 士气测试 (do not roll the dice).
 Battle Round 5+ -  Mantle of Agony: 减少 1 from the LD of 敌方单位 that are 6寸范围内 of 任何单位 具有这个能力的 in the Morale phase.
@@ -9437,7 +9437,7 @@ Battle Round 5+ -  Mantle of Agony: 减少 1 from the LD of 敌方单位 that ar
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When a Morale test is taken for an 敌方单位 6寸范围内 of any INCUBI 单位 from your army, and the result of that Morale test is equal to the highest LD值 in 那个敌方单位, the test is 失败的 and one 模型 flees 那个敌方单位.</characteristic>
       </characteristics>
     </profile>
-    <profile id="0af6-7d16-f390-605e" name="Plasma Grenade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+    <profile id="0af6-7d16-f390-605e" name="Plasma 手雷" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6寸</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手雷 D6</characteristic>
@@ -9459,12 +9459,12 @@ Battle Round 5+ -  Mantle of Agony: 减少 1 from the LD of 敌方单位 that ar
     </profile>
     <profile id="97d0-9ed5-d667-70be" name="Diabolical Soothsayer" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, you can 重投 a single 命中 roll, wound roll, saving throw or 伤害 roll for your 主将. 此外, if your army is Battle-forged, roll a D3 before the battle begins; you gain a number of 额外的 指挥点数 equal to the result.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, 可以重投 a single 命中 roll, wound roll, saving throw or 伤害 roll for your 主将. 此外, if your army is Battle-forged, roll a D3 before the battle begins; you gain a number of 额外的 指挥点数 equal to the result.</characteristic>
       </characteristics>
     </profile>
     <profile id="d69e-101e-b878-98d9" name="Lethal Precision" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made with a 肉搏武器 by a 模型 in 这个单位, on an unmodified wound roll of 6 add 2 to the D值 of that 武器 for that attack.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made with a 肉搏武器 by a 这个单位中的模型, on an unmodified wound roll of 6 add 2 to the D值 of that 武器 for that attack.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

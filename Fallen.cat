@@ -75,7 +75,7 @@
   <rules>
     <rule id="47e0-2f52-0200-d91d" name="爆弹训练" hidden="false">
       <description>所有 阿斯塔特修会, 阿斯塔特叛军 and 堕天使 模型 获得这个能力.
-而不是 following the normal rules for 速射 武器, 模型 in 这个单位 firing 速射爆弹武器 make 双倍 of 攻击 if any of the following apply:
+而不是 following the normal rules for 速射 武器, 这个单位中的模型 firing 速射爆弹武器 make 双倍 of 攻击 if any of the following apply:
 • The firing model’s target is 范围内 half the 武器的 最大射程.
 • The firing 模型 is 步兵 and every 模型 in its 单位 remained stationary in your previous 移动阶段.
 • The firing 模型 is a 终结者, 摩托, 百夫长, 无畏 or 地狱兽.
@@ -137,7 +137,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">敌方单位 范围内 12寸 of CYPHER cannot use any abilities, 主将 Traits or 圣物 that allow them to gain, return or refund 指挥点数. The range of this ability 增加到 18寸 while there are 10 or more other 友方 堕天使 ANGELS 模型 范围内 12寸 of CYPHER. The range of this ability is instead increased to 24寸 while there are 20 or more other 友方 堕天使 ANGELS 模型 范围内 12寸 of CYPHER.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">敌方单位 范围内 12寸 of CYPHER cannot use any abilities, 主将特性s or 圣物 that allow them to gain, return or refund 指挥点数. The range of this ability 增加到 18寸 while there are 10 or more other 友方 堕天使 ANGELS 模型 范围内 12寸 of CYPHER. The range of this ability is instead increased to 24寸 while there are 20 or more other 友方 堕天使 ANGELS 模型 范围内 12寸 of CYPHER.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -225,7 +225,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="f1f2-8085-b7f2-b8f7" name="堕天使 Champion" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+        <profile id="f1f2-8085-b7f2-b8f7" name="堕天使 冠军" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6寸</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -302,7 +302,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="7a23-c43a-fe08-2a9d" name="堕天使 Champion" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="7a23-c43a-fe08-2a9d" name="堕天使 冠军" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7574-a602-a476-e601" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f5d8-77f6-0446-d035" type="max"/>
@@ -314,7 +314,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="733a-3c1b-b361-d40b" type="min"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="ff8f-d6f2-1634-664c" name="堕天使 Champion Equipment" hidden="false" collective="false" import="true" targetId="1f91-a49d-4212-e2ce" type="selectionEntryGroup">
+                <entryLink id="ff8f-d6f2-1634-664c" name="堕天使 冠军 Equipment" hidden="false" collective="false" import="true" targetId="1f91-a49d-4212-e2ce" type="selectionEntryGroup">
                   <constraints>
                     <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d4ae-4a7e-b170-b828" type="min"/>
                   </constraints>
@@ -1078,7 +1078,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
         </profile>
         <profile id="e83f-567f-c2b5-5fc2" name="Caliban Steel Blade" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Model with 立场剑 only. The Caliban Steel Blade replaces the bearer’s 立场剑 and has the profile below.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Model with 立场剑 only. The Caliban Steel Blade replaces 持有者’s 立场剑 and has the profile below.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1119,7 +1119,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
         </profile>
         <profile id="397e-3bfb-60ce-27cc" name="The Black Mace" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models with a 动力锤 or accursed crozius only. The Black Mace replaces the bearer&apos;s 动力锤 or accursed crozius.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models with a 动力锤 or accursed crozius only. The Black Mace replaces 持有者&apos;s 动力锤 or accursed crozius.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1145,12 +1145,12 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
             <characteristic name="S" typeId="59b1-319e-ec13-d466">+1</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">开始时 of the first battle round but before the first turn has begun, you 必须 nominate one 敌方 人物 to be the target of the bearer of the Murder Sword (this can be a 人物 not yet 放置 战场上). Remember to tell your opponent which 人物 you have nominated. 每次攻击 made with the Murder Sword that 命中 the selected 人物 自动 inflicts 1点致命伤 upon that 人物 而不是 the normal 伤害.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">开始时 of the first battle round but before the first turn has begun, you 必须 nominate one 敌方 人物 to be the target of 持有者 of the Murder Sword (this can be a 人物 not yet 放置 战场上). Remember to tell your opponent which 人物 you have nominated. 每次攻击 made with the Murder Sword that 命中 the selected 人物 自动 inflicts 1点致命伤 upon that 人物 而不是 the normal 伤害.</characteristic>
           </characteristics>
         </profile>
         <profile id="ebc8-e408-7abb-ba7b" name="The Murder Sword" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models with a 动力剑 only. The Murder sword replaces the bearer&apos;s 动力剑.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models with a 动力剑 only. The Murder sword replaces 持有者&apos;s 动力剑.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1162,7 +1162,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="1f91-a49d-4212-e2ce" name="堕天使 Champion Equipment" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="1f91-a49d-4212-e2ce" name="堕天使 冠军 Equipment" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2869-a07e-3873-c86c" type="max"/>
       </constraints>
@@ -1472,12 +1472,12 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="9306-c67b-a810-c6ad" name="6. Exalted Champion" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="9306-c67b-a810-c6ad" name="6. Exalted 冠军" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="eb2a-7b76-2211-d172" type="max"/>
           </constraints>
           <profiles>
-            <profile id="b44e-7299-d830-61b6" name="Exalted Champion" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+            <profile id="b44e-7299-d830-61b6" name="Exalted 冠军" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
                 <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to your Warlord’s A值.</characteristic>
               </characteristics>

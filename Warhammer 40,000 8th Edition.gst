@@ -1941,12 +1941,12 @@
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">-</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">-</characteristic>
-                    <characteristic name="能力" typeId="837d-5e63-aeb7-1410">这个武器 may target 单位 that are not 可见 to the bearer, even when firing in accordance with the 自动武器 ability. 每次 you 命中 the target 使用这个武器 it 遭受 D6 致命伤. If a 模型 is wounded but but not slain by this attack, roll another dice; 结果为6, the 模型 遭受 a further D6 致命伤.</characteristic>
+                    <characteristic name="能力" typeId="837d-5e63-aeb7-1410">这个武器 may target 单位 that are not 可见 to 持有者, even when firing in accordance with the 自动武器 ability. 每次 you 命中 the target 使用这个武器 it 遭受 D6 致命伤. If a 模型 is wounded but but not slain by this attack, roll another dice; 结果为6, the 模型 遭受 a further D6 致命伤.</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="43f6-b40f-134b-8b48" name="Containment Failure" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, before removing it from the battlefield and before any 上车 模型 下车, its vortex missiles explode. Each 单位 范围内 2D6寸 遭受 D6 致命伤. If a 模型 is wounded but not slain by in this manner roll another dice; 结果为6, the 模型 is sucked up into the swirling vortex and slain.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 被移除前 从 战场 and before any 上车 模型 下车, its vortex missiles explode. Each 单位 范围内 2D6寸 遭受 D6 致命伤. If a 模型 is wounded but not slain by in this manner roll another dice; 结果为6, the 模型 is sucked up into the swirling vortex and slain.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2409,7 +2409,7 @@
         </profile>
         <profile id="c1ed-3585-4739-2266" name="Unfurled" hidden="false" typeId="002f-cc4a-c4e3-0261" typeName="登陆平台配置">
           <characteristics>
-            <characteristic name="影响" typeId="f566-bacc-9414-7661">Whilst this configuration is in 效果, if a 友方 载具 单位 with the FLYER Battlefield Role spends its entire turn on top of a Skyshield Landing Pad in this configuration, that 模型 恢复 至多 D3 失去的W at the end of the turn.</characteristic>
+            <characteristic name="影响" typeId="f566-bacc-9414-7661">Whilst this configuration is in 效果, if a 友方 载具 单位 with the FLYER 战场 Role spends its entire turn on top of a Skyshield Landing Pad in this configuration, that 模型 恢复 至多 D3 失去的W at the end of the turn.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3815,9 +3815,9 @@
         <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="06fb-e44e-0fd7-e874" name="Nemesis 恶魔 Hammer" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="06fb-e44e-0fd7-e874" name="天罚恶魔 Hammer" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="a6e5-7ee3-8027-42b7" name="Nemesis 恶魔 Hammer" hidden="false" targetId="e353-0508-4f8f-d305" type="profile"/>
+        <infoLink id="a6e5-7ee3-8027-42b7" name="天罚恶魔 Hammer" hidden="false" targetId="e353-0508-4f8f-d305" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -3831,7 +3831,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f84-bcd0-733e-5a32" type="min"/>
       </constraints>
       <infoLinks>
-        <infoLink id="1afc-16ed-8a41-930f" name="Psyk-Out 手雷" hidden="false" targetId="9873-9487-e878-7e93" type="profile"/>
+        <infoLink id="1afc-16ed-8a41-930f" name="驱灵手雷" hidden="false" targetId="9873-9487-e878-7e93" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="0.0"/>
@@ -3841,7 +3841,7 @@
     </selectionEntry>
     <selectionEntry id="6bc7-408c-e6c0-12d6" name="灵能炮" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="abae-b666-5842-f9d9" name="Psycannon" hidden="false" targetId="d8c3-5b45-35a3-273d" type="profile"/>
+        <infoLink id="abae-b666-5842-f9d9" name="灵能炮" hidden="false" targetId="d8c3-5b45-35a3-273d" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -4074,7 +4074,7 @@
         </profile>
         <profile id="5332-4327-90b2-d60e" name="爆炸" publicationId="28ec-711c-pubN91434" page="52" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 投掷1个D6 before removing it from the battlefield and before 任何模型 下车. 结果为6则爆炸, 3D6寸范围内每个单位遭受 遭受 D6 致命伤.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 投掷1个D6 被移除前 从 战场 and before 任何模型 下车. 结果为6则爆炸, 3D6寸范围内每个单位遭受 遭受 D6 致命伤.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4251,7 +4251,7 @@
         </profile>
         <profile id="d146-c17b-222c-3b02" name="Reactor Explosion" publicationId="28ec-711c-pubN91434" page="53" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 投掷1个D6 before removing it from the battlefield and before 任何模型 下车. 结果为6 its reactor 爆炸, 2D6寸范围内每个单位遭受 D6 致命伤.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 投掷1个D6 被移除前 从 战场 and before 任何模型 下车. 结果为6 its reactor 爆炸, 2D6寸范围内每个单位遭受 D6 致命伤.</characteristic>
           </characteristics>
         </profile>
         <profile id="4766-36e8-d6fa-53a2" name="Primus Redoubt" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
@@ -4635,7 +4635,7 @@
         </profile>
         <profile id="1b16-1941-d120-15ee" name="Webway Gate" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When measuring distance to and from a Webway Gate, measure from the closest point of the model. If a Webway Gate is 被消灭, remove both arch peices from the battlefield.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When measuring distance to and from a Webway Gate, measure from the closest point of the model. If a Webway Gate is 被消灭, remove both arch peices from the 战场.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5337,7 +5337,7 @@
       <profiles>
         <profile id="77bb-80fe-ed8e-125a" name="战地指挥官" publicationId="28ec-711c-pubN98266" page="169" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Use this Stratagem before the battle if you used any 特殊分队 Stratagems when choosing your army. Choose one 人物 from your army that has gained a 关键字 from a 特殊分队 Stratagem that is not your 主将 and is not a named 人物. You can give that 人物 the 主将 Trait of the 特殊分队 they are part of (note that this 人物 is only regarded as your 主将 for the purpose of that 主将 Trait). This Stratagem can only be used once for each 特殊分队 Stratagem you have used (spend 1 CP 每次 you use it). No two 人物 can have the same 主将 Trait.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Use this Stratagem before the battle if you used any 特殊分队 Stratagems when choosing your army. Choose one 人物 from your army that has gained a 关键字 from a 特殊分队 Stratagem that is not your 主将 and is not a named 人物. You can give that 人物 the 主将特性 of the 特殊分队 they are part of (note that this 人物 is only regarded as your 主将 for the purpose of that 主将特性). This Stratagem can only be used once for each 特殊分队 Stratagem you have used (spend 1 CP 每次 you use it). No two 人物 can have the same 主将特性.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5759,7 +5759,7 @@
               <profiles>
                 <profile id="62dc-581b-0fc0-56f0" name="Master of Timing" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can 重投 one 失败的 Reserve roll each turn.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投 one 失败的 Reserve roll each turn.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5829,7 +5829,7 @@
               <profiles>
                 <profile id="1cca-8821-c432-fa4e" name=" Protector of Worlds" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can 重投 失败的 士气测试 for 友方单位 whilst they are 6寸范围内 of your 主将.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投 失败的 士气测试 for 友方单位 whilst they are 6寸范围内 of your 主将.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5885,7 +5885,7 @@
               <profiles>
                 <profile id="e826-7677-123a-f36c" name="Fortress 指挥官" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your 主将 is 上车 范围内 a 建筑, roll a dice 每次 that 建筑 失去1点W; 结果为6+, the 建筑 does not lose a wound.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your 主将 is 上车 范围内 a 建筑, roll a dice 每次 that 建筑 失去1点W; 结果为6+, the 建筑 不会失去W.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -6136,7 +6136,7 @@
                   <profiles>
                     <profile id="ef93-d404-8371-48a4" name="13: Heroic" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 can perform a Heroic Intervention if, after the 敌方 has completed 所有 of their charge moves, it is 6寸范围内 of any 敌方单位, and 可以移动至多 6寸 when doing so.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 can perform a 英勇干预 if, after the 敌方 has completed 所有 of their charge moves, it is 6寸范围内 of any 敌方单位, and 可以移动至多 6寸 when doing so.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6170,7 +6170,7 @@
                   <profiles>
                     <profile id="a80d-c26c-f77c-82b8" name="15: Zealot" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投失败的命中骰 for 这个模型 in the 肉搏阶段 if it made a 冲锋移动, performed a Heroic Intervention, or was charged this turn.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投失败的命中骰 for 这个模型 in the 肉搏阶段 if it made a 冲锋移动, performed a 英勇干预, or was charged this turn.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6187,7 +6187,7 @@
                   <profiles>
                     <profile id="b2ef-4f86-c2cb-c4f2" name="16: Deadly Charge" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the A值 of 这个模型 in the 肉搏阶段 if it made a 冲锋移动 this turn. </characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A+1 of 这个模型 in the 肉搏阶段 if it made a 冲锋移动 this turn. </characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6306,7 +6306,7 @@
                   <profiles>
                     <profile id="49f0-a183-7e98-a4b1" name="31: Grudge" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can 重投 任何命中, wound and 伤害 骰 made for 这个模型’s 攻击 that target the 敌方 主将.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投 任何命中, wound and 伤害 骰 made for 这个模型’s 攻击 that target the 敌方 主将.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6493,7 +6493,7 @@
                   <profiles>
                     <profile id="1f69-1696-0676-0b09" name="46: Foresight" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, if 这个模型 is 战场上, you can 重投 one 命中 roll, wound roll, 伤害 roll or saving throw.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, if 这个模型 is 战场上, 可以重投 one 命中 roll, wound roll, 伤害 roll or saving throw.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6527,7 +6527,7 @@
                   <profiles>
                     <profile id="84d4-2c9e-a06c-c893" name="52: Rallying Cry" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can 重投 失败的 士气测试 for 友方 &lt;Sub-faction&gt;单位 while they are 6寸范围内 of 这个模型.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投 失败的 士气测试 for 友方 &lt;Sub-faction&gt;单位 while they are 6寸范围内 of 这个模型.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7232,7 +7232,7 @@
               <profiles>
                 <profile id="6748-2c2f-3f15-4d1b" name="R1: Agile" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can 重投 加速和冲锋 骰 for 这个单位. </characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投 加速和冲锋 骰 for 这个单位. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7300,7 +7300,7 @@
               <profiles>
                 <profile id="8f76-d66e-c390-2ea5" name="R2: Assassins" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to wound 骰 for 攻击 made by 模型 in 这个单位 that target an 敌方 人物 单位.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to wound 骰 for 攻击 made by 这个单位中的模型 that target an 敌方 人物 单位.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7351,7 +7351,7 @@
               <profiles>
                 <profile id="cf6f-8830-33e8-0d6d" name="R5: Brutal" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the Strength and A值 of 模型 in 这个单位 during any turn in which they made a successful 冲锋移动.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the Strength and A值 of 这个单位中的模型 during any turn in which they made a successful 冲锋移动.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7385,7 +7385,7 @@
               <profiles>
                 <profile id="be38-1685-9783-10d4" name="R3: Breachers" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to wound 骰 for 攻击 made by 模型 in 这个单位 if the target of those 攻击 is receiving the benefit of cover.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to wound 骰 for 攻击 made by 这个单位中的模型 if the target of those 攻击 is receiving the benefit of cover.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7566,7 +7566,7 @@
               <profiles>
                 <profile id="e19d-5f65-b2a3-8cf8" name="R3: Inhuman Resilience" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">投掷1个D6 每次 a 模型 in 这个单位 失去1点W; 结果为5+ the 模型 does not lose that wound</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">投掷1个D6 每次 a 这个单位中的模型 失去1点W; 结果为5+ the 模型 does not lose that wound</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7617,7 +7617,7 @@
               <profiles>
                 <profile id="6269-9ff1-822a-c610" name="R4: Juggernaut" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can 重投 charge 骰 for 这个模型. </characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投 charge 骰 for 这个模型. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7707,7 +7707,7 @@
               <profiles>
                 <profile id="6783-bbb6-e012-32ab" name="R1: Famed 指挥官" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">投掷1个D6 每次 a 模型 in 这个单位 失去1点W; 结果为6 the 模型 does not lose that wound.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">投掷1个D6 每次 a 这个单位中的模型 失去1点W; 结果为6 the 模型 does not lose that wound.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7724,7 +7724,7 @@
               <profiles>
                 <profile id="4af9-ed89-7d89-93c6" name="R1: Skilled Driver" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can 重投 Advance 骰 for 这个单位. </characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投 Advance 骰 for 这个单位. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7741,7 +7741,7 @@
               <profiles>
                 <profile id="49eb-d748-c449-7525" name="R2: Experimental Ammunition" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Select one of the 远程武器 used by one or more 模型 in 这个单位. Add 1 to the D值 of that 武器 for 攻击 made by 那个单位.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Select one of the 远程武器 used by one or more 这个单位中的模型. Add 1 to the D值 of that 武器 for 攻击 made by 那个单位.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7792,7 +7792,7 @@
               <profiles>
                 <profile id="2356-d59e-e2b3-6667" name="R3: Storied 载具" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can 重投 one 命中 roll or wound roll for 这个单位 in each of your 射击阶段. </characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投 one 命中 roll or wound roll for 这个单位 in each of your 射击阶段. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7826,7 +7826,7 @@
               <profiles>
                 <profile id="4f72-8a3c-25d7-94f9" name="R4: Last Resort" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If a 模型 in 这个单位 is 被消灭, the controlling player can choose for it to 自动 explode – no dice roll is required.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If a 这个单位中的模型 is 被消灭, the controlling player can choose for it to 自动 explode – no dice roll is required.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7901,10 +7901,10 @@
       <description>Once per game, 而不是 射击 any 武器 in the 射击阶段, this 模型 can use its 烟雾发射器; if it does so, until your next 射击阶段 your opponent 必须 减少 1 from 任何命中 骰 that target it.</description>
     </rule>
     <rule id="4ea8-94d3-ba39-042f" name="他们无所畏惧" hidden="false">
-      <description>You can 重投 失败的 士气测试 for 这个单位.</description>
+      <description>可以重投 失败的 士气测试 for 这个单位.</description>
     </rule>
     <rule id="ce5a-0526-287b-4ff8" name="主将特性" hidden="false">
-      <description>If your 主将 is a 人物, it can use a 主将 Trait. 立即 before either player starts to deploy their army, you can roll a D3 on the 主将 Trait table here to determine what 主将 Trait your 主将 has. Alternatively, choose the trait that most suits your Warlord&apos;s temperament or style of war.
+      <description>If your 主将 is a 人物, it can use a 主将特性. 立即 before either player starts to deploy their army, you can roll a D3 on the 主将特性 table here to determine what 主将特性 your 主将 has. Alternatively, choose the trait that most suits your Warlord&apos;s temperament or style of war.
 
 1) Legendary Fighter: If 这个主将 charges in the 冲锋阶段, add 1 to their A值 until the end of the ensuing 肉搏阶段.
 
@@ -7928,10 +7928,10 @@
       <description>这个单位 has the following abilities: 他们无所畏惧, Bolter Discipline, Shock Assault and Combat Doctrines.’</description>
     </rule>
     <rule id="f9ce-5a8b-7abd-2395" name="雷霆突击" hidden="false">
-      <description>If 这个单位 makes a 冲锋移动, is charged or performs a Heroic Intervention, add 1 to the A值 of 模型 in 这个单位 直到回合结束.</description>
+      <description>如果这个单位进行冲锋移动, 冲锋成功或进行英勇干预, 这个单位中的模型 A+1, 直到回合结束.</description>
     </rule>
     <rule id="73c3-c791-cd2f-6ad2" name="憎恨突击" hidden="false">
-      <description>If 这个单位 makes a 冲锋移动, is charged or performs a Heroic Intervention, add 1 to the A值 of 模型 in 这个单位 直到回合结束.</description>
+      <description>如果这个单位进行冲锋移动, 冲锋成功或进行英勇干预, 这个单位中的模型 A+1, 直到回合结束.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -8565,7 +8565,7 @@
         <characteristic name="能力" typeId="837d-5e63-aeb7-1410"/>
       </characteristics>
     </profile>
-    <profile id="4a90-2615-6958-53cd" name="Defensive Grenade" publicationId="28ec-711c-pubN72690" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+    <profile id="4a90-2615-6958-53cd" name="Defensive 手雷" publicationId="28ec-711c-pubN72690" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="射程" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">8寸</characteristic>
         <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 1, Blast, Blind</characteristic>
@@ -9490,14 +9490,14 @@
         <characteristic name="能力" typeId="837d-5e63-aeb7-1410">对非载具目标固定2+造伤.</characteristic>
       </characteristics>
     </profile>
-    <profile id="e353-0508-4f8f-d305" name="Nemesis 恶魔 Hammer" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+    <profile id="e353-0508-4f8f-d305" name="天罚恶魔 Hammer" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="射程" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
         <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">x2</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
-        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">When a 模型 攻击 使用这个武器, you 必须 命中骰-1.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">模型使用这个武器攻击时,命中骰-1.</characteristic>
       </characteristics>
     </profile>
     <profile id="9873-9487-e878-7e93" name="驱灵手雷" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -9614,7 +9614,7 @@
     </profile>
     <profile id="46f3-7be5-6ec3-4fde" name="Rapid Tunnelling" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">开始时 of your 移动阶段, you can remove 这个模型 from the battlefield. At the end of your next 移动阶段, 放置 again, 任何位置 战场上 that is more than 9寸 away from 任何敌方模型.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">开始时 of your 移动阶段, you can remove 这个模型 from the 战场. At the end of your next 移动阶段, 放置 again, 任何位置 战场上 that is more than 9寸 away from 任何敌方模型.</characteristic>
       </characteristics>
     </profile>
     <profile id="8e81-7c95-43ba-6e0d" name="爆炸 (2D6寸)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -9624,7 +9624,7 @@
     </profile>
     <profile id="07c8-4bf0-0b10-9830" name="静态防御网络 (帝国)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Every 模型 in 这个单位 必须 放置 so that it is in end-to-end contact with at least one other 友方 WALL OF MARTYRS model. After it is 放置, 模型 in 这个单位 are treated as terrain features that follow the rules for Barricades (pg 106).</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Every 这个单位中的模型 必须 放置 so that it is in end-to-end contact with at least one other 友方 WALL OF MARTYRS model. After it is 放置, 这个单位中的模型 are treated as terrain features that follow the rules for Barricades (pg 106).</characteristic>
       </characteristics>
     </profile>
     <profile id="4ab1-b4c4-a404-8c2f" name="爆炸 (2D6寸 / D6)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">

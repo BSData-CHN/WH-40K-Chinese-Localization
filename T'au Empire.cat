@@ -383,9 +383,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="90f0-2c30-d7a1-62a6" name="MV17 Interceptor Drone" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="90f0-2c30-d7a1-62a6" name="MV17 仲裁者Drone" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
-        <infoLink id="83ee-938d-d9ac-ddf4" name="MV17 Interceptor Drone" hidden="false" targetId="b25d-3ec5-a97b-6acd" type="profile"/>
+        <infoLink id="83ee-938d-d9ac-ddf4" name="MV17 仲裁者Drone" hidden="false" targetId="b25d-3ec5-a97b-6acd" type="profile"/>
         <infoLink id="ed87-92c9-3896-b0d0" name="Saviour Protocols" hidden="false" targetId="9482-16e3-9287-b47f" type="rule"/>
         <infoLink id="4de4-f757-aed1-dcee" name="For the Greater Good" hidden="false" targetId="9a3a-31af-3eb4-fc3d" type="rule"/>
       </infoLinks>
@@ -2671,7 +2671,7 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="daf5-8a5b-8499-b7d7" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="ca3a-ea30-aff3-e41e" name="MV17 Interceptor Drone" hidden="false" collective="false" import="true" targetId="90f0-2c30-d7a1-62a6" type="selectionEntry">
+        <entryLink id="ca3a-ea30-aff3-e41e" name="MV17 仲裁者Drone" hidden="false" collective="false" import="true" targetId="90f0-2c30-d7a1-62a6" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3abc-a82c-5c20-be4e" type="min"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3feb-2470-3746-b8ce" type="max"/>
@@ -6525,7 +6525,7 @@
       <profiles>
         <profile id="a970-e8e9-eb76-a81c" name="Puretide engram neurochip" publicationId="c0bb-c0cd-pubN68738" page="132" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, you can 重投 a single 命中 roll, wound roll or 伤害 roll made for the bearer, or a 友方 &lt;家门&gt; 单位 6寸范围内 of the bearer. 此外, if your army is Battle-forged and the bearer is 战场上, 投掷1个D6 每次 you or your opponent use a Stratagem; 结果为6 you gain a 指挥点数.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, 可以重投 a single 命中 roll, wound roll or 伤害 roll made for 持有者, or a 友方 &lt;家门&gt; 单位 6寸范围内 of 持有者. 此外, if your army is Battle-forged and 持有者 is 战场上, 投掷1个D6 每次 you or your opponent use a Stratagem; 结果为6 you gain a 指挥点数.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6772,7 +6772,7 @@
       <profiles>
         <profile id="0b4b-7108-e1b1-37dd" name="Multi-sensory discouragement array" publicationId="c0bb-c0cd-pubN68738" page="132" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">敌方单位 6寸范围内 of the bearer 减少 1 from their LD值.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">敌方单位 6寸范围内 of 持有者 减少 1 from their LD值.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6808,7 +6808,7 @@
       <profiles>
         <profile id="9bb0-bdaf-dc64-7a5c" name="Solid-image projection 单位" publicationId="c0bb-c0cd-pubN68738" page="132" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Ethereal with hover drone only. Once per phase, when an 敌方单位 declares the bearer as the target of a charge, you may move the bearer 至多 3寸  before the charge roll is made.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Ethereal with hover drone only. Once per phase, when an 敌方单位 declares 持有者 as the target of a charge, you may move 持有者 至多 3寸  before the charge roll is made.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6847,7 +6847,7 @@
       <profiles>
         <profile id="5401-2ae3-c0fb-bfae" name="Seismic destabiliser" publicationId="c0bb-c0cd-pubN68738" page="132" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">开始时 of the 射击阶段, you may either pick an 敌方 步兵单位 claiming the benefit of cover, or a 建筑, 范围内 12寸 of the bearer. If you picked a 建筑, it 遭受 D3 致命伤. If you picked an 步兵单位, roll a dice for each 模型 in the 单位. For each roll of 6, 那个单位 遭受 1点致命伤.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">开始时 of the 射击阶段, you may either pick an 敌方 步兵单位 claiming the benefit of cover, or a 建筑, 范围内 12寸 of 持有者. If you picked a 建筑, it 遭受 D3 致命伤. If you picked an 步兵单位, roll a dice for each 模型 in the 单位. For each roll of 6, 那个单位 遭受 1点致命伤.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7003,7 +7003,7 @@
       <profiles>
         <profile id="9cdc-6e95-604e-05fd" name="Dynamic mirror field" publicationId="c0bb-c0cd-pubN68738" page="133" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">DAL&apos;YTH SEPT 模型 only. Your opponent 必须 减少 1 from 命中 骰 that target the bearer.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">DAL&apos;YTH SEPT 模型 only. Your opponent 必须 减少 1 from 命中 骰 that target 持有者.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7037,7 +7037,7 @@
       <profiles>
         <profile id="deec-766c-847d-b5c7" name="Grav-inhibitor field" publicationId="c0bb-c0cd-pubN68738" page="133" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">SA&apos;CEA SEPT 模型 only. 敌方单位 that choose the bearer&apos;s 单位 as a target of a charge 必须 减少 2寸 from their charge distance.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">SA&apos;CEA SEPT 模型 only. 敌方单位 that choose 持有者&apos;s 单位 as a target of a charge 必须 减少 2寸 from their charge distance.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7441,7 +7441,7 @@
       <profiles>
         <profile id="6ff3-8a7c-818e-1ed1" name="Hero of the Enclaves (远见 Enclaves)" publicationId="c0bb-c0cd-pubN68738" page="131" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Your 主将 can perform a Heroic Intervention if they are 6寸范围内 of any 敌方单位 after the 敌方 has completed 所有 their charge moves. Your 主将 可以移动至多 6寸 when performing a Heroic Intervention, so long as they end the move closer to the nearest 敌方模型. 此外, if your 主将 charged, was charged or performed a Heroic Intervention, then 直到回合结束 可以重投失败的命中骰 made for them.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Your 主将 can perform a 英勇干预 if they are 6寸范围内 of any 敌方单位 after the 敌方 has completed 所有 their charge moves. Your 主将 可以移动至多 6寸 when performing a 英勇干预, so long as they end the move closer to the nearest 敌方模型. 此外, if your 主将 charged, was charged or performed a 英勇干预, then 直到回合结束 可以重投失败的命中骰 made for them.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7581,7 +7581,7 @@
       <profiles>
         <profile id="af5d-e8eb-a0f0-e81e" name="Sa&apos;cea Sept Tenet: Calm Discipline" publicationId="c0bb-c0cd-pubN68738" page="127" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the LD值 of 模型 with this tenet. 此外, in the 射击阶段 you can 重投 a single 失败的 命中 roll when a 单位 with this tenet shoots.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the LD值 of 模型 with this tenet. 此外, in the 射击阶段 可以重投 a single 失败的 命中 roll when a 单位 with this tenet shoots.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7678,7 +7678,7 @@
                 </profile>
                 <profile id="fe23-0ed9-d95a-a0d9" name="Thunderous Pounce" publicationId="c0bb-c0cd-pubN67762" page="8" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to wound tolls made for the Knarloc&apos;s sharp beak and talons 攻击 if 这个单位 made a 冲锋移动 this turn.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to wound tolls made for the Knarloc&apos;s sharp beak and talons 攻击 如果这个单位 made a 冲锋移动 this turn.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7993,12 +7993,12 @@
       <profiles>
         <profile id="cf0a-7dfb-21f3-46fe" name="远见八杰" publicationId="2ec0-6d53-e36b-9895" page="116" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">部署期间, 所有 模型 in 这个单位 are deployed at the same time, but they do not need to be placed in 单位 coherency (see the Enclave Drone Support ability (pg 114) for details on how to place a 模型的 accompanying Drones). Each 人物 is treated as a separate 单位, and each is considered to have a Power Rating of 7. With the exception of O&apos;Vesa, if a 人物 in 这个单位 can FLY, it, and any of its accompanying Drones, can be 放置 in a Manta hold 而不是 being placed 战场上. At the end of any of your 移动阶段 any 人物 that does so can use a Manta strike to enter the fray – set them and their accompanying Drones up 任何位置 战场上 that is more than 9寸 from 任何敌方模型.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">部署期间, 所有 这个单位中的模型 are deployed at the same time, but they do not need to be placed in 单位 coherency (see the Enclave Drone Support ability (pg 114) for details on how to place a 模型的 accompanying Drones). Each 人物 is treated as a separate 单位, and each is considered to have a Power Rating of 7. With the exception of O&apos;Vesa, if a 人物 in 这个单位 can FLY, it, and any of its accompanying Drones, can be 放置 in a Manta hold 而不是 being placed 战场上. At the end of any of your 移动阶段 any 人物 that does so can use a Manta strike to enter the fray – set them and their accompanying Drones up 任何位置 战场上 that is more than 9寸 from 任何敌方模型.</characteristic>
           </characteristics>
         </profile>
         <profile id="93ba-fdc5-d668-7086" name="Enclave Drone Support" publicationId="2ec0-6d53-e36b-9895" page="114" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When a 人物 from 远见八杰 is 放置 战场上, any accompanying Drones are 放置 in 单位 coherency with it. From that point onwards, the Drones are treated as a separate 单位 with the HQ Battlefield Role, and are considered to have a Power Rating of 0. </characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When a 人物 from 远见八杰 is 放置 战场上, any accompanying Drones are 放置 in 单位 coherency with it. From that point onwards, the Drones are treated as a separate 单位 with the HQ 战场 Role, and are considered to have a Power Rating of 0. </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8254,7 +8254,7 @@
             </profile>
             <profile id="ee17-694e-54f6-05e5" name="Puretide Engram Neurochip" publicationId="2ec0-6d53-e36b-9895" page="117" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, you can 重投 a single 命中 roll, wound roll or 伤害 roll made for Sha&apos;vastos, or a 友方 远见 Enclaves 单位 6寸范围内 of Sha&apos;vastos. 此外, if your army is Battle-forged and Sha&apos;vastos is 战场上, 投掷1个D6 每次 you or your opponent use a Stratagem; 结果为6 you gain a 指挥点数.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, 可以重投 a single 命中 roll, wound roll or 伤害 roll made for Sha&apos;vastos, or a 友方 远见 Enclaves 单位 6寸范围内 of Sha&apos;vastos. 此外, if your army is Battle-forged and Sha&apos;vastos is 战场上, 投掷1个D6 每次 you or your opponent use a Stratagem; 结果为6 you gain a 指挥点数.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9126,16 +9126,16 @@ Note that the T&apos;au of the Enclaves reject the dominion of the Ethereal Cast
 Both Drones can detach 开始时 of any of your 移动阶段 by disembarking. From that point onwards, the Drones are treated as a separate 单位. They cannot reattach during the battle.</description>
     </rule>
     <rule id="211d-3f8a-8776-26fe" name="爆炸 (Stormsurge)" publicationId="c0bb-c0cd-pubN68738" page="120" hidden="false">
-      <description>如果这个模型W降为0, 投掷1个D6 before removing it from the battlefield. 结果为6则爆炸, 6寸范围内每个单位遭受 D6 致命伤.</description>
+      <description>如果这个模型W降为0, 投掷1个D6 被移除前 从 战场. 结果为6则爆炸, 6寸范围内每个单位遭受 D6 致命伤.</description>
     </rule>
     <rule id="b87e-f61b-3e08-09aa" name="坠毁" publicationId="c0bb-c0cd-pubN68738" page="var" hidden="false">
-      <description>如果这个模型W降为0, 投掷1个D6 before removing it from the battlefield. 结果为6则爆炸, 6寸范围内每个单位遭受 D3 致命伤.</description>
+      <description>如果这个模型W降为0, 投掷1个D6 被移除前 从 战场. 结果为6则爆炸, 6寸范围内每个单位遭受 D3 致命伤.</description>
     </rule>
     <rule id="340c-3f2a-89d5-2b85" name="超音速" publicationId="c0bb-c0cd-pubN68738" page="var" hidden="false">
       <description>每次 这个模型 moves, first pivot it on the spot 至多 90 degrees (this does not contribute to how far the 模型 moves), and then move the 模型 straight forwards. Note that it cannot pivot again after the initial pivot. 当这个模型加速时, increase its M值 by 20寸 直到阶段结束 - 不需要投掷.</description>
     </rule>
     <rule id="131e-b181-4650-0710" name="Attached Drones (AX39 Sun Shark Bomber)" publicationId="c0bb-c0cd-pubN68738" page="116" hidden="false">
-      <description>When 这个模型 is 放置, its accompanying Interceptor Drones are attached, and are treated as being embarked. Whilst the Drones remain attached, 这个模型 is considered to be equipped with their 武器 此外 to its own. 然而, a 命中 roll of 1 when firing the ion rifle on overcharge setting results in one of the Drones being slain rather than 这个模型 suffering 1点致命伤.</description>
+      <description>When 这个模型 is 放置, its accompanying 仲裁者Drones are attached, and are treated as being embarked. Whilst the Drones remain attached, 这个模型 is considered to be equipped with their 武器 此外 to its own. 然而, a 命中 roll of 1 when firing the ion rifle on overcharge setting results in one of the Drones being slain rather than 这个模型 suffering 1点致命伤.</description>
     </rule>
     <rule id="fdde-a68d-bcf1-ae0a" name="Manta Strike" publicationId="c0bb-c0cd-pubN68738" page="var" hidden="false">
       <description>部署期间, 可以放置 这个单位 in a Manta hold 而不是 placing them 战场上. At the end of any of your 移动阶段, 这个单位 can use a Manta strike to enter the fray - 放置在战场上的任何位置 that is more than 9寸 from 任何敌方模型.</description>
@@ -9144,13 +9144,13 @@ Both Drones can detach 开始时 of any of your 移动阶段 by disembarking. Fr
       <description>每次 这个模型 moves, first pivot it on the spot 至多 90° (this does not contribute to how far the 模型 moves), and then move the 模型 straight forwards. Note that it cannot pivot again after the initial pivot. 当这个模型加速时, increase its M值 by 25寸 直到阶段结束 - 不需要投掷.</description>
     </rule>
     <rule id="e2ec-faa8-b909-beb7" name="坠毁 (Tiger Shark)" publicationId="c0bb-c0cd-pubN67762" page="54" hidden="false">
-      <description>如果这个模型W降为0, 投掷1个D6 before removing it from the battlefield. 结果为6则爆炸, 12寸范围内每个单位遭受 D3 致命伤.</description>
+      <description>如果这个模型W降为0, 投掷1个D6 被移除前 从 战场. 结果为6则爆炸, 12寸范围内每个单位遭受 D3 致命伤.</description>
     </rule>
     <rule id="0230-359f-3cb6-03c0" name="坠毁 (Orca Dropship)" publicationId="c0bb-c0cd-pubN67762" page="54" hidden="false">
-      <description>如果这个模型W降为0, 投掷1个D6 before removing it from the battlefield. 结果为6则爆炸, 9寸范围内每个单位遭受 D6 致命伤.</description>
+      <description>如果这个模型W降为0, 投掷1个D6 被移除前 从 战场. 结果为6则爆炸, 9寸范围内每个单位遭受 D6 致命伤.</description>
     </rule>
     <rule id="98e3-4fce-8ff9-d424" name="Accompanying Drones" publicationId="c0bb-c0cd-pubN68738" page="88" hidden="false">
-      <description>Many 钛帝国 datasheets allow 单位 to be accompanied by Drones. In such instances, unless stated otherwise, 所有 wargear选项 only apply to the 单位 that is accompanied by Drones, and not to the Drones themselves. After deployment, 单位 of accompanying Drones are treated as having the Battlefield Role of the 单位 they accompany, and are considered to have a Power Rating of 0.
+      <description>Many 钛帝国 datasheets allow 单位 to be accompanied by Drones. In such instances, unless stated otherwise, 所有 wargear选项 only apply to the 单位 that is accompanied by Drones, and not to the Drones themselves. After deployment, 单位 of accompanying Drones are treated as having the 战场 Role of the 单位 they accompany, and are considered to have a Power Rating of 0.
 
 Tactical Drones accompanying 单位 use 他们自己的 datasheet (pg 109), while profiles, wargear, abilities and keywords for the other types of accompanying Drones can be found on their parent 单位&apos;s datasheet.</description>
     </rule>
@@ -9179,7 +9179,7 @@ Tactical Drones accompanying 单位 use 他们自己的 datasheet (pg 109), whil
         <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 can be fired at 单位 that are not 可见 to the bearer. 无视掩体.</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 can be fired at 单位 that are not 可见 to 持有者. 无视掩体.</characteristic>
       </characteristics>
     </profile>
     <profile id="67e7-0e29-d015-f63f" name="Seeker missile" publicationId="c0bb-c0cd-pubN68738" page="122" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -9199,7 +9199,7 @@ Tactical Drones accompanying 单位 use 他们自己的 datasheet (pg 109), whil
         <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If 任何敌方模型 are 被消灭 by 这个武器, 友方 克鲁特 单位 6寸范围内 of the bearer do not have to take 士气测试 in the Morale phase at that turn.</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If 任何敌方模型 are 被消灭 by 这个武器, 友方 克鲁特 单位 6寸范围内 of 持有者 do not have to take 士气测试 in the Morale phase at that turn.</characteristic>
       </characteristics>
     </profile>
     <profile id="92a1-743d-3b4f-35f1" name="Ripping fangs" publicationId="c0bb-c0cd-pubN68738" page="123" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -9259,7 +9259,7 @@ Tactical Drones accompanying 单位 use 他们自己的 datasheet (pg 109), whil
         <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">命中骰+1 for 这个武器 对抗 targets that can&apos;t FLY. If you roll one or more 命中 骰 of 1, the bearer 遭受 1点致命伤 这个武器的所有射击结算后.</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">命中骰+1 for 这个武器 对抗 targets that can&apos;t FLY. If you roll one or more 命中 骰 of 1, 持有者 遭受 1点致命伤 这个武器的所有射击结算后.</characteristic>
       </characteristics>
     </profile>
     <profile id="9b19-f1d8-3531-4035" name="Pulse rifle" publicationId="c0bb-c0cd-pubN68738" page="122" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -9372,7 +9372,7 @@ Tactical Drones accompanying 单位 use 他们自己的 datasheet (pg 109), whil
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="88da-c6a8-d656-a579" name="Photon grenade" publicationId="c0bb-c0cd-pubN68738" page="121" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+    <profile id="88da-c6a8-d656-a579" name="Photon 手雷" publicationId="c0bb-c0cd-pubN68738" page="121" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12寸</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手雷 D6</characteristic>
@@ -9469,7 +9469,7 @@ Tactical Drones accompanying 单位 use 他们自己的 datasheet (pg 109), whil
         <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If you roll one or more 命中 骰 of 1, the bearer 遭受 1点致命伤 这个武器的所有射击结算后.</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If you roll one or more 命中 骰 of 1, 持有者 遭受 1点致命伤 这个武器的所有射击结算后.</characteristic>
       </characteristics>
     </profile>
     <profile id="3d89-cde4-38a1-13f4" name="Ion rifle (标准)" publicationId="c0bb-c0cd-pubN68738" page="121" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -9499,7 +9499,7 @@ Tactical Drones accompanying 单位 use 他们自己的 datasheet (pg 109), whil
         <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If you roll one or more 命中 骰 of 1, the bearer 遭受 1点致命伤 这个武器的所有射击结算后.</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If you roll one or more 命中 骰 of 1, 持有者 遭受 1点致命伤 这个武器的所有射击结算后.</characteristic>
       </characteristics>
     </profile>
     <profile id="2ceb-c98f-a2d2-4b06" name="Ion accelerator (标准)" publicationId="c0bb-c0cd-pubN68738" page="121" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -9519,7 +9519,7 @@ Tactical Drones accompanying 单位 use 他们自己的 datasheet (pg 109), whil
         <characteristic name="S" typeId="59b1-319e-ec13-d466">9</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If you roll one or more 命中 骰 of 1, the bearer 遭受 1点致命伤 这个武器的所有射击结算后.</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If you roll one or more 命中 骰 of 1, 持有者 遭受 1点致命伤 这个武器的所有射击结算后.</characteristic>
       </characteristics>
     </profile>
     <profile id="fa85-f362-0f20-5688" name="Honour blade" publicationId="c0bb-c0cd-pubN68738" page="123" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -9649,7 +9649,7 @@ Tactical Drones accompanying 单位 use 他们自己的 datasheet (pg 109), whil
         <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If you roll one or more 命中 骰 of 1, the bearer 遭受 1点致命伤 这个武器的所有射击结算后.</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If you roll one or more 命中 骰 of 1, 持有者 遭受 1点致命伤 这个武器的所有射击结算后.</characteristic>
       </characteristics>
     </profile>
     <profile id="feb0-ca85-7ed4-dce1" name="Cyclic ion blaster (标准)" publicationId="c0bb-c0cd-pubN68738" page="121" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -9669,7 +9669,7 @@ Tactical Drones accompanying 单位 use 他们自己的 datasheet (pg 109), whil
         <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If you roll one or more 命中 骰 of 1, the bearer&apos;s 单位 遭受 1点致命伤 这个武器的所有射击结算后.</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If you roll one or more 命中 骰 of 1, 持有者&apos;s 单位 遭受 1点致命伤 这个武器的所有射击结算后.</characteristic>
       </characteristics>
     </profile>
     <profile id="e9b1-5593-7e88-9771" name="Cluster rocket system" publicationId="c0bb-c0cd-pubN68738" page="121" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -9724,7 +9724,7 @@ Tactical Drones accompanying 单位 use 他们自己的 datasheet (pg 109), whil
     </profile>
     <profile id="a8f2-944e-8ce8-80b6" name="Early warning override" publicationId="c0bb-c0cd-pubN68738" page="123" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If any 敌方单位 are 放置 范围内 12寸 of a 模型 from your army equipped with an early warning override as the result of an ability that allows them to arrive mid-battle (i.e. teleporting to the battlefield), then at the end of that phase the 模型 may 立即 shoot at one of those 单位 as if it were your 射击阶段, but you 必须 减少 1 from 命中 骰 when resolving these shots.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If any 敌方单位 are 放置 范围内 12寸 of a 模型 from your army equipped with an early warning override as the result of an ability that allows them to arrive mid-battle (i.e. teleporting to the 战场), then at the end of that phase the 模型 may 立即 shoot at one of those 单位 as if it were your 射击阶段, but you 必须 减少 1 from 命中 骰 when resolving these shots.</characteristic>
       </characteristics>
     </profile>
     <profile id="a54e-6d37-c134-efc4" name="Drone controller" publicationId="c0bb-c0cd-pubN68738" page="123" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -9898,7 +9898,7 @@ Tactical Drones accompanying 单位 use 他们自己的 datasheet (pg 109), whil
         <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
       </characteristics>
     </profile>
-    <profile id="b25d-3ec5-a97b-6acd" name="MV17 Interceptor Drone" publicationId="c0bb-c0cd-pubN68738" page="116" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+    <profile id="b25d-3ec5-a97b-6acd" name="MV17 仲裁者Drone" publicationId="c0bb-c0cd-pubN68738" page="116" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
       <characteristics>
         <characteristic name="M" typeId="0bdf-a96e-9e38-7779">20寸</characteristic>
         <characteristic name="WS" typeId="e7f0-1278-0250-df0c">5+</characteristic>
@@ -10955,7 +10955,7 @@ Tactical Drones accompanying 单位 use 他们自己的 datasheet (pg 109), whil
         <characteristic name="S" typeId="59b1-319e-ec13-d466">10</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">4</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 may not target 敌方单位 范围内 24寸 of the bearer.</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 may not target 敌方单位 范围内 24寸 of 持有者.</characteristic>
       </characteristics>
     </profile>
     <profile id="3639-f272-0894-5f55" name="Phased ion gun" publicationId="c0bb-c0cd-pubN67762" page="44,91" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -11045,7 +11045,7 @@ Tactical Drones accompanying 单位 use 他们自己的 datasheet (pg 109), whil
         <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If you roll one or more 命中 骰 of 1, the bearer 遭受 1点致命伤 after 所有 of 这个武器的 have been resolved.</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If you roll one or more 命中 骰 of 1, 持有者 遭受 1点致命伤 after 所有 of 这个武器的 have been resolved.</characteristic>
       </characteristics>
     </profile>
     <profile id="43ae-5ccc-9432-2f26" name="Tri-axis ion cannon (标准)" publicationId="c0bb-c0cd-pubN67762" page="47,91" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -11384,7 +11384,7 @@ Tactical Drones accompanying 单位 use 他们自己的 datasheet (pg 109), whil
     </profile>
     <profile id="e0c4-df4a-af16-52dc" name="Immobile" publicationId="c0bb-c0cd-pubN67762" page="58" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个单位 不能移动 under any circumstances. If 这个单位 is affected by an ability that would normally force a 载具 to move, or renders a 载具 immobile, it takes one 致命伤 instead. Successful repair attempts by any 友方模型 may not grant it the ability to move. During 肉搏阶段, 敌方模型 自动 命中 这个模型 - do not roll any dice.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个单位 不能移动 under any circumstances. 如果这个单位 is affected by an ability that would normally force a 载具 to move, or renders a 载具 immobile, it takes one 致命伤 instead. Successful repair attempts by any 友方模型 may not grant it the ability to move. During 肉搏阶段, 敌方模型 自动 命中 这个模型 - do not roll any dice.</characteristic>
       </characteristics>
     </profile>
     <profile id="e1a0-bfed-8f5e-7c14" name="Positional Relay" publicationId="c0bb-c0cd-pubN67762" page="58" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -11551,12 +11551,12 @@ Tactical Drones accompanying 单位 use 他们自己的 datasheet (pg 109), whil
     </profile>
     <profile id="acfc-7fa6-521e-11b7" name="MV52 Shield Generator (XV107/XV109)" publicationId="c0bb-c0cd-pubN67762" page="45,46" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">MV52 Shield Drones have a 3+ 特殊保护. 此外, 投掷1个D6 每次 a DRONE 具有这个能力的 失去1点W; 结果为5+ that Drone does not lose a wound.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">MV52 Shield Drones have a 3+ 特殊保护. 此外, 投掷1个D6 每次 a DRONE 具有这个能力的 失去1点W; 结果为5+ that Drone 不会失去W.</characteristic>
       </characteristics>
     </profile>
     <profile id="c613-5755-936a-3a7d" name="MV52 Shield Generator" publicationId="c0bb-c0cd-pubN68738" page="90" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">MV52 Shield Drones have a 3+ 特殊保护. 此外, 投掷1个D6 每次 a DRONE 具有这个能力的 失去1点W; 结果为5+ that Drone does not lose a wound.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">MV52 Shield Drones have a 3+ 特殊保护. 此外, 投掷1个D6 每次 a DRONE 具有这个能力的 失去1点W; 结果为5+ that Drone 不会失去W.</characteristic>
       </characteristics>
     </profile>
     <profile id="7f61-c2ab-2e48-eecf" name="Fire Caste Exemplar" publicationId="c0bb-c0cd-pubN68738" page="97" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -11566,7 +11566,7 @@ Tactical Drones accompanying 单位 use 他们自己的 datasheet (pg 109), whil
     </profile>
     <profile id="1803-567f-8527-b8de" name="Shield generator (Drone)" publicationId="c0bb-c0cd-pubN68738" page="109" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A 模型 with a shield generator 拥有 4+ 特殊保护. 此外, 投掷1个D6 每次 a DRONE 具有这个能力的 失去1点W; 结果为5+ that Drone does not lose a wound.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A 模型 with a shield generator 拥有 4+ 特殊保护. 此外, 投掷1个D6 每次 a DRONE 具有这个能力的 失去1点W; 结果为5+ that Drone 不会失去W.</characteristic>
       </characteristics>
     </profile>
     <profile id="1551-deb4-6f41-7cd1" name="Tiger Shark AX-1-0" publicationId="c0bb-c0cd-pubN142484" page="" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
@@ -11773,12 +11773,12 @@ Tactical Drones accompanying 单位 use 他们自己的 datasheet (pg 109), whil
     </profile>
     <profile id="7840-1083-714d-3897" name="Sworn Protectors" publicationId="c0bb-c0cd-pubN68738" page="104" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">投掷1个D6 每次 a 友方 &lt;家门&gt; 人物 失去1点W whilst they are 范围内 3寸 of 这个单位. 结果为2+, a 模型 from 这个单位 can intercept that 命中 - the 人物 does not lose a wound but 这个单位 遭受 1点致命伤.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">投掷1个D6 每次 a 友方 &lt;家门&gt; 人物 失去1点W whilst they are 范围内 3寸 of 这个单位. 结果为2+, a 模型 from 这个单位 can intercept that 命中 - the 人物 不会失去W but 这个单位 遭受 1点致命伤.</characteristic>
       </characteristics>
     </profile>
     <profile id="7478-a264-7f7d-04ec" name="Homing beacon" publicationId="c0bb-c0cd-pubN68738" page="102" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A homing beacon may be used 开始时 of your 移动阶段 by placing it 1寸范围内 of its 单位. If there are any 友方 homing beacons 战场上 at the end of your 移动阶段, one of your &lt;家门&gt; 单位 that has been 放置 in a Manta hold can perform a low-altitude drop 而不是 a Manta strike. 放置 the 单位 wholly 6寸范围内 of the homing beacon. The homing beacon then shorts out and is removed from the battlefield. Homing beacons are deactivated and removed from the battlefield if an 敌方模型 ends a move 范围内 9寸 of it.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A homing beacon may be used 开始时 of your 移动阶段 by placing it 1寸范围内 of its 单位. If there are any 友方 homing beacons 战场上 at the end of your 移动阶段, one of your &lt;家门&gt; 单位 that has been 放置 in a Manta hold can perform a low-altitude drop 而不是 a Manta strike. 放置 the 单位 wholly 6寸范围内 of the homing beacon. The homing beacon then shorts out and is removed from the 战场. Homing beacons are deactivated and removed from the 战场 if an 敌方模型 ends a move 范围内 9寸 of it.</characteristic>
       </characteristics>
     </profile>
     <profile id="962f-5767-af1f-31d9" name="Camouflage Fields" publicationId="c0bb-c0cd-pubN68738" page="102" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -11857,7 +11857,7 @@ Tactical Drones accompanying 单位 use 他们自己的 datasheet (pg 109), whil
 * Calm of Tides: 减少 1 from any 士气测试 made for affected 单位.
 * Storm of Fire: 重投命中的 1 in the 射击阶段 for affected 单位 that remain stationary in the 移动阶段.
 * Sense of Stone: Whenever a 模型 in an affected 单位 失去1点W, 投掷1个D6; 结果为6, that 模型 does not lose that wound.
-* Zephyr&apos;s Grace: You can 重投 the dice for affected 单位 when they Advance.</characteristic>
+* Zephyr&apos;s Grace: 可以重投 the dice for affected 单位 when they Advance.</characteristic>
       </characteristics>
     </profile>
     <profile id="e778-ea88-a8c5-5024" name="Grand Invocation of the Elements" publicationId="c0bb-c0cd-pubN68738" page="94" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -11866,12 +11866,12 @@ Tactical Drones accompanying 单位 use 他们自己的 datasheet (pg 109), whil
 * Calm of Tides: 减少 1 from any 士气测试 made for affected 单位.
 * Storm of Fire: 重投命中的 1 in the 射击阶段 for affected 单位 that remain stationary in the 移动阶段.
 * Sense of Stone: Whenever a 模型 in an affected 单位 失去1点W, 投掷1个D6; 结果为6, that 模型 does not lose that wound.
-* Zephyr&apos;s Grace: You can 重投 the dice for affected 单位 when they Advance.</characteristic>
+* Zephyr&apos;s Grace: 可以重投 the dice for affected 单位 when they Advance.</characteristic>
       </characteristics>
     </profile>
     <profile id="69f7-be5e-b59f-2ca8" name="Supreme Loyalty" publicationId="c0bb-c0cd-pubN68738" page="94" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Whilst Aun&apos;Va is 战场上, you can 重投 士气测试 for 所有 友方 钛帝国 单位.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Whilst Aun&apos;Va is 战场上, 可以重投 士气测试 for 所有 友方 钛帝国 单位.</characteristic>
       </characteristics>
     </profile>
     <profile id="a4d6-3ec9-6efb-f85e" name="Paradox of Duality" publicationId="c0bb-c0cd-pubN68738" page="94" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -11891,7 +11891,7 @@ Tactical Drones accompanying 单位 use 他们自己的 datasheet (pg 109), whil
     </profile>
     <profile id="c028-ad17-c358-bd39" name="Defender of the Greater Good" publicationId="c0bb-c0cd-pubN68738" page="90" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">投掷1个D6 每次 影阳 失去1点W whilst she is 范围内 3寸 of a 单位 of 友方单位 of XV25 Stealth 战斗服. 结果为2+, a 模型 from 那个单位 can intercept that 命中 - 影阳 does not lose a wound but 那个单位 遭受 1点致命伤.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">投掷1个D6 每次 影阳 失去1点W whilst she is 范围内 3寸 of a 单位 of 友方单位 of XV25 Stealth 战斗服. 结果为2+, a 模型 from 那个单位 can intercept that 命中 - 影阳 不会失去W but 那个单位 遭受 1点致命伤.</characteristic>
       </characteristics>
     </profile>
     <profile id="ee5c-5d53-6545-820e" name="Structural Analyser" publicationId="c0bb-c0cd-pubN68738" page="96" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -11998,7 +11998,7 @@ Tactical Drones accompanying 单位 use 他们自己的 datasheet (pg 109), whil
         <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Change the 武器&apos;s Type to Heavy 2D3 对抗 单位 containing 10 or more 模型. If you roll one or more 命中 骰 of 1, the bearer 遭受 1点致命伤 这个武器的所有射击结算后.</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Change the 武器&apos;s Type to Heavy 2D3 对抗 单位 containing 10 or more 模型. If you roll one or more 命中 骰 of 1, 持有者 遭受 1点致命伤 这个武器的所有射击结算后.</characteristic>
       </characteristics>
     </profile>
     <profile id="2308-fb74-b0ed-9772" name="Tiger Shark AX-1-0 3" publicationId="c0bb-c0cd-pubN142484" page="" hidden="false" typeId="6963-0949-caac-f9af" typeName="损伤表 (M,BS)">
