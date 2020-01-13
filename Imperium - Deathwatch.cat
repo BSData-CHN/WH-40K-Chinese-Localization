@@ -3319,8 +3319,8 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
         </profile>
       </profiles>
       <rules>
-        <rule id="175b-91ca-f809-2ff0" name="Crash and Burn" hidden="false">
-          <description>如果这个模型W降为0, 在载具被移除及任何在这个载具上的模型下车前投掷1个D6.  结果为6 it crashes in a fiery explosion 每个单位 范围内 6寸 遭受 D6 致命伤.</description>
+        <rule id="175b-91ca-f809-2ff0" name="坠毁" hidden="false">
+          <description>如果这个模型W降为0, 在载具被移除及任何在这个载具上的模型下车前投掷1个D6.  结果为6 则爆炸, 每个单位 范围内 6寸 遭受 D6 致命伤.</description>
         </rule>
         <rule id="63c4-888e-d526-40ad" name="超音速" hidden="false">
           <description>每次 这个模型 moves, first pivot it on the spot 至多 90 degrees (this does not contribute to how far the 模型 moves), and then move the 模型 straight forwards, Note that it cannot pivot again after the initial pivot.  当这个模型加速时, increase its M值 by 20寸 直到阶段结束 - 不需要投掷.</description>
@@ -4027,7 +4027,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3318-3c56-62b3-6a24" type="max"/>
               </constraints>
               <selectionEntryGroups>
-                <selectionEntryGroup id="52c1-80fc-8146-0c4a" name="Pistol Option" hidden="false" collective="false" import="true" defaultSelectionEntryId="afd3-0b28-365d-103a">
+                <selectionEntryGroup id="52c1-80fc-8146-0c4a" name="手枪选项" hidden="false" collective="false" import="true" defaultSelectionEntryId="afd3-0b28-365d-103a">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="71cb-654c-3e02-110d" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd12-843b-8bdf-4b17" type="max"/>
@@ -4720,7 +4720,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6739-2025-5798-f6c8" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="ca77-e06f-a87c-db1e" name="Reductor Pistol" hidden="false" collective="false" import="true" targetId="11d9-31dc-cefc-6c73" type="selectionEntry">
+        <entryLink id="ca77-e06f-a87c-db1e" name="Reductor 手枪" hidden="false" collective="false" import="true" targetId="11d9-31dc-cefc-6c73" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ddc9-c87e-939d-859f" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f98-d620-184f-cc9c" type="max"/>
@@ -4744,9 +4744,9 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="11d9-31dc-cefc-6c73" name="Reductor Pistol" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="11d9-31dc-cefc-6c73" name="Reductor 手枪" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="2fea-d229-4da4-4200" name="Reductor Pistol" hidden="false" targetId="7703-e82b-f506-9f57" type="profile"/>
+        <infoLink id="2fea-d229-4da4-4200" name="Reductor 手枪" hidden="false" targetId="7703-e82b-f506-9f57" type="profile"/>
       </infoLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -4873,7 +4873,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="adf1-73b0-b52c-11e9" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="60ab-957f-1bb2-3944" name="Force sword" hidden="false" collective="false" import="true" targetId="07e7-1f9b-4c1c-aad9" type="selectionEntry">
+        <entryLink id="60ab-957f-1bb2-3944" name="立场剑" hidden="false" collective="false" import="true" targetId="07e7-1f9b-4c1c-aad9" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da85-038d-dc2a-571d" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8155-02d6-456b-6098" type="max"/>
@@ -5346,7 +5346,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             <entryLink id="3d02-6e67-2878-cd64" name="铁幕重机枪" hidden="false" collective="false" import="true" targetId="5420-1ee8-5e2f-b5a0" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="61b8-2e1e-0cca-7a8e" name="武器 Option 4" hidden="false" collective="false" import="true" defaultSelectionEntryId="6e61-4736-c67a-0351">
+        <selectionEntryGroup id="61b8-2e1e-0cca-7a8e" name="武器选项 4" hidden="false" collective="false" import="true" defaultSelectionEntryId="6e61-4736-c67a-0351">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9074-e944-0ac8-8657" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="289b-ce31-80c7-b732" type="max"/>
@@ -5356,7 +5356,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             <entryLink id="6dc2-2278-ed71-ab2d" name="2x Stormbolters" hidden="false" collective="false" import="true" targetId="fdf1-cf4a-a84f-58c8" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="bfea-b657-fda2-0592" name="武器 Option 5" hidden="false" collective="false" import="true" defaultSelectionEntryId="5231-6755-4676-ded7">
+        <selectionEntryGroup id="bfea-b657-fda2-0592" name="武器选项 5" hidden="false" collective="false" import="true" defaultSelectionEntryId="5231-6755-4676-ded7">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7640-7827-66e9-2e6d" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="659c-3fcf-e222-8c0c" type="max"/>
@@ -5368,7 +5368,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             <entryLink id="5231-6755-4676-ded7" name="伊卡洛斯铁幕重机枪" hidden="false" collective="false" import="true" targetId="63a3-00cb-c8a1-e9a9" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="8674-7723-2229-410f" name="武器 Option 6" hidden="false" collective="false" import="true" defaultSelectionEntryId="383b-540a-10d1-ad5e">
+        <selectionEntryGroup id="8674-7723-2229-410f" name="武器选项 6" hidden="false" collective="false" import="true" defaultSelectionEntryId="383b-540a-10d1-ad5e">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a92e-b052-0546-3b11" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f136-6b1e-48b9-2902" type="max"/>
@@ -8322,10 +8322,10 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
       <description>这个武器 always wounds 结果为2+ (except 对抗 载具 and 巨型 单位).</description>
     </rule>
     <rule id="2371-87ae-e67e-ab08" name="SIA - 克拉肯爆弹" hidden="false">
-      <description>Add 3寸 to the range of 这个武器 if it is a Pistol – or 6寸 otherwise – and improve the AP of the attack by 1 (e.g. an AP of 0 becomes -1), to a maximum AP of -2.</description>
+      <description>Add 3寸 to the range of 这个武器 if it is a 手枪 – or 6寸 otherwise – and improve the AP of the attack by 1 (e.g. an AP of 0 becomes -1), to a maximum AP of -2.</description>
     </rule>
     <rule id="d167-1f3e-fef6-45ac" name="SIA - 复仇弹" hidden="false">
-      <description>减少 3寸 from the range of 这个武器 if it is a Pistol – or 6寸 otherwise – and improve the AP of the attack by 2 (e.g. an AP of 0 becomes -2),to a maximum AP of -3.</description>
+      <description>减少 3寸 from the range of 这个武器 if it is a 手枪 – or 6寸 otherwise – and improve the AP of the attack by 2 (e.g. an AP of 0 becomes -2),to a maximum AP of -3.</description>
     </rule>
     <rule id="32d5-7060-96dd-30a0" name="爆炸 D6" hidden="false">
       <description>如果这个模型W降为0, 在载具被移除及任何在这个载具上的模型下车前投掷1个D6. 结果为6则爆炸, 每个单位 范围内 6寸 遭受 D6 致命伤.</description>
@@ -8540,7 +8540,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">命中骰出1时,持有者在武器射击结算完成后被杀死.</characteristic>
       </characteristics>
     </profile>
-    <profile id="7703-e82b-f506-9f57" name="Reductor Pistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+    <profile id="7703-e82b-f506-9f57" name="Reductor 手枪" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">3寸</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手枪 1</characteristic>

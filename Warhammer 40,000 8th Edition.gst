@@ -2812,7 +2812,7 @@
     </selectionEntry>
     <selectionEntry id="4a0e-0f13-63c2-9aae" name="动力斧" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="1f6e-083b-48be-9aa7" name="Force axe" hidden="false" targetId="c019-5c9a-c1f4-4b4f" type="profile"/>
+        <infoLink id="1f6e-083b-48be-9aa7" name="立场斧" hidden="false" targetId="c019-5c9a-c1f4-4b4f" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="10.0"/>
@@ -2822,7 +2822,7 @@
     </selectionEntry>
     <selectionEntry id="6f9a-c4fe-3132-d011" name="动力杖" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="2552-08c9-9419-8a06" name="Force 杖" hidden="false" targetId="ed69-f85e-5982-9ab8" type="profile"/>
+        <infoLink id="2552-08c9-9419-8a06" name="立场杖" hidden="false" targetId="ed69-f85e-5982-9ab8" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="8.0"/>
@@ -2832,7 +2832,7 @@
     </selectionEntry>
     <selectionEntry id="07e7-1f9b-4c1c-aad9" name="动力剑" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="b924-3d7d-287c-0a97" name="Force sword" hidden="false" targetId="29c5-cff6-7f7c-96d6" type="profile"/>
+        <infoLink id="b924-3d7d-287c-0a97" name="立场剑" hidden="false" targetId="29c5-cff6-7f7c-96d6" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="8.0"/>
@@ -3026,9 +3026,9 @@
         <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9728-3bce-75d9-803a" name="Disintegration pistol" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="9728-3bce-75d9-803a" name="Disintegration 手枪" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="c341-c1f1-d49c-eee8" name="Disintegration pistol" hidden="false" targetId="d015-8e37-8b3f-59b9" type="profile"/>
+        <infoLink id="c341-c1f1-d49c-eee8" name="Disintegration 手枪" hidden="false" targetId="d015-8e37-8b3f-59b9" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -3807,7 +3807,7 @@
     </selectionEntry>
     <selectionEntry id="3790-ebf1-ac1e-1624" name="毒针手枪" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="fe0d-3007-11c4-58d4" name="Needle Pistol" hidden="false" targetId="badf-b321-5a04-54d8" type="profile"/>
+        <infoLink id="fe0d-3007-11c4-58d4" name="Needle 手枪" hidden="false" targetId="badf-b321-5a04-54d8" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="0.0"/>
@@ -6718,7 +6718,7 @@
                   <profiles>
                     <profile id="7d61-3f69-1234-5baa" name="02: Auto-loader" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s 远程武器. Increase the number of shots 这个武器 makes by 1 (e.g. a Pistol 1 武器 becomes a Pistol 2 武器). </characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s 远程武器. Increase the number of shots 这个武器 makes by 1 (e.g. a 手枪 1 武器 becomes a 手枪 2 武器). </characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6779,12 +6779,12 @@
                     <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="fdec-6130-c07f-340c" name="06: Inferno Round" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="fdec-6130-c07f-340c" name="06: 地狱弹" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c32d-c900-98d0-b756" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="d1b4-cfe9-6852-26f5" name="06: Inferno Round" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
+                    <profile id="d1b4-cfe9-6852-26f5" name="06: 地狱弹" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
                         <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s 远程武器. Add the following ability to that 武器: ‘单位 do not receive the benefit of cover to their saving throws 对抗 攻击 made with 这个武器.’</characteristic>
                       </characteristics>
@@ -7895,7 +7895,7 @@
       <description>如果这个模型W降为0, 在载具被移除及任何在这个载具上的模型下车前投掷1个D6. 结果为6则爆炸, 每个单位 范围内 6寸 遭受 D3 致命伤.</description>
     </rule>
     <rule id="60db-65f7-ca20-7874" name="开顶" page="" hidden="false">
-      <description>Models 上车 on 这个模型 can attack in their 射击阶段. Measure the range and draw line of sight from any point on the model. When they do so, any restrictions or modifiers that apply to 这个模型 also apply to its passenger; for example, the passengers cannot shoot if 这个模型 has 堕天使 Back in the same turn, cannot shoot (except with Pistols) if 这个模型 is 范围内 1寸 of an 敌方单位, and so on.</description>
+      <description>Models 上车 on 这个模型 can attack in their 射击阶段. Measure the range and draw line of sight from any point on the model. When they do so, any restrictions or modifiers that apply to 这个模型 also apply to its passenger; for example, the passengers cannot shoot if 这个模型 has 堕天使 Back in the same turn, cannot shoot (except with 手枪) if 这个模型 is 范围内 1寸 of an 敌方单位, and so on.</description>
     </rule>
     <rule id="51af-0fb9-3ca5-d307" name="烟雾发生器" hidden="false">
       <description>Once per game, 而不是 射击 any 武器 in the 射击阶段, this 模型 can use its 烟雾发射器; if it does so, until your next 射击阶段 your opponent 必须 减少 1 from 任何命中 骰 that target it.</description>
@@ -7930,7 +7930,7 @@
     <rule id="f9ce-5a8b-7abd-2395" name="雷霆突击" hidden="false">
       <description>If 这个单位 makes a 冲锋移动, is charged or performs a Heroic Intervention, add 1 to the A值 of 模型 in 这个单位 直到回合结束.</description>
     </rule>
-    <rule id="73c3-c791-cd2f-6ad2" name="Hateful Assault" hidden="false">
+    <rule id="73c3-c791-cd2f-6ad2" name="憎恨突击" hidden="false">
       <description>If 这个单位 makes a 冲锋移动, is charged or performs a Heroic Intervention, add 1 to the A值 of 模型 in 这个单位 直到回合结束.</description>
     </rule>
   </sharedRules>
@@ -8918,7 +8918,7 @@
         <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="d015-8e37-8b3f-59b9" name="Disintegration pistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+    <profile id="d015-8e37-8b3f-59b9" name="Disintegration 手枪" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="射程" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">9寸</characteristic>
         <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手枪 1</characteristic>
@@ -9015,7 +9015,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">10</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">这个武器 can only be fired 一次性. 曲射. When targeting 单位 with 10 or more models, change 这个武器&apos;s Type to Heavy D6.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">这个武器 can only be fired 一次性. 曲射. When targeting 单位 with 10 or more models, change 这个武器的 Type to Heavy D6.</characteristic>
       </characteristics>
     </profile>
     <profile id="3937-3d5e-da78-af96" name="等离子爆裂枪-标准" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">

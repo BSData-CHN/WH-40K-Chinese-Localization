@@ -618,7 +618,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="90aa-6e4f-d437-5022" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="6f63-3bed-a95b-95d6" name="审判官 Pistol 武器" hidden="false" collective="false" import="true" targetId="8eb0-a9f6-d706-3686" type="selectionEntryGroup"/>
+            <entryLink id="6f63-3bed-a95b-95d6" name="审判官 手枪 武器" hidden="false" collective="false" import="true" targetId="8eb0-a9f6-d706-3686" type="selectionEntryGroup"/>
             <entryLink id="4a63-969c-802e-9b6b" name="审判官 远程武器" hidden="false" collective="false" import="true" targetId="7d0c-eac8-e4b4-1ad7" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
@@ -722,7 +722,7 @@
             <categoryLink id="ef40-a3fd-60cd-253d" name="人物" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
           </categoryLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup id="2055-3a47-a902-3595" name="Pistol" hidden="false" collective="false" import="true" defaultSelectionEntryId="cf6e-55df-110d-ca19">
+            <selectionEntryGroup id="2055-3a47-a902-3595" name="手枪" hidden="false" collective="false" import="true" defaultSelectionEntryId="cf6e-55df-110d-ca19">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="827d-371a-9dcb-7801" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f35-ca0b-7794-8f1e" type="min"/>
@@ -1185,14 +1185,14 @@
               <modifiers>
                 <modifier type="increment" field="5afb-9914-904b-d3b3" value="1"/>
                 <modifier type="increment" field="b5ac-9c20-5d5a-6f9b" value="1"/>
-                <modifier type="set" field="69d7-b45e-00a2-7e46" value="惩击 and 2 灵能 Telethesia discipline"/>
+                <modifier type="set" field="69d7-b45e-00a2-7e46" value="惩击, 2 灵能 Telethesia discipline"/>
               </modifiers>
             </modifierGroup>
           </modifierGroups>
           <characteristics>
             <characteristic name="Cast" typeId="5afb-9914-904b-d3b3">1</characteristic>
             <characteristic name="Deny" typeId="b5ac-9c20-5d5a-6f9b">1</characteristic>
-            <characteristic name="Powers Known" typeId="69d7-b45e-00a2-7e46">惩击 and 1 灵能 Telethesia discipline</characteristic>
+            <characteristic name="Powers Known" typeId="69d7-b45e-00a2-7e46">惩击, 1 灵能 Telethesia discipline</characteristic>
             <characteristic name="Other" typeId="c2e2-f115-0003-5d7b">-</characteristic>
           </characteristics>
         </profile>
@@ -1912,7 +1912,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When resolving an attack made with 这个武器 对抗 a 单位 that is 范围内 half range or that has the 混沌 or 灵能者 关键字, roll two D6 when inflicting 伤害 and discard one of the results</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When resolving an attack made with 这个武器 对抗 a 单位 that is 范围内 half range or that has the 混沌or 灵能者 关键字, roll two D6 when inflicting 伤害 and discard one of the results</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2307,7 +2307,7 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="8eb0-a9f6-d706-3686" name="审判官 Pistol 武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="996c-8092-19bd-b4ea">
+    <selectionEntryGroup id="8eb0-a9f6-d706-3686" name="审判官 手枪 武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="996c-8092-19bd-b4ea">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66bd-873f-b5a9-65d2" type="max"/>
       </constraints>
@@ -2320,7 +2320,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80cd-90cf-ae1b-10ec" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="b8cb-ea11-e9cf-1d06" name="Needle Pistol" hidden="false" collective="false" import="true" targetId="3790-ebf1-ac1e-1624" type="selectionEntry">
+        <entryLink id="b8cb-ea11-e9cf-1d06" name="Needle 手枪" hidden="false" collective="false" import="true" targetId="3790-ebf1-ac1e-1624" type="selectionEntry">
           <costs>
             <cost name="pts" typeId="points" value="2.0"/>
           </costs>
@@ -2379,7 +2379,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3855-120d-4c83-2418" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="acb1-31ca-ba49-3baa" name="Force sword" hidden="false" collective="false" import="true" targetId="07e7-1f9b-4c1c-aad9" type="selectionEntry">
+        <entryLink id="acb1-31ca-ba49-3baa" name="立场剑" hidden="false" collective="false" import="true" targetId="07e7-1f9b-4c1c-aad9" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="points" value="8.0"/>
           </modifiers>
@@ -2387,7 +2387,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5642-b8c0-d746-8508" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="84bf-42d3-0fd8-99a8" name="Force 杖" hidden="false" collective="false" import="true" targetId="6f9a-c4fe-3132-d011" type="selectionEntry">
+        <entryLink id="84bf-42d3-0fd8-99a8" name="立场杖" hidden="false" collective="false" import="true" targetId="6f9a-c4fe-3132-d011" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="points" value="8.0"/>
           </modifiers>
@@ -2395,7 +2395,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a83-4c79-b8c9-f522" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="771d-7b23-b10d-691a" name="Force axe" hidden="false" collective="false" import="true" targetId="4a0e-0f13-63c2-9aae" type="selectionEntry">
+        <entryLink id="771d-7b23-b10d-691a" name="立场斧" hidden="false" collective="false" import="true" targetId="4a0e-0f13-63c2-9aae" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="points" value="10.0"/>
           </modifiers>
@@ -2790,7 +2790,7 @@ If your army does not include any 审判庭 detachments, one 审判官 单位 ca
     </profile>
     <profile id="26e3-c591-c05d-c6bd" name="Quarry" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A 单位 具有这个能力的 gains a bonus when attacking a certain type of 敌方. Iif the 单位 belongs to the 圣锤修会, the 讨逆修会 or the 攘外修会, it 获得 relevant trait from the table below.  If the 单位 does not belong to one of these 3 main Ordos, it belongs to one of the rarer and more specialized Ordos.  These Ordos are assumed to be focused upon hunting down specific individuals that pose a threat to the 帝国, and so gain the Specialist trait from the table below.  Malleus - 可以重投命中骰 and wound 骰 for 圣锤修会 单位 if the target has the 混沌 or 恶魔 关键字.  Hereticus - 可以重投命中骰 and wound 骰 for 讨逆修会 单位 if the target has the 混沌 or 灵能者 关键字.  异形 - 可以重投命中骰 and wound 骰 of 1 for 攘外修会 单位 if the target do not have the 混沌, 帝国 or UNALIGNED FACTION keywords.  Specialist - 可以重投命中骰 骰 of 1 for ORDO SPECIALIST 单位 if the target has the 混沌 or 恶魔 关键字.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A 单位 具有这个能力的 gains a bonus when attacking a certain type of 敌方. Iif the 单位 belongs to the 圣锤修会, the 讨逆修会 or the 攘外修会, it 获得 relevant trait from the table below.  If the 单位 does not belong to one of these 3 main Ordos, it belongs to one of the rarer and more specialized Ordos.  These Ordos are assumed to be focused upon hunting down specific individuals that pose a threat to the 帝国, and so gain the Specialist trait from the table below.  Malleus - 可以重投命中骰 and wound 骰 for 圣锤修会 单位 if the target has the 混沌or 恶魔 关键字.  Hereticus - 可以重投命中骰 and wound 骰 for 讨逆修会 单位 if the target has the 混沌or 灵能者 关键字.  异形 - 可以重投命中骰 and wound 骰 of 1 for 攘外修会 单位 if the target do not have the 混沌, 帝国 or UNALIGNED FACTION keywords.  Specialist - 可以重投命中骰 骰 of 1 for ORDO SPECIALIST 单位 if the target has the 混沌or 恶魔 关键字.</characteristic>
       </characteristics>
     </profile>
     <profile id="3dec-967b-c8fd-af29" name="Quarry - Hereticus" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -2798,7 +2798,7 @@ If your army does not include any 审判庭 detachments, one 审判官 单位 ca
         <modifier type="set" field="name" value="Quarry"/>
       </modifiers>
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made by a 模型 in 这个单位 对抗 a 混沌 or 灵能者 单位, you can 重投 the 命中 roll and you can 重投 the wound roll.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made by a 模型 in 这个单位 对抗 a 混沌or 灵能者 单位, you can 重投 the 命中 roll and you can 重投 the wound roll.</characteristic>
       </characteristics>
     </profile>
     <profile id="5086-d3c4-7238-d42f" name="Quarry - Malleus" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -2806,7 +2806,7 @@ If your army does not include any 审判庭 detachments, one 审判官 单位 ca
         <modifier type="set" field="name" value="Quarry"/>
       </modifiers>
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made by a 模型 in 这个单位 对抗 a 混沌 or 恶魔 单位, you can 重投 the 命中 roll and you can 重投 the wound roll.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made by a 模型 in 这个单位 对抗 a 混沌or 恶魔 单位, you can 重投 the 命中 roll and you can 重投 the wound roll.</characteristic>
       </characteristics>
     </profile>
     <profile id="25d5-4784-1a05-e93c" name="Quarry - 异形" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
