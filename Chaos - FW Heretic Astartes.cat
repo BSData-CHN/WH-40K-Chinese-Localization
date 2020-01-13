@@ -75,7 +75,7 @@
     <categoryEntry id="1220-2c46-baf6-0616" name="阵营: 吞世者" hidden="false"/>
     <categoryEntry id="8005-9fea-4a32-1869" name="维护者" hidden="false"/>
     <categoryEntry id="4ba2-cae3-d215-570d" name="魔铸 细剑Crew" hidden="false"/>
-    <categoryEntry id="9bd7-a724-a37d-f280" name="魔铸 细剑Battery" hidden="false"/>
+    <categoryEntry id="9bd7-a724-a37d-f280" name="魔铸 细剑阵列" hidden="false"/>
   </categoryEntries>
   <selectionEntries>
     <selectionEntry id="c0e9-256f-10ed-ca29" name="所有 ENTRIES HAVE BEEN MERGED INTO THE MAIN 混沌 CATALOGUES" hidden="false" collective="false" import="false" type="upgrade">
@@ -353,7 +353,7 @@
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">1</characteristic>
           </characteristics>
         </profile>
-        <profile id="c85b-4560-9970-84bd" name="Putrid Explosion" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="c85b-4560-9970-84bd" name="腐臭爆炸" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If a Greater Blight Drone is reduced to 0 wounds, 在被移除前投掷1个D6, 结果为4+ it 爆炸, and each 单位 withint 7寸 遭受 D3 致命伤.</characteristic>
           </characteristics>
@@ -402,13 +402,13 @@
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="a5d5-7181-6967-d120" name="Plague probe" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="a5d5-7181-6967-d120" name="瘟疫探针" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4b52-2153-7cb8-049b" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7eb2-af18-9fcc-2e9a" type="min"/>
           </constraints>
           <profiles>
-            <profile id="f431-2d19-2885-8413" name="Plague probe" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+            <profile id="f431-2d19-2885-8413" name="瘟疫探针" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -562,7 +562,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="b77b-c03f-2eb3-604c" name="Impaler harpoon options" hidden="false" collective="false" import="true" defaultSelectionEntryId="eafc-76d1-71c0-082e">
+        <selectionEntryGroup id="b77b-c03f-2eb3-604c" name="Impaler harpoon选项" hidden="false" collective="false" import="true" defaultSelectionEntryId="eafc-76d1-71c0-082e">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c4b9-90f4-48ca-8178" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a946-5086-7fb4-36ff" type="min"/>
@@ -665,7 +665,7 @@
         <categoryLink id="e7f5-b290-2b96-4515" name="New CategoryLink" hidden="false" targetId="c8fd-783f-3230-493e" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="1878-d8fd-c326-2133" name="Decimator Siege claw options" hidden="false" collective="false" import="true" defaultSelectionEntryId="00b4-0252-e233-0981">
+        <selectionEntryGroup id="1878-d8fd-c326-2133" name="Decimator Siege claw选项" hidden="false" collective="false" import="true" defaultSelectionEntryId="00b4-0252-e233-0981">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0c72-9042-0919-7f82" type="max"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3dea-e917-d5be-efec" type="min"/>
@@ -945,7 +945,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 不能 fired on any turn in which the 模型 carrying it has moved. 此外, for each 24寸 between the bearer and the target, increase the S by +2 and the 伤害 by +D3. If a 模型 is removed from play as a casualty due to wounds caused by 这个武器, then the target 单位 遭受 2D6 additional 命中 at S6, AP0, causing 1 伤害. These additional 命中 do not trigger further 命中 themselves. </characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 不能 fired on any turn in which the 模型 carrying it has moved. 此外, for each 24寸 between the bearer and the target, increase the S by +2 and the 伤害 by +D3. If a 模型 is removed from play as a casualty due to wounds caused by 这个武器, then the target 单位 遭受 2D6 额外的 命中 at S6, AP0, causing 1 伤害. These 额外的 命中 do not trigger further 命中 themselves. </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1045,7 +1045,7 @@
         </profile>
         <profile id="4d92-d8db-a415-ea8e" name="Hellfire Reactor" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A 单位 with this ability 拥有 5+ 特殊保护 对抗 射击 or 坚守射击 攻击, and a 4+ 特殊保护 对抗 肉搏攻击 in the 肉搏阶段.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A 单位 具有这个能力的 拥有 5+ 特殊保护 对抗 射击 or 坚守射击 攻击, and a 4+ 特殊保护 对抗 肉搏攻击 in the 肉搏阶段.</characteristic>
           </characteristics>
         </profile>
         <profile id="7ec2-af9e-3e45-dd43" name="Containment Breach" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -1210,7 +1210,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="2390-0a21-a1ab-849b" name="Havoc launcher" hidden="false" collective="false" import="true" targetId="c81f-1a15-8987-7cd1" type="selectionEntry">
+        <entryLink id="2390-0a21-a1ab-849b" name="浩劫发射器" hidden="false" collective="false" import="true" targetId="c81f-1a15-8987-7cd1" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a04-e2cf-5bd0-2d1f" type="max"/>
           </constraints>
@@ -1386,7 +1386,7 @@
           <profiles>
             <profile id="5a12-9a7c-4531-36f3" name="Accursed Phylactery" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The fallen and tormented souls bound to the phylactery constantly swirl about the 魔铸 Proteus in battle. 所有 单位 范围内 9寸 (both 友方 and 敌方) 必须 减少 1 from their LD, and if any 敌方单位 attempt to enter the game from a position that is not represented on the tabletop (i.e., in orbit, teleport, from the hidden halls of the Webway, etc) 任何位置 范围内 12寸 of the 魔铸 原型兰德掠袭者, the arriving 单位&apos;s controlling player 必须 投掷1个D6. If the score is a 1 or a 2 then the 单位 遭受 D3 致命伤 as it is deployed 战场上.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The 堕天使 and tormented souls bound to the phylactery constantly swirl about the 魔铸 Proteus in battle. 所有 单位 范围内 9寸 (both 友方 and 敌方) 必须 减少 1 from their LD, and if any 敌方单位 attempt to enter the game from a position that is not represented on the tabletop (i.e., in orbit, teleport, from the hidden halls of the Webway, etc) 任何位置 范围内 12寸 of the 魔铸 原型兰德掠袭者, the arriving 单位&apos;s controlling player 必须 投掷1个D6. If the score is a 1 or a 2 then the 单位 遭受 D3 致命伤 as it is deployed 战场上.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1398,7 +1398,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="c0e3-f97d-64c0-e067" name="双联重爆弹 options" hidden="false" collective="false" import="true" defaultSelectionEntryId="ef19-6630-7622-d7e6">
+        <selectionEntryGroup id="c0e3-f97d-64c0-e067" name="双联重爆弹选项" hidden="false" collective="false" import="true" defaultSelectionEntryId="ef19-6630-7622-d7e6">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="61d6-1443-6753-866e" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8a17-e103-9f4d-dfa2" type="min"/>
@@ -1414,7 +1414,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3100-9603-863d-4650" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="fe59-fe81-e3b3-e6b6" name="Havoc launcher" hidden="false" collective="false" import="true" targetId="c81f-1a15-8987-7cd1" type="selectionEntry"/>
+            <entryLink id="fe59-fe81-e3b3-e6b6" name="浩劫发射器" hidden="false" collective="false" import="true" targetId="c81f-1a15-8987-7cd1" type="selectionEntry"/>
             <entryLink id="ec48-696f-9d86-7137" name="复合武器" hidden="false" collective="false" import="true" targetId="c270-b43b-915c-3703" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
@@ -1460,12 +1460,12 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c81f-1a15-8987-7cd1" name="Havoc launcher" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="c81f-1a15-8987-7cd1" name="浩劫发射器" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdc0-d1dd-8702-7e9e" type="max"/>
       </constraints>
       <profiles>
-        <profile id="4434-6819-1005-b9d9" name="Havoc launcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="4434-6819-1005-b9d9" name="浩劫发射器" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 D6</characteristic>
@@ -1539,7 +1539,7 @@
             <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">这个模型 可以运输 6 &lt;军团&gt; 步兵模型 (each 终结者 and 跳跃背包 模型 takes up the space of two other models, and each 泯灭密教 模型 takes up the space of three other models). </characteristic>
           </characteristics>
         </profile>
-        <profile id="3523-2284-6ba7-e92e" name="Daemonic Resiilence" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="3523-2284-6ba7-e92e" name="恶魔 Resiilence" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型拥有 4+ 特殊保护.</characteristic>
           </characteristics>
@@ -1564,7 +1564,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="155f-87f9-c938-7a88" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="671a-d04f-da94-f93a" name="Havoc launcher" hidden="false" collective="false" import="true" targetId="c81f-1a15-8987-7cd1" type="selectionEntry"/>
+            <entryLink id="671a-d04f-da94-f93a" name="浩劫发射器" hidden="false" collective="false" import="true" targetId="c81f-1a15-8987-7cd1" type="selectionEntry"/>
             <entryLink id="4edd-55e6-7dce-1b97" name="复合武器" hidden="false" collective="false" import="true" targetId="c270-b43b-915c-3703" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
@@ -1670,7 +1670,7 @@
         </profile>
         <profile id="538b-35dc-853a-10bf" name="Hate-fuelled Rampage" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A 模型 with this ability can make D3 additional 攻击 during the 肉搏阶段 if it successfully charged in the same turn.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A 模型 具有这个能力的 can make D3 额外的 攻击 during the 肉搏阶段 if it successfully charged in the same turn.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1691,11 +1691,11 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2fb3-2434-872d-5053" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="1fba-6a90-6809-fb6e" name="Havoc launcher" hidden="false" collective="false" import="true" targetId="c81f-1a15-8987-7cd1" type="selectionEntry"/>
+            <entryLink id="1fba-6a90-6809-fb6e" name="浩劫发射器" hidden="false" collective="false" import="true" targetId="c81f-1a15-8987-7cd1" type="selectionEntry"/>
             <entryLink id="913b-2b5a-3998-2a94" name="复合武器" hidden="false" collective="false" import="true" targetId="c270-b43b-915c-3703" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="1d1f-13f3-0907-b86a" name="等离子毁灭者 options" hidden="false" collective="false" import="true" defaultSelectionEntryId="0e9d-982e-2520-a2ea">
+        <selectionEntryGroup id="1d1f-13f3-0907-b86a" name="等离子毁灭者选项" hidden="false" collective="false" import="true" defaultSelectionEntryId="0e9d-982e-2520-a2ea">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e246-9994-b589-3be0" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bfc6-6f68-6633-92a0" type="min"/>
@@ -1954,7 +1954,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7232-609a-47aa-3646" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="5ff5-09f9-320c-df90" name="Havoc launcher" hidden="false" collective="false" import="true" targetId="c81f-1a15-8987-7cd1" type="selectionEntry"/>
+            <entryLink id="5ff5-09f9-320c-df90" name="浩劫发射器" hidden="false" collective="false" import="true" targetId="c81f-1a15-8987-7cd1" type="selectionEntry"/>
             <entryLink id="ee40-5cfb-4b8d-40c0" name="复合武器" hidden="false" collective="false" import="true" targetId="c270-b43b-915c-3703" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
@@ -1981,9 +1981,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f280-8863-be14-0159" name="魔铸 Sicaran" page="17" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="f280-8863-be14-0159" name="魔铸 西卡然" page="17" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="224b-f6ee-2211-ea68" name="魔铸 Sicaran" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+        <profile id="224b-f6ee-2211-ea68" name="魔铸 西卡然" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">*</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
@@ -1996,7 +1996,7 @@
             <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="e336-beae-d1d5-4dcd" name="魔铸 Sicaran" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
+        <profile id="e336-beae-d1d5-4dcd" name="魔铸 西卡然" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
             <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">-</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">M</characteristic>
@@ -2051,7 +2051,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3ad1-fb31-0e74-e700" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="f74a-7a2d-f1f5-579b" name="Havoc launcher" hidden="false" collective="false" import="true" targetId="c81f-1a15-8987-7cd1" type="selectionEntry"/>
+            <entryLink id="f74a-7a2d-f1f5-579b" name="浩劫发射器" hidden="false" collective="false" import="true" targetId="c81f-1a15-8987-7cd1" type="selectionEntry"/>
             <entryLink id="78a6-77dc-c1d6-b651" name="复合武器" hidden="false" collective="false" import="true" targetId="c270-b43b-915c-3703" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
@@ -2140,9 +2140,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="31a0-13f1-0374-f511" name="魔铸 Sicaran Venator" page="18" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="31a0-13f1-0374-f511" name="魔铸 西卡然 Venator" page="18" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="977a-b293-1d63-60e6" name="魔铸 Sicaran Venator" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+        <profile id="977a-b293-1d63-60e6" name="魔铸 西卡然 Venator" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">*</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
@@ -2155,7 +2155,7 @@
             <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="55ab-9ca9-de5b-e8c8" name="魔铸 Sicaran Venator" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
+        <profile id="55ab-9ca9-de5b-e8c8" name="魔铸 西卡然 Venator" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
             <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">-</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">M</characteristic>
@@ -2163,7 +2163,7 @@
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">A</characteristic>
           </characteristics>
         </profile>
-        <profile id="8340-5543-ec0f-f7eb" name="魔铸 Sicaran Venator1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
+        <profile id="8340-5543-ec0f-f7eb" name="魔铸 西卡然 Venator1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
             <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">7-11+</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">14寸</characteristic>
@@ -2171,7 +2171,7 @@
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">4</characteristic>
           </characteristics>
         </profile>
-        <profile id="8cbd-3eec-c118-f79d" name="魔铸 Sicaran Venator2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
+        <profile id="8cbd-3eec-c118-f79d" name="魔铸 西卡然 Venator2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
             <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">3-6</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">10寸</characteristic>
@@ -2179,7 +2179,7 @@
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">3</characteristic>
           </characteristics>
         </profile>
-        <profile id="612d-884d-da5b-2f83" name="魔铸 Sicaran Venator3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
+        <profile id="612d-884d-da5b-2f83" name="魔铸 西卡然 Venator3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
             <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">1-2</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">8寸</characteristic>
@@ -2194,7 +2194,7 @@
         </profile>
         <profile id="21cd-5d8d-97d4-6112" name="Undying Hatred" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If, in the preceding turn, a 魔铸 Sicaran Venerator has caused 任何敌方模型 to be removed as a casualty, it 骰 an additional dice when making wound 骰 for its Malignatas beam laser and discards the lowest dice before calculating the result of the roll.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If, in the preceding turn, a 魔铸 西卡然 Venerator has caused 任何敌方模型 to be removed as a casualty, it 骰 an 额外的 dice when making wound 骰 for its Malignatas beam laser and discards the lowest dice before calculating the result of the roll.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2215,7 +2215,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="95ae-6373-fea8-71f2" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="43be-1bf2-d87c-8e06" name="Havoc launcher" hidden="false" collective="false" import="true" targetId="c81f-1a15-8987-7cd1" type="selectionEntry"/>
+            <entryLink id="43be-1bf2-d87c-8e06" name="浩劫发射器" hidden="false" collective="false" import="true" targetId="c81f-1a15-8987-7cd1" type="selectionEntry"/>
             <entryLink id="a289-f9d4-ca33-8c64" name="复合武器" hidden="false" collective="false" import="true" targetId="c270-b43b-915c-3703" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
@@ -2371,7 +2371,7 @@
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 may 撤退 in the 移动阶段 and still shoot and/or Charge during the controlling player&apos;s turn. It may fire its 武器 if 敌方单位 are 范围内 1寸 of it. 此外, 这个模型 only gains a bonus to its save in cover if at least half of the 模型 is obscured from the bearer.</characteristic>
           </characteristics>
         </profile>
-        <profile id="217f-551c-7157-2771" name="Daemonic Machine Spirit" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="217f-551c-7157-2771" name="恶魔 Machine Spirit" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 does not suffer the penalty to its 命中 骰 for moving and firing 重型武器.</characteristic>
           </characteristics>
@@ -2380,7 +2380,7 @@
       <infoLinks>
         <infoLink id="0b15-54a2-b741-8fca" name="Machina Malifica" hidden="false" targetId="d36c-b849-b0ba-625b" type="profile"/>
         <infoLink id="795a-2e97-6f44-0737" name="烟雾发射器" hidden="false" targetId="9adf-09bc-1635-b650" type="profile"/>
-        <infoLink id="c535-9954-7a0b-e753" name="Daemonic Machine Spirit" hidden="false" targetId="7d3d-583e-7352-6501" type="profile"/>
+        <infoLink id="c535-9954-7a0b-e753" name="恶魔 Machine Spirit" hidden="false" targetId="7d3d-583e-7352-6501" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="2d14-e33b-04ec-3ea4" name="New CategoryLink" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
@@ -2392,7 +2392,7 @@
         <categoryLink id="a7bb-5f25-90b5-c345" name="New CategoryLink" hidden="false" targetId="bdda-36f0-4f32-1639" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="54ed-7cc0-d300-7878" name="四联激光炮 options" hidden="false" collective="false" import="true" defaultSelectionEntryId="1029-211f-25dd-79a0">
+        <selectionEntryGroup id="54ed-7cc0-d300-7878" name="四联激光炮选项" hidden="false" collective="false" import="true" defaultSelectionEntryId="1029-211f-25dd-79a0">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f064-7225-6635-26ab" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3542-6a31-629d-728e" type="min"/>
@@ -2435,11 +2435,11 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fc29-2c38-ff2f-47e7" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="8cac-fecd-3d12-20ef" name="Havoc launcher" hidden="false" collective="false" import="true" targetId="c81f-1a15-8987-7cd1" type="selectionEntry"/>
+            <entryLink id="8cac-fecd-3d12-20ef" name="浩劫发射器" hidden="false" collective="false" import="true" targetId="c81f-1a15-8987-7cd1" type="selectionEntry"/>
             <entryLink id="0684-fbfc-a2ca-6dd1" name="复合武器" hidden="false" collective="false" import="true" targetId="c270-b43b-915c-3703" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="f437-369c-c0d7-2a13" name="双联重爆弹 options" hidden="false" collective="false" import="true" defaultSelectionEntryId="a130-f987-b375-af90">
+        <selectionEntryGroup id="f437-369c-c0d7-2a13" name="双联重爆弹选项" hidden="false" collective="false" import="true" defaultSelectionEntryId="a130-f987-b375-af90">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3ce2-ffbf-d0cd-83b4" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e0c8-b10b-c1a7-c0ad" type="min"/>
@@ -2553,7 +2553,7 @@
         </profile>
         <profile id="11e5-cf52-0a11-33dd" name="Hellfire Reactor" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A 单位 with this ability 拥有 5+ 特殊保护 对抗 射击 or 坚守射击 攻击, and a 4+ invulneralbe save 对抗 肉搏攻击 in the 肉搏阶段.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A 单位 具有这个能力的 拥有 5+ 特殊保护 对抗 射击 or 坚守射击 攻击, and a 4+ invulneralbe save 对抗 肉搏攻击 in the 肉搏阶段.</characteristic>
           </characteristics>
         </profile>
         <profile id="9b24-2e65-2fe1-8287" name="Containment Breach" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -2606,7 +2606,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="9ffe-eb51-f7a7-1689" name="双联重爆弹 options" hidden="false" collective="false" import="true" defaultSelectionEntryId="5bdb-f8bf-d669-2340">
+        <selectionEntryGroup id="9ffe-eb51-f7a7-1689" name="双联重爆弹选项" hidden="false" collective="false" import="true" defaultSelectionEntryId="5bdb-f8bf-d669-2340">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a518-bc7a-974f-2472" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="995b-c67a-0b26-1c6b" type="min"/>
@@ -2616,7 +2616,7 @@
             <entryLink id="baf9-e079-2407-66b1" name="双联重喷火" hidden="false" collective="false" import="true" targetId="8d70-a6af-cbad-f08c" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="434c-def0-6094-80ae" name="Butcher cannon array options" hidden="false" collective="false" import="true" defaultSelectionEntryId="b611-2c8c-9746-ddc4">
+        <selectionEntryGroup id="434c-def0-6094-80ae" name="Butcher cannon array选项" hidden="false" collective="false" import="true" defaultSelectionEntryId="b611-2c8c-9746-ddc4">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8f22-edcd-494f-07e6" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5188-2e30-2cfa-1984" type="min"/>
@@ -2629,7 +2629,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="4f4f-806c-876a-ba53" name="Greater havoc launcher" hidden="false" collective="false" import="true" targetId="7bc0-e786-b50f-2160" type="selectionEntry">
+        <entryLink id="4f4f-806c-876a-ba53" name="Greater 浩劫发射器" hidden="false" collective="false" import="true" targetId="7bc0-e786-b50f-2160" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="09d9-8511-48aa-23b9" value="0.0">
               <conditions>
@@ -2707,12 +2707,12 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7bc0-e786-b50f-2160" name="Greater havoc launcher" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="7bc0-e786-b50f-2160" name="Greater 浩劫发射器" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab20-884b-a17e-10f2" type="max"/>
       </constraints>
       <profiles>
-        <profile id="2160-85cd-c524-37b6" name="Greater havoc launcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="2160-85cd-c524-37b6" name="Greater 浩劫发射器" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 3D3</characteristic>
@@ -2729,7 +2729,7 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ffd9-5eea-5484-df0a" name="魔铸 细剑Battery" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="ffd9-5eea-5484-df0a" name="魔铸 细剑阵列" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="ef3b-00aa-fa52-1c5a" name="炮兵" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
@@ -2773,7 +2773,7 @@
             <categoryLink id="3b4a-d429-2c90-9cd8" name="New CategoryLink" hidden="false" targetId="ae37-74e2-8391-d0f8" primary="false"/>
             <categoryLink id="ff30-a52f-4679-91e9" name="New CategoryLink" hidden="false" targetId="c8fd-783f-3230-493e" primary="false"/>
             <categoryLink id="b505-aca4-3a6d-248e" name="New CategoryLink" hidden="false" targetId="f379-3f19-8545-bfc1" primary="false"/>
-            <categoryLink id="e2a6-bba3-99cd-c7b1" name="魔铸 细剑Battery" hidden="false" targetId="9bd7-a724-a37d-f280" primary="false"/>
+            <categoryLink id="e2a6-bba3-99cd-c7b1" name="魔铸 细剑阵列" hidden="false" targetId="9bd7-a724-a37d-f280" primary="false"/>
           </categoryLinks>
           <selectionEntries>
             <selectionEntry id="3964-2c63-6524-bf94" name="混沌 星际战士Crew" hidden="false" collective="false" import="true" type="upgrade">
@@ -2797,7 +2797,7 @@
                 </profile>
                 <profile id="3de3-9cf8-9303-58bc" name="混沌 星际战士Crew" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When a 魔铸 细剑Battery is 放置 战场上, 所有 模型 are 放置 in 单位 coherency. From that point onwards, 所有 the 魔铸 细剑batterys are treated as one 单位 and 所有 the 混沌 星际战士Crew are treated as another. 混沌 星际战士Crew may only be chosen as a target in the 射击阶段 if they are the closest 可见 单位 to the 模型 that is 射击.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When a 魔铸 细剑阵列 is 放置 战场上, 所有 模型 are 放置 in 单位 coherency. From that point onwards, 所有 the 魔铸 细剑batterys are treated as one 单位 and 所有 the 混沌 星际战士Crew are treated as another. 混沌 星际战士Crew may only be chosen as a target in the 射击阶段 if they are the closest 可见 单位 to the 模型 that is 射击.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2827,7 +2827,7 @@
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
-            <selectionEntryGroup id="d6af-a518-c215-6d80" name="四联重爆弹 options" hidden="false" collective="false" import="true" defaultSelectionEntryId="2e6e-73c4-fd35-a872">
+            <selectionEntryGroup id="d6af-a518-c215-6d80" name="四联重爆弹选项" hidden="false" collective="false" import="true" defaultSelectionEntryId="2e6e-73c4-fd35-a872">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1c7c-9df9-f2d9-1b62" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="185a-3964-4720-e817" type="min"/>
@@ -2959,7 +2959,7 @@
         </profile>
         <profile id="f8fe-489b-1610-423e" name="Hellfire Reactor" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A 单位 with this ability 拥有 5+ 特殊保护 对抗 射击 or 坚守射击 攻击, and a 4+ 特殊保护 对抗 肉搏攻击 in the 肉搏阶段.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A 单位 具有这个能力的 拥有 5+ 特殊保护 对抗 射击 or 坚守射击 攻击, and a 4+ 特殊保护 对抗 肉搏攻击 in the 肉搏阶段.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3169,7 +3169,7 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f5b8-443f-f85c-90f1" name="魔铸 Dreadclaw 空降舱" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="f5b8-443f-f85c-90f1" name="魔铸 死亡爪空降舱" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="4901-fc6e-fd48-f8d9" name="魔铸 Dreadclaw" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
@@ -3270,7 +3270,7 @@
         </profile>
         <profile id="1212-130c-0f8e-33dc" name="魔铸 Kharybdis" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
           <characteristics>
-            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">这个模型 可以运输 20 &lt;军团&gt; 步兵模型. Each 跳跃背包 or 终结者 模型 takes the space of two other models, or it can be used to transport a single 魔铸 蔑视者无畏, 魔铸 细剑BATTERY, or 混沌 HELBRUTE and no other 模型.</characteristic>
+            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">这个模型 可以运输 20 &lt;军团&gt; 步兵模型. Each 跳跃背包 or 终结者 模型 takes the space of two other models, or it can be used to transport a single 魔铸 蔑视者无畏, 魔铸 细剑阵列, or 混沌 HELBRUTE and no other 模型.</characteristic>
           </characteristics>
         </profile>
         <profile id="2ba3-10ef-6030-a0ad" name="魔铸 Kharybdis" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
@@ -3409,7 +3409,7 @@
         </profile>
         <profile id="a7aa-709a-cb4b-2b5b" name="Eternal Hatred" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If, in the preceeding turn, a 魔铸 Cerberus has caused 任何敌方模型 to be removed as a casualty, the player 骰 an additional dice when making wound 骰 for its Malignatas beam cannon and discards the lowest dice before calculating the result of the roll.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If, in the preceeding turn, a 魔铸 Cerberus has caused 任何敌方模型 to be removed as a casualty, the player 骰 an 额外的 dice when making wound 骰 for its Malignatas beam cannon and discards the lowest dice before calculating the result of the roll.</characteristic>
           </characteristics>
         </profile>
         <profile id="1528-d235-431d-06cb" name="Steel Behemoth" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -3421,7 +3421,7 @@
       <infoLinks>
         <infoLink id="9bdf-8382-550c-dbee" name="Machina Malifica" hidden="false" targetId="d36c-b849-b0ba-625b" type="profile"/>
         <infoLink id="b301-38ce-563b-e7e4" name="烟雾发射器" hidden="false" targetId="9adf-09bc-1635-b650" type="profile"/>
-        <infoLink id="5f62-a24e-b31a-75a0" name="Daemonic Machine Spirit" hidden="false" targetId="7d3d-583e-7352-6501" type="profile"/>
+        <infoLink id="5f62-a24e-b31a-75a0" name="恶魔 Machine Spirit" hidden="false" targetId="7d3d-583e-7352-6501" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="66c2-2ff4-63be-ba03" name="New CategoryLink" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
@@ -3432,7 +3432,7 @@
         <categoryLink id="21fa-8558-45fa-6b5b" name="New CategoryLink" hidden="false" targetId="c8fd-783f-3230-493e" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="196f-fd4c-a023-2c08" name="Heavy 武器 options" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="196f-fd4c-a023-2c08" name="Heavy 武器选项" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a4a3-75fe-fa3b-52b7" type="max"/>
           </constraints>
@@ -3474,7 +3474,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="30b8-13fd-9712-9103" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="5860-7e54-450b-5793" name="Havoc launcher" hidden="false" collective="false" import="true" targetId="c81f-1a15-8987-7cd1" type="selectionEntry"/>
+            <entryLink id="5860-7e54-450b-5793" name="浩劫发射器" hidden="false" collective="false" import="true" targetId="c81f-1a15-8987-7cd1" type="selectionEntry"/>
             <entryLink id="77a4-fca0-cb21-8316" name="复合武器" hidden="false" collective="false" import="true" targetId="c270-b43b-915c-3703" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
@@ -3676,7 +3676,7 @@
       <infoLinks>
         <infoLink id="7e74-c374-76a2-1a60" name="Machina Malifica" hidden="false" targetId="d36c-b849-b0ba-625b" type="profile"/>
         <infoLink id="653e-80e3-5f5b-016f" name="烟雾发射器" hidden="false" targetId="9adf-09bc-1635-b650" type="profile"/>
-        <infoLink id="b621-6edd-50e5-d167" name="Daemonic Machine Spirit" hidden="false" targetId="7d3d-583e-7352-6501" type="profile"/>
+        <infoLink id="b621-6edd-50e5-d167" name="恶魔 Machine Spirit" hidden="false" targetId="7d3d-583e-7352-6501" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="6f1d-0314-7941-d601" name="New CategoryLink" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
@@ -3729,7 +3729,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8913-12c2-8039-cb91" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="0219-7516-9fe4-a41b" name="Havoc launcher" hidden="false" collective="false" import="true" targetId="c81f-1a15-8987-7cd1" type="selectionEntry"/>
+            <entryLink id="0219-7516-9fe4-a41b" name="浩劫发射器" hidden="false" collective="false" import="true" targetId="c81f-1a15-8987-7cd1" type="selectionEntry"/>
             <entryLink id="f48b-755b-62f0-7d3f" name="复合武器" hidden="false" collective="false" import="true" targetId="c270-b43b-915c-3703" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
@@ -3775,14 +3775,14 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6fe4-b1d3-46d1-3481" name="魔铸 Fellblade" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="6fe4-b1d3-46d1-3481" name="魔铸 残暴之刃" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="fab7-b03d-6754-0ba6" name="Containment Breach" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 投掷1个D6 before removing it from the battlefield. 结果为roll of a 6 it 爆炸 and the hellish energies at its core are unleashed. Each 单位 范围内 2D6寸 遭受 D6 致命伤 unless it is a 灵能者, 这种情况下it 遭受 2D3 致命伤 instead.</characteristic>
           </characteristics>
         </profile>
-        <profile id="3740-2de6-ede1-8acd" name="魔铸 Fellblade" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+        <profile id="3740-2de6-ede1-8acd" name="魔铸 残暴之刃" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">*</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">*</characteristic>
@@ -3795,7 +3795,7 @@
             <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">2+</characteristic>
           </characteristics>
         </profile>
-        <profile id="0622-7c9d-129c-4d81" name="魔铸 Fellblade" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
+        <profile id="0622-7c9d-129c-4d81" name="魔铸 残暴之刃" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
             <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">-</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">M</characteristic>
@@ -3840,7 +3840,7 @@
       </profiles>
       <infoLinks>
         <infoLink id="c2fd-7236-8e0e-1c6f" name="Machina Malifica" hidden="false" targetId="d36c-b849-b0ba-625b" type="profile"/>
-        <infoLink id="fb59-6b98-64f6-b3e7" name="Daemonic Machine Spirit" hidden="false" targetId="7d3d-583e-7352-6501" type="profile"/>
+        <infoLink id="fb59-6b98-64f6-b3e7" name="恶魔 Machine Spirit" hidden="false" targetId="7d3d-583e-7352-6501" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="022b-9937-9519-d49a" name="New CategoryLink" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
@@ -3856,11 +3856,11 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c73d-1081-29ab-d616" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="68c3-8f61-f43f-06e8" name="Havoc launcher" hidden="false" collective="false" import="true" targetId="c81f-1a15-8987-7cd1" type="selectionEntry"/>
+            <entryLink id="68c3-8f61-f43f-06e8" name="浩劫发射器" hidden="false" collective="false" import="true" targetId="c81f-1a15-8987-7cd1" type="selectionEntry"/>
             <entryLink id="0f3d-151c-0198-e7c2" name="复合武器" hidden="false" collective="false" import="true" targetId="c270-b43b-915c-3703" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="493b-eecf-a08f-d675" name="四联激光炮 options" hidden="false" collective="false" import="true" defaultSelectionEntryId="934c-980d-7ab0-5cda">
+        <selectionEntryGroup id="493b-eecf-a08f-d675" name="四联激光炮选项" hidden="false" collective="false" import="true" defaultSelectionEntryId="934c-980d-7ab0-5cda">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70ff-3287-4e16-622e" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6c8-78a1-be39-ccd7" type="min"/>
@@ -3898,7 +3898,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="f8ee-70da-3189-de18" name="双联重爆弹 options" hidden="false" collective="false" import="true" defaultSelectionEntryId="3242-d75c-cb19-ef96">
+        <selectionEntryGroup id="f8ee-70da-3189-de18" name="双联重爆弹选项" hidden="false" collective="false" import="true" defaultSelectionEntryId="3242-d75c-cb19-ef96">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1aec-b90b-ddc4-b078" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d70-47b3-d826-58c5" type="min"/>
@@ -4050,7 +4050,7 @@
       </profiles>
       <infoLinks>
         <infoLink id="6375-bcc0-ab82-9af5" name="Machina Malifica" hidden="false" targetId="d36c-b849-b0ba-625b" type="profile"/>
-        <infoLink id="9b98-9ed5-1c9c-be1a" name="Daemonic Machine Spirit" hidden="false" targetId="7d3d-583e-7352-6501" type="profile"/>
+        <infoLink id="9b98-9ed5-1c9c-be1a" name="恶魔 Machine Spirit" hidden="false" targetId="7d3d-583e-7352-6501" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="f0df-5bcf-4bf3-1157" name="New CategoryLink" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
@@ -4066,11 +4066,11 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="de4b-ac69-c7f7-c677" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="ed22-4738-1d65-b193" name="Havoc launcher" hidden="false" collective="false" import="true" targetId="c81f-1a15-8987-7cd1" type="selectionEntry"/>
+            <entryLink id="ed22-4738-1d65-b193" name="浩劫发射器" hidden="false" collective="false" import="true" targetId="c81f-1a15-8987-7cd1" type="selectionEntry"/>
             <entryLink id="105c-1498-b4f2-f520" name="复合武器" hidden="false" collective="false" import="true" targetId="c270-b43b-915c-3703" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="57dc-b459-2223-91f7" name="四联激光炮 options" hidden="false" collective="false" import="true" defaultSelectionEntryId="b2f7-27e0-0d28-e404">
+        <selectionEntryGroup id="57dc-b459-2223-91f7" name="四联激光炮选项" hidden="false" collective="false" import="true" defaultSelectionEntryId="b2f7-27e0-0d28-e404">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37ae-f1cf-af4a-e58f" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a81-31df-a249-162d" type="min"/>
@@ -4108,7 +4108,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="1661-50a3-7524-9447" name="双联重爆弹 options" hidden="false" collective="false" import="true" defaultSelectionEntryId="2910-f108-39d2-ba3d">
+        <selectionEntryGroup id="1661-50a3-7524-9447" name="双联重爆弹选项" hidden="false" collective="false" import="true" defaultSelectionEntryId="2910-f108-39d2-ba3d">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eaa9-bcea-4be3-f426" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c24e-152b-1f3d-a1fa" type="min"/>
@@ -4231,7 +4231,7 @@
       <infoLinks>
         <infoLink id="5f48-79de-ed3f-73b5" name="Machina Malifica" hidden="false" targetId="d36c-b849-b0ba-625b" type="profile"/>
         <infoLink id="ddc4-b8d4-28da-b134" name="烟雾发射器" hidden="false" targetId="9adf-09bc-1635-b650" type="profile"/>
-        <infoLink id="1953-4a3e-e6e8-c5cf" name="Daemonic Machine Spirit" hidden="false" targetId="7d3d-583e-7352-6501" type="profile"/>
+        <infoLink id="1953-4a3e-e6e8-c5cf" name="恶魔 Machine Spirit" hidden="false" targetId="7d3d-583e-7352-6501" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="eb1d-a5a2-59ea-dd87" name="New CategoryLink" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
@@ -4319,9 +4319,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5d38-a97d-a864-dd4b" name="混沌 Hell Blade" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="5d38-a97d-a864-dd4b" name="混沌 地狱之刃" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="9225-0855-e44f-d2f3" name="混沌 Hell Blade" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+        <profile id="9225-0855-e44f-d2f3" name="混沌 地狱之刃" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">18-60寸</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">6+</characteristic>
@@ -4361,7 +4361,7 @@
         <categoryLink id="316d-daf6-2ba5-8cb2" name="飞行器槽位" hidden="false" targetId="d569-3d56-cd24-6a31" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="56ac-c00b-a81c-d559" name="Helstorm cannon options" hidden="false" collective="false" import="true" defaultSelectionEntryId="93c9-e35a-594f-5e5f">
+        <selectionEntryGroup id="56ac-c00b-a81c-d559" name="Helstorm cannon选项" hidden="false" collective="false" import="true" defaultSelectionEntryId="93c9-e35a-594f-5e5f">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b6d5-a952-f1ea-5f06" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2880-8045-69b4-44a0" type="min"/>
@@ -4429,19 +4429,19 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="dc79-77bc-6adb-dfbe" name="混沌 Hell Talon" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="dc79-77bc-6adb-dfbe" name="混沌 地狱之爪" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="fcab-b340-9271-0617" name="Crash and Burn" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 在被移除前投掷1个D6 and before any 上车 模型 下车. 结果为6则爆炸, 每个单位 范围内 6寸 遭受 D3 致命伤.</characteristic>
           </characteristics>
         </profile>
-        <profile id="4f92-2114-1e82-b1cc" name="Daemonic Machine Spirit" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="4f92-2114-1e82-b1cc" name="恶魔 Machine Spirit" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Ignore the -1 to 命中 modifier for moving and 射击 重型武器 for 这个模型.</characteristic>
           </characteristics>
         </profile>
-        <profile id="2d43-3293-12cc-983b" name="混沌 Hell Talon" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+        <profile id="2d43-3293-12cc-983b" name="混沌 地狱之爪" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">*</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">6+</characteristic>
@@ -4454,7 +4454,7 @@
             <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="6a1a-96fe-9086-0bcc" name="混沌 Hell Talon" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
+        <profile id="6a1a-96fe-9086-0bcc" name="混沌 地狱之爪" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
             <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">-</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">M</characteristic>
@@ -4503,17 +4503,17 @@
         <categoryLink id="8cb8-ace2-cfd8-396e" name="飞行器槽位" hidden="false" targetId="d569-3d56-cd24-6a31" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="352a-c0ec-9377-8557" name="Helstorm cannon options" hidden="false" collective="false" import="true" defaultSelectionEntryId="a21b-13ba-13b8-b50e">
+        <selectionEntryGroup id="352a-c0ec-9377-8557" name="Helstorm cannon选项" hidden="false" collective="false" import="true" defaultSelectionEntryId="a21b-13ba-13b8-b50e">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e7f5-51a6-aacf-a100" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5c7e-bc80-38bc-47e7" type="min"/>
           </constraints>
           <entryLinks>
             <entryLink id="a21b-13ba-13b8-b50e" name="Helstorm cannon" hidden="false" collective="false" import="true" targetId="6121-6041-4cca-0355" type="selectionEntry"/>
-            <entryLink id="b545-d7b1-cbe9-4a43" name="Havoc launcher" hidden="false" collective="false" import="true" targetId="c81f-1a15-8987-7cd1" type="selectionEntry"/>
+            <entryLink id="b545-d7b1-cbe9-4a43" name="浩劫发射器" hidden="false" collective="false" import="true" targetId="c81f-1a15-8987-7cd1" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="bd0d-c932-86f5-1c3c" name="Bomb options" hidden="false" collective="false" import="true" defaultSelectionEntryId="4b50-28f5-4c4c-9806">
+        <selectionEntryGroup id="bd0d-c932-86f5-1c3c" name="Bomb选项" hidden="false" collective="false" import="true" defaultSelectionEntryId="4b50-28f5-4c4c-9806">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5560-20c2-895d-039c" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1de3-a36a-f8a6-c0b3" type="min"/>
@@ -4523,7 +4523,7 @@
               <profiles>
                 <profile id="32fe-54aa-b233-5c44" name="Pyrax incendiary bombs" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, a Hell Talon equipped with Pyrax incendiary bombs can make a bombing run 对抗 a single 敌方单位 it moves over during one of its 移动阶段. After the Hell Talon has moved, pick an 敌方单位 that it flew over, then 投掷1个D6 for every 模型 in the 单位, 至多 a maximum of 20 D6. Add 1 to the results of the dice if the target is 步兵. For each roll of a 5+, the 单位 遭受 1点致命伤.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, a 地狱之爪 equipped with Pyrax incendiary bombs can make a bombing run 对抗 a single 敌方单位 it moves over during one of its 移动阶段. After the 地狱之爪 has moved, pick an 敌方单位 that it flew over, then 投掷1个D6 for every 模型 in the 单位, 至多 a maximum of 20 D6. Add 1 to the results of the dice if the target is 步兵. For each roll of a 5+, the 单位 遭受 1点致命伤.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4537,7 +4537,7 @@
               <profiles>
                 <profile id="a9c3-1d23-93ef-c5a4" name="Baletalon shatter charges" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, a Hell Talon equipped with Baletalon shatter charges can make a bombing run 对抗 a single 敌方单位 it moves over during one of its 移动阶段. After the Hell Talon has moved, pick an 敌方单位 that it flew over, then roll 6D6 for each 载具, 建筑, or 巨兽 in the 单位, or a single D6 for every other 模型 in the 单位, 至多 a maximum of 6D6. For each roll of a 3+, the 单位 being bombed 遭受 1点致命伤.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, a 地狱之爪 equipped with Baletalon shatter charges can make a bombing run 对抗 a single 敌方单位 it moves over during one of its 移动阶段. After the 地狱之爪 has moved, pick an 敌方单位 that it flew over, then roll 6D6 for each 载具, 建筑, or 巨兽 in the 单位, or a single D6 for every other 模型 in the 单位, 至多 a maximum of 6D6. For each roll of a 3+, the 单位 being bombed 遭受 1点致命伤.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4551,7 +4551,7 @@
               <profiles>
                 <profile id="aa6f-66ba-5425-e09b" name="Warp-pulse bombs" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, a Hell Talon equipped with Warp-pulse bombs can make a bombing run 对抗 a single 敌方单位 it moves over during one of its 移动阶段. After the Hell Talon has moved, pick an 敌方单位 that it flew over, then roll 3D6 for each 载具 or 巨兽 in the 单位 or a single D6 for every other 模型 in the 单位, 至多 a maximum of 9D6. For every roll of a 5+, the 单位 遭受 1点致命伤. 此外, the targeted 单位 subtracts 1 from its 命中 骰 and LD值 until the start of your opponent&apos;s next game turn.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, a 地狱之爪 equipped with Warp-pulse bombs can make a bombing run 对抗 a single 敌方单位 it moves over during one of its 移动阶段. After the 地狱之爪 has moved, pick an 敌方单位 that it flew over, then roll 3D6 for each 载具 or 巨兽 in the 单位 or a single D6 for every other 模型 in the 单位, 至多 a maximum of 9D6. For every roll of a 5+, the 单位 遭受 1点致命伤. 此外, the targeted 单位 subtracts 1 from its 命中 骰 and LD值 until the start of your opponent&apos;s next game turn.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4587,7 +4587,7 @@
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 在被移除前投掷1个D6 and before any 上车 模型 下车. 结果为6则爆炸, 每个单位 范围内 6寸 遭受 D3 致命伤.</characteristic>
           </characteristics>
         </profile>
-        <profile id="a939-37ee-d4a2-9fbd" name="Daemonic Machine Spirit" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="a939-37ee-d4a2-9fbd" name="恶魔 Machine Spirit" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Ignore the -1 to 命中 modifier for moving and 射击 重型武器 for 这个模型.</characteristic>
           </characteristics>
@@ -4597,7 +4597,7 @@
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Before 这个模型 moves in your 移动阶段, you can declare it will hover. Its M值 becomes 20寸 直到阶段结束, and it loses the Airborne, Hard to 命中, and 超音速 abilities until the beginning of your next 移动阶段.</characteristic>
           </characteristics>
         </profile>
-        <profile id="45b9-5038-b2bc-d5d0" name="混沌 Storm Eagle Gunship" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+        <profile id="45b9-5038-b2bc-d5d0" name="混沌 Storm Eagle 炮艇" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">*</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">6+</characteristic>
@@ -4664,7 +4664,7 @@
         <categoryLink id="e6e0-17ea-896f-5672" name="飞行器槽位" hidden="false" targetId="d569-3d56-cd24-6a31" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="152a-a12c-92c3-cd7e" name="重爆弹 options" hidden="false" collective="false" import="true" defaultSelectionEntryId="da8a-80ea-edd9-fbed">
+        <selectionEntryGroup id="152a-a12c-92c3-cd7e" name="重爆弹选项" hidden="false" collective="false" import="true" defaultSelectionEntryId="da8a-80ea-edd9-fbed">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d698-35e0-23fb-8848" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f87c-3eba-bcfc-d7b5" type="min"/>
@@ -4672,11 +4672,11 @@
           <entryLinks>
             <entryLink id="da8a-80ea-edd9-fbed" name="双联重爆弹" hidden="false" collective="false" import="true" targetId="09d8-7790-ed3f-4d6d" type="selectionEntry"/>
             <entryLink id="d195-cfda-30ca-60ed" name="双联多管热熔" hidden="false" collective="false" import="true" targetId="d496-bdd5-426e-3e80" type="selectionEntry"/>
-            <entryLink id="81c9-b4ca-6ea1-46fc" name="Havoc launcher" hidden="false" collective="false" import="true" targetId="c81f-1a15-8987-7cd1" type="selectionEntry"/>
+            <entryLink id="81c9-b4ca-6ea1-46fc" name="浩劫发射器" hidden="false" collective="false" import="true" targetId="c81f-1a15-8987-7cd1" type="selectionEntry"/>
             <entryLink id="b212-52f6-0989-64f6" name="收割者自动炮" hidden="false" collective="false" import="true" targetId="5ab4-1ee7-95ad-7e15" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="7376-e9fc-8c72-4d33" name="Missile options" hidden="false" collective="false" import="true" defaultSelectionEntryId="c4b6-8260-301b-b024">
+        <selectionEntryGroup id="7376-e9fc-8c72-4d33" name="Missile选项" hidden="false" collective="false" import="true" defaultSelectionEntryId="c4b6-8260-301b-b024">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="612c-cf14-3112-b3a9" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c17b-3d48-0edd-4f87" type="min"/>
@@ -4784,7 +4784,7 @@
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 在被移除前投掷1个D6 and before any 上车 模型 下车. 结果为6则爆炸, 每个单位 范围内 6寸 遭受 D3 致命伤.</characteristic>
           </characteristics>
         </profile>
-        <profile id="4c63-22ef-6382-cabc" name="Daemonic Machine Spirit" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="4c63-22ef-6382-cabc" name="恶魔 Machine Spirit" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Ignore the -1 to 命中 modifier for moving and 射击 重型武器 for 这个模型.</characteristic>
           </characteristics>
@@ -4794,7 +4794,7 @@
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Before 这个模型 moves in your 移动阶段, you can declare it will hover. Its M值 becomes 20寸 直到阶段结束, and it loses the Airborne, Hard to 命中, and 超音速 abilities until the beginning of your next 移动阶段.</characteristic>
           </characteristics>
         </profile>
-        <profile id="61b3-5311-6f22-2360" name="Fire Raptor Gunship" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+        <profile id="61b3-5311-6f22-2360" name="Fire Raptor 炮艇" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">*</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">6+</characteristic>
@@ -4855,7 +4855,7 @@
         <categoryLink id="7c49-2e5c-5dbe-826e" name="飞行器槽位" hidden="false" targetId="d569-3d56-cd24-6a31" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="1690-e6e2-0eba-266d" name="重爆弹 options" hidden="false" collective="false" import="true" defaultSelectionEntryId="8bce-2bb3-4929-c9f0">
+        <selectionEntryGroup id="1690-e6e2-0eba-266d" name="重爆弹选项" hidden="false" collective="false" import="true" defaultSelectionEntryId="8bce-2bb3-4929-c9f0">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5483-6cdf-d699-cbea" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7550-5c36-dd5f-6b55" type="min"/>
@@ -4893,7 +4893,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="eca1-b9f4-e7d2-2aa8" name="Missile options" hidden="false" collective="false" import="true" defaultSelectionEntryId="73d2-ae8c-cfed-9358">
+        <selectionEntryGroup id="eca1-b9f4-e7d2-2aa8" name="Missile选项" hidden="false" collective="false" import="true" defaultSelectionEntryId="73d2-ae8c-cfed-9358">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2eb9-66d6-c662-0fcb" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="110f-b3ec-eec5-eef1" type="min"/>
@@ -4982,7 +4982,7 @@
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 在被移除前投掷1个D6 and before any 上车 模型 下车. 结果为6则爆炸, 每个单位 范围内 6寸 遭受 2D6 致命伤.</characteristic>
           </characteristics>
         </profile>
-        <profile id="6a6c-ff94-25aa-0954" name="Daemonic Machine Spirit" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="6a6c-ff94-25aa-0954" name="恶魔 Machine Spirit" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Ignore the -1 to 命中 modifier for moving and 射击 重型武器 for 这个模型.</characteristic>
           </characteristics>
@@ -4992,7 +4992,7 @@
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Before 这个模型 moves in your 移动阶段, you can declare it will hover. Its M值 becomes 20寸 直到阶段结束, and it loses the Airborne, Colossal Flyer, and 超音速 abilities until the beginning of your next 移动阶段.</characteristic>
           </characteristics>
         </profile>
-        <profile id="55fd-f7b4-f27e-9b66" name="混沌 Thunderhawk Gunship" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+        <profile id="55fd-f7b4-f27e-9b66" name="混沌 Thunderhawk 炮艇" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">*</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">6+</characteristic>
@@ -5005,7 +5005,7 @@
             <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="015d-9c2f-dd3a-7e40" name="混沌 Thunderhawk Gunship" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
+        <profile id="015d-9c2f-dd3a-7e40" name="混沌 Thunderhawk 炮艇" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
             <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">-</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">M</characteristic>
@@ -5037,9 +5037,9 @@
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">3</characteristic>
           </characteristics>
         </profile>
-        <profile id="98c3-224b-3ea0-c77c" name="混沌 Thunderhawk Gunship" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
+        <profile id="98c3-224b-3ea0-c77c" name="混沌 Thunderhawk 炮艇" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
           <characteristics>
-            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">The 混沌 Thunderhawk Gunship 可以运输 30 &lt;军团&gt; 步兵模型 (each 终结者 and 跳跃背包 模型 takes up the space of two other models, and each 泯灭密教 模型 takes up the space of three other 模型. It may also transport 摩托 and CAVALRY models, these also take up the space of thee other models).</characteristic>
+            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">The 混沌 Thunderhawk 炮艇 可以运输 30 &lt;军团&gt; 步兵模型 (each 终结者 and 跳跃背包 模型 takes up the space of two other models, and each 泯灭密教 模型 takes up the space of three other 模型. It may also transport 摩托 and CAVALRY models, these also take up the space of thee other models).</characteristic>
           </characteristics>
         </profile>
         <profile id="d8e7-cb36-89e9-66ca" name="混沌 Thunderhawk Gunship4" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
@@ -5057,7 +5057,7 @@
         </profile>
         <profile id="111a-2c9f-c660-6dcb" name="Void-hardened Hull" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The 混沌 Thunderhawk Gunship 拥有 5+ 特殊保护.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The 混沌 Thunderhawk 炮艇 拥有 5+ 特殊保护.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5077,7 +5077,7 @@
         <categoryLink id="893d-6c10-30bf-512c" name="New CategoryLink" hidden="false" targetId="c888f08a-6cea-4a01-8126-d374a9231554" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="3568-e085-7a4b-e58b" name="重爆弹 options" hidden="false" collective="false" import="true" defaultSelectionEntryId="1ffc-a9b9-8dd8-7093">
+        <selectionEntryGroup id="3568-e085-7a4b-e58b" name="重爆弹选项" hidden="false" collective="false" import="true" defaultSelectionEntryId="1ffc-a9b9-8dd8-7093">
           <constraints>
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fc8c-bbc9-f773-5775" type="max"/>
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d24b-c4d4-3975-fd73" type="min"/>
@@ -5087,7 +5087,7 @@
             <entryLink id="1d91-2e6a-6bb4-4a4c" name="Reaper battery" hidden="false" collective="false" import="true" targetId="b72d-b9c2-52da-02be" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="474e-9c04-8487-6dcb" name="Missile options" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="474e-9c04-8487-6dcb" name="Missile选项" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ce46-9de5-0c32-4c94" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="58ba-a96c-2074-a607" type="min"/>
@@ -5098,7 +5098,7 @@
             <entryLink id="1910-490c-3440-536f" name="Thunderhawk cluster bombs" hidden="false" collective="false" import="true" targetId="647a-c461-be1c-add5" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="1ac5-4db4-70ba-79fe" name="Heavy cannon options" hidden="false" collective="false" import="true" defaultSelectionEntryId="341d-e3bf-498a-2415">
+        <selectionEntryGroup id="1ac5-4db4-70ba-79fe" name="Heavy cannon选项" hidden="false" collective="false" import="true" defaultSelectionEntryId="341d-e3bf-498a-2415">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a54-e5f9-1743-463b" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6db-c7b9-787a-9174" type="min"/>
@@ -5161,7 +5161,7 @@
       <profiles>
         <profile id="b992-0b30-b869-27cf" name="Thunderhawk cluster bombs" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性 a 混沌 Thunderhawk Gunship equipped with Thunderhawk cluster bombs can make a bombing run 对抗 a single 敌方单位 it moves over during one of its 移动阶段. After the 混沌 Thunderhawk Gunship has moved, pick a single 敌方单位 that it flew over. Roll 3D6 for every 载具 or 巨兽, or a D6 for every other 模型 in the 单位, 至多 a maximum of 132D6 per 单位. For each roll of a 5+, the 单位 遭受 1点致命伤. A 单位 which consists only of 人物 不能 targeted by this ability.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性 a 混沌 Thunderhawk 炮艇 equipped with Thunderhawk cluster bombs can make a bombing run 对抗 a single 敌方单位 it moves over during one of its 移动阶段. After the 混沌 Thunderhawk 炮艇 has moved, pick a single 敌方单位 that it flew over. Roll 3D6 for every 载具 or 巨兽, or a D6 for every other 模型 in the 单位, 至多 a maximum of 132D6 per 单位. For each roll of a 5+, the 单位 遭受 1点致命伤. A 单位 which consists only of 人物 不能 targeted by this ability.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5190,14 +5190,14 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="086a-3326-18e2-477f" name="混沌 索卡型风暴鸟 Gunship" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="086a-3326-18e2-477f" name="混沌 索卡型风暴鸟 炮艇" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="f076-95ad-6269-d851" name="Crash and Burn" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 在被移除前投掷1个D6 and before any 上车 模型 下车. 结果为4+ it crashes and 爆炸, 每个单位 范围内 2D6寸 遭受 2D6 致命伤.</characteristic>
           </characteristics>
         </profile>
-        <profile id="5af2-d607-c1f7-1c5a" name="Daemonic Machine Spirit" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="5af2-d607-c1f7-1c5a" name="恶魔 Machine Spirit" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Ignore the -1 to 命中 modifier for moving and 射击 重型武器 for 这个模型.</characteristic>
           </characteristics>
@@ -5249,7 +5249,7 @@
         </profile>
         <profile id="3ca6-aa1a-c5e0-b224" name="混沌 索卡型风暴鸟" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
           <characteristics>
-            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">The 混沌 索卡型风暴鸟 可以运输 50 &lt;军团&gt; 步兵模型 (each 终结者 and 跳跃背包 模型 takes up the space of two other models, and each 泯灭密教 模型 takes up the space of three other 模型. It may also transport 摩托 and CAVALRY models, these also take up the space of thee other models). The 混沌 索卡型风暴鸟 may also transport a single 混沌 犀牛, including its own transported models, occupying 25 models&apos; worth of space. When disembarking, the 犀牛 may only exit via the rear of the 混沌 索卡型风暴鸟.</characteristic>
+            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">The 混沌 索卡型风暴鸟 可以运输 50 &lt;军团&gt; 步兵模型 (each 终结者 and 跳跃背包 模型 takes up the space of two other models, and each 泯灭密教 模型 takes up the space of three other 模型. It may also transport 摩托 and CAVALRY models, these also take up the space of thee other models). The 混沌 索卡型风暴鸟 may also transport a single 混沌犀牛, including its own transported models, occupying 25 models&apos; worth of space. When disembarking, the 犀牛 may only exit via the rear of the 混沌 索卡型风暴鸟.</characteristic>
           </characteristics>
         </profile>
         <profile id="edb6-9e63-3195-f036" name="混沌 Sokar Pattern Stormbird4" hidden="false" typeId="150a-3fd2-81c5-cb57" typeName="损伤表, Sokar">
@@ -5298,7 +5298,7 @@
         <categoryLink id="4f2f-850d-fefb-069f" name="飞行器槽位" hidden="false" targetId="d569-3d56-cd24-6a31" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="fc4a-d979-b586-3eb8" name="重爆弹 options" hidden="false" collective="false" import="true" defaultSelectionEntryId="5ba7-bf0b-3877-7c2b">
+        <selectionEntryGroup id="fc4a-d979-b586-3eb8" name="重爆弹选项" hidden="false" collective="false" import="true" defaultSelectionEntryId="5ba7-bf0b-3877-7c2b">
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3668-6b1b-fd89-fee4" type="max"/>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="21fd-bb35-fa7b-1168" type="min"/>
@@ -5461,13 +5461,13 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d030-3003-cb8e-a2b7" name="Blight Grenades" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="d030-3003-cb8e-a2b7" name="瘟疫手雷" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="93da-3f63-4cde-2e46" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ddb8-58a3-3987-1f93" type="max"/>
       </constraints>
       <profiles>
-        <profile id="39d8-13dd-f57f-c12e" name="Blight grenades" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="39d8-13dd-f57f-c12e" name="瘟疫手雷" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手雷 D6</characteristic>
@@ -5499,7 +5499,7 @@
             <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="045e-b10d-dbb7-fff8" name="Daemonic" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="045e-b10d-dbb7-fff8" name="恶魔" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The 模型 拥有 5+ 特殊保护.</characteristic>
           </characteristics>
@@ -5535,8 +5535,8 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="11d6-ca63-019e-c59b" name="Disgustingly Resilient" hidden="false" targetId="ab0e-3e13-b00c-e2f5" type="profile"/>
-        <infoLink id="28f4-17e8-4575-8c6e" name="Daemonic Ritual" hidden="false" targetId="3641-cfd8-80a7-ce99" type="rule"/>
+        <infoLink id="11d6-ca63-019e-c59b" name="可憎坚韧" hidden="false" targetId="ab0e-3e13-b00c-e2f5" type="profile"/>
+        <infoLink id="28f4-17e8-4575-8c6e" name="恶魔 Ritual" hidden="false" targetId="3641-cfd8-80a7-ce99" type="rule"/>
         <infoLink id="636a-de3c-b13e-e052" name="爆炸" hidden="false" targetId="9446-1148-da70-4028" type="profile"/>
       </infoLinks>
       <categoryLinks>
@@ -5830,7 +5830,7 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0bd1-0985-c0fe-15d3" type="min"/>
           </constraints>
           <selectionEntryGroups>
-            <selectionEntryGroup id="4ec2-155e-933b-cac7" name="多管热熔 options" hidden="false" collective="false" import="true" defaultSelectionEntryId="0466-ea5a-7db2-8d8c">
+            <selectionEntryGroup id="4ec2-155e-933b-cac7" name="多管热熔选项" hidden="false" collective="false" import="true" defaultSelectionEntryId="0466-ea5a-7db2-8d8c">
               <modifiers>
                 <modifier type="set" field="8305-ec85-622c-78d0" value="2">
                   <conditionGroups>
@@ -5904,7 +5904,7 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="ed46-154a-be3c-f74c" name="Helbrute fist options" hidden="false" collective="false" import="true" targetId="ff63-ac97-0a51-e8dc" type="selectionEntryGroup">
+            <entryLink id="ed46-154a-be3c-f74c" name="Helbrute fist选项" hidden="false" collective="false" import="true" targetId="ff63-ac97-0a51-e8dc" type="selectionEntryGroup">
               <modifiers>
                 <modifier type="set" field="711a-a607-774a-dc35" value="1.0">
                   <conditions>
@@ -6008,7 +6008,7 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3772-315d-c096-915a" type="max"/>
           </constraints>
           <selectionEntryGroups>
-            <selectionEntryGroup id="c255-38d9-be0b-24ee" name="多管热熔 options" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="c255-38d9-be0b-24ee" name="多管热熔选项" hidden="false" collective="false" import="true">
               <modifiers>
                 <modifier type="set" field="b801-6976-f71d-6135" value="2.0">
                   <conditionGroups>
@@ -6115,7 +6115,7 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="790c-3620-b83c-c94b" name="Helbrute fist options" hidden="false" collective="false" import="true" targetId="ff63-ac97-0a51-e8dc" type="selectionEntryGroup">
+            <entryLink id="790c-3620-b83c-c94b" name="Helbrute fist选项" hidden="false" collective="false" import="true" targetId="ff63-ac97-0a51-e8dc" type="selectionEntryGroup">
               <modifiers>
                 <modifier type="set" field="711a-a607-774a-dc35" value="1.0">
                   <conditions>
@@ -6284,7 +6284,7 @@
           <characteristics>
             <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">5</characteristic>
             <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, select a 可见 友方 死亡守卫 单位 范围内 18寸 of the 灵能者. Until the start of your next 灵能阶段, add 1 to 所有 wound 骰 made by 那个单位. Furthermore, 所有造伤骰的 7+ made for 那个单位 in the 肉搏阶段 with a 肉搏 plague 武器 (i.e. a plague sword or any 武器 with the Pague 武器 ability) inflict 1点致命伤 对目标 此外 to any other 伤害.</characteristic>
+            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, select a 可见 友方 死亡守卫 单位 范围内 18寸 of the 灵能者. Until the start of your next 灵能阶段, add 1 to 所有 wound 骰 made by 那个单位. Furthermore, 所有造伤骰的 7+ made for 那个单位 in the 肉搏阶段 with a 肉搏 瘟疫武器 (i.e. a plague sword or any 武器 with the Pague 武器 ability) inflict 1点致命伤 对目标 此外 to any other 伤害.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6391,7 +6391,7 @@
         </profile>
         <profile id="cbf6-ab2f-e101-1caf" name="Machina Malifica" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of any turn in which a 单位 with this ability has slain 任何模型 in the 肉搏阶段 other than through 坚守射击 攻击, roll a number of D6 equal to the number of 模型 it has slain. Each of these dice that scores a result of 5+, heals one wound on the 单位 with this rule. 这个模型 不能 healed of wounds by any other means in the same turn as the one in which this ability is used.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of any turn in which a 单位 具有这个能力的 has slain 任何模型 in the 肉搏阶段 other than through 坚守射击 攻击, roll a number of D6 equal to the number of 模型 it has slain. Each of these dice that scores a result of 5+, heals one wound on the 单位 with this rule. 这个模型 不能 healed of wounds by any other means in the same turn as the one in which this ability is used.</characteristic>
           </characteristics>
         </profile>
         <profile id="f51a-cea7-7326-2905" name="In the Belly of the Beast" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -6523,7 +6523,7 @@
         <entryLink id="3c03-47e4-2fb1-1ad8" name="复合爆弹" hidden="false" collective="false" import="true" targetId="eba0-9fc6-5334-a390" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="ea58-c71e-108b-d619" name="Contagion Discipline" publicationId="2128-f196-pubN106623" page="57" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="ea58-c71e-108b-d619" name="腐化系" publicationId="2128-f196-pubN106623" page="57" hidden="false" collective="false" import="true">
       <entryLinks>
         <entryLink id="3a61-41a9-750f-ecea" name="Blades of Putrefaction" hidden="false" collective="false" import="true" targetId="600a-6243-caaa-9f95" type="selectionEntry"/>
         <entryLink id="2e0d-3936-f6ce-8574" name="Gift of Contagion" hidden="false" collective="false" import="true" targetId="c827-4bb5-de4b-d1b1" type="selectionEntry"/>
@@ -6533,7 +6533,7 @@
         <entryLink id="c4e7-35dc-7dea-be76" name="Curse of the Leper" hidden="false" collective="false" import="true" targetId="99eb-48db-3400-0478" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="ff63-ac97-0a51-e8dc" name="Helbrute fist options" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="ff63-ac97-0a51-e8dc" name="Helbrute fist选项" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="711a-a607-774a-dc35" type="max"/>
       </constraints>
@@ -6572,7 +6572,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">+2</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">持有者每次攻击, 可以造成 3 additional 攻击 with 这个武器.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">持有者每次攻击, 可以造成 3 额外的 攻击 with 这个武器.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6597,12 +6597,12 @@
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
-    <rule id="3641-cfd8-80a7-ce99" name="Daemonic Ritual" hidden="false">
-      <description>而不是 moving in their 移动阶段, any 混沌 人物 can, at the end of their 移动阶段, attempt to summon a 恶魔 单位 with this ability by performing a Daemonic Ritual (the 人物 cannot do so if they arrived as reinforcements this turn, or if they themselves have been summoned to the battlefield this turn).
+    <rule id="3641-cfd8-80a7-ce99" name="恶魔 Ritual" hidden="false">
+      <description>而不是 moving in their 移动阶段, any 混沌 人物 can, at the end of their 移动阶段, attempt to summon a 恶魔 单位 具有这个能力的 by performing a 恶魔 Ritual (the 人物 cannot do so if they arrived as reinforcements this turn, or if they themselves have been summoned to the battlefield this turn).
 
 If they do so, first choose one of the four 混沌 Gods - 恐虐, 奸奇, 纳垢, or 色孽. A 人物 who owes allegiance to one of the Dark Gods can attempt to summon the 单位 of their patron - for example, a 恐虐 人物 could only attempt to summon 恐虐 恶魔.
 
-Roll 至多 3 dice - this is your summoning roll. You can summon one new 单位 with the Daemonic Ritual ability to the battlefield that 拥有 Power Rating equal to or less than the total result so long as it has the same 混沌 God 关键字 you chose 开始时 (in the case of 单位 that have the choice of allegiance, such as Furies, the 单位 when summoned will have this 关键字.) 这个单位 is treated as reinforcements for your army and can be placed 任何位置 战场上 that is entirely 范围内 12寸 of the 人物 and is more than 9寸 from 任何敌方模型. If the total rolled is insufficient to summon any 单位, the ritual fails and no new 单位 is summoned.
+Roll 至多 3 dice - this is your summoning roll. You can summon one new 单位 with the 恶魔 Ritual ability to the battlefield that 拥有 Power Rating equal to or less than the total result so long as it has the same 混沌 God 关键字 you chose 开始时 (in the case of 单位 that have the choice of allegiance, such as Furies, the 单位 when summoned will have this 关键字.) 这个单位 is treated as reinforcements for your army and can be placed 任何位置 战场上 that is entirely 范围内 12寸 of the 人物 and is more than 9寸 from 任何敌方模型. If the total rolled is insufficient to summon any 单位, the ritual fails and no new 单位 is summoned.
 
 If your summoning roll included any doubles, your 人物 then 遭受 1点致命伤. If it contained any triples, it instead 遭受 D3 致命伤.</description>
     </rule>
@@ -6658,12 +6658,12 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 这个模型 moves, first pivot it on the spot 至多 90° (this does not contribute to how far the 模型 moves), and then move the 模型 straight forwards. Note that it cannot pivot again after the initial pivot. 当这个模型加速时, increase its M值 by 20寸 直到阶段结束 - 不需要投掷.</characteristic>
       </characteristics>
     </profile>
-    <profile id="ab0e-3e13-b00c-e2f5" name="Disgustingly Resilient" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="ab0e-3e13-b00c-e2f5" name="可憎坚韧" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 这个模型 失去1点W, 投掷1个D6; 结果为5-6, it does not lose that wound.</characteristic>
       </characteristics>
     </profile>
-    <profile id="7d3d-583e-7352-6501" name="Daemonic Machine Spirit" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="7d3d-583e-7352-6501" name="恶魔 Machine Spirit" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 does not suffer the penalty to 命中 骰 for moving and 射击.</characteristic>
       </characteristics>

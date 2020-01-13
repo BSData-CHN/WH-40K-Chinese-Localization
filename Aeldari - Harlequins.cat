@@ -94,7 +94,7 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3f0f-7345-bc4f-9771" name="Plasma Grenades" publicationId="7d24-b92f-pubN65537" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="3f0f-7345-bc4f-9771" name="Plasma 手雷" publicationId="7d24-b92f-pubN65537" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="2c50-ecf6-df9c-f381" name="Plasma Grenade" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
@@ -452,7 +452,7 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="aa46-0476-a387-d42e" name="Plasma Grenades" hidden="false" collective="false" import="true" targetId="3f0f-7345-bc4f-9771" type="selectionEntry">
+            <entryLink id="aa46-0476-a387-d42e" name="Plasma 手雷" hidden="false" collective="false" import="true" targetId="3f0f-7345-bc4f-9771" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e46-ed6e-158d-14c5" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f9fa-b3d6-7285-8262" type="max"/>
@@ -730,7 +730,7 @@
         </profile>
         <profile id="40eb-d804-2b98-db00" name="Shield from Harm" publicationId="7d24-b92f-pubN65537" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Your opponent 必须 减少 1 from the wound 骰 for any 攻击 made 对抗 友方 MASQUE 步兵单位 that are 范围内 6寸 of 任何模型 with this ability.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Your opponent 必须 减少 1 from the wound 骰 for any 攻击 made 对抗 友方 MASQUE 步兵单位 that are 范围内 6寸 of 任何模型 具有这个能力的.</characteristic>
           </characteristics>
         </profile>
         <profile id="bb2c-683c-fbad-de6b" name="Shadowseer - 灵能者" publicationId="7d24-b92f-pubN65537" page="57" hidden="false" typeId="bc97-dea9-9e88-bb7d" typeName="灵能者">
@@ -1290,7 +1290,7 @@
       <profiles>
         <profile id="e56e-8a38-b998-6437" name="Midnight Sorrow: The Art of Death" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">单位 with this form can move an additional D6寸 when they 撤退. 此外, 单位 with this form can consolidate 至多 6寸.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">单位 with this form can move an 额外的 D6寸 when they 撤退. 此外, 单位 with this form can consolidate 至多 6寸.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1773,7 +1773,7 @@
       <profiles>
         <profile id="0f45-4032-4eab-e451" name="Faolchu&apos;s Talon" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">SOARING SPITE 模型 only. While the wearer is 上车 结果为SOARING SPITE TRANSPORT, that 载具 may move an additional 6寸 in the 移动阶段. 此外, if a SOARING SPITE TRANSPORT is 被消灭 while the wearer is 上车 upon it, you do not need to roll any dice to see if any disembarking 模型 are slain or if the transport 爆炸 - no disembarking 模型 are slain and the transport does not explode.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">SOARING SPITE 模型 only. While the wearer is 上车 结果为SOARING SPITE TRANSPORT, that 载具 may move an 额外的 6寸 in the 移动阶段. 此外, if a SOARING SPITE TRANSPORT is 被消灭 while the wearer is 上车 upon it, you do not need to roll any dice to see if any disembarking 模型 are slain or if the transport 爆炸 - no disembarking 模型 are slain and the transport does not explode.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2411,7 +2411,7 @@ As soon as 任何单位 is 被消灭, 所有 单位 from your army benefit from 
     </profile>
     <profile id="cf69-4ca7-8cba-2f16" name="Open-topped" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models 上车 on 这个模型 can attack in their 射击阶段. Measure the range and draw line of sight from any point on 这个模型. When they do so, any restrictions or modifiers that apply to 这个模型 also apply to its passengers; for example, the pasengers cannot shoot if 这个模型 has Fallen Back in the same turn and so on, cannot shoot (except with Pistols) if 这个模型 is 范围内 1寸 of an 敌方单位, and so on. Note that, due to their Rising Crescendo ability, the passengers can shoot if 这个模型 撤退.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models 上车 on 这个模型 can attack in their 射击阶段. Measure the range and draw line of sight from any point on 这个模型. When they do so, any restrictions or modifiers that apply to 这个模型 also apply to its passengers; for example, the pasengers cannot shoot if 这个模型 has 堕天使 Back in the same turn and so on, cannot shoot (except with Pistols) if 这个模型 is 范围内 1寸 of an 敌方单位, and so on. Note that, due to their Rising Crescendo ability, the passengers can shoot if 这个模型 撤退.</characteristic>
       </characteristics>
     </profile>
     <profile id="60da-8dc8-7bf4-2efd" name="Rising Crescendo" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">

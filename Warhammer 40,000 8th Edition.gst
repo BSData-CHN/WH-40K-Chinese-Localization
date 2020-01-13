@@ -3831,7 +3831,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f84-bcd0-733e-5a32" type="min"/>
       </constraints>
       <infoLinks>
-        <infoLink id="1afc-16ed-8a41-930f" name="Psyk-Out Grenades" hidden="false" targetId="9873-9487-e878-7e93" type="profile"/>
+        <infoLink id="1afc-16ed-8a41-930f" name="Psyk-Out 手雷" hidden="false" targetId="9873-9487-e878-7e93" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="0.0"/>
@@ -4772,7 +4772,7 @@
             <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">2+</characteristic>
           </characteristics>
         </profile>
-        <profile id="ee43-4b72-0be8-656e" name="Daemonic Machine Spirit" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
+        <profile id="ee43-4b72-0be8-656e" name="恶魔 Machine Spirit" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -5079,7 +5079,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c184-e837-2842-3f05" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="3cb3-0595-1530-865a" name="Havoc launcher" hidden="false" collective="false" import="true" targetId="be68-020b-cdcb-6a2c" type="selectionEntry">
+        <entryLink id="3cb3-0595-1530-865a" name="浩劫发射器" hidden="false" collective="false" import="true" targetId="be68-020b-cdcb-6a2c" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -5110,7 +5110,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3045-db07-0508-a011" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="d2f4-f89e-48d2-dd37" name="Havoc launcher" hidden="false" targetId="7b08-1e6d-69a9-932d" type="profile"/>
+        <infoLink id="d2f4-f89e-48d2-dd37" name="浩劫发射器" hidden="false" targetId="7b08-1e6d-69a9-932d" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="11.0"/>
@@ -5629,7 +5629,7 @@
       <profiles>
         <profile id="504b-fc17-56ce-c8b8" name="刺客出击许可" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can only use this Stratagem if your 主将 has the 帝国 Faction 关键字 (excluding FALLEN) and your army does not contain any OFFICIO ASSASSINORUM 单位. Use this Stratagem 部署期间. Add 1 OFFICIO ASSASSINORUM 单位 of your choice to your army. Remember that in a matched play game, you 必须 pay reinforcement points for any new 单位 added to your army. You can only use this Stratagem 一次性.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can only use this Stratagem if your 主将 has the 帝国 Faction 关键字 (excluding 堕天使) and your army does not contain any OFFICIO ASSASSINORUM 单位. Use this Stratagem 部署期间. Add 1 OFFICIO ASSASSINORUM 单位 of your choice to your army. Remember that in a matched play game, you 必须 pay reinforcement points for any new 单位 added to your army. You can only use this Stratagem 一次性.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5983,7 +5983,7 @@
               <profiles>
                 <profile id="4552-d20f-6a56-3a73" name="1. Cityfight Specialist" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, you receive 3 additional 指挥点数. These can only be spent to use Cities of Death Stratagems (pg 32-35).</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, you receive 3 额外的 指挥点数. These can only be spent to use Cities of Death Stratagems (pg 32-35).</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -6735,7 +6735,7 @@
                   <profiles>
                     <profile id="85ee-c700-2b30-ad37" name="03: Penetrator Rounds" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s 远程武器. Improve that 武器’s AP值 by 1 (e.g. AP -1 becomes AP -2).</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s 远程武器. Improve that 武器的 AP值 by 1 (e.g. AP -1 becomes AP -2).</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6752,7 +6752,7 @@
                   <profiles>
                     <profile id="97fa-de67-99e0-29fd" name="04: High Calibre" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s 远程武器. Add 1 to that 武器’s S值.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s 远程武器. Add 1 to that 武器的 S值.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6769,7 +6769,7 @@
                   <profiles>
                     <profile id="65fb-9911-be6a-53d6" name="05: Improved Sights" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s 远程武器. Add 6寸 to that 武器’s 射程. </characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s 远程武器. Add 6寸 to that 武器的 射程. </characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6803,7 +6803,7 @@
                   <profiles>
                     <profile id="74dd-199a-f33e-c54f" name="07: Artificer 武器" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s 武器. Add 1 to that 武器’s D值.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s 武器. Add 1 to that 武器的 D值.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6854,7 +6854,7 @@
                   <profiles>
                     <profile id="96c3-0639-a1a2-86e0" name="10: Brutal" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s 肉搏武器. Improve that 武器’s S值 by 1 (e.g. User becomes +1, +1 becomes +2).</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s 肉搏武器. Improve that 武器的 S值 by 1 (e.g. User becomes +1, +1 becomes +2).</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6871,7 +6871,7 @@
                   <profiles>
                     <profile id="ae27-0269-204d-ceb0" name="11: Razor-edged" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s 肉搏武器. Improve that 武器’s AP值 by 1 (e.g. AP -1 becomes AP -2).</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s 肉搏武器. Improve that 武器的 AP值 by 1 (e.g. AP -1 becomes AP -2).</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7634,7 +7634,7 @@
               <profiles>
                 <profile id="44e4-101d-e364-2de4" name="R5: Just Making it Angry" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型拥有 损伤表, double the number of wounds it has remaining for the purposes of determining what its S和A值 are.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型拥有 损伤表, 双倍 of wounds it has remaining for the purposes of determining what its S和A值 are.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7758,7 +7758,7 @@
               <profiles>
                 <profile id="6514-25a9-ae1e-781d" name="R2: Advanced Targeting" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 6寸 to the maximum range of 这个单位’s Heavy and 速射 武器 that have an unmodified maximum range of 24寸 or longer. </characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 6寸 to the 最大射程 of 这个单位’s Heavy and 速射 武器 that have an unmodified 最大射程 of 24寸 or longer. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7809,7 +7809,7 @@
               <profiles>
                 <profile id="2faa-8fc5-6f09-b65c" name="R4: Blessed Drive" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型拥有 损伤表, double the number of wounds it has remaining for the purposes of determining what its M值 is.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型拥有 损伤表, 双倍 of wounds it has remaining for the purposes of determining what its M值 is.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7860,7 +7860,7 @@
               <profiles>
                 <profile id="1c8f-af4c-400c-8e80" name="R5: Blessed 武器" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型拥有 损伤表, double the number of wounds it has remaining for the purposes of determining what its BS值 is.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型拥有 损伤表, 双倍 of wounds it has remaining for the purposes of determining what its BS值 is.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7895,7 +7895,7 @@
       <description>如果这个模型W降为0, 在载具被移除及任何在这个载具上的模型下车前投掷1个D6. 结果为6则爆炸, 每个单位 范围内 6寸 遭受 D3 致命伤.</description>
     </rule>
     <rule id="60db-65f7-ca20-7874" name="开顶" page="" hidden="false">
-      <description>Models 上车 on 这个模型 can attack in their 射击阶段. Measure the range and draw line of sight from any point on the model. When they do so, any restrictions or modifiers that apply to 这个模型 also apply to its passenger; for example, the passengers cannot shoot if 这个模型 has Fallen Back in the same turn, cannot shoot (except with Pistols) if 这个模型 is 范围内 1寸 of an 敌方单位, and so on.</description>
+      <description>Models 上车 on 这个模型 can attack in their 射击阶段. Measure the range and draw line of sight from any point on the model. When they do so, any restrictions or modifiers that apply to 这个模型 also apply to its passenger; for example, the passengers cannot shoot if 这个模型 has 堕天使 Back in the same turn, cannot shoot (except with Pistols) if 这个模型 is 范围内 1寸 of an 敌方单位, and so on.</description>
     </rule>
     <rule id="51af-0fb9-3ca5-d307" name="烟雾发生器" hidden="false">
       <description>Once per game, 而不是 射击 any 武器 in the 射击阶段, this 模型 can use its 烟雾发射器; if it does so, until your next 射击阶段 your opponent 必须 减少 1 from 任何命中 骰 that target it.</description>
@@ -7922,7 +7922,7 @@
       <description>The 5 CPs from this detachment can only be spent on 要塞突袭 Stratagems.</description>
     </rule>
     <rule id="5a7e-f984-487c-d767" name="爆弹训练" publicationId="28ec-711c-pubN110542" hidden="false">
-      <description>所有 阿斯塔特修会 and 阿斯塔特叛军 模型 gain this ability. 而不是 following the normal rules for 速射 武器, 速射爆弹武器 used by 模型 with this ability make double the number of 攻击 if any of the following conditions apply: 1) The firing 模型的 target is 范围内 half the 武器&apos;s maximum range. 2)    The firing 模型 is 步兵 and every 模型 in its 单位 remained stationary in your previous 移动阶段. 3) The firing 模型 is a 终结者, 摩托, 百夫长, or 无畏. For the purposes of this ability a 速射爆弹武器 is any 武器 with the 速射 type whose name includes the word &apos;bolt&apos; (e.g. 爆弹枪, 爆弹步枪, 风暴爆弹, 复合爆弹, 飓风爆弹, 地狱爆弹枪, etc.) This also applies when firing the 爆弹枪 profile of a combi-武器 (including the 爆弹武器 profile of 圣物 such as Blood Song and the Lion&apos;s Wrath) and when firing 圣物 that replace a 速射爆弹武器, so long as the 圣物 is also a rapid-fire 武器 (e.g. Primarch&apos;s Wrath, Fury of Deimos, etc) The gauntlets of ultramar and the Talon of Horus are also considered 速射爆弹武器, as is the 卫士之矛 used by 死亡守望 Watch Masters.</description>
+      <description>所有 阿斯塔特修会 and 阿斯塔特叛军 模型 获得这个能力. 而不是 following the normal rules for 速射 武器, 速射爆弹武器 used by 模型 具有这个能力的 make 双倍 of 攻击 if any of the following conditions apply: 1) The firing 模型的 target is 范围内 half the 武器&apos;s 最大射程. 2)    The firing 模型 is 步兵 and every 模型 in its 单位 remained stationary in your previous 移动阶段. 3) The firing 模型 is a 终结者, 摩托, 百夫长, or 无畏. For the purposes of this ability a 速射爆弹武器 is any 武器 with the 速射 type whose name includes the word &apos;bolt&apos; (e.g. 爆弹枪, 爆弹步枪, 风暴爆弹, 复合爆弹, 飓风爆弹, 地狱爆弹枪, etc.) This also applies when firing the 爆弹枪 profile of a combi-武器 (including the 爆弹武器 profile of 圣物 such as Blood Song and the Lion&apos;s Wrath) and when firing 圣物 that replace a 速射爆弹武器, so long as the 圣物 is also a rapid-fire 武器 (e.g. Primarch&apos;s Wrath, Fury of Deimos, etc) The gauntlets of ultramar and the Talon of Horus are also considered 速射爆弹武器, as is the 卫士之矛 used by 死亡守望 Watch Masters.</description>
     </rule>
     <rule id="01a4-bec8-b573-fde7" name="死亡天使" hidden="false">
       <description>这个单位 has the following abilities: 他们无所畏惧, Bolter Discipline, Shock Assault and Combat Doctrines.’</description>
@@ -8597,7 +8597,7 @@
     </profile>
     <profile id="4986-b80f-dc78-d02f" name="Escape Hatch" publicationId="28ec-711c-pubN113754" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When this 建筑 is first occupied, the owning player can place an escape hatch marker 任何位置 范围内 12寸 of the 建筑 that is not impassable terrain or 范围内 another 建筑. The escape hatch marker is an additional Access Point for the 建筑, but 模型 using it cannot use the Repel the 敌方 special rule.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When this 建筑 is first occupied, the owning player can place an escape hatch marker 任何位置 范围内 12寸 of the 建筑 that is not impassable terrain or 范围内 another 建筑. The escape hatch marker is an 额外的 Access Point for the 建筑, but 模型 using it cannot use the Repel the 敌方 special rule.</characteristic>
       </characteristics>
     </profile>
     <profile id="2a6f-53c2-d2ea-092f" name="Booby Traps" publicationId="28ec-711c-pubN77581" page="110" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">

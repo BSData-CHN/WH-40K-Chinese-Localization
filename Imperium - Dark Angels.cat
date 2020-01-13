@@ -5121,7 +5121,7 @@ Matched Play: 这个模型 and 任何单位 上车 aboard it are exempt from the
         </profile>
         <profile id="b8e1-60be-0451-9951" name="Supreme Tactician" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is battle-forged, you receive one additional 指挥点数 if Azrael is your 主将.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is battle-forged, you receive one 额外的 指挥点数 if Azrael is your 主将.</characteristic>
           </characteristics>
         </profile>
         <profile id="aab6-05e2-36be-614a" name="Lion Helm" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -7829,7 +7829,7 @@ Matched Play: 这个模型 and 任何单位 上车 aboard it are exempt from the
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">10</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">如果1个单位 遭受 any 伤害 from 这个武器, roll a dice and consult the 损伤表. If the result equals or beats the number in the rift vortex column, the target 遭受 an additional D3 致命伤.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">如果1个单位 遭受 any 伤害 from 这个武器, roll a dice and consult the 损伤表. If the result equals or beats the number in the rift vortex column, the target 遭受 an 额外的 D3 致命伤.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9345,7 +9345,7 @@ Matched Play: 这个模型 and 任何单位 上车 aboard it are exempt from the
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="632b-06e8-ca99-9f3a" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="3ffb-8298-948a-5590" name="Shock Grenades" hidden="false" collective="false" import="true" targetId="62da-9654-dc82-4021" type="selectionEntry">
+            <entryLink id="3ffb-8298-948a-5590" name="Shock 手雷" hidden="false" collective="false" import="true" targetId="62da-9654-dc82-4021" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4c8-a046-0776-f222" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7409-8dac-22af-5df1" type="max"/>
@@ -9386,7 +9386,7 @@ Matched Play: 这个模型 and 任何单位 上车 aboard it are exempt from the
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6ac-339a-ef1d-e00c" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="e392-425d-4ffc-c315" name="Shock Grenades" hidden="false" collective="false" import="true" targetId="1842-7cf8-e39e-2731" type="selectionEntry">
+            <entryLink id="e392-425d-4ffc-c315" name="Shock 手雷" hidden="false" collective="false" import="true" targetId="1842-7cf8-e39e-2731" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8048-6c2e-cf90-dc33" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf63-a1de-cf7e-2fc5" type="max"/>
@@ -9495,16 +9495,16 @@ Matched Play: 这个模型 and 任何单位 上车 aboard it are exempt from the
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="62da-9654-dc82-4021" name="Shock Grenades" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="62da-9654-dc82-4021" name="Shock 手雷" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
-        <profile id="7f28-d2ea-9023-9bad" name="Shock Grenades" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="7f28-d2ea-9023-9bad" name="Shock 手雷" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手雷 D3</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">0</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">0</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">A shock greande doesn&apos;t inflict any 伤害. Instead, 每次 a shock grenade 命中 an 敌方 步兵单位, it is stunned 直到回合结束 - it cannot fire 坚守射击 and your opponent 必须 减少 1 from 任何命中 骰 made for the 单位. Second and subsequent 命中 from a shock grenade have no additional 效果.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">A shock greande doesn&apos;t inflict any 伤害. Instead, 每次 a shock grenade 命中 an 敌方 步兵单位, it is stunned 直到回合结束 - it cannot fire 坚守射击 and your opponent 必须 减少 1 from 任何命中 骰 made for the 单位. Second and subsequent 命中 from a shock grenade have no 额外的 效果.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -12071,7 +12071,7 @@ Matched Play: 这个模型 and 任何单位 上车 aboard it are exempt from the
             <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">使用这个武器时, you can shoot either the 爆弹枪, the 等离子爆裂枪, or both. If you fire both, 减少 1 from 所有命中骰 made for 这个武器. In either case, 每次 you fire the 等离子爆裂枪, choose either the 标准 or 过载 profile; if you roll 任何命中 骰 of 1 when firing a 过载 等离子爆裂枪, the bearer is slain after 所有 the 武器’s shots have been resolved</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">使用这个武器时, you can shoot either the 爆弹枪, the 等离子爆裂枪, or both. If you fire both, 减少 1 from 所有命中骰 made for 这个武器. In either case, 每次 you fire the 等离子爆裂枪, choose either the 标准 or 过载 profile; if you roll 任何命中 骰 of 1 when firing a 过载 等离子爆裂枪, the bearer is slain after 所有 the 武器的 shots have been resolved</characteristic>
           </characteristics>
         </profile>
         <profile id="d26f-1445-3ecc-d927" name="等离子爆裂枪 (过载)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -12081,7 +12081,7 @@ Matched Play: 这个模型 and 任何单位 上车 aboard it are exempt from the
             <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">使用这个武器时, you can shoot either the 爆弹枪, the 等离子爆裂枪, or both. If you fire both, 减少 1 from 所有命中骰 made for 这个武器. In either case, 每次 you fire the 等离子爆裂枪, choose either the 标准 or 过载 profile; if you roll 任何命中 骰 of 1 when firing a 过载 等离子爆裂枪, the bearer is slain after 所有 the 武器’s shots have been resolved</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">使用这个武器时, you can shoot either the 爆弹枪, the 等离子爆裂枪, or both. If you fire both, 减少 1 from 所有命中骰 made for 这个武器. In either case, 每次 you fire the 等离子爆裂枪, choose either the 标准 or 过载 profile; if you roll 任何命中 骰 of 1 when firing a 过载 等离子爆裂枪, the bearer is slain after 所有 the 武器的 shots have been resolved</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -12418,9 +12418,9 @@ Matched Play: 这个模型 and 任何单位 上车 aboard it are exempt from the
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="f066-13ba-51d5-8f31" name="Smoke Grenades" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="f066-13ba-51d5-8f31" name="Smoke 手雷" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, 而不是 射击 any 武器 in the 射击阶段, 这个单位 can use its smoke grenades; until your next 射击阶段, your opponent 必须 减少 1 from 命中 骰 for 攻击 made with 远程武器 that target 这个单位.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, 而不是 射击 any 武器 in the 射击阶段, 这个单位 can use its smoke 手雷; until your next 射击阶段, your opponent 必须 减少 1 from 命中 骰 for 攻击 made with 远程武器 that target 这个单位.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -12589,7 +12589,7 @@ Matched Play: 这个模型 and 任何单位 上车 aboard it are exempt from the
             </profile>
             <profile id="141f-ee3a-1c05-50ae" name="Helix Adept" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of your 移动阶段, an Infiltrator Helix Adept can attempt to heal or revive 1 模型 from its 单位. If the Infiltrator Helix Adept&apos;s 单位 contains a wounded model, that 模型 恢复 1 失去的W. If its 单位 contains no wounded models, bot one or more of its 模型 have been slain during the battle, 投掷1个D6. 结果为5+ one slain 模型 is returned to the 单位 with 1 would remaining. If the Infiltrator Helix Adept fails to revive a model, he cannot shoot in your next 射击阶段 as he recovers the gene-seed of the fallen warrior.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of your 移动阶段, an Infiltrator Helix Adept can attempt to heal or revive 1 模型 from its 单位. If the Infiltrator Helix Adept&apos;s 单位 contains a wounded model, that 模型 恢复 1 失去的W. If its 单位 contains no wounded models, bot one or more of its 模型 have been slain during the battle, 投掷1个D6. 结果为5+ one slain 模型 is returned to the 单位 with 1 would remaining. If the Infiltrator Helix Adept fails to revive a model, he cannot shoot in your next 射击阶段 as he recovers the gene-seed of the 堕天使 warrior.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12758,7 +12758,7 @@ Matched Play: 这个模型 and 任何单位 上车 aboard it are exempt from the
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="e887-a093-1f5d-7691" name="Heavy 爆弹手枪, Smoke Grenades" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="e887-a093-1f5d-7691" name="Heavy 爆弹手枪, Smoke 手雷" hidden="false" collective="false" import="true" type="upgrade">
               <entryLinks>
                 <entryLink id="8c36-cefe-5301-9f3b" name="重型爆弹手枪" hidden="false" collective="false" import="true" targetId="538e-b0b9-384d-ea3f" type="selectionEntry">
                   <constraints>
@@ -12772,7 +12772,7 @@ Matched Play: 这个模型 and 任何单位 上车 aboard it are exempt from the
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="810e-35f8-8843-a40b" type="max"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="b46a-3b8d-e2b1-593e" name="Smoke Grenades" hidden="false" collective="false" import="true" targetId="5ad4-7b94-7946-2613" type="selectionEntry"/>
+                <entryLink id="b46a-3b8d-e2b1-593e" name="Smoke 手雷" hidden="false" collective="false" import="true" targetId="5ad4-7b94-7946-2613" type="selectionEntry"/>
               </entryLinks>
               <costs>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -13750,7 +13750,7 @@ wounds.</characteristic>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c3d-2d60-2861-460c" type="min"/>
               </constraints>
             </entryLink>
-            <entryLink id="2aaa-c561-db0e-fe61" name="Smoke Grenades" hidden="false" collective="false" import="true" targetId="5ad4-7b94-7946-2613" type="selectionEntry">
+            <entryLink id="2aaa-c561-db0e-fe61" name="Smoke 手雷" hidden="false" collective="false" import="true" targetId="5ad4-7b94-7946-2613" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0526-b211-03bc-dadc" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99d5-d62c-5ba0-27d3" type="min"/>
@@ -13803,7 +13803,7 @@ wounds.</characteristic>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbf6-08f2-9a3c-4b74" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="0316-0153-cd5d-83f9" name="Smoke Grenades" hidden="false" collective="true" import="true" targetId="5ad4-7b94-7946-2613" type="selectionEntry">
+            <entryLink id="0316-0153-cd5d-83f9" name="Smoke 手雷" hidden="false" collective="true" import="true" targetId="5ad4-7b94-7946-2613" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="83c1-0c1d-2ee9-d28e" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="704d-5961-872a-dff5" type="min"/>
@@ -13847,15 +13847,15 @@ wounds.</characteristic>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5ad4-7b94-7946-2613" name="Smoke Grenades" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="5ad4-7b94-7946-2613" name="Smoke 手雷" hidden="false" collective="true" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ff4-40c4-01b3-ae4e" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ce9-bff7-7e65-9e4b" type="max"/>
       </constraints>
       <profiles>
-        <profile id="042b-88ce-e9d2-16e0" name="Smoke Grenades" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="042b-88ce-e9d2-16e0" name="Smoke 手雷" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, 而不是 射击 any 武器 in the 射击阶段, 这个单位 can use its smoke grenades; until your next 射击阶段, your opponent 必须 减少 1 from 命中 骰 for 攻击 made with 远程武器 that target 这个单位.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, 而不是 射击 any 武器 in the 射击阶段, 这个单位 can use its smoke 手雷; until your next 射击阶段, your opponent 必须 减少 1 from 命中 骰 for 攻击 made with 远程武器 that target 这个单位.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -15245,7 +15245,7 @@ wounds.</characteristic>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="a73d-0094-3e4e-e4ed" name="Defenders of Humanity" hidden="false">
-      <description>A 单位 with this ability that is 范围内 range of an objective marker (as specified in the mission) controls the objective marker even if there are more 敌方模型 范围内 range of that objective marker. If an 敌方单位 范围内 range of the same objective marker 拥有 similar ability, then the objective marker is controlled by the player who has the most 模型 范围内 range of it as normal.</description>
+      <description>A 单位 具有这个能力的 that is 范围内 range of an objective marker (as specified in the mission) controls the objective marker even if there are more 敌方模型 范围内 range of that objective marker. If an 敌方单位 范围内 range of the same objective marker 拥有 similar ability, then the objective marker is controlled by the player who has the most 模型 范围内 range of it as normal.</description>
     </rule>
     <rule id="451a-c379-c037-7a51" name="Grim Resolve" hidden="false">
       <description>You can 重投 所有命中骰 of 1 for 这个单位 whenever it shoots (including when firing 坚守射击) so long as it did not move in its prior 移动阶段. 此外, 这个单位 can never lose more than one 模型 as the result of any single 失败的 morale test.</description>
@@ -15300,7 +15300,7 @@ wounds.</characteristic>
     </profile>
     <profile id="e4ce-f00b-ae14-2cd0" name="急救工具" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of any of your 移动阶段, the Apothecary can attempt to heal or revive a single model. Select a 友方 &lt;人物&gt; 步兵 or 摩托 单位 范围内 3寸 of the Apothecary. If 那个单位 contains a wounded model, it 立即 恢复 D3 失去的W. If the chosen 单位 contains no wounded 模型 but one or more of it&apos;s 模型 have been slain during the battle, 投掷1个D6. 结果为4+ a single slain 模型 is returned to the 单位 with 1 wound remaining. If the Apothecary fails to revive a 模型 he can do nothing else for the remainder of the turn (shoot, charge, fight, ect) as he recovers gene-seed of the fallen warrior. A 单位 can only be the target of the 急救工具 ability once in each turn.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of any of your 移动阶段, the Apothecary can attempt to heal or revive a single model. Select a 友方 &lt;人物&gt; 步兵 or 摩托 单位 范围内 3寸 of the Apothecary. If 那个单位 contains a wounded model, it 立即 恢复 D3 失去的W. If the chosen 单位 contains no wounded 模型 but one or more of it&apos;s 模型 have been slain during the battle, 投掷1个D6. 结果为4+ a single slain 模型 is returned to the 单位 with 1 wound remaining. If the Apothecary fails to revive a 模型 he can do nothing else for the remainder of the turn (shoot, charge, fight, ect) as he recovers gene-seed of the 堕天使 warrior. A 单位 can only be the target of the 急救工具 ability once in each turn.</characteristic>
       </characteristics>
     </profile>
     <profile id="ca86-a970-9bab-d29a" name="Tactical Precision" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -15628,7 +15628,7 @@ wounds.</characteristic>
     </profile>
     <profile id="1f9b-e02c-2010-158e" name="Inner Circle" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个单位 自动通过 士气测试. 此外, 可以重投失败的命中骰 in the 肉搏阶段 for 攻击 by 这个单位 that target a FALLEN 单位.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个单位 自动通过 士气测试. 此外, 可以重投失败的命中骰 in the 肉搏阶段 for 攻击 by 这个单位 that target a 堕天使 单位.</characteristic>
       </characteristics>
     </profile>
     <profile id="458f-f5d2-edc8-5049" name="悬浮" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -15683,7 +15683,7 @@ wounds.</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When resolving an attack made with 这个武器, an unmodified 命中 roll of 6 scores 1 additional 命中.</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When resolving an attack made with 这个武器, an unmodified 命中 roll of 6 scores 1 额外的 命中.</characteristic>
       </characteristics>
     </profile>
     <profile id="5a7e-49c4-3678-da5a" name="他们无所畏惧" hidden="false" typeId="0891-2df5-19c2-de63" typeName="爆炸">

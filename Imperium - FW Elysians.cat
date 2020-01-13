@@ -38,8 +38,8 @@
     <categoryEntry id="5d68-e238-3241-2dbb" name="Thunderbolt Heavy Fighter" hidden="false"/>
     <categoryEntry id="92cc-fdd6-245b-74e2" name="女武神 Sky Talon" hidden="false"/>
     <categoryEntry id="7a94-45d7-e4df-a0e6" name="女武神" hidden="false"/>
-    <categoryEntry id="113d-07be-ce6e-d8c8" name="Vendetta Gunship" hidden="false"/>
-    <categoryEntry id="667a-b6a9-7ec5-c9f9" name="Vulture Gunship" hidden="false"/>
+    <categoryEntry id="113d-07be-ce6e-d8c8" name="Vendetta 炮艇" hidden="false"/>
+    <categoryEntry id="667a-b6a9-7ec5-c9f9" name="Vulture 炮艇" hidden="false"/>
     <categoryEntry id="2d90-89eb-8844-6deb" name="政委" hidden="false"/>
     <categoryEntry id="22c4-7b72-08d0-e098" name="Tauros" hidden="false"/>
   </categoryEntries>
@@ -262,7 +262,7 @@
         <categoryLink id="865b-9d44-c679-adf7" name="New CategoryLink" hidden="false" targetId="c8fd-783f-3230-493e" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="1410-c427-7ea9-df74" name="Vendetta Gunship" hidden="false" collective="false" import="true" targetId="5db2-87a5-a0c8-5a4e" type="selectionEntry">
+    <entryLink id="1410-c427-7ea9-df74" name="Vendetta 炮艇" hidden="false" collective="false" import="true" targetId="5db2-87a5-a0c8-5a4e" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="315a-dbae-bfa7-9439" name="New CategoryLink" hidden="false" targetId="3263-4233-4344-6228" primary="false"/>
         <categoryLink id="f385-6f97-2010-4701" name="New CategoryLink" hidden="false" targetId="78bd-e6d9-f362-2527" primary="false"/>
@@ -274,7 +274,7 @@
         <categoryLink id="20f3-6029-9ad6-bea2" name="New CategoryLink" hidden="false" targetId="113d-07be-ce6e-d8c8" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="a318-6569-4cd1-bc03" name="Vulture Gunship" hidden="false" collective="false" import="true" targetId="8e37-c68c-81d0-27f4" type="selectionEntry">
+    <entryLink id="a318-6569-4cd1-bc03" name="Vulture 炮艇" hidden="false" collective="false" import="true" targetId="8e37-c68c-81d0-27f4" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="622f-e06c-67ea-1589" name="New CategoryLink" hidden="false" targetId="3263-4233-4344-6228" primary="false"/>
         <categoryLink id="3df5-8ba1-de83-2851" name="New CategoryLink" hidden="false" targetId="78bd-e6d9-f362-2527" primary="false"/>
@@ -420,7 +420,7 @@
                 <characteristic name="BS" typeId="b868-6cda-4902-e237">6+</characteristic>
               </characteristics>
             </profile>
-            <profile id="b424-f35a-e2be-ae71" name="Roving Gunship" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+            <profile id="b424-f35a-e2be-ae71" name="Roving 炮艇" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
                 <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 hovers in its 移动阶段, add 1 to 所有命中骰 made for it in the following 射击阶段.</characteristic>
               </characteristics>
@@ -725,18 +725,18 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8e37-c68c-81d0-27f4" name="Vulture Gunship" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="8e37-c68c-81d0-27f4" name="Vulture 炮艇" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="4df7-db67-78b0-e987" name="飞行器槽位" hidden="false" targetId="d569-3d56-cd24-6a31" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="e5e8-44c6-bfcf-ab66" name="Vulture Gunship" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="e5e8-44c6-bfcf-ab66" name="Vulture 炮艇" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4262-fb83-1fc9-9cfa" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="637e-72aa-d5ec-66be" type="min"/>
           </constraints>
           <profiles>
-            <profile id="6af2-d804-6cc8-58dc" name="Vulture Gunship" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+            <profile id="6af2-d804-6cc8-58dc" name="Vulture 炮艇" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
               <characteristics>
                 <characteristic name="M" typeId="0bdf-a96e-9e38-7779">*</characteristic>
                 <characteristic name="WS" typeId="e7f0-1278-0250-df0c">6+</characteristic>
@@ -749,21 +749,21 @@
                 <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
               </characteristics>
             </profile>
-            <profile id="d784-38f8-e63f-fe79" name="Vulture Gunship 1" hidden="false" typeId="8164-003b-2cc1-99b3" typeName="损伤表 (M,BS)">
+            <profile id="d784-38f8-e63f-fe79" name="Vulture 炮艇 1" hidden="false" typeId="8164-003b-2cc1-99b3" typeName="损伤表 (M,BS)">
               <characteristics>
                 <characteristic name="剩余W" typeId="5e09-f316-8feb-977b">8-14+</characteristic>
                 <characteristic name="M" typeId="c6c2-e396-8e2e-3783">20寸-45寸</characteristic>
                 <characteristic name="BS" typeId="b868-6cda-4902-e237">4+</characteristic>
               </characteristics>
             </profile>
-            <profile id="5534-68a2-83f3-6f17" name="Vulture Gunship 2" hidden="false" typeId="8164-003b-2cc1-99b3" typeName="损伤表 (M,BS)">
+            <profile id="5534-68a2-83f3-6f17" name="Vulture 炮艇 2" hidden="false" typeId="8164-003b-2cc1-99b3" typeName="损伤表 (M,BS)">
               <characteristics>
                 <characteristic name="剩余W" typeId="5e09-f316-8feb-977b">4-7</characteristic>
                 <characteristic name="M" typeId="c6c2-e396-8e2e-3783">20寸-30寸</characteristic>
                 <characteristic name="BS" typeId="b868-6cda-4902-e237">5+</characteristic>
               </characteristics>
             </profile>
-            <profile id="2a98-2857-1aa4-4f92" name="Vulture Gunship 3" hidden="false" typeId="8164-003b-2cc1-99b3" typeName="损伤表 (M,BS)">
+            <profile id="2a98-2857-1aa4-4f92" name="Vulture 炮艇 3" hidden="false" typeId="8164-003b-2cc1-99b3" typeName="损伤表 (M,BS)">
               <characteristics>
                 <characteristic name="剩余W" typeId="5e09-f316-8feb-977b">1-3</characteristic>
                 <characteristic name="M" typeId="c6c2-e396-8e2e-3783">20寸</characteristic>
@@ -998,7 +998,7 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5db2-87a5-a0c8-5a4e" name="Vendetta Gunship" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="5db2-87a5-a0c8-5a4e" name="Vendetta 炮艇" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
         <selectionEntry id="839a-3ec7-6e61-9b67" name="Vendetta" hidden="false" collective="false" import="true" type="model">
           <constraints>
@@ -2178,7 +2178,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="c910-38c4-e1f3-7334" name="卫军装备Lasgun, 破片, 穿甲 Grenades" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="c910-38c4-e1f3-7334" name="卫军装备Lasgun, 破片, 穿甲手雷" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="189a-0766-a6ea-87a7" name="卫军" hidden="false" targetId="c0ac-eaf8-9629-5062" type="profile"/>
               </infoLinks>
@@ -2195,7 +2195,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38e6-c2b8-b6f8-ef6b" type="min"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="b94f-857d-abb1-f31b" name="穿甲 Grenades" hidden="false" collective="false" import="true" targetId="bb82-af7a-a705-e174" type="selectionEntry">
+                <entryLink id="b94f-857d-abb1-f31b" name="穿甲手雷" hidden="false" collective="false" import="true" targetId="bb82-af7a-a705-e174" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb4d-0d5c-780a-6ce5" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9977-6df5-ec8f-b82f" type="max"/>
@@ -3491,7 +3491,7 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bb82-af7a-a705-e174" name="穿甲 Grenades" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="bb82-af7a-a705-e174" name="穿甲手雷" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="aa06-46a2-ea07-3b2b" name="穿甲手雷" hidden="false" targetId="3bf6-b4f7-6b2f-bb7b" type="profile"/>
       </infoLinks>
@@ -3547,7 +3547,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="efd6-bfd5-6840-b3c1" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="e317-fbf3-60b6-4691" name="1 additional Heirloom of Conquest, -1 CP" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="e317-fbf3-60b6-4691" name="1 额外的 Heirloom of Conquest, -1 CP" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b62-aea9-15f2-70c3" type="max"/>
               </constraints>
@@ -3560,7 +3560,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="e869-2361-2a53-be04" name="2 additional Heirloom of Conquest, -3 CP" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="e869-2361-2a53-be04" name="2 额外的 Heirloom of Conquest, -3 CP" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e916-0a37-f866-2d6b" type="max"/>
               </constraints>
@@ -3843,7 +3843,7 @@
           <profiles>
             <profile id="3210-2b66-41f6-a7a9" name="辅助榴弹发射器" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A 模型 with an 辅助榴弹发射器 increases the range of any 破片手雷 and 穿甲 grenades they use to 24寸.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A 模型 with an 辅助榴弹发射器 increases the range of any 破片手雷 and 穿甲手雷 they use to 24寸.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4277,7 +4277,7 @@
               <profiles>
                 <profile id="dfe2-2831-bf4d-07bd" name="Master of Command" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Your 主将 获得 Voice of Command ability. If your 主将 already has the Voice of Command or 坦克命令 ability, they may instead issue one additional order per turn.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Your 主将 获得 Voice of Command ability. If your 主将 already has the Voice of Command or 坦克命令 ability, they may instead issue one 额外的 order per turn.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
