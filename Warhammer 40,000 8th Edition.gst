@@ -5019,7 +5019,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="31d4-7f57-b872-73b3" name="Frag assault launchers" hidden="false" collective="false" import="true" targetId="2ff5-cf6d-f7c8-14a1" type="selectionEntry">
+        <entryLink id="31d4-7f57-b872-73b3" name="破片突击发射器" hidden="false" collective="false" import="true" targetId="2ff5-cf6d-f7c8-14a1" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -5095,9 +5095,9 @@
         <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2ff5-cf6d-f7c8-14a1" name="Frag assault launchers" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="2ff5-cf6d-f7c8-14a1" name="破片突击发射器" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="990d-05bd-8393-322c" name="Frag Assault Launchers" hidden="false" targetId="76e8-a8df-d243-1673" type="profile"/>
+        <infoLink id="990d-05bd-8393-322c" name="破片突击发射器" hidden="false" targetId="76e8-a8df-d243-1673" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -5337,7 +5337,7 @@
       <profiles>
         <profile id="77bb-80fe-ed8e-125a" name="战地指挥官" publicationId="28ec-711c-pubN98266" page="169" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Use this Stratagem before the battle if you used any Specialist Detachment Stratagems when choosing your army. Choose one 人物 from your army that has gained a 关键字 from a Specialist Detachment Stratagem that is not your 主将 and is not a named 人物. You can give that 人物 the 主将 Trait of the Specialist Detachment they are part of (note that this 人物 is only regarded as your 主将 for the purpose of that 主将 Trait). This Stratagem can only be used once for each Specialist Detachment Stratagem you have used (spend 1 CP 每次 you use it). No two 人物 can have the same 主将 Trait.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Use this Stratagem before the battle if you used any 特殊分队 Stratagems when choosing your army. Choose one 人物 from your army that has gained a 关键字 from a 特殊分队 Stratagem that is not your 主将 and is not a named 人物. You can give that 人物 the 主将 Trait of the 特殊分队 they are part of (note that this 人物 is only regarded as your 主将 for the purpose of that 主将 Trait). This Stratagem can only be used once for each 特殊分队 Stratagem you have used (spend 1 CP 每次 you use it). No two 人物 can have the same 主将 Trait.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7900,7 +7900,7 @@
     <rule id="51af-0fb9-3ca5-d307" name="烟雾发生器" hidden="false">
       <description>Once per game, 而不是 射击 any 武器 in the 射击阶段, this 模型 can use its 烟雾发射器; if it does so, until your next 射击阶段 your opponent 必须 减少 1 from 任何命中 骰 that target it.</description>
     </rule>
-    <rule id="4ea8-94d3-ba39-042f" name="And They Shall Know No Fear" hidden="false">
+    <rule id="4ea8-94d3-ba39-042f" name="他们无所畏惧" hidden="false">
       <description>You can 重投 失败的 士气测试 for 这个单位.</description>
     </rule>
     <rule id="ce5a-0526-287b-4ff8" name="主将特性" hidden="false">
@@ -7922,10 +7922,10 @@
       <description>The 5 CPs from this detachment can only be spent on 要塞突袭 Stratagems.</description>
     </rule>
     <rule id="5a7e-f984-487c-d767" name="爆弹训练" publicationId="28ec-711c-pubN110542" hidden="false">
-      <description>所有 阿斯塔特修会 and 阿斯塔特叛军 模型 gain this ability. 而不是 following the normal rules for 速射 武器, 速射爆弹武器 used by 模型 with this ability make double the number of 攻击 if any of the following conditions apply: 1) The firing 模型的 target is 范围内 half the 武器&apos;s maximum range. 2)    The firing 模型 is 步兵 and every 模型 in its 单位 remained stationary in your previous 移动阶段. 3) The firing 模型 is a 终结者, 摩托, 百夫长, or 无畏. For the purposes of this ability a 速射爆弹武器 is any 武器 with the 速射 type whose name includes the word &apos;bolt&apos; (e.g. 爆弹枪, 爆弹步枪, 风暴爆弹, 复合爆弹, 飓风爆弹, 地狱爆弹枪, etc.) This also applies when firing the 爆弹枪 profile of a combi-武器 (including the 爆弹武器 profile of Relics such as Blood Song and the Lion&apos;s Wrath) and when firing relics that replace a 速射爆弹武器, so long as the 圣物 is also a rapid-fire 武器 (e.g. Primarch&apos;s Wrath, Fury of Deimos, etc) The gauntlets of ultramar and the Talon of Horus are also considered 速射爆弹武器, as is the 卫士之矛 used by Deathwatch Watch Masters.</description>
+      <description>所有 阿斯塔特修会 and 阿斯塔特叛军 模型 gain this ability. 而不是 following the normal rules for 速射 武器, 速射爆弹武器 used by 模型 with this ability make double the number of 攻击 if any of the following conditions apply: 1) The firing 模型的 target is 范围内 half the 武器&apos;s maximum range. 2)    The firing 模型 is 步兵 and every 模型 in its 单位 remained stationary in your previous 移动阶段. 3) The firing 模型 is a 终结者, 摩托, 百夫长, or 无畏. For the purposes of this ability a 速射爆弹武器 is any 武器 with the 速射 type whose name includes the word &apos;bolt&apos; (e.g. 爆弹枪, 爆弹步枪, 风暴爆弹, 复合爆弹, 飓风爆弹, 地狱爆弹枪, etc.) This also applies when firing the 爆弹枪 profile of a combi-武器 (including the 爆弹武器 profile of Relics such as Blood Song and the Lion&apos;s Wrath) and when firing relics that replace a 速射爆弹武器, so long as the 圣物 is also a rapid-fire 武器 (e.g. Primarch&apos;s Wrath, Fury of Deimos, etc) The gauntlets of ultramar and the Talon of Horus are also considered 速射爆弹武器, as is the 卫士之矛 used by 死亡守望 Watch Masters.</description>
     </rule>
     <rule id="01a4-bec8-b573-fde7" name="死亡天使" hidden="false">
-      <description>这个单位 has the following abilities: And They Shall Know No Fear, Bolter Discipline, Shock Assault and Combat Doctrines.’</description>
+      <description>这个单位 has the following abilities: 他们无所畏惧, Bolter Discipline, Shock Assault and Combat Doctrines.’</description>
     </rule>
     <rule id="f9ce-5a8b-7abd-2395" name="雷霆突击" hidden="false">
       <description>If 这个单位 makes a 冲锋移动, is charged or performs a Heroic Intervention, add 1 to the A值 of 模型 in 这个单位 until the end of the turn.</description>
@@ -9520,7 +9520,7 @@
         <characteristic name="能力" typeId="837d-5e63-aeb7-1410"/>
       </characteristics>
     </profile>
-    <profile id="c408-8555-a6df-257f" name="不动" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
+    <profile id="c408-8555-a6df-257f" name="不可移动" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
         <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">After 这个模型 has been set up 战场上 it 不能移动 for any reason, and no 单位 can embark upon it.</characteristic>
       </characteristics>
@@ -9592,12 +9592,12 @@
         <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Roll a dice 每次 这个主将 失去1点W. 结果为6, the 主将 shrugs off the 伤害 and does not lose the wound.</characteristic>
       </characteristics>
     </profile>
-    <profile id="8830-2c9e-ad7e-e57d" name="不动 (工事)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
+    <profile id="8830-2c9e-ad7e-e57d" name="不可移动 (工事)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
         <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 不能移动 for any reason, nor can it fight in the 肉搏阶段. When resolving an attack made 对抗 这个模型 in the 肉搏阶段, do not make a 命中 roll: it 自动 scores a 命中. 这个模型 can shoot in your 射击阶段 even if there are 敌方模型 范围内 1寸 of it, and 友方单位 can still target 敌方单位 that are 范围内 1寸 of 这个模型.</characteristic>
       </characteristics>
     </profile>
-    <profile id="76e8-a8df-d243-1673" name="Frag Assault Launchers" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
+    <profile id="76e8-a8df-d243-1673" name="破片突击发射器" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
         <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">投掷1个D6 每次 这个模型 完成冲锋移动 范围内 1寸 of an 敌方单位; 结果为4+ 那个单位 遭受 D3 致命伤.</characteristic>
       </characteristics>

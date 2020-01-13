@@ -28,7 +28,7 @@
         <categoryLink id="cb47-406c-9d77-aec8" name="Fallen Angels" hidden="false" targetId="cd82-15ee-cad6-4909" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="0f1f-01a6-cdef-78d6" name="Specialist Detachment" hidden="false" collective="false" import="true" targetId="1431-f0a4-42a6-bbc5" type="selectionEntry"/>
+    <entryLink id="0f1f-01a6-cdef-78d6" name="特殊分队" hidden="false" collective="false" import="true" targetId="1431-f0a4-42a6-bbc5" type="selectionEntry"/>
     <entryLink id="6e41-55d5-6e88-42d0" name="混沌 犀牛" hidden="false" collective="false" import="true" targetId="b76d-3fd6-ae75-f2b8" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
@@ -79,7 +79,7 @@
 • The firing model’s target is 范围内 half the 武器’s maximum range.
 • The firing 模型 is 步兵 and every 模型 in its 单位 remained stationary in your previous 移动阶段.
 • The firing 模型 is a 终结者, 摩托, 百夫长, 无畏 or HELBRUTE.
-For the purposes of this ability, a 速射爆弹武器 is any 武器 with the 速射 type whose profile includes the word ‘bolt’ (e.g. 爆弹枪, 爆弹步枪, 风暴爆弹, 复合爆弹, 飓风爆弹, 地狱爆弹枪, etc.). This also applies when firing the 爆弹枪 profile of 复合武器 (including the 爆弹武器 profile of Relics such as Blood Song and the Lion’s Wrath) and when firing relics that replace a 速射爆弹武器, so long as the 圣物 is also a 速射武器 (e.g. Primarch’s Wrath and Fury of Deimos). The Gauntlets of Ultramar and the Talon of Horus are also 速射爆弹武器, as is the 卫士之矛 used by Deathwatch Watch Masters.</description>
+For the purposes of this ability, a 速射爆弹武器 is any 武器 with the 速射 type whose profile includes the word ‘bolt’ (e.g. 爆弹枪, 爆弹步枪, 风暴爆弹, 复合爆弹, 飓风爆弹, 地狱爆弹枪, etc.). This also applies when firing the 爆弹枪 profile of 复合武器 (including the 爆弹武器 profile of Relics such as Blood Song and the Lion’s Wrath) and when firing relics that replace a 速射爆弹武器, so long as the 圣物 is also a 速射武器 (e.g. Primarch’s Wrath and Fury of Deimos). The Gauntlets of Ultramar and the Talon of Horus are also 速射爆弹武器, as is the 卫士之矛 used by 死亡守望 Watch Masters.</description>
     </rule>
   </rules>
   <sharedSelectionEntries>
@@ -636,7 +636,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1431-f0a4-42a6-bbc5" name="Specialist Detachment" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="1431-f0a4-42a6-bbc5" name="特殊分队" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3e19-dc49-575c-53b6" type="max"/>
       </constraints>
@@ -715,7 +715,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
             <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">这个模型 可以运输 10 FALLEN 步兵模型. It cannot, 然而, transport 终结者 , 泯灭密教 or 跳跃背包 模型.</characteristic>
           </characteristics>
         </profile>
-        <profile id="51c0-1450-ae1c-ec04" name="Self-repair" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="51c0-1450-ae1c-ec04" name="自我修复" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">投掷1个D6 在每个玩家回合开始; 结果为6, 这个单位 heals one wound.</characteristic>
           </characteristics>
@@ -1150,7 +1150,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
         </profile>
         <profile id="ebc8-e408-7abb-ba7b" name="The Murder Sword" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models with a power sword only. The Murder sword replaces the bearer&apos;s power sword.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models with a 动力剑 only. The Murder sword replaces the bearer&apos;s 动力剑.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1305,9 +1305,9 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b36-2b19-40bf-5861" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="3624-6f23-ded6-8fb3" name="Warlord Traits (BRB)" hidden="false" collective="false" import="true" targetId="d442-1f03-d9da-e77f" type="selectionEntryGroup"/>
-        <entryLink id="9752-a527-181d-1623" name="Warlord Traits (CA)" hidden="false" collective="false" import="true" targetId="f673-3d9b-bb1b-377f" type="selectionEntryGroup"/>
-        <entryLink id="5340-345b-d3bb-2b9a" name="Warlord Traits (Codex)" hidden="false" collective="false" import="true" targetId="0be5-b600-f824-9ca3" type="selectionEntryGroup"/>
+        <entryLink id="3624-6f23-ded6-8fb3" name="主将特性 (BRB)" hidden="false" collective="false" import="true" targetId="d442-1f03-d9da-e77f" type="selectionEntryGroup"/>
+        <entryLink id="9752-a527-181d-1623" name="主将特性 (CA)" hidden="false" collective="false" import="true" targetId="f673-3d9b-bb1b-377f" type="selectionEntryGroup"/>
+        <entryLink id="5340-345b-d3bb-2b9a" name="主将特性 (Codex)" hidden="false" collective="false" import="true" targetId="0be5-b600-f824-9ca3" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="132d-22b7-35eb-e925" name="Dark Hereticus discipline" hidden="false" collective="false" import="true">
@@ -1382,7 +1382,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
         <entryLink id="4faf-1319-8313-55da" name="雷锤" hidden="false" collective="false" import="true" targetId="0e57-eaf5-763f-9c45" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="0be5-b600-f824-9ca3" name="Warlord Traits (Codex)" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="0be5-b600-f824-9ca3" name="主将特性 (Codex)" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a24e-91b9-e53b-e9c0" type="max"/>
       </constraints>
@@ -1494,7 +1494,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="77ef-14af-644c-c8bb" name="Fallen Angels" hidden="false">
-      <description>Use this Stratagem when choosing your army. You can include Sorcerers and Chaos Rhinos in a Vanguard Detachment that includes only FALLEN 单位. If you do so, they replace their &lt;混沌印记&gt;, 阿斯塔特叛军 and &lt;军团&gt; keywords with the FALLEN 关键字. FALLEN Sorcerers also replace their Death to the False Emperor ability with the Fallen Angels ability from the Fallen datasheet. Pick a FALLEN Detachment from your army to be a Fallen Angels Specialist Detachment. FALLEN 单位 in that Detachment gain the FALLEN ANGELS 关键字, but they lose the 帝国 Faction 关键字 (if they have it).</description>
+      <description>Use this Stratagem when choosing your army. You can include Sorcerers and Chaos Rhinos in a Vanguard Detachment that includes only FALLEN 单位. If you do so, they replace their &lt;混沌印记&gt;, 阿斯塔特叛军 and &lt;军团&gt; keywords with the FALLEN 关键字. FALLEN Sorcerers also replace their Death to the False Emperor ability with the Fallen Angels ability from the Fallen datasheet. Pick a FALLEN Detachment from your army to be a Fallen Angels 特殊分队. FALLEN 单位 in that Detachment gain the FALLEN ANGELS 关键字, but they lose the 帝国 Faction 关键字 (if they have it).</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

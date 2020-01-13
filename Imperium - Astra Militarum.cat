@@ -337,7 +337,7 @@
         <categoryLink id="efba-b8a8-3d3d-9310" name="New CategoryLink" hidden="false" targetId="5988-2982-1dde-215b" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="5f44-129d-c825-aa50" name="Command Squad" hidden="false" collective="false" import="true" targetId="daea-3f4e-25c6-0ec8" type="selectionEntry">
+    <entryLink id="5f44-129d-c825-aa50" name="Command 小队" hidden="false" collective="false" import="true" targetId="daea-3f4e-25c6-0ec8" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -488,7 +488,7 @@
         <categoryLink id="3f55-c251-de36-ccc1" name="New CategoryLink" hidden="false" targetId="2146-87ec-415f-6461" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="ad22-0104-d3a9-f32f" name="步兵 Squad" hidden="false" collective="false" import="true" targetId="2df54b12-1848-0cde-11ca-2aaebb9acaec" type="selectionEntry">
+    <entryLink id="ad22-0104-d3a9-f32f" name="步兵 小队" hidden="false" collective="false" import="true" targetId="2df54b12-1848-0cde-11ca-2aaebb9acaec" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -505,7 +505,7 @@
         <categoryLink id="1b78-e1ac-becd-2715" name="New CategoryLink" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="5c47-3ade-3e9b-b273" name="特殊武器 Squad" hidden="false" collective="false" import="true" targetId="d4f79da0-7b23-e9aa-1d1c-f43dfade9e41" type="selectionEntry">
+    <entryLink id="5c47-3ade-3e9b-b273" name="特殊武器 小队" hidden="false" collective="false" import="true" targetId="d4f79da0-7b23-e9aa-1d1c-f43dfade9e41" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -522,7 +522,7 @@
         <categoryLink id="5a50-f4ab-7e0a-d80a" name="New CategoryLink" hidden="false" targetId="4d2f-f735-2949-2b0a" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="0077-ac29-5ab9-7cce" name="重型武器 Squad" hidden="false" collective="false" import="true" targetId="917aa583-af28-913a-a901-ccfa31726e75" type="selectionEntry">
+    <entryLink id="0077-ac29-5ab9-7cce" name="重型武器 小队" hidden="false" collective="false" import="true" targetId="917aa583-af28-913a-a901-ccfa31726e75" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -920,7 +920,7 @@
         <categoryLink id="2147-de92-235a-1304" name="New CategoryLink" hidden="false" targetId="c8fd-783f-3230-493e" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="b574-8a55-28b7-d3af" name="Militarum Tempestus Command Squad" hidden="false" collective="false" import="true" targetId="a230-1987-e221-0e09" type="selectionEntry">
+    <entryLink id="b574-8a55-28b7-d3af" name="Militarum Tempestus Command 小队" hidden="false" collective="false" import="true" targetId="a230-1987-e221-0e09" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="a352-4459-f4b5-ecb4" name="New CategoryLink" hidden="false" targetId="3263-4233-4344-6228" primary="false"/>
         <categoryLink id="301c-f0df-7b99-ce7e" name="New CategoryLink" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
@@ -2470,8 +2470,8 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="36f3-8ce9-7401-5f20" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="18a8-a859-6e99-dcd8" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="36f3-8ce9-7401-5f20" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="18a8-a859-6e99-dcd8" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="战斗力" typeId="e356-c769-5920-6e14" value="7.0"/>
@@ -2662,7 +2662,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">x2</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                <characteristic name="能力" typeId="837d-5e63-aeb7-1410">When attacking with 这个武器, you 必须 减少 1 from the 命中 roll.</characteristic>
+                <characteristic name="能力" typeId="837d-5e63-aeb7-1410">使用这个武器攻击时,命中骰-1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2726,7 +2726,7 @@
         <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="daea-3f4e-25c6-0ec8" name="Command Squad" publicationId="53e9d88f--pubN88319" page="30" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="daea-3f4e-25c6-0ec8" name="Command 小队" publicationId="53e9d88f--pubN88319" page="30" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="increment" field="d129-69ea-ec8d-cf7b" value="1">
           <repeats>
@@ -3060,8 +3060,8 @@
             <categoryLink id="76e0-1198-eeaa-f764" name="Emperor&apos;s Conclave" hidden="false" targetId="d0e2-89e0-8a6e-d438" primary="false"/>
           </categoryLinks>
         </entryLink>
-        <entryLink id="0561-61ed-ddbf-8358" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="16f1-0bca-3e8c-3f94" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="0561-61ed-ddbf-8358" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="16f1-0bca-3e8c-3f94" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="战斗力" typeId="e356-c769-5920-6e14" value="2.0"/>
@@ -3136,8 +3136,8 @@
             <categoryLink id="c26b-d63b-3029-ce11" name="Emperor&apos;s Conclave" hidden="false" targetId="d0e2-89e0-8a6e-d438" primary="false"/>
           </categoryLinks>
         </entryLink>
-        <entryLink id="3a59-180e-a97f-0357" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="cb71-c831-2471-cb32" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="3a59-180e-a97f-0357" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="cb71-c831-2471-cb32" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="分" typeId="points" value="0.0"/>
@@ -3145,7 +3145,7 @@
         <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="917aa583-af28-913a-a901-ccfa31726e75" name="重型武器 Squad" publicationId="53e9d88f--pubN88319" page="0" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="917aa583-af28-913a-a901-ccfa31726e75" name="重型武器 小队" publicationId="53e9d88f--pubN88319" page="0" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="a241-3dee-17ed-b255" name="破片手雷" hidden="false" targetId="fdd8-1a5f-5722-d6ee" type="profile"/>
       </infoLinks>
@@ -3179,8 +3179,8 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="6a9a-2325-0dc1-a9b2" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="d528-0a18-b187-7131" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="6a9a-2325-0dc1-a9b2" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="d528-0a18-b187-7131" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="战斗力" typeId="e356-c769-5920-6e14" value="3.0"/>
@@ -3455,8 +3455,8 @@
             <categoryLink id="b705-99fb-1352-1dc7" name="Emperor&apos;s Conclave" hidden="false" targetId="d0e2-89e0-8a6e-d438" primary="false"/>
           </categoryLinks>
         </entryLink>
-        <entryLink id="0647-8fd3-821f-be58" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="06f8-d2c0-f7be-75cd" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="0647-8fd3-821f-be58" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="06f8-d2c0-f7be-75cd" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="战斗力" typeId="e356-c769-5920-6e14" value="3.0"/>
@@ -3853,8 +3853,8 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="7411-5742-c032-a5ba" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="43b4-0893-120f-9f0e" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="7411-5742-c032-a5ba" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="43b4-0893-120f-9f0e" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="战斗力" typeId="e356-c769-5920-6e14" value="5.0"/>
@@ -3953,7 +3953,7 @@
         <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d4f79da0-7b23-e9aa-1d1c-f43dfade9e41" name="特殊武器 Squad" publicationId="53e9d88f--pubN88319" page="0" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="d4f79da0-7b23-e9aa-1d1c-f43dfade9e41" name="特殊武器 小队" publicationId="53e9d88f--pubN88319" page="0" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="d47e-f2b2-9a22-b93e" name="New InfoLink" hidden="false" targetId="fdd8-1a5f-5722-d6ee" type="profile"/>
       </infoLinks>
@@ -4040,8 +4040,8 @@
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="158b-9d87-f0d2-9da0" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="3512-cbac-ef6a-3e9c" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="158b-9d87-f0d2-9da0" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="3512-cbac-ef6a-3e9c" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="战斗力" typeId="e356-c769-5920-6e14" value="2.0"/>
@@ -4312,8 +4312,8 @@
             <categoryLink id="6de7-159e-94c3-d43b" name="Emperor&apos;s Blade" hidden="false" targetId="e3a9-b055-0e24-dd73" primary="false"/>
           </categoryLinks>
         </entryLink>
-        <entryLink id="335e-552c-ba84-6f82" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="d533-03ca-cbbc-3003" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="335e-552c-ba84-6f82" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="d533-03ca-cbbc-3003" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="战斗力" typeId="e356-c769-5920-6e14" value="5.0"/>
@@ -4378,7 +4378,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="2123-8cc7-066c-4f77" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="2123-8cc7-066c-4f77" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
         <entryLink id="015d-567c-c8c5-c417" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
@@ -4661,8 +4661,8 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="dce2-d204-517a-93e8" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="f0db-623d-83b8-cce0" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="dce2-d204-517a-93e8" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="f0db-623d-83b8-cce0" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="战斗力" typeId="e356-c769-5920-6e14" value="3.0"/>
@@ -5599,8 +5599,8 @@
             <categoryLink id="efa4-ff95-3ab9-4861" name="Emperor&apos;s Wrath" hidden="false" targetId="35ec-ee26-0f19-21ac" primary="false"/>
           </categoryLinks>
         </entryLink>
-        <entryLink id="3a4e-a419-02ed-7f18" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="4d74-9d3c-202e-af0d" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="3a4e-a419-02ed-7f18" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="4d74-9d3c-202e-af0d" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="分" typeId="points" value="0.0"/>
@@ -5797,7 +5797,7 @@
             <infoLink id="b81c-c3d0-f0ac-6010" name="Crash and Burn" hidden="false" targetId="d677-7f53-691e-ac88" type="profile"/>
             <infoLink id="342e-55c5-2da6-7a4a" name="超音速" hidden="false" targetId="2268-18ce-3bf2-b68d" type="profile"/>
             <infoLink id="cc00-2daf-9d94-796e" name="Hard to 命中" hidden="false" targetId="7e37-7d16-4da6-97c8" type="profile"/>
-            <infoLink id="f721-d16c-757d-99b5" name="Hover Jet" hidden="false" targetId="5c2d-ef21-5078-d479" type="profile"/>
+            <infoLink id="f721-d16c-757d-99b5" name="悬浮" hidden="false" targetId="5c2d-ef21-5078-d479" type="profile"/>
             <infoLink id="ae4a-7b1a-9928-02bd" name="Grav Chute Insertion" hidden="false" targetId="c4f9-48e3-4bdc-737f" type="profile"/>
             <infoLink id="ccbd-b718-748e-a755" name="载具 Squadron" hidden="false" targetId="ed79-bdf5-75ca-f019" type="profile"/>
           </infoLinks>
@@ -5868,8 +5868,8 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47b0-6639-2122-26fb" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="095a-fb52-6022-e2da" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-            <entryLink id="de17-981d-4356-3ba1" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+            <entryLink id="095a-fb52-6022-e2da" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+            <entryLink id="de17-981d-4356-3ba1" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="分" typeId="points" value="100.0"/>
@@ -6340,8 +6340,8 @@
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="1d28-abaf-92ba-8754" name="Pintle Mount" hidden="false" collective="false" import="true" targetId="ebb9-dadc-c98d-9b62" type="selectionEntryGroup"/>
-        <entryLink id="04bc-7615-5036-f460" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="9317-4511-5509-6b27" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="04bc-7615-5036-f460" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="9317-4511-5509-6b27" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="分" typeId="points" value="80.0"/>
@@ -6435,8 +6435,8 @@
             <categoryLink id="7465-1011-013f-e8ce" name="Emperor&apos;s Blade" hidden="false" targetId="e3a9-b055-0e24-dd73" primary="false"/>
           </categoryLinks>
         </entryLink>
-        <entryLink id="c9e3-3483-3bb8-1302" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="270a-c482-3098-8265" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="c9e3-3483-3bb8-1302" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="270a-c482-3098-8265" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="分" typeId="points" value="50.0"/>
@@ -6590,8 +6590,8 @@
         </entryLink>
         <entryLink id="b29d-c427-105e-23ab" name="Baneblade Sponsons" hidden="false" collective="false" import="true" targetId="be51-49ae-9966-cfc5" type="selectionEntryGroup"/>
         <entryLink id="e5b5-189b-a2bf-5a5b" name="New EntryLink" hidden="false" collective="false" import="true" targetId="ebb9-dadc-c98d-9b62" type="selectionEntryGroup"/>
-        <entryLink id="0304-6fe0-b49b-3d14" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="d12c-0855-5e25-5275" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="0304-6fe0-b49b-3d14" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="d12c-0855-5e25-5275" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="分" typeId="points" value="370.0"/>
@@ -6689,8 +6689,8 @@
         </entryLink>
         <entryLink id="5f36-ba76-30ac-5f2c" name="New EntryLink" hidden="false" collective="false" import="true" targetId="be51-49ae-9966-cfc5" type="selectionEntryGroup"/>
         <entryLink id="074c-c9e6-75dd-c5b7" name="New EntryLink" hidden="false" collective="false" import="true" targetId="ebb9-dadc-c98d-9b62" type="selectionEntryGroup"/>
-        <entryLink id="a9ed-b20d-593b-24dd" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="44df-fb66-b1ee-a4ed" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="a9ed-b20d-593b-24dd" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="44df-fb66-b1ee-a4ed" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="分" typeId="points" value="410.0"/>
@@ -6816,8 +6816,8 @@
         </entryLink>
         <entryLink id="fd15-0b0c-4d86-fae7" name="Baneblade Sponsons" hidden="false" collective="false" import="true" targetId="be51-49ae-9966-cfc5" type="selectionEntryGroup"/>
         <entryLink id="a4b4-833a-60ef-eb33" name="Pintle Mount" hidden="false" collective="false" import="true" targetId="ebb9-dadc-c98d-9b62" type="selectionEntryGroup"/>
-        <entryLink id="b108-1880-f192-6a8b" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="671b-8b7c-f4e5-90bc" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="b108-1880-f192-6a8b" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="671b-8b7c-f4e5-90bc" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="分" typeId="points" value="410.0"/>
@@ -6876,8 +6876,8 @@
               </constraints>
             </entryLink>
             <entryLink id="039d-f478-1e78-b10f" name="Sentinel 武器" hidden="false" collective="false" import="true" targetId="17a8-0cf1-0bbc-23b3" type="selectionEntryGroup"/>
-            <entryLink id="2433-cd28-1258-08e0" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-            <entryLink id="3187-bb58-e644-706d" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+            <entryLink id="2433-cd28-1258-08e0" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+            <entryLink id="3187-bb58-e644-706d" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="分" typeId="points" value="30.0"/>
@@ -7188,8 +7188,8 @@
             <categoryLink id="900a-99d2-c6fb-a2b3" name="Tempestus Drop Force" hidden="false" targetId="f701-d2b7-c0d7-42ab" primary="false"/>
           </categoryLinks>
         </entryLink>
-        <entryLink id="a541-fa7d-1c19-7e24" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="a1b6-62a8-efbd-c74f" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="a541-fa7d-1c19-7e24" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="a1b6-62a8-efbd-c74f" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="战斗力" typeId="e356-c769-5920-6e14" value="3.0"/>
@@ -7197,7 +7197,7 @@
         <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a230-1987-e221-0e09" name="Militarum Tempestus Command Squad" page="0" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="a230-1987-e221-0e09" name="Militarum Tempestus Command 小队" page="0" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="increment" field="d129-69ea-ec8d-cf7b" value="1">
           <repeats>
@@ -7480,8 +7480,8 @@
             <categoryLink id="c2e6-6d6d-8907-1b05" name="Tempestus Drop Force" hidden="false" targetId="f701-d2b7-c0d7-42ab" primary="false"/>
           </categoryLinks>
         </entryLink>
-        <entryLink id="5761-fb94-b7e9-2356" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="a0c7-b6e8-b720-ad6d" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="5761-fb94-b7e9-2356" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="a0c7-b6e8-b720-ad6d" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="战斗力" typeId="e356-c769-5920-6e14" value="3.0"/>
@@ -7576,8 +7576,8 @@
         </entryLink>
         <entryLink id="62f8-05ca-229f-ba32" name="Pintle Mount" hidden="false" collective="false" import="true" targetId="ebb9-dadc-c98d-9b62" type="selectionEntryGroup"/>
         <entryLink id="cf37-82ee-b39e-a591" name="载具 Equipment List" hidden="false" collective="false" import="true" targetId="d9f1-0505-984e-c749" type="selectionEntryGroup"/>
-        <entryLink id="56c6-f858-b037-b68e" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="7b49-5eba-2e98-abf5" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="56c6-f858-b037-b68e" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="7b49-5eba-2e98-abf5" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="分" typeId="points" value="125.0"/>
@@ -7830,8 +7830,8 @@
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink id="80cc-0ca4-0316-65f3" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-            <entryLink id="4e2d-86f6-f94f-c535" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+            <entryLink id="80cc-0ca4-0316-65f3" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+            <entryLink id="4e2d-86f6-f94f-c535" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -8035,8 +8035,8 @@
               </constraints>
             </entryLink>
             <entryLink id="260b-3a1c-2a35-d460" name="载具 Equipment List" hidden="false" collective="false" import="true" targetId="d9f1-0505-984e-c749" type="selectionEntryGroup"/>
-            <entryLink id="c450-a80b-4abf-3b19" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-            <entryLink id="7750-dc2f-09af-b27e" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+            <entryLink id="c450-a80b-4abf-3b19" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+            <entryLink id="7750-dc2f-09af-b27e" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="分" typeId="points" value="85.0"/>
@@ -8124,8 +8124,8 @@
                 </entryLink>
                 <entryLink id="87e8-acbf-4c50-8d51" name="载具 Equipment List" hidden="false" collective="false" import="true" targetId="d9f1-0505-984e-c749" type="selectionEntryGroup"/>
                 <entryLink id="e612-0b0a-90f2-e959" name="Pintle Mount" hidden="false" collective="false" import="true" targetId="ebb9-dadc-c98d-9b62" type="selectionEntryGroup"/>
-                <entryLink id="b12f-8a1f-c072-f599" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-                <entryLink id="778e-e4dd-301c-b583" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+                <entryLink id="b12f-8a1f-c072-f599" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+                <entryLink id="778e-e4dd-301c-b583" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
                 <cost name="分" typeId="points" value="73.0"/>
@@ -8178,8 +8178,8 @@
                 </entryLink>
                 <entryLink id="23a7-9686-d3ec-2a11" name="载具 Equipment List" hidden="false" collective="false" import="true" targetId="d9f1-0505-984e-c749" type="selectionEntryGroup"/>
                 <entryLink id="45e0-7df6-ded7-c261" name="Pintle Mount" hidden="false" collective="false" import="true" targetId="ebb9-dadc-c98d-9b62" type="selectionEntryGroup"/>
-                <entryLink id="6075-11f1-5775-5a3c" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-                <entryLink id="57fd-530e-7925-67c0" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+                <entryLink id="6075-11f1-5775-5a3c" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+                <entryLink id="57fd-530e-7925-67c0" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
                 <cost name="分" typeId="points" value="73.0"/>
@@ -8232,8 +8232,8 @@
                 </entryLink>
                 <entryLink id="c1d4-0bfa-1d3b-55b6" name="载具 Equipment List" hidden="false" collective="false" import="true" targetId="d9f1-0505-984e-c749" type="selectionEntryGroup"/>
                 <entryLink id="23ed-588e-184f-bbaf" name="Pintle Mount" hidden="false" collective="false" import="true" targetId="ebb9-dadc-c98d-9b62" type="selectionEntryGroup"/>
-                <entryLink id="ffb5-130e-fc18-d80d" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-                <entryLink id="4e9d-2232-7331-e612" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+                <entryLink id="ffb5-130e-fc18-d80d" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+                <entryLink id="4e9d-2232-7331-e612" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
                 <cost name="分" typeId="points" value="73.0"/>
@@ -8349,8 +8349,8 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b30-b2c8-84de-c376" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="0a8c-2647-33c2-f0aa" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="7157-5ef6-1445-0966" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="0a8c-2647-33c2-f0aa" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="7157-5ef6-1445-0966" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="分" typeId="points" value="410.0"/>
@@ -8439,8 +8439,8 @@
         </entryLink>
         <entryLink id="a819-43ad-d72d-b495" name="New EntryLink" hidden="false" collective="false" import="true" targetId="be51-49ae-9966-cfc5" type="selectionEntryGroup"/>
         <entryLink id="130a-4b09-48e2-47bb" name="New EntryLink" hidden="false" collective="false" import="true" targetId="ebb9-dadc-c98d-9b62" type="selectionEntryGroup"/>
-        <entryLink id="8d7d-dd97-ea27-48d9" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="cc6d-6230-8e5a-2894" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="8d7d-dd97-ea27-48d9" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="cc6d-6230-8e5a-2894" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="分" typeId="points" value="350.0"/>
@@ -8504,8 +8504,8 @@
         <entryLink id="808a-d499-3b1c-8a93" name="Hull 武器" hidden="false" collective="false" import="true" targetId="846f-095f-3967-92af" type="selectionEntryGroup"/>
         <entryLink id="51fc-e07f-1062-d5ad" name="Pintle Mount" hidden="false" collective="false" import="true" targetId="ebb9-dadc-c98d-9b62" type="selectionEntryGroup"/>
         <entryLink id="7502-27b5-9ba8-2628" name="载具 Equipment List" hidden="false" collective="false" import="true" targetId="d9f1-0505-984e-c749" type="selectionEntryGroup"/>
-        <entryLink id="e7ca-f4e3-3120-1e57" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="51db-20ca-8a00-4446" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="e7ca-f4e3-3120-1e57" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="51db-20ca-8a00-4446" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="分" typeId="points" value="125.0"/>
@@ -8586,8 +8586,8 @@
             <categoryLink id="2229-f505-78a0-f9d2" name="Emperor&apos;s Blade" hidden="false" targetId="e3a9-b055-0e24-dd73" primary="false"/>
           </categoryLinks>
         </entryLink>
-        <entryLink id="8ca0-c14a-2edc-5833" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="81e0-d695-ae2e-ecbd" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="8ca0-c14a-2edc-5833" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="81e0-d695-ae2e-ecbd" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="分" typeId="points" value="60.0"/>
@@ -8662,8 +8662,8 @@
               </constraints>
             </entryLink>
             <entryLink id="df24-aaf7-445f-e12b" name="载具 Equipment List" hidden="false" collective="false" import="true" targetId="d9f1-0505-984e-c749" type="selectionEntryGroup"/>
-            <entryLink id="a334-398d-c44d-3aa6" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-            <entryLink id="33a6-d313-0657-3e8b" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+            <entryLink id="a334-398d-c44d-3aa6" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+            <entryLink id="33a6-d313-0657-3e8b" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="分" typeId="points" value="100.0"/>
@@ -8767,8 +8767,8 @@
         </entryLink>
         <entryLink id="8326-a655-4e9e-5006" name="New EntryLink" hidden="false" collective="false" import="true" targetId="be51-49ae-9966-cfc5" type="selectionEntryGroup"/>
         <entryLink id="2c2c-381a-b992-ae1e" name="New EntryLink" hidden="false" collective="false" import="true" targetId="ebb9-dadc-c98d-9b62" type="selectionEntryGroup"/>
-        <entryLink id="bb0e-2471-ed9a-a308" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="8e45-be0f-ce94-e3b0" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="bb0e-2471-ed9a-a308" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="8e45-be0f-ce94-e3b0" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="分" typeId="points" value="350.0"/>
@@ -8857,8 +8857,8 @@
         </entryLink>
         <entryLink id="dc33-dae3-7075-3574" name="Baneblade Sponsons" hidden="false" collective="false" import="true" targetId="be51-49ae-9966-cfc5" type="selectionEntryGroup"/>
         <entryLink id="a2c1-170a-fc0f-cedc" name="New EntryLink" hidden="false" collective="false" import="true" targetId="ebb9-dadc-c98d-9b62" type="selectionEntryGroup"/>
-        <entryLink id="7fed-1bd1-bb29-d0e9" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="db97-2f9f-1909-6b35" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="7fed-1bd1-bb29-d0e9" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="db97-2f9f-1909-6b35" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="分" typeId="points" value="350.0"/>
@@ -8972,8 +8972,8 @@
           </modifiers>
         </entryLink>
         <entryLink id="49af-922a-2fa6-dc86" name="Pintle Mount" hidden="false" collective="false" import="true" targetId="ebb9-dadc-c98d-9b62" type="selectionEntryGroup"/>
-        <entryLink id="bf26-3580-fc48-8c5b" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="b4ed-7c73-cd56-cf1d" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="bf26-3580-fc48-8c5b" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="b4ed-7c73-cd56-cf1d" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="分" typeId="points" value="350.0"/>
@@ -9023,8 +9023,8 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d8bc-4fed-84da-3d9e" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="536e-fccf-bad8-f05e" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-            <entryLink id="0b74-911c-1dce-e995" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+            <entryLink id="536e-fccf-bad8-f05e" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+            <entryLink id="0b74-911c-1dce-e995" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="分" typeId="points" value="30.0"/>
@@ -9294,8 +9294,8 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2050-b0ca-8e6c-2f99" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="43b4-26f0-135c-cf8a" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="f58a-3f6c-67e6-b2d8" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="43b4-26f0-135c-cf8a" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="f58a-3f6c-67e6-b2d8" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="战斗力" typeId="e356-c769-5920-6e14" value="14.0"/>
@@ -9364,8 +9364,8 @@
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink id="bcc3-29db-5196-e799" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-            <entryLink id="9478-78fe-98e8-ff66" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+            <entryLink id="bcc3-29db-5196-e799" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+            <entryLink id="9478-78fe-98e8-ff66" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="战斗力" typeId="e356-c769-5920-6e14" value="3.0"/>
@@ -9547,8 +9547,8 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d93-343c-78c5-3047" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="2599-9ceb-4c4c-561c" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="2b3a-1be8-672e-13f6" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="2599-9ceb-4c4c-561c" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="2b3a-1be8-672e-13f6" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="战斗力" typeId="e356-c769-5920-6e14" value="14.0"/>
@@ -9619,8 +9619,8 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="ee82-dcd9-9d8c-27b9" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-            <entryLink id="7cf5-f3b0-f227-e7a3" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+            <entryLink id="ee82-dcd9-9d8c-27b9" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+            <entryLink id="7cf5-f3b0-f227-e7a3" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="战斗力" typeId="e356-c769-5920-6e14" value="2.0"/>
@@ -9725,8 +9725,8 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6cc2-e619-648d-f721" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="03fb-2488-410a-5201" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-            <entryLink id="56ce-913d-0196-bd65" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+            <entryLink id="03fb-2488-410a-5201" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+            <entryLink id="56ce-913d-0196-bd65" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="战斗力" typeId="e356-c769-5920-6e14" value="3.0"/>
@@ -9826,8 +9826,8 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="754f-f97d-b5d8-2a61" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="b4da-4a5d-ebf3-ca47" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-            <entryLink id="86e8-1a99-9779-1015" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+            <entryLink id="b4da-4a5d-ebf3-ca47" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+            <entryLink id="86e8-1a99-9779-1015" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="战斗力" typeId="e356-c769-5920-6e14" value="4.0"/>
@@ -9960,8 +9960,8 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b40-7ca9-7d68-1e15" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="13c8-727f-87de-d83a" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="fee1-7068-fa59-1e12" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="13c8-727f-87de-d83a" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="fee1-7068-fa59-1e12" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="战斗力" typeId="e356-c769-5920-6e14" value="15.0"/>
@@ -9997,7 +9997,7 @@
             <infoLink id="b12a-de61-3621-3a96" name="Crash and Burn" hidden="false" targetId="d677-7f53-691e-ac88" type="profile"/>
             <infoLink id="f366-429d-dc10-2ab0" name="Grav Chute Insertion" hidden="false" targetId="c4f9-48e3-4bdc-737f" type="profile"/>
             <infoLink id="6128-cdbe-7ef8-62b5" name="Hard to 命中" hidden="false" targetId="7e37-7d16-4da6-97c8" type="profile"/>
-            <infoLink id="58a0-655e-33dc-9329" name="Hover Jet" hidden="false" targetId="5c2d-ef21-5078-d479" type="profile"/>
+            <infoLink id="58a0-655e-33dc-9329" name="悬浮" hidden="false" targetId="5c2d-ef21-5078-d479" type="profile"/>
             <infoLink id="6883-ee29-d9cd-8684" name="超音速" hidden="false" targetId="2268-18ce-3bf2-b68d" type="profile"/>
             <infoLink id="1d5e-a2f5-22bd-d726" name="载具 Squadron" hidden="false" targetId="ed79-bdf5-75ca-f019" type="profile"/>
           </infoLinks>
@@ -10079,8 +10079,8 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e46-5d57-1671-d4d4" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="3be5-9c0e-0c77-a825" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-            <entryLink id="ad63-8b03-658b-87a0" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+            <entryLink id="3be5-9c0e-0c77-a825" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+            <entryLink id="ad63-8b03-658b-87a0" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="战斗力" typeId="e356-c769-5920-6e14" value="11.0"/>
@@ -10126,7 +10126,7 @@
             <infoLink id="6818-28b9-77fa-aa89" name="Airborne" hidden="false" targetId="ed3d-c2e2-be6e-332d" type="profile"/>
             <infoLink id="eaaa-992b-ad5f-2c72" name="Crash and Burn" hidden="false" targetId="d677-7f53-691e-ac88" type="profile"/>
             <infoLink id="5e53-5a86-56d6-dbb1" name="Hard to 命中" hidden="false" targetId="7e37-7d16-4da6-97c8" type="profile"/>
-            <infoLink id="915a-9fcc-8a8d-86ab" name="Hover Jet" hidden="false" targetId="5c2d-ef21-5078-d479" type="profile"/>
+            <infoLink id="915a-9fcc-8a8d-86ab" name="悬浮" hidden="false" targetId="5c2d-ef21-5078-d479" type="profile"/>
             <infoLink id="3ab5-be23-9e74-74f0" name="超音速" hidden="false" targetId="2268-18ce-3bf2-b68d" type="profile"/>
             <infoLink id="1c50-9f33-9ed4-7756" name="载具 Squadron" hidden="false" targetId="ed79-bdf5-75ca-f019" type="profile"/>
           </infoLinks>
@@ -10338,8 +10338,8 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca0d-3599-180d-9a7c" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="5ed7-c8c2-8eae-5fe3" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
-            <entryLink id="c692-1198-b9fe-0510" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+            <entryLink id="5ed7-c8c2-8eae-5fe3" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+            <entryLink id="c692-1198-b9fe-0510" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name="分" typeId="points" value="137.0"/>
@@ -10535,8 +10535,8 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="711f-f845-67b2-6a9f" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="3688-1c35-9b67-7e0a" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-            <entryLink id="6979-354b-ab82-1342" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+            <entryLink id="3688-1c35-9b67-7e0a" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+            <entryLink id="6979-354b-ab82-1342" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="战斗力" typeId="e356-c769-5920-6e14" value="7.0"/>
@@ -10630,8 +10630,8 @@
           <entryLinks>
             <entryLink id="4ba2-fd65-3263-9805" name="Hull 武器" hidden="false" collective="false" import="true" targetId="846f-095f-3967-92af" type="selectionEntryGroup"/>
             <entryLink id="ba14-6a05-ec0c-a701" name="Pintle Mount" hidden="false" collective="false" import="true" targetId="ebb9-dadc-c98d-9b62" type="selectionEntryGroup"/>
-            <entryLink id="4eae-185f-9a8c-d5bb" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-            <entryLink id="1058-17d4-eca0-418a" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+            <entryLink id="4eae-185f-9a8c-d5bb" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+            <entryLink id="1058-17d4-eca0-418a" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="战斗力" typeId="e356-c769-5920-6e14" value="11.0"/>
@@ -10947,8 +10947,8 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="10ec-8273-0871-8869" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="4b77-55ee-f3b3-029b" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="10ec-8273-0871-8869" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="4b77-55ee-f3b3-029b" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="战斗力" typeId="e356-c769-5920-6e14" value="6.0"/>
@@ -11028,8 +11028,8 @@
                 <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ace-8caf-62c0-1359" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="2bc5-6843-c0ef-bc0f" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-            <entryLink id="c5f0-1c61-df89-5bba" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+            <entryLink id="2bc5-6843-c0ef-bc0f" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+            <entryLink id="c5f0-1c61-df89-5bba" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="战斗力" typeId="e356-c769-5920-6e14" value="3.0"/>
@@ -11116,8 +11116,8 @@
                 <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4a1-8bac-00c7-8024" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="5871-cd92-4f2c-55c2" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-            <entryLink id="fb8b-f55d-106d-f0e6" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+            <entryLink id="5871-cd92-4f2c-55c2" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+            <entryLink id="fb8b-f55d-106d-f0e6" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="战斗力" typeId="e356-c769-5920-6e14" value="3.0"/>
@@ -11290,8 +11290,8 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22bf-01af-84db-d25f" type="min"/>
               </constraints>
             </entryLink>
-            <entryLink id="35bb-c824-815d-3a16" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-            <entryLink id="83cf-fed5-e525-f6f2" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+            <entryLink id="35bb-c824-815d-3a16" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+            <entryLink id="83cf-fed5-e525-f6f2" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="战斗力" typeId="e356-c769-5920-6e14" value="5.0"/>
@@ -11374,8 +11374,8 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e13-b5b7-4019-f6f1" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="a25e-1fd1-2859-4818" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-            <entryLink id="220c-4010-38b2-5586" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+            <entryLink id="a25e-1fd1-2859-4818" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+            <entryLink id="220c-4010-38b2-5586" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="战斗力" typeId="e356-c769-5920-6e14" value="12.0"/>
@@ -11422,7 +11422,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="41c4-7294-a4c8-b16b" type="min"/>
           </constraints>
           <profiles>
-            <profile id="cbd8-75c4-d0ff-15b5" name="等离子爆裂枪, Supercharged" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+            <profile id="cbd8-75c4-d0ff-15b5" name="等离子爆裂枪, 过载" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="射程" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">96寸</characteristic>
                 <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 2D6</characteristic>
@@ -11479,8 +11479,8 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df0a-3e60-7b16-265f" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="0aee-9caf-eab3-1803" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="94ed-38df-a020-8fc7" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="0aee-9caf-eab3-1803" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="94ed-38df-a020-8fc7" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="分" typeId="points" value="400.0"/>
@@ -11553,8 +11553,8 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7835-0a2e-515b-d15a" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="670f-5817-20a6-01fa" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="4130-0156-025f-29ba" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="670f-5817-20a6-01fa" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="4130-0156-025f-29ba" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="战斗力" typeId="e356-c769-5920-6e14" value="5.0"/>
@@ -11603,8 +11603,8 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd1d-9b0b-9ebc-1ca3" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="6fdd-06db-68fa-88b1" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="1cc7-75dd-9b71-846a" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="6fdd-06db-68fa-88b1" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="1cc7-75dd-9b71-846a" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="战斗力" typeId="e356-c769-5920-6e14" value="3.0"/>
@@ -11681,8 +11681,8 @@
                 <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1335-89aa-5eed-1b78" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="35e4-8197-ae0d-be92" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-            <entryLink id="350c-878c-753a-f67c" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+            <entryLink id="35e4-8197-ae0d-be92" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+            <entryLink id="350c-878c-753a-f67c" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="分" typeId="points" value="105.0"/>
@@ -11834,8 +11834,8 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="faeb-f39a-b91e-a179" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="a52f-1eba-9259-3422" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="643a-4c57-14d9-6913" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="a52f-1eba-9259-3422" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="643a-4c57-14d9-6913" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="分" typeId="points" value="300.0"/>
@@ -11941,8 +11941,8 @@
           <entryLinks>
             <entryLink id="03e8-a028-3695-39b6" name="Pintle Mount" hidden="false" collective="false" import="true" targetId="ebb9-dadc-c98d-9b62" type="selectionEntryGroup"/>
             <entryLink id="1202-5111-b977-6ce6" name="Chimera Hull 武器" hidden="false" collective="false" import="true" targetId="846f-095f-3967-92af" type="selectionEntryGroup"/>
-            <entryLink id="b5c4-38f2-dceb-36b0" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-            <entryLink id="b95d-d001-cb15-891b" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+            <entryLink id="b5c4-38f2-dceb-36b0" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+            <entryLink id="b95d-d001-cb15-891b" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="战斗力" typeId="e356-c769-5920-6e14" value="6.0"/>
@@ -12070,8 +12070,8 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a2d-3623-9b59-267d" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="c66f-9d70-83d4-64fc" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="288c-783e-6db3-83e7" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="c66f-9d70-83d4-64fc" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="288c-783e-6db3-83e7" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="分" typeId="points" value="345.0"/>
@@ -12195,8 +12195,8 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="93e9-f402-60c4-1d84" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="5b6e-2a0f-62f9-5dbf" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="fb01-59c2-7e2a-dd40" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="5b6e-2a0f-62f9-5dbf" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="fb01-59c2-7e2a-dd40" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="分" typeId="points" value="355.0"/>
@@ -12401,8 +12401,8 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89f9-fbef-f337-6307" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="101d-cfab-ce3b-1385" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="7642-8be6-4cb6-39f4" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="101d-cfab-ce3b-1385" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="7642-8be6-4cb6-39f4" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="分" typeId="points" value="360.0"/>
@@ -12523,8 +12523,8 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6567-f2bc-4c1a-0169" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="429a-77ce-23ad-dced" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="af61-9980-5aaa-9be3" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="429a-77ce-23ad-dced" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="af61-9980-5aaa-9be3" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="分" typeId="points" value="350.0"/>
@@ -12655,8 +12655,8 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b5d-418b-5769-9f26" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="2f59-915c-1963-9ace" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="051f-94c3-95da-a2ac" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="2f59-915c-1963-9ace" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="051f-94c3-95da-a2ac" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="分" typeId="points" value="200.0"/>
@@ -12769,8 +12769,8 @@
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7dd-85fd-6a8e-7390" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="0b56-880d-20cf-83e7" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="0715-e9ad-1a78-54cc" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="0b56-880d-20cf-83e7" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="0715-e9ad-1a78-54cc" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="分" typeId="points" value="200.0"/>
@@ -12896,8 +12896,8 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f6d-f931-a521-a61b" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="9137-1f15-c710-32fb" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="16ae-f68e-6f69-3492" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="9137-1f15-c710-32fb" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="16ae-f68e-6f69-3492" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="分" typeId="points" value="190.0"/>
@@ -13064,8 +13064,8 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab43-d4dd-2d1d-30e2" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="77d4-9efa-9f9b-0958" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="88e1-42d5-7269-6105" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="77d4-9efa-9f9b-0958" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="88e1-42d5-7269-6105" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="分" typeId="points" value="312.0"/>
@@ -13140,8 +13140,8 @@
                 <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6205-51bb-a311-4e5d" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="b23b-1e73-991a-f93e" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-            <entryLink id="ffc5-4550-c781-8f43" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+            <entryLink id="b23b-1e73-991a-f93e" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+            <entryLink id="ffc5-4550-c781-8f43" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="分" typeId="points" value="100.0"/>
@@ -13228,8 +13228,8 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b55-6da3-9204-ebd3" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="5079-be93-4dc4-91a7" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="48d3-a199-5213-4131" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="5079-be93-4dc4-91a7" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="48d3-a199-5213-4131" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="分" typeId="points" value="280.0"/>
@@ -13325,8 +13325,8 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb16-827b-ee58-d147" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="d13c-a228-b408-3c76" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-            <entryLink id="9fc4-6f01-14c0-9b59" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+            <entryLink id="d13c-a228-b408-3c76" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+            <entryLink id="9fc4-6f01-14c0-9b59" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="战斗力" typeId="e356-c769-5920-6e14" value="12.0"/>
@@ -13409,8 +13409,8 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2576-b1a9-d3c1-533a" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="1288-c9a5-ed22-476c" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-            <entryLink id="cba4-b1e3-bba1-ace8" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+            <entryLink id="1288-c9a5-ed22-476c" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+            <entryLink id="cba4-b1e3-bba1-ace8" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="分" typeId="points" value="122.0"/>
@@ -13485,8 +13485,8 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="556b-dfe3-aa06-d346" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="5580-7955-30be-9797" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-            <entryLink id="9f51-52e2-567e-617b" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+            <entryLink id="5580-7955-30be-9797" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+            <entryLink id="9f51-52e2-567e-617b" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="分" typeId="points" value="122.0"/>
@@ -13658,8 +13658,8 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bfb4-1937-370d-9e2f" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="cf52-8d20-34d8-315f" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="c2c3-917c-48af-0e6f" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="cf52-8d20-34d8-315f" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="c2c3-917c-48af-0e6f" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="分" typeId="points" value="390.0"/>
@@ -13746,8 +13746,8 @@
         </entryLink>
         <entryLink id="2dd6-9930-5643-76e7" name="Baneblade Sponsons" hidden="false" collective="false" import="true" targetId="be51-49ae-9966-cfc5" type="selectionEntryGroup"/>
         <entryLink id="fb36-8c3b-8933-09fa" name="Pintle Mount" hidden="false" collective="false" import="true" targetId="ebb9-dadc-c98d-9b62" type="selectionEntryGroup"/>
-        <entryLink id="787c-b7a8-768f-d45a" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="eb93-ac46-cca7-443b" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="787c-b7a8-768f-d45a" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="eb93-ac46-cca7-443b" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="分" typeId="points" value="390.0"/>
@@ -13839,8 +13839,8 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2377-7792-1f9d-bdf5" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="2ed9-5c62-9552-1432" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-            <entryLink id="8eea-432a-90a4-d09b" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+            <entryLink id="2ed9-5c62-9552-1432" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+            <entryLink id="8eea-432a-90a4-d09b" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="战斗力" typeId="e356-c769-5920-6e14" value="7.0"/>
@@ -13908,8 +13908,8 @@
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink id="13cb-c408-375e-20a2" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-            <entryLink id="759c-ac2a-d803-3973" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+            <entryLink id="13cb-c408-375e-20a2" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+            <entryLink id="759c-ac2a-d803-3973" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="分" typeId="points" value="115.0"/>
@@ -13977,8 +13977,8 @@
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink id="73e2-4bfd-3d29-9fc9" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-            <entryLink id="4e6e-56d1-8ddd-6d5e" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+            <entryLink id="73e2-4bfd-3d29-9fc9" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+            <entryLink id="4e6e-56d1-8ddd-6d5e" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="分" typeId="points" value="75.0"/>
@@ -14075,8 +14075,8 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d786-eeda-4421-b83a" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="2dfb-459f-f0fb-fcc0" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="c37d-0490-e80f-bcb6" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="2dfb-459f-f0fb-fcc0" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="c37d-0490-e80f-bcb6" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="战斗力" typeId="e356-c769-5920-6e14" value="5.0"/>
@@ -14190,8 +14190,8 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="eea0-0d89-e545-a490" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-            <entryLink id="fa92-a741-2577-4888" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+            <entryLink id="eea0-0d89-e545-a490" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+            <entryLink id="fa92-a741-2577-4888" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="战斗力" typeId="e356-c769-5920-6e14" value="2.0"/>
@@ -14259,8 +14259,8 @@
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink id="0d92-474d-551e-f9ca" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-            <entryLink id="ce1d-e8f4-e9b0-b77d" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+            <entryLink id="0d92-474d-551e-f9ca" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+            <entryLink id="ce1d-e8f4-e9b0-b77d" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="分" typeId="points" value="45.0"/>
@@ -14365,8 +14365,8 @@
         </entryLink>
         <entryLink id="7086-8af9-9827-6d28" name="Pintle Mount" hidden="false" collective="false" import="true" targetId="ebb9-dadc-c98d-9b62" type="selectionEntryGroup"/>
         <entryLink id="4f55-09ae-a044-f876" name="Hull 武器" hidden="false" collective="false" import="true" targetId="846f-095f-3967-92af" type="selectionEntryGroup"/>
-        <entryLink id="d77d-a90d-14de-635e" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="362d-f8b5-635d-677d" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="d77d-a90d-14de-635e" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="362d-f8b5-635d-677d" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="分" typeId="points" value="75.0"/>
@@ -14418,8 +14418,8 @@
         </entryLink>
         <entryLink id="8eb5-cce5-d825-521f" name="Pintle Mount" hidden="false" collective="false" import="true" targetId="ebb9-dadc-c98d-9b62" type="selectionEntryGroup"/>
         <entryLink id="d371-e8ef-f672-2705" name="Hull 武器" hidden="false" collective="false" import="true" targetId="846f-095f-3967-92af" type="selectionEntryGroup"/>
-        <entryLink id="0fdf-d365-dc17-036c" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="feb3-d6a6-62dc-cbd8" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="0fdf-d365-dc17-036c" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="feb3-d6a6-62dc-cbd8" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="分" typeId="points" value="90.0"/>
@@ -14479,8 +14479,8 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4a6-d639-3e99-a205" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="14ea-af54-96ba-c089" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-            <entryLink id="e5ad-4cd6-0531-3a75" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+            <entryLink id="14ea-af54-96ba-c089" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+            <entryLink id="e5ad-4cd6-0531-3a75" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="分" typeId="points" value="73.0"/>
@@ -14563,8 +14563,8 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a60-1b18-27d5-06eb" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="655a-9457-7df6-b3c9" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-            <entryLink id="4775-37fc-1c4f-597b" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+            <entryLink id="655a-9457-7df6-b3c9" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+            <entryLink id="4775-37fc-1c4f-597b" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="分" typeId="points" value="160.0"/>
@@ -14711,8 +14711,8 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="d6ef-b714-0b05-d274" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-            <entryLink id="8c1f-034b-016f-40ee" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+            <entryLink id="d6ef-b714-0b05-d274" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+            <entryLink id="8c1f-034b-016f-40ee" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="分" typeId="points" value="110.0"/>
@@ -14776,7 +14776,7 @@
       </profiles>
       <infoLinks>
         <infoLink id="fcdd-515a-fd3f-c053" name="Airborne" hidden="false" targetId="ed3d-c2e2-be6e-332d" type="profile"/>
-        <infoLink id="0a32-ca9a-c5d7-ec44" name="Hover Jet" hidden="false" targetId="5c2d-ef21-5078-d479" type="profile"/>
+        <infoLink id="0a32-ca9a-c5d7-ec44" name="悬浮" hidden="false" targetId="5c2d-ef21-5078-d479" type="profile"/>
         <infoLink id="ea97-7304-dff5-524c" name="Hard to 命中" hidden="false" targetId="7e37-7d16-4da6-97c8" type="profile"/>
         <infoLink id="226e-9ab0-5925-fa04" name="Crash and Burn" hidden="false" targetId="d677-7f53-691e-ac88" type="profile"/>
         <infoLink id="fb62-a603-ff69-2b12" name="超音速" hidden="false" targetId="2268-18ce-3bf2-b68d" type="profile"/>
@@ -14819,8 +14819,8 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="6260-8cbb-332a-c411" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="9cfa-20d2-d938-b3c7" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="6260-8cbb-332a-c411" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="9cfa-20d2-d938-b3c7" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="战斗力" typeId="e356-c769-5920-6e14" value="7.0"/>
@@ -14872,7 +14872,7 @@
             <infoLink id="16a2-3be3-d97d-9a17" name="Airborne" hidden="false" targetId="ed3d-c2e2-be6e-332d" type="profile"/>
             <infoLink id="ca2a-233f-4b38-4c4a" name="Crash and Burn" hidden="false" targetId="d677-7f53-691e-ac88" type="profile"/>
             <infoLink id="a791-9af9-dd07-582a" name="Hard to 命中" hidden="false" targetId="7e37-7d16-4da6-97c8" type="profile"/>
-            <infoLink id="69eb-8d04-2b15-1373" name="Hover Jet" hidden="false" targetId="5c2d-ef21-5078-d479" type="profile"/>
+            <infoLink id="69eb-8d04-2b15-1373" name="悬浮" hidden="false" targetId="5c2d-ef21-5078-d479" type="profile"/>
             <infoLink id="67e0-fd1a-bf53-1f0d" name="载具 Squadron" hidden="false" targetId="ed79-bdf5-75ca-f019" type="profile"/>
           </infoLinks>
           <selectionEntryGroups>
@@ -14943,8 +14943,8 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="e286-1de2-8509-edb6" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-            <entryLink id="82c3-a431-4551-ccdc" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+            <entryLink id="e286-1de2-8509-edb6" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+            <entryLink id="82c3-a431-4551-ccdc" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="战斗力" typeId="e356-c769-5920-6e14" value="6.0"/>
@@ -15024,8 +15024,8 @@
           </constraints>
         </entryLink>
         <entryLink id="91f6-8681-ba18-200a" name="Pintle Mount" hidden="false" collective="false" import="true" targetId="ebb9-dadc-c98d-9b62" type="selectionEntryGroup"/>
-        <entryLink id="7028-c015-9075-4e63" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="c453-8d31-feff-a7ea" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="7028-c015-9075-4e63" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="c453-8d31-feff-a7ea" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
         <entryLink id="779d-b463-44e0-de11" name="损伤表 (Crassus)" hidden="false" collective="false" import="true" targetId="8276-5249-8eef-2187" type="selectionEntry"/>
       </entryLinks>
       <costs>
@@ -15175,8 +15175,8 @@
           </constraints>
         </entryLink>
         <entryLink id="779f-ccfd-affc-f946" name="Pintle Mount" hidden="false" collective="false" import="true" targetId="ebb9-dadc-c98d-9b62" type="selectionEntryGroup"/>
-        <entryLink id="1f3c-45ec-5e4a-aa45" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="2552-8893-da15-329e" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="1f3c-45ec-5e4a-aa45" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="2552-8893-da15-329e" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="战斗力" typeId="e356-c769-5920-6e14" value="19.0"/>
@@ -15266,8 +15266,8 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="25b9-b68b-6021-b254" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="fb33-ffe9-3986-6fd1" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="29d7-4ba9-4070-cedf" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="fb33-ffe9-3986-6fd1" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="29d7-4ba9-4070-cedf" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="战斗力" typeId="e356-c769-5920-6e14" value="22.0"/>
@@ -15355,8 +15355,8 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="57e8-9399-06da-9153" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="f75a-9f07-8294-6f17" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="5623-82af-4873-b06d" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="f75a-9f07-8294-6f17" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="5623-82af-4873-b06d" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="战斗力" typeId="e356-c769-5920-6e14" value="22.0"/>
@@ -15471,8 +15471,8 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a07f-f955-ad09-d18f" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="4864-bd3f-c2e6-d7e9" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="5517-623f-d327-a445" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="4864-bd3f-c2e6-d7e9" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="5517-623f-d327-a445" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="战斗力" typeId="e356-c769-5920-6e14" value="19.0"/>
@@ -15622,8 +15622,8 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c456-427f-235a-d4c1" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="9577-c099-02a5-8b22" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="9b1b-0f16-ddf6-2679" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="9577-c099-02a5-8b22" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="9b1b-0f16-ddf6-2679" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="战斗力" typeId="e356-c769-5920-6e14" value="18.0"/>
@@ -15812,7 +15812,7 @@
             <characteristic name="效果" typeId="e15a-5346-1d34-3504">可以重投失败的造伤骰 for 模型 from the ordered 单位 when attacking any 敌方 载具 or MONSTERS 这个阶段.</characteristic>
           </characteristics>
         </profile>
-        <profile id="0408-58d4-0f0b-7a7c" name="Form Firing Squad!" hidden="false" typeId="5c3a-03e3-c48d-726c" typeName="星界军命令">
+        <profile id="0408-58d4-0f0b-7a7c" name="Form Firing 小队!" hidden="false" typeId="5c3a-03e3-c48d-726c" typeName="星界军命令">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -16105,8 +16105,8 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f00-02bf-c6da-27cd" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="0791-0072-5631-66c5" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="5148-08ff-46d2-a101" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="0791-0072-5631-66c5" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="5148-08ff-46d2-a101" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="战斗力" typeId="e356-c769-5920-6e14" value="1.0"/>
@@ -16336,8 +16336,8 @@
             <categoryLink id="618e-2941-514d-8340" name="Emperor&apos;s Conclave" hidden="false" targetId="d0e2-89e0-8a6e-d438" primary="false"/>
           </categoryLinks>
         </entryLink>
-        <entryLink id="6e35-1fba-db69-20a6" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="5b00-5018-f9ca-54cb" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="6e35-1fba-db69-20a6" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="5b00-5018-f9ca-54cb" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="战斗力" typeId="e356-c769-5920-6e14" value="2.0"/>
@@ -16589,8 +16589,8 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="2b96-60fb-8d5f-e5f7" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="095e-78f3-3128-9f43" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="2b96-60fb-8d5f-e5f7" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="095e-78f3-3128-9f43" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="战斗力" typeId="e356-c769-5920-6e14" value="4.0"/>
@@ -17068,8 +17068,8 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c828-1265-173f-8ba1" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="36b5-115b-e403-ff65" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-            <entryLink id="6376-b2f3-3cb3-c302" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+            <entryLink id="36b5-115b-e403-ff65" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+            <entryLink id="6376-b2f3-3cb3-c302" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="分" typeId="points" value="160.0"/>
@@ -17207,8 +17207,8 @@
           </constraints>
         </entryLink>
         <entryLink id="3755-8c4a-c978-a28a" name="Pintle Mount" hidden="false" collective="false" import="true" targetId="ebb9-dadc-c98d-9b62" type="selectionEntryGroup"/>
-        <entryLink id="1ed2-e744-6619-6b08" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="24eb-6196-0a3c-cec7" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="1ed2-e744-6619-6b08" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="24eb-6196-0a3c-cec7" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="分" typeId="points" value="410.0"/>
@@ -17468,8 +17468,8 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="d0db-bbd4-d4a0-b041" name="单位 has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="e4c0-969b-ba51-2d3e" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="d0db-bbd4-d4a0-b041" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="e4c0-969b-ba51-2d3e" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="分" typeId="points" value="60.0"/>
@@ -17761,7 +17761,7 @@
         </profile>
         <profile id="25fc-d604-2121-afd4" name="Claw of the Desert Tigers" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">TALLARN 模型 with power sword only. Claw of the Desert Tigers replaces the model’s power sword and has the following profile:</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">TALLARN 模型 with 动力剑 only. Claw of the Desert Tigers replaces the model’s 动力剑 and has the following profile:</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -17825,7 +17825,7 @@
         </profile>
         <profile id="356c-1e33-12d3-8b44" name="Mamorth Tuskblade" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">CATACHAN 模型 with power sword only. The Mamorph Tuskblade replaces the model’s power sword and has the following profile:</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">CATACHAN 模型 with 动力剑 only. The Mamorph Tuskblade replaces the model’s 动力剑 and has the following profile:</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -18068,7 +18068,7 @@
       <profiles>
         <profile id="b0b2-6afd-26c8-e712" name="The Blade of Conquest" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Model with power sword only. The Blade of Conquest replaces the model’s power sword and has the following profile:</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Model with 动力剑 only. The Blade of Conquest replaces the model’s 动力剑 and has the following profile:</characteristic>
           </characteristics>
         </profile>
         <profile id="ad84-e73d-4e8b-b7b0" name="The Blade of Conquest" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -19180,7 +19180,7 @@ Use this Act of Faith at the start of your 肉搏阶段. If successful, the sele
 
 Light of the Emperor
 Devotion value 3
-Use this Act of Faith at the start of the Morale phase. If successful, the selected 单位 自动 passes 士气测试 that phase.</description>
+Use this Act of Faith at the start of the Morale phase. If successful, the selected 单位 自动通过 士气测试 that phase.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -19989,7 +19989,7 @@ Use this Act of Faith at the start of the Morale phase. If successful, the selec
               <characteristics>
                 <characteristic name="释放需求" typeId="5ffd-b800-c317-532a">4</characteristic>
                 <characteristic name="距离" typeId="fd64-cbc4-94de-24cc">12寸</characteristic>
-                <characteristic name="效果" typeId="ad96-dfa4-b4ed-656d">Select a 友方 星界军 单位 范围内 12寸 of the 灵能者. Until the start of your next 灵能阶段, 那个单位 自动 passes 士气测试.</characteristic>
+                <characteristic name="效果" typeId="ad96-dfa4-b4ed-656d">Select a 友方 星界军 单位 范围内 12寸 of the 灵能者. Until the start of your next 灵能阶段, 那个单位 自动通过 士气测试.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -20419,7 +20419,7 @@ Use this Act of Faith at the start of the Morale phase. If successful, the selec
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="86c7-b11c-e864-2458" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="4281-2a9b-b835-818e" name="Inferno pistol" hidden="false" collective="false" import="true" targetId="83f0-56d1-b852-f21c" type="selectionEntry">
+        <entryLink id="4281-2a9b-b835-818e" name="地狱手枪" hidden="false" collective="false" import="true" targetId="83f0-56d1-b852-f21c" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="points" value="9"/>
           </modifiers>
@@ -20657,7 +20657,7 @@ Use this Act of Faith at the start of the Morale phase. If successful, the selec
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="2171-5f21-6ca6-3424" name="Warlord Traits (BRB)" hidden="false" collective="false" import="true" targetId="d442-1f03-d9da-e77f" type="selectionEntryGroup"/>
+        <entryLink id="2171-5f21-6ca6-3424" name="主将特性 (BRB)" hidden="false" collective="false" import="true" targetId="d442-1f03-d9da-e77f" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="e356-eafa-cf60-cfe8" name="特殊分队" hidden="false" collective="false" import="true">
@@ -21160,7 +21160,7 @@ Spirit of the Martyr: One 模型 in the 单位 recovers D3 lost wounds, or you c
     </profile>
     <profile id="fdc3-2a0f-e726-f47c" name="应急等离子散热" publicationId="53e9d88f--pubN88319" page="114" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 fires a supercharged plasma cannon, and you roll one or more 命中 骰 of 1, it is not 自动 destroyed. Instead, 每个命中骰的1,持有者会在此武器的射击结算完成后受到1点致命伤.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 fires a 过载 plasma cannon, and you roll one or more 命中 骰 of 1, it is not 自动 destroyed. Instead, 每个命中骰的1,持有者会在此武器的射击结算完成后受到1点致命伤.</characteristic>
       </characteristics>
     </profile>
     <profile id="cc2a-232f-b291-f10f" name="Lumbering Advance" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">

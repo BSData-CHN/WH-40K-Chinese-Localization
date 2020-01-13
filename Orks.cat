@@ -286,7 +286,7 @@
         <categoryLink id="6f77-1dd7-58f5-6962" name="New CategoryLink" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="723e-3f2c-afb1-c075" name="Specialist Detachment" hidden="false" collective="false" import="true" targetId="fc96-1331-c935-0c46" type="selectionEntry"/>
+    <entryLink id="723e-3f2c-afb1-c075" name="特殊分队" hidden="false" collective="false" import="true" targetId="fc96-1331-c935-0c46" type="selectionEntry"/>
     <entryLink id="ca78-e4f2-952c-eb48" name="Big Mek附带Kustom Force Field" hidden="false" collective="false" import="true" targetId="ce6c-aef1-67fb-3af4" type="selectionEntry"/>
     <entryLink id="6409-cec0-e0bf-81e9" name="Da Red Gobbo [传奇]" hidden="false" collective="false" import="true" targetId="e485-5416-cd99-cb07" type="selectionEntry"/>
   </entryLinks>
@@ -448,7 +448,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">x2</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When attacking with 这个武器, you 必须 减少 1 from the 命中 roll</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">使用这个武器攻击时,命中骰-1.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3062,7 +3062,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is �
       <profiles>
         <profile id="92c6-eddc-b9fd-cd84" name="Pyromaniaks" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个单位 destroys an 敌方单位 in the 射击阶段, it 自动 passes 士气测试 until the start of your next turn.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个单位 destroys an 敌方单位 in the 射击阶段, it 自动通过 士气测试 until the start of your next turn.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3208,7 +3208,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is �
             <characteristic name="S" typeId="59b1-319e-ec13-d466">x2</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When attacking with 这个武器, you 必须 减少 1 from the 命中 roll.  If a 模型 is equipped with 2 Killsaws, add 1 to its a值.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">使用这个武器攻击时,命中骰-1.  If a 模型 is equipped with 2 Killsaws, add 1 to its a值.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11845,8 +11845,8 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is �
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="7f10-a94a-0fe8-e422" name="Warlord Traits (BRB)" hidden="false" collective="false" import="true" targetId="d442-1f03-d9da-e77f" type="selectionEntryGroup"/>
-            <entryLink id="63da-b57e-edcd-095f" name="Warlord Traits (CA)" hidden="false" collective="false" import="true" targetId="f673-3d9b-bb1b-377f" type="selectionEntryGroup"/>
+            <entryLink id="7f10-a94a-0fe8-e422" name="主将特性 (BRB)" hidden="false" collective="false" import="true" targetId="d442-1f03-d9da-e77f" type="selectionEntryGroup"/>
+            <entryLink id="63da-b57e-edcd-095f" name="主将特性 (CA)" hidden="false" collective="false" import="true" targetId="f673-3d9b-bb1b-377f" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -13161,7 +13161,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is �
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fc96-1331-c935-0c46" name="Specialist Detachment" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="fc96-1331-c935-0c46" name="特殊分队" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1e77-3406-317f-05a3" type="max"/>
       </constraints>
@@ -13169,7 +13169,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is �
         <categoryLink id="1e39-b8a2-cfc3-162b" name="No Force Org Slot" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="e6c5-ef81-d0b0-9c4c" name="Specialist Detachment" hidden="false" collective="false" import="true" targetId="47bf-3a7e-3d24-5af2" type="selectionEntryGroup"/>
+        <entryLink id="e6c5-ef81-d0b0-9c4c" name="特殊分队" hidden="false" collective="false" import="true" targetId="47bf-3a7e-3d24-5af2" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -13654,7 +13654,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is �
             <entryLink id="eb63-94c6-0061-eb1b" name="Surly as a Squiggoth" hidden="false" collective="false" import="true" targetId="11b4-5592-2e65-a6ce" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="3d2f-3e62-ff89-61ab" name="Warlord Traits (Specilaist Detachment)" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="3d2f-3e62-ff89-61ab" name="主将特性 (Specilaist Detachment)" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5b02-9c78-88bd-33d1" type="max"/>
           </constraints>
@@ -13782,7 +13782,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is �
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="84b5-e7e1-1873-7cb8" name="Warlord Traits (BRB)" hidden="false" collective="false" import="true" targetId="d442-1f03-d9da-e77f" type="selectionEntryGroup">
+        <entryLink id="84b5-e7e1-1873-7cb8" name="主将特性 (BRB)" hidden="false" collective="false" import="true" targetId="d442-1f03-d9da-e77f" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -13796,7 +13796,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is �
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="a8f3-34c5-1693-8046" name="Warlord Traits (CA)" hidden="false" collective="false" import="true" targetId="f673-3d9b-bb1b-377f" type="selectionEntryGroup">
+        <entryLink id="a8f3-34c5-1693-8046" name="主将特性 (CA)" hidden="false" collective="false" import="true" targetId="f673-3d9b-bb1b-377f" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -14301,7 +14301,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is �
         <entryLink id="7944-30dc-6600-69e8" name="Slugga" hidden="false" collective="false" import="true" targetId="d13b-ad69-e6a2-d485" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="47bf-3a7e-3d24-5af2" name="Specialist Detachment" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="47bf-3a7e-3d24-5af2" name="特殊分队" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4090-8e3a-39d7-c847" type="max"/>
       </constraints>
@@ -14320,7 +14320,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is �
           <profiles>
             <profile id="cb26-9295-b04a-e8f7" name="Stompa Mob" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Use this Stratagem when choosing your army. Pick an 兽人 超重型分队 from your army to be a Stompa Mob Specialist Detachment. STOMPA 单位 in that Detachment gain the STOMPA MOB 关键字. 此外, you can pick one 模型 in that Stompa Mob Specialist Detachment to gain the 人物 关键字. 然而, the only 主将 Trait it can be given is either Gork’s One or Mork’s One (see right) and the only 圣物 it can take is Tezdrek’s Stompa Power Field (see right).</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Use this Stratagem when choosing your army. Pick an 兽人 超重型分队 from your army to be a Stompa Mob 特殊分队. STOMPA 单位 in that Detachment gain the STOMPA MOB 关键字. 此外, you can pick one 模型 in that Stompa Mob 特殊分队 to gain the 人物 关键字. 然而, the only 主将 Trait it can be given is either Gork’s One or Mork’s One (see right) and the only 圣物 it can take is Tezdrek’s Stompa Power Field (see right).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -14337,7 +14337,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is �
           <profiles>
             <profile id="5068-5569-58a4-f497" name="Kult of Speed" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Use this Stratagem when choosing your army. Pick an 兽人 Detachment from your army to be a Kult of Speed Specialist Detachment. SPEED FREEKS in that Detachment gain the KULT OF SPEED 关键字.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Use this Stratagem when choosing your army. Pick an 兽人 Detachment from your army to be a Kult of Speed 特殊分队. SPEED FREEKS in that Detachment gain the KULT OF SPEED 关键字.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -14354,7 +14354,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is �
           <profiles>
             <profile id="6503-bd6c-535c-7c2c" name="Dread Waaagh!" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Use this Stratagem when choosing your army. Pick an 兽人 Detachment from your army to be a Dread Waaagh! Specialist Detachment. BIG MEKS, GORKANAUTS, MORKANAUTS, DEFF DREADS and KILLA KANS in that Detachment gain the DREAD WAAAGH! 关键字.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Use this Stratagem when choosing your army. Pick an 兽人 Detachment from your army to be a Dread Waaagh! 特殊分队. BIG MEKS, GORKANAUTS, MORKANAUTS, DEFF DREADS and KILLA KANS in that Detachment gain the DREAD WAAAGH! 关键字.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -14371,7 +14371,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is �
           <profiles>
             <profile id="c185-326e-2ff4-ed2e" name="Blitz Brigade" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Use this Stratagem when choosing your army. Pick an 兽人 Detachment from your army to be a Blitz Brigade Specialist Detachment. WARBOSSES, BATTLEWAGONS, GUNWAGONS and BONEBREAKA 单位 in that Detachment gain the BLITZ BRIGADE 关键字.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Use this Stratagem when choosing your army. Pick an 兽人 Detachment from your army to be a Blitz Brigade 特殊分队. WARBOSSES, BATTLEWAGONS, GUNWAGONS and BONEBREAKA 单位 in that Detachment gain the BLITZ BRIGADE 关键字.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -14447,7 +14447,7 @@ When rolling to wound 这个单位, use the Big Mek’s Toughness while it is �
         <characteristic name="S" typeId="59b1-319e-ec13-d466">x2</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When attacking with 这个武器, you 必须 减少 1 from the 命中 roll.  If a 模型 is equipped with 2 Killsaws, add 1 to its A值</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">使用这个武器攻击时,命中骰-1.  If a 模型 is equipped with 2 Killsaws, add 1 to its A值</characteristic>
       </characteristics>
     </profile>
     <profile id="b5ee-945a-576f-ad0a" name="Dok&apos;s Tools" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
