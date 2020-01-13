@@ -110,7 +110,7 @@
     <categoryEntry id="c8fd-783f-3230-493e" name="载具" hidden="false"/>
     <categoryEntry id="e691-aad7-d21c-1023" name="灵能者" hidden="false"/>
     <categoryEntry id="6cc4-1b62-8e8a-05cd" name="运输载具" hidden="true"/>
-    <categoryEntry id="e888-1504-aa61-95ff" name="飞机槽位" hidden="false"/>
+    <categoryEntry id="e888-1504-aa61-95ff" name="飞行器槽位" hidden="false"/>
     <categoryEntry id="1b66-3f5f-6705-079a" name="专用运输载具" hidden="false"/>
     <categoryEntry id="ef18-746a-369f-43a4" name="人物" hidden="false"/>
     <categoryEntry id="3117-16d8-fcef-4f56" name="飞行" hidden="false"/>
@@ -174,8 +174,8 @@
             <categoryLink id="277f-2488-2867-06fc" name="精英槽位" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false"/>
             <categoryLink id="093d-d3a6-7a43-35b2" name="快速槽位" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false"/>
             <categoryLink id="37de-4b8c-3cf3-00f3" name="重型槽位" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false"/>
-            <categoryLink id="f494-d4ee-0846-773f" name="Flyer" hidden="false" targetId="e888-1504-aa61-95ff" primary="false"/>
-            <categoryLink id="e62c-d409-cb2b-4d75" name="Dedicated Transport" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false"/>
+            <categoryLink id="f494-d4ee-0846-773f" name="飞行器槽位" hidden="false" targetId="e888-1504-aa61-95ff" primary="false"/>
+            <categoryLink id="e62c-d409-cb2b-4d75" name="专用运输载具" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false"/>
           </categoryLinks>
         </forceEntry>
       </forceEntries>
@@ -208,12 +208,12 @@
             <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0b3c-8105-4ba6-882e" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="decb-617f-93c1-c4aa" name="Flyer" hidden="false" targetId="e888-1504-aa61-95ff" primary="false">
+        <categoryLink id="decb-617f-93c1-c4aa" name="飞行器槽位" hidden="false" targetId="e888-1504-aa61-95ff" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d855-0082-9aa5-b021" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="799b-fc66-7abf-a0c1" name="Dedicated Transport" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false">
+        <categoryLink id="799b-fc66-7abf-a0c1" name="专用运输载具" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false">
           <modifiers>
             <modifier type="increment" field="806f-d1ee-da05-0983" value="1">
               <repeats>
@@ -231,7 +231,7 @@
           </constraints>
         </categoryLink>
         <categoryLink id="9b48-cd5f-3949-adc6" name="主将" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
-        <categoryLink id="a8d7-367a-2dfd-6b79" name="圣物Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
+        <categoryLink id="a8d7-367a-2dfd-6b79" name="圣物精英槽位" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
           <modifiers>
             <modifier type="increment" field="54d4-89c3-38b6-8877" value="1">
               <repeats>
@@ -248,7 +248,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="54d4-89c3-38b6-8877" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="c5d5-0449-f57d-550d" name="圣物Heavy Support" hidden="false" targetId="6c4c-a416-b8cb-c380" primary="false">
+        <categoryLink id="c5d5-0449-f57d-550d" name="圣物重型槽位" hidden="false" targetId="6c4c-a416-b8cb-c380" primary="false">
           <modifiers>
             <modifier type="increment" field="9dff-5b31-a31d-ddf2" value="1">
               <repeats>
@@ -265,7 +265,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9dff-5b31-a31d-ddf2" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="c094-1b6f-b2e9-21ba" name="圣物HQ" hidden="false" targetId="655f-e142-dfa9-11a4" primary="false">
+        <categoryLink id="c094-1b6f-b2e9-21ba" name="圣物指挥槽位" hidden="false" targetId="655f-e142-dfa9-11a4" primary="false">
           <modifiers>
             <modifier type="increment" field="8d95-029f-78db-83ae" value="1">
               <repeats>
@@ -293,8 +293,8 @@
             <categoryLink id="69a8-6416-9c97-27a5" name="基础槽位" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false"/>
             <categoryLink id="30b0-63c8-a9d5-d86f" name="精英槽位" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false"/>
             <categoryLink id="92b8-6537-f303-6ab4" name="重型槽位" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false"/>
-            <categoryLink id="c2f9-82ad-e4c6-bc61" name="Flyer" hidden="false" targetId="e888-1504-aa61-95ff" primary="false"/>
-            <categoryLink id="1d9c-2d5c-cea2-6bd0" name="Dedicated Transport" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false"/>
+            <categoryLink id="c2f9-82ad-e4c6-bc61" name="飞行器槽位" hidden="false" targetId="e888-1504-aa61-95ff" primary="false"/>
+            <categoryLink id="1d9c-2d5c-cea2-6bd0" name="专用运输载具" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false"/>
             <categoryLink id="1153-a2ee-cd37-9992" name="快速槽位" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false"/>
           </categoryLinks>
         </forceEntry>
@@ -328,12 +328,12 @@
             <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ef09-021e-4bc9-4715" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="9d2e-2da7-d87a-594e" name="Flyer" hidden="false" targetId="e888-1504-aa61-95ff" primary="false">
+        <categoryLink id="9d2e-2da7-d87a-594e" name="飞行器槽位" hidden="false" targetId="e888-1504-aa61-95ff" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b188-b223-0281-a60d" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="461e-243a-a521-ed54" name="Dedicated Transport" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false">
+        <categoryLink id="461e-243a-a521-ed54" name="专用运输载具" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false">
           <modifiers>
             <modifier type="increment" field="dd16-f9e4-6928-db00" value="1">
               <repeats>
@@ -351,7 +351,7 @@
           </constraints>
         </categoryLink>
         <categoryLink id="70a3-5965-8dfd-0dff" name="主将" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
-        <categoryLink id="f91f-9faa-2dff-6fbb" name="圣物Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
+        <categoryLink id="f91f-9faa-2dff-6fbb" name="圣物精英槽位" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
           <modifiers>
             <modifier type="increment" field="54d4-89c3-38b6-8877" value="1">
               <repeats>
@@ -368,7 +368,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="54d4-89c3-38b6-8877" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="8174-cdef-2342-bdd2" name="圣物Heavy Support" hidden="false" targetId="6c4c-a416-b8cb-c380" primary="false">
+        <categoryLink id="8174-cdef-2342-bdd2" name="圣物重型槽位" hidden="false" targetId="6c4c-a416-b8cb-c380" primary="false">
           <modifiers>
             <modifier type="increment" field="9dff-5b31-a31d-ddf2" value="1">
               <repeats>
@@ -385,7 +385,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9dff-5b31-a31d-ddf2" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="f6a9-c625-86c9-7614" name="圣物HQ" hidden="false" targetId="655f-e142-dfa9-11a4" primary="false">
+        <categoryLink id="f6a9-c625-86c9-7614" name="圣物指挥槽位" hidden="false" targetId="655f-e142-dfa9-11a4" primary="false">
           <modifiers>
             <modifier type="increment" field="8d95-029f-78db-83ae" value="1">
               <repeats>
@@ -414,8 +414,8 @@
             <categoryLink id="9d9f-64f3-f99a-6e23" name="精英槽位" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false"/>
             <categoryLink id="6261-7f89-2a6a-7b08" name="快速槽位" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false"/>
             <categoryLink id="cb04-2f0d-3fcf-a1e8" name="重型槽位" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false"/>
-            <categoryLink id="b6e5-fe15-806b-2f33" name="Flyer" hidden="false" targetId="e888-1504-aa61-95ff" primary="false"/>
-            <categoryLink id="b07f-f4bc-532d-ab27" name="Dedicated Transport" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false"/>
+            <categoryLink id="b6e5-fe15-806b-2f33" name="飞行器槽位" hidden="false" targetId="e888-1504-aa61-95ff" primary="false"/>
+            <categoryLink id="b07f-f4bc-532d-ab27" name="专用运输载具" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false"/>
           </categoryLinks>
         </forceEntry>
       </forceEntries>
@@ -451,12 +451,12 @@
             <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="86b7-1215-30a0-1035" type="min"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="df6d-11a9-c480-be2c" name="Flyer" hidden="false" targetId="e888-1504-aa61-95ff" primary="false">
+        <categoryLink id="df6d-11a9-c480-be2c" name="飞行器槽位" hidden="false" targetId="e888-1504-aa61-95ff" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="40c0-d056-1edf-ece9" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="1008-da0a-7d30-ae3d" name="Dedicated Transport" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false">
+        <categoryLink id="1008-da0a-7d30-ae3d" name="专用运输载具" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false">
           <modifiers>
             <modifier type="increment" field="b905-bc19-8b25-f26a" value="1">
               <repeats>
@@ -474,7 +474,7 @@
           </constraints>
         </categoryLink>
         <categoryLink id="b505-6d2b-bb65-191e" name="主将" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
-        <categoryLink id="386d-9c19-e897-b48e" name="圣物Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
+        <categoryLink id="386d-9c19-e897-b48e" name="圣物精英槽位" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
           <modifiers>
             <modifier type="increment" field="54d4-89c3-38b6-8877" value="1">
               <repeats>
@@ -491,7 +491,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="54d4-89c3-38b6-8877" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="d9cb-8644-0367-f245" name="圣物Heavy Support" hidden="false" targetId="6c4c-a416-b8cb-c380" primary="false">
+        <categoryLink id="d9cb-8644-0367-f245" name="圣物重型槽位" hidden="false" targetId="6c4c-a416-b8cb-c380" primary="false">
           <modifiers>
             <modifier type="increment" field="9dff-5b31-a31d-ddf2" value="1">
               <repeats>
@@ -508,7 +508,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9dff-5b31-a31d-ddf2" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="bbb8-1fa2-3f91-6a77" name="圣物HQ" hidden="false" targetId="655f-e142-dfa9-11a4" primary="false">
+        <categoryLink id="bbb8-1fa2-3f91-6a77" name="圣物指挥槽位" hidden="false" targetId="655f-e142-dfa9-11a4" primary="false">
           <modifiers>
             <modifier type="increment" field="8d95-029f-78db-83ae" value="1">
               <repeats>
@@ -537,8 +537,8 @@
             <categoryLink id="3454-6e68-f1d5-8ab8" name="精英槽位" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false"/>
             <categoryLink id="3ef6-bbd6-4973-b0cc" name="快速槽位" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false"/>
             <categoryLink id="0ef4-18ef-934a-1d58" name="重型槽位" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false"/>
-            <categoryLink id="5936-09c6-fea5-3d3f" name="Flyer" hidden="false" targetId="e888-1504-aa61-95ff" primary="false"/>
-            <categoryLink id="1466-b410-7bf3-3015" name="Dedicated Transport" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false"/>
+            <categoryLink id="5936-09c6-fea5-3d3f" name="飞行器槽位" hidden="false" targetId="e888-1504-aa61-95ff" primary="false"/>
+            <categoryLink id="1466-b410-7bf3-3015" name="专用运输载具" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false"/>
           </categoryLinks>
         </forceEntry>
       </forceEntries>
@@ -571,12 +571,12 @@
             <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d33a-1180-53e1-0555" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="e80e-d3e6-f7bc-5bac" name="Flyer" hidden="false" targetId="e888-1504-aa61-95ff" primary="false">
+        <categoryLink id="e80e-d3e6-f7bc-5bac" name="飞行器槽位" hidden="false" targetId="e888-1504-aa61-95ff" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0d87-c6c3-1d60-e88f" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="2f97-4e01-2619-467f" name="Dedicated Transport" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false">
+        <categoryLink id="2f97-4e01-2619-467f" name="专用运输载具" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false">
           <modifiers>
             <modifier type="increment" field="1449-c900-5e63-561c" value="1">
               <repeats>
@@ -594,7 +594,7 @@
           </constraints>
         </categoryLink>
         <categoryLink id="c3f6-3055-bcd0-788b" name="主将" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
-        <categoryLink id="6eb8-3c2f-13e7-17e1" name="圣物Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
+        <categoryLink id="6eb8-3c2f-13e7-17e1" name="圣物精英槽位" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
           <modifiers>
             <modifier type="increment" field="54d4-89c3-38b6-8877" value="1">
               <repeats>
@@ -611,7 +611,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="54d4-89c3-38b6-8877" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="8c66-ed10-ee5d-bf81" name="圣物Heavy Support" hidden="false" targetId="6c4c-a416-b8cb-c380" primary="false">
+        <categoryLink id="8c66-ed10-ee5d-bf81" name="圣物重型槽位" hidden="false" targetId="6c4c-a416-b8cb-c380" primary="false">
           <modifiers>
             <modifier type="increment" field="9dff-5b31-a31d-ddf2" value="1">
               <repeats>
@@ -628,7 +628,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9dff-5b31-a31d-ddf2" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="5bb0-6e99-04b4-f883" name="圣物HQ" hidden="false" targetId="655f-e142-dfa9-11a4" primary="false">
+        <categoryLink id="5bb0-6e99-04b4-f883" name="圣物指挥槽位" hidden="false" targetId="655f-e142-dfa9-11a4" primary="false">
           <modifiers>
             <modifier type="increment" field="8d95-029f-78db-83ae" value="1">
               <repeats>
@@ -657,8 +657,8 @@
             <categoryLink id="74c8-5e08-977c-a44a" name="精英槽位" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false"/>
             <categoryLink id="f779-910f-8f59-a042" name="快速槽位" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false"/>
             <categoryLink id="5170-e172-b302-a93e" name="重型槽位" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false"/>
-            <categoryLink id="5eeb-2543-69d8-ca6f" name="Flyer" hidden="false" targetId="e888-1504-aa61-95ff" primary="false"/>
-            <categoryLink id="51c8-aab8-02db-6836" name="Dedicated Transport" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false"/>
+            <categoryLink id="5eeb-2543-69d8-ca6f" name="飞行器槽位" hidden="false" targetId="e888-1504-aa61-95ff" primary="false"/>
+            <categoryLink id="51c8-aab8-02db-6836" name="专用运输载具" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false"/>
           </categoryLinks>
         </forceEntry>
       </forceEntries>
@@ -691,12 +691,12 @@
             <constraint field="selections" scope="force" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a987-dbff-cc58-ec1a" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="242b-b41b-6732-04f2" name="Flyer" hidden="false" targetId="e888-1504-aa61-95ff" primary="false">
+        <categoryLink id="242b-b41b-6732-04f2" name="飞行器槽位" hidden="false" targetId="e888-1504-aa61-95ff" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="16c8-245a-5afd-3074" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="70bc-5264-fd6d-0827" name="Dedicated Transport" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false">
+        <categoryLink id="70bc-5264-fd6d-0827" name="专用运输载具" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false">
           <modifiers>
             <modifier type="increment" field="68bd-f7ab-859e-fb22" value="1">
               <repeats>
@@ -714,7 +714,7 @@
           </constraints>
         </categoryLink>
         <categoryLink id="0144-c043-6326-c755" name="主将" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
-        <categoryLink id="dff9-8621-e2dd-b4e3" name="圣物Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
+        <categoryLink id="dff9-8621-e2dd-b4e3" name="圣物精英槽位" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
           <modifiers>
             <modifier type="increment" field="54d4-89c3-38b6-8877" value="1">
               <repeats>
@@ -731,7 +731,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="54d4-89c3-38b6-8877" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="2a04-69a5-87bc-14fc" name="圣物Heavy Support" hidden="false" targetId="6c4c-a416-b8cb-c380" primary="false">
+        <categoryLink id="2a04-69a5-87bc-14fc" name="圣物重型槽位" hidden="false" targetId="6c4c-a416-b8cb-c380" primary="false">
           <modifiers>
             <modifier type="increment" field="9dff-5b31-a31d-ddf2" value="1">
               <repeats>
@@ -748,7 +748,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9dff-5b31-a31d-ddf2" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="2653-3387-463f-c068" name="圣物HQ" hidden="false" targetId="655f-e142-dfa9-11a4" primary="false">
+        <categoryLink id="2653-3387-463f-c068" name="圣物指挥槽位" hidden="false" targetId="655f-e142-dfa9-11a4" primary="false">
           <modifiers>
             <modifier type="increment" field="8d95-029f-78db-83ae" value="1">
               <repeats>
@@ -777,8 +777,8 @@
             <categoryLink id="a107-162a-d1ae-e45f" name="精英槽位" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false"/>
             <categoryLink id="3c24-fb50-3f0a-2d1d" name="快速槽位" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false"/>
             <categoryLink id="5667-7ab6-831b-6bf9" name="重型槽位" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false"/>
-            <categoryLink id="b48d-94da-807f-1dad" name="Flyer" hidden="false" targetId="e888-1504-aa61-95ff" primary="false"/>
-            <categoryLink id="e8c7-f93f-12cc-1a41" name="Dedicated Transport" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false"/>
+            <categoryLink id="b48d-94da-807f-1dad" name="飞行器槽位" hidden="false" targetId="e888-1504-aa61-95ff" primary="false"/>
+            <categoryLink id="e8c7-f93f-12cc-1a41" name="专用运输载具" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false"/>
           </categoryLinks>
         </forceEntry>
       </forceEntries>
@@ -811,12 +811,12 @@
             <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8c26-0eee-61de-e734" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="5eb3-6b2a-2229-6f3d" name="Flyer" hidden="false" targetId="e888-1504-aa61-95ff" primary="false">
+        <categoryLink id="5eb3-6b2a-2229-6f3d" name="飞行器槽位" hidden="false" targetId="e888-1504-aa61-95ff" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="350d-c57a-5736-3a79" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="f5cc-af4b-11d5-0831" name="Dedicated Transport" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false">
+        <categoryLink id="f5cc-af4b-11d5-0831" name="专用运输载具" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false">
           <modifiers>
             <modifier type="increment" field="3de0-5460-f04b-09ba" value="1">
               <repeats>
@@ -834,7 +834,7 @@
           </constraints>
         </categoryLink>
         <categoryLink id="5411-43af-9074-78ae" name="主将" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
-        <categoryLink id="43a0-ffe6-d029-9152" name="圣物Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
+        <categoryLink id="43a0-ffe6-d029-9152" name="圣物精英槽位" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
           <modifiers>
             <modifier type="increment" field="54d4-89c3-38b6-8877" value="1">
               <repeats>
@@ -851,7 +851,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="54d4-89c3-38b6-8877" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="b5b0-80f4-016e-51f8" name="圣物Heavy Support" hidden="false" targetId="6c4c-a416-b8cb-c380" primary="false">
+        <categoryLink id="b5b0-80f4-016e-51f8" name="圣物重型槽位" hidden="false" targetId="6c4c-a416-b8cb-c380" primary="false">
           <modifiers>
             <modifier type="increment" field="9dff-5b31-a31d-ddf2" value="1">
               <repeats>
@@ -868,7 +868,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9dff-5b31-a31d-ddf2" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="c59f-786c-5f4d-432f" name="圣物HQ" hidden="false" targetId="655f-e142-dfa9-11a4" primary="false">
+        <categoryLink id="c59f-786c-5f4d-432f" name="圣物指挥槽位" hidden="false" targetId="655f-e142-dfa9-11a4" primary="false">
           <modifiers>
             <modifier type="increment" field="8d95-029f-78db-83ae" value="1">
               <repeats>
@@ -895,7 +895,7 @@
             <categoryLink id="c631-e906-2086-fdf9" name="指挥槽位" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false"/>
             <categoryLink id="08df-b76b-e405-c10a" name="精英槽位" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false"/>
             <categoryLink id="ead4-93ca-c5e6-a4f0" name="战争之王槽位" hidden="false" targetId="c888f08a-6cea-4a01-8126-d374a9231554" primary="false"/>
-            <categoryLink id="12c8-6b62-f26a-239a" name="Dedicated Transport" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false"/>
+            <categoryLink id="12c8-6b62-f26a-239a" name="专用运输载具" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false"/>
           </categoryLinks>
         </forceEntry>
       </forceEntries>
@@ -917,7 +917,7 @@
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b702-8fc0-cb44-1728" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="a514-61d3-6fd9-6e13" name="Dedicated Transport" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false">
+        <categoryLink id="a514-61d3-6fd9-6e13" name="专用运输载具" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false">
           <modifiers>
             <modifier type="increment" field="83e7-e60b-0ad5-1d24" value="1">
               <repeats>
@@ -932,7 +932,7 @@
           </constraints>
         </categoryLink>
         <categoryLink id="2421-180e-769d-d51f" name="主将" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
-        <categoryLink id="2e59-df4f-9429-ef1a" name="圣物Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
+        <categoryLink id="2e59-df4f-9429-ef1a" name="圣物精英槽位" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
           <modifiers>
             <modifier type="increment" field="54d4-89c3-38b6-8877" value="1">
               <repeats>
@@ -949,7 +949,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="54d4-89c3-38b6-8877" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="c32f-1035-9b39-65de" name="圣物HQ" hidden="false" targetId="655f-e142-dfa9-11a4" primary="false">
+        <categoryLink id="c32f-1035-9b39-65de" name="圣物指挥槽位" hidden="false" targetId="655f-e142-dfa9-11a4" primary="false">
           <modifiers>
             <modifier type="increment" field="8d95-029f-78db-83ae" value="1">
               <repeats>
@@ -1046,13 +1046,13 @@
         <forceEntry id="444e-30c9-5181-aa6b" name="制空分队" hidden="false">
           <categoryLinks>
             <categoryLink id="3da0-f292-3c4c-f65b" name="游戏选项" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
-            <categoryLink id="2061-bcdc-2bbf-6c08" name="Flyer" hidden="false" targetId="e888-1504-aa61-95ff" primary="false"/>
+            <categoryLink id="2061-bcdc-2bbf-6c08" name="飞行器槽位" hidden="false" targetId="e888-1504-aa61-95ff" primary="false"/>
           </categoryLinks>
         </forceEntry>
       </forceEntries>
       <categoryLinks>
         <categoryLink id="e09e-267a-4f71-9e08" name="游戏选项" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
-        <categoryLink id="425c-179c-46b3-5ee8" name="Flyer" hidden="false" targetId="e888-1504-aa61-95ff" primary="false">
+        <categoryLink id="425c-179c-46b3-5ee8" name="飞行器槽位" hidden="false" targetId="e888-1504-aa61-95ff" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="79cf-a0c0-267b-41b3" type="max"/>
             <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="fc65-2978-7619-e375" type="min"/>
@@ -1116,8 +1116,8 @@
         <categoryLink id="d2bf-84f3-f089-ae42" name="精英槽位" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false"/>
         <categoryLink id="db20-7a0f-2a50-f1c7" name="快速槽位" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false"/>
         <categoryLink id="9153-b8bd-1f8a-9f1f" name="重型槽位" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false"/>
-        <categoryLink id="0960-9271-26d6-1831" name="Flyer" hidden="false" targetId="e888-1504-aa61-95ff" primary="false"/>
-        <categoryLink id="1d7c-3253-d90d-6e3a" name="Dedicated Transport" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false"/>
+        <categoryLink id="0960-9271-26d6-1831" name="飞行器槽位" hidden="false" targetId="e888-1504-aa61-95ff" primary="false"/>
+        <categoryLink id="1d7c-3253-d90d-6e3a" name="专用运输载具" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false"/>
         <categoryLink id="09fb-b9a5-3cb5-b0d5" name="主将" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
         <categoryLink id="ba03-97bb-c51d-9a47" name="圣物" hidden="false" targetId="e10e-b44e-7eda-41d8" primary="false">
           <constraints>
@@ -1134,8 +1134,8 @@
         <categoryLink id="24e9-deff-3ba2-7cf9" name="精英槽位" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false"/>
         <categoryLink id="d486-01d8-2603-a869" name="快速槽位" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false"/>
         <categoryLink id="5ed1-c11a-2ce1-7199" name="重型槽位" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false"/>
-        <categoryLink id="0ee9-f3b9-cc0c-40a8" name="Flyer" hidden="false" targetId="e888-1504-aa61-95ff" primary="false"/>
-        <categoryLink id="d5f2-dac9-5cf7-ddac" name="Dedicated Transport" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false"/>
+        <categoryLink id="0ee9-f3b9-cc0c-40a8" name="飞行器槽位" hidden="false" targetId="e888-1504-aa61-95ff" primary="false"/>
+        <categoryLink id="d5f2-dac9-5cf7-ddac" name="专用运输载具" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false"/>
         <categoryLink id="b474-2366-f02e-6f49" name="战争之王槽位" hidden="false" targetId="c888f08a-6cea-4a01-8126-d374a9231554" primary="false"/>
         <categoryLink id="7751-b628-068c-ae45" name="工事槽位" hidden="false" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a" primary="false"/>
         <categoryLink id="9a65-6b3b-5e44-03e8" name="主将" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
@@ -1154,8 +1154,8 @@
             <categoryLink id="4d08-f2b8-c821-2d6b" name="精英槽位" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false"/>
             <categoryLink id="7597-dd7f-9622-4751" name="快速槽位" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false"/>
             <categoryLink id="b2b9-dc58-ec81-65a1" name="重型槽位" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false"/>
-            <categoryLink id="f9f2-5dcb-2b12-ae84" name="Flyer" hidden="false" targetId="e888-1504-aa61-95ff" primary="false"/>
-            <categoryLink id="9b4c-7cd9-cbbb-292a" name="Dedicated Transport" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false"/>
+            <categoryLink id="f9f2-5dcb-2b12-ae84" name="飞行器槽位" hidden="false" targetId="e888-1504-aa61-95ff" primary="false"/>
+            <categoryLink id="9b4c-7cd9-cbbb-292a" name="专用运输载具" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false"/>
           </categoryLinks>
         </forceEntry>
       </forceEntries>
@@ -1189,12 +1189,12 @@
             <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4976-b422-3e65-af73" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="a19b-ee60-a490-c369" name="Flyer" hidden="false" targetId="e888-1504-aa61-95ff" primary="false">
+        <categoryLink id="a19b-ee60-a490-c369" name="飞行器槽位" hidden="false" targetId="e888-1504-aa61-95ff" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="80f9-8b10-2178-7419" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="bbf5-21d7-a5cc-0e11" name="Dedicated Transport" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false">
+        <categoryLink id="bbf5-21d7-a5cc-0e11" name="专用运输载具" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false">
           <modifiers>
             <modifier type="increment" field="4240-b0fc-8a69-2871" value="1">
               <repeats>
@@ -1212,7 +1212,7 @@
           </constraints>
         </categoryLink>
         <categoryLink id="7187-699d-2503-992c" name="主将" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
-        <categoryLink id="f717-1d3f-dd97-4126" name="圣物Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
+        <categoryLink id="f717-1d3f-dd97-4126" name="圣物精英槽位" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
           <modifiers>
             <modifier type="increment" field="54d4-89c3-38b6-8877" value="1">
               <repeats>
@@ -1229,7 +1229,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="54d4-89c3-38b6-8877" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="c884-2e22-b770-2ea4" name="圣物Heavy Support" hidden="false" targetId="6c4c-a416-b8cb-c380" primary="false">
+        <categoryLink id="c884-2e22-b770-2ea4" name="圣物重型槽位" hidden="false" targetId="6c4c-a416-b8cb-c380" primary="false">
           <modifiers>
             <modifier type="increment" field="9dff-5b31-a31d-ddf2" value="1">
               <repeats>
@@ -1246,7 +1246,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9dff-5b31-a31d-ddf2" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="fba2-4040-ac19-c9f9" name="圣物HQ" hidden="false" targetId="655f-e142-dfa9-11a4" primary="false">
+        <categoryLink id="fba2-4040-ac19-c9f9" name="圣物指挥槽位" hidden="false" targetId="655f-e142-dfa9-11a4" primary="false">
           <modifiers>
             <modifier type="increment" field="8d95-029f-78db-83ae" value="1">
               <repeats>
@@ -1278,8 +1278,8 @@
             <categoryLink id="f29c-5abe-183f-53a9" name="精英槽位" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false"/>
             <categoryLink id="fab4-b28d-9808-c49f" name="快速槽位" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false"/>
             <categoryLink id="6ffe-1026-e06c-f498" name="重型槽位" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false"/>
-            <categoryLink id="a9dc-4176-d12f-e79c" name="Flyer" hidden="false" targetId="e888-1504-aa61-95ff" primary="false"/>
-            <categoryLink id="55d6-e46b-5d87-b994" name="Dedicated Transport" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false"/>
+            <categoryLink id="a9dc-4176-d12f-e79c" name="飞行器槽位" hidden="false" targetId="e888-1504-aa61-95ff" primary="false"/>
+            <categoryLink id="55d6-e46b-5d87-b994" name="专用运输载具" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false"/>
           </categoryLinks>
         </forceEntry>
       </forceEntries>
@@ -1313,12 +1313,12 @@
             <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4cf4-226b-660e-a0aa" type="min"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="dee8-6d46-4f0e-52ad" name="Flyer" hidden="false" targetId="e888-1504-aa61-95ff" primary="false">
+        <categoryLink id="dee8-6d46-4f0e-52ad" name="飞行器槽位" hidden="false" targetId="e888-1504-aa61-95ff" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7199-bb08-0039-d29b" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="e868-759d-d0b4-de3e" name="Dedicated Transport" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false">
+        <categoryLink id="e868-759d-d0b4-de3e" name="专用运输载具" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false">
           <modifiers>
             <modifier type="increment" field="ee38-3431-abb2-9e62" value="1">
               <repeats>
@@ -1336,7 +1336,7 @@
           </constraints>
         </categoryLink>
         <categoryLink id="3c3b-27e3-c0b7-b3ee" name="主将" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
-        <categoryLink id="4191-d1fc-fa74-f144" name="圣物Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
+        <categoryLink id="4191-d1fc-fa74-f144" name="圣物精英槽位" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
           <modifiers>
             <modifier type="increment" field="54d4-89c3-38b6-8877" value="1">
               <repeats>
@@ -1353,7 +1353,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="54d4-89c3-38b6-8877" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="fee7-452a-1930-e058" name="圣物Heavy Support" hidden="false" targetId="6c4c-a416-b8cb-c380" primary="false">
+        <categoryLink id="fee7-452a-1930-e058" name="圣物重型槽位" hidden="false" targetId="6c4c-a416-b8cb-c380" primary="false">
           <modifiers>
             <modifier type="increment" field="9dff-5b31-a31d-ddf2" value="1">
               <repeats>
@@ -1370,7 +1370,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9dff-5b31-a31d-ddf2" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="0711-642a-731c-6618" name="圣物HQ" hidden="false" targetId="655f-e142-dfa9-11a4" primary="false">
+        <categoryLink id="0711-642a-731c-6618" name="圣物指挥槽位" hidden="false" targetId="655f-e142-dfa9-11a4" primary="false">
           <modifiers>
             <modifier type="increment" field="8d95-029f-78db-83ae" value="1">
               <repeats>
@@ -1402,8 +1402,8 @@
             <categoryLink id="673d-3c4a-9004-3b11" name="精英槽位" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false"/>
             <categoryLink id="7e1f-2e3e-7b33-4f37" name="快速槽位" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false"/>
             <categoryLink id="98e3-b638-93a6-716a" name="重型槽位" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false"/>
-            <categoryLink id="226d-278e-f933-0315" name="Flyer" hidden="false" targetId="e888-1504-aa61-95ff" primary="false"/>
-            <categoryLink id="01fa-07f7-0209-abdc" name="Dedicated Transport" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false"/>
+            <categoryLink id="226d-278e-f933-0315" name="飞行器槽位" hidden="false" targetId="e888-1504-aa61-95ff" primary="false"/>
+            <categoryLink id="01fa-07f7-0209-abdc" name="专用运输载具" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false"/>
           </categoryLinks>
         </forceEntry>
       </forceEntries>
@@ -1437,12 +1437,12 @@
             <constraint field="selections" scope="force" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="85c7-f616-15be-2e7a" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="a639-9ba1-d8ce-3be6" name="Flyer" hidden="false" targetId="e888-1504-aa61-95ff" primary="false">
+        <categoryLink id="a639-9ba1-d8ce-3be6" name="飞行器槽位" hidden="false" targetId="e888-1504-aa61-95ff" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9392-4b4a-644e-b274" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="2b73-912c-f20b-cb0a" name="Dedicated Transport" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false">
+        <categoryLink id="2b73-912c-f20b-cb0a" name="专用运输载具" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false">
           <modifiers>
             <modifier type="increment" field="9a18-2f70-70ee-6230" value="1">
               <repeats>
@@ -1460,7 +1460,7 @@
           </constraints>
         </categoryLink>
         <categoryLink id="eed4-ea5f-257c-0699" name="主将" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
-        <categoryLink id="e346-2f51-2beb-4df1" name="圣物Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
+        <categoryLink id="e346-2f51-2beb-4df1" name="圣物精英槽位" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
           <modifiers>
             <modifier type="increment" field="54d4-89c3-38b6-8877" value="1">
               <repeats>
@@ -1477,7 +1477,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="54d4-89c3-38b6-8877" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="fc1e-73ca-8982-5ee9" name="圣物Heavy Support" hidden="false" targetId="6c4c-a416-b8cb-c380" primary="false">
+        <categoryLink id="fc1e-73ca-8982-5ee9" name="圣物重型槽位" hidden="false" targetId="6c4c-a416-b8cb-c380" primary="false">
           <modifiers>
             <modifier type="increment" field="9dff-5b31-a31d-ddf2" value="1">
               <repeats>
@@ -1494,7 +1494,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9dff-5b31-a31d-ddf2" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="ea6a-5689-5bbb-04fe" name="圣物HQ" hidden="false" targetId="655f-e142-dfa9-11a4" primary="false">
+        <categoryLink id="ea6a-5689-5bbb-04fe" name="圣物指挥槽位" hidden="false" targetId="655f-e142-dfa9-11a4" primary="false">
           <modifiers>
             <modifier type="increment" field="8d95-029f-78db-83ae" value="1">
               <repeats>
@@ -1526,9 +1526,9 @@
             <categoryLink id="1e95-c712-47b6-ebbd" name="精英槽位" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false"/>
             <categoryLink id="0f0d-d815-436c-8775" name="快速槽位" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false"/>
             <categoryLink id="bd09-2ffc-fe1a-508c" name="重型槽位" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false"/>
-            <categoryLink id="311d-4ffb-0807-9e37" name="Flyer" hidden="false" targetId="e888-1504-aa61-95ff" primary="false"/>
+            <categoryLink id="311d-4ffb-0807-9e37" name="飞行器槽位" hidden="false" targetId="e888-1504-aa61-95ff" primary="false"/>
             <categoryLink id="3fcb-1ea2-66d6-c8bb" name="工事槽位" hidden="false" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a" primary="false"/>
-            <categoryLink id="607f-451f-4b13-2410" name="Dedicated Transport" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false"/>
+            <categoryLink id="607f-451f-4b13-2410" name="专用运输载具" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false"/>
           </categoryLinks>
         </forceEntry>
       </forceEntries>
@@ -1561,7 +1561,7 @@
             <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f2c3-3aa4-a133-3f5c" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="fb6c-0781-4191-2f7d" name="Flyer" hidden="false" targetId="e888-1504-aa61-95ff" primary="false">
+        <categoryLink id="fb6c-0781-4191-2f7d" name="飞行器槽位" hidden="false" targetId="e888-1504-aa61-95ff" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9de2-55d2-ac58-82c0" type="max"/>
           </constraints>
@@ -1572,7 +1572,7 @@
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="191b-0f65-3883-b447" type="min"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="dbc3-4362-6d5d-c70e" name="Dedicated Transport" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false">
+        <categoryLink id="dbc3-4362-6d5d-c70e" name="专用运输载具" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false">
           <modifiers>
             <modifier type="increment" field="6ce3-81ab-8b21-3ef4" value="1">
               <repeats>
@@ -1590,7 +1590,7 @@
           </constraints>
         </categoryLink>
         <categoryLink id="3e5e-b1fa-a208-60bd" name="主将" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
-        <categoryLink id="414e-4ecb-b1e8-75c3" name="圣物Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
+        <categoryLink id="414e-4ecb-b1e8-75c3" name="圣物精英槽位" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
           <modifiers>
             <modifier type="increment" field="54d4-89c3-38b6-8877" value="1">
               <repeats>
@@ -1607,7 +1607,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="54d4-89c3-38b6-8877" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="52e7-ca29-a7fd-9577" name="圣物Heavy Support" hidden="false" targetId="6c4c-a416-b8cb-c380" primary="false">
+        <categoryLink id="52e7-ca29-a7fd-9577" name="圣物重型槽位" hidden="false" targetId="6c4c-a416-b8cb-c380" primary="false">
           <modifiers>
             <modifier type="increment" field="9dff-5b31-a31d-ddf2" value="1">
               <repeats>
@@ -1624,7 +1624,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9dff-5b31-a31d-ddf2" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="fe7d-0ab3-77ba-4216" name="圣物HQ" hidden="false" targetId="655f-e142-dfa9-11a4" primary="false">
+        <categoryLink id="fe7d-0ab3-77ba-4216" name="圣物指挥槽位" hidden="false" targetId="655f-e142-dfa9-11a4" primary="false">
           <modifiers>
             <modifier type="increment" field="8d95-029f-78db-83ae" value="1">
               <repeats>
@@ -1652,8 +1652,8 @@
         <categoryLink id="2d7b-0099-a47e-c62c" name="精英槽位" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false"/>
         <categoryLink id="9c1f-f31c-f8ba-48b4" name="快速槽位" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false"/>
         <categoryLink id="f0ff-1f62-8d73-3c71" name="重型槽位" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false"/>
-        <categoryLink id="73bb-f183-0427-db60" name="Flyer" hidden="false" targetId="e888-1504-aa61-95ff" primary="false"/>
-        <categoryLink id="0283-c857-f6d8-f26f" name="Dedicated Transport" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false"/>
+        <categoryLink id="73bb-f183-0427-db60" name="飞行器槽位" hidden="false" targetId="e888-1504-aa61-95ff" primary="false"/>
+        <categoryLink id="0283-c857-f6d8-f26f" name="专用运输载具" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false"/>
         <categoryLink id="8b22-7e29-d1a4-9845" name="战争之王槽位" hidden="false" targetId="c888f08a-6cea-4a01-8126-d374a9231554" primary="false"/>
       </categoryLinks>
     </forceEntry>
