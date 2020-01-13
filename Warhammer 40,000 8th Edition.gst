@@ -1941,7 +1941,7 @@
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">-</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">-</characteristic>
-                    <characteristic name="能力" typeId="837d-5e63-aeb7-1410">这个武器 may target 单位 that are not 可见 to the bearer, even when firing in accordance with the Automated 武器 ability. 每次 you 命中 the target with 这个武器 it 遭受 D6 致命伤. If a 模型 is wounded but but not slain by this attack, roll another dice; 结果为6, the 模型 遭受 a further D6 致命伤.</characteristic>
+                    <characteristic name="能力" typeId="837d-5e63-aeb7-1410">这个武器 may target 单位 that are not 可见 to the bearer, even when firing in accordance with the Automated 武器 ability. 每次 you 命中 the target 使用这个武器 it 遭受 D6 致命伤. If a 模型 is wounded but but not slain by this attack, roll another dice; 结果为6, the 模型 遭受 a further D6 致命伤.</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="43f6-b40f-134b-8b48" name="Containment Failure" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -6786,7 +6786,7 @@
                   <profiles>
                     <profile id="d1b4-cfe9-6852-26f5" name="06: 地狱弹" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s 远程武器. Add the following ability to that 武器: ‘单位 do not receive the benefit of cover to their saving throws 对抗 攻击 made with 这个武器.’</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s 远程武器. Add the following ability to that 武器: ‘单位 do not receive the benefit of cover to their saving throws 对抗 攻击 made 使用这个武器.’</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6837,7 +6837,7 @@
                   <profiles>
                     <profile id="1ce8-bd94-7cf0-e20f" name="09: Shredder" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s 肉搏武器. Add the following ability to that 武器: ‘可以重投失败的造伤骰 for 攻击 made with 这个武器.’</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s 肉搏武器. Add the following ability to that 武器: ‘可以重投失败的造伤骰 for 攻击 made 使用这个武器.’</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6888,7 +6888,7 @@
                   <profiles>
                     <profile id="c8c0-671c-6174-969c" name="12: Heirloom" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s 肉搏武器. Add the following ability to that 武器: ‘Each unmodified 命中 roll of 6 made for 攻击 with 这个武器 scores 2 命中 而不是 1’.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s 肉搏武器. Add the following ability to that 武器: ‘Each unmodified 命中 roll of 6 made for 攻击 使用这个武器 scores 2 命中 而不是 1’.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -9497,7 +9497,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">x2</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
-        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">When a 模型 攻击 with 这个武器, you 必须 命中骰-1.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">When a 模型 攻击 使用这个武器, you 必须 命中骰-1.</characteristic>
       </characteristics>
     </profile>
     <profile id="9873-9487-e878-7e93" name="驱灵手雷" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
