@@ -5881,9 +5881,9 @@
                 <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="6310-0441-8085-fdcb" name="2. Fortress Commander" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="6310-0441-8085-fdcb" name="2. Fortress 指挥官" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="e826-7677-123a-f36c" name="Fortress Commander" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
+                <profile id="e826-7677-123a-f36c" name="Fortress 指挥官" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
                     <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your 主将 is 上车 范围内 a 建筑, roll a dice 每次 that 建筑 失去1点W; 结果为6+, the 建筑 does not lose a wound.</characteristic>
                   </characteristics>
@@ -7700,12 +7700,12 @@
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c100-e449-97f1-191a" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="8902-f696-9cd2-3257" name="R1: Famed Commander" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="8902-f696-9cd2-3257" name="R1: Famed 指挥官" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d1b-a39f-a53f-4e8a" type="max"/>
               </constraints>
               <profiles>
-                <profile id="6783-bbb6-e012-32ab" name="R1: Famed Commander" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
+                <profile id="6783-bbb6-e012-32ab" name="R1: Famed 指挥官" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
                     <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">投掷1个D6 每次 a 模型 in 这个单位 失去1点W; 结果为6 the 模型 does not lose that wound.</characteristic>
                   </characteristics>

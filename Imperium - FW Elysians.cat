@@ -21,7 +21,7 @@
     <categoryEntry id="890c-c9d8-9e8c-cee1" name="Avenger Strike Fighter" hidden="false"/>
     <categoryEntry id="ee20-7662-0e06-9dfd" name="独眼巨人爆破载具" hidden="false"/>
     <categoryEntry id="dc5f-dbd3-fa1a-6c21" name="艾里西亚 指挥小队" hidden="false"/>
-    <categoryEntry id="9d41-076b-88c2-0e19" name="艾里西亚 Company Commander" hidden="false"/>
+    <categoryEntry id="9d41-076b-88c2-0e19" name="艾里西亚 Company 指挥官" hidden="false"/>
     <categoryEntry id="8513-d267-3968-f2bf" name="艾里西亚 Drop Sentinels" hidden="false"/>
     <categoryEntry id="33b8-a805-c319-bebe" name="艾里西亚 空降兵小队" hidden="false"/>
     <categoryEntry id="877e-f8f7-46d6-7c09" name="艾里西亚 这些武器小队" hidden="false"/>
@@ -75,7 +75,7 @@
         <categoryLink id="ea31-0a0a-f7fa-e418" name="New CategoryLink" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="1aac-d0e5-b586-a4b4" name="艾里西亚 Company Commander" hidden="false" collective="false" import="true" targetId="9087-1b5b-86a2-3a89" type="selectionEntry">
+    <entryLink id="1aac-d0e5-b586-a4b4" name="艾里西亚 Company 指挥官" hidden="false" collective="false" import="true" targetId="9087-1b5b-86a2-3a89" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="392e-7d30-6bb7-c16c" name="New CategoryLink" hidden="false" targetId="3263-4233-4344-6228" primary="false"/>
         <categoryLink id="97a0-004e-ad6a-db69" name="New CategoryLink" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
@@ -290,7 +290,7 @@
         <categoryLink id="daf5-aac1-4c44-6b80" name="New CategoryLink" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="dec6-67ee-ebf5-6dfd" name="帝国 Commander&apos;s Armoury" hidden="false" collective="false" import="true" targetId="d7be-7049-0cc9-dcf3" type="selectionEntry">
+    <entryLink id="dec6-67ee-ebf5-6dfd" name="帝国 指挥官&apos;s Armoury" hidden="false" collective="false" import="true" targetId="d7be-7049-0cc9-dcf3" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -1800,9 +1800,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9087-1b5b-86a2-3a89" name="艾里西亚 Company Commander" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="9087-1b5b-86a2-3a89" name="艾里西亚 Company 指挥官" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="b946-4e55-f8fd-cda0" name="艾里西亚 Company Commander" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+        <profile id="b946-4e55-f8fd-cda0" name="艾里西亚 Company 指挥官" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6寸</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -3533,7 +3533,7 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d7be-7049-0cc9-dcf3" name="帝国 Commander&apos;s Armoury" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="d7be-7049-0cc9-dcf3" name="帝国 指挥官&apos;s Armoury" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="11c6-adfc-b837-0268" type="max"/>
       </constraints>

@@ -2452,7 +2452,7 @@
         <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f8e0-e215-303e-da23" name="主将特性: Cunning Commander" publicationId="82cd-d24f-pubN65537" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="f8e0-e215-303e-da23" name="主将特性: Cunning 指挥官" publicationId="82cd-d24f-pubN65537" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="2d3b-b544-ad49-fb75" value="0.0">
           <conditions>
@@ -2464,7 +2464,7 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7485-8523-b419-e2e6" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="dd6f-186a-a24b-6d82" name="Cunning Commander" hidden="false" targetId="a263-9b9d-fee2-49da" type="profile"/>
+        <infoLink id="dd6f-186a-a24b-6d82" name="Cunning 指挥官" hidden="false" targetId="a263-9b9d-fee2-49da" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -5205,9 +5205,9 @@ Unless they can FLY, 载具, MONSTERS, CAVALRY, and 摩托 can only be set up an
             <modifier type="set" field="name" value="(Codex 2) Ion Bulwark"/>
           </modifiers>
         </infoLink>
-        <infoLink id="b3a7-b116-7f5e-5841" name="Cunning Commander" hidden="false" targetId="a263-9b9d-fee2-49da" type="profile">
+        <infoLink id="b3a7-b116-7f5e-5841" name="Cunning 指挥官" hidden="false" targetId="a263-9b9d-fee2-49da" type="profile">
           <modifiers>
-            <modifier type="set" field="name" value="(Codex 1) Cunning Commander"/>
+            <modifier type="set" field="name" value="(Codex 1) Cunning 指挥官"/>
           </modifiers>
         </infoLink>
       </infoLinks>
@@ -6360,7 +6360,7 @@ Unless they can FLY, 载具, MONSTERS, CAVALRY, and 摩托 can only be set up an
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be2f-cfac-7b42-b9b8" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="4fec-655c-64ea-fca4" name="主将特性: Cunning Commander" hidden="false" collective="false" import="true" targetId="f8e0-e215-303e-da23" type="selectionEntry">
+        <entryLink id="4fec-655c-64ea-fca4" name="主将特性: Cunning 指挥官" hidden="false" collective="false" import="true" targetId="f8e0-e215-303e-da23" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbd9-4ed0-01e0-8bea" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9704-2919-b960-22a8" type="max"/>
@@ -6782,7 +6782,7 @@ If a Freeblade from your army has any Burdens, roll 2D6 for them 在每个玩家
         <characteristic name="描述" typeId="f9f0-1b0a-0e16-84b3">可以重投命中1</characteristic>
       </characteristics>
     </profile>
-    <profile id="a263-9b9d-fee2-49da" name="Cunning Commander" publicationId="82cd-d24f-pubN65537" hidden="false" typeId="b2ac-1cb8-8f3c-8ded" typeName="主将特性">
+    <profile id="a263-9b9d-fee2-49da" name="Cunning 指挥官" publicationId="82cd-d24f-pubN65537" hidden="false" typeId="b2ac-1cb8-8f3c-8ded" typeName="主将特性">
       <characteristics>
         <characteristic name="描述" typeId="f9f0-1b0a-0e16-84b3">一次性, you can 重投 one 命中 roll, wound roll, 伤害 roll, or saving throw made for your 主将.  此外, if your army is Battle-forged, you gain an additional 指挥点数.</characteristic>
       </characteristics>
