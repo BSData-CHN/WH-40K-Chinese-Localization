@@ -1755,7 +1755,7 @@
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="a505-05af-bd44-56b6" name="支援防线" publicationId="28ec-711c-pubN77581" page="79" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="a505-05af-bd44-56b6" name="支援防线" publicationId="28ec-711c-pubN77581" page="79" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="4ae0-157d-0f63-5531" name="Immobile" hidden="false" targetId="8830-2c9e-ad7e-e57d" type="profile"/>
         <infoLink id="238a-f756-6edf-3af8" name="Static Defence Network" hidden="false" targetId="c60f-7b10-88fd-9eba" type="profile"/>
@@ -2256,7 +2256,7 @@
         <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0f73-97f2-b832-f6d0" name="帝国防线" page="" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="0f73-97f2-b832-f6d0" name="帝国防线" page="" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="808f-d24a-ba7c-7d24" name="Stalwart Defence" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
@@ -2427,7 +2427,7 @@
         <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="04bf-6c22-19fb-4e46" name="复仇武器阵列" page="" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="04bf-6c22-19fb-4e46" name="复仇武器阵列" page="" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="increment" field="e356-c769-5920-6e14" value="6">
           <conditions>
@@ -4494,7 +4494,7 @@
         <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bf09-85b2-c097-1071" name="游戏模式" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="bf09-85b2-c097-1071" name="游戏模式" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1cf3-6923-9f59-8fbf" type="max"/>
       </constraints>
@@ -5118,7 +5118,7 @@
         <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="732b-967e-1bca-5846" name="白蚁掘进机" publicationId="28ec-711c-pubN97206" page="1" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="732b-967e-1bca-5846" name="白蚁掘进机" publicationId="28ec-711c-pubN97206" page="1" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="da37-5957-9ddb-0eb4" name="地底突袭" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
