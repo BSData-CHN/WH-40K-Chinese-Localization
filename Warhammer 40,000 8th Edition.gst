@@ -156,7 +156,7 @@
     <categoryEntry id="f0b3-c388-f734-4ba4" name="Bonewyrm Infestation" hidden="false"/>
     <categoryEntry id="7320-eafd-02c1-94da" name="支援分数" hidden="false"/>
     <categoryEntry id="4c9f-f934-ed79-84fe" name="阵营: 族裔兄弟" hidden="false"/>
-    <categoryEntry id="d9b9-e9ab-155a-8109" name="Helbrute" hidden="false"/>
+    <categoryEntry id="d9b9-e9ab-155a-8109" name="地狱兽" hidden="false"/>
     <categoryEntry id="1481-ffc3-f85a-eb36" name="阵营: 叛变骑士" hidden="false"/>
     <categoryEntry id="b096-59fd-a5eb-5739" name="混沌星际战士" hidden="false"/>
     <categoryEntry id="d569-3d56-cd24-6a31" name="飞机" publicationId="82b3-73d0-72b2-3180" hidden="false"/>
@@ -3210,8 +3210,8 @@
     </selectionEntry>
     <selectionEntry id="eb15-db61-5d4f-b65e" name="等离子炮" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="2278-2fe0-53cd-bec4" name="Plasma cannon, 标准" hidden="false" targetId="7983-8451-cdc3-ce7e" type="profile"/>
-        <infoLink id="3533-33d5-765f-1a0b" name="Plasma cannon, 过载" hidden="false" targetId="fbb2-f4cb-e47d-1d10" type="profile"/>
+        <infoLink id="2278-2fe0-53cd-bec4" name="等离子炮, 标准" hidden="false" targetId="7983-8451-cdc3-ce7e" type="profile"/>
+        <infoLink id="3533-33d5-765f-1a0b" name="等离子炮, 过载" hidden="false" targetId="fbb2-f4cb-e47d-1d10" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="16.0"/>
@@ -4693,7 +4693,7 @@
                 <condition field="selections" scope="5ea6-c789-f6b9-5c00" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7a60-bc15-dc4b-eba5" type="equalTo"/>
               </conditions>
             </modifier>
-            <modifier type="append" field="15aa-1916-a38b-d223" value="步兵模型. Each 跳跃背包 or 终结者 模型 takes the space of two other 模型. 不能运输 原铸 模型."/>
+            <modifier type="append" field="15aa-1916-a38b-d223" value="步兵模型. Each 跳跃背包 or 终结者模型 takes the space of two other 模型. 不能运输 原铸 模型."/>
           </modifiers>
           <characteristics>
             <characteristic name="容量" typeId="15aa-1916-a38b-d223">0</characteristic>
@@ -4772,7 +4772,7 @@
             <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">2+</characteristic>
           </characteristics>
         </profile>
-        <profile id="ee43-4b72-0be8-656e" name="恶魔 Machine Spirit" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
+        <profile id="ee43-4b72-0be8-656e" name="恶魔机魂" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -4811,7 +4811,7 @@
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                    <characteristic name="能力" typeId="837d-5e63-aeb7-1410">If a 模型 遭受 any unsaved wounds from 这个武器 but is not slain, 投掷1个D6, 结果为6, the target 遭受 1点致命伤.</characteristic>
+                    <characteristic name="能力" typeId="837d-5e63-aeb7-1410">If a 模型 遭受 任何未通过保护的伤害 from 这个武器 but is not slain, 投掷1个D6, 结果为6, the target 遭受 1点致命伤.</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="9b24-2450-ad3f-9499" name="双联Helfrost Cannon (Focused Beam)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -4821,7 +4821,7 @@
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-                    <characteristic name="能力" typeId="837d-5e63-aeb7-1410">If a 模型 遭受 any unsaved wounds from 这个武器 but is not slain, 投掷1个D6, 结果为6, the target 遭受 1点致命伤.</characteristic>
+                    <characteristic name="能力" typeId="837d-5e63-aeb7-1410">If a 模型 遭受 任何未通过保护的伤害 from 这个武器 but is not slain, 投掷1个D6, 结果为6, the target 遭受 1点致命伤.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>

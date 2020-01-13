@@ -1354,7 +1354,7 @@
                   <entryLinks>
                     <entryLink id="4323-695a-e41c-b969" name="Demolisher Siege Cannon" hidden="false" collective="false" import="true" targetId="9ab6-cc34-0231-a055" type="selectionEntry"/>
                     <entryLink id="5a54-c1b0-d1d6-33d5" name="Eradicator Nova Cannon" hidden="false" collective="false" import="true" targetId="43fd-86e2-77c2-97ac" type="selectionEntry"/>
-                    <entryLink id="65a0-3e53-67c6-a122" name="Executioner Plasma Cannon" hidden="false" collective="false" import="true" targetId="d90a-b27c-fad7-191d" type="selectionEntry"/>
+                    <entryLink id="65a0-3e53-67c6-a122" name="Executioner 等离子炮" hidden="false" collective="false" import="true" targetId="d90a-b27c-fad7-191d" type="selectionEntry"/>
                     <entryLink id="8447-4238-cce2-7940" name="Exterminator 自动炮" hidden="false" collective="false" import="true" targetId="184b-34e6-e31a-b6be" type="selectionEntry"/>
                     <entryLink id="8001-f424-77f3-eefb" name="惩罚者加特林炮" hidden="false" collective="false" import="true" targetId="baa3-4fa8-f5fa-0047" type="selectionEntry"/>
                     <entryLink id="2664-515c-dbea-0141" name="Vanquisher 战斗炮" hidden="false" collective="false" import="true" targetId="838e-99eb-3f1a-bc62" type="selectionEntry"/>
@@ -1461,9 +1461,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d90a-b27c-fad7-191d" name="Executioner Plasma Cannon" page="0" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="d90a-b27c-fad7-191d" name="Executioner 等离子炮" page="0" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="80dc-c818-a9b9-7376" name="Executioner Plasma Cannon - 标准" publicationId="2ebb-7865-pubN72363" page="0" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="80dc-c818-a9b9-7376" name="Executioner 等离子炮 - 标准" publicationId="2ebb-7865-pubN72363" page="0" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 D6</characteristic>
@@ -1473,7 +1473,7 @@
             <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
           </characteristics>
         </profile>
-        <profile id="d140-7225-3266-2c0f" name="Executioner Plasma Cannon - 过载" publicationId="2ebb-7865-pubN72363" page="0" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="d140-7225-3266-2c0f" name="Executioner 等离子炮 - 过载" publicationId="2ebb-7865-pubN72363" page="0" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 D6</characteristic>
@@ -1485,7 +1485,7 @@
         </profile>
         <profile id="b15f-0b42-4767-bc6e" name="Emergency Plasma Vents" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 fires a 过载 plasma cannon, and you roll one or more 命中 骰 of 1, it is not 自动 被消灭.  Instead, it 遭受 6 致命伤 and cannot fire any plasma cannons for the rest of the battle.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 fires a 过载 等离子炮, and you roll one or more 命中 骰 of 1, it is not 自动 被消灭.  Instead, it 遭受 6 致命伤 and cannot fire any 等离子炮s for the rest of the battle.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3210,7 +3210,7 @@
             </profile>
           </profiles>
           <selectionEntryGroups>
-            <selectionEntryGroup id="d613-35c9-0584-b152" name="Autogun选项" hidden="false" collective="false" import="true" defaultSelectionEntryId="8962-51de-08a5-0e93">
+            <selectionEntryGroup id="d613-35c9-0584-b152" name="自动枪选项" hidden="false" collective="false" import="true" defaultSelectionEntryId="8962-51de-08a5-0e93">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="90f9-5096-28cc-03f6" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7f7-9a9f-edd8-a73c" type="min"/>
@@ -3280,7 +3280,7 @@
             <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="def5-f663-5494-8f4b" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="3cbd-56a7-f851-14ab" name="Renegade 教徒装备Autogun" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="3cbd-56a7-f851-14ab" name="Renegade 教徒装备自动枪" hidden="false" collective="false" import="true" type="model">
               <profiles>
                 <profile id="f8c8-e2af-598b-e300" name="Renegade 教徒" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
                   <characteristics>
@@ -3347,9 +3347,9 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="735c-a933-6475-34e5" name="Renegade 教徒装备自动手枪 and 野蛮突击武器" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="735c-a933-6475-34e5" name="Renegade 教徒装备自动手枪和野蛮突击武器" hidden="false" collective="false" import="true" type="model">
               <profiles>
-                <profile id="8bae-d660-24b5-9a6a" name="混沌 教徒装备野蛮突击武器" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+                <profile id="8bae-d660-24b5-9a6a" name="混沌教徒装备野蛮突击武器" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
                   <characteristics>
                     <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6寸</characteristic>
                     <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
@@ -3676,7 +3676,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1d6-aa45-cef1-669b" type="min"/>
                   </constraints>
                   <selectionEntries>
-                    <selectionEntry id="be17-0a49-d790-3a11" name="自动手枪 and 野蛮突击武器" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="be17-0a49-d790-3a11" name="自动手枪和野蛮突击武器" hidden="false" collective="false" import="true" type="upgrade">
                       <infoLinks>
                         <infoLink id="4224-249d-018d-9ba6" name="自动手枪" hidden="false" targetId="2481-001b-00f9-501b" type="profile"/>
                         <infoLink id="bdc7-b529-e12b-1c99" name="野蛮突击武器" hidden="false" targetId="b7ce-fea3-f689-34d6" type="profile"/>
@@ -3732,7 +3732,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ba4-22b2-fcfe-0a8a" type="min"/>
                   </constraints>
                   <selectionEntries>
-                    <selectionEntry id="e9e9-59ee-b249-2ecb" name="自动手枪 and 野蛮突击武器" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="e9e9-59ee-b249-2ecb" name="自动手枪和野蛮突击武器" hidden="false" collective="false" import="true" type="upgrade">
                       <infoLinks>
                         <infoLink id="601e-2b49-ad8c-0d73" name="自动手枪" hidden="false" targetId="2481-001b-00f9-501b" type="profile"/>
                         <infoLink id="ee74-da85-b475-a739" name="野蛮突击武器" hidden="false" targetId="b7ce-fea3-f689-34d6" type="profile"/>
@@ -3780,7 +3780,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="540e-836c-9bdf-5a63" name="Renegade Militia with Autogun" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="540e-836c-9bdf-5a63" name="Renegade Militia with 自动枪" hidden="false" collective="false" import="true" type="model">
               <infoLinks>
                 <infoLink id="a1d2-5f4d-bf76-8391" name="自动枪" hidden="false" targetId="fcde-3e6a-e240-1157" type="profile"/>
               </infoLinks>
@@ -4009,7 +4009,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="9d0e-1e2e-f6d3-82a7" name="Mutant with Autogun" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="9d0e-1e2e-f6d3-82a7" name="Mutant with 自动枪" hidden="false" collective="false" import="true" type="model">
               <infoLinks>
                 <infoLink id="944a-1c89-8f35-2cd6" name="自动枪" hidden="false" targetId="fcde-3e6a-e240-1157" type="profile"/>
               </infoLinks>
@@ -4328,7 +4328,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="a26b-a35b-4fbe-3659" name="Disciple with autogun" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="a26b-a35b-4fbe-3659" name="Disciple with 自动枪" hidden="false" collective="false" import="true" type="model">
               <selectionEntries>
                 <selectionEntry id="34ad-f30b-2ff5-0133" name="自动枪" hidden="false" collective="true" import="true" type="upgrade">
                   <constraints>
@@ -4792,7 +4792,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="0cdf-b804-12e2-8823" name="Disciple with autogun" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="0cdf-b804-12e2-8823" name="Disciple with 自动枪" hidden="false" collective="false" import="true" type="model">
               <selectionEntries>
                 <selectionEntry id="e994-6083-c7a7-2912" name="自动枪" hidden="false" collective="true" import="true" type="upgrade">
                   <constraints>
@@ -5121,7 +5121,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="31d5-15f1-ed2b-3076" name="Marauder With Autogun" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="31d5-15f1-ed2b-3076" name="Marauder With 自动枪" hidden="false" collective="false" import="true" type="model">
               <infoLinks>
                 <infoLink id="9b5e-d2f0-85f2-fd28" name="自动枪" hidden="false" targetId="fcde-3e6a-e240-1157" type="profile"/>
               </infoLinks>
@@ -7660,7 +7660,7 @@
         <entryLink id="93c3-a428-e9ad-95b5" name="激光炮" hidden="false" collective="false" import="true" targetId="0b65-01bf-2161-a357" type="selectionEntry"/>
         <entryLink id="b900-9424-ce52-4453" name="导弹发射器" hidden="false" collective="false" import="true" targetId="1469-1964-7a91-94d4" type="selectionEntry"/>
         <entryLink id="fe84-81bc-0b4a-5ef9" name="Multi Laser" hidden="false" collective="false" import="true" targetId="da3a-be79-f0f3-1a3e" type="selectionEntry"/>
-        <entryLink id="5080-0cb7-2066-e34b" name="Plasma cannon" hidden="false" collective="false" import="true" targetId="eb15-db61-5d4f-b65e" type="selectionEntry"/>
+        <entryLink id="5080-0cb7-2066-e34b" name="等离子炮" hidden="false" collective="false" import="true" targetId="eb15-db61-5d4f-b65e" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="adb6-33bd-d783-7dfc" name="侧弦武器" hidden="false" collective="false" import="true">
@@ -7707,7 +7707,7 @@
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="176b-e53b-a6d1-20fa" name="Plasma Cannons" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="176b-e53b-a6d1-20fa" name="等离子炮s" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2539-3cb3-332e-e15c" type="max"/>
           </constraints>
@@ -8236,7 +8236,7 @@
     </profile>
     <profile id="2e96-df54-e0ec-1896" name="Lumbering Advance" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 does not suffer the penalty to 炮塔武器 命中 骰 for 射击 a Heavy 武器 结果为turn in which it has moved.  The following 武器 are turret 武器: 战斗炮, eradicator nova cannon, exterminator 自动炮, vanquisher 战斗炮, demolisher cannon, executioner plasma cannon, 惩罚者加特林炮.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 does not suffer the penalty to 炮塔武器 命中 骰 for 射击 a Heavy 武器 结果为turn in which it has moved.  The following 武器 are turret 武器: 战斗炮, eradicator nova cannon, exterminator 自动炮, vanquisher 战斗炮, demolisher cannon, executioner 等离子炮, 惩罚者加特林炮.</characteristic>
       </characteristics>
     </profile>
     <profile id="576d-b2b0-efa8-a1ae" name="Fanatic" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -8251,7 +8251,7 @@
     </profile>
     <profile id="07dc-abf2-81c0-66e4" name="Grinding Advance" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 remains stationary or moves under half speed in its 移动阶段 (i.e. it moves a distance in inches less than half of its current M值) it can shoot its 炮塔武器 twice in the following 射击阶段 (the 炮塔武器 必须 target the same 单位 both times). Furthermore, 命中 骰 for 这个模型’s 炮塔武器 do not suffer the penalty for moving and 射击 a Heavy 武器. The following 武器 are turret 武器: 战斗炮, Conqueror 战斗炮, Demolisher cannon, Eradicator nova cannon, Executioner plasma cannon, Exterminator 自动炮, 惩罚者加特林炮, Stygies Vanquisher 战斗炮, 双联激光炮 and Vanquisher 战斗炮.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 remains stationary or moves under half speed in its 移动阶段 (i.e. it moves a distance in inches less than half of its current M值) it can shoot its 炮塔武器 twice in the following 射击阶段 (the 炮塔武器 必须 target the same 单位 both times). Furthermore, 命中 骰 for 这个模型’s 炮塔武器 do not suffer the penalty for moving and 射击 a Heavy 武器. The following 武器 are turret 武器: 战斗炮, Conqueror 战斗炮, Demolisher cannon, Eradicator nova cannon, Executioner 等离子炮, Exterminator 自动炮, 惩罚者加特林炮, Stygies Vanquisher 战斗炮, 双联激光炮 and Vanquisher 战斗炮.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

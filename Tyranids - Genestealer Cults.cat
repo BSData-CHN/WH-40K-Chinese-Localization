@@ -866,7 +866,7 @@
                 <entryLink id="b037-0df4-76da-1f79" name="自动炮" hidden="false" collective="false" import="true" targetId="4f48-c2bf-69ad-157f" type="selectionEntry"/>
                 <entryLink id="32c5-a7e1-acf0-6f81" name="导弹发射器" hidden="false" collective="false" import="true" targetId="eb20-7e8b-4806-b84e" type="selectionEntry"/>
                 <entryLink id="431a-479a-7b1a-c81f" name="激光炮" hidden="false" collective="false" import="true" targetId="db1e-7ae4-bd03-21ca" type="selectionEntry"/>
-                <entryLink id="9ae6-37f1-c3fc-1c3a" name="Plasma Cannon" hidden="false" collective="false" import="true" targetId="077b-596a-fc56-222b" type="selectionEntry"/>
+                <entryLink id="9ae6-37f1-c3fc-1c3a" name="等离子炮" hidden="false" collective="false" import="true" targetId="077b-596a-fc56-222b" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -1063,7 +1063,7 @@
         </profile>
         <profile id="9d8a-7ac7-4957-7c48" name="Emergency Plasma Vents" publicationId="83b2-e602-pubN65537" page="98" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 fires a 过载 plasma cannon, and you roll one or more 命中 骰 of 1, it is not 自动 被消灭. Instead, 每个命中骰的1,持有者会在此武器的射击结算完成后受到1点致命伤.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 fires a 过载 等离子炮, and you roll one or more 命中 骰 of 1, it is not 自动 被消灭. Instead, 每个命中骰的1,持有者会在此武器的射击结算完成后受到1点致命伤.</characteristic>
           </characteristics>
         </profile>
         <profile id="289a-2618-24cd-4c80" name="Cult 黎曼鲁斯" hidden="true" typeId="b900-0afb-e411-2cbb" typeName="Keywords">
@@ -1132,9 +1132,9 @@
                 <modifier type="increment" field="points" value="15"/>
               </modifiers>
             </entryLink>
-            <entryLink id="daa4-3cfb-ffe2-85ae" name="Plasma Cannon" hidden="false" collective="false" import="true" targetId="077b-596a-fc56-222b" type="selectionEntry">
+            <entryLink id="daa4-3cfb-ffe2-85ae" name="等离子炮" hidden="false" collective="false" import="true" targetId="077b-596a-fc56-222b" type="selectionEntry">
               <modifiers>
-                <modifier type="set" field="name" value="2x Plasma Cannon"/>
+                <modifier type="set" field="name" value="2x 等离子炮"/>
                 <modifier type="increment" field="points" value="10"/>
               </modifiers>
             </entryLink>
@@ -2568,10 +2568,10 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="077b-596a-fc56-222b" name="Plasma Cannon" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="077b-596a-fc56-222b" name="等离子炮" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="9093-73ec-118a-9308" name="Plasma cannon, 标准" hidden="false" targetId="7983-8451-cdc3-ce7e" type="profile"/>
-        <infoLink id="48c1-3655-4127-7788" name="Plasma cannon, 过载" hidden="false" targetId="fbb2-f4cb-e47d-1d10" type="profile"/>
+        <infoLink id="9093-73ec-118a-9308" name="等离子炮, 标准" hidden="false" targetId="7983-8451-cdc3-ce7e" type="profile"/>
+        <infoLink id="48c1-3655-4127-7788" name="等离子炮, 过载" hidden="false" targetId="fbb2-f4cb-e47d-1d10" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="10.0"/>

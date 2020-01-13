@@ -62,7 +62,7 @@
     <categoryEntry id="cbd3-b114-7523-5776" name="Obsidius Mallex" hidden="false"/>
     <categoryEntry id="5eb2-4f76-c46f-9530" name="Master of Possession" hidden="false"/>
     <categoryEntry id="ad08-be7a-6a9e-df33" name="Venomcrawler" hidden="false"/>
-    <categoryEntry id="5fab-39ff-b611-c269" name="Greater Possessed" hidden="false"/>
+    <categoryEntry id="5fab-39ff-b611-c269" name="Greater 附魔" hidden="false"/>
     <categoryEntry id="a459-6417-3709-336c" name="Dark Apostle" hidden="false"/>
     <categoryEntry id="c59b-a4e0-238a-a32b" name="Master of Executions" hidden="false"/>
     <categoryEntry id="c733-ef48-c4ee-83c7" name="Helstalker" hidden="false"/>
@@ -403,7 +403,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink id="8122-270e-02ff-0560" name="巫师 with 跳跃背包" hidden="false" collective="false" import="true" targetId="35e1-54d6-7565-dd03" type="selectionEntry">
+    <entryLink id="8122-270e-02ff-0560" name="跳跃背包巫师" hidden="false" collective="false" import="true" targetId="35e1-54d6-7565-dd03" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -417,7 +417,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink id="a0bd-98c4-cba7-b313" name="巫师 in 终结者 Armour" hidden="false" collective="false" import="true" targetId="313d-d939-4be9-9e48" type="selectionEntry">
+    <entryLink id="a0bd-98c4-cba7-b313" name="终结者巫师" hidden="false" collective="false" import="true" targetId="313d-d939-4be9-9e48" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -457,7 +457,7 @@
     <entryLink id="faf1-cd04-687a-b9d1" name="New EntryLink" hidden="false" collective="false" import="true" targetId="8a3b-80c7-0cf3-e044" type="selectionEntry"/>
     <entryLink id="d675-b8e3-cda1-9f2d" name="New EntryLink" hidden="false" collective="false" import="true" targetId="62f4-742a-7149-3b31" type="selectionEntry"/>
     <entryLink id="7768-6caf-fd27-612c" name="New EntryLink" hidden="false" collective="false" import="true" targetId="429c-a1b7-b65a-0358" type="selectionEntry"/>
-    <entryLink id="65d2-4d61-d7fc-f838" name="Helbrute" hidden="false" collective="false" import="true" targetId="5cae-15dc-4a5d-0b9b" type="selectionEntry"/>
+    <entryLink id="65d2-4d61-d7fc-f838" name="地狱兽" hidden="false" collective="false" import="true" targetId="5cae-15dc-4a5d-0b9b" type="selectionEntry"/>
     <entryLink id="f693-9d05-eddf-152c" name="New EntryLink" hidden="false" collective="false" import="true" targetId="a008-7caa-0650-327c" type="selectionEntry"/>
     <entryLink id="a74d-c969-b911-786b" name="Mutilators" hidden="false" collective="false" import="true" targetId="5827-0f87-428a-2bdf" type="selectionEntry"/>
     <entryLink id="b67b-c78a-4727-d0da" name="Noise Marines" hidden="false" collective="false" import="true" targetId="b0d5-1a19-e2b9-d5bc" type="selectionEntry">
@@ -481,7 +481,7 @@
         <categoryLink id="bb91-37b3-8bc0-58f3" name="New CategoryLink" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="fe2c-74fa-3e6d-016f" name="Rubric Marines" hidden="false" collective="false" import="true" targetId="bf56-7051-d9a1-621b" type="selectionEntry">
+    <entryLink id="fe2c-74fa-3e6d-016f" name="红字战士" hidden="false" collective="false" import="true" targetId="bf56-7051-d9a1-621b" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -697,7 +697,7 @@
       </modifiers>
     </entryLink>
     <entryLink id="ce87-8d66-ba02-e5c5" name="Venomcrawler" hidden="false" collective="false" import="true" targetId="1f9d-f752-418a-ae8c" type="selectionEntry"/>
-    <entryLink id="d3f9-66d5-ba77-50e4" name="Greater Possessed" hidden="false" collective="false" import="true" targetId="00bf-708e-0b45-d28a" type="selectionEntry"/>
+    <entryLink id="d3f9-66d5-ba77-50e4" name="Greater 附魔" hidden="false" collective="false" import="true" targetId="00bf-708e-0b45-d28a" type="selectionEntry"/>
     <entryLink id="603d-c989-bcea-e1cd" name="特殊分队" hidden="false" collective="false" import="true" targetId="9553-5213-df61-3b5a" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="41fc-8898-8074-e205" name="New CategoryLink" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
@@ -1152,7 +1152,7 @@
       <profiles>
         <profile id="cd18-1337-dbfd-02b7" name="白蚁突击钻" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
           <characteristics>
-            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">这个模型 可以运输 12 &lt;军团&gt; 步兵模型. 不能运输 跳跃背包, 终结者 or 泯灭密教 models</characteristic>
+            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">这个模型 可以运输 12 &lt;军团&gt; 步兵模型. 不能运输 跳跃背包, 终结者or 泯灭密教 models</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1196,7 +1196,7 @@
         <categoryLink id="3ee7-152a-ebf9-e407" name="阵营: 帝子" hidden="false" targetId="649f-80f9-0d71-64c3" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="6e79-16e2-f5d0-a1a1" name="混沌 维护者 激光毁灭者" hidden="false" collective="false" import="true" targetId="f957-f774-e452-34ea" type="selectionEntry">
+    <entryLink id="6e79-16e2-f5d0-a1a1" name="混沌维护者 激光毁灭者" hidden="false" collective="false" import="true" targetId="f957-f774-e452-34ea" type="selectionEntry">
       <infoLinks>
         <infoLink id="3f90-af94-b6fc-d0f5" name="Special Abilities" hidden="false" targetId="9bbf-a7df-8d09-b667" type="infoGroup"/>
       </infoLinks>
@@ -1433,7 +1433,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b9a9-557f-f8fb-4377" name="混沌 教徒" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="b9a9-557f-f8fb-4377" name="混沌教徒" page="" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="decrement" field="e356-c769-5920-6e14" value="3">
           <conditions>
@@ -1449,7 +1449,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
       <profiles>
         <profile id="7ec9-ce9c-3f03-c5ec" name="Mere Mortals" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <modifiers>
-            <modifier type="set" field="21befb24-fc85-4f52-a745-64b2e48f8228" value="混沌 教徒 单位 do not gain a Renegade Trait.">
+            <modifier type="set" field="21befb24-fc85-4f52-a745-64b2e48f8228" value="混沌教徒 单位 do not gain a Renegade Trait.">
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
@@ -1465,7 +1465,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">混沌 教徒 单位 do not gain a Legion Trait.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">混沌教徒 单位 do not gain a Legion Trait.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1504,13 +1504,13 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             </profile>
           </profiles>
           <selectionEntryGroups>
-            <selectionEntryGroup id="8d89-78ae-e5fa-291c" name="Autogun选项" hidden="false" collective="false" import="true" defaultSelectionEntryId="db9d-de3a-07f9-a5dc">
+            <selectionEntryGroup id="8d89-78ae-e5fa-291c" name="自动枪选项" hidden="false" collective="false" import="true" defaultSelectionEntryId="db9d-de3a-07f9-a5dc">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba5d-5287-e73a-8962" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec9d-1b12-df92-4760" type="min"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="81a1-634f-6fb3-1eb1" name="野蛮突击武器 and 自动手枪" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="81a1-634f-6fb3-1eb1" name="野蛮突击武器和自动手枪" hidden="false" collective="false" import="true" type="upgrade">
                   <infoLinks>
                     <infoLink id="c1bd-8f84-109b-63cb" name="自动手枪" hidden="false" targetId="2481-001b-00f9-501b" type="profile"/>
                     <infoLink id="ca2d-a776-6d85-a538" name="野蛮突击武器" hidden="false" targetId="4e93-ccd6-c332-0eeb" type="profile"/>
@@ -1542,7 +1542,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5bd1-28a6-869e-161a" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="146a-71c8-d13a-5aa3" name="混沌 教徒装备特殊武器" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="146a-71c8-d13a-5aa3" name="混沌教徒装备特殊武器" hidden="false" collective="false" import="true" type="model">
               <modifiers>
                 <modifier type="increment" field="e0df-8266-651c-8c10" value="1">
                   <repeats>
@@ -1571,12 +1571,12 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="6298-60d3-c71c-ede1" name="混沌 教徒装备自动手枪 and 野蛮突击武器" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="6298-60d3-c71c-ede1" name="混沌教徒装备自动手枪和野蛮突击武器" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="29.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a8e-ae86-771c-a807" type="max"/>
               </constraints>
               <profiles>
-                <profile id="4cb2-a66f-860c-2b64" name="混沌 教徒装备野蛮突击武器" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+                <profile id="4cb2-a66f-860c-2b64" name="混沌教徒装备野蛮突击武器" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
                   <characteristics>
                     <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
                     <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
@@ -1619,12 +1619,12 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="d39b-ba24-5ab4-e5a4" name="混沌 教徒装备Autogun" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="d39b-ba24-5ab4-e5a4" name="混沌教徒装备自动枪" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="29.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cfe8-b0db-eb5d-407e" type="max"/>
               </constraints>
               <profiles>
-                <profile id="ab84-c0f0-28b1-5f52" name="混沌 教徒" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+                <profile id="ab84-c0f0-28b1-5f52" name="混沌教徒" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
                   <characteristics>
                     <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
                     <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
@@ -1701,7 +1701,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">A</characteristic>
           </characteristics>
         </profile>
-        <profile id="75de-5ef4-dbb0-987f" name="混沌 Land Raider1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
+        <profile id="75de-5ef4-dbb0-987f" name="混沌兰德掠袭者1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
             <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">9-16+</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">10&quot;</characteristic>
@@ -1709,7 +1709,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">6</characteristic>
           </characteristics>
         </profile>
-        <profile id="8bed-e41c-6e95-3201" name="混沌 Land Raider2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
+        <profile id="8bed-e41c-6e95-3201" name="混沌兰德掠袭者2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
             <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">5-8</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">5&quot;</characteristic>
@@ -1717,7 +1717,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">D6</characteristic>
           </characteristics>
         </profile>
-        <profile id="5c58-6069-aeaa-56c7" name="混沌 Land Raider3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
+        <profile id="5c58-6069-aeaa-56c7" name="混沌兰德掠袭者3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
             <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">1-4</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">3&quot;</characteristic>
@@ -1727,7 +1727,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </profile>
         <profile id="cb04-552b-a6cd-4a76" name="混沌兰德掠袭者" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
           <characteristics>
-            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">这个模型 可以运输 10 &lt;军团&gt; 步兵模型 (each 终结者 and 跳跃背包 模型 takes up the space of two other models, and each 泯灭密教 模型 takes up the space of three other models).</characteristic>
+            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">这个模型 可以运输 10 &lt;军团&gt; 步兵模型 (each 终结者and 跳跃背包 模型 takes up the space of two other models, and each 泯灭密教 模型 takes up the space of three other models).</characteristic>
           </characteristics>
         </profile>
         <profile id="91aa-83f4-7acd-b172" name="爆炸" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -1737,7 +1737,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="dde5-7b3e-b575-fee1" name="恶魔 Machine Spirit" hidden="false" targetId="9676-5c4d-7ae8-461b" type="profile"/>
+        <infoLink id="dde5-7b3e-b575-fee1" name="恶魔机魂" hidden="false" targetId="9676-5c4d-7ae8-461b" type="profile"/>
         <infoLink id="d05c-85af-f54e-8389" name="Special Abilities" hidden="false" targetId="9bbf-a7df-8d09-b667" type="infoGroup"/>
       </infoLinks>
       <categoryLinks>
@@ -2027,7 +2027,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
       <infoLinks>
         <infoLink id="2835-d046-8ce7-775d" name="诛杀伪帝" hidden="false" targetId="37a4-1d84-4ef0-c4f6" type="profile"/>
         <infoLink id="eba0-a7bc-2c3a-d807" name="传送打击" hidden="false" targetId="d4d3-93d9-8313-56c8" type="profile"/>
-        <infoLink id="7646-3052-fb3b-bc96" name="终结者 Armour" hidden="false" targetId="aa2e-f0e5-04d3-aae3" type="profile"/>
+        <infoLink id="7646-3052-fb3b-bc96" name="终结者甲" hidden="false" targetId="aa2e-f0e5-04d3-aae3" type="profile"/>
         <infoLink id="f5a4-f540-fd8f-a37c" name="Special Abilities" hidden="false" targetId="9bbf-a7df-8d09-b667" type="infoGroup"/>
       </infoLinks>
       <categoryLinks>
@@ -2039,13 +2039,13 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         <categoryLink id="145c-16ee-cf75-8100" name="New CategoryLink" hidden="false" targetId="36b8-cf23-7648-ece9" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="d2c0-5ffd-5cb4-6158" name="混沌 终结者 Champion" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="d2c0-5ffd-5cb4-6158" name="混沌 终结者Champion" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a214-5746-efb4-5dcc" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbb5-9a40-ffbc-db6d" type="min"/>
           </constraints>
           <profiles>
-            <profile id="9a5d-681c-a5ff-2f22" name="混沌 终结者 Champion" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+            <profile id="9a5d-681c-a5ff-2f22" name="混沌 终结者Champion" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
               <modifiers>
                 <modifier type="increment" field="2218-aa3c-265f-2939" value="1">
                   <conditions>
@@ -2067,7 +2067,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             </profile>
           </profiles>
           <entryLinks>
-            <entryLink id="79c4-72af-ec7d-e116" name="终结者 武器选项" hidden="false" collective="false" import="true" targetId="f962-5557-bde3-d620" type="selectionEntryGroup"/>
+            <entryLink id="79c4-72af-ec7d-e116" name="终结者武器选项" hidden="false" collective="false" import="true" targetId="f962-5557-bde3-d620" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="23.0"/>
@@ -2110,7 +2110,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           <selectionEntries>
             <selectionEntry id="97bd-ee10-9c11-10b5" name="终结者" hidden="false" collective="false" import="true" type="model">
               <entryLinks>
-                <entryLink id="8351-d7bf-03c3-2aeb" name="终结者 武器选项" hidden="false" collective="false" import="true" targetId="f962-5557-bde3-d620" type="selectionEntryGroup"/>
+                <entryLink id="8351-d7bf-03c3-2aeb" name="终结者武器选项" hidden="false" collective="false" import="true" targetId="f962-5557-bde3-d620" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="23.0"/>
@@ -2237,9 +2237,9 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5f6a-5432-b9a3-cc77" name="混沌 维护者" page="0" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="5f6a-5432-b9a3-cc77" name="混沌维护者" page="0" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="6fc1-a101-f128-2dab" name="混沌 维护者" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+        <profile id="6fc1-a101-f128-2dab" name="混沌维护者" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">*</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">6+</characteristic>
@@ -2252,7 +2252,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="775f-d13d-d896-85d7" name="混沌 维护者" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
+        <profile id="775f-d13d-d896-85d7" name="混沌维护者" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
             <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">-</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">M</characteristic>
@@ -2429,7 +2429,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d8fd-c86d-a183-cf3a" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="22dc-edf2-eeb9-6549" name="Warp bolter" hidden="false" collective="false" import="true" targetId="7aa9-b4b1-f87b-6ef6" type="selectionEntry">
+        <entryLink id="22dc-edf2-eeb9-6549" name="亚空间爆弹" hidden="false" collective="false" import="true" targetId="7aa9-b4b1-f87b-6ef6" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f03d-8095-182f-bf4b" type="max"/>
           </constraints>
@@ -2460,7 +2460,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </entryLink>
         <entryLink id="69c4-a59a-2aca-3c28" name="Artefacts of 混沌 (Reaver)" hidden="false" collective="false" import="true" targetId="c524-957d-6e90-c45b" type="selectionEntryGroup"/>
         <entryLink id="a2c3-c05a-f2fe-c5a3" name="Reaver Lord Artefact" hidden="false" collective="false" import="true" targetId="eed7-3e77-45e0-fa17" type="selectionEntry"/>
-        <entryLink id="e0f3-98bd-e35a-662a" name="Dark Hereticus discipline" hidden="false" collective="false" import="true" targetId="0246-3399-3b88-44aa" type="selectionEntryGroup">
+        <entryLink id="e0f3-98bd-e35a-662a" name="黑暗异端系" hidden="false" collective="false" import="true" targetId="0246-3399-3b88-44aa" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -2957,9 +2957,9 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ac6d-d083-8ae2-dc18" name="Forgefiend" page="0" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="ac6d-d083-8ae2-dc18" name="锻炉魔" page="0" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="535b-1586-99ca-cf59" name="Forgefiend" page="0" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+        <profile id="535b-1586-99ca-cf59" name="锻炉魔" page="0" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">*</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
@@ -2972,7 +2972,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="def0-2b7a-fa2a-bd04" name="Forgefiend" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
+        <profile id="def0-2b7a-fa2a-bd04" name="锻炉魔" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
             <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">-</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">M</characteristic>
@@ -2980,7 +2980,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">A</characteristic>
           </characteristics>
         </profile>
-        <profile id="65d2-8e9a-642b-6040" name="Forgefiend1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
+        <profile id="65d2-8e9a-642b-6040" name="锻炉魔1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
             <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">7-12+</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">8&quot;</characteristic>
@@ -2988,7 +2988,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">4</characteristic>
           </characteristics>
         </profile>
-        <profile id="8c86-947a-6073-2c6b" name="Forgefiend2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
+        <profile id="8c86-947a-6073-2c6b" name="锻炉魔2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
             <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">4-6</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">6&quot;</characteristic>
@@ -2996,7 +2996,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">3</characteristic>
           </characteristics>
         </profile>
-        <profile id="0629-bf1f-a7f3-b3f8" name="Forgefiend3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
+        <profile id="0629-bf1f-a7f3-b3f8" name="锻炉魔3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
             <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">1-3</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">4&quot;</characteristic>
@@ -3046,9 +3046,9 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="398b-d0b5-cd98-2f2a" name="2x Ectoplasma cannons" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="398b-d0b5-cd98-2f2a" name="2x Ecto等离子炮s" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
-                <infoLink id="1dfd-1a9e-7e9e-55b7" name="Ectoplasma cannon" hidden="false" targetId="ba8c-82d5-79c0-d0d9" type="profile"/>
+                <infoLink id="1dfd-1a9e-7e9e-55b7" name="Ecto等离子炮" hidden="false" targetId="ba8c-82d5-79c0-d0d9" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="40.0"/>
@@ -3083,9 +3083,9 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="1157-5eec-dab9-13c6" name="Ectoplasma cannon" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="1157-5eec-dab9-13c6" name="Ecto等离子炮" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
-                <infoLink id="aee9-d1ae-1459-8529" name="Ectoplasma cannon" hidden="false" targetId="ba8c-82d5-79c0-d0d9" type="profile"/>
+                <infoLink id="aee9-d1ae-1459-8529" name="Ecto等离子炮" hidden="false" targetId="ba8c-82d5-79c0-d0d9" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="20.0"/>
@@ -3107,9 +3107,9 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0d77-1f37-3b32-c978" name="Heldrake" page="" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="0d77-1f37-3b32-c978" name="地狱飞龙" page="" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="4584-d763-afb5-0bba" name="Heldrake" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+        <profile id="4584-d763-afb5-0bba" name="地狱飞龙" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">*</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">*</characteristic>
@@ -3122,7 +3122,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="478e-c6f2-6003-1a69" name="Heldrake" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
+        <profile id="478e-c6f2-6003-1a69" name="地狱飞龙" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
             <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab"/>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">M</characteristic>
@@ -3130,7 +3130,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">A</characteristic>
           </characteristics>
         </profile>
-        <profile id="3e6c-8723-83a5-462a" name="Heldrake1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
+        <profile id="3e6c-8723-83a5-462a" name="地狱飞龙1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
             <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">7-12</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">30&quot;</characteristic>
@@ -3138,7 +3138,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">4</characteristic>
           </characteristics>
         </profile>
-        <profile id="49b0-17e4-06cf-1000" name="Heldrake2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
+        <profile id="49b0-17e4-06cf-1000" name="地狱飞龙2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
             <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">4-6</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">20&quot;</characteristic>
@@ -3146,7 +3146,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">3</characteristic>
           </characteristics>
         </profile>
-        <profile id="40af-8c67-c812-d8b8" name="Heldrake3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
+        <profile id="40af-8c67-c812-d8b8" name="地狱飞龙3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
             <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">1-3</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">10&quot;</characteristic>
@@ -3173,13 +3173,13 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         <categoryLink id="82ce-c554-cc29-5788" name="New CategoryLink" hidden="false" targetId="3117-16d8-fcef-4f56" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="3208-50f4-086c-64ee" name="Heldrake claws" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="3208-50f4-086c-64ee" name="地狱飞龙 claws" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bec2-34bb-b9f0-2940" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a847-f853-e999-7ee7" type="min"/>
           </constraints>
           <profiles>
-            <profile id="67f5-005c-e7a5-8ec7" name="Heldrake claws" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+            <profile id="67f5-005c-e7a5-8ec7" name="地狱飞龙 claws" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -3280,7 +3280,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           <characteristics>
             <characteristic name="Cast" typeId="5afb-9914-904b-d3b3">1</characteristic>
             <characteristic name="Deny" typeId="b5ac-9c20-5d5a-6f9b">1</characteristic>
-            <characteristic name="Powers Known" typeId="69d7-b45e-00a2-7e46">惩击 and 1 灵能 Dark Hereticus discipline</characteristic>
+            <characteristic name="Powers Known" typeId="69d7-b45e-00a2-7e46">惩击 and 1 灵能 黑暗异端系</characteristic>
             <characteristic name="Other" typeId="c2e2-f115-0003-5d7b"/>
           </characteristics>
         </profile>
@@ -3380,7 +3380,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3df-2988-8a9f-361f" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="f858-e118-651d-eb1a" name="Dark Hereticus discipline" hidden="false" collective="false" import="true" targetId="0246-3399-3b88-44aa" type="selectionEntryGroup">
+        <entryLink id="f858-e118-651d-eb1a" name="黑暗异端系" hidden="false" collective="false" import="true" targetId="0246-3399-3b88-44aa" type="selectionEntryGroup">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="245a-0251-7030-1b78" type="max"/>
           </constraints>
@@ -3651,7 +3651,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <constraint field="selections" scope="parent" value="19.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="869a-6db7-5fa7-ada3" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="6df9-c70b-1065-6fa2" name="链锯剑 and Chainaxe" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="6df9-c70b-1065-6fa2" name="链锯剑 and 链锯斧" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="19.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c77e-b796-7c00-7a94" type="max"/>
               </constraints>
@@ -3662,7 +3662,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2e8-3b8b-2f79-7525" type="min"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="1ab8-49bf-e0c8-5ea9" name="Chainaxe" hidden="false" collective="false" import="true" targetId="69a9-e421-f588-79bc" type="selectionEntry">
+                <entryLink id="1ab8-49bf-e0c8-5ea9" name="链锯斧" hidden="false" collective="false" import="true" targetId="69a9-e421-f588-79bc" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8abc-2e4f-3115-4055" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f38a-4604-7bf0-ed3c" type="min"/>
@@ -3683,7 +3683,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             </selectionEntry>
             <selectionEntry id="db90-1a14-c826-6789" name="Berserker装备plasma pistol" hidden="false" collective="false" import="true" type="model">
               <modifiers>
-                <modifier type="set" field="name" value="Chainaxe and 等离子手枪">
+                <modifier type="set" field="name" value="链锯斧 and 等离子手枪">
                   <conditions>
                     <condition field="selections" scope="db90-1a14-c826-6789" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad1d-4b48-8dce-57fb" type="equalTo"/>
                   </conditions>
@@ -3704,7 +3704,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd17-217a-43fc-8df6" type="min"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink id="ad1d-4b48-8dce-57fb" name="Chainaxe" hidden="false" collective="false" import="true" targetId="262d-dbbf-8474-791c" type="selectionEntry">
+                    <entryLink id="ad1d-4b48-8dce-57fb" name="链锯斧" hidden="false" collective="false" import="true" targetId="262d-dbbf-8474-791c" type="selectionEntry">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="247e-13e0-0e90-c0fc" type="max"/>
                       </constraints>
@@ -3767,7 +3767,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="6d95-7494-bafe-dfb3" name="Chainaxe and 爆弹手枪" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="6d95-7494-bafe-dfb3" name="链锯斧 and 爆弹手枪" hidden="false" collective="false" import="true" type="model">
               <entryLinks>
                 <entryLink id="1c6f-a885-d997-e8c7" name="破片和穿甲手雷" hidden="false" collective="false" import="true" targetId="cddf-945e-1335-e681" type="selectionEntry">
                   <constraints>
@@ -3775,7 +3775,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0344-5890-035d-2e02" type="min"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="c18c-4902-9960-1b11" name="Chainaxe" hidden="false" collective="false" import="true" targetId="69a9-e421-f588-79bc" type="selectionEntry">
+                <entryLink id="c18c-4902-9960-1b11" name="链锯斧" hidden="false" collective="false" import="true" targetId="69a9-e421-f588-79bc" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6375-4c2b-2d66-33de" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8494-3961-5c01-5652" type="min"/>
@@ -4188,9 +4188,9 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a374-0611-5092-b88b" name="Maulerfiend" page="" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="a374-0611-5092-b88b" name="重锤魔" page="" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="3a8b-6992-97ec-f7c9" name="Maulerfiend" page="0" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+        <profile id="3a8b-6992-97ec-f7c9" name="重锤魔" page="0" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">*</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
@@ -4203,7 +4203,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="a2c5-1cd1-db1d-181c" name="Maulerfiend" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
+        <profile id="a2c5-1cd1-db1d-181c" name="重锤魔" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
             <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">-</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">M</characteristic>
@@ -4211,7 +4211,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">A</characteristic>
           </characteristics>
         </profile>
-        <profile id="e4b4-b1ab-705c-4962" name="Maulerfiend1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
+        <profile id="e4b4-b1ab-705c-4962" name="重锤魔1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
             <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">7-12+</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">10&quot;</characteristic>
@@ -4219,7 +4219,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">4</characteristic>
           </characteristics>
         </profile>
-        <profile id="619f-16fa-f02e-386d" name="Maulerfiend2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
+        <profile id="619f-16fa-f02e-386d" name="重锤魔2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
             <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">4-6</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">8&quot;</characteristic>
@@ -4227,7 +4227,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">3</characteristic>
           </characteristics>
         </profile>
-        <profile id="4432-32e1-9ed4-276b" name="Maulerfiend3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
+        <profile id="4432-32e1-9ed4-276b" name="重锤魔3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
             <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">1-3</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">6&quot;</characteristic>
@@ -4253,13 +4253,13 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         <categoryLink id="7ec3-3750-71c3-3de4" name="New CategoryLink" hidden="false" targetId="c8fd-783f-3230-493e" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="9e94-df0c-3680-af25" name="Maulerfiend fists" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="9e94-df0c-3680-af25" name="重锤魔 fists" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5644-560c-aab0-cfe7" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f729-3cb2-57bc-1ebd" type="max"/>
           </constraints>
           <profiles>
-            <profile id="bd34-20ab-2635-9a72" name="Maulerfiend fists" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+            <profile id="bd34-20ab-2635-9a72" name="重锤魔 fists" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -5099,7 +5099,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           <characteristics>
             <characteristic name="Cast" typeId="5afb-9914-904b-d3b3">2</characteristic>
             <characteristic name="Deny" typeId="b5ac-9c20-5d5a-6f9b">1</characteristic>
-            <characteristic name="Powers Known" typeId="69d7-b45e-00a2-7e46">惩击 and 2 灵能 Dark Hereticus discipline</characteristic>
+            <characteristic name="Powers Known" typeId="69d7-b45e-00a2-7e46">惩击 and 2 灵能 黑暗异端系</characteristic>
             <characteristic name="Other" typeId="c2e2-f115-0003-5d7b"/>
           </characteristics>
         </profile>
@@ -5171,7 +5171,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <categoryLink id="b259-9204-8c12-7ec8" name="New CategoryLink" hidden="false" targetId="e691-aad7-d21c-1023" primary="false"/>
           </categoryLinks>
         </entryLink>
-        <entryLink id="8452-ce4b-8d4d-5116" name="Dark Hereticus discipline" hidden="false" collective="false" import="true" targetId="0246-3399-3b88-44aa" type="selectionEntryGroup">
+        <entryLink id="8452-ce4b-8d4d-5116" name="黑暗异端系" hidden="false" collective="false" import="true" targetId="0246-3399-3b88-44aa" type="selectionEntryGroup">
           <modifiers>
             <modifier type="increment" field="e1b3-dcc5-7459-4b5d" value="1.0">
               <conditions>
@@ -6120,9 +6120,9 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="313d-d939-4be9-9e48" name="巫师 in 终结者 Armour" page="" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="313d-d939-4be9-9e48" name="终结者巫师" page="" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="caae-7f1e-57bd-fee3" name="巫师 in 终结者 Armour" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+        <profile id="caae-7f1e-57bd-fee3" name="终结者巫师" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">5&quot;</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -6139,7 +6139,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           <characteristics>
             <characteristic name="Cast" typeId="5afb-9914-904b-d3b3">2</characteristic>
             <characteristic name="Deny" typeId="b5ac-9c20-5d5a-6f9b">1</characteristic>
-            <characteristic name="Powers Known" typeId="69d7-b45e-00a2-7e46">惩击 and 2 灵能 Dark Hereticus discipline</characteristic>
+            <characteristic name="Powers Known" typeId="69d7-b45e-00a2-7e46">惩击 and 2 灵能 黑暗异端系</characteristic>
             <characteristic name="Other" typeId="c2e2-f115-0003-5d7b"/>
           </characteristics>
         </profile>
@@ -6147,7 +6147,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
       <infoLinks>
         <infoLink id="2370-ad7a-4106-a343" name="诛杀伪帝" hidden="false" targetId="37a4-1d84-4ef0-c4f6" type="profile"/>
         <infoLink id="e03d-68c6-ea69-b375" name="传送打击" hidden="false" targetId="d4d3-93d9-8313-56c8" type="profile"/>
-        <infoLink id="003d-95c4-1498-c261" name="终结者 Armour" hidden="false" targetId="aa2e-f0e5-04d3-aae3" type="profile"/>
+        <infoLink id="003d-95c4-1498-c261" name="终结者甲" hidden="false" targetId="aa2e-f0e5-04d3-aae3" type="profile"/>
         <infoLink id="0fa4-d6e8-7efa-18c5" name="Special Abilities" hidden="false" targetId="9bbf-a7df-8d09-b667" type="infoGroup"/>
       </infoLinks>
       <categoryLinks>
@@ -6173,7 +6173,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <categoryLink id="fc3e-0fad-3d0e-f44e" name="New CategoryLink" hidden="false" targetId="e691-aad7-d21c-1023" primary="false"/>
           </categoryLinks>
         </entryLink>
-        <entryLink id="57fe-e6bf-64e4-06e3" name="Dark Hereticus discipline" hidden="false" collective="false" import="true" targetId="0246-3399-3b88-44aa" type="selectionEntryGroup">
+        <entryLink id="57fe-e6bf-64e4-06e3" name="黑暗异端系" hidden="false" collective="false" import="true" targetId="0246-3399-3b88-44aa" type="selectionEntryGroup">
           <modifiers>
             <modifier type="increment" field="1104-7dd1-152a-1043" value="1">
               <conditions>
@@ -6190,7 +6190,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1104-7dd1-152a-1043" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="7a4b-6275-85ef-c3a5" name="终结者 巫师 武器选项" hidden="false" collective="false" import="true" targetId="e0ce-dbd2-b178-e542" type="selectionEntryGroup"/>
+        <entryLink id="7a4b-6275-85ef-c3a5" name="终结者巫师 武器选项" hidden="false" collective="false" import="true" targetId="e0ce-dbd2-b178-e542" type="selectionEntryGroup"/>
         <entryLink id="36b5-03b8-9fb1-921e" name="Artefacts of 混沌" hidden="false" collective="false" import="true" targetId="5876-fcc5-8283-1aca" type="selectionEntryGroup"/>
         <entryLink id="9426-d726-bbc3-d7f6" name="主将" hidden="false" collective="false" import="true" targetId="398a-c8da-c8bd-da58" type="selectionEntry">
           <constraints>
@@ -6252,7 +6252,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           <characteristics>
             <characteristic name="Cast" typeId="5afb-9914-904b-d3b3">2</characteristic>
             <characteristic name="Deny" typeId="b5ac-9c20-5d5a-6f9b">1</characteristic>
-            <characteristic name="Powers Known" typeId="69d7-b45e-00a2-7e46">惩击 and 2 灵能 Dark Hereticus discipline</characteristic>
+            <characteristic name="Powers Known" typeId="69d7-b45e-00a2-7e46">惩击 and 2 灵能 黑暗异端系</characteristic>
             <characteristic name="Other" typeId="c2e2-f115-0003-5d7b"/>
           </characteristics>
         </profile>
@@ -6332,7 +6332,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <categoryLink id="51d4-f2bc-606a-706e" name="New CategoryLink" hidden="false" targetId="e691-aad7-d21c-1023" primary="false"/>
           </categoryLinks>
         </entryLink>
-        <entryLink id="5cdb-36ef-5100-9389" name="Dark Hereticus discipline" hidden="false" collective="false" import="true" targetId="0246-3399-3b88-44aa" type="selectionEntryGroup">
+        <entryLink id="5cdb-36ef-5100-9389" name="黑暗异端系" hidden="false" collective="false" import="true" targetId="0246-3399-3b88-44aa" type="selectionEntryGroup">
           <modifiers>
             <modifier type="increment" field="5d23-a4f3-6c23-6ac0" value="1">
               <conditions>
@@ -6415,7 +6415,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           <characteristics>
             <characteristic name="Cast" typeId="5afb-9914-904b-d3b3">2</characteristic>
             <characteristic name="Deny" typeId="b5ac-9c20-5d5a-6f9b">1</characteristic>
-            <characteristic name="Powers Known" typeId="69d7-b45e-00a2-7e46">惩击 and 2 灵能 Dark Hereticus discipline</characteristic>
+            <characteristic name="Powers Known" typeId="69d7-b45e-00a2-7e46">惩击 and 2 灵能 黑暗异端系</characteristic>
             <characteristic name="Other" typeId="c2e2-f115-0003-5d7b"/>
           </characteristics>
         </profile>
@@ -6517,7 +6517,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <categoryLink id="8843-6d8d-893d-7085" name="New CategoryLink" hidden="false" targetId="e691-aad7-d21c-1023" primary="false"/>
           </categoryLinks>
         </entryLink>
-        <entryLink id="e242-6ad9-2692-73b5" name="Dark Hereticus discipline" hidden="false" collective="false" import="true" targetId="0246-3399-3b88-44aa" type="selectionEntryGroup">
+        <entryLink id="e242-6ad9-2692-73b5" name="黑暗异端系" hidden="false" collective="false" import="true" targetId="0246-3399-3b88-44aa" type="selectionEntryGroup">
           <modifiers>
             <modifier type="increment" field="01eb-766b-51ae-24be" value="1">
               <conditions>
@@ -6595,7 +6595,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           <characteristics>
             <characteristic name="Cast" typeId="5afb-9914-904b-d3b3">2</characteristic>
             <characteristic name="Deny" typeId="b5ac-9c20-5d5a-6f9b">1</characteristic>
-            <characteristic name="Powers Known" typeId="69d7-b45e-00a2-7e46">惩击 and 2 灵能 Dark Hereticus discipline</characteristic>
+            <characteristic name="Powers Known" typeId="69d7-b45e-00a2-7e46">惩击 and 2 灵能 黑暗异端系</characteristic>
             <characteristic name="Other" typeId="c2e2-f115-0003-5d7b"/>
           </characteristics>
         </profile>
@@ -6695,7 +6695,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <categoryLink id="dcb2-0718-ec05-52be" name="New CategoryLink" hidden="false" targetId="e691-aad7-d21c-1023" primary="false"/>
           </categoryLinks>
         </entryLink>
-        <entryLink id="9128-250f-d855-99ca" name="Dark Hereticus discipline" hidden="false" collective="false" import="true" targetId="0246-3399-3b88-44aa" type="selectionEntryGroup">
+        <entryLink id="9128-250f-d855-99ca" name="黑暗异端系" hidden="false" collective="false" import="true" targetId="0246-3399-3b88-44aa" type="selectionEntryGroup">
           <modifiers>
             <modifier type="increment" field="7671-3745-af1c-01c4" value="1">
               <conditions>
@@ -6773,7 +6773,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           <characteristics>
             <characteristic name="Cast" typeId="5afb-9914-904b-d3b3">2</characteristic>
             <characteristic name="Deny" typeId="b5ac-9c20-5d5a-6f9b">1</characteristic>
-            <characteristic name="Powers Known" typeId="69d7-b45e-00a2-7e46">惩击 and 2 灵能 Dark Hereticus discipline</characteristic>
+            <characteristic name="Powers Known" typeId="69d7-b45e-00a2-7e46">惩击 and 2 灵能 黑暗异端系</characteristic>
             <characteristic name="Other" typeId="c2e2-f115-0003-5d7b"/>
           </characteristics>
         </profile>
@@ -6874,7 +6874,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <categoryLink id="dc1b-1cad-20e7-98ea" name="New CategoryLink" hidden="false" targetId="e691-aad7-d21c-1023" primary="false"/>
           </categoryLinks>
         </entryLink>
-        <entryLink id="dffd-33e0-bbe6-44db" name="Dark Hereticus discipline" hidden="false" collective="false" import="true" targetId="0246-3399-3b88-44aa" type="selectionEntryGroup">
+        <entryLink id="dffd-33e0-bbe6-44db" name="黑暗异端系" hidden="false" collective="false" import="true" targetId="0246-3399-3b88-44aa" type="selectionEntryGroup">
           <modifiers>
             <modifier type="increment" field="98c4-d11a-48c3-f249" value="1">
               <conditions>
@@ -6933,9 +6933,9 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="35e1-54d6-7565-dd03" name="巫师 with 跳跃背包" page="" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="35e1-54d6-7565-dd03" name="跳跃背包巫师" page="" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="342c-4651-1b74-c2c7" name="巫师 with 跳跃背包" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+        <profile id="342c-4651-1b74-c2c7" name="跳跃背包巫师" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">12&quot;</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -6952,7 +6952,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           <characteristics>
             <characteristic name="Cast" typeId="5afb-9914-904b-d3b3">2</characteristic>
             <characteristic name="Deny" typeId="b5ac-9c20-5d5a-6f9b">1</characteristic>
-            <characteristic name="Powers Known" typeId="69d7-b45e-00a2-7e46">惩击 and 2 灵能 Dark Hereticus discipline</characteristic>
+            <characteristic name="Powers Known" typeId="69d7-b45e-00a2-7e46">惩击 and 2 灵能 黑暗异端系</characteristic>
             <characteristic name="Other" typeId="c2e2-f115-0003-5d7b"/>
           </characteristics>
         </profile>
@@ -7028,7 +7028,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <categoryLink id="bd2b-05a6-a740-74d7" name="New CategoryLink" hidden="false" targetId="e691-aad7-d21c-1023" primary="false"/>
           </categoryLinks>
         </entryLink>
-        <entryLink id="2fdd-a246-3db7-cccd" name="Dark Hereticus discipline" hidden="false" collective="false" import="true" targetId="0246-3399-3b88-44aa" type="selectionEntryGroup">
+        <entryLink id="2fdd-a246-3db7-cccd" name="黑暗异端系" hidden="false" collective="false" import="true" targetId="0246-3399-3b88-44aa" type="selectionEntryGroup">
           <modifiers>
             <modifier type="increment" field="1a67-d760-13a4-07e5" value="1">
               <conditions>
@@ -7155,7 +7155,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="262d-dbbf-8474-791c" name="Chainaxe" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="262d-dbbf-8474-791c" name="链锯斧" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="deb2-33c4-6887-1bd8" name="New InfoLink" hidden="false" targetId="fc56-4e98-3cdc-3659" type="profile"/>
       </infoLinks>
@@ -7212,7 +7212,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 这个模型 fights, 这个武器可以造成 1 点额外攻击. A 模型 armed with two sets of malefic talons can make 3 额外的 攻击 with them instead.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个模型的每次攻击, 这个武器可以造成 1 点额外攻击. A 模型 armed with two sets of 恶魔之爪 can make 3 额外的 攻击 with them instead.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7222,9 +7222,9 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7aa9-b4b1-f87b-6ef6" name="Warp bolter" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="7aa9-b4b1-f87b-6ef6" name="亚空间爆弹" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="38c1-ce20-ee87-5728" name="Warp bolter" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="38c1-ce20-ee87-5728" name="亚空间爆弹" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2</characteristic>
@@ -7710,12 +7710,12 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 </selectionEntryGroup>
                 <selectionEntryGroup id="3aaf-3f4b-1d9d-dea0" name="肉搏武器 (max 2)" hidden="false" collective="false" import="true" defaultSelectionEntryId="3c01-1b63-679b-e603">
                   <selectionEntries>
-                    <selectionEntry id="944c-8bec-e13e-5719" name="Chainaxe" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="944c-8bec-e13e-5719" name="链锯斧" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
                         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd3a-a573-f549-445a" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="aa5a-5613-a4c6-db46" name="Chainaxe" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+                        <profile id="aa5a-5613-a4c6-db46" name="链锯斧" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                           <characteristics>
                             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -7955,7 +7955,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                     <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2ef8-d5fb-c482-ef2c" type="max"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink id="b587-622a-42db-54fa" name="Chainaxe" hidden="false" collective="false" import="true" targetId="262d-dbbf-8474-791c" type="selectionEntry">
+                    <entryLink id="b587-622a-42db-54fa" name="链锯斧" hidden="false" collective="false" import="true" targetId="262d-dbbf-8474-791c" type="selectionEntry">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da53-69bd-d66b-d4bd" type="max"/>
                       </constraints>
@@ -8131,7 +8131,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="429c-a1b7-b65a-0358" name="Possessed" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="429c-a1b7-b65a-0358" name="附魔" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="increment" field="e356-c769-5920-6e14" value="5">
           <repeats>
@@ -8159,13 +8159,13 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         <categoryLink id="72d0-fb41-eceb-357d" name="New CategoryLink" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="b970-b66d-897d-3182" name="Possessed" page="" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="b970-b66d-897d-3182" name="附魔" page="" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8e5-5782-4384-4137" type="min"/>
             <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="25e3-fefa-6ecc-f801" type="max"/>
           </constraints>
           <profiles>
-            <profile id="88ef-9403-66eb-76c6" name="Possessed" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+            <profile id="88ef-9403-66eb-76c6" name="附魔" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
               <characteristics>
                 <characteristic name="M" typeId="0bdf-a96e-9e38-7779">7&quot;</characteristic>
                 <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -8180,7 +8180,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             </profile>
             <profile id="2763-d733-656d-2746" name="Writhing Tentacles" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Roll a D3 when a 单位 of Possessed is selected to attack in the 肉搏阶段. The result is the A值 of each 模型 in the 单位.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Roll a D3 when a 单位 of 附魔 is selected to attack in the 肉搏阶段. The result is the A值 of each 模型 in the 单位.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8287,9 +8287,9 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5cae-15dc-4a5d-0b9b" name="Helbrute" page="" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="5cae-15dc-4a5d-0b9b" name="地狱兽" page="" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="2a55-7dba-abd6-aa47" name="Helbrute" page="" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+        <profile id="2a55-7dba-abd6-aa47" name="地狱兽" page="" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <modifiers>
             <modifier type="set" field="13fc-b29b-31f2-ab9f" value="5">
               <conditions>
@@ -8309,9 +8309,9 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="9ef4-81e6-3365-bfba" name="Crazed" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="9ef4-81e6-3365-bfba" name="疯狂" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of 任何阶段 in which 这个模型 遭受 any unsaved wounds or 致命伤, 投掷1个D6. 结果为roll of 6, 这个模型 立即 makes a 射击攻击 as if it were your 射击阶段 if there are no enemies 范围内 1&quot;, or a piles in and fights as if it were in the 肉搏阶段 if there are enemies 范围内 1&quot;. If there is no 可见 target 范围内 range, nothing happens.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of 任何阶段 in which 这个模型 遭受 任何未通过保护的伤害 or 致命伤, 投掷1个D6. 结果为roll of 6, 这个模型 立即 makes a 射击攻击 as if it were your 射击阶段 if there are no enemies 范围内 1&quot;, or a piles in and fights as if it were in the 肉搏阶段 if there are enemies 范围内 1&quot;. If there is no 可见 target 范围内 range, nothing happens.</characteristic>
           </characteristics>
         </profile>
         <profile id="a3d2-cbb8-77f5-44d3" name="Battering Onslaught" hidden="true" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -8328,7 +8328,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="e47b-4dff-ebf5-d4d0" name="爆炸 (Helbrute)" hidden="false" targetId="6aa9-da9a-662e-69d5" type="profile"/>
+        <infoLink id="e47b-4dff-ebf5-d4d0" name="爆炸 (地狱兽)" hidden="false" targetId="6aa9-da9a-662e-69d5" type="profile"/>
         <infoLink id="0ddb-cabb-c006-ad06" name="Special Abilities" hidden="false" targetId="9bbf-a7df-8d09-b667" type="infoGroup"/>
       </infoLinks>
       <categoryLinks>
@@ -8338,7 +8338,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         <categoryLink id="0836-2e1b-c531-cae8" name="New CategoryLink" hidden="false" targetId="ca10-a5dd-f54f-0ed5" primary="false"/>
         <categoryLink id="8257-70f3-306f-05a9" name="New CategoryLink" hidden="false" targetId="a61a-08c8-c7f7-9f78" primary="false"/>
         <categoryLink id="1222-9849-3968-36f8" name="阵营: &lt;军团&gt;" hidden="false" targetId="b2b6-8e4a-9c74-cc37" primary="false"/>
-        <categoryLink id="f8c7-7e17-b952-bf94" name="Helbrute" hidden="false" targetId="d9b9-e9ab-155a-8109" primary="false"/>
+        <categoryLink id="f8c7-7e17-b952-bf94" name="地狱兽" hidden="false" targetId="d9b9-e9ab-155a-8109" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="0fdb-be86-6d58-de77" name="武器" hidden="false" collective="false" import="true">
@@ -8364,19 +8364,19 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3326-03eb-c1f4-20a9" type="max"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="b939-9e7a-4f7e-0fa1" name="Helbrute plasma cannon" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="b939-9e7a-4f7e-0fa1" name="地狱兽等离子炮" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0850-7c34-0db8-d586" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="fcb4-8fa6-a612-46c3" name="Helbrute plasma cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+                    <profile id="fcb4-8fa6-a612-46c3" name="地狱兽等离子炮" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                       <characteristics>
                         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
                         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy D3</characteristic>
                         <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
                         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每个命中骰的1, the Helbrute 遭受 1点致命伤 这个武器的所有射击结算后.</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每个命中骰的1, 地狱兽在这个武器的所有射击结算后遭受 1点致命伤 .</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -8421,7 +8421,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="1a4e-b618-ce83-85de" name="Helbrute fist选项" hidden="false" collective="false" import="true" targetId="7d68-e6d6-a7be-cf99" type="selectionEntryGroup">
+            <entryLink id="1a4e-b618-ce83-85de" name="地狱兽之拳选项" hidden="false" collective="false" import="true" targetId="7d68-e6d6-a7be-cf99" type="selectionEntryGroup">
               <modifiers>
                 <modifier type="set" field="cc93-7158-87f7-748b" value="1.0">
                   <conditions>
@@ -8467,7 +8467,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">A</characteristic>
           </characteristics>
         </profile>
-        <profile id="e39e-3a99-56d5-2abd" name="混沌 Rhino1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
+        <profile id="e39e-3a99-56d5-2abd" name="混沌犀牛1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
             <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">6-10+</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">12&quot;</characteristic>
@@ -8475,7 +8475,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">3</characteristic>
           </characteristics>
         </profile>
-        <profile id="adbb-a6b1-ae73-9b16" name="混沌 Rhino2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
+        <profile id="adbb-a6b1-ae73-9b16" name="混沌犀牛2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
             <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">3-5</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">6&quot;</characteristic>
@@ -8483,7 +8483,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">D3</characteristic>
           </characteristics>
         </profile>
-        <profile id="9a8e-4e55-f9ea-c71b" name="混沌 Rhino3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
+        <profile id="9a8e-4e55-f9ea-c71b" name="混沌犀牛3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
             <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">1-2</characteristic>
             <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">3&quot;</characteristic>
@@ -8498,7 +8498,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </profile>
         <profile id="dbe9-3e11-c497-fe1a" name="自我修复" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">投掷1个D6 在每个玩家回合开始; 结果为6, 这个单位 heals one wound.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">投掷1个D6 在每个玩家回合开始; 结果为6, 这个单位 回复1点W.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9067,7 +9067,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bf56-7051-d9a1-621b" name="Rubric Marines" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="bf56-7051-d9a1-621b" name="红字战士" page="" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="e356-c769-5920-6e14" value="11">
           <conditions>
@@ -9237,7 +9237,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="5391-392f-dfa5-4144" name="Rubric Marines" hidden="false" collective="false" import="true" defaultSelectionEntryId="e9f5-a48a-97dc-7215">
+        <selectionEntryGroup id="5391-392f-dfa5-4144" name="红字战士" hidden="false" collective="false" import="true" defaultSelectionEntryId="e9f5-a48a-97dc-7215">
           <constraints>
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7f7d-f574-bfc1-faa8" type="min"/>
             <constraint field="selections" scope="parent" value="19.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="14a0-669e-c264-33a6" type="max"/>
@@ -10055,12 +10055,12 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8561-c524-f380-e5a5" name="Infernal Gaze" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="8561-c524-f380-e5a5" name="地狱凝视" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="019f-b282-830f-3b7b" type="max"/>
       </constraints>
       <profiles>
-        <profile id="883f-ed94-771c-bc96" name="Infernal Gaze" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+        <profile id="883f-ed94-771c-bc96" name="地狱凝视" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
           <characteristics>
             <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">5</characteristic>
             <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18&quot;</characteristic>
@@ -10112,7 +10112,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="69a9-e421-f588-79bc" name="Chainaxe" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="69a9-e421-f588-79bc" name="链锯斧" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="8cf8-4e45-1307-0fa2" name="New InfoLink" hidden="false" targetId="fc56-4e98-3cdc-3659" type="profile"/>
       </infoLinks>
@@ -11129,7 +11129,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f89a-4b0c-4dcc-a584" name="Helbrute fist" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="f89a-4b0c-4dcc-a584" name="地狱兽之拳" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="points" value="15.0">
           <conditions>
@@ -11138,7 +11138,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="b6fd-dec4-df96-7baa" name="Helbrute fist" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="b6fd-dec4-df96-7baa" name="地狱兽之拳" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -12262,7 +12262,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         <cost name="pts" typeId="points" value="115.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="00bf-708e-0b45-d28a" name="Greater Possessed" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="00bf-708e-0b45-d28a" name="Greater 附魔" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="18f0-5610-8597-1407" name="Special Abilities" hidden="false" targetId="9bbf-a7df-8d09-b667" type="infoGroup"/>
       </infoLinks>
@@ -12274,11 +12274,11 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         <categoryLink id="62aa-fc26-9ba2-5640" name="步兵" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
         <categoryLink id="439c-f479-ccf0-6970" name="恶魔" hidden="false" targetId="0bc5-6451-5612-4a25" primary="false"/>
         <categoryLink id="be4e-c5ac-0627-dda3" name="人物" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
-        <categoryLink id="66c2-d7d2-e2d8-242e" name="Greater Possessed" hidden="false" targetId="5fab-39ff-b611-c269" primary="false"/>
+        <categoryLink id="66c2-d7d2-e2d8-242e" name="Greater 附魔" hidden="false" targetId="5fab-39ff-b611-c269" primary="false"/>
         <categoryLink id="e167-a066-dd1a-4675" name="New CategoryLink" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="31ab-772a-579e-1dc0" name="Greater Possessed" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="31ab-772a-579e-1dc0" name="Greater 附魔" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b6d-3a44-007d-17e1" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="551d-1b69-86cb-d97a" type="min"/>
@@ -12286,7 +12286,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           <profiles>
             <profile id="a52a-934e-5c7a-a485" name="Champions of the Host" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The 第1次 这个单位 is 放置, 所有 模型 in 这个单位 必须 放置 at the same time, though they do not need to be 放置 in 单位 coherency. From that point onwards, each Greater Possessed is treated as a separate 单位.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The 第1次 这个单位 is 放置, 所有 模型 in 这个单位 必须 放置 at the same time, though they do not need to be 放置 in 单位 coherency. From that point onwards, each Greater 附魔 is treated as a separate 单位.</characteristic>
               </characteristics>
             </profile>
             <profile id="d562-2504-1d99-c98f" name="Locus of Power" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -12294,7 +12294,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the S值 of &lt;混沌印记&gt; &lt;军团&gt; 恶魔 单位 whilst they are 范围内 6&quot; of any 友方单位 具有这个能力的.</characteristic>
               </characteristics>
             </profile>
-            <profile id="96c7-47c1-ec69-0162" name="Greater Possessed" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+            <profile id="96c7-47c1-ec69-0162" name="Greater 附魔" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
               <characteristics>
                 <characteristic name="M" typeId="0bdf-a96e-9e38-7779">7&quot;</characteristic>
                 <characteristic name="WS" typeId="e7f0-1278-0250-df0c">2+</characteristic>
@@ -12424,7 +12424,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           <characteristics>
             <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">7</characteristic>
             <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18&quot;</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, select a 友方 混沌 SPAWN, &lt;军团&gt; POSSESSED, or &lt;军团&gt; 泯灭密教 单位 范围内 18&quot; of the 灵能者. Until the start of your next 灵能阶段, 那个单位 will gain a bonus depending on what 单位 it is, as below: 1. You can 重投 the dice when rolling for that 混沌 Spawn&apos;s Mutated Beyond Reason ability. 2. You can 重投 the dice when rolling for the A值 of 那个单位 of Possessed due to its Writhing Tentacles ability. 3. You can 重投 one of the dice when rolling for the Strength, AP and 伤害 characteristics of that 泯灭密教 单位&apos;s 武器 due to its Fleshmetal Guns or Fleshmetal 武器 ability.</characteristic>
+            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, select a 友方 混沌 SPAWN, &lt;军团&gt; 附魔, or &lt;军团&gt; 泯灭密教 单位 范围内 18&quot; of the 灵能者. Until the start of your next 灵能阶段, 那个单位 will gain a bonus depending on what 单位 it is, as below: 1. You can 重投 the dice when rolling for that 混沌 Spawn&apos;s Mutated Beyond Reason ability. 2. You can 重投 the dice when rolling for the A值 of 那个单位 of 附魔 due to its Writhing Tentacles ability. 3. You can 重投 one of the dice when rolling for the Strength, AP and 伤害 characteristics of that 泯灭密教 单位&apos;s 武器 due to its Fleshmetal Guns or Fleshmetal 武器 ability.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -12443,7 +12443,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           <characteristics>
             <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">5</characteristic>
             <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">肉搏</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, then until the start of your next 灵能阶段, the AP值 of the 灵能者&apos;s 肉搏武器 is improved by 2 (e.g. an AP of -1 becomes -3). Furthermore, until the start of your next 灵能阶段, 每次 the 灵能者 destroys an 敌方 步兵 人物 in the 肉搏阶段, you can add a 混沌 Spawn 模型 to your army. If the 被消灭 模型 was 阿斯塔特修会 or 阿斯塔特叛军, you can instead add a Greater Possessed 模型 to your army. If a new 模型 is added to your army, 放置 范围内 6&quot; of the 灵能者 and more than 1&quot; from 任何敌方模型. 此外, 每次 the 灵能者 destroys an 敌方 载具 模型 in the 肉搏阶段 that could explode, it 自动 爆炸; no dice roll is made and any 致命伤 suffered by the 灵能者 in the resulting explosion are ignored.</characteristic>
+            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, then until the start of your next 灵能阶段, the AP值 of the 灵能者&apos;s 肉搏武器 is improved by 2 (e.g. an AP of -1 becomes -3). Furthermore, until the start of your next 灵能阶段, 每次 the 灵能者 destroys an 敌方 步兵 人物 in the 肉搏阶段, you can add a 混沌 Spawn 模型 to your army. If the 被消灭 模型 was 阿斯塔特修会 or 阿斯塔特叛军, you can instead add a Greater 附魔 模型 to your army. If a new 模型 is added to your army, 放置 范围内 6&quot; of the 灵能者 and more than 1&quot; from 任何敌方模型. 此外, 每次 the 灵能者 destroys an 敌方 载具 模型 in the 肉搏阶段 that could explode, it 自动 爆炸; no dice roll is made and any 致命伤 suffered by the 灵能者 in the resulting explosion are ignored.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -14580,7 +14580,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d64f-a953-8bc4-0da2" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="034f-d1f2-d534-c542" name="Chainaxe" hidden="false" collective="false" import="true" targetId="262d-dbbf-8474-791c" type="selectionEntry"/>
+        <entryLink id="034f-d1f2-d534-c542" name="链锯斧" hidden="false" collective="false" import="true" targetId="262d-dbbf-8474-791c" type="selectionEntry"/>
         <entryLink id="1182-a564-2732-1f71" name="链锯剑" hidden="false" collective="false" import="true" targetId="0dd1-2e2b-7dd1-5495" type="selectionEntry"/>
         <entryLink id="eb0b-d2b4-6ba4-a406" name="闪电爪" hidden="false" collective="false" import="true" targetId="90de-7b01-e401-888b" type="selectionEntry">
           <constraints>
@@ -14628,7 +14628,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         <entryLink id="ef59-7ccd-bc08-c9e2" name="动力拳套" hidden="false" collective="false" import="true" targetId="f122-3720-fa32-4215" type="selectionEntry"/>
         <entryLink id="7285-9392-05ac-1260" name="动力锤" hidden="false" collective="false" import="true" targetId="6ea7-1195-7144-438e" type="selectionEntry"/>
         <entryLink id="7667-186c-0a86-be84" name="动力剑" hidden="false" collective="false" import="true" targetId="bc9e-551d-9afb-78d5" type="selectionEntry"/>
-        <entryLink id="614e-dfa9-1096-03c8" name="Chainaxe" hidden="false" collective="false" import="true" targetId="262d-dbbf-8474-791c" type="selectionEntry"/>
+        <entryLink id="614e-dfa9-1096-03c8" name="链锯斧" hidden="false" collective="false" import="true" targetId="262d-dbbf-8474-791c" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="5383-9a88-9883-e144" name="复合武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="ff58-acf3-53aa-cac6">
@@ -14774,9 +14774,9 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="0246-3399-3b88-44aa" name="Dark Hereticus discipline" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="0246-3399-3b88-44aa" name="黑暗异端系" hidden="false" collective="false" import="true">
       <entryLinks>
-        <entryLink id="75b1-a3b9-610a-d9ac" name="Infernal Gaze" hidden="false" collective="false" import="true" targetId="8561-c524-f380-e5a5" type="selectionEntry"/>
+        <entryLink id="75b1-a3b9-610a-d9ac" name="地狱凝视" hidden="false" collective="false" import="true" targetId="8561-c524-f380-e5a5" type="selectionEntry"/>
         <entryLink id="777a-5352-ff83-d825" name="Warptime" hidden="false" collective="false" import="true" targetId="9dd3-90bb-ef37-5728" type="selectionEntry"/>
         <entryLink id="780a-6e39-e385-ee7d" name="Prescience" hidden="false" collective="false" import="true" targetId="4a71-53c2-2d9c-3693" type="selectionEntry"/>
         <entryLink id="08db-363a-c4d8-ffb7" name="Weaver of Fates" hidden="false" collective="false" import="true" targetId="a92b-bab4-d200-8f41" type="selectionEntry">
@@ -14847,12 +14847,12 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </selectionEntryGroup>
         <selectionEntryGroup id="9f74-12e1-12ed-1c1a" name="肉搏武器 (max 2)" hidden="false" collective="false" import="true">
           <selectionEntries>
-            <selectionEntry id="9503-c03f-3930-fbdb" name="Chainaxe" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="9503-c03f-3930-fbdb" name="链锯斧" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e2e9-7068-cc33-cae8" type="max"/>
               </constraints>
               <profiles>
-                <profile id="64cc-a628-aeb0-ac21" name="Chainaxe" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+                <profile id="64cc-a628-aeb0-ac21" name="链锯斧" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -14954,7 +14954,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </selectionEntryGroup>
         <selectionEntryGroup id="7b8f-a7b7-b84b-f991" name="肉搏武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="31e2-a00d-301e-30d1">
           <entryLinks>
-            <entryLink id="2563-1c1f-4110-562e" name="Chainaxe" hidden="false" collective="false" import="true" targetId="262d-dbbf-8474-791c" type="selectionEntry"/>
+            <entryLink id="2563-1c1f-4110-562e" name="链锯斧" hidden="false" collective="false" import="true" targetId="262d-dbbf-8474-791c" type="selectionEntry"/>
             <entryLink id="31e2-a00d-301e-30d1" name="链锯剑" hidden="false" collective="false" import="true" targetId="0dd1-2e2b-7dd1-5495" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="135d-c740-15da-7cd0" value="0.0"/>
@@ -15014,7 +15014,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <entryLink id="bbba-75b7-e038-9286" name="动力拳套" hidden="false" collective="false" import="true" targetId="f122-3720-fa32-4215" type="selectionEntry"/>
             <entryLink id="acc0-29a1-645c-a950" name="动力锤" hidden="false" collective="false" import="true" targetId="6ea7-1195-7144-438e" type="selectionEntry"/>
             <entryLink id="ad85-b6cb-20cb-3a21" name="动力剑" hidden="false" collective="false" import="true" targetId="bc9e-551d-9afb-78d5" type="selectionEntry"/>
-            <entryLink id="4ad6-6da4-0282-59e4" name="Chainaxe" hidden="false" collective="false" import="true" targetId="262d-dbbf-8474-791c" type="selectionEntry"/>
+            <entryLink id="4ad6-6da4-0282-59e4" name="链锯斧" hidden="false" collective="false" import="true" targetId="262d-dbbf-8474-791c" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="b012-7617-0c13-5cc2" name="复合武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="563e-aaf7-033b-e034">
@@ -15037,7 +15037,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntryGroup>
-    <selectionEntryGroup id="f962-5557-bde3-d620" name="终结者 武器选项" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="f962-5557-bde3-d620" name="终结者武器选项" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b15-08a9-986a-458d" type="max"/>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="93d6-ddd9-6b67-3b2d" type="min"/>
@@ -15067,7 +15067,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         <entryLink id="055d-2bb3-2796-5b80" name="终结者肉搏武器" hidden="false" collective="false" import="true" targetId="2607-d554-732e-c0b0" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="e0ce-dbd2-b178-e542" name="终结者 巫师 武器选项" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="e0ce-dbd2-b178-e542" name="终结者巫师 武器选项" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c34-bdde-3a55-f52d" type="max"/>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="92a8-9ae3-737a-bb2b" type="min"/>
@@ -15102,7 +15102,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <entryLink id="a922-db13-b05f-a6e3" name="动力拳套" hidden="false" collective="false" import="true" targetId="f122-3720-fa32-4215" type="selectionEntry"/>
             <entryLink id="1e67-b771-7a66-393d" name="动力锤" hidden="false" collective="false" import="true" targetId="6ea7-1195-7144-438e" type="selectionEntry"/>
             <entryLink id="1d28-8d18-874d-d19e" name="动力剑" hidden="false" collective="false" import="true" targetId="bc9e-551d-9afb-78d5" type="selectionEntry"/>
-            <entryLink id="d1a4-56d0-7f06-a380" name="Chainaxe" hidden="false" collective="false" import="true" targetId="262d-dbbf-8474-791c" type="selectionEntry"/>
+            <entryLink id="d1a4-56d0-7f06-a380" name="链锯斧" hidden="false" collective="false" import="true" targetId="262d-dbbf-8474-791c" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="34c2-64dc-6b88-53a4" name="Force sword选项" hidden="false" collective="false" import="true">
@@ -15191,7 +15191,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
               <characteristics>
                 <characteristic name="Cast" typeId="5afb-9914-904b-d3b3">1</characteristic>
                 <characteristic name="Deny" typeId="b5ac-9c20-5d5a-6f9b">1</characteristic>
-                <characteristic name="Powers Known" typeId="69d7-b45e-00a2-7e46">惩击 and one 灵能 Dark Hereticus discipline</characteristic>
+                <characteristic name="Powers Known" typeId="69d7-b45e-00a2-7e46">惩击 and one 灵能 黑暗异端系</characteristic>
                 <characteristic name="Other" typeId="c2e2-f115-0003-5d7b"/>
               </characteristics>
             </profile>
@@ -15248,7 +15248,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
               <characteristics>
                 <characteristic name="Cast" typeId="5afb-9914-904b-d3b3">1</characteristic>
                 <characteristic name="Deny" typeId="b5ac-9c20-5d5a-6f9b">1</characteristic>
-                <characteristic name="Powers Known" typeId="69d7-b45e-00a2-7e46">惩击 and one 灵能 Dark Hereticus discipline</characteristic>
+                <characteristic name="Powers Known" typeId="69d7-b45e-00a2-7e46">惩击 and one 灵能 黑暗异端系</characteristic>
                 <characteristic name="Other" typeId="c2e2-f115-0003-5d7b"/>
               </characteristics>
             </profile>
@@ -15300,7 +15300,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
               <characteristics>
                 <characteristic name="Cast" typeId="5afb-9914-904b-d3b3">1</characteristic>
                 <characteristic name="Deny" typeId="b5ac-9c20-5d5a-6f9b">1</characteristic>
-                <characteristic name="Powers Known" typeId="69d7-b45e-00a2-7e46">惩击 and one 灵能 Dark Hereticus discipline</characteristic>
+                <characteristic name="Powers Known" typeId="69d7-b45e-00a2-7e46">惩击 and one 灵能 黑暗异端系</characteristic>
                 <characteristic name="Other" typeId="c2e2-f115-0003-5d7b"/>
               </characteristics>
             </profile>
@@ -15351,7 +15351,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           <profiles>
             <profile id="56a7-53ae-04c8-a884" name="Black Crusaders" publicationId="cb54-c035-pubN125652" page="157" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, 所有 人物, 步兵, 摩托 and HELBRUTE 单位 in 黑军团 Detachments gain the following ability: Add 1 to the LD值 of 模型 in 单位 with this trait. 此外, 如果1个单位 with this trait Advanced, it treats 所有 速射 武器 as Assault 武器 直到回合结束 (i.e. a 速射 2 武器 is treated as an Assault 2 武器).</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, 所有 人物, 步兵, 摩托 and 地狱兽 单位 in 黑军团 Detachments gain the following ability: Add 1 to the LD值 of 模型 in 单位 with this trait. 此外, 如果1个单位 with this trait Advanced, it treats 所有 速射 武器 as Assault 武器 直到回合结束 (i.e. a 速射 2 武器 is treated as an Assault 2 武器).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15368,7 +15368,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           <profiles>
             <profile id="04b5-616b-e468-c069" name="Siege Lords" publicationId="cb54-c035-pubN125652" page="157" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, 所有 人物, 步兵, 摩托 and HELBRUTE 单位 in an IRON WARRIORS Detachment gain the following ability: 敌方单位 attacked by 单位 with this trait do not gain any bonus to their saving throws for being in cover. 此外, 可以重投失败的造伤骰 for 单位 with this trait when they target a 建筑.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, 所有 人物, 步兵, 摩托 and 地狱兽 单位 in an IRON WARRIORS Detachment gain the following ability: 敌方单位 attacked by 单位 with this trait do not gain any bonus to their saving throws for being in cover. 此外, 可以重投失败的造伤骰 for 单位 with this trait when they target a 建筑.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15385,7 +15385,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           <profiles>
             <profile id="f09d-25b8-50c4-a0f4" name="Dark Raiders" publicationId="cb54-c035-pubN125652" page="157" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, 所有 人物, 步兵, 摩托 and HELBRUTE 单位 in a Renegade Chapters Detachment gain the following ability: 单位 with this trait can 加速和冲锋 in the same turn.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, 所有 人物, 步兵, 摩托 and 地狱兽 单位 in a Renegade Chapters Detachment gain the following ability: 单位 with this trait can 加速和冲锋 in the same turn.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15402,7 +15402,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           <profiles>
             <profile id="50f0-29e9-409c-b9fe" name="Butcher&apos;s Nails" publicationId="cb54-c035-pubN125652" page="157" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, 所有 人物, 步兵, 摩托 and HELBRUTE 单位 in a 吞世者 Detachment gain the following ability: When a 单位 with this trait makes a successful charge, you can make one 额外攻击 with each of its 模型 in the subsequent 肉搏阶段.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, 所有 人物, 步兵, 摩托 and 地狱兽 单位 in a 吞世者 Detachment gain the following ability: When a 单位 with this trait makes a successful charge, you can make one 额外攻击 with each of its 模型 in the subsequent 肉搏阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15419,7 +15419,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           <profiles>
             <profile id="c584-aea0-603f-098e" name="Terror Tactics" publicationId="cb54-c035-pubN125652" page="157" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, 所有 人物, 步兵, 摩托 and HELBRUTE 单位 in a NIGHT LORDS Detachment gain the following ability: 模型 in 敌方单位 必须 减少 1 from their LD值 for each 单位 with this trait which is 范围内 6&quot; of theirs (to a maximum of -3).</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, 所有 人物, 步兵, 摩托 and 地狱兽 单位 in a NIGHT LORDS Detachment gain the following ability: 模型 in 敌方单位 必须 减少 1 from their LD值 for each 单位 with this trait which is 范围内 6&quot; of theirs (to a maximum of -3).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15436,7 +15436,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           <profiles>
             <profile id="0f4b-de79-90bd-aedf" name="Flawless Perfection" publicationId="cb54-c035-pubN125652" page="157" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, 所有 人物, 步兵, 摩托 and HELBRUTE 单位 in an EMPERORS CHILDREN Detachment gain the following ability: 单位 with this trait always fight first in the 肉搏阶段, even if they didn&apos;t charge. If the 敌方 has 单位 that have charged, or that have a similar ability, then alternate choosing 单位 to fight, starting with the player whose turn is taking place.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, 所有 人物, 步兵, 摩托 and 地狱兽 单位 in an EMPERORS CHILDREN Detachment gain the following ability: 单位 with this trait always fight first in the 肉搏阶段, even if they didn&apos;t charge. If the 敌方 has 单位 that have charged, or that have a similar ability, then alternate choosing 单位 to fight, starting with the player whose turn is taking place.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15453,7 +15453,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           <profiles>
             <profile id="87d5-65ea-9be6-2a3f" name="Hidden In Plain Sight" publicationId="cb54-c035-pubN125652" page="157" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, 所有 人物, 步兵, 摩托 and HELBRUTE 单位 in an 阿尔法军团 Detachment gain the following ability: Your opponent 必须 减少 1 from 命中 骰 that target 单位 with this trait if they are more than 12&quot; away.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, 所有 人物, 步兵, 摩托 and 地狱兽 单位 in an 阿尔法军团 Detachment gain the following ability: Your opponent 必须 减少 1 from 命中 骰 that target 单位 with this trait if they are more than 12&quot; away.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15470,7 +15470,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           <profiles>
             <profile id="aaf3-2aa8-88f4-1280" name="Profane Zeal" publicationId="cb54-c035-pubN125652" page="157" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, 所有 人物, 步兵, 摩托 and HELBRUTE 单位 in a WORD BEARERS Detachment gain the following ability: You can 重投 失败的 士气测试 for 单位 with this trait.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, 所有 人物, 步兵, 摩托 and 地狱兽 单位 in a WORD BEARERS Detachment gain the following ability: You can 重投 失败的 士气测试 for 单位 with this trait.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15599,7 +15599,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           <profiles>
             <profile id="b6a2-31cf-4c53-0c3f" name="Raiders from the Maelstrom" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, 所有 人物, 步兵, 摩托 and HELBRUTE 单位 in 红海盗 Detachments gain the following ability: 单位 with this trait can 加速和冲锋 in the same turn. 此外, if a Detachment contains three or more 单位 with this trait, that Detachment&apos;s Command Benefits are increased by 1 指挥点数. That Detachment&apos;s Command Benefits are increased by 3 指挥点数 if it contains three or more 单位 of 混沌星际战士 with this trait.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, 所有 人物, 步兵, 摩托 and 地狱兽 单位 in 红海盗 Detachments gain the following ability: 单位 with this trait can 加速和冲锋 in the same turn. 此外, if a Detachment contains three or more 单位 with this trait, that Detachment&apos;s Command Benefits are increased by 1 指挥点数. That Detachment&apos;s Command Benefits are increased by 3 指挥点数 if it contains three or more 单位 of 混沌星际战士 with this trait.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15616,7 +15616,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           <profiles>
             <profile id="8fca-503b-9b70-bcaa" name="A Moment&apos;s Peace" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, 所有 人物, 步兵, 摩托 and HELBRUTE 单位 in CRIMSON SLAUGHTER Detachments gain the following ability: 如果1个单位 with this trait destroys an 敌方单位, 投掷1个D6. 结果为5+, you gain 1 指挥点数. 此外, 那个单位 自动通过 士气测试 直到回合结束.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, 所有 人物, 步兵, 摩托 and 地狱兽 单位 in CRIMSON SLAUGHTER Detachments gain the following ability: 如果1个单位 with this trait destroys an 敌方单位, 投掷1个D6. 结果为5+, you gain 1 指挥点数. 此外, 那个单位 自动通过 士气测试 直到回合结束.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15633,7 +15633,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           <profiles>
             <profile id="15e0-6876-a580-b9d6" name="Rend the Foe" publicationId="cb54-c035-pubN153092" page="197" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, 所有 人物, 步兵, 摩托 and HELBRUTE 单位 in BRAZEN BEASTS Detachments gain the following ability: 每次 you make a wound roll of 6+ for an attack made by a 模型 with this trait in the 肉搏阶段 during a turn in which it charged, was charged, or performed a Heroic Intervention, that 命中 is resolved with an AP of -4.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, 所有 人物, 步兵, 摩托 and 地狱兽 单位 in BRAZEN BEASTS Detachments gain the following ability: 每次 you make a wound roll of 6+ for an attack made by a 模型 with this trait in the 肉搏阶段 during a turn in which it charged, was charged, or performed a Heroic Intervention, that 命中 is resolved with an AP of -4.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15650,7 +15650,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           <profiles>
             <profile id="298b-3c3f-d365-11e2" name="Omniscient" publicationId="cb54-c035-pubN153092" page="197" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, 所有 人物, 步兵, 摩托 and HELBRUTE 单位 in SCOURGED Detachments gain the following ability: You can 重投 one 命中 roll for an attack made by a 模型 with this trait 每次 it shoots or fights. 此外, when a 单位 with this trait fires 坚守射击, they successfully 命中 结果为roll of 5+, 而不是 only 6, irrespective of the firing 模型的 Ballistic Skill or any modifiers.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, 所有 人物, 步兵, 摩托 and 地狱兽 单位 in SCOURGED Detachments gain the following ability: You can 重投 one 命中 roll for an attack made by a 模型 with this trait 每次 it shoots or fights. 此外, when a 单位 with this trait fires 坚守射击, they successfully 命中 结果为roll of 5+, 而不是 only 6, irrespective of the firing 模型的 Ballistic Skill or any modifiers.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15667,7 +15667,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           <profiles>
             <profile id="8176-e2ec-8adf-c289" name="Death to the Imperfect" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, 所有 人物, 步兵, 摩托 and HELBRUTE 单位 in FLAWLESS HOST Detachments gain the following ability: 每次 you roll a 命中 roll of 6+ for an attack made by a 模型 with this trait in the 肉搏阶段, it can 立即 make an extra attack 对抗 the same 单位 using the same 武器 (this is in addtion to any extra 攻击 granted by the 诛杀伪帝 ability). These extra 攻击 cannot themselves generate any further 攻击.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, 所有 人物, 步兵, 摩托 and 地狱兽 单位 in FLAWLESS HOST Detachments gain the following ability: 每次 you roll a 命中 roll of 6+ for an attack made by a 模型 with this trait in the 肉搏阶段, it can 立即 make an extra attack 对抗 the same 单位 using the same 武器 (this is in addtion to any extra 攻击 granted by the 诛杀伪帝 ability). These extra 攻击 cannot themselves generate any further 攻击.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15684,7 +15684,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           <profiles>
             <profile id="8aa9-557c-7729-d497" name="Bringers of Oblivion" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, 所有 人物, 步兵, 摩托 and HELBRUTE 单位 in PURGE Detachments gain the following ability: 可以重投命中骰 for 攻击 made by 单位 with this trait that target 敌方单位 that have lost one or more wounds already this turn.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, 所有 人物, 步兵, 摩托 and 地狱兽 单位 in PURGE Detachments gain the following ability: 可以重投命中骰 for 攻击 made by 单位 with this trait that target 敌方单位 that have lost one or more wounds already this turn.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15716,12 +15716,12 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </selectionEntryGroup>
         <selectionEntryGroup id="f012-1dac-fef2-02db" name="肉搏武器 (max 2)" hidden="false" collective="false" import="true">
           <selectionEntries>
-            <selectionEntry id="bc8a-ff53-e1d9-e1ab" name="Chainaxe" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="bc8a-ff53-e1d9-e1ab" name="链锯斧" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="83fe-8222-dd01-cb8d" type="max"/>
               </constraints>
               <profiles>
-                <profile id="f098-bfd2-5e88-b955" name="Chainaxe" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+                <profile id="f098-bfd2-5e88-b955" name="链锯斧" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -17037,12 +17037,12 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9640-639e-f177-002f" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="febe-8fd8-308c-f1b9" name="Chainaxe" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="febe-8fd8-308c-f1b9" name="链锯斧" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d04f-3a30-26d0-7b46" type="max"/>
               </constraints>
               <profiles>
-                <profile id="cd61-a0c3-b218-11af" name="Chainaxe" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+                <profile id="cd61-a0c3-b218-11af" name="链锯斧" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -17160,12 +17160,12 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </selectionEntryGroup>
         <selectionEntryGroup id="4017-0da2-5569-0916" name="肉搏武器 (max 2)" hidden="false" collective="false" import="true">
           <selectionEntries>
-            <selectionEntry id="2073-495c-5b31-ee8f" name="Chainaxe" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="2073-495c-5b31-ee8f" name="链锯斧" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b009-14e7-2549-120a" type="max"/>
               </constraints>
               <profiles>
-                <profile id="e7e3-74cd-0095-3b28" name="Chainaxe" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+                <profile id="e7e3-74cd-0095-3b28" name="链锯斧" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -17506,17 +17506,17 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         <entryLink id="ecbe-72ab-bb60-ece6" name="Reaver Lord" hidden="false" collective="false" import="true" targetId="1e3e-ebe0-7f5c-b08b" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="7d68-e6d6-a7be-cf99" name="Helbrute fist选项" hidden="false" collective="false" import="true" defaultSelectionEntryId="38d3-475f-ab18-455c">
+    <selectionEntryGroup id="7d68-e6d6-a7be-cf99" name="地狱兽之拳选项" hidden="false" collective="false" import="true" defaultSelectionEntryId="38d3-475f-ab18-455c">
       <constraints>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc93-7158-87f7-748b" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="ca0a-bb0e-1937-c4cb" name="Helbrute hammer" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="ca0a-bb0e-1937-c4cb" name="地狱兽之锤" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de00-fb46-91b5-5e64" type="max"/>
           </constraints>
           <profiles>
-            <profile id="6503-172e-8261-825e" name="Helbrute hammer" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+            <profile id="6503-172e-8261-825e" name="地狱兽之锤" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -17533,12 +17533,12 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="326a-6af2-c17d-53b8" name="Power scourge" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="326a-6af2-c17d-53b8" name="动力鞭" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd1f-e367-86b9-6f3f" type="max"/>
           </constraints>
           <profiles>
-            <profile id="6005-4c1a-5f67-33cb" name="Power scourge" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+            <profile id="6005-4c1a-5f67-33cb" name="动力鞭" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -17557,7 +17557,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="38d3-475f-ab18-455c" name="Helbrute fist" hidden="false" collective="false" import="true" targetId="f89a-4b0c-4dcc-a584" type="selectionEntry">
+        <entryLink id="38d3-475f-ab18-455c" name="地狱兽之拳" hidden="false" collective="false" import="true" targetId="f89a-4b0c-4dcc-a584" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="ce1e-8673-c2d6-504f" value="0.0"/>
           </modifiers>
@@ -17573,7 +17573,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3336-d161-8e83-ae13" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="c98c-9c6d-b802-229e" name="Chainaxe" hidden="false" collective="false" import="true" targetId="262d-dbbf-8474-791c" type="selectionEntry"/>
+        <entryLink id="c98c-9c6d-b802-229e" name="链锯斧" hidden="false" collective="false" import="true" targetId="262d-dbbf-8474-791c" type="selectionEntry"/>
         <entryLink id="8b77-d7ff-c922-dfdc" name="链锯剑" hidden="false" collective="false" import="true" targetId="0dd1-2e2b-7dd1-5495" type="selectionEntry"/>
         <entryLink id="965e-ed56-5fe1-337b" name="动力斧" hidden="false" collective="false" import="true" targetId="3292-34e6-f679-d5b9" type="selectionEntry"/>
         <entryLink id="4ce9-69b6-9876-defa" name="动力拳套" hidden="false" collective="false" import="true" targetId="f122-3720-fa32-4215" type="selectionEntry"/>
@@ -17669,12 +17669,12 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="7712-8aab-36e1-fcdb" name="Infernal Gaze" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="7712-8aab-36e1-fcdb" name="地狱凝视" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="61bc-4b8c-11b5-d6da" type="max"/>
           </constraints>
           <profiles>
-            <profile id="b14b-84cf-1331-43a4" name="Infernal Gaze" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+            <profile id="b14b-84cf-1331-43a4" name="地狱凝视" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
                 <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your 主将 successfully manifests the 惩击 psychic power, the closest 可见 敌方单位 范围内 24&quot; 遭受 致命伤, 而不是 18&quot;.</characteristic>
               </characteristics>
@@ -18216,12 +18216,12 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </selectionEntryGroup>
         <selectionEntryGroup id="2461-dcc5-d214-331c" name="肉搏武器 (max 2)" hidden="false" collective="false" import="true">
           <selectionEntries>
-            <selectionEntry id="0c30-17da-c74a-66cc" name="Chainaxe" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="0c30-17da-c74a-66cc" name="链锯斧" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5da9-193e-41dd-7610" type="max"/>
               </constraints>
               <profiles>
-                <profile id="3698-d56c-3a00-d47d" name="Chainaxe" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+                <profile id="3698-d56c-3a00-d47d" name="链锯斧" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -18733,7 +18733,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           <profiles>
             <profile id="fd38-426f-916b-df98" name="Exalted Possession" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个主将 获得 POSSESSED and 恶魔 keywords (if they don’t already have them). Add 1 to the S和A值 of 这个主将, and add 1&quot; to this Warlord’s M值.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个主将 获得 附魔 and 恶魔 keywords (if they don’t already have them). Add 1 to the S和A值 of 这个主将, and add 1&quot; to this Warlord’s M值.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -18987,7 +18987,7 @@ the 敌方 主将, your opponent will only achieve that objective if 所有 of t
           <profiles>
             <profile id="79b1-ec94-e18b-3bfa" name="Cult Leader" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made with a 武器 by a 模型 in a 友方 阿尔法军团 混沌 教徒 单位 范围内 6&quot; of 这个主将, on an unmodified wound roll of 6 the AP值 of that 武器 is improved by 1 for that attack (e.g. AP 0 becomes AP -1).</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made with a 武器 by a 模型 in a 友方 阿尔法军团 混沌教徒 单位 范围内 6&quot; of 这个主将, on an unmodified wound roll of 6 the AP值 of that 武器 is improved by 1 for that attack (e.g. AP 0 becomes AP -1).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -19305,10 +19305,10 @@ the 敌方 主将, your opponent will only achieve that objective if 所有 of t
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="4cd3-8669-582e-40ba" name="Cult of the Damned" hidden="false">
-      <description>Use this Stratagem when choosing your Army. Pick a 混沌 星际战士Detachment from your army to be a Cult of the Damned 特殊分队. DARK APOSTLES, DARK DISCIPLES and 混沌 教徒 in that Detachment gain the CULT OF THE DAMNED 关键字.</description>
+      <description>Use this Stratagem when choosing your Army. Pick a 混沌 星际战士Detachment from your army to be a Cult of the Damned 特殊分队. DARK APOSTLES, DARK DISCIPLES and 混沌教徒 in that Detachment gain the CULT OF THE DAMNED 关键字.</description>
     </rule>
     <rule id="ce6c-4a13-9704-30dc" name="Bringers of Despair" hidden="false">
-      <description>Use this Stratagem when choosing your army. Pick a 黑军团 Detachment from your army to be a Bringers of Despair 特殊分队. 黑军团 终结者 单位 in that Detachment gain the BRINGERS OF DESPAIR 关键字.</description>
+      <description>Use this Stratagem when choosing your army. Pick a 黑军团 Detachment from your army to be a Bringers of Despair 特殊分队. 黑军团 终结者单位 in that Detachment gain the BRINGERS OF DESPAIR 关键字.</description>
     </rule>
     <rule id="bc1f-bad3-1c8b-6fc0" name="Devastation Battery" hidden="false">
       <description>Use this Stratagem when choosing your Army. Pick a 混沌 星际战士Detachment from your army to be a Devastation Battery 特殊分队. &lt;军团&gt; 混沌 LORDS, WARPSMITHS, HAVOCS and OBLITERATORS in that Detachment gain the DEVASTATION BATTERY eyword.</description>
@@ -19320,7 +19320,7 @@ the 敌方 主将, your opponent will only achieve that objective if 所有 of t
       <description>Use this Stratagem when choosing your Army. Pick a 混沌 星际战士Detachment from your army to be a Soulforged Pack 特殊分队. WARPSMIRH and 恶魔引擎 单位 in that Detachment gain the SOULFORGED PACK 关键字.</description>
     </rule>
     <rule id="9f64-299a-375e-aa64" name="Daemonkin Ritualists" hidden="false">
-      <description>Use this Stratagem when choosing your Army. Pick a 混沌 星际战士Detachment from your army to be a Daemonkin Ritualists 特殊分队. DARK APOSTLES, DARK DISCIPLES, MASTERS OF POSSESSION, POSSESSED and GREATER POSSESSED in that Detachment gain the DAEMONKIN RITUALISTS 关键字.</description>
+      <description>Use this Stratagem when choosing your Army. Pick a 混沌 星际战士Detachment from your army to be a Daemonkin Ritualists 特殊分队. DARK APOSTLES, DARK DISCIPLES, MASTERS OF POSSESSION, 附魔 and GREATER 附魔 in that Detachment gain the DAEMONKIN RITUALISTS 关键字.</description>
     </rule>
     <rule id="30c9-db92-9a1f-243a" name="恶魔 武器" hidden="false">
       <description>In the 肉搏阶段, when 这个模型 is chosen to fight with for the 第1次 that phase, 投掷1个D6. 结果为1, the 模型 遭受 1 致命伤 and cannot use 这个武器 further that phase. 结果为2+ the 模型 can fight with the 武器 as normal.</description>
@@ -19387,7 +19387,7 @@ the 敌方 主将, your opponent will only achieve that objective if 所有 of t
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="fc56-4e98-3cdc-3659" name="Chainaxe" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+    <profile id="fc56-4e98-3cdc-3659" name="链锯斧" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -19404,7 +19404,7 @@ the 敌方 主将, your opponent will only achieve that objective if 所有 of t
         <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">持有者每次攻击, 这个武器可以造成 1 点额外攻击. This extra attack is included in its profile.</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">持有者每次攻击, 这个武器可以造成 1 点额外攻击. 额外的A加成已经包含在单位数据众.</characteristic>
       </characteristics>
     </profile>
     <profile id="b0a9-4ba4-c487-01b9" name="Blood for the Blood God" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -19417,7 +19417,7 @@ the 敌方 主将, your opponent will only achieve that objective if 所有 of t
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型拥有 5+ 特殊保护.</characteristic>
       </characteristics>
     </profile>
-    <profile id="9676-5c4d-7ae8-461b" name="恶魔 Machine Spirit" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="9676-5c4d-7ae8-461b" name="恶魔机魂" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Ignore the -1 to 命中 modifier for moving and 射击 重型武器 for 这个模型.</characteristic>
       </characteristics>
@@ -19429,7 +19429,7 @@ the 敌方 主将, your opponent will only achieve that objective if 所有 of t
     </profile>
     <profile id="a46b-e84f-ab7b-a4e4" name="Infernal Regeneration" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the beginning of each of your turns, 这个模型 heals one wound.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the beginning of each of your turns, 这个模型 回复1点W.</characteristic>
       </characteristics>
     </profile>
     <profile id="69a2-f63e-3d27-5c09" name="混沌领主" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -19442,7 +19442,7 @@ the 敌方 主将, your opponent will only achieve that objective if 所有 of t
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型拥有 4+ 特殊保护.</characteristic>
       </characteristics>
     </profile>
-    <profile id="aa2e-f0e5-04d3-aae3" name="终结者 Armour" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="aa2e-f0e5-04d3-aae3" name="终结者甲" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models in 这个单位 have a 5+ 特殊保护.</characteristic>
       </characteristics>
@@ -19469,7 +19469,7 @@ the 敌方 主将, your opponent will only achieve that objective if 所有 of t
     </profile>
     <profile id="11c7-1054-a93c-c0b5" name="所有 is Dust" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the saving throws for Rubric Marines if the attack 拥有 D值 of 1. 此外, the -1 modifier to 命中 骰 for moving and 射击 with a Heavy 武器 does not apply to Rubric Marines.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the saving throws for 红字战士 if the attack 拥有 D值 of 1. 此外, the -1 modifier to 命中 骰 for moving and 射击 with a Heavy 武器 does not apply to 红字战士.</characteristic>
       </characteristics>
     </profile>
     <profile id="2dba-f58f-2639-301e" name="Crash and Burn" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -19477,7 +19477,7 @@ the 敌方 主将, your opponent will only achieve that objective if 所有 of t
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 在被移除前投掷1个D6; 结果为6 it crashes in a fiery explosion 每个单位 范围内 6&quot; 遭受 D3 致命伤.</characteristic>
       </characteristics>
     </profile>
-    <profile id="ba8c-82d5-79c0-d0d9" name="Ectoplasma cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+    <profile id="ba8c-82d5-79c0-d0d9" name="Ecto等离子炮" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy D3</characteristic>
@@ -19554,7 +19554,7 @@ the 敌方 主将, your opponent will only achieve that objective if 所有 of t
     </profile>
     <profile id="30b9-6c98-271f-1750" name="Infernal Augmetics" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 heals one wound 在每个玩家回合开始.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 回复1点W 在每个玩家回合开始.</characteristic>
       </characteristics>
     </profile>
     <profile id="8a4f-be11-1ccb-30a7" name="Master of Mechanisms (Hellwright)" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -19570,7 +19570,7 @@ the 敌方 主将, your opponent will only achieve that objective if 所有 of t
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">部署期间 you can set 这个单位 up high in the skies 而不是 placing it 战场上. At the end of any of your 移动阶段 这个单位 can assault from above - 放置在战场上的任何位置 that is more than 9&quot; away from 任何敌方模型.</characteristic>
       </characteristics>
     </profile>
-    <profile id="6aa9-da9a-662e-69d5" name="爆炸 (Helbrute)" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="6aa9-da9a-662e-69d5" name="爆炸 (地狱兽)" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <modifiers>
         <modifier type="set" field="name" value="爆炸"/>
       </modifiers>
@@ -19604,7 +19604,7 @@ the 敌方 主将, your opponent will only achieve that objective if 所有 of t
           <description>而不是 following the normal rules for 速射 武器, 模型 in 这个单位 firing 速射爆弹武器 make 双倍 of 攻击 if any of the following apply:
 • The firing model’s target is 范围内 half the 武器的 最大射程.
 • The firing 模型 is 步兵 and every 模型 in its 单位 remained stationary in your previous 移动阶段.
-• The firing 模型 is a 终结者, 摩托 or HELBRUTE.
+• The firing 模型 is a 终结者, 摩托 or 地狱兽.
 For the purposes of this ability, a 速射爆弹武器 is any 爆弹武器 with the 速射 type. A 爆弹武器 is any 武器 whose profile includes the word ‘bolt’ (e.g. 爆弹枪, 爆弹手枪, combibolter, 地狱爆弹枪). Rules that apply to 爆弹武器 also apply when firing the 爆弹枪 profile of 复合武器 and when firing Artefacts of 混沌 that replaced a 爆弹武器, (e.g. Spitespitter). The Talon of Horus is also a 速射爆弹武器.</description>
         </rule>
       </rules>
