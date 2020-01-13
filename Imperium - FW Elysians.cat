@@ -162,7 +162,7 @@
         <categoryLink id="356f-f17a-0a45-0284" name="New CategoryLink" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="b33b-b31c-1e80-ee30" name="艾里西亚 Veteran 小队" hidden="false" collective="false" import="true" targetId="6a5a-e6a7-c7f9-6071" type="selectionEntry">
+    <entryLink id="b33b-b31c-1e80-ee30" name="艾里西亚 老兵 小队" hidden="false" collective="false" import="true" targetId="6a5a-e6a7-c7f9-6071" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="4693-7545-7052-a273" name="New CategoryLink" hidden="false" targetId="3263-4233-4344-6228" primary="false"/>
         <categoryLink id="4ca0-987b-755d-ef12" name="New CategoryLink" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
@@ -383,7 +383,7 @@
           <profiles>
             <profile id="785c-f7ee-bcac-6156" name="Transport: Valkyrie" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
               <characteristics>
-                <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">这个模型 可以运输 12 星界军 步兵模型.  Each 重型武器 Team or Veteran 重型武器 Team takes the place of two other 模型 and each OGRYN takes the space of three other 模型.</characteristic>
+                <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">这个模型 可以运输 12 星界军 步兵模型.  Each 重型武器组 or 老兵 重型武器组 takes the place of two other 模型 and each OGRYN takes the space of three other 模型.</characteristic>
               </characteristics>
             </profile>
             <profile id="745f-4ed0-d79b-df05" name="Valkyrie" publicationId="62ed-66a0-pubN69354" page="48" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
@@ -1042,7 +1042,7 @@
             </profile>
             <profile id="f450-8740-0270-b138" name="Vendetta Transport Capacity" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
               <characteristics>
-                <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">这个模型 可以运输 12 星界军 步兵模型.  Each Heavy 武器 Team or Veteran Heavy 武器 Team takes the place of two other 模型.  这个模型 may not transport OGRYNS.</characteristic>
+                <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">这个模型 可以运输 12 星界军 步兵模型.  Each Heavy武器组 or 老兵 Heavy武器组 takes the place of two other 模型.  这个模型 may not transport OGRYNS.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2305,7 +2305,7 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6a5a-e6a7-c7f9-6071" name="艾里西亚 Veteran 小队" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="6a5a-e6a7-c7f9-6071" name="艾里西亚 老兵 小队" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="081d-f142-fbba-7a07" name="Aerial Drop" hidden="false" targetId="b2ac-24d0-fec8-1d3c" type="profile"/>
       </infoLinks>
@@ -2368,12 +2368,12 @@
             <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4d45-12f4-e59b-805b" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="3571-e0b1-5a96-08e5" name="Veteran附带Lasgun" page="0" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="3571-e0b1-5a96-08e5" name="老兵附带Lasgun" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="91ff-ce0f-02da-27e9" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="1674-ab68-f6e2-c18b" name="Veteran Guardsmen" hidden="false" targetId="076c-b390-86e6-2ae9" type="profile"/>
+                <infoLink id="1674-ab68-f6e2-c18b" name="老兵 Guardsmen" hidden="false" targetId="076c-b390-86e6-2ae9" type="profile"/>
               </infoLinks>
               <entryLinks>
                 <entryLink id="ea4a-57c8-bc8b-59a8" name="激光枪" hidden="false" collective="false" import="true" targetId="d6ee-92a0-4d0b-0e13" type="selectionEntry">
@@ -2389,12 +2389,12 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="4392-2186-a1ab-1a3a" name="Veteran附带Vox-caster" page="0" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="4392-2186-a1ab-1a3a" name="老兵附带Vox-caster" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ac0c-e888-52d1-a6f5" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="fffb-fa49-d6cb-de80" name="Veteran Guardsmen" hidden="false" targetId="076c-b390-86e6-2ae9" type="profile"/>
+                <infoLink id="fffb-fa49-d6cb-de80" name="老兵 Guardsmen" hidden="false" targetId="076c-b390-86e6-2ae9" type="profile"/>
                 <infoLink id="ed5f-d101-6ef9-3206" name="Vox-caster" hidden="false" targetId="5d44-8507-0e85-8f66" type="profile"/>
               </infoLinks>
               <selectionEntryGroups>
@@ -2444,7 +2444,7 @@
                 <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="854d-7d5b-7e21-ef11" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="816b-9782-5605-299a" name="Veteran Guardsmen" hidden="false" targetId="076c-b390-86e6-2ae9" type="profile"/>
+                <infoLink id="816b-9782-5605-299a" name="老兵 Guardsmen" hidden="false" targetId="076c-b390-86e6-2ae9" type="profile"/>
               </infoLinks>
               <entryLinks>
                 <entryLink id="86a1-0b2d-d614-0628" name="艾里西亚 特殊武器 BS3" hidden="false" collective="false" import="true" targetId="4c82-1b74-49d1-d127" type="selectionEntryGroup"/>
@@ -2455,12 +2455,12 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="8635-7eb5-d46b-6c46" name="Veteran 武器 Team" page="0" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="8635-7eb5-d46b-6c46" name="老兵武器组" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6b96-4454-6f7b-f2fe" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="6f3d-f42e-abc3-edfb" name="Vetera 武器 Team" hidden="false" targetId="1a11-9219-59bd-8c63" type="profile"/>
+                <infoLink id="6f3d-f42e-abc3-edfb" name="Vetera武器组" hidden="false" targetId="1a11-9219-59bd-8c63" type="profile"/>
               </infoLinks>
               <selectionEntryGroups>
                 <selectionEntryGroup id="4112-460a-17ff-aa6b" name="激光枪" hidden="false" collective="false" import="true" defaultSelectionEntryId="da7d-76d9-a38e-ee43">
@@ -2507,12 +2507,12 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="05fd-2c40-1dfb-7272" name="Veteran附带重喷火" page="0" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="05fd-2c40-1dfb-7272" name="老兵附带重喷火" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5cb8-ba7b-fb01-d5ad" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="8d95-fb58-5773-7226" name="Veteran Guardsmen" hidden="false" targetId="076c-b390-86e6-2ae9" type="profile"/>
+                <infoLink id="8d95-fb58-5773-7226" name="老兵 Guardsmen" hidden="false" targetId="076c-b390-86e6-2ae9" type="profile"/>
               </infoLinks>
               <entryLinks>
                 <entryLink id="fedf-5430-c28a-84b4" name="重喷火" hidden="false" collective="false" import="true" targetId="18bc-b335-29c2-2ae2" type="selectionEntry">
@@ -2533,7 +2533,7 @@
                 <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="23a1-1a71-a892-7838" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="0c82-7a61-548e-4936" name="Veteran Guardsmen" hidden="false" targetId="076c-b390-86e6-2ae9" type="profile"/>
+                <infoLink id="0c82-7a61-548e-4936" name="老兵 Guardsmen" hidden="false" targetId="076c-b390-86e6-2ae9" type="profile"/>
               </infoLinks>
               <entryLinks>
                 <entryLink id="de6a-7294-8032-9ae5" name="霰弹枪" hidden="false" collective="false" import="true" targetId="0c10-2808-861b-5a07" type="selectionEntry">
@@ -2549,12 +2549,12 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="ef69-e6cc-0536-28cf" name="Veteran附带Breacher Charge" page="0" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="ef69-e6cc-0536-28cf" name="老兵附带Breacher Charge" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d54b-4d59-b397-fa42" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="e047-b6e9-f7c2-87fb" name="Veteran Guardsmen" hidden="false" targetId="076c-b390-86e6-2ae9" type="profile"/>
+                <infoLink id="e047-b6e9-f7c2-87fb" name="老兵 Guardsmen" hidden="false" targetId="076c-b390-86e6-2ae9" type="profile"/>
               </infoLinks>
               <selectionEntryGroups>
                 <selectionEntryGroup id="4e4c-a5e7-8f48-3a73" name="激光枪" hidden="false" collective="false" import="true" defaultSelectionEntryId="98ae-8222-29d8-d5b8">
@@ -2641,12 +2641,12 @@
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3246-e29c-f5a8-df9b" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="a389-194b-a220-56f5" name="Veteran附带Vox-caster" page="0" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="a389-194b-a220-56f5" name="老兵附带Vox-caster" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f35b-8b87-2292-a1f0" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="9996-200e-1d6b-49be" name="Veteran Guardsmen" hidden="false" targetId="076c-b390-86e6-2ae9" type="profile"/>
+                <infoLink id="9996-200e-1d6b-49be" name="老兵 Guardsmen" hidden="false" targetId="076c-b390-86e6-2ae9" type="profile"/>
                 <infoLink id="4cb0-022b-a521-e8b2" name="Vox-caster" hidden="false" targetId="5d44-8507-0e85-8f66" type="profile"/>
               </infoLinks>
               <selectionEntryGroups>
@@ -2688,12 +2688,12 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="a6e3-bc48-93f3-2eef" name="Veteran" page="0" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="a6e3-bc48-93f3-2eef" name="老兵" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="db26-c5b2-26d8-dae9" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="e71c-d2fd-8dd5-9b00" name="Veteran Guardsmen" hidden="false" targetId="076c-b390-86e6-2ae9" type="profile"/>
+                <infoLink id="e71c-d2fd-8dd5-9b00" name="老兵 Guardsmen" hidden="false" targetId="076c-b390-86e6-2ae9" type="profile"/>
               </infoLinks>
               <selectionEntryGroups>
                 <selectionEntryGroup id="9f20-2523-b5fd-8624" name="激光枪" hidden="false" collective="false" import="true" defaultSelectionEntryId="4521-88bc-5380-f0ef">
@@ -2734,12 +2734,12 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="edd5-08be-6012-817c" name="Veteran附带Medi-pack" page="0" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="edd5-08be-6012-817c" name="老兵附带Medi-pack" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="37ca-e84c-2d8a-d777" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="d387-1255-e1ac-f1f1" name="Veteran Guardsmen" hidden="false" targetId="076c-b390-86e6-2ae9" type="profile"/>
+                <infoLink id="d387-1255-e1ac-f1f1" name="老兵 Guardsmen" hidden="false" targetId="076c-b390-86e6-2ae9" type="profile"/>
                 <infoLink id="dd75-e9e2-4546-c721" name="Medi-pack" hidden="false" targetId="372c-9c3c-3404-3460" type="profile"/>
               </infoLinks>
               <selectionEntryGroups>
@@ -2781,12 +2781,12 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="1d7d-7b92-0009-15c6" name="Veteran附带Regimental 标准" page="0" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="1d7d-7b92-0009-15c6" name="老兵附带Regimental 标准" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3d22-7c0e-a22d-b359" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="a42c-095e-2cc8-9326" name="Veteran Guardsmen" hidden="false" targetId="076c-b390-86e6-2ae9" type="profile"/>
+                <infoLink id="a42c-095e-2cc8-9326" name="老兵 Guardsmen" hidden="false" targetId="076c-b390-86e6-2ae9" type="profile"/>
               </infoLinks>
               <selectionEntries>
                 <selectionEntry id="274a-ae11-d899-8e6a" name="Regimental 标准" hidden="false" collective="false" import="true" type="upgrade">
@@ -2852,7 +2852,7 @@
                 <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="34c2-2f85-eae5-50a1" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="d390-dbc2-c3aa-c7b2" name="Veteran Guardsmen" hidden="false" targetId="076c-b390-86e6-2ae9" type="profile"/>
+                <infoLink id="d390-dbc2-c3aa-c7b2" name="老兵 Guardsmen" hidden="false" targetId="076c-b390-86e6-2ae9" type="profile"/>
               </infoLinks>
               <entryLinks>
                 <entryLink id="b28d-ad6b-c7d8-fb0e" name="艾里西亚 特殊武器 BS3" hidden="false" collective="false" import="true" targetId="4c82-1b74-49d1-d127" type="selectionEntryGroup"/>
@@ -2874,12 +2874,12 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="1f0a-c3dc-fd15-c37b" name="Veteran 武器 Team" page="0" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="1f0a-c3dc-fd15-c37b" name="老兵武器组" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a248-e305-25d4-4593" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="c0d6-2c92-cde8-731b" name="Vetera 武器 Team" hidden="false" targetId="1a11-9219-59bd-8c63" type="profile"/>
+                <infoLink id="c0d6-2c92-cde8-731b" name="Vetera武器组" hidden="false" targetId="1a11-9219-59bd-8c63" type="profile"/>
               </infoLinks>
               <entryLinks>
                 <entryLink id="d9d5-d150-5dab-1574" name="艾里西亚 重型武器" hidden="false" collective="false" import="true" targetId="dc7f-ee0b-e028-5d0f" type="selectionEntryGroup"/>
@@ -3292,13 +3292,13 @@
         <infoLink id="4c25-eb40-a19c-faac" name="Aerial Drop" hidden="false" targetId="b2ac-24d0-fec8-1d3c" type="profile"/>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="b914-53f4-2623-a653" name="Heavy 武器 Team" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="b914-53f4-2623-a653" name="Heavy武器组" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ee0d-871d-cece-c291" type="max"/>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37db-b3ab-863a-04c1" type="min"/>
           </constraints>
           <profiles>
-            <profile id="cf2a-d834-7a81-6d13" name="Heavy 武器 Team" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+            <profile id="cf2a-d834-7a81-6d13" name="Heavy武器组" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
               <characteristics>
                 <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6寸</characteristic>
                 <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
@@ -4420,7 +4420,7 @@
         <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">5+</characteristic>
       </characteristics>
     </profile>
-    <profile id="1a11-9219-59bd-8c63" name="Veteran 武器 Team" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+    <profile id="1a11-9219-59bd-8c63" name="老兵武器组" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
       <characteristics>
         <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6寸</characteristic>
         <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
@@ -4433,7 +4433,7 @@
         <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">5+</characteristic>
       </characteristics>
     </profile>
-    <profile id="076c-b390-86e6-2ae9" name="Veteran Guardsmen" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+    <profile id="076c-b390-86e6-2ae9" name="老兵 Guardsmen" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
       <characteristics>
         <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6寸</characteristic>
         <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>

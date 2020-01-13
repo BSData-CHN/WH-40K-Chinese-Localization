@@ -619,7 +619,7 @@
         </profile>
         <profile id="86f1-5e8f-b9a6-3fa0" name="Transport Capacity" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
           <characteristics>
-            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">这个模型 可以运输 12 Renegade and Heretic 模型.  Each 重型武器 Team or Veteran 重型武器 Team takes the place of two other 模型 and each OGRYN takes the space of three other 模型.</characteristic>
+            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">这个模型 可以运输 12 Renegade and Heretic 模型.  Each 重型武器组 or 老兵 重型武器组 takes the place of two other 模型 and each OGRYN takes the space of three other 模型.</characteristic>
           </characteristics>
         </profile>
         <profile id="c79a-d68a-4e1f-af75" name="Chimera " hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
@@ -1126,7 +1126,7 @@
           <profiles>
             <profile id="79e4-d189-9f9f-dc04" name="Transport: Valkyrie" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
               <characteristics>
-                <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">这个模型 可以运输 12 RENEGADES AND HERETICS 步兵模型.  Each 重型武器 Team or Veteran 重型武器 Team takes the place of two other 模型 and each OGRYN takes the space of three other 模型.</characteristic>
+                <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">这个模型 可以运输 12 RENEGADES AND HERETICS 步兵模型.  Each 重型武器组 or 老兵 重型武器组 takes the place of two other 模型 and each OGRYN takes the space of three other 模型.</characteristic>
               </characteristics>
             </profile>
             <profile id="d31d-ff7e-e718-61fb" name="悬浮" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -2548,7 +2548,7 @@
           <profiles>
             <profile id="a426-8e97-a4ca-ea94" name="Transport Capacity" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
               <characteristics>
-                <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">这个模型 可以运输 12 RENEGADE AND HERETICS 模型.  Each 重型武器 Team or Veteran 重型武器 Team takes the place of two other 模型. 这个模型 may not transport OGRYNS</characteristic>
+                <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">这个模型 可以运输 12 RENEGADE AND HERETICS 模型.  Each 重型武器组 or 老兵 重型武器组 takes the place of two other 模型. 这个模型 may not transport OGRYNS</characteristic>
               </characteristics>
             </profile>
             <profile id="929e-2572-3322-1b05" name="Arvus Lighter" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
@@ -3532,7 +3532,7 @@
             <constraint field="selections" scope="parent" value="19.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56a8-3e62-20ce-f815" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="a779-701d-0cda-a3e5" name="Renegade Militia 武器 Team" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="a779-701d-0cda-a3e5" name="Renegade Militia武器组" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="8695-3076-ca0c-b7de" value="2">
                   <conditions>
@@ -3544,7 +3544,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8695-3076-ca0c-b7de" type="max"/>
               </constraints>
               <profiles>
-                <profile id="99bc-909f-0912-47dc" name="Renegade Militia 武器 Team" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+                <profile id="99bc-909f-0912-47dc" name="Renegade Militia武器组" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
                   <characteristics>
                     <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6寸</characteristic>
                     <characteristic name="WS" typeId="e7f0-1278-0250-df0c">5+</characteristic>
@@ -4255,12 +4255,12 @@
             <constraint field="selections" scope="parent" value="14.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1eed-b964-56c7-85c8" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="2f3b-9a2e-58ca-0405" name="Disciple 武器 Team" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="2f3b-9a2e-58ca-0405" name="Disciple武器组" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe88-d242-65bc-330e" type="max"/>
               </constraints>
               <profiles>
-                <profile id="ef81-7e05-0311-ab87" name="Disciple 武器 Team" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+                <profile id="ef81-7e05-0311-ab87" name="Disciple武器组" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
                   <characteristics>
                     <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6寸</characteristic>
                     <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -4634,12 +4634,12 @@
             <constraint field="selections" scope="parent" value="14.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d691-a59c-fa02-920a" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="1dac-1430-9ffe-9b66" name="Disciple Heavy 武器 Team" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="1dac-1430-9ffe-9b66" name="Disciple Heavy武器组" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7597-b521-d0a2-211f" type="max"/>
               </constraints>
               <profiles>
-                <profile id="ac97-52c7-fa9f-8874" name="Diciple Heavy 武器 Team" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+                <profile id="ac97-52c7-fa9f-8874" name="Diciple Heavy武器组" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
                   <characteristics>
                     <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6寸</characteristic>
                     <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -5732,7 +5732,7 @@
         <infoLink id="16c4-43c1-23ac-b8ef" name="混沌 Covenant" hidden="false" targetId="60bc-f557-e4db-bce7" type="profile"/>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="39f3-48ff-08f7-cb95" name="Renegade 武器 Team" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="39f3-48ff-08f7-cb95" name="Renegade武器组" hidden="false" collective="false" import="true" type="unit">
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6fe4-5987-32ce-7d19" type="min"/>
             <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3a8-1a05-8fad-dd3a" type="max"/>
@@ -5744,7 +5744,7 @@
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77da-1042-15f4-3009" type="max"/>
               </constraints>
               <profiles>
-                <profile id="54b2-e6e4-0651-73c3" name="Renegade 武器 Team" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+                <profile id="54b2-e6e4-0651-73c3" name="Renegade武器组" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
                   <characteristics>
                     <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6寸</characteristic>
                     <characteristic name="WS" typeId="e7f0-1278-0250-df0c">5+</characteristic>

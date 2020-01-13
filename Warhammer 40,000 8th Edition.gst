@@ -3179,7 +3179,7 @@
     </selectionEntry>
     <selectionEntry id="8ed2-3e2c-4d52-af79" name="热熔炸弹" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="818e-2cc9-fa01-4dae" name="Melta bomb" hidden="false" targetId="df40-a3f4-91be-f0fe" type="profile"/>
+        <infoLink id="818e-2cc9-fa01-4dae" name="热熔炸弹" hidden="false" targetId="df40-a3f4-91be-f0fe" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="5.0"/>
