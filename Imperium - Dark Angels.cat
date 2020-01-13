@@ -6966,6 +6966,18 @@ Matched Play: 这个模型 and 任何单位 上车 aboard it are exempt from the
               </costs>
             </selectionEntry>
             <selectionEntry id="3989-7610-af1c-dcc2" name="鸦翼 榴弹发射器" hidden="true" collective="true" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d5ec-3ee9-3440-0768" type="instanceOf"/>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="93f0-5272-7b0c-f986" type="instanceOf"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="244f-fb2c-e002-98ab" type="max"/>
                 <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c79-bb88-e485-8a65" type="min"/>
@@ -13520,7 +13532,7 @@ for
 each 
 单位
 within 
-D6寸 
+D6寸
 of 
 that 
 point, 
