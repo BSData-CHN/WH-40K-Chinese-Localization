@@ -1449,7 +1449,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
       <profiles>
         <profile id="7ec9-ce9c-3f03-c5ec" name="Mere Mortals" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <modifiers>
-            <modifier type="set" field="21befb24-fc85-4f52-a745-64b2e48f8228" value="混沌 CULTIST 单位 do not gain a Renegade Trait.">
+            <modifier type="set" field="21befb24-fc85-4f52-a745-64b2e48f8228" value="混沌 教徒 单位 do not gain a Renegade Trait.">
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
@@ -1465,7 +1465,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">混沌 CULTIST 单位 do not gain a Legion Trait.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">混沌 教徒 单位 do not gain a Legion Trait.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1476,13 +1476,13 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         <categoryLink id="2d39-3392-2c8a-fde4" name="New CategoryLink" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="1c33-1745-41e1-1d76" name="Cultist Champion" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="1c33-1745-41e1-1d76" name="教徒冠军" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9eaa-4daa-fb88-30eb" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3045-cc86-234e-168d" type="max"/>
           </constraints>
           <profiles>
-            <profile id="2b81-f899-03c0-5b3d" name="Cultist Champion" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+            <profile id="2b81-f899-03c0-5b3d" name="教徒冠军" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
               <modifiers>
                 <modifier type="set" field="13fc-b29b-31f2-ab9f" value="3">
                   <conditions>
@@ -1542,7 +1542,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5bd1-28a6-869e-161a" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="146a-71c8-d13a-5aa3" name="混沌 Cultist附带特殊武器" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="146a-71c8-d13a-5aa3" name="混沌 教徒装备特殊武器" hidden="false" collective="false" import="true" type="model">
               <modifiers>
                 <modifier type="increment" field="e0df-8266-651c-8c10" value="1">
                   <repeats>
@@ -1571,12 +1571,12 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="6298-60d3-c71c-ede1" name="混沌 Cultist附带自动手枪 and 野蛮突击武器" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="6298-60d3-c71c-ede1" name="混沌 教徒装备自动手枪 and 野蛮突击武器" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="29.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a8e-ae86-771c-a807" type="max"/>
               </constraints>
               <profiles>
-                <profile id="4cb2-a66f-860c-2b64" name="混沌 Cultist附带野蛮突击武器" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+                <profile id="4cb2-a66f-860c-2b64" name="混沌 教徒装备野蛮突击武器" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
                   <characteristics>
                     <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
                     <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
@@ -1619,12 +1619,12 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="d39b-ba24-5ab4-e5a4" name="混沌 Cultist附带Autogun" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="d39b-ba24-5ab4-e5a4" name="混沌 教徒装备Autogun" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="29.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cfe8-b0db-eb5d-407e" type="max"/>
               </constraints>
               <profiles>
-                <profile id="ab84-c0f0-28b1-5f52" name="混沌 Cultist" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+                <profile id="ab84-c0f0-28b1-5f52" name="混沌 教徒" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
                   <characteristics>
                     <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
                     <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
@@ -3681,7 +3681,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="db90-1a14-c826-6789" name="Berserker附带plasma pistol" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="db90-1a14-c826-6789" name="Berserker装备plasma pistol" hidden="false" collective="false" import="true" type="model">
               <modifiers>
                 <modifier type="set" field="name" value="Chainaxe and 等离子手枪">
                   <conditions>
@@ -4695,7 +4695,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <constraint field="selections" scope="parent" value="19.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5682-ca8f-8cc8-91e9" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="cae0-eaf2-dca4-3770" name="Plague Marine附带爆弹枪" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="cae0-eaf2-dca4-3770" name="Plague Marine装备爆弹枪" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="19.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04a9-57d3-3899-c1f6" type="max"/>
               </constraints>
@@ -4728,7 +4728,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="ccda-19d6-e1fe-feaa" name="Krak Grenades" hidden="false" collective="true" import="true" type="upgrade">
+                <selectionEntry id="ccda-19d6-e1fe-feaa" name="穿甲 Grenades" hidden="false" collective="true" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="367e-a0b0-c211-ff17" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="10f6-baf9-bc78-1899" type="max"/>
@@ -4757,7 +4757,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="1da3-b974-e930-0574" name="Plague Marine附带特殊武器" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="1da3-b974-e930-0574" name="Plague Marine装备特殊武器" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1bd6-2df2-9c82-a3b9" type="max"/>
               </constraints>
@@ -4869,7 +4869,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="52e1-b002-cd73-3507" name="Plague Marine附带肉搏 武器" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="52e1-b002-cd73-3507" name="Plague Marine装备肉搏 武器" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="19.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ad7-89ab-98c9-55b2" type="max"/>
               </constraints>
@@ -5014,7 +5014,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                             <characteristic name="S" typeId="59b1-319e-ec13-d466">+2</characteristic>
                             <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
                             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-                            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">可以重投造伤骰 of 1 for 这个武器. Make D3 命中 骰 每次 you attack with 这个武器, 而不是 only one. Excess 伤害 from 这个武器 is not lost; instead keep allocating 伤害 to another 模型 in the 单位 until either 所有 the 伤害 has been allocated or the target is destroyed.</characteristic>
+                            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">可以重投造伤骰 of 1 for 这个武器. Make D3 命中 骰 每次 you attack with 这个武器, 而不是 only one. Excess 伤害 from 这个武器 is not lost; instead keep allocating 伤害 to another 模型 in the 单位 until either 所有 the 伤害 has been allocated or the target is 被消灭.</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -5241,7 +5241,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
       <profiles>
         <profile id="a1a5-d273-fe2b-d592" name="Warpflame Strike" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When you set up 这个单位 部署期间, it can be set up in low orbit, ready to strike, 而不是 being placed 战场上. If it is, it can use a Warpflame Strike to arrive 战场上 at the end of any of your 移动阶段, when it does so, set the 单位 up 任何位置 that is more than 9&quot; away from 敌方模型. 此外, 敌方单位 cannot fire 坚守射击 对抗 单位 in the same turn that they arrived by warpflame strike.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When you 放置 这个单位 部署期间, it can be 放置 in low orbit, ready to strike, 而不是 being placed 战场上. If it is, it can use a Warpflame Strike to arrive 战场上 at the end of any of your 移动阶段, when it does so, set the 单位 up 任何位置 that is more than 9&quot; away from 敌方模型. 此外, 敌方单位 cannot fire 坚守射击 对抗 单位 in the same turn that they arrived by warpflame strike.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7358,7 +7358,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <constraint field="selections" scope="parent" value="19.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7158-eac1-b26a-17dc" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="f348-b327-8e54-434c" name="Marine附带爆弹枪" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="f348-b327-8e54-434c" name="Marine装备爆弹枪" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="19.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd38-7956-adc1-c627" type="max"/>
               </constraints>
@@ -7388,7 +7388,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="34ee-3726-87dd-5c39" name="Marine附带Heavy or 特殊武器" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="34ee-3726-87dd-5c39" name="Marine装备Heavy or 特殊武器" hidden="false" collective="false" import="true" type="model">
               <modifiers>
                 <modifier type="increment" field="be18-d9ac-4df5-485e" value="1">
                   <conditions>
@@ -7400,12 +7400,12 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                     <condition field="selections" scope="7b61-1289-ed7e-24c1" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7fd9-f2cd-9698-9def" type="equalTo"/>
                   </conditions>
                 </modifier>
-                <modifier type="set" field="name" value="Marine附带heavy 武器">
+                <modifier type="set" field="name" value="Marine装备heavy 武器">
                   <conditions>
                     <condition field="selections" scope="34ee-3726-87dd-5c39" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5861-4fa9-dda8-a299" type="equalTo"/>
                   </conditions>
                 </modifier>
-                <modifier type="set" field="name" value="Marine附带特殊武器">
+                <modifier type="set" field="name" value="Marine装备特殊武器">
                   <conditions>
                     <condition field="selections" scope="34ee-3726-87dd-5c39" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="03a3-2c6a-81f8-0b1b" type="equalTo"/>
                   </conditions>
@@ -7440,7 +7440,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="4222-74f2-38d2-22c1" name="Marine附带Chainsword" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="4222-74f2-38d2-22c1" name="Marine装备Chainsword" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="19.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d963-24f7-46d6-1bb5" type="max"/>
               </constraints>
@@ -7470,7 +7470,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="7fd9-f2cd-9698-9def" name="Marine附带Plasma pistol" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="7fd9-f2cd-9698-9def" name="Marine装备Plasma pistol" hidden="false" collective="false" import="true" type="model">
               <modifiers>
                 <modifier type="set" field="c43d-8693-0ccf-dc98" value="0.0">
                   <conditionGroups>
@@ -7841,7 +7841,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="64c8-ad43-da9e-da82" name="Chosen附带Plasma pistol" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="64c8-ad43-da9e-da82" name="Chosen装备Plasma pistol" hidden="false" collective="false" import="true" type="model">
               <modifiers>
                 <modifier type="decrement" field="adb8-837e-14ec-4c2f" value="1">
                   <repeats>
@@ -7884,14 +7884,14 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="a5dd-3378-0dbc-9a34" name="Chosen附带Heavy or 特殊武器" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="a5dd-3378-0dbc-9a34" name="Chosen装备Heavy or 特殊武器" hidden="false" collective="false" import="true" type="model">
               <modifiers>
-                <modifier type="set" field="name" value="Chosen附带heavy 武器">
+                <modifier type="set" field="name" value="Chosen装备heavy 武器">
                   <conditions>
                     <condition field="selections" scope="a5dd-3378-0dbc-9a34" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5c11-afb7-601e-c4f7" type="equalTo"/>
                   </conditions>
                 </modifier>
-                <modifier type="set" field="name" value="Chosen附带特殊武器">
+                <modifier type="set" field="name" value="Chosen装备特殊武器">
                   <conditions>
                     <condition field="selections" scope="a5dd-3378-0dbc-9a34" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="24c3-a247-1b9d-8b0e" type="equalTo"/>
                   </conditions>
@@ -7933,7 +7933,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="dbe7-5778-efab-df24" name="Chosen附带Lightning Claw" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="dbe7-5778-efab-df24" name="Chosen装备Lightning Claw" hidden="false" collective="false" import="true" type="model">
               <modifiers>
                 <modifier type="decrement" field="be5e-d144-dcd1-613a" value="1">
                   <repeats>
@@ -8008,7 +8008,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="eb88-4c4f-5c79-c270" name="Chosen附带Combi or 特殊武器" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="eb88-4c4f-5c79-c270" name="Chosen装备Combi or 特殊武器" hidden="false" collective="false" import="true" type="model">
               <modifiers>
                 <modifier type="decrement" field="6002-094e-b10b-c3e5" value="1">
                   <repeats>
@@ -8619,7 +8619,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8fd4-987c-9ca8-721d" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="2294-f206-d3ab-b716" name="Havoc附带重爆弹" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="2294-f206-d3ab-b716" name="Havoc装备重爆弹" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be7d-a65e-0717-c2ea" type="max"/>
               </constraints>
@@ -8643,7 +8643,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <cost name="pts" typeId="points" value="14.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="044d-2150-f69a-4c38" name="Havoc附带自动炮" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="044d-2150-f69a-4c38" name="Havoc装备自动炮" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da84-084e-7dfb-674d" type="max"/>
               </constraints>
@@ -8667,7 +8667,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <cost name="pts" typeId="points" value="14.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="d119-a9da-f7e6-0664" name="Havoc附带导弹发射器" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="d119-a9da-f7e6-0664" name="Havoc装备导弹发射器" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4bea-a3b7-ab70-235b" type="max"/>
               </constraints>
@@ -8691,7 +8691,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <cost name="pts" typeId="points" value="14.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="2331-197a-fb2d-ae97" name="Havoc附带激光炮" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="2331-197a-fb2d-ae97" name="Havoc装备激光炮" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a77-6118-326c-0693" type="max"/>
               </constraints>
@@ -8715,7 +8715,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <cost name="pts" typeId="points" value="14.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="06e3-61bb-74bc-d2b6" name="Havoc附带reaper chaincannon" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="06e3-61bb-74bc-d2b6" name="Havoc装备reaper chaincannon" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e20-0504-f70f-1508" type="max"/>
               </constraints>
@@ -8878,7 +8878,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <constraint field="selections" scope="parent" value="19.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0dce-f140-356a-f0b2" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="8d98-59a4-6f96-f2d2" name="Marine附带爆弹枪" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="8d98-59a4-6f96-f2d2" name="Marine装备爆弹枪" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="19.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="517a-3a1a-8fad-dc1c" type="max"/>
               </constraints>
@@ -8908,7 +8908,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="95ca-f802-a2ee-abbf" name="Marine附带chainsword" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="95ca-f802-a2ee-abbf" name="Marine装备chainsword" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="19.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cb2-3795-3c25-8d6c" type="max"/>
               </constraints>
@@ -8938,7 +8938,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="9e4e-866c-0b2c-def4" name="Marine附带Sonic blaster" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="9e4e-866c-0b2c-def4" name="Marine装备Sonic blaster" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="19.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac8d-9c3f-eaa0-493d" type="max"/>
               </constraints>
@@ -8987,7 +8987,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="9d86-8fb4-061f-571c" name="Marine附带Blastmaster" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="9d86-8fb4-061f-571c" name="Marine装备Blastmaster" hidden="false" collective="false" import="true" type="model">
               <modifiers>
                 <modifier type="increment" field="31bd-16d7-db20-2705" value="1">
                   <conditions>
@@ -9243,7 +9243,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <constraint field="selections" scope="parent" value="19.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="14a0-669e-c264-33a6" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="e9f5-a48a-97dc-7215" name="Rubric Marine附带地狱爆弹枪" page="" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="e9f5-a48a-97dc-7215" name="Rubric Marine装备地狱爆弹枪" page="" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="19.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2dbc-7132-6f60-6d05" type="max"/>
               </constraints>
@@ -9278,7 +9278,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="0227-2007-657b-964f" name="Rubric Marine附带Warpflamer" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="0227-2007-657b-964f" name="Rubric Marine装备Warpflamer" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="19.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a53e-baea-4b78-079a" type="max"/>
               </constraints>
@@ -9313,7 +9313,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="9407-c7b1-3a2f-91f5" name="Rubric Marine附带Soulreaper cannon" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="9407-c7b1-3a2f-91f5" name="Rubric Marine装备Soulreaper cannon" hidden="false" collective="false" import="true" type="model">
               <modifiers>
                 <modifier type="increment" field="b04c-a430-81c8-8790" value="1.0">
                   <repeats>
@@ -9825,7 +9825,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="0068-a64d-15c5-2b8d" name="Raptor附带plasma pistol" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="0068-a64d-15c5-2b8d" name="Raptor装备plasma pistol" hidden="false" collective="false" import="true" type="model">
               <modifiers>
                 <modifier type="decrement" field="7898-20a5-fcfc-3cca" value="1">
                   <repeats>
@@ -9862,7 +9862,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="0dad-680c-ae93-00c6" name="Raptor附带特殊武器" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="0dad-680c-ae93-00c6" name="Raptor装备特殊武器" hidden="false" collective="false" import="true" type="model">
               <modifiers>
                 <modifier type="decrement" field="dae7-104a-e0a4-123b" value="1">
                   <repeats>
@@ -9998,7 +9998,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </profile>
         <profile id="cb89-a2d5-4ac3-fc08" name="Magazine Explosion" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, before removing the 模型 from the battlefield* and before 任何模型 下车 投掷1个D6; 结果为6 its magazine 爆炸, 每个单位 范围内 2D6&quot; 遭受 D3 致命伤.  *If you cannot physically remove 这个模型 from your battlefield when it is destroyed (because, for example, it is glued to the surface), then regardless of whether its magazine 爆炸 or not, it is wrecked - from that point on, 模型 can no longer embark inside it, it can no longer shoot, etc.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, before removing the 模型 from the battlefield* and before 任何模型 下车 投掷1个D6; 结果为6 its magazine 爆炸, 每个单位 范围内 2D6&quot; 遭受 D3 致命伤.  *If you cannot physically remove 这个模型 from your battlefield when it is 被消灭 (because, for example, it is glued to the surface), then regardless of whether its magazine 爆炸 or not, it is wrecked - from that point on, 模型 can no longer embark inside it, it can no longer shoot, etc.</characteristic>
           </characteristics>
         </profile>
         <profile id="27b4-226e-b7a2-6b91" name="混沌 Bastion" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
@@ -10448,7 +10448,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <characteristic name="S" typeId="59b1-319e-ec13-d466">+1</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">开始时 of the first battle round but before the first turn has begun, you 必须 nominate one 敌方 人物 to be the target of the bearer of the Murder Sword (this can be a 人物 not yet set up 战场上). Remember to tell your opponent which 人物 you have nominated. 每次攻击 made with the Murder Sword that 命中 the selected 人物 自动 inflicts 1点致命伤 upon that 人物 而不是 the normal 伤害.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">开始时 of the first battle round but before the first turn has begun, you 必须 nominate one 敌方 人物 to be the target of the bearer of the Murder Sword (this can be a 人物 not yet 放置 战场上). Remember to tell your opponent which 人物 you have nominated. 每次攻击 made with the Murder Sword that 命中 the selected 人物 自动 inflicts 1点致命伤 upon that 人物 而不是 the normal 伤害.</characteristic>
           </characteristics>
         </profile>
         <profile id="4077-c7d8-c4c8-a795" name="The Murder Sword" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -11525,7 +11525,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </profile>
         <profile id="ff44-fda3-5a2b-6453" name="Infiltrator" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">部署期间, Lord Arkos can be set up 任何位置 战场上 that is not 范围内 your opponent&apos;s 部署区 and is more than 12&quot; from any 敌方单位.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">部署期间, Lord Arkos can be 放置 任何位置 战场上 that is not 范围内 your opponent&apos;s 部署区 and is more than 12&quot; from any 敌方单位.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -12119,7 +12119,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </profile>
         <profile id="b62e-48d2-8eb0-a2fb" name="Devourer of Souls" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the beginning of each of your turns, 这个模型 regains 1 lost wound. 此外, at the end of each 肉搏阶段 in which 这个模型 destroyed 任何敌方模型, 这个模型 恢复1点失去的W.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the beginning of each of your turns, 这个模型 恢复 1 失去的W. 此外, at the end of each 肉搏阶段 in which 这个模型 被消灭 任何敌方模型, 这个模型 恢复1点失去的W.</characteristic>
           </characteristics>
         </profile>
         <profile id="5a57-4590-718c-1f0a" name="Reservoir of Daemonic Energy" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -12286,7 +12286,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           <profiles>
             <profile id="a52a-934e-5c7a-a485" name="Champions of the Host" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The 第1次 这个单位 is set up, 所有 模型 in 这个单位 必须 set up at the same time, though they do not need to be set up in 单位 coherency. From that point onwards, each Greater Possessed is treated as a separate 单位.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The 第1次 这个单位 is 放置, 所有 模型 in 这个单位 必须 放置 at the same time, though they do not need to be 放置 in 单位 coherency. From that point onwards, each Greater Possessed is treated as a separate 单位.</characteristic>
               </characteristics>
             </profile>
             <profile id="d562-2504-1d99-c98f" name="Locus of Power" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -12405,7 +12405,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           <characteristics>
             <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">4</characteristic>
             <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">2&quot;</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, choose 任何模型 范围内 2&quot; of the 灵能者; that 模型 遭受 1点致命伤. Then, choose a 友方 &lt;军团&gt; 恶魔 模型 范围内 18&quot; of the 灵能者. That 模型 regains D3 lost wounds. If that &lt;军团&gt; 恶魔 模型 is a 恶魔引擎 and the 模型 you chose to inflict the 致命伤 on was a 友方 &lt;军团&gt; 战争铁匠, the 恶魔引擎 regains 3 lost wounds instead.</characteristic>
+            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, choose 任何模型 范围内 2&quot; of the 灵能者; that 模型 遭受 1点致命伤. Then, choose a 友方 &lt;军团&gt; 恶魔 模型 范围内 18&quot; of the 灵能者. That 模型 恢复 D3 失去的W. If that &lt;军团&gt; 恶魔 模型 is a 恶魔引擎 and the 模型 you chose to inflict the 致命伤 on was a 友方 &lt;军团&gt; 战争铁匠, the 恶魔引擎 恢复 3 失去的W instead.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -12443,7 +12443,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           <characteristics>
             <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">5</characteristic>
             <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">肉搏</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, then until the start of your next 灵能阶段, the AP值 of the 灵能者&apos;s 肉搏武器 is improved by 2 (e.g. an AP of -1 becomes -3). Furthermore, until the start of your next 灵能阶段, 每次 the 灵能者 destroys an 敌方 步兵 人物 in the 肉搏阶段, you can add a 混沌 Spawn 模型 to your army. If the destroyed 模型 was 阿斯塔特修会 or 阿斯塔特叛军, you can instead add a Greater Possessed 模型 to your army. If a new 模型 is added to your army, 放置 范围内 6&quot; of the 灵能者 and more than 1&quot; from 任何敌方模型. 此外, 每次 the 灵能者 destroys an 敌方 载具 模型 in the 肉搏阶段 that could explode, it 自动 爆炸; no dice roll is made and any 致命伤 suffered by the 灵能者 in the resulting explosion are ignored.</characteristic>
+            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, then until the start of your next 灵能阶段, the AP值 of the 灵能者&apos;s 肉搏武器 is improved by 2 (e.g. an AP of -1 becomes -3). Furthermore, until the start of your next 灵能阶段, 每次 the 灵能者 destroys an 敌方 步兵 人物 in the 肉搏阶段, you can add a 混沌 Spawn 模型 to your army. If the 被消灭 模型 was 阿斯塔特修会 or 阿斯塔特叛军, you can instead add a Greater Possessed 模型 to your army. If a new 模型 is added to your army, 放置 范围内 6&quot; of the 灵能者 and more than 1&quot; from 任何敌方模型. 此外, 每次 the 灵能者 destroys an 敌方 载具 模型 in the 肉搏阶段 that could explode, it 自动 爆炸; no dice roll is made and any 致命伤 suffered by the 灵能者 in the resulting explosion are ignored.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -13054,7 +13054,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </profile>
         <profile id="c85c-3904-443c-dc36" name="Infernal Regeneration" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">开始时 of your turn, 这个模型 regains 1 lost wound.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">开始时 of your turn, 这个模型 恢复 1 失去的W.</characteristic>
           </characteristics>
         </profile>
         <profile id="4444-c1f5-5157-a992" name="Aura of Discord" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -13064,7 +13064,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
         </profile>
         <profile id="5d17-9343-9106-81e0" name="Spirit Thief" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 这个模型 destroys an 敌方 载具 单位 in the 肉搏阶段, 这个模型 can either repair a 友方 恶魔引擎 or release a beam of energy. If you choose to repair a 友方 恶魔引擎, pick a 友方 &lt;军团&gt; 恶魔引擎 (other than 模型 飞行关键字) 范围内 3&quot; of 这个模型. That 恶魔引擎 regains D3 lost wounds. If you choose to release a beam of energy, pick an 敌方 载具 范围内 12&quot; of 这个模型 and 投掷1个D6. 结果为2+ that 载具 遭受 D3 致命伤.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 这个模型 destroys an 敌方 载具 单位 in the 肉搏阶段, 这个模型 can either repair a 友方 恶魔引擎 or release a beam of energy. If you choose to repair a 友方 恶魔引擎, pick a 友方 &lt;军团&gt; 恶魔引擎 (other than 模型 飞行关键字) 范围内 3&quot; of 这个模型. That 恶魔引擎 恢复 D3 失去的W. If you choose to release a beam of energy, pick an 敌方 载具 范围内 12&quot; of 这个模型 and 投掷1个D6. 结果为2+ that 载具 遭受 D3 致命伤.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -13443,7 +13443,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
       <profiles>
         <profile id="3ec9-7cb1-b5b6-f8e1" name="Mutating Invocation" hidden="false" typeId="7c26-78e8-b63d-70a2" typeName="Prayers">
           <characteristics>
-            <characteristic name="效果" typeId="f486-147a-28c3-ad93">If this prayer is heard, this 祭司 regains D3 lost wounds. Note that unlike other prayers, whose effects last only until the end of the battle round, wounds regained from this prayer are not lost again at the end of the battle round.</characteristic>
+            <characteristic name="效果" typeId="f486-147a-28c3-ad93">If this prayer is heard, this 祭司 恢复 D3 失去的W. Note that unlike other prayers, whose effects last only until the end of the battle round, wounds regained from this prayer are not lost again at the end of the battle round.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -14182,7 +14182,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
             <characteristic name="S" typeId="59b1-319e-ec13-d466">+1</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each 模型 destroyed by an attack with 这个武器 counts as two for the purposes of 士气测试.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each 模型 被消灭 by an attack with 这个武器 counts as two for the purposes of 士气测试.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -16376,7 +16376,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
               <profiles>
                 <profile id="45da-1bec-44db-3882" name="Book of the Reviler" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Model that is not a 恶魔 only. Before the battle, a 模型 with this 圣物 can read from the Book of the Reviler. If it does, randomly generate two 混沌 Boons for that 模型 from the table found in the 混沌 Boon Stratagem (see 圣典: 混沌星际战士), re-rolling Spawndom and Daemonhood and duplicate results. Note that doing so does not cost any 指挥点数, and an 敌方 人物, 载具 or 巨兽 模型 does not have to have been destroyed.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Model that is not a 恶魔 only. Before the battle, a 模型 with this 圣物 can read from the Book of the Reviler. If it does, randomly generate two 混沌 Boons for that 模型 from the table found in the 混沌 Boon Stratagem (see 圣典: 混沌星际战士), re-rolling Spawndom and Daemonhood and duplicate results. Note that doing so does not cost any 指挥点数, and an 敌方 人物, 载具 or 巨兽 模型 does not have to have been 被消灭.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -16507,7 +16507,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
               <profiles>
                 <profile id="0b85-1f0d-32e7-a288" name="Vox Daemonicus" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">步兵模型 only. Whilst an 敌方单位 is 范围内 6&quot; of a 模型 with this 圣物, reduce the range of 那个单位’s aura abilities to 1&quot;. 此外, 敌方单位 that are set up 战场上 as reinforcements 不能 set up 范围内 12&quot; of a 模型 with this 圣物.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">步兵模型 only. Whilst an 敌方单位 is 范围内 6&quot; of a 模型 with this 圣物, reduce the range of 那个单位’s aura abilities to 1&quot;. 此外, 敌方单位 that are 放置 战场上 as reinforcements 不能 放置 范围内 12&quot; of a 模型 with this 圣物.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -16541,7 +16541,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
               <profiles>
                 <profile id="b26b-33e1-f190-c0c0" name="Misery of the Meek" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, 开始时 of your 移动阶段, a 模型 with this 圣物 can drink from the Misery of Meek. That 模型 立即 regains 至多 D6 lost wounds, and until the start of your next turn, add D3 to that model’s A值.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, 开始时 of your 移动阶段, a 模型 with this 圣物 can drink from the Misery of Meek. That 模型 立即 恢复 至多 D6 失去的W, and until the start of your next turn, add D3 to that model’s A值.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -16995,7 +16995,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
               <profiles>
                 <profile id="27f3-ba14-e48c-93e4" name="Bloodhunger" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When an 敌方模型 is destroyed in the 肉搏阶段 as a result of an attack made by a 模型 with this 圣物, 投掷1个D6; 结果为4+ the 模型 with this 圣物 regains 至多 1 lost wound.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When an 敌方模型 is 被消灭 in the 肉搏阶段 as a result of an attack made by a 模型 with this 圣物, 投掷1个D6; 结果为4+ the 模型 with this 圣物 恢复 至多 1 失去的W.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -17642,7 +17642,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           <profiles>
             <profile id="fb0b-57e8-6368-2c82" name="Devourer of Magic" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Your 主将 can attempt to deny one additional power in each 敌方 灵能阶段. 此外, your 主将 regains 1 lost wound 每次 it successfully denies a psychic power.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Your 主将 can attempt to deny one additional power in each 敌方 灵能阶段. 此外, your 主将 恢复 1 失去的W 每次 it successfully denies a psychic power.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -18154,7 +18154,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           <profiles>
             <profile id="f026-5a86-808d-e5ae" name="Soul-eater" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 your 主将 destroys an 敌方单位, your 主将 立即 regains D3 lost wounds.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 your 主将 destroys an 敌方单位, your 主将 立即 恢复 D3 失去的W.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -18789,7 +18789,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           <profiles>
             <profile id="df98-0a9c-3c57-abbb" name="Sacrilegious Regeneration" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to this Warlord’s W值. 开始时 of your turn, 这个主将 regains 至多 D3 lost wounds.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to this Warlord’s W值. 开始时 of your turn, 这个主将 恢复 至多 D3 失去的W.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -18918,8 +18918,8 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
           <profiles>
             <profile id="ea6a-5c05-a55b-8bd2" name="I am Alpharius" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">此外 to 这个主将 Trait, 这个主将 has one randomly generated 混沌 星际战士主将 Trait from 圣典: 混沌星际战士. If 这个主将 is destroyed, you can 立即 select another 阿尔法军团 人物 模型 from your army to take their place and generate a 主将 Trait for them (including this one). If the mission you are playing grants victory points for destroying
-the 敌方 主将, your opponent will only achieve that objective if 所有 of the 阿尔法军团 人物 模型 from your army have been destroyed.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">此外 to 这个主将 Trait, 这个主将 has one randomly generated 混沌 星际战士主将 Trait from 圣典: 混沌星际战士. If 这个主将 is 被消灭, you can 立即 select another 阿尔法军团 人物 模型 from your army to take their place and generate a 主将 Trait for them (including this one). If the mission you are playing grants victory points for destroying
+the 敌方 主将, your opponent will only achieve that objective if 所有 of the 阿尔法军团 人物 模型 from your army have been 被消灭.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -18970,7 +18970,7 @@ the 敌方 主将, your opponent will only achieve that objective if 所有 of t
           <profiles>
             <profile id="7e2b-22b8-5931-6359" name="Master of Diversion" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">开始时 of the first battle round, before the first turn begins, select 至多 three other 友方 阿尔法军团 单位 战场上. Remove these 单位 from the battlefield and set them up again following the usual deployment rules for those 单位 and the mission. If you redeploy a TRANSPORT model, 所有 单位 上车 inside it remain so when it is set up again.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">开始时 of the first battle round, before the first turn begins, select 至多 three other 友方 阿尔法军团 单位 战场上. Remove these 单位 from the battlefield and set them up again following the usual deployment rules for those 单位 and the mission. If you redeploy a TRANSPORT model, 所有 单位 上车 inside it remain so when it is 放置 again.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -18987,7 +18987,7 @@ the 敌方 主将, your opponent will only achieve that objective if 所有 of t
           <profiles>
             <profile id="79b1-ec94-e18b-3bfa" name="Cult Leader" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made with a 武器 by a 模型 in a 友方 阿尔法军团 混沌 CULTIST 单位 范围内 6&quot; of 这个主将, on an unmodified wound roll of 6 the AP值 of that 武器 is improved by 1 for that attack (e.g. AP 0 becomes AP -1).</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made with a 武器 by a 模型 in a 友方 阿尔法军团 混沌 教徒 单位 范围内 6&quot; of 这个主将, on an unmodified wound roll of 6 the AP值 of that 武器 is improved by 1 for that attack (e.g. AP 0 becomes AP -1).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -19494,7 +19494,7 @@ the 敌方 主将, your opponent will only achieve that objective if 所有 of t
     </profile>
     <profile id="d076-b46c-6d2e-ae9e" name="Master of Mechanisms" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of your 移动阶段, a 战争铁匠 can repair a single &lt;军团&gt; 载具 (other than 模型 飞行关键字) 范围内 1&quot;. That 模型 regains D3 lost wounds. A 战争铁匠 can instead curse a single 敌方 载具 范围内 18&quot;. 投掷1个D6; 结果为2+ that 载具 遭受 1点致命伤. A At the end of your 移动阶段, a 战争铁匠 can repair a single (Legion) 载具 (other than 模型 飞行关键字) 范围内 1&quot;. That 模型 regains D3 lost wounds. A 战争铁匠 can instead curse a single 敌方 载具 范围内 18&quot;. 投掷1个D6; 结果为2+ that 载具 遭受 1点致命伤. A 载具 不能 repaired or cursed by more than one 模型 with Master of Mechanisms in the same turn.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of your 移动阶段, a 战争铁匠 can repair a single &lt;军团&gt; 载具 (other than 模型 飞行关键字) 范围内 1&quot;. That 模型 恢复 D3 失去的W. A 战争铁匠 can instead curse a single 敌方 载具 范围内 18&quot;. 投掷1个D6; 结果为2+ that 载具 遭受 1点致命伤. A At the end of your 移动阶段, a 战争铁匠 can repair a single (Legion) 载具 (other than 模型 飞行关键字) 范围内 1&quot;. That 模型 恢复 D3 失去的W. A 战争铁匠 can instead curse a single 敌方 载具 范围内 18&quot;. 投掷1个D6; 结果为2+ that 载具 遭受 1点致命伤. A 载具 不能 repaired or cursed by more than one 模型 with Master of Mechanisms in the same turn.</characteristic>
       </characteristics>
     </profile>
     <profile id="8b01-0911-05af-1e11" name="For the Dark Gods" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -19539,12 +19539,12 @@ the 敌方 主将, your opponent will only achieve that objective if 所有 of t
     </profile>
     <profile id="4c67-249d-36d7-4bfc" name="Slaughterborn" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When an 敌方 人物, 巨兽 or 巨型 模型 is destroyed as a result of an attack made by 这个主将, add 1 to this Warlord’s 攻击 and Strength characteristics.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When an 敌方 人物, 巨兽 or 巨型 模型 is 被消灭 as a result of an attack made by 这个主将, add 1 to this Warlord’s 攻击 and Strength characteristics.</characteristic>
       </characteristics>
     </profile>
     <profile id="17d1-2906-ef22-a4f2" name="Stimulated By Pain" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to your Warlord’s A值 for each wound he has suffered (to a maximum of +3). If your 主将 regains any lost wounds, he loses the associated bonus 攻击.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to your Warlord’s A值 for each wound he has suffered (to a maximum of +3). If your 主将 恢复 any 失去的W, he loses the associated bonus 攻击.</characteristic>
       </characteristics>
     </profile>
     <profile id="7303-bb9b-7aab-6c73" name="Gift of the Hellforge" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -19562,7 +19562,7 @@ the 敌方 主将, your opponent will only achieve that objective if 所有 of t
         <modifier type="set" field="name" value="Master of Mechanisms"/>
       </modifiers>
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of your 移动阶段, a Hellwright can repair a single &lt;军团&gt;/恶魔引擎/QUESTOR TRAITOROUS or 黑机械教 载具 (other than 模型 飞行关键字) 范围内 1&quot;. That 模型 regains D3 lost wounds. A 战争铁匠 can instead curse a single 敌方 载具 范围内 18&quot;. 投掷1个D6; 结果为2+ that 载具 遭受 1点致命伤. A 载具 不能 repaired or cursed by more than one 模型 with Master of Mechanisms in the same turn.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of your 移动阶段, a Hellwright can repair a single &lt;军团&gt;/恶魔引擎/QUESTOR TRAITOROUS or 黑机械教 载具 (other than 模型 飞行关键字) 范围内 1&quot;. That 模型 恢复 D3 失去的W. A 战争铁匠 can instead curse a single 敌方 载具 范围内 18&quot;. 投掷1个D6; 结果为2+ that 载具 遭受 1点致命伤. A 载具 不能 repaired or cursed by more than one 模型 with Master of Mechanisms in the same turn.</characteristic>
       </characteristics>
     </profile>
     <profile id="f0c9-8eea-7208-9da6" name="跳跃背包突袭" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">

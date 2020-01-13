@@ -1867,7 +1867,7 @@
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When 这个模型 is destroyed, before any 上车 模型 下车 its vortex missiles explode. Each 单位 范围内 2D6寸 遭受 D6 致命伤. If a 模型 loses any wounds as a result of those 致命伤 but is not destroyed, roll another D6; 结果为6 that 模型 遭受 a further D6 致命伤.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When 这个模型 is 被消灭, before any 上车 模型 下车 its vortex missiles explode. Each 单位 范围内 2D6寸 遭受 D6 致命伤. If a 模型 loses any wounds as a result of those 致命伤 but is not 被消灭, roll another D6; 结果为6 that 模型 遭受 a further D6 致命伤.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2097,7 +2097,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2a7-8818-aa73-5a3a" type="max"/>
           </constraints>
           <profiles>
-            <profile id="0739-fefd-af02-d118" name="Krakstorm Missile" publicationId="28ec-711c-pubN78977" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+            <profile id="0739-fefd-af02-d118" name="穿甲storm Missile" publicationId="28ec-711c-pubN78977" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="射程" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18-96寸</characteristic>
                 <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 D6</characteristic>
@@ -2107,7 +2107,7 @@
                 <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
               </characteristics>
             </profile>
-            <profile id="7068-6a6c-21c8-aebc" name="Fragstorm Missile" publicationId="28ec-711c-pubN78977" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+            <profile id="7068-6a6c-21c8-aebc" name="破片storm Missile" publicationId="28ec-711c-pubN78977" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="射程" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18-96寸</characteristic>
                 <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 2D6</characteristic>
@@ -2342,7 +2342,7 @@
         </profile>
         <profile id="e232-2e1e-1955-a5c0" name="Plasma Explosion" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When 这个模型 is destroyed, 投掷1个D6 before any 上车 模型 下车, and before removing it from play. 结果为4+ it 爆炸, 每个单位 范围内 D6寸 遭受 D6 致命伤.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When 这个模型 is 被消灭, 投掷1个D6 before any 上车 模型 下车, and before removing it from play. 结果为4+ it 爆炸, 每个单位 范围内 D6寸 遭受 D6 致命伤.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2399,7 +2399,7 @@
         </profile>
         <profile id="abe7-f841-acc8-c3f4" name="Landing Pad Configuration" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">单位 can move across 这个模型 as if it were a terrain feature. When 这个模型 is set up 战场上, select either the Shielded or Unfurled configuration to be in 效果. 开始时 of your 移动阶段, if there are no 敌方模型 范围内 1寸 of the Skyshield Landing Pad, you can change which configuration is in 效果:</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">单位 can move across 这个模型 as if it were a terrain feature. When 这个模型 is 放置 战场上, select either the Shielded or Unfurled configuration to be in 效果. 开始时 of your 移动阶段, if there are no 敌方模型 范围内 1寸 of the Skyshield Landing Pad, you can change which configuration is in 效果:</characteristic>
           </characteristics>
         </profile>
         <profile id="c01d-4736-944f-b007" name="Shielded" hidden="false" typeId="002f-cc4a-c4e3-0261" typeName="登陆平台配置">
@@ -2409,7 +2409,7 @@
         </profile>
         <profile id="c1ed-3585-4739-2266" name="Unfurled" hidden="false" typeId="002f-cc4a-c4e3-0261" typeName="登陆平台配置">
           <characteristics>
-            <characteristic name="影响" typeId="f566-bacc-9414-7661">Whilst this configuration is in 效果, if a 友方 载具 单位 with the FLYER Battlefield Role spends its entire turn on top of a Skyshield Landing Pad in this configuration, that 模型 regains 至多 D3 lost wounds at the end of the turn.</characteristic>
+            <characteristic name="影响" typeId="f566-bacc-9414-7661">Whilst this configuration is in 效果, if a 友方 载具 单位 with the FLYER Battlefield Role spends its entire turn on top of a Skyshield Landing Pad in this configuration, that 模型 恢复 至多 D3 失去的W at the end of the turn.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4620,7 +4620,7 @@
         </profile>
         <profile id="ba08-5714-b31c-5cf5" name="Shimmering Arrival" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When you set up 这个模型 部署期间, it can be set up 任何位置 战场上 that is more than 12寸 from the 敌方 部署区 and 任何敌方模型, and more than 3寸 from any other terrain features or the center of any objective markers.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When you 放置 这个模型 部署期间, it can be 放置 任何位置 战场上 that is more than 12寸 from the 敌方 部署区 and 任何敌方模型, and more than 3寸 from any other terrain features or the center of any objective markers.</characteristic>
           </characteristics>
         </profile>
         <profile id="9f52-e8b6-268d-fa2d" name="Eldritch Aura" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -4630,12 +4630,12 @@
         </profile>
         <profile id="0fff-6dcb-d884-e8df" name="Webway Strike" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">After you set up 这个模型, any 艾尔达 单位 you have not yet set up 部署期间, other than fortifications, can be set up in a webway spar rather than being set up 战场上. One 单位 in a webway spar can emerge from each 友方 Webway Gate at the end of each of your 移动阶段 - Set them up wholly 范围内 3寸 of the webway gate and more than 9寸 away from 任何敌方模型. If 所有 friendlyWebway Gates have been destroyed, 任何单位 that have not yet arrived from a webway spar are considered to be slain</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">After you 放置 这个模型, any 艾尔达 单位 you have not yet 放置 部署期间, other than fortifications, can be 放置 in a webway spar rather than being 放置 战场上. One 单位 in a webway spar can emerge from each 友方 Webway Gate at the end of each of your 移动阶段 - Set them up wholly 范围内 3寸 of the webway gate and more than 9寸 away from 任何敌方模型. If 所有 friendlyWebway Gates have been 被消灭, 任何单位 that have not yet arrived from a webway spar are considered to be slain</characteristic>
           </characteristics>
         </profile>
         <profile id="1b16-1941-d120-15ee" name="Webway Gate" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When measuring distance to and from a Webway Gate, measure from the closest point of the model. If a Webway Gate is destroyed, remove both arch peices from the battlefield.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When measuring distance to and from a Webway Gate, measure from the closest point of the model. If a Webway Gate is 被消灭, remove both arch peices from the battlefield.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6391,7 +6391,7 @@
                   <profiles>
                     <profile id="09a4-6f7c-d011-706c" name="36: Impervious" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 regains 1 lost wound 开始时 of your turn. </characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 恢复 1 失去的W 开始时 of your turn. </characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7515,7 +7515,7 @@
               <profiles>
                 <profile id="4d47-86df-2de3-831b" name="R1: Monstrous Regeneration" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 regains 1 lost wound 在每个玩家回合开始. </characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 恢复 1 失去的W 在每个玩家回合开始. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7600,7 +7600,7 @@
               <profiles>
                 <profile id="fe4c-12e6-6f1b-b1b4" name="R4: Volatile Death Throes " hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 is destroyed, its controlling player can choose for it to 自动 trigger death throes (see 圣典: 泰伦) – no dice roll is required.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 is 被消灭, its controlling player can choose for it to 自动 trigger death throes (see 圣典: 泰伦) – no dice roll is required.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7826,7 +7826,7 @@
               <profiles>
                 <profile id="4f72-8a3c-25d7-94f9" name="R4: Last Resort" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If a 模型 in 这个单位 is destroyed, the controlling player can choose for it to 自动 explode – no dice roll is required.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If a 模型 in 这个单位 is 被消灭, the controlling player can choose for it to 自动 explode – no dice roll is required.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7883,7 +7883,7 @@
       <description>这个模型 re-骰 所有 失败的 To Wound 骰 对抗 targets with a W值 of 2 or more.</description>
     </rule>
     <rule id="74b3-2e30-9d76-a958" name="Infiltrator" hidden="false">
-      <description>部署期间, 这个单位 can be set up 任何位置 战场上 that is not 范围内 your opponent&apos;s 部署区 and is more than 12寸 from any 敌方单位.</description>
+      <description>部署期间, 这个单位 can be 放置 任何位置 战场上 that is not 范围内 your opponent&apos;s 部署区 and is more than 12寸 from any 敌方单位.</description>
     </rule>
     <rule id="15ea-860d-9eb6-21c3" name="Airborne" hidden="false">
       <description>这个模型 不能冲锋, can only be charged by 单位 飞行关键字, and can only attack or be attacked in the 肉搏阶段 by 单位 飞行关键字.</description>
@@ -8607,7 +8607,7 @@
     </profile>
     <profile id="68d8-f686-c260-76db" name="Barricades" publicationId="28ec-711c-pubN113754" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A 模型 in cover behind a barricade or wall 拥有 4+ cover save. 模型 that are in base contact with a barricade or wall are treated as being in base contact with 任何敌方模型 who are directly opposite them and in base contact with the other side of that barricade or wall. 单位 charging an 敌方 that is behind a barricade or wall count as charging through difficult terrain.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A 模型 in cover behind a barricade or wall 拥有 4+ cover save. 模型 that are in base contact with a barricade or wall are treated as being in base contact with 任何敌方模型 who are directly opposite them and in base contact with the other side of that barricade or wall. 单位 charging an 敌方 that is behind a barricade or wall 视作 charging through difficult terrain.</characteristic>
       </characteristics>
     </profile>
     <profile id="e158-7adf-1565-ef08" name="Tanglewire" publicationId="28ec-711c-pubN113754" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -9522,7 +9522,7 @@
     </profile>
     <profile id="c408-8555-a6df-257f" name="不可移动" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">After 这个模型 has been set up 战场上 it 不能移动 for any reason, and no 单位 can embark upon it.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">After 这个模型 has been 放置 战场上 it 不能移动 for any reason, and no 单位 can embark upon it.</characteristic>
       </characteristics>
     </profile>
     <profile id="a179-f592-3224-72c9" name="Automated 武器" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -9557,7 +9557,7 @@
     </profile>
     <profile id="c60f-7b10-88fd-9eba" name="静态防御网络 (Aegis)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each Small Shield Section and Large Shield Section in 这个单位 必须 set up so that it is in end-to-end contact with at least one other Small Shield Section or Large Shield Section in 这个单位, and 这个单位&apos;s 炮架 必须 set up 范围内 6寸 of any Small Shield Section or Large Shield Section in 这个单位. After it is set up, 这个单位&apos;s Small Shield Sections and Large Shield Sections are treated as a single terrain feature that follows the rules for Barricades (pg 106).</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each Small Shield Section and Large Shield Section in 这个单位 必须 放置 so that it is in end-to-end contact with at least one other Small Shield Section or Large Shield Section in 这个单位, and 这个单位&apos;s 炮架 必须 放置 范围内 6寸 of any Small Shield Section or Large Shield Section in 这个单位. After it is 放置, 这个单位&apos;s Small Shield Sections and Large Shield Sections are treated as a single terrain feature that follows the rules for Barricades (pg 106).</characteristic>
       </characteristics>
     </profile>
     <profile id="9446-1148-da70-4028" name="爆炸 (D6寸)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -9619,17 +9619,17 @@
     </profile>
     <profile id="8e81-7c95-43ba-6e0d" name="爆炸 (2D6寸)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When 这个模型 is destroyed, 投掷1个D6 before any 上车 模型 下车 and before removing it from play. 结果为6则爆炸, 每个单位 范围内 2D6寸 遭受 D3 致命伤.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When 这个模型 is 被消灭, 投掷1个D6 before any 上车 模型 下车 and before removing it from play. 结果为6则爆炸, 每个单位 范围内 2D6寸 遭受 D3 致命伤.</characteristic>
       </characteristics>
     </profile>
     <profile id="07c8-4bf0-0b10-9830" name="静态防御网络 (帝国)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Every 模型 in 这个单位 必须 set up so that it is in end-to-end contact with at least one other 友方 WALL OF MARTYRS model. After it is set up, 模型 in 这个单位 are treated as terrain features that follow the rules for Barricades (pg 106).</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Every 模型 in 这个单位 必须 放置 so that it is in end-to-end contact with at least one other 友方 WALL OF MARTYRS model. After it is 放置, 模型 in 这个单位 are treated as terrain features that follow the rules for Barricades (pg 106).</characteristic>
       </characteristics>
     </profile>
     <profile id="4ab1-b4c4-a404-8c2f" name="爆炸 (2D6寸 / D6)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When 这个模型 is destroyed, 投掷1个D6 before any 上车 模型 下车 and before removing it from play. 结果为6则爆炸, 每个单位 范围内 2D6寸 遭受 D6 致命伤.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When 这个模型 is 被消灭, 投掷1个D6 before any 上车 模型 下车 and before removing it from play. 结果为6则爆炸, 每个单位 范围内 2D6寸 遭受 D6 致命伤.</characteristic>
       </characteristics>
     </profile>
     <profile id="0f50-2ea2-b251-a213" name="Automated 武器 (Icarus)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">

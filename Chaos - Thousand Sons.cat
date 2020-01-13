@@ -1513,7 +1513,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
             <constraint field="selections" scope="parent" value="19.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7076-d107-517e-e775" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="4bbf-ef51-cdfb-2f7e" name="Rubric Marine附带地狱爆弹枪" page="" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="4bbf-ef51-cdfb-2f7e" name="Rubric Marine装备地狱爆弹枪" page="" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="19.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e10e-2571-9f68-b051" type="max"/>
               </constraints>
@@ -1548,7 +1548,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="9b10-de36-4c44-8074" name="Rubric Marine附带Warpflamer" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="9b10-de36-4c44-8074" name="Rubric Marine装备Warpflamer" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="19.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ddad-b0f0-c19d-564a" type="max"/>
               </constraints>
@@ -1583,7 +1583,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="3e5d-37fc-eb05-caf5" name="Rubric Marine附带Soulreaper cannon" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="3e5d-37fc-eb05-caf5" name="Rubric Marine装备Soulreaper cannon" hidden="false" collective="false" import="true" type="model">
               <modifiers>
                 <modifier type="increment" field="e6a9-abe4-0708-efe3" value="1.0">
                   <repeats>
@@ -2856,7 +2856,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">x2</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If a 人物 is destroyed by 这个武器, you can add a 混沌 Spawn to your army. Set up the 混沌 Spawn 范围内 6寸 of Magnus and more than 1寸 from 任何敌方模型.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If a 人物 is 被消灭 by 这个武器, you can add a 混沌 Spawn to your army. 放置 the 混沌 Spawn 范围内 6寸 of Magnus and more than 1寸 from 任何敌方模型.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2933,7 +2933,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="fc37-719c-395d-c88d" name="混沌 Cultist" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+        <profile id="fc37-719c-395d-c88d" name="混沌 教徒" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6寸</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
@@ -2957,13 +2957,13 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
         <categoryLink id="8676-69de-d906-1688" name="New CategoryLink" hidden="false" targetId="0c0a-3974-d2ae-7e7b" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="9e67-425a-1b51-e043" name="Cultist Champion" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="9e67-425a-1b51-e043" name="教徒冠军" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95c3-4083-1418-8c01" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2170-f3be-8e70-b58a" type="max"/>
           </constraints>
           <profiles>
-            <profile id="282b-02d4-3d4c-4328" name="Cultist Champion" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+            <profile id="282b-02d4-3d4c-4328" name="教徒冠军" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
               <modifiers>
                 <modifier type="set" field="13fc-b29b-31f2-ab9f" value="3">
                   <conditions>
@@ -3023,7 +3023,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
             <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8cf-38d2-d70a-33fa" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="b505-bfa9-0c1c-aa2b" name="混沌 Cultist附带Autogun" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="b505-bfa9-0c1c-aa2b" name="混沌 教徒装备Autogun" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="39.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e4e-5ee5-6d3a-4ed9" type="max"/>
               </constraints>
@@ -3049,12 +3049,12 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="8ae9-c17b-af6b-0d9e" name="混沌 Cultist附带自动手枪 and 野蛮突击武器" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="8ae9-c17b-af6b-0d9e" name="混沌 教徒装备自动手枪 and 野蛮突击武器" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="39.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="409f-6279-106c-9fef" type="max"/>
               </constraints>
               <profiles>
-                <profile id="8900-e8ef-e1f3-1c73" name="混沌 Cultist附带野蛮突击武器" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+                <profile id="8900-e8ef-e1f3-1c73" name="混沌 教徒装备野蛮突击武器" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
                   <characteristics>
                     <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6寸</characteristic>
                     <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
@@ -3097,7 +3097,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="7d90-d691-a7cb-4fd3" name="混沌 Cultist附带特殊武器" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="7d90-d691-a7cb-4fd3" name="混沌 教徒装备特殊武器" hidden="false" collective="false" import="true" type="model">
               <modifiers>
                 <modifier type="increment" field="8950-7d8b-027d-dcf3" value="1">
                   <repeats>
@@ -3546,7 +3546,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
             <constraint field="selections" scope="parent" value="29.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc0b-a5ed-9b27-f8b5" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="076e-246e-d32b-93bb" name="Tzaangor附带Tzaangor Blades" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="076e-246e-d32b-93bb" name="Tzaangor装备Tzaangor Blades" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="29.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f9fe-30f1-3380-65b2" type="max"/>
               </constraints>
@@ -3581,7 +3581,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="6f95-8b6f-b676-4bd6" name="Tzaangor附带自动手枪 and 链锯剑" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="6f95-8b6f-b676-4bd6" name="Tzaangor装备自动手枪 and 链锯剑" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="29.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6eae-15cb-1cc2-7dc5" type="max"/>
               </constraints>
@@ -4436,7 +4436,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
         </profile>
         <profile id="401d-0c50-70ff-2a93" name="02 - Spawndom" hidden="false" typeId="d059-e800-687c-6148" typeName="Boon of 奸奇 - D6 Roll">
           <characteristics>
-            <characteristic name="效果" typeId="7b1e-d737-8471-712f">Your 人物 is slain. 然而, before removing the 模型 as a casualty, you can add a 混沌 Spawn to to your army. If you do so, set up the 混沌 Spawn 范围内 6寸 of the 人物 before removing them.</characteristic>
+            <characteristic name="效果" typeId="7b1e-d737-8471-712f">Your 人物 is slain. 然而, before removing the 模型 as a casualty, you can add a 混沌 Spawn to to your army. If you do so, 放置 the 混沌 Spawn 范围内 6寸 of the 人物 before removing them.</characteristic>
           </characteristics>
         </profile>
         <profile id="2cdf-746a-bcb7-94cd" name="03 - Arcane Occulum" hidden="false" typeId="d059-e800-687c-6148" typeName="Boon of 奸奇 - D6 Roll">
@@ -4479,14 +4479,14 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
             <characteristic name="效果" typeId="7b1e-d737-8471-712f">Add 1 to the 人物&apos;s T值.</characteristic>
           </characteristics>
         </profile>
-        <profile id="da1f-c8f3-9bbd-c74c" name="11 - Fragment of Immortality" hidden="false" typeId="d059-e800-687c-6148" typeName="Boon of 奸奇 - D6 Roll">
+        <profile id="da1f-c8f3-9bbd-c74c" name="11 - 破片ment of Immortality" hidden="false" typeId="d059-e800-687c-6148" typeName="Boon of 奸奇 - D6 Roll">
           <characteristics>
             <characteristic name="效果" typeId="7b1e-d737-8471-712f">Add 1 to the 人物&apos;s W值.</characteristic>
           </characteristics>
         </profile>
         <profile id="204e-c9f0-701a-303a" name="12 - Daemonhood" hidden="false" typeId="d059-e800-687c-6148" typeName="Boon of 奸奇 - D6 Roll">
           <characteristics>
-            <characteristic name="效果" typeId="7b1e-d737-8471-712f">Your 人物 is slain. 然而, before removing the 模型 as a casualty, you can add a 恶魔王子 of 奸奇 to your army. If you do so, set up the 恶魔王子 of 奸奇 范围内 6寸 of the 人物 before removing them.</characteristic>
+            <characteristic name="效果" typeId="7b1e-d737-8471-712f">Your 人物 is slain. 然而, before removing the 模型 as a casualty, you can add a 恶魔王子 of 奸奇 to your army. If you do so, 放置 the 恶魔王子 of 奸奇 范围内 6寸 of the 人物 before removing them.</characteristic>
           </characteristics>
         </profile>
         <profile id="61f0-fbc2-7638-c564" name="-" hidden="false" typeId="d059-e800-687c-6148" typeName="Boon of 奸奇 - D6 Roll">
@@ -5077,7 +5077,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
         </profile>
         <profile id="b5cc-bc2a-df4d-08ca" name="Mutant Regeneration" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the beginning of each of your turns, 这个模型 regains 1 lost wound.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the beginning of each of your turns, 这个模型 恢复 1 失去的W.</characteristic>
           </characteristics>
         </profile>
         <profile id="8501-e7fa-dd95-3d9b" name="Unstable Energies" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -5987,7 +5987,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
           <profiles>
             <profile id="3db4-f7c3-4b9a-2692" name="Dark Matter Crystal" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, at the end of your 移动阶段, you can select the bearer or a 友方 THOUSAND SONS 步兵单位 范围内 12寸 of him. Remove 那个单位 from the battlefield and 立即 放置在战场上的任何位置 that is more than 9寸 from 任何敌方模型. This does not count as Falling Back if the 单位 was 范围内 1寸 of 任何敌方模型.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, at the end of your 移动阶段, you can select the bearer or a 友方 THOUSAND SONS 步兵单位 范围内 12寸 of him. Remove 那个单位 from the battlefield and 立即 放置在战场上的任何位置 that is more than 9寸 from 任何敌方模型. This does not 视作 Falling Back if the 单位 was 范围内 1寸 of 任何敌方模型.</characteristic>
               </characteristics>
             </profile>
           </profiles>

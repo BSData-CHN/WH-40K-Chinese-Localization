@@ -1052,7 +1052,7 @@
       <profiles>
         <profile id="4a71-6edb-4974-3771" name="空降舱突袭" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">部署期间, you can set 这个模型, along with 任何单位 上车 范围内 it, in orbit 而不是 placing it 战场上. At the end of any of your 移动阶段 这个模型 can perform a 空降舱突袭.  - 放置在战场上的任何位置 that is more that 9寸 away from 任何敌方模型. 任何模型 上车 inside 必须立即 下车, but they 必须 set up more than 9寸 away from 任何敌方模型. 任何模型 that 不能 set up because there is not enough room are slain.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">部署期间, you can set 这个模型, along with 任何单位 上车 范围内 it, in orbit 而不是 placing it 战场上. At the end of any of your 移动阶段 这个模型 can perform a 空降舱突袭.  - 放置在战场上的任何位置 that is more that 9寸 away from 任何敌方模型. 任何模型 上车 inside 必须立即 下车, but they 必须 放置 more than 9寸 away from 任何敌方模型. 任何模型 that 不能 放置 because there is not enough room are slain.</characteristic>
           </characteristics>
         </profile>
         <profile id="d98d-7e56-4c84-5335" name="运载能力" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
@@ -1919,9 +1919,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="612c-9207-d934-41f4" name="死亡守望 Frag Cannon" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="612c-9207-d934-41f4" name="死亡守望 破片 Cannon" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="3874-58cc-b69c-4c5d" name="DW Frag Cannon - Frag Round" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="3874-58cc-b69c-4c5d" name="DW 破片 Cannon - 破片 Round" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">8寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 2D6</characteristic>
@@ -1931,12 +1931,12 @@
             <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">自动命中</characteristic>
           </characteristics>
         </profile>
-        <profile id="7f37-b4b4-3423-3ad0" name="死亡守望 Frag Cannon" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="7f37-b4b4-3423-3ad0" name="死亡守望 破片 Cannon" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">使用这个武器时, choose one of the profiles listed.</characteristic>
           </characteristics>
         </profile>
-        <profile id="e386-22cb-3113-9fa5" name="DW Frag Cannon - Shell" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="e386-22cb-3113-9fa5" name="DW 破片 Cannon - Shell" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 2</characteristic>
@@ -3412,7 +3412,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
           <profiles>
             <profile id="6980-6119-a08f-848b" name="Blackstar Rocket Launcher" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">使用这个武器时, choose one of the profiles below.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">使用这个武器时, 选择1种模式.</characteristic>
               </characteristics>
             </profile>
             <profile id="4988-a55b-faaf-502d" name="Corvid Warhead" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -5385,7 +5385,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ddf-c564-efa9-d789" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="03e9-fcff-0e8e-80be" name="Krakstorm Grenade-launcher" hidden="false" collective="false" import="true" targetId="2806-cbc8-3481-e140" type="selectionEntry">
+        <entryLink id="03e9-fcff-0e8e-80be" name="穿甲storm Grenade-launcher" hidden="false" collective="false" import="true" targetId="2806-cbc8-3481-e140" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b5a-a374-5cbb-6100" type="min"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="124e-03fb-7407-996a" type="max"/>
@@ -5410,7 +5410,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2806-cbc8-3481-e140" name="Krakstorm Grenade-launcher" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="2806-cbc8-3481-e140" name="穿甲storm Grenade-launcher" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="d2f2-7162-8e97-782f" name="穿甲风暴榴弹发射器" hidden="false" targetId="f8d1-851e-97c6-c1df" type="profile"/>
       </infoLinks>
@@ -5506,7 +5506,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             <characteristic name="Other" typeId="c2e2-f115-0003-5d7b"/>
           </characteristics>
         </profile>
-        <profile id="2450-8e93-bb77-680b" name="Librarian附带跳跃背包" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+        <profile id="2450-8e93-bb77-680b" name="Librarian装备跳跃背包" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">12寸</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -6361,7 +6361,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 always wounds 结果为2+ (except 对抗 载具 and 巨型 单位).</characteristic>
           </characteristics>
         </profile>
-        <profile id="2799-c98e-f393-12f7" name="精工潜伏者爆弹步枪 - Kraken" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="2799-c98e-f393-12f7" name="精工潜伏者爆弹步枪 - 穿甲en" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">42寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 1</characteristic>
@@ -6401,7 +6401,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
           </characteristics>
         </profile>
-        <profile id="867c-6e2f-d0bc-75c4" name="风暴爆弹 - Kraken" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="867c-6e2f-d0bc-75c4" name="风暴爆弹 - 穿甲en" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">30寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">速射 2</characteristic>
@@ -6431,7 +6431,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Add 1 to the 命中 骰 for 这个武器 when targeting a 单位 that is in cover.</characteristic>
           </characteristics>
         </profile>
-        <profile id="9d83-0c31-4647-7a61" name="Absolver 爆弹手枪 - Kraken" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="9d83-0c31-4647-7a61" name="Absolver 爆弹手枪 - 穿甲en" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">19寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手枪 1</characteristic>
@@ -6461,7 +6461,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Add 1 to the 命中 骰 for 这个武器 when targeting a 单位 that is in cover.</characteristic>
           </characteristics>
         </profile>
-        <profile id="ab8c-f2b0-59b3-42d8" name="Auto 爆弹步枪 - Kraken" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="ab8c-f2b0-59b3-42d8" name="Auto 爆弹步枪 - 穿甲en" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">30寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 2</characteristic>
@@ -6491,7 +6491,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Add 1 to the 命中 骰 for 这个武器 when targeting a 单位 that is in cover.</characteristic>
           </characteristics>
         </profile>
-        <profile id="2536-7b8c-18ec-a22d" name="Bolt Carbine - Kraken" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="2536-7b8c-18ec-a22d" name="Bolt Carbine - 穿甲en" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">30寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 2</characteristic>
@@ -6521,7 +6521,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Add 1 to the 命中 骰 for 这个武器 when targeting a 单位 that is in cover.</characteristic>
           </characteristics>
         </profile>
-        <profile id="1335-8448-a4a2-2e99" name="爆弹手枪 - Kraken" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="1335-8448-a4a2-2e99" name="爆弹手枪 - 穿甲en" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">15寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手枪 1</characteristic>
@@ -6551,7 +6551,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Add 1 to the 命中 骰 for 这个武器 when targeting a 单位 that is in cover.</characteristic>
           </characteristics>
         </profile>
-        <profile id="5a34-0ffb-6d42-0ab4" name="爆弹步枪 - Kraken" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="5a34-0ffb-6d42-0ab4" name="爆弹步枪 - 穿甲en" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">速射 1</characteristic>
@@ -6581,7 +6581,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Add 1 to the 命中 骰 for 这个武器 when targeting a 单位 that is in cover.</characteristic>
           </characteristics>
         </profile>
-        <profile id="209d-0f26-e796-7325" name="爆弹枪 - Kraken" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="209d-0f26-e796-7325" name="爆弹枪 - 穿甲en" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">30寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">速射 1</characteristic>
@@ -6621,7 +6621,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
           </characteristics>
         </profile>
-        <profile id="44c5-cee3-716b-ffb7" name="卫士之矛 - Kraken" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="44c5-cee3-716b-ffb7" name="卫士之矛 - 穿甲en" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">30寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">速射 1</characteristic>
@@ -6641,7 +6641,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 always wounds 结果为2+ (except 对抗 载具 and 巨型 单位).</characteristic>
           </characteristics>
         </profile>
-        <profile id="c922-5e47-1322-09d7" name="Heavy 爆弹手枪 - Kraken" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="c922-5e47-1322-09d7" name="Heavy 爆弹手枪 - 穿甲en" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">15寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手枪 1</characteristic>
@@ -6671,7 +6671,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Add 1 to the 命中 骰 for 这个武器 when targeting a 单位 that is in cover.</characteristic>
           </characteristics>
         </profile>
-        <profile id="ae7f-09a6-85c1-130b" name="精工自动爆弹步枪 - Kraken" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="ae7f-09a6-85c1-130b" name="精工自动爆弹步枪 - 穿甲en" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">30寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 2</characteristic>
@@ -6701,7 +6701,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Add 1 to the 命中 骰 for 这个武器 when targeting a 单位 that is in cover.</characteristic>
           </characteristics>
         </profile>
-        <profile id="6e69-6f39-f4ce-8289" name="Master-crafted 爆弹枪 - Kraken" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="6e69-6f39-f4ce-8289" name="Master-crafted 爆弹枪 - 穿甲en" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">30寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">速射 1</characteristic>
@@ -6761,7 +6761,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
           </characteristics>
         </profile>
-        <profile id="1f09-130f-787e-5c69" name="潜伏者爆弹步枪 - Kraken" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="1f09-130f-787e-5c69" name="潜伏者爆弹步枪 - 穿甲en" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">42寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 1</characteristic>
@@ -6791,7 +6791,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Add 1 to the 命中 骰 for 这个武器 when targeting a 单位 that is in cover.</characteristic>
           </characteristics>
         </profile>
-        <profile id="746f-2d19-01d6-6a5f" name="潜伏者型爆弹枪 - Kraken" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="746f-2d19-01d6-6a5f" name="潜伏者型爆弹枪 - 穿甲en" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 2</characteristic>
@@ -6841,7 +6841,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
             <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 always wounds 结果为2+ (except 对抗 载具 and 巨型 单位).</characteristic>
           </characteristics>
         </profile>
-        <profile id="e228-b529-d366-5821" name="双联爆弹枪 - Kraken" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="e228-b529-d366-5821" name="双联爆弹枪 - 穿甲en" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">30寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">速射 2</characteristic>
@@ -7119,7 +7119,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
         </profile>
         <profile id="42ff-914a-0a8a-2ffd" name="急救工具" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of any of your 移动阶段, the Apothecary can attempt to heal or revive a single model. Select a 友方 死亡守望 步兵 or 摩托 单位 范围内 3寸 of the Apothecary. If 那个单位 contains a wounded model, it 立即 regains D3 lost wounds. If the chosen 单位 contains no wounded 模型 but one or more of its 模型 have been slain during the battle, 投掷1个D6. 结果为4+ a single slain 模型 is returned to the 单位 with 1 wound remaining. If the Apothecary fails to revive a 模型 he can do nothing else for the remainder of the turn (shoot, charge, fight, etc.) as he recovers the gene-seed of the fallen warrior. A 单位 can only be the target of the 急救工具 ability once in each turn.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of any of your 移动阶段, the Apothecary can attempt to heal or revive a single model. Select a 友方 死亡守望 步兵 or 摩托 单位 范围内 3寸 of the Apothecary. If 那个单位 contains a wounded model, it 立即 恢复 D3 失去的W. If the chosen 单位 contains no wounded 模型 but one or more of its 模型 have been slain during the battle, 投掷1个D6. 结果为4+ a single slain 模型 is returned to the 单位 with 1 wound remaining. If the Apothecary fails to revive a 模型 he can do nothing else for the remainder of the turn (shoot, charge, fight, etc.) as he recovers the gene-seed of the fallen warrior. A 单位 can only be the target of the 急救工具 ability once in each turn.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8167,7 +8167,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
           <profiles>
             <profile id="4ad5-b3cb-da51-da8a" name="The Beacon Angelis" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, at the end of your 移动阶段, the bearer can use the Beacon Angelis to teleport a 友方单位 to his position. When he does so, select a 死亡守望 步兵 or 摩托 单位 that is either 战场上, or that is in a teleportarium. In either case, remove 这个单位 and then 放置 wholly 范围内 6寸 of the bearer and more than 9寸 from 任何敌方模型 (任何模型 that 不能 set up is slain).</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, at the end of your 移动阶段, the bearer can use the Beacon Angelis to teleport a 友方单位 to his position. When he does so, select a 死亡守望 步兵 or 摩托 单位 that is either 战场上, or that is in a teleportarium. In either case, remove 这个单位 and then 放置 wholly 范围内 6寸 of the bearer and more than 9寸 from 任何敌方模型 (任何模型 that 不能 放置 is slain).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8313,7 +8313,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
     <rule id="3ddc-7d56-adf0-a82b" name="特殊用途弹药" hidden="false">
       <description>When 这个单位 fires any 远程武器 from the following list, you can choose for it to fire special ammunition. If you do so, the Bolter Discipline ability does not apply when resolving their shots, but you instead choose one kind of ammunition from the table to the right and apply the corresponding modifier.
 
-(absolver 爆弹手枪, auto 爆弹步枪, bolt carbine, 爆弹手枪(and heavy), 爆弹枪(and combi), 爆弹步枪 双联爆弹枪, 潜伏者型爆弹枪/rifle, 风暴爆弹, hellfire extremis(爆弹枪 profile), 所有 master crafted 爆弹武器 or a 卫士之矛) Table: Dragonfire Bolt, Hellfire Round, Kraken Bolt, Vengeance Round</description>
+(absolver 爆弹手枪, auto 爆弹步枪, bolt carbine, 爆弹手枪(and heavy), 爆弹枪(and combi), 爆弹步枪 双联爆弹枪, 潜伏者型爆弹枪/rifle, 风暴爆弹, hellfire extremis(爆弹枪 profile), 所有 master crafted 爆弹武器 or a 卫士之矛) Table: Dragonfire Bolt, Hellfire Round, 穿甲en Bolt, Vengeance Round</description>
     </rule>
     <rule id="972a-9cd4-7057-d4e5" name="SIA - 龙火弹" hidden="false">
       <description>Add 1 to the 命中 骰 for 这个武器 when targeting a 单位 that is in cover.</description>
@@ -8552,7 +8552,7 @@ For the purposes of setting up on or moving through Battlefield Terrain, 这个�
     </profile>
     <profile id="0f8d-0c8e-c28b-a2b1" name="急救工具" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of any of your 移动阶段, the Apothecary can attempt to heal or revive a singel model. Select a 友方 &lt;人物&gt; 步兵 or 摩托 单位 范围内 3寸 of the Apothecary. If 那个单位 contains a wounded model, it 立即 regains D3 lost wounds. If the chosen 单位 contains no wounded 模型 but one or more of its 模型 have been slain during the battle, 投掷1个D6. 结果为4+ a single slain 模型 is returned to the 单位 with 1 wound remaining. I fthe Apothecary fails to revive a 模型 he can do nothing else for the remainder of the turn (shoot, charge, fight, ect.) as he recovers gene-seed of the fallen warrior. A 单位 can only be the target of the 急救工具 ability once in each turn.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of any of your 移动阶段, the Apothecary can attempt to heal or revive a singel model. Select a 友方 &lt;人物&gt; 步兵 or 摩托 单位 范围内 3寸 of the Apothecary. If 那个单位 contains a wounded model, it 立即 恢复 D3 失去的W. If the chosen 单位 contains no wounded 模型 but one or more of its 模型 have been slain during the battle, 投掷1个D6. 结果为4+ a single slain 模型 is returned to the 单位 with 1 wound remaining. I fthe Apothecary fails to revive a 模型 he can do nothing else for the remainder of the turn (shoot, charge, fight, ect.) as he recovers gene-seed of the fallen warrior. A 单位 can only be the target of the 急救工具 ability once in each turn.</characteristic>
       </characteristics>
     </profile>
     <profile id="ac67-1fe2-ecff-e890" name="Heavy Onslaught Gatling Cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">

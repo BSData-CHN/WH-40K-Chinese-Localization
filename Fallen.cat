@@ -268,7 +268,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
             <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c196-c1c3-3ba5-2829" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="3661-e8b2-b9a5-d7a0" name="Fallen附带爆弹枪" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="3661-e8b2-b9a5-d7a0" name="Fallen装备爆弹枪" hidden="false" collective="false" import="true" type="model">
               <modifiers>
                 <modifier type="set" field="7cbb-5220-36d4-aa12" value="0.0"/>
               </modifiers>
@@ -326,14 +326,14 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="8037-44b7-f9f2-45bc" name="Fallen附带Heavy or 特殊武器" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="8037-44b7-f9f2-45bc" name="Fallen装备Heavy or 特殊武器" hidden="false" collective="false" import="true" type="model">
               <modifiers>
-                <modifier type="set" field="name" value="Fallen附带Heavy 武器">
+                <modifier type="set" field="name" value="Fallen装备Heavy 武器">
                   <conditions>
                     <condition field="selections" scope="8037-44b7-f9f2-45bc" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1e5c-7492-b14e-1edb" type="equalTo"/>
                   </conditions>
                 </modifier>
-                <modifier type="set" field="name" value="Fallen附带特殊武器">
+                <modifier type="set" field="name" value="Fallen装备特殊武器">
                   <conditions>
                     <condition field="selections" scope="8037-44b7-f9f2-45bc" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7633-de22-b73b-e128" type="equalTo"/>
                   </conditions>
@@ -393,7 +393,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="19a5-4e63-c66e-47a3" name="Fallen附带chainsword" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="19a5-4e63-c66e-47a3" name="Fallen装备chainsword" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7437-d1e3-51c0-5c03" type="max"/>
               </constraints>
@@ -425,12 +425,12 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
-            <selectionEntryGroup id="8c7d-c098-2a83-18c7" name="Fallen附带Weapon option (max 4)" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="8c7d-c098-2a83-18c7" name="Fallen装备Weapon option (max 4)" hidden="false" collective="false" import="true">
               <constraints>
                 <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f32f-5c81-2041-88d2" type="max"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="3ee7-36b3-2c19-27a6" name="Fallen附带肉搏武器" hidden="false" collective="false" import="true" type="model">
+                <selectionEntry id="3ee7-36b3-2c19-27a6" name="Fallen装备肉搏武器" hidden="false" collective="false" import="true" type="model">
                   <selectionEntryGroups>
                     <selectionEntryGroup id="43bc-34f9-24a5-111f" name="肉搏武器选项" hidden="false" collective="false" import="true">
                       <constraints>
@@ -497,12 +497,12 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
                 </selectionEntry>
                 <selectionEntry id="15b3-dff7-ecc3-ec7e" name="Fallen装备Special or Combi 武器" hidden="false" collective="false" import="true" type="model">
                   <modifiers>
-                    <modifier type="set" field="name" value="Fallen附带特殊武器">
+                    <modifier type="set" field="name" value="Fallen装备特殊武器">
                       <conditions>
                         <condition field="selections" scope="15b3-dff7-ecc3-ec7e" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8aeb-2c9f-e020-c29a" type="equalTo"/>
                       </conditions>
                     </modifier>
-                    <modifier type="set" field="name" value="Fallen附带Combi 武器">
+                    <modifier type="set" field="name" value="Fallen装备Combi 武器">
                       <conditions>
                         <condition field="selections" scope="15b3-dff7-ecc3-ec7e" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f929-5a2b-7d4b-fbae" type="equalTo"/>
                       </conditions>
@@ -559,7 +559,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
                     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="1738-6213-2cc9-07aa" name="Fallen附带Lightning claws" hidden="false" collective="false" import="true" type="model">
+                <selectionEntry id="1738-6213-2cc9-07aa" name="Fallen装备Lightning claws" hidden="false" collective="false" import="true" type="model">
                   <entryLinks>
                     <entryLink id="afab-8d30-3440-da20" name="破片和穿甲手雷" hidden="false" collective="false" import="true" targetId="bb78-534a-7b77-edbc" type="selectionEntry">
                       <constraints>
@@ -580,7 +580,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
                     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="e74e-757e-0743-98b6" name="Fallen附带Plasma pistol" hidden="false" collective="false" import="true" type="model">
+                <selectionEntry id="e74e-757e-0743-98b6" name="Fallen装备Plasma pistol" hidden="false" collective="false" import="true" type="model">
                   <selectionEntryGroups>
                     <selectionEntryGroup id="e053-939f-0b2a-9a4d" name="爆弹枪 option" hidden="false" collective="false" import="true">
                       <constraints>
@@ -1145,7 +1145,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
             <characteristic name="S" typeId="59b1-319e-ec13-d466">+1</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">开始时 of the first battle round but before the first turn has begun, you 必须 nominate one 敌方 人物 to be the target of the bearer of the Murder Sword (this can be a 人物 not yet set up 战场上). Remember to tell your opponent which 人物 you have nominated. 每次攻击 made with the Murder Sword that 命中 the selected 人物 自动 inflicts 1点致命伤 upon that 人物 而不是 the normal 伤害.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">开始时 of the first battle round but before the first turn has begun, you 必须 nominate one 敌方 人物 to be the target of the bearer of the Murder Sword (this can be a 人物 not yet 放置 战场上). Remember to tell your opponent which 人物 you have nominated. 每次攻击 made with the Murder Sword that 命中 the selected 人物 自动 inflicts 1点致命伤 upon that 人物 而不是 the normal 伤害.</characteristic>
           </characteristics>
         </profile>
         <profile id="ebc8-e408-7abb-ba7b" name="The Murder Sword" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">

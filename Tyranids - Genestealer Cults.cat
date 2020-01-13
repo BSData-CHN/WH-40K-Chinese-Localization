@@ -23,7 +23,7 @@
         <characteristicType id="b2a1-4c21-5bbd-9775" name="Bonus"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="05e2-717b-01b5-60fa" name="Tectonic Fragdrill">
+    <profileType id="05e2-717b-01b5-60fa" name="Tectonic 破片drill">
       <characteristicTypes>
         <characteristicType id="b2eb-4532-ac0a-1ec6" name="效果"/>
       </characteristicTypes>
@@ -133,7 +133,7 @@
         <categoryLink id="ae84-fd65-9743-c651" name="New CategoryLink" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="de18-5c24-c69d-e5b3" name="Tectonic Fragdrill" hidden="false" collective="false" import="true" targetId="d4a8-701d-fa3d-9193" type="selectionEntry">
+    <entryLink id="de18-5c24-c69d-e5b3" name="Tectonic 破片drill" hidden="false" collective="false" import="true" targetId="d4a8-701d-fa3d-9193" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="361f-bdd0-9feb-1fba" name="New CategoryLink" hidden="false" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a" primary="true"/>
       </categoryLinks>
@@ -482,7 +482,7 @@
               </constraints>
               <entryLinks>
                 <entryLink id="69c4-ab6d-fe04-37e6" name="Lash Whip and Bonesword" hidden="false" collective="false" import="true" targetId="db60-82db-0235-8f80" type="selectionEntry"/>
-                <entryLink id="0652-b9c7-9065-7878" name="Cultist Knife" hidden="false" collective="false" import="true" targetId="183e-a985-718e-26a5" type="selectionEntry"/>
+                <entryLink id="0652-b9c7-9065-7878" name="教徒 Knife" hidden="false" collective="false" import="true" targetId="183e-a985-718e-26a5" type="selectionEntry"/>
                 <entryLink id="e597-5c74-0655-f8ff" name="Bonesword" hidden="false" collective="false" import="true" targetId="5135-8801-e158-7591" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
@@ -541,7 +541,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb00-ff73-e280-858f" type="max"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="62ed-94a8-daae-8efd" name="Cultist Knife" hidden="false" collective="false" import="true" targetId="183e-a985-718e-26a5" type="selectionEntry">
+                <entryLink id="62ed-94a8-daae-8efd" name="教徒 Knife" hidden="false" collective="false" import="true" targetId="183e-a985-718e-26a5" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e1d-45ea-96f0-c7a7" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42f5-5fb2-fbce-17ce" type="max"/>
@@ -592,7 +592,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9e9-c674-dac6-cb6e" type="max"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="0b35-bf77-d138-451b" name="Cultist Knife" hidden="false" collective="false" import="true" targetId="183e-a985-718e-26a5" type="selectionEntry">
+                <entryLink id="0b35-bf77-d138-451b" name="教徒 Knife" hidden="false" collective="false" import="true" targetId="183e-a985-718e-26a5" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="64ac-bbd3-f6ff-6fdf" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1e9-05c8-4b99-b06e" type="max"/>
@@ -916,7 +916,7 @@
         </profile>
         <profile id="fc1c-5611-8cb4-d0a5" name="Cult Chimera" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
           <characteristics>
-            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">至多 12 BROOD BROTHERS 步兵模型. Each Brood Brothers武器组 takes the space of two other 模型. Each 星界军 重型武器组 takes the space of two other 模型 and each OGRYN takes the space of three other 模型. If, 部署期间, 这个单位 is set up in ambush using the Cult Ambush ability, only 单位 with the Cult Ambush ability can be inside when it is set up.</characteristic>
+            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">至多 12 BROOD BROTHERS 步兵模型. Each Brood Brothers武器组 takes the space of two other 模型. Each 星界军 重型武器组 takes the space of two other 模型 and each OGRYN takes the space of three other 模型. If, 部署期间, 这个单位 is 放置 in ambush using the Cult Ambush ability, only 单位 with the Cult Ambush ability can be inside when it is 放置.</characteristic>
           </characteristics>
         </profile>
         <profile id="10dc-2dad-984f-7d8e" name="Cult Chimera (1)" hidden="false" typeId="ec1e-7b4c-1c12-17a1" typeName="损伤表 - M, BS, A">
@@ -1063,7 +1063,7 @@
         </profile>
         <profile id="9d8a-7ac7-4957-7c48" name="Emergency Plasma Vents" publicationId="83b2-e602-pubN65537" page="98" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 fires a 过载 plasma cannon, and you roll one or more 命中 骰 of 1, it is not 自动 destroyed. Instead, 每个命中骰的1,持有者会在此武器的射击结算完成后受到1点致命伤.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 fires a 过载 plasma cannon, and you roll one or more 命中 骰 of 1, it is not 自动 被消灭. Instead, 每个命中骰的1,持有者会在此武器的射击结算完成后受到1点致命伤.</characteristic>
           </characteristics>
         </profile>
         <profile id="289a-2618-24cd-4c80" name="Cult 黎曼鲁斯" hidden="true" typeId="b900-0afb-e411-2cbb" typeName="Keywords">
@@ -1958,7 +1958,7 @@
         </profile>
         <profile id="25a1-7625-633f-cdb3" name="Meticulous Planner" publicationId="83b2-e602-pubN65537" page="81" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The 第1次 这个模型 is set up 战场上, select one 敌方单位 战场上. 重投 wound 骰 of 1 for 攻击 made by 友方 &lt;教团&gt; 单位 that have the Cult Ambush ability whilst they are 范围内 6寸 of 这个模型 when targeting 那个敌方单位.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The 第1次 这个模型 is 放置 战场上, select one 敌方单位 战场上. 重投 wound 骰 of 1 for 攻击 made by 友方 &lt;教团&gt; 单位 that have the Cult Ambush ability whilst they are 范围内 6寸 of 这个模型 when targeting 那个敌方单位.</characteristic>
           </characteristics>
         </profile>
         <profile id="f2a5-c3eb-b730-e140" name="Primus" hidden="true" typeId="b900-0afb-e411-2cbb" typeName="Keywords">
@@ -2157,9 +2157,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="183e-a985-718e-26a5" name="Cultist Knife" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="183e-a985-718e-26a5" name="教徒 Knife" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="1add-1f0d-be5c-3457" name="Cultist Knife" hidden="false" targetId="f636-5a1e-3bc2-7aef" type="profile"/>
+        <infoLink id="1add-1f0d-be5c-3457" name="教徒 Knife" hidden="false" targetId="f636-5a1e-3bc2-7aef" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -2389,8 +2389,8 @@
     </selectionEntry>
     <selectionEntry id="d3ee-98a3-8052-371e" name="榴弹发射器" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="c5f7-9354-d621-66e9" name="榴弹发射器 (Frag)" hidden="false" targetId="0cd3-784f-9815-0f5c" type="profile"/>
-        <infoLink id="d695-665b-9018-e92c" name="榴弹发射器 (Krak)" hidden="false" targetId="bb2e-ee6b-523b-4440" type="profile"/>
+        <infoLink id="c5f7-9354-d621-66e9" name="榴弹发射器 (破片)" hidden="false" targetId="0cd3-784f-9815-0f5c" type="profile"/>
+        <infoLink id="d695-665b-9018-e92c" name="榴弹发射器 (穿甲)" hidden="false" targetId="bb2e-ee6b-523b-4440" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="3.0"/>
@@ -2523,12 +2523,12 @@
       <infoLinks>
         <infoLink id="87de-da36-7a82-6702" name="导弹发射器-破片导弹" hidden="false" targetId="603d-3e82-38f6-c5c3" type="profile">
           <modifiers>
-            <modifier type="set" field="name" value="导弹发射器 (Frag)"/>
+            <modifier type="set" field="name" value="导弹发射器 (破片)"/>
           </modifiers>
         </infoLink>
         <infoLink id="8db8-f20e-66e2-15b2" name="导弹发射器-穿甲导弹" hidden="false" targetId="8161-3b0e-8048-0e83" type="profile">
           <modifiers>
-            <modifier type="set" field="name" value="导弹发射器 (Krak)"/>
+            <modifier type="set" field="name" value="导弹发射器 (穿甲)"/>
           </modifiers>
         </infoLink>
       </infoLinks>
@@ -2843,7 +2843,7 @@
         <entryLink id="e388-e03d-3b05-3da6" name="主将特性" hidden="false" collective="false" import="true" targetId="3c5c-af51-2d54-8cbf" type="selectionEntryGroup"/>
         <entryLink id="2612-5dc0-e2ac-e2e4" name="是自定义人物" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
         <entryLink id="f662-860f-a2a6-8d01" name="自定义人物选项" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
-        <entryLink id="9c41-768c-c810-ee4f" name="Cultist Knife" hidden="false" collective="false" import="true" targetId="183e-a985-718e-26a5" type="selectionEntry">
+        <entryLink id="9c41-768c-c810-ee4f" name="教徒 Knife" hidden="false" collective="false" import="true" targetId="183e-a985-718e-26a5" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1458-a241-661a-9184" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c85-37fe-83e3-86df" type="max"/>
@@ -3629,7 +3629,7 @@
         </profile>
         <profile id="7752-6533-18d2-805f" name="Regenerative Flesh" publicationId="83b2-e602-pubN65537" page="82" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">在每个玩家回合开始, 这个模型 regains D3 lost wounds.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">在每个玩家回合开始, 这个模型 恢复 D3 失去的W.</characteristic>
           </characteristics>
         </profile>
         <profile id="dbcf-b8ea-a891-54c7" name="Mindwyrm Familiar" publicationId="83b2-e602-pubN65537" page="82" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -3669,7 +3669,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">x2</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">使用这个武器时, 命中骰-1. 伤害 骰 of 1 or 2 made for 这个武器 count as 3 instead.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">使用这个武器时, 命中骰-1. 伤害 骰 of 1 or 2 made for 这个武器 视作 3 instead.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4008,7 +4008,7 @@
               <profiles>
                 <profile id="1a4c-1614-ca8e-4358" name="Subterranean Ambushers" publicationId="83b2-e602-pubN65537" page="109" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Until the end of the first battle round, add 1 to 加速和冲锋 骰 made for 单位 with this Cult Creed. Starting from the second battle round, 如果1个单位 with this Cult Creed is set up 战场上, then until the end of that turn, add 1 to 加速和冲锋 骰 made for 那个单位.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Until the end of the first battle round, add 1 to 加速和冲锋 骰 made for 单位 with this Cult Creed. Starting from the second battle round, 如果1个单位 with this Cult Creed is 放置 战场上, then until the end of that turn, add 1 to 加速和冲锋 骰 made for 那个单位.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4640,7 +4640,7 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f1ee-3da8-49ab-370c" type="max"/>
                       </constraints>
                     </entryLink>
-                    <entryLink id="820d-1b40-f3a2-fd4b" name="Cultist Knife" hidden="false" collective="false" import="true" targetId="3c66-0a87-1437-7902" type="selectionEntry">
+                    <entryLink id="820d-1b40-f3a2-fd4b" name="教徒 Knife" hidden="false" collective="false" import="true" targetId="3c66-0a87-1437-7902" type="selectionEntry">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5aac-2759-2c42-833d" type="max"/>
                       </constraints>
@@ -4903,7 +4903,7 @@
             <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">5+/5++</characteristic>
           </characteristics>
         </profile>
-        <profile id="fb46-b5b5-7ef5-e33c" name="Unquestioning Bodyguard" publicationId="83b2-e602-pubN65537" page="90" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="fb46-b5b5-7ef5-e33c" name="Unquestioning 保镖" publicationId="83b2-e602-pubN65537" page="90" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 a &lt;教团&gt; 人物 模型 (other than a LOCUS) 失去1点W whilst 范围内 3寸 of any 友方 &lt;教团&gt; LOCUSES, 可以选择1个 of those LOCUSES to use this ability 而不是 using the Unquestioning Loyalty ability. If you do so, 投掷1个D6; 结果为2+ the 人物 does not lose a wound but the selected 模型 遭受 1 致命伤. You cannot then use the Unquestioning Loyalty ability to avoid this. 结果为1 the original 人物 失去1点W as normal.</characteristic>
           </characteristics>
@@ -4993,7 +4993,7 @@
       <profiles>
         <profile id="255a-bdc7-0118-09c6" name="Scrambler Array" publicationId="83b2-e602-pubN65537" page="90" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">敌方单位 that are set up 战场上 as reinforcements 不能 set up 范围内 12寸 of 这个模型. 此外, 开始时 of your 射击阶段, 投掷1个D6 for each 敌方单位 that is 范围内 6寸 of any CLAMAVUSES from your army; 结果为6 那个敌方单位 遭受 1 致命伤.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">敌方单位 that are 放置 战场上 as reinforcements 不能 放置 范围内 12寸 of 这个模型. 此外, 开始时 of your 射击阶段, 投掷1个D6 for each 敌方单位 that is 范围内 6寸 of any CLAMAVUSES from your army; 结果为6 那个敌方单位 遭受 1 致命伤.</characteristic>
           </characteristics>
         </profile>
         <profile id="d540-4a32-65d2-84e8" name="Proclamator Hailer" publicationId="83b2-e602-pubN65537" page="90" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -5238,7 +5238,7 @@
         </profile>
         <profile id="ad38-f0e6-2a50-09d4" name="Strategic Coordinator" publicationId="83b2-e602-pubN65537" page="92" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">After 这个模型 has been set up 战场上, 可以选择1个 of your ambush markers that is 战场上 and remove it before setting it up again 任何位置 that is wholly 范围内 your 部署区 and more than 12寸 away from 任何敌方模型.  此外, if your army is Battle-forged, 投掷1个D6 for 每次 either player spends a 指挥点数 to use a Stratagem whilst any NEXOSES from your army are 战场上. If it was a 指挥点数 you spent, and there is at least one &lt;教团&gt; PRIMUS and one &lt;教团&gt; NEXOS from your army 战场上, add 1 to the result. If it was a 指挥点数 your opponent spent, and there is at least one &lt;教团&gt; CLAMAVUS and one &lt;教团&gt; NEXOS from your army 战场上, add 1 to the result. In either case, if the result is 6+ you 立即 gain 1 指挥点数.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">After 这个模型 has been 放置 战场上, 可以选择1个 of your ambush markers that is 战场上 and remove it before setting it up again 任何位置 that is wholly 范围内 your 部署区 and more than 12寸 away from 任何敌方模型.  此外, if your army is Battle-forged, 投掷1个D6 for 每次 either player spends a 指挥点数 to use a Stratagem whilst any NEXOSES from your army are 战场上. If it was a 指挥点数 you spent, and there is at least one &lt;教团&gt; PRIMUS and one &lt;教团&gt; NEXOS from your army 战场上, add 1 to the result. If it was a 指挥点数 your opponent spent, and there is at least one &lt;教团&gt; CLAMAVUS and one &lt;教团&gt; NEXOS from your army 战场上, add 1 to the result. In either case, if the result is 6+ you 立即 gain 1 指挥点数.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5268,29 +5268,29 @@
         <cost name="pts" typeId="points" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d4a8-701d-fa3d-9193" name="Tectonic Fragdrill" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="d4a8-701d-fa3d-9193" name="Tectonic 破片drill" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="f019-96de-b328-f966" name="Underground Ingress" publicationId="83b2-e602-pubN65537" page="101" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per turn, in their 移动阶段, one 步兵 or 摩托 单位 with the Cult Ambush ability can move off the battlefield if 所有 of its 模型 are on the ground level and can move 范围内 1寸 of 这个模型 (a 单位 cannot do so in the same phase that it arrived as reinforcements). 如果1个单位 does this, remove the selected 单位 from the battlefield. At the end of your next 移动阶段, set up 那个单位 任何位置 战场上 that is more than 9寸 away from 任何敌方模型. If the battle ends before 这个单位 is set back up, it is destroyed.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per turn, in their 移动阶段, one 步兵 or 摩托 单位 with the Cult Ambush ability can move off the battlefield if 所有 of its 模型 are on the ground level and can move 范围内 1寸 of 这个模型 (a 单位 cannot do so in the same phase that it arrived as reinforcements). 如果1个单位 does this, remove the selected 单位 from the battlefield. At the end of your next 移动阶段, 放置 那个单位 任何位置 战场上 that is more than 9寸 away from 任何敌方模型. If the battle ends before 这个单位 is set back up, it is 被消灭.</characteristic>
           </characteristics>
         </profile>
         <profile id="45ec-edd7-432e-9705" name="Sector Mechanicus Structure" publicationId="83b2-e602-pubN65537" page="101" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">After it is set up, a Tectonic Fragdrill is treated as a Sector Mechanicus terrain feature. It 不能移动 for any reason, is not treated as a 友方 or 敌方模型, and 不能 targeted or affected by any 攻击 or abilities.  Only 步兵, BEASTS, SWARMS and 单位 飞行关键字 can be set up or end their move on the upper floors of a Sector Mechanicus Structure (任何单位 can do so on the ground floor). Unless they can FLY, 步兵, BEASTS and SWARMS 必须 scale ladders, girders or walls to ascend or descend between the different levels of a Sector Mechanicus structure. 步兵 are also able to traverse around girders, buttresses and hanging chains, and so move through them without impediment. 步兵单位 that are entirely 结果为Sector Mechanicus Structure receive the benefit of cover if at least 50% of every 模型 is obscured from the point of view of the 射击 model.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">After it is 放置, a Tectonic 破片drill is treated as a Sector Mechanicus terrain feature. It 不能移动 for any reason, is not treated as a 友方 or 敌方模型, and 不能 targeted or affected by any 攻击 or abilities.  Only 步兵, BEASTS, SWARMS and 单位 飞行关键字 can be 放置 or end their move on the upper floors of a Sector Mechanicus Structure (任何单位 can do so on the ground floor). Unless they can FLY, 步兵, BEASTS and SWARMS 必须 scale ladders, girders or walls to ascend or descend between the different levels of a Sector Mechanicus structure. 步兵 are also able to traverse around girders, buttresses and hanging chains, and so move through them without impediment. 步兵单位 that are entirely 结果为Sector Mechanicus Structure receive the benefit of cover if at least 50% of every 模型 is obscured from the point of view of the 射击 model.</characteristic>
           </characteristics>
         </profile>
         <profile id="4754-be84-0916-88cc" name="Activate the Drill" publicationId="83b2-e602-pubN65537" page="101" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If a 模型 from your army is 结果为Tectonic Fragdrill at the end of your 移动阶段, and there are no 敌方模型 on it, you can activate the drill. If you do so, first 投掷1个D6 for every 单位 on the ground level that is 范围内 3寸 of the tip of 这个模型的 large drill; 结果为6 那个单位 立即 遭受 D6 致命伤. Then 投掷1个D6, adding 1 to the result for each other time the drill on 这个模型 has been activated this battle. If the total is less than 6, the Seismic Tremors result below takes 效果. 结果为6+ the Seismic Tremors and Seismic Quake results below take 效果. The Seismic Quake result can only take 效果 一次性, regardless of how many Tectonic Fragdrills are 战场上.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If a 模型 from your army is 结果为Tectonic 破片drill at the end of your 移动阶段, and there are no 敌方模型 on it, you can activate the drill. If you do so, first 投掷1个D6 for every 单位 on the ground level that is 范围内 3寸 of the tip of 这个模型的 large drill; 结果为6 那个单位 立即 遭受 D6 致命伤. Then 投掷1个D6, adding 1 to the result for each other time the drill on 这个模型 has been activated this battle. If the total is less than 6, the Seismic Tremors result below takes 效果. 结果为6+ the Seismic Tremors and Seismic Quake results below take 效果. The Seismic Quake result can only take 效果 一次性, regardless of how many Tectonic 破片drills are 战场上.</characteristic>
           </characteristics>
         </profile>
-        <profile id="9bf3-737b-10a0-2217" name="Seismic Tremors" hidden="false" typeId="05e2-717b-01b5-60fa" typeName="Tectonic Fragdrill">
+        <profile id="9bf3-737b-10a0-2217" name="Seismic Tremors" hidden="false" typeId="05e2-717b-01b5-60fa" typeName="Tectonic 破片drill">
           <characteristics>
             <characteristic name="效果" typeId="b2eb-4532-ac0a-1ec6">Until the start of your next 移动阶段, 减少 2 from charge 骰 made for 单位 whilst they are 范围内 12寸 of 这个模型. This does not apply to 单位 飞行关键字, and the effects of multiple Seismic Tremors are not cumulative.</characteristic>
           </characteristics>
         </profile>
-        <profile id="967f-7aff-71f3-f403" name="Seismic Quake" hidden="false" typeId="05e2-717b-01b5-60fa" typeName="Tectonic Fragdrill">
+        <profile id="967f-7aff-71f3-f403" name="Seismic Quake" hidden="false" typeId="05e2-717b-01b5-60fa" typeName="Tectonic 破片drill">
           <characteristics>
             <characteristic name="效果" typeId="b2eb-4532-ac0a-1ec6">Draw a straight line, 1mm in thickness, from any point of one battlefield edge to any point of another battlefield edge in such a way that it crosses 这个模型. 投掷1个D6 for every 单位 this line crosses that is on the ground level (do not roll for 单位 飞行关键字); 结果为4+ 那个单位 遭受 D3 致命伤 and its M值 is halved until the end of its next 移动阶段.</characteristic>
           </characteristics>
@@ -5567,7 +5567,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="3505-b4e7-002a-569e" name="Cultist Knife" hidden="false" collective="false" import="true" targetId="183e-a985-718e-26a5" type="selectionEntry">
+        <entryLink id="3505-b4e7-002a-569e" name="教徒 Knife" hidden="false" collective="false" import="true" targetId="183e-a985-718e-26a5" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7b0-f826-3e04-0b0e" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6731-1a53-2d53-657a" type="max"/>
@@ -5607,8 +5607,8 @@
     </selectionEntry>
     <selectionEntry id="3118-40cb-1d1f-87a9" name="榴弹发射器" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="e23e-0511-2d88-e378" name="榴弹发射器 (Frag)" hidden="false" targetId="0cd3-784f-9815-0f5c" type="profile"/>
-        <infoLink id="e15d-3518-b6c1-15fa" name="榴弹发射器 (Krak)" hidden="false" targetId="bb2e-ee6b-523b-4440" type="profile"/>
+        <infoLink id="e23e-0511-2d88-e378" name="榴弹发射器 (破片)" hidden="false" targetId="0cd3-784f-9815-0f5c" type="profile"/>
+        <infoLink id="e15d-3518-b6c1-15fa" name="榴弹发射器 (穿甲)" hidden="false" targetId="bb2e-ee6b-523b-4440" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="3.0"/>
@@ -5677,9 +5677,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3c66-0a87-1437-7902" name="Cultist Knife" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="3c66-0a87-1437-7902" name="教徒 Knife" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="7899-3b70-e2d9-d363" name="Cultist Knife" hidden="false" targetId="f636-5a1e-3bc2-7aef" type="profile"/>
+        <infoLink id="7899-3b70-e2d9-d363" name="教徒 Knife" hidden="false" targetId="f636-5a1e-3bc2-7aef" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -5853,11 +5853,11 @@
     <selectionEntry id="ec7a-733b-2a2c-cd51" name="[参考] Ambush Markers" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
         <rule id="3c58-7627-ae55-e267" name="Ambush Markers" publicationId="83b2-e602-pubN65537" page="79" hidden="false">
-          <description>Ambush markers are not 单位 and 不能 targeted, attacked or destroyed. When measuring to or from ambush markers, always measure to the centre of the marker. If you are playing a mission that uses Concealed Deployment, the Concealed Deployment rules only apply to 单位 that do not have the Cult Ambush ability. If you are playing a mission that uses Sentries, Sentry 模型 不能 set up in ambush, even if they have the Cult Ambush ability.
+          <description>Ambush markers are not 单位 and 不能 targeted, attacked or 被消灭. When measuring to or from ambush markers, always measure to the centre of the marker. If you are playing a mission that uses Concealed Deployment, the Concealed Deployment rules only apply to 单位 that do not have the Cult Ambush ability. If you are playing a mission that uses Sentries, Sentry 模型 不能 放置 in ambush, even if they have the Cult Ambush ability.
 
-If you have the first turn, you 必须 reveal 所有 of your ambush markers 开始时 of your 移动阶段, one at a time, before moving any 单位. 每次 you reveal an ambush marker, select one 单位 from your army that you set up in ambush, then set up one 模型 from 那个单位 范围内 1寸 of that ambush marker. Then remove that marker before setting up the rest of that 模型的 单位 wholly 范围内 6寸 of the first model, wholly 范围内 your 部署区 and more than 9寸 from 任何敌方模型 (任何模型 that 不能 placed are destroyed). If it is your turn, 那个单位 can still move and shoot normally during the turn it is set up, but if it is a TRANSPORT, 单位 that 下车 from it this turn 不能 set up 范围内 9寸 of 任何敌方模型. Note that unless these 单位 actually move during this 移动阶段, they do not count as having moved in their 移动阶段 for any rules purposes, such as 射击 重型武器.
+If you have the first turn, you 必须 reveal 所有 of your ambush markers 开始时 of your 移动阶段, one at a time, before moving any 单位. 每次 you reveal an ambush marker, select one 单位 from your army that you 放置 in ambush, then 放置 one 模型 from 那个单位 范围内 1寸 of that ambush marker. Then remove that marker before setting up the rest of that 模型的 单位 wholly 范围内 6寸 of the first model, wholly 范围内 your 部署区 and more than 9寸 from 任何敌方模型 (任何模型 that 不能 placed are 被消灭). If it is your turn, 那个单位 can still move and shoot normally during the turn it is 放置, but if it is a TRANSPORT, 单位 that 下车 from it this turn 不能 放置 范围内 9寸 of 任何敌方模型. Note that unless these 单位 actually move during this 移动阶段, they do not 视作 having moved in their 移动阶段 for any rules purposes, such as 射击 重型武器.
 
-If your opponent has the first turn, then none of their 单位 can be set up or end a move 范围内 9寸 of any of your ambush markers. At the end of your opponent&apos;s first 移动阶段, after they have set up 所有 of their 单位 from reinforcements (if any), reveal 所有 of your ambush markers as described above before continuing with the turn</description>
+If your opponent has the first turn, then none of their 单位 can be 放置 or end a move 范围内 9寸 of any of your ambush markers. At the end of your opponent&apos;s first 移动阶段, after they have 放置 所有 of their 单位 from reinforcements (if any), reveal 所有 of your ambush markers as described above before continuing with the turn</description>
         </rule>
       </rules>
       <costs>
@@ -5888,7 +5888,7 @@ If your opponent has the first turn, then none of their 单位 can be set up or 
         <entryLink id="4954-7c4f-bb03-a90e" name="链锯剑" hidden="false" collective="false" import="true" targetId="cf05-7342-c11b-5e43" type="selectionEntry"/>
         <entryLink id="afc2-2816-505c-9b9d" name="Power Pick" hidden="false" collective="false" import="true" targetId="9ef9-9e00-e935-43d9" type="selectionEntry"/>
         <entryLink id="03c1-b86c-0ed1-d7b1" name="动力锤" hidden="false" collective="false" import="true" targetId="dad7-78b8-4b25-3b75" type="selectionEntry"/>
-        <entryLink id="bafc-6b70-e09f-0a26" name="Cultist Knife" hidden="false" collective="false" import="true" targetId="183e-a985-718e-26a5" type="selectionEntry"/>
+        <entryLink id="bafc-6b70-e09f-0a26" name="教徒 Knife" hidden="false" collective="false" import="true" targetId="183e-a985-718e-26a5" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="ec93-7a8b-1a76-3f89" name="Heavy Mining 武器" hidden="false" collective="false" import="true">
@@ -5998,7 +5998,7 @@ If your opponent has the first turn, then none of their 单位 can be set up or 
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">x2</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">伤害 骰 of 1 or 2 made with 这个武器 count as 3 instead.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">伤害 骰 of 1 or 2 made with 这个武器 视作 3 instead.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6169,7 +6169,7 @@ If your opponent has the first turn, then none of their 单位 can be set up or 
           <profiles>
             <profile id="ab12-300e-37a8-57c0" name="Dagger of Swift Sacrifice" publicationId="83b2-e602-pubN65537" page="116" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The Dagger of Swift Sacrifice replaces the bearer&apos;s cultist knife or Sanctus bio-dagger.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The Dagger of Swift Sacrifice replaces the bearer&apos;s 教徒 knife or Sanctus bio-dagger.</characteristic>
               </characteristics>
             </profile>
             <profile id="4452-d2ea-319f-1347" name="Dagger of Swift Sacrifice" publicationId="83b2-e602-pubN65537" page="116" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -6443,7 +6443,7 @@ If your opponent has the first turn, then none of their 单位 can be set up or 
           <profiles>
             <profile id="e969-4957-1ff2-470b" name="Reliquary of Saint Tenndarc" publicationId="83b2-e602-pubN65537" page="117" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">PAUPER PRINCES only. 友方 PAUPER PRINCES 单位 自动通过 士气测试 whilst they are 范围内 6寸 of the bearer. 此外, 投掷1个D6 每次 a PAUPER PRINCES 步兵 or 摩托 模型 is destroyed whilst it is 范围内 6寸 of the bearer, before removing that 模型 from the battlefield. 结果为4+ that 模型 can either shoot with one of its 远程武器 as if it were your 射击阶段, or can make a single 肉搏 attack with a 肉搏武器 as if it were the 肉搏阶段.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">PAUPER PRINCES only. 友方 PAUPER PRINCES 单位 自动通过 士气测试 whilst they are 范围内 6寸 of the bearer. 此外, 投掷1个D6 每次 a PAUPER PRINCES 步兵 or 摩托 模型 is 被消灭 whilst it is 范围内 6寸 of the bearer, before removing that 模型 from the battlefield. 结果为4+ that 模型 can either shoot with one of its 远程武器 as if it were your 射击阶段, or can make a single 肉搏 attack with a 肉搏武器 as if it were the 肉搏阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7002,7 +7002,7 @@ If your opponent has the first turn, then none of their 单位 can be set up or 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8796-d1f7-02ab-08ee" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="dd9f-0856-46fd-3889" name="Cultist Knife" hidden="false" collective="false" import="true" targetId="3c66-0a87-1437-7902" type="selectionEntry">
+        <entryLink id="dd9f-0856-46fd-3889" name="教徒 Knife" hidden="false" collective="false" import="true" targetId="3c66-0a87-1437-7902" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1ca-db4d-4b8f-b276" type="max"/>
           </constraints>
@@ -7063,11 +7063,11 @@ If your opponent has the first turn, then none of their 单位 can be set up or 
     <rule id="e624-3023-b8b4-18fa" name="Cult Ambush" publicationId="83b2-e602-pubN65537" page="78" hidden="false">
       <description>部署期间, you can set 这个单位 up in ambush 而不是 战场上. If 这个单位 has the 步兵 or 摩托 关键字, you can either 放置 in ambush or underground 而不是 战场上.
 
-When you set up a 单位 underground, it can emerge at the end of any of your 移动阶段 - set the 单位 up 任何位置 战场上 that is more than 9寸 from 任何敌方模型.
+When you 放置 a 单位 underground, it can emerge at the end of any of your 移动阶段 - set the 单位 up 任何位置 战场上 that is more than 9寸 from 任何敌方模型.
 
-When you set up a 单位 in ambush, place one ambush marker 任何位置 战场上 that is wholly 范围内 your 部署区. You will need one ambush marker for each 单位 that will deploy in this way. If you set up a TRANSPORT in ambush, you 必须 still tell your opponent what 单位 are 上车 范围内 it when it is set up in ambush - do not set up separate ambush markers for 单位 that start the battle 上车 范围内 a TRANSPORT, even if they have the Cult Ambush ability.
+When you 放置 a 单位 in ambush, place one ambush marker 任何位置 战场上 that is wholly 范围内 your 部署区. You will need one ambush marker for each 单位 that will deploy in this way. If you 放置 a TRANSPORT in ambush, you 必须 still tell your opponent what 单位 are 上车 范围内 it when it is 放置 in ambush - do not 放置 separate ambush markers for 单位 that start the battle 上车 范围内 a TRANSPORT, even if they have the Cult Ambush ability.
 
-In matched play, 单位 set up in ambush using this rule count as being set up 战场上 for the purposes of Tactical Reserves.
+In matched play, 单位 放置 in ambush using this rule 视作 being 放置 战场上 for the purposes of Tactical Reserves.
 
 For ambush markers, see 圣典: 基因窃取者教团 p79.</description>
     </rule>
@@ -7149,7 +7149,7 @@ BROOD BROTHERS TAUROX PRIMES can only transport 10 BROOD BROTHERS OFFICIO PREFEC
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="0cd3-784f-9815-0f5c" name="榴弹发射器 (Frag)" publicationId="83b2-e602-pubN65537" page="102" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+    <profile id="0cd3-784f-9815-0f5c" name="榴弹发射器 (破片)" publicationId="83b2-e602-pubN65537" page="102" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 D6</characteristic>
@@ -7159,7 +7159,7 @@ BROOD BROTHERS TAUROX PRIMES can only transport 10 BROOD BROTHERS OFFICIO PREFEC
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="bb2e-ee6b-523b-4440" name="榴弹发射器 (Krak)" publicationId="83b2-e602-pubN65537" page="102" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+    <profile id="bb2e-ee6b-523b-4440" name="榴弹发射器 (穿甲)" publicationId="83b2-e602-pubN65537" page="102" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 1</characteristic>
@@ -7319,7 +7319,7 @@ BROOD BROTHERS TAUROX PRIMES can only transport 10 BROOD BROTHERS OFFICIO PREFEC
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="f636-5a1e-3bc2-7aef" name="Cultist Knife" publicationId="83b2-e602-pubN65537" page="104" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+    <profile id="f636-5a1e-3bc2-7aef" name="教徒 Knife" publicationId="83b2-e602-pubN65537" page="104" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -7627,7 +7627,7 @@ BROOD BROTHERS TAUROX PRIMES can only transport 10 BROOD BROTHERS OFFICIO PREFEC
       <characteristics>
         <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">6</characteristic>
         <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
-        <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Select an 敌方模型 范围内 18寸 of and 可见 to the 灵能者. Each player 骰 a D6 and adds their 模型的 LD值 to their result. If your score is higher, the 敌方模型的 单位 遭受 1 致命伤; if the selected 模型 is still alive you then repeat this process (each player rolling a D6 and adding their respective LD) until either the selected 模型 is destroyed, your opponent 骰 a 6, and/or your opponent&apos;s result is equal to or higher than yours.</characteristic>
+        <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Select an 敌方模型 范围内 18寸 of and 可见 to the 灵能者. Each player 骰 a D6 and adds their 模型的 LD值 to their result. If your score is higher, the 敌方模型的 单位 遭受 1 致命伤; if the selected 模型 is still alive you then repeat this process (each player rolling a D6 and adding their respective LD) until either the selected 模型 is 被消灭, your opponent 骰 a 6, and/or your opponent&apos;s result is equal to or higher than yours.</characteristic>
       </characteristics>
     </profile>
     <profile id="714d-ecf6-e9da-fcd1" name="Psychic Stimulus" publicationId="83b2-e602-pubN65537" page="113" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">

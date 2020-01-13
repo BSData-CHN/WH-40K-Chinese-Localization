@@ -1171,7 +1171,7 @@
             </profile>
             <profile id="37d3-8aff-cd67-4ba1" name="炮兵阵列" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The 第1次 这个单位 is set up, 所有 模型 in 这个单位 必须 placed 范围内 6寸 of each other.  From that point onwards, each operates independently and is treated as a separate 单位 for 所有 rules purposes.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The 第1次 这个单位 is 放置, 所有 模型 in 这个单位 必须 placed 范围内 6寸 of each other.  From that point onwards, each operates independently and is treated as a separate 单位 for 所有 rules purposes.</characteristic>
               </characteristics>
             </profile>
             <profile id="8483-f2b2-9236-e8bd" name="Automated 炮兵" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -1337,7 +1337,7 @@
         </profile>
         <profile id="066e-26c4-ed86-dbf7" name="Repair" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of each of the Thunderbolt Heavy Fighter&apos;s 射击阶段, roll a dice. 结果为6+, it 立即 regains a single wound lost earlier in the battle.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of each of the Thunderbolt Heavy Fighter&apos;s 射击阶段, roll a dice. 结果为6+, it 立即 恢复 a single wound lost earlier in the battle.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2114,7 +2114,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="d281-47b7-d765-a51e" name="卫军附带Vox Caster" page="0" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="d281-47b7-d765-a51e" name="卫军装备Vox Caster" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1135-2d74-212a-f5f1" type="max"/>
               </constraints>
@@ -2178,7 +2178,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="c910-38c4-e1f3-7334" name="卫军装备Lasgun, Frag, Krak Grenades" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="c910-38c4-e1f3-7334" name="卫军装备Lasgun, 破片, 穿甲 Grenades" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="189a-0766-a6ea-87a7" name="卫军" hidden="false" targetId="c0ac-eaf8-9629-5062" type="profile"/>
               </infoLinks>
@@ -2195,7 +2195,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38e6-c2b8-b6f8-ef6b" type="min"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="b94f-857d-abb1-f31b" name="Krak Grenades" hidden="false" collective="false" import="true" targetId="bb82-af7a-a705-e174" type="selectionEntry">
+                <entryLink id="b94f-857d-abb1-f31b" name="穿甲 Grenades" hidden="false" collective="false" import="true" targetId="bb82-af7a-a705-e174" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb4d-0d5c-780a-6ce5" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9977-6df5-ec8f-b82f" type="max"/>
@@ -2254,7 +2254,7 @@
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="815b-cae2-350a-2cdd" name="Guardsmen附带特殊武器" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="815b-cae2-350a-2cdd" name="Guardsmen装备特殊武器" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5633-8ab7-1295-76ba" type="min"/>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8438-3537-2fa1-df7e" type="max"/>
@@ -2368,7 +2368,7 @@
             <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4d45-12f4-e59b-805b" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="3571-e0b1-5a96-08e5" name="老兵附带Lasgun" page="0" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="3571-e0b1-5a96-08e5" name="老兵装备Lasgun" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="91ff-ce0f-02da-27e9" type="max"/>
               </constraints>
@@ -2389,7 +2389,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="4392-2186-a1ab-1a3a" name="老兵附带Vox-caster" page="0" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="4392-2186-a1ab-1a3a" name="老兵装备Vox-caster" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ac0c-e888-52d1-a6f5" type="max"/>
               </constraints>
@@ -2507,7 +2507,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="05fd-2c40-1dfb-7272" name="老兵附带重喷火" page="0" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="05fd-2c40-1dfb-7272" name="老兵装备重喷火" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5cb8-ba7b-fb01-d5ad" type="max"/>
               </constraints>
@@ -2549,7 +2549,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="ef69-e6cc-0536-28cf" name="老兵附带Breacher Charge" page="0" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="ef69-e6cc-0536-28cf" name="老兵装备Breacher Charge" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d54b-4d59-b397-fa42" type="max"/>
               </constraints>
@@ -2641,7 +2641,7 @@
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3246-e29c-f5a8-df9b" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="a389-194b-a220-56f5" name="老兵附带Vox-caster" page="0" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="a389-194b-a220-56f5" name="老兵装备Vox-caster" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f35b-8b87-2292-a1f0" type="max"/>
               </constraints>
@@ -2734,7 +2734,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="edd5-08be-6012-817c" name="老兵附带Medi-pack" page="0" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="edd5-08be-6012-817c" name="老兵装备Medi-pack" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="37ca-e84c-2d8a-d777" type="max"/>
               </constraints>
@@ -2781,7 +2781,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="1d7d-7b92-0009-15c6" name="老兵附带Regimental 标准" page="0" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="1d7d-7b92-0009-15c6" name="老兵装备Regimental 标准" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3d22-7c0e-a22d-b359" type="max"/>
               </constraints>
@@ -3491,7 +3491,7 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bb82-af7a-a705-e174" name="Krak Grenades" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="bb82-af7a-a705-e174" name="穿甲 Grenades" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="aa06-46a2-ea07-3b2b" name="穿甲手雷" hidden="false" targetId="3bf6-b4f7-6b2f-bb7b" type="profile"/>
       </infoLinks>
@@ -3843,7 +3843,7 @@
           <profiles>
             <profile id="3210-2b66-41f6-a7a9" name="辅助榴弹发射器" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A 模型 with an 辅助榴弹发射器 increases the range of any 破片手雷 and krak grenades they use to 24寸.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A 模型 with an 辅助榴弹发射器 increases the range of any 破片手雷 and 穿甲 grenades they use to 24寸.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3899,7 +3899,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7da1-5988-b2d5-9c2b" type="max"/>
           </constraints>
           <profiles>
-            <profile id="75ed-50c1-3d83-1cba" name="榴弹发射器 (Frag)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+            <profile id="75ed-50c1-3d83-1cba" name="榴弹发射器 (破片)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 D6</characteristic>
@@ -3909,7 +3909,7 @@
                 <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
               </characteristics>
             </profile>
-            <profile id="a584-2931-0bd0-97de" name="榴弹发射器 (Krak)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+            <profile id="a584-2931-0bd0-97de" name="榴弹发射器 (穿甲)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 1</characteristic>
@@ -3986,7 +3986,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d48d-42d3-461e-b0cd" type="max"/>
           </constraints>
           <profiles>
-            <profile id="426c-80b4-dc8a-087d" name="榴弹发射器 (Frag)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+            <profile id="426c-80b4-dc8a-087d" name="榴弹发射器 (破片)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 D6</characteristic>
@@ -3996,7 +3996,7 @@
                 <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
               </characteristics>
             </profile>
-            <profile id="09e5-7096-98a2-3ad8" name="榴弹发射器 (Krak)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+            <profile id="09e5-7096-98a2-3ad8" name="榴弹发射器 (穿甲)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 1</characteristic>
@@ -4336,7 +4336,7 @@
   <sharedProfiles>
     <profile id="a100-911e-3074-eaad" name="载具中队" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The 第1次 这个单位 is set up, 所有 模型 in 这个单位 必须 placed 范围内 6寸 of each other.  From that point onwards, each operates independently and is treated as a separate 单位 for 所有 rules purposes.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The 第1次 这个单位 is 放置, 所有 模型 in 这个单位 必须 placed 范围内 6寸 of each other.  From that point onwards, each operates independently and is treated as a separate 单位 for 所有 rules purposes.</characteristic>
       </characteristics>
     </profile>
     <profile id="6d71-66b0-4b44-050b" name="Voice of Command" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -4488,7 +4488,7 @@
     </profile>
     <profile id="c4f9-48e3-4bdc-737f" name="Grav Chute Insertion" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models may 下车 from 这个载具 at any point during its move, but if the 女武神 moves more than 20寸, you 必须 投掷1个D6 for each 模型 disembarking. 结果为1, that 模型 is slain.  Models that 下车 in this manner 必须 set up more than 9寸 from 任何敌方模型.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models may 下车 from 这个载具 at any point during its move, but if the 女武神 moves more than 20寸, you 必须 投掷1个D6 for each 模型 disembarking. 结果为1, that 模型 is slain.  Models that 下车 in this manner 必须 放置 more than 9寸 from 任何敌方模型.</characteristic>
       </characteristics>
     </profile>
     <profile id="3287-e0de-5e63-b84e" name="Tactical Bombs" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
