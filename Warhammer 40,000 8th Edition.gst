@@ -5629,7 +5629,7 @@
       <profiles>
         <profile id="504b-fc17-56ce-c8b8" name="刺客出击许可" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can only use this Stratagem if your 主将 has the 帝国 Faction 关键字 (excluding 堕天使) and your army does not contain any OFFICIO ASSASSINORUM 单位. Use this Stratagem 部署期间. Add 1 OFFICIO ASSASSINORUM 单位 of your choice to your army. Remember that in a matched play game, you 必须 pay reinforcement points for any new 单位 added to your army. You can only use this Stratagem 一次性.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can only use this Stratagem if your 主将 has the 帝国 Faction 关键字 (excluding 堕天使) and your army does not contain any 刺客厅 单位. Use this Stratagem 部署期间. Add 1 刺客厅 单位 of your choice to your army. Remember that in a matched play game, you 必须 pay reinforcement points for any new 单位 added to your army. You can only use this Stratagem 一次性.</characteristic>
           </characteristics>
         </profile>
       </profiles>
