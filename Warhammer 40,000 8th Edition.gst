@@ -1867,7 +1867,7 @@
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When 这个模型 is 被消灭, before any 上车 模型 下车 its vortex missiles explode. Each 单位 范围内 2D6寸 遭受 D6 致命伤. If a 模型 loses any wounds as a result of those 致命伤 but is not 被消灭, roll another D6; 结果为6 that 模型 遭受 a further D6 致命伤.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When 这个模型 is 被消灭, before any 上车 模型 下车 its vortex missiles explode. Each 单位 范围内 2D6寸 遭受 D6 致命伤. 如果模型 loses any wounds as a result of those 致命伤 but is not 被消灭, roll another D6; 结果为6 that 模型 遭受 a further D6 致命伤.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1941,12 +1941,12 @@
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">-</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">-</characteristic>
-                    <characteristic name="能力" typeId="837d-5e63-aeb7-1410">这个武器 may target 单位 that are not 可见 to 持有者, even when firing in accordance with the 自动武器 ability. 每次 you 命中 the target 使用这个武器 it 遭受 D6 致命伤. If a 模型 is wounded but but not slain by this attack, roll another dice; 结果为6, the 模型 遭受 a further D6 致命伤.</characteristic>
+                    <characteristic name="能力" typeId="837d-5e63-aeb7-1410">这个武器 may target 单位 that are not 可见 to 持有者, even when firing in accordance with the 自动武器 ability. 每次 you 命中 目标 使用这个武器 it 遭受 D6 致命伤. 如果模型 is wounded but but not slain by this attack, roll another dice; 结果为6, the 模型 遭受 a further D6 致命伤.</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="43f6-b40f-134b-8b48" name="Containment Failure" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 被移除前 从 战场 and before any 上车 模型 下车, its vortex missiles explode. Each 单位 范围内 2D6寸 遭受 D6 致命伤. If a 模型 is wounded but not slain by in this manner roll another dice; 结果为6, the 模型 is sucked up into the swirling vortex and slain.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 被移除前 从 战场 and before any 上车 模型 下车, its vortex missiles explode. Each 单位 范围内 2D6寸 遭受 D6 致命伤. 如果模型 is wounded but not slain by in this manner roll another dice; 结果为6, the 模型 is sucked up into the swirling vortex and slain.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2438,7 +2438,7 @@
       <profiles>
         <profile id="4ca0-bdc4-9090-1647" name="Fully 自动武器" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型的 武器 只能瞄准 the closest 可见 敌方单位. 攻击 made with the 四联 伊卡洛斯Lascannons can instead target the closest 可见 敌方单位 飞行关键字. In either case, if two or more 单位 are equally close, you can choose which is targeted.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型的 武器 只能瞄准 最近的 可见 敌方单位. 攻击 made with the 四联 伊卡洛斯Lascannons can instead target 最近的 可见 敌方单位 飞行关键字. In either case, if two or more 单位 are equally close, you can choose which is targeted.</characteristic>
           </characteristics>
         </profile>
         <profile id="4e2c-1874-14f7-56d8" name="Vengeance 武器 Battery" publicationId="28ec-711c-pubN77581" page="132" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
@@ -3815,9 +3815,9 @@
         <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="06fb-e44e-0fd7-e874" name="天罚恶魔 Hammer" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="06fb-e44e-0fd7-e874" name="天罚恶魔战锤" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="a6e5-7ee3-8027-42b7" name="天罚恶魔 Hammer" hidden="false" targetId="e353-0508-4f8f-d305" type="profile"/>
+        <infoLink id="a6e5-7ee3-8027-42b7" name="天罚恶魔战锤" hidden="false" targetId="e353-0508-4f8f-d305" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -4635,7 +4635,7 @@
         </profile>
         <profile id="1b16-1941-d120-15ee" name="Webway Gate" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When measuring distance to and from a Webway Gate, measure from the closest point of the model. If a Webway Gate is 被消灭, remove both arch peices from the 战场.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When measuring distance to and from a Webway Gate, measure from 最近的 point of the model. If a Webway Gate is 被消灭, remove both arch peices from the 战场.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4811,7 +4811,7 @@
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                    <characteristic name="能力" typeId="837d-5e63-aeb7-1410">If a 模型 遭受 任何未通过保护的伤害 from 这个武器 but is not slain, 投掷1个D6, 结果为6, the target 遭受 1点致命伤.</characteristic>
+                    <characteristic name="能力" typeId="837d-5e63-aeb7-1410">如果模型 遭受 任何未通过保护的伤害 from 这个武器 but is not slain, 投掷1个D6, 结果为6, 目标 遭受 1点致命伤.</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="9b24-2450-ad3f-9499" name="双联Helfrost Cannon (Focused Beam)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -4821,7 +4821,7 @@
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-                    <characteristic name="能力" typeId="837d-5e63-aeb7-1410">If a 模型 遭受 任何未通过保护的伤害 from 这个武器 but is not slain, 投掷1个D6, 结果为6, the target 遭受 1点致命伤.</characteristic>
+                    <characteristic name="能力" typeId="837d-5e63-aeb7-1410">如果模型 遭受 任何未通过保护的伤害 from 这个武器 but is not slain, 投掷1个D6, 结果为6, 目标 遭受 1点致命伤.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -6119,7 +6119,7 @@
                   <profiles>
                     <profile id="2cfd-c772-8ded-a00b" name="12: Beast 猎手" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投失败的造伤骰 for 攻击 made by 这个模型 in the 肉搏阶段 if the target is a 巨兽 单位.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投失败的造伤骰 for 攻击 made by 这个模型 in the 肉搏阶段 if 目标 is a 巨兽 单位.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6272,7 +6272,7 @@
                   <profiles>
                     <profile id="443c-d65e-b495-aaff" name="25: Keen Eye" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 can target 敌方 人物 单位 in the 射击阶段 even if they are not the closest 敌方模型.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 can target 敌方 人物 单位 in the 射击阶段 even if they are not 最近的 敌方模型.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6442,7 +6442,7 @@
                   <profiles>
                     <profile id="b3f5-feaf-9334-bb2a" name="43: Hard to Kill" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Wound 骰 of 1, 2 or 3 made for 攻击 that target 这个模型 always fail, even if the attack 拥有 S值 higher than 这个模型’s T值.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">造伤骰 of 1, 2 or 3 made for 攻击 that target 这个模型 always fail, even if the attack 拥有 S值 higher than 这个模型’s T值.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6459,7 +6459,7 @@
                   <profiles>
                     <profile id="faf9-46bb-7bee-126c" name="44: Strategic Feint" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">开始时 of the first battle round but before the first turn begins, you can pick a 友方 &lt;Sub-faction&gt; 这个模型6寸范围内的单位 and 放置 again, 任何位置 wholly 范围内 your 部署区. If your opponent has 任何单位 with similar abilities, roll off; starting with the winner of the roll-off, take it in turns to resolve these abilities.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">开始时 of the first battle round but before the first turn begins, you can 选择1个 友方 &lt;Sub-faction&gt; 这个模型6寸范围内的单位 and 放置 again, 任何位置 wholly 范围内 your 部署区. If your opponent has 任何单位 with similar abilities, roll off; starting with the winner of the roll-off, take it in turns to resolve these abilities.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6612,7 +6612,7 @@
                   <profiles>
                     <profile id="5de9-d6de-958d-3236" name="61: Air Strike" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, in your 射击阶段, you can pick an 敌方单位, other than a Characterunit, that is 可见 to 这个模型 and 投掷1个D6. 结果为1-4 nothing happens. 结果为5+ the target 单位 遭受 D3 致命伤.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, in your 射击阶段, you can pick an 敌方单位, other than a Characterunit, that is 可见 to 这个模型 and 投掷1个D6. 结果为1-4 nothing happens. 结果为5+ 目标 单位 遭受 D3 致命伤.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6663,7 +6663,7 @@
                   <profiles>
                     <profile id="4c8a-66ad-6ac9-532b" name="64: Strike and Fade" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">After 这个模型 has fought in the 肉搏阶段, it can 立即 pile in D3+3寸 in any direction, not just towards the closest 敌方模型.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">After 这个模型 has fought in the 肉搏阶段, it can 立即 pile in D3+3寸 in any direction, not just towards 最近的 敌方模型.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6971,7 +6971,7 @@
                   <profiles>
                     <profile id="9f66-befe-4666-5240" name="02: Old War Wound" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Select a result from this table, or roll 2D6 to randomly select a result (重投 if you get this result again). 减少 or worsen 这个模型’s characteristic by the amount described in the result you picked 而不是 adding or improving it (e.g. if the Ferocious Combatant result was selected, an A值 of 3 would become 2, while if the Dead-eyed result was selected, a BS of 3+ would become 4+)</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">选择1个 result from this table, or roll 2D6 to randomly 选择1个 result (重投 if you get this result again). 减少 or worsen 这个模型’s characteristic by the amount described in the result you picked 而不是 adding or improving it (e.g. if the Ferocious Combatant result was selected, an A值 of 3 would become 2, while if the Dead-eyed result was selected, a BS of 3+ would become 4+)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7300,7 +7300,7 @@
               <profiles>
                 <profile id="8f76-d66e-c390-2ea5" name="R2: Assassins" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to wound 骰 for 攻击 made by 这个单位中的模型 that target an 敌方 人物 单位.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to 造伤骰 for 攻击 made by 这个单位中的模型 that target an 敌方 人物 单位.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7368,7 +7368,7 @@
               <profiles>
                 <profile id="b664-22df-25c1-4664" name="R2: Lucky" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">投掷1个D6 每次 a 模型 from 这个单位 失去1点W; 结果为6 the 模型 does not lose that wound.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">投掷1个D6 每次 模型 from 这个单位 失去1点W; 结果为6 the 模型 does not lose that wound.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7385,7 +7385,7 @@
               <profiles>
                 <profile id="be38-1685-9783-10d4" name="R3: Breachers" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to wound 骰 for 攻击 made by 这个单位中的模型 if the target of those 攻击 is receiving the benefit of cover.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to 造伤骰 for 攻击 made by 这个单位中的模型 if 目标 of those 攻击 is receiving the benefit of cover.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7877,10 +7877,10 @@
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="d784-9fdb-622e-32a5" name="Deathblow" hidden="false">
-      <description>If a target 遭受 an unsaved Wound from a 肉搏攻击 made by 这个模型, the target is reduced to 0 Wounds and is removed as a casualty.</description>
+      <description>If a target 遭受 an unsaved Wound from a 肉搏攻击 made by 这个模型, 目标 is reduced to 0 Wounds and is removed as a casualty.</description>
     </rule>
     <rule id="2053-118c-c2b7-c8ac" name="Executioner" hidden="false">
-      <description>这个模型 re-骰 所有 失败的 To Wound 骰 对抗 targets with a W值 of 2 or more.</description>
+      <description>这个模型 re-骰 所有 失败的 To 造伤骰 对抗 targets with a W值 of 2 or more.</description>
     </rule>
     <rule id="74b3-2e30-9d76-a958" name="Infiltrator" hidden="false">
       <description>部署期间, 这个单位 can be 放置 任何位置 战场上 that is not 范围内 your opponent&apos;s 部署区 and is more than 12寸 from any 敌方单位.</description>
@@ -8577,12 +8577,12 @@
     </profile>
     <profile id="d4b6-7a3a-aee5-d293" name="Ammo Store" publicationId="28ec-711c-pubN77581" page="110" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A 单位 occupying this 建筑 re-骰 To 命中 骰 of a 1 when firing out of the 建筑&apos;s 射击点. Note this does not apply to a 模型 manually firing an emplaced 武器.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A 单位 occupying this 建筑 re-骰 To 命中 骰 of a 1 when firing out of the 建筑&apos;s 射击点. Note this does not apply to 模型 manually firing an emplaced 武器.</characteristic>
       </characteristics>
     </profile>
     <profile id="58a2-c92e-57cc-d44c" name="Ammunition Dump" publicationId="28ec-711c-pubN77581" page="110" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A 模型 in cover behind an ammunition dump 拥有 5+ 掩体保护. 任何模型 范围内 2寸 of an ammunition dump re-骰 失败的 To 命中 骰 of 1 in the 射击阶段.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">模型 in cover behind an ammunition dump 拥有 5+ 掩体保护. 任何模型 范围内 2寸 of an ammunition dump re-骰 失败的 To 命中 骰 of 1 in the 射击阶段.</characteristic>
       </characteristics>
     </profile>
     <profile id="e144-1293-ec28-d3a9" name="虚空盾" publicationId="28ec-711c-pubN113754" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -8607,17 +8607,17 @@
     </profile>
     <profile id="68d8-f686-c260-76db" name="Barricades" publicationId="28ec-711c-pubN113754" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A 模型 in cover behind a barricade or wall 拥有 4+ 掩体保护. 模型 that are in base contact with a barricade or wall are treated as being in base contact with 任何敌方模型 who are directly opposite them and in base contact with the other side of that barricade or wall. 单位 charging an 敌方 that is behind a barricade or wall 视作 charging through difficult terrain.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">模型 in cover behind a barricade or wall 拥有 4+ 掩体保护. 模型 that are in base contact with a barricade or wall are treated as being in base contact with 任何敌方模型 who are directly opposite them and in base contact with the other side of that barricade or wall. 单位 charging an 敌方 that is behind a barricade or wall 视作 charging through difficult terrain.</characteristic>
       </characteristics>
     </profile>
     <profile id="e158-7adf-1565-ef08" name="Tanglewire" publicationId="28ec-711c-pubN113754" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Dangerous Terrain. A 模型 in cover behind tanglewire 拥有 6+ 掩体保护.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Dangerous Terrain. 模型 in cover behind tanglewire 拥有 6+ 掩体保护.</characteristic>
       </characteristics>
     </profile>
     <profile id="4a45-65e5-2d8c-8792" name="Tank Traps" publicationId="28ec-711c-pubN113754" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Impassable Terrain to non-Skimmer 载具, Dangerous Terrain to Bikes, and open ground for 所有 other 单位. A 模型 in cover behind tank traps hasa 4+ 掩体保护.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Impassable Terrain to non-Skimmer 载具, Dangerous Terrain to Bikes, and open ground for 所有 other 单位. 模型 in cover behind tank traps hasa 4+ 掩体保护.</characteristic>
       </characteristics>
     </profile>
     <profile id="1da7-2e0b-0114-762c" name="炮座" publicationId="28ec-711c-pubN113754" page="" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
@@ -8635,12 +8635,12 @@
     </profile>
     <profile id="705c-91aa-6591-507b" name="炮架 (Details)" publicationId="28ec-711c-pubN113754" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A 模型 in cover behind a 炮架 拥有 4+ 掩体保护. One non-载具 模型 in base contact with a 炮架 can fire it 而不是 firing its own 武器. A 模型 that fires a 炮架 has the Relentless special rule for that 射击攻击. A 炮架 can be shot at and attacked in 肉搏. It is 命中 自动 in 肉搏.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">模型 in cover behind a 炮架 拥有 4+ 掩体保护. One non-载具 模型 in base contact with a 炮架 can fire it 而不是 firing its own 武器. 模型 that fires a 炮架 has the Relentless special rule for that 射击攻击. A 炮架 can be shot at and attacked in 肉搏. It is 命中 自动 in 肉搏.</characteristic>
       </characteristics>
     </profile>
     <profile id="70aa-366f-15ac-da4d" name="Comms Relay" publicationId="28ec-711c-pubN113754" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Any player with an unengaged 模型 范围内 2寸 of a comms relay can 重投 预备队 骰. A 模型 in cover behind a comms relay 拥有 5+ 掩体保护.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Any player with an unengaged 模型 范围内 2寸 of a comms relay can 重投 预备队 骰. 模型 in cover behind a comms relay 拥有 5+ 掩体保护.</characteristic>
       </characteristics>
     </profile>
     <profile id="39bf-dff4-053a-7360" name="Macro Shell" publicationId="28ec-711c-pubN77581" page="111" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -8685,17 +8685,17 @@
     </profile>
     <profile id="7571-d9f2-17b0-c3e0" name="帝国 Statuary" publicationId="28ec-711c-pubN113754" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A 模型 from the Armies of the 帝国 that is 范围内 2寸 of 帝国 Statuary terrain has the Fearless special rule. A 模型 in cover behind 帝国 Statuary 拥有 3+ 掩体保护.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">模型 from the Armies of the 帝国 that is 范围内 2寸 of 帝国 Statuary terrain has the Fearless special rule. 模型 in cover behind 帝国 Statuary 拥有 3+ 掩体保护.</characteristic>
       </characteristics>
     </profile>
     <profile id="7d5c-1af6-942c-8ca2" name="Wreckage and Rubble" publicationId="28ec-711c-pubN113754" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Area Terrain. A 模型 in cover behind wreckage or rubble 拥有 4+ 掩体保护.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Area Terrain. 模型 in cover behind wreckage or rubble 拥有 4+ 掩体保护.</characteristic>
       </characteristics>
     </profile>
     <profile id="f0ec-023c-4865-fe5a" name="灵能头箍" publicationId="28ec-711c-pubN72690" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 a 单位 (or model) is targeted by an 敌方 psychic power and is 范围内 12寸 of a 友方模型 with a 灵能头箍, the wearer of the hood can attempt to Deny the Witch in their stead, as if he were in the 目标单位.  If the Deny the Witch attempt is 失败的, the psychic power is resolved as normal, but effects only the initial target, not the wearer of the hood.  If a 模型 with a 灵能头箍 is 上车 in a 载具 or 建筑, he can only use the hood to nullify powers targeting the 载具 or 建筑 he is 上车 within.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 a 单位 (or model) is targeted by an 敌方 psychic power and is 范围内 12寸 of a 友方模型 with a 灵能头箍, the wearer of the hood can attempt to Deny the Witch in their stead, as if he were in the 目标单位.  If the Deny the Witch attempt is 失败的, the psychic power is resolved as normal, but effects only the initial target, not the wearer of the hood.  如果模型 with a 灵能头箍 is 上车 in a 载具 or 建筑, he can only use the hood to nullify powers targeting the 载具 or 建筑 he is 上车 within.</characteristic>
       </characteristics>
     </profile>
     <profile id="98ac-5132-9ebd-c355" name="轨道打击" publicationId="28ec-711c-pubN72690" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -9015,7 +9015,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">10</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">这个武器 can only be fired 一次性. 曲射. When targeting 单位 with 10 or more models, change 这个武器的 Type to Heavy D6.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">一次性. 曲射. When targeting 单位 with 10 or more models, change 这个武器的 Type to Heavy D6.</characteristic>
       </characteristics>
     </profile>
     <profile id="3937-3d5e-da78-af96" name="等离子爆裂枪-标准" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -9490,7 +9490,7 @@
         <characteristic name="能力" typeId="837d-5e63-aeb7-1410">对非载具目标固定2+造伤.</characteristic>
       </characteristics>
     </profile>
-    <profile id="e353-0508-4f8f-d305" name="天罚恶魔 Hammer" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+    <profile id="e353-0508-4f8f-d305" name="天罚恶魔战锤" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="射程" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
         <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
@@ -9527,7 +9527,7 @@
     </profile>
     <profile id="a179-f592-3224-72c9" name="自动武器" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Unless a 友方单位 is 上车 aboard 这个模型, it 只能瞄准 the closest 可见 敌方单位 when it makes 攻击. If two or more 单位 are equally close, you can choose which is targeted.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Unless a 友方单位 is 上车 aboard 这个模型, it 只能瞄准 最近的 可见 敌方单位 when it makes 攻击. If two or more 单位 are equally close, you can choose which is targeted.</characteristic>
       </characteristics>
     </profile>
     <profile id="429b-91d2-8356-7150" name="Magazine Explosion" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -9552,7 +9552,7 @@
     </profile>
     <profile id="57f6-edd9-6170-5c91" name="自动武器 (炮架)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Unless a 友方 步兵模型 is 1寸范围内 of 这个模型, 这个模型 只能瞄准 the closest 可见 敌方单位 when it makes 攻击. If two or more 单位 are equally close, you can choose which is targeted.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Unless a 友方 步兵模型 is 1寸范围内 of 这个模型, 这个模型 只能瞄准 最近的 可见 敌方单位 when it makes 攻击. If two or more 单位 are equally close, you can choose which is targeted.</characteristic>
       </characteristics>
     </profile>
     <profile id="c60f-7b10-88fd-9eba" name="静态防御网络 (Aegis)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -9634,7 +9634,7 @@
     </profile>
     <profile id="0f50-2ea2-b251-a213" name="自动武器 (伊卡洛斯)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Unless a 友方单位 is 上车 aboard 这个模型, 这个模型的 武器 只能瞄准 the closest 可见 敌方单位. 攻击 made with the 伊卡洛斯激光炮 can instead target the closest 可见 敌方单位 飞行关键字. In either case, if two or more 单位 are equally close, you may choose which is targeted.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Unless a 友方单位 is 上车 aboard 这个模型, 这个模型的 武器 只能瞄准 最近的 可见 敌方单位. 攻击 made with the 伊卡洛斯激光炮 can instead target 最近的 可见 敌方单位 飞行关键字. In either case, if two or more 单位 are equally close, you may choose which is targeted.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

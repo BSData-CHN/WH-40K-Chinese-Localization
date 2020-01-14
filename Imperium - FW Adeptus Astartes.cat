@@ -1705,7 +1705,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bed2-1c9d-f208-dfff" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="b229-e5cc-2877-f371" name="Purgator" hidden="false" collective="false" import="true" targetId="78b9-2a14-ceed-e7bb" type="selectionEntry">
+        <entryLink id="b229-e5cc-2877-f371" name="洗罪者" hidden="false" collective="false" import="true" targetId="78b9-2a14-ceed-e7bb" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b050-efbe-375e-2119" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0a9-ffc8-8c86-21cf" type="min"/>
@@ -3933,9 +3933,9 @@
         <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="78b9-2a14-ceed-e7bb" name="Purgator" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="78b9-2a14-ceed-e7bb" name="洗罪者" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="ab81-198a-24c8-4729" name="Purgator" hidden="false" targetId="210a-7991-bd4d-6183" type="profile"/>
+        <infoLink id="ab81-198a-24c8-4729" name="洗罪者" hidden="false" targetId="210a-7991-bd4d-6183" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -9459,7 +9459,7 @@
               <profiles>
                 <profile id="69c5-5e82-5ef5-e538" name="The Beacon Angelis" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, at the end of your 移动阶段, 持有者 can use the Beacon Angelis to teleport a 友方单位 to his position. When he does so, select a 死亡守望 步兵 or 摩托 单位 that is either 战场上, or that is in a teleportarium. In either case, remove 这个单位 and then 放置 wholly 6寸范围内 of 持有者 and more than 9寸 from 任何敌方模型 (任何模型 that 不能 放置 is slain).</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, at the end of your 移动阶段, 持有者 can use the Beacon Angelis to teleport a 友方单位 to his position. When he does so, 选择1个 死亡守望 步兵 or 摩托 单位 that is either 战场上, or that is in a teleportarium. In either case, remove 这个单位 and then 放置 wholly 6寸范围内 of 持有者 and more than 9寸 from 任何敌方模型 (任何模型 that 不能 放置 is slain).</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -9476,7 +9476,7 @@
               <profiles>
                 <profile id="b691-f2f6-146d-a89d" name="Tome of the Ectoclades" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">在每个玩家回合开始, pick a Mission Tactic (pg 94). Until the start of your next turn, you can choose to apply either the effects of the Mission Tactic that is currently active or the Mission Tactic you have chosen for the Tome of Ectoclades to any 死亡守望 单位 from your army 6寸范围内 of 持有者 每次 they attack</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">在每个玩家回合开始, 选择1个 Mission Tactic (pg 94). Until the start of your next turn, you can choose to apply either the effects of the Mission Tactic that is currently active or the Mission Tactic you have chosen for the Tome of Ectoclades to any 死亡守望 单位 from your army 6寸范围内 of 持有者 每次 they attack</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -9525,7 +9525,7 @@
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-                    <characteristic name="能力" typeId="837d-5e63-aeb7-1410">If a 模型 遭受 任何未通过保护的伤害 from 这个武器 but is not slain, 投掷1个D6, 结果为4+ the target 遭受 1点致命伤.</characteristic>
+                    <characteristic name="能力" typeId="837d-5e63-aeb7-1410">如果模型 遭受 任何未通过保护的伤害 from 这个武器 but is not slain, 投掷1个D6, 结果为4+ 目标 遭受 1点致命伤.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -9559,7 +9559,7 @@
               <profiles>
                 <profile id="4d72-6258-b6b1-4352" name="The Armour of Russ" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型拥有 4+ 特殊保护. 此外, 开始时 of the 肉搏阶段, choose an 敌方单位 1寸范围内 of 这个模型. 那个单位 不能 chosen to fight in the 肉搏阶段 until 所有 other 单位 able to fight have done so. If the target 单位 has an ability that allows it to fight first in the 肉搏阶段, it instead fights as if it didn’t have that ability. If both players have 单位 that cannot fight until 所有 other 单位 have done so, then alternate choosing which of those 单位 to fight with, starting with the player whose turn is taking place.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型拥有 4+ 特殊保护. 此外, 开始时 of the 肉搏阶段, choose an 敌方单位 1寸范围内 of 这个模型. 那个单位 不能 chosen to fight in the 肉搏阶段 until 所有 other 单位 able to fight have done so. If 目标 单位 has an ability that allows it to fight first in the 肉搏阶段, it instead fights as if it didn’t have that ability. If both players have 单位 that cannot fight until 所有 other 单位 have done so, then alternate choosing which of those 单位 to fight with, starting with the player whose turn is taking place.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -9779,7 +9779,7 @@
               <profiles>
                 <profile id="f511-a9cf-8b05-67db" name="Huntsman" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Your 主将 can fire their 手枪, 速射 and 手雷 武器 at 敌方 人物 even if they are not the closest 敌方模型. 此外, whenever your 主将 piles in或进行英勇干预, they can move towards the closest 敌方 人物 而不是 the closest 敌方模型.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Your 主将 can fire their 手枪, 速射 and 手雷 武器 at 敌方 人物 even if they are not 最近的 敌方模型. 此外, whenever your 主将 piles in或进行英勇干预, they can move towards 最近的 敌方 人物 而不是 最近的 敌方模型.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -9981,7 +9981,7 @@
               <profiles>
                 <profile id="2e80-5190-ecbd-03c6" name="Saga of the Beastslayer" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to wound 骰 for 攻击 make by a 单位 affected by this saga that target a 巨兽 or 载具.  Deed of Legend: Slay and 敌方 巨兽 or 载具 with your 主将. </characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to 造伤骰 for 攻击 make by a 单位 affected by this saga that target a 巨兽 or 载具.  Deed of Legend: Slay and 敌方 巨兽 or 载具 with your 主将. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -10009,7 +10009,7 @@
               <profiles>
                 <profile id="4bb5-41de-1596-3db0" name="Saga of the Bear" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Roll a dice 每次 a 模型 affected by this saga 失去1点W; 结果为6, that 模型 不会失去W. This sage has no 效果 on 模型 with a similar ability (e.g. Bjorn the Fell-Handed&apos;s Legendary Tenacity ability).  Deed of Legend: Successfully pass a saving throw for your 主将. </characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Roll a dice 每次 模型 affected by this saga 失去1点W; 结果为6, that 模型 不会失去W. This sage has no 效果 on 模型 with a similar ability (e.g. Bjorn the Fell-Handed&apos;s Legendary Tenacity ability).  Deed of Legend: Successfully pass a saving throw for your 主将. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -10149,7 +10149,7 @@
             <rule id="d913-24b8-4933-554a" name="Relentless 寻觅者" publicationId="eaff-9d37-65fa-35a2" hidden="false">
               <description>When resolving an attack made 对抗 a 单位 with this tactic, an unmodified wound roll of 1 or 2 always fails, irrespective of any abilities that the 武器 or the 模型 making that attack may have.
 
-此外, when a Psychic test or 否定巫术测试 is taken for a 灵能者 模型 with this tactic, 重投 any or 所有 dice 骰 of 1.</description>
+此外, when a 灵能测试 or 否定巫术测试 is taken for a 灵能者 模型 with this tactic, 重投 any or 所有 dice 骰 of 1.</description>
             </rule>
           </rules>
           <costs>
@@ -10291,7 +10291,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">这个武器 不能 fiired on any turn in which the 模型 carrying it has moved. 此外, for each 24寸 between 持有者 and the target, increase the Strength by +2 and the 伤害 by +D3. If a 模型 is ramoved from play as a casualty due to wouds caused by 这个武器, then the target 单位 遭受 2D6 额外的 命中 at Strength 6, AP 0, causing 1 伤害. These 额外的 命中 do not trigger further 命中 themselves.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">这个武器 不能 fiired on any turn in which the 模型 carrying it has moved. 此外, for each 24寸 between 持有者 and 目标, increase the Strength by +2 and the 伤害 by +D3. 如果模型 is ramoved from play as a casualty due to wouds caused by 这个武器, then 目标 单位 遭受 2D6 额外的 命中 at Strength 6, AP 0, causing 1 伤害. These 额外的 命中 do not trigger further 命中 themselves.</characteristic>
       </characteristics>
     </profile>
     <profile id="1e79-bbf5-79e9-73e3" name="Castellum 防空导弹" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -10341,7 +10341,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">When fired, 这个武器 makes one full 射击攻击 对抗 each 敌方单位 范围内 range, except 人物. A 单位 consisting entirely of 人物 may only be attacked if it is the closest 敌方单位 to the 死亡风暴空降舱 when the attack is declared.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">When fired, 这个武器 makes one full 射击攻击 对抗 each 敌方单位 范围内 range, except 人物. A 单位 consisting entirely of 人物 may only be attacked if it is 最近的 敌方单位 to the 死亡风暴空降舱 when the attack is declared.</characteristic>
       </characteristics>
     </profile>
     <profile id="c0e5-7713-ae18-eeb4" name="Deathstorm missile array" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -10351,7 +10351,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">When fired, 这个武器 makes one full 射击攻击 对抗 each 敌方单位 范围内 range, except 人物. A 单位 consisting entirely of 人物 may only be attacked if it is the closest 敌方单位 to the 死亡风暴空降舱 when the attack is declared.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">When fired, 这个武器 makes one full 射击攻击 对抗 each 敌方单位 范围内 range, except 人物. A 单位 consisting entirely of 人物 may only be attacked if it is 最近的 敌方单位 to the 死亡风暴空降舱 when the attack is declared.</characteristic>
       </characteristics>
     </profile>
     <profile id="5403-7629-3ffd-b6c0" name="Dreadfire 重喷火" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -10411,7 +10411,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">9</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-5</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">If the target 模型 is a 巨兽, 载具 or 巨型 then the amount of 伤害 suffered from successful 攻击 becomes 5 per 命中. For every five 模型 in the 目标单位, add D3 to the number of 攻击 made by 这个武器.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">If 目标 模型 is a 巨兽, 载具 or 巨型 then the amount of 伤害 suffered from successful 攻击 becomes 5 per 命中. For every five 模型 in the 目标单位, add D3 to the number of 攻击 made by 这个武器.</characteristic>
       </characteristics>
     </profile>
     <profile id="c2a5-0a66-5e2a-0341" name="Graviton blaster" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -10421,7 +10421,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">If the target 拥有 SV值 of 3+ or better, 这个武器 increases its 伤害 to D3.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">If 目标 拥有 SV值 of 3+ or better, 这个武器 increases its 伤害 to D3.</characteristic>
       </characteristics>
     </profile>
     <profile id="7c51-ad4f-e1ed-c2e1" name="手雷 discharger, 破片手雷" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -10591,7 +10591,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">10</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">If the target of an attack by 这个武器 is 范围内 half range, 额外投掷1个 dice when inflicting 伤害 and 舍弃最低结果.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">If 目标 of an attack by 这个武器 is 范围内 half range, 额外投掷1个 dice when inflicting 伤害 and 舍弃最低结果.</characteristic>
       </characteristics>
     </profile>
     <profile id="0643-f2a4-4a3d-b019" name="Malice" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -10704,7 +10704,7 @@
         <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="210a-7991-bd4d-6183" name="Purgator" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+    <profile id="210a-7991-bd4d-6183" name="洗罪者" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="射程" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12寸</characteristic>
         <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手枪 1</characteristic>
@@ -10901,7 +10901,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">10</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">If the target of an attack by 这个武器 is 范围内 half range, 额外投掷1个 dice when inflicting 伤害 and 舍弃最低结果.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">If 目标 of an attack by 这个武器 is 范围内 half range, 额外投掷1个 dice when inflicting 伤害 and 舍弃最低结果.</characteristic>
       </characteristics>
     </profile>
     <profile id="2298-cb44-9815-8ede" name="双联火山炮" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -10951,7 +10951,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">+2</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
-        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">If the target is a 人物, you may make an 额外攻击 使用这个武器.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">If 目标 is a 人物, you may make an 额外攻击 使用这个武器.</characteristic>
       </characteristics>
     </profile>
     <profile id="7011-457d-001e-c79a" name="Blade of the Scorpion" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -10971,7 +10971,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">+1</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">For each wound roll of 6+, if the target 单位 is 步兵, 这个武器 inflicts 1点致命伤 此外 to any other 伤害.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">For each wound roll of 6+, if 目标 单位 is 步兵, 这个武器 inflicts 1点致命伤 此外 to any other 伤害.</characteristic>
       </characteristics>
     </profile>
     <profile id="642b-7a6d-aa90-9e60" name="Caestus ram" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -11121,7 +11121,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">x2</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
-        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">重投 失败的 wound 骰 对抗步兵.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">重投 失败的 造伤骰 对抗步兵.</characteristic>
       </characteristics>
     </profile>
     <profile id="8c17-03b8-17ae-89e7" name="利维坦攻城钻" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -11141,7 +11141,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">+2</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Add 2 to the 武器&apos;s 伤害 if the target is a 人物.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Add 2 to the 武器&apos;s 伤害 if 目标 is a 人物.</characteristic>
       </characteristics>
     </profile>
     <profile id="6263-dd16-b978-b73a" name="Magister&apos;s axe" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -11161,7 +11161,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">x2</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">If a 模型 遭受 任何未通过保护的伤害 from 这个武器 but is not slain, 投掷1个D6, 结果为4+ the target 遭受 1点致命伤.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">如果模型 遭受 任何未通过保护的伤害 from 这个武器 but is not slain, 投掷1个D6, 结果为4+ 目标 遭受 1点致命伤.</characteristic>
       </characteristics>
     </profile>
     <profile id="6301-b55b-4d40-9168" name="Power sabre" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -11617,7 +11617,7 @@
     </profile>
     <profile id="7a0f-d19e-cc6b-e939" name="重型装甲" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A 模型 具有这个能力的 拥有 5+ 特殊保护.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">模型 具有这个能力的 拥有 5+ 特殊保护.</characteristic>
       </characteristics>
     </profile>
     <profile id="81fe-08c3-81fb-9467" name="机魂之力" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -11715,7 +11715,7 @@
     </profile>
     <profile id="29f9-4590-ae81-18bb" name="Sundering Strikes" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Whenever attacking a 建筑 or 任何模型 with a M值 of 0寸 during the 肉搏阶段, the 攻城无畏&apos;s controlling player may 重投 所有 wound 骰 of 1 with 这个模型.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Whenever attacking a 建筑 or 任何模型 with a M值 of 0寸 during the 肉搏阶段, the 攻城无畏&apos;s controlling player may 重投 所有 造伤骰 of 1 with 这个模型.</characteristic>
       </characteristics>
     </profile>
     <profile id="ec07-50ef-7c00-b5cb" name="破片storm Launchers" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -11766,7 +11766,7 @@
     </profile>
     <profile id="f477-1a1b-9b34-a1e3" name="Icon of Hate" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">所有 友方模型 with the &lt;人物&gt; 关键字 in combat with the same 单位 as a 模型 具有这个能力的 add +1 to their S值 for the duration of the 肉搏阶段.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">所有 友方模型 with the &lt;人物&gt; 关键字 in combat with the same 单位 as 模型 具有这个能力的 add +1 to their S值 for the duration of the 肉搏阶段.</characteristic>
       </characteristics>
     </profile>
     <profile id="459e-fc76-8684-88d5" name="Unyielding 旗手" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -12257,7 +12257,7 @@
     </profile>
     <profile id="5e7a-d287-7af3-85d7" name="星际战士炮手" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When a 细剑武器平台 is 放置 战场上, its 星际战士炮手 are 放置 in 单位 coherency with it. From that point onwards the 星际战士炮手 are treated as one 单位 and the 细剑武器平台 as another. The 星际战士炮手 may only be chosen as a target in the 射击阶段 if they are the closest 可见 敌方单位 to the firer.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When a 细剑武器平台 is 放置 战场上, its 星际战士炮手 are 放置 in 单位 coherency with it. From that point onwards the 星际战士炮手 are treated as one 单位 and the 细剑武器平台 as another. The 星际战士炮手 may only be chosen as a target in the 射击阶段 if they are 最近的 可见 敌方单位 to the firer.</characteristic>
       </characteristics>
     </profile>
     <profile id="813c-413f-ff72-bf1c" name="炮兵" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -12323,7 +12323,7 @@
     </profile>
     <profile id="985b-dfbe-2c04-dc5a" name="Automated 炮兵" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型拥有 双联重爆弹, it will 自动 shoot at the nearest 敌方 步兵单位 in the 射击阶段 范围内 range. If 这个模型拥有 双联激光炮, it will 自动 shoot at the nearest non-步兵模型 in the 射击阶段 范围内 range. If there are none of the specified types of 单位 in range then the closest 单位 of any kind 必须 targeted, 然而 in 所有 cases 这个模型 may only shoot an 敌方 人物 if it is the closest 模型 of any type.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型拥有 双联重爆弹, it will 自动 shoot at the nearest 敌方 步兵单位 in the 射击阶段 范围内 range. If 这个模型拥有 双联激光炮, it will 自动 shoot at the nearest non-步兵模型 in the 射击阶段 范围内 range. If there are none of the specified types of 单位 in range then 最近的 单位 of any kind 必须 targeted, 然而 in 所有 cases 这个模型 may only shoot an 敌方 人物 if it is 最近的 模型 of any type.</characteristic>
       </characteristics>
     </profile>
     <profile id="7d8f-8b46-4ec5-b592" name="Fully 自动武器" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -12455,7 +12455,7 @@
     </profile>
     <profile id="cda4-bdb3-deb1-6af8" name="机神祝福 (星爪)" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of your 移动阶段. 这个模型 can repair a single 星爪 载具 whithin 1寸. That 模型 恢复 D3 失去的W. A 模型 can only be repaired once per turn.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of your 移动阶段. 这个模型 can repair a single 星爪 载具 whithin 1寸. That 模型 恢复 D3 失去的W. 模型 can only be repaired once per turn.</characteristic>
       </characteristics>
     </profile>
     <profile id="ee21-612c-b9ab-b823" name="战争之仪 (星爪/虎爪)" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -12505,7 +12505,7 @@
     </profile>
     <profile id="85e9-3339-a07b-6c2e" name="Bane of the Damned" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">友方 红蝎 步兵单位 6寸范围内 of 大智库 塞文·洛斯 canre-roll 失败的 wound 骰 对抗 灵能者.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">友方 红蝎 步兵单位 6寸范围内 of 大智库 塞文·洛斯 canre-roll 失败的 造伤骰 对抗 灵能者.</characteristic>
       </characteristics>
     </profile>
     <profile id="30fe-5fc2-410b-94e8" name="The Armour of Selket" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -12530,7 +12530,7 @@
     </profile>
     <profile id="7507-cbd5-d58a-a4ea" name="Icon of Hate (咆哮狮鹫)" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">所有 友方模型 with the 咆哮狮鹫 关键字 in combat with the same 单位 as a 模型 具有这个能力的 add +1 to their S值 for the duration of the 肉搏阶段.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">所有 友方模型 with the 咆哮狮鹫 关键字 in combat with the same 单位 as 模型 具有这个能力的 add +1 to their S值 for the duration of the 肉搏阶段.</characteristic>
       </characteristics>
     </profile>
     <profile id="824f-d05e-c3ed-e1e6" name="Actinic Halo" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -12628,7 +12628,7 @@
     </profile>
     <profile id="4b45-4ebf-02c5-4814" name="Master of Chirurgery" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of any of your 移动阶段, 哈拉斯·沈 can attempt to heal or revive a single model. Select a 友方 火蜥蜴 步兵 or 摩托 单位 范围内 3寸 of the 哈拉斯·沈. If 那个单位 contains a wounded model, it 立即 恢复 D3+1 失去的W. If the chosen 单位 contains no wounded 模型 but one or more of its 模型 have been slain during the battle, 投掷1个D6. 结果为3+, a single slain 模型 is returned to the 单位 with 1 wound remaining. If 哈拉斯·沈 fails to revive a model, he can do nothing else for the remainder of the turn (shoot, charge, fight, etc.) as he recovers the gene-seed of the 堕天使 warrior. A 单位 can only be the target of the 急救工具/Master of Chirurgery ability once in each turn.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of any of your 移动阶段, 哈拉斯·沈 can attempt to heal or revive a single model. 选择1个 友方 火蜥蜴 步兵 or 摩托 单位 范围内 3寸 of the 哈拉斯·沈. If 那个单位 contains a wounded model, it 立即 恢复 D3+1 失去的W. If the chosen 单位 contains no wounded 模型 but one or more of its 模型 have been slain during the battle, 投掷1个D6. 结果为3+, a single slain 模型 is returned to the 单位 with 1 wound remaining. If 哈拉斯·沈 fails to revive a model, he can do nothing else for the remainder of the turn (shoot, charge, fight, etc.) as he recovers the gene-seed of the 堕天使 warrior. A 单位 can only be 目标 of the 急救工具/Master of Chirurgery ability once in each turn.</characteristic>
       </characteristics>
     </profile>
     <profile id="45fa-7702-f5cd-d028" name="The Talisman of Sundered Souls" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -12678,7 +12678,7 @@
     </profile>
     <profile id="fbfa-4b16-86f2-4591" name="机神祝福 (美杜莎之子)" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of your 移动阶段, 这个模型 can repair a single 美杜莎之子 载具 1寸范围内. That 模型 恢复 D3 失去的W. A 模型 can only be repaired once per turn.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of your 移动阶段, 这个模型 can repair a single 美杜莎之子 载具 1寸范围内. That 模型 恢复 D3 失去的W. 模型 can only be repaired once per turn.</characteristic>
       </characteristics>
     </profile>
     <profile id="ecd9-9262-cd39-9c03" name="Purge the Weak" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -12736,21 +12736,21 @@
       <characteristics>
         <characteristic name="释放需求" typeId="5ffd-b800-c317-532a">6</characteristic>
         <characteristic name="距离" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
-        <characteristic name="效果" typeId="ad96-dfa4-b4ed-656d">Veil of Time 拥有 warp charge value of 6. If manifested, pick an 阿斯塔特修会 单位 18寸范围内 of the 灵能者. Until the start of your next 灵能阶段, 可以重投 charge 骰 and Advance 骰 for 那个单位 and they always fight first in the 肉搏阶段, even if they didn&apos;t charge. If the 敌方 also has 单位 that have charged, or that have a similar ability, then alternate choosing 单位 to fight with, starting with the player whose turn is taking place.</characteristic>
+        <characteristic name="效果" typeId="ad96-dfa4-b4ed-656d">Veil of Time 拥有 warp charge value of 6. 如果施放成功, pick an 阿斯塔特修会 单位 18寸范围内 of the 灵能者. Until the start of your next 灵能阶段, 可以重投 charge 骰 and Advance 骰 for 那个单位 and they always fight first in the 肉搏阶段, even if they didn&apos;t charge. If the 敌方 also has 单位 that have charged, or that have a similar ability, then alternate choosing 单位 to fight with, starting with the player whose turn is taking place.</characteristic>
       </characteristics>
     </profile>
     <profile id="a0a9-23cf-d798-6fc9" name="Might of Heroes" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
       <characteristics>
         <characteristic name="释放需求" typeId="5ffd-b800-c317-532a">6</characteristic>
         <characteristic name="距离" typeId="fd64-cbc4-94de-24cc">12寸</characteristic>
-        <characteristic name="效果" typeId="ad96-dfa4-b4ed-656d">Might of Heroes 拥有 warp charge value of 6. If manifested, select an 阿斯塔特修会 模型 范围内 12寸 of the 灵能者. Until the start of your next 灵能阶段, add 1 to that 模型的 Strength, Toughness and 攻击 characteristics.</characteristic>
+        <characteristic name="效果" typeId="ad96-dfa4-b4ed-656d">Might of Heroes 拥有 warp charge value of 6. 如果施放成功, select an 阿斯塔特修会 模型 范围内 12寸 of the 灵能者. Until the start of your next 灵能阶段, add 1 to that 模型的 Strength, Toughness and 攻击 characteristics.</characteristic>
       </characteristics>
     </profile>
     <profile id="5439-378d-26b1-849f" name="Null Zone" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
       <characteristics>
         <characteristic name="释放需求" typeId="5ffd-b800-c317-532a">8</characteristic>
         <characteristic name="距离" typeId="fd64-cbc4-94de-24cc">6寸</characteristic>
-        <characteristic name="效果" typeId="ad96-dfa4-b4ed-656d">Null Zone 拥有 warp charge value of 8. If manifested, then until the start of your next 灵能阶段, while they are 6寸范围内 of the 灵能者, 敌方模型 cannot take 特殊保护 and 必须 halve the result of any Psychic tests (rounding up) that they take.</characteristic>
+        <characteristic name="效果" typeId="ad96-dfa4-b4ed-656d">Null Zone 拥有 warp charge value of 8. 如果施放成功, then until the start of your next 灵能阶段, while they are 6寸范围内 of the 灵能者, 敌方模型 cannot take 特殊保护 and 必须 halve the result of any 灵能测试 (rounding up) that they take.</characteristic>
       </characteristics>
     </profile>
     <profile id="71d5-0daf-09fd-a205" name="战团长 (血鸦)" publicationId="eaff-9d37-65fa-35a2" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
