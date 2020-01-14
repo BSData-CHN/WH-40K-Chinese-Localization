@@ -7119,7 +7119,7 @@ For the purposes of setting up on or moving through 战场 Terrain, 这个单位
         </profile>
         <profile id="42ff-914a-0a8a-2ffd" name="急救工具" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of any of your 移动阶段, the Apothecary can attempt to heal or revive a single model. 选择1个 友方 死亡守望 步兵 or 摩托 单位 范围内 3寸 of the Apothecary. If 那个单位 contains a wounded model, it 立即 恢复 D3 失去的W. If the chosen 单位 contains no wounded 模型 but one or more of its 模型 have been slain during the battle, 投掷1个D6. 结果为4+ a single slain 模型 is returned to the 单位 with 1 wound remaining. If the Apothecary fails to revive 模型 he can do nothing else for the remainder of the turn (shoot, charge, fight, etc.) as he recovers the gene-seed of the 堕天使 warrior. A 单位 can only be 目标 of the 急救工具 ability once in each turn.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of any of your 移动阶段, the 药剂师 can attempt to heal or revive a single model. 选择1个 友方 死亡守望 步兵 or 摩托 单位 范围内 3寸 of the 药剂师. If 那个单位 contains a wounded model, it 立即 恢复 D3 失去的W. If the chosen 单位 contains no wounded 模型 but one or more of its 模型 have been slain during the battle, 投掷1个D6. 结果为4+ a single slain 模型 is returned to the 单位 with 1 wound remaining. If the 药剂师 fails to revive 模型 he can do nothing else for the remainder of the turn (shoot, charge, fight, etc.) as he recovers the gene-seed of the 堕天使 warrior. A 单位 can only be 目标 of the 急救工具 ability once in each turn.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7183,7 +7183,7 @@ For the purposes of setting up on or moving through 战场 Terrain, 这个单位
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="ab36-fff0-2af7-1ad3" name="死亡守望终结者 Apothecary" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+        <profile id="ab36-fff0-2af7-1ad3" name="死亡守望终结者 药剂师" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">5寸</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -7432,8 +7432,8 @@ For the purposes of setting up on or moving through 战场 Terrain, 这个单位
       </constraints>
       <entryLinks>
         <entryLink id="4057-c93d-e669-8eff" name="导弹发射器" hidden="false" collective="false" import="true" targetId="1469-1964-7a91-94d4" type="selectionEntry"/>
-        <entryLink id="c239-abe2-fc65-e862" name="无畏肉搏武器附加风暴爆弹" hidden="false" collective="false" import="true" targetId="3371-814b-4320-12b6" type="selectionEntry"/>
-        <entryLink id="33cb-8ee5-1190-92ea" name="无畏肉搏武器附加重喷火" hidden="false" collective="false" import="true" targetId="1720-3d63-ee7e-b95e" type="selectionEntry"/>
+        <entryLink id="c239-abe2-fc65-e862" name="无畏肉搏武器装备风暴爆弹" hidden="false" collective="false" import="true" targetId="3371-814b-4320-12b6" type="selectionEntry"/>
+        <entryLink id="33cb-8ee5-1190-92ea" name="无畏肉搏武器装备重喷火" hidden="false" collective="false" import="true" targetId="1720-3d63-ee7e-b95e" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="2846-aada-ddb5-e3cb" name="无畏重型武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="fa16-1079-2da0-a62d">
@@ -8144,7 +8144,7 @@ For the purposes of setting up on or moving through 战场 Terrain, 这个单位
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c65a-6abe-ca09-9403" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="2d69-97f6-d069-5992" name="主将特性 (BRB)" hidden="false" collective="false" import="true" targetId="d442-1f03-d9da-e77f" type="selectionEntryGroup"/>
+        <entryLink id="2d69-97f6-d069-5992" name="主将特性 (总规则)" hidden="false" collective="false" import="true" targetId="d442-1f03-d9da-e77f" type="selectionEntryGroup"/>
         <entryLink id="eef7-458c-1395-dd14" name="主将特性 (CA)" hidden="false" collective="false" import="true" targetId="f673-3d9b-bb1b-377f" type="selectionEntryGroup"/>
         <entryLink id="4143-0c91-26b2-670c" name="Bane of Monstrosities" hidden="false" collective="false" import="true" targetId="ec5e-133b-3e38-eeeb" type="selectionEntry"/>
         <entryLink id="866f-c1fa-febd-1afc" name="Vigilance Incarnate" hidden="false" collective="false" import="true" targetId="8a27-dd4e-7c68-dfb2" type="selectionEntry"/>
@@ -8552,7 +8552,7 @@ For the purposes of setting up on or moving through 战场 Terrain, 这个单位
     </profile>
     <profile id="0f8d-0c8e-c28b-a2b1" name="急救工具" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of any of your 移动阶段, the Apothecary can attempt to heal or revive a singel model. 选择1个 友方 &lt;人物&gt; 步兵 or 摩托 单位 范围内 3寸 of the Apothecary. If 那个单位 contains a wounded model, it 立即 恢复 D3 失去的W. If the chosen 单位 contains no wounded 模型 but one or more of its 模型 have been slain during the battle, 投掷1个D6. 结果为4+ a single slain 模型 is returned to the 单位 with 1 wound remaining. I fthe Apothecary fails to revive 模型 he can do nothing else for the remainder of the turn (shoot, charge, fight, ect.) as he recovers gene-seed of the 堕天使 warrior. A 单位 can only be 目标 of the 急救工具 ability once in each turn.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of any of your 移动阶段, the 药剂师 can attempt to heal or revive a singel model. 选择1个 友方 &lt;人物&gt; 步兵 or 摩托 单位 范围内 3寸 of the 药剂师. If 那个单位 contains a wounded model, it 立即 恢复 D3 失去的W. If the chosen 单位 contains no wounded 模型 but one or more of its 模型 have been slain during the battle, 投掷1个D6. 结果为4+ a single slain 模型 is returned to the 单位 with 1 wound remaining. I fthe 药剂师 fails to revive 模型 he can do nothing else for the remainder of the turn (shoot, charge, fight, ect.) as he recovers gene-seed of the 堕天使 warrior. A 单位 can only be 目标 of the 急救工具 ability once in each turn.</characteristic>
       </characteristics>
     </profile>
     <profile id="ac67-1fe2-ecff-e890" name="Heavy Onslaught Gatling Cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">

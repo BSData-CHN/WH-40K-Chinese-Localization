@@ -5715,7 +5715,7 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="d442-1f03-d9da-e77f" name="主将特性 (BRB)" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="d442-1f03-d9da-e77f" name="主将特性 (总规则)" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ddaf-3652-257e-33de" type="max"/>
       </constraints>

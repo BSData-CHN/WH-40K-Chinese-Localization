@@ -13133,7 +13133,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7ff-cc6b-6c9e-9481" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="2a24-69e8-b59a-1460" name="1 额外的 圣物" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="2a24-69e8-b59a-1460" name="1 个额外圣物" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f6e-dc85-06a0-50b0" type="max"/>
               </constraints>
@@ -13143,7 +13143,7 @@
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="6af9-2a24-a4a5-b925" name="2 额外的 圣物" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="6af9-2a24-a4a5-b925" name="2 个额外圣物" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="55f9-4fbe-43d1-bf30" type="max"/>
               </constraints>
@@ -16533,7 +16533,7 @@ The Primed Haywire Mine is represented by the Primed Haywire Mine model, but doe
       </constraints>
       <entryLinks>
         <entryLink id="4a4f-e6be-820a-4224" name="主将特性  (圣典: Blood Angels)" hidden="false" collective="false" import="true" targetId="f754-c641-2e0a-5e90" type="selectionEntryGroup"/>
-        <entryLink id="f555-334d-e671-64ba" name="主将特性 (BRB)" hidden="false" collective="false" import="true" targetId="d442-1f03-d9da-e77f" type="selectionEntryGroup"/>
+        <entryLink id="f555-334d-e671-64ba" name="主将特性 (总规则)" hidden="false" collective="false" import="true" targetId="d442-1f03-d9da-e77f" type="selectionEntryGroup"/>
         <entryLink id="90d5-800c-7adb-c99b" name="主将特性 (CA)" hidden="false" collective="false" import="true" targetId="f673-3d9b-bb1b-377f" type="selectionEntryGroup"/>
         <entryLink id="9dd4-c6ef-4feb-f520" name="主将特性 (Phobos)" hidden="false" collective="false" import="true" targetId="320a-d405-94da-d91d" type="selectionEntryGroup"/>
         <entryLink id="3d6e-4239-f9a9-7add" name="主将特性 (Flesh Tearers)" hidden="false" collective="false" import="true" targetId="659f-ec7d-ded4-65f4" type="selectionEntryGroup"/>
@@ -17329,7 +17329,7 @@ The Primed Haywire Mine is represented by the Primed Haywire Mine model, but doe
           <profiles>
             <profile id="ce1d-7692-4422-e0b2" name="Sorrow&apos;s Genesis" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">SANGUINARY 祭司, 原铸 APOTHECARY OR SANGUINARY NOVITIATE 模型 only. 模型 with this 圣物 loses the 急救工具 ability and has the following ability : At the end of your 移动阶段, 这个模型 can provide medical attention to one 友方 FLESH TEARERS 步兵 or FLESH TEARERS 摩托 单位 范围内 3寸. If 那个单位 contains 任何模型 that have lost any wounds, select one of those 模型 to regain 至多 3 失去的W. Otherwise, if 任何模型 from 那个单位 have been 被消灭, 投掷1个D6; 结果为2+ you can return one 被消灭 模型 from 那个单位 to the 战场 with 3 失去的W regained, placing it 范围内 3寸 of 这个模型 and in 单位 coherency (if the 模型 不能 placed in this way, it is not returned to the 战场). Each 单位 can only be affected by the Sorrow’s Genesis or 急救工具 abilities once per turn.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">SANGUINARY 祭司, 原铸 药剂师 OR SANGUINARY NOVITIATE 模型 only. 模型 with this 圣物 loses the 急救工具 ability and has the following ability : At the end of your 移动阶段, 这个模型 can provide medical attention to one 友方 FLESH TEARERS 步兵 or FLESH TEARERS 摩托 单位 范围内 3寸. If 那个单位 contains 任何模型 that have lost any wounds, select one of those 模型 to regain 至多 3 失去的W. Otherwise, if 任何模型 from 那个单位 have been 被消灭, 投掷1个D6; 结果为2+ you can return one 被消灭 模型 from 那个单位 to the 战场 with 3 失去的W regained, placing it 范围内 3寸 of 这个模型 and in 单位 coherency (if the 模型 不能 placed in this way, it is not returned to the 战场). Each 单位 can only be affected by the Sorrow’s Genesis or 急救工具 abilities once per turn.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -18358,7 +18358,7 @@ The AP值 of 手枪 and肉搏武器 这个模型 is equipped with is improved by
     </profile>
     <profile id="476b-ab90-c1b2-0c9d" name="急救工具" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of any of your 移动阶段, 这个模型 can attempt to heal or revive a single model. 选择1个 友方 BLOOD ANGELS 步兵 or 摩托 单位 范围内 3寸 of the Apothecary. If 那个单位 contains a wounded model, it 立即 恢复 D3 失去的W. If the chosen 单位 contains no wounded 模型 but one or more of its 模型 have been slain during the battle, 投掷1个D6. 结果为4+ a single slain 模型 is returned to the 单位 with 1 wound remaining. If 这个模型 fails to revive 模型 he can do nothing else for the remainder of the turn (shoot, charge, fight, etc.) as he recovers the gene-seed of the 堕天使 warrior. A 单位 can only be 目标 of the 急救工具 ability once in each turn.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of any of your 移动阶段, 这个模型 can attempt to heal or revive a single model. 选择1个 友方 BLOOD ANGELS 步兵 or 摩托 单位 范围内 3寸 of the 药剂师. If 那个单位 contains a wounded model, it 立即 恢复 D3 失去的W. If the chosen 单位 contains no wounded 模型 but one or more of its 模型 have been slain during the battle, 投掷1个D6. 结果为4+ a single slain 模型 is returned to the 单位 with 1 wound remaining. If 这个模型 fails to revive 模型 he can do nothing else for the remainder of the turn (shoot, charge, fight, etc.) as he recovers the gene-seed of the 堕天使 warrior. A 单位 can only be 目标 of the 急救工具 ability once in each turn.</characteristic>
       </characteristics>
     </profile>
     <profile id="c4a1-ef2a-655c-23a6" name="侦察摩托" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
