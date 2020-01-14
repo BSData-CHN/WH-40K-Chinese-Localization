@@ -637,7 +637,7 @@
         <categoryLink id="99a8-4f10-86d4-8250" name="New CategoryLink" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="95e9-af1c-2e8a-358f" name="Primary 武器" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="95e9-af1c-2e8a-358f" name="主武器" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d0e0-b92e-976d-6913" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d852-61e8-0dab-b417" type="min"/>
@@ -738,7 +738,7 @@
         <categoryLink id="3e55-0dd5-366d-e702" name="New CategoryLink" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="d3e2-1605-57fa-1122" name="Primary 武器" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="d3e2-1605-57fa-1122" name="主武器" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c256-e26a-eb43-70db" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="da2d-0ed3-4675-6441" type="min"/>
@@ -1685,7 +1685,7 @@
       <profiles>
         <profile id="ff39-e08d-88d7-994c" name="Faith Absolute" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Model with a Vexilla Magnifica only. The Faith Absolute replaces that model’s vexilla: it loses the Custodes Vexilla ability. Instead, 友方 帝国 步兵 and 摩托 单位 6寸范围内 of 持有者 in the Morale phase 自动通过 士气测试, and 持有者 can attempt to deny one psychic power in each 敌方 灵能阶段 as if they were a 灵能者.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Model with a Vexilla Magnifica only. The Faith Absolute replaces that model’s vexilla: it loses the Custodes Vexilla ability. Instead, 友方 帝国 步兵 and 摩托 单位 6寸范围内 of 持有者 in the Morale phase 自动通过 士气测试, and 持有者 can attempt to deny one 灵能 in each 敌方 灵能阶段 as if they were a 灵能者.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1756,7 +1756,7 @@
       <profiles>
         <profile id="bb1d-ccf4-c5d8-de90" name="Peerless Warrior" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 you make a 命中 roll of 6+ for your 主将 in the 肉搏阶段, they can 立即 make an extra attack 对抗 the same 单位 using the same 武器. These extra 攻击 cannot themselves generate any further 攻击.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 you make a 命中骰的 6+ for your 主将 in the 肉搏阶段, they can 立即 make an extra attack 对抗 the same 单位 using the same 武器. These extra 攻击 cannot themselves generate any further 攻击.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1972,7 +1972,7 @@
           </constraints>
           <entryLinks>
             <entryLink id="e217-f6e0-433e-2864" name="Lastrum 风暴爆弹" hidden="false" collective="false" import="true" targetId="631e-602d-cd37-9d33" type="selectionEntry"/>
-            <entryLink id="d379-783a-ce07-c262" name="Infernus Incinerator" hidden="false" collective="false" import="true" targetId="d1aa-00a5-e288-61b0" type="selectionEntry"/>
+            <entryLink id="d379-783a-ce07-c262" name="地狱焚化者" hidden="false" collective="false" import="true" targetId="d1aa-00a5-e288-61b0" type="selectionEntry"/>
             <entryLink id="4368-27e6-c7e1-325a" name="双联Adrathic Destructor" hidden="false" collective="false" import="true" targetId="0432-0a89-7951-e821" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
@@ -2500,7 +2500,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When resolving an attack made 使用这个武器, do not make a 命中 roll: it 自动 scores a 命中.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">自动命中.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2645,7 +2645,7 @@
         </profile>
         <profile id="c69f-32d6-6c27-bdd5" name="Galatus Shield" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228"> 这个模型拥有 4+ 特殊保护. When resolving an attack made with a 肉搏武器 对抗 这个模型, 命中骰-1.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228"> 这个模型拥有 4+ 特殊保护. When resolving an attack made with a肉搏武器 对抗 这个模型, 命中骰-1.</characteristic>
           </characteristics>
         </profile>
         <profile id="1ea7-4e68-f2c3-7d72" name="爆炸" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -2687,7 +2687,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When resolving an attack made 使用这个武器, do not make a 命中 roll: it 自动 scores a 命中.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">自动命中.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2704,16 +2704,16 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d1aa-00a5-e288-61b0" name="Infernus Incinerator" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="d1aa-00a5-e288-61b0" name="地狱焚化者" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="c87f-689b-7fd8-bdb1" name="Infernus Incinerator" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="c87f-689b-7fd8-bdb1" name="地狱焚化者" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">8寸</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 D6</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When resolving an attack made 使用这个武器, do not make a 命中 roll: it 自动 scores a 命中.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">自动命中.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2833,7 +2833,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When resolving an attack made 使用这个武器, do not make a 命中 roll: it 自动 scores a 命中.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">自动命中.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3125,7 +3125,7 @@
         <modifier type="decrement" field="e356-c769-5920-6e14" value="1.0"/>
       </modifiers>
       <profiles>
-        <profile id="9ea7-14d2-8141-2cc5" name="Airborne Hunters" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="9ea7-14d2-8141-2cc5" name="滞空 Hunters" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">部署期间, 可以放置 这个单位 high in the skies 而不是 setting it up 战场上. If you do, at the end of one of your 移动阶段 可以放置 这个单位 任何位置 战场上 that is more than 9寸 away from 任何敌方模型.</characteristic>
           </characteristics>
@@ -3262,7 +3262,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When resolving an attack made 使用这个武器, an unmodified 命中 roll of 6 scores 1 额外的 命中.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When resolving an attack made 使用这个武器, an unmodified 命中骰的 6 scores 1 额外的 命中.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3544,7 +3544,7 @@
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">2</characteristic>
           </characteristics>
         </profile>
-        <profile id="a9e0-7239-3232-6600" name="Airborne" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="a9e0-7239-3232-6600" name="滞空" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You 不能冲锋 with 这个模型, and 这个模型 can only be chosen as a target of a charge if the 单位 making the charge can FLY. You can only fight with 这个模型 if it is 1寸范围内 of any 敌方单位 飞行关键字, and 这个模型 can only make 肉搏 攻击 对抗 单位 飞行关键字. 敌方单位 can only make 肉搏 攻击 对抗 这个模型 if they can FLY.</characteristic>
           </characteristics>
@@ -3561,7 +3561,7 @@
         </profile>
         <profile id="5792-6d0b-6c8b-c4b2" name="悬浮" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Before 这个模型 moves in your 移动阶段, you can declare it will hover. Its M值 becomes 20寸 直到阶段结束, and it loses the Airborne, 难以命中 and 超音速 abilities until the beginning of your next 移动阶段. </characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Before 这个模型 moves in your 移动阶段, you can declare it will hover. Its M值 becomes 20寸 直到阶段结束, and it loses the 滞空, 难以命中 and 超音速 abilities until the beginning of your next 移动阶段. </characteristic>
           </characteristics>
         </profile>
         <profile id="3eac-9990-b984-5726" name="机魂之力" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -3697,14 +3697,14 @@
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made with a 远程武器 对抗 这个模型, 命中骰-1</characteristic>
           </characteristics>
         </profile>
-        <profile id="2017-5048-8fd8-1d9d" name="Airborne" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="2017-5048-8fd8-1d9d" name="滞空" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You 不能冲锋 with 这个模型, and 这个模型 can only be chosen as a target of a charge if the 单位 making the charge can FLY. You can only fight with 这个模型 if it is 1寸范围内 of any 敌方单位 飞行关键字, and 这个模型 can only make 肉搏 攻击 对抗 单位 飞行关键字. 敌方单位 can only make 肉搏 攻击 对抗 这个模型 if they can FLY.</characteristic>
           </characteristics>
         </profile>
         <profile id="fdbd-1933-aa82-cdae" name="悬浮" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Before 这个模型 moves in your 移动阶段, you can declare it will hover. Its M值 becomes 20寸 直到阶段结束, and it loses the Airborne, 难以命中 and 超音速 abilities until the beginning of your next 移动阶段. </characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Before 这个模型 moves in your 移动阶段, you can declare it will hover. Its M值 becomes 20寸 直到阶段结束, and it loses the 滞空, 难以命中 and 超音速 abilities until the beginning of your next 移动阶段. </characteristic>
           </characteristics>
         </profile>
         <profile id="1f70-d5a8-045e-bd76" name="Infernus Firebomb" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">

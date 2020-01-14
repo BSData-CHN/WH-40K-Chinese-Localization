@@ -66,7 +66,7 @@
         </profile>
         <profile id="4803-a000-c571-4a8d" name="Herald of Ynnead" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 another 艾尔达 模型 is slain 6寸范围内 of Yvraine, 投掷1个D6.  结果为4+ Yvraine 立即 恢复1点失去的W.  If the 模型 was a 灵能者, you can 立即 generate another Psychic power for Yvraine from the Revenant disipline.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 another 艾尔达 模型 is slain 6寸范围内 of Yvraine, 投掷1个D6.  结果为4+ Yvraine 立即 恢复1点失去的W.  If the 模型 was a 灵能者, you can 立即 generate another 灵能 for Yvraine from the Revenant disipline.</characteristic>
           </characteristics>
         </profile>
         <profile id="7a99-3ac7-8771-7cdf" name="Revered Figurehead" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -303,7 +303,7 @@
         </profile>
         <profile id="5965-8868-6650-4885" name="Way of the Blade" publicationId="6a4d-2a41-5e6b-c57a" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228"> 重投命中的 1 for 攻击 made with 肉搏武器 by 友方 死神军 模型 while thier 单位 is 6寸范围内 of 这个模型.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228"> 重投命中的 1 for 攻击 made with肉搏武器 by 友方 死神军 模型 while thier 单位 is 6寸范围内 of 这个模型.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -467,7 +467,7 @@
       <profiles>
         <profile id="e5d8-0286-b85a-fe49" name="Master of Death" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made with a 肉搏武器 by 这个主将, an unmodified 命中 roll of 6 scores 1 额外的 命中.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made with a肉搏武器 by 这个主将, an unmodified 命中骰的 6 scores 1 额外的 命中.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -485,7 +485,7 @@
       <profiles>
         <profile id="1757-2b62-ca03-f476" name="Walker of Many Paths" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per turn, when resolving an attack made by 这个主将, 可以重投 one 命中 roll or 可以重投 one wound roll. Whilst 这个主将 is 战场上, you can 投掷1个D6 for each 指挥点数 you spend to use a Stratagem; 结果为5+ that 指挥点数 is refunded. You can only have 1 指挥点数 refunded per battle round by 这个主将特性.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per turn, when resolving an attack made by 这个主将, 可以重投 one 命中骰 or 可以重投 one wound roll. Whilst 这个主将 is 战场上, you can 投掷1个D6 for each 指挥点数 you spend to use a Stratagem; 结果为5+ that 指挥点数 is refunded. You can only have 1 指挥点数 refunded per battle round by 这个主将特性.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -605,11 +605,11 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="083f-4c89-9402-dbe7" type="max"/>
           </constraints>
           <profiles>
-            <profile id="8a85-7b76-b322-0bf3" name="1. Gaze of Ynnead" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+            <profile id="8a85-7b76-b322-0bf3" name="1. Gaze of Ynnead" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
               <characteristics>
                 <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">6</characteristic>
                 <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
-                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">选择1个 可见 敌方单位 18寸范围内 of the 灵能者 and 投掷1个D6.  结果为1, the 单位 遭受 1点致命伤.  结果为2-5 那个单位 遭受 D3 致命伤.  结果为6, 那个单位 遭受 D6 致命伤.</characteristic>
+                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">选择1个 可见 敌方单位 18寸范围内 of the 灵能者 and 投掷1个D6.  结果为1, 单位遭受 1点致命伤.  结果为2-5 那个单位 遭受 D3 致命伤.  结果为6, 那个单位 遭受 D6 致命伤.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -624,7 +624,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24f4-058d-bf1d-5b27" type="max"/>
           </constraints>
           <profiles>
-            <profile id="6a83-cfb0-489c-5983" name="6. Ancestors&apos; Grace" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+            <profile id="6a83-cfb0-489c-5983" name="6. Ancestors&apos; Grace" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
               <characteristics>
                 <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">5</characteristic>
                 <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
@@ -643,7 +643,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02e7-e0ca-40e4-deaa" type="max"/>
           </constraints>
           <profiles>
-            <profile id="0ef5-cbb3-24a1-a0c3" name="3. Word of the Phoenix" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+            <profile id="0ef5-cbb3-24a1-a0c3" name="3. Word of the Phoenix" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
               <characteristics>
                 <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">5</characteristic>
                 <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
@@ -662,11 +662,11 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f207-4942-27f4-421d" type="max"/>
           </constraints>
           <profiles>
-            <profile id="6ee0-c3ca-e04d-da46" name="4. Unbind Souls" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+            <profile id="6ee0-c3ca-e04d-da46" name="4. Unbind Souls" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
               <characteristics>
                 <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">6</characteristic>
                 <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
-                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">如果施放成功, select an 敌方单位 18寸范围内 of the 灵能者. Until the start of your next 灵能阶段, 可以重投造伤骰 for 攻击 made with 肉搏武器 by 死神军 模型 from your army that target 那个敌方单位.</characteristic>
+                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">如果施放成功, select an 敌方单位 18寸范围内 of the 灵能者. Until the start of your next 灵能阶段, 可以重投造伤骰 for 攻击 made with肉搏武器 by 死神军 模型 from your army that target 那个敌方单位.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -681,7 +681,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b92-77ef-d76e-c591" type="max"/>
           </constraints>
           <profiles>
-            <profile id="dbb2-aaeb-1458-6a25" name="2. Storm of Whispers" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+            <profile id="dbb2-aaeb-1458-6a25" name="2. Storm of Whispers" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
               <characteristics>
                 <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">6</characteristic>
                 <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">6寸</characteristic>
@@ -700,7 +700,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf15-4982-c535-8aae" type="max"/>
           </constraints>
           <profiles>
-            <profile id="d01b-6dff-5607-2bbc" name="5. Shield of Ynnead" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+            <profile id="d01b-6dff-5607-2bbc" name="5. Shield of Ynnead" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
               <characteristics>
                 <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">7</characteristic>
                 <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">6寸</characteristic>
@@ -801,7 +801,7 @@
     <rule id="95ba-ea44-505c-7eb7" name="Strength from Death" publicationId="6a4d-2a41-5e6b-c57a" page="2" hidden="false">
       <description>This ability is common to 所有 死神军 单位.
 
-As soon as 任何单位 is 被消灭, 所有 单位 from your army benefit from Soulburst actions 直到回合结束. Whilst a 单位 is benefitting from Soulburst Actions, it always fights first in the 肉搏阶段, even if it didn&apos;t charge. 如果模型 that is benefitting from soulburst actions made a 冲锋移动 this turn, or already has an ability that allows it to always fight first in the 肉搏阶段, then whilst it is benfitting from soulburst actions you also 命中骰+1 for 攻击 made with 肉搏武器 by that model. If the 敌方 also has 单位 that made a 冲锋移动 or that have abilities that allow them to always fight first in the 肉搏阶段, the alternate 单位, starting with the player whose turn is taking place.</description>
+As soon as 任何单位 is 被消灭, 所有 单位 from your army benefit from Soulburst actions 直到回合结束. Whilst a 单位 is benefitting from Soulburst Actions, it always fights first in the 肉搏阶段, even if it didn&apos;t charge. 如果模型 that is benefitting from soulburst actions made a 冲锋移动 this turn, or already has an ability that allows it to always fight first in the 肉搏阶段, then whilst it is benfitting from soulburst actions you also 命中骰+1 for 攻击 made with肉搏武器 by that model. If the 敌方 also has 单位 that made a 冲锋移动 or that have abilities that allow them to always fight first in the 肉搏阶段, the alternate 单位, starting with the player whose turn is taking place.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -817,7 +817,7 @@ As soon as 任何单位 is 被消灭, 所有 单位 from your army benefit from 
         <characteristic name="S" typeId="59b1-319e-ec13-d466">+3</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each unmodified wound roll of 6 made for an attack 使用这个武器 inflicts 1 致命伤 此外 to the normal 伤害.</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each unmodified wound roll of 6 made for an attack 使用这个武器 inflicts 1 致命伤 此外 to 普通伤害.</characteristic>
       </characteristics>
     </profile>
     <profile id="dc3a-a9a7-58d3-ecd8" name="Mirrorgaze" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">

@@ -1001,7 +1001,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When attacking 模型 飞行关键字, you may add 1 to 这个武器的 命中 roll.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When attacking 模型 飞行关键字, you may add 1 to 这个武器的 命中骰.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1463,7 +1463,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
                 <characteristic name="Cast" typeId="5afb-9914-904b-d3b3">1</characteristic>
                 <characteristic name="Deny" typeId="b5ac-9c20-5d5a-6f9b">1</characteristic>
                 <characteristic name="Powers Known" typeId="69d7-b45e-00a2-7e46">惩击, one 灵能 万变系</characteristic>
-                <characteristic name="Other" typeId="c2e2-f115-0003-5d7b">When an 野心巫师 manifests the 惩击 psychic power, he inflicts 1 致命伤 而不是 D3, and D3 致命伤 而不是 D6 if the 灵能测试 is 10 or more.</characteristic>
+                <characteristic name="Other" typeId="c2e2-f115-0003-5d7b">When an 野心巫师 manifests the 惩击 灵能, he inflicts 1 致命伤 而不是 D3, and D3 致命伤 而不是 D6 if the 灵能测试 is 10 or more.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1692,7 +1692,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
                 <characteristic name="Cast" typeId="5afb-9914-904b-d3b3">1</characteristic>
                 <characteristic name="Deny" typeId="b5ac-9c20-5d5a-6f9b">1</characteristic>
                 <characteristic name="Powers Known" typeId="69d7-b45e-00a2-7e46">惩击, one 灵能 万变系</characteristic>
-                <characteristic name="Other" typeId="c2e2-f115-0003-5d7b">When a 圣甲虫巫师 manifests the 惩击 psychic power, he inflicts 1 致命伤 而不是 D3, and D3 致命伤 而不是 D6 if the 灵能测试 is 10 or more.</characteristic>
+                <characteristic name="Other" typeId="c2e2-f115-0003-5d7b">When a 圣甲虫巫师 manifests the 惩击 灵能, he inflicts 1 致命伤 而不是 D3, and D3 致命伤 而不是 D6 if the 灵能测试 is 10 or more.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2498,7 +2498,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to 这个模型的 A值 if it is equipped with two 肉搏武器. *This extra attack has already been included in the profile below*</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to 这个模型的 A值 if it is equipped with two肉搏武器. *This extra attack has already been included in the profile below*</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2812,7 +2812,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
         </profile>
         <profile id="2792-3d17-5243-6607" name="Unearthly Power" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Whenever 红魔马格努斯 attempts to manifest or deny a psychic power, add the bonus shown in his 损伤表 to his 灵能测试 or 否定巫术测试.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Whenever 红魔马格努斯 attempts to manifest or deny a 灵能, add the bonus shown in his 损伤表 to his 灵能测试 or 否定巫术测试.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2872,7 +2872,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7784-19c1-aa18-a826" type="min"/>
           </constraints>
           <profiles>
-            <profile id="72d6-ebfa-7082-6bad" name="惩击" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+            <profile id="72d6-ebfa-7082-6bad" name="惩击" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
               <characteristics>
                 <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">5</characteristic>
                 <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
@@ -3422,7 +3422,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
       <profiles>
         <profile id="57f4-4079-0e97-c5ee" name="圣物Hunters" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投失败的命中骰 in the 肉搏阶段 for 这个单位 when targeting a 人物.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投失败的命中骰 in the 肉搏阶段 for 这个单位 瞄准 人物.</characteristic>
           </characteristics>
         </profile>
         <profile id="ce2e-b86d-c6d4-4cf4" name="奸角兽" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
@@ -4196,7 +4196,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3de0-2781-16e3-c2f0" type="max"/>
       </constraints>
       <profiles>
-        <profile id="cd2d-3c3a-2e46-ff85" name="Prescience" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+        <profile id="cd2d-3c3a-2e46-ff85" name="Prescience" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
           <characteristics>
             <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">7</characteristic>
             <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
@@ -4215,7 +4215,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="774f-c44b-fa7d-2dfa" type="max"/>
       </constraints>
       <profiles>
-        <profile id="970b-a6d5-5f92-61ac" name="地狱凝视" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+        <profile id="970b-a6d5-5f92-61ac" name="地狱凝视" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
           <characteristics>
             <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">5</characteristic>
             <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
@@ -4234,7 +4234,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3284-5d62-2a3f-1f5c" type="max"/>
       </constraints>
       <profiles>
-        <profile id="b968-b5bf-210d-802c" name="Warptime" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+        <profile id="b968-b5bf-210d-802c" name="Warptime" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
           <characteristics>
             <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">6</characteristic>
             <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">3寸</characteristic>
@@ -4285,7 +4285,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4874-fe04-f86b-4180" type="max"/>
       </constraints>
       <profiles>
-        <profile id="cb89-bad7-a455-5803" name="Death Hex" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+        <profile id="cb89-bad7-a455-5803" name="Death Hex" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
           <characteristics>
             <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">8</characteristic>
             <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">12寸</characteristic>
@@ -4304,7 +4304,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b07-137c-c02d-fa27" type="max"/>
       </constraints>
       <profiles>
-        <profile id="b5cf-7c93-284f-4eec" name="Diabolic Strength" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+        <profile id="b5cf-7c93-284f-4eec" name="Diabolic Strength" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
           <characteristics>
             <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">6</characteristic>
             <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">12寸</characteristic>
@@ -4323,7 +4323,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5a9-2826-09c1-bc49" type="max"/>
       </constraints>
       <profiles>
-        <profile id="9525-5136-7b2b-49a6" name="Gift of 混沌" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+        <profile id="9525-5136-7b2b-49a6" name="Gift of 混沌" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
           <characteristics>
             <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">6</characteristic>
             <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">6寸</characteristic>
@@ -4342,7 +4342,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4c4-6ee0-31e7-f015" type="max"/>
       </constraints>
       <profiles>
-        <profile id="773c-834d-b8b6-90e7" name="Weaver of Fates" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+        <profile id="773c-834d-b8b6-90e7" name="Weaver of Fates" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
           <characteristics>
             <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">6</characteristic>
             <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
@@ -4408,11 +4408,11 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="18fd-cc9b-179d-7c94" type="max"/>
       </constraints>
       <profiles>
-        <profile id="3219-18df-449c-c472" name="奸奇&apos;s Firestorm" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+        <profile id="3219-18df-449c-c472" name="奸奇&apos;s Firestorm" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
           <characteristics>
             <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">7</characteristic>
             <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
-            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">如果施放成功, select an 敌方单位 that is 18寸范围内 of the 灵能者 and 可见 to him. Roll 9 dice; the 敌方单位 you selected 遭受 1点致命伤 for each roll of a 6.</characteristic>
+            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">如果施放成功, select an 敌方单位 that is 18寸范围内 of the 灵能者 and 可见 to him. Roll 9 dice; the 敌方单位 you selected 遭受 1点致命伤 每个结果中的 6.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4427,7 +4427,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4687-59fe-b496-e77e" type="max"/>
       </constraints>
       <profiles>
-        <profile id="3d58-e0e4-a768-0713" name="Boon of Mutation" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+        <profile id="3d58-e0e4-a768-0713" name="Boon of Mutation" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
           <characteristics>
             <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">7</characteristic>
             <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">3寸</characteristic>
@@ -4471,7 +4471,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
         </profile>
         <profile id="5dd5-2216-00ef-ecbd" name="09 - Aetherflame" hidden="false" typeId="d059-e800-687c-6148" typeName="Boon of 奸奇 - D6投掷">
           <characteristics>
-            <characteristic name="效果" typeId="7b1e-d737-8471-712f">Add 1 to the D值 of the 人物&apos;s 肉搏武器.</characteristic>
+            <characteristic name="效果" typeId="7b1e-d737-8471-712f">Add 1 to the D值 of the 人物&apos;s肉搏武器.</characteristic>
           </characteristics>
         </profile>
         <profile id="9a88-2ecd-3973-5e27" name="10 - Crystalline Body" hidden="false" typeId="d059-e800-687c-6148" typeName="Boon of 奸奇 - D6投掷">
@@ -4506,7 +4506,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0237-51f3-36d0-8743" type="max"/>
       </constraints>
       <profiles>
-        <profile id="892e-d90a-a671-47c6" name="Glamour of 奸奇" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+        <profile id="892e-d90a-a671-47c6" name="Glamour of 奸奇" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
           <characteristics>
             <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">7</characteristic>
             <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">12寸</characteristic>
@@ -4525,7 +4525,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c101-bac4-cc7d-e497" type="max"/>
       </constraints>
       <profiles>
-        <profile id="1e53-c536-996d-c911" name="Doombolt" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+        <profile id="1e53-c536-996d-c911" name="Doombolt" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
           <characteristics>
             <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">9</characteristic>
             <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
@@ -4544,7 +4544,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="94c0-5519-bdcb-882c" type="max"/>
       </constraints>
       <profiles>
-        <profile id="e79a-5690-1930-a931" name="Temporal Manipulation" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+        <profile id="e79a-5690-1930-a931" name="Temporal Manipulation" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
           <characteristics>
             <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">6</characteristic>
             <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">12寸</characteristic>
@@ -4563,7 +4563,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05a9-ea80-e509-92fd" type="max"/>
       </constraints>
       <profiles>
-        <profile id="a8e2-118a-d7f9-e74a" name="Bolt of Change" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+        <profile id="a8e2-118a-d7f9-e74a" name="Bolt of Change" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
           <characteristics>
             <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">8</characteristic>
             <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
@@ -4597,7 +4597,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
             <characteristic name="效果" typeId="d9d0-fb29-706c-c99b">+1 Toughness</characteristic>
           </characteristics>
         </profile>
-        <profile id="68ba-477d-114f-9b3f" name="Boon of Change" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+        <profile id="68ba-477d-114f-9b3f" name="Boon of Change" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
           <characteristics>
             <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">7</characteristic>
             <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
@@ -4616,7 +4616,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1f5-c40b-5cc4-3d63" type="max"/>
       </constraints>
       <profiles>
-        <profile id="0924-b367-229f-f031" name="Flickering Flames" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+        <profile id="0924-b367-229f-f031" name="Flickering Flames" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
           <characteristics>
             <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">5</characteristic>
             <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
@@ -4635,7 +4635,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa17-21c2-b25b-7b45" type="max"/>
       </constraints>
       <profiles>
-        <profile id="a2cb-ae0d-70d2-68ba" name="Gaze of Fate" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+        <profile id="a2cb-ae0d-70d2-68ba" name="Gaze of Fate" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
           <characteristics>
             <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">6</characteristic>
             <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">N/A</characteristic>
@@ -4654,7 +4654,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ac7-8ad4-bbbb-0047" type="max"/>
       </constraints>
       <profiles>
-        <profile id="6e7a-3fd8-45db-a074" name="Infernal Gateway" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+        <profile id="6e7a-3fd8-45db-a074" name="Infernal Gateway" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
           <characteristics>
             <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">8</characteristic>
             <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">12寸</characteristic>
@@ -4673,7 +4673,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf94-3c9a-6fa0-9d9a" type="max"/>
       </constraints>
       <profiles>
-        <profile id="d312-ecdd-4546-d28a" name="Treason of 奸奇" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+        <profile id="d312-ecdd-4546-d28a" name="Treason of 奸奇" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
           <characteristics>
             <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">8</characteristic>
             <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
@@ -4745,7 +4745,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="45bd-df51-22cf-6045" type="min"/>
       </constraints>
       <profiles>
-        <profile id="19d0-7722-dab0-5b3d" name="惩击" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+        <profile id="19d0-7722-dab0-5b3d" name="惩击" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
           <characteristics>
             <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">5</characteristic>
             <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
@@ -4895,7 +4895,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
         </profile>
         <profile id="b9e7-4241-b8e3-39dd" name="Guided by Fate" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 you make a 命中 roll of 6+ for a 这个单位中的模型 (except the Disc&apos;s Blades), do not make a wound roll for that attack - it is 自动 successful. Saving throws may be attempted 对抗 these 攻击 as normal.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 you make a 命中骰的 6+ for a 这个单位中的模型 (except the Disc&apos;s Blades), do not make a wound roll for that attack - it is 自动 successful. Saving throws may be attempted 对抗 these 攻击 as normal.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5102,7 +5102,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
         </profile>
         <profile id="0d01-1710-a96f-16ab" name="4 - Ephemeral Touch" hidden="false" typeId="9760-a771-d0c8-a624" typeName="Warp Vortex - D6投掷">
           <characteristics>
-            <characteristic name="效果" typeId="65d3-42cb-a871-8c1c">选择1个 奸奇 单位 from your army 范围内 9寸 of the 漩涡兽; improve the AP of 所有 肉搏武器 wielded by 那个单位 by 1 直到回合结束 (for example, a 武器 with an AP of 0 would have an AP of -1 instead).</characteristic>
+            <characteristic name="效果" typeId="65d3-42cb-a871-8c1c">选择1个 奸奇 单位 from your army 范围内 9寸 of the 漩涡兽; improve the AP of 所有肉搏武器 wielded by 那个单位 by 1 直到回合结束 (for example, a 武器 with an AP of 0 would have an AP of -1 instead).</characteristic>
           </characteristics>
         </profile>
         <profile id="f996-f0b2-717c-d47d" name="3 - Temporal Flux" hidden="false" typeId="9760-a771-d0c8-a624" typeName="Warp Vortex - D6投掷">
@@ -5970,7 +5970,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
           <profiles>
             <profile id="41e2-127e-5bb1-581b" name="Athenaean Scrolls" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If you roll a double when making a successful 灵能测试 for 持有者, your opponent cannot attempt to resist that psychic power with a 否定巫术测试 or negate it by any means. Note that the 灵能者 will suffer Perils of the Warp 结果为roll of double 1 or double 6, and if slain by Perils of the Warp, the power they were trying to manifest will still 自动 fail.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If you roll a double when making a successful 灵能测试 for 持有者, your opponent cannot attempt to resist that 灵能 with a 否定巫术测试 or negate it by any means. Note that the 灵能者 will suffer Perils of the Warp 结果为roll of double 1 or double 6, and if slain by Perils of the Warp, the power they were trying to manifest will still 自动 fail.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6236,7 +6236,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
     </profile>
     <profile id="27a8-c34a-7a70-904e" name="诛杀伪帝" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 you roll a 命中 roll of 6+ for 模型 具有这个能力的 in the 肉搏阶段, it can, if it was targeting an 帝国 单位, 立即 make an extra attack 对抗 the same 单位 using the same 武器. These extra 攻击 cannot themselves generate any further 攻击.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 you roll a 命中骰的 6+ for 模型 具有这个能力的 in the 肉搏阶段, it can, if it was targeting an 帝国 单位, 立即 make an extra attack 对抗 the same 单位 using the same 武器. These extra 攻击 cannot themselves generate any further 攻击.</characteristic>
       </characteristics>
     </profile>
     <profile id="79d3-db1a-c054-9cf3" name="恶魔机魂" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -6306,7 +6306,7 @@ If your summoning roll included any doubles, your 人物 then 遭受 1点致命�
     </profile>
     <profile id="1276-2d88-86c7-6c26" name="Lord of Forbidden Lore" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Your 主将 knows one 额外的 psychic power.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Your 主将 knows one 额外的 灵能.</characteristic>
       </characteristics>
     </profile>
     <profile id="d31e-520a-c01d-38fe" name="Otherworldly Prescience" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">

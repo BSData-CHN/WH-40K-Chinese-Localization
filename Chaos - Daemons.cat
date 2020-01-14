@@ -1892,7 +1892,7 @@
       <profiles>
         <profile id="7a19-5b66-5e09-07a6" name="Collar of 恐虐" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once in each of your opponent’s Psychic phases, 可以选择1个 这个单位中的模型 to attempt to resist a psychic power in the same manner as a 灵能者 by taking a 否定巫术测试. To do so, that 模型 必须 范围内 24寸 of the 敌方模型 manifesting that psychic power.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once in each of your opponent’s Psychic phases, 可以选择1个 这个单位中的模型 to attempt to resist a 灵能 in the same manner as a 灵能者 by taking a 否定巫术测试. To do so, that 模型 必须 范围内 24寸 of the 敌方模型 manifesting that 灵能.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2008,7 +2008,7 @@
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When resolving an attack made 使用这个武器, do not make a 命中 roll: it 自动 scores a 命中.</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">自动命中.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2230,7 +2230,7 @@
             <characteristic name="Cast" typeId="5afb-9914-904b-d3b3">2</characteristic>
             <characteristic name="Deny" typeId="b5ac-9c20-5d5a-6f9b">2</characteristic>
             <characteristic name="Powers Known" typeId="69d7-b45e-00a2-7e46">惩击, three 灵能 奸奇 discipline.</characteristic>
-            <characteristic name="Other" typeId="c2e2-f115-0003-5d7b">Whenever a 万变魔君 attempts to manifest or deny a psychic power, add the bonus shown in its 损伤表.</characteristic>
+            <characteristic name="Other" typeId="c2e2-f115-0003-5d7b">Whenever a 万变魔君 attempts to manifest or deny a 灵能, add the bonus shown in its 损伤表.</characteristic>
           </characteristics>
         </profile>
         <profile id="40ee-8652-43e8-01e6" name="万变魔君" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
@@ -2309,7 +2309,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="ca72-96ab-7227-8a76" name="Secondary 武器" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="ca72-96ab-7227-8a76" name="副武器" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d353-7300-ef39-a87e" type="max"/>
           </constraints>
@@ -3492,7 +3492,7 @@
             <characteristic name="Cast" typeId="5afb-9914-904b-d3b3">3</characteristic>
             <characteristic name="Deny" typeId="b5ac-9c20-5d5a-6f9b">3</characteristic>
             <characteristic name="Powers Known" typeId="69d7-b45e-00a2-7e46">惩击, 所有 灵能 奸奇 discipline</characteristic>
-            <characteristic name="Other" typeId="c2e2-f115-0003-5d7b">Whenever 凯洛斯 织命者 attempts to manifest or deny a psychic power, add the bonus shown in its 损伤表. 此外, increase the range of the 惩击 power from 18寸 to 36寸 for 这个模型.</characteristic>
+            <characteristic name="Other" typeId="c2e2-f115-0003-5d7b">Whenever 凯洛斯 织命者 attempts to manifest or deny a 灵能, add the bonus shown in its 损伤表. 此外, increase the range of the 惩击 power from 18寸 to 36寸 for 这个模型.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3683,7 +3683,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">*</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">*</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">*</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When 变化魔 fights, choose a 肉搏武器 carried by any 敌方 步兵模型 1寸范围内 of 变化魔. The Trickster&apos;s Staff uses that 武器&apos;s profile 直到阶段结束.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When 变化魔 fights, choose a肉搏武器 carried by any 敌方 步兵模型 1寸范围内 of 变化魔. The Trickster&apos;s Staff uses that 武器&apos;s profile 直到阶段结束.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3734,12 +3734,12 @@
         </profile>
         <profile id="e1df-2a53-44eb-a1ad" name="P&apos;tarix&apos;s Sorcerous Syphon" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">敌方 灵能者 范围内 12寸 of 这个模型 减少 1 from their 灵能测试. If an 敌方 灵能者 范围内 12寸 fails a 灵能测试, their psychic power is syphoned and they cannot attempt to manifest it again in this battle.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">敌方 灵能者 范围内 12寸 of 这个模型 减少 1 from their 灵能测试. If an 敌方 灵能者 范围内 12寸 fails a 灵能测试, their 灵能 is syphoned and they cannot attempt to manifest it again in this battle.</characteristic>
           </characteristics>
         </profile>
         <profile id="bc71-9924-493d-0bfe" name="Xirat&apos;p&apos;s Sorcerous Barrage" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Though not a 灵能者, 蓝书记 自动 manifest one randomly selected 灵能 奸奇 discipline in your 灵能阶段. 此外, if 蓝书记 syphoned any 灵能 in the last 敌方 灵能阶段 they will also 自动 manifest the 惩击 psychic power. No 灵能测试 is taken to use any of these powers, and they 不能 denied. Where 结果 灵能测试 matters, the psychic power is treated as having been manifested with the minimum roll possible and without rolling a double.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Though not a 灵能者, 蓝书记 自动 manifest one randomly selected 灵能 奸奇 discipline in your 灵能阶段. 此外, if 蓝书记 syphoned any 灵能 in the last 敌方 灵能阶段 they will also 自动 manifest the 惩击 灵能. No 灵能测试 is taken to use any of these powers, and they 不能 denied. Where 结果 灵能测试 matters, the 灵能 is treated as having been manifested with the minimum roll possible and without rolling a double.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4191,7 +4191,7 @@ Matched Play: 模型 added to 这个单位 using the Split ability 必须 paid f
         </profile>
         <profile id="8001-04f9-6554-15bf" name="灵能者 单位" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Before manifesting or denying a psychic power with 这个单位, select one 这个单位中的模型 to be the source. When manifesting or denying that psychic power, measure distances and, if required, line of sight from that model. 如果这个单位 遭受 Perils of the Warp, it 遭受 D3 致命伤 as described in the core rules, but 单位 6寸范围内 will only suffer 致命伤 if the Perils of the Warp causes the last 这个单位中的模型 to be slain.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Before manifesting or denying a 灵能 with 这个单位, select one 这个单位中的模型 to be the source. When manifesting or denying that 灵能, measure distances and, if required, line of sight from that model. 如果这个单位 遭受 Perils of the Warp, it 遭受 D3 致命伤 as described in the core rules, but 单位 6寸范围内 will only suffer 致命伤 if the Perils of the Warp causes the last 这个单位中的模型 to be slain.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4907,7 +4907,7 @@ Matched Play: 模型 added to 这个单位 using the Split ability 必须 paid f
                 </profile>
                 <profile id="5a8b-e57d-db4d-6fcf" name="Putrid Offering" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If a 大不净者 装备了 a bileblade, it can use it to hook out a portion of its own rotting guts as an offering to 纳垢 每次 it attempts to manifest a psychic power. If it does so, the 大不净者 立即 遭受 1点致命伤 (which you may attempt to ignore due to being 可憎坚韧) before you take the 灵能测试, but you can then add 1 to the result.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If a 大不净者 装备了 a bileblade, it can use it to hook out a portion of its own rotting guts as an offering to 纳垢 每次 it attempts to manifest a 灵能. If it does so, the 大不净者 立即 遭受 1点致命伤 (which you may attempt to ignore due to being 可憎坚韧) before you take the 灵能测试, but you can then add 1 to the result.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5575,7 +5575,7 @@ Matched Play: 模型 added to 这个单位 using the Split ability 必须 paid f
               <profiles>
                 <profile id="ae61-bd1b-cbc7-1aa3" name="Sinistrous hand" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型拥有 sinistrous hand, then at the end of the 肉搏阶段, if 任何敌方模型 that are not 载具 were 被消灭 as a result of an attack made with a 肉搏武器 by 这个模型 that phase, 这个模型 恢复 至多 D3 失去的W.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型拥有 sinistrous hand, then at the end of the 肉搏阶段, if 任何敌方模型 that are not 载具 were 被消灭 as a result of an attack made with a肉搏武器 by 这个模型 that phase, 这个模型 恢复 至多 D3 失去的W.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7607,7 +7607,7 @@ Matched Play: 模型 added to 这个单位 using the Split ability 必须 paid f
         </profile>
         <profile id="b673-91eb-6cda-cc65" name="Shattering Onslaught" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">On any turn in which An&apos;ggrath the Unbound successfully charges, 投掷1个D6 for each 单位 1寸范围内 at the end of its 冲锋移动. 结果为result of a 2+, the 单位 遭受 D3 致命伤.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">On any turn in which An&apos;ggrath the Unbound successfully charges, 投掷1个D6 for each 单位 1寸范围内 at the end of its 冲锋移动. 结果为result of a 2+, 单位遭受 D3 致命伤.</characteristic>
           </characteristics>
         </profile>
         <profile id="583c-396f-8a28-7441" name="Frenzied Death-throes" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -7710,7 +7710,7 @@ Matched Play: 模型 added to 这个单位 using the Split ability 必须 paid f
         </profile>
         <profile id="57fa-682e-826a-d521" name="The Black Collar of 恐虐" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Uraka&apos;s controlling player may attempt to deny a single psychic power in each 敌方 灵能阶段.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Uraka&apos;s controlling player may attempt to deny a single 灵能 in each 敌方 灵能阶段.</characteristic>
           </characteristics>
         </profile>
         <profile id="85fe-6576-d468-d7b9" name="Unholy Frenzy" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -7935,7 +7935,7 @@ Matched Play: 模型 added to 这个单位 using the Split ability 必须 paid f
             <characteristic name="Cast" typeId="5afb-9914-904b-d3b3">3</characteristic>
             <characteristic name="Deny" typeId="b5ac-9c20-5d5a-6f9b">3</characteristic>
             <characteristic name="Powers Known" typeId="69d7-b45e-00a2-7e46">惩击, 3 灵能 奸奇 discipline</characteristic>
-            <characteristic name="Other" typeId="c2e2-f115-0003-5d7b">WheneverAetaos&apos;rau&apos;keres attempts to manifest or deny a psychic power, add the bonus shown in its 损伤表. 此外, increase the range of the 惩击 psychic power to 48寸 for Aetaos&apos;rau&apos;keres.</characteristic>
+            <characteristic name="Other" typeId="c2e2-f115-0003-5d7b">WheneverAetaos&apos;rau&apos;keres attempts to manifest or deny a 灵能, add the bonus shown in its 损伤表. 此外, increase the range of the 惩击 灵能 to 48寸 for Aetaos&apos;rau&apos;keres.</characteristic>
           </characteristics>
         </profile>
         <profile id="4de9-3239-c7e6-b5d8" name="Aetaos&apos;rau&apos;keres" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
@@ -7977,7 +7977,7 @@ Matched Play: 模型 added to 这个单位 using the Split ability 必须 paid f
         </profile>
         <profile id="fc34-7723-afc0-33a5" name="Mantle of Twisted Fates" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Any successfully manifested 敌方 psychic power directed 对抗 Aetaos&apos;rau&apos;keres is reflected back 结果为D6投掷 of 5+, the effects of the psychic power are ignored and the manifesting 灵能者 遭受 1点致命伤.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Any successfully manifested 敌方 灵能 directed 对抗 Aetaos&apos;rau&apos;keres is reflected back 结果为D6投掷 of 5+, the effects of the 灵能 are ignored and the manifesting 灵能者 遭受 1点致命伤.</characteristic>
           </characteristics>
         </profile>
         <profile id="1498-5ebe-183e-41e9" name="Render of the Veils" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -8225,7 +8225,7 @@ Matched Play: 模型 added to 这个单位 using the Split ability 必须 paid f
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">+1</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 you make a wound roll of 4+ 使用这个武器, it inflicts 3 致命伤 而不是 its normal 伤害 对抗 the 目标单位.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 you make a wound roll of 4+ 使用这个武器, it inflicts 3 致命伤 而不是 its 普通伤害 对抗 the 目标单位.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8335,7 +8335,7 @@ Matched Play: 模型 added to 这个单位 using the Split ability 必须 paid f
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">+2</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When targeting a 单位 使用这个武器 during the 肉搏阶段, add +3 to the 伤害 caused if 目标 单位 has the 步兵 关键字.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">瞄准 单位 使用这个武器 during the 肉搏阶段, add +3 to the 伤害 caused if 目标 单位 has the 步兵 关键字.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8436,7 +8436,7 @@ Matched Play: 模型 added to 这个单位 using the Split ability 必须 paid f
         </profile>
         <profile id="19e3-62ca-9982-ed59" name="Poison Slime" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 Cor&apos;bax Utterblight successfully completes a 冲锋移动, 投掷1个D6 for each 敌方单位 1寸范围内. For each roll of a 2+, 那个单位 遭受 1点致命伤.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 Cor&apos;bax Utterblight successfully completes a 冲锋移动, 投掷1个D6 for each 敌方单位 1寸范围内. 每个结果中的 2+, 那个单位 遭受 1点致命伤.</characteristic>
           </characteristics>
         </profile>
         <profile id="1e56-73c6-d418-20cb" name="Noisome Tide of Flesh" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -9260,7 +9260,7 @@ Matched Play: 模型 added to 这个单位 using the Split ability 必须 paid f
             <characteristic name="效果" typeId="fa1f-c762-e6c4-1582">+1 Toughness</characteristic>
           </characteristics>
         </profile>
-        <profile id="0a92-3cc9-b2e1-1eba" name="Boon of Change" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+        <profile id="0a92-3cc9-b2e1-1eba" name="Boon of Change" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
           <characteristics>
             <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">7</characteristic>
             <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
@@ -9279,7 +9279,7 @@ Matched Play: 模型 added to 这个单位 using the Split ability 必须 paid f
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5311-3c3c-2958-61b4" type="max"/>
       </constraints>
       <profiles>
-        <profile id="3814-8ef0-0b69-9b61" name="Bolt of Change" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+        <profile id="3814-8ef0-0b69-9b61" name="Bolt of Change" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
           <characteristics>
             <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">8</characteristic>
             <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
@@ -9631,7 +9631,7 @@ Matched Play: 模型 added to 这个单位 using the Split ability 必须 paid f
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53f4-9885-6a38-4a22" type="max"/>
       </constraints>
       <profiles>
-        <profile id="6422-b5fc-7730-ba38" name="Death Hex" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+        <profile id="6422-b5fc-7730-ba38" name="Death Hex" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
           <characteristics>
             <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">8</characteristic>
             <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">12寸</characteristic>
@@ -9650,7 +9650,7 @@ Matched Play: 模型 added to 这个单位 using the Split ability 必须 paid f
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8907-a6c9-e391-5bac" type="max"/>
       </constraints>
       <profiles>
-        <profile id="daa6-d39a-5ddf-03df" name="Diabolic Strength" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+        <profile id="daa6-d39a-5ddf-03df" name="Diabolic Strength" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
           <characteristics>
             <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">6</characteristic>
             <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">12寸</characteristic>
@@ -9669,7 +9669,7 @@ Matched Play: 模型 added to 这个单位 using the Split ability 必须 paid f
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1238-83a4-b83b-2e9b" type="max"/>
       </constraints>
       <profiles>
-        <profile id="0663-318a-4d7f-480b" name="Gift of 混沌" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+        <profile id="0663-318a-4d7f-480b" name="Gift of 混沌" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
           <characteristics>
             <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">6</characteristic>
             <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">6寸</characteristic>
@@ -9688,7 +9688,7 @@ Matched Play: 模型 added to 这个单位 using the Split ability 必须 paid f
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc04-8a2d-ac22-d4cc" type="max"/>
       </constraints>
       <profiles>
-        <profile id="623b-30be-07f4-34f1" name="地狱凝视" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+        <profile id="623b-30be-07f4-34f1" name="地狱凝视" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
           <characteristics>
             <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">5</characteristic>
             <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
@@ -9707,7 +9707,7 @@ Matched Play: 模型 added to 这个单位 using the Split ability 必须 paid f
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3be7-b887-0c38-6549" type="max"/>
       </constraints>
       <profiles>
-        <profile id="8720-8b60-b422-be44" name="Gaze of Fate" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+        <profile id="8720-8b60-b422-be44" name="Gaze of Fate" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
           <characteristics>
             <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">6</characteristic>
             <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">N/A</characteristic>
@@ -9726,7 +9726,7 @@ Matched Play: 模型 added to 这个单位 using the Split ability 必须 paid f
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d650-5622-c1ec-39a1" type="max"/>
       </constraints>
       <profiles>
-        <profile id="af79-51f2-9e13-8520" name="Flickering Flames" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+        <profile id="af79-51f2-9e13-8520" name="Flickering Flames" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
           <characteristics>
             <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">5</characteristic>
             <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
@@ -9745,7 +9745,7 @@ Matched Play: 模型 added to 这个单位 using the Split ability 必须 paid f
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca24-9153-e09b-6faf" type="max"/>
       </constraints>
       <profiles>
-        <profile id="8d42-820d-b4c7-25c5" name="Infernal Gateway" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+        <profile id="8d42-820d-b4c7-25c5" name="Infernal Gateway" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
           <characteristics>
             <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">8</characteristic>
             <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">12寸</characteristic>
@@ -9951,7 +9951,7 @@ Matched Play: 模型 added to 这个单位 using the Split ability 必须 paid f
       <profiles>
         <profile id="c3d7-9aad-6268-b16d" name="Lorekeeper of 奸奇" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 6寸 to the range of the first psychic power manifested by your 主将 in each 灵能阶段.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 6寸 to the range of the first 灵能 manifested by your 主将 in each 灵能阶段.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10156,7 +10156,7 @@ Matched Play: 模型 added to 这个单位 using the Split ability 必须 paid f
         </profile>
         <profile id="40b4-9f1a-1f47-f689" name="Deluge of 纳垢" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 Rotigus successfully manifests a psychic power with a 灵能测试 of 7 or more, 最近的 敌方单位 to him 遭受 1点致命伤 after the effects of the psychic power have been resolved.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 Rotigus successfully manifests a 灵能 with a 灵能测试 of 7 or more, 最近的 敌方单位 to him 遭受 1点致命伤 after the effects of the 灵能 have been resolved.</characteristic>
           </characteristics>
         </profile>
         <profile id="40f3-3cf2-7dcd-4743" name="Rotigus" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
@@ -10555,7 +10555,7 @@ Matched Play: 模型 added to 这个单位 using the Split ability 必须 paid f
         </profile>
         <profile id="16dc-705d-a65b-b52b" name="Keep Counting! Meet your Quota!" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to 所有命中骰 made for 瘟疫使者 单位 6寸范围内 of one or more 友方模型 具有这个能力的. 此外, if you make a 命中 roll of 7+ for a 瘟疫使者 单位 6寸范围内 off one or more 友方模型 具有这个能力的, you can 立即 make one 额外攻击 at the same target with the same 武器 (these bonus 攻击 cannot themselves generate any further 攻击).</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to 所有命中骰 made for 瘟疫使者 单位 6寸范围内 of one or more 友方模型 具有这个能力的. 此外, if you make a 命中骰的 7+ for a 瘟疫使者 单位 6寸范围内 off one or more 友方模型 具有这个能力的, you can 立即 make one 额外攻击 at the same target with the same 武器 (these bonus 攻击 cannot themselves generate any further 攻击).</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10856,7 +10856,7 @@ Matched Play: 模型 added to 这个单位 using the Split ability 必须 paid f
               <profiles>
                 <profile id="eff4-a1f8-78a2-6120" name="Locus of Trickery" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">人物 in a 奸奇 混沌恶魔 detachment have the following ability: Roll 2 dice 开始时 of each 肉搏阶段 and discard the highest result. Until the end of that phase, 每次 your opponent targets a 奸奇 恶魔 单位 6寸范围内 of a 友方模型 with the Locus of Trickery and makes a 命中 roll that, after re-骰 but before modifiers, matches your remaining dice result, that 命中 roll fails.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">人物 in a 奸奇 混沌恶魔 detachment have the following ability: Roll 2 dice 开始时 of each 肉搏阶段 and discard the highest result. Until the end of that phase, 每次 your opponent targets a 奸奇 恶魔 单位 6寸范围内 of a 友方模型 with the Locus of Trickery and makes a 命中骰 that, after re-骰 but before modifiers, matches your remaining dice result, that 命中骰 fails.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -11083,7 +11083,7 @@ Matched Play: 模型 added to 这个单位 using the Split ability 必须 paid f
             <characteristic name="S" typeId="59b1-319e-ec13-d466">+1</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">重投 所有 失败的 造伤骰 for 这个武器 when targeting a 人物.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">重投 所有 失败的 造伤骰 for 这个武器 瞄准 人物.</characteristic>
           </characteristics>
         </profile>
         <profile id="8e85-a11e-a308-1b27" name="A&apos;rgath, the King of Blades" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -11124,7 +11124,7 @@ Matched Play: 模型 added to 这个单位 using the Split ability 必须 paid f
             <characteristic name="S" typeId="59b1-319e-ec13-d466">+3</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">重投 所有 失败的 造伤骰 for 这个武器 when targeting a 巨型 单位. 每次 you make a wound roll of 6+ for 这个武器, 目标 遭受 D3 致命伤 此外 to the normal 伤害.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">重投 所有 失败的 造伤骰 for 这个武器 瞄准 巨型 单位. 每次 you make a wound roll of 6+ for 这个武器, 目标 遭受 D3 致命伤 此外 to 普通伤害.</characteristic>
           </characteristics>
         </profile>
         <profile id="8e5f-1a68-582e-893d" name="Skullreaver" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -11579,7 +11579,7 @@ Matched Play: 模型 added to 这个单位 using the Split ability 必须 paid f
       <profiles>
         <profile id="b171-f029-be85-ce53" name="Armour of Scorn" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The wearer of the Armour of Scorn 拥有 4+ 特殊保护 and can attempt to deny one Psychic power in each 敌方 灵能阶段.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The wearer of the Armour of Scorn 拥有 4+ 特殊保护 and can attempt to deny one 灵能 in each 敌方 灵能阶段.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11876,7 +11876,7 @@ Matched Play: 模型 added to 这个单位 using the Split ability 必须 paid f
       <profiles>
         <profile id="9a95-cbb9-2944-ce80" name="Cloak of Constriction" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made with a 肉搏武器 对抗 这个模型, 减少 1 from the wound roll.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made with a肉搏武器 对抗 这个模型, 减少 1 from the wound roll.</characteristic>
           </characteristics>
         </profile>
         <profile id="7001-c110-3baf-195b" name="Monarch of the Hunt" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -13045,24 +13045,24 @@ If your高阶恶魔仪式 summoning roll included any doubles, your summoning �
     </profile>
     <profile id="ea78-399f-19c0-53fa" name="Unstoppable Ferocity" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个单位进行冲锋移动, 冲锋成功,或进行英勇干预, then 直到回合结束 A+1 of 所有 its 模型 and add 1 to the S值 of 所有 the 肉搏武器 the 单位 装备了.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个单位进行冲锋移动, 冲锋成功,或进行英勇干预, then 直到回合结束 A+1 of 所有 its 模型 and add 1 to the S值 of 所有 the肉搏武器 the 单位 装备了.</characteristic>
       </characteristics>
     </profile>
-    <profile id="625a-7853-bbe8-7e73" name="Stream of Corruption" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+    <profile id="625a-7853-bbe8-7e73" name="Stream of Corruption" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
       <characteristics>
         <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">5</characteristic>
         <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">7寸</characteristic>
         <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">如果施放成功, 范围内最近的敌方单位  7寸 if the 灵能者 and 可见 to it 遭受 D3 致命伤 if it has fewer than 10 models, or D6 致命伤 if it has 10 模型 or more.</characteristic>
       </characteristics>
     </profile>
-    <profile id="d803-c369-40fb-4d82" name="Virulent Blessing" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+    <profile id="d803-c369-40fb-4d82" name="Virulent Blessing" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
       <characteristics>
         <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">7</characteristic>
         <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
         <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">如果施放成功, 选择1个 友方 纳垢 恶魔 单位 18寸范围内 of the 灵能者. Add 1 to 造伤骰 made by 那个单位 in the 肉搏阶段. Furthermore, 造伤骰 of 7+ made for 那个单位 in the 肉搏阶段 inflict double 伤害.</characteristic>
       </characteristics>
     </profile>
-    <profile id="4da7-5d51-080e-fd9e" name="Fleshy Abundance" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+    <profile id="4da7-5d51-080e-fd9e" name="Fleshy Abundance" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
       <characteristics>
         <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">5</characteristic>
         <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
@@ -13079,28 +13079,28 @@ If your高阶恶魔仪式 summoning roll included any doubles, your summoning �
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">单位 具有这个能力的 have a 5+ 特殊保护.</characteristic>
       </characteristics>
     </profile>
-    <profile id="001b-9a0c-1d74-2bd8" name="Cacophonic Choir" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+    <profile id="001b-9a0c-1d74-2bd8" name="Cacophonic Choir" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
       <characteristics>
         <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">6</characteristic>
         <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
         <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">如果施放成功, roll 2D6 (adding 2 to the result if the 灵能测试 结果超过 10). 最近的 敌方单位 that is 18寸范围内 of the 灵能者 and 可见 to it 遭受 1点致命伤 for each point that the total exceeds their highest LD值.</characteristic>
       </characteristics>
     </profile>
-    <profile id="13c5-456a-e2ea-8094" name="Symphony of Pain" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+    <profile id="13c5-456a-e2ea-8094" name="Symphony of Pain" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
       <characteristics>
         <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">6</characteristic>
         <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
         <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">如果施放成功, the nearest 敌方单位 that is 18寸范围内 of the 灵能者 and 可见 to it is struck by unbearable pain. Your opponent 必须 减少 1 from 所有命中骰 made by 这个单位 until the start of your next 灵能阶段.</characteristic>
       </characteristics>
     </profile>
-    <profile id="30e8-742c-afec-6293" name="Hysterical Frenzy" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+    <profile id="30e8-742c-afec-6293" name="Hysterical Frenzy" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
       <characteristics>
         <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">8</characteristic>
         <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
         <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">如果施放成功, 选择1个 single 友方 色孽 恶魔 单位 18寸范围内 of the 灵能者 that is 1寸范围内 of an 敌方单位. 那个单位 can fight as if it were the 肉搏阶段.</characteristic>
       </characteristics>
     </profile>
-    <profile id="9553-8852-8fdd-b7e0" name="Treason of 奸奇" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+    <profile id="9553-8852-8fdd-b7e0" name="Treason of 奸奇" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
       <characteristics>
         <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">8</characteristic>
         <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
@@ -13112,21 +13112,21 @@ If your高阶恶魔仪式 summoning roll included any doubles, your summoning �
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投命中骰 of 1 made for 友方 恶魔 单位 6寸范围内, but only if they owe their allegiance to the same 混沌God e.g. 恐虐 恶魔 单位 are only affected by 恐虐 恶魔 Princes.</characteristic>
       </characteristics>
     </profile>
-    <profile id="7d82-9e45-9331-fcec" name="Warptime" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+    <profile id="7d82-9e45-9331-fcec" name="Warptime" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
       <characteristics>
         <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">6</characteristic>
         <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">3寸</characteristic>
         <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">如果施放成功, 选择1个 友方 阿斯塔特叛军 单位 范围内 3寸 of the 灵能者. 那个单位 can 立即 move as if it were its 移动阶段. You cannot use Warptime 结果为单位 more than once in each 灵能阶段.</characteristic>
       </characteristics>
     </profile>
-    <profile id="9035-70c0-35ac-d8e8" name="地狱凝视" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+    <profile id="9035-70c0-35ac-d8e8" name="地狱凝视" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
       <characteristics>
         <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">5</characteristic>
         <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
         <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">如果施放成功, 选择1个 可见 敌方单位 18寸范围内 of the 灵能者 and roll 3 dice. 目标 遭受 one 致命伤 for each roll of 4+.</characteristic>
       </characteristics>
     </profile>
-    <profile id="3399-01e9-6695-013e" name="Prescience" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+    <profile id="3399-01e9-6695-013e" name="Prescience" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
       <characteristics>
         <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">7</characteristic>
         <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
@@ -13184,42 +13184,42 @@ If your高阶恶魔仪式 summoning roll included any doubles, your summoning �
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个单位 拥有 4+ 特殊保护.</characteristic>
       </characteristics>
     </profile>
-    <profile id="8237-a5d7-4f2e-6301" name="纳垢&apos;s Rot" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+    <profile id="8237-a5d7-4f2e-6301" name="纳垢&apos;s Rot" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
       <characteristics>
         <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">7</characteristic>
         <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">7寸</characteristic>
         <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">如果施放成功, 投掷1个D6 for every 单位 (excluding 纳垢 单位) 范围内 7寸 of the 灵能者. 结果为4+ the 单位 being rolled for 遭受 D3 致命伤.</characteristic>
       </characteristics>
     </profile>
-    <profile id="207e-02cb-6f3b-9849" name="Shrivelling Pox" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+    <profile id="207e-02cb-6f3b-9849" name="Shrivelling Pox" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
       <characteristics>
         <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">6</characteristic>
         <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
         <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">如果施放成功, select an 敌方单位 that is 18寸范围内 of the 灵能者 and 可见 to it. Until the start of your next 灵能阶段, 减少 1 from the 目标单位&apos;s T值.</characteristic>
       </characteristics>
     </profile>
-    <profile id="ce6d-0789-64bb-2729" name="Miasma of Pestilence" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+    <profile id="ce6d-0789-64bb-2729" name="Miasma of Pestilence" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
       <characteristics>
         <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">6</characteristic>
         <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
         <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">如果施放成功, 选择1个 友方 纳垢 恶魔 单位 18寸范围内 of the 灵能者. Until the start of your next 灵能阶段, your opponent 必须 select 1 from 所有命中骰 that target 那个单位.</characteristic>
       </characteristics>
     </profile>
-    <profile id="717c-731c-815a-6dd8" name="Delightful Agonies" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+    <profile id="717c-731c-815a-6dd8" name="Delightful Agonies" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
       <characteristics>
         <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">5</characteristic>
         <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
         <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">如果施放成功, 选择1个 single 友方 色孽 恶魔 单位 18寸范围内 of the 灵能者. Until the start of your next 灵能阶段, 投掷1个D6 每次 模型 in 那个单位 失去1点W - 结果为6 that 模型 不会失去W.</characteristic>
       </characteristics>
     </profile>
-    <profile id="6b94-a7a1-2d08-9e92" name="Pavane of 色孽" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+    <profile id="6b94-a7a1-2d08-9e92" name="Pavane of 色孽" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
       <characteristics>
         <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">6</characteristic>
         <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
-        <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">如果施放成功, select an 敌方单位 that is 18寸范围内 of the 灵能者 and 可见 to them. 投掷1个D6 for each 模型 in the 单位; the 单位 遭受 1点致命伤 for each roll of 6.</characteristic>
+        <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">如果施放成功, select an 敌方单位 that is 18寸范围内 of the 灵能者 and 可见 to them. 投掷1个D6 for each 模型 in the 单位; 单位遭受 1点致命伤 for each roll of 6.</characteristic>
       </characteristics>
     </profile>
-    <profile id="8e85-1e73-0ff6-0e91" name="Phantasmagoria" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+    <profile id="8e85-1e73-0ff6-0e91" name="Phantasmagoria" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
       <characteristics>
         <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">6</characteristic>
         <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">12寸</characteristic>
@@ -13228,12 +13228,12 @@ If your高阶恶魔仪式 summoning roll included any doubles, your summoning �
     </profile>
     <profile id="1420-58bf-7837-99bf" name="Deathbringer" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each unmodified 命中 roll of 6 made for 这个模型 in the 肉搏阶段 scores 2 命中 而不是 1.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each unmodified 命中骰的 6 made for 这个模型 in the 肉搏阶段 scores 2 命中 而不是 1.</characteristic>
       </characteristics>
     </profile>
     <profile id="bcb1-5bef-c1f8-1063" name="Devastating Blow" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 your 主将 fights, 可以造成 a single Devastating Blow attack 而不是 its normal 肉搏 攻击. If it does, make a single 命中 roll; if successful, 目标 遭受 D3 致命伤.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 your 主将 fights, 可以造成 a single Devastating Blow attack 而不是 its normal 肉搏 攻击. If it does, make a single 命中骰; if successful, 目标 遭受 D3 致命伤.</characteristic>
       </characteristics>
     </profile>
     <profile id="d3d4-3509-1fec-a4e2" name="Rage Incarnate" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -13318,7 +13318,7 @@ If your高阶恶魔仪式 summoning roll included any doubles, your summoning �
     </profile>
     <profile id="27ee-b576-e620-bed8" name="Mesmerising Aura" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made with a 肉搏武器 对抗 这个模型, 命中骰-1.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made with a肉搏武器 对抗 这个模型, 命中骰-1.</characteristic>
       </characteristics>
     </profile>
     <profile id="11de-19d6-fb18-52a8" name="Delicate Precision" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">

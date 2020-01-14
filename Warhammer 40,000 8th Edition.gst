@@ -1907,7 +1907,7 @@
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">14</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-                    <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Treat any 伤害 骰 of 1 or 2 made for 这个武器 as 3 instead.</characteristic>
+                    <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Treat any 伤害骰 of 1 or 2 made for 这个武器 as 3 instead.</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="c2e0-4b21-bef8-704e" name="Aquila Macro-cannon (Quake Shell)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -2365,7 +2365,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-                <characteristic name="能力" typeId="837d-5e63-aeb7-1410">每次 you roll a 命中 roll of 1 when firing 这个武器, 这个模型 遭受 1点致命伤 after 所有 of its shots have been resolved.</characteristic>
+                <characteristic name="能力" typeId="837d-5e63-aeb7-1410">每次 you roll a 命中骰的 1 when firing 这个武器, 这个模型 遭受 1点致命伤 after 所有 of its shots have been resolved.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3230,10 +3230,10 @@
         <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d8c6-5a0f-4e89-c05a" name="Plasma incinerator" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="d8c6-5a0f-4e89-c05a" name="等离子焚化者" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="3a5a-979d-4e6c-906f" name="Plasma incinerator, 标准" hidden="false" targetId="474e-aeec-1b23-c181" type="profile"/>
-        <infoLink id="600d-51ac-4e72-98a3" name="Plasma incinerator, 过载" hidden="false" targetId="bd7b-6edf-e450-9b4a" type="profile"/>
+        <infoLink id="3a5a-979d-4e6c-906f" name="等离子焚化者, 标准" hidden="false" targetId="474e-aeec-1b23-c181" type="profile"/>
+        <infoLink id="600d-51ac-4e72-98a3" name="等离子焚化者, 过载" hidden="false" targetId="bd7b-6edf-e450-9b4a" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="15.0"/>
@@ -4033,8 +4033,8 @@
     </selectionEntry>
     <selectionEntry id="801b-d6b0-333f-bc49" name="等离子焚化枪" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="3ca6-5a00-ea4f-4277" name="Plasma incinerator, 标准" hidden="false" targetId="474e-aeec-1b23-c181" type="profile"/>
-        <infoLink id="2cf6-aaa4-6d7b-0d25" name="Plasma incinerator, 过载" hidden="false" targetId="bd7b-6edf-e450-9b4a" type="profile"/>
+        <infoLink id="3ca6-5a00-ea4f-4277" name="等离子焚化者, 标准" hidden="false" targetId="474e-aeec-1b23-c181" type="profile"/>
+        <infoLink id="2cf6-aaa4-6d7b-0d25" name="等离子焚化者, 过载" hidden="false" targetId="bd7b-6edf-e450-9b4a" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="15.0"/>
@@ -4289,7 +4289,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="f247-eee5-b8ce-1efa" name="Secondary 武器" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="f247-eee5-b8ce-1efa" name="副武器" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f221-cff6-2246-cd0d" type="max"/>
           </constraints>
@@ -4693,7 +4693,7 @@
                 <condition field="selections" scope="5ea6-c789-f6b9-5c00" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7a60-bc15-dc4b-eba5" type="equalTo"/>
               </conditions>
             </modifier>
-            <modifier type="append" field="15aa-1916-a38b-d223" value="步兵模型. Each 跳跃背包 or 终结者模型 takes the space of two other 模型. 不能运输 原铸 模型."/>
+            <modifier type="append" field="15aa-1916-a38b-d223" value="步兵模型. Each 跳跃背包 or 终结者模型 占用 2 个运输槽位 other 模型. 不能运输 原铸 模型."/>
           </modifiers>
           <characteristics>
             <characteristic name="容量" typeId="15aa-1916-a38b-d223">0</characteristic>
@@ -4883,7 +4883,7 @@
                 <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="63b7-0f19-af97-5a68" name="Two Hurricane Bolters" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="63b7-0f19-af97-5a68" name="2飓风爆弹" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -6255,7 +6255,7 @@
                   <profiles>
                     <profile id="0184-00c1-f033-65cd" name="24: Sundering Shots" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each wound roll of 6+ made for 这个模型’s ranged 攻击 inflicts 1 致命伤 对目标 此外 to any normal 伤害.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each wound roll of 6+ made for 这个模型’s ranged 攻击 inflicts 1 致命伤 对目标 此外 to any 普通伤害.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6306,7 +6306,7 @@
                   <profiles>
                     <profile id="49f0-a183-7e98-a4b1" name="31: Grudge" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投 任何命中, wound and 伤害 骰 made for 这个模型’s 攻击 that target the 敌方 主将.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投 任何命中, wound and 伤害骰 made for 这个模型’s 攻击 that target the 敌方 主将.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6493,7 +6493,7 @@
                   <profiles>
                     <profile id="1f69-1696-0676-0b09" name="46: Foresight" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, if 这个模型 is 战场上, 可以重投 one 命中 roll, wound roll, 伤害 roll or saving throw.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, if 这个模型 is 战场上, 可以重投 one 命中骰, wound roll, 伤害 roll or saving throw.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6820,7 +6820,7 @@
                   <profiles>
                     <profile id="37ad-2ef0-0868-af26" name="08: Finely Balanced" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s 肉搏武器. Add the following ability to that 武器: ‘持有者每次攻击, 这个武器可以造成 1 点额外攻击.’</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s肉搏武器. Add the following ability to that 武器: ‘持有者每次攻击, 这个武器可以造成 1 点额外攻击.’</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6837,7 +6837,7 @@
                   <profiles>
                     <profile id="1ce8-bd94-7cf0-e20f" name="09: Shredder" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s 肉搏武器. Add the following ability to that 武器: ‘可以重投失败的造伤骰 for 攻击 made 使用这个武器.’</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s肉搏武器. Add the following ability to that 武器: ‘可以重投失败的造伤骰 for 攻击 made 使用这个武器.’</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6854,7 +6854,7 @@
                   <profiles>
                     <profile id="96c3-0639-a1a2-86e0" name="10: Brutal" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s 肉搏武器. Improve that 武器的 S值 by 1 (e.g. User becomes +1, +1 becomes +2).</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s肉搏武器. Improve that 武器的 S值 by 1 (e.g. User becomes +1, +1 becomes +2).</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6871,7 +6871,7 @@
                   <profiles>
                     <profile id="ae27-0269-204d-ceb0" name="11: Razor-edged" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s 肉搏武器. Improve that 武器的 AP值 by 1 (e.g. AP -1 becomes AP -2).</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s肉搏武器. Improve that 武器的 AP值 by 1 (e.g. AP -1 becomes AP -2).</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6888,7 +6888,7 @@
                   <profiles>
                     <profile id="c8c0-671c-6174-969c" name="12: Heirloom" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s 肉搏武器. Add the following ability to that 武器: ‘Each unmodified 命中 roll of 6 made for 攻击 使用这个武器 scores 2 命中 而不是 1’.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s肉搏武器. Add the following ability to that 武器: ‘Each unmodified 命中骰的 6 made for 攻击 使用这个武器 scores 2 命中 而不是 1’.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7583,7 +7583,7 @@
               <profiles>
                 <profile id="ef8a-c766-1084-0416" name="R3: Sweeping Blows" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each unmodified 命中 roll of 6 made for 这个模型’s 攻击 in the 肉搏阶段 score 2 命中 而不是 1. </characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each unmodified 命中骰的 6 made for 这个模型’s 攻击 in the 肉搏阶段 score 2 命中 而不是 1. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7792,7 +7792,7 @@
               <profiles>
                 <profile id="2356-d59e-e2b3-6667" name="R3: Storied 载具" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投 one 命中 roll or wound roll for 这个单位 in each of your 射击阶段. </characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投 one 命中骰 or wound roll for 这个单位 in each of your 射击阶段. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7885,7 +7885,7 @@
     <rule id="74b3-2e30-9d76-a958" name="Infiltrator" hidden="false">
       <description>部署期间, 这个单位 can be 放置 任何位置 战场上 that is not 范围内 your opponent&apos;s 部署区 and is more than 12寸 from any 敌方单位.</description>
     </rule>
-    <rule id="15ea-860d-9eb6-21c3" name="Airborne" hidden="false">
+    <rule id="15ea-860d-9eb6-21c3" name="滞空" hidden="false">
       <description>这个模型 不能冲锋, can only be charged by 单位 飞行关键字, and can only attack or be attacked in the 肉搏阶段 by 单位 飞行关键字.</description>
     </rule>
     <rule id="9caa-ff00-a5bd-5f04" name="难以命中" hidden="false">
@@ -8646,7 +8646,7 @@
     <profile id="39bf-dff4-053a-7360" name="Macro Shell" publicationId="28ec-711c-pubN77581" page="111" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="射程" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72</characteristic>
-        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Primary 武器 2, Large Blast</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">主武器 2, Large Blast</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466"/>
         <characteristic name="AP" typeId="75aa-a838-b675-6484"/>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7"/>
@@ -8656,7 +8656,7 @@
     <profile id="0293-567f-c305-724a" name="Quake Shell" publicationId="28ec-711c-pubN77581" page="111" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="射程" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">180</characteristic>
-        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Primary 武器 1, Apocalyptic Mega-blast, Sonic Boom</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">主武器 1, Apocalyptic Mega-blast, Sonic Boom</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466"/>
         <characteristic name="AP" typeId="75aa-a838-b675-6484"/>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7"/>
@@ -8695,7 +8695,7 @@
     </profile>
     <profile id="f0ec-023c-4865-fe5a" name="灵能头箍" publicationId="28ec-711c-pubN72690" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 a 单位 (or model) is targeted by an 敌方 psychic power and is 范围内 12寸 of a 友方模型 with a 灵能头箍, the wearer of the hood can attempt to Deny the Witch in their stead, as if he were in the 目标单位.  If the Deny the Witch attempt is 失败的, the psychic power is resolved as normal, but effects only the initial target, not the wearer of the hood.  如果模型 with a 灵能头箍 is 上车 in a 载具 or 建筑, he can only use the hood to nullify powers targeting the 载具 or 建筑 he is 上车 within.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 a 单位 (or model) is targeted by an 敌方 灵能 and is 范围内 12寸 of a 友方模型 with a 灵能头箍, the wearer of the hood can attempt to Deny the Witch in their stead, as if he were in the 目标单位.  If the Deny the Witch attempt is 失败的, the 灵能 is resolved as normal, but effects only the initial target, not the wearer of the hood.  如果模型 with a 灵能头箍 is 上车 in a 载具 or 建筑, he can only use the hood to nullify powers targeting the 载具 or 建筑 he is 上车 within.</characteristic>
       </characteristics>
     </profile>
     <profile id="98ac-5132-9ebd-c355" name="轨道打击" publicationId="28ec-711c-pubN72690" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -9594,7 +9594,7 @@
     </profile>
     <profile id="8830-2c9e-ad7e-e57d" name="不可移动 (工事)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 不能移动 for any reason, nor can it fight in the 肉搏阶段. When resolving an attack made 对抗 这个模型 in the 肉搏阶段, do not make a 命中 roll: it 自动 scores a 命中. 这个模型 可以在射击阶段射击 even if there are 敌方模型 1寸范围内 of it, and 友方单位 can still target 敌方单位 that are 1寸范围内 of 这个模型.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 不能移动 for any reason, nor can it fight in the 肉搏阶段. When resolving an attack made 对抗 这个模型 in the 肉搏阶段, do not make a 命中骰: it 自动 scores a 命中. 这个模型 可以在射击阶段射击 even if there are 敌方模型 1寸范围内 of it, and 友方单位 can still target 敌方单位 that are 1寸范围内 of 这个模型.</characteristic>
       </characteristics>
     </profile>
     <profile id="76e8-a8df-d243-1673" name="破片突击发射器" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">

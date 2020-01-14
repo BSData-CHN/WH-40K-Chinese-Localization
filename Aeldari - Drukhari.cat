@@ -1138,7 +1138,7 @@
       <profiles>
         <profile id="184c-98d5-4a0d-1472" name="Raider" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
           <characteristics>
-            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">这个模型 可以运输 10 INCUBI or 黑暗灵族 步兵模型. Each Grotesque takes the space of two 模型. 这个模型 cannot transport Hellions or SKYBOARD 模型. </characteristic>
+            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">这个模型 可以运输 10 INCUBI or 黑暗灵族 步兵模型. Each Grotesque 占用 2 个运输槽位 模型. 这个模型 cannot transport Hellions or SKYBOARD 模型. </characteristic>
           </characteristics>
         </profile>
         <profile id="7545-acb9-51de-7827" name="Raider" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
@@ -1436,7 +1436,7 @@
       </profiles>
       <infoLinks>
         <infoLink id="d060-c018-a465-5edf" name="超音速" hidden="false" targetId="6e34-3100-f14f-cff0" type="profile"/>
-        <infoLink id="91cc-94e9-eed7-5068" name="Airborne" hidden="false" targetId="583f-6e1a-8431-70ff" type="profile"/>
+        <infoLink id="91cc-94e9-eed7-5068" name="滞空" hidden="false" targetId="583f-6e1a-8431-70ff" type="profile"/>
         <infoLink id="f5d0-3bf2-90e2-3c32" name="难以命中" hidden="false" targetId="b6c4-ad82-ad7d-5039" type="profile"/>
         <infoLink id="bc61-4c2f-0cb6-fbe2" name="Strength from Death" hidden="false" targetId="a2dc-6516-aaab-8cf9" type="rule"/>
       </infoLinks>
@@ -1500,7 +1500,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="9021-6ccf-b6fb-5ff1" name="Secondary 武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="1540-86ed-acdc-b59b">
+        <selectionEntryGroup id="9021-6ccf-b6fb-5ff1" name="副武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="1540-86ed-acdc-b59b">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="327c-4e7c-e0d4-698c" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f891-1e54-3925-a83d" type="max"/>
@@ -1533,7 +1533,7 @@
             <entryLink id="d0b9-823e-db49-3dd2" name="Splinter Cannon" hidden="false" collective="false" import="true" targetId="2478-2b90-2336-720e" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="c8e4-1ef3-749e-6d24" name="Primary 武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="6f01-8e4b-8226-1f74">
+        <selectionEntryGroup id="c8e4-1ef3-749e-6d24" name="主武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="6f01-8e4b-8226-1f74">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9999-e4c3-92cc-e245" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b426-1212-0f34-44f0" type="max"/>
@@ -2386,7 +2386,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">You can make a maximum of one 肉搏攻击 with a shock prow each turn (any remaining 攻击 必须 made with a different 肉搏武器).  If 持有者 charged this turn, successful 攻击 使用这个武器 have a D值 of D3 而不是 1. </characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">You can make a maximum of one 肉搏攻击 with a shock prow each turn (any remaining 攻击 必须 made with a different肉搏武器).  If 持有者 charged this turn, successful 攻击 使用这个武器 have a D值 of D3 而不是 1. </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5161,7 +5161,7 @@
         </profile>
         <profile id="09ae-8aef-6f29-9888" name="Sculptor of Torments" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the Strength and LD characteristics of PROPHETS OF FLESH 单位 whilst they are 6寸范围内 of Urien Rakarth</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the Strength and LD值 of PROPHETS OF FLESH 单位 whilst they are 6寸范围内 of Urien Rakarth</characteristic>
           </characteristics>
         </profile>
         <profile id="439e-defe-9114-a8af" name="Haemovores" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -5332,7 +5332,7 @@
       <infoLinks>
         <infoLink id="5243-a612-b155-74a1" name="超音速" hidden="false" targetId="6e34-3100-f14f-cff0" type="profile"/>
         <infoLink id="a402-4991-c31f-124c" name="难以命中" hidden="false" targetId="b6c4-ad82-ad7d-5039" type="profile"/>
-        <infoLink id="1f47-50a9-5ae5-2452" name="Airborne" hidden="false" targetId="583f-6e1a-8431-70ff" type="profile"/>
+        <infoLink id="1f47-50a9-5ae5-2452" name="滞空" hidden="false" targetId="583f-6e1a-8431-70ff" type="profile"/>
         <infoLink id="fb27-952f-cd67-fbae" name="Strength from Death" hidden="false" targetId="a2dc-6516-aaab-8cf9" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -5355,7 +5355,7 @@
           <profiles>
             <profile id="da0f-6c3e-655a-228b" name="Void Mine" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, a Voidraven can drop a void mine on an 敌方单位 it moves over in one of its 移动阶段. After the Voidraven has moved, pick one 敌方单位 that it flew over. Then, roll three D6 for each 载具 or 巨兽 in the 单位, or one D6 for every other 模型 in the 单位, 至多 a maximum of 10 D6. For each roll of a 3+, the 单位 being bombed 遭受 1点致命伤. </characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, a Voidraven can drop a void mine on an 敌方单位 it moves over in one of its 移动阶段. After the Voidraven has moved, pick one 敌方单位 that it flew over. Then, roll three D6 for each 载具 or 巨兽 in the 单位, or one D6 for every other 模型 in the 单位, 至多 a maximum of 10 D6. 每个结果中的 3+, the 单位 being bombed 遭受 1点致命伤. </characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5433,7 +5433,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="4d07-6176-3281-0e04" name="Primary 武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="515a-d462-0cb2-6978">
+        <selectionEntryGroup id="4d07-6176-3281-0e04" name="主武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="515a-d462-0cb2-6978">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0919-6871-8d6a-1e61" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="14ff-150d-b984-3141" type="max"/>
@@ -6498,7 +6498,7 @@
         </profile>
         <profile id="2d61-638e-063d-115f" name="Tantalus" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
           <characteristics>
-            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">这个模型 可以运输 16 INCUBI or 黑暗灵族 步兵模型. Each Grotesque takes the space of two 模型. </characteristic>
+            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">这个模型 可以运输 16 INCUBI or 黑暗灵族 步兵模型. Each Grotesque 占用 2 个运输槽位 模型. </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6688,7 +6688,7 @@
                   <profiles>
                     <profile id="9791-5b2a-8fc5-b3c5" name="Coven of Twelve" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Improve the AP值 of 所有 肉搏武器 used by 模型 with this obsession by 1. For example, an AP值 of 0 becomes -1, an AP值 of -1 becomes -2, and so on. This does not apply to any Artefacts of Cruelty.</characteristic>
+                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Improve the AP值 of 所有肉搏武器 used by 模型 with this obsession by 1. For example, an AP值 of 0 becomes -1, an AP值 of -1 becomes -2, and so on. This does not apply to any Artefacts of Cruelty.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6803,7 +6803,7 @@
                           <profiles>
                             <profile id="85b8-df5c-6a09-dee8" name="Experimental Creations" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                               <characteristics>
-                                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the S值 of 所有 模型 with this obsession. When resolving an attack made with a poisoned 肉搏武器 by 模型 with this obsession 对抗 a 单位 that 拥有 lower T值 than the attacking model, add 1 to the wound roll. For the purposes of this obsession, a poisoned 肉搏武器 is any 肉搏武器 with the Poisoned 武器 ability (see 圣典: 黑暗灵族).’</characteristic>
+                                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the S值 of 所有 模型 with this obsession. When resolving an attack made with a poisoned肉搏武器 by 模型 with this obsession 对抗 a 单位 that 拥有 lower T值 than the attacking model, add 1 to the wound roll. For the purposes of this obsession, a poisoned肉搏武器 is any肉搏武器 with the Poisoned 武器 ability (see 圣典: 黑暗灵族).’</characteristic>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -6837,7 +6837,7 @@
                           <profiles>
                             <profile id="9e2d-717b-d3f3-3142" name="Masters of Mutagens" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                               <characteristics>
-                                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made with a poisoned 武器 by 模型 with this obsession 对抗 a 单位 that is not a 载具 or 巨型, an unmodified 命中 roll of 6 自动 scores a 命中 and successfully wounds 目标 (do not make a wound roll). This does not apply to Artefacts of Cruelty. For the purposes of this obsession, a poisoned 武器 is any 武器 with the Poisoned 武器 ability (see 圣典: 黑暗灵族).</characteristic>
+                                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made with a poisoned 武器 by 模型 with this obsession 对抗 a 单位 that is not a 载具 or 巨型, an unmodified 命中骰的 6 自动 scores a 命中 and successfully wounds 目标 (do not make a wound roll). This does not apply to Artefacts of Cruelty. For the purposes of this obsession, a poisoned 武器 is any 武器 with the Poisoned 武器 ability (see 圣典: 黑暗灵族).</characteristic>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -6871,7 +6871,7 @@
                           <profiles>
                             <profile id="7082-8b61-67f5-d876" name="Obsessive Collectors" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                               <characteristics>
-                                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When an 敌方单位 is 被消灭 as a result of an attack made with a 肉搏武器 by 模型 in a 单位 from your army with this obsession, 可以选择1个 模型 in the attacking model’s 单位 to regain 至多 D3 lo st wounds .’ If the attacking 模型 is a Wrack, you can instead return 至多 D3 被消灭 模型 to 那个单位, placing them 战场上 and in 单位 coherency (if the 模型 不能 placed in this way, they are not returned to the 战场).</characteristic>
+                                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When an 敌方单位 is 被消灭 as a result of an attack made with a肉搏武器 by 模型 in a 单位 from your army with this obsession, 可以选择1个 模型 in the attacking model’s 单位 to regain 至多 D3 lo st wounds .’ If the attacking 模型 is a Wrack, you can instead return 至多 D3 被消灭 模型 to 那个单位, placing them 战场上 and in 单位 coherency (if the 模型 不能 placed in this way, they are not returned to the 战场).</characteristic>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -6950,7 +6950,7 @@
                   <profiles>
                     <profile id="8942-ed14-4a71-16ef" name="Kabal of the Poisoned Tongue" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">重投 造伤骰 of 1 made for 肉搏武器 and poisoned 武器 used by 模型 with this obsession. This does not apply to Artefacts of Cruelty. For the purposes of this obsession, a poisoned 武器 is any 武器 with the Poisoned 武器 ability.</characteristic>
+                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">重投 造伤骰 of 1 made for肉搏武器 and poisoned 武器 used by 模型 with this obsession. This does not apply to Artefacts of Cruelty. For the purposes of this obsession, a poisoned 武器 is any 武器 with the Poisoned 武器 ability.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7026,7 +7026,7 @@
                           <profiles>
                             <profile id="0846-9ad9-12b6-dff8" name="Meticulous Flayers" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                               <characteristics>
-                                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">单位 with this obsession that have the Power From Pain ability always benefit from the Eager to Flay bonus (see 圣典: 黑暗灵族), even during the first battle round. When resolving an attack made with a 肉搏武器 by 模型 with this obsession 对抗 a 单位 that is not a 载具 or 巨型, an unmodified 命中 roll of 6 自动 scores a 命中 and successfully wounds 目标 (do not make a wound roll).</characteristic>
+                                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">单位 with this obsession that have the Power From Pain ability always benefit from the Eager to Flay bonus (see 圣典: 黑暗灵族), even during the first battle round. When resolving an attack made with a肉搏武器 by 模型 with this obsession 对抗 a 单位 that is not a 载具 or 巨型, an unmodified 命中骰的 6 自动 scores a 命中 and successfully wounds 目标 (do not make a wound roll).</characteristic>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -7236,7 +7236,7 @@
                           <profiles>
                             <profile id="3a58-df01-ab96-ce3d" name="Berserk Fugue" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                               <characteristics>
-                                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made with a 肉搏武器 by 模型 with this obsession that made a 冲锋移动, was charged or performed a 英勇干预 this turn, an unmodified 命中 roll of 6 scores 1 额外的 命中. You cannot select this obsession if you have already selected the Precise Killers obsession.</characteristic>
+                                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made with a肉搏武器 by 模型 with this obsession that made a 冲锋移动, was charged or performed a 英勇干预 this turn, an unmodified 命中骰的 6 scores 1 额外的 命中. You cannot select this obsession if you have already selected the Precise Killers obsession.</characteristic>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -7260,7 +7260,7 @@
                           <profiles>
                             <profile id="95e8-13f0-4f11-d1f6" name="Precise Killers" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                               <characteristics>
-                                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made with a 肉搏武器 by 模型 with this obsession, on an unmodified wound roll of 6 improve the AP值 of that 武器 by 1 for that attack (e.g. AP 0 becomes AP -1). You cannot select this obsession if you have already selected the Berserk Fugue obsession.</characteristic>
+                                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made with a肉搏武器 by 模型 with this obsession, on an unmodified wound roll of 6 improve the AP值 of that 武器 by 1 for that attack (e.g. AP 0 becomes AP -1). You cannot select this obsession if you have already selected the Berserk Fugue obsession.</characteristic>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -7328,7 +7328,7 @@
                           <profiles>
                             <profile id="79a4-03e5-6018-44c0" name="Trophy Takers" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                               <characteristics>
-                                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When your opponent takes a Morale test for a 单位 in which 任何模型 were 被消灭 as a result of an attack made with a 肉搏武器 by 模型 with this obsession this turn, they 必须 roll two D6 and 舍弃最低结果. If both results are the same, discard either of them.</characteristic>
+                                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When your opponent takes a Morale test for a 单位 in which 任何模型 were 被消灭 as a result of an attack made with a肉搏武器 by 模型 with this obsession this turn, they 必须 roll two D6 and 舍弃最低结果. If both results are the same, discard either of them.</characteristic>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -7490,7 +7490,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">持有者 can make a maximum of one attack with the ichor injector each turn. (Any remaining 攻击 必须 made with a different 肉搏武器). 可以重投造伤骰 for 这个武器. 每次 you roll a wound roll of 6+ for 这个武器, 目标 遭受 D3 致命伤 此外 to any other 伤害. </characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">持有者 can make a maximum of one attack with the ichor injector each turn. (Any remaining 攻击 必须 made with a different肉搏武器). 可以重投造伤骰 for 这个武器. 每次 you roll a wound roll of 6+ for 这个武器, 目标 遭受 D3 致命伤 此外 to any other 伤害. </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7620,7 +7620,7 @@
       <profiles>
         <profile id="4fe8-9b9b-9899-7583" name="Precision Blows" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 you roll a wound roll of 6+ for 这个主将 in the 肉搏阶段, 目标 遭受 1点致命伤 此外 to the normal 伤害.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 you roll a wound roll of 6+ for 这个主将 in the 肉搏阶段, 目标 遭受 1点致命伤 此外 to 普通伤害.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8307,7 +8307,7 @@
           <profiles>
             <profile id="1df8-8a68-9fd2-6a5a" name="The Helm of Spite" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">持有者 can attempt to deny one psychic power in each 敌方 灵能阶段 in the same manner as a 灵能者. 此外, 每次 持有者 makes a successful 否定巫术测试, the 灵能者 that attempted to manifest that power 遭受 Perils of the Warp</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">持有者 can attempt to deny one 灵能 in each 敌方 灵能阶段 in the same manner as a 灵能者. 此外, 每次 持有者 makes a successful 否定巫术测试, the 灵能者 that attempted to manifest that power 遭受 Perils of the Warp</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9275,7 +9275,7 @@ Battle Round 5+ -  Mantle of Agony: 减少 1 from the LD of 敌方单位 that ar
           </conditions>
         </modifier>
       </modifiers>
-      <description>As soon as 任何单位 is 被消灭, 所有 单位 from your army 具有这个能力的 benefit from Soulburst actions 直到回合结束. Whilst a 单位 is benefiting from Soulburst actions, it always fights first in the 肉搏阶段, even if it didn&apos;t charge. 如果模型 that is benefiting from Soulburst actions made a 冲锋移动 this turn, or already has an ability that allows it to always fight first in the 肉搏阶段, then whilst it is benefiting from Soulburst actions you also 命中骰+1 for 攻击 made with 肉搏武器 by that model. If the 敌方 has 单位 that made a 冲锋移动 this turn, or that have abilities that allow them to always fight first in the 肉搏阶段, then alternate choosing 单位 to fight with, starting with the player whose turn is taking place.</description>
+      <description>As soon as 任何单位 is 被消灭, 所有 单位 from your army 具有这个能力的 benefit from Soulburst actions 直到回合结束. Whilst a 单位 is benefiting from Soulburst actions, it always fights first in the 肉搏阶段, even if it didn&apos;t charge. 如果模型 that is benefiting from Soulburst actions made a 冲锋移动 this turn, or already has an ability that allows it to always fight first in the 肉搏阶段, then whilst it is benefiting from Soulburst actions you also 命中骰+1 for 攻击 made with肉搏武器 by that model. If the 敌方 has 单位 that made a 冲锋移动 this turn, or that have abilities that allow them to always fight first in the 肉搏阶段, then alternate choosing 单位 to fight with, starting with the player whose turn is taking place.</description>
     </rule>
     <rule id="ce60-330c-c13b-617b" name="Poisoned 武器" hidden="false">
       <description>这个武器 wounds 结果为4+, 除非目标为载具 or 巨型 单位, 这种情况下造伤固定为6+.</description>
@@ -9412,7 +9412,7 @@ Battle Round 5+ -  Mantle of Agony: 减少 1 from the LD of 敌方单位 that ar
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models 上车 on 这个模型 can attack in their 射击阶段. Measure the range and draw line of sight from any point on 这个模型. When they do so, any restrictions or modifiers that apply to 这个模型 also apply to its passengers; for example, the passengers cannot shoot if 这个模型 has 堕天使 Back in the same turn, cannot shoot (except with 手枪) if 这个模型 is 1寸范围内 of an 敌方单位, and so on.</characteristic>
       </characteristics>
     </profile>
-    <profile id="583f-6e1a-8431-70ff" name="Airborne" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="583f-6e1a-8431-70ff" name="滞空" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 不能冲锋, can only be charged by 单位 飞行关键字, and can only attack or be attacked in the 肉搏阶段 by 单位 飞行关键字.</characteristic>
       </characteristics>
@@ -9449,7 +9449,7 @@ Battle Round 5+ -  Mantle of Agony: 减少 1 from the LD of 敌方单位 that ar
     </profile>
     <profile id="b906-646b-ae85-0b73" name="Blood Dancer" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 you roll a 命中 roll of 6+ for 这个主将 in the 肉搏阶段, that 命中 scores 3 命中 而不是 1.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 you roll a 命中骰的 6+ for 这个主将 in the 肉搏阶段, that 命中 scores 3 命中 而不是 1.</characteristic>
       </characteristics>
     </profile>
     <profile id="474c-c5a8-f773-83c8" name="Hatred Eternal" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -9459,12 +9459,12 @@ Battle Round 5+ -  Mantle of Agony: 减少 1 from the LD of 敌方单位 that ar
     </profile>
     <profile id="97d0-9ed5-d667-70be" name="Diabolical Soothsayer" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, 可以重投 a single 命中 roll, wound roll, saving throw or 伤害 roll for your 主将. 此外, if your army is Battle-forged, roll a D3 before the battle begins; you gain a number of 额外的 指挥点数 equal to the result.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, 可以重投 a single 命中骰, wound roll, saving throw or 伤害 roll for your 主将. 此外, if your army is Battle-forged, roll a D3 before the battle begins; you gain a number of 额外的 指挥点数 equal to the result.</characteristic>
       </characteristics>
     </profile>
     <profile id="d69e-101e-b878-98d9" name="Lethal Precision" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made with a 肉搏武器 by a 这个单位中的模型, on an unmodified wound roll of 6 add 2 to the D值 of that 武器 for that attack.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made with a肉搏武器 by a 这个单位中的模型, on an unmodified wound roll of 6 add 2 to the D值 of that 武器 for that attack.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

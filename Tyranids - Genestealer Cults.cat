@@ -916,7 +916,7 @@
         </profile>
         <profile id="fc1c-5611-8cb4-d0a5" name="Cult Chimera" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
           <characteristics>
-            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">至多 12 BROOD BROTHERS 步兵模型. Each Brood Brothers武器组 takes the space of two other 模型. Each 星界军 重型武器组 takes the space of two other 模型 and each OGRYN takes the space of three other 模型. If, 部署期间, 这个单位 is 放置 in ambush using the Cult Ambush ability, only 单位 with the Cult Ambush ability can be inside when it is 放置.</characteristic>
+            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">至多 12 BROOD BROTHERS 步兵模型. Each Brood Brothers武器组 占用 2 个运输槽位 other 模型. Each 星界军 重型武器组 占用 2 个运输槽位 other 模型 and each OGRYN takes the space of three other 模型. If, 部署期间, 这个单位 is 放置 in ambush using the Cult Ambush ability, only 单位 with the Cult Ambush ability can be inside when it is 放置.</characteristic>
           </characteristics>
         </profile>
         <profile id="10dc-2dad-984f-7d8e" name="Cult Chimera (1)" hidden="false" typeId="ec1e-7b4c-1c12-17a1" typeName="损伤表 - M, BS, A">
@@ -1193,7 +1193,7 @@
         </profile>
         <profile id="6df4-a35d-f327-8b4a" name="Familiars" publicationId="83b2-e602-pubN65537" page="80" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If a 人物 is accompanied by any Familiars, then once per game, at the end of the controlling player&apos;s 灵能阶段, its Familiars can lend it 额外的 power. If they do so, the 人物 can 立即 attempt to manifest an 额外的 psychic power.  When rolling to wound 这个单位, always use the 人物&apos;s Toughness while it is 战场上. The death of a Familiar is ignored for the purposes of 士气测试. Familiars are considered to have the 人物 关键字 for the purposes of 射击攻击.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If a 人物 is accompanied by any Familiars, then once per game, at the end of the controlling player&apos;s 灵能阶段, its Familiars can lend it 额外的 power. If they do so, the 人物 can 立即 attempt to manifest an 额外的 灵能.  When rolling to wound 这个单位, always use the 人物&apos;s Toughness while it is 战场上. The death of a Familiar is ignored for the purposes of 士气测试. Familiars are considered to have the 人物 关键字 for the purposes of 射击攻击.</characteristic>
           </characteristics>
         </profile>
         <profile id="bfd1-c8d4-f5ab-4acd" name="Familiar" hidden="true" typeId="b900-0afb-e411-2cbb" typeName="Keywords">
@@ -1376,7 +1376,7 @@
           </constraints>
           <entryLinks>
             <entryLink id="d047-9aff-3114-0fb1" name="Heavy Mining Laser" hidden="false" collective="false" import="true" targetId="a8ce-45ce-ea8f-f22b" type="selectionEntry"/>
-            <entryLink id="211e-aaea-2e58-13eb" name="Clearance Incinerator" hidden="false" collective="false" import="true" targetId="53a8-7c9b-5285-ae53" type="selectionEntry"/>
+            <entryLink id="211e-aaea-2e58-13eb" name="Clearance 焚化者" hidden="false" collective="false" import="true" targetId="53a8-7c9b-5285-ae53" type="selectionEntry"/>
             <entryLink id="5d16-d918-ca71-7498" name="Heavy Seismic Cannon" hidden="false" collective="false" import="true" targetId="574b-1765-576b-a693" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
@@ -2337,9 +2337,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="53a8-7c9b-5285-ae53" name="Clearance Incinerator" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="53a8-7c9b-5285-ae53" name="Clearance 焚化者" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="693a-fce4-33e3-f4b8" name="Clearance Incinerator" hidden="false" targetId="7e36-8493-f7bf-c9e2" type="profile"/>
+        <infoLink id="693a-fce4-33e3-f4b8" name="Clearance 焚化者" hidden="false" targetId="7e36-8493-f7bf-c9e2" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="20.0"/>
@@ -2755,7 +2755,7 @@
         </profile>
         <profile id="d0a0-befc-cec1-64ce" name="Spiritual Leader" publicationId="83b2-e602-pubN65537" page="81" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">&lt;教团&gt; 单位 (other than 灵能者) 6寸范围内 of any 友方 &lt;教团&gt; MAGUS 模型 开始时 of your opponent&apos;s 灵能阶段 can attempt to deny one psychic power manifested 范围内 12寸 of them that phase as if they were themselves a 灵能者 (measure range to 任何模型 in the 单位).</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">&lt;教团&gt; 单位 (other than 灵能者) 6寸范围内 of any 友方 &lt;教团&gt; MAGUS 模型 开始时 of your opponent&apos;s 灵能阶段 can attempt to deny one 灵能 manifested 范围内 12寸 of them that phase as if they were themselves a 灵能者 (measure range to 任何模型 in the 单位).</characteristic>
           </characteristics>
         </profile>
         <profile id="f91b-d383-0475-bbd3" name="Magus" hidden="true" typeId="b900-0afb-e411-2cbb" typeName="Keywords">
@@ -3480,7 +3480,7 @@
     </selectionEntry>
     <selectionEntry id="ef3b-5329-0708-d49c" name="[参考] Power: 惩击" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="db40-fe0a-bb61-424b" name="0. 惩击" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+        <profile id="db40-fe0a-bb61-424b" name="0. 惩击" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
           <characteristics>
             <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">5</characteristic>
             <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
@@ -3639,7 +3639,7 @@
         </profile>
         <profile id="7469-1e2b-0635-c60a" name="The Chosen One" publicationId="83b2-e602-pubN65537" page="82" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each unmodified 命中 roll of 6 made in the 肉搏阶段 by 友方 &lt;教团&gt; ABERRANT 这个模型6寸范围内的单位 scores 2 命中 而不是 1.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each unmodified 命中骰的 6 made in the 肉搏阶段 by 友方 &lt;教团&gt; ABERRANT 这个模型6寸范围内的单位 scores 2 命中 而不是 1.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3669,7 +3669,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">x2</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">使用这个武器时, 命中骰-1. 伤害 骰 of 1 or 2 made for 这个武器 视作 3 instead.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">使用这个武器时, 命中骰-1. 伤害骰 of 1 or 2 made for 这个武器 视作 3 instead.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4022,7 +4022,7 @@
               <profiles>
                 <profile id="9be5-af11-41f2-278e" name="Devoted Zealots" publicationId="83b2-e602-pubN65537" page="109" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投命中骰 for 攻击 made with 肉搏武器 by a 单位 with this Cult Creed in a turn in which it made a 冲锋移动, was charged or performed a 英勇干预.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投命中骰 for 攻击 made with肉搏武器 by a 单位 with this Cult Creed in a turn in which it made a 冲锋移动, was charged or performed a 英勇干预.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4566,10 +4566,10 @@
               <entryLinks>
                 <entryLink id="089c-f9af-7db6-c427" name="重机枪" hidden="false" collective="false" import="true" targetId="6ebe-58fe-449f-121d" type="selectionEntry"/>
                 <entryLink id="e63c-edb6-e76d-85c1" name="Mining Laser" hidden="false" collective="false" import="true" targetId="7af4-ad23-b97f-64f3" type="selectionEntry"/>
-                <entryLink id="84c8-c7a9-43d1-1e2d" name="Atalan Incinerator" hidden="false" collective="false" import="true" targetId="3b58-3685-a921-a6f7" type="selectionEntry"/>
+                <entryLink id="84c8-c7a9-43d1-1e2d" name="Atalan 焚化者" hidden="false" collective="false" import="true" targetId="3b58-3685-a921-a6f7" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="9188-06d1-1d87-6df8" name="Secondary 武器" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="9188-06d1-1d87-6df8" name="副武器" hidden="false" collective="false" import="true">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75a8-cbef-f1eb-b857" type="max"/>
               </constraints>
@@ -4827,7 +4827,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 can target 人物 even if it is not 最近的 敌方单位. If you roll a wound roll of 6+ for 这个武器, it inflicts 1 致命伤 此外 to its normal 伤害.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 can target 人物 even if it is not 最近的 敌方单位. If you roll a wound roll of 6+ for 这个武器, it inflicts 1 致命伤 此外 to its 普通伤害.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5153,7 +5153,7 @@
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 can target 人物 even if it is not 最近的 敌方单位. If you roll a wound roll of 6+ for 这个武器, it inflicts 1 致命伤 此外 to its normal 伤害. If a 灵能者 单位 loses any wounds as a result of an attack made by 这个武器, it 遭受 Perils of the Warp after the attack has been resolved.</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 can target 人物 even if it is not 最近的 敌方单位. If you roll a wound roll of 6+ for 这个武器, it inflicts 1 致命伤 此外 to its 普通伤害. If a 灵能者 单位 loses any wounds as a result of an attack made by 这个武器, it 遭受 Perils of the Warp after the attack has been resolved.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5310,7 +5310,7 @@
       <profiles>
         <profile id="12bb-1b88-b7b4-d0d1" name="Augur Array" publicationId="83b2-e602-pubN65537" page="103" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, in the 射击阶段, 可以重投 a single 失败的 命中 roll for 模型 equipped with an augur array.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, in the 射击阶段, 可以重投 a single 失败的 命中骰 for 模型 equipped with an augur array.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5520,7 +5520,7 @@
         </profile>
         <profile id="9fa2-6562-9fd3-72b5" name="Gunslinger" publicationId="83b2-e602-pubN65537" page="92" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 can target 敌方 人物 even if they are not 最近的 敌方模型. 此外, 每次 这个模型 命中 an 敌方 with a 手枪 武器, it can 立即 make one 额外的 命中 roll 对抗 that target using the same 武器. These bonus 命中 骰 cannot themselves generate any further 命中 骰.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 can target 敌方 人物 even if they are not 最近的 敌方模型. 此外, 每次 这个模型 命中 an 敌方 with a 手枪 武器, it can 立即 make one 额外的 命中骰 对抗 that target using the same 武器. These bonus 命中 骰 cannot themselves generate any further 命中 骰.</characteristic>
           </characteristics>
         </profile>
         <profile id="3fb9-3e7f-1903-c11f" name="Heroic Deeds, Heroic Inspiration" publicationId="83b2-e602-pubN65537" page="92" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -5717,9 +5717,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3b58-3685-a921-a6f7" name="Atalan Incinerator" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="3b58-3685-a921-a6f7" name="Atalan 焚化者" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="e0a9-1888-fd66-df0c" name="Atalan Incinerator" hidden="false" targetId="101e-228a-4c55-cd31" type="profile"/>
+        <infoLink id="e0a9-1888-fd66-df0c" name="Atalan 焚化者" hidden="false" targetId="101e-228a-4c55-cd31" type="profile"/>
       </infoLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -5998,7 +5998,7 @@ If your opponent has the first turn, then none of their 单位 can be 放置 or 
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">x2</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">伤害 骰 of 1 or 2 made 使用这个武器 视作 3 instead.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">伤害骰 of 1 or 2 made 使用这个武器 视作 3 instead.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6095,7 +6095,7 @@ If your opponent has the first turn, then none of their 单位 can be 放置 or 
           <profiles>
             <profile id="212f-dba8-4e91-d35f" name="Scourge of Distant Stars" publicationId="83b2-e602-pubN65537" page="116" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">命中骰+1 for 攻击 made with 持有者&apos;s 肉搏武器. 此外, 每次 an 敌方模型 targets 持有者 with a 肉搏武器 and your opponent 骰 an unmodified 命中 roll of 1, the attacker&apos;s 单位 遭受 1 致命伤 after 所有 of its 攻击 have been resolved.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">命中骰+1 for 攻击 made with 持有者&apos;s肉搏武器. 此外, 每次 an 敌方模型 targets 持有者 with a肉搏武器 and your opponent 骰 an unmodified 命中骰的 1, the attacker&apos;s 单位 遭受 1 致命伤 after 所有 of its 攻击 have been resolved.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6310,7 +6310,7 @@ If your opponent has the first turn, then none of their 单位 can be 放置 or 
           <profiles>
             <profile id="b986-5278-5242-5a35" name="Vockor&apos;s Talisman" publicationId="83b2-e602-pubN65537" page="117" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">HIVECULT only. 可以重投命中骰 for 攻击 made with 持有者&apos;s 肉搏武器 when targeting 敌方 人物. 此外, 每次 you roll a wound roll of 6+ for an attack with one of 持有者&apos;s 肉搏武器, that attack inflicts 1 致命伤 对目标 此外 to any normal 伤害, 除非目标为载具 or 巨型 单位.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">HIVECULT only. 可以重投命中骰 for 攻击 made with 持有者&apos;s肉搏武器 when targeting 敌方 人物. 此外, 每次 you roll a wound roll of 6+ for an attack with one of 持有者&apos;s肉搏武器, that attack inflicts 1 致命伤 对目标 此外 to any 普通伤害, 除非目标为载具 or 巨型 单位.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6409,7 +6409,7 @@ If your opponent has the first turn, then none of their 单位 can be 放置 or 
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">+2</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-5</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 you roll a wound roll of 4+ for an attack 使用这个武器 that targets a 载具, 目标 遭受 1 致命伤 此外 to any normal 伤害. If you roll a 6+, it 遭受 D3 致命伤 instead.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 you roll a wound roll of 4+ for an attack 使用这个武器 that targets a 载具, 目标 遭受 1 致命伤 此外 to any 普通伤害. If you roll a 6+, it 遭受 D3 致命伤 instead.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6443,7 +6443,7 @@ If your opponent has the first turn, then none of their 单位 can be 放置 or 
           <profiles>
             <profile id="e969-4957-1ff2-470b" name="Reliquary of Saint Tenndarc" publicationId="83b2-e602-pubN65537" page="117" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">PAUPER PRINCES only. 友方 PAUPER PRINCES 单位 自动通过 士气测试 whilst they are 6寸范围内 of 持有者. 此外, 投掷1个D6 每次 a PAUPER PRINCES 步兵 or 摩托 模型 is 被消灭 whilst it is 6寸范围内 of 持有者, before removing that 模型 from the 战场. 结果为4+ that 模型 can either shoot with one of its 远程武器 as if it were your 射击阶段, or can make a single 肉搏 attack with a 肉搏武器 as if it were the 肉搏阶段.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">PAUPER PRINCES only. 友方 PAUPER PRINCES 单位 自动通过 士气测试 whilst they are 6寸范围内 of 持有者. 此外, 投掷1个D6 每次 a PAUPER PRINCES 步兵 or 摩托 模型 is 被消灭 whilst it is 6寸范围内 of 持有者, before removing that 模型 from the 战场. 结果为4+ that 模型 can either shoot with one of its 远程武器 as if it were your 射击阶段, or can make a single 肉搏 attack with a肉搏武器 as if it were the 肉搏阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6710,7 +6710,7 @@ If your opponent has the first turn, then none of their 单位 can be 放置 or 
               <profiles>
                 <profile id="0a4d-295b-3f47-bdd8" name="Inscrutable Cunning" publicationId="83b2-e602-pubN65537" page="115" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, if 这个主将 is 战场上, 可以重投 one 命中 roll, wound roll or saving throw made for a 友方 CULT OF THE FOUR-ARMED EMPEROR 单位. 此外, if your army is Battle-forged, roll a D3 before the battle begins; you gain a number of 额外的 指挥点数 equal to the result.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, if 这个主将 is 战场上, 可以重投 one 命中骰, wound roll or saving throw made for a 友方 CULT OF THE FOUR-ARMED EMPEROR 单位. 此外, if your army is Battle-forged, roll a D3 before the battle begins; you gain a number of 额外的 指挥点数 equal to the result.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7109,7 +7109,7 @@ BROOD BROTHERS TAUROX PRIMES can only transport 10 BROOD BROTHERS OFFICIO PREFEC
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 can only be fired 如果模型 (excluding 模型 with a BS值 of &apos;-&apos;) is 上车 upon the 载具 equipped with it.</characteristic>
       </characteristics>
     </profile>
-    <profile id="7e36-8493-f7bf-c9e2" name="Clearance Incinerator" publicationId="83b2-e602-pubN65537" page="102" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+    <profile id="7e36-8493-f7bf-c9e2" name="Clearance 焚化者" publicationId="83b2-e602-pubN65537" page="102" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12寸</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 2D6</characteristic>
@@ -7514,21 +7514,21 @@ BROOD BROTHERS TAUROX PRIMES can only transport 10 BROOD BROTHERS OFFICIO PREFEC
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models 上车 on 这个模型 can attack in their 射击阶段. Measure the range and draw line of sight from any point on the model. When they do so, any restrictions or modifiers that apply to 这个模型 also apply to its passengers; for example, the passengers cannot shoot if 这个模型 has 堕天使 Back in the same turn, cannot shoot (except with 手枪) if 这个模型 is 1寸范围内 of an 敌方单位, and so on.</characteristic>
       </characteristics>
     </profile>
-    <profile id="b154-b0af-f0ab-7d5a" name="Mass Hypnosis" publicationId="83b2-e602-pubN65537" page="113" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+    <profile id="b154-b0af-f0ab-7d5a" name="Mass Hypnosis" publicationId="83b2-e602-pubN65537" page="113" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
       <characteristics>
         <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">7</characteristic>
         <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
         <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Select an 敌方单位 18寸范围内 of and 可见 to the 灵能者. Until the start of your next 灵能阶段, 目标 cannot fire 坚守射击, fights last in the 肉搏阶段 even if it charged, and 必须 减少 1 from its 命中 骰. If 目标 拥有 rule that allows it to fight first in the 肉搏阶段 even if it did not charge, then 而不是 fighting last in the 肉搏阶段, it fights as if it did not have that ability and did not charge.</characteristic>
       </characteristics>
     </profile>
-    <profile id="9590-a181-8f47-1500" name="Mind Control" publicationId="83b2-e602-pubN65537" page="113" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+    <profile id="9590-a181-8f47-1500" name="Mind Control" publicationId="83b2-e602-pubN65537" page="113" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
       <characteristics>
         <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">7</characteristic>
         <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">12寸</characteristic>
         <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Select an 敌方模型 范围内 12寸 of the 灵能者 and roll 3D6. If the score is less than that 模型的 LD值, nothing happens, but if it equals or exceeds it, that 模型 can either shoot as if it were your 射击阶段, or make a single 肉搏攻击 as if it were the 肉搏阶段. In either case, treat that 模型 as if it were a separate 单位 that is part of your army whilst 射击 or making that 肉搏攻击.</characteristic>
       </characteristics>
     </profile>
-    <profile id="cea6-0c87-ea07-dbeb" name="Might From Beyond" publicationId="83b2-e602-pubN65537" page="113" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+    <profile id="cea6-0c87-ea07-dbeb" name="Might From Beyond" publicationId="83b2-e602-pubN65537" page="113" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
       <characteristics>
         <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">7</characteristic>
         <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
@@ -7606,7 +7606,7 @@ BROOD BROTHERS TAUROX PRIMES can only transport 10 BROOD BROTHERS OFFICIO PREFEC
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="101e-228a-4c55-cd31" name="Atalan Incinerator" publicationId="83b2-e602-pubN65537" page="102" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+    <profile id="101e-228a-4c55-cd31" name="Atalan 焚化者" publicationId="83b2-e602-pubN65537" page="102" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12寸</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 D6</characteristic>
@@ -7616,21 +7616,21 @@ BROOD BROTHERS TAUROX PRIMES can only transport 10 BROOD BROTHERS OFFICIO PREFEC
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">自动命中.</characteristic>
       </characteristics>
     </profile>
-    <profile id="58ed-b119-eaa9-38b2" name="Psionic Blast" publicationId="83b2-e602-pubN65537" page="113" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+    <profile id="58ed-b119-eaa9-38b2" name="Psionic Blast" publicationId="83b2-e602-pubN65537" page="113" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
       <characteristics>
         <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">5</characteristic>
         <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
         <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Select an 敌方单位 18寸范围内 of and 可见 to the 灵能者 and roll 2D6. If the result is less than the highest LD值 in 那个单位, it 遭受 1 致命伤, otherwise it 遭受 D3 致命伤.</characteristic>
       </characteristics>
     </profile>
-    <profile id="7b70-cb2b-be8b-0faa" name="Mental Onslaught" publicationId="83b2-e602-pubN65537" page="113" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+    <profile id="7b70-cb2b-be8b-0faa" name="Mental Onslaught" publicationId="83b2-e602-pubN65537" page="113" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
       <characteristics>
         <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">6</characteristic>
         <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
         <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Select an 敌方模型 18寸范围内 of and 可见 to the 灵能者. Each player 骰 a D6 and adds their 模型的 LD值 to their result. If your score is higher, the 敌方模型的 单位 遭受 1 致命伤; if the selected 模型 is still alive you then repeat this process (each player rolling a D6 and adding their respective LD) until either the selected 模型 is 被消灭, your opponent 骰 a 6, and/or your opponent&apos;s result is equal to or higher than yours.</characteristic>
       </characteristics>
     </profile>
-    <profile id="714d-ecf6-e9da-fcd1" name="Psychic Stimulus" publicationId="83b2-e602-pubN65537" page="113" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+    <profile id="714d-ecf6-e9da-fcd1" name="Psychic Stimulus" publicationId="83b2-e602-pubN65537" page="113" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
       <characteristics>
         <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">6</characteristic>
         <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
