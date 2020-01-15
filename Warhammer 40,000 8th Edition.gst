@@ -7826,7 +7826,7 @@
               <profiles>
                 <profile id="4f72-8a3c-25d7-94f9" name="R4: Last Resort" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If a 这个单位中的模型 is 被消灭, the controlling player can choose for it to 自动 explode – no dice roll is required.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个单位中的模型 is 被消灭, the controlling player can choose for it to 自动 explode – no dice roll is required.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7877,7 +7877,7 @@
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="d784-9fdb-622e-32a5" name="Deathblow" hidden="false">
-      <description>If a target 遭受 an unsaved Wound from a 肉搏攻击 made by 这个模型, 目标 is reduced to 0 Wounds and is removed as a casualty.</description>
+      <description>If a target 遭受 an unsaved Wound from a 肉搏攻击 made by 这个模型, 目标w降为0 and is removed as a casualty.</description>
     </rule>
     <rule id="2053-118c-c2b7-c8ac" name="Executioner" hidden="false">
       <description>这个模型 re-骰 所有 失败的 To 造伤骰 对抗 targets with a W值 of 2 or more.</description>
