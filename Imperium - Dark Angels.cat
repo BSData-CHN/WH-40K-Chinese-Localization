@@ -55,7 +55,7 @@
     <categoryEntry id="fb5e-fe96-8fe7-a41a" name="死翼 Knights" hidden="false"/>
     <categoryEntry id="d310-6d5f-a622-9b14" name="鸦翼 冠军" hidden="false"/>
     <categoryEntry id="1810-3d3f-573a-17a6" name="鸦翼 摩托小队" hidden="false"/>
-    <categoryEntry id="8a16-3318-e7e4-9fab" name="鸦翼 Attack 摩托小队" hidden="false"/>
+    <categoryEntry id="8a16-3318-e7e4-9fab" name="鸦翼 攻击 摩托小队" hidden="false"/>
     <categoryEntry id="6085-35d8-0156-a40e" name="鸦翼 兰德速攻艇" hidden="false"/>
     <categoryEntry id="34d0-2efa-5efc-a029" name="鸦翼 Darkshroud" hidden="false"/>
     <categoryEntry id="34e6-586a-e6d7-63c9" name="Nephilim Jetfighter" hidden="false"/>
@@ -166,7 +166,7 @@
     <entryLink id="1cbf-7c4d-dfca-b8ad" name="鸦翼 旗手" hidden="false" collective="false" import="true" targetId="d5ec-3ee9-3440-0768" type="selectionEntry"/>
     <entryLink id="3718-3318-7c1e-146e" name="鸦翼 冠军" hidden="false" collective="false" import="true" targetId="abf2-77c1-5d1c-b171" type="selectionEntry"/>
     <entryLink id="8915-cdc9-f59e-d83e" name="鸦翼 摩托小队" hidden="false" collective="false" import="true" targetId="037d-64b8-304c-3eed" type="selectionEntry"/>
-    <entryLink id="52e6-fbae-431b-a2d8" name="鸦翼 Attack 摩托小队" hidden="false" collective="false" import="true" targetId="9708-ae44-dfd5-4b22" type="selectionEntry"/>
+    <entryLink id="52e6-fbae-431b-a2d8" name="鸦翼 攻击 摩托小队" hidden="false" collective="false" import="true" targetId="9708-ae44-dfd5-4b22" type="selectionEntry"/>
     <entryLink id="1901-a402-1172-da85" name="鸦翼 兰德速攻艇" hidden="false" collective="false" import="true" targetId="b8d1-315d-2536-dbc4" type="selectionEntry"/>
     <entryLink id="c93e-e8b7-f0a1-fb4e" name="鸦翼 Darkshroud" hidden="false" collective="false" import="true" targetId="bf46-c4c7-3108-6908" type="selectionEntry"/>
     <entryLink id="8cce-e8ac-f909-fd57" name="Nephilim Jetfighter" hidden="false" collective="false" import="true" targetId="c6fa-e9ba-d968-0ac8" type="selectionEntry"/>
@@ -216,7 +216,7 @@
         <categoryLink id="dac0-3be7-508a-7a41" name="New CategoryLink" hidden="false" targetId="c888f08a-6cea-4a01-8126-d374a9231554" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="e855-6b4a-78e3-27a7" name="特殊分队: 鸦翼 Attack 中队" hidden="false" collective="false" import="true" targetId="5d09-415f-8f33-073f" type="selectionEntry"/>
+    <entryLink id="e855-6b4a-78e3-27a7" name="特殊分队: 鸦翼 攻击 中队" hidden="false" collective="false" import="true" targetId="5d09-415f-8f33-073f" type="selectionEntry"/>
     <entryLink id="cf21-5ff7-9b06-1152" name="战略: 战地指挥官" hidden="false" collective="false" import="true" targetId="d043-3847-e963-fb5d" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
@@ -327,7 +327,7 @@
         </profile>
         <profile id="4867-ad5b-70a4-f543" name="阿斯塔特战旗" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">&lt;人物&gt; 单位 6寸范围内 of any 友方 &lt;人物&gt; ANCIENTS add 1 to their LD. 此外, 投掷1个D6 每次 a &lt;人物&gt; 步兵模型 is 被消灭 6寸范围内 of any 友方 &lt;人物&gt; ANCIENTS, before removing the 模型 as a casualty. 结果为4+, that 模型 musters one last surge of strength before succumbing to its wounds; it can either shoot with one of its 武器 as if it were the 射击阶段, or make a single attack as if it were the 肉搏阶段.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">&lt;人物&gt; 单位 6寸范围内 of any 友方 &lt;人物&gt; ANCIENTS add 1 to their LD. 此外, 投掷1个D6 每次 a &lt;人物&gt; 步兵模型 is 被消灭 6寸范围内 of any 友方 &lt;人物&gt; ANCIENTS, before removing the 模型 as a casualty. 结果为4+, that 模型 musters one last surge of strength before succumbing to its wounds; it can either shoot with one of its 武器 as if it were the 射击阶段, or make a single 攻击 as if it were the 肉搏阶段.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4334,7 +4334,7 @@ Matched Play: 这个模型 and 任何单位 上车 aboard it are exempt from the
         </profile>
         <profile id="105f-5279-6fea-3bd7" name="Data augurs" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">hen resolving an attack made with a 远程武器 by 这个模型, if it is 范围内 24寸 of any 友方 Dark Angels 原铸犀牛 models, add 1 to the 命中骰.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">hen resolving an 攻击 made with a 远程武器 by 这个模型, if it is 范围内 24寸 of any 友方 Dark Angels 原铸犀牛 models, add 1 to the 命中骰.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5217,7 +5217,7 @@ Matched Play: 这个模型 and 任何单位 上车 aboard it are exempt from the
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">7</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 can be 过载 by 持有者 before firing. If they do so, increase the strength and 伤害 of 这个武器 by 1 for this turn. On 任何命中 骰 of 1 when firing 过载, 持有者 is slain after 所有 the 武器&apos;s shots have been resolved.</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 can be 过载 by 持有者 before firing. If they do so, increase the strength and 伤害 of 这个武器 by 1 for this turn. On 任何命中 骰 of 1 when firing 过载, 持有者 is slain after 所有 the 武器的 shots have been resolved.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5294,7 +5294,7 @@ Matched Play: 这个模型 and 任何单位 上车 aboard it are exempt from the
         </profile>
         <profile id="3b97-ceee-f65d-01b0" name="Parrying blade" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Your opponent 必须 减少 1 from the 命中骰 made during the 肉搏阶段 that attack Belial.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Your opponent 必须 减少 1 from the 命中骰 made during the 肉搏阶段 that 攻击 Belial.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6252,7 +6252,7 @@ Matched Play: 这个模型 and 任何单位 上车 aboard it are exempt from the
         </profile>
         <profile id="a795-6af8-e86c-f58a" name="死翼 company banner" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">友方 死翼 单位 have +1 attack while they are 6寸范围内 of any 死翼 company banners</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">友方 死翼 单位 have +1 攻击 while they are 6寸范围内 of any 死翼 company banners</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7039,7 +7039,7 @@ Matched Play: 这个模型 and 任何单位 上车 aboard it are exempt from the
         </profile>
         <profile id="57f7-909b-abd8-9e07" name="Sacred 标准" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">友方 鸦翼 单位 have +1 Attack while they are 6寸范围内 of any sacred 标准s.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">友方 鸦翼 单位 have +1 攻击 while they are 6寸范围内 of any sacred 标准s.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7172,7 +7172,7 @@ Matched Play: 这个模型 and 任何单位 上车 aboard it are exempt from the
       <profiles>
         <profile id="577d-6716-1a87-4e79" name="Combat小队" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Before 任何模型 are deployed 开始时 of the game a 鸦翼 摩托小队 containing 9 模型 may be split into 2 单位, one of which has 4 模型 including the attack 摩托.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Before 任何模型 are deployed 开始时 of the game a 鸦翼 摩托小队 containing 9 模型 may be split into 2 单位, one of which has 4 模型 including the 攻击 摩托.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7317,7 +7317,7 @@ Matched Play: 这个模型 and 任何单位 上车 aboard it are exempt from the
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="b902-2187-33ed-6fae" name="鸦翼 Attack 摩托" hidden="false" collective="false" import="true" targetId="0b95-eb8c-65ad-ba62" type="selectionEntry">
+        <entryLink id="b902-2187-33ed-6fae" name="鸦翼 攻击 摩托" hidden="false" collective="false" import="true" targetId="0b95-eb8c-65ad-ba62" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="20f4-5b84-8ed4-da5a" type="max"/>
           </constraints>
@@ -7331,9 +7331,9 @@ Matched Play: 这个模型 and 任何单位 上车 aboard it are exempt from the
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0b95-eb8c-65ad-ba62" name="鸦翼 Attack 摩托" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="0b95-eb8c-65ad-ba62" name="鸦翼 攻击 摩托" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="767d-2aa7-7ee8-5353" name="鸦翼 Attack 摩托" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+        <profile id="767d-2aa7-7ee8-5353" name="鸦翼 攻击 摩托" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">14寸</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -7397,7 +7397,7 @@ Matched Play: 这个模型 and 任何单位 上车 aboard it are exempt from the
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9708-ae44-dfd5-4b22" name="鸦翼 Attack 摩托小队" publicationId="b8fe-8d38-pubN65537" page="109" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="9708-ae44-dfd5-4b22" name="鸦翼 攻击 摩托小队" publicationId="b8fe-8d38-pubN65537" page="109" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="e2ab-b546-3843-a77e" name="New InfoLink" hidden="false" targetId="4ea8-94d3-ba39-042f" type="rule"/>
         <infoLink id="06c3-2dd6-551a-5ea1" name="New InfoLink" hidden="false" targetId="ce39-4d66-5211-906f" type="profile"/>
@@ -7413,7 +7413,7 @@ Matched Play: 这个模型 and 任何单位 上车 aboard it are exempt from the
         <categoryLink id="1ae4-bcc6-82d9-b368" name="New CategoryLink" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="7a65-9386-72fa-ca3b" name="鸦翼 Attack 摩托" hidden="false" collective="false" import="true" targetId="0b95-eb8c-65ad-ba62" type="selectionEntry">
+        <entryLink id="7a65-9386-72fa-ca3b" name="鸦翼 攻击 摩托" hidden="false" collective="false" import="true" targetId="0b95-eb8c-65ad-ba62" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c830-0da8-993f-8560" type="min"/>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5388-a671-66a8-6bc0" type="max"/>
@@ -11593,7 +11593,7 @@ Matched Play: 这个模型 and 任何单位 上车 aboard it are exempt from the
         </profile>
         <profile id="d474-a207-ff89-38a0" name="Sacred 标准" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">DARK ANGELS 步兵模型 that are 被消灭 6寸范围内 of any 友方 DARK ANGELS 战团 ANCEINTS and subsequently musert one last surge of strength before succumbing to their wounds (see Astares Banner ability, above) always resolve their final attack as if they had a Ballistic Skill and a WS值 of 2+.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">DARK ANGELS 步兵模型 that are 被消灭 6寸范围内 of any 友方 DARK ANGELS 战团 ANCEINTS and subsequently musert one last surge of strength before succumbing to their wounds (see Astares Banner ability, above) always resolve their final 攻击 as if they had a Ballistic Skill and a WS值 of 2+.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11903,13 +11903,13 @@ Matched Play: 这个模型 and 任何单位 上车 aboard it are exempt from the
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="-3.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5d09-415f-8f33-073f" name="特殊分队: 鸦翼 Attack 中队" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="5d09-415f-8f33-073f" name="特殊分队: 鸦翼 攻击 中队" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="527d-e078-9bad-6dfa" type="max"/>
       </constraints>
       <rules>
-        <rule id="5675-b607-10b0-9a86" name="鸦翼 Attack 中队" hidden="false">
-          <description>Use this stratagem when choosing your army. 选择1个 DARK ANGELS detachment from your army to be a 鸦翼 Attack 中队 特殊分队. 鸦翼 单位 in that detachment gain the ATTACK 中队 关键字.</description>
+        <rule id="5675-b607-10b0-9a86" name="鸦翼 攻击 中队" hidden="false">
+          <description>Use this stratagem when choosing your army. 选择1个 DARK ANGELS detachment from your army to be a 鸦翼 攻击 中队 特殊分队. 鸦翼 单位 in that detachment gain the 攻击 中队 关键字.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -13018,7 +13018,7 @@ Matched Play: 这个模型 and 任何单位 上车 aboard it are exempt from the
         </profile>
         <profile id="727a-3ea9-4c9d-4adf" name="Guided Aim" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">而不是 射击 in your 射击阶段, 这个单位’s Eliminator士官 can guide his小队’s aim. Until the end of that phase, when resolving an attack made with a 远程武器 by a 这个单位中的模型, add 1 to the 命中骰 and wound roll.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">而不是 射击 in your 射击阶段, 这个单位’s Eliminator士官 can guide his小队’s aim. Until the end of that phase, when resolving an 攻击 made with a 远程武器 by a 这个单位中的模型, add 1 to the 命中骰 and wound roll.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -13601,7 +13601,7 @@ wounds.</characteristic>
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">7</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When resolving an attack made 使用这个武器, add 1 to the 命中骰 if 目标 can 飞行; otherwise 命中骰-1</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When resolving an 攻击 made 使用这个武器, add 1 to the 命中骰 if 目标 can 飞行; otherwise 命中骰-1</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -13620,7 +13620,7 @@ wounds.</characteristic>
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When resolving an attack made 使用这个武器, add 1 to the 命中骰 and 1 to the wound roll if 目标 can 飞行; otherwise 命中骰-1.</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When resolving an 攻击 made 使用这个武器, add 1 to the 命中骰 and 1 to the wound roll if 目标 can 飞行; otherwise 命中骰-1.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -13695,7 +13695,7 @@ wounds.</characteristic>
       <profiles>
         <profile id="122e-6589-6e40-7e69" name="Multi-spectrum array" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made with a 远程武器 by a 这个单位中的模型, ignore 命中骰 modifiers and Ballistic Skill modifiers.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an 攻击 made with a 远程武器 by a 这个单位中的模型, ignore 命中骰 modifiers and Ballistic Skill modifiers.</characteristic>
           </characteristics>
         </profile>
         <profile id="6ddf-da96-faa6-757c" name="战斗小队" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -14083,7 +14083,7 @@ wounds.</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When resolving an attack made 使用这个武器, 目标 does not receive the benefit of cover to its saving throw.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When resolving an 攻击 made 使用这个武器, 目标 does not receive the benefit of cover to its saving throw.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -15315,7 +15315,7 @@ wounds.</characteristic>
     </profile>
     <profile id="6586-5d43-b320-83cf" name="阿斯塔特战旗" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">&lt;人物&gt; 单位 6寸范围内of any 友方 &lt;人物&gt; ANCIENTS add 1 to their LD. 此外, 投掷1个D6 每次 a &lt;人物&gt; 步兵模型 is 被消灭 6寸范围内 of any 友方 &lt;人物&gt; ANCIENTS, before removing the 模型 as a casualty. 结果为4+ that 模型 musters one last surge of strength before succumbing to its wounds; it can either shoot with one of its 武器 as if it were the 射击阶段, or make a single attack as if it were the 肉搏阶段.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">&lt;人物&gt; 单位 6寸范围内of any 友方 &lt;人物&gt; ANCIENTS add 1 to their LD. 此外, 投掷1个D6 每次 a &lt;人物&gt; 步兵模型 is 被消灭 6寸范围内 of any 友方 &lt;人物&gt; ANCIENTS, before removing the 模型 as a casualty. 结果为4+ that 模型 musters one last surge of strength before succumbing to its wounds; it can either shoot with one of its 武器 as if it were the 射击阶段, or make a single 攻击 as if it were the 肉搏阶段.</characteristic>
       </characteristics>
     </profile>
     <profile id="9a48-b883-2c2b-71cb" name="战斗盾" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -15683,7 +15683,7 @@ wounds.</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When resolving an attack made 使用这个武器, an unmodified 命中骰的 6 scores 1 额外的 命中.</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When resolving an 攻击 made 使用这个武器, an unmodified 命中骰的 6 scores 1 额外的 命中.</characteristic>
       </characteristics>
     </profile>
     <profile id="5a7e-49c4-3678-da5a" name="他们无所畏惧" hidden="false" typeId="0891-2df5-19c2-de63" typeName="爆炸">

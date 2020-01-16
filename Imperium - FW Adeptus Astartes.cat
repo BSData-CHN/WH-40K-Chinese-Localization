@@ -9210,7 +9210,7 @@
     <selectionEntry id="9859-bf56-c735-4099" name="火蜥蜴" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
         <rule id="3784-3393-c6f2-35ce" name="Master Artisans" hidden="false">
-          <description>When a 单位 with this tactic fires 坚守射击 or is chosen to shoot or fight with, 可以重投 a single 命中骰 and 可以重投 a single wound roll. When resolving an attack made with a 武器 that has an AP值 of -1 对抗 a 单位 with this tactic, that 武器 is treated as having an AP值 of 0.</description>
+          <description>When a 单位 with this tactic fires 坚守射击 or is chosen to shoot or fight with, 可以重投 a single 命中骰 and 可以重投 a single wound roll. When resolving an 攻击 made with a 武器 that has an AP值 of -1 对抗 a 单位 with this tactic, that 武器 is treated as having an AP值 of 0.</description>
         </rule>
       </rules>
       <costs>
@@ -10147,7 +10147,7 @@
         <selectionEntry id="c7d6-760f-9ae8-1038" name="血鸦" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="d913-24b8-4933-554a" name="Relentless 寻觅者" publicationId="eaff-9d37-65fa-35a2" hidden="false">
-              <description>When resolving an attack made 对抗 a 单位 with this tactic, an unmodified wound roll of 1 or 2 always fails, irrespective of any abilities that the 武器 or the 模型 making that attack may have.
+              <description>When resolving an 攻击 made 对抗 a 单位 with this tactic, an unmodified wound roll of 1 or 2 always fails, irrespective of any abilities that the 武器 or the 模型 making that 攻击 may have.
 
 此外, when a 灵能测试 or 否定巫术测试 is taken for a 灵能者 模型 with this tactic, 重投 any or 所有 dice 骰 of 1.</description>
             </rule>
@@ -10341,7 +10341,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">When fired, 这个武器 makes one full 射击攻击 对抗 each 敌方单位 范围内 range, except 人物. A 单位 consisting entirely of 人物 may only be attacked if it is 最近的 敌方单位 to the 死亡风暴空降舱 when the attack is declared.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">When fired, 这个武器 makes one full 射击攻击 对抗 each 敌方单位 范围内 range, except 人物. A 单位 consisting entirely of 人物 may only be attacked if it is 最近的 敌方单位 to the 死亡风暴空降舱 when the 攻击 is declared.</characteristic>
       </characteristics>
     </profile>
     <profile id="c0e5-7713-ae18-eeb4" name="Deathstorm missile array" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -10351,7 +10351,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">When fired, 这个武器 makes one full 射击攻击 对抗 each 敌方单位 范围内 range, except 人物. A 单位 consisting entirely of 人物 may only be attacked if it is 最近的 敌方单位 to the 死亡风暴空降舱 when the attack is declared.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">When fired, 这个武器 makes one full 射击攻击 对抗 each 敌方单位 范围内 range, except 人物. A 单位 consisting entirely of 人物 may only be attacked if it is 最近的 敌方单位 to the 死亡风暴空降舱 when the 攻击 is declared.</characteristic>
       </characteristics>
     </profile>
     <profile id="5403-7629-3ffd-b6c0" name="Dreadfire 重喷火" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -10471,7 +10471,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
-        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">每个命中骰的1, 持有者 遭受 one single 致命伤 after 所有 of the 武器&apos;s shots have been resolved.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">每个命中骰的1, 持有者 遭受 one single 致命伤 after 所有 of the 武器的 shots have been resolved.</characteristic>
       </characteristics>
     </profile>
     <profile id="f8a8-7c78-6dc3-de24" name="地狱打击阵列" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -10561,7 +10561,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">12</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">如果这个武器 成功造成 伤害, 额外投掷1个 D6. 结果为result of a &apos;3-5&apos;, the 武器&apos;s 伤害 增加到 2D6. 结果为result of a &apos;6&apos;, the 武器&apos;s 伤害 增加到 3D6.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">如果这个武器 成功造成 伤害, 额外投掷1个 D6. 结果为result of a &apos;3-5&apos;, the 武器的 伤害 增加到 2D6. 结果为result of a &apos;6&apos;, the 武器的 伤害 增加到 3D6.</characteristic>
       </characteristics>
     </profile>
     <profile id="66f9-70c2-2adc-514d" name="激光齐射炮-齐射" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -10591,7 +10591,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">10</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">If 目标 of an attack by 这个武器 is 范围内 half range, 额外投掷1个 dice when inflicting 伤害 and 舍弃最低结果.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">If 目标 of an 攻击 by 这个武器 is 范围内 half range, 额外投掷1个 dice when inflicting 伤害 and 舍弃最低结果.</characteristic>
       </characteristics>
     </profile>
     <profile id="0643-f2a4-4a3d-b019" name="Malice" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -10861,7 +10861,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">16</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2D6</characteristic>
-        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">任何造伤骰的 6 made with this attack 自动 造成额外的 D3 致命伤 对目标.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">任何造伤骰的 6 made with this 攻击 自动 造成额外的 D3 致命伤 对目标.</characteristic>
       </characteristics>
     </profile>
     <profile id="8e70-b923-b685-6a1b" name="双联加速自动炮" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -10901,7 +10901,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">10</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">If 目标 of an attack by 这个武器 is 范围内 half range, 额外投掷1个 dice when inflicting 伤害 and 舍弃最低结果.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">If 目标 of an 攻击 by 这个武器 is 范围内 half range, 额外投掷1个 dice when inflicting 伤害 and 舍弃最低结果.</characteristic>
       </characteristics>
     </profile>
     <profile id="2298-cb44-9815-8ede" name="双联火山炮" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -11141,7 +11141,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">+2</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Add 2 to the 武器&apos;s 伤害 if 目标 is a 人物.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Add 2 to the 武器的 伤害 if 目标 is a 人物.</characteristic>
       </characteristics>
     </profile>
     <profile id="6263-dd16-b978-b73a" name="Magister&apos;s axe" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -11201,7 +11201,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">After 这个模型 makes their normal 肉搏 攻击, make an 额外的 single attack 使用这个武器 对抗 each 敌方模型 1寸范围内.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">After 这个模型 makes their normal 肉搏 攻击, make an 额外的 single 攻击 使用这个武器 对抗 each 敌方模型 1寸范围内.</characteristic>
       </characteristics>
     </profile>
     <profile id="704d-040c-21d7-764b" name="Stonefist" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -11908,7 +11908,7 @@
     </profile>
     <profile id="8b27-d7c7-3509-8101" name="Void Shields" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 is protected by specialised 虚空盾发射器, near-impenetrable barriers of force projected out at a distance from its hull in layers, designed to deflect and absorb the impact of high-energy 攻击 and missiles 对抗 them. In game terms, void shields are represented by a unique kind of saving throw shown in the 伤害 box, which the controlling player can opt to use 而不是 their normal save or 特殊保护 对抗 any form of attack except from 武器 with the 肉搏 type. Like 特殊保护, 虚空盾 saves are unaffected by the AP of an attack, but unlike 特殊保护 they may also be used to negate 致命伤. 这种情况下 然而, roll one dice for 每个致命伤 that has been inflicted on the model, with the 致命伤 being ignored if the save roll indicated in the 伤害 box is passed.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 is protected by specialised 虚空盾发射器, near-impenetrable barriers of force projected out at a distance from its hull in layers, designed to deflect and absorb the impact of high-energy 攻击 and missiles 对抗 them. In game terms, void shields are represented by a unique kind of saving throw shown in the 伤害 box, which the controlling player can opt to use 而不是 their normal save or 特殊保护 对抗 any form of 攻击 except from 武器 with the 肉搏 type. Like 特殊保护, 虚空盾 saves are unaffected by the AP of an attack, but unlike 特殊保护 they may also be used to negate 致命伤. 这种情况下 然而, roll one dice for 每个致命伤 that has been inflicted on the model, with the 致命伤 being ignored if the save roll indicated in the 伤害 box is passed.</characteristic>
       </characteristics>
     </profile>
     <profile id="4e5e-7ec4-b9c4-4be5" name="圣物Contemptor" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
@@ -12021,7 +12021,7 @@
     </profile>
     <profile id="fd93-c4d6-1fc9-4962" name="滞空" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 不能冲锋, can only be charged by 单位 飞行关键字, and can only attack or be attacked 在肉搏阶段 by 单位 飞行关键字.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 不能冲锋, can only be charged by 单位 飞行关键字, and can only 攻击 or be attacked 在肉搏阶段 by 单位 飞行关键字.</characteristic>
       </characteristics>
     </profile>
     <profile id="7bd8-1f08-6aa1-e9b5" name="难以命中" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -12103,7 +12103,7 @@
     </profile>
     <profile id="3eef-35d2-719f-6ac6" name="滞空 Ram" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 can only declare charges in the 冲锋阶段 对抗 单位 飞行关键字, and may only attack or be attacked 在肉搏阶段 by 单位 飞行关键字.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 can only declare charges in the 冲锋阶段 对抗 单位 飞行关键字, and may only 攻击 or be attacked 在肉搏阶段 by 单位 飞行关键字.</characteristic>
       </characteristics>
     </profile>
     <profile id="c4e0-fc84-7b0e-b90f" name="雷鹰炮艇" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
@@ -12162,7 +12162,7 @@
     </profile>
     <profile id="cd78-32d7-72bf-0307" name="Projected Void Shields" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 is protected by specialised 虚空盾发射器, near-impenetrable barriers of force projected out at a distance from its hull in layers, designed to deflect and absorb the impact of high-energy 攻击 and missiles 对抗 them. In game terms, void shields are represented by a unique kind of saving throw shown in the 伤害 box, which the controlling player can opt to use 而不是 their normal save or 特殊保护 对抗 any form of attack except from 武器 with the 肉搏 type. Like 特殊保护, 虚空盾 saves are unaffected by the AP of an attack, but unlike 特殊保护 they may also be used to negate 致命伤. 这种情况下 然而, roll one dice for 每个致命伤 that has been inflicted on the model, with the 致命伤 being ignored if the save roll indicated in the 伤害 box is passed. Void shields 必须 continuously re-energised and renewed in combat operations and so as the 单位 is damaged, the defensive potential of its void shields is reduced (see the 损伤表).</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 is protected by specialised 虚空盾发射器, near-impenetrable barriers of force projected out at a distance from its hull in layers, designed to deflect and absorb the impact of high-energy 攻击 and missiles 对抗 them. In game terms, void shields are represented by a unique kind of saving throw shown in the 伤害 box, which the controlling player can opt to use 而不是 their normal save or 特殊保护 对抗 any form of 攻击 except from 武器 with the 肉搏 type. Like 特殊保护, 虚空盾 saves are unaffected by the AP of an attack, but unlike 特殊保护 they may also be used to negate 致命伤. 这种情况下 然而, roll one dice for 每个致命伤 that has been inflicted on the model, with the 致命伤 being ignored if the save roll indicated in the 伤害 box is passed. Void shields 必须 continuously re-energised and renewed in combat operations and so as the 单位 is damaged, the defensive potential of its void shields is reduced (see the 损伤表).</characteristic>
       </characteristics>
     </profile>
     <profile id="adf0-bca7-6f27-3a67" name="Shield Projection" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -12430,7 +12430,7 @@
     </profile>
     <profile id="28c7-5ca7-ea23-cd2f" name="Big Guns Never Tire" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性 在射击阶段, you may unleash a special bombardment attack 而不是 射击 as normal with 这个模型. To do so, nominate a target 敌方单位 (人物 不能 targeted) 任何位置 战场上 and 投掷1个D6.  结果为2+ 那个单位 遭受 D6 致命伤.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性 在射击阶段, you may unleash a special bombardment 攻击 而不是 射击 as normal with 这个模型. To do so, nominate a target 敌方单位 (人物 不能 targeted) 任何位置 战场上 and 投掷1个D6.  结果为2+ 那个单位 遭受 D6 致命伤.</characteristic>
       </characteristics>
     </profile>
     <profile id="0894-8ca7-b87d-2ce9" name="Living Legend" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -12775,7 +12775,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">x2</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
-        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">When resolving an attack made with this porfile, 命中骰-1, and a wound roll of 6+ inflicts 1 致命伤 对目标 此外 to any other 伤害.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">When resolving an 攻击 made with this porfile, 命中骰-1, and a wound roll of 6+ inflicts 1 致命伤 对目标 此外 to any other 伤害.</characteristic>
       </characteristics>
     </profile>
     <profile id="eb63-fe95-cee1-5b8a" name="God-splitter, Sweeping Blows" publicationId="eaff-9d37-65fa-35a2" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -12950,7 +12950,7 @@
     </profile>
     <profile id="ccf2-e1d1-9f44-2e19" name="阿斯塔特战旗 (红蝎)" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">红蝎 单位 6寸范围内 of any 友方 红蝎 ANCIENTS add 1 to their LD. 此外, 投掷1个D6 每次 a 红蝎 步兵模型 is 被消灭 6寸范围内 of any 友方 红蝎 ANCIENTS, before removing the 模型 as a casualty. 结果为4+ that 模型 musters one last surge of strength before succumbing to its wounds; it can either shoot with one of its 武器 as if it were the 射击阶段, or make a single attack as if it were the 肉搏阶段.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">红蝎 单位 6寸范围内 of any 友方 红蝎 ANCIENTS add 1 to their LD. 此外, 投掷1个D6 每次 a 红蝎 步兵模型 is 被消灭 6寸范围内 of any 友方 红蝎 ANCIENTS, before removing the 模型 as a casualty. 结果为4+ that 模型 musters one last surge of strength before succumbing to its wounds; it can either shoot with one of its 武器 as if it were the 射击阶段, or make a single 攻击 as if it were the 肉搏阶段.</characteristic>
       </characteristics>
     </profile>
     <profile id="cc98-8a4e-1e00-15c4" name="圣物Sicaran Omega" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">

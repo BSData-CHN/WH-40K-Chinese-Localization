@@ -4277,7 +4277,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">16</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2D6</characteristic>
-                <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Any wound roll of 6 made with this attack 自动 inflicts D3 致命伤 对目标.</characteristic>
+                <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Any wound roll of 6 made with this 攻击 自动 inflicts D3 致命伤 对目标.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6204,7 +6204,7 @@
                   <profiles>
                     <profile id="97cf-dacf-4f4e-8b26" name="21: Targeting Augury" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">敌方单位 do not gain the benefit of cover to their saving throws 对抗 攻击 made by 友方 &lt;Sub-faction&gt; 这个模型6寸范围内的单位 when the attack is made.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">敌方单位 do not gain the benefit of cover to their saving throws 对抗 攻击 made by 友方 &lt;Sub-faction&gt; 这个模型6寸范围内的单位 when the 攻击 is made.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6442,7 +6442,7 @@
                   <profiles>
                     <profile id="b3f5-feaf-9334-bb2a" name="43: Hard to Kill" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">造伤骰 of 1, 2 or 3 made for 以这个模型为目标的攻击 always fail, even if the attack 拥有 S值 higher than 这个模型’s T值.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">造伤骰 of 1, 2 or 3 made for 以这个模型为目标的攻击 always fail, even if the 攻击 拥有 S值 higher than 这个模型’s T值.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6544,7 +6544,7 @@
                   <profiles>
                     <profile id="d3a7-5098-bc2a-3dd9" name="53: Icon of Retribution" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Roll a dice 每次 a 友方 &lt;Sub-faction&gt;model 6寸范围内 of 这个模型 is slain 在肉搏阶段. 结果为6, the 单位 that made the attack that slew the 模型 遭受 1 致命伤 after it has finished making its 攻击.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Roll a dice 每次 a 友方 &lt;Sub-faction&gt;model 6寸范围内 of 这个模型 is slain 在肉搏阶段. 结果为6, the 单位 that made the 攻击 that slew the 模型 遭受 1 致命伤 after it has finished making its 攻击.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6595,7 +6595,7 @@
                   <profiles>
                     <profile id="28fd-c8a4-00d9-3c19" name="56: Savage Riposte" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 you roll an unmodified saving throw of 6 for 这个模型 在肉搏阶段, the 敌方单位 that made the attack 遭受 1 致命伤 after it has resolved 所有 of its 攻击.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 you roll an unmodified saving throw of 6 for 这个模型 在肉搏阶段, the 敌方单位 that made the 攻击 遭受 1 致命伤 after it has resolved 所有 of its 攻击.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6697,7 +6697,7 @@
                   <profiles>
                     <profile id="4a42-4231-7509-9afa" name="66: Direct Fire" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 you make a wound roll of 6+ 在射击阶段 for a 友方 &lt;Sub-faction&gt;这个模型6寸范围内的单位, the AP值 of that attack is improved by 1 (e.g. AP -1 becomes AP -2).</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 you make a wound roll of 6+ 在射击阶段 for a 友方 &lt;Sub-faction&gt;这个模型6寸范围内的单位, the AP值 of that 攻击 is improved by 1 (e.g. AP -1 becomes AP -2).</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7249,7 +7249,7 @@
               <profiles>
                 <profile id="591c-3344-f7bf-7f91" name="R1: Deadeye Shots" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 you roll an unmodified wound roll of 6 for an attack with one of 这个单位’s 远程武器, increase the D值 of that attack by 1. </characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 you roll an unmodified wound roll of 6 for an 攻击 with one of 这个单位’s 远程武器, increase the D值 of that 攻击 by 1. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7549,7 +7549,7 @@
               <profiles>
                 <profile id="05ff-d770-fe4f-990e" name="R2: Lashing Limbs" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 you roll an unmodified saving throw of 6 for 这个模型 在肉搏阶段, the 敌方单位 that made that attack 遭受 1 致命伤 after it has resolved 所有 of its 攻击. </characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 you roll an unmodified saving throw of 6 for 这个模型 在肉搏阶段, the 敌方单位 that made that 攻击 遭受 1 致命伤 after it has resolved 所有 of its 攻击. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7886,7 +7886,7 @@
       <description>部署期间, 这个单位 can be 放置 任何位置 战场上 that is not 范围内 your opponent&apos;s 部署区 and is more than 12寸 from any 敌方单位.</description>
     </rule>
     <rule id="15ea-860d-9eb6-21c3" name="滞空" hidden="false">
-      <description>这个模型 不能冲锋, can only be charged by 单位 飞行关键字, and can only attack or be attacked 在肉搏阶段 by 单位 飞行关键字.</description>
+      <description>这个模型 不能冲锋, can only be charged by 单位 飞行关键字, and can only 攻击 or be attacked 在肉搏阶段 by 单位 飞行关键字.</description>
     </rule>
     <rule id="9caa-ff00-a5bd-5f04" name="难以命中" hidden="false">
       <description>射击阶段攻击这个模型时命中骰-1.</description>
@@ -7895,7 +7895,7 @@
       <description>如果这个模型W降为0, 在载具被移除及任何在这个载具上的模型下车前投掷1个D6. 结果为6则爆炸, 6寸范围内每个单位遭受 D3 致命伤.</description>
     </rule>
     <rule id="60db-65f7-ca20-7874" name="开顶" page="" hidden="false">
-      <description>Models 上车 on 这个模型 can attack in their 射击阶段. Measure the range and draw line of sight from any point on the model. When they do so, any restrictions or modifiers that apply to 这个模型 also apply to its passenger; for example, the passengers cannot shoot if 这个模型 has 堕天使 Back in the same turn, cannot shoot (except with 手枪) if 这个模型 is 1寸范围内 of an 敌方单位, and so on.</description>
+      <description>Models 上车 on 这个模型 can 攻击 in their 射击阶段. Measure the range and draw line of sight from any point on the model. When they do so, any restrictions or modifiers that apply to 这个模型 also apply to its passenger; for example, the passengers cannot shoot if 这个模型 has 堕天使 Back in the same turn, cannot shoot (except with 手枪) if 这个模型 is 1寸范围内 of an 敌方单位, and so on.</description>
     </rule>
     <rule id="51af-0fb9-3ca5-d307" name="烟雾发生器" hidden="false">
       <description>Once per game, 而不是 射击 any 武器 在射击阶段, this 模型 can use its 烟雾发射器; if it does so, until your next 射击阶段 your opponent 必须 减少 1 from 任何命中 骰 that target it.</description>
@@ -7922,7 +7922,7 @@
       <description>The 5 CPs from this detachment can only be spent on 要塞突袭 Stratagems.</description>
     </rule>
     <rule id="5a7e-f984-487c-d767" name="爆弹训练" publicationId="28ec-711c-pubN110542" hidden="false">
-      <description>所有 阿斯塔特修会 and 阿斯塔特叛军 模型 获得这个能力. 而不是 following the normal rules for 速射 武器, 速射爆弹武器 used by 模型 具有这个能力的 make 双倍 of 攻击 if any of the following conditions apply: 1) The firing 模型的 target is 范围内 half the 武器&apos;s 最大射程. 2)    The firing 模型 is 步兵 and every 模型 in its 单位 remained stationary in your previous 移动阶段. 3) The firing 模型 is a 终结者, 摩托, 百夫长, or 无畏. For the purposes of this ability a 速射爆弹武器 is any 武器 with the 速射 type whose name includes the word &apos;bolt&apos; (e.g. 爆弹枪, 爆弹步枪, 风暴爆弹, 复合爆弹, 飓风爆弹, 地狱爆弹枪, etc.) This also applies when firing the 爆弹枪 profile of a combi-武器 (including the 爆弹武器 profile of 圣物 such as Blood Song and the Lion&apos;s Wrath) and when firing 圣物 that replace a 速射爆弹武器, so long as the 圣物 is also a rapid-fire 武器 (e.g. Primarch&apos;s Wrath, 德莫斯之怒, etc) The gauntlets of ultramar and the Talon of Horus are also considered 速射爆弹武器, as is the 卫士之矛 used by 死亡守望 Watch Masters.</description>
+      <description>所有 阿斯塔特修会 and 阿斯塔特叛军 模型 获得这个能力. 而不是 following the normal rules for 速射 武器, 速射爆弹武器 used by 模型 具有这个能力的 make 双倍 of 攻击 if any of the following conditions apply: 1) The firing 模型的 target is 范围内 half the 武器的 最大射程. 2)    The firing 模型 is 步兵 and every 模型 in its 单位 remained stationary in your previous 移动阶段. 3) The firing 模型 is a 终结者, 摩托, 百夫长, or 无畏. For the purposes of this ability a 速射爆弹武器 is any 武器 with the 速射 type whose name includes the word &apos;bolt&apos; (e.g. 爆弹枪, 爆弹步枪, 风暴爆弹, 复合爆弹, 飓风爆弹, 地狱爆弹枪, etc.) This also applies when firing the 爆弹枪 profile of a combi-武器 (including the 爆弹武器 profile of 圣物 such as Blood Song and the Lion&apos;s Wrath) and when firing 圣物 that replace a 速射爆弹武器, so long as the 圣物 is also a rapid-fire 武器 (e.g. Primarch&apos;s Wrath, 德莫斯之怒, etc) The gauntlets of ultramar and the Talon of Horus are also considered 速射爆弹武器, as is the 卫士之矛 used by 死亡守望 Watch Masters.</description>
     </rule>
     <rule id="01a4-bec8-b573-fde7" name="死亡天使" hidden="false">
       <description>这个单位 has the following abilities: 他们无所畏惧, Bolter Discipline, Shock Assault and Combat Doctrines.’</description>
@@ -9594,7 +9594,7 @@
     </profile>
     <profile id="8830-2c9e-ad7e-e57d" name="不可移动 (工事)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 不能移动 for any reason, nor can it fight 在肉搏阶段. When resolving an attack made 对抗 这个模型 在肉搏阶段, do not make a 命中骰: it 自动 scores a 命中. 这个模型 可以在射击阶段射击 even if there are 敌方模型 1寸范围内 of it, and 友方单位 can still target 敌方单位 that are 1寸范围内 of 这个模型.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 不能移动 for any reason, nor can it fight 在肉搏阶段. When resolving an 攻击 made 对抗 这个模型 在肉搏阶段, do not make a 命中骰: it 自动 scores a 命中. 这个模型 可以在射击阶段射击 even if there are 敌方模型 1寸范围内 of it, and 友方单位 can still target 敌方单位 that are 1寸范围内 of 这个模型.</characteristic>
       </characteristics>
     </profile>
     <profile id="76e8-a8df-d243-1673" name="破片突击发射器" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
