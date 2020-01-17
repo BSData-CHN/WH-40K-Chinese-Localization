@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d360-802a-45b3-4f4a" name="帝国 - Legion of the Damned" revision="9" battleScribeVersion="2.03" authorName="BSData-CHN" authorContact="@BSData-CHN" authorUrl="https://github.com/BSData-CHN" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d360-802a-45b3-4f4a" name="帝国 - 咒缚军团" revision="9" battleScribeVersion="2.03" authorName="BSData-CHN" authorContact="@BSData-CHN" authorUrl="https://github.com/BSData-CHN" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="d360-802a-pubN65537" name="索引: 帝国 1"/>
   </publications>
   <categoryEntries>
     <categoryEntry id="b89d-e4d9-31f2-ae6e" name="阵营: 帝国" hidden="false"/>
     <categoryEntry id="327c-c1c2-b934-558d" name="阵营: 阿斯塔特修会" hidden="false"/>
-    <categoryEntry id="dff8-4bb7-32e9-aadb" name="阵营: Legion of the Damned" hidden="false"/>
-    <categoryEntry id="edfe-4b9a-8015-9ce7" name="Damned Legionnaires" hidden="false"/>
+    <categoryEntry id="dff8-4bb7-32e9-aadb" name="阵营: 咒缚军团" hidden="false"/>
+    <categoryEntry id="edfe-4b9a-8015-9ce7" name="咒缚军团战士" hidden="false"/>
   </categoryEntries>
   <forceEntries>
-    <forceEntry id="0383-bad5-390e-4cca" name="Vanguard Detachment" hidden="false">
+    <forceEntry id="0383-bad5-390e-4cca" name="先锋分队" hidden="false">
       <forceEntries>
-        <forceEntry id="ff3a-fba8-4f66-fe7e" name="Vanguard Detachment" hidden="false">
+        <forceEntry id="ff3a-fba8-4f66-fe7e" name="先锋分队" hidden="false">
           <categoryLinks>
             <categoryLink id="252f-c1ff-8221-7ded" name="游戏选项" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
             <categoryLink id="1771-dd1b-11e6-43d0" name="基础槽位" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false"/>
@@ -76,10 +76,10 @@
     </forceEntry>
   </forceEntries>
   <entryLinks>
-    <entryLink id="7073-b346-c594-b404" name="Damned Legionnaires" hidden="false" collective="false" import="true" targetId="61a6-2734-a069-1ba7" type="selectionEntry"/>
+    <entryLink id="7073-b346-c594-b404" name="咒缚军团战士" hidden="false" collective="false" import="true" targetId="61a6-2734-a069-1ba7" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="61a6-2734-a069-1ba7" name="Damned Legionnaires" publicationId="d360-802a-pubN65537" page="87" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="61a6-2734-a069-1ba7" name="咒缚军团战士" publicationId="d360-802a-pubN65537" page="87" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="increment" field="e356-c769-5920-6e14" value="7">
           <conditions>
@@ -90,8 +90,8 @@
       <profiles>
         <profile id="7f49-034c-ef08-45b0" name="关键字" hidden="false" typeId="b900-0afb-e411-2cbb" typeName="关键字">
           <characteristics>
-            <characteristic name="阵营关键字" typeId="6b92-2d97-5144-62bc">帝国, 阿斯塔特修会, LEGION OF THE DAMNED</characteristic>
-            <characteristic name="基础关键字" typeId="ce6c-4765-4bb8-bd49">步兵, DAMNED LEGIONNAIRES</characteristic>
+            <characteristic name="阵营关键字" typeId="6b92-2d97-5144-62bc">帝国, 阿斯塔特修会, 咒缚军团</characteristic>
+            <characteristic name="基础关键字" typeId="ce6c-4765-4bb8-bd49">步兵, 咒缚军团战士</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -111,13 +111,13 @@
         <categoryLink id="ff97-b3a6-810a-e85a" name="New CategoryLink" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="0d07-848f-59e8-3bb0" name="Legionnaire士官" hidden="false" collective="false" import="true" targetId="2cd3-941a-c64e-e3a3" type="selectionEntry">
+        <entryLink id="0d07-848f-59e8-3bb0" name="军团战士士官" hidden="false" collective="false" import="true" targetId="2cd3-941a-c64e-e3a3" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="047d-dca9-0997-c7e8" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78b0-1b49-9f15-f934" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="c6a5-bd8f-68b2-664e" name="Legionnaires" hidden="false" collective="false" import="true" targetId="4195-07c6-905f-ee50" type="selectionEntryGroup">
+        <entryLink id="c6a5-bd8f-68b2-664e" name="军团战士" hidden="false" collective="false" import="true" targetId="4195-07c6-905f-ee50" type="selectionEntryGroup">
           <constraints>
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c91f-4c70-aea9-240a" type="min"/>
             <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05a5-12c2-38c3-5212" type="max"/>
@@ -132,7 +132,7 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2cd3-941a-c64e-e3a3" name="Legionnaire士官" publicationId="d360-802a-pubN65537" page="87" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="2cd3-941a-c64e-e3a3" name="军团战士士官" publicationId="d360-802a-pubN65537" page="87" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
         <infoLink id="2ca5-f937-7385-9011" name="New InfoLink" hidden="false" targetId="ef86-5ef1-15c5-57ba" type="profile"/>
       </infoLinks>
@@ -168,7 +168,7 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="eea5-36e2-efda-360b" name="Legionnaire" publicationId="d360-802a-pubN65537" page="87" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="eea5-36e2-efda-360b" name="军团战士" publicationId="d360-802a-pubN65537" page="87" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
         <infoLink id="d76d-573b-3b60-0d48" name="New InfoLink" hidden="false" targetId="3939-38a3-8a0a-989a" type="profile"/>
       </infoLinks>
@@ -204,7 +204,7 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3002-49f3-ad47-3be0" name="Legionnaire (Heavy 武器)" publicationId="d360-802a-pubN65537" page="87" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="3002-49f3-ad47-3be0" name="军团战士 (重武器)" publicationId="d360-802a-pubN65537" page="87" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
         <infoLink id="b59f-218f-3e63-ca0c" name="New InfoLink" hidden="false" targetId="3939-38a3-8a0a-989a" type="profile"/>
       </infoLinks>
@@ -240,7 +240,7 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3ad3-8529-7374-4e5c" name="Legionnaire (特殊武器)" publicationId="d360-802a-pubN65537" page="87" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="3ad3-8529-7374-4e5c" name="军团战士 (特殊武器)" publicationId="d360-802a-pubN65537" page="87" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
         <infoLink id="6401-93ee-1685-a163" name="New InfoLink" hidden="false" targetId="3939-38a3-8a0a-989a" type="profile"/>
       </infoLinks>
@@ -440,7 +440,7 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="9066-1ff9-0809-ddfc" name="Legionnaire士官 武器" publicationId="d360-802a-pubN65537" page="87" hidden="false" collective="false" import="true" defaultSelectionEntryId="1ee2-667a-aeff-c767">
+    <selectionEntryGroup id="9066-1ff9-0809-ddfc" name="军团战士士官武器" publicationId="d360-802a-pubN65537" page="87" hidden="false" collective="false" import="true" defaultSelectionEntryId="1ee2-667a-aeff-c767">
       <entryLinks>
         <entryLink id="1ee2-667a-aeff-c767" name="New EntryLink" hidden="false" collective="false" import="true" targetId="d44b-f4ba-055d-ade3" type="selectionEntry"/>
         <entryLink id="9e16-3fb2-a068-7712" name="New EntryLink" hidden="false" collective="false" import="true" targetId="a8c8-f511-51ca-29b0" type="selectionEntry"/>
@@ -450,27 +450,27 @@
         <entryLink id="7c3f-3b07-a3b3-734b" name="New EntryLink" hidden="false" collective="false" import="true" targetId="58f4-ae66-e45d-68cd" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="91f8-fe4a-251c-5506" name="Legionnaire士官 手枪" publicationId="d360-802a-pubN65537" page="87" hidden="false" collective="false" import="true" defaultSelectionEntryId="e7bd-ecb6-65c3-5ff8">
+    <selectionEntryGroup id="91f8-fe4a-251c-5506" name="军团战士士官手枪" publicationId="d360-802a-pubN65537" page="87" hidden="false" collective="false" import="true" defaultSelectionEntryId="e7bd-ecb6-65c3-5ff8">
       <entryLinks>
         <entryLink id="e7bd-ecb6-65c3-5ff8" name="New EntryLink" hidden="false" collective="false" import="true" targetId="16b1-9802-3c67-efd3" type="selectionEntry"/>
         <entryLink id="d02a-317c-3572-aaf7" name="New EntryLink" hidden="false" collective="false" import="true" targetId="2fd5-48d6-dcf3-7b0f" type="selectionEntry"/>
         <entryLink id="f0e4-c764-e1d5-3273" name="New EntryLink" hidden="false" collective="false" import="true" targetId="3e7f-a350-691a-afc0" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="8d18-b26a-3595-1528" name="Legionnaire 特殊武器" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="8d18-b26a-3595-1528" name="军团战士特殊武器" hidden="false" collective="false" import="true">
       <entryLinks>
         <entryLink id="fd5a-7433-8c2c-fa2d" name="New EntryLink" hidden="false" collective="false" import="true" targetId="82fe-4f1d-7428-74ce" type="selectionEntry"/>
         <entryLink id="c97a-3bb2-b638-e20a" name="New EntryLink" hidden="false" collective="false" import="true" targetId="bde8-15e2-62ba-b3e4" type="selectionEntry"/>
         <entryLink id="324a-2582-840d-ad82" name="New EntryLink" hidden="false" collective="false" import="true" targetId="883f-07be-4508-4a13" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="d713-06da-7ff5-4f18" name="Legionnaire 重型武器" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="d713-06da-7ff5-4f18" name="军团战士重型武器" hidden="false" collective="false" import="true">
       <entryLinks>
         <entryLink id="fabf-4f5c-c00b-c69d" name="New EntryLink" hidden="false" collective="false" import="true" targetId="dab3-d39d-3e87-5782" type="selectionEntry"/>
         <entryLink id="dd20-49ba-d751-6974" name="New EntryLink" hidden="false" collective="false" import="true" targetId="a9fa-e41c-9723-cd1a" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="4195-07c6-905f-ee50" name="Legionnaires" hidden="false" collective="false" import="true" defaultSelectionEntryId="4a9d-93a4-badd-de80">
+    <selectionEntryGroup id="4195-07c6-905f-ee50" name="军团战士" hidden="false" collective="false" import="true" defaultSelectionEntryId="4a9d-93a4-badd-de80">
       <entryLinks>
         <entryLink id="4a9d-93a4-badd-de80" name="New EntryLink" hidden="false" collective="false" import="true" targetId="eea5-36e2-efda-360b" type="selectionEntry"/>
         <entryLink id="284a-f3be-2c4b-1253" name="New EntryLink" hidden="false" collective="false" import="true" targetId="3002-49f3-ad47-3be0" type="selectionEntry">
@@ -488,11 +488,11 @@
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="e263-44eb-c516-b7a7" name="Saviours From Beyond" page="" hidden="false">
-      <description>So long as your 主将 is from the 帝国, you can include 这个单位 in a Vanguard Detachment even if that Detachment contains no HQ 单位. 然而, if you do so, that Detachment&apos;s Command Benefits are changed to &apos;None&apos;.</description>
+      <description>So long as your 主将 is from the 帝国, you can include 这个单位 in a 先锋分队 even if that Detachment contains no HQ 单位. 然而, if you do so, that Detachment&apos;s Command Benefits are changed to &apos;None&apos;.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="3939-38a3-8a0a-989a" name="Legionnaire" publicationId="d360-802a-pubN65537" page="87" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+    <profile id="3939-38a3-8a0a-989a" name="军团战士" publicationId="d360-802a-pubN65537" page="87" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
       <characteristics>
         <characteristic name="M" typeId="0bdf-a96e-9e38-7779">5寸</characteristic>
         <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -505,7 +505,7 @@
         <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
       </characteristics>
     </profile>
-    <profile id="ef86-5ef1-15c5-57ba" name="Legionnaire士官" publicationId="d360-802a-pubN65537" page="87" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+    <profile id="ef86-5ef1-15c5-57ba" name="军团战士士官" publicationId="d360-802a-pubN65537" page="87" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
       <characteristics>
         <characteristic name="M" typeId="0bdf-a96e-9e38-7779">5寸</characteristic>
         <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="d541-6e16-d152-db06" name="堕天使" revision="7" battleScribeVersion="2.03" authorName="BSData-CHN" authorContact="@Mad_Spy" authorUrl="https://github.com/BSData-CHN" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="94" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
-    <categoryEntry id="cd82-15ee-cad6-4909" name="堕天使 Angels" hidden="false"/>
+    <categoryEntry id="cd82-15ee-cad6-4909" name="堕落天使" hidden="false"/>
   </categoryEntries>
   <entryLinks>
     <entryLink id="1cd4-ef48-c06a-96da" name="Cypher" hidden="false" collective="false" import="true" targetId="90fa-7e44-02fc-0db0" type="selectionEntry">
@@ -13,7 +13,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="35e8-f827-bc94-388d" name="堕天使 Angels" hidden="false" targetId="cd82-15ee-cad6-4909" primary="false"/>
+        <categoryLink id="35e8-f827-bc94-388d" name="堕落天使" hidden="false" targetId="cd82-15ee-cad6-4909" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="658d-c741-d637-1886" name="堕天使" hidden="false" collective="false" import="true" targetId="0cfc-b724-eeed-7177" type="selectionEntry">
@@ -25,7 +25,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="cb47-406c-9d77-aec8" name="堕天使 Angels" hidden="false" targetId="cd82-15ee-cad6-4909" primary="false"/>
+        <categoryLink id="cb47-406c-9d77-aec8" name="堕落天使" hidden="false" targetId="cd82-15ee-cad6-4909" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="0f1f-01a6-cdef-78d6" name="特殊分队" hidden="false" collective="false" import="true" targetId="1431-f0a4-42a6-bbc5" type="selectionEntry"/>
@@ -75,11 +75,11 @@
   <rules>
     <rule id="47e0-2f52-0200-d91d" name="爆弹训练" hidden="false">
       <description>所有 阿斯塔特修会, 阿斯塔特叛军 and 堕天使 模型 获得这个能力.
-而不是 following the normal rules for 速射 武器, 这个单位中的模型 firing 速射爆弹武器 make 双倍 of 攻击 if any of the following apply:
+而不是 following the normal rules for 速射武器, 这个单位中的模型 firing 速射爆弹武器 make 双倍 of 攻击 if any of the following apply:
 • The firing model’s target is 范围内 half the 武器的 最大射程.
 • The firing 模型 is 步兵 and every 模型 in its 单位 remained stationary in your previous 移动阶段.
 • The firing 模型 is a 终结者, 摩托, 百夫长, 无畏 or 地狱兽.
-For the purposes of this ability, a 速射爆弹武器 is any 武器 with the 速射 type whose profile includes the word ‘bolt’ (e.g. 爆弹枪, 爆弹步枪, 风暴爆弹, 复合爆弹, 飓风爆弹, 地狱爆弹枪, etc.). This also applies when firing the 爆弹枪 profile of 复合武器 (including the 爆弹武器 profile of 圣物 such as Blood Song and the Lion’s Wrath) and when firing 圣物 that replace a 速射爆弹武器, so long as the 圣物 is also a 速射武器 (e.g. Primarch’s Wrath and 德莫斯之怒). The Gauntlets of Ultramar and the Talon of Horus are also 速射爆弹武器, as is the 卫士之矛 used by 死亡守望 Watch Masters.</description>
+For the purposes of this ability, a 速射爆弹武器 is any武器 with the 速射 type whose profile includes the word ‘bolt’ (e.g. 爆弹枪, 爆弹步枪, 风暴爆弹, 复合爆弹, 飓风爆弹, 地狱爆弹枪, etc.). This also applies when firing the 爆弹枪 profile of 复合武器 (including the 爆弹武器 profile of 圣物 such as Blood Song and the Lion’s Wrath) and when firing 圣物 that replace a 速射爆弹武器, so long as the 圣物 is also a 速射武器 (e.g. Primarch’s Wrath and 德莫斯之怒). The Gauntlets of Ultramar and the Talon of Horus are also 速射爆弹武器, as is the 卫士之矛 used by 死亡守望 Watch Masters.</description>
     </rule>
   </rules>
   <sharedSelectionEntries>
@@ -108,9 +108,9 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
             <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="2471-5af3-0c5d-2660" name="Blazing 武器" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="2471-5af3-0c5d-2660" name="Blazing武器" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Cypher can use his 手枪 in your 射击阶段 even if he has Advanced or 堕天使 Back in the same turn.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Cypher can use his手枪 in your 射击阶段 even if he has Advanced or 堕天使 Back in the same turn.</characteristic>
           </characteristics>
         </profile>
         <profile id="b046-3183-1d1e-d48b" name="Mysterious Protection" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -137,7 +137,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">敌方单位 范围内 12寸 of CYPHER cannot use any abilities, 主将特性 or 圣物 that allow them to gain, return or refund 指挥点数. The range of this ability 增加到 18寸 while there are 10 or more other 友方 堕天使 ANGELS 模型 范围内 12寸 of CYPHER. The range of this ability is instead increased to 24寸 while there are 20 or more other 友方 堕天使 ANGELS 模型 范围内 12寸 of CYPHER.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">敌方单位 范围内 12寸 of CYPHER cannot use any abilities, 主将特性 or 圣物 that allow them to gain, return or refund 指挥点数. The range of this ability 增加到 18寸 while there are 10 or more other 友方 堕落天使 模型 范围内 12寸 of CYPHER. The range of this ability is instead increased to 24寸 while there are 20 or more other 友方 堕落天使 模型 范围内 12寸 of CYPHER.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -253,7 +253,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="7f50-495b-2a8f-27ee" name="堕天使 Angels" hidden="false" targetId="efe6-7bbc-5953-3290" type="profile"/>
+        <infoLink id="7f50-495b-2a8f-27ee" name="堕落天使" hidden="false" targetId="efe6-7bbc-5953-3290" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="8386-b97c-d8a2-81d8" name="New CategoryLink" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
@@ -268,7 +268,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
             <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c196-c1c3-3ba5-2829" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="3661-e8b2-b9a5-d7a0" name="Fallen装备爆弹枪" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="3661-e8b2-b9a5-d7a0" name="堕天使装备爆弹枪" hidden="false" collective="false" import="true" type="model">
               <modifiers>
                 <modifier type="set" field="7cbb-5220-36d4-aa12" value="0.0"/>
               </modifiers>
@@ -314,7 +314,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="733a-3c1b-b361-d40b" type="min"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="ff8f-d6f2-1634-664c" name="堕天使 冠军 Equipment" hidden="false" collective="false" import="true" targetId="1f91-a49d-4212-e2ce" type="selectionEntryGroup">
+                <entryLink id="ff8f-d6f2-1634-664c" name="堕天使冠军装备" hidden="false" collective="false" import="true" targetId="1f91-a49d-4212-e2ce" type="selectionEntryGroup">
                   <constraints>
                     <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d4ae-4a7e-b170-b828" type="min"/>
                   </constraints>
@@ -326,14 +326,14 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="8037-44b7-f9f2-45bc" name="Fallen装备Heavy or 特殊武器" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="8037-44b7-f9f2-45bc" name="堕天使装备重型或特殊武器" hidden="false" collective="false" import="true" type="model">
               <modifiers>
-                <modifier type="set" field="name" value="Fallen装备Heavy 武器">
+                <modifier type="set" field="name" value="堕天使装备重武器">
                   <conditions>
                     <condition field="selections" scope="8037-44b7-f9f2-45bc" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1e5c-7492-b14e-1edb" type="equalTo"/>
                   </conditions>
                 </modifier>
-                <modifier type="set" field="name" value="Fallen装备特殊武器">
+                <modifier type="set" field="name" value="堕天使装备特殊武器">
                   <conditions>
                     <condition field="selections" scope="8037-44b7-f9f2-45bc" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7633-de22-b73b-e128" type="equalTo"/>
                   </conditions>
@@ -393,7 +393,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="19a5-4e63-c66e-47a3" name="Fallen装备chainsword" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="19a5-4e63-c66e-47a3" name="堕天使装备链锯剑" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7437-d1e3-51c0-5c03" type="max"/>
               </constraints>
@@ -425,12 +425,12 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
-            <selectionEntryGroup id="8c7d-c098-2a83-18c7" name="Fallen装备Weapon选项 (max 4)" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="8c7d-c098-2a83-18c7" name="堕天使装备武器选项 (至多4个)" hidden="false" collective="false" import="true">
               <constraints>
                 <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f32f-5c81-2041-88d2" type="max"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="3ee7-36b3-2c19-27a6" name="Fallen装备肉搏武器" hidden="false" collective="false" import="true" type="model">
+                <selectionEntry id="3ee7-36b3-2c19-27a6" name="堕天使装备肉搏武器" hidden="false" collective="false" import="true" type="model">
                   <selectionEntryGroups>
                     <selectionEntryGroup id="43bc-34f9-24a5-111f" name="肉搏武器选项" hidden="false" collective="false" import="true">
                       <constraints>
@@ -495,14 +495,14 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
                     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="15b3-dff7-ecc3-ec7e" name="Fallen装备Special or Combi 武器" hidden="false" collective="false" import="true" type="model">
+                <selectionEntry id="15b3-dff7-ecc3-ec7e" name="堕天使装备特殊或复合武器" hidden="false" collective="false" import="true" type="model">
                   <modifiers>
-                    <modifier type="set" field="name" value="Fallen装备特殊武器">
+                    <modifier type="set" field="name" value="堕天使装备特殊武器">
                       <conditions>
                         <condition field="selections" scope="15b3-dff7-ecc3-ec7e" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8aeb-2c9f-e020-c29a" type="equalTo"/>
                       </conditions>
                     </modifier>
-                    <modifier type="set" field="name" value="Fallen装备Combi 武器">
+                    <modifier type="set" field="name" value="堕天使装备复合武器">
                       <conditions>
                         <condition field="selections" scope="15b3-dff7-ecc3-ec7e" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f929-5a2b-7d4b-fbae" type="equalTo"/>
                       </conditions>
@@ -559,7 +559,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
                     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="1738-6213-2cc9-07aa" name="Fallen装备Lightning claws" hidden="false" collective="false" import="true" type="model">
+                <selectionEntry id="1738-6213-2cc9-07aa" name="堕天使装备闪电爪" hidden="false" collective="false" import="true" type="model">
                   <entryLinks>
                     <entryLink id="afab-8d30-3440-da20" name="破片和穿甲手雷" hidden="false" collective="false" import="true" targetId="bb78-534a-7b77-edbc" type="selectionEntry">
                       <constraints>
@@ -580,7 +580,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
                     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="e74e-757e-0743-98b6" name="Fallen装备Plasma 手枪" hidden="false" collective="false" import="true" type="model">
+                <selectionEntry id="e74e-757e-0743-98b6" name="堕天使装备等离子手枪" hidden="false" collective="false" import="true" type="model">
                   <selectionEntryGroups>
                     <selectionEntryGroup id="e053-939f-0b2a-9a4d" name="爆弹枪选项" hidden="false" collective="false" import="true">
                       <constraints>
@@ -644,7 +644,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
         <categoryLink id="91d3-47c6-8558-3127" name="New CategoryLink" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="c6a2-d64e-4a76-91c6" name="Specialist Detachments" hidden="false" collective="false" import="true" targetId="7e67-64c7-6caa-52b7" type="selectionEntryGroup"/>
+        <entryLink id="c6a2-d64e-4a76-91c6" name="特殊分队" hidden="false" collective="false" import="true" targetId="7e67-64c7-6caa-52b7" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -730,7 +730,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
         <categoryLink id="d816-30bb-988b-5c38" name="New CategoryLink" hidden="false" targetId="6cc4-1b62-8e8a-05cd" primary="false"/>
         <categoryLink id="3fd0-ead8-b805-62df" name="New CategoryLink" hidden="false" targetId="c8fd-783f-3230-493e" primary="false"/>
         <categoryLink id="22ae-b313-e900-6b89" name="阵营: 堕天使" hidden="false" targetId="e12c-dd25-cbab-a30d" primary="false"/>
-        <categoryLink id="bc48-6395-7df0-fb22" name="堕天使 Angels" hidden="false" targetId="cd82-15ee-cad6-4909" primary="false"/>
+        <categoryLink id="bc48-6395-7df0-fb22" name="堕落天使" hidden="false" targetId="cd82-15ee-cad6-4909" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="347b-67ea-d9a8-3388" name="烟雾发射器" hidden="false" collective="false" import="true" targetId="2da9-e64f-fece-7504" type="selectionEntry">
@@ -773,7 +773,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
       <profiles>
         <profile id="30c0-0ba5-ce4f-7027" name="烟雾发射器" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per game, 而不是 射击 any 武器 在射击阶段, 这个模型 can use its 烟雾发射器; until your next 射击阶段 your opponent 必须 减少 1 from 所有命中骰 for 远程武器 that target 这个载具.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, 而不是 射击 any武器 在射击阶段, 这个模型 can use its 烟雾发射器; 直到下一个你的 射击阶段 your opponent 必须 减少 1 from 所有命中骰 for 远程武器 that target 这个载具.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -822,7 +822,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="4ea5-7cd5-94f9-685c" name="堕天使 Angels" hidden="false" targetId="efe6-7bbc-5953-3290" type="profile"/>
+        <infoLink id="4ea5-7cd5-94f9-685c" name="堕落天使" hidden="false" targetId="efe6-7bbc-5953-3290" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="e2b0-79d4-ec46-9b55" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
@@ -831,7 +831,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
         <categoryLink id="be40-d057-cda8-4925" name="阵营: 混沌" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
         <categoryLink id="f6b6-7a48-cd0c-1d4c" name="阵营: 堕天使" hidden="false" targetId="e12c-dd25-cbab-a30d" primary="false"/>
         <categoryLink id="16bb-3aa4-96a7-5de7" name="人物" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
-        <categoryLink id="97e0-ed18-9e70-ddaa" name="堕天使 Angels" hidden="false" targetId="cd82-15ee-cad6-4909" primary="false"/>
+        <categoryLink id="97e0-ed18-9e70-ddaa" name="堕落天使" hidden="false" targetId="cd82-15ee-cad6-4909" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="9f03-5778-e1a7-41ef" name="跳跃背包" hidden="false" collective="false" import="true" type="upgrade">
@@ -1162,7 +1162,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="1f91-a49d-4212-e2ce" name="堕天使 冠军 Equipment" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="1f91-a49d-4212-e2ce" name="堕天使冠军装备" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2869-a07e-3873-c86c" type="max"/>
       </constraints>
@@ -1258,12 +1258,12 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="7e67-64c7-6caa-52b7" name="Specialist Detachments" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="7e67-64c7-6caa-52b7" name="特殊分队" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6609-5a9b-f551-e9fb" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="5afb-3d0f-8838-b6b7" name="堕天使 Angels" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="5afb-3d0f-8838-b6b7" name="堕落天使" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -1272,7 +1272,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
             </modifier>
           </modifiers>
           <infoLinks>
-            <infoLink id="a8a1-ba5c-bd8e-d83d" name="堕天使 Angels" hidden="false" targetId="77ef-14af-644c-c8bb" type="rule"/>
+            <infoLink id="a8a1-ba5c-bd8e-d83d" name="堕落天使" hidden="false" targetId="77ef-14af-644c-c8bb" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="-1.0"/>
@@ -1493,8 +1493,8 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
-    <rule id="77ef-14af-644c-c8bb" name="堕天使 Angels" hidden="false">
-      <description>Use this Stratagem when choosing your army. You can include Sorcerers and 混沌犀牛s in a Vanguard Detachment that includes only 堕天使 单位. If you do so, they replace their &lt;混沌印记&gt;, 阿斯塔特叛军 and &lt;军团&gt; 关键字 with the 堕天使 关键字. 堕天使 Sorcerers also replace their 诛杀伪帝 ability with the 堕天使 Angels ability from the 堕天使 datasheet. 选择1个 堕天使 Detachment from your army to be a 堕天使 Angels 特殊分队. 堕天使 单位 in that Detachment gain the 堕天使 ANGELS 关键字, but they lose the 帝国 Faction 关键字 (if they have it).</description>
+    <rule id="77ef-14af-644c-c8bb" name="堕落天使" hidden="false">
+      <description>Use this Stratagem when choosing your army. You can include Sorcerers and 混沌犀牛s in a 先锋分队 that includes only 堕天使 单位. If you do so, they replace their &lt;混沌印记&gt;, 阿斯塔特叛军 and &lt;军团&gt; 关键字 with the 堕天使 关键字. 堕天使 Sorcerers also replace their 诛杀伪帝 ability with the 堕落天使 ability from the 堕天使 datasheet. 选择1个 堕天使 Detachment from your army to be a 堕落天使 特殊分队. 堕天使 单位 in that Detachment gain the 堕落天使 关键字, but they lose the 帝国 Faction 关键字 (if they have it).</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -1518,7 +1518,7 @@ For the purposes of this ability, a 速射爆弹武器 is any 武器 with the �
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="efe6-7bbc-5953-3290" name="堕天使 Angels" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="efe6-7bbc-5953-3290" name="堕落天使" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投命中骰 of 1 for any 堕天使 单位 when 射击 (including when firing 坚守射击) as long as the 单位 did not move in its last 移动阶段. 此外, 堕天使 单位 can never lose more than 1 模型 as the result of any single 失败的 Morale test; any 额外的 casualties beyond the first are ignored.</characteristic>
       </characteristics>

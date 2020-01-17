@@ -1707,7 +1707,7 @@
         <categoryLink id="76fd-e440-28d8-9f29-d713cda3-5d0f-40d8-b621-69233263ec2a" hidden="false" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="c636-e01d-2d8a-0af4" name="Vengeance 武器 Batteries" hidden="false" collective="false" import="true" targetId="04bf-6c22-19fb-4e46" type="selectionEntry">
+    <entryLink id="c636-e01d-2d8a-0af4" name="Vengeance武器 Batteries" hidden="false" collective="false" import="true" targetId="04bf-6c22-19fb-4e46" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="c636-e01d-2d8a-0af4-d713cda3-5d0f-40d8-b621-69233263ec2a" hidden="false" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a" primary="true"/>
         <categoryLink id="e2c0-267d-9059-79e2" name="New CategoryLink" hidden="false" targetId="8172-12c9-8092-0756" primary="false"/>
@@ -2010,7 +2010,7 @@
         <categoryLink id="fa58-ca2c-b0b5-c6d0" name="New CategoryLink" hidden="false" targetId="9df5-bb14-9326-4108" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="6b20-ef2b-2cd6-222b" name="Turret 武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="fb25-ec0f-c484-622b">
+        <selectionEntryGroup id="6b20-ef2b-2cd6-222b" name="Turret武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="fb25-ec0f-c484-622b">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3346-ddd7-7275-e9d9" type="min"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96ec-64eb-2025-a461" type="max"/>
@@ -2438,10 +2438,10 @@
       <profiles>
         <profile id="4ca0-bdc4-9090-1647" name="Fully 自动武器" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型的 武器 只能瞄准 最近的 可见 敌方单位. 攻击 made with the 四联 伊卡洛斯Lascannons can instead target 最近的 可见 敌方单位 飞行关键字. In either case, if two or more 单位 are equally close, you can choose which is targeted.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型的武器 只能瞄准 最近的 可见 敌方单位. 攻击 made with the 四联 伊卡洛斯Lascannons can instead target 最近的 可见 敌方单位 飞行关键字. In either case, if two or more 单位 are equally close, you can choose which is targeted.</characteristic>
           </characteristics>
         </profile>
-        <profile id="4e2c-1874-14f7-56d8" name="Vengeance 武器 Battery" publicationId="28ec-711c-pubN77581" page="132" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+        <profile id="4e2c-1874-14f7-56d8" name="Vengeance武器 Battery" publicationId="28ec-711c-pubN77581" page="132" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">-</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">-</characteristic>
@@ -2466,7 +2466,7 @@
         <categoryLink id="3fdd-4995-f25e-4149" name="New CategoryLink" hidden="false" targetId="9df5-bb14-9326-4108" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="1d04-c4e5-2664-4ee4" name="Vengeance 武器 Battery" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="1d04-c4e5-2664-4ee4" name="Vengeance武器 Battery" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bcb0-cd68-20e2-6858" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec31-9fc8-8dc9-469b" type="min"/>
@@ -2670,7 +2670,7 @@
       <infoLinks>
         <infoLink id="73e7-91e7-a433-8ea5" name="爆弹枪" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
         <infoLink id="7405-10db-da34-a45f" name="喷火器" hidden="false" targetId="cdc3-3459-a28c-a9cf" type="profile"/>
-        <infoLink id="e750-f8e4-4667-b083" name="Combi 武器" hidden="false" targetId="a269-b8d9-67c5-4009" type="rule"/>
+        <infoLink id="e750-f8e4-4667-b083" name="复合武器" hidden="false" targetId="a269-b8d9-67c5-4009" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="8.0"/>
@@ -2683,7 +2683,7 @@
         <infoLink id="4d1d-71c8-ca26-be0c" name="爆弹枪" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
         <infoLink id="643c-5084-06fe-4146" name="等离子枪, 标准" hidden="false" targetId="03e5-60f2-4726-5cdd" type="profile"/>
         <infoLink id="fa33-f484-5ce8-add5" name="等离子枪, 过载" hidden="false" targetId="acb5-7b58-0d17-a33a" type="profile"/>
-        <infoLink id="0078-b3a9-c2e8-c96f" name="Combi 武器" hidden="false" targetId="a269-b8d9-67c5-4009" type="rule"/>
+        <infoLink id="0078-b3a9-c2e8-c96f" name="复合武器" hidden="false" targetId="a269-b8d9-67c5-4009" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="11.0"/>
@@ -2695,7 +2695,7 @@
       <infoLinks>
         <infoLink id="ed40-44ba-772a-dbe8" name="爆弹枪" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
         <infoLink id="bac3-c746-cec0-e45d" name="热熔枪" hidden="false" targetId="ec4c-1132-ddaf-db8e" type="profile"/>
-        <infoLink id="89f9-614c-9804-9dda" name="Combi 武器" hidden="false" targetId="a269-b8d9-67c5-4009" type="rule"/>
+        <infoLink id="89f9-614c-9804-9dda" name="复合武器" hidden="false" targetId="a269-b8d9-67c5-4009" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="15.0"/>
@@ -2966,7 +2966,7 @@
       <infoLinks>
         <infoLink id="595c-c1ad-7cd6-9c2b" name="爆弹枪" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
         <infoLink id="2143-e026-6475-051d" name="重力枪" hidden="false" targetId="a3d2-b0d7-70bc-695e" type="profile"/>
-        <infoLink id="3769-90bc-d2ca-500a" name="Combi 武器" hidden="false" targetId="a269-b8d9-67c5-4009" type="rule"/>
+        <infoLink id="3769-90bc-d2ca-500a" name="复合武器" hidden="false" targetId="a269-b8d9-67c5-4009" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="13.0"/>
@@ -3807,7 +3807,7 @@
     </selectionEntry>
     <selectionEntry id="3790-ebf1-ac1e-1624" name="毒针手枪" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="fe0d-3007-11c4-58d4" name="Needle 手枪" hidden="false" targetId="badf-b321-5a04-54d8" type="profile"/>
+        <infoLink id="fe0d-3007-11c4-58d4" name="Needle手枪" hidden="false" targetId="badf-b321-5a04-54d8" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="0.0"/>
@@ -4185,7 +4185,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="8dde-9320-f50a-6c1f" name="Turret 武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="d232-4017-cd9f-b55a">
+        <selectionEntryGroup id="8dde-9320-f50a-6c1f" name="Turret武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="d232-4017-cd9f-b55a">
           <modifiers>
             <modifier type="increment" field="85b6-136c-3441-7c71" value="1">
               <repeats>
@@ -4781,7 +4781,7 @@
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Ignore the -1 to 命中 modifier for moving and 射击 重型武器 for 这个模型.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Ignore the -1 to 命中 modifier for moving and 射击重型武器 for 这个模型.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4789,7 +4789,7 @@
         <infoLink id="5ad1-8e52-6b0b-bdfa" name="烟雾发射器" hidden="false" targetId="c883-3078-1367-cc2c" type="profile"/>
       </infoLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="ee00-85b9-1ab4-e5d2" name="Hull-Mounted 武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="2439-d817-d7d3-a43c">
+        <selectionEntryGroup id="ee00-85b9-1ab4-e5d2" name="Hull-Mounted武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="2439-d817-d7d3-a43c">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91e3-1db1-6b95-5d74" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e14-8b36-6e72-8afc" type="min"/>
@@ -6718,7 +6718,7 @@
                   <profiles>
                     <profile id="7d61-3f69-1234-5baa" name="02: Auto-loader" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s 远程武器. Increase the number of shots 这个武器 makes by 1 (e.g. a 手枪 1 武器 becomes a 手枪 2 武器). </characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s 远程武器. Increase the number of shots 这个武器 makes by 1 (e.g. a手枪 1武器 becomes a手枪 2武器). </characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6786,7 +6786,7 @@
                   <profiles>
                     <profile id="d1b4-cfe9-6852-26f5" name="06: 地狱弹" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s 远程武器. Add the following ability to that 武器: ‘单位 do not receive the benefit of cover to their saving throws 对抗 攻击 made 使用这个武器.’</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s 远程武器. Add the following ability to that武器: ‘单位 do not receive the benefit of cover to their saving throws 对抗 攻击 made 使用这个武器.’</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6796,14 +6796,14 @@
                     <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="f759-18ed-8403-472b" name="07: Artificer 武器" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="f759-18ed-8403-472b" name="07: Artificer武器" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="127d-7af7-ae3b-8fa8" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="74dd-199a-f33e-c54f" name="07: Artificer 武器" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
+                    <profile id="74dd-199a-f33e-c54f" name="07: Artificer武器" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s 武器. Add 1 to that 武器的 D值.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s武器. Add 1 to that 武器的 D值.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6820,7 +6820,7 @@
                   <profiles>
                     <profile id="37ad-2ef0-0868-af26" name="08: Finely Balanced" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s肉搏武器. Add the following ability to that 武器: ‘持有者每次攻击, 这个武器可以造成 1 点额外攻击.’</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s肉搏武器. Add the following ability to that武器: ‘持有者每次攻击, 这个武器可以造成 1 点额外攻击.’</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6837,7 +6837,7 @@
                   <profiles>
                     <profile id="1ce8-bd94-7cf0-e20f" name="09: Shredder" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s肉搏武器. Add the following ability to that 武器: ‘可以重投失败的造伤骰 for 攻击 made 使用这个武器.’</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s肉搏武器. Add the following ability to that武器: ‘可以重投失败的造伤骰 for 攻击 made 使用这个武器.’</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6888,7 +6888,7 @@
                   <profiles>
                     <profile id="c8c0-671c-6174-969c" name="12: Heirloom" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s肉搏武器. Add the following ability to that 武器: ‘Each unmodified 命中骰的 6 made for 攻击 使用这个武器 scores 2 命中 而不是 1’.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of 这个模型’s肉搏武器. Add the following ability to that武器: ‘Each unmodified 命中骰的 6 made for 攻击 使用这个武器 scores 2 命中 而不是 1’.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7741,7 +7741,7 @@
               <profiles>
                 <profile id="49eb-d748-c449-7525" name="R2: Experimental Ammunition" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Select one of the 远程武器 used by one or more 这个单位中的模型. Add 1 to the D值 of that 武器 for 攻击 made by 那个单位.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Select one of the 远程武器 used by one or more 这个单位中的模型. Add 1 to the D值 of that武器 for 攻击 made by 那个单位.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7758,7 +7758,7 @@
               <profiles>
                 <profile id="6514-25a9-ae1e-781d" name="R2: Advanced Targeting" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 6寸 to the 最大射程 of 这个单位’s Heavy and 速射 武器 that have an unmodified 最大射程 of 24寸 or longer. </characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 6寸 to the 最大射程 of 这个单位’s Heavy and 速射武器 that have an unmodified 最大射程 of 24寸 or longer. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7853,12 +7853,12 @@
                 <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="c271-fdbc-e7be-9838" name="R5: Blessed 武器" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="c271-fdbc-e7be-9838" name="R5: Blessed武器" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e9b-a56f-7e6f-8526" type="max"/>
               </constraints>
               <profiles>
-                <profile id="1c8f-af4c-400c-8e80" name="R5: Blessed 武器" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
+                <profile id="1c8f-af4c-400c-8e80" name="R5: Blessed武器" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
                     <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型拥有 损伤表, 双倍 of wounds it has remaining for the purposes of determining what its BS值 is.</characteristic>
                   </characteristics>
@@ -7895,10 +7895,10 @@
       <description>如果这个模型W降为0, 在载具被移除及任何在这个载具上的模型下车前投掷1个D6. 结果为6则爆炸, 6寸范围内每个单位遭受 D3 致命伤.</description>
     </rule>
     <rule id="60db-65f7-ca20-7874" name="开顶" page="" hidden="false">
-      <description>Models 上车 on 这个模型 can 攻击 in their 射击阶段. Measure the range and draw line of sight from any point on the model. When they do so, any restrictions or modifiers that apply to 这个模型 also apply to its passenger; for example, the passengers cannot shoot if 这个模型 has 堕天使 Back in the same turn, cannot shoot (except with 手枪) if 这个模型 is 1寸范围内 of an 敌方单位, and so on.</description>
+      <description>Models 上车 on 这个模型 can 攻击 in their 射击阶段. Measure the range and draw line of sight from any point on the model. When they do so, any restrictions or modifiers that apply to 这个模型 also apply to its passenger; for example, the passengers cannot shoot if 这个模型 has 堕天使 Back in the same turn, cannot shoot (except with手枪) if 这个模型 is 1寸范围内 of an 敌方单位, and so on.</description>
     </rule>
     <rule id="51af-0fb9-3ca5-d307" name="烟雾发生器" hidden="false">
-      <description>Once per game, 而不是 射击 any 武器 在射击阶段, this 模型 can use its 烟雾发射器; if it does so, until your next 射击阶段 your opponent 必须 减少 1 from 任何命中 骰 that target it.</description>
+      <description>一次性, 而不是 射击 any武器 在射击阶段, this 模型 can use its 烟雾发射器; if it does so, 直到下一个你的 射击阶段 your opponent 必须 减少 1 from 任何命中 骰 that target it.</description>
     </rule>
     <rule id="4ea8-94d3-ba39-042f" name="他们无所畏惧" hidden="false">
       <description>可以重投 失败的 士气测试 for 这个单位.</description>
@@ -7922,7 +7922,7 @@
       <description>The 5 CPs from this detachment can only be spent on 要塞突袭 Stratagems.</description>
     </rule>
     <rule id="5a7e-f984-487c-d767" name="爆弹训练" publicationId="28ec-711c-pubN110542" hidden="false">
-      <description>所有 阿斯塔特修会 and 阿斯塔特叛军 模型 获得这个能力. 而不是 following the normal rules for 速射 武器, 速射爆弹武器 used by 模型 具有这个能力的 make 双倍 of 攻击 if any of the following conditions apply: 1) The firing 模型的 target is 范围内 half the 武器的 最大射程. 2)    The firing 模型 is 步兵 and every 模型 in its 单位 remained stationary in your previous 移动阶段. 3) The firing 模型 is a 终结者, 摩托, 百夫长, or 无畏. For the purposes of this ability a 速射爆弹武器 is any 武器 with the 速射 type whose name includes the word &apos;bolt&apos; (e.g. 爆弹枪, 爆弹步枪, 风暴爆弹, 复合爆弹, 飓风爆弹, 地狱爆弹枪, etc.) This also applies when firing the 爆弹枪 profile of a combi-武器 (including the 爆弹武器 profile of 圣物 such as Blood Song and the Lion&apos;s Wrath) and when firing 圣物 that replace a 速射爆弹武器, so long as the 圣物 is also a rapid-fire 武器 (e.g. Primarch&apos;s Wrath, 德莫斯之怒, etc) The gauntlets of ultramar and the Talon of Horus are also considered 速射爆弹武器, as is the 卫士之矛 used by 死亡守望 Watch Masters.</description>
+      <description>所有 阿斯塔特修会 and 阿斯塔特叛军 模型 获得这个能力. 而不是 following the normal rules for 速射武器, 速射爆弹武器 used by 模型 具有这个能力的 make 双倍 of 攻击 if any of the following conditions apply: 1) The firing 模型的 target is 范围内 half the 武器的 最大射程. 2)    The firing 模型 is 步兵 and every 模型 in its 单位 remained stationary in your previous 移动阶段. 3) The firing 模型 is a 终结者, 摩托, 百夫长, or 无畏. For the purposes of this ability a 速射爆弹武器 is any武器 with the 速射 type whose name includes the word &apos;bolt&apos; (e.g. 爆弹枪, 爆弹步枪, 风暴爆弹, 复合爆弹, 飓风爆弹, 地狱爆弹枪, etc.) This also applies when firing the 爆弹枪 profile of a combi-武器 (including the 爆弹武器 profile of 圣物 such as Blood Song and the Lion&apos;s Wrath) and when firing 圣物 that replace a 速射爆弹武器, so long as the 圣物 is also a rapid-fire武器 (e.g. Primarch&apos;s Wrath, 德莫斯之怒, etc) The gauntlets of ultramar and the Talon of Horus are also considered 速射爆弹武器, as is the 卫士之矛 used by 死亡守望 Watch Masters.</description>
     </rule>
     <rule id="01a4-bec8-b573-fde7" name="死亡天使" hidden="false">
       <description>这个单位 has the following abilities: 他们无所畏惧, Bolter Discipline, Shock Assault and Combat Doctrines.’</description>
@@ -8372,7 +8372,7 @@
     </profile>
     <profile id="c883-3078-1367-cc2c" name="烟雾发射器" publicationId="28ec-711c-pubN72690" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per game, 而不是 射击 any 武器 在射击阶段, the 载具 can use its 烟雾发射器; until your next 射击阶段 your opponent 必须 减少 1 from 所有命中骰 for 远程武器 that target 这个载具.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, 而不是 射击 any武器 在射击阶段, the 载具 can use its 烟雾发射器; 直到下一个你的 射击阶段 your opponent 必须 减少 1 from 所有命中骰 for 远程武器 that target 这个载具.</characteristic>
       </characteristics>
     </profile>
     <profile id="20dc-1fbb-dc65-7f04" name="突击炮" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
@@ -8577,7 +8577,7 @@
     </profile>
     <profile id="d4b6-7a3a-aee5-d293" name="Ammo Store" publicationId="28ec-711c-pubN77581" page="110" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A 单位 occupying this 建筑 re-骰 To 命中骰 of a 1 when firing out of the 建筑&apos;s 射击点. Note this does not apply to 模型 manually firing an emplaced 武器.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A 单位 occupying this 建筑 re-骰 To 命中骰 of a 1 when firing out of the 建筑&apos;s 射击点. Note this does not apply to 模型 manually firing an emplaced武器.</characteristic>
       </characteristics>
     </profile>
     <profile id="58a2-c92e-57cc-d44c" name="Ammunition Dump" publicationId="28ec-711c-pubN77581" page="110" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -8587,7 +8587,7 @@
     </profile>
     <profile id="e144-1293-ec28-d3a9" name="虚空盾" publicationId="28ec-711c-pubN113754" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each 命中 scored 对抗 the 模型 will instead 命中 a 虚空盾 (whilst they remain). 肉搏 攻击 come from inside the shield and therefore are not stopped. Void shields have an Armour Value of 12. A glancing or penetrating 命中 (or 任何命中 from a Destroyer 武器) scored 对抗 a 虚空盾 causes it to collapse. After 所有 the void shields have collapsed, further 命中 strike the 模型 instead. At the end of each of the controlling player&apos;s turns, roll one dice for each collapsed void  shield: each roll of 5+ instantly restores one collapsed shield.  If a 武器 uses a template or blast marker and it 命中 one or more 单位 protected by a 虚空盾 Zone, ignore the number of 命中 it would normally cause to the 单位, instead roll to pen the 虚空盾 once using the 武器 normal rules, profile for each template or blast marker that 命中.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each 命中 scored 对抗 the 模型 will instead 命中 a 虚空盾 (whilst they remain). 肉搏 攻击 come from inside the shield and therefore are not stopped. Void shields have an Armour Value of 12. A glancing or penetrating 命中 (or 任何命中 from a Destroyer武器) scored 对抗 a 虚空盾 causes it to collapse. After 所有 the void shields have collapsed, further 命中 strike the 模型 instead. At the end of each of the controlling player&apos;s turns, roll one dice for each collapsed void  shield: each roll of 5+ instantly restores one collapsed shield.  If a武器 uses a template or blast marker and it 命中 one or more 单位 protected by a 虚空盾 Zone, ignore the number of 命中 it would normally cause to the 单位, instead roll to pen the 虚空盾 once using the武器 normal rules, profile for each template or blast marker that 命中.</characteristic>
       </characteristics>
     </profile>
     <profile id="31ba-2b94-6600-22f3" name="Magos Machine Spirit" publicationId="28ec-711c-pubN113754" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -8635,7 +8635,7 @@
     </profile>
     <profile id="705c-91aa-6591-507b" name="炮架 (Details)" publicationId="28ec-711c-pubN113754" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">模型 in cover behind a 炮架 拥有 4+ 掩体保护. One non-载具 模型 in base contact with a 炮架 can fire it 而不是 firing its own 武器. 模型 that fires a 炮架 has the Relentless special rule for that 射击攻击. A 炮架 can be shot at and attacked in 肉搏. It is 命中 自动 in 肉搏.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">模型 in cover behind a 炮架 拥有 4+ 掩体保护. One non-载具 模型 in base contact with a 炮架 can fire it 而不是 firing its own武器. 模型 that fires a 炮架 has the Relentless special rule for that 射击攻击. A 炮架 can be shot at and attacked in 肉搏. It is 命中 自动 in 肉搏.</characteristic>
       </characteristics>
     </profile>
     <profile id="70aa-366f-15ac-da4d" name="Comms Relay" publicationId="28ec-711c-pubN113754" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -9634,7 +9634,7 @@
     </profile>
     <profile id="0f50-2ea2-b251-a213" name="自动武器 (伊卡洛斯)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Unless a 友方单位 is 上车 aboard 这个模型, 这个模型的 武器 只能瞄准 最近的 可见 敌方单位. 攻击 made with the 伊卡洛斯激光炮 can instead target 最近的 可见 敌方单位 飞行关键字. In either case, if two or more 单位 are equally close, you may choose which is targeted.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Unless a 友方单位 is 上车 aboard 这个模型, 这个模型的武器 只能瞄准 最近的 可见 敌方单位. 攻击 made with the 伊卡洛斯激光炮 can instead target 最近的 可见 敌方单位 飞行关键字. In either case, if two or more 单位 are equally close, you may choose which is targeted.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
