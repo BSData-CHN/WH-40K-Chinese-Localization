@@ -169,7 +169,7 @@
     <entryLink id="658c-41e3-f04c-54e8" name="地狱猎犬" hidden="false" collective="false" import="true" targetId="a11d-9609-5ca9-01f6" type="selectionEntry"/>
     <entryLink id="5793-0bc1-6a20-a5ab" name="Hydras" hidden="false" collective="false" import="true" targetId="e7ce-8f7f-595a-796c" type="selectionEntry"/>
     <entryLink id="2bf9-e268-aeb7-cb54" name="Master of Ordnance" hidden="false" collective="false" import="true" targetId="8ebe-a59f-90f8-ec1b" type="selectionEntry"/>
-    <entryLink id="30ea-13ca-525f-243c" name="四联发射器 Battery" hidden="false" collective="false" import="true" targetId="9aa8-4fd8-be38-b3de" type="selectionEntry"/>
+    <entryLink id="30ea-13ca-525f-243c" name="四联发射器阵列" hidden="false" collective="false" import="true" targetId="9aa8-4fd8-be38-b3de" type="selectionEntry"/>
     <entryLink id="9ccf-55fb-4bb6-a6af" name="细剑激光毁灭者阵列" hidden="false" collective="false" import="true" targetId="9588-6b43-4b49-2850" type="selectionEntry"/>
     <entryLink id="c955-ae2c-7fd6-3e51" name="沙罗曼蛇侦察坦克" hidden="false" collective="false" import="true" targetId="ec42-9365-7323-8340" type="selectionEntry"/>
     <entryLink id="a57d-f1ef-6a14-f829" name="黄泉八号雷霆攻城坦克" hidden="false" collective="false" import="true" targetId="46be-5940-dbcb-7970" type="selectionEntry"/>
@@ -4448,7 +4448,7 @@
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b40f-b973-466b-6a51" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="fd11-3ba7-e2ae-a7eb" name="黎曼鲁斯 火星-Alpha Battle Tank" page="" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="fd11-3ba7-e2ae-a7eb" name="黎曼鲁斯 火星-Alpha主战坦克" page="" hidden="false" collective="false" import="true" type="model">
               <infoLinks>
                 <infoLink id="1f7b-afbe-0a3a-318b" name="黎曼鲁斯" hidden="false" targetId="59561fd3-8437-5e2e-1080-fe4d29ae4a60" type="profile"/>
                 <infoLink id="7925-eae7-620f-5c33" name="Grinding Advance" hidden="false" targetId="d894-c3d2-278d-3678" type="profile"/>
@@ -6511,7 +6511,7 @@
                 <characteristic name="A" typeId="2e64-2e5c-f4d1-52d3">1</characteristic>
               </characteristics>
             </profile>
-            <profile id="7517-24c0-d4b9-b5b1" name="Tank 猎手" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+            <profile id="7517-24c0-d4b9-b5b1" name="坦克猎手" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
                 <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 这个模型 攻击 a 载具 with it&apos;s heavy 激光毁灭者 array, roll 2 dice when rolling 伤害 and 舍弃最低结果.</characteristic>
               </characteristics>
@@ -7636,7 +7636,7 @@
     </selectionEntry>
     <selectionEntry id="471c-b672-a0c1-6410" name="特洛伊支援载具" publicationId="91ff-e116-pubN72301" page="40" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="88aa-2316-ef71-5849" name="Chimera" publicationId="91ff-e116-pubN72301" page="40" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+        <profile id="88aa-2316-ef71-5849" name="奇美拉" publicationId="91ff-e116-pubN72301" page="40" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">*</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">6+</characteristic>
@@ -7674,7 +7674,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2871-c955-2d01-3017" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="ee03-e65b-e7c5-6ee0" name="损伤表 (Chimera)" hidden="false" collective="false" import="true" targetId="80ee-35ee-0415-e98a" type="selectionEntry">
+        <entryLink id="ee03-e65b-e7c5-6ee0" name="损伤表 (奇美拉)" hidden="false" collective="false" import="true" targetId="80ee-35ee-0415-e98a" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e7c1-53d3-2130-b9ac" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a7d-e106-5a76-d8ce" type="max"/>
@@ -7691,13 +7691,13 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="80ee-35ee-0415-e98a" name="损伤表 (Chimera)" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="80ee-35ee-0415-e98a" name="损伤表 (奇美拉)" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e1a-484b-0905-47d4" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0f0-b0c5-8afd-42d3" type="max"/>
       </constraints>
       <profiles>
-        <profile id="3417-524e-7d92-9dfe" name="Chimera 1" hidden="false" typeId="e6d5-85c5-7b01-a3c4" typeName="损伤表 - M/BS/A">
+        <profile id="3417-524e-7d92-9dfe" name="奇美拉 1" hidden="false" typeId="e6d5-85c5-7b01-a3c4" typeName="损伤表 - M/BS/A">
           <characteristics>
             <characteristic name="剩余W" typeId="233c-fa78-4641-68d9">6-10+</characteristic>
             <characteristic name="M" typeId="fc73-9b3f-5e4b-86b9">12寸</characteristic>
@@ -7705,7 +7705,7 @@
             <characteristic name="A" typeId="2e64-2e5c-f4d1-52d3">3</characteristic>
           </characteristics>
         </profile>
-        <profile id="e708-f251-b43a-3368" name="Chimera 2" hidden="false" typeId="e6d5-85c5-7b01-a3c4" typeName="损伤表 - M/BS/A">
+        <profile id="e708-f251-b43a-3368" name="奇美拉 2" hidden="false" typeId="e6d5-85c5-7b01-a3c4" typeName="损伤表 - M/BS/A">
           <characteristics>
             <characteristic name="剩余W" typeId="233c-fa78-4641-68d9">3-5</characteristic>
             <characteristic name="M" typeId="fc73-9b3f-5e4b-86b9">8寸</characteristic>
@@ -7713,7 +7713,7 @@
             <characteristic name="A" typeId="2e64-2e5c-f4d1-52d3">D3</characteristic>
           </characteristics>
         </profile>
-        <profile id="7e30-0449-f6b7-7999" name="Chimera 3" hidden="false" typeId="e6d5-85c5-7b01-a3c4" typeName="损伤表 - M/BS/A">
+        <profile id="7e30-0449-f6b7-7999" name="奇美拉 3" hidden="false" typeId="e6d5-85c5-7b01-a3c4" typeName="损伤表 - M/BS/A">
           <characteristics>
             <characteristic name="剩余W" typeId="233c-fa78-4641-68d9">1-2</characteristic>
             <characteristic name="M" typeId="fc73-9b3f-5e4b-86b9">4寸</characteristic>

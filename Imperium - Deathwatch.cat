@@ -3965,7 +3965,7 @@ For the purposes of setting up on or moving through 战场 Terrain, 这个单位
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ba18-db29-f48b-32c7" name="Hellblasters" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="ba18-db29-f48b-32c7" name="地狱轰击者" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="increment" field="e356-c769-5920-6e14" value="8">
           <conditions>
@@ -3974,7 +3974,7 @@ For the purposes of setting up on or moving through 战场 Terrain, 这个单位
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="0092-cb68-fea4-ad61" name="Hellblaster" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+        <profile id="0092-cb68-fea4-ad61" name="地狱轰击者" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6寸</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -3987,7 +3987,7 @@ For the purposes of setting up on or moving through 战场 Terrain, 这个单位
             <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="34fa-3e06-11fd-d776" name="Hellblaster士官" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+        <profile id="34fa-3e06-11fd-d776" name="地狱轰击者士官" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6寸</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -4015,13 +4015,13 @@ For the purposes of setting up on or moving through 战场 Terrain, 这个单位
         <categoryLink id="e8da-7fb1-b848-3377" name="New CategoryLink" hidden="false" targetId="90f0-6ff0-18b9-a715" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="6d87-2e48-07dd-ee22" name="Hellblasters" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="6d87-2e48-07dd-ee22" name="地狱轰击者" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ecb0-fb9d-8544-1005" type="min"/>
             <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9807-a48c-ce53-6cce" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="950b-cf04-4d13-1fee" name="Hellblaster士官" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="950b-cf04-4d13-1fee" name="地狱轰击者士官" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a588-05c8-b932-89be" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3318-3c56-62b3-6a24" type="max"/>
@@ -4065,7 +4065,7 @@ For the purposes of setting up on or moving through 战场 Terrain, 这个单位
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink id="d959-bbb7-f39d-2f97" name="Hellblaster" hidden="false" collective="false" import="true" targetId="895c-e33d-02bd-39a9" type="selectionEntry">
+            <entryLink id="d959-bbb7-f39d-2f97" name="地狱轰击者" hidden="false" collective="false" import="true" targetId="895c-e33d-02bd-39a9" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f5d-11cd-dc26-d27b" type="max"/>
                 <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="672c-3548-f423-e6d2" type="min"/>
@@ -4599,7 +4599,7 @@ For the purposes of setting up on or moving through 战场 Terrain, 这个单位
                 <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9bcf-369a-1b4b-c8f7" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="fa4b-2a3f-170e-c44c" name="Hellblaster" hidden="false" collective="false" import="true" targetId="895c-e33d-02bd-39a9" type="selectionEntry">
+            <entryLink id="fa4b-2a3f-170e-c44c" name="地狱轰击者" hidden="false" collective="false" import="true" targetId="895c-e33d-02bd-39a9" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="e356-c769-5920-6e14" value="2"/>
               </modifiers>
@@ -6187,7 +6187,7 @@ For the purposes of setting up on or moving through 战场 Terrain, 这个单位
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="895c-e33d-02bd-39a9" name="Hellblaster" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="895c-e33d-02bd-39a9" name="地狱轰击者" hidden="false" collective="false" import="true" type="upgrade">
       <selectionEntryGroups>
         <selectionEntryGroup id="bfe5-b305-f6e9-c69b" name="武器选项" hidden="false" collective="false" import="true" defaultSelectionEntryId="3450-68d7-1d8a-ab09">
           <constraints>
@@ -8402,7 +8402,7 @@ For the purposes of setting up on or moving through 战场 Terrain, 这个单位
     </profile>
     <profile id="9e55-78af-ff73-24d6" name="机魂之力" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 does not suffer he penalty to 命中骰 for moving and firing重型武器.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型移动后射击重型武器没有惩罚.</characteristic>
       </characteristics>
     </profile>
     <profile id="0cd3-5fb0-83ba-2475" name="传送打击" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">

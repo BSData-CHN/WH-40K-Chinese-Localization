@@ -2441,7 +2441,7 @@
             <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型的武器 只能瞄准 最近的 可见 敌方单位. 攻击 made with the 四联 伊卡洛斯Lascannons can instead target 最近的 可见 敌方单位 飞行关键字. In either case, if two or more 单位 are equally close, you can choose which is targeted.</characteristic>
           </characteristics>
         </profile>
-        <profile id="4e2c-1874-14f7-56d8" name="Vengeance武器 Battery" publicationId="28ec-711c-pubN77581" page="132" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+        <profile id="4e2c-1874-14f7-56d8" name="Vengeance武器阵列" publicationId="28ec-711c-pubN77581" page="132" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">-</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">-</characteristic>
@@ -2466,7 +2466,7 @@
         <categoryLink id="3fdd-4995-f25e-4149" name="New CategoryLink" hidden="false" targetId="9df5-bb14-9326-4108" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="1d04-c4e5-2664-4ee4" name="Vengeance武器 Battery" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="1d04-c4e5-2664-4ee4" name="Vengeance武器阵列" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bcb0-cd68-20e2-6858" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec31-9fc8-8dc9-469b" type="min"/>
@@ -8617,7 +8617,7 @@
     </profile>
     <profile id="4a45-65e5-2d8c-8792" name="Tank Traps" publicationId="28ec-711c-pubN113754" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Impassable Terrain to non-Skimmer 载具, Dangerous Terrain to Bikes, and open ground for 所有 other 单位. 模型 in cover behind tank traps hasa 4+ 掩体保护.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Impassable Terrain to non-Skimmer 载具, Dangerous Terrain to 摩托, and open ground for 所有 other 单位. 模型 in cover behind tank traps hasa 4+ 掩体保护.</characteristic>
       </characteristics>
     </profile>
     <profile id="1da7-2e0b-0114-762c" name="炮座" publicationId="28ec-711c-pubN113754" page="" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
@@ -8663,7 +8663,7 @@
         <characteristic name="能力" typeId="837d-5e63-aeb7-1410"/>
       </characteristics>
     </profile>
-    <profile id="57e2-2b5e-5b21-32e8" name="Vortex Missile Battery" publicationId="28ec-711c-pubN77581" page="111" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+    <profile id="57e2-2b5e-5b21-32e8" name="Vortex Missile阵列" publicationId="28ec-711c-pubN77581" page="111" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="射程" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Infinite</characteristic>
         <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Ordnance 1, Large Blast, Vortex</characteristic>
