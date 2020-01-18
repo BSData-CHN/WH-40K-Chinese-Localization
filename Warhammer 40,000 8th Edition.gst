@@ -4630,12 +4630,12 @@
         </profile>
         <profile id="0fff-6dcb-d884-e8df" name="Webway Strike" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">After you 放置 这个模型, any 艾尔达 单位 you have not yet 放置 部署期间, other than fortifications, can be 放置 in a webway spar rather than being 放置 战场上. One 单位 in a webway spar can emerge from each 友方 Webway Gate at the end of each of your 移动阶段 - Set them up wholly 范围内 3寸 of the webway gate and more than 9寸 away from 任何敌方模型. If 所有 friendlyWebway Gates have been 被消灭, 任何单位 that have not yet arrived from a webway spar are considered to be slain</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">After you 放置 这个模型, any 艾尔达 单位 you have not yet 放置 部署期间, other than fortifications, can be 放置 in a webway spar rather than being 放置 战场上. One 单位 in a webway spar can emerge from each 友方 网道传送门 at the end of each of your 移动阶段 - Set them up wholly 范围内 3寸 of the 网道传送门 and more than 9寸 away from 任何敌方模型. If 所有 friendly网道传送门 have been 被消灭, 任何单位 that have not yet arrived from a webway spar are considered to be slain</characteristic>
           </characteristics>
         </profile>
-        <profile id="1b16-1941-d120-15ee" name="Webway Gate" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
+        <profile id="1b16-1941-d120-15ee" name="网道传送门" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When measuring distance to and from a Webway Gate, measure from 最近的 point of the model. If a Webway Gate is 被消灭, remove both arch peices from the 战场.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When measuring distance to and from a 网道传送门, measure from 最近的 point of the model. If a 网道传送门 is 被消灭, remove both arch peices from the 战场.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8545,7 +8545,7 @@
         <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="3a00-c9d9-111e-037f" name="Witchblade" publicationId="28ec-711c-pubN72690" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+    <profile id="3a00-c9d9-111e-037f" name="巫术之刃" publicationId="28ec-711c-pubN72690" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="射程" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
         <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏, Armourbane, Fleshbane</characteristic>

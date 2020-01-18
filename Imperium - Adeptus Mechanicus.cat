@@ -52,7 +52,7 @@
   <categoryEntries>
     <categoryEntry id="cbfd-4970-f914-ac9a" name="贝利萨留·考尔" hidden="false"/>
     <categoryEntry id="6743-7925-6ec5-6b91" name="科技神甫" hidden="false"/>
-    <categoryEntry id="e4c1-ea70-18cd-6caf" name="主教" hidden="false"/>
+    <categoryEntry id="e4c1-ea70-18cd-6caf" name="统御神甫" hidden="false"/>
     <categoryEntry id="0775-0dfb-b8c2-f2b0" name="引擎先知" hidden="false"/>
     <categoryEntry id="3966-1076-64dc-9148" name="破碎者武装奴工" hidden="false"/>
     <categoryEntry id="cc3b-aa01-8d8c-2556" name="毁灭者武装奴工" hidden="false"/>
@@ -86,7 +86,7 @@
   </categoryEntries>
   <entryLinks>
     <entryLink id="447c-82b5-1aa0-190d" name="贝利萨留·考尔" hidden="false" collective="false" import="true" targetId="37a6-acbc-d023-b0a5" type="selectionEntry"/>
-    <entryLink id="fb5a-2f31-b730-9b32" name="主教" hidden="false" collective="false" import="true" targetId="0895-13ad-3ba1-0952" type="selectionEntry"/>
+    <entryLink id="fb5a-2f31-b730-9b32" name="统御神甫" hidden="false" collective="false" import="true" targetId="0895-13ad-3ba1-0952" type="selectionEntry"/>
     <entryLink id="277f-49b1-9257-87f6" name="引擎先知" hidden="false" collective="false" import="true" targetId="1aaa-d901-e93c-78b5" type="selectionEntry"/>
     <entryLink id="c4ed-cb92-9c78-344c" name="破碎者武装奴工" hidden="false" collective="false" import="true" targetId="462e-7d8f-4ff3-6330" type="selectionEntry"/>
     <entryLink id="811d-2fc9-1dfb-1340" name="毁灭者武装奴工" hidden="false" collective="false" import="true" targetId="4d05-c01f-0921-f52e" type="selectionEntry"/>
@@ -246,9 +246,9 @@
         <cost name="指挥点" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0895-13ad-3ba1-0952" name="主教" publicationId="ebe8-544e-pubN65537" page="74" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="0895-13ad-3ba1-0952" name="统御神甫" publicationId="ebe8-544e-pubN65537" page="74" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="98b9-3c6b-d02a-f8d1" name="主教" publicationId="ebe8-544e-pubN65537" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+        <profile id="98b9-3c6b-d02a-f8d1" name="统御神甫" publicationId="ebe8-544e-pubN65537" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6寸</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -919,7 +919,7 @@
         <categoryLink id="1c15-7904-8f0c-1d23" name="New CategoryLink" hidden="false" targetId="ca27-5069-1c2c-a28b" primary="false"/>
         <categoryLink id="5e5b-faec-1969-eab0" name="New CategoryLink" hidden="false" targetId="cdee-83f1-5387-56cc" primary="false"/>
         <categoryLink id="b3a7-afc1-252b-bf96" name="步兵" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
-        <categoryLink id="f497-cd98-8e32-8fe9" name="Skitarii Rangers" hidden="false" targetId="768d-d42c-e62a-fb21" primary="false"/>
+        <categoryLink id="f497-cd98-8e32-8fe9" name="护教军游猎兵" hidden="false" targetId="768d-d42c-e62a-fb21" primary="false"/>
         <categoryLink id="ebc8-9a3b-61a2-6fb4" name="阵营: 帝国" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
@@ -4964,7 +4964,7 @@
       </constraints>
       <rules>
         <rule id="9156-5942-19c9-4ec1" name="特殊分队: 奴工战斗队" hidden="false">
-          <description>分队中的主教,引擎先知,奴工,破碎者武装奴工,毁灭者武装奴工额外获得奴工战斗队关键字
+          <description>分队中的统御神甫,引擎先知,奴工,破碎者武装奴工,毁灭者武装奴工额外获得奴工战斗队关键字
 
 </description>
         </rule>
@@ -4979,7 +4979,7 @@
           </constraints>
           <rules>
             <rule id="8502-cca5-b423-25f0" name="战略: 广域思维锁 - 1CP" hidden="false">
-              <description>在射击阶段开始时使用,直到该阶段结束为止,使位于友方奴工战斗队主教6寸内的1个奴工战斗队破碎者武装奴工,奴工战斗队毁灭者武装奴工单位攻击命中骰+1</description>
+              <description>在射击阶段开始时使用,直到该阶段结束为止,使位于友方奴工战斗队统御神甫6寸内的1个奴工战斗队破碎者武装奴工,奴工战斗队毁灭者武装奴工单位攻击命中骰+1</description>
             </rule>
             <rule id="d54a-87c1-54bf-6762" name="战略: 强化义肢 - 1 CP" publicationId="28ec-711c-pubN98266" page="185" hidden="false">
               <description>游戏开始前使用. 使1个奴工战斗队破碎者武装奴工,奴工战斗队毁灭者武装奴工单位获得5+特保</description>
@@ -5011,7 +5011,7 @@
       </constraints>
       <rules>
         <rule id="3fee-05b9-ef38-55ee" name="特殊分队: 智控战斗群" hidden="false">
-          <description>分队中的主教,引擎先知,智控数据技师.卡斯特兰机器人单位额外获得智控战斗群关键字</description>
+          <description>分队中的统御神甫,引擎先知,智控数据技师.卡斯特兰机器人单位额外获得智控战斗群关键字</description>
         </rule>
       </rules>
       <categoryLinks>
