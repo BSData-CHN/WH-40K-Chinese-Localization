@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8c3d-93c3-7a7a-5a11" name="混沌- 泰坦修会叛军" revision="6" battleScribeVersion="2.03" authorName="BSData-CHN" authorContact="@Mad_Spy" authorUrl="https://github.com/BSData-CHN" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8c3d-93c3-7a7a-5a11" name="Chaos - Titanicus Traitoris" revision="7" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
-    <publication id="8c3d-93c3-pubN65537" name="帝国装甲 - 索引: 混沌"/>
+    <publication id="8c3d-93c3-pubN65537" name="Imperial Armour - Index: Forces of Chaos"/>
   </publications>
   <profileTypes>
-    <profileType id="9276-4ade-22c4-5cb6" name="损伤表, 泰坦">
+    <profileType id="9276-4ade-22c4-5cb6" name="Wound Track, Titan">
       <characteristicTypes>
-        <characteristicType id="bdd9-9181-1cad-b79f" name="剩余W"/>
+        <characteristicType id="bdd9-9181-1cad-b79f" name="Remaining W"/>
         <characteristicType id="f560-9126-5959-48ba" name="M"/>
         <characteristicType id="8e95-6bfb-c560-252c" name="WS"/>
         <characteristicType id="ce76-ba62-9fc6-cdcc" name="BS"/>
-        <characteristicType id="b269-3fa5-291a-8155" name="虚空盾"/>
+        <characteristicType id="b269-3fa5-291a-8155" name="Void Shield"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
   <categoryEntries>
-    <categoryEntry id="f367-b06c-c574-c7fe" name="神之机械" hidden="false"/>
-    <categoryEntry id="5f88-bd69-1096-78b6" name="泰坦修会叛军" hidden="false"/>
-    <categoryEntry id="bc10-1aed-9d8c-724b" name="(叛军泰坦军团)" hidden="false"/>
+    <categoryEntry id="f367-b06c-c574-c7fe" name="God-engine" hidden="false"/>
+    <categoryEntry id="5f88-bd69-1096-78b6" name="Titanicus Traitoris" hidden="false"/>
+    <categoryEntry id="bc10-1aed-9d8c-724b" name="(Heretic Titan Legion)" hidden="false"/>
   </categoryEntries>
   <entryLinks>
-    <entryLink id="260e-b768-5bb1-7b7c" name="混沌掠夺者主战泰坦" hidden="false" collective="false" import="true" targetId="fe55-4a83-0126-51dc" type="selectionEntry"/>
-    <entryLink id="7c73-e9b3-5df8-f68f" name="混沌战犬侦察泰坦" hidden="false" collective="false" import="true" targetId="6f73-5883-b77b-583d" type="selectionEntry"/>
-    <entryLink id="51f6-06fc-31b3-5bd8" name="混沌战将主战泰坦" hidden="false" collective="false" import="true" targetId="8819-eaf2-127e-efca" type="selectionEntry"/>
+    <entryLink id="260e-b768-5bb1-7b7c" name="Chaos Reaver Battle Titan" hidden="false" collective="false" import="true" targetId="fe55-4a83-0126-51dc" type="selectionEntry"/>
+    <entryLink id="7c73-e9b3-5df8-f68f" name="Chaos Warhound Scout Titan" hidden="false" collective="false" import="true" targetId="6f73-5883-b77b-583d" type="selectionEntry"/>
+    <entryLink id="51f6-06fc-31b3-5bd8" name="Chaos Warlord Battle Titan" hidden="false" collective="false" import="true" targetId="8819-eaf2-127e-efca" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="fe55-4a83-0126-51dc" name="混沌掠夺者主战泰坦" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="fe55-4a83-0126-51dc" name="Chaos Reaver Battle Titan" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="1e47-b127-89a0-e169" name="混沌掠夺者主战泰坦" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+        <profile id="1e47-b127-89a0-e169" name="Chaos Reaver Battle Titan" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">*</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">*</characteristic>
@@ -36,62 +36,62 @@
             <characteristic name="T" typeId="9c9f-9774-a358-3a39">10</characteristic>
             <characteristic name="W" typeId="f330-5e6e-4110-0978">60</characteristic>
             <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">5</characteristic>
-            <characteristic name="LD" typeId="00ca-f8b8-876d-b705">10</characteristic>
-            <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
+            <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">10</characteristic>
+            <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="3308-6126-55cb-8309" name="混沌掠夺者主战泰坦1" hidden="false" typeId="9276-4ade-22c4-5cb6" typeName="损伤表, 泰坦">
+        <profile id="3308-6126-55cb-8309" name="Chaos Reaver Battle Titan1" hidden="false" typeId="9276-4ade-22c4-5cb6" typeName="Wound Track, Titan">
           <characteristics>
-            <characteristic name="剩余W" typeId="bdd9-9181-1cad-b79f">50-60+</characteristic>
-            <characteristic name="M" typeId="f560-9126-5959-48ba">20寸</characteristic>
+            <characteristic name="Remaining W" typeId="bdd9-9181-1cad-b79f">50-60+</characteristic>
+            <characteristic name="M" typeId="f560-9126-5959-48ba">20&quot;</characteristic>
             <characteristic name="WS" typeId="8e95-6bfb-c560-252c">4+</characteristic>
             <characteristic name="BS" typeId="ce76-ba62-9fc6-cdcc">2+</characteristic>
-            <characteristic name="虚空盾" typeId="b269-3fa5-291a-8155">3+</characteristic>
+            <characteristic name="Void Shield" typeId="b269-3fa5-291a-8155">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="ea09-a389-4595-ec55" name="混沌掠夺者主战泰坦2" hidden="false" typeId="9276-4ade-22c4-5cb6" typeName="损伤表, 泰坦">
+        <profile id="ea09-a389-4595-ec55" name="Chaos Reaver Battle Titan2" hidden="false" typeId="9276-4ade-22c4-5cb6" typeName="Wound Track, Titan">
           <characteristics>
-            <characteristic name="剩余W" typeId="bdd9-9181-1cad-b79f">35-49</characteristic>
-            <characteristic name="M" typeId="f560-9126-5959-48ba">18寸</characteristic>
+            <characteristic name="Remaining W" typeId="bdd9-9181-1cad-b79f">35-49</characteristic>
+            <characteristic name="M" typeId="f560-9126-5959-48ba">18&quot;</characteristic>
             <characteristic name="WS" typeId="8e95-6bfb-c560-252c">4+</characteristic>
             <characteristic name="BS" typeId="ce76-ba62-9fc6-cdcc">3+</characteristic>
-            <characteristic name="虚空盾" typeId="b269-3fa5-291a-8155">4+</characteristic>
+            <characteristic name="Void Shield" typeId="b269-3fa5-291a-8155">4+</characteristic>
           </characteristics>
         </profile>
-        <profile id="b155-f38d-eff9-9d95" name="混沌掠夺者主战泰坦3" hidden="false" typeId="9276-4ade-22c4-5cb6" typeName="损伤表, 泰坦">
+        <profile id="b155-f38d-eff9-9d95" name="Chaos Reaver Battle Titan3" hidden="false" typeId="9276-4ade-22c4-5cb6" typeName="Wound Track, Titan">
           <characteristics>
-            <characteristic name="剩余W" typeId="bdd9-9181-1cad-b79f">20-34</characteristic>
-            <characteristic name="M" typeId="f560-9126-5959-48ba">15寸</characteristic>
+            <characteristic name="Remaining W" typeId="bdd9-9181-1cad-b79f">20-34</characteristic>
+            <characteristic name="M" typeId="f560-9126-5959-48ba">15&quot;</characteristic>
             <characteristic name="WS" typeId="8e95-6bfb-c560-252c">5+</characteristic>
             <characteristic name="BS" typeId="ce76-ba62-9fc6-cdcc">4+</characteristic>
-            <characteristic name="虚空盾" typeId="b269-3fa5-291a-8155">5+</characteristic>
+            <characteristic name="Void Shield" typeId="b269-3fa5-291a-8155">5+</characteristic>
           </characteristics>
         </profile>
-        <profile id="bdf6-861d-91f7-8977" name="混沌掠夺者主战泰坦4" hidden="false" typeId="9276-4ade-22c4-5cb6" typeName="损伤表, 泰坦">
+        <profile id="bdf6-861d-91f7-8977" name="Chaos Reaver Battle Titan4" hidden="false" typeId="9276-4ade-22c4-5cb6" typeName="Wound Track, Titan">
           <characteristics>
-            <characteristic name="剩余W" typeId="bdd9-9181-1cad-b79f">10-19</characteristic>
-            <characteristic name="M" typeId="f560-9126-5959-48ba">12寸</characteristic>
+            <characteristic name="Remaining W" typeId="bdd9-9181-1cad-b79f">10-19</characteristic>
+            <characteristic name="M" typeId="f560-9126-5959-48ba">12&quot;</characteristic>
             <characteristic name="WS" typeId="8e95-6bfb-c560-252c">5+</characteristic>
             <characteristic name="BS" typeId="ce76-ba62-9fc6-cdcc">5+</characteristic>
-            <characteristic name="虚空盾" typeId="b269-3fa5-291a-8155">6+</characteristic>
+            <characteristic name="Void Shield" typeId="b269-3fa5-291a-8155">6+</characteristic>
           </characteristics>
         </profile>
-        <profile id="2655-b41f-c3f4-11ba" name="混沌掠夺者主战泰坦5" hidden="false" typeId="9276-4ade-22c4-5cb6" typeName="损伤表, 泰坦">
+        <profile id="2655-b41f-c3f4-11ba" name="Chaos Reaver Battle Titan5" hidden="false" typeId="9276-4ade-22c4-5cb6" typeName="Wound Track, Titan">
           <characteristics>
-            <characteristic name="剩余W" typeId="bdd9-9181-1cad-b79f">1-9</characteristic>
-            <characteristic name="M" typeId="f560-9126-5959-48ba">10寸</characteristic>
+            <characteristic name="Remaining W" typeId="bdd9-9181-1cad-b79f">1-9</characteristic>
+            <characteristic name="M" typeId="f560-9126-5959-48ba">10&quot;</characteristic>
             <characteristic name="WS" typeId="8e95-6bfb-c560-252c">6+</characteristic>
             <characteristic name="BS" typeId="ce76-ba62-9fc6-cdcc">6+</characteristic>
-            <characteristic name="虚空盾" typeId="b269-3fa5-291a-8155">7+</characteristic>
+            <characteristic name="Void Shield" typeId="b269-3fa5-291a-8155">7+</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="2669-53dd-b0f8-9d74" name="末日象征" hidden="false" targetId="11a1-f0e0-d62f-b6d4" type="profile"/>
-        <infoLink id="bfd1-04da-9cfc-ab30" name="泰坦虚空盾" hidden="false" targetId="eba7-5f8d-c2a0-3165" type="profile"/>
-        <infoLink id="6407-ba19-cbe1-8b54" name="宏伟步伐" hidden="false" targetId="c5b5-f67d-f06e-f72a" type="profile"/>
-        <infoLink id="f7ed-b81a-6adb-ca9d" name="地狱神之机械" hidden="false" targetId="a0ea-57a5-f34a-ad4b" type="profile"/>
-        <infoLink id="c0d3-a364-e86e-9394" name="灾难性爆炸" hidden="false" targetId="9ff7-ac90-8912-3833" type="profile"/>
+        <infoLink id="2669-53dd-b0f8-9d74" name="Icon of the Apocalypse" hidden="false" targetId="11a1-f0e0-d62f-b6d4" type="profile"/>
+        <infoLink id="bfd1-04da-9cfc-ab30" name="Titan Void Shields" hidden="false" targetId="eba7-5f8d-c2a0-3165" type="profile"/>
+        <infoLink id="6407-ba19-cbe1-8b54" name="Titanic Gait" hidden="false" targetId="c5b5-f67d-f06e-f72a" type="profile"/>
+        <infoLink id="f7ed-b81a-6adb-ca9d" name="Infernal God-engine" hidden="false" targetId="a0ea-57a5-f34a-ad4b" type="profile"/>
+        <infoLink id="c0d3-a364-e86e-9394" name="Cataclysmic Explosion" hidden="false" targetId="9ff7-ac90-8912-3833" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="91e9-c44a-8756-c594" name="New CategoryLink" hidden="false" targetId="bc10-1aed-9d8c-724b" primary="false"/>
@@ -103,25 +103,26 @@
         <categoryLink id="ae40-4677-15ec-9ace" name="New CategoryLink" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="383a-6fee-9ea1-bfa4" name="手臂武器" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="383a-6fee-9ea1-bfa4" name="Arm mounted weapons" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="098e-d3df-6cc8-a097" type="max"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e5cd-1d6f-aeb8-a6f6" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="85e8-2bca-059e-8df2" name="掠夺者动力拳" hidden="false" collective="false" import="true" targetId="33a3-2ac8-0ade-9044" type="selectionEntry"/>
-            <entryLink id="0d58-6c8f-8095-9429" name="掠夺者热熔炮" hidden="false" collective="false" import="true" targetId="d22d-e0eb-02e0-aa54" type="selectionEntry"/>
-            <entryLink id="0c1d-287c-58fb-fc2d" name="掠夺者火山炮" hidden="false" collective="false" import="true" targetId="d066-23b5-b493-5424" type="selectionEntry"/>
-            <entryLink id="13c3-c4a8-45e7-c682" name="掠夺者链锯拳" hidden="false" collective="false" import="true" targetId="d336-c479-8d21-5cc3" type="selectionEntry"/>
-            <entryLink id="76d4-c7d8-e79b-1630" name="掠夺者激光爆裂炮" hidden="false" collective="false" import="true" targetId="f337-3828-e72f-1003" type="selectionEntry"/>
-            <entryLink id="d3c3-39ca-8857-ad74" name="掠夺者加特林爆裂炮" hidden="false" collective="false" import="true" targetId="f69f-342d-9819-7939" type="selectionEntry"/>
+            <entryLink id="85e8-2bca-059e-8df2" name="Reaver power fist" hidden="false" collective="false" import="true" targetId="33a3-2ac8-0ade-9044" type="selectionEntry"/>
+            <entryLink id="0d58-6c8f-8095-9429" name="Reaver melta cannon" hidden="false" collective="false" import="true" targetId="d22d-e0eb-02e0-aa54" type="selectionEntry"/>
+            <entryLink id="0c1d-287c-58fb-fc2d" name="Reaver volcano cannon" hidden="false" collective="false" import="true" targetId="d066-23b5-b493-5424" type="selectionEntry"/>
+            <entryLink id="13c3-c4a8-45e7-c682" name="Reaver chainfist" hidden="false" collective="false" import="true" targetId="d336-c479-8d21-5cc3" type="selectionEntry"/>
+            <entryLink id="76d4-c7d8-e79b-1630" name="Reaver laser blaster" hidden="false" collective="false" import="true" targetId="f337-3828-e72f-1003" type="selectionEntry"/>
+            <entryLink id="d3c3-39ca-8857-ad74" name="Reaver gatling blaster" hidden="false" collective="false" import="true" targetId="f69f-342d-9819-7939" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="907e-f0e6-174e-33b2" name="顶部武器" hidden="false" collective="false" import="true" targetId="512e-2935-3305-3ac8" type="selectionEntryGroup"/>
-        <entryLink id="9dce-12c7-1a96-d460" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
-        <entryLink id="6511-396e-6c08-9402" name="有战斗荣誉" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="907e-f0e6-174e-33b2" name="Carapace mounted weapons" hidden="false" collective="false" import="true" targetId="512e-2935-3305-3ac8" type="selectionEntryGroup"/>
+        <entryLink id="9dce-12c7-1a96-d460" name="Battle Honours" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="6511-396e-6c08-9402" name="Has Battle Honours" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="c116-7186-6317-719a" name="Titanic Stride" hidden="false" collective="false" import="true" targetId="8035-18bf-471c-9733" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="120.0"/>
@@ -129,14 +130,14 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6f73-5883-b77b-583d" name="混沌战犬侦察泰坦" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="6f73-5883-b77b-583d" name="Chaos Warhound Scout Titan" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="3371-b6bc-cce1-d783" name="高速迂回" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="3371-b6bc-cce1-d783" name="Flank Speed" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">当这个模型加速时, 无需投掷直接为12寸.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When this model advances, increase its Move characteristic by 12&quot; instead of rolling a dice.</characteristic>
           </characteristics>
         </profile>
-        <profile id="504a-4734-4318-457a" name="混沌战犬侦察泰坦" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+        <profile id="504a-4734-4318-457a" name="Chaos Warhound Scout Titan" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">*</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">*</characteristic>
@@ -145,51 +146,51 @@
             <characteristic name="T" typeId="9c9f-9774-a358-3a39">9</characteristic>
             <characteristic name="W" typeId="f330-5e6e-4110-0978">35</characteristic>
             <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">4</characteristic>
-            <characteristic name="LD" typeId="00ca-f8b8-876d-b705">10</characteristic>
-            <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
+            <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">10</characteristic>
+            <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="de47-f21f-632a-feb0" name="混沌战犬侦察泰坦1" hidden="false" typeId="9276-4ade-22c4-5cb6" typeName="损伤表, 泰坦">
+        <profile id="de47-f21f-632a-feb0" name="Chaos Warhound Scout Titan1" hidden="false" typeId="9276-4ade-22c4-5cb6" typeName="Wound Track, Titan">
           <characteristics>
-            <characteristic name="剩余W" typeId="bdd9-9181-1cad-b79f">30-35+</characteristic>
-            <characteristic name="M" typeId="f560-9126-5959-48ba">24寸</characteristic>
+            <characteristic name="Remaining W" typeId="bdd9-9181-1cad-b79f">30-35+</characteristic>
+            <characteristic name="M" typeId="f560-9126-5959-48ba">24&quot;</characteristic>
             <characteristic name="WS" typeId="8e95-6bfb-c560-252c">5+</characteristic>
             <characteristic name="BS" typeId="ce76-ba62-9fc6-cdcc">2+</characteristic>
-            <characteristic name="虚空盾" typeId="b269-3fa5-291a-8155">4+</characteristic>
+            <characteristic name="Void Shield" typeId="b269-3fa5-291a-8155">4+</characteristic>
           </characteristics>
         </profile>
-        <profile id="cd83-e514-abc5-26b0" name="混沌战犬侦察泰坦2" hidden="false" typeId="9276-4ade-22c4-5cb6" typeName="损伤表, 泰坦">
+        <profile id="cd83-e514-abc5-26b0" name="Chaos Warhound Scout Titan2" hidden="false" typeId="9276-4ade-22c4-5cb6" typeName="Wound Track, Titan">
           <characteristics>
-            <characteristic name="剩余W" typeId="bdd9-9181-1cad-b79f">20-29</characteristic>
-            <characteristic name="M" typeId="f560-9126-5959-48ba">18寸</characteristic>
+            <characteristic name="Remaining W" typeId="bdd9-9181-1cad-b79f">20-29</characteristic>
+            <characteristic name="M" typeId="f560-9126-5959-48ba">18&quot;</characteristic>
             <characteristic name="WS" typeId="8e95-6bfb-c560-252c">5+</characteristic>
             <characteristic name="BS" typeId="ce76-ba62-9fc6-cdcc">3+</characteristic>
-            <characteristic name="虚空盾" typeId="b269-3fa5-291a-8155">5+</characteristic>
+            <characteristic name="Void Shield" typeId="b269-3fa5-291a-8155">5+</characteristic>
           </characteristics>
         </profile>
-        <profile id="ad51-ba4e-d018-8b1b" name="混沌战犬侦察泰坦3" hidden="false" typeId="9276-4ade-22c4-5cb6" typeName="损伤表, 泰坦">
+        <profile id="ad51-ba4e-d018-8b1b" name="Chaos Warhound Scout Titan3" hidden="false" typeId="9276-4ade-22c4-5cb6" typeName="Wound Track, Titan">
           <characteristics>
-            <characteristic name="剩余W" typeId="bdd9-9181-1cad-b79f">10-19</characteristic>
-            <characteristic name="M" typeId="f560-9126-5959-48ba">12寸</characteristic>
+            <characteristic name="Remaining W" typeId="bdd9-9181-1cad-b79f">10-19</characteristic>
+            <characteristic name="M" typeId="f560-9126-5959-48ba">12&quot;</characteristic>
             <characteristic name="WS" typeId="8e95-6bfb-c560-252c">6+</characteristic>
             <characteristic name="BS" typeId="ce76-ba62-9fc6-cdcc">4+</characteristic>
-            <characteristic name="虚空盾" typeId="b269-3fa5-291a-8155">6+</characteristic>
+            <characteristic name="Void Shield" typeId="b269-3fa5-291a-8155">6+</characteristic>
           </characteristics>
         </profile>
-        <profile id="a395-0dd8-6575-9c1c" name="混沌战犬侦察泰坦4" hidden="false" typeId="9276-4ade-22c4-5cb6" typeName="损伤表, 泰坦">
+        <profile id="a395-0dd8-6575-9c1c" name="Chaos Warhound Scout Titan4" hidden="false" typeId="9276-4ade-22c4-5cb6" typeName="Wound Track, Titan">
           <characteristics>
-            <characteristic name="剩余W" typeId="bdd9-9181-1cad-b79f">1-9</characteristic>
-            <characteristic name="M" typeId="f560-9126-5959-48ba">8寸</characteristic>
+            <characteristic name="Remaining W" typeId="bdd9-9181-1cad-b79f">1-9</characteristic>
+            <characteristic name="M" typeId="f560-9126-5959-48ba">8&quot;</characteristic>
             <characteristic name="WS" typeId="8e95-6bfb-c560-252c">6+</characteristic>
             <characteristic name="BS" typeId="ce76-ba62-9fc6-cdcc">4+</characteristic>
-            <characteristic name="虚空盾" typeId="b269-3fa5-291a-8155">7+</characteristic>
+            <characteristic name="Void Shield" typeId="b269-3fa5-291a-8155">7+</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="a5ac-0fdb-51be-6a7f" name="地狱神之机械" hidden="false" targetId="a0ea-57a5-f34a-ad4b" type="profile"/>
-        <infoLink id="34e6-f291-bf29-37c7" name="泰坦虚空盾" hidden="false" targetId="eba7-5f8d-c2a0-3165" type="profile"/>
-        <infoLink id="4563-d91b-9988-917b" name="灾难性爆炸" hidden="false" targetId="9ff7-ac90-8912-3833" type="profile"/>
+        <infoLink id="a5ac-0fdb-51be-6a7f" name="Infernal God-engine" hidden="false" targetId="a0ea-57a5-f34a-ad4b" type="profile"/>
+        <infoLink id="34e6-f291-bf29-37c7" name="Titan Void Shields" hidden="false" targetId="eba7-5f8d-c2a0-3165" type="profile"/>
+        <infoLink id="4563-d91b-9988-917b" name="Cataclysmic Explosion" hidden="false" targetId="9ff7-ac90-8912-3833" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="5ac5-8233-2e20-034d" name="New CategoryLink" hidden="false" targetId="bc10-1aed-9d8c-724b" primary="false"/>
@@ -200,48 +201,24 @@
         <categoryLink id="72ec-8a6a-c37d-a934" name="New CategoryLink" hidden="false" targetId="5f88-bd69-1096-78b6" primary="false"/>
         <categoryLink id="3bc1-cc32-1508-98e3" name="New CategoryLink" hidden="false" targetId="c8fd-783f-3230-493e" primary="false"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="328c-ee6f-ec63-1211" name="巨足" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12ea-f6e2-d3d5-1065" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42e7-ff2b-81c6-b857" type="min"/>
-          </constraints>
-          <profiles>
-            <profile id="d1d4-cc6b-2b3a-7058" name="巨足" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
-              <characteristics>
-                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
-                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
-                <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
-                <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
-                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">使用这个武器每次攻击投掷 3 个命中骰, 而不是 1 个.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="pts" typeId="points" value="0.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="b16a-68ce-af9e-f7dd" name="手臂武器" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="b16a-68ce-af9e-f7dd" name="Arm mounted weapons" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9fdd-8a3d-50f8-8215" type="max"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="be41-d005-cdcf-986c" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="1503-67b0-c6b1-77a5" name="泰坦等离子爆裂枪" hidden="false" collective="false" import="true" targetId="a08d-9075-361e-016d" type="selectionEntry"/>
-            <entryLink id="4f87-a360-30da-2ee8" name="泰坦地狱枪" hidden="false" collective="false" import="true" targetId="319e-bbf9-5938-65b9" type="selectionEntry"/>
-            <entryLink id="ed76-3411-4f2c-de87" name="泰坦火神巨型爆弹" hidden="false" collective="false" import="true" targetId="01ff-ff21-7c92-b62a" type="selectionEntry"/>
-            <entryLink id="2e19-a6f7-c166-ee5e" name="双管涡轮激光毁灭者" hidden="false" collective="false" import="true" targetId="591d-791f-a46a-05da" type="selectionEntry"/>
+            <entryLink id="1503-67b0-c6b1-77a5" name="Titan plasma blastgun" hidden="false" collective="false" import="true" targetId="a08d-9075-361e-016d" type="selectionEntry"/>
+            <entryLink id="4f87-a360-30da-2ee8" name="Titan inferno gun" hidden="false" collective="false" import="true" targetId="319e-bbf9-5938-65b9" type="selectionEntry"/>
+            <entryLink id="ed76-3411-4f2c-de87" name="Titan vulcan mega-bolter" hidden="false" collective="false" import="true" targetId="01ff-ff21-7c92-b62a" type="selectionEntry"/>
+            <entryLink id="2e19-a6f7-c166-ee5e" name="Dual turbo-laser destructor" hidden="false" collective="false" import="true" targetId="591d-791f-a46a-05da" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="6693-db57-5294-74c7" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
-        <entryLink id="6abb-2dd9-bd14-543e" name="有战斗荣誉" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="6693-db57-5294-74c7" name="Battle Honours" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="6abb-2dd9-bd14-543e" name="Has Battle Honours" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="23b2-1b16-b6f4-c628" name="Titanic Stride" hidden="false" collective="false" import="true" targetId="8035-18bf-471c-9733" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="75.0"/>
@@ -249,54 +226,54 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8819-eaf2-127e-efca" name="混沌战将主战泰坦" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="8819-eaf2-127e-efca" name="Chaos Warlord Battle Titan" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="ebe0-1086-6ef6-0c8c" name="混沌战将主战泰坦1" hidden="false" typeId="9276-4ade-22c4-5cb6" typeName="损伤表, 泰坦">
+        <profile id="ebe0-1086-6ef6-0c8c" name="Chaos Warlord Battle Titan1" hidden="false" typeId="9276-4ade-22c4-5cb6" typeName="Wound Track, Titan">
           <characteristics>
-            <characteristic name="剩余W" typeId="bdd9-9181-1cad-b79f">60-70+</characteristic>
-            <characteristic name="M" typeId="f560-9126-5959-48ba">18寸</characteristic>
+            <characteristic name="Remaining W" typeId="bdd9-9181-1cad-b79f">60-70+</characteristic>
+            <characteristic name="M" typeId="f560-9126-5959-48ba">18&quot;</characteristic>
             <characteristic name="WS" typeId="8e95-6bfb-c560-252c">4+</characteristic>
             <characteristic name="BS" typeId="ce76-ba62-9fc6-cdcc">2+</characteristic>
-            <characteristic name="虚空盾" typeId="b269-3fa5-291a-8155">3+</characteristic>
+            <characteristic name="Void Shield" typeId="b269-3fa5-291a-8155">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="e8bd-f07e-4789-e98f" name="混沌战将主战泰坦2" hidden="false" typeId="9276-4ade-22c4-5cb6" typeName="损伤表, 泰坦">
+        <profile id="e8bd-f07e-4789-e98f" name="Chaos Warlord Battle Titan2" hidden="false" typeId="9276-4ade-22c4-5cb6" typeName="Wound Track, Titan">
           <characteristics>
-            <characteristic name="剩余W" typeId="bdd9-9181-1cad-b79f">40-59</characteristic>
-            <characteristic name="M" typeId="f560-9126-5959-48ba">14寸</characteristic>
+            <characteristic name="Remaining W" typeId="bdd9-9181-1cad-b79f">40-59</characteristic>
+            <characteristic name="M" typeId="f560-9126-5959-48ba">14&quot;</characteristic>
             <characteristic name="WS" typeId="8e95-6bfb-c560-252c">4+</characteristic>
             <characteristic name="BS" typeId="ce76-ba62-9fc6-cdcc">3+</characteristic>
-            <characteristic name="虚空盾" typeId="b269-3fa5-291a-8155">4+</characteristic>
+            <characteristic name="Void Shield" typeId="b269-3fa5-291a-8155">4+</characteristic>
           </characteristics>
         </profile>
-        <profile id="45ac-6cf9-7712-87f6" name="混沌战将主战泰坦3" hidden="false" typeId="9276-4ade-22c4-5cb6" typeName="损伤表, 泰坦">
+        <profile id="45ac-6cf9-7712-87f6" name="Chaos Warlord Battle Titan3" hidden="false" typeId="9276-4ade-22c4-5cb6" typeName="Wound Track, Titan">
           <characteristics>
-            <characteristic name="剩余W" typeId="bdd9-9181-1cad-b79f">20-39</characteristic>
-            <characteristic name="M" typeId="f560-9126-5959-48ba">12寸</characteristic>
+            <characteristic name="Remaining W" typeId="bdd9-9181-1cad-b79f">20-39</characteristic>
+            <characteristic name="M" typeId="f560-9126-5959-48ba">12&quot;</characteristic>
             <characteristic name="WS" typeId="8e95-6bfb-c560-252c">5+</characteristic>
             <characteristic name="BS" typeId="ce76-ba62-9fc6-cdcc">4+</characteristic>
-            <characteristic name="虚空盾" typeId="b269-3fa5-291a-8155">4+</characteristic>
+            <characteristic name="Void Shield" typeId="b269-3fa5-291a-8155">4+</characteristic>
           </characteristics>
         </profile>
-        <profile id="c65f-36c1-4db8-fed9" name="混沌战将主战泰坦4" hidden="false" typeId="9276-4ade-22c4-5cb6" typeName="损伤表, 泰坦">
+        <profile id="c65f-36c1-4db8-fed9" name="Chaos Warlord Battle Titan4" hidden="false" typeId="9276-4ade-22c4-5cb6" typeName="Wound Track, Titan">
           <characteristics>
-            <characteristic name="剩余W" typeId="bdd9-9181-1cad-b79f">10-19</characteristic>
-            <characteristic name="M" typeId="f560-9126-5959-48ba">10寸</characteristic>
+            <characteristic name="Remaining W" typeId="bdd9-9181-1cad-b79f">10-19</characteristic>
+            <characteristic name="M" typeId="f560-9126-5959-48ba">10&quot;</characteristic>
             <characteristic name="WS" typeId="8e95-6bfb-c560-252c">5+</characteristic>
             <characteristic name="BS" typeId="ce76-ba62-9fc6-cdcc">4+</characteristic>
-            <characteristic name="虚空盾" typeId="b269-3fa5-291a-8155">5+</characteristic>
+            <characteristic name="Void Shield" typeId="b269-3fa5-291a-8155">5+</characteristic>
           </characteristics>
         </profile>
-        <profile id="fcf4-3f17-1eb6-6e0c" name="混沌战将主战泰坦5" hidden="false" typeId="9276-4ade-22c4-5cb6" typeName="损伤表, 泰坦">
+        <profile id="fcf4-3f17-1eb6-6e0c" name="Chaos Warlord Battle Titan5" hidden="false" typeId="9276-4ade-22c4-5cb6" typeName="Wound Track, Titan">
           <characteristics>
-            <characteristic name="剩余W" typeId="bdd9-9181-1cad-b79f">1-9</characteristic>
-            <characteristic name="M" typeId="f560-9126-5959-48ba">8寸</characteristic>
+            <characteristic name="Remaining W" typeId="bdd9-9181-1cad-b79f">1-9</characteristic>
+            <characteristic name="M" typeId="f560-9126-5959-48ba">8&quot;</characteristic>
             <characteristic name="WS" typeId="8e95-6bfb-c560-252c">6+</characteristic>
             <characteristic name="BS" typeId="ce76-ba62-9fc6-cdcc">5+</characteristic>
-            <characteristic name="虚空盾" typeId="b269-3fa5-291a-8155">6+</characteristic>
+            <characteristic name="Void Shield" typeId="b269-3fa5-291a-8155">6+</characteristic>
           </characteristics>
         </profile>
-        <profile id="28a0-5d1a-3658-49fc" name="混沌战将主战泰坦" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+        <profile id="28a0-5d1a-3658-49fc" name="Chaos Warlord Battle Titan" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">*</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">*</characteristic>
@@ -305,17 +282,17 @@
             <characteristic name="T" typeId="9c9f-9774-a358-3a39">16</characteristic>
             <characteristic name="W" typeId="f330-5e6e-4110-0978">70</characteristic>
             <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">5</characteristic>
-            <characteristic name="LD" typeId="00ca-f8b8-876d-b705">10</characteristic>
-            <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">2+</characteristic>
+            <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">10</characteristic>
+            <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">2+</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="9768-4c20-8733-b01c" name="末日象征" hidden="false" targetId="11a1-f0e0-d62f-b6d4" type="profile"/>
-        <infoLink id="65fd-6905-e90f-1c89" name="地狱神之机械" hidden="false" targetId="a0ea-57a5-f34a-ad4b" type="profile"/>
-        <infoLink id="7bf8-91c3-64bc-119b" name="泰坦虚空盾" hidden="false" targetId="eba7-5f8d-c2a0-3165" type="profile"/>
-        <infoLink id="f09c-210f-7dae-af41" name="宏伟步伐" hidden="false" targetId="c5b5-f67d-f06e-f72a" type="profile"/>
-        <infoLink id="d39a-78ff-0b12-1946" name="灾难性爆炸" hidden="false" targetId="9ff7-ac90-8912-3833" type="profile"/>
+        <infoLink id="9768-4c20-8733-b01c" name="Icon of the Apocalypse" hidden="false" targetId="11a1-f0e0-d62f-b6d4" type="profile"/>
+        <infoLink id="65fd-6905-e90f-1c89" name="Infernal God-engine" hidden="false" targetId="a0ea-57a5-f34a-ad4b" type="profile"/>
+        <infoLink id="7bf8-91c3-64bc-119b" name="Titan Void Shields" hidden="false" targetId="eba7-5f8d-c2a0-3165" type="profile"/>
+        <infoLink id="f09c-210f-7dae-af41" name="Titanic Gait" hidden="false" targetId="c5b5-f67d-f06e-f72a" type="profile"/>
+        <infoLink id="d39a-78ff-0b12-1946" name="Cataclysmic Explosion" hidden="false" targetId="9ff7-ac90-8912-3833" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="3612-893b-0987-2776" name="New CategoryLink" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
@@ -327,48 +304,48 @@
         <categoryLink id="ddc7-90ca-0023-9633" name="New CategoryLink" hidden="false" targetId="5f88-bd69-1096-78b6" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="fbb2-7097-1e25-8e3f" name="手臂武器" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="fbb2-7097-1e25-8e3f" name="Arm mounted weapons" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="df61-92d5-0095-003e" type="max"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="caf4-7c45-4095-2653" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="0888-928b-8fa6-65ec" name="日怒离子湮灭炮" hidden="false" collective="false" import="true" targetId="0ceb-689d-4890-8cf4" type="selectionEntry"/>
-            <entryLink id="43c1-b865-691e-4dd8" name="死亡地震炮" hidden="false" collective="false" import="true" targetId="b0aa-744d-5752-7a70" type="selectionEntry"/>
-            <entryLink id="d252-7be8-f3ba-6e5f" name="萨特尼恩激光切割机" hidden="false" collective="false" import="true" targetId="56ee-470e-eef0-392c" type="selectionEntry"/>
-            <entryLink id="8085-e7e6-3e7f-db85" name="阿里奥奇泰坦动力爪" hidden="false" collective="false" import="true" targetId="b124-08b6-9635-dd74" type="selectionEntry"/>
-            <entryLink id="29ff-de0a-f11b-6b10" name="战将加特林爆裂炮" hidden="false" collective="false" import="true" targetId="8782-6342-20cb-992c" type="selectionEntry"/>
-            <entryLink id="4ffc-669b-d8d7-5c29" name="贝利科萨火山炮" hidden="false" collective="false" import="true" targetId="6d00-bed4-98cd-3abb" type="selectionEntry"/>
+            <entryLink id="0888-928b-8fa6-65ec" name="Sunfury plasma annihilator" hidden="false" collective="false" import="true" targetId="0ceb-689d-4890-8cf4" type="selectionEntry"/>
+            <entryLink id="43c1-b865-691e-4dd8" name="Mori quake cannon" hidden="false" collective="false" import="true" targetId="b0aa-744d-5752-7a70" type="selectionEntry"/>
+            <entryLink id="d252-7be8-f3ba-6e5f" name="Saturnyne lascutter" hidden="false" collective="false" import="true" targetId="56ee-470e-eef0-392c" type="selectionEntry"/>
+            <entryLink id="8085-e7e6-3e7f-db85" name="Arioch Titan power claw" hidden="false" collective="false" import="true" targetId="b124-08b6-9635-dd74" type="selectionEntry"/>
+            <entryLink id="29ff-de0a-f11b-6b10" name="Warlord gatling blaster" hidden="false" collective="false" import="true" targetId="8782-6342-20cb-992c" type="selectionEntry"/>
+            <entryLink id="4ffc-669b-d8d7-5c29" name="Belicosa volcano cannon" hidden="false" collective="false" import="true" targetId="6d00-bed4-98cd-3abb" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="7d78-d6e4-3162-5578" name="顶部武器" hidden="false" collective="false" import="true" targetId="512e-2935-3305-3ac8" type="selectionEntryGroup">
+        <entryLink id="7d78-d6e4-3162-5578" name="Carapace mounted weapons" hidden="false" collective="false" import="true" targetId="512e-2935-3305-3ac8" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="6bea-5491-6d3f-ca88" value="2"/>
             <modifier type="set" field="5183-31b4-c4a3-e343" value="2"/>
           </modifiers>
         </entryLink>
-        <entryLink id="fdb5-98b3-1e4d-4b6c" name="超级巨足" hidden="false" collective="false" import="true" targetId="8bfc-dba5-5107-7075" type="selectionEntry">
+        <entryLink id="fdb5-98b3-1e4d-4b6c" name="Greater titanic stride" hidden="false" collective="false" import="true" targetId="8bfc-dba5-5107-7075" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e10-b1c9-13fa-0c34" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a3e-b354-4491-a020" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="dd2f-f329-5bb6-359e" name="阿德克斯近防双联激光炮" hidden="false" collective="false" import="true" targetId="67f9-110f-ebce-f8a8" type="selectionEntry">
+        <entryLink id="dd2f-f329-5bb6-359e" name="Ardex-defensor twin lascannon" hidden="false" collective="false" import="true" targetId="67f9-110f-ebce-f8a8" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12e8-4d71-0146-babb" type="max"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f013-3def-8ded-0a4a" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="915d-7d5f-fad3-8975" name="阿德克斯近防爆弹" hidden="false" collective="false" import="true" targetId="577d-f6f0-b174-15f0" type="selectionEntry">
+        <entryLink id="915d-7d5f-fad3-8975" name="Ardex-defensor maulers" hidden="false" collective="false" import="true" targetId="577d-f6f0-b174-15f0" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5fe3-4f57-8ab6-c979" type="max"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c057-c881-0138-8218" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="c08a-9186-4253-8f3b" name="有战斗荣誉" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="7e8e-1900-e2c0-c060" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="c08a-9186-4253-8f3b" name="Has Battle Honours" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="7e8e-1900-e2c0-c060" name="Battle Honours" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="200.0"/>
@@ -376,16 +353,16 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8bfc-dba5-5107-7075" name="超级巨足" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="8bfc-dba5-5107-7075" name="Greater titanic stride" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="5a7e-b4e1-c8d3-d31e" name="超级巨足" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="5a7e-b4e1-c8d3-d31e" name="Greater titanic stride" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
-            <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+            <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Make 4 命中骰 for 每次攻击 made 使用这个武器, 而不是 1.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Make 4 hit rolls for each attack made with this weapon, instead of 1.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -395,40 +372,21 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3c3a-491c-1118-c777" name="巨足" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="b124-08b6-9635-dd74" name="Arioch Titan power claw w/ mega bolter" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="9b7a-fbdc-fcc1-4ca4" name="巨足" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="f794-ecf4-b20b-7a03" name="Arioch Titan power claw" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
-            <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
-            <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
-            <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">使用这个武器每次攻击投掷 3 个命中骰, 而不是 1 个.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="b124-08b6-9635-dd74" name="阿里奥奇泰坦动力爪装备巨型爆弹" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="f794-ecf4-b20b-7a03" name="阿里奥奇泰坦动力爪" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
-          <characteristics>
-            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">x2</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-5</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">12</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If you slay a 载具 or 巨兽 that 没有 巨型 关键字 with the 主将 power claw, select an 敌方单位 范围内 12寸 and 投掷1个D6; 结果为4+ 那个单位 遭受 D6 致命伤 as the dead body or debris is thrown at it.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If you slay a VEHICLE or MONSTER that does not have the TITANIC keyword with the Warlord power claw, select an enemy unit within 12&quot; and roll a D6; on a 4+ that unit suffers D6 mortal wounds as the dead body or debris is thrown at it.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="4514-e067-5126-b048" name="泰坦火神巨型爆弹" hidden="false" targetId="cc41-13d3-cea4-b3a9" type="profile"/>
+        <infoLink id="4514-e067-5126-b048" name="Titan vulcan mega-bolter" hidden="false" targetId="cc41-13d3-cea4-b3a9" type="profile"/>
       </infoLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -436,16 +394,16 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="33a3-2ac8-0ade-9044" name="掠夺者动力拳" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="33a3-2ac8-0ade-9044" name="Reaver power fist" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="17f8-63b9-15c1-df59" name="掠夺者动力拳" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="17f8-63b9-15c1-df59" name="Reaver power fist" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">x2</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-5</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">10</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If you slay a 载具 or 巨兽 that 没有 巨型 关键字 with the 掠夺者动力拳, select an 敌方单位 范围内 12寸 and 投掷1个D6; 结果为4+ 那个单位 遭受 D6 致命伤 as the dead body or debris is thrown at it.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If you slay a VEHICLE or MONSTER that does not have the TITANIC keyword with the Reaver power fist, select an enemy unit within 12&quot; and roll a D6; on a 4+ that unit suffers D6 mortal wounds as the dead body or debris is thrown at it.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -455,16 +413,16 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d336-c479-8d21-5cc3" name="掠夺者链锯拳" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="d336-c479-8d21-5cc3" name="Reaver chainfist" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="e479-3756-8e5c-216f" name="掠夺者链锯拳" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="e479-3756-8e5c-216f" name="Reaver chainfist" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">x2</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-5</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">10</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">减少 1 from 命中骰 made 使用这个武器. 任何造伤骰的 6 made with this 攻击 on any 载具, 巨兽, or 建筑 自动 造成额外的 2D6 致命伤 对目标.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Subtract 1 from hit rolls made with this weapon. Any wound roll of a 6 made with this attack on any VEHICLE, MONSTER, or BUILDING automatically inflicts an additional 2D6 mortal wounds on the target.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -474,16 +432,16 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b0aa-744d-5752-7a70" name="死亡地震炮" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="b0aa-744d-5752-7a70" name="Mori quake cannon" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="ec22-bdfe-dd35-35ad" name="死亡地震炮" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="ec22-bdfe-dd35-35ad" name="Mori quake cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸-360寸</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">宏 3D6</characteristic>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;-360&quot;</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Macro 3D6</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">20</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-5</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">6</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">单位 命中 by 这个武器 必须 half their M值 and cannot Advance in their following 移动阶段.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Units hit by this weapon must half their Move characteristic and cannot Advance in their following Movement phase.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -493,16 +451,16 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0ceb-689d-4890-8cf4" name="日怒离子湮灭炮" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="0ceb-689d-4890-8cf4" name="Sunfury plasma annihilator" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="3e07-1175-31b8-1549" name="日怒离子湮灭炮" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="3e07-1175-31b8-1549" name="Sunfury plasma annihilator" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72寸</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">宏 2D6</characteristic>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72&quot;</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Macro 2D6</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">10</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2D6</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">After resolving 所有 伤害 对目标 单位, 投掷1个D6 for every other 单位 6寸范围内 of the 目标单位; 结果为4+ 那个单位 also 遭受 D3 命中 using the 武器的 profile.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">After resolving all damage on the target unit, roll a D6 for every other unit within 6&quot; of the target unit; on a 4+ that unit also suffers D3 hits using the weapon&apos;s profile.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -512,16 +470,16 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8782-6342-20cb-992c" name="战将加特林爆裂炮" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="8782-6342-20cb-992c" name="Warlord gatling blaster" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="245f-a6a9-5ec5-fad0" name="战将加特林爆裂炮" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="245f-a6a9-5ec5-fad0" name="Warlord gatling blaster" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72寸</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">宏 12</characteristic>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72&quot;</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Macro 12</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">对抗步兵单位, 每个成功的命中 inflicted by 这个武器 instead becomes 3 命中. </characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Against INFANTRY units, each successful hit inflicted by this weapon instead becomes 3 hits. </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -531,16 +489,16 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="56dd-5f22-1076-6a2e" name="启示录导弹发射器" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="56dd-5f22-1076-6a2e" name="Apocalypse missile launcher" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="093e-40a0-d74d-a806" name="启示录导弹发射器" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="093e-40a0-d74d-a806" name="Apocalypse missile launcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸-360寸</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 12</characteristic>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;-360&quot;</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 12</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">7</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">可以瞄准使用者不可见的单位.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon can target units which are not visible to the bearer.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -550,16 +508,16 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f69f-342d-9819-7939" name="掠夺者加特林爆裂炮" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="f69f-342d-9819-7939" name="Reaver gatling blaster" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="bc36-059b-ccd9-6648" name="掠夺者加特林爆裂炮" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="bc36-059b-ccd9-6648" name="Reaver gatling blaster" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72寸</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">宏 6</characteristic>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72&quot;</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Macro 6</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">对抗步兵单位, 每个成功的命中骰 inflicted by 这个武器 instead becomes 3 命中.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Against INFANTRY units, each successful hit roll inflicted by this weapon instead becomes 3 hits.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -569,16 +527,16 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f337-3828-e72f-1003" name="掠夺者激光爆裂炮" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="f337-3828-e72f-1003" name="Reaver laser blaster" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="805c-db35-bf33-b36e" name="掠夺者激光爆裂炮" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="805c-db35-bf33-b36e" name="Reaver laser blaster" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">96寸</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">宏 3D3</characteristic>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">96&quot;</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Macro 3D3</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">10</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2D6</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">任何造伤骰的 6 made by this 攻击 自动 造成额外的 D3 致命伤 对目标.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Any wound roll of a 6 made by this attack automatically inflicts an additional D3 mortal wounds on the target.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -588,26 +546,26 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="56ee-470e-eef0-392c" name="萨特尼恩激光切割机" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="56ee-470e-eef0-392c" name="Saturnyne lascutter" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="4244-5be3-4a07-2157" name="萨特尼恩激光切割机 (射击)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="4244-5be3-4a07-2157" name="Saturnyne lascutter (shooting)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18寸</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 1</characteristic>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18&quot;</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">12</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">6</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">After you have rolled a successful 命中 使用这个武器, you may 立即 roll for an 额外的 命中 对抗 the same 目标单位; if this 额外的 命中骰 is successful, you may roll to 命中 again and again until either you miss or a total of 12 命中 has been achieved. After the total number of 命中 has been determined for the武器, resolve the attack.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">After you have rolled a successful hit with this weapon, you may immediately roll for an additional hit against the same target unit; if this additional hit roll is successful, you may roll to hit again and again until either you miss or a total of 12 hits has been achieved. After the total number of hits has been determined for the weapon, resolve the attack.</characteristic>
           </characteristics>
         </profile>
-        <profile id="56b1-d3d2-f1e7-44bc" name="萨特尼恩激光切割机 (肉搏)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="56b1-d3d2-f1e7-44bc" name="Saturnyne lascutter (melee)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">20</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-5</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">12</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">可以重投失败的命中骰 for 这个武器 对抗 targets with the 巨兽, 建筑, or 载具 关键字.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">You may re-roll failed hit rolls for this weapon against targets with the MONSTER, BUILDING, or VEHICLE keyword.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -617,16 +575,16 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="591d-791f-a46a-05da" name="双管涡轮激光毁灭者" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="591d-791f-a46a-05da" name="Dual turbo-laser destructor" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="0e69-69dc-025a-21e3" name="双管涡轮激光毁灭者" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="0e69-69dc-025a-21e3" name="Dual turbo-laser destructor" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">96寸</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">宏 2D3</characteristic>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">96&quot;</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Macro 2D3</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">16</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2D6</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">任何造伤骰的 6 made 使用这个武器 造成额外的 D3 致命伤 对目标.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Any wound roll of a 6 made with this weapon inflicts an additional D3 mortal wounds on the target.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -636,16 +594,16 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6d00-bed4-98cd-3abb" name="贝利科萨火山炮" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="6d00-bed4-98cd-3abb" name="Belicosa volcano cannon" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="c78e-7880-b2fc-4110" name="贝利科萨火山炮" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="c78e-7880-b2fc-4110" name="Belicosa volcano cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">180寸</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">宏 D6</characteristic>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">180&quot;</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Macro D6</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">30</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-6</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">12</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">任何造伤骰的 6 made 使用这个武器 造成额外的 D6 致命伤 对目标.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Any wound roll of a 6 made with this weapon inflicts an additional D6 mortal wounds on the target.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -655,26 +613,26 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a08d-9075-361e-016d" name="泰坦等离子爆裂枪" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="a08d-9075-361e-016d" name="Titan plasma blastgun" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="a973-2db1-a21d-29ae" name="泰坦等离子爆裂枪-标准" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="a973-2db1-a21d-29ae" name="Titan plasma blastgun, normal" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72寸</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">宏 2D6</characteristic>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72&quot;</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Macro 2D6</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
             <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
           </characteristics>
         </profile>
-        <profile id="e3c0-7940-38aa-5ed0" name="泰坦等离子爆裂枪-过载" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="e3c0-7940-38aa-5ed0" name="Titan plasma blastgun, overcharged" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72寸</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">宏 2D6</characteristic>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72&quot;</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Macro 2D6</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">10</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">4</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">使用这个射击模式, 每个命中骰的1, 这个武器的所有射击结算后泰坦遭受1点致命伤. 这些致命伤不能使用泰坦的虚空盾.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When using this firing mode, for each hit roll of 1, the Titan suffers a mortal wound after all of this weapon&apos;s shots have been resolved. These mortal wounds may nto be stopped by the Titan&apos;s own void shields.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -684,12 +642,12 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0ca0-cd50-9704-3915" name="双联泰坦巨型爆弹" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="0ca0-cd50-9704-3915" name="Twin Titan mega-bolter" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="cf11-a0a8-dd31-a17e" name="双联泰坦巨型爆弹" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="cf11-a0a8-dd31-a17e" name="Twin Titan mega-bolter" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72寸</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 40</characteristic>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72&quot;</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 40</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
@@ -703,16 +661,16 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f84f-2b7a-7990-0f98" name="焚化导弹仓" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="f84f-2b7a-7990-0f98" name="Incinerator missile bank" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="e38c-fdce-bff7-7152" name="焚化导弹仓" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="e38c-fdce-bff7-7152" name="Incinerator missile bank" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸-360寸</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 10</characteristic>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;-360&quot;</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 10</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">对抗步兵, the number of successful 命中 rolled for 这个武器 双倍. 无视掩体. 可以瞄准使用者不可见的单位.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Against INFANTRY, the number of successful hits rolled for this weapon is doubled. Units attacked by this weapon do not gain any bonus to their saving throws for being in cover. This weapon can target units which are not visible to the bearer.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -722,16 +680,16 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="577d-f6f0-b174-15f0" name="阿德克斯近防爆弹" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="577d-f6f0-b174-15f0" name="Ardex-defensor maulers" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="9526-8066-793c-0ce3" name="阿德克斯近防爆弹" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="9526-8066-793c-0ce3" name="Ardex-defensor maulers" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36寸</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 6</characteristic>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 6</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">使用这个武器的坚守射击攻击命中为5+ ,无视修正.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Overwatch attacks with this weapon hit on a 5+ regardless of modifiers.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -741,16 +699,16 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="67f9-110f-ebce-f8a8" name="阿德克斯近防双联激光炮" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="67f9-110f-ebce-f8a8" name="Ardex-defensor twin lascannon" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="5095-e6eb-4b2e-db22" name="阿德克斯近防双联激光炮" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="5095-e6eb-4b2e-db22" name="Ardex-defensor twin lascannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48寸</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 2</characteristic>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48&quot;</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">9</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">使用这个武器的坚守射击攻击命中为5+ ,无视修正. 这个武器只能以泰坦后方的目标射击.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Overwatch attacks with this wepaon hit on a 5+ regardless of modifiers. These weapons may only fire at targets behind the Titan.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -760,12 +718,12 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d066-23b5-b493-5424" name="掠夺者火山炮" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="d066-23b5-b493-5424" name="Reaver volcano cannon" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="7abc-fa4c-ed2d-847c" name="掠夺者火山炮" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="7abc-fa4c-ed2d-847c" name="Reaver volcano cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">180寸</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">宏 D6</characteristic>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">180&quot;</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Macro D6</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">25</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-5</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">12</characteristic>
@@ -779,12 +737,12 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d22d-e0eb-02e0-aa54" name="掠夺者热熔炮" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="d22d-e0eb-02e0-aa54" name="Reaver melta cannon" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="6578-4c35-fd2a-6daf" name="掠夺者热熔炮" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="6578-4c35-fd2a-6daf" name="Reaver melta cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48寸</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">宏 2D6</characteristic>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48&quot;</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Macro 2D6</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">16</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">6</characteristic>
@@ -798,16 +756,16 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="319e-bbf9-5938-65b9" name="泰坦地狱枪" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="319e-bbf9-5938-65b9" name="Titan inferno gun" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="9302-efc8-c55c-2d44" name="泰坦地狱枪" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="9302-efc8-c55c-2d44" name="Titan inferno gun" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18寸</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 4D6</characteristic>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18&quot;</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 4D6</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">7</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">4</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器自动命中.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon hits automatically.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -817,10 +775,33 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="01ff-ff21-7c92-b62a" name="泰坦火神巨型爆弹" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="01ff-ff21-7c92-b62a" name="Titan vulcan mega-bolter" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="7aac-b3af-269a-3dc0" name="泰坦火神巨型爆弹" hidden="false" targetId="cc41-13d3-cea4-b3a9" type="profile"/>
+        <infoLink id="7aac-b3af-269a-3dc0" name="Titan vulcan mega-bolter" hidden="false" targetId="cc41-13d3-cea4-b3a9" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8035-18bf-471c-9733" name="Titanic Stride" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="623f-0305-f8db-5ead" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e076-c993-f641-c0c3" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="c6dc-491b-13f9-d175" name="Titanic Stride" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+            <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
+            <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
+            <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Make 3 hit rolls for each attack made with this weapon, instead of 1.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -829,52 +810,52 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="512e-2935-3305-3ac8" name="顶部武器" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="512e-2935-3305-3ac8" name="Carapace mounted weapons" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5183-31b4-c4a3-e343" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6bea-5491-6d3f-ca88" type="min"/>
       </constraints>
       <entryLinks>
-        <entryLink id="83b8-b831-cc23-3f60" name="双管涡轮激光毁灭者" hidden="false" collective="false" import="true" targetId="591d-791f-a46a-05da" type="selectionEntry"/>
-        <entryLink id="74a6-8e11-7173-6819" name="泰坦等离子爆裂枪" hidden="false" collective="false" import="true" targetId="a08d-9075-361e-016d" type="selectionEntry"/>
-        <entryLink id="9452-13e0-9ffd-b727" name="双联泰坦巨型爆弹" hidden="false" collective="false" import="true" targetId="0ca0-cd50-9704-3915" type="selectionEntry"/>
-        <entryLink id="67b2-6c8f-602a-fe07" name="启示录导弹发射器" hidden="false" collective="false" import="true" targetId="56dd-5f22-1076-6a2e" type="selectionEntry"/>
-        <entryLink id="9893-6a81-ab70-7251" name="掠夺者激光爆裂炮" hidden="false" collective="false" import="true" targetId="f337-3828-e72f-1003" type="selectionEntry"/>
-        <entryLink id="c1f8-195f-aa7f-3dff" name="掠夺者加特林爆裂炮" hidden="false" collective="false" import="true" targetId="f69f-342d-9819-7939" type="selectionEntry"/>
-        <entryLink id="7922-0c80-4273-d96a" name="焚化导弹仓" hidden="false" collective="false" import="true" targetId="f84f-2b7a-7990-0f98" type="selectionEntry"/>
+        <entryLink id="83b8-b831-cc23-3f60" name="Dual turbo-laser destructor" hidden="false" collective="false" import="true" targetId="591d-791f-a46a-05da" type="selectionEntry"/>
+        <entryLink id="74a6-8e11-7173-6819" name="Titan plasma blastgun" hidden="false" collective="false" import="true" targetId="a08d-9075-361e-016d" type="selectionEntry"/>
+        <entryLink id="9452-13e0-9ffd-b727" name="Twin Titan mega-bolter" hidden="false" collective="false" import="true" targetId="0ca0-cd50-9704-3915" type="selectionEntry"/>
+        <entryLink id="67b2-6c8f-602a-fe07" name="Apocalypse missile launcher" hidden="false" collective="false" import="true" targetId="56dd-5f22-1076-6a2e" type="selectionEntry"/>
+        <entryLink id="9893-6a81-ab70-7251" name="Reaver laser blaster" hidden="false" collective="false" import="true" targetId="f337-3828-e72f-1003" type="selectionEntry"/>
+        <entryLink id="c1f8-195f-aa7f-3dff" name="Reaver gatling blaster" hidden="false" collective="false" import="true" targetId="f69f-342d-9819-7939" type="selectionEntry"/>
+        <entryLink id="7922-0c80-4273-d96a" name="Incinerator missile bank" hidden="false" collective="false" import="true" targetId="f84f-2b7a-7990-0f98" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedProfiles>
-    <profile id="a0ea-57a5-f34a-ad4b" name="地狱神之机械" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="a0ea-57a5-f34a-ad4b" name="Infernal God-engine" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 can 撤退 in the 移动阶段 and still shoot and/or charge during its turn. When the 模型 撤退, it can move over 敌方 步兵模型, though at the end of its move it 必须 more than 1寸 away from 所有 敌方单位. The 模型 can fire its 射击武器 even if there are 敌方模型 1寸范围内 unless those 敌方模型 are 巨型. 这种情况下, it can shoot the 敌方单位 that is 1寸范围内 of it or any other 可见 敌方单位 that is 范围内 range and more than 1寸 away from any 友方模型. 此外, 这个模型 can move and fire重型武器 without any penalty to its 命中骰. Finally, the 模型 only gains a bonus to its save in cover if at least half of the 模型 is obscured from 持有者.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model can Fall Back in the Movement phase and still shoot and/or charge during its turn. When the model Falls Back, it can move over enemy Infantry models, though at the end of its move it must be more than 1&quot; away from all enemy units. The model can fire its shooting weapons even if there are enemy models within 1&quot; unless those enemy models are Titanic. In this case, it can shoot the enemy unit that is within 1&quot; of it or any other visible enemy unit that is within range and more than 1&quot; away from any friendly models. In addition, this model can move and fire Heavy weapons without any penalty to its hit rolls. Finally, the model only gains a bonus to its save in cover if at least half of the model is obscured from the bearer.</characteristic>
       </characteristics>
     </profile>
-    <profile id="eba7-5f8d-c2a0-3165" name="泰坦虚空盾" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="eba7-5f8d-c2a0-3165" name="Titan Void Shields" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Titans are protected by specialised 虚空盾发射器, near-impenetrable barriers of force projected out at a distance from their hulls in layers and designed to deflect and absorb the impact of high-energy 攻击 and missiles 对抗 them. In game terms, 泰坦虚空盾 are represented by a unique kind of saving throw which the controlling player can opt to use 而不是 their normal save or 特殊保护 对抗 any form of 攻击 except from武器 with the 肉搏 type. like 特殊保护s, 泰坦 虚空盾 saves are unaffected by the AP of an attack, but unlike 特殊保护s they may also be used to negate 致命伤. 这种情况下, roll one dice for 每个致命伤 that has been inflicted on the 泰坦, with the 致命伤 being ignored if the save roll is passed. 泰坦虚空盾 必须 continuously re-energised and renewed in combat operations and so as the 泰坦 is damaged, the defensive potential of its void shields is reduced. </characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Titans are protected by specialised void shield generators, near-impenetrable barriers of force projected out at a distance from their hulls in layers and designed to deflect and absorb the impact of high-energy attacks and missiles against them. In game terms, Titan void shields are represented by a unique kind of saving throw which the controlling player can opt to use instead of their normal save or invulnerable save against any form of attack except from weapons with the Melee type. like invulnerable saves, Titan void shield saves are unaffected by the AP of an attack, but unlike invulnerable saves they may also be used to negate mortal wounds. In this case, roll one dice for each mortal wound that has been inflicted on the Titan, with the mortal wound being ignored if the save roll is passed. Titan void shields must be continuously re-energised and renewed in combat operations and so as the Titan is damaged, the defensive potential of its void shields is reduced. </characteristic>
       </characteristics>
     </profile>
-    <profile id="c5b5-f67d-f06e-f72a" name="宏伟步伐" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="c5b5-f67d-f06e-f72a" name="Titanic Gait" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">当这个模型加速时, increase its M值 by 8寸 而不是 rolling a dice.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When this model advances, increase its Move characteristic by 8&quot; instead of rolling a dice.</characteristic>
       </characteristics>
     </profile>
-    <profile id="11a1-f0e0-d62f-b6d4" name="末日象征" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="11a1-f0e0-d62f-b6d4" name="Icon of the Apocalypse" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">所有 敌方模型 范围内 9寸 suffer a -2 penalty to their LD值.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">All enemy models within 9&quot; suffer a -2 penalty to their Leadership characteristic.</characteristic>
       </characteristics>
     </profile>
-    <profile id="9ff7-ac90-8912-3833" name="灾难性爆炸" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="9ff7-ac90-8912-3833" name="Cataclysmic Explosion" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 在被移除前投掷1个D6. 结果为5+ it 遭受 a 灾难性爆炸 3D6寸范围内每个单位遭受 遭受 2D6 致命伤.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model is reduced to 0 wounds, roll a D6 before removing the model from the battlefield. On a 5+ it suffers a cataclysmic explosion and each unit within 3D6&quot; suffers 2D6 mortal wounds.</characteristic>
       </characteristics>
     </profile>
-    <profile id="cc41-13d3-cea4-b3a9" name="泰坦火神巨型爆弹" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+    <profile id="cc41-13d3-cea4-b3a9" name="Titan vulcan mega-bolter" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72寸</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 20</characteristic>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72&quot;</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 20</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>

@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2f0e-dd91-7676-722d" name="艾尔达 - 死神军" revision="1" battleScribeVersion="2.03" authorName="BSData-CHN" authorContact="@BSData-CHN" authorUrl="https://github.com/BSData-CHN" library="true" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2f0e-dd91-7676-722d" name="Aeldari - Ynnari" revision="47" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@WindstormSCR" authorUrl="https://discord.gg/KqPVhds" library="true" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
-    <publication id="2f0e-dd91-pubN65537" name="索引: 异形 1"/>
-    <publication id="6a4d-2a41-5e6b-c57a" name="白矮人 May 2019"/>
+    <publication id="2f0e-dd91-pubN65537" name="Index: Xenos 1"/>
+    <publication id="6a4d-2a41-5e6b-c57a" name="White Dwarf May 2019"/>
   </publications>
   <profileTypes>
     <profileType id="d0ed-4df2-0d98-e45f" name="Distort Fields">
       <characteristicTypes>
         <characteristicType id="845d-4be9-1b81-6c01" name="Distance Moved"/>
-        <characteristicType id="c025-6dcc-7f63-091e" name="特殊保护"/>
+        <characteristicType id="c025-6dcc-7f63-091e" name="Invulnerable Save"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
   <categoryEntries>
-    <categoryEntry id="ebb3-4f37-6e57-7a8e" name="阵营: 死神军" hidden="false"/>
-    <categoryEntry id="0532-dbd6-bf12-340b" name="阵营: 艾尔达" hidden="false"/>
+    <categoryEntry id="ebb3-4f37-6e57-7a8e" name="Faction: Ynnari" hidden="false"/>
+    <categoryEntry id="0532-dbd6-bf12-340b" name="Faction: Aeldari" hidden="false"/>
     <categoryEntry id="c8df-4b67-2b52-4472" name="Yvraine" hidden="false"/>
     <categoryEntry id="48e7-cfd4-1ea3-5847" name="The Visarch" hidden="false"/>
-    <categoryEntry id="94b1-311f-cf71-99dd" name="恶魔" hidden="false"/>
+    <categoryEntry id="94b1-311f-cf71-99dd" name="Daemon" hidden="false"/>
     <categoryEntry id="956e-26fb-23a4-520d" name="The Yncarne" hidden="false"/>
-    <categoryEntry id="16f7-899b-fe14-7af1" name="猎鹰" hidden="false"/>
+    <categoryEntry id="16f7-899b-fe14-7af1" name="Falcon" hidden="false"/>
     <categoryEntry id="be4f-b265-1ffd-36cd" name="Wraith Construct" hidden="false"/>
   </categoryEntries>
   <entryLinks>
@@ -33,51 +33,51 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e93d-e013-8db7-fa6d" type="max"/>
       </constraints>
       <profiles>
-        <profile id="2d06-9beb-d5d5-8636" name="Yvraine" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+        <profile id="2d06-9beb-d5d5-8636" name="Yvraine" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="0bdf-a96e-9e38-7779">8寸</characteristic>
+            <characteristic name="M" typeId="0bdf-a96e-9e38-7779">8&quot;</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">2+</characteristic>
             <characteristic name="BS" typeId="381b-eb28-74c3-df5f">2+</characteristic>
             <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
             <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
             <characteristic name="W" typeId="f330-5e6e-4110-0978">5</characteristic>
             <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">4</characteristic>
-            <characteristic name="LD" typeId="00ca-f8b8-876d-b705">9</characteristic>
-            <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">6+</characteristic>
+            <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">9</characteristic>
+            <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">6+</characteristic>
           </characteristics>
         </profile>
-        <profile id="77f7-3e10-b2e5-656c" name="灵能者" hidden="false" typeId="bc97-dea9-9e88-bb7d" typeName="灵能者">
+        <profile id="77f7-3e10-b2e5-656c" name="Psyker" hidden="false" typeId="bc97-dea9-9e88-bb7d" typeName="Psyker">
           <characteristics>
             <characteristic name="Cast" typeId="5afb-9914-904b-d3b3">2</characteristic>
             <characteristic name="Deny" typeId="b5ac-9c20-5d5a-6f9b">1</characteristic>
             <characteristic name="Powers Known" typeId="69d7-b45e-00a2-7e46">2 - Revenant</characteristic>
-            <characteristic name="Other" typeId="c2e2-f115-0003-5d7b">Yvraine can attempt to manifest 2 灵能 in each 友方 灵能阶段, and attempt to deny 1 power in each 敌方 灵能阶段.  She knows the 惩击 power and 2 灵能 from the Revenant discipline.</characteristic>
+            <characteristic name="Other" typeId="c2e2-f115-0003-5d7b">Yvraine can attempt to manifest 2 psychic powers in each friendly Psychic phase, and attempt to deny 1 power in each enemy Psychic phase.  She knows the Smite power and 2 psychic powers from the Revenant discipline.</characteristic>
           </characteristics>
         </profile>
         <profile id="5ac6-92e1-5b08-fef5" name="Runesuit" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Yvraine 拥有 4+ invul save.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Yvraine has a 4+ invul save.</characteristic>
           </characteristics>
         </profile>
         <profile id="78ad-6212-01e1-10db" name="Grinx Familiar" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can add 1 to 所有 of Yvraine&apos;s 灵能测试和破除灵能测试.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can add 1 to all of Yvraine&apos;s Psychic tests and Deny the Witch tests.</characteristic>
           </characteristics>
         </profile>
         <profile id="4803-a000-c571-4a8d" name="Herald of Ynnead" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 another 艾尔达 模型 is slain 6寸范围内 of Yvraine, 投掷1个D6.  结果为4+ Yvraine 立即 恢复1点失去的W.  If the 模型 was a 灵能者, you can 立即 generate another 灵能 for Yvraine from the Revenant disipline.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time another AELDARI model is slain within 6&quot; of Yvraine, roll a D6.  On a 4+ Yvraine immediately regains one lost wound.  If the model was a Psyker, you can immediately generate another Psychic power for Yvraine from the Revenant disipline.</characteristic>
           </characteristics>
         </profile>
         <profile id="7a99-3ac7-8771-7cdf" name="Revered Figurehead" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">单位 with the ability can embark onto any 艾尔达 TRANSPORT, even though the transport in question might normally only permit 模型 with other 阵营关键字 to do so.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Units with the ability can embark onto any AELDARI TRANSPORT, even though the transport in question might normally only permit models with other Faction keywords to do so.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="1f94-44d1-6182-7854" name="Strength from Death" hidden="false" targetId="95ba-ea44-505c-7eb7" type="rule"/>
-        <infoLink id="7b93-1518-9dcf-95be" name="惩击" hidden="false" targetId="5821-6c45-8572-7e0e" type="profile"/>
+        <infoLink id="7b93-1518-9dcf-95be" name="Smite" hidden="false" targetId="5821-6c45-8572-7e0e" type="profile"/>
         <infoLink id="4ace-b3c2-dc95-92d2" name="Favoured of Ynnead" hidden="false" targetId="dd92-bf1c-37ba-8951" type="profile">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
@@ -104,10 +104,10 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="405c-4e0e-d1b7-8765" type="max"/>
           </constraints>
           <profiles>
-            <profile id="7410-0e3d-831d-c2b5" name="Kha-vir, the Sword of Sorrows." hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+            <profile id="7410-0e3d-831d-c2b5" name="Kha-vir, the Sword of Sorrows." hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
               <characteristics>
-                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
-                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">+1</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
@@ -128,12 +128,12 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="600a-1ef8-edcb-a47a" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="e964-74cb-3bc5-a850" name="死神军 Warlord" hidden="false" collective="false" import="true" targetId="75e4-e07c-3a6d-46c5" type="selectionEntry">
+        <entryLink id="e964-74cb-3bc5-a850" name="Ynnari Warlord" hidden="false" collective="false" import="true" targetId="75e4-e07c-3a6d-46c5" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0365-6f3a-f47c-4a8b" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="3180-c2f3-1d21-1418" name="Favoured of Ynnead" hidden="true" collective="false" import="true" targetId="e382-0294-a92d-3a16" type="selectionEntry">
+        <entryLink id="3180-c2f3-1d21-1418" name="Warden of Souls" hidden="true" collective="false" import="true" targetId="b252-9455-6755-4fbd" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -154,56 +154,56 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7662-9ddb-0b04-fe01" type="max"/>
       </constraints>
       <profiles>
-        <profile id="bd38-e6ba-8ed2-a42f" name="The Yncarne" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+        <profile id="bd38-e6ba-8ed2-a42f" name="The Yncarne" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="0bdf-a96e-9e38-7779">8寸</characteristic>
+            <characteristic name="M" typeId="0bdf-a96e-9e38-7779">8&quot;</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">2+</characteristic>
             <characteristic name="BS" typeId="381b-eb28-74c3-df5f">2+</characteristic>
             <characteristic name="S" typeId="2218-aa3c-265f-2939">6</characteristic>
             <characteristic name="T" typeId="9c9f-9774-a358-3a39">6</characteristic>
             <characteristic name="W" typeId="f330-5e6e-4110-0978">9</characteristic>
             <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">6</characteristic>
-            <characteristic name="LD" typeId="00ca-f8b8-876d-b705">9</characteristic>
-            <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
+            <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">9</characteristic>
+            <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="1a5a-d91a-c4b4-9f40" name="灵能者" hidden="false" typeId="bc97-dea9-9e88-bb7d" typeName="灵能者">
+        <profile id="1a5a-d91a-c4b4-9f40" name="Psyker" hidden="false" typeId="bc97-dea9-9e88-bb7d" typeName="Psyker">
           <characteristics>
             <characteristic name="Cast" typeId="5afb-9914-904b-d3b3">2</characteristic>
             <characteristic name="Deny" typeId="b5ac-9c20-5d5a-6f9b">1</characteristic>
             <characteristic name="Powers Known" typeId="69d7-b45e-00a2-7e46">2 - Revenant</characteristic>
-            <characteristic name="Other" typeId="c2e2-f115-0003-5d7b">The Yncarne can attempt to manifest 2 灵能 in each 友方 灵能阶段, and attempt to deny 1 power in each 敌方 灵能阶段.  It  knows the 惩击 power and 2 灵能 from the Revenant discipline.</characteristic>
+            <characteristic name="Other" typeId="c2e2-f115-0003-5d7b">The Yncarne can attempt to manifest 2 psychic powers in each friendly Psychic phase, and attempt to deny 1 power in each enemy Psychic phase.  It  knows the Smite power and 2 psychic powers from the Revenant discipline.</characteristic>
           </characteristics>
         </profile>
         <profile id="b1ed-4286-e812-4212" name="Ynnead Stirs" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">友方 死神军 单位 6寸范围内 of the Yncarne 自动通过 士气测试.  此外 whenever a 友方 死神军 单位 6寸范围内 of the Yncarne 失去1点W, 投掷1个D6.  结果为6 that wound is not lost</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Friendly YNNARI units within 6&quot; of the Yncarne automatically pass Morale tests.  In addition whenever a friendly YNNARI unit within 6&quot; of the Yncarne loses a wound, roll a D6.  On a 6 that wound is not lost</characteristic>
           </characteristics>
         </profile>
-        <profile id="8c88-6de3-878f-7294" name="恶魔 Avatar" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="8c88-6de3-878f-7294" name="Daemonic Avatar" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The Yncarne 拥有 4+ invul save.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The Yncarne has a 4+ invul save.</characteristic>
           </characteristics>
         </profile>
         <profile id="fe02-a030-b4fa-59e8" name="Inevitable Death" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When you 放置 the Yncarne, it can be 放置 in waiting rather than 战场上.  if it is, 每次 a 单位 (friend or foe) is completely 被消灭, you may 立即 放置 the Yncarne as close as possible to the position of 那个单位, more than 1寸 from 所有 敌方模型.  The Yncarne may not charge in the turn it is 放置 in this manner.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When you set up the Yncarne, it can be set up in waiting rather than on the battlefield.  if it is, each time a unit (friend or foe) is completely destroyed, you may immediately set up the Yncarne as close as possible to the position of that unit, more than 1&quot; from all enemy models.  The Yncarne may not charge in the turn it is set up in this manner.</characteristic>
           </characteristics>
         </profile>
         <profile id="5893-a8dc-205e-e9f9" name="Avatar of Ynnead" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 another 艾尔达 模型 is slain 6寸范围内 of the Yncarne, 投掷1个D6, 结果为4+ the Yncarne 恢复1点失去的W</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time another AELDARI model is slain within 6&quot; of the Yncarne, roll a D6, on a 4+ the Yncarne regains one lost wound</characteristic>
           </characteristics>
         </profile>
         <profile id="93db-7b29-ee6d-d99f" name="Summoned by Death" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 a 单位 (friend or foe) is completely 被消灭, you may 立即 remove the Yncarne from the 战场 and 放置 again as close as possible to the position of 那个单位, more than 1寸 from 所有 敌方模型. The Yncarne may not charge in the turn it is 放置 in this manner.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time a unit (friend or foe) is completely destroyed, you may immediately remove the Yncarne from the battlefield and set it up again as close as possible to the position of that unit, more than 1&quot; from all enemy models. The Yncarne may not charge in the turn it is set up in this manner.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="c79a-8f21-2f79-f649" name="Strength from Death" hidden="false" targetId="95ba-ea44-505c-7eb7" type="rule"/>
-        <infoLink id="6c93-b66a-77a9-ce63" name="惩击" hidden="false" targetId="5821-6c45-8572-7e0e" type="profile"/>
+        <infoLink id="6c93-b66a-77a9-ce63" name="Smite" hidden="false" targetId="5821-6c45-8572-7e0e" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="65df-9e97-6b1a-42df" name="New CategoryLink" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
@@ -223,14 +223,14 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="26af-53f9-3774-5f26" type="max"/>
           </constraints>
           <profiles>
-            <profile id="c783-b32c-9b99-47ca" name="Vilith-zhar, the Sword of Souls" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+            <profile id="c783-b32c-9b99-47ca" name="Vilith-zhar, the Sword of Souls" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
               <characteristics>
-                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
-                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
-                <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">可以重投失败的造伤骰 for 这个武器.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">You can re-roll failed wound rolls for this weapon.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -247,7 +247,7 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9bff-6db2-e2ff-cf76" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="5573-2e03-dd89-0c87" name="死神军 Warlord" hidden="false" collective="false" import="true" targetId="75e4-e07c-3a6d-46c5" type="selectionEntry">
+        <entryLink id="5573-2e03-dd89-0c87" name="Ynnari Warlord" hidden="false" collective="false" import="true" targetId="75e4-e07c-3a6d-46c5" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a242-4dc5-3e06-3742" type="max"/>
           </constraints>
@@ -273,37 +273,37 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df9b-4713-c4b2-7daa" type="max"/>
       </constraints>
       <profiles>
-        <profile id="4445-476f-04fc-b2fd" name="The Visarch" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+        <profile id="4445-476f-04fc-b2fd" name="The Visarch" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="0bdf-a96e-9e38-7779">8寸</characteristic>
+            <characteristic name="M" typeId="0bdf-a96e-9e38-7779">8&quot;</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">2+</characteristic>
             <characteristic name="BS" typeId="381b-eb28-74c3-df5f">2+</characteristic>
             <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
             <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
             <characteristic name="W" typeId="f330-5e6e-4110-0978">5</characteristic>
             <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">5</characteristic>
-            <characteristic name="LD" typeId="00ca-f8b8-876d-b705">9</characteristic>
-            <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
+            <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">9</characteristic>
+            <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="a7b3-cd2a-56f9-35ad" name="冠军 of Ynnead" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="a7b3-cd2a-56f9-35ad" name="Champion of Ynnead" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 another 艾尔达 模型 is slain 6寸范围内 of the Visarch, 投掷1个D6, 结果为4+, the Visarch 立即 恢复 a 失去的W.  if that 模型 was a 人物, add 1 to the Visarch&apos;s A值 for the rest of the battle.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time another AELDARI model is slain within 6&quot; of the Visarch, roll a D6, on a 4+, the Visarch immediately regains a lost wound.  if that model was a CHARACTER, add 1 to the Visarch&apos;s Attacks characteristic for the rest of the battle.</characteristic>
           </characteristics>
         </profile>
         <profile id="19da-2fb1-1fd5-99bf" name="Warden of Yvraine" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 Yvraine 失去1点W while the Visarch is 范围内 3寸, you can choose for the Visarch to shield Yvraine, if you do, 投掷1个D6.  结果为2+ Yvraine does not suffer the wound, but the visarch 遭受 1点致命伤.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time Yvraine loses a wound while the Visarch is within 3&quot;, you can choose for the Visarch to shield Yvraine, if you do, roll a D6.  On a 2+ Yvraine does not suffer the wound, but the visarch suffers a mortal wound.</characteristic>
           </characteristics>
         </profile>
         <profile id="c3de-4bbd-bd91-9afb" name="Revered Figurehead" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">单位 with the ability can embark onto any 艾尔达 TRANSPORT, even though the transport in question might normally only permit 模型 with other 阵营关键字 to do so.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Units with the ability can embark onto any AELDARI TRANSPORT, even though the transport in question might normally only permit models with other Faction keywords to do so.</characteristic>
           </characteristics>
         </profile>
         <profile id="5965-8868-6650-4885" name="Way of the Blade" publicationId="6a4d-2a41-5e6b-c57a" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228"> 重投命中的 1 for 攻击 made with肉搏武器 by 友方 死神军 模型 while thier 单位 is 6寸范围内 of 这个模型.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228"> Re-roll hit rolls of 1 for attacks made with melee weapons by friendly YNNARI models while thier unit is within 6&quot; of this model.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -325,14 +325,14 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="afc4-0c9c-3ee3-470e" type="max"/>
           </constraints>
           <profiles>
-            <profile id="135d-2ecb-7a9b-e18c" name="Asu-var, the Sword of Silent Screams" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+            <profile id="135d-2ecb-7a9b-e18c" name="Asu-var, the Sword of Silent Screams" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
               <characteristics>
-                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
-                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">+2</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">敌方单位 that suffer 任何未通过保护的伤害 from 这个武器 减少 1 from their LD 直到回合结束.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Enemy units that suffer any unsaved wounds from this weapon subtract 1 from their Leadership until the end of the turn.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -350,7 +350,7 @@
           <profiles>
             <profile id="b540-5d3e-aa2d-c6f0" name="Forceshield" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型拥有 4+ 特殊保护.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model has a 4+ invulnerable save.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -362,7 +362,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="2248-3aec-27f8-6a74" name="死神军 Warlord" hidden="false" collective="false" import="true" targetId="75e4-e07c-3a6d-46c5" type="selectionEntry">
+        <entryLink id="2248-3aec-27f8-6a74" name="Ynnari Warlord" hidden="false" collective="false" import="true" targetId="75e4-e07c-3a6d-46c5" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="739a-7104-5199-9de0" type="max"/>
           </constraints>
@@ -413,7 +413,7 @@
       <profiles>
         <profile id="5a1c-0bbd-8072-9a33" name="Warden of Souls" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Whilst 这个主将 is drawing strength from death, add 1 to their 攻击 and Strength characteristics.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Whilst this Warlord is drawing strength from death, add 1 to their Attacks and Strength characteristics.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -431,7 +431,7 @@
       <profiles>
         <profile id="09e0-0d72-8392-c761" name="Fear of the Grave" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">减少 1 from the LD值 of 模型 in 敌方单位 whilst their 单位 is 6寸范围内 of this Warlord; 减少 2 instead if any 敌方单位 have been 被消灭 as a result of an 攻击 made by 这个主将 this turn.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Subtract 1 from the Leadership characteristic of models in enemy units whilst their unit is within 6&quot; of this Warlord; subtract 2 instead if any enemy units have been destroyed as a result of an attack made by this Warlord this turn.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -449,7 +449,7 @@
       <profiles>
         <profile id="e0e7-cc07-3beb-aaa8" name="Lord of Rebirth" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">开始时 of the battle round, 这个主将 恢复 至多 1 失去的W. When 这个主将 would lose a wound, 投掷1个D6; 结果为5+ that wound is not lost.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of the battle round, this Warlord regains up to 1 lost wound. When this Warlord would lose a wound, roll one D6; on a 5+ that wound is not lost.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -467,7 +467,7 @@
       <profiles>
         <profile id="e5d8-0286-b85a-fe49" name="Master of Death" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an 攻击 made with a肉搏武器 by 这个主将, an unmodified 命中骰的 6 scores 1 额外的 命中.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made with a melee weapon by this Warlord, an unmodified hit roll of 6 scores 1 additional hit.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -485,7 +485,7 @@
       <profiles>
         <profile id="1757-2b62-ca03-f476" name="Walker of Many Paths" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per turn, when resolving an 攻击 made by 这个主将, 可以重投 one 命中骰 or 可以重投 one wound roll. Whilst 这个主将 is 战场上, you can 投掷1个D6 for each 指挥点数 you spend to use a Stratagem; 结果为5+ that 指挥点数 is refunded. You can only have 1 指挥点数 refunded per battle round by 这个主将特性.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per turn, when resolving an attack made by this Warlord, you can re-roll one hit roll or you can re-roll one wound roll. Whilst this Warlord is on the battlefield, you can roll one D6 for each Command Point you spend to use a Stratagem; on a 5+ that Command Point is refunded. You can only have 1 Command Point refunded per battle round by this Warlord Trait.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -495,12 +495,12 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="746d-c99b-ba49-17bb" name="战略: Exalted of Ynnead" publicationId="6a4d-2a41-5e6b-c57a" page="5" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="746d-c99b-ba49-17bb" name="Exalted of Ynnead" publicationId="6a4d-2a41-5e6b-c57a" page="5" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b840-e4c9-08e2-f599" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="6f80-3a86-a5a8-346f" name="New CategoryLink" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
+        <categoryLink id="e764-bbc8-c7a0-834b" name="New CategoryLink" hidden="false" targetId="c845-c72c-6afe-3fc2" primary="true"/>
       </categoryLinks>
       <costs>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="-1.0"/>
@@ -510,7 +510,7 @@
     </selectionEntry>
     <selectionEntry id="a1c9-09d6-2587-9553" name="Artefacts of Death" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
-        <categoryLink id="1ae9-e612-b94b-be17" name="游戏选项" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
+        <categoryLink id="5f3f-7c13-f6dc-f4d3" name="New CategoryLink" hidden="false" targetId="c845-c72c-6afe-3fc2" primary="true"/>
       </categoryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -605,11 +605,11 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="083f-4c89-9402-dbe7" type="max"/>
           </constraints>
           <profiles>
-            <profile id="8a85-7b76-b322-0bf3" name="1. Gaze of Ynnead" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
+            <profile id="8a85-7b76-b322-0bf3" name="1. Gaze of Ynnead" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
               <characteristics>
                 <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">6</characteristic>
-                <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
-                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">选择1个 可见 敌方单位 18寸范围内 of the 灵能者 and 投掷1个D6.  结果为1, 单位遭受 1点致命伤.  结果为2-5 那个单位 遭受 D3 致命伤.  结果为6, 那个单位 遭受 D6 致命伤.</characteristic>
+                <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18&quot;</characteristic>
+                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Select a visible enemy unit within 18&quot; of the psyker and roll a D6.  On a 1, the unit suffers a mortal wound.  On a 2-5 that unit suffers D3 mortal wounds.  On a 6, that unit suffers D6 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -624,11 +624,11 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24f4-058d-bf1d-5b27" type="max"/>
           </constraints>
           <profiles>
-            <profile id="6a83-cfb0-489c-5983" name="6. Ancestors&apos; Grace" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
+            <profile id="6a83-cfb0-489c-5983" name="6. Ancestors&apos; Grace" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
               <characteristics>
                 <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">5</characteristic>
-                <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
-                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">选择1个 友方 死神军 单位 18寸范围内 of the 灵能者.  Until the start of your next 灵能阶段, 可以重投命中骰 of 1 for 那个单位.</characteristic>
+                <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18&quot;</characteristic>
+                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Select a friendly Ynnari unit within 18&quot; of the psyker.  Until the start of your next Psychic phase, you can re-roll hit rolls of 1 for that unit.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -643,11 +643,11 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02e7-e0ca-40e4-deaa" type="max"/>
           </constraints>
           <profiles>
-            <profile id="0ef5-cbb3-24a1-a0c3" name="3. Word of the Phoenix" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
+            <profile id="0ef5-cbb3-24a1-a0c3" name="3. Word of the Phoenix" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
               <characteristics>
                 <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">5</characteristic>
-                <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
-                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">如果施放成功, Select one 友方 死神军 步兵, or 死神军 摩托 单位 18寸范围内 of the 灵能者. One 模型 in 那个单位 恢复 D3 失去的W. If no 模型 in 那个单位 have lost any wounds, but 那个单位 has suffered one or more casualties, then 1 模型 is returned to 那个单位, in 单位 coherency, with 1 wound remaining.</characteristic>
+                <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18&quot;</characteristic>
+                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, Select one friendly ynnari infantry, or YNNARI BIKER unit within 18&quot; of the psyker. One model in that unit regains d3 lost wounds. If no models in that unit have lost any wounds, but that unit has suffered one or more casualties, then 1 model is returned to that unit, in unit coherency, with 1 wound remaining.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -662,11 +662,11 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f207-4942-27f4-421d" type="max"/>
           </constraints>
           <profiles>
-            <profile id="6ee0-c3ca-e04d-da46" name="4. Unbind Souls" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
+            <profile id="6ee0-c3ca-e04d-da46" name="4. Unbind Souls" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
               <characteristics>
                 <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">6</characteristic>
-                <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
-                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">如果施放成功, select an 敌方单位 18寸范围内 of the 灵能者. Until the start of your next 灵能阶段, 可以重投造伤骰 for 攻击 made with肉搏武器 by 死神军 模型 from your army that target 那个敌方单位.</characteristic>
+                <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18&quot;</characteristic>
+                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, select an enemy unit within 18&quot; of the psyker. Until the start of your next psychic phase, you can re-roll wound rolls for attacks made with melee weapons by Ynnari models from your army that target that enemy unit.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -681,11 +681,11 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b92-77ef-d76e-c591" type="max"/>
           </constraints>
           <profiles>
-            <profile id="dbb2-aaeb-1458-6a25" name="2. Storm of Whispers" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
+            <profile id="dbb2-aaeb-1458-6a25" name="2. Storm of Whispers" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
               <characteristics>
                 <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">6</characteristic>
-                <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">6寸</characteristic>
-                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">如果施放成功, roll 3d6 for each 敌方单位 6寸范围内 of the 灵能者, For each roll of 6, the 单位 being rolled for 遭受 1 致命伤.</characteristic>
+                <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">6&quot;</characteristic>
+                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, roll 3d6 for each enemy unit within 6&quot; of the psyker, For each roll of 6, the unit being rolled for suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -700,11 +700,11 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf15-4982-c535-8aae" type="max"/>
           </constraints>
           <profiles>
-            <profile id="d01b-6dff-5607-2bbc" name="5. Shield of Ynnead" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
+            <profile id="d01b-6dff-5607-2bbc" name="5. Shield of Ynnead" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
               <characteristics>
                 <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">7</characteristic>
-                <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">6寸</characteristic>
-                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">友方 死神军 单位 have a 5+ 特殊保护 while they are 6寸范围内 of the 灵能者.</characteristic>
+                <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">6&quot;</characteristic>
+                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Friendly ynnari units have a 5+ invulnerable save while they are within 6&quot; of the psyker.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -716,7 +716,7 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="bd5b-50f5-f7d9-0af1" name="主将特性 (死神军)" publicationId="6a4d-2a41-5e6b-c57a" hidden="true" collective="false" import="true">
+    <selectionEntryGroup id="bd5b-50f5-f7d9-0af1" name="Warlord Trait (Ynnari)" publicationId="6a4d-2a41-5e6b-c57a" hidden="true" collective="false" import="true">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditionGroups>
@@ -739,7 +739,7 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="8470-83da-5ba8-8ed7" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="74b8-5ca7-9631-0c98" name="主将特性 (总规则)" hidden="false" collective="false" import="true" targetId="d442-1f03-d9da-e77f" type="selectionEntryGroup">
+        <entryLink id="74b8-5ca7-9631-0c98" name="Warlord Traits (BRB)" hidden="false" collective="false" import="true" targetId="d442-1f03-d9da-e77f" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -753,7 +753,7 @@
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="fac4-b9c9-3040-5ccd" name="主将特性 (CA)" hidden="false" collective="false" import="true" targetId="f673-3d9b-bb1b-377f" type="selectionEntryGroup">
+        <entryLink id="fac4-b9c9-3040-5ccd" name="Warlord Traits (CA)" hidden="false" collective="false" import="true" targetId="f673-3d9b-bb1b-377f" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -767,10 +767,10 @@
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="8a42-5a6d-db76-fb80" name="主将特性 (死神军)" hidden="false" collective="false" import="true" targetId="2fc3-8ba7-0594-29f6" type="selectionEntryGroup"/>
+        <entryLink id="8a42-5a6d-db76-fb80" name="Warlord Traits (Ynnari)" hidden="false" collective="false" import="true" targetId="2fc3-8ba7-0594-29f6" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="2fc3-8ba7-0594-29f6" name="主将特性 (死神军)" hidden="true" collective="false" import="true">
+    <selectionEntryGroup id="2fc3-8ba7-0594-29f6" name="Warlord Traits (Ynnari)" hidden="true" collective="false" import="true">
       <modifiers>
         <modifier type="increment" field="bea3-cb2c-1bfe-4618" value="1.0">
           <repeats>
@@ -799,55 +799,55 @@
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="95ba-ea44-505c-7eb7" name="Strength from Death" publicationId="6a4d-2a41-5e6b-c57a" page="2" hidden="false">
-      <description>This ability is common to 所有 死神军 单位.
+      <description>This ability is common to all YNNARI units.
 
-As soon as 任何单位 is 被消灭, 所有 单位 from your army benefit from Soulburst actions 直到回合结束. Whilst a 单位 is benefitting from Soulburst Actions, it always fights first 在肉搏阶段, even if it didn&apos;t charge. 如果模型 that is benefitting from soulburst actions made a 冲锋移动 this turn, or already has an ability that allows it to always fight first 在肉搏阶段, then whilst it is benfitting from soulburst actions you also 命中骰+1 for 攻击 made with肉搏武器 by that model. If the 敌方 also has 单位 that made a 冲锋移动 or that have abilities that allow them to always fight first 在肉搏阶段, the alternate 单位, starting with the player whose turn is taking place.</description>
+As soon as any unit is destroyed, All units from your army benefit from Soulburst actions until the end of the turn. Whilst a unit is benefitting from Soulburst Actions, it always fights first in the Fight phase, even if it didn&apos;t charge. If a model that is benefitting from soulburst actions made a charge move this turn, or already has an ability that allows it to always fight first in the Fight phase, then whilst it is benfitting from soulburst actions you also add 1 to hit rolls for attacks made with melee weapons by that model. If the enemy also has units that made a charge move or that have abilities that allow them to always fight first in the fight phase, the alternate units, starting with the player whose turn is taking place.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="ecf2-1723-edc3-0ee1" name="Corag Hai&apos;s Locket" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每次 an 敌方单位 is 被消灭 by an 攻击 made by 持有者, add 1 to 持有者&apos;s Move and 攻击 characteristics for the remainder of the battle.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time an enemy unit is destroyed by an attack made by the bearer, add 1 to the bearer&apos;s Move and Attacks characteristics for the remainder of the battle.</characteristic>
       </characteristics>
     </profile>
-    <profile id="2cec-eb16-6120-2e36" name="Hungering Blade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+    <profile id="2cec-eb16-6120-2e36" name="Hungering Blade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">+3</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each unmodified wound roll of 6 made for an 攻击 使用这个武器 inflicts 1 致命伤 此外 to 普通伤害.</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each unmodified wound roll of 6 made for an attack with this weapon inflicts 1 mortal wound in addition to the normal damage.</characteristic>
       </characteristics>
     </profile>
     <profile id="dc3a-a9a7-58d3-ecd8" name="Mirrorgaze" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">减少 1 from 命中骰 for 攻击 that target 持有者.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Subtract 1 from hit rolls for attacks that target the bearer.</characteristic>
       </characteristics>
     </profile>
-    <profile id="ff90-6b1b-6dbb-2f56" name="Song of Ynnead" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+    <profile id="ff90-6b1b-6dbb-2f56" name="Song of Ynnead" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18寸</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手枪 3</characteristic>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18&quot;</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 3</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 you make a wound roll of 6+ for 这个武器, that 攻击 is resolved with an AP of -3. 每次 an 攻击 made with this wapon slays an 敌方模型 目标 单位 subtracts 1 from its LD值 直到回合结束.</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time you make a wound roll of 6+ for this weapon, that attack is resolved with an AP of -3. Each time an attack made with this wapon slays an enemy model the target unit subtracts 1 from its Leadership characteristic until the end of the turn.</characteristic>
       </characteristics>
     </profile>
     <profile id="315d-8e14-366e-d7f0" name="Soulsnare" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, 而不是 firing a武器 在射击阶段, 持有者 can throw the Soulsnare. If they do so, select one 敌方单位 6寸范围内 of and 可见 to 持有者, and 投掷1个D6. 结果为1, nothing happens. 结果为2-5, 那个敌方单位 遭受 D3 致命伤 and 持有者 恢复 the same number of 失去的W. 结果为6, 那个敌方单位 遭受 D6 致命伤 and 持有者 恢复 所有 of their 失去的W.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per game, instead of firing a weapon in the shooting phase, the bearer can throw the Soulsnare. If they do so, select one enemy unit within 6&quot; of and visible to the bearer, and roll a d6. On a 1, nothing happens. On a 2-5, that enemy unit suffers D3 mortal wounds and the bearer regains the same number of lost wounds. On a 6, that enemy unit suffers D6 mortal wounds and the bearer regains all of their lost wounds.</characteristic>
       </characteristics>
     </profile>
     <profile id="9a3e-ac79-bfa6-6eb1" name="The Lost Shroud" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">所有 伤害 suffered by 持有者 is halved (rounding up). 此外, 投掷1个D6 每次 这个模型 失去1点W; 结果为5+ that wound is not lost.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">All damage suffered by the bearer is halved (rounding up). In addition, roll one D6 each time this model loses a wound; on a 5+ that wound is not lost.</characteristic>
       </characteristics>
     </profile>
     <profile id="dd92-bf1c-37ba-8951" name="Favoured of Ynnead" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When 这个主将 piles in or consolidates, they 可以移动至多 6寸 而不是 至多 3寸.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When this Warlord piles in or consolidates, they can move up to 6&quot; instead of up to 3&quot;.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

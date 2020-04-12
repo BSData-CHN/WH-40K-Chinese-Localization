@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7d24-b92f-c5d5-3bf0" name="艾尔达 - 丑角灵族" revision="1" battleScribeVersion="2.03" authorName="BSData-CHN" authorContact="@BSData-CHN" authorUrl="https://github.com/BSData-CHN" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7d24-b92f-c5d5-3bf0" name="Aeldari - Harlequins" revision="37" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@WindstormSCR" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
-    <publication id="7d24-b92f-pubN65537" name="圣典: 丑角灵族"/>
-    <publication id="7d24-b92f-pubN72737" name="CA 2017"/>
-    <publication id="7d24-b92f-pubN76527" name="索引: 异形 1"/>
+    <publication id="7d24-b92f-pubN65537" name="Codex: Harlequins"/>
+    <publication id="7d24-b92f-pubN72737" name="Chapter Approved 2017"/>
+    <publication id="7d24-b92f-pubN76527" name="Index: Xenos 1"/>
   </publications>
   <categoryEntries>
-    <categoryEntry id="fb5a-2f35-6253-b891" name="阵营: &lt;Masque&gt;" hidden="false"/>
-    <categoryEntry id="05e9-e880-b1fb-ce90" name="阵营: 艾尔达" hidden="false"/>
-    <categoryEntry id="f406-94c7-4d73-4784" name="阵营: 丑角灵族" hidden="false"/>
+    <categoryEntry id="fb5a-2f35-6253-b891" name="Faction: &lt;Masque&gt;" hidden="false"/>
+    <categoryEntry id="05e9-e880-b1fb-ce90" name="Faction: Aeldari" hidden="false"/>
+    <categoryEntry id="f406-94c7-4d73-4784" name="Faction: Harlequins" hidden="false"/>
     <categoryEntry id="1379-9ec0-ffe7-102f" name="Troupe Master" hidden="false"/>
     <categoryEntry id="e99c-c457-33b2-957f" name="Shadowseer" hidden="false"/>
     <categoryEntry id="e1ba-8601-6249-d6fd" name="Troupe" hidden="false"/>
@@ -33,9 +33,9 @@
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7b0-4260-ded3-5422" type="max"/>
       </constraints>
     </entryLink>
-    <entryLink id="a1b9-bc4f-763a-97ca" name="网道传送门" hidden="false" collective="false" import="true" targetId="52c2-f7a8-dc21-d14d" type="selectionEntry"/>
-    <entryLink id="3fd6-864b-fa22-8108" name="Enigmas of the Black Library (1 圣物)" hidden="false" collective="false" import="true" targetId="0742-4cb7-bf4e-16cc" type="selectionEntry"/>
-    <entryLink id="e87f-ef46-dfe6-9316" name="Enigmas of the Black Library (2 圣物)" hidden="false" collective="false" import="true" targetId="dc1c-c3ca-66fa-fd12" type="selectionEntry"/>
+    <entryLink id="a1b9-bc4f-763a-97ca" name="Webway Gate" hidden="false" collective="false" import="true" targetId="52c2-f7a8-dc21-d14d" type="selectionEntry"/>
+    <entryLink id="3fd6-864b-fa22-8108" name="Enigmas of the Black Library (1 Relic)" hidden="false" collective="false" import="true" targetId="0742-4cb7-bf4e-16cc" type="selectionEntry"/>
+    <entryLink id="e87f-ef46-dfe6-9316" name="Enigmas of the Black Library (2 Relics)" hidden="false" collective="false" import="true" targetId="dc1c-c3ca-66fa-fd12" type="selectionEntry"/>
     <entryLink id="9dd3-efd5-882f-592e" name="Artefacts of Death" hidden="false" collective="false" import="true" targetId="a1c9-09d6-2587-9553" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
@@ -56,16 +56,16 @@
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="0ecc-ffa4-aa9f-a698" name="Fusion手枪" publicationId="7d24-b92f-pubN65537" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="0ecc-ffa4-aa9f-a698" name="Fusion Pistol" publicationId="7d24-b92f-pubN65537" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="4ec0-69af-033f-6087" name="Fusion手枪" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="4ec0-69af-033f-6087" name="Fusion Pistol" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6寸</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手枪 1</characteristic>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6&quot;</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器瞄准一半范围内的目标时, 伤害投掷2个骰子并舍弃最低结果.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If the target is within half range of this weapon, roll two dice when inflicting damage with it and discard the lowest result.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -77,11 +77,11 @@
     </selectionEntry>
     <selectionEntry id="3065-08db-9433-d9f8" name="Harlequin&apos;s Blade" publicationId="7d24-b92f-pubN65537" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="c53f-2869-a821-0b6f" name="Harlequin&apos;s Blade" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="c53f-2869-a821-0b6f" name="Harlequin&apos;s Blade" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
-            <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+            <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
             <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
@@ -94,12 +94,12 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3f0f-7345-bc4f-9771" name="Plasma 手雷" publicationId="7d24-b92f-pubN65537" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="3f0f-7345-bc4f-9771" name="Plasma Grenades" publicationId="7d24-b92f-pubN65537" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="2c50-ecf6-df9c-f381" name="Plasma 手雷" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="2c50-ecf6-df9c-f381" name="Plasma Grenade" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6寸</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手雷 D6</characteristic>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6&quot;</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Grenade D6</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
@@ -115,14 +115,14 @@
     </selectionEntry>
     <selectionEntry id="c791-d8b1-80d1-d707" name="Shuriken Cannon" publicationId="7d24-b92f-pubN65537" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="2f2d-9430-cb35-9409" name="Shuriken Cannon" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="2f2d-9430-cb35-9409" name="Shuriken Cannon" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 3</characteristic>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 3</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 you make a wound roll of 6+ for 这个武器, that 命中 is resolved with an AP of -3.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time you make a wound roll of 6+ for this weapon, that hit is resolved with an AP of -3.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -134,24 +134,24 @@
     </selectionEntry>
     <selectionEntry id="1ed4-125a-cd0b-cf43" name="Shrieker Cannon" publicationId="7d24-b92f-pubN65537" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="98d4-d983-8385-6c2e" name="Shrieker Cannon (Shrieker)" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="98d4-d983-8385-6c2e" name="Shrieker Cannon (Shrieker)" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 1</characteristic>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 you make a wound roll of 6+ for 这个武器, that 命中 is resolved with an AP of -3. If an 步兵模型 is slain by an 攻击 made 使用这个武器, then its 单位 遭受 D3 致命伤. If 任何模型 in a 单位 are slain by 这个武器, 减少 2 from 那个单位&apos;s LD值 直到回合结束.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time you make a wound roll of 6+ for this weapon, that hit is resolved with an AP of -3. If an INFANTRY model is slain by an attack made with this weapon, then its unit suffers D3 mortal wounds. If any models in a unit are slain by this weapon, subtract 2 from that unit&apos;s Leadership characteristic until the end of the turn.</characteristic>
           </characteristics>
         </profile>
-        <profile id="7fd7-cbc6-19cb-4354" name="Shrieker Cannon (Shuriken)" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="7fd7-cbc6-19cb-4354" name="Shrieker Cannon (Shuriken)" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 3</characteristic>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 3</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 you make a wound roll of 6+ for 这个武器, that 命中 is resolved with an AP of -3.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time you make a wound roll of 6+ for this weapon, that hit is resolved with an AP of -3.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -163,30 +163,30 @@
     </selectionEntry>
     <selectionEntry id="a38e-00b0-2bea-3202" name="Prismatic Cannon" publicationId="7d24-b92f-pubN65537" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="e362-4231-3f39-7f08" name="Prismatic Cannon (Dispersed)" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="e362-4231-3f39-7f08" name="Prismatic Cannon (Dispersed)" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 D6</characteristic>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault D6</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
             <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
           </characteristics>
         </profile>
-        <profile id="7b27-6d62-2a16-2642" name="Prismatic Cannon (Lance)" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="7b27-6d62-2a16-2642" name="Prismatic Cannon (Lance)" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 1</characteristic>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
             <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
           </characteristics>
         </profile>
-        <profile id="bf1d-4a74-5d69-31f8" name="Prismatic Cannon (Focused)" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="bf1d-4a74-5d69-31f8" name="Prismatic Cannon (Focused)" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 D3</characteristic>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault D3</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
@@ -202,14 +202,14 @@
     </selectionEntry>
     <selectionEntry id="dc08-7a78-9af8-9b6f" name="Neuro Disruptor" publicationId="7d24-b92f-pubN65537" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="02e8-42a6-9a75-eb40" name="Neuro Disruptor" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="02e8-42a6-9a75-eb40" name="Neuro Disruptor" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12寸</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手枪 1</characteristic>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If 目标 is a 载具, 这个武器 拥有 伤害 of 1.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If the target is a VEHICLE, this weapon has a Damage of 1.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -221,14 +221,14 @@
     </selectionEntry>
     <selectionEntry id="e2fb-277f-b1db-836b" name="Haywire Cannon" publicationId="7d24-b92f-pubN65537" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="8296-b9ae-156e-a9d0" name="Haywire Cannon" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="8296-b9ae-156e-a9d0" name="Haywire Cannon" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 D6</characteristic>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault D6</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If 目标 is a 载具 and you roll a wound roll of 4+ for 这个武器, 目标 遭受 1 致命伤 此外 to any other 伤害. If the wound roll is 6+, 目标 遭受 D3 致命伤 instead.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If the target is a VEHICLE and you roll a wound roll of 4+ for this weapon, the target suffers 1 mortal wound in addition to any other damage. If the wound roll is 6+, the target suffers D3 mortal wounds instead.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -238,16 +238,16 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4189-0d29-d473-965d" name="Hallucinogen 榴弹发射器" publicationId="7d24-b92f-pubN65537" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="4189-0d29-d473-965d" name="Hallucinogen Grenade Launcher" publicationId="7d24-b92f-pubN65537" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="8b44-d528-5c0b-7c4b" name="Hallucinogen 榴弹发射器" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="8b44-d528-5c0b-7c4b" name="Hallucinogen Grenade Launcher" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18寸</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 1</characteristic>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18&quot;</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">*</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">*</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">*</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">如果1个单位 is 命中 by 这个武器, roll 2D6 - if the roll is equal to or greater than the 目标单位&apos;s LD, it 遭受 D3 致命伤.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If a unit is hit by this weapon, roll 2D6 - if the roll is equal to or greater than the target unit&apos;s Leadership, it suffers D3 mortal wounds.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -259,10 +259,10 @@
     </selectionEntry>
     <selectionEntry id="4ba5-5958-0ed5-2acb" name="Zephyrglaive" publicationId="7d24-b92f-pubN65537" page="61" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="b300-3be8-895a-19f6" name="Zephyrglaive" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="b300-3be8-895a-19f6" name="Zephyrglaive" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">+1</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
@@ -278,10 +278,10 @@
     </selectionEntry>
     <selectionEntry id="b370-466e-0be6-214d" name="Miststave" publicationId="7d24-b92f-pubN65537" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="05f1-30d4-597b-c42e" name="Miststave" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="05f1-30d4-597b-c42e" name="Miststave" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">+2</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
@@ -297,10 +297,10 @@
     </selectionEntry>
     <selectionEntry id="4f51-c975-5042-dca4" name="Harlequin&apos;s Kiss" publicationId="7d24-b92f-pubN65537" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="be4c-3441-13e4-f686" name="Harlequin&apos;s Kiss" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="be4c-3441-13e4-f686" name="Harlequin&apos;s Kiss" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">+1</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
@@ -316,10 +316,10 @@
     </selectionEntry>
     <selectionEntry id="fddb-199b-84b4-280f" name="Harlequin&apos;s Embrace" publicationId="7d24-b92f-pubN65537" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="7bac-829a-6971-5b0c" name="Harlequin&apos;s Embrace" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="7bac-829a-6971-5b0c" name="Harlequin&apos;s Embrace" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">+1</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
@@ -335,10 +335,10 @@
     </selectionEntry>
     <selectionEntry id="29c4-069f-247a-d22b" name="Harlequin&apos;s Caress" publicationId="7d24-b92f-pubN65537" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="19c2-98cb-b479-c686" name="Harlequin&apos;s Caress" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="19c2-98cb-b479-c686" name="Harlequin&apos;s Caress" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">+2</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
@@ -352,16 +352,16 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b212-064c-a4a9-49f7" name="Shuriken手枪" publicationId="7d24-b92f-pubN65537" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="b212-064c-a4a9-49f7" name="Shuriken Pistol" publicationId="7d24-b92f-pubN65537" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="afd8-06e5-8d96-5695" name="Shuriken手枪" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="afd8-06e5-8d96-5695" name="Shuriken Pistol" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12寸</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手枪 1</characteristic>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 you make a wound roll of 6+ for 这个武器, that 命中 is resolved with an AP of -3.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time you make a wound roll of 6+ for this weapon, that hit is resolved with an AP of -3.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -373,10 +373,10 @@
     </selectionEntry>
     <selectionEntry id="5cec-256b-7cfd-038f" name="Star Bolas" publicationId="7d24-b92f-pubN65537" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="c942-b18e-373f-1349" name="Star Bolas" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="c942-b18e-373f-1349" name="Star Bolas" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12寸</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手雷 D3</characteristic>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Grenade D3</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
@@ -406,17 +406,17 @@
             <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9219-732d-de0d-2ee6" type="max"/>
           </constraints>
           <profiles>
-            <profile id="5d14-f509-dc27-0231" name="Player" publicationId="7d24-b92f-pubN65537" page="58" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+            <profile id="5d14-f509-dc27-0231" name="Player" publicationId="7d24-b92f-pubN65537" page="58" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
               <characteristics>
-                <characteristic name="M" typeId="0bdf-a96e-9e38-7779">8寸</characteristic>
+                <characteristic name="M" typeId="0bdf-a96e-9e38-7779">8&quot;</characteristic>
                 <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
                 <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
                 <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
                 <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
                 <characteristic name="W" typeId="f330-5e6e-4110-0978">1</characteristic>
                 <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">4</characteristic>
-                <characteristic name="LD" typeId="00ca-f8b8-876d-b705">8</characteristic>
-                <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">6+</characteristic>
+                <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">8</characteristic>
+                <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">6+</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -427,7 +427,7 @@
             <infoLink id="7946-8589-2cb1-987a" name="Rising Crescendo" hidden="false" targetId="60da-8dc8-7bf4-2efd" type="profile"/>
           </infoLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup id="1e01-a797-8a56-e845" name="Player&apos;s肉搏武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="9404-1a68-5379-0712">
+            <selectionEntryGroup id="1e01-a797-8a56-e845" name="Player&apos;s Melee Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="9404-1a68-5379-0712">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="34e8-c222-2f3c-1c00" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5af1-8321-cb0d-a9a6" type="max"/>
@@ -439,7 +439,7 @@
                 <entryLink id="71a2-5a14-f540-d48e" name="New EntryLink" hidden="false" collective="false" import="true" targetId="29c4-069f-247a-d22b" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="f660-b809-e705-b54b" name="Player&apos;s 远程武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="1c54-6a2f-c12b-f8b8">
+            <selectionEntryGroup id="f660-b809-e705-b54b" name="Player&apos;s Ranged Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="1c54-6a2f-c12b-f8b8">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b88-85dc-2b77-427e" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a120-1f0a-666d-4f67" type="max"/>
@@ -452,7 +452,7 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="aa46-0476-a387-d42e" name="Plasma 手雷" hidden="false" collective="false" import="true" targetId="3f0f-7345-bc4f-9771" type="selectionEntry">
+            <entryLink id="aa46-0476-a387-d42e" name="Plasma Grenades" hidden="false" collective="false" import="true" targetId="3f0f-7345-bc4f-9771" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e46-ed6e-158d-14c5" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f9fa-b3d6-7285-8262" type="max"/>
@@ -467,8 +467,8 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="32e0-193a-2151-197a" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="dae6-1071-f9cb-0383" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="32e0-193a-2151-197a" name="Unit has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="dae6-1071-f9cb-0383" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -478,22 +478,22 @@
     </selectionEntry>
     <selectionEntry id="5f24-c0be-025f-16aa" name="Troupe Master" publicationId="7d24-b92f-pubN65537" page="56" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="e09c-9263-1993-9718" name="Troupe Master" publicationId="7d24-b92f-pubN65537" page="56" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+        <profile id="e09c-9263-1993-9718" name="Troupe Master" publicationId="7d24-b92f-pubN65537" page="56" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="0bdf-a96e-9e38-7779">8寸</characteristic>
+            <characteristic name="M" typeId="0bdf-a96e-9e38-7779">8&quot;</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">2+</characteristic>
             <characteristic name="BS" typeId="381b-eb28-74c3-df5f">2+</characteristic>
             <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
             <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
             <characteristic name="W" typeId="f330-5e6e-4110-0978">5</characteristic>
             <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">5</characteristic>
-            <characteristic name="LD" typeId="00ca-f8b8-876d-b705">9</characteristic>
-            <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">6+</characteristic>
+            <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">9</characteristic>
+            <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">6+</characteristic>
           </characteristics>
         </profile>
         <profile id="a6d4-97f4-e94d-42ef" name="Choreographer of War" publicationId="7d24-b92f-pubN65537" page="56" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">在肉搏阶段, 重投 失败的 造伤骰 for 友方 MASQUE 单位 that are 6寸范围内 of 这个模型.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">In the Fight phase, re-roll failed wound rolls for friendly MASQUE units that are within 6&quot; of this model.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -528,7 +528,7 @@
           <profiles>
             <profile id="e699-9f50-91bc-92f2" name="Will of the Laughing God" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">在肉搏阶段, 重投命中的 1 for 友方 &lt;MASQUE&gt; 单位 that are 6寸范围内 of 这个模型.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">In the Fight phase, re-roll hit rolls of 1 for friendly &lt;MASQUE&gt; units that are within 6&quot; of this model.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -540,7 +540,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="b54e-f7c8-8bdb-9c72" name="肉搏武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="82d6-27de-e8b3-3a69">
+        <selectionEntryGroup id="b54e-f7c8-8bdb-9c72" name="Melee Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="82d6-27de-e8b3-3a69">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="41fd-d54b-1dde-62d0" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bad4-2ef7-c361-8d81" type="max"/>
@@ -553,7 +553,7 @@
             <entryLink id="0494-601c-7e17-07fc" name="New EntryLink" hidden="false" collective="false" import="true" targetId="bc9e-551d-9afb-78d5" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="130f-ad80-aa72-535e" name="远程武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="0b74-5abc-c275-bff5">
+        <selectionEntryGroup id="130f-ad80-aa72-535e" name="Ranged Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="0b74-5abc-c275-bff5">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77e5-3d6b-be3c-2111" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9cbb-b841-8b91-190f" type="max"/>
@@ -572,7 +572,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36a7-11a1-1066-4037" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="8a07-fee0-a684-b0d4" name="主将特性" hidden="false" collective="false" import="true" targetId="305c-7184-81fb-2bd3" type="selectionEntryGroup">
+        <entryLink id="8a07-fee0-a684-b0d4" name="Warlord Trait" hidden="false" collective="false" import="true" targetId="305c-7184-81fb-2bd3" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -581,15 +581,15 @@
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="14eb-dbd5-dfbd-367a" name="圣物" hidden="false" collective="false" import="true" targetId="16e7-958e-0d9b-8280" type="selectionEntryGroup"/>
-        <entryLink id="0505-bda3-44f5-8b05" name="主将" hidden="false" collective="false" import="true" targetId="a5ce-b16b-56cd-e78a" type="selectionEntry">
+        <entryLink id="14eb-dbd5-dfbd-367a" name="Relics" hidden="false" collective="false" import="true" targetId="16e7-958e-0d9b-8280" type="selectionEntryGroup"/>
+        <entryLink id="0505-bda3-44f5-8b05" name="Warlord" hidden="false" collective="false" import="true" targetId="a5ce-b16b-56cd-e78a" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09ed-8db7-42a5-5685" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="cf9f-5caf-154d-df2b" name="是自定义人物" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
-        <entryLink id="b69e-2012-877a-0c54" name="自定义人物选项" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
-        <entryLink id="6b70-7c87-6f43-529d" name="死神军 Warlord" hidden="false" collective="false" import="true" targetId="75e4-e07c-3a6d-46c5" type="selectionEntry">
+        <entryLink id="cf9f-5caf-154d-df2b" name="Is A Custom Character" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
+        <entryLink id="b69e-2012-877a-0c54" name="Custom Character Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
+        <entryLink id="6b70-7c87-6f43-529d" name="Ynnari Warlord" hidden="false" collective="false" import="true" targetId="75e4-e07c-3a6d-46c5" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -601,7 +601,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10c3-b0af-a6ae-a1e3" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="5237-d9ab-ee79-7a3a" name="圣物 of Ynnead" hidden="false" collective="false" import="true" targetId="4eab-df08-9faa-926c" type="selectionEntryGroup">
+        <entryLink id="5237-d9ab-ee79-7a3a" name="Relics of Ynnead" hidden="false" collective="false" import="true" targetId="4eab-df08-9faa-926c" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -610,7 +610,7 @@
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="79c2-ca80-1f37-de30" name="主将特性 (死神军)" hidden="false" collective="false" import="true" targetId="bd5b-50f5-f7d9-0af1" type="selectionEntryGroup">
+        <entryLink id="79c2-ca80-1f37-de30" name="Warlord Trait (Ynnari)" hidden="false" collective="false" import="true" targetId="bd5b-50f5-f7d9-0af1" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -643,32 +643,32 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1021-466b-d5b4-991c" type="max"/>
       </constraints>
       <profiles>
-        <profile id="21ca-745b-c17a-8794" name="Solitaire" publicationId="7d24-b92f-pubN65537" page="60" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+        <profile id="21ca-745b-c17a-8794" name="Solitaire" publicationId="7d24-b92f-pubN65537" page="60" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="0bdf-a96e-9e38-7779">12寸</characteristic>
+            <characteristic name="M" typeId="0bdf-a96e-9e38-7779">12&quot;</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">2+</characteristic>
             <characteristic name="BS" typeId="381b-eb28-74c3-df5f">2+</characteristic>
             <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
             <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
             <characteristic name="W" typeId="f330-5e6e-4110-0978">5</characteristic>
             <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">8</characteristic>
-            <characteristic name="LD" typeId="00ca-f8b8-876d-b705">9</characteristic>
-            <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">6+</characteristic>
+            <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">9</characteristic>
+            <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">6+</characteristic>
           </characteristics>
         </profile>
         <profile id="d8e1-d702-5c4a-d0f0" name="Blitz" publicationId="7d24-b92f-pubN65537" page="60" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, 而不是 making a normal move with the Solitaire, you can make a Blitz move with it. If you do so, add 2D6寸 to the 模型的 M值 for this turn. 此外, the 模型的 A值 增加到 10 for the rest of the turn. This ability 不能 used if the 模型 has been selected as 目标 of the 寸Twilight Pathways寸 灵能 in the previous 灵能阶段. 模型 cannot Advance and use this ability in the same turn.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per battle, instead of making a normal move with the Solitaire, you can make a Blitz move with it. If you do so, add 2D6&quot; to the model&apos;s Move characteristic for this turn. In addition, the model&apos;s Attack characteristic is increased to 10 for the rest of the turn. This ability may not be used if the model has been selected as the target of the &quot;Twilight Pathways&quot; psychic power in the previous Psychic Phase. A model cannot Advance and use this ability in the same turn.</characteristic>
           </characteristics>
         </profile>
         <profile id="488e-748a-f100-134a" name="Impossible Form" publicationId="7d24-b92f-pubN65537" page="60" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The Solitaire 拥有 3+ 特殊保护.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The Solitaire has a 3+ invulnerable save.</characteristic>
           </characteristics>
         </profile>
         <profile id="bf76-f717-ea7e-083a" name="The Path of Damnation" publicationId="7d24-b92f-pubN65537" page="60" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The Solitaire can never have a 主将特性.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The Solitaire can never have a Warlord Trait.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -698,10 +698,10 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de9a-5267-6a06-bfab" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="3786-b35f-ee03-4974" name="圣物" hidden="false" collective="false" import="true" targetId="16e7-958e-0d9b-8280" type="selectionEntryGroup"/>
-        <entryLink id="8623-adec-fb6f-f3ce" name="是自定义人物" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
-        <entryLink id="3889-0b54-e362-307a" name="自定义人物选项" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
-        <entryLink id="f0d3-8eaf-2630-c628" name="主将" hidden="false" collective="false" import="true" targetId="a5ce-b16b-56cd-e78a" type="selectionEntry">
+        <entryLink id="3786-b35f-ee03-4974" name="Relics" hidden="false" collective="false" import="true" targetId="16e7-958e-0d9b-8280" type="selectionEntryGroup"/>
+        <entryLink id="8623-adec-fb6f-f3ce" name="Is A Custom Character" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
+        <entryLink id="3889-0b54-e362-307a" name="Custom Character Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
+        <entryLink id="f0d3-8eaf-2630-c628" name="Warlord" hidden="false" collective="false" import="true" targetId="a5ce-b16b-56cd-e78a" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f7b-9819-ea6a-bc05" type="max"/>
           </constraints>
@@ -715,25 +715,25 @@
     </selectionEntry>
     <selectionEntry id="2cb2-ebf2-3523-ad48" name="Shadowseer" publicationId="7d24-b92f-pubN65537" page="57" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="ed3a-6a75-ce36-ac5d" name="Shadowseer" publicationId="7d24-b92f-pubN65537" page="" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+        <profile id="ed3a-6a75-ce36-ac5d" name="Shadowseer" publicationId="7d24-b92f-pubN65537" page="" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="0bdf-a96e-9e38-7779">8寸</characteristic>
+            <characteristic name="M" typeId="0bdf-a96e-9e38-7779">8&quot;</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">2+</characteristic>
             <characteristic name="BS" typeId="381b-eb28-74c3-df5f">2+</characteristic>
             <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
             <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
             <characteristic name="W" typeId="f330-5e6e-4110-0978">5</characteristic>
             <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">3</characteristic>
-            <characteristic name="LD" typeId="00ca-f8b8-876d-b705">9</characteristic>
-            <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">7+</characteristic>
+            <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">9</characteristic>
+            <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">7+</characteristic>
           </characteristics>
         </profile>
         <profile id="40eb-d804-2b98-db00" name="Shield from Harm" publicationId="7d24-b92f-pubN65537" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Your opponent 必须 减少 1 from the 造伤骰 for any 攻击 made 对抗 友方 MASQUE 步兵单位 that are 6寸范围内 of 任何模型 具有这个能力的.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Your opponent must subtract 1 from the wound rolls for any attacks made against friendly MASQUE INFANTRY units that are within 6&quot; of any models with this ability.</characteristic>
           </characteristics>
         </profile>
-        <profile id="bb2c-683c-fbad-de6b" name="Shadowseer - 灵能者" publicationId="7d24-b92f-pubN65537" page="57" hidden="false" typeId="bc97-dea9-9e88-bb7d" typeName="灵能者">
+        <profile id="bb2c-683c-fbad-de6b" name="Shadowseer - Psyker" publicationId="7d24-b92f-pubN65537" page="57" hidden="false" typeId="bc97-dea9-9e88-bb7d" typeName="Psyker">
           <characteristics>
             <characteristic name="Cast" typeId="5afb-9914-904b-d3b3">2</characteristic>
             <characteristic name="Deny" typeId="b5ac-9c20-5d5a-6f9b">1</characteristic>
@@ -759,7 +759,7 @@
         <categoryLink id="ccc6-45cf-988a-df83" name="New CategoryLink" hidden="false" targetId="e99c-c457-33b2-957f" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="ab70-5089-f6b4-771d" name="远程武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="039d-0e67-ae8a-5d60">
+        <selectionEntryGroup id="ab70-5089-f6b4-771d" name="Ranged Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="039d-0e67-ae8a-5d60">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80cd-68ce-5223-8362" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8391-f436-91e5-cd36" type="max"/>
@@ -784,13 +784,13 @@
           </constraints>
         </entryLink>
         <entryLink id="cf57-03fb-f9c6-8975" name="Phantasmancy" hidden="false" collective="false" import="true" targetId="7961-453c-a38d-186c" type="selectionEntryGroup"/>
-        <entryLink id="9764-e950-b4d4-791b" name="惩击" hidden="false" collective="false" import="true" targetId="03fd-db47-5333-1e1f" type="selectionEntry">
+        <entryLink id="9764-e950-b4d4-791b" name="Smite" hidden="false" collective="false" import="true" targetId="03fd-db47-5333-1e1f" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b3bd-b3d1-83c6-a406" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec9c-ec46-718d-ad5f" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="7853-bb69-1097-0068" name="主将特性" hidden="false" collective="false" import="true" targetId="305c-7184-81fb-2bd3" type="selectionEntryGroup">
+        <entryLink id="7853-bb69-1097-0068" name="Warlord Trait" hidden="false" collective="false" import="true" targetId="305c-7184-81fb-2bd3" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -799,15 +799,15 @@
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="7367-98b5-0281-747f" name="圣物" hidden="false" collective="false" import="true" targetId="16e7-958e-0d9b-8280" type="selectionEntryGroup"/>
-        <entryLink id="7c24-bb1e-e935-b494" name="主将" hidden="false" collective="false" import="true" targetId="a5ce-b16b-56cd-e78a" type="selectionEntry">
+        <entryLink id="7367-98b5-0281-747f" name="Relics" hidden="false" collective="false" import="true" targetId="16e7-958e-0d9b-8280" type="selectionEntryGroup"/>
+        <entryLink id="7c24-bb1e-e935-b494" name="Warlord" hidden="false" collective="false" import="true" targetId="a5ce-b16b-56cd-e78a" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5946-7a42-845d-123c" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="2a37-8f21-d486-bded" name="是自定义人物" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
-        <entryLink id="02cd-b6ec-fbf7-a466" name="自定义人物选项" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
-        <entryLink id="fcb7-bca6-094d-8ffa" name="死神军 Warlord" hidden="false" collective="false" import="true" targetId="75e4-e07c-3a6d-46c5" type="selectionEntry">
+        <entryLink id="2a37-8f21-d486-bded" name="Is A Custom Character" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
+        <entryLink id="02cd-b6ec-fbf7-a466" name="Custom Character Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
+        <entryLink id="fcb7-bca6-094d-8ffa" name="Ynnari Warlord" hidden="false" collective="false" import="true" targetId="75e4-e07c-3a6d-46c5" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -819,7 +819,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5927-0b30-e2db-6df0" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="c6bb-ea89-545b-6f12" name="圣物 of Ynnead" hidden="false" collective="false" import="true" targetId="4eab-df08-9faa-926c" type="selectionEntryGroup">
+        <entryLink id="c6bb-ea89-545b-6f12" name="Relics of Ynnead" hidden="false" collective="false" import="true" targetId="4eab-df08-9faa-926c" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -828,7 +828,7 @@
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="1a46-eaa9-e171-b39e" name="主将特性 (死神军)" hidden="false" collective="false" import="true" targetId="bd5b-50f5-f7d9-0af1" type="selectionEntryGroup">
+        <entryLink id="1a46-eaa9-e171-b39e" name="Warlord Trait (Ynnari)" hidden="false" collective="false" import="true" targetId="bd5b-50f5-f7d9-0af1" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -863,27 +863,27 @@
     </selectionEntry>
     <selectionEntry id="7c62-2472-fac5-49a1" name="Death Jester" publicationId="7d24-b92f-pubN65537" page="59" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="9ee8-12e9-c97d-137c" name="Death Jester" publicationId="7d24-b92f-pubN65537" page="59" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+        <profile id="9ee8-12e9-c97d-137c" name="Death Jester" publicationId="7d24-b92f-pubN65537" page="59" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="0bdf-a96e-9e38-7779">8寸</characteristic>
+            <characteristic name="M" typeId="0bdf-a96e-9e38-7779">8&quot;</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">2+</characteristic>
             <characteristic name="BS" typeId="381b-eb28-74c3-df5f">2+</characteristic>
             <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
             <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
             <characteristic name="W" typeId="f330-5e6e-4110-0978">5</characteristic>
             <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">4</characteristic>
-            <characteristic name="LD" typeId="00ca-f8b8-876d-b705">9</characteristic>
-            <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">6+</characteristic>
+            <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">9</characteristic>
+            <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">6+</characteristic>
           </characteristics>
         </profile>
-        <profile id="b974-3c5b-f440-85ab" name="Deadly 猎手" publicationId="7d24-b92f-pubN65537" page="59" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="b974-3c5b-f440-85ab" name="Deadly Hunter" publicationId="7d24-b92f-pubN65537" page="59" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型 may target a 人物 even if it is not 最近的 敌方单位.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model may target a CHARACTER even if it is not the closest enemy unit.</characteristic>
           </characteristics>
         </profile>
         <profile id="bdb0-7924-42e5-9a49" name="Death is Not Enough" publicationId="7d24-b92f-pubN65537" page="59" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If 任何模型 flee from a 单位 in the same turn that it has been attacked by 这个模型, then you can choose the first 模型 that flees 而不是 your opponent choosing.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If any models flee from a unit in the same turn that it has been attacked by this model, then you can choose the first model that flees instead of your opponent choosing.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -909,7 +909,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e408-108b-290c-80cd" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="e29f-c871-e18a-7794" name="主将特性" hidden="false" collective="false" import="true" targetId="305c-7184-81fb-2bd3" type="selectionEntryGroup">
+        <entryLink id="e29f-c871-e18a-7794" name="Warlord Trait" hidden="false" collective="false" import="true" targetId="305c-7184-81fb-2bd3" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -918,15 +918,15 @@
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="b7c2-ae04-f6fb-3923" name="圣物" hidden="false" collective="false" import="true" targetId="16e7-958e-0d9b-8280" type="selectionEntryGroup"/>
+        <entryLink id="b7c2-ae04-f6fb-3923" name="Relics" hidden="false" collective="false" import="true" targetId="16e7-958e-0d9b-8280" type="selectionEntryGroup"/>
         <entryLink id="8016-19d8-e7d4-863f" name="Harlequin Warlord" hidden="false" collective="false" import="true" targetId="a5ce-b16b-56cd-e78a" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="acfd-433d-09c8-7bad" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="b5ae-df14-e935-6e72" name="是自定义人物" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
-        <entryLink id="2481-064e-8371-605d" name="自定义人物选项" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
-        <entryLink id="6bad-7a71-83fd-8fdb" name="主将特性 (死神军)" hidden="false" collective="false" import="true" targetId="bd5b-50f5-f7d9-0af1" type="selectionEntryGroup">
+        <entryLink id="b5ae-df14-e935-6e72" name="Is A Custom Character" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
+        <entryLink id="2481-064e-8371-605d" name="Custom Character Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
+        <entryLink id="6bad-7a71-83fd-8fdb" name="Warlord Trait (Ynnari)" hidden="false" collective="false" import="true" targetId="bd5b-50f5-f7d9-0af1" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -940,7 +940,7 @@
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="59b4-6548-da0c-9405" name="圣物 of Ynnead" hidden="false" collective="false" import="true" targetId="4eab-df08-9faa-926c" type="selectionEntryGroup">
+        <entryLink id="59b4-6548-da0c-9405" name="Relics of Ynnead" hidden="false" collective="false" import="true" targetId="4eab-df08-9faa-926c" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -949,7 +949,7 @@
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="67b3-19b4-d6c5-6ed9" name="死神军 Warlord" hidden="false" collective="false" import="true" targetId="75e4-e07c-3a6d-46c5" type="selectionEntry">
+        <entryLink id="67b3-19b4-d6c5-6ed9" name="Ynnari Warlord" hidden="false" collective="false" import="true" targetId="75e4-e07c-3a6d-46c5" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -970,29 +970,29 @@
     </selectionEntry>
     <selectionEntry id="d96e-e7b4-6204-0b07" name="Starweaver" publicationId="7d24-b92f-pubN65537" page="63" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="2790-c5a1-a03c-6bca" name="Starweaver" publicationId="7d24-b92f-pubN65537" page="63" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+        <profile id="2790-c5a1-a03c-6bca" name="Starweaver" publicationId="7d24-b92f-pubN65537" page="63" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="0bdf-a96e-9e38-7779">16寸</characteristic>
+            <characteristic name="M" typeId="0bdf-a96e-9e38-7779">16&quot;</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
             <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
             <characteristic name="S" typeId="2218-aa3c-265f-2939">5</characteristic>
             <characteristic name="T" typeId="9c9f-9774-a358-3a39">5</characteristic>
             <characteristic name="W" typeId="f330-5e6e-4110-0978">6</characteristic>
             <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">3</characteristic>
-            <characteristic name="LD" typeId="00ca-f8b8-876d-b705">8</characteristic>
-            <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
+            <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">8</characteristic>
+            <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
           </characteristics>
         </profile>
-        <profile id="6bfb-65df-e544-67e2" name="Starweaver - Transport" publicationId="7d24-b92f-pubN65537" page="63" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运载能力">
+        <profile id="6bfb-65df-e544-67e2" name="Starweaver - Transport" publicationId="7d24-b92f-pubN65537" page="63" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="Transport">
           <characteristics>
-            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">A Starweaver 可以运输 6 MASQUE 步兵模型.</characteristic>
+            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">A Starweaver can transport 6 MASQUE INFANTRY models.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="4dbc-61d8-fa77-0d30" name="New InfoLink" hidden="false" targetId="847b-aed6-3531-adb1" type="profile"/>
         <infoLink id="e8aa-e4af-31d9-8358" name="New InfoLink" hidden="false" targetId="8210-8f73-bf99-5b97" type="profile"/>
-        <infoLink id="7678-44d7-1e4e-824b" name="开顶" hidden="false" targetId="cf69-4ca7-8cba-2f16" type="profile"/>
+        <infoLink id="7678-44d7-1e4e-824b" name="Open-topped" hidden="false" targetId="cf69-4ca7-8cba-2f16" type="profile"/>
         <infoLink id="8da7-f96f-4c0c-9511" name="New InfoLink" hidden="false" targetId="046c-9565-b216-87c7" type="profile"/>
         <infoLink id="8969-864f-f08f-e753" name="New InfoLink" hidden="false" targetId="1fde-5ed2-74f7-f766" type="profile"/>
         <infoLink id="0a77-0be4-d2ce-d936" name="Strength from Death" hidden="false" targetId="e1ca-b33f-a52f-c11c" type="rule"/>
@@ -1014,8 +1014,8 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4318-6b5d-45f7-1eff" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="273d-2224-e0ca-c4c3" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="fd6c-88eb-af21-2b6e" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="273d-2224-e0ca-c4c3" name="Unit has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="fd6c-88eb-af21-2b6e" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="5.0"/>
@@ -1025,23 +1025,23 @@
     </selectionEntry>
     <selectionEntry id="3e87-4146-bac7-5c55" name="Voidweaver" publicationId="7d24-b92f-pubN65537" page="62" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="c758-104a-aac0-57b9" name="Voidweaver" publicationId="7d24-b92f-pubN65537" page="56" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+        <profile id="c758-104a-aac0-57b9" name="Voidweaver" publicationId="7d24-b92f-pubN65537" page="56" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="0bdf-a96e-9e38-7779">16寸</characteristic>
+            <characteristic name="M" typeId="0bdf-a96e-9e38-7779">16&quot;</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
             <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
             <characteristic name="S" typeId="2218-aa3c-265f-2939">5</characteristic>
             <characteristic name="T" typeId="9c9f-9774-a358-3a39">5</characteristic>
             <characteristic name="W" typeId="f330-5e6e-4110-0978">6</characteristic>
             <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">3</characteristic>
-            <characteristic name="LD" typeId="00ca-f8b8-876d-b705">8</characteristic>
-            <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
+            <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">8</characteristic>
+            <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="aa07-15a7-97a9-a7d1" name="New InfoLink" hidden="false" targetId="847b-aed6-3531-adb1" type="profile"/>
-        <infoLink id="dde4-9199-b077-4982" name="爆炸" hidden="false" targetId="8210-8f73-bf99-5b97" type="profile"/>
+        <infoLink id="dde4-9199-b077-4982" name="Explodes" hidden="false" targetId="8210-8f73-bf99-5b97" type="profile"/>
         <infoLink id="906c-e2d1-e42a-b701" name="New InfoLink" hidden="false" targetId="046c-9565-b216-87c7" type="profile"/>
         <infoLink id="ee3b-0a87-40d1-9831" name="New InfoLink" hidden="false" targetId="1fde-5ed2-74f7-f766" type="profile"/>
         <infoLink id="63b0-9865-544e-8603" name="Strength from Death" hidden="false" targetId="e1ca-b33f-a52f-c11c" type="rule"/>
@@ -1056,7 +1056,7 @@
         <categoryLink id="1647-2eef-da61-0b21" name="New CategoryLink" hidden="false" targetId="342e-9e5d-e689-31bc" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="a49d-bd93-8bec-9015" name="主武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="89c3-49c2-7317-d965">
+        <selectionEntryGroup id="a49d-bd93-8bec-9015" name="Primary Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="89c3-49c2-7317-d965">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2358-5a16-22ac-84fc" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28a5-a5ad-090e-41f7" type="min"/>
@@ -1074,8 +1074,8 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9708-7375-977d-5845" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="4948-613f-28fb-b01d" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="2cd4-ebd1-9102-eed7" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="4948-613f-28fb-b01d" name="Unit has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="2cd4-ebd1-9102-eed7" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="6.0"/>
@@ -1119,22 +1119,22 @@
             <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ccf-9c1c-9ef7-8553" type="max"/>
           </constraints>
           <profiles>
-            <profile id="2ef0-8140-118d-255c" name="Skyweaver" publicationId="7d24-b92f-pubN65537" page="61" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+            <profile id="2ef0-8140-118d-255c" name="Skyweaver" publicationId="7d24-b92f-pubN65537" page="61" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
               <characteristics>
-                <characteristic name="M" typeId="0bdf-a96e-9e38-7779">16寸</characteristic>
+                <characteristic name="M" typeId="0bdf-a96e-9e38-7779">16&quot;</characteristic>
                 <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
                 <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
                 <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
                 <characteristic name="T" typeId="9c9f-9774-a358-3a39">4</characteristic>
                 <characteristic name="W" typeId="f330-5e6e-4110-0978">3</characteristic>
                 <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">3</characteristic>
-                <characteristic name="LD" typeId="00ca-f8b8-876d-b705">8</characteristic>
-                <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
+                <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">8</characteristic>
+                <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <selectionEntryGroups>
-            <selectionEntryGroup id="1816-166f-45b1-59ee" name="Skyweavers肉搏武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="ded2-5c33-9d5e-f252">
+            <selectionEntryGroup id="1816-166f-45b1-59ee" name="Skyweavers Melee Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="ded2-5c33-9d5e-f252">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c35b-8d77-4676-e444" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d2e-cd98-e8f0-9238" type="max"/>
@@ -1144,7 +1144,7 @@
                 <entryLink id="ded2-5c33-9d5e-f252" name="New EntryLink" hidden="false" collective="false" import="true" targetId="5cec-256b-7cfd-038f" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="da8f-311e-480d-371a" name="Skyweavers 远程武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="dc56-dc99-421c-05e4">
+            <selectionEntryGroup id="da8f-311e-480d-371a" name="Skyweavers Ranged Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="dc56-dc99-421c-05e4">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b847-8813-00fa-a7bd" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="deed-5e1c-024b-d7c5" type="max"/>
@@ -1163,8 +1163,8 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="c6b0-bc17-b821-e753" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="39a5-7cad-9040-f9b2" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="c6b0-bc17-b821-e753" name="Unit has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="39a5-7cad-9040-f9b2" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="4.0"/>
@@ -1179,7 +1179,7 @@
       <profiles>
         <profile id="0691-3491-efa2-bbda" name="Luck of the Laughing God" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">重投 命中骰, 造伤骰 and 伤害骰 of 1 for your 主将.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Re-roll hit rolls, wound rolls and damage rolls of 1 for your Warlord.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1195,7 +1195,7 @@
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3fb-09af-3e9d-ce22" type="min"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="b33c-4306-2885-e068" name="New CategoryLink" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
+        <categoryLink id="4f8d-b0c6-e3ff-2c1c" name="New CategoryLink" hidden="false" targetId="fcff-0f21-93e6-1ddc" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="68e4-9924-e409-29e9" name="Masque Form" hidden="false" collective="false" import="true" defaultSelectionEntryId="ed3d-937d-5476-8bca">
@@ -1211,7 +1211,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="1de1-3493-f517-79d8" name="死神军" hidden="true" collective="false" import="true" type="upgrade">
+            <selectionEntry id="1de1-3493-f517-79d8" name="Ynnari" hidden="true" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
                   <conditionGroups>
@@ -1229,14 +1229,14 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="492c-298b-db1a-6076" type="max"/>
               </constraints>
               <profiles>
-                <profile id="e9f7-a97d-521b-5033" name="死神军" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                <profile id="e9f7-a97d-521b-5033" name="Ynnari" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Requires a 死神军 人物 in Detachment. Detachment loses subfaction 关键字 and 获得 重生 关键字 instead, and my not be 目标 of original subfaction stratagems.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Requires a Ynnari Character in Detachment. Detachment loses subfaction keywords and gains the REBORN keyword instead, and my not be the target of original subfaction stratagems.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <categoryLinks>
-                <categoryLink id="72e5-e403-d36d-d4fd" name="阵营: 死神军" hidden="false" targetId="ebb3-4f37-6e57-7a8e" primary="false"/>
+                <categoryLink id="72e5-e403-d36d-d4fd" name="Faction: Ynnari" hidden="false" targetId="ebb3-4f37-6e57-7a8e" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -1261,7 +1261,7 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a5ce-b16b-56cd-e78a" name="主将" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="a5ce-b16b-56cd-e78a" name="Warlord" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -1278,7 +1278,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d990-d362-b865-7042" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="a41d-f9e7-2ae2-9b0d" name="主将" hidden="false" targetId="ae09-117e-a6fa-316b" primary="false"/>
+        <categoryLink id="a41d-f9e7-2ae2-9b0d" name="Warlord" hidden="false" targetId="ae09-117e-a6fa-316b" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -1290,7 +1290,7 @@
       <profiles>
         <profile id="e56e-8a38-b998-6437" name="Midnight Sorrow: The Art of Death" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">单位 with this form can move an 额外的 D6寸 when they 撤退. 此外, 单位 with this form can consolidate 至多 6寸.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Units with this form can move an additional D6&quot; when they Fall Back. In addition, units with this form can consolidate up to 6&quot;.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1304,7 +1304,7 @@
       <profiles>
         <profile id="1f68-96c1-280e-fe30" name="The Veiled Path: Riddle-Smiths" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">开始时 of each 肉搏阶段 投掷2个骰子 and discard the highest result. 直到阶段结束, 每次 your opponent targets a 单位 with this form and makes a 命中骰 that, before modifiers, exactly matches your dice result, that 命中骰 fails.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of each Fight phase roll two dice and discard the highest result. Until the end of the phase, each time your opponent targets a unit with this form and makes a hit roll that, before modifiers, exactly matches your dice result, that hit roll fails.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1318,7 +1318,7 @@
       <profiles>
         <profile id="a19b-c3ae-a9a8-8dfd" name="Frozen Stars: Hysterical Fury" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果1个单位 with this form charges in the 冲锋阶段, add 1 to their A值 until the end of the ensuing 肉搏阶段.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If a unit with this form charges in the Charge phase, add 1 to their Attacks characteristic until the end of the ensuing Fight phase.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1332,7 +1332,7 @@
       <profiles>
         <profile id="7ad2-6618-d41a-9dea" name="The Soaring Spite: Serpent&apos;s Blood" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models with this form 飞行关键字, or that are 上车 upon a TRANSPORT 飞行关键字, treat 所有手枪武器 they are equpped with as Assault 1武器 during a turn in which they (or the transport they are 上车 upon) Advanced. 此外, these 模型 do not suffer the penalty to their 命中骰 for 射击 Assault武器 during a turn in which they Advanced.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models with this form that can FLY, or that are embarked upon a TRANSPORT that can FLY, treat all Pistol weapons they are equpped with as Assault 1 weapons during a turn in which they (or the transport they are embarked upon) Advanced. In addition, these models do not suffer the penalty to their hit rolls for shooting Assault weapons during a turn in which they Advanced.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1346,7 +1346,7 @@
       <profiles>
         <profile id="ca57-de54-b3fc-b3fd" name="The Dreaming Shadow: Sombre Sentinels" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When a 单位 with this form fails a Morale test, only one 模型 from 这个单位 必须 flee. 此外, 每次 模型 with this form is slain or flees, 投掷1个D6 before removing that model: 结果为4+, that 模型 can either shoot with one of its 远程武器 as if it were the 射击阶段, or make a single 攻击 as if it were the 肉搏阶段.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When a unit with this form fails a Morale test, only one model from this unit must flee. In addition, each time a model with this form is slain or flees, roll a D6 before removing that model: on a 4+, that model can either shoot with one of its ranged weapons as if it were the shooting phase, or make a single attack as if it were the Fight phase.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1360,7 +1360,7 @@
       <profiles>
         <profile id="c882-1b97-c57a-9425" name="The Silent Shroud: Dance of Nightmares Made Flesh" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">减少 1 from the LD值 of 敌方单位 while they are 6寸范围内 of 任何单位 from your army with this form. 此外, whenever your opponent takes a morale test for a 单位 that is 6寸范围内 of 任何单位 from your army with this form, they 必须 投掷2个骰子 and 舍弃最低结果.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Subtract 1 from the Leadership characteristic of enemy units while they are within 6&quot; of any units from your army with this form. In addition, whenever your opponent takes a morale test for a unit that is within 6&quot; of any units from your army with this form, they must roll two dice and discard the lowest result.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1377,7 +1377,7 @@
       <profiles>
         <profile id="7acd-876f-9561-1f1d" name="Veiled Path: Webway Walker" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">部署期间, you can set your 主将 up in the webway 而不是 placing them 战场上. Your 主将 can emerge at the end of any of your 移动阶段 - set them up 任何位置 战场上 more than 9寸 from any 敌方单位. Furthermore, you can use the Webway Assault Stratagem twice.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set your Warlord up in the webway instead of placing them on the battlefield. Your Warlord can emerge at the end of any of your Movement phases - set them up anywhere on the battlefield more than 9&quot; from any enemy units. Furthermore, you can use the Webway Assault Stratagem twice.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1394,7 +1394,7 @@
       <profiles>
         <profile id="99e5-20d4-0b12-f1a1" name="A Foot in the Future" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 2寸 to your Warlord&apos;s M值. 此外, add 1寸 to the distance your 主将 can move 每次 it Advances, 撤退, charges, 进行英勇干预, piles in or consolidates.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 2&quot; to your Warlord&apos;s Move characteristic. In addition, add 1&quot; to the distance your Warlord can move each time it Advances, Fall Back, charges, performs a Heroic Intervention, piles in or consolidates.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1411,7 +1411,7 @@
       <profiles>
         <profile id="3574-c4e2-7734-0438" name="Fractal Storm" publicationId="7d24-b92f-pubN65537" page="74" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Your 主将 拥有 3+ 特殊保护 对抗肉搏武器.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Your Warlord has a 3+ invulnerable save against melee weapons.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1428,7 +1428,7 @@
       <profiles>
         <profile id="058f-b831-73c9-1971" name="Player of the Dark" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each wound roll of 6+ made for your Warlord&apos;s 攻击 在肉搏阶段 inflict one 致命伤 此外 to their 普通伤害.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each wound roll of 6+ made for your Warlord&apos;s attacks in the Fight phase inflict one mortal wound in addition to their normal damage.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1445,7 +1445,7 @@
       <profiles>
         <profile id="ccde-b16f-70d8-03e5" name="Player of the Twilight" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性 可以重投 a 命中骰, wound roll, or save roll made for your 主将. 此外, and your 主将 is 战场上, 投掷1个D6 每次 you or your opponent uses a stratagem. If the result exactly matches the number of 指挥点数 spent to use that stratagem, then you gain that many 指挥点数.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per battle you can re-roll a hit roll, wound roll, or save roll made for your warlord. In addition, if your army is Battle-forged and your warlord is on the battlefield, roll a D6 each time you or your opponent uses a stratagem. If the result exactly matches the number of command points spent to use that stratagem, then you gain that many command points.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1462,7 +1462,7 @@
       <profiles>
         <profile id="a9ce-5106-af25-717f" name="Player of the Light" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">重投 失败的 charge 骰 made for your 主将 and any 友方 &lt;MASQUE&gt; 单位 whilst they are 6寸范围内 of your 主将.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Re-roll failed charge rolls made for your Warlord and any friendly &lt;MASQUE&gt; units whilst they are within 6&quot; of your warlord.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1479,7 +1479,7 @@
       <profiles>
         <profile id="15a9-ba83-0d69-89e8" name="Soaring Spite: Skystrider" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Your 主将 can 下车 from a TRANSPORT even after it has moved.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Your Warlord can disembark from a TRANSPORT even after it has moved.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1496,7 +1496,7 @@
       <profiles>
         <profile id="cdf3-95a4-b725-9f2d" name="Silent Shroud: The Final Joke" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your 主将 is slain 在肉搏阶段, 投掷1个D6. 结果为2+, the 单位 that killed your 主将 遭受 D3 mortal woundsafter it has finished making 所有 its 攻击. 结果为6, the 敌方单位 遭受 D6 致命伤 instead.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your Warlord is slain in the Fight phase, roll a D6. On a 2+, the unit that killed your Warlord suffers D3 mortal woundsafter it has finished making all its attacks. On a 6, the enemy unit suffers D6 mortal wounds instead.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1506,14 +1506,14 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5267-24f9-3cd3-4a51" name="Midnight Sorrow: 天罚of the Damned" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="5267-24f9-3cd3-4a51" name="Midnight Sorrow: Nemesis of the Damned" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e49-1f35-8979-5ba1" type="max"/>
       </constraints>
       <profiles>
-        <profile id="b813-5955-a969-4132" name="Midnight Sorrow: 天罚of the Damned" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="b813-5955-a969-4132" name="Midnight Sorrow: Nemesis of the Damned" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each 命中骰的 6+ for your 主将 在肉搏阶段 scores 2 命中 而不是 1. 此外, 命中骰+1 made by your 主将 对抗 混沌单位.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each hit roll of 6+ for your Warlord in the Fight phase scores 2 hits instead of 1. In addition, add 1 to hit rolls made by your Warlord against CHAOS units.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1530,7 +1530,7 @@
       <profiles>
         <profile id="c987-6d63-8c38-dbce" name="Frozen Stars: Our Kin Shall Rise Again" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">投掷1个D6 每次 模型 from a FROZEN STARS 单位 from your army 6寸范围内 of your 主将 loses its final wound; 结果为6 that wound is not lost, and the 模型 is not slain. 这个主将特性 has no 效果 if the 单位 is under the effects of the Webway Dance 灵能.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Roll a D6 each time a model from a FROZEN STARS unit from your army within 6&quot; of your Warlord loses its final wound; on a 6 that wound is not lost, and the model is not slain. This Warlord trait has no effect if the unit is under the effects of the Webway Dance psychic power.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1547,7 +1547,7 @@
       <profiles>
         <profile id="61c7-5113-b1b5-8655" name="Dreaming Shadow: Warden of the Dead" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to any Sombre Sentinels 骰 made for DREAMING SHADOW 单位 from your army 6寸范围内 of your 主将 (add 2 instead whilst there are any 死灵 单位 战场上).</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to any Sombre Sentinels rolls made for DREAMING SHADOW units from your army within 6&quot; of your Warlord (add 2 instead whilst there are any NECRONS units on the battlefield).</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1565,7 +1565,7 @@
       <profiles>
         <profile id="1fbc-0226-34c2-5210" name="The Mask of Secrets" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">持有者 increases their LD值 by 1. 此外, 所有 敌方单位 reduce their LD值 by 1 whilst they are 6寸范围内 of 持有者.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The bearer increases their Leadership characteristic by 1. In addition, all enemy units reduce their Leadership characteristic by 1 whilst they are within 6&quot; of the bearer.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1582,7 +1582,7 @@
       <profiles>
         <profile id="7a59-5a5a-260f-ac4b" name="The Starmist Raiment" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The wearer 拥有 3+ 特殊保护 对抗 远程武器. 此外, 敌方单位 cannot fire 坚守射击 at the wearer during a turn in which the wearer Advanced.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The wearer has a 3+ invulnerable save against ranged weapons. In addition, enemy units cannot fire Overwatch at the wearer during a turn in which the wearer Advanced.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1599,7 +1599,7 @@
       <profiles>
         <profile id="4c3c-ba84-f1b1-458a" name="The Laughing God&apos;s Eye" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">友方 丑角灵族 单位 自动通过 士气测试 whilst they are 6寸范围内 of the wearer. 此外, 投掷1个D6 每次 a 友方 丑角灵族 单位 遭受 1点致命伤 in the 灵能阶段 whilst they are 6寸范围内 of the wearer - 结果为6, that 致命伤 is ignored.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Friendly HARLEQUINS units automatically pass Morale tests whilst they are within 6&quot; of the wearer. In addition, roll a D6 each time a friendly HARLEQUINS unit suffers a mortal wound in the Psychic phase whilst they are within 6&quot; of the wearer - on a 6, that mortal wound is ignored.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1621,14 +1621,14 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="cd22-1cc8-8e23-9188" type="max"/>
       </constraints>
       <profiles>
-        <profile id="a2a5-529f-3dae-585c" name="The Storied Sword" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="a2a5-529f-3dae-585c" name="The Storied Sword" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">+1</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">重投 失败的 命中骰 for 这个武器.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Re-roll failed hit rolls for this weapon.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1650,14 +1650,14 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b4d1-d515-778c-16ac" type="max"/>
       </constraints>
       <profiles>
-        <profile id="7d16-2e13-bb4d-54fe" name="Crescendo" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="7d16-2e13-bb4d-54fe" name="Crescendo" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12寸</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手枪 D6</characteristic>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol D6</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">每次 you make a wound roll of 6+ for 这个武器, that 命中 is resolved with an AP of -3</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time you make a wound roll of 6+ for this weapon, that hit is resolved with an AP of -3</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1672,24 +1672,24 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="74cf-7bb1-c681-9c28" type="max"/>
       </constraints>
       <profiles>
-        <profile id="1f9b-9d38-3a26-8eec" name="The Mirrorstave (射击)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="1f9b-9d38-3a26-8eec" name="The Mirrorstave (Shooting)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12寸</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 6</characteristic>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 6</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">*</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">The wound roll required for 这个武器 在射击阶段 is equal to 目标 单位 unmodified ballistic skill. For example, if the武器 targets a 单位 with ballistic skill of 3+, the武器 will wound on 骰 of 3+. The wound roll required for 这个武器 在肉搏阶段 is equal to the 目标单位&apos;s unmodified武器 skill. If the 单位 contains 模型 with different Ballistic Skill/武器 Skill characteristics, use the 最高值 in the 单位. If 目标&apos;s characteristic is &apos;-&apos;, then the wound roll required is 6+</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">The wound roll required for this weapon in the shooting phase is equal to the target units unmodified ballistic skill. For example, if the weapon targets a unit with ballistic skill of 3+, the weapon will wound on rolls of 3+. The wound roll required for this weapon in the Fight phase is equal to the target unit&apos;s unmodified weapon skill. If the unit contains models with different Ballistic Skill/Weapon Skill characteristics, use the best characteristic in the unit. If the target&apos;s characteristic is &apos;-&apos;, then the wound roll required is 6+</characteristic>
           </characteristics>
         </profile>
-        <profile id="ea37-ca5c-d21d-3fd3" name="The Mirrorstave (肉搏)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="ea37-ca5c-d21d-3fd3" name="The Mirrorstave (Melee)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">*</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">The wound roll required for 这个武器 在射击阶段 is equal to 目标 单位 unmodified ballistic skill. For example, if the武器 targets a 单位 with ballistic skill of 3+, the武器 will wound on 骰 of 3+. The wound roll required for 这个武器 在肉搏阶段 is equal to the 目标单位&apos;s unmodified武器 skill. If the 单位 contains 模型 with different Ballistic Skill/武器 Skill characteristics, use the 最高值 in the 单位. If 目标&apos;s Ballistic Skill/WS值 is &apos;-&apos;, then the wound roll required is 6+.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">The wound roll required for this weapon in the shooting phase is equal to the target units unmodified ballistic skill. For example, if the weapon targets a unit with ballistic skill of 3+, the weapon will wound on rolls of 3+. The wound roll required for this weapon in the Fight phase is equal to the target unit&apos;s unmodified weapon skill. If the unit contains models with different Ballistic Skill/Weapon Skill characteristics, use the best characteristic in the unit. If the target&apos;s Ballistic Skill/Weapon Skill characteristic is &apos;-&apos;, then the wound roll required is 6+.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1699,7 +1699,7 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0742-4cb7-bf4e-16cc" name="Enigmas of the Black Library (1 圣物)" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="0742-4cb7-bf4e-16cc" name="Enigmas of the Black Library (1 Relic)" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -1716,7 +1716,7 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="81d8-f55b-1926-739d" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="8215-208c-848c-4825" name="New CategoryLink" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
+        <categoryLink id="5ba9-f098-032c-13fc" name="New CategoryLink" hidden="false" targetId="c845-c72c-6afe-3fc2" primary="true"/>
       </categoryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -1724,7 +1724,7 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="-1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="dc1c-c3ca-66fa-fd12" name="Enigmas of the Black Library (2 圣物)" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="dc1c-c3ca-66fa-fd12" name="Enigmas of the Black Library (2 Relics)" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -1741,7 +1741,7 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="db3a-3212-aba0-2d4f" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="b256-9d4d-a74d-155e" name="New CategoryLink" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
+        <categoryLink id="f726-a4f4-f877-075c" name="New CategoryLink" hidden="false" targetId="c845-c72c-6afe-3fc2" primary="true"/>
       </categoryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -1756,7 +1756,7 @@
       <profiles>
         <profile id="0066-efed-e2e0-c3ed" name="The Scintillant Veil" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Increase the range of 所有 the wearer&apos;s aura abilities by 3寸.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Increase the range of all the wearer&apos;s aura abilities by 3&quot;.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1773,7 +1773,7 @@
       <profiles>
         <profile id="0f45-4032-4eab-e451" name="Faolchu&apos;s Talon" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">SOARING SPITE 模型 only. While the wearer is 上车 结果为SOARING SPITE TRANSPORT, that 载具 may move an 额外的 6寸 in the 移动阶段. 此外, if a SOARING SPITE TRANSPORT is 被消灭 while the wearer is 上车 upon it, you do not need to roll any dice to see if any disembarking 模型 are slain or if the transport 爆炸 - no disembarking 模型 are slain and the transport does not explode.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">SOARING SPITE model only. While the wearer is embarked on a SOARING SPITE TRANSPORT, that vehicle may move an additional 6&quot; in the movement phase. In addition, if a SOARING SPITE TRANSPORT is destroyed while the wearer is embarked upon it, you do not need to roll any dice to see if any disembarking models are slain or if the transport explodes - no disembarking models are slain and the transport does not explode.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1790,7 +1790,7 @@
       <profiles>
         <profile id="3e89-f41c-8653-de02" name="Midnight&apos;s Chime" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, at the beginning of the 肉搏阶段, 持有者 can activate Midnight&apos;s Chime. 直到阶段结束 所有 MIDNIGHT SORROW 单位 increase their 攻击 characteristics by 1 whilst they are 6寸范围内 of 持有者.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per battle, at the beginning of the Fight phase, the bearer can activate Midnight&apos;s Chime. Until the end of the phase all MIDNIGHT SORROW units increase their Attacks characteristics by 1 whilst they are within 6&quot; of the bearer.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1805,24 +1805,24 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="bb37-15c4-d223-23f2" type="max"/>
       </constraints>
       <profiles>
-        <profile id="e10d-51b3-3103-fd55" name="Curtainfall (shrieker)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="e10d-51b3-3103-fd55" name="Curtainfall (shrieker)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">30寸</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 1</characteristic>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">30&quot;</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">7</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">使用这个武器时, choose one of the profiles. 每次 you make a wound roll of 6+ for 这个武器, that 命中 is resolved with an AP of -4. 每次 an 步兵模型 is slain by an 攻击 made 使用这个武器的 shrieker profile, its 单位 遭受 D3 致命伤. If 任何模型 in a 单位 are slain by 这个武器, subract 2 from 那个单位&apos;s LD值 直到回合结束; this modifier is not cumulative with that caused by a shreiker cannon.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When attacking with this weapon, choose one of the profiles. Each time you make a wound roll of 6+ for this weapon, that hit is resolved with an AP of -4. Each time an INFANTRY model is slain by an attack made with this weapon&apos;s shrieker profile, its unit suffers D3 mortal wounds. If any models in a unit are slain by this weapon, subract 2 from that unit&apos;s Leadership characteristic until the end of the turn; this modifier is not cumulative with that caused by a shreiker cannon.</characteristic>
           </characteristics>
         </profile>
-        <profile id="abb1-3e82-3253-3108" name="Curtainfall (shuriken)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="abb1-3e82-3253-3108" name="Curtainfall (shuriken)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">30寸</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 3</characteristic>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">30&quot;</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 3</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">7</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">使用这个武器时, choose one of the profiles. 每次 you make a wound roll of 6+ for 这个武器, that 命中 is resolved with an AP of -4. If 任何模型 in a 单位 are slain by 这个武器, subract 2 from 那个单位&apos;s LD值 直到回合结束; this modifier is not cumulative with that caused by a shreiker cannon.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When attacking with this weapon, choose one of the profiles. Each time you make a wound roll of 6+ for this weapon, that hit is resolved with an AP of -4. If any models in a unit are slain by this weapon, subract 2 from that unit&apos;s Leadership characteristic until the end of the turn; this modifier is not cumulative with that caused by a shreiker cannon.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1839,7 +1839,7 @@
       <profiles>
         <profile id="89f9-3174-f580-b4ec" name="The Ghoulmask" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The wearer of the Ghoulmask can attempt to deny one 灵能 in each 敌方 灵能阶段 in the same manner as a 灵能者 (if 持有者 is already a 灵能者, it may attempt to deny one more psychic powerthan normal). 此外, add 1 to 破除灵能测试 made for 持有者.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The wearer of the Ghoulmask can attempt to deny one psychic power in each enemy Psychic phase in the same manner as a PSYKER (if the bearer is already a PSYKER, it may attempt to deny one more psychic powerthan normal). In addition, add 1 to Deny the Witch tests made for the bearer.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1854,14 +1854,14 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c51a-bb32-3fbe-3535" type="max"/>
       </constraints>
       <profiles>
-        <profile id="0643-77ff-1022-79bf" name="Cegorach&apos;s Rose" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="0643-77ff-1022-79bf" name="Cegorach&apos;s Rose" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">+1</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">重投 失败的 造伤骰 for 这个武器. When attacking 步兵, 这个武器 拥有 伤害 of 3.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Re-roll failed wound rolls for this weapon. When attacking Infantry, this weapon has a Damage of 3.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1878,7 +1878,7 @@
       <profiles>
         <profile id="e15f-f462-8b11-5307" name="The Suit of Hidden Knives" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">投掷1个D6 每次 a 命中骰的 1 is made for an 敌方模型 targeting the wearer 在肉搏阶段. 结果为2+, that 模型的 单位 遭受 1点致命伤 after the 单位 has resolved 所有 of its 攻击.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Roll a D6 each time a hit roll of 1 is made for an enemy model targeting the wearer in the Fight phase. On a 2+, that model&apos;s unit suffers a mortal wound after the unit has resolved all of its attacks.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1947,11 +1947,11 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e770-a863-7c3a-5897" type="max"/>
           </constraints>
           <profiles>
-            <profile id="e960-505f-6ab6-196b" name="Twilight Pathways" publicationId="7d24-b92f-pubN65537" page="73" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
+            <profile id="e960-505f-6ab6-196b" name="Twilight Pathways" publicationId="7d24-b92f-pubN65537" page="73" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
               <characteristics>
                 <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">6</characteristic>
-                <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">3寸</characteristic>
-                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">如果施放成功, 选择1个 友方 丑角灵族 单位 范围内 3寸 of the 灵能者 and 可见 to it. 那个单位 can 立即 move as if it were its 移动阶段. You cannot use Twilight Pathways 结果为单位 more than once in each 灵能阶段.</characteristic>
+                <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">3&quot;</characteristic>
+                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, select a friendly HARLEQUINS unit within 3&quot; of the psyker and visible to it. That unit can immediately move as if it were its Movement phase. You cannot use Twilight Pathways on a unit more than once in each Psychic phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1966,11 +1966,11 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a30-22e4-52b4-3fbf" type="max"/>
           </constraints>
           <profiles>
-            <profile id="f2a4-3070-8ec8-5e0d" name="Fog of Dreams" publicationId="7d24-b92f-pubN65537" page="73" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
+            <profile id="f2a4-3070-8ec8-5e0d" name="Fog of Dreams" publicationId="7d24-b92f-pubN65537" page="73" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
               <characteristics>
                 <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">6</characteristic>
-                <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
-                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">如果施放成功, 选择1个 可见 敌方单位 18寸范围内 of the 灵能者 and 可见 to it. Until the start of your next 灵能阶段, your opponent 必须 减少 1 from 所有命中骰 for 那个单位 that target 丑角灵族 步兵单位.</characteristic>
+                <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18&quot;</characteristic>
+                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, select a visible enemy unit within 18&quot; of the psyker and visible to it. Until the start of your next Psychic phase, your opponent must subtract 1 from all hit rolls for that unit that target HARLEQUINS INFANTRY units.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1985,11 +1985,11 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2a1-a6ec-e70d-44a5" type="max"/>
           </constraints>
           <profiles>
-            <profile id="3cb7-9fb0-ebbd-2399" name="Mirror of Minds" publicationId="7d24-b92f-pubN65537" page="73" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
+            <profile id="3cb7-9fb0-ebbd-2399" name="Mirror of Minds" publicationId="7d24-b92f-pubN65537" page="73" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
               <characteristics>
                 <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">7</characteristic>
-                <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24寸</characteristic>
-                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">如果施放成功, select an 敌方单位 范围内 24寸 of the 灵能者. Then, both players 投掷1个D6. If the Harlequin player&apos;s roll is equal or higher than their opponent&apos;s, then 目标 遭受 1 致命伤. Repeat this process until 目标 is 被消灭, or the 敌方 player 骰 a result that is higher than the Harlequin player&apos;s roll.</characteristic>
+                <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24&quot;</characteristic>
+                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, select an enemy unit within 24&quot; of the psyker. Then, both players roll a D6. If the Harlequin player&apos;s roll is equal or higher than their opponent&apos;s, then the target suffers 1 mortal wound. Repeat this process until the target is destroyed, or the enemy player rolls a result that is higher than the Harlequin player&apos;s roll.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2004,11 +2004,11 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50e7-cea3-fe9d-ce97" type="max"/>
           </constraints>
           <profiles>
-            <profile id="110a-64a7-0278-9c05" name="Veil of Tears" publicationId="7d24-b92f-pubN65537" page="73" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
+            <profile id="110a-64a7-0278-9c05" name="Veil of Tears" publicationId="7d24-b92f-pubN65537" page="73" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
               <characteristics>
                 <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">7</characteristic>
-                <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
-                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">如果施放成功, 选择1个 友方 丑角灵族 步兵单位 18寸范围内 of the 灵能者. Until the start of your next 灵能阶段, 减少 1 from 命中骰 for 攻击 made 对抗 那个单位.</characteristic>
+                <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18&quot;</characteristic>
+                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, select a friendly HARLEQUINS INFANTRY unit within 18&quot; of the psyker. Until the start of your next Psychic phase, subtract 1 from hit rolls for attacks made against that unit.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2023,11 +2023,11 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f73e-2180-4409-8598" type="max"/>
           </constraints>
           <profiles>
-            <profile id="72a4-863c-67ad-91dd" name="Webway Dance" publicationId="7d24-b92f-pubN65537" page="73" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
+            <profile id="72a4-863c-67ad-91dd" name="Webway Dance" publicationId="7d24-b92f-pubN65537" page="73" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
               <characteristics>
                 <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">7</characteristic>
-                <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">6寸</characteristic>
-                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">如果施放成功, then until the start of your next 灵能阶段, 投掷1个D6 whenever a 友方 丑角灵族 单位 6寸范围内 of the 灵能者 失去1点W; 结果为6 that wound is not lost.</characteristic>
+                <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">6&quot;</characteristic>
+                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, then until the start of your next Psychic phase, roll a D6 whenever a friendly HARLEQUINS unit within 6&quot; of the psyker loses a wound; on a 6 that wound is not lost.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2042,11 +2042,11 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c06b-5829-b506-4799" type="max"/>
           </constraints>
           <profiles>
-            <profile id="f29d-2e42-b72e-903d" name="Shards of Light" publicationId="7d24-b92f-pubN65537" page="73" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
+            <profile id="f29d-2e42-b72e-903d" name="Shards of Light" publicationId="7d24-b92f-pubN65537" page="73" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
               <characteristics>
                 <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">7</characteristic>
-                <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
-                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">如果施放成功, select an 敌方单位 18寸范围内 of the 灵能者 and 可见 to it. 那个单位 遭受 D3 致命伤 and 必须 减少 1 from its LD值 until the start of the next 灵能阶段.</characteristic>
+                <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18&quot;</characteristic>
+                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, select an enemy unit within 18&quot; of the psyker and visible to it. That unit suffers D3 mortal wounds and must subtract 1 from its leadership characteristic until the start of the next Psychic phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2058,7 +2058,7 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="305c-7184-81fb-2bd3" name="主将特性" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="305c-7184-81fb-2bd3" name="Warlord Trait" hidden="false" collective="false" import="true">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -2071,15 +2071,15 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2fee-ec06-8ff3-9386" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="cc41-36e9-4b4a-c906" name="主将特性 (CA)" hidden="false" collective="false" import="true" targetId="f673-3d9b-bb1b-377f" type="selectionEntryGroup"/>
-        <entryLink id="3f74-e10f-491b-0efd" name="主将特性 (总规则)" hidden="false" collective="false" import="true" targetId="d442-1f03-d9da-e77f" type="selectionEntryGroup"/>
+        <entryLink id="cc41-36e9-4b4a-c906" name="Warlord Traits (CA)" hidden="false" collective="false" import="true" targetId="f673-3d9b-bb1b-377f" type="selectionEntryGroup"/>
+        <entryLink id="3f74-e10f-491b-0efd" name="Warlord Traits (BRB)" hidden="false" collective="false" import="true" targetId="d442-1f03-d9da-e77f" type="selectionEntryGroup"/>
         <entryLink id="25f2-03a2-67c1-67e1" name="Luck of the Laughing God" hidden="false" collective="false" import="true" targetId="8ffa-cedb-4c0c-1b81" type="selectionEntry"/>
         <entryLink id="4c73-7de8-f0cd-7779" name="Player of the Dark" hidden="false" collective="false" import="true" targetId="13fa-8a9f-ccf4-e8fa" type="selectionEntry"/>
         <entryLink id="c870-ee4a-a3ff-23b2" name="Player of the Light" hidden="false" collective="false" import="true" targetId="6494-f334-08ad-47c7" type="selectionEntry"/>
         <entryLink id="a6c0-4bfc-3b56-1840" name="Player of the Twilight" hidden="false" collective="false" import="true" targetId="2f51-a0b5-8914-7c71" type="selectionEntry"/>
         <entryLink id="b6e6-fbcb-5872-3245" name="Fractal Storm" hidden="false" collective="false" import="true" targetId="2c49-f836-512c-583d" type="selectionEntry"/>
         <entryLink id="a03c-9eec-1271-44cb" name="One Foot in the Future" hidden="false" collective="false" import="true" targetId="f112-97ca-8928-f1fb" type="selectionEntry"/>
-        <entryLink id="616e-2e86-923f-12f1" name="主将特性 Silent Shroud" hidden="true" collective="false" import="true" targetId="9d36-eefd-0e4a-b678" type="selectionEntry">
+        <entryLink id="616e-2e86-923f-12f1" name="Warlord Trait Silent Shroud" hidden="true" collective="false" import="true" targetId="9d36-eefd-0e4a-b678" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditionGroups>
@@ -2093,7 +2093,7 @@
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="69e6-7b49-2a71-63ba" name="主将特性 Midnight Sorrow" hidden="true" collective="false" import="true" targetId="5267-24f9-3cd3-4a51" type="selectionEntry">
+        <entryLink id="69e6-7b49-2a71-63ba" name="Warlord Trait Midnight Sorrow" hidden="true" collective="false" import="true" targetId="5267-24f9-3cd3-4a51" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditionGroups>
@@ -2107,7 +2107,7 @@
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="c420-275f-b45c-852c" name="主将特性 Frozen Stars" hidden="true" collective="false" import="true" targetId="ba41-2d9b-c8a7-64a4" type="selectionEntry">
+        <entryLink id="c420-275f-b45c-852c" name="Warlord Trait Frozen Stars" hidden="true" collective="false" import="true" targetId="ba41-2d9b-c8a7-64a4" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditionGroups>
@@ -2121,7 +2121,7 @@
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="675f-6da5-5ff3-468f" name="主将特性 Dreaming Shadow" hidden="true" collective="false" import="true" targetId="30bb-0f05-221a-14ef" type="selectionEntry">
+        <entryLink id="675f-6da5-5ff3-468f" name="Warlord Trait Dreaming Shadow" hidden="true" collective="false" import="true" targetId="30bb-0f05-221a-14ef" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditionGroups>
@@ -2135,7 +2135,7 @@
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="975d-ba7b-8962-62b1" name="主将特性 Veiled Path" hidden="true" collective="false" import="true" targetId="c9c4-384b-e730-8ee4" type="selectionEntry">
+        <entryLink id="975d-ba7b-8962-62b1" name="Warlord Trait Veiled Path" hidden="true" collective="false" import="true" targetId="c9c4-384b-e730-8ee4" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditionGroups>
@@ -2237,7 +2237,7 @@
           </modifiers>
         </entryLink>
         <entryLink id="7fe5-3468-061e-eba7" name="Crescendo" hidden="false" collective="false" import="true" targetId="d8d5-d3a9-a828-34d5" type="selectionEntry"/>
-        <entryLink id="96c8-9d9d-6145-f65b" name="圣物6" hidden="false" collective="false" import="true" targetId="7813-bd0e-4df8-dbfc" type="selectionEntry"/>
+        <entryLink id="96c8-9d9d-6145-f65b" name="Relic 6" hidden="false" collective="false" import="true" targetId="7813-bd0e-4df8-dbfc" type="selectionEntry"/>
         <entryLink id="65c4-b558-5801-8ea5" name="Faolchu&apos;s Talon" hidden="true" collective="false" import="true" targetId="2fe7-1d08-cac2-4fbe" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
@@ -2337,7 +2337,7 @@
         <entryLink id="4a6f-a73d-1897-1550" name="The Suit of Hidden Knives" hidden="false" collective="false" import="true" targetId="f1b4-469b-6cd2-7e71" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="4eab-df08-9faa-926c" name="圣物 of Ynnead" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="4eab-df08-9faa-926c" name="Relics of Ynnead" hidden="false" collective="false" import="true">
       <modifiers>
         <modifier type="increment" field="8a22-20ca-28ad-5069" value="1.0">
           <conditions>
@@ -2373,54 +2373,54 @@
           </conditions>
         </modifier>
       </modifiers>
-      <description>This ability is common to 所有 死神军 单位.
+      <description>This ability is common to all YNNARI units.
 
-As soon as 任何单位 is 被消灭, 所有 单位 from your army benefit from Soulburst actions 直到回合结束. Whilst a 单位 is benefitting from Soulburst Actions, it always fights first 在肉搏阶段, even if it didn&apos;t charge. 如果模型 that is benefitting from soulburst actions made a 冲锋移动 this turn, or already has an ability that allows it to always fight first 在肉搏阶段, then whilst it is benfitting from soulburst actions you also 命中骰+1 for 攻击 made with肉搏武器 by that model. If the 敌方 also has 单位 that made a 冲锋移动 or that have abilities that allow them to always fight first 在肉搏阶段, the alternate 单位, starting with the player whose turn is taking place.</description>
+As soon as any unit is destroyed, All units from your army benefit from Soulburst actions until the end of the turn. Whilst a unit is benefitting from Soulburst Actions, it always fights first in the Fight phase, even if it didn&apos;t charge. If a model that is benefitting from soulburst actions made a charge move this turn, or already has an ability that allows it to always fight first in the Fight phase, then whilst it is benfitting from soulburst actions you also add 1 to hit rolls for attacks made with melee weapons by that model. If the enemy also has units that made a charge move or that have abilities that allow them to always fight first in the fight phase, the alternate units, starting with the player whose turn is taking place.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="8210-8f73-bf99-5b97" name="爆炸" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="8210-8f73-bf99-5b97" name="Explodes" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果这个模型W降为0, 在载具被移除及任何在这个载具上的模型下车前投掷1个D6. 结果为6则爆炸, 6寸范围内每个单位遭受 1 致命伤.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model is reduced to 0 wounds, roll a D6 before removing it from the battlefield and before any embarked models disembark. On a 6 it explodes, and each unit within 6&quot; suffers 1 mortal wound.</characteristic>
       </characteristics>
     </profile>
     <profile id="847b-aed6-3531-adb1" name="Holo-fields" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models in 这个单位 have a 4+ 特殊保护.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models in this unit have a 4+ Invulnerable save.</characteristic>
       </characteristics>
     </profile>
     <profile id="74fb-ab0a-0ef5-ce0d" name="Flip Belt" publicationId="7d24-b92f-pubN65537" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During the 移动阶段, 这个单位中的模型 can move across 模型 as if they were not there, and when moving across terrain features, vertical distance is not counted 对抗 the total these 模型 can move (i.e. moving vertically is free for these 模型 in the 移动阶段). During the 冲锋阶段, 这个单位中的模型 can move across 模型 (other than Buildings) as if they were not there.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During the Movement phase, models in this unit can move across models as if they were not there, and when moving across terrain features, vertical distance is not counted against the total these models can move (i.e. moving vertically is free for these models in the Movement phase). During the Charge phase, models in this unit can move across models (other than Buildings) as if they were not there.</characteristic>
       </characteristics>
     </profile>
     <profile id="86a8-5c65-d40b-d0a6" name="Holo-suit" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models in 这个单位 have a 4+ 特殊保护.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models in this unit have a 4+ Invulnerable save.</characteristic>
       </characteristics>
     </profile>
     <profile id="046c-9565-b216-87c7" name="Mirage Launchers" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Your opponent 必须 减少 1 from 任何命中 骰 made 对抗 这个单位 在射击阶段</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Your opponent must subtract 1 from any hit rolls made against this unit in the Shooting phase</characteristic>
       </characteristics>
     </profile>
     <profile id="1fde-5ed2-74f7-f766" name="Blur of Colour" publicationId="7d24-b92f-pubN65537" page="61" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When 这个单位 Advances, add 6寸 to its M值 for that 移动阶段 而不是 rolling a dice.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When this unit Advances, add 6&quot; to its Move characteristic for that Movement phase instead of rolling a dice.</characteristic>
       </characteristics>
     </profile>
-    <profile id="cf69-4ca7-8cba-2f16" name="开顶" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="cf69-4ca7-8cba-2f16" name="Open-topped" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models 上车 on 这个模型 can 攻击 in their 射击阶段. Measure the range and draw line of sight from any point on 这个模型. When they do so, any restrictions or modifiers that apply to 这个模型 also apply to its passengers; for example, the pasengers cannot shoot if 这个模型 has 堕天使 Back in the same turn and so on, cannot shoot (except with手枪) if 这个模型 is 1寸范围内 of an 敌方单位, and so on. Note that, due to their Rising Crescendo ability, the passengers can shoot if 这个模型 撤退.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models embarked on this model can attack in their Shooting phase. Measure the range and draw line of sight from any point on this model. When they do so, any restrictions or modifiers that apply to this model also apply to its passengers; for example, the pasengers cannot shoot if this model has Fallen Back in the same turn and so on, cannot shoot (except with Pistols) if this model is within 1&quot; of an enemy unit, and so on. Note that, due to their Rising Crescendo ability, the passengers can shoot if this model Falls Back.</characteristic>
       </characteristics>
     </profile>
     <profile id="60da-8dc8-7bf4-2efd" name="Rising Crescendo" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models in 这个单位 can 加速和冲锋 in the same turn. 此外, they can 撤退 and still shoot and/or charge in the same turn.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models in this unit can Advance and charge in the same turn. In addition, they can Fall Back and still shoot and/or charge in the same turn.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
   <catalogueLinks>
-    <catalogueLink id="397d-4f14-ba01-8a24" name="艾尔达 - 死神军" targetId="2f0e-dd91-7676-722d" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="397d-4f14-ba01-8a24" name="Aeldari - Ynnari" targetId="2f0e-dd91-7676-722d" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>
