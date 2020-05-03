@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="24b6-2b46-0063-2867" name="Imperium - Space Wolves" revision="124" battleScribeVersion="2.03" authorName="CrusherJoe" authorContact="@CrusherJoe" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="116" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="24b6-2b46-0063-2867" name="Imperium - Space Wolves" revision="127" battleScribeVersion="2.03" authorName="CrusherJoe" authorContact="@CrusherJoe" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="126" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="24b6-2b46-pubN65537" name="Codex: Space Wolves"/>
     <publication id="24b6-2b46-pubN166488" name="Chapter Approved 2017"/>
@@ -1963,6 +1963,7 @@
         <infoLink id="ba99-acfc-4e13-028a" name="Angels of Death" hidden="false" targetId="3100-c76d-7a4b-5340" type="rule"/>
         <infoLink id="6a70-148e-0abb-3467" name="Priest" hidden="false" targetId="2e51-5c52-476b-6b5c" type="profile"/>
         <infoLink id="14dc-21ef-631f-0fbd" name="Savage Fury" hidden="false" targetId="9fe6-7a11-b3a5-dad6" type="rule"/>
+        <infoLink id="a59a-d723-ff1b-0182" name="Healing Balms" hidden="false" targetId="34bf-85f7-a4c2-a494" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="7886-e5bb-2c9d-d40d" name="New CategoryLink" hidden="false" targetId="c7b7-edbc-bc14-6238" primary="false"/>
@@ -2032,7 +2033,6 @@
     </selectionEntry>
     <selectionEntry id="6009-8fb4-ff69-0fc9" name="Wolf Priest in Terminator Armour" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
-        <infoLink id="c8bb-f23b-2e06-c264" name="Healing Balms" hidden="false" targetId="34bf-85f7-a4c2-a494" type="profile"/>
         <infoLink id="f7ec-f919-11de-c4f4" name="New InfoLink" hidden="false" targetId="98aa-9a8e-dfae-98d9" type="profile"/>
         <infoLink id="0ab6-b33f-5999-f55d" name="New InfoLink" hidden="false" targetId="fe04-1322-f3ce-33a5" type="profile">
           <modifiers>
@@ -2047,6 +2047,7 @@
         <infoLink id="7a0a-d3d3-3d6c-5a50" name="Angels of Death" hidden="false" targetId="3100-c76d-7a4b-5340" type="rule"/>
         <infoLink id="b7da-9eea-ccf1-64ff" name="Priest" hidden="false" targetId="2e51-5c52-476b-6b5c" type="profile"/>
         <infoLink id="54a9-fea0-7177-d959" name="Savage Fury" hidden="false" targetId="9fe6-7a11-b3a5-dad6" type="rule"/>
+        <infoLink id="1c46-be22-55ac-63bc" name="Healing Balms" hidden="false" targetId="34bf-85f7-a4c2-a494" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="eb50-0326-4128-7f48" name="New CategoryLink" hidden="false" targetId="c7b7-edbc-bc14-6238" primary="false"/>
@@ -3815,6 +3816,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="f394-fbc8-f292-3b72" name="Cyberwolves" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="f8f3-8c3e-cf47-eb5c" name="Hunters Unleashed" hidden="false" targetId="05af-49f8-8692-ec9f" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="60f5-7826-b040-cd82" name="New CategoryLink" hidden="false" targetId="c7b7-edbc-bc14-6238" primary="false"/>
         <categoryLink id="f0b4-fade-128d-1689" name="New CategoryLink" hidden="false" targetId="7892-58f7-e769-4d87" primary="false"/>
@@ -5791,6 +5795,7 @@
       <infoLinks>
         <infoLink id="f760-1970-9549-35ff" name="Pack Mentality" hidden="false" targetId="4c6f-8f9a-ff98-60c4" type="profile"/>
         <infoLink id="e665-fd25-cbaf-2a7a" name="Swift Hunters" hidden="false" targetId="1640-a9e3-5c03-ac7b" type="profile"/>
+        <infoLink id="404a-e07f-e11b-6c89" name="Hunters Unleashed" hidden="false" targetId="05af-49f8-8692-ec9f" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="9b39-6f50-c2b1-970a" name="New CategoryLink" hidden="false" targetId="c7b7-edbc-bc14-6238" primary="false"/>
@@ -14253,7 +14258,7 @@
         <categoryLink id="a93d-0763-5ae2-ce43" name="Faction: Space Wolves" hidden="false" targetId="f093-e031-3131-7b82" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="4e15-9981-5ed9-b8ce" name="Weapon Option 1" hidden="false" collective="false" import="true" defaultSelectionEntryId="b036-a004-081f-9c44">
+        <selectionEntryGroup id="4e15-9981-5ed9-b8ce" name="Turret Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="b036-a004-081f-9c44">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c783-abd0-c0c3-e900" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ded-85fd-6a2d-4f20" type="max"/>
@@ -14274,8 +14279,8 @@
         <entryLink id="5d89-3b51-b496-8325" name="Battle Honours" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
         <entryLink id="a4fc-b271-5362-75d1" name="Twin Icarus Ironhail Heavy Stubber" hidden="false" collective="false" import="true" targetId="15c6-9d70-6cef-19af" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eba3-b22a-719e-2ce6" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5fea-eedc-5be1-0a72" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eba3-b22a-719e-2ce6" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5fea-eedc-5be1-0a72" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="71c0-547d-a6af-852d" name="Twin Heavy Bolter" hidden="false" collective="false" import="true" targetId="2084-9e88-e576-9276" type="selectionEntry">
@@ -14286,8 +14291,8 @@
         </entryLink>
         <entryLink id="5a77-dbfc-7ace-69ed" name="Fragstorm Grenade Launcher" hidden="false" collective="false" import="true" targetId="f1af-915f-fe51-a757" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="723e-933e-ba7c-c69a" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0942-3f73-176e-524c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="723e-933e-ba7c-c69a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0942-3f73-176e-524c" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="6a35-fdad-df7a-11d2" name="Storm bolter" hidden="false" collective="false" import="true" targetId="2b03-8d64-3711-f300" type="selectionEntry">
@@ -14302,15 +14307,16 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac2e-f7d3-9c6d-eb7f" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="d7a6-60fa-1fd3-5f7b" name="Auto Launchers" hidden="false" collective="false" import="true" targetId="8670-6bbb-f6c7-3e8a" type="selectionEntry">
+        <entryLink id="d7a6-60fa-1fd3-5f7b" name="Krakstrom Grenade Launcher" hidden="false" collective="false" import="true" targetId="12df-6953-e309-7b39" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e13-2151-c870-3ad2" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="feec-4ac6-d3b0-9428" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e13-2151-c870-3ad2" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="feec-4ac6-d3b0-9428" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="cb3a-6f04-3f09-4428" name="Icarus Rocket Pod" hidden="false" collective="false" import="true" targetId="31c8-cb35-2220-071f" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b331-de66-40ae-5525" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="243d-612e-125d-a8e2" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -15374,17 +15380,36 @@ wounds.</characteristic>
     <selectionEntryGroup id="ad4c-0362-d674-b511" name="Terminator Heavy Weapons" hidden="false" collective="false" import="true">
       <selectionEntries>
         <selectionEntry id="a12e-67a4-0ab6-b7d4" name="Cyclone missile launcher and storm bolter" hidden="false" collective="false" import="true" type="upgrade">
+          <selectionEntryGroups>
+            <selectionEntryGroup id="2957-bcc3-7c6c-bca1" name="Storm Bolter" hidden="false" collective="false" import="true" defaultSelectionEntryId="62d4-75b9-c051-5faf">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a25-af23-1e5f-b82c" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e9e-e5d9-d466-7657" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="1b5b-b19f-1d3a-5243" name="Terminator Combi-Weapon" hidden="false" collective="false" import="true" targetId="82c0-bab6-7610-6ee8" type="selectionEntryGroup">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1a7-953c-04d6-dd73" type="max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="62d4-75b9-c051-5faf" name="Storm bolter" hidden="false" collective="false" import="true" targetId="2b03-8d64-3711-f300" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c230-01af-67f0-707a" type="max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="f51b-98d7-9403-4c25" name="Space Wolves Terminator Melee Weapons" hidden="false" collective="false" import="true" targetId="5771-4b58-6078-1faf" type="selectionEntryGroup">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24a3-3693-f09a-3072" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
           <entryLinks>
             <entryLink id="89a7-e911-1744-d5df" name="Cyclone missile launcher" hidden="false" collective="false" import="true" targetId="25b3-79f7-73cd-9321" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3e6-c237-fbae-8a6a" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bfc1-49e3-7e82-a79e" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="b979-4e8c-f79e-5974" name="Storm bolter" hidden="false" collective="false" import="true" targetId="2b03-8d64-3711-f300" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72b5-55c4-bb61-7d4b" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a78d-6aa1-6bb2-bcea" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -15757,14 +15782,9 @@ wounds.</characteristic>
             </conditionGroup>
           </conditionGroups>
         </modifier>
-        <modifier type="set" field="eab6-a44a-89f7-35ea" value="2.0">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="37e3-e97a-18e8-a84c" type="equalTo"/>
-          </conditions>
-        </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="eab6-a44a-89f7-35ea" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="eab6-a44a-89f7-35ea" type="max"/>
       </constraints>
       <selectionEntryGroups>
         <selectionEntryGroup id="9727-3000-5cf5-918c" name="Warlord Traits" hidden="false" collective="false" import="true">
@@ -15921,23 +15941,23 @@ wounds.</characteristic>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="cc0b-8f5d-ffbb-a7c2" name="Warlord Traits (Phobos)" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="5809-5be6-efd4-c078" name="Warlord Traits (Phobos)" hidden="false" collective="false" import="true">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5b58-36bd-930c-e8be" type="notInstanceOf"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5b58-36bd-930c-e8be" type="notInstanceOf"/>
               </conditions>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c0ae-2003-3da0-1549" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="40dc-2ece-aa15-e995" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="0aad-f223-b313-6d54" name="1. Shoot and Fade" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="d06a-6673-4ba5-c70b" name="1. Shoot and Fade" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="6324-f2c2-1805-bc5d" name="Shoot and Fade" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                <profile id="4910-3667-792e-36f4" name="Shoot and Fade" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Immediately after making a shooting attack apart from when firing Overwatch your Warlord can move as if it were the Movement phase. If it does, it must Advance as part of this move.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of your Shooting phase, you can select one friendly SPACE WOLVES PHOBOS unit within 6&quot; of this Warlord. After shooting with that unit, it can move as if it were your Movement phase; if it does, it must Advance and cannot declare a charge in the following Charge phase.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -15947,11 +15967,11 @@ wounds.</characteristic>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="c63f-d495-b4f2-afb2" name="2. Princeps of Deceit" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="abe5-7cdf-62de-52a4" name="2. Lord of Deceit" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="49c9-31f6-39eb-e554" name="Princeps of Deceit" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                <profile id="fe9c-aa52-9fdc-3784" name="Lord of Deceit" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your Warlord has this trait, then at the start of the first battle round, but before the first turn has begun, pick up to three friendly CHAPTER infantry units that are on the battlefield. You can immediately remove these units from the battlefield and set them up again as described in the Deployment section of the mission you are playing (if both players have abilities that allow them to redeploy units, roll off and the winner chooses which player redeploys their units first)</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of the first battle round, before the first turn begins, select up to three friendly SPACE WOLVES PHOBOS units on the battlefield. Remove them from the battlefield and set them up again as described in the Deployment section of the mission (if both players have abilities that redeploy units, roll off; the winner chooses who redeploys their units first).</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -15961,11 +15981,11 @@ wounds.</characteristic>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="f64c-1efa-db52-051e" name="3. Master of the Vanguard" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="c994-1f0d-0844-9510" name="3. Master of the Vanguard" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="fc41-9e66-6ad1-582c" name="Master of the Vanguard" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                <profile id="5db2-727c-41c4-289b" name="Master of the Vanguard" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1&quot; to the Movement characteristic of friendly CHAPTER units whilst they are within 6&quot; of your Warlord. In addition, add 1 to advance and charge rolls for friendly CHAPTER units whilst they are within 6&quot; of your warlord.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1&quot; to the Move characteristic of friendly SPACE WOLVES PHOBOS units whilst they are within 6&quot; of this Warlord. Add 1 to Advance rolls and charge rolls made for friendly SPACE WOLVES PHOBOS units whilst they are within 6&quot; of this Warlord.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -15975,11 +15995,11 @@ wounds.</characteristic>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="80c6-ded7-9f44-012b" name="4. Stealth Adept" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="c310-9ea7-4cc9-b2e0" name="4. Stealth Adept" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="330f-e891-4b4b-06a3" name="Stealth Adept" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                <profile id="af0b-e6ef-2f80-85d6" name="Stealth Adept" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Substract 1 from hit rolls that target your Warlord.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made against this Warlord, subtract 1 from the hit roll.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -15989,11 +16009,11 @@ wounds.</characteristic>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="bfb0-e47b-e38f-5dba" name="5. Target Priority" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="c61d-aa91-1731-239a" name="5. Target Priority" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="472c-63cc-749f-1466" name="Target Priority" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                <profile id="7c2f-851e-49f6-76ff" name="Target Priority" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Instead of shooting with your Warlord in your Shooting phase, you can select one friendly CHAPTER unit within 3&quot; if it and one enemy unit that is visible to your Warlord. Until the end of the phase, add 1 to hit rolls for attacks made by that friendly unit that target that enemy unit.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of your Shooting phase, select one friendly SPACE WOLVES PHOBOS unit within 3&quot; of this Warlord; until the end of that phase, when resolving an attack made with a ranged weapon by a model in that unit, add 1 to the hit roll.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -16003,11 +16023,11 @@ wounds.</characteristic>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="1c2d-e264-4ff6-9434" name="6. Marksman&apos;s Honors" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="a126-f825-c887-74ab" name="6. Marksman&apos;s Honours" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="0192-0da1-1930-e655" name="Marksman&apos;s Honors" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                <profile id="9795-dd47-ec64-c5c6" name="Marksman&apos;s Honours" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The Damage characteristic of ranged weapons your warlord is armed with is increased by 1. In addition, you can re-roll failed to hi rolls and wound rolls for shooting attacks made by your warlord. This Warlord trait does not aply to Grenade weapons, but does apply to Chapter Relics.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the Damage characteristic of ranged weapons this Warlord is equipped with. This does not apply to Grenades or Relics.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -16621,7 +16641,7 @@ wounds.</characteristic>
                 <conditionGroup type="or">
                   <conditions>
                     <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bc9e-551d-9afb-78d5" type="equalTo"/>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bd3c-b4f2-94be-5daf" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7d93-d63c-bfba-c879" type="equalTo"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -16705,16 +16725,16 @@ wounds.</characteristic>
     </selectionEntryGroup>
     <selectionEntryGroup id="afd6-d659-f542-2c72" name="Obscuration Discipline" hidden="false" collective="false" import="true">
       <selectionEntries>
-        <selectionEntry id="a555-2f1b-36bb-e822" name="1) Shrouding" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="6488-ce33-76b9-46d1" name="1) Shrouding" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7219-fd9f-cd21-6b98" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b537-acee-243d-e936" type="max"/>
           </constraints>
           <profiles>
-            <profile id="f71a-f709-6b17-3be1" name="Shrouding" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+            <profile id="fe34-26c2-4ef3-0774" name="Shrouding" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
               <characteristics>
                 <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">6</characteristic>
                 <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18&quot;</characteristic>
-                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, select a friendly ADEPTUS ASTARTES PHOBOS unit within 18&quot; of the psyker. Until the start of your next Psychic phase, enemy models can only shoot this unit if it is the closest target that is visible to them.</characteristic>
+                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Shrouding has a warp charge value of 6. If manifested, select one friendly &lt;CHAPTER&gt; PHOBOSunit within 18&quot; of this psyker. Until the start of your next Psychic phase, enemy models can only shoot that unit if it is the closest target that is visible to them or they are firing Overwatch.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -16724,16 +16744,16 @@ wounds.</characteristic>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="89cd-bd34-0cf0-cc98" name="2) Scryer&apos;s Gaze" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="f0c2-9272-0f03-172c" name="2) Soul Sight" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="edab-eece-3a56-b07d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e2f-97dc-fcd9-d9c6" type="max"/>
           </constraints>
           <profiles>
-            <profile id="c0f9-2587-0284-cc19" name="Scryer&apos;s Gaze" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+            <profile id="bc7d-458d-5721-68b7" name="Soul Sight" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
               <characteristics>
                 <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">6</characteristic>
                 <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18&quot;</characteristic>
-                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, select a friendly ADEPTUS ASTARTES PHOBOS unit within 18&quot; of the psyker. Until the start of your next Psychic phase, you can re-roll failed hit rolls for attacks made with that unit&apos;s ranged weapons, and enemy models do not receive the benefit of cover to their saving throws against ranged attacks made by that unit.</characteristic>
+                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Soul Sight has a warp charge value of 6. If manifested, select one friendly &lt;CHAPTER&gt; PHOBOS unit within 18&quot; of this psyker. Until the start of your next Psychic phase, when resolving an attack made with a ranged weapon by a model in that unit, you can re-roll the hit roll and the target does not receive the benefit of cover to its saving throw.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -16743,16 +16763,16 @@ wounds.</characteristic>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="fd01-f66f-1244-e90b" name="3) Temporal Corridor" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="4c29-2cbd-ece6-79b2" name="3) Mind Raid" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3406-db66-2c4d-a655" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe73-8561-0383-bba1" type="max"/>
           </constraints>
           <profiles>
-            <profile id="768e-9564-7f03-b325" name="Temporal Corridor" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+            <profile id="0f03-9bad-4f44-7600" name="Mind Raid" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
               <characteristics>
                 <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">6</characteristic>
-                <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">3&quot;</characteristic>
-                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, select a friendly ADEPTUS ASTARTES PHOBOS unit within 3&quot; of the psyker. That unit can immediately move as if it were the Movement phase; it cannot Fall Back as part of this move and must Advance. When rolling to see how far this unit Advances, roll 3D6 and discard the two lowest results. You cannot use Temporal Corridor on a unit more than once per Psychic phase.</characteristic>
+                <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18&quot;</characteristic>
+                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, select an enemy model within 18&quot; of and visible to the psyker. That model&apos;s unit suffers a mortal wound. If your army is Battle-forged, and the model you chose was a CHARACTER, you can then roll 3D6. If the result is equal to or higher than that model&apos;s Leadership characteristic, you gain 1 Command Point.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -16762,12 +16782,12 @@ wounds.</characteristic>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="7d92-12d8-b382-cc1e" name="4) Hallucination" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="43f6-36cd-c01d-7ee1" name="4) Hallucination" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="004c-8d14-b0bb-cf6a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4da3-650d-9440-e2a4" type="max"/>
           </constraints>
           <profiles>
-            <profile id="9122-ace8-9abd-ad4d" name="Hallucination" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+            <profile id="190a-095c-8881-599a" name="Hallucination" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
               <characteristics>
                 <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">6</characteristic>
                 <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18&quot;</characteristic>
@@ -16781,12 +16801,12 @@ wounds.</characteristic>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="e01f-cc38-ed70-8949" name="5) Tenebrous Curse" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="a60e-9054-7cfc-a5ad" name="5) Tenebrous Curse" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d229-95d1-9f96-851a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea9c-84d2-d34f-d2c0" type="max"/>
           </constraints>
           <profiles>
-            <profile id="7e5d-36d8-0b64-a0d4" name="Tenebrous Curse" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+            <profile id="b70f-0563-b559-e274" name="Tenebrous Curse" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
               <characteristics>
                 <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">6</characteristic>
                 <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18&quot;</characteristic>
@@ -16800,16 +16820,16 @@ wounds.</characteristic>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="b1de-e4f0-1cc3-1a12" name="6) Mind Raid" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="0b69-d0c1-57fd-d523" name="6) Temporal Corridor" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d64-3078-363f-26da" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a1d-38b2-df31-18dd" type="max"/>
           </constraints>
           <profiles>
-            <profile id="a684-f5ed-3fda-4dfc" name="Mind Raid" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+            <profile id="b8eb-83e5-6fc5-e1da" name="Temporal Corridor" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
               <characteristics>
                 <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">6</characteristic>
-                <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18&quot;</characteristic>
-                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, select an enemy model within 18&quot; of and visible to the psyker. That model&apos;s unit suffers a mortal wound. If your army is Battle-forged, and the model you chose was a CHARACTER, you can then roll 3D6. If the result is equal to or higher than that model&apos;s Leadership characteristic, you gain 1 Command Point.</characteristic>
+                <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">3&quot;</characteristic>
+                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, select a friendly ADEPTUS ASTARTES PHOBOS unit within 3&quot; of the psyker. That unit can immediately move as if it were the Movement phase; it cannot Fall Back as part of this move and must Advance. When rolling to see how far this unit Advances, roll 3D6 and discard the two lowest results. You cannot use Temporal Corridor on a unit more than once per Psychic phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
