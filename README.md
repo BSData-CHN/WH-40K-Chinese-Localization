@@ -1,4 +1,4 @@
-Warhammer 40,000 8th Edition
+战锤 40K 8版
 ============================
 
 [![GitHub release](https://img.shields.io/github/release/BSData/wh40k.svg?style=flat-square)](https://github.com/BSData/wh40k/releases/latest)
