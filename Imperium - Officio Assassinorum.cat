@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f731-6aa6-c141-8937" name="帝国 - 刺客厅" revision="1" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="Discord: @Alphalas | Twitter: @kingoverlord" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f731-6aa6-c141-8937" name="帝国 - 刺客厅" revision="1" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="Discord: @Alphalas | Twitter: @kingoverlord" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="f731-6aa6-pubN65537" name="Index: Imperium 2"/>
     <publication id="f731-6aa6-pubN66377" name="Codex: Officio Assassinorum"/>
@@ -88,13 +88,16 @@
         <categoryLink id="a16b-6fd6-c2ba-6d66" name="New CategoryLink" hidden="false" targetId="fcff-0f21-93e6-1ddc" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="3d54-719f-dced-552e" name="General" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="3d54-719f-dced-552e" name="通用" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e6e6-5c2d-c35a-3cf5" type="max"/>
           </constraints>
           <rules>
-            <rule id="a920-6294-7463-72c8" name="Priority Threat Neutralised - 1 CP" hidden="false">
-              <description>Use this Statagem after an enemy 人物 model is slain by an OFFICIO ASSASSINORUM unit from your army. You gain 2 Command Points (or 3 Command Points if the 人物 was your opponent&apos;s Warlord). You can only use this Stratagem once for each enemy 人物 model slain.</description>
+            <rule id="a920-6294-7463-72c8" name="主目标歼灭 - 1 CP" hidden="false">
+              <description>耗费：1 点指挥点
+作用对象：见下文。
+使用时机：在你的刺客厅单位杀死一个敌军人物之后，立刻使用。
+效果：你得到 2 点 CP，而如果你杀死的敌军人物同时还是敌军的主将，则改为得到 3CP。</description>
             </rule>
           </rules>
           <costs>
@@ -103,7 +106,7 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f169-93ec-895a-16c1" name="Callidus" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="f169-93ec-895a-16c1" name="卡利都司" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -115,11 +118,18 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a69-64df-d749-6af4" type="max"/>
           </constraints>
           <rules>
-            <rule id="bf4b-5850-c404-e53d" name="Stratagem (Callidus) Acrobatic - 1 CP" hidden="false">
-              <description>Use this Stratagem in your Movement phase. Choose one CALLIDUS ASSASSIN from your army. That model can Advance and charge this turn. In addition, until the start of the next battle round, substract 1 from hit rolls for attacks that target the chosen model.</description>
+            <rule id="bf4b-5850-c404-e53d" name="跃动空翻 - 1 CP" hidden="false">
+              <description>耗费：1 点指挥点
+作用对象：一个卡利都司刺客。
+使用时机：你的移动阶段中。
+效果：本玩家回合中，该模型可以在加速后冲锋；此外，直到下一个游戏大回合开始时为止，所有对该模型进行的攻击的命中骰结果都-1。</description>
             </rule>
-            <rule id="e199-9c65-6d80-8e39" name="Stratagem (Callidus) Supreme Deception - 2 CP" hidden="false">
-              <description>Use this Stratagem at the start of any battle round after the first. Choose one CALLIDUS ASSASSIN from your army. That model&apos;s Reigh of Confusion ability is considered to be in effect until the end of that battle round. You can only use this Stratagem once per battle.</description>
+            <rule id="e199-9c65-6d80-8e39" name="终极欺诈 - 2 CP" hidden="false">
+              <description>一次性能力
+耗费：2 点指挥点
+作用对象：一个卡利都司刺客（可以不在场）。
+使用时机：第一个游戏大回合以外的任意游戏大回合开始时。
+效果：该模型的“迷踪幻影”能力在这个游戏大回合中同样生效，忽略其原本的限制。</description>
             </rule>
           </rules>
           <costs>
@@ -128,7 +138,7 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="9b6b-ea94-3d30-fb22" name="Culexus" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="9b6b-ea94-3d30-fb22" name="邱利萨斯" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -140,11 +150,17 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc11-6cfb-03b7-b8ac" type="max"/>
           </constraints>
           <rules>
-            <rule id="04cf-3693-e46d-116a" name="Stratagem (Culexus) Soul Horror - 2 CP" hidden="false">
-              <description>Use this Stratagem at the start of the Fight phase. Choose one CULEXUS ASSASSIN from your army. Enemy units within 3寸 of that model cannot be chosen to fight this phase until after all other units have done so, even if they charged. If one of those units has an ability that allows them to fight first this phase, they instead fight in this phase as if they do not have that ability.</description>
+            <rule id="04cf-3693-e46d-116a" name="灵魂恐惧 - 2 CP" hidden="false">
+              <description>耗费：2 点指挥点
+作用对象：一个邱利萨斯刺客。
+使用时机：任意近战阶段开始时。
+效果：本阶段中，位于该模型 3 寸内的敌军单位只能在所有其它可以进行近战的单位全部结算完近战攻击之后才能进行近战，哪怕它在本回合中成功进行了冲锋也是如此；而如果被影响的敌军单位具备其它的“永远先攻”类能力，则这个单位改为在这个阶段中按照正常顺位进行近战，就如同它没有先攻能力一般。</description>
             </rule>
-            <rule id="2802-7ced-96c6-a859" name="Stratagem (Culexus) Pariah&apos;s Gaze - 1 CP" hidden="false">
-              <description>Use this Stratagem in your Shooting phase, before choosing a CULEXUS ASSASSIN to shoot with. Until the end of the phase, the Damage charateristic of that model&apos;s ranged weapons is increased to D3.</description>
+            <rule id="2802-7ced-96c6-a859" name="流放者之凝视 - 1 CP" hidden="false">
+              <description>耗费：1 点指挥点
+作用对象：一个邱利萨斯刺客。
+使用时机：你的射击阶段中，选择该模型进行射击攻击之前。
+效果：本阶段中，该模型所装备的所有射击武器的破坏力改为 D3。</description>
             </rule>
           </rules>
           <costs>
@@ -153,7 +169,7 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="b180-d1ea-918a-812f" name="Eversor" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="b180-d1ea-918a-812f" name="艾弗森" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -165,11 +181,18 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6870-7294-62c5-984c" type="max"/>
           </constraints>
           <rules>
-            <rule id="1d18-acd4-9a02-433e" name="Stratagem (Eversor) Hypermetabolism - 1 CP" hidden="false">
-              <description>Use this Stratagem at the start of any phase. Choose one EVERSOR ASSASSIN from your army. Until the end of that phase, roll one D6 each time that model loses a wound (excluding those lost as the result of a mortal wound); on a 4+ the wound is not lost.</description>
+            <rule id="1d18-acd4-9a02-433e" name="超能代谢 - 1 CP" hidden="false">
+              <description>耗费：1 点指挥点
+作用对象：一个艾弗森刺客。
+使用时机：任意阶段开始时。
+效果：本阶段中，每当该模型失去 1 点 W 时，为其投掷 D6，如结果为 4+，该模型便不失去这点 W。
+&gt;本能力对致命伤害造成的 W 值损失无效。</description>
             </rule>
-            <rule id="b53f-3942-dafc-084d" name="Stratagem (Eversor) Stimm Overload - 2 CP" hidden="false">
-              <description>Use this Stratagem at the end of the Fight phase. Choose one EVERSOR ASSASSIN from your army to fight with, even if that model has already fought this phase. After that model has fought, roll one D6. On a 1, 2 or 3 it suffers 1 mortal wound.</description>
+            <rule id="b53f-3942-dafc-084d" name="过量兴奋剂注射 - 2 CP" hidden="false">
+              <description>耗费：2 点指挥点
+作用对象：一个艾弗森刺客。
+使用时机：任意近战阶段结束时。
+效果：该模型可以立刻再进行一轮近战，即便其已经在这个阶段中进行过近战；在这一轮额外近战结束后，为该模型投掷 D6，如结果为 1-3，则该模型遭受 1 点致命伤害。</description>
             </rule>
           </rules>
           <costs>
@@ -178,7 +201,7 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="0945-f053-f64a-6e78" name="Vindicare" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="0945-f053-f64a-6e78" name="文迪卡" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -190,11 +213,17 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e30-b4f9-e984-8d64" type="max"/>
           </constraints>
           <rules>
-            <rule id="50a2-9055-eda2-4d95" name="Stratagem (Vindicare) Double Kill - 1 CP" hidden="false">
-              <description>Use this Stratagem in your Shooting phase, after a VINDICARE ASSASSIN from your army shoots. That model can shoot one additional time this phase (this must be at a different target).</description>
+            <rule id="50a2-9055-eda2-4d95" name="连环射击 - 1 CP" hidden="false">
+              <description>耗费：1 点指挥点
+作用对象：一个文迪卡刺客。
+使用时机：你的射击阶段中，该模型结算完一次射击攻击之后。
+效果：该模型可以立刻在本阶段中再进行一次射击，但必须选择与第一次射击不同的目标。</description>
             </rule>
-            <rule id="c804-6fed-64cd-efa2" name="Stratagem (Vindicare) Turbo-Penetrator Round - 1 CP" hidden="false">
-              <description>Use this Stratagem in your Shooting phase, after an attack made with an exitus pistol or extus rifle by a VINDICARE ASSASSIN from your army scores a hit against a target that is either a VEHICLE or a MONSTER. Do not make a wound roll for that attack; instead that hit inflicts D3 mortal wounds on the target. If this stratagem is used then the Head Shot ability dies not apply to that attack.</description>
+            <rule id="c804-6fed-64cd-efa2" name="涡轮穿刺弹 - 1 CP" hidden="false">
+              <description>耗费：1 点指挥点
+作用对象：一个文迪卡刺客。
+使用时机：你的射击阶段中，该模型使用灭杀步枪或灭杀手枪对载具或巨兽打出一下命中之后。
+效果：不为这一下攻击投掷造伤骰，而是改为目标单位直接遭受 D3 点致命伤；此外，文迪卡刺客的“一枪爆头”规则对使用了本战略能力的这一下攻击不生效。</description>
             </rule>
           </rules>
           <costs>
