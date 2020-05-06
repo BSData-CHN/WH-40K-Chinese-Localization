@@ -60,9 +60,9 @@
     <profileType id="5f4f-ea74-0630-4afe" name="损伤表">
       <characteristicTypes>
         <characteristicType id="8e45-c866-b2d4-c9ab" name="剩余W"/>
-        <characteristicType id="bf41-c860-50bc-2a7e" name="Characteristic 1"/>
-        <characteristicType id="dc18-e51f-309b-8efa" name="Characteristic 2"/>
-        <characteristicType id="df06-8eca-150f-90ba" name="Characteristic 3"/>
+        <characteristicType id="bf41-c860-50bc-2a7e" name="属性 1"/>
+        <characteristicType id="dc18-e51f-309b-8efa" name="属性 2"/>
+        <characteristicType id="df06-8eca-150f-90ba" name="属性 3"/>
       </characteristicTypes>
     </profileType>
     <profileType id="800f-21d0-4387-c943" name="单位">
@@ -570,13 +570,13 @@
             <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c1e7-468c-fe43-d580" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="93c3-802d-d4e3-b9d7" name="Elites" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false">
+        <categoryLink id="93c3-802d-d4e3-b9d7" name="精英槽位" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4b0f-d3dd-bca2-8ced" type="min"/>
             <constraint field="selections" scope="force" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9603-b2c6-9e1a-946a" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="c88f-aa81-d819-da77" name="Fast Attack" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false">
+        <categoryLink id="c88f-aa81-d819-da77" name="快速槽位" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ca10-643a-ffaa-3342" type="max"/>
           </constraints>
@@ -1779,7 +1779,7 @@
         <categoryLink id="0c5c-0d15-790d-6f8c" name="New CategoryLink" hidden="false" targetId="fcff-0f21-93e6-1ddc" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="e860-827e-24e0-0bd8" name="Use Beta Rules" hidden="false" collective="false" import="true" targetId="3cf4-7a43-f7a5-51cc" type="selectionEntry">
+    <entryLink id="e860-827e-24e0-0bd8" name="使用测试规则" hidden="false" collective="false" import="true" targetId="3cf4-7a43-f7a5-51cc" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="f2d4-4c7c-a8d7-e844" name="New CategoryLink" hidden="false" targetId="fcff-0f21-93e6-1ddc" primary="true"/>
       </categoryLinks>
@@ -3362,7 +3362,7 @@
         <cost name="指挥点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="38e3-37a8-42a3-e195" name="Stormstrike missile launcher" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="38e3-37a8-42a3-e195" name="风暴打击导弹发射器" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="70a6-4e0b-6bd9-fe7c" name="Stormstrike missile launcher" hidden="false" targetId="f465-e051-3946-f328" type="profile"/>
       </infoLinks>
@@ -4753,25 +4753,25 @@
         <profile id="6b86-9982-a828-cd05" name="Land Raider 1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
             <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">9-16+</characteristic>
-            <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">10寸</characteristic>
-            <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">3+</characteristic>
-            <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">6</characteristic>
+            <characteristic name="属性 1" typeId="bf41-c860-50bc-2a7e">10寸</characteristic>
+            <characteristic name="属性 2" typeId="dc18-e51f-309b-8efa">3+</characteristic>
+            <characteristic name="属性 3" typeId="df06-8eca-150f-90ba">6</characteristic>
           </characteristics>
         </profile>
         <profile id="5df6-03db-d1b8-96a9" name="Land Raider 2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
             <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">5-8</characteristic>
-            <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">5寸</characteristic>
-            <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">4+</characteristic>
-            <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">D6</characteristic>
+            <characteristic name="属性 1" typeId="bf41-c860-50bc-2a7e">5寸</characteristic>
+            <characteristic name="属性 2" typeId="dc18-e51f-309b-8efa">4+</characteristic>
+            <characteristic name="属性 3" typeId="df06-8eca-150f-90ba">D6</characteristic>
           </characteristics>
         </profile>
         <profile id="5797-b722-3f07-d14b" name="Land Raider 3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
             <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">1-4</characteristic>
-            <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">3寸</characteristic>
-            <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">5+</characteristic>
-            <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">1</characteristic>
+            <characteristic name="属性 1" typeId="bf41-c860-50bc-2a7e">3寸</characteristic>
+            <characteristic name="属性 2" typeId="dc18-e51f-309b-8efa">5+</characteristic>
+            <characteristic name="属性 3" typeId="df06-8eca-150f-90ba">1</characteristic>
           </characteristics>
         </profile>
         <profile id="d3b4-594c-eec8-7b66" name="Power Overload" hidden="true" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
@@ -5212,25 +5212,25 @@
         <profile id="a9ff-6709-6e30-8fde" name="Terrax-Pattern Termite Assault Drill 1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
             <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">6-10+</characteristic>
-            <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">8寸</characteristic>
-            <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">3+</characteristic>
-            <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">6</characteristic>
+            <characteristic name="属性 1" typeId="bf41-c860-50bc-2a7e">8寸</characteristic>
+            <characteristic name="属性 2" typeId="dc18-e51f-309b-8efa">3+</characteristic>
+            <characteristic name="属性 3" typeId="df06-8eca-150f-90ba">6</characteristic>
           </characteristics>
         </profile>
         <profile id="197d-34c8-59b7-8856" name="Terrax-Pattern Termite Assault Drill 2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
             <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">3-5</characteristic>
-            <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">6寸</characteristic>
-            <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">4+</characteristic>
-            <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">D6</characteristic>
+            <characteristic name="属性 1" typeId="bf41-c860-50bc-2a7e">6寸</characteristic>
+            <characteristic name="属性 2" typeId="dc18-e51f-309b-8efa">4+</characteristic>
+            <characteristic name="属性 3" typeId="df06-8eca-150f-90ba">D6</characteristic>
           </characteristics>
         </profile>
         <profile id="2f1f-123d-0228-58cf" name="Terrax-Pattern Termite Assault Drill 3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
             <characteristic name="剩余W" typeId="8e45-c866-b2d4-c9ab">1-2</characteristic>
-            <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">4寸</characteristic>
-            <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">5+</characteristic>
-            <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">D3</characteristic>
+            <characteristic name="属性 1" typeId="bf41-c860-50bc-2a7e">4寸</characteristic>
+            <characteristic name="属性 2" typeId="dc18-e51f-309b-8efa">5+</characteristic>
+            <characteristic name="属性 3" typeId="df06-8eca-150f-90ba">D3</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9092,7 +9092,7 @@
         <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="f465-e051-3946-f328" name="Stormstrike missile launcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+    <profile id="f465-e051-3946-f328" name="风暴打击导弹发射器" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
         <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72寸</characteristic>
         <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 1</characteristic>

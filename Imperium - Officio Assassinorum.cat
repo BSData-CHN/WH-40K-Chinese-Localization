@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f731-6aa6-c141-8937" name="Imperium - Officio Assassinorum" revision="12" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="Discord: @Alphalas | Twitter: @kingoverlord" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f731-6aa6-c141-8937" name="帝国 - 刺客厅" revision="1" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="Discord: @Alphalas | Twitter: @kingoverlord" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="f731-6aa6-pubN65537" name="Index: Imperium 2"/>
     <publication id="f731-6aa6-pubN66377" name="Codex: Officio Assassinorum"/>
@@ -11,17 +11,17 @@
     <categoryEntry id="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" name="Troops" hidden="false"/>
     <categoryEntry id="c274d0b0-5866-44bc-9810-91c136ae7438" name="Fast Attack" hidden="false"/>
     <categoryEntry id="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" name="Heavy Support" hidden="false"/>
-    <categoryEntry id="b961-92d7-c36f-fa6f" name="Vindicare Assassin" hidden="false"/>
-    <categoryEntry id="80f8-6d43-129c-995e" name="Callidus Assassin" hidden="false"/>
-    <categoryEntry id="cb26-b18b-847d-368f" name="Culexus Assassin" hidden="false"/>
-    <categoryEntry id="6488-77cc-2ad3-7ae6" name="Eversor Assassin" hidden="false"/>
+    <categoryEntry id="b961-92d7-c36f-fa6f" name="文迪卡刺客" hidden="false"/>
+    <categoryEntry id="80f8-6d43-129c-995e" name="卡利都司刺客" hidden="false"/>
+    <categoryEntry id="cb26-b18b-847d-368f" name="邱利萨斯刺客" hidden="false"/>
+    <categoryEntry id="6488-77cc-2ad3-7ae6" name="艾弗森刺客" hidden="false"/>
   </categoryEntries>
   <forceEntries>
-    <forceEntry id="0383-bad5-390e-4cca" name="Vanguard Detachment" hidden="false">
+    <forceEntry id="0383-bad5-390e-4cca" name="处决小队" hidden="false">
       <forceEntries>
-        <forceEntry id="ff3a-fba8-4f66-fe7e" name="Vanguard Detachment" hidden="false">
+        <forceEntry id="ff3a-fba8-4f66-fe7e" name="处决小队" hidden="false">
           <categoryLinks>
-            <categoryLink id="252f-c1ff-8221-7ded" name="No Force Org Slot" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
+            <categoryLink id="252f-c1ff-8221-7ded" name="游戏选项" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
             <categoryLink id="1771-dd1b-11e6-43d0" name="Troops" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false"/>
             <categoryLink id="7fd7-8b99-ac88-8069" name="Elites" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false"/>
             <categoryLink id="42fe-6cd3-da91-11fb" name="Fast Attack" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false"/>
@@ -83,7 +83,7 @@
     </forceEntry>
   </forceEntries>
   <selectionEntries>
-    <selectionEntry id="b2b2-a0a3-6984-ee22" name="Show Stratagems" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="b2b2-a0a3-6984-ee22" name="显示战略" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
         <categoryLink id="a16b-6fd6-c2ba-6d66" name="New CategoryLink" hidden="false" targetId="fcff-0f21-93e6-1ddc" primary="true"/>
       </categoryLinks>
@@ -98,9 +98,9 @@
             </rule>
           </rules>
           <costs>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="指挥点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="f169-93ec-895a-16c1" name="Callidus" hidden="false" collective="false" import="true" type="upgrade">
@@ -123,9 +123,9 @@
             </rule>
           </rules>
           <costs>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="指挥点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9b6b-ea94-3d30-fb22" name="Culexus" hidden="false" collective="false" import="true" type="upgrade">
@@ -148,9 +148,9 @@
             </rule>
           </rules>
           <costs>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="指挥点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b180-d1ea-918a-812f" name="Eversor" hidden="false" collective="false" import="true" type="upgrade">
@@ -173,9 +173,9 @@
             </rule>
           </rules>
           <costs>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="指挥点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0945-f053-f64a-6e78" name="Vindicare" hidden="false" collective="false" import="true" type="upgrade">
@@ -198,16 +198,16 @@
             </rule>
           </rules>
           <costs>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="指挥点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="指挥点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -219,9 +219,9 @@
     <entryLink id="2ff1-ab5c-20d9-579e" name="Execution Force" hidden="false" collective="false" import="true" targetId="4841-da7f-fcaf-ae79" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="08d2-59b2-b846-88c7" name="Callidus Assassin" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="08d2-59b2-b846-88c7" name="卡利都司刺客" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="7a9966cc-d937-cff8-b2ef-a3835d634710" name="Callidus Assassin" publicationId="f731-6aa6-pubN66377" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="7a9966cc-d937-cff8-b2ef-a3835d634710" name="卡利都司刺客" publicationId="f731-6aa6-pubN66377" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">7寸</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">2+</characteristic>
@@ -234,19 +234,23 @@
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">6+</characteristic>
           </characteristics>
         </profile>
-        <profile id="338c-945e-a475-6b37" name="Hit and Run" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="338c-945e-a475-6b37" name="游击飞奔" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model can Fall Back and still shoot and charge in the same turn.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">本模型可以在同一个回合中撤退、射击与冲锋。
+</characteristic>
           </characteristics>
         </profile>
-        <profile id="41a0-3a33-8fa4-7367" name="Reign of Confusion" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="41a0-3a33-8fa4-7367" name="迷踪幻影" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If you have any models with this ability in your army, then during the first battle round you must roll a dice each time your opponent spends Command Points (CPs) to use a Stratagem. On a 4+, your opponent must spend one extra CP to use that Stratagem, or else it has no effect (the CPs spend so far are lost). This ability cannot affect Stratagems used &apos;before the battle begins&apos;.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果你军队中有任何模型具备这项能力，那么在第一个游戏大回合中，你可以在对手每次消耗指挥点数（CP）来使用战略能力时投掷一颗 D6，如结果为 4+，则敌人必须在这个战略能力的使用上多消耗 1 点 CP，否则这个战略能力就无法发动——而如果敌人此时没有足够的 CP，或者选择不额外消耗这 1 点 CP，那么这个没能发动的战略能力仍然会消耗原本的 CP 需求数。本能力对“游戏开始之前”使用的战略能力无效。
+如果你同时使用了多个类似的能力，你就可以在对手使用战略能力时为其投掷多颗骰子。
+例如说，如果你同时还使用了暗鸦守卫战团的“缚敌咽喉”战略能力，你就可以在对手使用战略能力时进行两次测试（其结果分别需要本能力的 4+和缚敌咽喉的 5+），每有一次成功的测试，对手就会额外扣除 1 点 CP。</characteristic>
           </characteristics>
         </profile>
-        <profile id="252e-b493-59fe-9452" name="Polymorphine" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="252e-b493-59fe-9452" name="化型刺客" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up this model in disguise instead of placing it on the battlefield.  At the end of any of your Movement phases this model can revert to its true form - set it up anywhere on the battlefield that is more than D6+3寸 away from any enemy models.  For example if you roll a 4, the model can be set up anywhere that is more than 7寸 from any enemy model.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">在部署军队时，你可以选择将本模型变形隐匿起来，而非正常放置到桌面上；如果你这么做了，那么在你的任意移动阶段结束时，你可以让本模型现出真身——将其放置在桌面上距离敌军模型 D6+3 寸以外的任意位置。
+</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -264,73 +268,73 @@
         <categoryLink id="0a5d-fefd-e95a-5993" name="New CategoryLink" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="ccd8a82c-8335-71ad-3fe1-db6b350f808a" name="Neural Shredder" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="ccd8a82c-8335-71ad-3fe1-db6b350f808a" name="神经粉碎枪" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <profiles>
-            <profile id="1087ea17-340c-7b23-f6fd-a0bd958525b2" name="Neural Shredder" publicationId="f731-6aa6-pubN66377" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="1087ea17-340c-7b23-f6fd-a0bd958525b2" name="神经粉碎枪" publicationId="f731-6aa6-pubN66377" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
-                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">9寸</characteristic>
-                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 1</characteristic>
+                <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">9寸</characteristic>
+                <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 1</characteristic>
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">*</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">*</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">*</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Roll 3D6 if a unit is hit by this weapon; if the roll is equal to or greater then the target unit&apos;s highest Leadership characteristic, then it suffers D3 mortal wounds.</characteristic>
+                <characteristic name="能力" typeId="837d-5e63-aeb7-1410">本武器不进行通常的造伤测试：每当本武器命中时，投掷 3D6 并将其结果相加；如其结果大于等于目标单位中最高的 LD 值，该单位就遭受 D3 点致命伤害</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
+            <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="指挥点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f50e39a4-cc9d-9eb9-316f-9825f8033f08" name="Phase Sword" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="f50e39a4-cc9d-9eb9-316f-9825f8033f08" name="相位剑" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <profiles>
-            <profile id="51bf8492-c218-0b3c-d1d5-a9772898d229" name="Phase Sword" publicationId="f731-6aa6-pubN66377" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="51bf8492-c218-0b3c-d1d5-a9772898d229" name="相位剑" publicationId="f731-6aa6-pubN66377" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
-                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
-                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
+                <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
+                <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Invulnerable saves cannot be taken against attacks made with this weapon</characteristic>
+                <characteristic name="能力" typeId="837d-5e63-aeb7-1410">特殊保护不能用于对抗本武器造成的伤害</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
+            <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="指挥点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="4d4a171a-d572-a868-dfa8-12aeb849da38" name="Poison Blades" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="4d4a171a-d572-a868-dfa8-12aeb849da38" name="淬毒之刃" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <profiles>
-            <profile id="c1fe0116-c198-e6d3-4b8a-43d21a86332b" name="Poison Blades" publicationId="f731-6aa6-pubN66377" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="c1fe0116-c198-e6d3-4b8a-43d21a86332b" name="淬毒之刃" publicationId="f731-6aa6-pubN66377" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
-                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
-                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
+                <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
+                <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">*</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time the bearer fights, it can make 1 additional attack with this weapon. This weapon wounds on a 3+, unless it is targeting a VEHICLE. in which case it wounds on a 6+</characteristic>
+                <characteristic name="能力" typeId="837d-5e63-aeb7-1410">每当装备者进行近战攻击时，可使用本武器额外攻击一下；本武器对非载具单位固定 3+造伤，对载具则固定 6+造伤</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
+            <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="指挥点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -339,14 +343,14 @@
         <entryLink id="63e6-7477-d7b6-d444" name="自定义人物选项" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="95.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="5.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="95.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="5.0"/>
+        <cost name="指挥点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="15d3-57f0-2c9d-f074" name="Culexus Assassin" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="15d3-57f0-2c9d-f074" name="邱利萨斯刺客" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="b7984e3f-310e-4b87-ad93-59fdee9b15e1" name="Culexus Assassin" publicationId="f731-6aa6-pubN66377" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="b7984e3f-310e-4b87-ad93-59fdee9b15e1" name="邱利萨斯刺客" publicationId="f731-6aa6-pubN66377" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">7寸</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">2+</characteristic>
@@ -359,24 +363,27 @@
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">6+</characteristic>
           </characteristics>
         </profile>
-        <profile id="08a0-a7cf-9df0-61f0" name="Etherium" publicationId="f731-6aa6-pubN66377" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="08a0-a7cf-9df0-61f0" name="虚无缥缈" publicationId="f731-6aa6-pubN66377" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time an enemy model attacks this model, the attacks are resolved as if the the attacker had a BS/WS of 6+</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">在攻击本模型时，攻击者的 WS 和 BS 都按照 6+来结算。</characteristic>
           </characteristics>
         </profile>
-        <profile id="56b8-7376-7809-cce9" name="Life Drain" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="56b8-7376-7809-cce9" name="生命吸取" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Armour saves cannot be taken against close combat attacks made by this model</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">本模型造成的近战伤害忽略护甲保护，但可以进行特殊保护。
+</characteristic>
           </characteristics>
         </profile>
-        <profile id="188f-a12e-5ec8-001c" name="Abomination" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="188f-a12e-5ec8-001c" name="灵能畸体" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model can never be targeted or affected by psychic powers in any way. PSYKERS that are within 18寸 of any Culexus Assassins must subtract 2 from Psychic tests and Deny the witch tests they take.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">本模型永远不能被选为灵能的直接目标，同时也不能被任何灵能以任何形式影响；位于邱利萨斯刺客 18 寸内的敌军灵能者的灵能测试与破除巫术测试的结果都-2，本效果不可叠加。
+此外，一些灵能无法由释放者选择目标，而是会自动作用于最近的敌方单位（例如惩击），当邱利萨斯刺客是距离释放者最近的敌方单位时，此类灵能即便成功释放，也不会产生任何效果。
+</characteristic>
           </characteristics>
         </profile>
-        <profile id="a9b3-8751-d45c-5aa1" name="Psychic Assassin" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="a9b3-8751-d45c-5aa1" name="灵能刺客" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model can target a 人物 that is a PSYKER, even if it is not the closest enemy unit. In addition, this model can make an attack with a psyk-out grenade in the same phase it uses it&apos;s animus speculum.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">本模型可以直接射击敌方具备灵能者关键词的人物，即便其此刻不是距离自己最近的模型。此外，本模型在使用恶怨焦镜进行攻击的同一个阶段内还可以使用驱灵手雷进行攻击。</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -394,50 +401,50 @@
         <categoryLink id="b8e6-21a5-96fa-e0b5" name="New CategoryLink" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="f18e83a8-da27-0161-d471-f992ffcbeb01" name="Animus Speculum" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="f18e83a8-da27-0161-d471-f992ffcbeb01" name="恶怨焦镜" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <profiles>
-            <profile id="b880e6e8-1036-c1da-270a-f2de3a110ce8" name="Animus Speculum" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="b880e6e8-1036-c1da-270a-f2de3a110ce8" name="恶怨焦镜" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
-                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18寸</characteristic>
-                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 D3</characteristic>
+                <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18寸</characteristic>
+                <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 D3</characteristic>
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Change this weapon&apos;s type to Assault D6 if there are enemy PSYKERS within 18寸 of the bearer</characteristic>
+                <characteristic name="能力" typeId="837d-5e63-aeb7-1410">如装备者 18 寸内存在敌军灵能者，则本武器类型改为突击 D6</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
+            <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="指挥点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="91095a9c-7fd4-5f44-a36d-59d1c13318d5" name="Psyk-out Grenades" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="91095a9c-7fd4-5f44-a36d-59d1c13318d5" name="驱灵手雷" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <profiles>
-            <profile id="294b3223-8bcf-8c7e-0ca0-93542e88eb4a" name="Psyk-out Grenades" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="294b3223-8bcf-8c7e-0ca0-93542e88eb4a" name="驱灵手雷" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
-                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6寸</characteristic>
-                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手雷 D3</characteristic>
+                <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6寸</characteristic>
+                <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手雷 D3</characteristic>
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">2</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time you roll a hit roll of 6+ for this weapon when targeting a PSYKER or DAEMON, the target suffers a mortal wound instead of the normal damage.</characteristic>
+                <characteristic name="能力" typeId="837d-5e63-aeb7-1410">每当本武器对灵能者和恶魔目标投出结果为 6+的命中骰时，这一下攻击就直接造成 1 点致命伤害，且攻击结算流程就此结束，不再投掷后续的造伤与保护骰。</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
+            <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="指挥点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -446,14 +453,14 @@
         <entryLink id="9b97-313a-1272-16ea" name="自定义人物选项" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="95.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="5.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="95.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="5.0"/>
+        <cost name="指挥点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8e8a-617b-5665-f83f" name="Eversor Assassin" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="8e8a-617b-5665-f83f" name="艾弗森刺客" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="30c1de5d-ef54-98e7-f53f-d840be9d344a" name="Eversor Assassin" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="30c1de5d-ef54-98e7-f53f-d840be9d344a" name="艾弗森刺客" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">7寸</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">2+</characteristic>
@@ -466,30 +473,33 @@
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">6+</characteristic>
           </characteristics>
         </profile>
-        <profile id="11ca-699d-c700-2f05" name="Frenzon" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="11ca-699d-c700-2f05" name="狂化药剂" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When making a charge roll for this model, roll 3D6 rather then 2D6. In Addition, add 2 to this model&apos;s Attack characteristic if they charged in the preceding Charge phase.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">本模型在冲锋时投掷 3D6，而非原本的 2D6；此外，在本模型成功于冲锋阶段中进行了冲锋的同回合近战阶段中，本模型的 A 值+2。
+</characteristic>
           </characteristics>
         </profile>
-        <profile id="4d49-183a-dab8-252d" name="Sentinel Array" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="4d49-183a-dab8-252d" name="哨戒阵列" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time an enemy unit falls back whilst within 1寸 of this model, this model can immeadiately make a shooting attack against that enemy as if it were its shooting phase.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每当有敌军单位在本模型 1 寸内进行撤退时，本模型就可以在敌人进行实际模型移动之前立刻对这个敌军单位进行一枪（而不是完整的一整轮）射击攻击，就如同是在自己的射击阶段中一样。需要注意的是，因为此时本模型位于敌军单位 1 寸以内，所以只能使用手枪类武器。
+</characteristic>
           </characteristics>
         </profile>
-        <profile id="ac6a-7eac-95a4-487f" name="Bio-meltdown" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="ac6a-7eac-95a4-487f" name="生化熔毁" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model is reduced to zero Wounds, roll a D6 for each enemy unit that is within 6寸 of this model before removing it from the battlefield. On a roll of 4+ the enemy unit suffers D3 Mortal wounds</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">当本模型的 W 被削减至 0 时，首先为位于本模型 6 寸内的每一个敌军单位分别投掷 D6，如结果为 4+，这个敌军单位就遭受 D3 点致命伤害；在结算完这个能力之后，再移除本模型。
+</characteristic>
           </characteristics>
         </profile>
-        <profile id="cc3f-ba70-b4e2-7e1a" name="Killing Rampage" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="cc3f-ba70-b4e2-7e1a" name="疯狂杀戮" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each Time an enemy model is slain as the result of an attack made with a 肉搏武器 by this model, this model can immediately make one additional attack against the same unit. These additional attacks cannot themselves generate additional attacks. In addition this model can consolidate up to 6寸 instead of 3寸</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每有一个敌军模型被本模型的近战武器攻击杀死，本模型就可以立刻再对同一个目标单位进行一下（A1）攻击，新增的攻击并不限制使用同一把武器，但也不能再产生更多的额外攻击；此外，本模型的重整距离为 6 寸，而非通常的 3 寸。</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="5e946fdd-eb22-855f-414f-3aa3d3dbb3a2" hidden="false" targetId="6fa7-7d69-7fce-f215" type="rule"/>
-        <infoLink id="d5dc9752-0566-02d2-384d-af5344442d10" hidden="false" targetId="62ec-db58-d522-deda" type="rule"/>
+        <infoLink id="d5dc9752-0566-02d2-384d-af5344442d10" name="闪电反射" hidden="false" targetId="62ec-db58-d522-deda" type="rule"/>
         <infoLink id="50bc-d02a-4519-6b93" name="Execution Force" hidden="false" targetId="2dc4-c403-ca18-9344" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -501,87 +511,87 @@
         <categoryLink id="6edd-4255-1a09-107d" name="New CategoryLink" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="ef8b65c6-5292-b3bf-7559-65cc552b12a8" name="Power Sword" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="ef8b65c6-5292-b3bf-7559-65cc552b12a8" name="动力剑" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="dd2d-2a36-9a7c-bd22" name="Power sword" hidden="false" targetId="47df-8e01-d0cf-58e8" type="profile"/>
+            <infoLink id="dd2d-2a36-9a7c-bd22" name="动力剑" hidden="false" targetId="47df-8e01-d0cf-58e8" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
+            <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="指挥点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="226e7674-c226-7edd-3e8c-59e9434a8be7" name="Melta bombs" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="226e7674-c226-7edd-3e8c-59e9434a8be7" name="热熔炸弹" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <profiles>
-            <profile id="8d15-0eb3-f8c9-2705" name="Melta bombs" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="8d15-0eb3-f8c9-2705" name="热熔炸弹" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
-                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">4寸</characteristic>
-                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手雷 1</characteristic>
+                <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">4寸</characteristic>
+                <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手雷 1</characteristic>
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">You can re-roll failed wound rolls for this weapon if the target is a VEHICLE</characteristic>
+                <characteristic name="能力" typeId="837d-5e63-aeb7-1410">本武器在攻击载具单位时可以重投造伤骰</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
+            <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="指挥点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="b92ec135-7404-97df-46e7-3fc9406e2029" name="Executioner Pistol" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="b92ec135-7404-97df-46e7-3fc9406e2029" name="处决者手枪" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <profiles>
-            <profile id="90e5d899-878a-43d7-636c-70db0ed32ef0" name="Executioner Pistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="90e5d899-878a-43d7-636c-70db0ed32ef0" name="处决者手枪" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
-                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12寸</characteristic>
-                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手枪 4</characteristic>
+                <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12寸</characteristic>
+                <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手枪 4</characteristic>
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">You can reroll failed wound rolls for this weapon if the target is an INFANTRY model</characteristic>
+                <characteristic name="能力" typeId="837d-5e63-aeb7-1410">本武器在攻击步兵单位时可以重投造伤骰</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
+            <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="指挥点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="ee446415-1fda-3a6c-b956-f1b921d91a50" name="Neuro-gauntlet" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="ee446415-1fda-3a6c-b956-f1b921d91a50" name="神经元拳甲" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <profiles>
-            <profile id="a7674648-569b-d1b1-42a3-9aee727f249c" name="Neuro-gauntlet" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="a7674648-569b-d1b1-42a3-9aee727f249c" name="神经元拳甲" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
-                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
-                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
+                <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
+                <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">+1</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">You can reroll failed wound rolls with this weapon</characteristic>
+                <characteristic name="能力" typeId="837d-5e63-aeb7-1410">本武器可以重投造伤骰</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
+            <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="指挥点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -590,29 +600,30 @@
         <entryLink id="ff02-9c36-a15b-c059" name="自定义人物选项" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="95.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="5.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="95.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="5.0"/>
+        <cost name="指挥点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8d0f-297a-5547-8a6b" name="Vindicare Assassin" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="8d0f-297a-5547-8a6b" name="文迪卡刺客" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="c61f-a4b1-dfed-3178" name="Spy Mask" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="c61f-a4b1-dfed-3178" name="间谍面具" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Enemy models do not gain the bonus to thier saving throws for being in cover against attacks made with ranged weapons by this model.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">对于本模型使用射击武器造成的伤害，敌军模型不能从掩体中得到护甲保护加成。</characteristic>
           </characteristics>
         </profile>
-        <profile id="9a9e-b03d-a60f-17bd" name="Stealth Suit" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="9a9e-b03d-a60f-17bd" name="潜行套装" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Subtract 1 from hit rolls for attacks made with ranged weapons that target this model. If this model is in or on a terrain feature, subtract 2 instead.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">当本模型被远程武器攻击时，这些攻击的命中骰结果-1；如果本模型同时还位于区域地形中，则这些攻击的命中骰结果改为-2</characteristic>
           </characteristics>
         </profile>
-        <profile id="2f1e-0051-0924-f5a5" name="Deadshot" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="2f1e-0051-0924-f5a5" name="神枪手" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model can target a 人物 even if it is not the closest enemy unit. In addition, each time an unmodified wound roll of 6 is made for an attack with a ranged weapon by this model, the Damage for that attack is D6</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">本模型可以直接射击敌方人物，即便其此刻不是距离自己最近的模型。此外，每当本模型使用射击武器投出结果为 6（不计算修正值）的造伤骰时，这一下攻击的破坏力从 D3 变为 D6。
+</characteristic>
           </characteristics>
         </profile>
-        <profile id="73a4-db77-cbfd-54af" name="Vindicare Assassin" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="73a4-db77-cbfd-54af" name="文迪卡刺客" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">7寸</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">2+</characteristic>
@@ -625,14 +636,15 @@
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">6+</characteristic>
           </characteristics>
         </profile>
-        <profile id="4c5b-5f0a-bd8c-0a8c" name="Faultless Aim" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="4c5b-5f0a-bd8c-0a8c" name="无暇精准" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model remained stationary in its previous movement phase, it always hits on a 2+ when firing a ranged weapon, regardless of modifiers. (hit rolls of 6 are still required when firing overwatch)</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">如果本模型在上一个移动阶段中没有移动过，则其在使用射击武器时永远 2+命中，忽略一切修正值，但坚守射击仍然需要 6+才可命中。</characteristic>
           </characteristics>
         </profile>
-        <profile id="afbe-7c9e-41ca-f2ad" name="Head Shot" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="afbe-7c9e-41ca-f2ad" name="一枪爆头" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">After this model has made an attack with a ranged weapon, roll one D6 if a model suffered damage from that attack but has not been slain; on a 3+ that model suffers 1 mortal wound and, if that model is not slain, you can roll one more D6. This time, that model suffers 1 mortal wound on a 4+. Keep rolling one D6, increasing the result required, to cause a mortal wound by 1 each time, until the model being rolled for is slain or the roll is failed.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">每当本模型使用射击武器进行了一下射击攻击，且成功使一个敌军模型受到伤害（即 W 值被削减）后，如果这个受到伤害的模型依然存活，就投掷一颗 D6 进行测试，如结果为 3+，受伤的敌军模型就额外遭受 1 点致命伤害；如果该敌军模型在上述测试成功之后依然存活，就再投掷一颗 D6，如结果为 4+，这个敌军模型再额外遭受 1 点伤害——文迪卡刺客可以重复进行该测试，每次测试成功所需的 D6 结果增加 1 点，一直持续到这样的测试失败，或是该目标被杀为止。
+</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -650,73 +662,75 @@
         <categoryLink id="e3ba-6c41-4f00-f19b" name="New CategoryLink" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="00dd29e2-73ac-c7cb-7047-22eb951c2678" name="Blind Grenades" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="00dd29e2-73ac-c7cb-7047-22eb951c2678" name="致盲手雷" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <profiles>
-            <profile id="a993-65d8-6d9b-9eca" name="Blind Grenades" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="a993-65d8-6d9b-9eca" name="致盲手雷" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
-                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12</characteristic>
-                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手雷 d6</characteristic>
+                <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12</characteristic>
+                <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手雷 d6</characteristic>
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">*</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">*</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">*</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon does not inflict any damage on the target. Instead, if a unit is hit by any blind grenades, your opponent must subtract 1 from all hit rolls made until the end of the turn.</characteristic>
+                <characteristic name="能力" typeId="837d-5e63-aeb7-1410">本武器无法造成伤害（也无需投掷造伤骰）；被本武器命中的单位在同一个回合中的所有命中骰结果-1</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
+            <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="指挥点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="6fad1db2-4c89-7483-1542-37a1375d1f6a" name="Exitus Rifle" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="6fad1db2-4c89-7483-1542-37a1375d1f6a" name="灭杀步枪" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <profiles>
-            <profile id="a2ee7b8e-eb53-29a3-ff27-a24d01c3e5f3" name="Exitus Rifle" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="a2ee7b8e-eb53-29a3-ff27-a24d01c3e5f3" name="灭杀步枪" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
-                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72寸</characteristic>
-                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 1</characteristic>
+                <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72寸</characteristic>
+                <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 1</characteristic>
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Invulnerable saves cannot be taken against a wound inflicted by this weapon. This weapon inflicts wounds against INFANTRY units on 2+</characteristic>
+                <characteristic name="能力" typeId="837d-5e63-aeb7-1410">特殊保护不能用于对抗本武器造成的伤害
+本武器在攻击步兵单位时固定 2+造伤</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
+            <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="指挥点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f8f0db3c-0d34-8e40-c259-202f65a961fb" name="Exitus Pistol" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="f8f0db3c-0d34-8e40-c259-202f65a961fb" name="灭杀手枪" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <profiles>
-            <profile id="247e1f7f-7863-0194-580f-16527c134264" name="Exitus Pistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="247e1f7f-7863-0194-580f-16527c134264" name="灭杀手枪" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
-                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12寸</characteristic>
-                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手枪 1</characteristic>
+                <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12寸</characteristic>
+                <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手枪 1</characteristic>
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Invulnerable saves cannot be taken against a wound inflicted by this weapon. This weapon inflicts wounds against INFANTRY units on 2+</characteristic>
+                <characteristic name="能力" typeId="837d-5e63-aeb7-1410">特殊保护不能用于对抗本武器造成的伤害
+本武器在攻击步兵单位时固定 2+造伤</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
+            <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="指挥点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -725,12 +739,12 @@
         <entryLink id="0f25-6eab-5a3a-3dfa" name="自定义人物选项" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="95.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="5.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="95.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="5.0"/>
+        <cost name="指挥点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4841-da7f-fcaf-ae79" name="Execution Force" hidden="true" collective="false" import="true" type="upgrade">
+    <selectionEntry id="4841-da7f-fcaf-ae79" name="处决小队" hidden="true" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditionGroups>
@@ -749,21 +763,22 @@
         <categoryLink id="20c7-1738-6f6c-de63" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
+        <cost name="指挥点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
-    <rule id="6fa7-7d69-7fce-f215" name="Independent Operative" publicationId="f731-6aa6-pubN66377" hidden="false">
-      <description>This Model can never have a Warlord Trait. During deployment, you can set this model up in concealment instead of placing it on the battlefield. At the end of any of your movement phases, this model can reveal it&apos;s position - set it up anywhere on the battlefield that is more then 9寸 from any enemy model.</description>
+    <rule id="6fa7-7d69-7fce-f215" name="独行特工" publicationId="f731-6aa6-pubN66377" hidden="false">
+      <description>该模型永远不能成为主将。此外，在部署军队时，你可以选择将本模型藏匿起来，而非正常放置到桌面上；如果你这么做了，那么在你的任意移动阶段结束时，你可以让本模型现身——将其放置在桌面上距离敌军模型 9 寸以外的任意位置。</description>
     </rule>
-    <rule id="62ec-db58-d522-deda" name="Lightning Reflexes" publicationId="f731-6aa6-pubN66377" hidden="false">
-      <description>A model with this special rule has a 4+ invulnerable save.</description>
+    <rule id="62ec-db58-d522-deda" name="闪电反射" publicationId="f731-6aa6-pubN66377" hidden="false">
+      <description>该模型拥有 4+特殊保护。</description>
     </rule>
-    <rule id="2dc4-c403-ca18-9344" name="Execution Force" page="" hidden="false">
-      <description>So long as your Warlord is from the IMPERIUM, you can include this unit in a Vanguard Detachment even if that Detachment contains no HQ units. However, if you do so, that Detachment&apos;s Command Benefits are changed to &apos;None&apos; unless that Detachment contains exactly 1 of each assassin.</description>
+    <rule id="2dc4-c403-ca18-9344" name="处决小队" page="" hidden="false">
+      <description>只要你的军队由帝国主将带领，你就可以在军队中加入无需 HQ 的先锋分队，作为刺客特殊的分队形式，并且该分队也只能使用刺客厅单位；该分队只有在刚好包括 1 个文迪卡刺客、1 个邱利萨斯刺客、1 个卡利都司刺客以及 1 个艾弗森刺客时才会得到正常的指挥奖励，即 1 点 CP 点数。
+而如果该分队不是这样的配置，则不会奖励任何 CP 点数。</description>
     </rule>
   </sharedRules>
 </catalogue>
