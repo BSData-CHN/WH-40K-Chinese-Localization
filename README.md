@@ -1,76 +1,99 @@
 战锤 40K 8版
 ============================
 
-[![GitHub release](https://img.shields.io/github/release/BSData/wh40k.svg?style=flat-square)](https://github.com/BSData/wh40k/releases/latest)
-![Github commits (since latest release)](https://img.shields.io/github/commits-since/BSData/wh40k/latest.svg?style=flat-square)
-[![Open Bug issues](https://img.shields.io/github/issues/bsdata/wh40k/Type%3A%20bug.svg?style=flat-square&label=bugs)](https://github.com/BSData/wh40k/issues?q=is%3Aissue+is%3Aopen+label%3A%22Type%3A+bug%22)
-[![GitHub contributors](https://img.shields.io/github/contributors/BSData/wh40k.svg?style=flat-square)](https://github.com/BSData/wh40k/graphs/contributors)
-![GitHub commit activity the past year](https://img.shields.io/github/commit-activity/y/BSData/wh40k.svg?style=flat-square)
+## 翻译记录 ##
+Aeldari - Craftworlds.cat
 
-[![Chat on Discord](https://img.shields.io/discord/558412685981777922?style=popout-square)](https://discord.gg/KqPVhds)
+Aeldari - Drukhari.cat
 
+Aeldari - FW Corsairs.cat
 
-## Important ##
-[Important]: #important
+Aeldari - Harlequins.cat
 
-__The Battlescribe data editor can cause problems when merging updates. Because of this, and also to avoid duplicated effort where multiple people are working on the same files, please join us on Gitter before you commit changes to the files.__
+Aeldari - Ynnari.cat
 
+Chaos - Chaos Space Marines.cat
 
-__Previous editions__: _However we don't support older editions actively, the files are available from [7th Edition repo](https://github.com/BSData/wh40k-7th-edition) - also there you can find archived files for 7th and 6th edition for BattleScribe v1.15._
+Chaos - Daemons.cat
 
-#### Contents ####
-[Contents]: #contents
+Chaos - Dark Mechanicum.cat
 
-* [Important][]
-* [Overview][]
-* [Reporting bugs & contact us][]
-* [Links][]
+Chaos - Death Guard.cat
 
-[Important]: #important
-[Overview]: #overview
-[Reporting bugs & contact us]: #reporting-bugs--contact-us
-[Links]: #links
+Chaos - FW Heretic Astartes.cat
 
+Chaos - FW Renegade and Heretics.cat
 
-## Overview ##
-[Overview]: #overview
+Chaos - Gellerpox Infected.cat
 
-* __What's this?__
+Chaos - Questor Traitoris.cat
 
-  _BSData organisation created this project. It's a GitHub repository of datafiles. Maintained by the community, in no way endorsed by BattleScribe. If you want to develop - cool! We need you! Take a look at [Getting Started wiki][]_
+Chaos - Servants of the Abyss.cat
 
-* __Okay, nice project. Is it actually working?__ _I just want those files..._
- 
-  _Yeah! We have it hosted on AppSpot. Take a look: [BattleScribe Data on Appspot][]_
+Chaos - Thousand Sons.cat
 
+Chaos - Titanicus Traitoris.cat
 
-## Reporting bugs & contact us ##
+Fallen.cat
 
-* __I found a bug!__
- 
-  _Great, thank you! Now you have two选项:_
+Imperium - Adeptus Astra Telepathica.cat
 
-  1. [Report it on Appspot][] - it's anonymous and no account is needed - one downside, you will need to manually check the progress of your issue.
-  2. [Open Issue directly][] (green ```New Issue``` in upper-right) - you need a GitHub account and then can track progress (get notifications on it!), comment (i.e. answer our questions) and help us better!
+Imperium - Adeptus Custodes.cat
 
-* __I'd just like to contact you.__
+Imperium - Adeptus Mechanicus.cat
 
-  Then join us on Discord!
-  
-  [![Chat on Discord](https://img.shields.io/discord/558412685981777922?style=popout-square)](https://discord.gg/KqPVhds)
- 
-  _Otherwise, the easiest way is through issues mentioned above. We are a community and that's the only place we 所有 have access to. We don't have any group e-mail. So if you want to stay anonymous, contact us by reporting bug on Appspot (point 1 above)._
+Imperium - Adeptus Ministorum.cat
 
-[Report it on Appspot]: http://battlescribedata.appspot.com/#/repo/wh40k
-[Open Issue directly]: https://github.com/BSData/wh40k/issues
+Imperium - Adeptus Titanicus.cat
 
-## Links ##
+Imperium - Astra Militarum.cat
 
-* [BattleScribe homepage][]
-* [BattleScribe Data on Appspot][]
-* [Getting Started wiki][]
+Imperium - Astra Militarum - Library.cat
 
+Imperium - Blackstone Fortress.cat
 
-[BattleScribe homepage]: http://www.battlescribe.net/
-[BattleScribe Data on Appspot]: http://battlescribedata.appspot.com/#/repos
-[Getting Started wiki]: https://github.com/BSData/catalogue-development/wiki/Getting-Started
+Imperium - Blood Angels.cat
+
+Imperium - Dark Angels.cat
+
+Imperium - Deathwatch.cat
+
+Imperium - Elucidian Starstriders.cat
+
+Imperium - FW Adeptus Astartes.cat
+
+Imperium - FW Death Korps of Krieg.cat
+
+Imperium - FW Elysians.cat
+
+Imperium - Grey Knights.cat
+
+Imperium - Inquisition.cat
+
+Imperium - Legion of the Damned.cat
+
+Imperium - Officio Assassinorum.cat
+
+Imperium - Questor Imperialis.cat
+
+Imperium - Sisters of Silence.cat
+
+Imperium - Space Marines.cat
+
+Imperium - Space Wolves.cat
+
+Necrons.cat
+
+Orks.cat
+
+README.md
+
+T'au Empire.cat
+
+Tyranids.cat
+
+Tyranids - Genestealer Cults.cat
+
+Unaligned - Monsters and Gribblies.cat
+
+Warhammer 40,000 8th Edition.gst
