@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c010-4da2-5a55-a3be" name="Imperium - Adeptus Astartes - White Scars" revision="11" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="Acebaur" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="128" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c010-4da2-5a55-a3be" name="Imperium - Adeptus Astartes - White Scars" revision="13" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="Acebaur" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="132" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="38f8-60cb-7a29-7752" name="Khan on Bike" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
@@ -93,7 +93,7 @@
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="6.0"/>
-        <cost name="pts" typeId="points" value="100.0"/>
+        <cost name="pts" typeId="points" value="110.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -199,7 +199,7 @@
         <entryLink id="d673-82b3-7b67-303f" name="Stratagem: Hero of the Chapter" hidden="false" collective="false" import="true" targetId="5efd-6285-c9f7-2a5a" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="105.0"/>
+        <cost name="pts" typeId="points" value="110.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -333,6 +333,19 @@
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the Strength characteristic of friendly WHITE SCARS units within 6&quot; of Kor&apos;sarro Khan when they attack in the Fight phase if they charged that turn.</characteristic>
           </characteristics>
         </profile>
+        <profile id="e5ec-e8cc-686f-ee6d" name="Kar&apos;sarro Khan on Moondrakkan" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="0bdf-a96e-9e38-7779">14&quot;</characteristic>
+            <characteristic name="WS" typeId="e7f0-1278-0250-df0c">2+</characteristic>
+            <characteristic name="BS" typeId="381b-eb28-74c3-df5f">2+</characteristic>
+            <characteristic name="S" typeId="2218-aa3c-265f-2939">4</characteristic>
+            <characteristic name="T" typeId="9c9f-9774-a358-3a39">5</characteristic>
+            <characteristic name="W" typeId="f330-5e6e-4110-0978">6</characteristic>
+            <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">4</characteristic>
+            <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">9</characteristic>
+            <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoLinks>
         <infoLink id="27da-323e-91a8-f608" name="Angels of Death" hidden="false" targetId="01a4-bec8-b573-fde7" type="rule"/>
@@ -347,6 +360,7 @@
             </modifier>
           </modifiers>
         </infoLink>
+        <infoLink id="b8b6-7a8d-337d-efb6" name="Turbo-boost" hidden="false" targetId="c027-2e84-7468-0607" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="a561-6534-2d3d-b376" name="New CategoryLink" hidden="false" targetId="c7b7-edbc-bc14-6238" primary="false"/>
@@ -382,55 +396,6 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="fc75-5940-5119-8909" name="Model Option" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2362-9df9-5df6-333b" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40ac-ece3-04a6-2335" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="36b5-de6b-fc4d-9710" name="On Moondrakkan" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="cf04-6508-923f-5e40" name="Kar&apos;sarro Khan on Moondrakkan" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-                  <characteristics>
-                    <characteristic name="M" typeId="0bdf-a96e-9e38-7779">14&quot;</characteristic>
-                    <characteristic name="WS" typeId="e7f0-1278-0250-df0c">2+</characteristic>
-                    <characteristic name="BS" typeId="381b-eb28-74c3-df5f">2+</characteristic>
-                    <characteristic name="S" typeId="2218-aa3c-265f-2939">4</characteristic>
-                    <characteristic name="T" typeId="9c9f-9774-a358-3a39">5</characteristic>
-                    <characteristic name="W" typeId="f330-5e6e-4110-0978">6</characteristic>
-                    <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">4</characteristic>
-                    <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">9</characteristic>
-                    <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink id="6b12-a295-22b4-2ab6" name="Turbo-boost" hidden="false" targetId="c027-2e84-7468-0607" type="profile"/>
-              </infoLinks>
-              <categoryLinks>
-                <categoryLink id="bcdf-7536-5c67-66a7" name="New CategoryLink" hidden="false" targetId="1c6f-0311-3eba-3180" primary="false"/>
-              </categoryLinks>
-              <entryLinks>
-                <entryLink id="dbcc-1619-3416-2584" name="Twin boltgun" hidden="false" collective="false" import="true" targetId="4c54-1c89-299c-05c5" type="selectionEntry">
-                  <modifiers>
-                    <modifier type="set" field="points" value="0.0"/>
-                  </modifiers>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e06-11ce-9161-d6e0" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a2d-b53f-3842-3f45" type="max"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="132.0"/>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="7.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="083b-8242-c291-6cdf" name="Bolt pistol" hidden="false" collective="false" import="true" targetId="0334-f487-8229-0c1a" type="selectionEntry">
           <constraints>
@@ -446,6 +411,15 @@
         </entryLink>
         <entryLink id="4fc2-d7e0-df8d-aa55" name="Warlord" hidden="false" collective="false" import="true" targetId="01cf-00c7-c4af-701b" type="selectionEntry"/>
         <entryLink id="8ce3-e4a1-d52e-1030" name="Stratagem: Hero of the Chapter" hidden="false" collective="false" import="true" targetId="5efd-6285-c9f7-2a5a" type="selectionEntry"/>
+        <entryLink id="ef65-e72b-3d4a-c18c" name="Twin boltgun" hidden="false" collective="false" import="true" targetId="4c54-1c89-299c-05c5" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="points" value="0.0"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c168-7b06-441c-454d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31b5-daf5-8b3b-cf76" type="max"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -461,6 +435,9 @@
           </conditions>
         </modifier>
       </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd32-f411-ffe9-d25d" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="3a91-a61f-172f-db78" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
       </categoryLinks>
@@ -472,7 +449,6 @@
           </constraints>
           <infoLinks>
             <infoLink id="164c-b647-fafa-37be" name="Company Heroes" hidden="false" targetId="eb6d-5525-bbe8-6d0a" type="profile"/>
-            <infoLink id="c716-9cc6-f897-06a3" name="Tactical Precision" hidden="false" targetId="ca86-a970-9bab-d29a" type="profile"/>
             <infoLink id="3aeb-b278-8112-0ed0" name="Angels of Death" hidden="false" targetId="01a4-bec8-b573-fde7" type="rule"/>
           </infoLinks>
           <entryLinks>
@@ -488,6 +464,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="48ff-dab7-4fee-a1fc" name="Lieutenants in Phobos Armour" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="920d-94f5-a469-b1ef" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="df67-7639-38aa-90db" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
       </categoryLinks>
@@ -499,7 +478,6 @@
           </constraints>
           <infoLinks>
             <infoLink id="23ce-2879-f1a7-13a3" name="Company Heroes" hidden="false" targetId="eb6d-5525-bbe8-6d0a" type="profile"/>
-            <infoLink id="0612-4e26-80d2-b5d1" name="Tactical Precision" hidden="false" targetId="ca86-a970-9bab-d29a" type="profile"/>
             <infoLink id="ea73-8335-f696-e5ac" name="Angels of Death" hidden="false" targetId="01a4-bec8-b573-fde7" type="rule"/>
           </infoLinks>
           <entryLinks>
@@ -515,6 +493,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="0e09-55a4-b2fe-62a7" name="Primaris Lieutenants" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21bd-a586-484e-c7ee" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="0dbe-30d2-98ea-96b2" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
       </categoryLinks>
@@ -526,12 +507,40 @@
           </constraints>
           <infoLinks>
             <infoLink id="f40d-0e4e-2008-dece" name="Company Heroes" hidden="false" targetId="eb6d-5525-bbe8-6d0a" type="profile"/>
-            <infoLink id="b451-3442-9539-98e7" name="Tactical Precision" hidden="false" targetId="ca86-a970-9bab-d29a" type="profile"/>
             <infoLink id="c5b8-9feb-6da0-160f" name="Angels of Death" hidden="false" targetId="01a4-bec8-b573-fde7" type="rule"/>
           </infoLinks>
           <entryLinks>
             <entryLink id="a84d-56b7-8074-7c35" name="Chapter Relics" hidden="false" collective="false" import="true" targetId="80ed-10b8-d2d5-a5e0" type="selectionEntryGroup"/>
             <entryLink id="53cf-8671-c89b-879a" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="453e-769a-4240-c489" type="selectionEntryGroup"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="490e-ab9a-01c8-604f" name="Primaris Lieutenants (Indomitus)" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72ad-e364-9818-d65b" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="6755-3de3-e8d4-0e3d" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="b2f9-765b-b1b5-a81e" name="Primaris Lieutenant (Indomitus)" hidden="false" collective="false" import="true" targetId="1278-4d59-29b6-51a8" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af89-155c-6920-ec9c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b59c-c98b-990b-9933" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="6a65-25cb-bdb8-1dec" name="Company Heroes" hidden="false" targetId="eb6d-5525-bbe8-6d0a" type="profile"/>
+            <infoLink id="7599-30c7-a3d2-6806" name="Angels of Death" hidden="false" targetId="01a4-bec8-b573-fde7" type="rule"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="2eb4-4839-169f-ca4c" name="Chapter Relics" hidden="false" collective="false" import="true" targetId="80ed-10b8-d2d5-a5e0" type="selectionEntryGroup"/>
+            <entryLink id="317c-d01a-6461-2a3d" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="453e-769a-4240-c489" type="selectionEntryGroup"/>
           </entryLinks>
         </entryLink>
       </entryLinks>
@@ -1688,6 +1697,37 @@
         <categoryLink id="0a6b-b131-67a1-b333" name="New CategoryLink" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="57cf-52cc-659a-61cd" name="Bladeguard Ancient" hidden="false" collective="false" import="true" targetId="0dac-86be-d7a0-9dd8" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="874b-6dd1-8bea-fe24" name="New CategoryLink" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="0740-ff05-acbf-f560" name="Chapter Relics" hidden="false" collective="false" import="true" targetId="80ed-10b8-d2d5-a5e0" type="selectionEntryGroup"/>
+        <entryLink id="8cd0-91d3-e09d-87a8" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="453e-769a-4240-c489" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="5b38-1190-76e5-7875" name="Judiciar" hidden="false" collective="false" import="true" targetId="335d-a06f-0afb-c749" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="1975-ab7b-e7bc-fda9" name="New CategoryLink" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="aabf-034a-622c-4c1b" name="Chapter Relics" hidden="false" collective="false" import="true" targetId="80ed-10b8-d2d5-a5e0" type="selectionEntryGroup"/>
+        <entryLink id="3e6b-8a96-094c-4f96" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="453e-769a-4240-c489" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="8373-a6bb-6d5c-625e" name="Primaris Captain (Indomitus)" hidden="false" collective="false" import="true" targetId="1cf8-cf12-0575-8ac5" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="8e31-3b91-7b12-a3ae" name="New CategoryLink" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="aa1a-1fcc-7b39-8b65" name="Chapter Relics" hidden="false" collective="false" import="true" targetId="80ed-10b8-d2d5-a5e0" type="selectionEntryGroup"/>
+        <entryLink id="b587-ea73-0242-dd87" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="453e-769a-4240-c489" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="72e3-6e4f-f052-b1a7" name="Bladeguard Veteran Squad" hidden="false" collective="false" import="true" targetId="0da5-bbc7-769c-7ae4" type="selectionEntry"/>
+    <entryLink id="177d-0a9a-bc61-334b" name="Eradicator Squad" hidden="false" collective="false" import="true" targetId="17cc-76ac-ab20-fae6" type="selectionEntry"/>
+    <entryLink id="15fd-18c5-ac40-b8c0" name="Outrider Squad" hidden="false" collective="false" import="true" targetId="a977-6081-02ad-35ff" type="selectionEntry"/>
+    <entryLink id="8eb2-c49a-56d8-b623" name="Assault Intercessor Squad" hidden="false" collective="false" import="true" targetId="2ab1-1cf3-acbf-530e" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="453e-769a-4240-c489" name="Warlord Traits" hidden="false" collective="false" import="true">
@@ -2224,17 +2264,38 @@
             </conditionGroup>
           </conditionGroups>
           <modifiers>
-            <modifier type="set" field="9533-0486-2417-0e0c" value="2.0"/>
-            <modifier type="set" field="add3-bd16-aa47-42f0" value="2.0"/>
+            <modifier type="set" field="9533-0486-2417-0e0c" value="4.0"/>
+            <modifier type="set" field="add3-bd16-aa47-42f0" value="4.0"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="add3-bd16-aa47-42f0" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9533-0486-2417-0e0c" type="min"/>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="add3-bd16-aa47-42f0" type="max"/>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9533-0486-2417-0e0c" type="min"/>
       </constraints>
+      <selectionEntries>
+        <selectionEntry id="c7e0-e0e2-8795-a0e6" name="Strike off the Head" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af42-d008-197a-5044" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="858a-b76c-4185-35c0" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="9a2e-1c39-03d7-905c" name="Strike off the Head" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this litany is inspiring, then when resolving an attack made with a melee weapon by a model in a friendly WHITE SCARS unit within 6&quot; of this model, you can re-roll the wound roll. </characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <entryLinks>
         <entryLink id="75ce-a11d-19cd-8904" name="Litanies of Battle" hidden="false" collective="false" import="true" targetId="cd9a-45c1-d055-18bc" type="selectionEntryGroup"/>
+        <entryLink id="b887-490b-2060-8ab9" name="Litany of Hate" hidden="false" collective="false" import="true" targetId="a441-cc96-406f-0667" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>

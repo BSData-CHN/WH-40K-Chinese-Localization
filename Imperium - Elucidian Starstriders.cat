@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b619-ccba-8c99-4699" name="帝国 - Elucidian Starstriders" revision="4" battleScribeVersion="2.03" authorName="BSData-CHN" authorContact="@GenWilhelm" authorUrl="https://github.com/BSData-CHN" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="58" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b619-ccba-8c99-4699" name="Imperium - Elucidian Starstriders" revision="5" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@GenWilhelm" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="129" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
-    <publication id="b619-ccba-pubN66040" name="圣典: Elucidian Starstriders"/>
+    <publication id="b619-ccba-pubN66040" name="Codex: Elucidian Starstriders"/>
   </publications>
   <categoryEntries>
-    <categoryEntry id="286c-17a6-c298-88b5" name="阵营: Elucidian Starstriders" hidden="false"/>
+    <categoryEntry id="286c-17a6-c298-88b5" name="Faction: Elucidian Starstriders" hidden="false"/>
     <categoryEntry id="aa3d-a05c-a35a-bfe9" name="Voidsmen-at-Arms" hidden="false"/>
-    <categoryEntry id="4d44-2a53-2c16-cca5" name="机械修会" hidden="false"/>
-    <categoryEntry id="700b-df23-f39b-e8b0" name="火星" hidden="false"/>
-    <categoryEntry id="7df3-2edc-c726-41b6" name="Tech-祭司" hidden="false"/>
+    <categoryEntry id="4d44-2a53-2c16-cca5" name="Adeptus Mechanicus" hidden="false"/>
+    <categoryEntry id="700b-df23-f39b-e8b0" name="Mars" hidden="false"/>
+    <categoryEntry id="7df3-2edc-c726-41b6" name="Tech-Priest" hidden="false"/>
     <categoryEntry id="f457-0a02-0a09-3dc3" name="Lectro-Maester" hidden="false"/>
     <categoryEntry id="92d4-90c4-6ab7-3fa0" name="Rogue Trader" hidden="false"/>
-    <categoryEntry id="6fa0-fde1-94a1-880c" name="阵营: Astra Cartographica" hidden="false"/>
+    <categoryEntry id="6fa0-fde1-94a1-880c" name="Faction: Astra Cartographica" hidden="false"/>
     <categoryEntry id="1ed0-1ca9-8c59-0acd" name="Rejuvenat Adept" hidden="false"/>
     <categoryEntry id="e1cf-c1a7-d518-4685" name="Adeptus Ministorum" hidden="false"/>
     <categoryEntry id="8e86-de74-2b56-27fa" name="Death Cult Executioner" hidden="false"/>
   </categoryEntries>
   <entryLinks>
-    <entryLink id="ace2-bf11-81ad-541b" name="Nitsch&apos;s小队" hidden="false" collective="false" import="true" targetId="bbfa-3999-2731-1c30" type="selectionEntry">
+    <entryLink id="ace2-bf11-81ad-541b" name="Nitsch&apos;s Squad" hidden="false" collective="false" import="true" targetId="bbfa-3999-2731-1c30" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="33af-0728-d3ae-e793" name="New CategoryLink" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
       </categoryLinks>
@@ -61,7 +61,12 @@
         <categoryLink id="7b33-d8fc-ede3-df6e" name="New CategoryLink" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="bceb-2fd8-bd33-6304" name="刺客出击许可" hidden="false" collective="false" import="true" targetId="0b7d-bfe1-b63e-ecb6" type="selectionEntry"/>
+    <entryLink id="bceb-2fd8-bd33-6304" name="Operative Requisition Sanctioned" hidden="false" collective="false" import="true" targetId="0b7d-bfe1-b63e-ecb6" type="selectionEntry"/>
+    <entryLink id="bc86-b96d-8ef7-9dd3" name="Ephrael Stern and Kyganil of the Bloody Tears" hidden="false" collective="false" import="true" targetId="7dca-e055-7a15-4bf3" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="bb68-4378-94e0-6819" name="New CategoryLink" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="399e-3014-2283-8196" name="Elucia Vhane" hidden="false" collective="false" import="true" type="model">
@@ -78,35 +83,35 @@
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">you receive 3 额外的 指挥点数. These can only be spent to use Elucidian Starstriders Stratagems.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged you receive 3 additional Command Points. These can only be spent to use Elucidian Starstriders Stratagems.</characteristic>
           </characteristics>
         </profile>
-        <profile id="55be-3068-456b-380f" name="Elucia Vhane" publicationId="b619-ccba-pubN66040" page="9" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+        <profile id="55be-3068-456b-380f" name="Elucia Vhane" publicationId="b619-ccba-pubN66040" page="9" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6寸</characteristic>
+            <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
             <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
             <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
             <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
             <characteristic name="W" typeId="f330-5e6e-4110-0978">4</characteristic>
             <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">3</characteristic>
-            <characteristic name="LD" typeId="00ca-f8b8-876d-b705">9</characteristic>
-            <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
+            <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">9</characteristic>
+            <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
           </characteristics>
         </profile>
-        <profile id="6521-def5-4978-19e7" name="Concealed Archeotech武器" publicationId="b619-ccba-pubN66040" page="9" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="6521-def5-4978-19e7" name="Concealed Archeotech Weapon" publicationId="b619-ccba-pubN66040" page="9" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">一次性, 开始时 of the 肉搏阶段, pick an 敌方模型 1寸范围内 of Elucia Vhane and roll a dice; 结果为4+ that 模型的 单位 遭受 D3 致命伤.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per battle, at the start of the Fight phase, pick an enemy model within 1&quot; of Elucia Vhane and roll a dice; on a 4+ that model&apos;s unit suffers D3 mortal wounds.</characteristic>
           </characteristics>
         </profile>
         <profile id="26d6-2302-08cc-c147" name="Disruption Field Generator" publicationId="b619-ccba-pubN66040" page="9" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Elucia Vhane 拥有 4+ 特殊保护.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Elucia Vhane has a 4+ invulnerable save.</characteristic>
           </characteristics>
         </profile>
         <profile id="4ca2-216b-58e9-8e3f" name="Multi-Spectral Auspicator" publicationId="b619-ccba-pubN66040" page="9" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">重投命中的 1 made for 攻击 by 友方 ELUCIDIAN STARSTRIDERS 单位 6寸范围内 of Elucia Vhane.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Re-roll hit rolls of 1 made for attacks by friendly ELUCIDIAN STARSTRIDERS units within 6&quot; of Elucia Vhane.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -114,23 +119,23 @@
         <infoLink id="9fd9-ac9b-1d6b-99c3" name="Warrant of Trade" hidden="false" targetId="3277-45f7-c674-bd66" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="89d3-c9a1-f8f1-6984" name="人物" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
-        <categoryLink id="6b79-7619-8d5e-1f02" name="帝国" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false"/>
-        <categoryLink id="8f3f-30d8-1f46-e9c9" name="步兵" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
-        <categoryLink id="0395-cdc9-cff1-8893" name="阵营: Elucidian Starstriders" hidden="false" targetId="286c-17a6-c298-88b5" primary="false"/>
+        <categoryLink id="89d3-c9a1-f8f1-6984" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
+        <categoryLink id="6b79-7619-8d5e-1f02" name="Imperium" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false"/>
+        <categoryLink id="8f3f-30d8-1f46-e9c9" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
+        <categoryLink id="0395-cdc9-cff1-8893" name="Faction: Elucidian Starstriders" hidden="false" targetId="286c-17a6-c298-88b5" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="57d2-bd0f-8bce-494b" name="Monomolecular Cane-细剑" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="57d2-bd0f-8bce-494b" name="Monomolecular Cane-rapier" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03d5-d231-4798-5c97" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c566-dd56-4c2a-7154" type="max"/>
           </constraints>
           <profiles>
-            <profile id="e0ca-d005-0745-ff1c" name="Monomolecular Cane-细剑" publicationId="b619-ccba-pubN66040" page="9" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+            <profile id="e0ca-d005-0745-ff1c" name="Monomolecular Cane-rapier" publicationId="b619-ccba-pubN66040" page="9" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
               <characteristics>
-                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
-                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
-                <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
                 <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
@@ -143,16 +148,16 @@
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="ad15-4299-a12e-a1c6" name="Heirloom手枪" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="ad15-4299-a12e-a1c6" name="Heirloom Pistol" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="193f-1e51-1ce4-0f06" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad7b-a708-50fe-0841" type="max"/>
           </constraints>
           <profiles>
-            <profile id="469e-8f05-3da5-37d9" name="Heirloom手枪" publicationId="b619-ccba-pubN66040" page="9" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+            <profile id="469e-8f05-3da5-37d9" name="Heirloom Pistol" publicationId="b619-ccba-pubN66040" page="9" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
               <characteristics>
-                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12寸</characteristic>
-                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手枪 1</characteristic>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
@@ -168,8 +173,8 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="5150-ad70-4678-15e3" name="主将" hidden="false" collective="false" import="true" targetId="6217-33f6-b8f0-f1fa" type="selectionEntry"/>
-        <entryLink id="2809-35cc-66a4-91d8" name="Concussion 手雷" hidden="false" collective="false" import="true" targetId="c8df-57df-b18e-397d" type="selectionEntry">
+        <entryLink id="5150-ad70-4678-15e3" name="Warlord" hidden="false" collective="false" import="true" targetId="6217-33f6-b8f0-f1fa" type="selectionEntry"/>
+        <entryLink id="2809-35cc-66a4-91d8" name="Concussion Grenades" hidden="false" collective="false" import="true" targetId="c8df-57df-b18e-397d" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="92b1-900b-e7c8-71d5" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b1d-b324-ad6d-1074" type="max"/>
@@ -187,27 +192,27 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="90d3-ed4e-b4ea-722b" type="max"/>
       </constraints>
       <profiles>
-        <profile id="f505-6fcc-2824-e171" name="Knosso Prond" publicationId="b619-ccba-pubN66040" page="19" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+        <profile id="f505-6fcc-2824-e171" name="Knosso Prond" publicationId="b619-ccba-pubN66040" page="19" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="0bdf-a96e-9e38-7779">7寸</characteristic>
+            <characteristic name="M" typeId="0bdf-a96e-9e38-7779">7&quot;</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
             <characteristic name="BS" typeId="381b-eb28-74c3-df5f">4+</characteristic>
             <characteristic name="S" typeId="2218-aa3c-265f-2939">4</characteristic>
             <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
             <characteristic name="W" typeId="f330-5e6e-4110-0978">2</characteristic>
             <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">4</characteristic>
-            <characteristic name="LD" typeId="00ca-f8b8-876d-b705">8</characteristic>
-            <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">5+</characteristic>
+            <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">8</characteristic>
+            <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">5+</characteristic>
           </characteristics>
         </profile>
         <profile id="8650-012e-58b4-c564" name="Uncanny Reflexes" publicationId="b619-ccba-pubN66040" page="19" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个模型拥有 5+ 特殊保护.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model has a 5+ invulnerable save.</characteristic>
           </characteristics>
         </profile>
         <profile id="0d57-a103-40ed-20e1" name="Zealot" publicationId="b619-ccba-pubN66040" page="19" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投失败的命中骰 for 这个模型 in a turn in which it charged, made a 英勇干预, or was charged by an 敌方单位.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll failed hit rolls for this model in a turn in which it charged, made a Heroic Intervention, or was charged by an enemy unit.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -216,10 +221,10 @@
         <infoLink id="9a60-9ad9-1d19-66c9" name="Warrant of Trade" hidden="false" targetId="3277-45f7-c674-bd66" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="29c0-f9e9-2d67-84f2" name="人物" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
-        <categoryLink id="fcca-4d97-beba-b417" name="阵营: Elucidian Starstriders" hidden="false" targetId="286c-17a6-c298-88b5" primary="false"/>
-        <categoryLink id="9ada-5bc8-ba90-6d9a" name="帝国" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false"/>
-        <categoryLink id="0bc4-2f4a-363c-54dc" name="步兵" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
+        <categoryLink id="29c0-f9e9-2d67-84f2" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
+        <categoryLink id="fcca-4d97-beba-b417" name="Faction: Elucidian Starstriders" hidden="false" targetId="286c-17a6-c298-88b5" primary="false"/>
+        <categoryLink id="9ada-5bc8-ba90-6d9a" name="Imperium" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false"/>
+        <categoryLink id="0bc4-2f4a-363c-54dc" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
         <categoryLink id="2207-df06-69d6-550f" name="Adeptus Ministorum" hidden="false" targetId="e1cf-c1a7-d518-4685" primary="false"/>
         <categoryLink id="ec08-f3d0-529e-7c98" name="Death Cult Executioner" hidden="false" targetId="8e86-de74-2b56-27fa" primary="false"/>
       </categoryLinks>
@@ -230,14 +235,14 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a8c-ed90-b7ba-0614" type="min"/>
           </constraints>
           <profiles>
-            <profile id="9300-f17f-e5a3-723c" name="Dartmask" publicationId="b619-ccba-pubN66040" page="19" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+            <profile id="9300-f17f-e5a3-723c" name="Dartmask" publicationId="b619-ccba-pubN66040" page="19" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
               <characteristics>
-                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">9寸</characteristic>
-                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手枪 1</characteristic>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">9&quot;</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">1</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">这个武器 always wounds 结果为 2+, unless 目标 is a 载具 or 巨型 单位.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon always wounds on the roll of a 2+, unless the target is a VEHICLE or TITANIC unit.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -253,11 +258,11 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd79-538e-6ba1-417b" type="min"/>
           </constraints>
           <profiles>
-            <profile id="73e5-c467-3ddc-f745" name="Death Cult Power Blade" publicationId="b619-ccba-pubN66040" page="19" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+            <profile id="73e5-c467-3ddc-f745" name="Death Cult Power Blade" publicationId="b619-ccba-pubN66040" page="19" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
               <characteristics>
-                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
-                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
-                <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
                 <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
@@ -272,14 +277,14 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="c850-ada3-a294-2076" name="Concussion 手雷" hidden="false" collective="false" import="true" targetId="c8df-57df-b18e-397d" type="selectionEntry">
+        <entryLink id="c850-ada3-a294-2076" name="Concussion Grenades" hidden="false" collective="false" import="true" targetId="c8df-57df-b18e-397d" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="677b-c370-1763-9c6b" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7388-d267-1f76-430c" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="6bda-b3ae-79d8-e894" name="主将" hidden="false" collective="false" import="true" targetId="6217-33f6-b8f0-f1fa" type="selectionEntry"/>
-        <entryLink id="a765-bbe7-954f-e8e1" name="主将特性" hidden="false" collective="false" import="true" targetId="e935-78b4-b59a-7e9c" type="selectionEntryGroup"/>
+        <entryLink id="6bda-b3ae-79d8-e894" name="Warlord" hidden="false" collective="false" import="true" targetId="6217-33f6-b8f0-f1fa" type="selectionEntry"/>
+        <entryLink id="a765-bbe7-954f-e8e1" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="e935-78b4-b59a-7e9c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="25.0"/>
@@ -292,22 +297,22 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9b34-870c-9dbf-c24b" type="max"/>
       </constraints>
       <profiles>
-        <profile id="bb56-e97b-4bdd-2e86" name="Larsen van der Grauss" publicationId="b619-ccba-pubN66040" page="15" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+        <profile id="bb56-e97b-4bdd-2e86" name="Larsen van der Grauss" publicationId="b619-ccba-pubN66040" page="15" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6寸</characteristic>
+            <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
             <characteristic name="BS" typeId="381b-eb28-74c3-df5f">4+</characteristic>
             <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
             <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
             <characteristic name="W" typeId="f330-5e6e-4110-0978">2</characteristic>
             <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">2</characteristic>
-            <characteristic name="LD" typeId="00ca-f8b8-876d-b705">8</characteristic>
-            <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
+            <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">8</characteristic>
+            <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
           </characteristics>
         </profile>
         <profile id="38f0-0269-5b4e-c199" name="Voltageist Array" publicationId="b619-ccba-pubN66040" page="15" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">友方 ELUCIDIAN STARSTRIDERS 单位 wholly 6寸范围内 of 这个模型 have a 5+ 特殊保护.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Friendly ELUCIDIAN STARSTRIDERS units wholly within 6&quot; of this model have a 5+ invulnerable save.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -316,30 +321,30 @@
         <infoLink id="189e-9d51-7252-6dfa" name="Warrant of Trade" hidden="false" targetId="3277-45f7-c674-bd66" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="87af-a797-0af5-c1d1" name="阵营: Elucidian Starstriders" hidden="false" targetId="286c-17a6-c298-88b5" primary="false"/>
-        <categoryLink id="a805-1236-c31e-137e" name="人物" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
-        <categoryLink id="1d65-65ea-1074-5329" name="帝国" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false"/>
-        <categoryLink id="1cf9-7645-72da-03e3" name="步兵" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
-        <categoryLink id="0156-9806-0a44-f175" name="机械修会" hidden="false" targetId="4d44-2a53-2c16-cca5" primary="false"/>
+        <categoryLink id="87af-a797-0af5-c1d1" name="Faction: Elucidian Starstriders" hidden="false" targetId="286c-17a6-c298-88b5" primary="false"/>
+        <categoryLink id="a805-1236-c31e-137e" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
+        <categoryLink id="1d65-65ea-1074-5329" name="Imperium" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false"/>
+        <categoryLink id="1cf9-7645-72da-03e3" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
+        <categoryLink id="0156-9806-0a44-f175" name="Adeptus Mechanicus" hidden="false" targetId="4d44-2a53-2c16-cca5" primary="false"/>
         <categoryLink id="b288-22a7-8cc9-99ba" name="Lectro-Maester" hidden="false" targetId="f457-0a02-0a09-3dc3" primary="false"/>
-        <categoryLink id="2207-7a63-901c-f29a" name="火星" hidden="false" targetId="700b-df23-f39b-e8b0" primary="false"/>
-        <categoryLink id="0ad5-f721-f9d1-23b7" name="Tech-祭司" hidden="false" targetId="7df3-2edc-c726-41b6" primary="false"/>
+        <categoryLink id="2207-7a63-901c-f29a" name="Mars" hidden="false" targetId="700b-df23-f39b-e8b0" primary="false"/>
+        <categoryLink id="0ad5-f721-f9d1-23b7" name="Tech-Priest" hidden="false" targetId="7df3-2edc-c726-41b6" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="56d0-6e40-7cf5-eac8" name="Voltaic手枪" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="56d0-6e40-7cf5-eac8" name="Voltaic Pistol" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13a8-59f2-73a9-19a5" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f223-4900-5149-eb18" type="max"/>
           </constraints>
           <profiles>
-            <profile id="1dd5-5a1b-f293-ff63" name="Voltaic手枪" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+            <profile id="1dd5-5a1b-f293-ff63" name="Voltaic Pistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
               <characteristics>
-                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12寸</characteristic>
-                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手枪 1</characteristic>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each unmodified ht roll of 6 for an 攻击 使用这个武器 scores 3 命中.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each unmodified ht roll of 6 for an attack with this weapon scores 3 hits.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -351,14 +356,14 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="9b4d-7c10-0aa5-e14b" name="Concussion 手雷" hidden="false" collective="false" import="true" targetId="c8df-57df-b18e-397d" type="selectionEntry">
+        <entryLink id="9b4d-7c10-0aa5-e14b" name="Concussion Grenades" hidden="false" collective="false" import="true" targetId="c8df-57df-b18e-397d" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7eb-d5e7-abe0-6af0" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc00-4089-cab8-f23a" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="f378-21d6-17e6-eb2e" name="主将" hidden="false" collective="false" import="true" targetId="6217-33f6-b8f0-f1fa" type="selectionEntry"/>
-        <entryLink id="9371-e341-e32b-0613" name="主将特性" hidden="false" collective="false" import="true" targetId="e935-78b4-b59a-7e9c" type="selectionEntryGroup"/>
+        <entryLink id="f378-21d6-17e6-eb2e" name="Warlord" hidden="false" collective="false" import="true" targetId="6217-33f6-b8f0-f1fa" type="selectionEntry"/>
+        <entryLink id="9371-e341-e32b-0613" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="e935-78b4-b59a-7e9c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="22.0"/>
@@ -371,17 +376,17 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1d43-638b-ef5f-389c" type="max"/>
       </constraints>
       <profiles>
-        <profile id="3e87-7779-67f1-97d3" name="Sanistasia Minst" publicationId="b619-ccba-pubN66040" page="17" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+        <profile id="3e87-7779-67f1-97d3" name="Sanistasia Minst" publicationId="b619-ccba-pubN66040" page="17" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6寸</characteristic>
+            <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
             <characteristic name="BS" typeId="381b-eb28-74c3-df5f">4+</characteristic>
             <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
             <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
             <characteristic name="W" typeId="f330-5e6e-4110-0978">2</characteristic>
             <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">2</characteristic>
-            <characteristic name="LD" typeId="00ca-f8b8-876d-b705">7</characteristic>
-            <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">5+</characteristic>
+            <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7</characteristic>
+            <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">5+</characteristic>
           </characteristics>
         </profile>
         <profile id="4c06-9d17-335d-c9ef" name="Constant Companion" publicationId="b619-ccba-pubN66040" page="17" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -391,7 +396,7 @@
         </profile>
         <profile id="1028-a692-e050-111d" name="Healing Serum" publicationId="b619-ccba-pubN66040" page="17" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of each Movemnt phase, 这个模型 can attempt to heal a single 友方 ELUCIDIAN STARSTRIDERS 步兵单位 范围内 3寸. If it does so, 投掷1个D6; 结果为4+ one 模型 from the 单位 恢复 1 失去的W. If the 单位 is NITSCH&apos;S小队, one 模型 slain earlier in the battle is returned to the 单位 instead.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of each Movemnt phase, this model can attempt to heal a single friendly ELUCIDIAN STARSTRIDERS INFANTRY unit within 3&quot;. If it does so, roll a D6; on a 4+ one model from the unit regains 1 lost wound. If the unit is NITSCH&apos;S SQUAD, one model slain earlier in the battle is returned to the unit instead.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -400,10 +405,10 @@
         <infoLink id="05f9-f60b-1d68-5b88" name="Rogue Trader Retinue" hidden="false" targetId="3964-9765-7208-059f" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="5737-bee1-d3e1-ee67" name="人物" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
-        <categoryLink id="62db-55ef-0983-2d9c" name="帝国" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false"/>
-        <categoryLink id="b317-94c5-db5e-0cd4" name="步兵" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
-        <categoryLink id="72fc-2e37-a0ec-25c4" name="阵营: Elucidian Starstriders" hidden="false" targetId="286c-17a6-c298-88b5" primary="false"/>
+        <categoryLink id="5737-bee1-d3e1-ee67" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
+        <categoryLink id="62db-55ef-0983-2d9c" name="Imperium" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false"/>
+        <categoryLink id="b317-94c5-db5e-0cd4" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
+        <categoryLink id="72fc-2e37-a0ec-25c4" name="Faction: Elucidian Starstriders" hidden="false" targetId="286c-17a6-c298-88b5" primary="false"/>
         <categoryLink id="8e5b-0e59-4504-0f8f" name="Rejuvenat Adept" hidden="false" targetId="1ed0-1ca9-8c59-0acd" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -413,11 +418,11 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c915-8dc2-47b6-00b7" type="max"/>
           </constraints>
           <profiles>
-            <profile id="9b30-0b46-a5d7-a094" name="Scalpel Claw" publicationId="b619-ccba-pubN66040" page="17" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+            <profile id="9b30-0b46-a5d7-a094" name="Scalpel Claw" publicationId="b619-ccba-pubN66040" page="17" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
               <characteristics>
-                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
-                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
-                <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
                 <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
@@ -432,20 +437,20 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="64e0-1e9d-a0fb-f560" name="Concussion 手雷" hidden="false" collective="false" import="true" targetId="c8df-57df-b18e-397d" type="selectionEntry">
+        <entryLink id="64e0-1e9d-a0fb-f560" name="Concussion Grenades" hidden="false" collective="false" import="true" targetId="c8df-57df-b18e-397d" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3bf5-ba65-48ed-6592" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ffb-a9bd-08c2-2f3d" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="34d8-cb97-76fc-e7fd" name="激光手枪" hidden="false" collective="false" import="true" targetId="b6d8-94a9-9017-cc3c" type="selectionEntry">
+        <entryLink id="34d8-cb97-76fc-e7fd" name="Laspistol" hidden="false" collective="false" import="true" targetId="b6d8-94a9-9017-cc3c" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b1f-8e83-9982-c06f" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c27d-92d0-658f-d5e9" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="aa47-c088-32c5-c001" name="主将" hidden="false" collective="false" import="true" targetId="6217-33f6-b8f0-f1fa" type="selectionEntry"/>
-        <entryLink id="0fd9-fe38-c52c-4fff" name="主将特性" hidden="false" collective="false" import="true" targetId="e935-78b4-b59a-7e9c" type="selectionEntryGroup"/>
+        <entryLink id="aa47-c088-32c5-c001" name="Warlord" hidden="false" collective="false" import="true" targetId="6217-33f6-b8f0-f1fa" type="selectionEntry"/>
+        <entryLink id="0fd9-fe38-c52c-4fff" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="e935-78b4-b59a-7e9c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="17.0"/>
@@ -453,19 +458,19 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bbfa-3999-2731-1c30" name="Nitsch&apos;s小队" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="bbfa-3999-2731-1c30" name="Nitsch&apos;s Squad" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1ff4-22b9-1594-6b23" type="max"/>
       </constraints>
       <profiles>
         <profile id="f525-0db8-163a-fe97" name="Loyal Retainers" publicationId="b619-ccba-pubN66040" page="12" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the LD值 of 这个单位中的模型 whilst it is wholly 6寸范围内 of ELUCIA VHANE.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the Leadership characteristic of models in this unit whilst it is wholly within 6&quot; of ELUCIA VHANE.</characteristic>
           </characteristics>
         </profile>
         <profile id="1864-b1bf-954b-3945" name="Aximillion" publicationId="b619-ccba-pubN66040" page="12" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The death of Aximillion is ignored for the purposes of 士气测试.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The death of Aximillion is ignored for the purposes of Morale tests.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -474,9 +479,9 @@
         <infoLink id="ef08-2d13-3746-a5e0" name="Rogue Trader Retinue" hidden="false" targetId="3964-9765-7208-059f" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="5da4-3193-0140-cd1b" name="帝国" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false"/>
-        <categoryLink id="e51e-4f68-a13e-0c45" name="阵营: Elucidian Starstriders" hidden="false" targetId="286c-17a6-c298-88b5" primary="false"/>
-        <categoryLink id="f543-0ae4-0fd2-69c5" name="步兵" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
+        <categoryLink id="5da4-3193-0140-cd1b" name="Imperium" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false"/>
+        <categoryLink id="e51e-4f68-a13e-0c45" name="Faction: Elucidian Starstriders" hidden="false" targetId="286c-17a6-c298-88b5" primary="false"/>
+        <categoryLink id="f543-0ae4-0fd2-69c5" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
         <categoryLink id="e728-7357-bb53-6b73" name="Voidsmen-at-Arms" hidden="false" targetId="aa3d-a05c-a35a-bfe9" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -486,35 +491,35 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e4eb-a832-b269-9537" type="max"/>
           </constraints>
           <profiles>
-            <profile id="cdd2-53fb-c91d-050f" name="Voidsmaster Nitsch" publicationId="b619-ccba-pubN66040" page="12" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+            <profile id="cdd2-53fb-c91d-050f" name="Voidsmaster Nitsch" publicationId="b619-ccba-pubN66040" page="12" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
               <characteristics>
-                <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6寸</characteristic>
+                <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
                 <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
                 <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
                 <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
                 <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
                 <characteristic name="W" typeId="f330-5e6e-4110-0978">2</characteristic>
                 <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">2</characteristic>
-                <characteristic name="LD" typeId="00ca-f8b8-876d-b705">8</characteristic>
-                <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">5+</characteristic>
+                <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">8</characteristic>
+                <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">5+</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <selectionEntries>
-            <selectionEntry id="f267-cb01-e996-7e02" name="Artificer 霰弹枪" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="f267-cb01-e996-7e02" name="Artificer Shotgun" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2002-0fb8-3f24-dcd5" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8703-0ff2-6dc7-6757" type="max"/>
               </constraints>
               <profiles>
-                <profile id="df17-f2e7-c426-fa43" name="Artificer 霰弹枪" publicationId="b619-ccba-pubN66040" page="12" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+                <profile id="df17-f2e7-c426-fa43" name="Artificer Shotgun" publicationId="b619-ccba-pubN66040" page="12" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                   <characteristics>
-                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12寸</characteristic>
-                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 2</characteristic>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2</characteristic>
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If 目标 is 范围内 half range, add 1 to 这个武器的 S值.</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If the target is within half range, add 1 to this weapon&apos;s Strength characteristic.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -526,13 +531,13 @@
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink id="3676-7843-e86d-11d6" name="激光手枪" hidden="false" collective="false" import="true" targetId="b6d8-94a9-9017-cc3c" type="selectionEntry">
+            <entryLink id="3676-7843-e86d-11d6" name="Laspistol" hidden="false" collective="false" import="true" targetId="b6d8-94a9-9017-cc3c" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe55-6ab5-66ff-29b9" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb70-6522-d01d-08da" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="984d-bfbc-a0f6-8c89" name="Concussion 手雷" hidden="false" collective="false" import="true" targetId="c8df-57df-b18e-397d" type="selectionEntry">
+            <entryLink id="984d-bfbc-a0f6-8c89" name="Concussion Grenades" hidden="false" collective="false" import="true" targetId="c8df-57df-b18e-397d" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a29-8c5b-82ec-66dd" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="deaa-f068-09c6-96e6" type="max"/>
@@ -551,34 +556,34 @@
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1993-f01a-4d36-99d1" type="max"/>
           </constraints>
           <profiles>
-            <profile id="baf2-288e-6181-ac1b" name="Voidsman" publicationId="b619-ccba-pubN66040" page="12" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+            <profile id="baf2-288e-6181-ac1b" name="Voidsman" publicationId="b619-ccba-pubN66040" page="12" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
               <characteristics>
-                <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6寸</characteristic>
+                <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
                 <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
                 <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
                 <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
                 <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
                 <characteristic name="W" typeId="f330-5e6e-4110-0978">1</characteristic>
                 <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">1</characteristic>
-                <characteristic name="LD" typeId="00ca-f8b8-876d-b705">7</characteristic>
-                <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">5+</characteristic>
+                <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7</characteristic>
+                <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">5+</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <entryLinks>
-            <entryLink id="f5f0-5836-e5bf-6f0d" name="激光手枪" hidden="false" collective="false" import="true" targetId="b6d8-94a9-9017-cc3c" type="selectionEntry">
+            <entryLink id="f5f0-5836-e5bf-6f0d" name="Laspistol" hidden="false" collective="false" import="true" targetId="b6d8-94a9-9017-cc3c" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df82-252f-29b2-6c72" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8dc0-b01c-80d0-f051" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="b63b-4553-dcf2-7639" name="激光枪" hidden="false" collective="false" import="true" targetId="169d-cfff-0ece-7d89" type="selectionEntry">
+            <entryLink id="b63b-4553-dcf2-7639" name="Lasgun" hidden="false" collective="false" import="true" targetId="169d-cfff-0ece-7d89" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c298-4df4-dc48-afae" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="055f-de96-0a89-5191" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="f236-fbd6-b97b-7fcc" name="Concussion 手雷" hidden="false" collective="false" import="true" targetId="c8df-57df-b18e-397d" type="selectionEntry">
+            <entryLink id="f236-fbd6-b97b-7fcc" name="Concussion Grenades" hidden="false" collective="false" import="true" targetId="c8df-57df-b18e-397d" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c42-7bca-9c66-4bc5" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d8e1-f404-1196-9812" type="max"/>
@@ -597,17 +602,17 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2da1-1688-0990-1d5f" type="max"/>
           </constraints>
           <profiles>
-            <profile id="a089-4dc6-71b5-f783" name="Voidsman" publicationId="b619-ccba-pubN66040" page="12" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+            <profile id="a089-4dc6-71b5-f783" name="Voidsman" publicationId="b619-ccba-pubN66040" page="12" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
               <characteristics>
-                <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6寸</characteristic>
+                <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
                 <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
                 <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
                 <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
                 <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
                 <characteristic name="W" typeId="f330-5e6e-4110-0978">1</characteristic>
                 <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">1</characteristic>
-                <characteristic name="LD" typeId="00ca-f8b8-876d-b705">7</characteristic>
-                <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">5+</characteristic>
+                <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7</characteristic>
+                <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">5+</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -618,10 +623,10 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c162-b46b-de5a-4532" type="max"/>
               </constraints>
               <profiles>
-                <profile id="b683-0544-8f8d-ca4e" name="Rotor Cannon" publicationId="b619-ccba-pubN66040" page="12" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+                <profile id="b683-0544-8f8d-ca4e" name="Rotor Cannon" publicationId="b619-ccba-pubN66040" page="12" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                   <characteristics>
-                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24寸</characteristic>
-                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 4</characteristic>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 4</characteristic>
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
@@ -637,13 +642,13 @@
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink id="6ec4-03c3-fefc-a5d7" name="激光手枪" hidden="false" collective="false" import="true" targetId="b6d8-94a9-9017-cc3c" type="selectionEntry">
+            <entryLink id="6ec4-03c3-fefc-a5d7" name="Laspistol" hidden="false" collective="false" import="true" targetId="b6d8-94a9-9017-cc3c" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c1d-d4e4-d968-2eef" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="98d1-4cd2-8a95-b63d" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="c06d-dacc-b6db-48b9" name="Concussion 手雷" hidden="false" collective="false" import="true" targetId="c8df-57df-b18e-397d" type="selectionEntry">
+            <entryLink id="c06d-dacc-b6db-48b9" name="Concussion Grenades" hidden="false" collective="false" import="true" targetId="c8df-57df-b18e-397d" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e4a1-6e5b-6fa7-3464" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e49-3b0f-46d3-b0b9" type="max"/>
@@ -662,17 +667,17 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bee0-99c6-6baa-6df2" type="max"/>
           </constraints>
           <profiles>
-            <profile id="f582-6f0b-311c-011f" name="Aximillion" publicationId="b619-ccba-pubN66040" page="12" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+            <profile id="f582-6f0b-311c-011f" name="Aximillion" publicationId="b619-ccba-pubN66040" page="12" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
               <characteristics>
-                <characteristic name="M" typeId="0bdf-a96e-9e38-7779">8寸</characteristic>
+                <characteristic name="M" typeId="0bdf-a96e-9e38-7779">8&quot;</characteristic>
                 <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
                 <characteristic name="BS" typeId="381b-eb28-74c3-df5f">-</characteristic>
                 <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
                 <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
                 <characteristic name="W" typeId="f330-5e6e-4110-0978">1</characteristic>
                 <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">2</characteristic>
-                <characteristic name="LD" typeId="00ca-f8b8-876d-b705">5</characteristic>
-                <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">6+</characteristic>
+                <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">5</characteristic>
+                <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">6+</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -689,9 +694,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b6d8-94a9-9017-cc3c" name="激光手枪" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="b6d8-94a9-9017-cc3c" name="Laspistol" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="964f-123b-65ff-eb2b" name="激光手枪" hidden="false" targetId="f2b7-768f-a270-de64" type="profile"/>
+        <infoLink id="964f-123b-65ff-eb2b" name="Laspistol" hidden="false" targetId="f2b7-768f-a270-de64" type="profile"/>
       </infoLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -699,9 +704,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="169d-cfff-0ece-7d89" name="激光枪" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="169d-cfff-0ece-7d89" name="Lasgun" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="61f8-e434-3ab5-66e8" name="激光枪" hidden="false" targetId="d174-eb55-aaa6-d032" type="profile"/>
+        <infoLink id="61f8-e434-3ab5-66e8" name="Lasgun" hidden="false" targetId="d174-eb55-aaa6-d032" type="profile"/>
       </infoLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -709,16 +714,16 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c8df-57df-b18e-397d" name="Concussion 手雷" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="c8df-57df-b18e-397d" name="Concussion Grenades" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
-        <profile id="bbab-dc4c-eafe-b915" name="Concussion 手雷" publicationId="b619-ccba-pubN66040" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="bbab-dc4c-eafe-b915" name="Concussion Grenade" publicationId="b619-ccba-pubN66040" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6寸</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手雷 D3</characteristic>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6&quot;</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Grenade D3</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If 目标 is 1寸范围内 of a terrain feature, add 1 to 这个武器的 Strength and 伤害 characteristics.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If the target is within 1&quot; of a terrain feature, add 1 to this weapon&apos;s Strength and Damage characteristics.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -728,12 +733,12 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6217-33f6-b8f0-f1fa" name="主将" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="6217-33f6-b8f0-f1fa" name="Warlord" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42ae-4017-4d37-4ca0" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="eedc-5c79-f644-b39c" name="主将" hidden="false" targetId="ae09-117e-a6fa-316b" primary="false"/>
+        <categoryLink id="eedc-5c79-f644-b39c" name="Warlord" hidden="false" targetId="ae09-117e-a6fa-316b" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -743,7 +748,7 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="e935-78b4-b59a-7e9c" name="主将特性" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="e935-78b4-b59a-7e9c" name="Warlord Traits" hidden="false" collective="false" import="true">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -755,20 +760,20 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f947-f884-1ade-f622" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="d16a-ce33-8648-134d" name="主将特性 (总规则)" hidden="false" collective="false" import="true" targetId="d442-1f03-d9da-e77f" type="selectionEntryGroup"/>
-        <entryLink id="31e4-ecfe-323c-c883" name="主将特性 (CA)" hidden="false" collective="false" import="true" targetId="f673-3d9b-bb1b-377f" type="selectionEntryGroup"/>
+        <entryLink id="d16a-ce33-8648-134d" name="Warlord Traits (BRB)" hidden="false" collective="false" import="true" targetId="d442-1f03-d9da-e77f" type="selectionEntryGroup"/>
+        <entryLink id="31e4-ecfe-323c-c883" name="Warlord Traits (CA)" hidden="false" collective="false" import="true" targetId="f673-3d9b-bb1b-377f" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedProfiles>
     <profile id="3277-45f7-c674-bd66" name="Warrant of Trade" publicationId="b619-ccba-pubN66040" page="6" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">模型 具有这个能力的 can embark onto any 帝国 TRANSPORT, even though the transport in question might normally only permit 模型 with other 阵营关键字 to do so. 所有 other restrictions apply normally.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A model with this ability can embark onto any IMPERIUM TRANSPORT, even though the transport in question might normally only permit models with other Faction keywords to do so. All other restrictions apply normally.</characteristic>
       </characteristics>
     </profile>
     <profile id="3964-9765-7208-059f" name="Rogue Trader Retinue" publicationId="b619-ccba-pubN66040" page="7" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This ability has no 效果 unless your army includes ELUCIA VHANE. If it does, you cannot 放置 任何单位 具有这个能力的 before you have 放置 ELUCIA VHANE. When you 放置 ELUCIA VHANE 部署期间, 所有 单位 具有这个能力的 are 放置 at the same time. When you 放置 ELUCIA VHANE 战场上 for the 第1次, 所有 单位 具有这个能力的 必须 放置 6寸范围内 of her or they 必须 放置 in the same TRANSPORT as her. If they 不能 放置, they 视作 被消灭.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This ability has no effect unless your army includes ELUCIA VHANE. If it does, you cannot set up any units with this ability before you have set up ELUCIA VHANE. When you set up ELUCIA VHANE during deployment, all units with this ability are set up at the same time. When you set up ELUCIA VHANE on the battlefield for the first time, all units with this ability must be set up within 6&quot; of her or they must be set up in the same TRANSPORT as her. If they cannot be set up, they count as destroyed.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
