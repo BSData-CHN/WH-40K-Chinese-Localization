@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="cb54-c035-5759-7697" name="Chaos - Chaos Space Marines" revision="138" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="131" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="cb54-c035-5759-7697" name="Chaos - Chaos Space Marines" revision="142" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="146" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="cb54-c035-pubN125652" name="Codex: Heretic Astartes - Chaos Space Marines"/>
     <publication id="cb54-c035-pubN153092" name="Imperium Nihilus: Vigilus Ablaze"/>
@@ -1801,14 +1801,10 @@ If your summoning roll included any doubles, your character then suffers a morta
             <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">This model can transport 10 &lt;LEGION&gt; INFANTRY models (each TERMINATOR and JUMP PACK model takes up the space of two other models, and each CULT OF DESTRUCTION model takes up the space of three other models).</characteristic>
           </characteristics>
         </profile>
-        <profile id="91aa-83f4-7acd-b172" name="Explodes" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model is reduced to 0 wounds, roll a D6 before removing the model from the battlefield and before any embarked models disembark; on a 6 it explodes, and each unit within 6&quot; suffers D6 mortal wounds.</characteristic>
-          </characteristics>
-        </profile>
       </profiles>
       <infoLinks>
         <infoLink id="d05c-85af-f54e-8389" name="Special Abilities" hidden="false" targetId="9bbf-a7df-8d09-b667" type="infoGroup"/>
+        <infoLink id="834d-8c29-8984-7806" name="Explodes (6&quot;)" hidden="false" targetId="4486-6d0f-ddcd-7430" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="8189-68d5-7470-4a5d" name="New CategoryLink" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="true"/>
@@ -1997,7 +1993,7 @@ If your summoning roll included any doubles, your character then suffers a morta
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="113f-c728-f886-9d6d" name="Explodes" hidden="false" targetId="9446-1148-da70-4028" type="profile"/>
+        <infoLink id="113f-c728-f886-9d6d" name="Explodes (6&quot;)" hidden="false" targetId="4486-6d0f-ddcd-7430" type="profile"/>
         <infoLink id="2370-d120-34b7-12a2" name="Special Abilities" hidden="false" targetId="9bbf-a7df-8d09-b667" type="infoGroup"/>
       </infoLinks>
       <categoryLinks>
@@ -2378,7 +2374,7 @@ If your summoning roll included any doubles, your character then suffers a morta
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="ba49-f4e3-1c2d-e149" name="Explodes" hidden="false" targetId="9446-1148-da70-4028" type="profile"/>
+        <infoLink id="ba49-f4e3-1c2d-e149" name="Explodes (6&quot;)" hidden="false" targetId="4486-6d0f-ddcd-7430" type="profile"/>
         <infoLink id="b443-df4f-1838-0f7c" name="Special Abilities" hidden="false" targetId="9bbf-a7df-8d09-b667" type="infoGroup"/>
       </infoLinks>
       <categoryLinks>
@@ -2807,7 +2803,7 @@ If your summoning roll included any doubles, your character then suffers a morta
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="5ab5-00ee-f312-6033" name="Explodes" hidden="false" targetId="9446-1148-da70-4028" type="profile"/>
+        <infoLink id="5ab5-00ee-f312-6033" name="Explodes (6&quot;)" hidden="false" targetId="4486-6d0f-ddcd-7430" type="profile"/>
         <infoLink id="c736-96a1-f303-347b" name="Daemonic" hidden="false" targetId="94f5-82c3-bb66-ac0c" type="profile"/>
         <infoLink id="7890-822a-4a71-8c31" name="Infernal Regeneration" hidden="false" targetId="a46b-e84f-ab7b-a4e4" type="profile"/>
         <infoLink id="5ed5-76f7-170e-dfd3" name="Special Abilities" hidden="false" targetId="9bbf-a7df-8d09-b667" type="infoGroup"/>
@@ -2922,13 +2918,13 @@ If your summoning roll included any doubles, your character then suffers a morta
       <modifiers>
         <modifier type="set" field="b6a9-1e79-d6b2-f7d3" value="1.0">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f74-81f3-7093-69e4" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f74-81f3-7093-69e4" type="atLeast"/>
           </conditions>
         </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b6a9-1e79-d6b2-f7d3" type="min"/>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b6a9-1e79-d6b2-f7d3" type="min"/>
       </constraints>
       <profiles>
         <profile id="ea78-bfd4-293c-376c" name="Fabius Bile" page="0" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
@@ -3168,7 +3164,7 @@ If your summoning roll included any doubles, your character then suffers a morta
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="b5dc-a119-b616-0f03" name="Explodes" hidden="false" targetId="9446-1148-da70-4028" type="profile"/>
+        <infoLink id="b5dc-a119-b616-0f03" name="Explodes (6&quot;)" hidden="false" targetId="4486-6d0f-ddcd-7430" type="profile"/>
         <infoLink id="71ef-5e6a-edd6-0f09" name="Infernal Regeneration" hidden="false" targetId="a46b-e84f-ab7b-a4e4" type="profile"/>
         <infoLink id="1320-b6d4-ec4d-1cf7" name="Daemonic" hidden="false" targetId="94f5-82c3-bb66-ac0c" type="profile"/>
       </infoLinks>
@@ -3203,7 +3199,7 @@ If your summoning roll included any doubles, your character then suffers a morta
                 </profile>
               </profiles>
               <costs>
-                <cost name="pts" typeId="points" value="40.0"/>
+                <cost name="pts" typeId="points" value="50.0"/>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
@@ -3240,9 +3236,9 @@ If your summoning roll included any doubles, your character then suffers a morta
                 </profile>
               </profiles>
               <costs>
-                <cost name="pts" typeId="points" value="8.0"/>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1157-5eec-dab9-13c6" name="Ectoplasma cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -3725,9 +3721,9 @@ If your summoning roll included any doubles, your character then suffers a morta
             <repeat field="selections" scope="d990-6016-2e27-d72f" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="true"/>
           </repeats>
         </modifier>
-        <modifier type="decrement" field="e356-c769-5920-6e14" value="4">
+        <modifier type="decrement" field="e356-c769-5920-6e14" value="4.0">
           <conditions>
-            <condition field="selections" scope="d990-6016-2e27-d72f" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
+            <condition field="selections" scope="d990-6016-2e27-d72f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -4117,7 +4113,7 @@ If your summoning roll included any doubles, your character then suffers a morta
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">7</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4401,7 +4397,7 @@ If your summoning roll included any doubles, your character then suffers a morta
       <infoLinks>
         <infoLink id="03ee-da67-d4d4-b2a3" name="Daemonic" hidden="false" targetId="94f5-82c3-bb66-ac0c" type="profile"/>
         <infoLink id="7312-680e-f85f-f2bf" name="Infernal Regeneration" hidden="false" targetId="a46b-e84f-ab7b-a4e4" type="profile"/>
-        <infoLink id="3d3b-e1b7-a26d-68f7" name="Explodes" hidden="false" targetId="9446-1148-da70-4028" type="profile"/>
+        <infoLink id="3d3b-e1b7-a26d-68f7" name="Explodes (6&quot;)" hidden="false" targetId="4486-6d0f-ddcd-7430" type="profile"/>
         <infoLink id="c45f-0ef7-db94-06e0" name="Special Abilities" hidden="false" targetId="9bbf-a7df-8d09-b667" type="infoGroup"/>
       </infoLinks>
       <categoryLinks>
@@ -5286,6 +5282,7 @@ If your summoning roll included any doubles, your character then suffers a morta
         <categoryLink id="8dda-6b48-b48e-c871" name="Faction: Chaos" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
         <categoryLink id="106f-81f5-7292-ff9c" name="Faction: Heretic Astartes" hidden="false" targetId="ca10-a5dd-f54f-0ed5" primary="false"/>
         <categoryLink id="5472-901a-197e-c8bb" name="Sorcerer" hidden="false" targetId="0385-8978-4a91-7695" primary="false"/>
+        <categoryLink id="d031-61d7-c46d-153f" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="3086-8fa0-2a46-f137" name="Jump pack" hidden="false" collective="false" import="true" type="upgrade">
@@ -5892,8 +5889,8 @@ If your summoning roll included any doubles, your character then suffers a morta
           </categoryLinks>
           <costs>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="pts" typeId="points" value="2.0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -6003,8 +6000,8 @@ If your summoning roll included any doubles, your character then suffers a morta
           </categoryLinks>
           <costs>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="pts" typeId="points" value="10.0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -6109,8 +6106,8 @@ If your summoning roll included any doubles, your character then suffers a morta
           </categoryLinks>
           <costs>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="pts" typeId="points" value="6.0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -6215,9 +6212,9 @@ If your summoning roll included any doubles, your character then suffers a morta
             <categoryLink id="e9a7-02a5-bfef-dc2d" name="New CategoryLink" hidden="false" targetId="1da2-76db-f76f-6b6c" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="4.0"/>
             <cost name="pts" typeId="points" value="0.0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -6258,7 +6255,7 @@ If your summoning roll included any doubles, your character then suffers a morta
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="94.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="6.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="5.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -6632,8 +6629,8 @@ If your summoning roll included any doubles, your character then suffers a morta
           </categoryLinks>
           <costs>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="pts" typeId="points" value="2.0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -6744,7 +6741,7 @@ If your summoning roll included any doubles, your character then suffers a morta
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="125.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="8.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="7.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -6810,8 +6807,8 @@ If your summoning roll included any doubles, your character then suffers a morta
           </categoryLinks>
           <costs>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="pts" typeId="points" value="6.0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -6922,7 +6919,7 @@ If your summoning roll included any doubles, your character then suffers a morta
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="123.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="8.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="7.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -6989,8 +6986,8 @@ If your summoning roll included any doubles, your character then suffers a morta
           </categoryLinks>
           <costs>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="pts" typeId="points" value="4.0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -7264,7 +7261,7 @@ If your summoning roll included any doubles, your character then suffers a morta
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d57-f1e2-256b-3b45" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="9c56-bdb6-f5f5-3344" name="New InfoLink" hidden="false" targetId="e89b-a409-4ab4-e6db" type="profile"/>
+        <infoLink id="9c56-bdb6-f5f5-3344" name="Havoc launcher" hidden="false" targetId="e89b-a409-4ab4-e6db" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="5.0"/>
@@ -7719,6 +7716,11 @@ If your summoning roll included any doubles, your character then suffers a morta
                     <entryLink id="c873-6b23-54ec-19a4" name="Boltgun" hidden="false" collective="false" import="true" targetId="b61f-a3c1-827d-c5b6" type="selectionEntry">
                       <modifiers>
                         <modifier type="set" field="407a-9bfb-1769-d569" value="0.0"/>
+                        <modifier type="set" field="407a-9bfb-1769-d569" value="1.0">
+                          <conditions>
+                            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0e57-eaf5-763f-9c45" type="equalTo"/>
+                          </conditions>
+                        </modifier>
                       </modifiers>
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="407a-9bfb-1769-d569" type="min"/>
@@ -7755,6 +7757,11 @@ If your summoning roll included any doubles, your character then suffers a morta
                     <entryLink id="3c01-1b63-679b-e603" name="Bolt pistol" hidden="false" collective="false" import="true" targetId="0334-f487-8229-0c1a" type="selectionEntry">
                       <modifiers>
                         <modifier type="set" field="e226-922d-a233-ecc6" value="0.0"/>
+                        <modifier type="set" field="e226-922d-a233-ecc6" value="1.0">
+                          <conditions>
+                            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0e57-eaf5-763f-9c45" type="equalTo"/>
+                          </conditions>
+                        </modifier>
                       </modifiers>
                       <constraints>
                         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53a8-8fb0-6c03-262a" type="max"/>
@@ -7766,7 +7773,7 @@ If your summoning roll included any doubles, your character then suffers a morta
                         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5dd8-b173-aef3-736b" type="max"/>
                       </constraints>
                     </entryLink>
-                    <entryLink id="b8a5-c82d-e808-e969" name="Lightning Claw" hidden="false" collective="false" import="true" targetId="72f0-6262-b417-dd10" type="selectionEntry">
+                    <entryLink id="b8a5-c82d-e808-e969" name="Lightning Claw" hidden="false" collective="false" import="true" targetId="90de-7b01-e401-888b" type="selectionEntry">
                       <constraints>
                         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b202-6278-1c60-b13f" type="max"/>
                       </constraints>
@@ -8394,7 +8401,7 @@ If your summoning roll included any doubles, your character then suffers a morta
                         <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
                         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">For each hit roll of 1, the Helbrute suffers a mortal wound after all of this weapon&apos;s shots have been resolved.</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">For each hit roll of 1, the Helbrute suffers a mortal wound after all of this weapon&apos;s shots have been resolved. Blast.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -8521,7 +8528,7 @@ If your summoning roll included any doubles, your character then suffers a morta
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="d6b0-6873-981f-2009" name="Explodes" hidden="false" targetId="9446-1148-da70-4028" type="profile"/>
+        <infoLink id="d6b0-6873-981f-2009" name="Explodes (6&quot;)" hidden="false" targetId="4486-6d0f-ddcd-7430" type="profile"/>
         <infoLink id="e4d1-652c-1821-9016" name="Special Abilities" hidden="false" targetId="9bbf-a7df-8d09-b667" type="infoGroup"/>
       </infoLinks>
       <categoryLinks>
@@ -9027,7 +9034,7 @@ If your summoning roll included any doubles, your character then suffers a morta
                         <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
                         <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
                         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Units targeted by this weapon do not gain any bonus to their saving throws for being in cover.</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Units targeted by this weapon do not gain any bonus to their saving throws for being in cover. Blast.</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="1fb2-1561-ff83-020c" name="Blastmaster, Varied frequency" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -9037,7 +9044,7 @@ If your summoning roll included any doubles, your character then suffers a morta
                         <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
                         <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
                         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Units targeted by this weapon do not gain any bonus to their saving throws for being in cover.</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Units targeted by this weapon do not gain any bonus to their saving throws for being in cover. Blast.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -10580,7 +10587,7 @@ If your summoning roll included any doubles, your character then suffers a morta
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="72f0-6262-b417-dd10" type="lessThan"/>
+            <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="90de-7b01-e401-888b" type="lessThan"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -10717,31 +10724,6 @@ If your summoning roll included any doubles, your character then suffers a morta
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="5.0"/>
         <cost name="pts" typeId="points" value="75.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="72f0-6262-b417-dd10" name="Lightning Claw" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="set" field="points" value="5.0">
-          <conditions>
-            <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="72f0-6262-b417-dd10" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <infoLinks>
-        <infoLink id="c14b-c9b5-e3a4-21b1" name="Lightning claw" hidden="false" targetId="7584-238f-3174-4529" type="profile">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d85-72b7-2fa0-6ea3" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </infoLink>
-      </infoLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="6.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -11050,7 +11032,7 @@ If your summoning roll included any doubles, your character then suffers a morta
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b524-c608-ff88-0c20" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="62b4-3fe2-8dad-9c33" name="Lightning Claw" hidden="false" collective="false" import="true" targetId="72f0-6262-b417-dd10" type="selectionEntry">
+            <entryLink id="62b4-3fe2-8dad-9c33" name="Lightning Claw" hidden="false" collective="false" import="true" targetId="90de-7b01-e401-888b" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="621c-7b88-73d9-4755" type="max"/>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ea6-2881-0dba-b1e4" type="min"/>
@@ -11898,7 +11880,7 @@ If your summoning roll included any doubles, your character then suffers a morta
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="34e0-909d-ca83-ed86" name="Lightning Claw" hidden="false" collective="false" import="true" targetId="72f0-6262-b417-dd10" type="selectionEntry">
+        <entryLink id="34e0-909d-ca83-ed86" name="Lightning Claw" hidden="false" collective="false" import="true" targetId="90de-7b01-e401-888b" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="points" value="0.0"/>
           </modifiers>
@@ -13191,7 +13173,7 @@ If your summoning roll included any doubles, your character then suffers a morta
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name="pts" typeId="points" value="16.0"/>
+                    <cost name="pts" typeId="points" value="5.0"/>
                     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
@@ -13646,7 +13628,7 @@ If your summoning roll included any doubles, your character then suffers a morta
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f627-f23e-a3b4-dc2c" type="notInstanceOf"/>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f627-f23e-a3b4-dc2c" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -13808,7 +13790,7 @@ If your summoning roll included any doubles, your character then suffers a morta
         <infoLink id="3d67-45d1-b55d-6ad1" name="Missile launcher, Krak missile" hidden="false" targetId="8161-3b0e-8048-0e83" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="20.0"/>
+        <cost name="pts" typeId="points" value="15.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -13818,7 +13800,7 @@ If your summoning roll included any doubles, your character then suffers a morta
         <infoLink id="4c4a-8def-824c-295e" name="Lascannon" hidden="false" targetId="f14a-07e5-5465-69cf" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="25.0"/>
+        <cost name="pts" typeId="points" value="15.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -14045,7 +14027,7 @@ If your summoning roll included any doubles, your character then suffers a morta
               <conditions>
                 <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ab5a-b591-31e2-e0d0" type="lessThan"/>
                 <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="90de-7b01-e401-888b" type="lessThan"/>
-                <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="72f0-6262-b417-dd10" type="lessThan"/>
+                <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="90de-7b01-e401-888b" type="lessThan"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -14618,9 +14600,9 @@ If your summoning roll included any doubles, your character then suffers a morta
     </selectionEntryGroup>
     <selectionEntryGroup id="becb-9ac2-cb36-95f7" name="Melee Weapons" hidden="false" collective="false" import="true">
       <modifiers>
-        <modifier type="set" field="d64f-a953-8bc4-0da2" value="2">
+        <modifier type="set" field="d64f-a953-8bc4-0da2" value="2.0">
           <conditions>
-            <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="72f0-6262-b417-dd10" type="equalTo"/>
+            <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="90de-7b01-e401-888b" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -14661,7 +14643,7 @@ If your summoning roll included any doubles, your character then suffers a morta
       <modifiers>
         <modifier type="set" field="e40f-31a7-00e0-0e6e" value="1">
           <conditions>
-            <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="72f0-6262-b417-dd10" type="lessThan"/>
+            <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="90de-7b01-e401-888b" type="lessThan"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -14671,7 +14653,7 @@ If your summoning roll included any doubles, your character then suffers a morta
       </constraints>
       <entryLinks>
         <entryLink id="24dd-ed8c-3c18-0624" name="Chainfist" hidden="false" collective="false" import="true" targetId="e464-77c1-12bb-e52f" type="selectionEntry"/>
-        <entryLink id="e833-e504-c446-48e6" name="Lightning Claw" hidden="false" collective="false" import="true" targetId="72f0-6262-b417-dd10" type="selectionEntry"/>
+        <entryLink id="e833-e504-c446-48e6" name="Lightning Claw" hidden="false" collective="false" import="true" targetId="90de-7b01-e401-888b" type="selectionEntry"/>
         <entryLink id="5775-f0c4-f487-7f85" name="Power axe" hidden="false" collective="false" import="true" targetId="3292-34e6-f679-d5b9" type="selectionEntry"/>
         <entryLink id="ef59-7ccd-bc08-c9e2" name="Power fist" hidden="false" collective="false" import="true" targetId="f122-3720-fa32-4215" type="selectionEntry"/>
         <entryLink id="7285-9392-05ac-1260" name="Power maul" hidden="false" collective="false" import="true" targetId="6ea7-1195-7144-438e" type="selectionEntry"/>
@@ -14933,7 +14915,7 @@ If your summoning roll included any doubles, your character then suffers a morta
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b290-2e49-3c56-1a7a" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="e096-f2e7-29cc-be93" name="Lightning Claw" hidden="false" collective="false" import="true" targetId="72f0-6262-b417-dd10" type="selectionEntry">
+            <entryLink id="e096-f2e7-29cc-be93" name="Lightning Claw" hidden="false" collective="false" import="true" targetId="90de-7b01-e401-888b" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e6c7-e60d-9c76-2d4d" type="max"/>
               </constraints>
@@ -15011,7 +14993,7 @@ If your summoning roll included any doubles, your character then suffers a morta
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="135d-c740-15da-7cd0" type="min"/>
               </constraints>
             </entryLink>
-            <entryLink id="92b4-0e3e-1759-b488" name="Lightning Claw" hidden="false" collective="false" import="true" targetId="72f0-6262-b417-dd10" type="selectionEntry"/>
+            <entryLink id="92b4-0e3e-1759-b488" name="Lightning Claw" hidden="false" collective="false" import="true" targetId="90de-7b01-e401-888b" type="selectionEntry"/>
             <entryLink id="f14a-e3f3-f68c-0ebe" name="Power axe" hidden="false" collective="false" import="true" targetId="3292-34e6-f679-d5b9" type="selectionEntry"/>
             <entryLink id="f829-8638-038e-5253" name="Power fist" hidden="false" collective="false" import="true" targetId="f122-3720-fa32-4215" type="selectionEntry"/>
             <entryLink id="41bd-1742-1c3c-99bb" name="Power maul" hidden="false" collective="false" import="true" targetId="6ea7-1195-7144-438e" type="selectionEntry"/>
@@ -15057,7 +15039,7 @@ If your summoning roll included any doubles, your character then suffers a morta
           </constraints>
           <entryLinks>
             <entryLink id="32ec-c8fd-f270-bf71" name="Chainfist" hidden="false" collective="false" import="true" targetId="e464-77c1-12bb-e52f" type="selectionEntry"/>
-            <entryLink id="1923-239a-89d6-4d97" name="Lightning Claw" hidden="false" collective="false" import="true" targetId="72f0-6262-b417-dd10" type="selectionEntry"/>
+            <entryLink id="1923-239a-89d6-4d97" name="Lightning Claw" hidden="false" collective="false" import="true" targetId="90de-7b01-e401-888b" type="selectionEntry"/>
             <entryLink id="42cb-5d6b-35c9-5872" name="Power axe" hidden="false" collective="false" import="true" targetId="3292-34e6-f679-d5b9" type="selectionEntry"/>
             <entryLink id="bbba-75b7-e038-9286" name="Power fist" hidden="false" collective="false" import="true" targetId="f122-3720-fa32-4215" type="selectionEntry"/>
             <entryLink id="acc0-29a1-645c-a950" name="Power maul" hidden="false" collective="false" import="true" targetId="6ea7-1195-7144-438e" type="selectionEntry"/>
@@ -15145,7 +15127,7 @@ If your summoning roll included any doubles, your character then suffers a morta
           </constraints>
           <entryLinks>
             <entryLink id="07a6-ff7d-4045-2815" name="Chainfist" hidden="false" collective="false" import="true" targetId="e464-77c1-12bb-e52f" type="selectionEntry"/>
-            <entryLink id="f640-1366-a7d0-7c2a" name="Lightning Claw" hidden="false" collective="false" import="true" targetId="72f0-6262-b417-dd10" type="selectionEntry"/>
+            <entryLink id="f640-1366-a7d0-7c2a" name="Lightning Claw" hidden="false" collective="false" import="true" targetId="90de-7b01-e401-888b" type="selectionEntry"/>
             <entryLink id="e3f9-673b-44e5-640c" name="Power axe" hidden="false" collective="false" import="true" targetId="3292-34e6-f679-d5b9" type="selectionEntry"/>
             <entryLink id="a922-db13-b05f-a6e3" name="Power fist" hidden="false" collective="false" import="true" targetId="f122-3720-fa32-4215" type="selectionEntry"/>
             <entryLink id="1e67-b771-7a66-393d" name="Power maul" hidden="false" collective="false" import="true" targetId="6ea7-1195-7144-438e" type="selectionEntry"/>
@@ -15823,7 +15805,7 @@ If your summoning roll included any doubles, your character then suffers a morta
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6285-530b-3aec-e46f" type="min"/>
               </constraints>
             </entryLink>
-            <entryLink id="d6d5-890c-9b55-8fd8" name="Lightning Claw" hidden="false" collective="false" import="true" targetId="72f0-6262-b417-dd10" type="selectionEntry">
+            <entryLink id="d6d5-890c-9b55-8fd8" name="Lightning Claw" hidden="false" collective="false" import="true" targetId="90de-7b01-e401-888b" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e55-1ab5-9a45-4e5d" type="max"/>
               </constraints>
@@ -17218,7 +17200,7 @@ units whilst their unit is within 6&quot; of this model.</characteristic>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f99b-b8e1-31a1-884d" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="db48-6ae2-3da2-7a92" name="Lightning Claw" hidden="false" collective="false" import="true" targetId="72f0-6262-b417-dd10" type="selectionEntry">
+            <entryLink id="db48-6ae2-3da2-7a92" name="Lightning Claw" hidden="false" collective="false" import="true" targetId="90de-7b01-e401-888b" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3766-9860-0e4e-4e74" type="max"/>
               </constraints>
@@ -17275,7 +17257,7 @@ units whilst their unit is within 6&quot; of this model.</characteristic>
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="4.0"/>
+            <cost name="pts" typeId="points" value="5.0"/>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
@@ -17341,7 +17323,7 @@ units whilst their unit is within 6&quot; of this model.</characteristic>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="036d-2012-d1c2-974d" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="fe21-f929-928b-4064" name="Lightning Claw" hidden="false" collective="false" import="true" targetId="72f0-6262-b417-dd10" type="selectionEntry">
+            <entryLink id="fe21-f929-928b-4064" name="Lightning Claw" hidden="false" collective="false" import="true" targetId="90de-7b01-e401-888b" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd01-896f-0b7c-e925" type="max"/>
               </constraints>
@@ -17479,7 +17461,6 @@ units whilst their unit is within 6&quot; of this model.</characteristic>
       <entryLinks>
         <entryLink id="3869-55d9-3030-4c9a" name="Warlord Traits (Codex)" hidden="false" collective="false" import="true" targetId="1165-8247-86f6-7fba" type="selectionEntryGroup"/>
         <entryLink id="0eb5-eaac-143b-3896" name="Warlord Traits (BRB)" hidden="false" collective="false" import="true" targetId="d442-1f03-d9da-e77f" type="selectionEntryGroup"/>
-        <entryLink id="b8a7-4e3d-0568-da75" name="Warlord Traits (CA)" hidden="false" collective="false" import="true" targetId="f673-3d9b-bb1b-377f" type="selectionEntryGroup"/>
         <entryLink id="6300-07a4-d112-3c0b" name="Warlord Traits (Legion)" hidden="false" collective="false" import="true" targetId="75bd-3046-2e64-6b81" type="selectionEntryGroup"/>
         <entryLink id="55e4-a0d3-e93f-d682" name="Warlord Traits (Shadowspear)" hidden="false" collective="false" import="true" targetId="8144-d21c-4c9e-aa1d" type="selectionEntryGroup"/>
         <entryLink id="f255-06fe-f3dd-a8e0" name="Warlord Traits (Specialist)" hidden="false" collective="false" import="true" targetId="b18e-298b-df58-c375" type="selectionEntryGroup"/>
@@ -18081,7 +18062,7 @@ units whilst their unit is within 6&quot; of this model.</characteristic>
                 <conditionGroup type="or">
                   <conditions>
                     <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fce5-b18f-83f0-327a" type="equalTo"/>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f627-f23e-a3b4-dc2c" type="notInstanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f627-f23e-a3b4-dc2c" type="equalTo"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -18397,7 +18378,7 @@ units whilst their unit is within 6&quot; of this model.</characteristic>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d957-b9df-4e53-9aad" type="min"/>
               </constraints>
             </entryLink>
-            <entryLink id="4b51-d407-94f5-4910" name="Lightning Claw" hidden="false" collective="false" import="true" targetId="72f0-6262-b417-dd10" type="selectionEntry">
+            <entryLink id="4b51-d407-94f5-4910" name="Lightning Claw" hidden="false" collective="false" import="true" targetId="90de-7b01-e401-888b" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b29-dcf9-0dfe-c3bc" type="max"/>
               </constraints>
@@ -19452,10 +19433,15 @@ the enemy Warlord, your opponent will only achieve that objective if all of the 
             <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="efa8-5077-3aa8-4a87" type="equalTo"/>
           </conditions>
         </modifier>
+        <modifier type="set" field="2735-ee75-c2ed-fd76" value="1.0">
+          <conditions>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="efa8-5077-3aa8-4a87" type="greaterThan"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7dc7-300b-5e87-27c1" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2735-ee75-c2ed-fd76" type="min"/>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2735-ee75-c2ed-fd76" type="min"/>
       </constraints>
       <selectionEntries>
         <selectionEntry id="c935-d2e8-a468-2d72" name="Prime Test Subject" hidden="false" collective="false" import="true" type="upgrade">
@@ -19534,7 +19520,7 @@ the enemy Warlord, your opponent will only achieve that objective if all of the 
         <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">You can re-roll wound rolls of 1 for this weapon.</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">You can re-roll wound rolls of 1 for this weapon. Blast.</characteristic>
       </characteristics>
     </profile>
     <profile id="b62d-7cc2-1b2a-ca61" name="Plague knife" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -19584,7 +19570,7 @@ the enemy Warlord, your opponent will only achieve that objective if all of the 
         <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast.</characteristic>
       </characteristics>
     </profile>
     <profile id="fc56-4e98-3cdc-3659" name="Chainaxe" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -19679,7 +19665,7 @@ the enemy Warlord, your opponent will only achieve that objective if all of the 
         <characteristic name="S" typeId="59b1-319e-ec13-d466">7</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast.</characteristic>
       </characteristics>
     </profile>
     <profile id="d4d3-93d9-8313-56c8" name="Teleport Strike" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -19791,6 +19777,14 @@ the enemy Warlord, your opponent will only achieve that objective if all of the 
     <profile id="f04a-ee8f-b7ca-f7fc" name="Blood for the Blood God" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This unit can fight twice in each Fight phase, instead of only once.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4486-6d0f-ddcd-7430" name="Explodes (6&quot;)" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+      <modifiers>
+        <modifier type="set" field="name" value="Explodes"/>
+      </modifiers>
+      <characteristics>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model is reduced to 0 wounds, roll a D6 before removing it from the battlefield; on a 6 it explodes, and each unit within 6&quot; suffers D3 mortal wounds.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="e373-3c0a-1185-46ea" name="Imperium - Inquisition" revision="46" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="Discord: @Alphalas, @CrusherJoe | Twitter: @kingoverlord, @TheAwesomesauce" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="130" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="e373-3c0a-1185-46ea" name="Imperium - Inquisition" revision="49" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="Discord: @Alphalas, @CrusherJoe | Twitter: @kingoverlord, @TheAwesomesauce" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="143" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="78cc-daf7-1448-610f" name="Faction: Inquisition" hidden="false"/>
     <categoryEntry id="6f95-3a9f-9235-519a" name="Inquisitor" hidden="false">
@@ -35,19 +35,19 @@
         <categoryLink id="4285-1675-f9bb-0391" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="9288-d5df-8b4e-81bb" name="New EntryLink" hidden="false" collective="false" import="false" targetId="ba53-1df7-404e-e9c9" type="selectionEntry">
+    <entryLink id="9288-d5df-8b4e-81bb" name="Ordo Malleus Inquisitor in Terminator Armour" hidden="false" collective="false" import="false" targetId="ba53-1df7-404e-e9c9" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="e010-2d9d-ee52-4889" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="d3f2-df57-f7f4-0954" name="New EntryLink" hidden="false" collective="false" import="false" targetId="0b13-8c12-cbea-300f" type="selectionEntry">
+    <entryLink id="d3f2-df57-f7f4-0954" name="Inquisitor" hidden="false" collective="false" import="false" targetId="0b13-8c12-cbea-300f" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="bf13-b255-becd-8aa7" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="ace4-56a6-9164-c23d" name="Acolytes" hidden="false" collective="false" import="false" targetId="4191-e705-8519-a90c" type="selectionEntry"/>
     <entryLink id="c793-cf81-8b06-2a97" name="Daemonhost" hidden="false" collective="false" import="false" targetId="a522-1144-e50e-f57f" type="selectionEntry"/>
-    <entryLink id="c841-56a5-a2a8-d7e7" name="New EntryLink" hidden="false" collective="false" import="false" targetId="9a75-b6c7-e839-375d" type="selectionEntry"/>
+    <entryLink id="c841-56a5-a2a8-d7e7" name="Jokaero Weaponsmith" hidden="false" collective="false" import="false" targetId="9a75-b6c7-e839-375d" type="selectionEntry"/>
     <entryLink id="d4ae-9780-499b-bd5c" name="Inquisitor Greyfax" hidden="false" collective="false" import="false" targetId="9d0c-6df4-8f5d-5a34" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="30a2-f17a-c723-e0a7" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
@@ -82,7 +82,91 @@
     <entryLink id="bceb-2fd8-bd33-6304" name="Operative Requisition Sanctioned" hidden="false" collective="false" import="false" targetId="0b7d-bfe1-b63e-ecb6" type="selectionEntry"/>
     <entryLink id="317c-1eaf-bc6f-ed66" name="Lord Inquisitor Kyria Draxus" hidden="false" collective="false" import="false" targetId="132c-a00e-3b0b-5795" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="84f8-c8b0-47f9-7625" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
+        <categoryLink id="fe6a-b072-d550-21fc" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="9d47-acf2-82e0-a033" name="Inquisitor" hidden="false" collective="false" import="true" targetId="0b13-8c12-cbea-300f" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e373-3c0a-1185-46ea" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="784a-5edd-a8e3-6597" name="New CategoryLink" hidden="false" targetId="0f35-2c34-ba6a-8105" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="aaa9-4d43-aaee-11a4" name="Inquisitor Coteaz" hidden="false" collective="false" import="true" targetId="81d1-1b5f-e97c-35ba" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e373-3c0a-1185-46ea" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="f15c-414a-b40d-41af" name="New CategoryLink" hidden="false" targetId="0f35-2c34-ba6a-8105" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="77c8-203c-7218-65d4" name="Inquisitor Eisenhorn" hidden="false" collective="false" import="true" targetId="86b2-7c8b-a051-60ca" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e373-3c0a-1185-46ea" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="bb48-3807-afef-43d7" name="New CategoryLink" hidden="false" targetId="0f35-2c34-ba6a-8105" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="acfb-5231-d907-0bd4" name="Inquisitor Greyfax" hidden="false" collective="false" import="true" targetId="9d0c-6df4-8f5d-5a34" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e373-3c0a-1185-46ea" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="6b20-a199-9823-6400" name="New CategoryLink" hidden="false" targetId="0f35-2c34-ba6a-8105" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="5c99-4f4b-0ad2-a2ec" name="Inquisitor Karamazov" hidden="false" collective="false" import="true" targetId="59d5-160c-f21d-6e49" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e373-3c0a-1185-46ea" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="546c-d198-96a3-7967" name="New CategoryLink" hidden="false" targetId="0f35-2c34-ba6a-8105" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="3c17-aebd-88a1-662f" name="Lord Inquisitor Kyria Draxus" hidden="false" collective="false" import="true" targetId="132c-a00e-3b0b-5795" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e373-3c0a-1185-46ea" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="f53d-45ea-63b0-d5d1" name="New CategoryLink" hidden="false" targetId="0f35-2c34-ba6a-8105" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="fb67-1aa3-5518-2bff" name="Ordo Malleus Inquisitor in Terminator Armour" hidden="false" collective="false" import="true" targetId="ba53-1df7-404e-e9c9" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e373-3c0a-1185-46ea" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="5917-f94a-5b5d-96e8" name="New CategoryLink" hidden="false" targetId="0f35-2c34-ba6a-8105" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -608,7 +692,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c61a-5c71-b567-fbac" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="65a4-1fa6-86d8-d806" name="Inqusistor Melee Weapons" hidden="false" collective="false" import="true" targetId="9f94-92bd-8511-a7dc" type="selectionEntryGroup"/>
+            <entryLink id="65a4-1fa6-86d8-d806" name="Inquisitor Melee Weapons" hidden="false" collective="false" import="true" targetId="9f94-92bd-8511-a7dc" type="selectionEntryGroup"/>
             <entryLink id="39ab-1fd8-b39a-259f" name="Inquisitor Force Weapons" hidden="true" collective="false" import="true" targetId="442f-cecb-fe62-925d" type="selectionEntryGroup">
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
@@ -715,9 +799,6 @@
               </characteristics>
             </profile>
           </profiles>
-          <categoryLinks>
-            <categoryLink id="ef40-a3fd-60cd-253d" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
-          </categoryLinks>
           <selectionEntryGroups>
             <selectionEntryGroup id="2055-3a47-a902-3595" name="Pistol" hidden="false" collective="false" import="true" defaultSelectionEntryId="cf6e-55df-110d-ca19">
               <constraints>
@@ -751,7 +832,7 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="a6d1-5709-bf4c-fad0" name="New EntryLink" hidden="false" collective="false" import="true" targetId="8714-82ac-6b59-5cde" type="selectionEntryGroup">
+            <entryLink id="a6d1-5709-bf4c-fad0" name="Acolyte Weapon" hidden="false" collective="false" import="true" targetId="8714-82ac-6b59-5cde" type="selectionEntryGroup">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99b3-550a-112d-3c2b" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0c3-fc7c-9971-be44" type="min"/>
@@ -903,7 +984,7 @@
         </profile>
         <profile id="4ea8-1814-68d7-01df" name="Inconceivable Customisation" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of your Shooting phase, you can select one friendly &lt;ORDO&gt; unit within 3&quot; of this model and roll one D6; apply the result from the following table to the selected unit until the end of the turn. 
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of your Shooting phase, you can select one friendly &lt;ORDO&gt; unit within 3&quot; of this model and roll one D6; apply the result from the following table to the selected unit until the end of the turn.
 D6 Result
 1-2 Augmented Targeting: When resolving an attack made by a model in this unit, you can re-roll the hit roll.
 3-4 Augmented Penetration: When resolving an attack made by a model in this unit, you can re-roll the wound roll.
@@ -1000,7 +1081,7 @@ D6 Result
         </profile>
         <profile id="ebea-fa43-f3e0-ebc4" name="Psyocculum" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model can target a PSYKER CHARACTER or DAEMON CHARACTER even if it is not the closest enemy unit.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time you select a target for a ranged weapon this model is making an attack with, you can ignore the Look Out, Sir rule if you select a PSYKER CHARACTER or DAEMON CHARACTER unit.</characteristic>
           </characteristics>
         </profile>
         <profile id="1ff7-c499-dce6-4621" name="Indomitable" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -1132,7 +1213,7 @@ D6 Result
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="90.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="5.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="4.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1204,25 +1285,37 @@ D6 Result
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cda8-16e3-441e-dcdc" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="f3e5-e95b-212f-c18e" name="New EntryLink" hidden="false" collective="false" import="true" targetId="06fb-e44e-0fd7-e874" type="selectionEntry">
+            <entryLink id="f3e5-e95b-212f-c18e" name="Nemesis Daemon Hammer" hidden="false" collective="false" import="true" targetId="06fb-e44e-0fd7-e874" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="points" value="18.0"/>
               </modifiers>
+              <costs>
+                <cost name="pts" typeId="points" value="20.0"/>
+              </costs>
             </entryLink>
-            <entryLink id="72b4-1ca9-cbc2-f83d" name="New EntryLink" hidden="false" collective="false" import="true" targetId="4a0e-0f13-63c2-9aae" type="selectionEntry">
+            <entryLink id="72b4-1ca9-cbc2-f83d" name="Force axe" hidden="false" collective="false" import="true" targetId="4a0e-0f13-63c2-9aae" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="93b0-9291-c215-e9a4" type="max"/>
               </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
             </entryLink>
-            <entryLink id="5d63-d9c1-7b1e-4294" name="New EntryLink" hidden="false" collective="false" import="true" targetId="6f9a-c4fe-3132-d011" type="selectionEntry">
+            <entryLink id="5d63-d9c1-7b1e-4294" name="Force stave" hidden="false" collective="false" import="true" targetId="6f9a-c4fe-3132-d011" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="132d-82a0-9a49-7ee1" type="max"/>
               </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
             </entryLink>
-            <entryLink id="e389-9b62-5835-aeda" name="New EntryLink" hidden="false" collective="false" import="true" targetId="07e7-1f9b-4c1c-aad9" type="selectionEntry">
+            <entryLink id="e389-9b62-5835-aeda" name="Force sword" hidden="false" collective="false" import="true" targetId="07e7-1f9b-4c1c-aad9" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b22d-4523-edea-05ab" type="max"/>
               </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -1232,14 +1325,17 @@ D6 Result
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e26-f1d6-fed8-4894" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="d2fe-60d7-68e0-e6ce" name="New EntryLink" hidden="false" collective="false" import="true" targetId="2b03-8d64-3711-f300" type="selectionEntry"/>
-            <entryLink id="b0d5-ed10-c3f9-e131" name="New EntryLink" hidden="false" collective="false" import="true" targetId="c445-e211-f316-5d83" type="selectionEntry"/>
-            <entryLink id="c2b0-7f79-9b8c-31d6" name="New EntryLink" hidden="false" collective="false" import="true" targetId="fdce-cdf7-21a9-f9ac" type="selectionEntry"/>
-            <entryLink id="52ce-9d1a-eb5f-c2a5" name="New EntryLink" hidden="false" collective="false" import="true" targetId="c6a1-e0c4-c1b1-dce1" type="selectionEntry"/>
-            <entryLink id="3fe3-453f-f2ef-7b3c" name="New EntryLink" hidden="false" collective="false" import="true" targetId="6bc7-408c-e6c0-12d6" type="selectionEntry">
+            <entryLink id="d2fe-60d7-68e0-e6ce" name="Storm bolter" hidden="false" collective="false" import="true" targetId="2b03-8d64-3711-f300" type="selectionEntry"/>
+            <entryLink id="b0d5-ed10-c3f9-e131" name="Combi-melta" hidden="false" collective="false" import="true" targetId="c445-e211-f316-5d83" type="selectionEntry"/>
+            <entryLink id="c2b0-7f79-9b8c-31d6" name="Combi-plasma" hidden="false" collective="false" import="true" targetId="fdce-cdf7-21a9-f9ac" type="selectionEntry"/>
+            <entryLink id="52ce-9d1a-eb5f-c2a5" name="Combi-flamer" hidden="false" collective="false" import="true" targetId="c6a1-e0c4-c1b1-dce1" type="selectionEntry"/>
+            <entryLink id="3fe3-453f-f2ef-7b3c" name="Psycannon" hidden="false" collective="false" import="true" targetId="6bc7-408c-e6c0-12d6" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="points" value="7.0"/>
               </modifiers>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -1633,6 +1729,9 @@ D6 Result
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a1e6-497c-9e40-726f" type="max"/>
               </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="22.0"/>
+              </costs>
             </entryLink>
             <entryLink id="fb0e-f4b6-c440-7b45" name="Hunter-killer missile" hidden="false" collective="false" import="true" targetId="32bf-b117-4ecf-5165" type="selectionEntry">
               <constraints>
@@ -2050,7 +2149,7 @@ Note: The above additions have already been included in the profile for the Malu
             <characteristic name="S" typeId="59b1-319e-ec13-d466">2</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When resolving an attack made with this weapon against a PSYKER or DAEMON unit, on a hit roll of 6+ that unit suffers 1 mortal wound and the attack sequence ends.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When resolving an attack made with this weapon against a PSYKER or DAEMON unit, on a hit roll of 6+ that unit suffers 1 mortal wound and the attack sequence ends. Blast.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2100,6 +2199,11 @@ Note: The above additions have already been included in the profile for the Malu
             <characteristic name="Deny" typeId="b5ac-9c20-5d5a-6f9b">1</characteristic>
             <characteristic name="Powers Known" typeId="69d7-b45e-00a2-7e46">Smite and 1 power from the Telethesia Discipline</characteristic>
             <characteristic name="Other" typeId="c2e2-f115-0003-5d7b"/>
+          </characteristics>
+        </profile>
+        <profile id="fadb-b3f0-eed8-2860" name="Paralysis Grenades" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of the Fight phase, if this model made a charge move this turn, you can select one enemy unit that is within 1&quot; of this model. Until the end of that phase, the enemy unit cannot be selected to fight until all other eligible units have done so. If that unit has an ability that allows it to fight first in the Fight phase, it instead fights as if it did not have this ability. If both players have units that cannot fight until all other units have done so, then alternate choosing which of those units to fight with, starting with the player whose turn is taking place.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2185,7 +2289,7 @@ Note: The above additions have already been included in the profile for the Malu
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="4.0"/>
-        <cost name="pts" typeId="points" value="80.0"/>
+        <cost name="pts" typeId="points" value="85.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -2196,66 +2300,48 @@ Note: The above additions have already been included in the profile for the Malu
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7885-5419-b409-8587" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="3457-6a7c-1d14-85c0" name="New EntryLink" hidden="false" collective="false" import="true" targetId="b61f-a3c1-827d-c5b6" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="points" value="0"/>
-          </modifiers>
+        <entryLink id="3457-6a7c-1d14-85c0" name="Boltgun" hidden="false" collective="false" import="true" targetId="b61f-a3c1-827d-c5b6" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c761-337c-637d-f1ef" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="31ed-ed64-1552-cf65" name="New EntryLink" hidden="false" collective="false" import="true" targetId="fdce-cdf7-21a9-f9ac" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="points" value="11.0"/>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="88b9-a1fd-ba63-208d" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="3c04-10cd-9d54-00c2" name="New EntryLink" hidden="false" collective="false" import="true" targetId="fd22-6743-2d4c-dd62" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="points" value="6.0"/>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="811b-f01e-a4d6-bf1b" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="714c-c3ae-1304-7bed" name="New EntryLink" hidden="false" collective="false" import="true" targetId="8c14-22cc-93ce-b85a" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="points" value="11.0"/>
-          </modifiers>
+        <entryLink id="714c-c3ae-1304-7bed" name="Plasma gun" hidden="false" collective="false" import="true" targetId="8c14-22cc-93ce-b85a" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2e6-d3d9-21c1-9bd7" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="points" value="11.0"/>
+          </costs>
         </entryLink>
         <entryLink id="e7db-2696-6cde-6dd0" name="New EntryLink" hidden="false" collective="false" import="true" targetId="2b03-8d64-3711-f300" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="points" value="2"/>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5c2-00b3-60b1-3c78" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="14c2-d710-d7ed-d71f" name="Mel" hidden="false" collective="false" import="true" targetId="efc8-c51d-5b02-a3a2" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="points" value="14.0"/>
-          </modifiers>
+        <entryLink id="14c2-d710-d7ed-d71f" name="Meltagun" hidden="false" collective="false" import="true" targetId="efc8-c51d-5b02-a3a2" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f027-e528-76c9-145d" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="points" value="14.0"/>
+          </costs>
         </entryLink>
         <entryLink id="f26f-588b-479c-be62" name="New EntryLink" hidden="false" collective="false" import="true" targetId="c445-e211-f316-5d83" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="points" value="15.0"/>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9bd6-1ea6-16c0-2cc3" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="38ea-dfc2-fce4-f7f2" name="New EntryLink" hidden="false" collective="false" import="true" targetId="c6a1-e0c4-c1b1-dce1" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="points" value="8.0"/>
-          </modifiers>
+        <entryLink id="38ea-dfc2-fce4-f7f2" name="Combi-flamer" hidden="false" collective="false" import="true" targetId="c6a1-e0c4-c1b1-dce1" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="403a-54ba-88cb-825c" type="max"/>
           </constraints>
@@ -2265,42 +2351,30 @@ Note: The above additions have already been included in the profile for the Malu
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52e8-b064-b856-6e21" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="dd39-b66b-d516-c114" name="New EntryLink" hidden="false" collective="false" import="true" targetId="5188-4b26-73ac-1160" type="selectionEntry">
+        <entryLink id="dd39-b66b-d516-c114" name="Hot-Shot Lasgun" hidden="false" collective="false" import="true" targetId="5188-4b26-73ac-1160" type="selectionEntry">
           <modifiers>
-            <modifier type="set" field="points" value="4"/>
+            <modifier type="set" field="points" value="0.0"/>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9bfe-08b8-6600-ebd1" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="7410-cd7f-4822-534d" name="Power fist" hidden="false" collective="false" import="true" targetId="f122-3720-fa32-4215" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="points" value="9.0"/>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ddfb-460b-dfa5-b025" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="87bf-a745-03ac-c81e" name="Power maul" hidden="false" collective="false" import="true" targetId="6ea7-1195-7144-438e" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="points" value="4"/>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4720-6574-aadc-4f6d" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="0ae0-fbb6-51bd-9278" name="Power sword" hidden="false" collective="false" import="true" targetId="bc9e-551d-9afb-78d5" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="points" value="4"/>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e702-464d-fc91-f280" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="9a1e-a5e4-6ede-09fe" name="Thunder hammer" hidden="false" collective="false" import="true" targetId="0e57-eaf5-763f-9c45" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="points" value="16.0"/>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d98f-be31-c0bd-c6f4" type="max"/>
           </constraints>
@@ -2394,7 +2468,7 @@ Note: The above additions have already been included in the profile for the Malu
               <characteristics>
                 <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">7</characteristic>
                 <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18&quot;</characteristic>
-                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, select one enemy CHARACTER unit that only contains models with a Wounds characteristic of less than 10 and is within 18” of and visible to this psyker. Then, select one friendly &lt;ORDO&gt; unit within 6” of this psyker. Until the end of your next Shooting phase, that &lt;ORDO&gt; unit can target that CHARACTER, even if it is not the closest enemy unit.</characteristic>
+                <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, select one enemy CHARACTER unit that only contains models with a Wounds characteristic of less than 10 and is within 18” of and visible to this psyker. Then, select one friendly &lt;ORDO&gt; unit within 6” of this psyker. Until the end of your next Shooting phase, each time you select a target for a ranged weapon a model in that &lt;ORDO&gt; INFANTRY unit is making an attack with, you can ignore the Look Out, Sir rule if you select that CHARACTER unit.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2537,11 +2611,7 @@ Note: The above additions have already been included in the profile for the Malu
           </costs>
         </entryLink>
         <entryLink id="913d-8131-8e53-7b97" name="Plasma pistol" hidden="false" collective="false" import="true" targetId="83be-1ba9-c326-4760" type="selectionEntry"/>
-        <entryLink id="d013-8775-ff80-cd2a" name="Inferno pistol" hidden="false" collective="false" import="true" targetId="83f0-56d1-b852-f21c" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="points" value="7.0"/>
-          </modifiers>
-        </entryLink>
+        <entryLink id="d013-8775-ff80-cd2a" name="Inferno pistol" hidden="false" collective="false" import="true" targetId="83f0-56d1-b852-f21c" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="7d0c-eac8-e4b4-1ad7" name="Inquisitor Ranged Weapons" hidden="false" collective="false" import="true">
@@ -2567,19 +2637,34 @@ Note: The above additions have already been included in the profile for the Malu
           </profiles>
           <costs>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="pts" typeId="points" value="20.0"/>
+            <cost name="pts" typeId="points" value="15.0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="c99e-b586-c20d-2ea7" name="Condemnor Boltgun" hidden="false" collective="false" import="true" targetId="2757-9d8a-88da-00ba" type="selectionEntry"/>
+        <entryLink id="c99e-b586-c20d-2ea7" name="Condemnor Boltgun" hidden="false" collective="false" import="true" targetId="2757-9d8a-88da-00ba" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="points" value="5.0"/>
+          </costs>
+        </entryLink>
         <entryLink id="3f61-b49a-f730-9a2b" name="Combi-plasma" hidden="false" collective="false" import="true" targetId="fdce-cdf7-21a9-f9ac" type="selectionEntry"/>
         <entryLink id="27f6-bab5-d035-9f2a" name="Flamer" hidden="false" collective="false" import="true" targetId="fd22-6743-2d4c-dd62" type="selectionEntry"/>
-        <entryLink id="d776-b0ed-81d6-117c" name="Meltagun" hidden="false" collective="false" import="true" targetId="efc8-c51d-5b02-a3a2" type="selectionEntry"/>
-        <entryLink id="f852-c791-c089-9969" name="Plasma gun" hidden="false" collective="false" import="true" targetId="8c14-22cc-93ce-b85a" type="selectionEntry"/>
+        <entryLink id="d776-b0ed-81d6-117c" name="Meltagun" hidden="false" collective="false" import="true" targetId="efc8-c51d-5b02-a3a2" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="points" value="14.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="f852-c791-c089-9969" name="Plasma gun" hidden="false" collective="false" import="true" targetId="8c14-22cc-93ce-b85a" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="points" value="11.0"/>
+          </costs>
+        </entryLink>
         <entryLink id="9195-6da5-4011-e281" name="Storm bolter" hidden="false" collective="false" import="true" targetId="2b03-8d64-3711-f300" type="selectionEntry"/>
         <entryLink id="af9f-c188-d944-976b" name="Hot-Shot Lasgun" hidden="false" collective="false" import="true" targetId="5188-4b26-73ac-1160" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="points" value="0.0"/>
+          </modifiers>
           <costs>
             <cost name="pts" typeId="points" value="4.0"/>
           </costs>
@@ -2601,6 +2686,9 @@ Note: The above additions have already been included in the profile for the Malu
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5642-b8c0-d746-8508" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="points" value="10.0"/>
+          </costs>
         </entryLink>
         <entryLink id="84bf-42d3-0fd8-99a8" name="Force stave" hidden="false" collective="false" import="true" targetId="6f9a-c4fe-3132-d011" type="selectionEntry">
           <modifiers>
@@ -2609,6 +2697,9 @@ Note: The above additions have already been included in the profile for the Malu
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a83-4c79-b8c9-f522" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="points" value="10.0"/>
+          </costs>
         </entryLink>
         <entryLink id="771d-7b23-b10d-691a" name="Force axe" hidden="false" collective="false" import="true" targetId="4a0e-0f13-63c2-9aae" type="selectionEntry">
           <modifiers>
@@ -2617,6 +2708,9 @@ Note: The above additions have already been included in the profile for the Malu
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01a3-4f2e-70e2-1769" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="points" value="10.0"/>
+          </costs>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
@@ -2644,7 +2738,7 @@ Note: The above additions have already been included in the profile for the Malu
           <costs>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts" typeId="points" value="4.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2681,10 +2775,13 @@ Note: The above additions have already been included in the profile for the Malu
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08c3-64ce-8559-1221" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="9eeb-3c83-cc39-ff88" name="New EntryLink" hidden="false" collective="false" import="true" targetId="06fb-e44e-0fd7-e874" type="selectionEntry">
+        <entryLink id="9eeb-3c83-cc39-ff88" name="Nemesis Daemon Hammer" hidden="false" collective="false" import="true" targetId="06fb-e44e-0fd7-e874" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="points" value="18.0"/>
           </modifiers>
+          <costs>
+            <cost name="pts" typeId="points" value="20.0"/>
+          </costs>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
@@ -2894,7 +2991,6 @@ Note: The above additions have already been included in the profile for the Malu
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="1e60-3912-9baf-1265" name="Warlord Traits (BRB)" hidden="false" collective="false" import="true" targetId="d442-1f03-d9da-e77f" type="selectionEntryGroup"/>
-        <entryLink id="cd75-1ad8-ad72-4780" name="Warlord Traits (CA)" hidden="false" collective="false" import="true" targetId="f673-3d9b-bb1b-377f" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="6d56-cc13-9294-4021" name="Relics of the Inquisition" hidden="false" collective="false" import="true">

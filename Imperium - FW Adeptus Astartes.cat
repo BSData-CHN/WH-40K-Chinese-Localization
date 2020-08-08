@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="dab7-e076-dd5e-d8aa" name="Imperium - FW Adeptus Astartes" revision="68" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@WindstormSCR" authorUrl="https://discord.gg/KqPVhds" library="true" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="132" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="dab7-e076-dd5e-d8aa" name="Imperium - FW Adeptus Astartes" revision="72" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="Acebaur" authorUrl="https://discord.gg/KqPVhds" library="true" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="146" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="dab7-e076-pubN133616" name="Codex: Space Wolves"/>
     <publication id="dab7-e076-pubN151451" name="Astraeus Super-heavy Tank PDF"/>
@@ -811,6 +811,9 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="7afd-4051-5a1c-7689" name="Power fist" hidden="false" collective="false" import="true" targetId="ea03-8f0b-f616-3b05" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="points" value="0.0"/>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="874b-1462-e2b0-4e7b" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ebb5-cbbb-4640-2fd0" type="max"/>
@@ -875,24 +878,6 @@
         <categoryLink id="922b-fca4-4369-befa" name="New CategoryLink" hidden="false" targetId="4b4c-bf26-6395-3b2c" primary="false"/>
         <categoryLink id="be0f-0662-aeff-3ad6" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
       </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="f4b5-a683-6c94-c47f" name="Psychic powers" hidden="false" collective="false" import="true">
-          <entryLinks>
-            <entryLink id="fcc3-1333-f536-0874" name="Smite" hidden="false" collective="false" import="true" targetId="1fb4-7f3e-134d-48d5" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3488-b45b-a905-c48b" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="862d-fd7d-f6aa-e8e5" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="6bf9-defd-e45c-d681" name="Librarius discipline" hidden="false" collective="false" import="true" targetId="ce1e-f5d9-0e18-a647" type="selectionEntryGroup">
-              <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e935-7b31-732b-8f38" type="min"/>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff4f-7c62-f63b-21b7" type="max"/>
-              </constraints>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="196d-22c6-d646-8cfd" name="Frag grenade" hidden="false" collective="false" import="true" targetId="5eff-0a2d-a8bc-f6da" type="selectionEntry">
           <constraints>
@@ -1971,7 +1956,20 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="322f-a94f-94ae-2208" name="Hecaton Aiakos" hidden="false" targetId="3ae7-97db-09b6-169b" type="profile"/>
+        <infoLink id="322f-a94f-94ae-2208" name="Hecaton Aiakos" hidden="false" targetId="3ae7-97db-09b6-169b" type="profile">
+          <modifiers>
+            <modifier type="set" field="13fc-b29b-31f2-ab9f" value="* +1">
+              <conditions>
+                <condition field="selections" scope="c42a-7105-cd0c-eb7c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="46b3-cb0f-85c5-0e31" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="00ca-f8b8-876d-b705" value="10">
+              <conditions>
+                <condition field="selections" scope="c42a-7105-cd0c-eb7c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="46b3-cb0f-85c5-0e31" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
         <infoLink id="cf65-74e6-19fa-ba35" name="Augmented Atomantic Shielding:" hidden="false" targetId="22ae-b1a1-b085-0079" type="profile"/>
         <infoLink id="e19a-c9f6-344c-826d" name="Battlesworn Warrior" hidden="false" targetId="f79b-f878-21a7-aff3" type="profile"/>
         <infoLink id="9a0f-dc42-3575-0474" name="Groundstrike" hidden="false" targetId="a32a-3366-a5b8-5197" type="profile"/>
@@ -1991,18 +1989,27 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="09a3-0d67-b9f3-6843" name="Dreadnought combat weapon" hidden="false" collective="false" import="true" targetId="742b-1b52-a3c7-4bb9" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="points" value="0.0"/>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cd5-a434-5e7c-f356" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96d6-576b-54c6-aac2" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="0964-efe4-3453-3d64" name="Heavy plasma cannon" hidden="false" collective="false" import="true" targetId="3fb4-f296-aa09-da0d" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="points" value="0.0"/>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e45-01e7-fc4a-4b40" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d93-5b7a-ffb2-1aa4" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="2b4c-fba8-1a05-c23a" name="Storm bolter" hidden="false" collective="false" import="true" targetId="8bae-cb78-cec5-d2c6" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="points" value="0.0"/>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="63bc-7e9e-1a5d-3b23" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ca2-63e7-d032-304c" type="max"/>
@@ -2010,6 +2017,7 @@
         </entryLink>
         <entryLink id="0522-c5bd-b406-6588" name="Warlord" hidden="false" collective="false" import="true" targetId="ee33-18fd-7317-1171" type="selectionEntry"/>
         <entryLink id="f406-fa31-22c1-97a9" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="f000-b6a8-62f1-ebcc" type="selectionEntryGroup"/>
+        <entryLink id="54a6-87f8-a711-266c" name="Stratagem: March of the Ancients" hidden="false" collective="false" import="true" targetId="46b3-cb0f-85c5-0e31" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="15.0"/>
@@ -2813,7 +2821,7 @@
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="8.0"/>
-        <cost name="pts" typeId="points" value="60.0"/>
+        <cost name="pts" typeId="points" value="70.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -3133,10 +3141,10 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e2a-6fd1-9a1f-30c4" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="dda8-a584-cb29-00b3" name="Strategem: March of the Ancients" hidden="false" collective="false" import="true" targetId="46b3-cb0f-85c5-0e31" type="selectionEntry"/>
+        <entryLink id="dda8-a584-cb29-00b3" name="Stratagem: March of the Ancients" hidden="false" collective="false" import="true" targetId="46b3-cb0f-85c5-0e31" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="88.0"/>
+        <cost name="pts" typeId="points" value="105.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="9.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -3619,7 +3627,7 @@
         <infoLink id="95c1-ef11-e378-0779" name="Anvillus autocannon battery" hidden="false" targetId="c7a3-aba2-bf27-6ded" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="50.0"/>
+        <cost name="pts" typeId="points" value="70.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -4081,6 +4089,7 @@
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d26e-ac12-df6a-c050" name="Thunderhawk heavy cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -4215,7 +4224,7 @@
         <infoLink id="21e1-184e-7ca3-2372" name="Power fist" hidden="false" targetId="3520-0bb4-90f2-084b" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="9.0"/>
+        <cost name="pts" typeId="points" value="10.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -10123,7 +10132,6 @@
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="c519-4c0b-6d87-f74a" name="Warlord Traits (BRB)" hidden="false" collective="false" import="true" targetId="d442-1f03-d9da-e77f" type="selectionEntryGroup"/>
-        <entryLink id="8cc0-53f5-e0d7-31c3" name="Warlord Traits (CA)" hidden="false" collective="false" import="true" targetId="f673-3d9b-bb1b-377f" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="3700-470e-f75d-6cba" name="Forge World Chapters" hidden="false" collective="false" import="true">
@@ -12465,7 +12473,7 @@ In addition, when a Psychic test or Deny the Witch test is taken for a PSYKER mo
         <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast</characteristic>
       </characteristics>
     </profile>
     <profile id="1bea-3562-d2b6-6e20" name="Cyclone missile launcher, Krak missile" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">

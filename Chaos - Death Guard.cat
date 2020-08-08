@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ce57-cc1c-37cb-cb71" name="Chaos - Death Guard" revision="88" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="131" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ce57-cc1c-37cb-cb71" name="Chaos - Death Guard" revision="94" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="146" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="ce57-cc1c-pubN85391" name="Index: Chaos FAQ"/>
     <publication id="ce57-cc1c-pubN108736" name="Codex: Heretic Astartes - Death Guard"/>
@@ -58,7 +58,7 @@
     <categoryEntry id="a50f-7a19-7624-5793" name="Plague Marines" hidden="false"/>
     <categoryEntry id="7c95-4704-2fe5-93bc" name="Chaos Cultists" hidden="false"/>
     <categoryEntry id="6676-37bc-5ed8-c56d" name="Poxwalkers" hidden="false"/>
-    <categoryEntry id="6f8e-4937-f16f-d32b" name="Noxious Blightbringer" hidden="false"/>
+    <categoryEntry id="6f8e-4937-f16f-d32b" name="Mortarion&apos;s Anvil Warlord" hidden="false"/>
     <categoryEntry id="af22-997e-da42-e651" name="Foul Blightspawn" hidden="false"/>
     <categoryEntry id="ecd7-299f-e997-1548" name="Biologus Putrifier" hidden="false"/>
     <categoryEntry id="8d6d-3d6a-dcc9-5731" name="Plague Surgeon" hidden="false"/>
@@ -88,6 +88,13 @@
     <categoryEntry id="0029-e3a8-0e30-cd7e" name="Faction: Poxmongers" hidden="false"/>
     <categoryEntry id="72ca-1f26-76c1-f988" name="Faction: Inexorable" hidden="false"/>
     <categoryEntry id="f412-6209-fbf8-b1ff" name="Faction: Mortarion&apos;s Chosen Sons" hidden="false"/>
+    <categoryEntry id="78d7-056c-2a1f-920a" name="Harbingers Warlord" hidden="false"/>
+    <categoryEntry id="2284-5a29-a37d-bd24" name="Inexorable Warlord" hidden="false"/>
+    <categoryEntry id="fe96-174b-3ed6-e2de" name="Poxmongers Warlord" hidden="false"/>
+    <categoryEntry id="378d-0ba5-499f-387c" name="Ferrymen Warlord" hidden="false"/>
+    <categoryEntry id="5fe1-af13-22d4-5d53" name="Mortarion&apos;s Chosen Sons Warlord" hidden="false"/>
+    <categoryEntry id="456b-56e1-cbcc-2534" name="Wretched Warlord" hidden="false"/>
+    <categoryEntry id="9717-89c8-8410-9045" name="Mortarion Warlord" hidden="false"/>
   </categoryEntries>
   <selectionEntries>
     <selectionEntry id="1228-ab8a-0372-1a4a" name="Plague Company" hidden="false" collective="false" import="true" type="upgrade">
@@ -1778,7 +1785,7 @@
       <entryLinks>
         <entryLink id="fc9a-0424-b84b-249b" name="Contaminated Monstrosity" hidden="false" collective="false" import="true" targetId="938d-f3d5-7df5-d71a" type="selectionEntry">
           <costs>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="-2.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="-1.0"/>
           </costs>
         </entryLink>
       </entryLinks>
@@ -1849,6 +1856,49 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any weapon with th
             <modifier type="add" field="category" value="0029-e3a8-0e30-cd7e">
               <conditions>
                 <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f500-0557-48f4-18d8" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+        <modifierGroup>
+          <comment>&lt;Plague Company&gt; Warlord tags</comment>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ae09-117e-a6fa-316b" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="add" field="category" value="78d7-056c-2a1f-920a">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="231f-9884-9e9f-3e82" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="456b-56e1-cbcc-2534">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bdd0-0284-738c-045a" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="2284-5a29-a37d-bd24">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="72ca-1f26-76c1-f988" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="378d-0ba5-499f-387c">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b39a-8668-621b-7131" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="6f8e-4937-f16f-d32b">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="aace-672a-1ca5-8b32" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="5fe1-af13-22d4-5d53">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f412-6209-fbf8-b1ff" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="fe96-174b-3ed6-e2de">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0029-e3a8-0e30-cd7e" type="instanceOf"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -2002,8 +2052,8 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any weapon with th
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="113f-c728-f886-9d6d" name="Explodes" hidden="false" targetId="9446-1148-da70-4028" type="profile"/>
         <infoLink id="f66f-df94-0706-84d5" name="Hateful Assault" hidden="false" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
+        <infoLink id="87ca-3840-59d5-d780" name="Explodes" hidden="false" targetId="f340-b26f-9bb1-3259" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="c962-e65e-be8e-8607" name="New CategoryLink" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="true"/>
@@ -2288,6 +2338,49 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any weapon with th
             </modifier>
           </modifiers>
         </modifierGroup>
+        <modifierGroup>
+          <comment>&lt;Plague Company&gt; Warlord tags</comment>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ae09-117e-a6fa-316b" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="add" field="category" value="78d7-056c-2a1f-920a">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="231f-9884-9e9f-3e82" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="456b-56e1-cbcc-2534">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bdd0-0284-738c-045a" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="2284-5a29-a37d-bd24">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="72ca-1f26-76c1-f988" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="378d-0ba5-499f-387c">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b39a-8668-621b-7131" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="6f8e-4937-f16f-d32b">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="aace-672a-1ca5-8b32" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="5fe1-af13-22d4-5d53">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f412-6209-fbf8-b1ff" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="fe96-174b-3ed6-e2de">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0029-e3a8-0e30-cd7e" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
       </modifierGroups>
       <profiles>
         <profile id="5746-8975-d4e5-72f6" name="Daemon Prince" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
@@ -2521,8 +2614,8 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any weapon with th
       </profiles>
       <infoLinks>
         <infoLink id="c736-96a1-f303-347b" name="Daemonic" hidden="false" targetId="5511-cb37-e1c1-5391" type="profile"/>
-        <infoLink id="e096-2e7a-fdc8-702d" name="Explodes" hidden="false" targetId="9446-1148-da70-4028" type="profile"/>
         <infoLink id="f64c-1870-696d-184b" name="Hateful Assault" hidden="false" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
+        <infoLink id="9838-bba1-099c-9776" name="Explodes" hidden="false" targetId="f340-b26f-9bb1-3259" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="1eac-cd86-fbf1-b28e" name="New CategoryLink" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="true"/>
@@ -2672,6 +2765,49 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any weapon with th
             <modifier type="add" field="category" value="0029-e3a8-0e30-cd7e">
               <conditions>
                 <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f500-0557-48f4-18d8" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+        <modifierGroup>
+          <comment>&lt;Plague Company&gt; Warlord tags</comment>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ae09-117e-a6fa-316b" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="add" field="category" value="78d7-056c-2a1f-920a">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="231f-9884-9e9f-3e82" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="456b-56e1-cbcc-2534">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bdd0-0284-738c-045a" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="2284-5a29-a37d-bd24">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="72ca-1f26-76c1-f988" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="378d-0ba5-499f-387c">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b39a-8668-621b-7131" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="6f8e-4937-f16f-d32b">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="aace-672a-1ca5-8b32" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="5fe1-af13-22d4-5d53">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f412-6209-fbf8-b1ff" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="fe96-174b-3ed6-e2de">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0029-e3a8-0e30-cd7e" type="instanceOf"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -3025,25 +3161,12 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any weapon with th
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="b1a8-5b7d-b14c-270e" name="Weapon option" hidden="false" collective="false" import="true" defaultSelectionEntryId="4672-7c94-d0cb-5145">
+        <selectionEntryGroup id="b1a8-5b7d-b14c-270e" name="Weapon option" hidden="false" collective="false" import="true" defaultSelectionEntryId="bf25-1207-3ef0-5b22">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7ad-d011-f12f-88b2" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80ca-b8d9-5e72-b411" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="4672-7c94-d0cb-5145" name="2x Plaguespitters" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f203-4c5c-736a-89d8" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="684a-1037-3661-f36d" name="Plaguespitter" hidden="false" targetId="9b58-344a-01a5-4680" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="34.0"/>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-              </costs>
-            </selectionEntry>
             <selectionEntry id="205b-8820-fcfe-660b" name="Heavy blight launcher" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e33c-bd1b-87c5-9a16" type="max"/>
@@ -3089,6 +3212,13 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any weapon with th
               </costs>
             </selectionEntry>
           </selectionEntries>
+          <entryLinks>
+            <entryLink id="bf25-1207-3ef0-5b22" name="2x Plaguespitter" hidden="false" collective="false" import="true" targetId="8a0c-47ec-020b-1cde" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2572-d06c-c4ba-4087" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -3155,6 +3285,49 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any weapon with th
             <modifier type="add" field="category" value="0029-e3a8-0e30-cd7e">
               <conditions>
                 <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f500-0557-48f4-18d8" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+        <modifierGroup>
+          <comment>&lt;Plague Company&gt; Warlord tags</comment>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ae09-117e-a6fa-316b" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="add" field="category" value="78d7-056c-2a1f-920a">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="231f-9884-9e9f-3e82" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="456b-56e1-cbcc-2534">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bdd0-0284-738c-045a" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="2284-5a29-a37d-bd24">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="72ca-1f26-76c1-f988" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="378d-0ba5-499f-387c">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b39a-8668-621b-7131" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="6f8e-4937-f16f-d32b">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="aace-672a-1ca5-8b32" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="5fe1-af13-22d4-5d53">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f412-6209-fbf8-b1ff" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="fe96-174b-3ed6-e2de">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0029-e3a8-0e30-cd7e" type="instanceOf"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -3250,6 +3423,49 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any weapon with th
             <modifier type="add" field="category" value="0029-e3a8-0e30-cd7e">
               <conditions>
                 <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f500-0557-48f4-18d8" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+        <modifierGroup>
+          <comment>&lt;Plague Company&gt; Warlord tags</comment>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ae09-117e-a6fa-316b" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="add" field="category" value="78d7-056c-2a1f-920a">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="231f-9884-9e9f-3e82" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="456b-56e1-cbcc-2534">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bdd0-0284-738c-045a" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="2284-5a29-a37d-bd24">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="72ca-1f26-76c1-f988" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="378d-0ba5-499f-387c">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b39a-8668-621b-7131" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="6f8e-4937-f16f-d32b">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="aace-672a-1ca5-8b32" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="5fe1-af13-22d4-5d53">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f412-6209-fbf8-b1ff" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="fe96-174b-3ed6-e2de">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0029-e3a8-0e30-cd7e" type="instanceOf"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -3383,6 +3599,49 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any weapon with th
             </modifier>
           </modifiers>
         </modifierGroup>
+        <modifierGroup>
+          <comment>&lt;Plague Company&gt; Warlord tags</comment>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ae09-117e-a6fa-316b" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="add" field="category" value="78d7-056c-2a1f-920a">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="231f-9884-9e9f-3e82" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="456b-56e1-cbcc-2534">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bdd0-0284-738c-045a" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="2284-5a29-a37d-bd24">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="72ca-1f26-76c1-f988" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="378d-0ba5-499f-387c">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b39a-8668-621b-7131" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="6f8e-4937-f16f-d32b">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="aace-672a-1ca5-8b32" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="5fe1-af13-22d4-5d53">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f412-6209-fbf8-b1ff" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="fe96-174b-3ed6-e2de">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0029-e3a8-0e30-cd7e" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
       </modifierGroups>
       <profiles>
         <profile id="96ae-ecc3-94c5-8363" name="Chaos Lord with Jump Pack" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
@@ -3481,6 +3740,49 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any weapon with th
             <modifier type="add" field="category" value="0029-e3a8-0e30-cd7e">
               <conditions>
                 <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f500-0557-48f4-18d8" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+        <modifierGroup>
+          <comment>&lt;Plague Company&gt; Warlord tags</comment>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ae09-117e-a6fa-316b" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="add" field="category" value="78d7-056c-2a1f-920a">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="231f-9884-9e9f-3e82" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="456b-56e1-cbcc-2534">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bdd0-0284-738c-045a" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="2284-5a29-a37d-bd24">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="72ca-1f26-76c1-f988" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="378d-0ba5-499f-387c">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b39a-8668-621b-7131" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="6f8e-4937-f16f-d32b">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="aace-672a-1ca5-8b32" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="5fe1-af13-22d4-5d53">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f412-6209-fbf8-b1ff" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="fe96-174b-3ed6-e2de">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0029-e3a8-0e30-cd7e" type="instanceOf"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -3607,6 +3909,49 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any weapon with th
             <modifier type="add" field="category" value="0029-e3a8-0e30-cd7e">
               <conditions>
                 <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f500-0557-48f4-18d8" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+        <modifierGroup>
+          <comment>&lt;Plague Company&gt; Warlord tags</comment>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ae09-117e-a6fa-316b" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="add" field="category" value="78d7-056c-2a1f-920a">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="231f-9884-9e9f-3e82" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="456b-56e1-cbcc-2534">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bdd0-0284-738c-045a" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="2284-5a29-a37d-bd24">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="72ca-1f26-76c1-f988" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="378d-0ba5-499f-387c">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b39a-8668-621b-7131" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="6f8e-4937-f16f-d32b">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="aace-672a-1ca5-8b32" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="5fe1-af13-22d4-5d53">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f412-6209-fbf8-b1ff" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="fe96-174b-3ed6-e2de">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0029-e3a8-0e30-cd7e" type="instanceOf"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -3784,7 +4129,7 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any weapon with th
             <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3939,7 +4284,6 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any weapon with th
       <entryLinks>
         <entryLink id="23c2-535c-6b77-032d" name="Has Battle Honours" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
         <entryLink id="4e3d-c2e7-fd3c-b042" name="Battle Honours" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
-        <entryLink id="199f-91be-d9a3-4761" name="Contaminated Monstrosity" hidden="false" collective="false" import="true" targetId="938d-f3d5-7df5-d71a" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="6.0"/>
@@ -4161,7 +4505,7 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any weapon with th
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">For each hit roll of 1, the Hellbrute suffers a mortal wound after all of this weapon&apos;s shots have been resolved.</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">For each hit roll of 1, the Hellbrute suffers a mortal wound after all of this weapon&apos;s shots have been resolved. Blast.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4309,8 +4653,8 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any weapon with th
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="05a1-3e72-2b75-58c9" name="Explodes" hidden="false" targetId="9446-1148-da70-4028" type="profile"/>
         <infoLink id="fbbe-3dfb-f64c-3a52" name="Hateful Assault" hidden="false" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
+        <infoLink id="8c5f-9839-a46e-cdba" name="Explodes" hidden="false" targetId="f340-b26f-9bb1-3259" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="58d0-94d5-39ac-8754" name="New CategoryLink" hidden="false" targetId="ca10-a5dd-f54f-0ed5" primary="false"/>
@@ -4542,6 +4886,49 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any weapon with th
             </modifier>
           </modifiers>
         </modifierGroup>
+        <modifierGroup>
+          <comment>&lt;Plague Company&gt; Warlord tags</comment>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ae09-117e-a6fa-316b" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="add" field="category" value="78d7-056c-2a1f-920a">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="231f-9884-9e9f-3e82" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="456b-56e1-cbcc-2534">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bdd0-0284-738c-045a" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="2284-5a29-a37d-bd24">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="72ca-1f26-76c1-f988" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="378d-0ba5-499f-387c">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b39a-8668-621b-7131" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="6f8e-4937-f16f-d32b">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="aace-672a-1ca5-8b32" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="5fe1-af13-22d4-5d53">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f412-6209-fbf8-b1ff" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="fe96-174b-3ed6-e2de">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0029-e3a8-0e30-cd7e" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
       </modifierGroups>
       <profiles>
         <profile id="9da5-39b7-168a-7eb8" name="Lord of Contagion" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
@@ -4691,6 +5078,49 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any weapon with th
             </modifier>
           </modifiers>
         </modifierGroup>
+        <modifierGroup>
+          <comment>&lt;Plague Company&gt; Warlord tags</comment>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ae09-117e-a6fa-316b" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="add" field="category" value="78d7-056c-2a1f-920a">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="231f-9884-9e9f-3e82" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="456b-56e1-cbcc-2534">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bdd0-0284-738c-045a" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="2284-5a29-a37d-bd24">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="72ca-1f26-76c1-f988" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="378d-0ba5-499f-387c">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b39a-8668-621b-7131" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="6f8e-4937-f16f-d32b">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="aace-672a-1ca5-8b32" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="5fe1-af13-22d4-5d53">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f412-6209-fbf8-b1ff" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="fe96-174b-3ed6-e2de">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0029-e3a8-0e30-cd7e" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
       </modifierGroups>
       <profiles>
         <profile id="3c10-23a2-ac08-406b" name="Malignant Plaguecaster" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
@@ -4830,7 +5260,7 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any weapon with th
         <entryLink id="a7e9-0233-9cf2-897a" name="Sevenfold Blessings" hidden="false" collective="false" import="true" targetId="6df2-11b7-4e8f-201e" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="95.0"/>
+        <cost name="pts" typeId="points" value="100.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="6.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -5079,6 +5509,49 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any weapon with th
             </modifier>
           </modifiers>
         </modifierGroup>
+        <modifierGroup>
+          <comment>&lt;Plague Company&gt; Warlord tags</comment>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ae09-117e-a6fa-316b" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="add" field="category" value="78d7-056c-2a1f-920a">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="231f-9884-9e9f-3e82" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="456b-56e1-cbcc-2534">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bdd0-0284-738c-045a" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="2284-5a29-a37d-bd24">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="72ca-1f26-76c1-f988" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="378d-0ba5-499f-387c">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b39a-8668-621b-7131" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="6f8e-4937-f16f-d32b">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="aace-672a-1ca5-8b32" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="5fe1-af13-22d4-5d53">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f412-6209-fbf8-b1ff" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="fe96-174b-3ed6-e2de">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0029-e3a8-0e30-cd7e" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
       </modifierGroups>
       <profiles>
         <profile id="4f45-5cc1-2fa1-f4a8" name="Noxious Blightbringer" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
@@ -5269,14 +5742,10 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any weapon with th
             <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">This model can transport 10 DEATH GUARD INFANTRY models (each TERMINATOR model takes up the space of two other models).</characteristic>
           </characteristics>
         </profile>
-        <profile id="d976-216b-4e43-e7a4" name="Explodes" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model is reduced to 0 wounds, roll a D6 before removing the model from the battlefield and before any embarked models disembark; on a 6 it explodes, and each unit within 6&quot; suffers D6 mortal wounds.</characteristic>
-          </characteristics>
-        </profile>
       </profiles>
       <infoLinks>
         <infoLink id="5064-3d1e-319f-3777" name="Hateful Assault" hidden="false" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
+        <infoLink id="d257-8f1a-aa7d-e4b0" name="Explodes" hidden="false" targetId="f340-b26f-9bb1-3259" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="e239-3419-f605-54ce" name="New CategoryLink" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="true"/>
@@ -5364,6 +5833,49 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any weapon with th
             <modifier type="add" field="category" value="0029-e3a8-0e30-cd7e">
               <conditions>
                 <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f500-0557-48f4-18d8" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+        <modifierGroup>
+          <comment>&lt;Plague Company&gt; Warlord tags</comment>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ae09-117e-a6fa-316b" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="add" field="category" value="78d7-056c-2a1f-920a">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="231f-9884-9e9f-3e82" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="456b-56e1-cbcc-2534">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bdd0-0284-738c-045a" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="2284-5a29-a37d-bd24">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="72ca-1f26-76c1-f988" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="378d-0ba5-499f-387c">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b39a-8668-621b-7131" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="6f8e-4937-f16f-d32b">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="aace-672a-1ca5-8b32" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="5fe1-af13-22d4-5d53">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f412-6209-fbf8-b1ff" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="fe96-174b-3ed6-e2de">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0029-e3a8-0e30-cd7e" type="instanceOf"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -5680,6 +6192,18 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any weapon with th
       </costs>
     </selectionEntry>
     <selectionEntry id="0e51-2a41-8394-7f6b" name="Mortarion" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set-primary" field="category" value="c888f08a-6cea-4a01-8126-d374a9231554">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5baf-eed5-bb85-7325" type="notInstanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" field="category" value="26b0-4bb9-73aa-d3d7">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5baf-eed5-bb85-7325" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="d84a-ad01-b0dc-2607" name="Mortarion" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
           <characteristics>
@@ -5782,7 +6306,6 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any weapon with th
         <categoryLink id="a71f-9673-d160-a9a0" name="New CategoryLink" hidden="false" targetId="298f-d173-2159-919f" primary="false"/>
         <categoryLink id="6fae-ba42-f83c-b9af" name="New CategoryLink" hidden="false" targetId="e691-aad7-d21c-1023" primary="false"/>
         <categoryLink id="9255-b738-b1ea-5367" name="New CategoryLink" hidden="false" targetId="3117-16d8-fcef-4f56" primary="false"/>
-        <categoryLink id="677e-d92b-700c-d2f9" name="New CategoryLink" hidden="false" targetId="c888f08a-6cea-4a01-8126-d374a9231554" primary="true"/>
         <categoryLink id="0ca5-36d1-689d-7479" name="New CategoryLink" hidden="false" targetId="c940-6653-e034-772f" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -5883,6 +6406,9 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any weapon with th
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e2b-1f54-9362-2179" type="max"/>
           </constraints>
+          <categoryLinks>
+            <categoryLink id="3085-ffa1-9d50-ad58" name="Mortarion Warlord" hidden="false" targetId="9717-89c8-8410-9045" primary="false"/>
+          </categoryLinks>
         </entryLink>
         <entryLink id="faba-56e9-84ec-c5a6" name="Plaguechosen" hidden="false" collective="false" import="true" targetId="90c0-072b-69b2-1bcf" type="selectionEntry"/>
       </entryLinks>
@@ -6044,30 +6570,15 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any weapon with th
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="ee44-3d0f-e5e9-6f69" name="Manreaper" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="86c3-bfb6-169f-9671" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="068d-0add-adc0-7e6d" type="min"/>
-              </constraints>
-              <profiles>
-                <profile id="9334-fcf3-53e0-2167" name="Manreaper" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
-                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
-                    <characteristic name="S" typeId="59b1-319e-ec13-d466">+3</characteristic>
-                    <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
-                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Plague Weapon</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="17.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-              </costs>
-            </selectionEntry>
           </selectionEntries>
+          <entryLinks>
+            <entryLink id="50fb-ae85-8e7b-3dfa" name="Manreaper" hidden="false" collective="false" import="true" targetId="4036-659f-a575-e26d" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35d9-c40d-8d4d-6d41" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8aa3-73c9-9330-5451" type="min"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
           <costs>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="pts" typeId="points" value="32.0"/>
@@ -6095,29 +6606,6 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any weapon with th
             </profile>
           </profiles>
           <selectionEntries>
-            <selectionEntry id="bfd9-540e-9b54-6723" name="Manreaper" hidden="false" collective="true" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c783-20a2-6dcc-76c1" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e10f-5845-c9a6-1d84" type="min"/>
-              </constraints>
-              <profiles>
-                <profile id="ef7d-e55f-0755-33bd" name="Manreaper" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
-                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
-                    <characteristic name="S" typeId="59b1-319e-ec13-d466">+3</characteristic>
-                    <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
-                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Plague Weapon</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="17.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-              </costs>
-            </selectionEntry>
             <selectionEntry id="3d6a-1dbe-0e74-02e4" name="Plaguespurt gauntlets" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b20-581e-673b-2a75" type="max"/>
@@ -6133,6 +6621,14 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any weapon with th
               </costs>
             </selectionEntry>
           </selectionEntries>
+          <entryLinks>
+            <entryLink id="c8a6-d9a5-7bd1-2bb3" name="Manreaper" hidden="false" collective="false" import="true" targetId="4036-659f-a575-e26d" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53b2-9a2d-d6b9-0799" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8baf-8b5c-db73-1205" type="min"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="32.0"/>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -7194,7 +7690,7 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any weapon with th
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Plague Weapon</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Plague Weapon. Blast.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7371,7 +7867,7 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any weapon with th
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Plague Weapon. This weapon can target units that are not visible to the bearer.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Plague Weapon. This weapon can target units that are not visible to the bearer. Blast.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7402,7 +7898,7 @@ Plague Weapon. When resolving an attack with this weapon, a damage roll of 1 or 
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="8142-f9e4-4c8e-dae4" name="Sponson weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="1b3f-567e-f1d9-53df">
+        <selectionEntryGroup id="8142-f9e4-4c8e-dae4" name="Sponson weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="410e-8a02-cd51-885b">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07e2-1452-51cf-686d" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3379-aa2f-d0db-8ac8" type="max"/>
@@ -7437,20 +7933,14 @@ Plague Weapon. When resolving an attack with this weapon, a damage roll of 1 or 
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="1b3f-567e-f1d9-53df" name="2x Plaguespitter" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ca7-dbd2-6b21-fa55" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="4fb8-235f-159e-9588" name="Plaguespitter" hidden="false" targetId="9b58-344a-01a5-4680" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="34.0"/>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-              </costs>
-            </selectionEntry>
           </selectionEntries>
+          <entryLinks>
+            <entryLink id="410e-8a02-cd51-885b" name="2 Plaguespitters" hidden="false" collective="false" import="true" targetId="8a0c-47ec-020b-1cde" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e56-413e-8aff-134a" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="b4a0-cc1c-7361-22fc" name="Pintle weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="2956-517a-2b3e-0cb3">
           <constraints>
@@ -7512,13 +8002,13 @@ Plague Weapon. When resolving an attack with this weapon, a damage roll of 1 or 
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8a0c-47ec-020b-1cde" name="Plaguespitter" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="8a0c-47ec-020b-1cde" name="2x Plaguespitter" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="db86-db51-6852-97b1" name="Plaguespitter" hidden="false" targetId="9b58-344a-01a5-4680" type="profile"/>
       </infoLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" typeId="points" value="20.0"/>
+        <cost name="pts" typeId="points" value="40.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -7535,7 +8025,7 @@ Plague Weapon. When resolving an attack with this weapon, a damage roll of 1 or 
             <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7566,14 +8056,14 @@ Plague Weapon. When resolving an attack with this weapon, a damage roll of 1 or 
     </selectionEntry>
     <selectionEntry id="36f3-205a-9a21-726d" name="Plague spewer" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="8b1f-e321-f8a1-8f0e" name="Plague Spewer" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="8b1f-e321-f8a1-8f0e" name="Plague spewer" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">9&quot;</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy D6</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon automatically hits its target. You can re-roll wound rolls of 1 for this weapon.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Plague Weapon. This weapon automatically hits its target.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7585,14 +8075,14 @@ Plague Weapon. When resolving an attack with this weapon, a damage roll of 1 or 
     </selectionEntry>
     <selectionEntry id="2eec-d159-0db6-6df9" name="Plague belcher" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="5a14-9327-d0b2-06d5" name="Plague Belcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="5a14-9327-d0b2-06d5" name="Plague belcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">9&quot;</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault D6</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon automatically hits its target. You can re-roll wounds rolls of 1 for this weapon.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Plague Weapon. This weapon automatically hits its target.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7777,7 +8267,7 @@ Plague Weapon. When resolving an attack with this weapon, a damage roll of 1 or 
             <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Plague Weapon. Each wound roll of 6+ made for this weapon inflicts a mortal wound in addition to any other damage.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Plague Weapon. Each wound roll of 6+ made for this weapon inflicts a mortal wound in addition to any other damage. Blast.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7824,6 +8314,49 @@ Plague Weapon. When resolving an attack with this weapon, a damage roll of 1 or 
             <modifier type="add" field="category" value="0029-e3a8-0e30-cd7e">
               <conditions>
                 <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f500-0557-48f4-18d8" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+        <modifierGroup>
+          <comment>&lt;Plague Company&gt; Warlord tags</comment>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ae09-117e-a6fa-316b" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="add" field="category" value="78d7-056c-2a1f-920a">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="231f-9884-9e9f-3e82" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="456b-56e1-cbcc-2534">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bdd0-0284-738c-045a" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="2284-5a29-a37d-bd24">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="72ca-1f26-76c1-f988" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="378d-0ba5-499f-387c">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b39a-8668-621b-7131" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="6f8e-4937-f16f-d32b">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="aace-672a-1ca5-8b32" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="5fe1-af13-22d4-5d53">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f412-6209-fbf8-b1ff" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="fe96-174b-3ed6-e2de">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0029-e3a8-0e30-cd7e" type="instanceOf"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -7995,6 +8528,49 @@ Plague Weapon. When resolving an attack with this weapon, a damage roll of 1 or 
             </modifier>
           </modifiers>
         </modifierGroup>
+        <modifierGroup>
+          <comment>&lt;Plague Company&gt; Warlord tags</comment>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ae09-117e-a6fa-316b" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="add" field="category" value="78d7-056c-2a1f-920a">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="231f-9884-9e9f-3e82" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="456b-56e1-cbcc-2534">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bdd0-0284-738c-045a" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="2284-5a29-a37d-bd24">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="72ca-1f26-76c1-f988" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="378d-0ba5-499f-387c">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b39a-8668-621b-7131" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="6f8e-4937-f16f-d32b">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="aace-672a-1ca5-8b32" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="5fe1-af13-22d4-5d53">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f412-6209-fbf8-b1ff" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="fe96-174b-3ed6-e2de">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0029-e3a8-0e30-cd7e" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
       </modifierGroups>
       <profiles>
         <profile id="7b4b-6b16-9db1-4796" name="Tallyman" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
@@ -8119,6 +8695,49 @@ Plague Weapon. When resolving an attack with this weapon, a damage roll of 1 or 
             <modifier type="add" field="category" value="0029-e3a8-0e30-cd7e">
               <conditions>
                 <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f500-0557-48f4-18d8" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+        <modifierGroup>
+          <comment>&lt;Plague Company&gt; Warlord tags</comment>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ae09-117e-a6fa-316b" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="add" field="category" value="78d7-056c-2a1f-920a">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="231f-9884-9e9f-3e82" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="456b-56e1-cbcc-2534">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bdd0-0284-738c-045a" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="2284-5a29-a37d-bd24">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="72ca-1f26-76c1-f988" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="378d-0ba5-499f-387c">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b39a-8668-621b-7131" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="6f8e-4937-f16f-d32b">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="aace-672a-1ca5-8b32" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="5fe1-af13-22d4-5d53">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f412-6209-fbf8-b1ff" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="fe96-174b-3ed6-e2de">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0029-e3a8-0e30-cd7e" type="instanceOf"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -9047,6 +9666,49 @@ Plague Weapon. When resolving an attack with this weapon, a damage roll of 1 or 
             </modifier>
           </modifiers>
         </modifierGroup>
+        <modifierGroup>
+          <comment>&lt;Plague Company&gt; Warlord tags</comment>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ae09-117e-a6fa-316b" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="add" field="category" value="78d7-056c-2a1f-920a">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="231f-9884-9e9f-3e82" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="456b-56e1-cbcc-2534">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bdd0-0284-738c-045a" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="2284-5a29-a37d-bd24">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="72ca-1f26-76c1-f988" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="378d-0ba5-499f-387c">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b39a-8668-621b-7131" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="6f8e-4937-f16f-d32b">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="aace-672a-1ca5-8b32" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="5fe1-af13-22d4-5d53">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f412-6209-fbf8-b1ff" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="fe96-174b-3ed6-e2de">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0029-e3a8-0e30-cd7e" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
       </modifierGroups>
       <profiles>
         <profile id="a841-786c-afdb-acb2" name="Chaos Lord" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
@@ -9147,6 +9809,49 @@ Plague Weapon. When resolving an attack with this weapon, a damage roll of 1 or 
             </modifier>
           </modifiers>
         </modifierGroup>
+        <modifierGroup>
+          <comment>&lt;Plague Company&gt; Warlord tags</comment>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ae09-117e-a6fa-316b" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="add" field="category" value="78d7-056c-2a1f-920a">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="231f-9884-9e9f-3e82" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="456b-56e1-cbcc-2534">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bdd0-0284-738c-045a" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="2284-5a29-a37d-bd24">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="72ca-1f26-76c1-f988" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="378d-0ba5-499f-387c">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b39a-8668-621b-7131" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="6f8e-4937-f16f-d32b">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="aace-672a-1ca5-8b32" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="5fe1-af13-22d4-5d53">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f412-6209-fbf8-b1ff" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="fe96-174b-3ed6-e2de">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0029-e3a8-0e30-cd7e" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
       </modifierGroups>
       <profiles>
         <profile id="6668-3b74-125d-c33e" name="Sorcerer" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
@@ -9237,8 +9942,8 @@ Plague Weapon. When resolving an attack with this weapon, a damage roll of 1 or 
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a840-f0b3-abac-6d1c" type="equalTo"/>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a840-f0b3-abac-6d1c" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ae09-117e-a6fa-316b" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ae09-117e-a6fa-316b" type="equalTo"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -9247,6 +9952,13 @@ Plague Weapon. When resolving an attack with this weapon, a damage roll of 1 or 
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b79c-a7d8-074b-ac66" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="171c-cb0c-3b54-1f99" name="Plaguechosen" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Use this Stratagem before the battle, after nominating your Warlord. Select one DEATH GUARD CHARACTER model from your army that does not have a Warlord Trait and determine one Warlord Trait for it; it is regarded as your Warlord for the purposes of that Warlord Trait. Each Warlord Trait in your army must be unique (if randomly generated, re-roll duplicate results).</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="-1.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -9306,6 +10018,29 @@ Plague Weapon. When resolving an attack with this weapon, a damage roll of 1 or 
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="-1.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4036-659f-a575-e26d" name="Manreaper" hidden="false" collective="true" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73a7-2823-5a4a-ece4" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="92f7-39ce-8548-f865" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="9c80-ef41-d7ab-26d1" name="Manreaper" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+            <characteristic name="S" typeId="59b1-319e-ec13-d466">+3</characteristic>
+            <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
+            <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Plague Weapon</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="pts" typeId="points" value="15.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -9727,10 +10462,20 @@ Plague Weapon. When resolving an attack with this weapon, a damage roll of 1 or 
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
                 <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0fd0-e47b-a43d-ee68" type="equalTo"/>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b39a-8668-621b-7131" type="notInstanceOf"/>
-                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0fd0-e47b-a43d-ee68" type="equalTo"/>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b39a-8668-621b-7131" type="notInstanceOf"/>
+                      </conditions>
+                    </conditionGroup>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9717-89c8-8410-9045" type="equalTo"/>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="378d-0ba5-499f-387c" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
@@ -9761,10 +10506,20 @@ Plague Weapon. When resolving an attack with this weapon, a damage roll of 1 or 
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
                 <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="922e-5c7d-e439-842b" type="equalTo"/>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="231f-9884-9e9f-3e82" type="notInstanceOf"/>
-                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="922e-5c7d-e439-842b" type="equalTo"/>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="231f-9884-9e9f-3e82" type="notInstanceOf"/>
+                      </conditions>
+                    </conditionGroup>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9717-89c8-8410-9045" type="equalTo"/>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="78d7-056c-2a1f-920a" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
@@ -9780,7 +10535,7 @@ Plague Weapon. When resolving an attack with this weapon, a damage roll of 1 or 
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Plague Weapon. When resolving an attack made with this weapon, do not make a hit roll; it automatically scores a hit.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Plague Weapon. When resolving an attack made with this weapon, do not make a hit roll; it automatically scores a hit. Blast.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9795,10 +10550,20 @@ Plague Weapon. When resolving an attack with this weapon, a damage roll of 1 or 
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
                 <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bdd0-0284-738c-045a" type="notInstanceOf"/>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="198b-9ec3-8ecd-121d" type="notInstanceOf"/>
-                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bdd0-0284-738c-045a" type="notInstanceOf"/>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="198b-9ec3-8ecd-121d" type="notInstanceOf"/>
+                      </conditions>
+                    </conditionGroup>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9717-89c8-8410-9045" type="equalTo"/>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="456b-56e1-cbcc-2534" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
@@ -9832,10 +10597,20 @@ Plague Weapon. When resolving an attack with this weapon, a damage roll of 1 or 
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
                 <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="aace-672a-1ca5-8b32" type="notInstanceOf"/>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e936-731d-fadb-a113" type="notInstanceOf"/>
-                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="aace-672a-1ca5-8b32" type="notInstanceOf"/>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e936-731d-fadb-a113" type="notInstanceOf"/>
+                      </conditions>
+                    </conditionGroup>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9717-89c8-8410-9045" type="equalTo"/>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6f8e-4937-f16f-d32b" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
@@ -9859,9 +10634,21 @@ Plague Weapon. When resolving an attack with this weapon, a damage roll of 1 or 
         <selectionEntry id="eeb1-70ed-79e4-d5fe" name="Ironclot Furnace" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0029-e3a8-0e30-cd7e" type="notInstanceOf"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0029-e3a8-0e30-cd7e" type="notInstanceOf"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9717-89c8-8410-9045" type="equalTo"/>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fe96-174b-3ed6-e2de" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <constraints>
@@ -9883,9 +10670,21 @@ Plague Weapon. When resolving an attack with this weapon, a damage roll of 1 or 
         <selectionEntry id="81d8-b774-8789-c5cd" name="The Leechspore Casket" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="72ca-1f26-76c1-f988" type="notInstanceOf"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="72ca-1f26-76c1-f988" type="notInstanceOf"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2284-5a29-a37d-bd24" type="equalTo"/>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9717-89c8-8410-9045" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <constraints>
@@ -9904,21 +10703,31 @@ Plague Weapon. When resolving an attack with this weapon, a damage roll of 1 or 
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="ba69-eb22-e791-077f" name="Vomitrix" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="ba69-eb22-e791-077f" name="Vomitryx" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
                 <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8b00-b075-0cef-ba4d" type="equalTo"/>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f412-6209-fbf8-b1ff" type="notInstanceOf"/>
-                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8b00-b075-0cef-ba4d" type="equalTo"/>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f412-6209-fbf8-b1ff" type="notInstanceOf"/>
+                      </conditions>
+                    </conditionGroup>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5fe1-af13-22d4-5d53" type="equalTo"/>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9717-89c8-8410-9045" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
           </modifiers>
           <profiles>
-            <profile id="3372-2ffe-e303-fc85" name="Vomitrix" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="3372-2ffe-e303-fc85" name="Vomitryx" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">9&quot;</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 7</characteristic>
@@ -10559,7 +11368,7 @@ Plague Weapon. When resolving an attack with this weapon, a damage roll of 1 or 
           <profiles>
             <profile id="e403-ed8b-6665-c468" name="Sanguous Flux" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made with a friendly POXMONGERS model against an enemy INFANTRY unit whilst that model&apos;s unit is within 7&quot; of this Warlord, improve the Armour Penetration characteristic of that weapon by 1 for that attack (e.g. AP 0 becomes AP -1).</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made with a melee weapon by a friendly POXMONGERS model against an enemy INFANTRY unit whilst that model’s unit is within 7&quot; of this Warlord, improve the Armour Penetration characteristic of that weapon by 1 for that attack (e.g. AP 0 becomes AP -1).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10662,7 +11471,6 @@ Plague Weapon. When resolving an attack with this weapon, a damage roll of 1 or 
       <entryLinks>
         <entryLink id="a14a-f30a-52b2-a4a0" name="Death Guard Warlord Traits" hidden="false" collective="false" import="true" targetId="2142-4fb8-0ffd-a8c2" type="selectionEntryGroup"/>
         <entryLink id="b5aa-f1bc-4b84-8302" name="Warlord Traits (BRB)" hidden="false" collective="false" import="true" targetId="d442-1f03-d9da-e77f" type="selectionEntryGroup"/>
-        <entryLink id="fb91-d6c0-3c9c-09f0" name="Warlord Traits (CA)" hidden="false" collective="false" import="true" targetId="f673-3d9b-bb1b-377f" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
@@ -10821,7 +11629,12 @@ If your summoning roll included any doubles, your character then suffers a morta
         <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Plague Weapon</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Plague Weapon. Blast.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f340-b26f-9bb1-3259" name="Explodes" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model is reduced to 0 wounds, roll a D6 before removing the model from the battlefield and before any embarked models disembark; on a 6 it explodes, and each unit within 6&quot; suffers D6 mortal wounds.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

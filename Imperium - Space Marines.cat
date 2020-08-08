@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="846d-3c14-21fc-369f" name="Imperium - Space Marines" revision="156" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="Acebaur" authorUrl="https://discord.gg/KqPVhds" library="true" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="131" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="846d-3c14-21fc-369f" name="Imperium - Space Marines" revision="170" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="Acebaur" authorUrl="https://discord.gg/KqPVhds" library="true" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="146" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="846d-3c14-pubN65537" name="Index: Imperium 1 &amp; Codex: Space Marines"/>
   </publications>
@@ -340,6 +340,18 @@
           </modifiers>
         </entryLink>
         <entryLink id="fd5d-bcc1-9bdc-31f2" name="Stratagem: Chapter Champion" hidden="false" collective="false" import="true" targetId="29bc-7957-a56d-1aeb" type="selectionEntry"/>
+        <entryLink id="0c15-2a6d-f1b7-be0c" name="Jump Pack" hidden="false" collective="false" import="true" targetId="181e-0718-160e-2e75" type="selectionEntry">
+          <modifiers>
+            <modifier type="increment" field="e356-c769-5920-6e14" value="1.0"/>
+            <modifier type="increment" field="points" value="25.0"/>
+            <modifier type="set" field="name" value="Jump Pack Legends"/>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="eb0f-c144-a282-8bdc" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="3.0"/>
@@ -782,7 +794,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7124-d098-2c25-7ac6" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="e132-2844-ce11-8ae6" name="New InfoLink" hidden="false" targetId="802b-8d1b-8b9f-41e2" type="profile"/>
+            <infoLink id="e132-2844-ce11-8ae6" name="Wrist-mounted grenade launcher" hidden="false" targetId="802b-8d1b-8b9f-41e2" type="profile"/>
           </infoLinks>
           <costs>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -1873,6 +1885,18 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0bf8-eaa8-693f-1436" type="max"/>
               </constraints>
             </entryLink>
+            <entryLink id="dd90-ffde-ebd2-e794" name="Jump Pack" hidden="false" collective="false" import="true" targetId="181e-0718-160e-2e75" type="selectionEntry">
+              <modifiers>
+                <modifier type="increment" field="e356-c769-5920-6e14" value="1.0"/>
+                <modifier type="increment" field="points" value="25.0"/>
+                <modifier type="set" field="name" value="Jump Pack Legends"/>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="eb0f-c144-a282-8bdc" type="notInstanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="b5ec-eb00-3ee1-3333" name="Stratagems" hidden="false" collective="false" import="true">
@@ -2147,12 +2171,23 @@
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66ad-58af-c48c-594e" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="0927-bd1d-c25b-97ac" name="New EntryLink" hidden="false" collective="false" import="true" targetId="eb15-db61-5d4f-b65e" type="selectionEntry">
+            <entryLink id="0927-bd1d-c25b-97ac" name="Plasma cannon" hidden="false" collective="false" import="true" targetId="eb15-db61-5d4f-b65e" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="points" value="10.0">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b8fe-8d38-37ec-90e8" type="instanceOf"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b63-9c61-92ab-f842" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="c41c-51b0-30e4-c268" name="New EntryLink" hidden="false" collective="false" import="true" targetId="2b37-65ee-9443-b4ef" type="selectionEntry">
+            <entryLink id="c41c-51b0-30e4-c268" name="Multi-melta" hidden="false" collective="false" import="true" targetId="2b37-65ee-9443-b4ef" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6fda-3a4d-6004-3c61" type="max"/>
               </constraints>
@@ -2161,7 +2196,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="3.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="2.0"/>
         <cost name="pts" typeId="points" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -2372,7 +2407,7 @@
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="5.0"/>
-        <cost name="pts" typeId="points" value="90.0"/>
+        <cost name="pts" typeId="points" value="95.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -2779,6 +2814,18 @@
           </modifiers>
         </entryLink>
         <entryLink id="a95a-5afb-af8f-2c62" name="Stratagem: Chapter Ancient" hidden="false" collective="false" import="true" targetId="c791-b2fc-df48-1834" type="selectionEntry"/>
+        <entryLink id="ec32-63f7-8b22-900f" name="Jump Pack" hidden="false" collective="false" import="true" targetId="181e-0718-160e-2e75" type="selectionEntry">
+          <modifiers>
+            <modifier type="increment" field="e356-c769-5920-6e14" value="1.0"/>
+            <modifier type="increment" field="points" value="25.0"/>
+            <modifier type="set" field="name" value="Jump Pack Legends"/>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="eb0f-c144-a282-8bdc" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="4.0"/>
@@ -2923,13 +2970,20 @@
         <categoryLink id="3ad5-7717-0b82-5190" name="New CategoryLink" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="62b2-8d40-752a-7a38" name="Veteran Sergeant" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="62b2-8d40-752a-7a38" name="Veteran Sergeant" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbce-66bd-1b22-baac" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f3d-8564-5230-9ba4" type="max"/>
           </constraints>
           <profiles>
             <profile id="fecd-f974-5f7a-57f2" name="Veteran Sergeant" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+              <modifiers>
+                <modifier type="set" field="0bdf-a96e-9e38-7779" value="12&quot;">
+                  <conditions>
+                    <condition field="selections" scope="339f-3bb9-0c10-034b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="181e-0718-160e-2e75" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <characteristics>
                 <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
                 <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -3042,6 +3096,24 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c85a-d45f-f598-4481" type="max"/>
                   </constraints>
                 </entryLink>
+                <entryLink id="535d-6c82-9443-a369" name="Hand Flamer" hidden="false" collective="false" import="true" targetId="d646-cf8b-0d01-69ff" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="eb0f-c144-a282-8bdc" type="notInstanceOf"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+                <entryLink id="69bd-23e1-4009-f7a7" name="Inferno pistol" hidden="false" collective="false" import="true" targetId="83f0-56d1-b852-f21c" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="eb0f-c144-a282-8bdc" type="notInstanceOf"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -3060,13 +3132,20 @@
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="bb78-bcb7-c045-ae93" name="Space Marine Veteran" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="bb78-bcb7-c045-ae93" name="Space Marine Veteran" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="afcb-e33c-848d-dc4d" type="min"/>
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6e5c-2ac6-af17-681d" type="max"/>
           </constraints>
           <profiles>
             <profile id="3bf0-1791-7fd1-0de6" name="Space Marine Veteran" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+              <modifiers>
+                <modifier type="set" field="0bdf-a96e-9e38-7779" value="12&quot;">
+                  <conditions>
+                    <condition field="selections" scope="339f-3bb9-0c10-034b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="181e-0718-160e-2e75" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <characteristics>
                 <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
                 <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -3135,6 +3214,24 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d1a-4b17-c5c0-e35d" type="max"/>
                   </constraints>
                 </entryLink>
+                <entryLink id="ee81-ca3a-7059-3270" name="Hand Flamer" hidden="false" collective="false" import="true" targetId="d646-cf8b-0d01-69ff" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="eb0f-c144-a282-8bdc" type="notInstanceOf"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+                <entryLink id="1e61-538e-c009-bdb7" name="Inferno pistol" hidden="false" collective="false" import="true" targetId="83f0-56d1-b852-f21c" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="eb0f-c144-a282-8bdc" type="notInstanceOf"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -3153,6 +3250,28 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="3b4e-d5da-fe74-0fca" name="Jump Pack" hidden="false" collective="false" import="true" targetId="181e-0718-160e-2e75" type="selectionEntry">
+          <modifiers>
+            <modifier type="increment" field="e356-c769-5920-6e14" value="1.0">
+              <conditions>
+                <condition field="selections" scope="339f-3bb9-0c10-034b" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="points" value="2.0">
+              <repeats>
+                <repeat field="selections" scope="339f-3bb9-0c10-034b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="set" field="name" value="Jump Pack Legends"/>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="eb0f-c144-a282-8bdc" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="3.0"/>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -3321,14 +3440,24 @@
     </selectionEntry>
     <selectionEntry id="8699-3820-0f9d-7bbc" name="Tactical Squad" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
-        <modifier type="increment" field="e356-c769-5920-6e14" value="3.0">
-          <conditions>
-            <condition field="selections" scope="8699-3820-0f9d-7bbc" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9021-d405-33fa-fcf1" type="atLeast"/>
-          </conditions>
+        <modifier type="increment" field="e356-c769-5920-6e14" value="1.0">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="8699-3820-0f9d-7bbc" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" type="greaterThan"/>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b8fe-8d38-37ec-90e8" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
         <modifier type="set" field="hidden" value="true">
           <conditions>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e277-184d-4e8a-6177" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="e356-c769-5920-6e14" value="3.0">
+          <conditions>
+            <condition field="selections" scope="8699-3820-0f9d-7bbc" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" type="greaterThan"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -3336,7 +3465,7 @@
         <infoLink id="24a1-e910-2cc4-a25c" name="Combat Squads" hidden="false" targetId="3e31-4e4b-6ab6-d90b" type="profile"/>
         <infoLink id="b2e0-400c-b96f-a081" name="Angels of Death" hidden="false" targetId="01a4-bec8-b573-fde7" type="rule"/>
         <infoLink id="d2a3-b661-28d4-cbbd" name="New InfoLink" hidden="false" targetId="cdb4-e266-8c8b-b51c" type="profile"/>
-        <infoLink id="42e1-ab0a-11af-a044" name="New InfoLink" hidden="false" targetId="7d5b-5e9e-c1e4-d8d2" type="profile"/>
+        <infoLink id="42e1-ab0a-11af-a044" name="Space Marine" hidden="false" targetId="7d5b-5e9e-c1e4-d8d2" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="6004-449b-15a0-5408" name="New CategoryLink" hidden="false" targetId="c7b7-edbc-bc14-6238" primary="false"/>
@@ -3435,7 +3564,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="736f-babe-b727-3bbf" name="Space Marine w/Special Weapon" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="736f-babe-b727-3bbf" name="Space Marine w/Special Weapon" hidden="false" collective="false" import="true" type="model">
               <modifiers>
                 <modifier type="set" field="b35c-2b1c-5fbc-b900" value="0.0">
                   <conditionGroups>
@@ -3532,13 +3661,23 @@
       <modifiers>
         <modifier type="increment" field="e356-c769-5920-6e14" value="3.0">
           <conditions>
-            <condition field="selections" scope="6ad4-2695-93d6-f1e4" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="265f-3e9b-fd47-7c28" type="atLeast"/>
+            <condition field="selections" scope="6ad4-2695-93d6-f1e4" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
           </conditions>
         </modifier>
         <modifier type="set" field="hidden" value="true">
           <conditions>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e277-184d-4e8a-6177" type="equalTo"/>
           </conditions>
+        </modifier>
+        <modifier type="increment" field="e356-c769-5920-6e14" value="1.0">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="6ad4-2695-93d6-f1e4" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b8fe-8d38-37ec-90e8" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <profiles>
@@ -3588,7 +3727,7 @@
             <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f85-b9c0-9dbe-bbe4" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="ba33-2753-5f1d-12b8" name="Scout Sergeant" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="ba33-2753-5f1d-12b8" name="Scout Sergeant" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06d0-14a6-92b8-be82" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f02a-f804-5b77-4d93" type="max"/>
@@ -3657,7 +3796,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="54ae-9303-12b4-fc92" name="Scout w/Heavy Weapon" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="54ae-9303-12b4-fc92" name="Scout w/Heavy Weapon" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c62-e427-ee04-3eeb" type="max"/>
               </constraints>
@@ -3693,7 +3832,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="f9ab-577b-3142-0b6a" name="Scout w/Boltgun" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="f9ab-577b-3142-0b6a" name="Scout w/Boltgun" hidden="false" collective="false" import="true" type="model">
               <entryLinks>
                 <entryLink id="14e3-0cb4-6fc7-8538" name="Bolt pistol" hidden="false" collective="false" import="true" targetId="37d3-7098-d596-9948" type="selectionEntry">
                   <constraints>
@@ -3720,7 +3859,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="f453-6dd2-e8f1-4968" name="Scout w/Shotgun" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="f453-6dd2-e8f1-4968" name="Scout w/Shotgun" hidden="false" collective="false" import="true" type="model">
               <entryLinks>
                 <entryLink id="ed17-ea1b-a67a-a13f" name="Bolt pistol" hidden="false" collective="false" import="true" targetId="37d3-7098-d596-9948" type="selectionEntry">
                   <constraints>
@@ -3747,7 +3886,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="b647-3e50-2524-fed4" name="Scout w/Combat Knife" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="b647-3e50-2524-fed4" name="Scout w/Combat Knife" hidden="false" collective="false" import="true" type="model">
               <entryLinks>
                 <entryLink id="0805-87c8-e7f1-1679" name="Bolt pistol" hidden="false" collective="false" import="true" targetId="37d3-7098-d596-9948" type="selectionEntry">
                   <constraints>
@@ -3774,7 +3913,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="953d-c139-c8cf-2ea9" name="Scout w/Sniper Rifle" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="953d-c139-c8cf-2ea9" name="Scout w/Sniper Rifle" hidden="false" collective="false" import="true" type="model">
               <entryLinks>
                 <entryLink id="a413-c7af-70b7-67d5" name="Bolt pistol" hidden="false" collective="false" import="true" targetId="37d3-7098-d596-9948" type="selectionEntry">
                   <constraints>
@@ -5339,13 +5478,13 @@
       </infoLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="5.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7b2e-47fe-ee40-8b35" name="Terminator Squad" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
-        <modifier type="increment" field="e356-c769-5920-6e14" value="10.0">
+        <modifier type="increment" field="e356-c769-5920-6e14" value="9.0">
           <conditions>
             <condition field="selections" scope="7b2e-47fe-ee40-8b35" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2714-e64c-1ccf-b0b3" type="atLeast"/>
           </conditions>
@@ -5500,7 +5639,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="10.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="9.0"/>
         <cost name="pts" typeId="points" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -5993,13 +6132,23 @@
       <modifiers>
         <modifier type="increment" field="e356-c769-5920-6e14" value="3.0">
           <conditions>
-            <condition field="selections" scope="7c16-1429-b6d5-e6f1" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6300-c955-2591-f6e1" type="atLeast"/>
+            <condition field="selections" scope="7c16-1429-b6d5-e6f1" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" type="greaterThan"/>
           </conditions>
         </modifier>
         <modifier type="set" field="hidden" value="true">
           <conditions>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e277-184d-4e8a-6177" type="equalTo"/>
           </conditions>
+        </modifier>
+        <modifier type="increment" field="e356-c769-5920-6e14" value="1.0">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="7c16-1429-b6d5-e6f1" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" type="greaterThan"/>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b8fe-8d38-37ec-90e8" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <infoLinks>
@@ -6037,7 +6186,7 @@
             <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c042-4b91-1058-94fb" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="7c29-08cf-8e84-22a5" name="Space Marine Sergeant" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="7c29-08cf-8e84-22a5" name="Space Marine Sergeant" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6266-408c-dd66-1f26" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f38-9f4b-1c24-2fc7" type="max"/>
@@ -6087,7 +6236,7 @@
                     </selectionEntry>
                   </selectionEntries>
                   <entryLinks>
-                    <entryLink id="ae12-57c1-6915-a8c5" name="New EntryLink" hidden="false" collective="false" import="true" targetId="ce40-8190-5033-a0c1" type="selectionEntryGroup">
+                    <entryLink id="ae12-57c1-6915-a8c5" name="Melee Weapons" hidden="false" collective="false" import="true" targetId="ce40-8190-5033-a0c1" type="selectionEntryGroup">
                       <constraints>
                         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6836-0977-492b-0b1b" type="max"/>
                       </constraints>
@@ -6152,7 +6301,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="bd7d-46c0-4eba-b630" name="Space Marine" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="bd7d-46c0-4eba-b630" name="Space Marine" hidden="false" collective="false" import="true" type="model">
               <entryLinks>
                 <entryLink id="e37d-bd45-d8c6-e08a" name="Bolt pistol" hidden="false" collective="false" import="true" targetId="37d3-7098-d596-9948" type="selectionEntry">
                   <constraints>
@@ -6179,7 +6328,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="a0ca-4b88-c60a-c661" name="Space Marine w/Special Weapon" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="a0ca-4b88-c60a-c661" name="Space Marine w/Special Weapon" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5dcb-734c-67c3-40a1" type="max"/>
               </constraints>
@@ -6214,6 +6363,42 @@
                   </selectionEntries>
                   <entryLinks>
                     <entryLink id="2604-17de-d3d1-7811" name="New EntryLink" hidden="false" collective="false" import="true" targetId="fd22-6743-2d4c-dd62" type="selectionEntry"/>
+                    <entryLink id="9b89-efb0-c15d-bc1a" name="Plasma gun" hidden="false" collective="false" import="true" targetId="8c14-22cc-93ce-b85a" type="selectionEntry">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="eb0f-c144-a282-8bdc" type="notInstanceOf"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
+                    <entryLink id="18fc-6b58-c931-7aad" name="Meltagun" hidden="false" collective="false" import="true" targetId="efc8-c51d-5b02-a3a2" type="selectionEntry">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="eb0f-c144-a282-8bdc" type="notInstanceOf"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
+                    <entryLink id="f227-f6f0-d7f1-430f" name="Inferno pistol" hidden="false" collective="false" import="true" targetId="83f0-56d1-b852-f21c" type="selectionEntry">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="eb0f-c144-a282-8bdc" type="notInstanceOf"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
+                    <entryLink id="ea06-1abf-ff8d-ccf0" name="Hand Flamer" hidden="false" collective="false" import="true" targetId="d646-cf8b-0d01-69ff" type="selectionEntry">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="eb0f-c144-a282-8bdc" type="notInstanceOf"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -6231,7 +6416,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="aecb-575e-3237-a546" name="Space Marine w/Eviscerator" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="aecb-575e-3237-a546" name="Space Marine w/Eviscerator" hidden="false" collective="false" import="true" type="model">
               <modifiers>
                 <modifier type="increment" field="435e-f0dc-212f-e1b6" value="1">
                   <conditions>
@@ -6287,12 +6472,22 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="70bc-0516-df21-bbb8" name="Inceptor Squad" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="70bc-0516-df21-bbb8" name="Inceptor Squad" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="increment" field="e356-c769-5920-6e14" value="7.0">
           <conditions>
-            <condition field="selections" scope="70bc-0516-df21-bbb8" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5c3a-3b11-6b0d-5c4d" type="greaterThan"/>
+            <condition field="selections" scope="70bc-0516-df21-bbb8" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" type="greaterThan"/>
           </conditions>
+        </modifier>
+        <modifier type="increment" field="e356-c769-5920-6e14" value="3.0">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="70bc-0516-df21-bbb8" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" type="greaterThan"/>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b8fe-8d38-37ec-90e8" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <infoLinks>
@@ -6393,27 +6588,47 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="7.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="10.0"/>
         <cost name="pts" typeId="points" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1c9d-5baf-1410-2234" name="Scout Bike Squad" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
-        <modifier type="increment" field="e356-c769-5920-6e14" value="4">
+        <modifier type="increment" field="e356-c769-5920-6e14" value="3.0">
           <conditions>
-            <condition field="selections" scope="1c9d-5baf-1410-2234" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c256-3970-07e9-ce7d" type="atLeast"/>
+            <condition field="selections" scope="1c9d-5baf-1410-2234" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" type="greaterThan"/>
           </conditions>
         </modifier>
-        <modifier type="increment" field="e356-c769-5920-6e14" value="4">
+        <modifier type="increment" field="e356-c769-5920-6e14" value="3.0">
           <conditions>
-            <condition field="selections" scope="1c9d-5baf-1410-2234" value="7.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c256-3970-07e9-ce7d" type="atLeast"/>
+            <condition field="selections" scope="1c9d-5baf-1410-2234" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" type="greaterThan"/>
           </conditions>
         </modifier>
         <modifier type="set" field="hidden" value="true">
           <conditions>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e277-184d-4e8a-6177" type="equalTo"/>
           </conditions>
+        </modifier>
+        <modifier type="increment" field="e356-c769-5920-6e14" value="1.0">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="1c9d-5baf-1410-2234" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" type="greaterThan"/>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b8fe-8d38-37ec-90e8" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="increment" field="e356-c769-5920-6e14" value="1.0">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="1c9d-5baf-1410-2234" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" type="greaterThan"/>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b8fe-8d38-37ec-90e8" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <profiles>
@@ -6447,7 +6662,7 @@
       <infoLinks>
         <infoLink id="f159-00fa-7a23-cdc8" name="Angels of Death" hidden="false" targetId="01a4-bec8-b573-fde7" type="rule"/>
         <infoLink id="2910-53b9-7204-07ee" name="New InfoLink" hidden="false" targetId="c027-2e84-7468-0607" type="profile"/>
-        <infoLink id="59d3-f290-fe06-abac" name="New InfoLink" hidden="false" targetId="8b15-e6fa-a990-b4bf" type="profile"/>
+        <infoLink id="59d3-f290-fe06-abac" name="Combat Squads (Thirds)" hidden="false" targetId="8b15-e6fa-a990-b4bf" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="cbb0-3b30-2004-94fe" name="New CategoryLink" hidden="false" targetId="c7b7-edbc-bc14-6238" primary="false"/>
@@ -6463,7 +6678,7 @@
             <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0459-0d12-e3de-0f7c" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="ebb3-eed7-beb8-9c53" name="Scout Biker" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="ebb3-eed7-beb8-9c53" name="Scout Biker" hidden="false" collective="false" import="true" type="model">
               <entryLinks>
                 <entryLink id="191b-55a2-7df7-5699" name="Bolt pistol" hidden="false" collective="false" import="true" targetId="37d3-7098-d596-9948" type="selectionEntry">
                   <constraints>
@@ -6502,7 +6717,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="a60b-2881-e86e-7249" name="Scout Biker Sergeant" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="a60b-2881-e86e-7249" name="Scout Biker Sergeant" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ccd7-5a0e-abe4-06a2" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8eb9-319c-4b4f-3bf6" type="max"/>
@@ -6578,7 +6793,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="f6d4-1aab-9dd2-7413" name="Scout Biker w/Grenade Launcher" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="f6d4-1aab-9dd2-7413" name="Scout Biker w/Grenade Launcher" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4543-581e-a395-4387" type="max"/>
               </constraints>
@@ -6736,7 +6951,7 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="25.0"/>
+            <cost name="pts" typeId="points" value="30.0"/>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
@@ -6771,7 +6986,7 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="21.0"/>
+                <cost name="pts" typeId="points" value="25.0"/>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
@@ -6823,7 +7038,7 @@
                 <entryLink id="2ece-7633-f963-8338" name="Special-Issue Wargear" hidden="false" collective="false" import="true" targetId="81fa-73cf-0cea-37a0" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="21.0"/>
+                <cost name="pts" typeId="points" value="25.0"/>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
@@ -6853,7 +7068,7 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="21.0"/>
+                <cost name="pts" typeId="points" value="25.0"/>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
@@ -6880,7 +7095,7 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="21.0"/>
+                <cost name="pts" typeId="points" value="25.0"/>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
@@ -6996,7 +7211,7 @@
       </profiles>
       <infoLinks>
         <infoLink id="dafc-8037-bb04-c92b" name="Explodes (3&quot;/1)" hidden="false" targetId="ed48-ff69-f33b-792f" type="rule"/>
-        <infoLink id="0442-600c-8694-4eb9" name="New InfoLink" hidden="false" targetId="60db-65f7-ca20-7874" type="rule"/>
+        <infoLink id="0442-600c-8694-4eb9" name="Open-topped" hidden="false" targetId="60db-65f7-ca20-7874" type="rule"/>
         <infoLink id="3e07-d145-65fa-e2b9" name="Angels of Death" hidden="false" targetId="01a4-bec8-b573-fde7" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -7340,7 +7555,7 @@
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up this model, along with any units embarked aboard it, in orbit instead of setting it up on the battlefield. If you do, at the end of one of your Movement phases you can set up this model anywhere on the battlefield that is more than 9&quot; away from any enemy models. Any models embarked aboard it must immediately disembark, and must be set up more than 9&quot; away from any enemy models (if a model cannot be placed in this way, it is destroyed).
 
-Matched Play: This model and any units embarked aboard it are exempt from the Tactical Reserves matched play rule, except that if it and any units embarked aboard it have not arrived on the battlefield by the end of the third battle round, they count as having been destroyed.</characteristic>
+Matched Play: Neither this model, nor any units embarked within it, are counted towards any limits that the mission you are playing places on the maximum number of Reinforcement units you can have in your army. This model can be set up in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7363,7 +7578,7 @@ Matched Play: This model and any units embarked aboard it are exempt from the Ta
           </constraints>
           <entryLinks>
             <entryLink id="ad94-02c6-0fce-ebb4" name="New EntryLink" hidden="false" collective="false" import="true" targetId="2b03-8d64-3711-f300" type="selectionEntry"/>
-            <entryLink id="508b-633a-03aa-b19d" name="New EntryLink" hidden="false" collective="false" import="true" targetId="5342-99c6-bc9f-770a" type="selectionEntry"/>
+            <entryLink id="508b-633a-03aa-b19d" name="Deathwind launcher" hidden="false" collective="false" import="true" targetId="5342-99c6-bc9f-770a" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -7764,8 +7979,8 @@ Matched Play: This model and any units embarked aboard it are exempt from the Ta
                   </constraints>
                   <entryLinks>
                     <entryLink id="1265-e072-0274-b19e" name="Grav-cannon and grav-amp" hidden="false" collective="false" import="true" targetId="4eb8-7dd8-253f-d4aa" type="selectionEntry"/>
-                    <entryLink id="4e29-ef82-364b-75ea" name="New EntryLink" hidden="false" collective="false" import="true" targetId="584a-6098-3259-2249" type="selectionEntry"/>
-                    <entryLink id="2e64-34e6-5b3e-bbf0" name="New EntryLink" hidden="false" collective="false" import="true" targetId="1341-9950-38dd-6043" type="selectionEntry"/>
+                    <entryLink id="4e29-ef82-364b-75ea" name="Two Heavy Bolters" hidden="false" collective="false" import="true" targetId="584a-6098-3259-2249" type="selectionEntry"/>
+                    <entryLink id="2e64-34e6-5b3e-bbf0" name="Two Lascannons" hidden="false" collective="false" import="true" targetId="1341-9950-38dd-6043" type="selectionEntry"/>
                   </entryLinks>
                 </selectionEntryGroup>
                 <selectionEntryGroup id="cd28-40e8-4ded-1c90" name="Option 1" hidden="false" collective="false" import="true" defaultSelectionEntryId="1554-c95c-2bbb-a96e">
@@ -7808,8 +8023,8 @@ Matched Play: This model and any units embarked aboard it are exempt from the Ta
                       </constraints>
                       <entryLinks>
                         <entryLink id="bcd4-4ca7-0028-5ab0" name="Grav-cannon and grav-amp" hidden="false" collective="false" import="true" targetId="4eb8-7dd8-253f-d4aa" type="selectionEntry"/>
-                        <entryLink id="02f6-914d-37cc-34b7" name="New EntryLink" hidden="false" collective="false" import="true" targetId="584a-6098-3259-2249" type="selectionEntry"/>
-                        <entryLink id="c487-ce10-5710-d740" name="New EntryLink" hidden="false" collective="false" import="true" targetId="1341-9950-38dd-6043" type="selectionEntry"/>
+                        <entryLink id="02f6-914d-37cc-34b7" name="Two Heavy Bolters" hidden="false" collective="false" import="true" targetId="584a-6098-3259-2249" type="selectionEntry"/>
+                        <entryLink id="c487-ce10-5710-d740" name="Two Lascannons" hidden="false" collective="false" import="true" targetId="1341-9950-38dd-6043" type="selectionEntry"/>
                       </entryLinks>
                     </selectionEntryGroup>
                     <selectionEntryGroup id="0da5-4ead-92d4-feb2" name="Option 1" hidden="false" collective="false" import="true" defaultSelectionEntryId="4483-a5e5-eb9d-10b0">
@@ -8052,7 +8267,7 @@ Crewed Artillery:After this unit is set up on the battlefield for the first time
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon can target units that are not visible to the firing model.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon can target units that are not visible to the firing model. Blast.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8063,8 +8278,8 @@ Crewed Artillery:After this unit is set up on the battlefield for the first time
           </categoryLinks>
           <costs>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="pts" typeId="points" value="0.0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9906-614c-b10b-808a" name="Techmarine Gunner" hidden="false" collective="false" import="true" type="upgrade">
@@ -8111,7 +8326,7 @@ Crewed Artillery:After this unit is set up on the battlefield for the first time
             <entryLink id="83e0-795f-6128-4acf" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="4f55-3af3-89ff-791e" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="26.0"/>
+            <cost name="pts" typeId="points" value="45.0"/>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
@@ -8119,8 +8334,8 @@ Crewed Artillery:After this unit is set up on the battlefield for the first time
       </selectionEntries>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="4.0"/>
-        <cost name="pts" typeId="points" value="55.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="85.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="35a4-8bcc-287a-95aa" name="Predator" hidden="false" collective="false" import="true" type="upgrade">
@@ -8225,6 +8440,13 @@ Crewed Artillery:After this unit is set up on the battlefield for the first time
       </costs>
     </selectionEntry>
     <selectionEntry id="584a-6098-3259-2249" name="Two Heavy Bolters" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="points" value="20.0">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3d52-fccf-10c0-3fae" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <infoLinks>
         <infoLink id="b53e-b92e-985a-03f6" name="New InfoLink" hidden="false" targetId="e2b0-b9f1-6c38-584c" type="profile"/>
       </infoLinks>
@@ -8235,6 +8457,13 @@ Crewed Artillery:After this unit is set up on the battlefield for the first time
       </costs>
     </selectionEntry>
     <selectionEntry id="1341-9950-38dd-6043" name="Two Lascannons" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="points" value="30.0">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3d52-fccf-10c0-3fae" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <infoLinks>
         <infoLink id="307b-abcc-ec54-d627" name="New InfoLink" hidden="false" targetId="f14a-07e5-5465-69cf" type="profile"/>
       </infoLinks>
@@ -8405,7 +8634,7 @@ Crewed Artillery:After this unit is set up on the battlefield for the first time
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="0711-5edb-2091-f1c5" name="New EntryLink" hidden="false" collective="false" import="true" targetId="32bf-b117-4ecf-5165" type="selectionEntry">
+            <entryLink id="0711-5edb-2091-f1c5" name="Hunter-killer missile" hidden="false" collective="false" import="true" targetId="32bf-b117-4ecf-5165" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51bc-6dc9-c730-9df8" type="max"/>
               </constraints>
@@ -8710,7 +8939,7 @@ Crewed Artillery:After this unit is set up on the battlefield for the first time
               <entryLinks>
                 <entryLink id="3892-757b-8dc3-8e30" name="New EntryLink" hidden="false" collective="false" import="true" targetId="f787-a3af-72b5-60d1" type="selectionEntry"/>
                 <entryLink id="f565-9b3d-28bc-13fe" name="New EntryLink" hidden="false" collective="false" import="true" targetId="ee18-b1cd-6b60-464d" type="selectionEntry"/>
-                <entryLink id="6555-2245-8e04-d149" name="New EntryLink" hidden="false" collective="false" import="true" targetId="353e-3e4d-a6ed-d25c" type="selectionEntry"/>
+                <entryLink id="6555-2245-8e04-d149" name="Twin heavy plasma cannon" hidden="false" collective="false" import="true" targetId="353e-3e4d-a6ed-d25c" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="d6d8-7d19-90ed-4f0e" name="Option 2" hidden="false" collective="false" import="true" defaultSelectionEntryId="0452-bfc1-4a8a-4281">
@@ -9047,7 +9276,7 @@ Crewed Artillery:After this unit is set up on the battlefield for the first time
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="180.0"/>
+        <cost name="pts" typeId="points" value="240.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="14.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -9157,7 +9386,7 @@ Crewed Artillery:After this unit is set up on the battlefield for the first time
               <costs>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="11.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -9391,7 +9620,7 @@ Crewed Artillery:After this unit is set up on the battlefield for the first time
                   </constraints>
                   <rules>
                     <rule id="69e1-5e29-8bbd-1ec7" name="Lightning Assault" hidden="false">
-                      <description>Units with this tactic can charge in a turn in which they Advanced or Fell Back. BIKER models with this tactic do not suffer the penalty for moving and firing Heavy weapons, or for Advancing and firing Assault weapons.</description>
+                      <description>Units with this tactic can charge in a turn in which they Advanced or Fell Back. Models with this tactic do not suffer the penalty for Advancing and firing Assault weapons</description>
                     </rule>
                   </rules>
                   <costs>
@@ -9727,7 +9956,7 @@ Crewed Artillery:After this unit is set up on the battlefield for the first time
                   <profiles>
                     <profile id="789b-210d-531e-2be3" name="Indomitable" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When a Morale test is taken for a unit with this tactic, no more than one model can flee.</characteristic>
+                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time a Combat Attrition test is taken for a unit with this tactic, it is automatically passed</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -10077,7 +10306,7 @@ Crewed Artillery:After this unit is set up on the battlefield for the first time
             <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When Sergeant Telion fires this weapon he may target an enemy CHARATER even if it is not the closest enemy unit. When resolving an attack roll with this weapon a wound roll of 6+ inflicts 1 mortal wound in addition to any other damage.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time you select a target for this weapon, you can ignore the Look Out, Sir rule.  When resolving an attack roll with this weapon a wound roll of 6+ inflicts 1 mortal wound in addition to any other damage.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10089,16 +10318,6 @@ Crewed Artillery:After this unit is set up on the battlefield for the first time
     </selectionEntry>
     <selectionEntry id="3ccf-35d5-d59d-d01a" name="Terminus Ultra [Legends]" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ef59-b971-acfe-2119" type="equalTo"/>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9e43-6e51-2a4a-56cc" type="equalTo"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
         <modifier type="set" field="hidden" value="true">
           <conditions>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e277-184d-4e8a-6177" type="equalTo"/>
@@ -10482,7 +10701,7 @@ Crewed Artillery:After this unit is set up on the battlefield for the first time
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="90.0"/>
+        <cost name="pts" typeId="points" value="95.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="5.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -10512,6 +10731,25 @@ Crewed Artillery:After this unit is set up on the battlefield for the first time
           <conditions>
             <condition field="selections" scope="7046-e724-263b-4b74" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f072-3250-fb48-8150" type="greaterThan"/>
           </conditions>
+        </modifier>
+        <modifier type="increment" field="e356-c769-5920-6e14" value="1.0">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b8fe-8d38-37ec-90e8" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="increment" field="e356-c769-5920-6e14" value="1.0">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="7046-e724-263b-4b74" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" type="greaterThan"/>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b8fe-8d38-37ec-90e8" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <profiles>
@@ -10742,7 +10980,7 @@ Crewed Artillery:After this unit is set up on the battlefield for the first time
             <characteristic name="S" typeId="59b1-319e-ec13-d466">0</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">0</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">A shock grenade doesn&apos;t inflict any damage. Instead, each time a shock grenade hits an enemy INFANTRY unit, it is stunned until the end of the turn - it cannot fire Overwatch and your opponent must subtract 1 from any hit rolls made for the unit. Second and subsequent hits from a shock grenade have no additional effect.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">A shock grenade doesn&apos;t inflict any damage. Instead, each time a shock grenade hits an enemy INFANTRY unit, it is stunned until the end of the turn - it cannot fire Overwatch and your opponent must subtract 1 from any hit rolls made for the unit. Second and subsequent hits from a shock grenade have no additional effect. Blast.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10818,6 +11056,7 @@ Crewed Artillery:After this unit is set up on the battlefield for the first time
             <infoLink id="3e4c-2d27-0409-5449" name="Absolver Bolt Pistol" hidden="false" targetId="67dc-0909-bd2d-c20c" type="profile">
               <modifiers>
                 <modifier type="set" field="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="18&quot;"/>
+                <modifier type="set" field="ae8a-3137-d65b-4ca7" value="2"/>
               </modifiers>
             </infoLink>
           </infoLinks>
@@ -10994,8 +11233,27 @@ Crewed Artillery:After this unit is set up on the battlefield for the first time
       <modifiers>
         <modifier type="increment" field="e356-c769-5920-6e14" value="5.0">
           <conditions>
-            <condition field="selections" scope="0f7e-ce51-f92d-0138" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f214-ecfb-ec13-7e73" type="greaterThan"/>
+            <condition field="selections" scope="0f7e-ce51-f92d-0138" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" type="greaterThan"/>
           </conditions>
+        </modifier>
+        <modifier type="increment" field="e356-c769-5920-6e14" value="1.0">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="0f7e-ce51-f92d-0138" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" type="greaterThan"/>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b8fe-8d38-37ec-90e8" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="increment" field="e356-c769-5920-6e14" value="1.0">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b8fe-8d38-37ec-90e8" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <profiles>
@@ -11987,6 +12245,7 @@ Crewed Artillery:After this unit is set up on the battlefield for the first time
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="38b5-ef30-f87f-5275" type="equalTo"/>
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2792-c0fb-d72e-cee4" type="equalTo"/>
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ae46-8351-6394-d68c" type="equalTo"/>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="dba4-2778-dad1-4590" type="equalTo"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -12016,6 +12275,7 @@ Crewed Artillery:After this unit is set up on the battlefield for the first time
               <conditions>
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bc9e-551d-9afb-78d5" type="equalTo"/>
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7d93-d63c-bfba-c879" type="equalTo"/>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c754-9c52-a162-2032" type="equalTo"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -12157,7 +12417,7 @@ Crewed Artillery:After this unit is set up on the battlefield for the first time
             <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">The weapon can target enemy CHARACTERS even if they are not the closest model to the bearer.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time you select a target for this weapon, you can ignore the Look Out, Sir rule.</characteristic>
           </characteristics>
         </profile>
         <profile id="30c1-1a81-f61d-f820" name="The Spartean" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -12831,10 +13091,20 @@ Crewed Artillery:After this unit is set up on the battlefield for the first time
     </selectionEntry>
     <selectionEntry id="4d98-5c31-6b1c-9002" name="Infiltrator Squad" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="increment" field="e356-c769-5920-6e14" value="6.0">
+        <modifier type="increment" field="e356-c769-5920-6e14" value="5.0">
           <conditions>
             <condition field="selections" scope="4d98-5c31-6b1c-9002" value="5.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
           </conditions>
+        </modifier>
+        <modifier type="increment" field="e356-c769-5920-6e14" value="1.0">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="4d98-5c31-6b1c-9002" value="5.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b8fe-8d38-37ec-90e8" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <profiles>
@@ -13472,7 +13742,7 @@ Crewed Artillery:After this unit is set up on the battlefield for the first time
             <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon can target a CHARACTER unit even if it is not the closest enemy unit.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon can target a CHARACTER unit even if it is not the closest enemy unit. Blast.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -13841,13 +14111,6 @@ Crewed Artillery:After this unit is set up on the battlefield for the first time
       </costs>
     </selectionEntry>
     <selectionEntry id="3075-df7b-bf1d-c31d" name="Dreadnought combat weapon" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="set" field="points" value="0.0">
-          <conditions>
-            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad76-d653-9f96-093a" type="instanceOf"/>
-          </conditions>
-        </modifier>
-      </modifiers>
       <infoLinks>
         <infoLink id="7884-d109-f46f-0379" name="Dreadnought combat weapon" hidden="false" targetId="3b26-3098-155f-0e58" type="profile"/>
       </infoLinks>
@@ -14051,7 +14314,7 @@ Crewed Artillery:After this unit is set up on the battlefield for the first time
             <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">May Target Characters</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time you select a target for this weapon, you can ignore the Look Out, Sir rule</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -14186,7 +14449,7 @@ Crewed Artillery:After this unit is set up on the battlefield for the first time
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="3b5b-78d0-ad7f-44e6" name="Bellicastus Missile Array - Icarus" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -14196,7 +14459,7 @@ Crewed Artillery:After this unit is set up on the battlefield for the first time
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">7</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When resolving an attack made with this weapon, add 1 to the hit roll if the target can FLY; otherwise subtract 1 from the hit roll</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When resolving an attack made with this weapon, add 1 to the hit roll if the target can FLY; otherwise subtract 1 from the hit roll. Blast.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -14280,6 +14543,8 @@ Crewed Artillery:After this unit is set up on the battlefield for the first time
         <categoryLink id="b4e3-124b-ce28-11bc" name="New CategoryLink" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
         <categoryLink id="4d7e-ff9f-af57-22ce" name="Faction: Adeptus Astartes" hidden="false" targetId="c7b7-edbc-bc14-6238" primary="false"/>
         <categoryLink id="cc44-5f89-7d39-a4d0" name="Faction: Imperium" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false"/>
+        <categoryLink id="b730-01df-1601-1f96" name="Primaris" hidden="false" targetId="53b7-cff3-c3b4-d36a" primary="false"/>
+        <categoryLink id="d51a-dd82-f684-d733" name="Phobos" hidden="false" targetId="5b58-36bd-930c-e8be" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="dba2-d6de-87c7-48cb" name="Incursor Sergeant" hidden="false" collective="false" import="true" type="model">
@@ -14680,7 +14945,8 @@ Crewed Artillery:After this unit is set up on the battlefield for the first time
             <conditionGroup type="or">
               <conditions>
                 <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="01cf-00c7-c4af-701b" type="equalTo"/>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="01cf-00c7-c4af-701b" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d0cb-4be8-743b-a874" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ae09-117e-a6fa-316b" type="equalTo"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -14959,7 +15225,7 @@ Crewed Artillery:After this unit is set up on the battlefield for the first time
             <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon can target units that are not visible to the bearer, and can target a CHARACTERunit even if it is not the closest enemy unit. When resolving an attack made with this weapon, add 2 to the hit roll, and the target does not receive the benefit of cover to its saving throw.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time you select a target for this weapon, you can ignore the Look Out, Sir rule. When resolving an attack made with this weapon, add 2 to the hit roll, and the target does not receive the benefit of cover to its saving throw.</characteristic>
           </characteristics>
         </profile>
         <profile id="be0b-d8b9-d865-15e3" name="Bolt sniper rifle - Hyperfrag round" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -14969,7 +15235,7 @@ Crewed Artillery:After this unit is set up on the battlefield for the first time
             <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon can target a CHARACTER unit even if it is not the closest enemy unit.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time you select a target for this weapon, you can ignore the Look Out, Sir rule. Blast.</characteristic>
           </characteristics>
         </profile>
         <profile id="591f-30fb-eb78-fea8" name="Bolt sniper rifle - Mortis round" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -14979,7 +15245,7 @@ Crewed Artillery:After this unit is set up on the battlefield for the first time
             <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon can target a CHARACTERunit even if it is not the closest enemy unit. When resolving an attack made with this weapon, a wound roll of 6+ inflicts 1 mortal wound on the target in addition to any other damage.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time you select a target for this weapon, you can ignore the Look Out, Sir rule. When resolving an attack made with this weapon, a wound roll of 6+ inflicts 1 mortal wound on the target in addition to any other damage.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -15667,7 +15933,7 @@ Crewed Artillery:After this unit is set up on the battlefield for the first time
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a441-cc96-406f-0667" name="Litany of Hate" hidden="false" collective="false" import="true" type="upgrade">
@@ -15826,7 +16092,7 @@ Crewed Artillery:After this unit is set up on the battlefield for the first time
         </entryLink>
         <entryLink id="a8f2-15cb-2fc5-d3fd" name="Jump Pack" hidden="false" collective="false" import="true" targetId="181e-0718-160e-2e75" type="selectionEntry">
           <modifiers>
-            <modifier type="increment" field="points" value="18"/>
+            <modifier type="increment" field="points" value="25.0"/>
           </modifiers>
         </entryLink>
         <entryLink id="a1f7-edf1-18b6-3d0e" name="Warlord" hidden="false" collective="false" import="true" targetId="01cf-00c7-c4af-701b" type="selectionEntry"/>
@@ -15948,7 +16214,7 @@ Crewed Artillery:After this unit is set up on the battlefield for the first time
     </selectionEntry>
     <selectionEntry id="1cf8-cf12-0575-8ac5" name="Primaris Captain (Indomitus)" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
-        <modifier type="set" field="name" value="Primaris Bladeguard Chapter Master">
+        <modifier type="set" field="name" value="Primaris Chapter Master">
           <conditions>
             <condition field="selections" scope="1cf8-cf12-0575-8ac5" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="73a7-22a8-541d-3868" type="equalTo"/>
           </conditions>
@@ -16002,6 +16268,7 @@ Crewed Artillery:After this unit is set up on the battlefield for the first time
           </modifiers>
         </infoLink>
         <infoLink id="83b1-efaa-9512-73c6" name="Angels of Death" hidden="false" targetId="01a4-bec8-b573-fde7" type="rule"/>
+        <infoLink id="f173-23f5-698d-3328" name="Iron Halo" hidden="false" targetId="242c-3bac-1ff3-48b0" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="bec6-822f-ce41-905b" name="Primaris" hidden="false" targetId="53b7-cff3-c3b4-d36a" primary="false"/>
@@ -16121,11 +16388,13 @@ Crewed Artillery:After this unit is set up on the battlefield for the first time
       </costs>
     </selectionEntry>
     <selectionEntry id="17cc-76ac-ab20-fae6" name="Eradicator Squad" hidden="false" collective="false" import="true" type="upgrade">
-      <rules>
-        <rule id="d7f7-0896-6c56-a792" name="Total Obliteration" hidden="false">
-          <description>In your shooting phase, you can declare this unit will only shoot at a single target. If you do, select one target unit;  models in this unit can shoot twice this phase, but they can only target that enemy unit. </description>
-        </rule>
-      </rules>
+      <profiles>
+        <profile id="4dee-e77e-cf97-5de6" name="Total Obliteration" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">In your shooting phase, you can declare this unit will only shoot at a single target. If you do, select one target unit;  models in this unit can shoot twice this phase, but they can only target that enemy unit. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <infoLinks>
         <infoLink id="b67f-445e-2860-1084" name="Angels of Death" hidden="false" targetId="01a4-bec8-b573-fde7" type="rule"/>
       </infoLinks>
@@ -16737,6 +17006,7 @@ Crewed Artillery:After this unit is set up on the battlefield for the first time
         <categoryLink id="cb37-3e76-4af9-fb4b" name="Faction: Adeptus Astartes" hidden="false" targetId="c7b7-edbc-bc14-6238" primary="false"/>
         <categoryLink id="5f6a-668d-424b-c12a" name="Primaris" hidden="false" targetId="53b7-cff3-c3b4-d36a" primary="false"/>
         <categoryLink id="ecff-1487-2c80-4c3a" name="Lieutenant" hidden="false" targetId="0d49-8b06-7815-8e97" primary="false"/>
+        <categoryLink id="b630-52ac-e3c9-17d4" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="dba4-2778-dad1-4590" name="Storm Shield" hidden="false" collective="false" import="true" type="upgrade">
@@ -16758,6 +17028,19 @@ Crewed Artillery:After this unit is set up on the battlefield for the first time
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3b9c-0771-ee9b-5057" name="Stratagems" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="61bf-c5cd-6e7b-f5d9" name="Stratagem: Examplar of the Promethean Creed" hidden="false" collective="false" import="true" targetId="9edb-b7f5-9254-9406" type="selectionEntry"/>
+            <entryLink id="6d01-5c2a-b9ef-2fb9" name="Exemplar of the Chapter" hidden="false" collective="false" import="true" targetId="1f37-5001-285a-f8bc" type="selectionEntry"/>
+            <entryLink id="b591-08cc-7b29-86b8" name="Stratagem: Hero of the Chapter" hidden="false" collective="false" import="true" targetId="5efd-6285-c9f7-2a5a" type="selectionEntry"/>
+            <entryLink id="e237-b68d-b292-b698" name="Stratagem: Master of the Trifold Path" hidden="false" collective="false" import="true" targetId="2552-31f8-0369-c524" type="selectionEntry"/>
+            <entryLink id="45b2-01b6-ad25-6749" name="Stratagem: Paragon of Iron" hidden="false" collective="false" import="true" targetId="c146-e947-0f2c-40e9" type="selectionEntry"/>
+            <entryLink id="d1e7-01ac-0a5b-c1f8" name="Stratagem: Sentinel of Terra" hidden="false" collective="false" import="true" targetId="c7a9-567e-dac8-844d" type="selectionEntry"/>
+            <entryLink id="54db-dd8e-1978-877d" name="Stratagem: Tempered by Wisdom" hidden="false" collective="false" import="true" targetId="4244-18c3-4660-9db5" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="6f9b-4747-586a-ce50" name="Neo-volkite pistol" hidden="false" collective="false" import="true" targetId="4c4c-c7e5-9be9-b74e" type="selectionEntry">
           <constraints>
@@ -16780,6 +17063,15 @@ Crewed Artillery:After this unit is set up on the battlefield for the first time
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e80-93b5-6a7d-4ca6" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8dc5-ad5f-b127-0442" type="min"/>
           </constraints>
+        </entryLink>
+        <entryLink id="f418-625e-5157-cefa" name="Stratagem: Field Commander" hidden="false" collective="false" import="true" targetId="d043-3847-e963-fb5d" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="067e-6044-ef2a-3ee2" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </entryLink>
       </entryLinks>
       <costs>
@@ -17066,6 +17358,7 @@ Crewed Artillery:After this unit is set up on the battlefield for the first time
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -17137,6 +17430,24 @@ Crewed Artillery:After this unit is set up on the battlefield for the first time
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6cf-45db-7fbf-25a1" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="1985-c9d1-87e7-2e2b" name="Inferno pistol" hidden="false" collective="false" import="true" targetId="83f0-56d1-b852-f21c" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="eb0f-c144-a282-8bdc" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="2955-bbb0-7311-be62" name="Hand Flamer" hidden="false" collective="false" import="true" targetId="d646-cf8b-0d01-69ff" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="eb0f-c144-a282-8bdc" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="fb38-f29c-b8de-3ba6" name="Pistols" hidden="false" collective="false" import="true">
@@ -17144,6 +17455,24 @@ Crewed Artillery:After this unit is set up on the battlefield for the first time
         <entryLink id="c541-ea70-5448-31f8" name="Bolt pistol" hidden="false" collective="false" import="true" targetId="0334-f487-8229-0c1a" type="selectionEntry"/>
         <entryLink id="c8f6-e9ec-3fdc-9126" name="Plasma pistol" hidden="false" collective="false" import="true" targetId="83be-1ba9-c326-4760" type="selectionEntry"/>
         <entryLink id="11c1-a0c9-c811-3040" name="Grav-pistol" hidden="false" collective="false" import="true" targetId="7b66-cac7-e582-a518" type="selectionEntry"/>
+        <entryLink id="889d-7814-8260-970e" name="Inferno pistol" hidden="false" collective="false" import="true" targetId="83f0-56d1-b852-f21c" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="eb0f-c144-a282-8bdc" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="19ed-1c22-1428-ec55" name="Hand Flamer" hidden="false" collective="false" import="true" targetId="d646-cf8b-0d01-69ff" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="eb0f-c144-a282-8bdc" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="37ef-f6fa-fe1f-306c" name="Combi-Weapons" hidden="false" collective="false" import="true">
@@ -17157,10 +17486,18 @@ Crewed Artillery:After this unit is set up on the battlefield for the first time
     </selectionEntryGroup>
     <selectionEntryGroup id="ce40-8190-5033-a0c1" name="Melee Weapons" hidden="false" collective="false" import="true">
       <entryLinks>
-        <entryLink id="1141-50a8-a4a3-64aa" name="New EntryLink" hidden="false" collective="false" import="true" targetId="0dd1-2e2b-7dd1-5495" type="selectionEntry"/>
+        <entryLink id="1141-50a8-a4a3-64aa" name="Chainsword" hidden="false" collective="false" import="true" targetId="0dd1-2e2b-7dd1-5495" type="selectionEntry"/>
         <entryLink id="4b72-9dfe-c0ce-63f8" name="New EntryLink" hidden="false" collective="false" import="true" targetId="3292-34e6-f679-d5b9" type="selectionEntry"/>
         <entryLink id="8a8c-47d9-9370-b3c2" name="Power fist" hidden="false" collective="false" import="true" targetId="caae-f721-310b-3798" type="selectionEntry"/>
-        <entryLink id="50c5-db8e-c5f2-14fd" name="New EntryLink" hidden="false" collective="false" import="true" targetId="ba8d-691a-6178-1a60" type="selectionEntry"/>
+        <entryLink id="50c5-db8e-c5f2-14fd" name="Power lance" hidden="false" collective="false" import="true" targetId="ba8d-691a-6178-1a60" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="points" value="4.0">
+              <conditions>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b8fe-8d38-37ec-90e8" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
         <entryLink id="728f-b502-e864-2e43" name="New EntryLink" hidden="false" collective="false" import="true" targetId="6ea7-1195-7144-438e" type="selectionEntry"/>
         <entryLink id="768e-319b-3855-17e0" name="New EntryLink" hidden="false" collective="false" import="true" targetId="bc9e-551d-9afb-78d5" type="selectionEntry"/>
         <entryLink id="e45d-706d-e59a-5219" name="Lightning Claw" hidden="false" collective="false" import="true" targetId="571f-9ce0-488c-0857" type="selectionEntry"/>
@@ -17198,7 +17535,15 @@ Crewed Artillery:After this unit is set up on the battlefield for the first time
         <entryLink id="8497-0034-668a-a40a" name="New EntryLink" hidden="false" collective="false" import="true" targetId="2b37-65ee-9443-b4ef" type="selectionEntry"/>
         <entryLink id="b204-9453-6766-6896" name="New EntryLink" hidden="false" collective="false" import="true" targetId="a908-4664-11cd-f8b2" type="selectionEntry"/>
         <entryLink id="938c-241f-a896-692b" name="Grav-cannon and grav-amp" hidden="false" collective="false" import="true" targetId="4eb8-7dd8-253f-d4aa" type="selectionEntry"/>
-        <entryLink id="accd-b6c6-079f-277f" name="New EntryLink" hidden="false" collective="false" import="true" targetId="eb15-db61-5d4f-b65e" type="selectionEntry"/>
+        <entryLink id="accd-b6c6-079f-277f" name="Plasma cannon" hidden="false" collective="false" import="true" targetId="eb15-db61-5d4f-b65e" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="points" value="10.0">
+              <conditions>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b8fe-8d38-37ec-90e8" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="554a-4c06-6d28-a87c" name="Terminator Melee Weapons" hidden="false" collective="false" import="true">
@@ -17254,7 +17599,7 @@ Crewed Artillery:After this unit is set up on the battlefield for the first time
       <entryLinks>
         <entryLink id="f3cd-1bf8-f85a-b99f" name="Twin lascannon" hidden="false" collective="false" import="true" targetId="ee18-b1cd-6b60-464d" type="selectionEntry"/>
         <entryLink id="c765-d2e3-9320-d18c" name="New EntryLink" hidden="false" collective="false" import="true" targetId="51b0-3d46-5af4-683e" type="selectionEntry"/>
-        <entryLink id="080a-0124-3b68-1a35" name="New EntryLink" hidden="false" collective="false" import="true" targetId="221a-6109-61df-015e" type="selectionEntry"/>
+        <entryLink id="080a-0124-3b68-1a35" name="Heavy plasma cannon" hidden="false" collective="false" import="true" targetId="221a-6109-61df-015e" type="selectionEntry"/>
         <entryLink id="732a-9ab9-5c01-b1ce" name="New EntryLink" hidden="false" collective="false" import="true" targetId="2b37-65ee-9443-b4ef" type="selectionEntry"/>
         <entryLink id="7f8e-c1c8-df6d-6e0e" name="Twin autocannon" hidden="false" collective="false" import="true" targetId="afe0-3771-1982-92b4" type="selectionEntry">
           <modifiers>
@@ -19728,15 +20073,6 @@ Crewed Artillery:After this unit is set up on the battlefield for the first time
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="d44b-68d4-6de1-ff23" name="Warlord Traits (CA)" hidden="false" collective="false" import="true" targetId="f673-3d9b-bb1b-377f" type="selectionEntryGroup">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d043-3847-e963-fb5d" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </entryLink>
         <entryLink id="bb58-b110-e48a-b98b" name="Warlord Traits (Chapter Ancient)" hidden="false" collective="false" import="true" targetId="f8df-0144-6242-fcc9" type="selectionEntryGroup"/>
         <entryLink id="ee61-a613-c57e-318e" name="Warlord Traits (Chief Apothecary)" hidden="false" collective="false" import="true" targetId="7b84-f9e0-e9ee-331b" type="selectionEntryGroup"/>
         <entryLink id="10e5-88d1-4bcd-8609" name="Warlord Traits (Chief Librarian)" hidden="false" collective="false" import="true" targetId="b93d-4256-0492-7a75" type="selectionEntryGroup"/>
@@ -20454,7 +20790,7 @@ Crewed Artillery:After this unit is set up on the battlefield for the first time
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon can target a CHARACTER unit even if it is not the closest enemy unit. mwhen resolving an attack made with this weapon, you can add 1 to the hit roll</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time you select a target for this weapon, you can ignore the Look Out, Sir rule. When resolving an attack made with this weapon, you can add 1 to the hit roll</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -22711,6 +23047,7 @@ Crewed Artillery:After this unit is set up on the battlefield for the first time
             <modifier type="set" field="hidden" value="true">
               <conditions>
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7543-5a4e-0f59-bacc" type="equalTo"/>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b517-7609-6671-2d79" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -23682,7 +24019,7 @@ Crewed Artillery:After this unit is set up on the battlefield for the first time
         <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast</characteristic>
       </characteristics>
     </profile>
     <profile id="d6fe-ecc6-c954-01ca" name="Assault Plasma Incinerator, Supercharged" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -23752,7 +24089,7 @@ Crewed Artillery:After this unit is set up on the battlefield for the first time
         <characteristic name="S" typeId="59b1-319e-ec13-d466">7</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast</characteristic>
       </characteristics>
     </profile>
     <profile id="c1e5-688f-13e6-ac26" name="Plasma Exterminator, Supercharged" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -23762,7 +24099,7 @@ Crewed Artillery:After this unit is set up on the battlefield for the first time
         <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">On a hit roll of 1, the bearer is slain after all of this weapon&apos;s shots have been resolved.</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">On a hit roll of 1, the bearer is slain after all of this weapon&apos;s shots have been resolved. Blast</characteristic>
       </characteristics>
     </profile>
     <profile id="1a44-0829-423f-4a22" name="Heavy Onslaught Gatling Cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -23782,7 +24119,7 @@ Crewed Artillery:After this unit is set up on the battlefield for the first time
         <characteristic name="S" typeId="59b1-319e-ec13-d466">7</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Add 1 to all hit rolls made for this weapon against targets that can FLY. Subtract 1 from the hit rolls made for this weapon against all other targets.</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Add 1 to all hit rolls made for this weapon against targets that can FLY. Subtract 1 from the hit rolls made for this weapon against all other targets. Blast.</characteristic>
       </characteristics>
     </profile>
     <profile id="8143-406b-4e70-226e" name="Macro Plasma Incinerator, Standard" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -23792,7 +24129,7 @@ Crewed Artillery:After this unit is set up on the battlefield for the first time
         <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast</characteristic>
       </characteristics>
     </profile>
     <profile id="513b-c2fb-9c10-f6e3" name="Macro Plasma Incinerator, Supercharged" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -23802,7 +24139,7 @@ Crewed Artillery:After this unit is set up on the battlefield for the first time
         <characteristic name="S" typeId="59b1-319e-ec13-d466">9</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">For each hit roll of 1, the bearer suffers 1 mortal wound after all of this weapon&apos;s shots have been resolved.</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">For each hit roll of 1, the bearer suffers 1 mortal wound after all of this weapon&apos;s shots have been resolved. Blast.</characteristic>
       </characteristics>
     </profile>
     <profile id="4543-b6a0-dc08-7269" name="Onslaught Gatling Cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -23912,8 +24249,7 @@ Crewed Artillery:After this unit is set up on the battlefield for the first time
     </profile>
     <profile id="045c-abf3-7e15-5198" name="Architect of War" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack against a friendly IMPERIAL FISTS unit within 6&quot; of this Warlord with a weapon that has an Armour Penetration characteristic of -1, if that unit is receiving the benefit of cover, add an additional 1 to the saving throw. This does not apply to invulnerable saving throws.
-</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">While a friendly IMPERIAL FISTS unit is within 6&quot; of this Warlord, each time a ranged attack with an Armour Penetration characteristic of -1 is allocated to a model in that unit while it is receiving the benefits of cover, add an additional 1 to any armour saving throw made against that attack.</characteristic>
       </characteristics>
     </profile>
     <profile id="da2d-565c-a02f-0887" name="Deadly Hunter" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -23941,7 +24277,7 @@ Crewed Artillery:After this unit is set up on the battlefield for the first time
     </profile>
     <profile id="3421-2042-b0e7-91ed" name="Refuse to Die" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The first time this Warlord is destroyed, roll one D6 at the end of the phase. On a 4+ return this Warlord to play with D3 wounds remaining, placing them as close as possible to their previous position and more than 1&quot; away from any enemy models.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The first time this Warlord is destroyed, roll one D6 at the end of the phase. ‘On a 4+, return this Warlord to play with D3 wounds remaining, placing them as close as possible to their previous position and not within Engagement Range of any enemy units</characteristic>
       </characteristics>
     </profile>
     <profile id="6240-85a6-478e-9727" name="Stoic Defender" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -23951,7 +24287,7 @@ Crewed Artillery:After this unit is set up on the battlefield for the first time
     </profile>
     <profile id="d150-acf5-f48a-5bce" name="Camo cloak" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 2 to saving throws for this model when it receives the benefit of cover, instead of 1.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time a ranged attack is allocated to a model in this unit while it is receiving the benefits of cover, add an additional 1 to any armour saving throw made against that attack</characteristic>
       </characteristics>
     </profile>
     <profile id="2ef0-99dc-03e0-bd64" name="Concealed Position" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">

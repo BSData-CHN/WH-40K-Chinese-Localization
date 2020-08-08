@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="28ec-711c-d87f-3aeb" name="Warhammer 40,000 9th Edition" revision="132" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Developer" authorUrl="https://discord.gg/KqPVhds" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="28ec-711c-d87f-3aeb" name="Warhammer 40,000 9th Edition" revision="147" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Developer" authorUrl="https://discord.gg/KqPVhds" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>This is the game system file for Warhammer 40,000, supporting the 9th edition of the game.  It is required for all other catalogues to function.</readme>
   <publications>
-    <publication id="28ec-711c-pubN72690" name="Warhammer 40,000 Rulebook" shortName="BRB" publicationDate="2017-06-17"/>
+    <publication id="28ec-711c-pubN72690" name="Warhammer 40,000 Core Book" shortName="BRB" publisher="Games Workshop" publicationDate="2020-07-25" publisherUrl="https://www.games-workshop.com/Warhammer-40000-9th-Rulebook-EN-2020"/>
     <publication id="28ec-711c-pubN73170" name="Chapter Approved 2017" shortName="CA2017" publicationDate="2017-12"/>
     <publication id="28ec-711c-pubN77581" name="Index: Imperium 2" publicationDate="2017-06-17"/>
     <publication id="28ec-711c-pubN78977" name="Index: Imperium 1" publicationDate="2017-06-17"/>
@@ -148,10 +148,18 @@
     <categoryEntry id="298f-d173-2159-919f" name="Primarch" hidden="false"/>
     <categoryEntry id="e12c-dd25-cbab-a30d" name="Faction: Fallen" hidden="false"/>
     <categoryEntry id="5cf1-acf2-ca3b-c2e5" name="Faction: Chaos" hidden="false"/>
-    <categoryEntry id="ae09-117e-a6fa-316b" name="Warlord" hidden="true">
+    <categoryEntry id="ae09-117e-a6fa-316b" name="Warlord" hidden="false">
+      <modifiers>
+        <modifier type="set" field="e862-071e-a10f-7fd2" value="1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5baf-eed5-bb85-7325" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a991-ad91-7d5f-92d1" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6ee0-38ca-e173-ff3d" type="min"/>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e862-071e-a10f-7fd2" type="min"/>
       </constraints>
     </categoryEntry>
     <categoryEntry id="e10e-b44e-7eda-41d8" name="Relic" hidden="false"/>
@@ -180,54 +188,15 @@
     <categoryEntry id="492c-9ae1-0205-c13f" name="Faction: Chaos Knights" hidden="false"/>
     <categoryEntry id="c845-c72c-6afe-3fc2" name="Stratagems" hidden="false"/>
     <categoryEntry id="fcff-0f21-93e6-1ddc" name="Configuration" hidden="false"/>
-    <categoryEntry id="0f35-2c34-ba6a-8105" name="Agent of the Imperium" hidden="false">
-      <modifiers>
-        <modifier type="set" field="e5fb-f53d-c9f8-3e9a" value="-1.0">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e373-3c0a-1185-46ea" type="instanceOf"/>
-                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f731-6aa6-c141-8937" type="instanceOf"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-        <modifier type="increment" field="d236-7779-6cd2-d1ad" value="1.0">
-          <repeats>
-            <repeat field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="564e-55d5-79bc-a4d7" repeats="1" roundUp="false"/>
-            <repeat field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cccd-3d99-d4af-d668" repeats="1" roundUp="false"/>
-            <repeat field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a0c7-2a71-bae0-215d" repeats="1" roundUp="false"/>
-          </repeats>
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e373-3c0a-1185-46ea" type="notInstanceOf"/>
-                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f731-6aa6-c141-8937" type="notInstanceOf"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-        <modifier type="set" field="d236-7779-6cd2-d1ad" value="-1.0">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e373-3c0a-1185-46ea" type="instanceOf"/>
-                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f731-6aa6-c141-8937" type="instanceOf"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d236-7779-6cd2-d1ad" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e5fb-f53d-c9f8-3e9a" type="max"/>
-      </constraints>
-    </categoryEntry>
+    <categoryEntry id="0f35-2c34-ba6a-8105" name="Agent of the Imperium" hidden="false"/>
     <categoryEntry id="25d3-b37a-ad95-d463" name="Kyganil" publicationId="85df-1155-c986-4d71" hidden="false"/>
     <categoryEntry id="1b30-1696-d043-ddef" name="Ephrael Stern" publicationId="85df-1155-c986-4d71" hidden="false"/>
     <categoryEntry id="f475-3e56-fd5f-4737" name="Adepta Sororitas" hidden="false"/>
     <categoryEntry id="1114-7875-d463-df17" name="Aeldari" hidden="false"/>
     <categoryEntry id="6c1d-32d6-b16c-3b0c" name="Titanic Warlord" hidden="false"/>
+    <categoryEntry id="da67-195b-7909-341a" name="Daemon Primarch" hidden="false"/>
+    <categoryEntry id="5750-de0a-589d-eacf" name="Supreme Commander" hidden="false"/>
+    <categoryEntry id="26b0-4bb9-73aa-d3d7" name="Primarch | Daemon Primarch | Supreme Commander" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="a0c7-2a71-bae0-215d" name="Patrol Detachment -2CP" hidden="false">
@@ -244,6 +213,7 @@
             <categoryLink id="0879-c6e0-d140-cdf4" name="Configuration" hidden="false" targetId="fcff-0f21-93e6-1ddc" primary="false"/>
             <categoryLink id="2a75-b392-fa24-a897" name="Stratagems" hidden="false" targetId="c845-c72c-6afe-3fc2" primary="false"/>
             <categoryLink id="08b9-da67-2327-6c1e" name="No Force Org Slot" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
+            <categoryLink id="2371-dbb2-4792-99f4" name="Agent of the Imperium" hidden="false" targetId="0f35-2c34-ba6a-8105" primary="false"/>
             <categoryLink id="9217-73a1-3624-1f7d" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false"/>
             <categoryLink id="54ff-9b86-6104-b32c" name="Troops" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false"/>
             <categoryLink id="277f-2488-2867-06fc" name="Elites" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false"/>
@@ -251,6 +221,7 @@
             <categoryLink id="37de-4b8c-3cf3-00f3" name="Heavy Support" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false"/>
             <categoryLink id="f494-d4ee-0846-773f" name="Flyer" hidden="false" targetId="e888-1504-aa61-95ff" primary="false"/>
             <categoryLink id="e62c-d409-cb2b-4d75" name="Dedicated Transport" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false"/>
+            <categoryLink id="2371-dbb2-4792-99f4" name="Agent of the Imperium" hidden="false" targetId="0f35-2c34-ba6a-8105" primary="false"/>
           </categoryLinks>
         </forceEntry>
       </forceEntries>
@@ -258,6 +229,19 @@
         <categoryLink id="9e6f-3e68-ab66-9f48" name="Configuration" hidden="false" targetId="fcff-0f21-93e6-1ddc" primary="false"/>
         <categoryLink id="041f-3067-ce7b-06aa" name="Stratagems" hidden="false" targetId="c845-c72c-6afe-3fc2" primary="false"/>
         <categoryLink id="b804-eab0-fa1a-b573" name="No Force Org Slot" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
+        <categoryLink id="85ea-e722-ca93-db4b" name="Agent of the Imperium" hidden="false" targetId="0f35-2c34-ba6a-8105" primary="false">
+          <modifiers>
+            <modifier type="set" field="name" value="Agents of the Imperium"/>
+            <modifier type="set" field="3828-0a05-1032-9a45" value="2.0">
+              <conditions>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e373-3c0a-1185-46ea" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3828-0a05-1032-9a45" type="max"/>
+          </constraints>
+        </categoryLink>
         <categoryLink id="b201-7a22-83be-fcd2" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f309-30a4-c2a6-80cf" type="max"/>
@@ -369,6 +353,7 @@
             <categoryLink id="8aec-1b40-57af-1c12" name="Configuration" hidden="false" targetId="fcff-0f21-93e6-1ddc" primary="false"/>
             <categoryLink id="83e6-362d-78f3-62e2" name="Stratagems" hidden="false" targetId="c845-c72c-6afe-3fc2" primary="false"/>
             <categoryLink id="8ef3-97b6-69fc-bd6b" name="No Force Org Slot" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
+            <categoryLink id="b6ed-1ad0-749d-ccae" name="Agent of the Imperium" hidden="false" targetId="0f35-2c34-ba6a-8105" primary="false"/>
             <categoryLink id="b941-009e-b700-f512" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false"/>
             <categoryLink id="69a8-6416-9c97-27a5" name="Troops" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false"/>
             <categoryLink id="30b0-63c8-a9d5-d86f" name="Elites" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false"/>
@@ -383,6 +368,19 @@
         <categoryLink id="fc4c-e6c8-3a50-af1d" name="Configuration" hidden="false" targetId="fcff-0f21-93e6-1ddc" primary="false"/>
         <categoryLink id="a3a4-d443-2ded-f82f" name="Stratagems" hidden="false" targetId="c845-c72c-6afe-3fc2" primary="false"/>
         <categoryLink id="0e1f-72c2-388e-0869" name="No Force Org Slot" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
+        <categoryLink id="d71e-4848-690e-49dd" name="Agent of the Imperium" hidden="false" targetId="0f35-2c34-ba6a-8105" primary="false">
+          <modifiers>
+            <modifier type="set" field="name" value="Agents of the Imperium"/>
+            <modifier type="set" field="bf5a-85cb-693e-4239" value="2.0">
+              <conditions>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e373-3c0a-1185-46ea" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bf5a-85cb-693e-4239" type="max"/>
+          </constraints>
+        </categoryLink>
         <categoryLink id="dc98-c3a9-900b-5345" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9fdc-aad8-04dc-bf45" type="max"/>
@@ -494,6 +492,7 @@
             <categoryLink id="c79d-0e51-f286-b524" name="Configuration" hidden="false" targetId="fcff-0f21-93e6-1ddc" primary="false"/>
             <categoryLink id="6d28-63cf-a930-5628" name="Stratagems" hidden="false" targetId="c845-c72c-6afe-3fc2" primary="false"/>
             <categoryLink id="96dd-3c8b-0bee-f79f" name="No Force Org Slot" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
+            <categoryLink id="a258-5be1-96b2-f9f0" name="Agent of the Imperium" hidden="false" targetId="0f35-2c34-ba6a-8105" primary="false"/>
             <categoryLink id="52dd-a45a-dd33-e109" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false"/>
             <categoryLink id="2e30-b534-8d26-e6d7" name="Troops" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false"/>
             <categoryLink id="9d9f-64f3-f99a-6e23" name="Elites" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false"/>
@@ -508,6 +507,19 @@
         <categoryLink id="cc37-3585-fefc-1935" name="Configuration" hidden="false" targetId="fcff-0f21-93e6-1ddc" primary="false"/>
         <categoryLink id="5d10-4858-a639-b7ba" name="Stratagems" hidden="false" targetId="c845-c72c-6afe-3fc2" primary="false"/>
         <categoryLink id="4683-00c9-930d-6336" name="No Force Org Slot" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
+        <categoryLink id="1c36-da97-3d95-b5ab" name="Agent of the Imperium" hidden="false" targetId="0f35-2c34-ba6a-8105" primary="false">
+          <modifiers>
+            <modifier type="set" field="name" value="Agents of the Imperium"/>
+            <modifier type="set" field="a1c0-1958-0b1f-f56d" value="2.0">
+              <conditions>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e373-3c0a-1185-46ea" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a1c0-1958-0b1f-f56d" type="max"/>
+          </constraints>
+        </categoryLink>
         <categoryLink id="b656-705b-2154-356b" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="043f-5e79-dc42-8a9a" type="max"/>
@@ -630,6 +642,18 @@
         <categoryLink id="c065-cb87-2653-4d52" name="Stratagems" hidden="false" targetId="c845-c72c-6afe-3fc2" primary="false"/>
         <categoryLink id="4683-00c9-930d-6336" name="No Force Org Slot" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
         <categoryLink id="a158-6003-3ee2-5924" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false">
+          <modifiers>
+            <modifier type="set" field="abc2-8ad1-f686-0172" value="0.0">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a008-1eeb-8c4e-96b7" type="instanceOf"/>
+                    <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f731-6aa6-c141-8937" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f270-7df9-99d8-e027" type="max"/>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="abc2-8ad1-f686-0172" type="min"/>
@@ -971,14 +995,20 @@
                 <condition field="forces" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cccd-3d99-d4af-d668" type="equalTo"/>
                 <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a0c7-2a71-bae0-215d" type="atLeast"/>
                 <condition field="forces" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="564e-55d5-79bc-a4d7" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ae09-117e-a6fa-316b" type="atLeast"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
         <modifier type="set" field="name" value="Supreme Command Detachment +4CP">
-          <conditions>
-            <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cccd-3d99-d4af-d668" type="atLeast"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cccd-3d99-d4af-d668" type="atLeast"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ae09-117e-a6fa-316b" type="atLeast"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
         <modifier type="set" field="name" value="Supreme Command Detachment +3CP">
           <conditionGroups>
@@ -986,6 +1016,7 @@
               <conditions>
                 <condition field="forces" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cccd-3d99-d4af-d668" type="equalTo"/>
                 <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="564e-55d5-79bc-a4d7" type="atLeast"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ae09-117e-a6fa-316b" type="atLeast"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -998,21 +1029,11 @@
         <categoryLink id="a45f-e37b-224f-813a" name="Configuration" hidden="false" targetId="fcff-0f21-93e6-1ddc" primary="false"/>
         <categoryLink id="e7ac-d434-4bd3-2dd6" name="Stratagems" hidden="false" targetId="c845-c72c-6afe-3fc2" primary="false"/>
         <categoryLink id="6fed-d770-852f-a123" name="No Force Org Slot" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
-        <categoryLink id="8a3d-3602-7ef5-9ab1" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false">
-          <modifiers>
-            <modifier type="set" field="c0dc-5bde-d67a-9c09" value="0.0">
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c888f08a-6cea-4a01-8126-d374a9231554" type="notEqualTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
+        <categoryLink id="8a3d-3602-7ef5-9ab1" name="Primarch | Daemon Primarch | Supreme Commander" hidden="false" targetId="26b0-4bb9-73aa-d3d7" primary="false">
+          <comment>This RSE Category can contain HQ or LOW units that have the relevant keywords.</comment>
           <constraints>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c0dc-5bde-d67a-9c09" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="c6de-132c-1b7e-69d3" name="Lord of War" hidden="false" targetId="c888f08a-6cea-4a01-8126-d374a9231554" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9c21-7889-d301-ca19" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="371a-f9e1-dee4-4cd5" type="min"/>
           </constraints>
         </categoryLink>
         <categoryLink id="5ade-6882-9040-3989" name="Warlord" hidden="false" targetId="ae09-117e-a6fa-316b" primary="false">
@@ -1025,41 +1046,55 @@
     <forceEntry id="d513-cbf5-9bfc-7270" name="Super-Heavy Detachment -3CP" hidden="false">
       <modifiers>
         <modifier type="set" field="name" value="Super-Heavy Detachment -6CP">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="bdda-36f0-4f32-1639" type="atLeast"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="name" value="Super-Heavy Detachment 0CP">
           <conditionGroups>
-            <conditionGroup type="or">
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="bdda-36f0-4f32-1639" type="atLeast"/>
+              </conditions>
               <conditionGroups>
-                <conditionGroup type="and">
-                  <comment>Titanic Knight Warlord</comment>
+                <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6c1d-32d6-b16c-3b0c" type="atLeast"/>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ae09-117e-a6fa-316b" type="equalTo"/>
                   </conditions>
                   <conditionGroups>
-                    <conditionGroup type="or">
+                    <conditionGroup type="and">
                       <conditions>
-                        <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="82cd-d24f-9f22-11f3" type="instanceOf"/>
-                        <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5d84-5102-f22c-14d4" type="instanceOf"/>
+                        <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5d84-5102-f22c-14d4" type="notInstanceOf"/>
+                        <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="82cd-d24f-9f22-11f3" type="notInstanceOf"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
                 </conditionGroup>
-                <conditionGroup type="and">
-                  <comment>Non-Titanic Knight Warlord</comment>
-                  <conditions>
-                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ae09-117e-a6fa-316b" type="atLeast"/>
-                  </conditions>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="name" value="Super-Heavy Detachment 0CP">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <comment>Titanic Knight Warlord</comment>
+              <conditionGroups>
+                <conditionGroup type="or">
                   <conditionGroups>
-                    <conditionGroup type="or">
+                    <conditionGroup type="and">
                       <conditions>
-                        <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="82cd-d24f-9f22-11f3" type="instanceOf"/>
-                        <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5d84-5102-f22c-14d4" type="instanceOf"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ae09-117e-a6fa-316b" type="atLeast"/>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="bdda-36f0-4f32-1639" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="bdda-36f0-4f32-1639" type="atLeast"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6c1d-32d6-b16c-3b0c" type="atLeast"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
+                </conditionGroup>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5d84-5102-f22c-14d4" type="instanceOf"/>
+                    <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="82cd-d24f-9f22-11f3" type="instanceOf"/>
+                  </conditions>
                 </conditionGroup>
               </conditionGroups>
             </conditionGroup>
@@ -1221,7 +1256,7 @@
     </forceEntry>
   </forceEntries>
   <entryLinks>
-    <entryLink id="46df-b154-20ff-cce1" name="Aegis Defense Line" hidden="false" collective="false" import="true" targetId="a505-05af-bd44-56b6" type="selectionEntry">
+    <entryLink id="46df-b154-20ff-cce1" name="Aegis Defence Line" hidden="false" collective="false" import="true" targetId="a505-05af-bd44-56b6" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="46df-b154-20ff-cce1-d713cda3-5d0f-40d8-b621-69233263ec2a" hidden="false" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a" primary="true"/>
       </categoryLinks>
@@ -1300,7 +1335,7 @@
         <categoryLink id="56a3-e61a-895c-ce33" name="New CategoryLink" hidden="false" targetId="fcff-0f21-93e6-1ddc" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="44e3-c224-ba82-1b55" name="Battle-forged CP" hidden="false" collective="false" import="true" targetId="f29d-8a5d-18b6-a071" type="selectionEntry">
+    <entryLink id="44e3-c224-ba82-1b55" name="Battle Size" hidden="false" collective="false" import="true" targetId="f29d-8a5d-18b6-a071" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="7518-f5d0-38d5-658f" name="New CategoryLink" hidden="false" targetId="fcff-0f21-93e6-1ddc" primary="true"/>
       </categoryLinks>
@@ -1315,9 +1350,19 @@
         <categoryLink id="340b-ca49-5722-d355" name="Fortification" hidden="false" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="d3f8-6d8c-7e97-4c5a" name="Macro-cannon Aquila Strongpoint" hidden="false" collective="false" import="true" targetId="ec16-8c4f-7c32-2d58" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="e3de-77d5-7c0d-4a2c" name="New CategoryLink" hidden="false" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="1f4c-2aec-3f77-2f88" name="Vortex Missile Aquila Strongpoint" hidden="false" collective="false" import="true" targetId="7fa0-59ee-8d71-e174" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="d031-d3e6-4fdc-0eba" name="Fortification" hidden="false" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="a505-05af-bd44-56b6" name="Aegis Defense Line" publicationId="28ec-711c-pubN77581" page="79" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="a505-05af-bd44-56b6" name="Aegis Defence Line" publicationId="28ec-711c-pubN77581" page="79" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="4ae0-157d-0f63-5531" name="Immobile" hidden="false" targetId="8830-2c9e-ad7e-e57d" type="profile"/>
         <infoLink id="238a-f756-6edf-3af8" name="Static Defence Network" hidden="false" targetId="c60f-7b10-88fd-9eba" type="profile"/>
@@ -1393,14 +1438,14 @@
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="points" value="75.0"/>
+        <cost name="pts" typeId="points" value="80.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="5.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="16d6-25c4-af92-4329" name="Aquila Strongpoint" publicationId="28ec-711c-pubN77581" page="" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="16d6-25c4-af92-4329" name="Aquila Strongpoint" publicationId="28ec-711c-pubN77581" page="" hidden="true" collective="false" import="true" type="model">
       <modifiers>
-        <modifier type="increment" field="e356-c769-5920-6e14" value="1">
+        <modifier type="increment" field="e356-c769-5920-6e14" value="1.0">
           <conditions>
             <condition field="selections" scope="16d6-25c4-af92-4329" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1600-8ea4-6f3f-383f" type="atLeast"/>
           </conditions>
@@ -1434,7 +1479,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="cbf3-33ac-73e9-50c7" name="Immobile" hidden="false" targetId="8830-2c9e-ad7e-e57d" type="profile"/>
+        <infoLink id="cbf3-33ac-73e9-50c7" name="Immobile (Fortification)" hidden="false" targetId="8830-2c9e-ad7e-e57d" type="profile"/>
         <infoLink id="769e-c3f8-d4d9-8c25" name="Fire Points (15)" hidden="false" targetId="298d-b8cf-d3ed-04d8" type="profile"/>
         <infoLink id="d1b0-0bbd-8997-301b" name="Automated Weapons" hidden="false" targetId="a179-f592-3224-72c9" type="profile"/>
         <infoLink id="1dcc-a6af-664d-6aa0" name="Explodes (2D6&quot; / D6)" hidden="false" targetId="4ab1-b4c4-a404-8c2f" type="profile">
@@ -1469,7 +1514,7 @@
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">14</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Treat any damage rolls of 1 or 2 made for this weapon as 3 instead.</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast. Treat any damage rolls of 1 or 2 made for this weapon as 3 instead.</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="c2e0-4b21-bef8-704e" name="Aquila Macro-cannon (Quake Shell)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -1479,7 +1524,7 @@
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">9</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast.</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="14b1-1529-10dd-db95" name="Magazine Explosion (Macro-cannon)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -1524,7 +1569,7 @@
       <entryLinks>
         <entryLink id="a66e-a15d-3c96-15b1" name="Heavy bolter (Fortification)" hidden="false" collective="false" import="true" targetId="05be-50b6-5107-9878" type="selectionEntry">
           <modifiers>
-            <modifier type="set" field="points" value="8"/>
+            <modifier type="set" field="points" value="8.0"/>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9669-776c-84f2-6150" type="max"/>
@@ -1597,7 +1642,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="points" value="160.0"/>
+        <cost name="pts" typeId="points" value="170.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="13.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -1701,7 +1746,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="400.0"/>
+        <cost name="pts" typeId="points" value="440.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="21.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -1762,7 +1807,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="160.0"/>
+        <cost name="pts" typeId="points" value="150.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="11.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -1813,7 +1858,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="points" value="100.0"/>
+        <cost name="pts" typeId="points" value="110.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="6.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -1877,7 +1922,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="points" value="85.0"/>
+        <cost name="pts" typeId="points" value="90.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="4.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -1932,14 +1977,14 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="40.0"/>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="points" value="150.0"/>
+        <cost name="pts" typeId="points" value="210.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="10.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -1984,7 +2029,7 @@
         <categoryLink id="3b13-2e07-f357-c9d8" name="New CategoryLink" hidden="false" targetId="9df5-bb14-9326-4108" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="110.0"/>
+        <cost name="pts" typeId="points" value="120.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="6.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -2047,7 +2092,7 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
-            <cost name="pts" typeId="points" value="80.0"/>
+            <cost name="pts" typeId="points" value="88.0"/>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="7.0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
@@ -2089,7 +2134,7 @@
         <categoryLink id="f202-7d66-e9c8-b288" name="New CategoryLink" hidden="false" targetId="53cd-314c-599b-8616" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="190.0"/>
+        <cost name="pts" typeId="points" value="200.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="10.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -2316,9 +2361,14 @@
     <selectionEntry id="2b37-65ee-9443-b4ef" name="Multi-melta" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="points" value="20.0">
-          <conditions>
-            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3d52-fccf-10c0-3fae" type="instanceOf"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3d52-fccf-10c0-3fae" type="instanceOf"/>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b8fe-8d38-37ec-90e8" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <infoLinks>
@@ -2341,11 +2391,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="5210-8cb2-b5a2-a04f" name="Autocannon" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="points" value="10.0">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3d52-fccf-10c0-3fae" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <infoLinks>
         <infoLink id="4520-d92c-87d9-6f07" name="Autocannon" hidden="false" targetId="fa99-0671-b31a-22d7" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="10.0"/>
+        <cost name="pts" typeId="points" value="15.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -2375,7 +2432,7 @@
         <infoLink id="2dd4-28a0-308d-971c" name="Battle Cannon" hidden="false" targetId="bc34-f1ec-56fa-2829" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="30.0"/>
+        <cost name="pts" typeId="points" value="20.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -2524,9 +2581,9 @@
         <infoLink id="71c7-d9fb-ec4c-00d7" name="Boltstorm gauntlet (shooting)" hidden="false" targetId="eb60-1a3c-5699-dadb" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="12.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e2b8-099c-9f60-0faf" name="Centurion missile launcher" hidden="false" collective="false" import="true" type="upgrade">
@@ -2686,7 +2743,7 @@
       </infoLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="5.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -2791,9 +2848,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6f0c-0f8c-1a73-4052" name="Orbital array" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="6f0c-0f8c-1a73-4052" name="Orbital comms array" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="2b09-ee75-e31b-9803" name="Orbital array" hidden="false" targetId="f434-6eb5-9a60-79cf" type="profile"/>
+        <infoLink id="2b09-ee75-e31b-9803" name="Orbital comms array" hidden="false" targetId="f434-6eb5-9a60-79cf" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="50.0"/>
@@ -3217,7 +3274,7 @@
         <infoLink id="776d-01df-8821-4288" name="Camo cloaks" hidden="false" targetId="b754-9672-4689-cefb" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="3.0"/>
+        <cost name="pts" typeId="points" value="2.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -3236,7 +3293,7 @@
       <modifiers>
         <modifier type="set" field="points" value="10">
           <conditions>
-            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ef18-746a-369f-43a4" type="instanceOf"/>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ef18-746a-369f-43a4" type="instanceOf"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -3274,7 +3331,7 @@
         <infoLink id="5768-a1a7-3cf6-ebfe" name="Icarus Lascannon" hidden="false" targetId="cb26-27b4-9393-a768" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="25.0"/>
+        <cost name="pts" typeId="points" value="20.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -3294,7 +3351,7 @@
         <infoLink id="adbb-1be8-bbc4-4470" name="Quad Icarus Lascannon" hidden="false" targetId="d503-4001-e4b8-c804" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="70.0"/>
+        <cost name="pts" typeId="points" value="80.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -3314,7 +3371,7 @@
         <infoLink id="6ca4-d4c5-a1d0-a55b" name="Punisher Gatling Cannon" hidden="false" targetId="9fac-07c9-3595-784e" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="20.0"/>
+        <cost name="pts" typeId="points" value="35.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -3394,7 +3451,7 @@
         <infoLink id="fc3d-f3cb-763e-d3d5" name="Inferno pistol" hidden="false" targetId="6420-416a-af53-4b63" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="9.0"/>
+        <cost name="pts" typeId="points" value="5.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -3449,7 +3506,7 @@
       </infoLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" typeId="points" value="14.0"/>
+        <cost name="pts" typeId="points" value="10.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -4040,48 +4097,14 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1bad-1970-8d5d-733f" name="1. Legendary Fighter" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8dc7-9f41-8321-c977" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="32c0-34b1-f061-3d51" name="Legendary Fighter" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this warlord charges in the charge phase, add 1 to their attacks characteristic until the end of the ensuing fight phase.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="bad4-7cc1-6b79-0e18" name="2. Inspiring Leader" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="bad4-7cc1-6b79-0e18" name="Inspiring Leader" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6e7-fab4-36c3-d957" type="max"/>
       </constraints>
       <profiles>
-        <profile id="f457-a366-e21d-196f" name="Inspiring Leader" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="f457-a366-e21d-196f" name="Inspiring Leader (Aura)" publicationId="28ec-711c-pubN72690" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Friendly units within 6&quot; of this warlord can add 1 to their leadership characteristic.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="9a24-3ad2-9f48-7049" name="3. Tenacious Survivor" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed87-7068-1387-1a8c" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="9f18-91d8-df6e-5706" name="Tenacious Survivor" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Roll a dice each time this warlord loses a wound. On a 6, the warlord shrugs off the damage and does not lose the wound.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the Leadership characteristic of friendly units whilst they are within 6&quot; of this WARLORD.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4699,7 +4722,7 @@
         <infoLink id="d2f4-f89e-48d2-dd37" name="Havoc launcher" hidden="false" targetId="7b08-1e6d-69a9-932d" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="11.0"/>
+        <cost name="pts" typeId="points" value="5.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -4833,7 +4856,10 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5318-90b1-1c73-5a29" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="5555-f94f-05be-be09" name="New EntryLink" hidden="false" collective="false" import="true" targetId="18bc-b335-29c2-2ae2" type="selectionEntry">
+                <entryLink id="5555-f94f-05be-be09" name="Heavy flamer" hidden="false" collective="false" import="true" targetId="18bc-b335-29c2-2ae2" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="points" value="0.0"/>
+                  </modifiers>
                   <constraints>
                     <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb00-a0aa-4325-c0ba" type="min"/>
                     <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b7f-ed5c-c87b-e6df" type="max"/>
@@ -4884,7 +4910,7 @@
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name="pts" typeId="points" value="8.0"/>
+                    <cost name="pts" typeId="points" value="10.0"/>
                     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
@@ -4983,29 +5009,24 @@
         <modifier type="set" field="2d3b-b544-ad49-fb75" value="-6.0">
           <comment>Titanic Super-Heavy CP Cost.</comment>
           <conditionGroups>
-            <conditionGroup type="or">
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d513-cbf5-9bfc-7270" type="instanceOf"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="bdda-36f0-4f32-1639" type="atLeast"/>
+              </conditions>
               <conditionGroups>
-                <conditionGroup type="and">
+                <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d513-cbf5-9bfc-7270" type="instanceOf"/>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="bdda-36f0-4f32-1639" type="notEqualTo"/>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6c1d-32d6-b16c-3b0c" type="equalTo"/>
                     <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ae09-117e-a6fa-316b" type="equalTo"/>
                   </conditions>
                   <conditionGroups>
-                    <conditionGroup type="or">
+                    <conditionGroup type="and">
                       <conditions>
-                        <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="82cd-d24f-9f22-11f3" type="instanceOf"/>
-                        <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5d84-5102-f22c-14d4" type="instanceOf"/>
+                        <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5d84-5102-f22c-14d4" type="notInstanceOf"/>
+                        <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="82cd-d24f-9f22-11f3" type="notInstanceOf"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
-                </conditionGroup>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d513-cbf5-9bfc-7270" type="instanceOf"/>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="bdda-36f0-4f32-1639" type="notEqualTo"/>
-                  </conditions>
                 </conditionGroup>
               </conditionGroups>
             </conditionGroup>
@@ -5064,22 +5085,50 @@
                 <conditionGroup type="and">
                   <conditions>
                     <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d513-cbf5-9bfc-7270" type="instanceOf"/>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="bdda-36f0-4f32-1639" type="equalTo"/>
-                  </conditions>
-                </conditionGroup>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d513-cbf5-9bfc-7270" type="instanceOf"/>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="bdda-36f0-4f32-1639" type="equalTo"/>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ae09-117e-a6fa-316b" type="equalTo"/>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6c1d-32d6-b16c-3b0c" type="equalTo"/>
                   </conditions>
                   <conditionGroups>
                     <conditionGroup type="or">
-                      <conditions>
-                        <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="82cd-d24f-9f22-11f3" type="instanceOf"/>
-                        <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5d84-5102-f22c-14d4" type="instanceOf"/>
-                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <comment>Knights, NO TITANICS, no Warlord</comment>
+                          <conditions>
+                            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="bdda-36f0-4f32-1639" type="equalTo"/>
+                            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ae09-117e-a6fa-316b" type="equalTo"/>
+                          </conditions>
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="82cd-d24f-9f22-11f3" type="instanceOf"/>
+                                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5d84-5102-f22c-14d4" type="instanceOf"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </conditionGroup>
+                        <conditionGroup type="and">
+                          <comment>Knights, TITANICS, non-TITANIC Warlord</comment>
+                          <conditions>
+                            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6c1d-32d6-b16c-3b0c" type="equalTo"/>
+                            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ae09-117e-a6fa-316b" type="atLeast"/>
+                            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="bdda-36f0-4f32-1639" type="atLeast"/>
+                          </conditions>
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="82cd-d24f-9f22-11f3" type="instanceOf"/>
+                                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5d84-5102-f22c-14d4" type="instanceOf"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </conditionGroup>
+                        <conditionGroup type="and">
+                          <comment>Not Knights, No TITANICS</comment>
+                          <conditions>
+                            <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5d84-5102-f22c-14d4" type="notInstanceOf"/>
+                            <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="82cd-d24f-9f22-11f3" type="notInstanceOf"/>
+                            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="bdda-36f0-4f32-1639" type="equalTo"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
                     </conditionGroup>
                   </conditionGroups>
                 </conditionGroup>
@@ -5092,48 +5141,6 @@
           <conditions>
             <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dcee-07fa-ec14-7dec" type="instanceOf"/>
           </conditions>
-        </modifier>
-        <modifier type="set" field="2d3b-b544-ad49-fb75" value="0.0">
-          <comment>Detachment CP Refund for Chaos and Imperial Knights.</comment>
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <comment>Detachment CP Refund for Titanic Knight Warlord</comment>
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d513-cbf5-9bfc-7270" type="instanceOf"/>
-                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6c1d-32d6-b16c-3b0c" type="equalTo"/>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="bdda-36f0-4f32-1639" type="notEqualTo"/>
-                  </conditions>
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="82cd-d24f-9f22-11f3" type="instanceOf"/>
-                        <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5d84-5102-f22c-14d4" type="instanceOf"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
-                </conditionGroup>
-                <conditionGroup type="and">
-                  <comment>Detachment CP Refund for Knight Warlord</comment>
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d513-cbf5-9bfc-7270" type="instanceOf"/>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6c1d-32d6-b16c-3b0c" type="equalTo"/>
-                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ae09-117e-a6fa-316b" type="equalTo"/>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="bdda-36f0-4f32-1639" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="82cd-d24f-9f22-11f3" type="instanceOf"/>
-                        <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5d84-5102-f22c-14d4" type="instanceOf"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
-                </conditionGroup>
-              </conditionGroups>
-            </conditionGroup>
-          </conditionGroups>
         </modifier>
         <modifier type="set" field="hidden" value="true">
           <comment>Hide in Child Detachments.</comment>
@@ -5159,6 +5166,7 @@
               <conditions>
                 <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cccd-3d99-d4af-d668" type="atLeast"/>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5baf-eed5-bb85-7325" type="instanceOf"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ae09-117e-a6fa-316b" type="atLeast"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -5172,6 +5180,7 @@
                 <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a0c7-2a71-bae0-215d" type="atLeast"/>
                 <condition field="forces" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="564e-55d5-79bc-a4d7" type="equalTo"/>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5baf-eed5-bb85-7325" type="instanceOf"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ae09-117e-a6fa-316b" type="atLeast"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -5184,13 +5193,26 @@
                 <condition field="forces" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cccd-3d99-d4af-d668" type="equalTo"/>
                 <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="564e-55d5-79bc-a4d7" type="atLeast"/>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5baf-eed5-bb85-7325" type="instanceOf"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ae09-117e-a6fa-316b" type="atLeast"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
       </modifiers>
+      <modifierGroups>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="44da-9aaf-181b-5ece" type="instanceOf"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set" field="fac4-ef44-fe8d-5104" value="0.0"/>
+            <modifier type="set" field="479b-ff93-4cba-b3d8" value="0.0"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fac4-ef44-fe8d-5104" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="479b-ff93-4cba-b3d8" type="min"/>
       </constraints>
       <selectionEntries>
         <selectionEntry id="d224-ab2b-e79e-5491" name="Command Benefit" hidden="false" collective="false" import="true" type="upgrade">
@@ -5225,51 +5247,98 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f29d-8a5d-18b6-a071" name="Battle-forged CP" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="f29d-8a5d-18b6-a071" name="Battle Size" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="ba25-d308-d6f1-5649" value="1.0">
           <conditions>
-            <condition field="forces" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="44da-9aaf-181b-5ece" type="equalTo"/>
+            <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="44da-9aaf-181b-5ece" type="lessThan"/>
           </conditions>
         </modifier>
-        <modifier type="increment" field="2d3b-b544-ad49-fb75" value="3.0">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="limit::e356-c769-5920-6e14" scope="roster" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
-                <condition field="limit::points" scope="roster" value="500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-        <modifier type="increment" field="2d3b-b544-ad49-fb75" value="6.0">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="limit::e356-c769-5920-6e14" scope="roster" value="50.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
-                <condition field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-        <modifier type="increment" field="2d3b-b544-ad49-fb75" value="6.0">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="limit::e356-c769-5920-6e14" scope="roster" value="100.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
-                <condition field="limit::points" scope="roster" value="2000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
       </modifiers>
+      <modifierGroups>
+        <modifierGroup>
+          <conditions>
+            <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="44da-9aaf-181b-5ece" type="atLeast"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set" field="1a29-fbbf-01a7-1c91" value="0.0"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
       <constraints>
-        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ba25-d308-d6f1-5649" type="max"/>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ba25-d308-d6f1-5649" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1a29-fbbf-01a7-1c91" type="max"/>
       </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2883-57e8-87a6-38e2" name="Battle Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="af70-08c1-1c6f-0770">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a48-d522-f093-f993" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b273-5ae1-26a2-84cd" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="5686-7cd9-6664-635b" name="2. Incursion (51-100 Total PL / 501-1000 Points) " hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="2d3b-b544-ad49-fb75" value="0.0">
+                  <conditions>
+                    <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="44da-9aaf-181b-5ece" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="6.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="09f9-b586-8d63-7635" name="3. Strike Force (101-200 Total PL / 1001-2000 Points) " hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="2d3b-b544-ad49-fb75" value="0.0">
+                  <conditions>
+                    <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="44da-9aaf-181b-5ece" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="12.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="fad2-035f-88a7-60c0" name="4. Onslaught (201-300 Total PL / 2001-3000 Points) " hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="2d3b-b544-ad49-fb75" value="0.0">
+                  <conditions>
+                    <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="44da-9aaf-181b-5ece" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="18.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="af70-08c1-1c6f-0770" name="1. Combat Patrol (0-50 Total PL / 0-500 Points) " hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="2d3b-b544-ad49-fb75" value="0.0">
+                  <conditions>
+                    <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="44da-9aaf-181b-5ece" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="3.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="3.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="af7a-d57e-4972-12d3" name="Reinforcements" hidden="false" collective="false" import="true" type="upgrade">
@@ -5375,7 +5444,7 @@
         <infoLink id="48cb-7499-9f11-1912" name="Heavy bolter" hidden="false" targetId="e2b0-b9f1-6c38-584c" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="8.0"/>
+        <cost name="pts" typeId="points" value="15.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -5436,7 +5505,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="160.0"/>
+        <cost name="pts" typeId="points" value="170.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="11.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -5688,6 +5757,156 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="ec16-8c4f-7c32-2d58" name="Macro-cannon Aquila Strongpoint" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="3dc7-7e07-df5e-9fd1" name="Aquila Strongpoint" publicationId="28ec-711c-pubN77581" page="135" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="0bdf-a96e-9e38-7779">-</characteristic>
+            <characteristic name="WS" typeId="e7f0-1278-0250-df0c">-</characteristic>
+            <characteristic name="BS" typeId="381b-eb28-74c3-df5f">5+</characteristic>
+            <characteristic name="S" typeId="2218-aa3c-265f-2939">-</characteristic>
+            <characteristic name="T" typeId="9c9f-9774-a358-3a39">10</characteristic>
+            <characteristic name="W" typeId="f330-5e6e-4110-0978">30</characteristic>
+            <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">-</characteristic>
+            <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">-</characteristic>
+            <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="0094-6926-0d7c-e425" name="Automated Weapons" hidden="false" targetId="a179-f592-3224-72c9" type="profile"/>
+        <infoLink id="3985-1cea-515e-958f" name="Explodes (2D6&quot; / D6)" hidden="false" targetId="4ab1-b4c4-a404-8c2f" type="profile"/>
+        <infoLink id="f958-e691-027a-faf4" name="Fire Points (15)" hidden="false" targetId="298d-b8cf-d3ed-04d8" type="profile"/>
+        <infoLink id="6d4c-1c31-8c95-2452" name="Immobile (Fortification)" hidden="false" targetId="8830-2c9e-ad7e-e57d" type="profile"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="aa99-376d-2d0d-9c5e" name="Aquila Macro-cannon" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c9b-2c75-18a1-417d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ee2-2588-322f-388d" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="7f35-3cc4-be9b-3a32" name="Aquila Macro-cannon (Macro Shell)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72&quot;</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy D6</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">14</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Treat any damage rolls of 1 or 2 made for this weapon as 3 instead.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="327e-e494-dae6-d008" name="Aquila Macro-cannon (Quake Shell)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">180&quot;</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2D6</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">9</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="9ce3-92ba-b5fc-2ba4" name="Magazine Explosion (Macro-cannon)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model is reduced to 0 wounds, roll a D6 before removing it from the battlefield and before any embarked models disembark. On a 6 its magazine explodes, and each unit within 2D6&quot; suffers D6 mortal wounds.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="80.0"/>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="01e4-d413-522e-1b60" name="Heavy bolter (Fortification)" hidden="false" collective="false" import="true" targetId="05be-50b6-5107-9878" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="points" value="8.0"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0318-46a5-d299-9ae7" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="21.0"/>
+        <cost name="pts" typeId="points" value="440.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7fa0-59ee-8d71-e174" name="Vortex Missile Aquila Strongpoint" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="b5df-548e-5464-d939" name="Containment Failure" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When this model is destroyed, before any embarked models disembark its vortex missiles explode. Each unit within 2D6&quot; suffers D6 mortal wounds. If a model loses any wounds as a result of those mortal wounds but is not destroyed, roll another D6; on a 6 that model suffers a further D6 mortal wounds.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="38e6-c245-8238-130e" name="Aquila Strongpoint" publicationId="28ec-711c-pubN77581" page="135" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="0bdf-a96e-9e38-7779">-</characteristic>
+            <characteristic name="WS" typeId="e7f0-1278-0250-df0c">-</characteristic>
+            <characteristic name="BS" typeId="381b-eb28-74c3-df5f">5+</characteristic>
+            <characteristic name="S" typeId="2218-aa3c-265f-2939">-</characteristic>
+            <characteristic name="T" typeId="9c9f-9774-a358-3a39">10</characteristic>
+            <characteristic name="W" typeId="f330-5e6e-4110-0978">30</characteristic>
+            <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">-</characteristic>
+            <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">-</characteristic>
+            <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="30d1-b547-1125-d612" name="Automated Weapons" hidden="false" targetId="a179-f592-3224-72c9" type="profile"/>
+        <infoLink id="f1bf-f67b-bc39-6b7e" name="Fire Points (15)" hidden="false" targetId="298d-b8cf-d3ed-04d8" type="profile"/>
+        <infoLink id="69a2-0099-7ecf-eb18" name="Immobile (Fortification)" hidden="false" targetId="8830-2c9e-ad7e-e57d" type="profile"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="1566-ed32-0c78-265b" name="Vortex Missile Battery" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f19-4108-79da-31bf" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="621a-66bd-935a-dfe9" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="45fe-2ece-6d97-a023" name="Vortex Missile Battery" publicationId="28ec-711c-pubN77581" page="136" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">180&quot;</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy D6</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">-</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">-</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon may target units that are not visible to the bearer, even when firing in accordance with the Automated Weapons ability. Each time you hit the target with this weapon it suffers D6 mortal wounds. If a model is wounded but but not slain by this attack, roll another dice; on a 6, the model suffers a further D6 mortal wounds.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="4525-1cde-2fcd-d4cf" name="Containment Failure" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model is reduced to 0 wounds, before removing it from the battlefield and before any embarked models disembark, its vortex missiles explode. Each unit within 2D6&quot; suffers D6 mortal wounds. If a model is wounded but not slain by in this manner roll another dice; on a 6, the model is sucked up into the swirling vortex and slain.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="100.0"/>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="cd5e-06a3-d8de-80c5" name="Heavy bolter (Fortification)" hidden="false" collective="false" import="true" targetId="05be-50b6-5107-9878" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="points" value="8.0"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5789-5292-6fdf-302d" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="22.0"/>
+        <cost name="pts" typeId="points" value="470.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="d442-1f03-d9da-e77f" name="Warlord Traits (BRB)" hidden="false" collective="false" import="true">
@@ -5695,310 +5914,8 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ddaf-3652-257e-33de" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="bef9-3a50-5ff4-1ba0" name="1. Legendary Fighter" hidden="false" collective="false" import="true" targetId="1bad-1970-8d5d-733f" type="selectionEntry"/>
-        <entryLink id="034f-ad37-f67b-95fe" name="2. Inspiring Leader" hidden="false" collective="false" import="true" targetId="bad4-7cc1-6b79-0e18" type="selectionEntry"/>
-        <entryLink id="c3cf-4cf7-145c-e210" name="3. Tenacious Survivor" hidden="false" collective="false" import="true" targetId="9a24-3ad2-9f48-7049" type="selectionEntry"/>
+        <entryLink id="034f-ad37-f67b-95fe" name="Inspiring Leader" hidden="false" collective="false" import="true" targetId="bad4-7cc1-6b79-0e18" type="selectionEntry"/>
       </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="f673-3d9b-bb1b-377f" name="Warlord Traits (CA)" hidden="true" collective="false" import="true">
-      <modifiers>
-        <modifier type="set" field="hidden" value="false">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f361-b6f6-93fd-2250" type="equalTo"/>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="76d3-0012-c152-b50d" type="equalTo"/>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a743-77b9-2b75-ffb2" type="equalTo"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0260-30d2-6345-8535" type="max"/>
-      </constraints>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="e219-8f88-be6f-c37a" name="Planetstrike Attacker" hidden="false" collective="false" import="true">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f361-b6f6-93fd-2250" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd4e-9a40-4326-dd5b" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="ff3c-3922-d0a7-b62f" name="1. Master of Timing" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="62dc-581b-0fc0-56f0" name="Master of Timing" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-                  <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll one failed Reserve roll each turn.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="0e3f-2b7b-06e3-a454" name="2. Burner of Worlds" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="3f29-21a5-bcab-43c9" name="Burner of Worlds" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-                  <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When you make Firestorm attacks, add 1 to the total number you can make.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="9905-0a35-c18f-50ea" name="3. Planetary Attacker" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="655e-42f4-a1a7-9309" name="Planetary Attacker" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-                  <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You have one bonus Command Point – this can only be spent on a Planetstrike Stratagem.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="89d9-81aa-53be-4170" name="Planetstrike Defender" hidden="false" collective="false" import="true">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f361-b6f6-93fd-2250" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa63-efaa-e85d-cff3" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="bc9d-ccff-4d20-771c" name="1. Lord of Ambush" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="d64a-821d-7c23-52ad" name="Lord of Ambush" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-                  <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll hit rolls of 1 for friendly units within 6&quot; of your Warlord if targeting an Attacking unit that arrived as reinforcements this turn.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="a33c-1bef-a01a-e980" name="2. Protector of Worlds" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="1cca-8821-c432-fa4e" name=" Protector of Worlds" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-                  <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll failed Morale tests for friendly units whilst they are within 6&quot; of your Warlord.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="1dec-4c83-2adc-50bc" name="3. Planetary Defender" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="da32-484a-df1d-babb" name="Planetary Defender" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-                  <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You have one bonus Command Point – this can only be spent on a Planetstrike Stratagem.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="6d80-f955-1f1c-459e" name="Stronghold Assault Defender" hidden="false" collective="false" import="true">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="76d3-0012-c152-b50d" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb43-d058-689b-4008" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="3c3c-7e55-ffac-e301" name="1. Counterfire Master" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="3912-170b-9164-4c9e" name="Counterfire Master" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-                  <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll failed hit rolls for friendly units within 6&quot; of your Warlord (this includes any BUILDING they are embarked within, and any other units embarked within the same building).</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="6310-0441-8085-fdcb" name="2. Fortress Commander" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="e826-7677-123a-f36c" name="Fortress Commander" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-                  <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your Warlord is embarked within a BUILDING, roll a dice each time that building loses a wound; on a 6+, the building does not lose a wound.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="8bc6-4856-60a1-56b4" name="3. Stronghold Assault Defender" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="68da-2b3c-0bc8-5b73" name="Stronghold Assault Defender" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-                  <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You have one bonus Command Point – this can only be spent on a Stronghold Assault Stratagem.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="4857-0c03-64df-6378" name="Stronghold Assault Attacker" hidden="false" collective="false" import="true">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="76d3-0012-c152-b50d" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e7da-09d8-5ddc-637d" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="0222-b234-6991-696a" name="1. Siege Breaker" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="f73b-8c7e-f69e-0fcb" name="Siege Breaker" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-                  <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll failed charge rolls for friendly units that are within 6&quot; of your Warlord when they declare a charge against a BUILDING.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="4680-d58f-ddf8-3382" name="2. Fortress Destroyer" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="f80f-3686-fb27-1123" name="Fortress Destroyer" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-                  <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll wound rolls of 1 for friendly units that are within 6&quot; of your Warlord when they target a BUILDING.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="d4be-616e-a6d7-9c22" name="3. Stronghold Assault Attacker" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="ee27-24ae-bb21-836e" name="Stronghold Assault Attacker" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-                  <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You have one bonus Command Point – this can only be spent on a Stronghold Assault Stratagem.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="4ed7-917f-5fce-9f2b" name="Cities of Death" hidden="false" collective="false" import="true">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a743-77b9-2b75-ffb2" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53f0-8fd3-91bf-56d2" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="41ba-9421-18b3-211d" name="1. Cityfight Specialist" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="4552-d20f-6a56-3a73" name="1. Cityfight Specialist" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-                  <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, you receive 3 additional Command Points. These can only be spent to use Cities of Death Stratagems (pg 32-35).</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="8bef-db2e-cf0d-1237" name="2. Conqueror of Worlds" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="4d41-0980-77f6-159c" name="2. Conqueror of Worlds" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-                  <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this Warlord is within range of an objective marker (see above) it controls that objective marker even if there are more enemy models within range of the same objective marker. If an enemy unit within range of the same objective marker has a similar ability, then the objective marker is controlled by the player who has the most models within range of it as normal.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="c73c-91c7-43dc-5e8e" name="3. Urban Warrior" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="f47e-d1cb-787e-cfc4" name="3. Urban Warrior" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-                  <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This Warlord treats all soft cover it is entirely on or within, or that it is receiving the benefit of cover from, as hard cover (pg 30). In addition, enemy units do not receive the benefit to their saving throws for being in cover against attacks made by this Warlord.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
     </selectionEntryGroup>
     <selectionEntryGroup id="8774-e003-4a50-56c7" name="Custom Character Selections" hidden="false" collective="false" import="true">
       <modifiers>
@@ -7870,7 +7787,7 @@
       <description>If this model is reduced to 0 wounds, roll a D6 before removing it from the battlefield and before any embarked models disembark. On a 6 it explodes, and each unit within 6&quot; suffers D3 mortal wounds.</description>
     </rule>
     <rule id="60db-65f7-ca20-7874" name="Open-topped" page="" hidden="false">
-      <description>Models embarked on this model can attack in their Shooting phase. Measure the range and draw line of sight from any point on the model. When they do so, any restrictions or modifiers that apply to this model also apply to its passenger; for example, the passengers cannot shoot if this model has Fallen Back in the same turn, cannot shoot (except with Pistols) if this model is within 1&quot; of an enemy unit, and so on.</description>
+      <description>Models embarked on this model can attack in their Shooting phase. Measure the range and draw line of sight from any point on the model. When they do so, any restrictions or modifiers that apply to this model also apply to its passengers. While this transport is within Engagement Range of any enemy units, embarked units cannot shoot, except with any Pistols they are equipped with.</description>
     </rule>
     <rule id="51af-0fb9-3ca5-d307" name="Smoke Launchers" hidden="false">
       <description>Once per game, instead of shooting any weapons in the Shooting phase, this models can use its smoke launchers; if it does so, until your next Shooting phase your opponent must subtract 1 from any hit rolls that target it.</description>
@@ -8137,7 +8054,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast.</characteristic>
       </characteristics>
     </profile>
     <profile id="1768-d7b9-37ba-f3bf" name="Multi-melta" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -8157,7 +8074,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast.</characteristic>
       </characteristics>
     </profile>
     <profile id="e294-a5c7-e01e-0a82" name="Close Combat Weapon" publicationId="28ec-711c-pubN72690" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -8317,7 +8234,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">7</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast.</characteristic>
       </characteristics>
     </profile>
     <profile id="f14a-07e5-5465-69cf" name="Lascannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -8427,7 +8344,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon may target a CHARACTER even if it is not the closest enemy unit. If you roll a wound roll of 6+ for this weapon, it inflicts a mortal wound in addition to its normal damage.</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time you select a target for this weapon, you can ignore the Look Out, Sir rule. If you roll a wound roll of 6+ for this weapon, it inflicts a mortal wound in addition to its normal damage.</characteristic>
       </characteristics>
     </profile>
     <profile id="4750-7eb0-ff1e-6257" name="Vulcan Mega-bolter" publicationId="28ec-711c-pubN72690" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -8730,7 +8647,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">On a hit roll of 1, the bearer is slain after all of this weapon&apos;s shots have been resolved.</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">On a hit roll of 1, the bearer is slain after all of this weapon&apos;s shots have been resolved. Blast.</characteristic>
       </characteristics>
     </profile>
     <profile id="9b1e-61f9-4a5b-0044" name="Chainsword" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -8760,7 +8677,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast.</characteristic>
       </characteristics>
     </profile>
     <profile id="ac6d-bf1b-73d0-e6af" name="Astartes grenade launcher, Krak grenade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -8810,7 +8727,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast.</characteristic>
       </characteristics>
     </profile>
     <profile id="418d-8293-8de6-7cac" name="Cerberus launcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -8820,7 +8737,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast.</characteristic>
       </characteristics>
     </profile>
     <profile id="0655-6c08-6402-46bf" name="Combi-bolter" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -8850,7 +8767,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast.</characteristic>
       </characteristics>
     </profile>
     <profile id="d9ac-d70c-de0b-1897" name="Cyclone missile launcher, Krak missile" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -8870,7 +8787,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast.</characteristic>
       </characteristics>
     </profile>
     <profile id="d2d1-43d6-8c52-7a6a" name="Demolisher cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -8910,7 +8827,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">7</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast.</characteristic>
       </characteristics>
     </profile>
     <profile id="691d-11e2-ebfb-d4ad" name="Heavy plasma cannon, Supercharge" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -8920,7 +8837,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">For each hit roll of 1, the bearer suffers 1 mortal wound after all of this weapon&apos;s shots have been resolved.</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">For each hit roll of 1, the bearer suffers 1 mortal wound after all of this weapon&apos;s shots have been resolved. Blast.</characteristic>
       </characteristics>
     </profile>
     <profile id="0c32-fc5b-5235-f6ba" name="Hurricane bolter" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -8983,7 +8900,7 @@
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="f434-6eb5-9a60-79cf" name="Orbital array" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="f434-6eb5-9a60-79cf" name="Orbital comms array" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72&quot;</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy D3</characteristic>
@@ -9120,7 +9037,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon can target units that are not visible to the firing model.</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon can target units that are not visible to the firing model. Blast.</characteristic>
       </characteristics>
     </profile>
     <profile id="acb8-7501-1f1b-b483" name="Twin assault cannon" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -9170,7 +9087,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">7</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast.</characteristic>
       </characteristics>
     </profile>
     <profile id="f2db-d913-989b-2841" name="Twin heavy plasma cannon, Supercharge" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -9180,7 +9097,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">For each hit roll of 1, the bearer suffers 1 mortal wound after all of this weapon&apos;s shots have been resolved.</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">For each hit roll of 1, the bearer suffers 1 mortal wound after all of this weapon&apos;s shots have been resolved. Blast.</characteristic>
       </characteristics>
     </profile>
     <profile id="1662-54b9-46da-fefc" name="Twin lascannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -9230,7 +9147,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast.</characteristic>
       </characteristics>
     </profile>
     <profile id="aea5-27f0-dcde-06c1" name="Typhoon missile launcher, Krak missile" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -9260,7 +9177,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon can target units that are not visible to the firing model.</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon can target units that are not visible to the firing model. Blast.</characteristic>
       </characteristics>
     </profile>
     <profile id="f4df-b39c-08a7-5255" name="Whirlwind vengeance launcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -9270,7 +9187,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">7</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon can target units that are not visible to the firing model.</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon can target units that are not visible to the firing model. Blast.</characteristic>
       </characteristics>
     </profile>
     <profile id="802b-8d1b-8b9f-41e2" name="Wrist-mounted grenade launcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -9280,7 +9197,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast.</characteristic>
       </characteristics>
     </profile>
     <profile id="a795-7f46-c006-36f9" name="Boltstorm gauntlet (melee)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -9385,7 +9302,7 @@
     </profile>
     <profile id="b754-9672-4689-cefb" name="Camo cloaks" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If every model in a unit has a camo cloak you can add 2 to saving throws made for models in the unit when they receive the benefits of cover, instead of 1.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time a ranged attack is allocated to a model in this unit with a camo cloak while it is receiving the benefits of cover, add an additional 1 to any armour saving throw made against that attack.</characteristic>
       </characteristics>
     </profile>
     <profile id="d0a0-002c-8278-a70e" name="Combat shield" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -9405,7 +9322,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast.</characteristic>
       </characteristics>
     </profile>
     <profile id="2ea1-2be3-90c0-8d4c" name="Twin Icarus Lascannon" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -9475,14 +9392,14 @@
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When a model attacks with this weapon, you must subtract 1 from the hit roll.</characteristic>
       </characteristics>
     </profile>
-    <profile id="9873-9487-e878-7e93" name="Psyk-Out Grenades" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="9873-9487-e878-7e93" name="Psyk-out grenades" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6&quot;</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Grenade D3</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">2</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time you roll a hit roll of 6+ for this weapon when targeting a PSYKER or DAEMON, the target suffers a mortal wound instead of the normal damage.</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time you roll a hit roll of 6+ for this weapon when targeting a PSYKER or DAEMON, the target suffers a mortal wound instead of the normal damage. Blast.</characteristic>
       </characteristics>
     </profile>
     <profile id="d8c3-5b45-35a3-273d" name="Psycannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -9582,7 +9499,7 @@
         <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast.</characteristic>
       </characteristics>
     </profile>
     <profile id="46f3-7be5-6ec3-4fde" name="Rapid Tunnelling" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">

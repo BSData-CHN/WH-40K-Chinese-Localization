@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7fe3-1c65-72de-bc5d" name="混沌- 盖勒疹感染者" revision="5" battleScribeVersion="2.03" authorName="BSData-CHN" authorContact="@Mad_Spy" authorUrl="https://github.com/BSData-CHN" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="58" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7fe3-1c65-72de-bc5d" name="Chaos - Gellerpox Infected" revision="6" battleScribeVersion="2.03" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="130" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
-    <publication id="7fe3-1c65-pubN66333" name="圣典: 盖勒疹感染者"/>
+    <publication id="7fe3-1c65-pubN66333" name="Codex: Gellerpox Infected"/>
   </publications>
   <categoryEntries>
-    <categoryEntry id="869b-3b9f-1b74-d4cf" name="阵营: 盖勒疹感染者" hidden="false"/>
-    <categoryEntry id="edbd-96e0-f3b7-87f2" name="纳垢" hidden="false"/>
+    <categoryEntry id="869b-3b9f-1b74-d4cf" name="Faction: Gellerpox Infected" hidden="false"/>
+    <categoryEntry id="edbd-96e0-f3b7-87f2" name="Nurgle" hidden="false"/>
     <categoryEntry id="a845-285a-3cce-6a17" name="Twisted Lord" hidden="false"/>
     <categoryEntry id="5d26-4e41-0730-d675" name="Vulgrar Thrice-Cursed" hidden="false"/>
     <categoryEntry id="d8c7-bf01-b3b7-eaf3" name="Vox-Shamblers" hidden="false"/>
     <categoryEntry id="8908-9aa8-01c8-eeae" name="Gellerpox Mutants" hidden="false"/>
-    <categoryEntry id="befd-6c62-0620-2b3c" name="恶魔" hidden="false"/>
+    <categoryEntry id="befd-6c62-0620-2b3c" name="Daemon" hidden="false"/>
     <categoryEntry id="7403-5799-a94a-85f8" name="Glitchlings" hidden="false"/>
     <categoryEntry id="8238-9ecd-2d4c-8492" name="Nightmare Hulks" hidden="false"/>
     <categoryEntry id="508a-82d6-88e2-80f8" name="Hullbreakers" hidden="false"/>
@@ -119,58 +119,58 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3cc5-e0ff-7876-fd1a" type="max"/>
       </constraints>
       <profiles>
-        <profile id="133b-0d58-aa90-86ee" name="Vulgrar Thrice-cursed" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+        <profile id="133b-0d58-aa90-86ee" name="Vulgrar Thrice-cursed" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="0bdf-a96e-9e38-7779">5寸</characteristic>
+            <characteristic name="M" typeId="0bdf-a96e-9e38-7779">5&quot;</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
             <characteristic name="BS" typeId="381b-eb28-74c3-df5f">6+</characteristic>
             <characteristic name="S" typeId="2218-aa3c-265f-2939">5</characteristic>
             <characteristic name="T" typeId="9c9f-9774-a358-3a39">5</characteristic>
             <characteristic name="W" typeId="f330-5e6e-4110-0978">5</characteristic>
             <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">4</characteristic>
-            <characteristic name="LD" typeId="00ca-f8b8-876d-b705">9</characteristic>
-            <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">6+</characteristic>
+            <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">9</characteristic>
+            <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">6+</characteristic>
           </characteristics>
         </profile>
         <profile id="baa3-09fd-41db-22ed" name="Lord of Resentment" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">重投命中的 1 made for 友方 盖勒疹感染者 单位 6寸范围内 of Vulgrar Thrice-Cursed.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Re-roll hit rolls of 1 made for friendly GELLERPOX INFECTED units within 6&quot; of Vulgrar Thrice-Cursed.</characteristic>
           </characteristics>
         </profile>
         <profile id="f094-386a-1787-1d79" name="Bionic Abomination" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Vulgrar Thrice-Cursed 拥有 5+ 特殊保护.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Vulgrar Thrice-Cursed has a 5+ invulnerable save.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="f8b7-e454-eb3c-d539" name="可憎坚韧" hidden="false" targetId="f510-c281-a5f7-c8aa" type="profile"/>
+        <infoLink id="f8b7-e454-eb3c-d539" name="Disgustingly Resilient" hidden="false" targetId="f510-c281-a5f7-c8aa" type="profile"/>
         <infoLink id="6dd7-c319-cea2-e9f0" name="Horrific Visage" hidden="false" targetId="cfd8-92a0-d5c1-2820" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="ba71-195c-f39d-df71" name="混沌" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
-        <categoryLink id="aa54-1307-828b-b4f7" name="阵营: 盖勒疹感染者" hidden="false" targetId="869b-3b9f-1b74-d4cf" primary="false"/>
-        <categoryLink id="6361-f2a7-4e73-bf7b" name="纳垢" hidden="false" targetId="edbd-96e0-f3b7-87f2" primary="false"/>
-        <categoryLink id="b4ec-dd75-e806-aea8" name="人物" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
-        <categoryLink id="1504-1912-25d7-2a46" name="步兵" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
+        <categoryLink id="ba71-195c-f39d-df71" name="Chaos" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
+        <categoryLink id="aa54-1307-828b-b4f7" name="Faction: Gellerpox Infected" hidden="false" targetId="869b-3b9f-1b74-d4cf" primary="false"/>
+        <categoryLink id="6361-f2a7-4e73-bf7b" name="Nurgle" hidden="false" targetId="edbd-96e0-f3b7-87f2" primary="false"/>
+        <categoryLink id="b4ec-dd75-e806-aea8" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
+        <categoryLink id="1504-1912-25d7-2a46" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
         <categoryLink id="a203-b794-7730-8026" name="Twisted Lord" hidden="false" targetId="a845-285a-3cce-6a17" primary="false"/>
         <categoryLink id="b556-bf47-4740-a01e" name="Vulgrar Thrice-Cursed" hidden="false" targetId="5d26-4e41-0730-d675" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="8ff9-9c34-8f60-82f8" name="Belly-喷火器" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="8ff9-9c34-8f60-82f8" name="Belly-flamer" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0cdb-25dc-a3e8-f1e2" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="92ff-34c4-847d-6eec" type="min"/>
           </constraints>
           <profiles>
-            <profile id="8452-c73a-046f-e1d4" name="Belly-喷火器" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+            <profile id="8452-c73a-046f-e1d4" name="Belly-flamer" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
               <characteristics>
-                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">8寸</characteristic>
-                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 D6</characteristic>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">8&quot;</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault D6</characteristic>
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">自动命中</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon automatically hits its target.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -186,10 +186,10 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="341f-8413-9b01-c1bb" type="max"/>
           </constraints>
           <profiles>
-            <profile id="d8aa-e67a-0292-2b3b" name="Fleshripper claws" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+            <profile id="d8aa-e67a-0292-2b3b" name="Fleshripper claws" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
               <characteristics>
-                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
-                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">+1</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
@@ -205,21 +205,21 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="2f37-467a-b8b2-f84b" name="主将" hidden="false" collective="false" import="true" targetId="5ef3-210c-d69e-bbd3" type="selectionEntry"/>
-        <entryLink id="4b79-b5eb-26c9-f6b4" name="主将特性" hidden="false" collective="false" import="true" targetId="d440-98c0-f672-a810" type="selectionEntryGroup"/>
+        <entryLink id="2f37-467a-b8b2-f84b" name="Warlord" hidden="false" collective="false" import="true" targetId="5ef3-210c-d69e-bbd3" type="selectionEntry"/>
+        <entryLink id="4b79-b5eb-26c9-f6b4" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="d440-98c0-f672-a810" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="5.0"/>
-        <cost name="pts" typeId="points" value="65.0"/>
+        <cost name="pts" typeId="points" value="70.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5ef3-210c-d69e-bbd3" name="主将" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="5ef3-210c-d69e-bbd3" name="Warlord" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="893a-7d59-4d87-d921" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="74a4-fad5-bb3f-0e23" name="主将" hidden="false" targetId="ae09-117e-a6fa-316b" primary="false"/>
+        <categoryLink id="74a4-fad5-bb3f-0e23" name="Warlord" hidden="false" targetId="ae09-117e-a6fa-316b" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -234,19 +234,19 @@
       <profiles>
         <profile id="c625-8374-dc19-9a29" name="Gellercaust Mask" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models in 这个单位 have a 5+ 特殊保护. 每次 you roll an unmodified saving throw of 6 for 这个模型 在肉搏阶段, the 单位 that made the 攻击 遭受 1 致命伤 after it has made 所有 of its 攻击.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models in this unit have a 5+ invulnerable save. Each time you roll an unmodified saving throw of 6 for this model in the Fight phase, the unit that made the attack suffers 1 mortal wound after it has made all of its attacks.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="5f24-130d-7ff8-3f7c" name="Vulgrar&apos;s Followers" hidden="false" targetId="d0e1-50c5-94fb-e6d1" type="rule"/>
-        <infoLink id="b3f4-4f6b-a9f0-fe2f" name="可憎坚韧" hidden="false" targetId="f510-c281-a5f7-c8aa" type="profile"/>
+        <infoLink id="b3f4-4f6b-a9f0-fe2f" name="Disgustingly Resilient" hidden="false" targetId="f510-c281-a5f7-c8aa" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="b688-0f8f-aa0f-dfb3" name="混沌" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
-        <categoryLink id="7f36-b539-603f-6a8c" name="阵营: 盖勒疹感染者" hidden="false" targetId="869b-3b9f-1b74-d4cf" primary="false"/>
-        <categoryLink id="6702-b58a-e21b-7843" name="纳垢" hidden="false" targetId="edbd-96e0-f3b7-87f2" primary="false"/>
-        <categoryLink id="5850-b4d7-85e0-3e57" name="步兵" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
+        <categoryLink id="b688-0f8f-aa0f-dfb3" name="Chaos" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
+        <categoryLink id="7f36-b539-603f-6a8c" name="Faction: Gellerpox Infected" hidden="false" targetId="869b-3b9f-1b74-d4cf" primary="false"/>
+        <categoryLink id="6702-b58a-e21b-7843" name="Nurgle" hidden="false" targetId="edbd-96e0-f3b7-87f2" primary="false"/>
+        <categoryLink id="5850-b4d7-85e0-3e57" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
         <categoryLink id="bcfc-2cc3-ea93-85ef" name="Gellerpox Mutants" hidden="false" targetId="8908-9aa8-01c8-eeae" primary="false"/>
         <categoryLink id="9e4b-bf28-1fa6-e4ec" name="Vox-Shamblers" hidden="false" targetId="d8c7-bf01-b3b7-eaf3" primary="false"/>
       </categoryLinks>
@@ -257,32 +257,32 @@
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eab5-14bd-2ba2-f272" type="min"/>
           </constraints>
           <profiles>
-            <profile id="7101-25d1-fdee-96e4" name="Gellerpox Mutant" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+            <profile id="7101-25d1-fdee-96e4" name="Gellerpox Mutant" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
               <characteristics>
-                <characteristic name="M" typeId="0bdf-a96e-9e38-7779">5寸</characteristic>
+                <characteristic name="M" typeId="0bdf-a96e-9e38-7779">5&quot;</characteristic>
                 <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
                 <characteristic name="BS" typeId="381b-eb28-74c3-df5f">4+</characteristic>
                 <characteristic name="S" typeId="2218-aa3c-265f-2939">4</characteristic>
                 <characteristic name="T" typeId="9c9f-9774-a358-3a39">4</characteristic>
                 <characteristic name="W" typeId="f330-5e6e-4110-0978">1</characteristic>
                 <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">2</characteristic>
-                <characteristic name="LD" typeId="00ca-f8b8-876d-b705">6</characteristic>
-                <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">6+</characteristic>
+                <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">6</characteristic>
+                <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">6+</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <selectionEntries>
-            <selectionEntry id="27c2-fa55-0967-425a" name="Mutated limbs and 简陋武器" hidden="false" collective="true" import="true" type="upgrade">
+            <selectionEntry id="27c2-fa55-0967-425a" name="Mutated limbs and improvised weapons" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9fc3-55bc-17fd-5c5d" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d4e-6a25-9dec-71c4" type="min"/>
               </constraints>
               <profiles>
-                <profile id="c268-de82-675b-7a81" name="Mutated limbs and 简陋武器" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+                <profile id="c268-de82-675b-7a81" name="Mutated limbs and improvised weapons" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                   <characteristics>
-                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
-                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
-                    <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+                    <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
                     <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
@@ -295,13 +295,13 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="b009-dda5-f605-4ab9" name="破片手雷" hidden="false" collective="true" import="true" type="upgrade">
+            <selectionEntry id="b009-dda5-f605-4ab9" name="Frag grenades" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bca2-71c5-369b-579a" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aafe-91a9-188e-3a7d" type="min"/>
               </constraints>
               <infoLinks>
-                <infoLink id="6548-5d69-6099-1eaf" name="破片手雷" hidden="false" targetId="fdd8-1a5f-5722-d6ee" type="profile"/>
+                <infoLink id="6548-5d69-6099-1eaf" name="Frag grenade" hidden="false" targetId="fdd8-1a5f-5722-d6ee" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -311,7 +311,7 @@
             </selectionEntry>
           </selectionEntries>
           <costs>
-            <cost name="pts" typeId="points" value="8.0"/>
+            <cost name="pts" typeId="points" value="9.0"/>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
@@ -328,45 +328,45 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0977-d233-15c4-a2a2" type="max"/>
       </constraints>
       <profiles>
-        <profile id="5688-ca98-e8f6-009a" name="Glitchling" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+        <profile id="5688-ca98-e8f6-009a" name="Glitchling" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="0bdf-a96e-9e38-7779">5寸</characteristic>
+            <characteristic name="M" typeId="0bdf-a96e-9e38-7779">5&quot;</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
             <characteristic name="BS" typeId="381b-eb28-74c3-df5f">-</characteristic>
             <characteristic name="S" typeId="2218-aa3c-265f-2939">2</characteristic>
             <characteristic name="T" typeId="9c9f-9774-a358-3a39">2</characteristic>
             <characteristic name="W" typeId="f330-5e6e-4110-0978">1</characteristic>
             <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">2</characteristic>
-            <characteristic name="LD" typeId="00ca-f8b8-876d-b705">7</characteristic>
-            <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">6+</characteristic>
+            <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7</characteristic>
+            <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">6+</characteristic>
           </characteristics>
         </profile>
-        <profile id="a2f6-79d4-d972-f3f2" name="恶魔" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="a2f6-79d4-d972-f3f2" name="Daemonic" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models in 这个单位 have a 5+ 特殊保护.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models in this unit have a 5+ invulnerable save.</characteristic>
           </characteristics>
         </profile>
         <profile id="f4d3-0005-a723-196b" name="Squishable" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models in 这个单位 only receive the benefit of their 可憎坚韧 ability 对抗 攻击 with a D值 of 1.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models in this unit only receive the benefit of their Disgustingly Resilient ability against attacks with a Damage characteristic of 1.</characteristic>
           </characteristics>
         </profile>
-        <profile id="1942-ec78-d46b-fa6c" name="武器 Glitch" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="1942-ec78-d46b-fa6c" name="Weapons Glitch" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">减少 1 from 命中骰 made for 攻击 with 远程武器 that target 这个单位.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Subtract 1 from hit rolls made for attacks with ranged weapons that target this unit.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="38bd-0724-d78b-e2d6" name="可憎坚韧" hidden="false" targetId="f510-c281-a5f7-c8aa" type="profile"/>
+        <infoLink id="38bd-0724-d78b-e2d6" name="Disgustingly Resilient" hidden="false" targetId="f510-c281-a5f7-c8aa" type="profile"/>
         <infoLink id="b86a-8407-abad-bd4c" name="Vulgrar&apos;s Followers" hidden="false" targetId="d0e1-50c5-94fb-e6d1" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="7f61-fcd2-a113-d1f4" name="混沌" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
-        <categoryLink id="5f62-3369-b041-1dff" name="阵营: 盖勒疹感染者" hidden="false" targetId="869b-3b9f-1b74-d4cf" primary="false"/>
-        <categoryLink id="431a-876e-76df-d7bd" name="纳垢" hidden="false" targetId="edbd-96e0-f3b7-87f2" primary="false"/>
-        <categoryLink id="4192-5ebe-e809-c251" name="步兵" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
-        <categoryLink id="83a8-be59-6b45-28df" name="恶魔" hidden="false" targetId="befd-6c62-0620-2b3c" primary="false"/>
+        <categoryLink id="7f61-fcd2-a113-d1f4" name="Chaos" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
+        <categoryLink id="5f62-3369-b041-1dff" name="Faction: Gellerpox Infected" hidden="false" targetId="869b-3b9f-1b74-d4cf" primary="false"/>
+        <categoryLink id="431a-876e-76df-d7bd" name="Nurgle" hidden="false" targetId="edbd-96e0-f3b7-87f2" primary="false"/>
+        <categoryLink id="4192-5ebe-e809-c251" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
+        <categoryLink id="83a8-be59-6b45-28df" name="Daemon" hidden="false" targetId="befd-6c62-0620-2b3c" primary="false"/>
         <categoryLink id="896c-f4aa-3c53-89c7" name="Glitchlings" hidden="false" targetId="7403-5799-a94a-85f8" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -382,14 +382,14 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4577-2b7d-9de9-b99d" type="min"/>
               </constraints>
               <profiles>
-                <profile id="6c6a-8a04-e1c8-8a62" name="Diseased claws and fangs" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+                <profile id="6c6a-8a04-e1c8-8a62" name="Diseased claws and fangs" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                   <characteristics>
-                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
-                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
-                    <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+                    <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">重投 造伤骰 of 1 for 这个武器.</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Re-roll wound rolls of 1 for this weapon.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -401,7 +401,7 @@
             </selectionEntry>
           </selectionEntries>
           <costs>
-            <cost name="pts" typeId="points" value="4.0"/>
+            <cost name="pts" typeId="points" value="5.0"/>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
@@ -419,14 +419,14 @@
       </constraints>
       <infoLinks>
         <infoLink id="ad84-9927-f85f-e632" name="Vulgrar&apos;s Followers" hidden="false" targetId="d0e1-50c5-94fb-e6d1" type="rule"/>
-        <infoLink id="4437-deb8-f9c2-b8e8" name="可憎坚韧" hidden="false" targetId="f510-c281-a5f7-c8aa" type="profile"/>
+        <infoLink id="4437-deb8-f9c2-b8e8" name="Disgustingly Resilient" hidden="false" targetId="f510-c281-a5f7-c8aa" type="profile"/>
         <infoLink id="3d17-984a-c4f5-8e19" name="Horrific Visage" hidden="false" targetId="cfd8-92a0-d5c1-2820" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="099d-ae76-d047-d080" name="混沌" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
-        <categoryLink id="6912-338d-6718-fe29" name="阵营: 盖勒疹感染者" hidden="false" targetId="869b-3b9f-1b74-d4cf" primary="false"/>
-        <categoryLink id="9433-472e-4f75-8d31" name="纳垢" hidden="false" targetId="edbd-96e0-f3b7-87f2" primary="false"/>
-        <categoryLink id="9096-d692-4c95-c2da" name="步兵" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
+        <categoryLink id="099d-ae76-d047-d080" name="Chaos" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
+        <categoryLink id="6912-338d-6718-fe29" name="Faction: Gellerpox Infected" hidden="false" targetId="869b-3b9f-1b74-d4cf" primary="false"/>
+        <categoryLink id="9433-472e-4f75-8d31" name="Nurgle" hidden="false" targetId="edbd-96e0-f3b7-87f2" primary="false"/>
+        <categoryLink id="9096-d692-4c95-c2da" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
         <categoryLink id="1cf6-448d-d290-8689" name="Nightmare Hulks" hidden="false" targetId="8238-9ecd-2d4c-8492" primary="false"/>
         <categoryLink id="5f35-2dae-f82a-6ff2" name="Hullbreakers" hidden="false" targetId="508a-82d6-88e2-80f8" primary="false"/>
       </categoryLinks>
@@ -437,17 +437,17 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3533-8bce-b66f-a224" type="min"/>
           </constraints>
           <profiles>
-            <profile id="b699-06f6-f348-a152" name="Gnasher-Screamer" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+            <profile id="b699-06f6-f348-a152" name="Gnasher-Screamer" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
               <characteristics>
-                <characteristic name="M" typeId="0bdf-a96e-9e38-7779">5寸</characteristic>
+                <characteristic name="M" typeId="0bdf-a96e-9e38-7779">5&quot;</characteristic>
                 <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
                 <characteristic name="BS" typeId="381b-eb28-74c3-df5f">-</characteristic>
                 <characteristic name="S" typeId="2218-aa3c-265f-2939">5</characteristic>
                 <characteristic name="T" typeId="9c9f-9774-a358-3a39">5</characteristic>
                 <characteristic name="W" typeId="f330-5e6e-4110-0978">4</characteristic>
                 <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">4</characteristic>
-                <characteristic name="LD" typeId="00ca-f8b8-876d-b705">8</characteristic>
-                <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">6+</characteristic>
+                <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">8</characteristic>
+                <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">6+</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -458,14 +458,14 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fadf-9034-71cb-6d81" type="min"/>
               </constraints>
               <profiles>
-                <profile id="1909-ce0f-8aa2-52a8" name="Plague Cleaver" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+                <profile id="1909-ce0f-8aa2-52a8" name="Plague Cleaver" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                   <characteristics>
-                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
-                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
-                    <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+                    <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">重投 造伤骰 of 1 for 这个武器.</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Re-roll wound rolls of 1 for this weapon.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -480,7 +480,7 @@
             <entryLink id="0774-2652-5b1f-afa0" name="Hideous Mutations" hidden="false" collective="false" import="true" targetId="771e-fa94-e549-6beb" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="31.0"/>
+            <cost name="pts" typeId="points" value="35.0"/>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
@@ -491,17 +491,17 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="934d-16cb-fc35-6ec8" type="min"/>
           </constraints>
           <profiles>
-            <profile id="85d5-dccc-58cc-94d7" name="Nightmare Hulk" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+            <profile id="85d5-dccc-58cc-94d7" name="Nightmare Hulk" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
               <characteristics>
-                <characteristic name="M" typeId="0bdf-a96e-9e38-7779">5寸</characteristic>
+                <characteristic name="M" typeId="0bdf-a96e-9e38-7779">5&quot;</characteristic>
                 <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
                 <characteristic name="BS" typeId="381b-eb28-74c3-df5f">-</characteristic>
                 <characteristic name="S" typeId="2218-aa3c-265f-2939">5</characteristic>
                 <characteristic name="T" typeId="9c9f-9774-a358-3a39">5</characteristic>
                 <characteristic name="W" typeId="f330-5e6e-4110-0978">4</characteristic>
                 <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">3</characteristic>
-                <characteristic name="LD" typeId="00ca-f8b8-876d-b705">7</characteristic>
-                <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">6+</characteristic>
+                <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7</characteristic>
+                <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">6+</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -509,7 +509,7 @@
             <entryLink id="27c5-6b50-2c82-2ddb" name="Hideous Mutations" hidden="false" collective="false" import="true" targetId="771e-fa94-e549-6beb" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="31.0"/>
+            <cost name="pts" typeId="points" value="35.0"/>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
@@ -527,11 +527,11 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="69ed-3b65-1b0f-efe4" type="min"/>
       </constraints>
       <profiles>
-        <profile id="91d1-25a4-769e-3e42" name="Hideous Mutations" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+        <profile id="91d1-25a4-769e-3e42" name="Hideous Mutations" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
-            <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+            <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
             <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
@@ -551,7 +551,7 @@
       <profiles>
         <profile id="7766-fef9-c788-d667" name="Leaping Insectoids" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">可以重投失败的冲锋骰 for 这个单位. 此外, whenever 这个单位 piles in or consolidates, it 可以移动至多 6寸 而不是 3寸.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll failed charge rolls for this unit. In addition, whenever this unit piles in or consolidates, it can move up to 6&quot; instead of 3&quot;.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -560,9 +560,9 @@
         <infoLink id="4891-ca02-e31f-7a04" name="Mutoid Vermin" hidden="false" targetId="dad0-6c93-0eae-a6e4" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="333e-2ace-be82-dbb3" name="混沌" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
-        <categoryLink id="8829-ad31-ee5e-6512" name="阵营: 盖勒疹感染者" hidden="false" targetId="869b-3b9f-1b74-d4cf" primary="false"/>
-        <categoryLink id="bb2c-e916-fa8e-5c9c" name="纳垢" hidden="false" targetId="edbd-96e0-f3b7-87f2" primary="false"/>
+        <categoryLink id="333e-2ace-be82-dbb3" name="Chaos" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
+        <categoryLink id="8829-ad31-ee5e-6512" name="Faction: Gellerpox Infected" hidden="false" targetId="869b-3b9f-1b74-d4cf" primary="false"/>
+        <categoryLink id="bb2c-e916-fa8e-5c9c" name="Nurgle" hidden="false" targetId="edbd-96e0-f3b7-87f2" primary="false"/>
         <categoryLink id="6bb5-c1be-0d16-43f2" name="Beast" hidden="false" targetId="7892-58f7-e769-4d87" primary="false"/>
         <categoryLink id="4a10-c5e8-db37-0d76" name="Mutoid Vermin" hidden="false" targetId="46a8-6c77-7ce9-eb33" primary="false"/>
         <categoryLink id="0f30-c28e-7369-486f" name="Cursemites" hidden="false" targetId="4a93-829f-b292-e19e" primary="false"/>
@@ -574,17 +574,17 @@
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2039-b7b2-0ead-5ada" type="min"/>
           </constraints>
           <profiles>
-            <profile id="16b1-4fc5-fde4-2096" name="Cursemite" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+            <profile id="16b1-4fc5-fde4-2096" name="Cursemite" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
               <characteristics>
-                <characteristic name="M" typeId="0bdf-a96e-9e38-7779">8寸</characteristic>
+                <characteristic name="M" typeId="0bdf-a96e-9e38-7779">8&quot;</characteristic>
                 <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
                 <characteristic name="BS" typeId="381b-eb28-74c3-df5f">-</characteristic>
                 <characteristic name="S" typeId="2218-aa3c-265f-2939">2</characteristic>
                 <characteristic name="T" typeId="9c9f-9774-a358-3a39">2</characteristic>
                 <characteristic name="W" typeId="f330-5e6e-4110-0978">1</characteristic>
                 <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">2</characteristic>
-                <characteristic name="LD" typeId="00ca-f8b8-876d-b705">8</characteristic>
-                <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">6+</characteristic>
+                <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">8</characteristic>
+                <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">6+</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -595,14 +595,14 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d133-cd14-0b87-0b7f" type="min"/>
               </constraints>
               <profiles>
-                <profile id="36af-cb33-0d5d-d74c" name="Bloodsucking proboscis" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+                <profile id="36af-cb33-0d5d-d74c" name="Bloodsucking proboscis" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                   <characteristics>
-                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
-                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
-                    <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+                    <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each unmodified 命中骰的 6 made for an 攻击 使用这个武器 scores 2 命中.</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each unmodified hit roll of 6 made for an attack with this weapon scores 2 hits.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -614,7 +614,7 @@
             </selectionEntry>
           </selectionEntries>
           <costs>
-            <cost name="pts" typeId="points" value="3.0"/>
+            <cost name="pts" typeId="points" value="5.0"/>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
@@ -633,12 +633,12 @@
       <profiles>
         <profile id="c1c6-c246-7bcc-bab2" name="Buzzing Swarm" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">减少 1 from 命中骰 for 攻击 that target 这个单位.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Subtract 1 from hit rolls for attacks that target this unit.</characteristic>
           </characteristics>
         </profile>
         <profile id="f6a2-0737-6a84-cc84" name="Hatchlings" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 slain 模型 to 这个单位 开始时 of every turn.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 slain model to this unit at the start of every turn.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -647,11 +647,11 @@
         <infoLink id="69c5-8bc0-c717-a1fa" name="Mutoid Vermin" hidden="false" targetId="dad0-6c93-0eae-a6e4" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="d6a7-9323-7a18-38b5" name="混沌" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
-        <categoryLink id="14c3-5690-7c2e-55d4" name="阵营: 盖勒疹感染者" hidden="false" targetId="869b-3b9f-1b74-d4cf" primary="false"/>
-        <categoryLink id="dbd3-c39d-7bfa-386c" name="纳垢" hidden="false" targetId="edbd-96e0-f3b7-87f2" primary="false"/>
+        <categoryLink id="d6a7-9323-7a18-38b5" name="Chaos" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
+        <categoryLink id="14c3-5690-7c2e-55d4" name="Faction: Gellerpox Infected" hidden="false" targetId="869b-3b9f-1b74-d4cf" primary="false"/>
+        <categoryLink id="dbd3-c39d-7bfa-386c" name="Nurgle" hidden="false" targetId="edbd-96e0-f3b7-87f2" primary="false"/>
         <categoryLink id="0334-f766-2e83-3107" name="Swarm" hidden="false" targetId="7a53-eedc-8dbb-8505" primary="false"/>
-        <categoryLink id="7727-4b01-1304-5955" name="飞行" hidden="false" targetId="3117-16d8-fcef-4f56" primary="false"/>
+        <categoryLink id="7727-4b01-1304-5955" name="Fly" hidden="false" targetId="3117-16d8-fcef-4f56" primary="false"/>
         <categoryLink id="41e5-31fb-4be9-6cde" name="Mutoid Vermin" hidden="false" targetId="46a8-6c77-7ce9-eb33" primary="false"/>
         <categoryLink id="cc25-e0e5-8c50-602e" name="Eyestinger Swarms" hidden="false" targetId="d60b-bc07-12dc-2335" primary="false"/>
       </categoryLinks>
@@ -662,17 +662,17 @@
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a93-cbff-01da-7658" type="min"/>
           </constraints>
           <profiles>
-            <profile id="0999-30d2-2e2c-01ec" name="Eyestinger Swarm" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+            <profile id="0999-30d2-2e2c-01ec" name="Eyestinger Swarm" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
               <characteristics>
-                <characteristic name="M" typeId="0bdf-a96e-9e38-7779">10寸</characteristic>
+                <characteristic name="M" typeId="0bdf-a96e-9e38-7779">10&quot;</characteristic>
                 <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
                 <characteristic name="BS" typeId="381b-eb28-74c3-df5f">-</characteristic>
                 <characteristic name="S" typeId="2218-aa3c-265f-2939">2</characteristic>
                 <characteristic name="T" typeId="9c9f-9774-a358-3a39">2</characteristic>
                 <characteristic name="W" typeId="f330-5e6e-4110-0978">1</characteristic>
                 <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">D3</characteristic>
-                <characteristic name="LD" typeId="00ca-f8b8-876d-b705">8</characteristic>
-                <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">7+</characteristic>
+                <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">8</characteristic>
+                <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">7+</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -683,14 +683,14 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5bc-8f04-e41d-8df3" type="min"/>
               </constraints>
               <profiles>
-                <profile id="0699-3fb1-25c4-e90c" name="Spawning barb" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+                <profile id="0699-3fb1-25c4-e90c" name="Spawning barb" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                   <characteristics>
-                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
-                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
-                    <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+                    <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each unmodified 命中骰的 6 made for 这个武器 自动 results in a wound (do not make a wound roll for that attack).</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each unmodified hit roll of 6 made for this weapon automatically results in a wound (do not make a wound roll for that attack).</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -702,7 +702,7 @@
             </selectionEntry>
           </selectionEntries>
           <costs>
-            <cost name="pts" typeId="points" value="3.0"/>
+            <cost name="pts" typeId="points" value="5.0"/>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
@@ -721,7 +721,7 @@
       <profiles>
         <profile id="dbc1-082c-380e-e1f7" name="Caustic Blood" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">投掷1个D6 每次 a 这个单位中的模型 is slain 在肉搏阶段; 结果为6 the 单位 that killed the 模型 遭受 1点致命伤 after it has made 所有 its 攻击.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Roll a D6 each time a model in this unit is slain in the Fight phase; on a 6 the unit that killed the model suffers a mortal wound after it has made all its attacks.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -736,17 +736,17 @@
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="428f-b5a1-87b1-6be0" type="min"/>
           </constraints>
           <profiles>
-            <profile id="e772-5a1b-2e54-8ddb" name="Sludge-grub" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+            <profile id="e772-5a1b-2e54-8ddb" name="Sludge-grub" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
               <characteristics>
-                <characteristic name="M" typeId="0bdf-a96e-9e38-7779">5寸</characteristic>
+                <characteristic name="M" typeId="0bdf-a96e-9e38-7779">5&quot;</characteristic>
                 <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
                 <characteristic name="BS" typeId="381b-eb28-74c3-df5f">4+</characteristic>
                 <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
                 <characteristic name="T" typeId="9c9f-9774-a358-3a39">2</characteristic>
                 <characteristic name="W" typeId="f330-5e6e-4110-0978">1</characteristic>
                 <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">1</characteristic>
-                <characteristic name="LD" typeId="00ca-f8b8-876d-b705">8</characteristic>
-                <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">6+</characteristic>
+                <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">8</characteristic>
+                <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">6+</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -757,11 +757,11 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b848-3c9d-2054-482e" type="min"/>
               </constraints>
               <profiles>
-                <profile id="73dc-30ad-63a2-20b1" name="Acid Spit" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+                <profile id="73dc-30ad-63a2-20b1" name="Acid Spit" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                   <characteristics>
-                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">8寸</characteristic>
-                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手枪 1</characteristic>
-                    <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">8&quot;</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
+                    <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
                     <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
@@ -780,11 +780,11 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd98-f718-c2e1-420c" type="min"/>
               </constraints>
               <profiles>
-                <profile id="9a31-090e-dc6b-b28f" name="Fanged maw and stinger" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
+                <profile id="9a31-090e-dc6b-b28f" name="Fanged maw and stinger" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                   <characteristics>
-                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">肉搏</characteristic>
-                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">肉搏</characteristic>
-                    <characteristic name="S" typeId="59b1-319e-ec13-d466">使用者</characteristic>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+                    <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
                     <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
@@ -799,7 +799,7 @@
             </selectionEntry>
           </selectionEntries>
           <costs>
-            <cost name="pts" typeId="points" value="4.0"/>
+            <cost name="pts" typeId="points" value="5.0"/>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
@@ -813,7 +813,7 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="d440-98c0-f672-a810" name="主将特性" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="d440-98c0-f672-a810" name="Warlord Traits" hidden="false" collective="false" import="true">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -832,7 +832,7 @@
           <profiles>
             <profile id="4211-62c4-cd38-1620" name="Twisted Brilliance" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">you receive 3 额外的 指挥点数. These can only be spent to use 盖勒疹感染者 Stratagems.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is battle-forged, you receive 3 additional Command Points. These can only be spent to use Gellerpox Infected Stratagems.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -844,8 +844,8 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="5d2d-b3e7-287e-c92e" name="主将特性 (总规则)" hidden="false" collective="false" import="true" targetId="d442-1f03-d9da-e77f" type="selectionEntryGroup"/>
-        <entryLink id="5333-6846-20fb-aa5a" name="主将特性 (CA)" hidden="false" collective="false" import="true" targetId="f673-3d9b-bb1b-377f" type="selectionEntryGroup"/>
+        <entryLink id="5d2d-b3e7-287e-c92e" name="Warlord Traits (BRB)" hidden="false" collective="false" import="true" targetId="d442-1f03-d9da-e77f" type="selectionEntryGroup"/>
+        <entryLink id="5333-6846-20fb-aa5a" name="Warlord Traits (CA)" hidden="false" collective="false" import="true" targetId="f673-3d9b-bb1b-377f" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
@@ -858,18 +858,18 @@
           </conditions>
         </modifier>
       </modifiers>
-      <description>This ability has no 效果 unless your army includes VULGRAR THRICE-CURSED. If it does, you cannot 放置 任何单位 具有这个能力的 before you have 放置 VULGRAR THRICE-CURSED. When you 放置 VULGRAR THRICE-CURSED 部署期间, 所有 单位 具有这个能力的 are 放置 at the same time. When you 放置 VULGRAR THRICE-CURSED 战场上 for the 第1次, 所有 单位 具有这个能力的 必须 放置 6寸范围内 of him. If they 不能 放置, they 视作 被消灭.</description>
+      <description>This ability has no effect unless your army includes VULGRAR THRICE-CURSED. If it does, you cannot set up any units with this ability before you have set up VULGRAR THRICE-CURSED. When you set up VULGRAR THRICE-CURSED during deployment, all units with this ability are set up at the same time. When you set up VULGRAR THRICE-CURSED on the battlefield for the first time, all units with this ability must be set up within 6&quot; of him. If they cannot be set up, they count as destroyed.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="f510-c281-a5f7-c8aa" name="可憎坚韧" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="f510-c281-a5f7-c8aa" name="Disgustingly Resilient" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">投掷1个D6 每次 模型 具有这个能力的 失去1点W; 结果为5+ that 模型 does not lose that wound.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Roll a D6 each time a model with this ability loses a wound; on a 5+ that model does not lose that wound.</characteristic>
       </characteristics>
     </profile>
     <profile id="cfd8-92a0-d5c1-2820" name="Horrific Visage" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">减少 1 from the LD值 of 单位 whilst they are 6寸范围内 of 任何敌方模型 具有这个能力的.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Subtract 1 from the Leadership characteristic of units whilst they are within 6&quot; of any enemy models with this ability.</characteristic>
       </characteristics>
     </profile>
     <profile id="dad0-6c93-0eae-a6e4" name="Mutoid Vermin" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -881,7 +881,7 @@
         </modifier>
       </modifiers>
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">这个单位 does not take up a slot in a Detachment that includes Vulgrar Thrice-Cursed.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This unit does not take up a slot in a Detachment that includes Vulgrar Thrice-Cursed.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
