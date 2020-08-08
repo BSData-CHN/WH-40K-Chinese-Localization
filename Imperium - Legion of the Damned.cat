@@ -1,58 +1,55 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d360-802a-45b3-4f4a" name="帝国 - 咒缚军团" revision="9" battleScribeVersion="2.03" authorName="BSData-CHN" authorContact="@BSData-CHN" authorUrl="https://github.com/BSData-CHN" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <publications>
-    <publication id="d360-802a-pubN65537" name="索引: 帝国 1"/>
-  </publications>
+<catalogue id="d360-802a-45b3-4f4a" name="Imperium - Legion of the Damned" revision="9" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@WindstormSCR" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
-    <categoryEntry id="b89d-e4d9-31f2-ae6e" name="阵营: 帝国" hidden="false"/>
-    <categoryEntry id="327c-c1c2-b934-558d" name="阵营: 阿斯塔特修会" hidden="false"/>
-    <categoryEntry id="dff8-4bb7-32e9-aadb" name="阵营: 咒缚军团" hidden="false"/>
-    <categoryEntry id="edfe-4b9a-8015-9ce7" name="咒缚军团战士" hidden="false"/>
+    <categoryEntry id="b89d-e4d9-31f2-ae6e" name="Faction: Imperium" hidden="false"/>
+    <categoryEntry id="327c-c1c2-b934-558d" name="Faction: Adeptus Astartes" hidden="false"/>
+    <categoryEntry id="dff8-4bb7-32e9-aadb" name="Faction: Legion of the Damned" hidden="false"/>
+    <categoryEntry id="edfe-4b9a-8015-9ce7" name="Damned Legionnaires" hidden="false"/>
   </categoryEntries>
   <forceEntries>
-    <forceEntry id="0383-bad5-390e-4cca" name="先锋分队" hidden="false">
+    <forceEntry id="0383-bad5-390e-4cca" name="Vanguard Detachment" hidden="false">
       <forceEntries>
-        <forceEntry id="ff3a-fba8-4f66-fe7e" name="先锋分队" hidden="false">
+        <forceEntry id="ff3a-fba8-4f66-fe7e" name="Vanguard Detachment" hidden="false">
           <categoryLinks>
-            <categoryLink id="252f-c1ff-8221-7ded" name="游戏选项" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
-            <categoryLink id="1771-dd1b-11e6-43d0" name="基础槽位" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false"/>
-            <categoryLink id="7fd7-8b99-ac88-8069" name="精英槽位" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false"/>
-            <categoryLink id="42fe-6cd3-da91-11fb" name="快速槽位" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false"/>
-            <categoryLink id="54c6-9e68-2d64-6bb4" name="重型槽位" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false"/>
-            <categoryLink id="bf72-ed07-1fd4-c59c" name="飞行器槽位" hidden="false" targetId="e888-1504-aa61-95ff" primary="false"/>
-            <categoryLink id="035f-4885-38b3-62ad" name="专用运输载具" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false"/>
+            <categoryLink id="252f-c1ff-8221-7ded" name="No Force Org Slot" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
+            <categoryLink id="1771-dd1b-11e6-43d0" name="Troops" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false"/>
+            <categoryLink id="7fd7-8b99-ac88-8069" name="Elites" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false"/>
+            <categoryLink id="42fe-6cd3-da91-11fb" name="Fast Attack" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false"/>
+            <categoryLink id="54c6-9e68-2d64-6bb4" name="Heavy Support" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false"/>
+            <categoryLink id="bf72-ed07-1fd4-c59c" name="Flyer" hidden="false" targetId="e888-1504-aa61-95ff" primary="false"/>
+            <categoryLink id="035f-4885-38b3-62ad" name="Dedicated Transport" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false"/>
           </categoryLinks>
         </forceEntry>
       </forceEntries>
       <categoryLinks>
-        <categoryLink id="aa44-0720-c786-3f16" name="游戏选项" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
-        <categoryLink id="ef92-397a-e8ae-4247" name="基础槽位" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false">
+        <categoryLink id="aa44-0720-c786-3f16" name="No Force Org Slot" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
+        <categoryLink id="ef92-397a-e8ae-4247" name="Troops" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="74a9-d419-0750-7fe7" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="b806-0210-5b0a-e3e3" name="精英槽位" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false">
+        <categoryLink id="b806-0210-5b0a-e3e3" name="Elites" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1260-95a2-f111-3b36" type="min"/>
             <constraint field="selections" scope="force" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a39f-f0cc-48bc-cc14" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="54b7-18c3-0ff9-1788" name="快速槽位" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false">
+        <categoryLink id="54b7-18c3-0ff9-1788" name="Fast Attack" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5ad3-41d0-06b0-382f" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="175e-846f-5fee-c0af" name="重型槽位" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false">
+        <categoryLink id="175e-846f-5fee-c0af" name="Heavy Support" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1c40-3b26-8398-b7a5" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="5c63-ed0c-b241-53e8" name="飞行器槽位" hidden="false" targetId="e888-1504-aa61-95ff" primary="false">
+        <categoryLink id="5c63-ed0c-b241-53e8" name="Flyer" hidden="false" targetId="e888-1504-aa61-95ff" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1f52-4460-79c7-a575" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="78fe-c642-53cd-02c4" name="专用运输载具" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false">
+        <categoryLink id="78fe-c642-53cd-02c4" name="Dedicated Transport" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false">
           <modifiers>
             <modifier type="increment" field="ad3b-39d0-127d-22d7" value="1">
               <repeats>
@@ -69,17 +66,17 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ad3b-39d0-127d-22d7" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="bf38-950d-c2fe-675e" name="主将" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
-        <categoryLink id="40ac-0dab-737b-4ac1" name="圣物精英槽位" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false"/>
-        <categoryLink id="6076-877b-5363-d98e" name="圣物重型槽位" hidden="false" targetId="6c4c-a416-b8cb-c380" primary="false"/>
+        <categoryLink id="bf38-950d-c2fe-675e" name="Warlord" hidden="true" targetId="ae09-117e-a6fa-316b" primary="false"/>
+        <categoryLink id="40ac-0dab-737b-4ac1" name="Relic Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false"/>
+        <categoryLink id="6076-877b-5363-d98e" name="Relic Heavy Support" hidden="false" targetId="6c4c-a416-b8cb-c380" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
   <entryLinks>
-    <entryLink id="7073-b346-c594-b404" name="咒缚军团战士" hidden="false" collective="false" import="true" targetId="61a6-2734-a069-1ba7" type="selectionEntry"/>
+    <entryLink id="7073-b346-c594-b404" name="Damned Legionnaires" hidden="false" collective="false" import="true" targetId="61a6-2734-a069-1ba7" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="61a6-2734-a069-1ba7" name="咒缚军团战士" publicationId="d360-802a-pubN65537" page="87" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="61a6-2734-a069-1ba7" name="Damned Legionnaires" publicationId="28ec-711c-pubN78977" page="87" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="increment" field="e356-c769-5920-6e14" value="7">
           <conditions>
@@ -88,10 +85,10 @@
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="7f49-034c-ef08-45b0" name="关键字" hidden="false" typeId="b900-0afb-e411-2cbb" typeName="关键字">
+        <profile id="7f49-034c-ef08-45b0" name="Keywords" hidden="false" typeId="b900-0afb-e411-2cbb" typeName="Keywords">
           <characteristics>
-            <characteristic name="阵营关键字" typeId="6b92-2d97-5144-62bc">帝国, 阿斯塔特修会, 咒缚军团</characteristic>
-            <characteristic name="基础关键字" typeId="ce6c-4765-4bb8-bd49">步兵, 咒缚军团战士</characteristic>
+            <characteristic name="Keywords (Faction)" typeId="6b92-2d97-5144-62bc">IMPERIUM, ADEPTUS ASTARTES, LEGION OF THE DAMNED</characteristic>
+            <characteristic name="Keywords (Basic)" typeId="ce6c-4765-4bb8-bd49">INFANTRY, DAMNED LEGIONNAIRES</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -111,20 +108,20 @@
         <categoryLink id="ff97-b3a6-810a-e85a" name="New CategoryLink" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="0d07-848f-59e8-3bb0" name="军团战士士官" hidden="false" collective="false" import="true" targetId="2cd3-941a-c64e-e3a3" type="selectionEntry">
+        <entryLink id="0d07-848f-59e8-3bb0" name="Legionnaire Sergeant" hidden="false" collective="false" import="true" targetId="2cd3-941a-c64e-e3a3" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="047d-dca9-0997-c7e8" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78b0-1b49-9f15-f934" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="c6a5-bd8f-68b2-664e" name="军团战士" hidden="false" collective="false" import="true" targetId="4195-07c6-905f-ee50" type="selectionEntryGroup">
+        <entryLink id="c6a5-bd8f-68b2-664e" name="Legionnaires" hidden="false" collective="false" import="true" targetId="4195-07c6-905f-ee50" type="selectionEntryGroup">
           <constraints>
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c91f-4c70-aea9-240a" type="min"/>
             <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05a5-12c2-38c3-5212" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="fb38-f7e6-3dde-3e59" name="单位有战斗荣誉?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="4fb6-c74c-e523-4238" name="战斗荣誉" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="fb38-f7e6-3dde-3e59" name="Unit has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="4fb6-c74c-e523-4238" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="8.0"/>
@@ -132,7 +129,7 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2cd3-941a-c64e-e3a3" name="军团战士士官" publicationId="d360-802a-pubN65537" page="87" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="2cd3-941a-c64e-e3a3" name="Legionnaire Sergeant" publicationId="28ec-711c-pubN78977" page="87" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
         <infoLink id="2ca5-f937-7385-9011" name="New InfoLink" hidden="false" targetId="ef86-5ef1-15c5-57ba" type="profile"/>
       </infoLinks>
@@ -168,7 +165,7 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="eea5-36e2-efda-360b" name="军团战士" publicationId="d360-802a-pubN65537" page="87" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="eea5-36e2-efda-360b" name="Legionnaire" publicationId="28ec-711c-pubN78977" page="87" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
         <infoLink id="d76d-573b-3b60-0d48" name="New InfoLink" hidden="false" targetId="3939-38a3-8a0a-989a" type="profile"/>
       </infoLinks>
@@ -204,7 +201,7 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3002-49f3-ad47-3be0" name="军团战士 (重武器)" publicationId="d360-802a-pubN65537" page="87" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="3002-49f3-ad47-3be0" name="Legionnaire (Heavy Weapon)" publicationId="28ec-711c-pubN78977" page="87" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
         <infoLink id="b59f-218f-3e63-ca0c" name="New InfoLink" hidden="false" targetId="3939-38a3-8a0a-989a" type="profile"/>
       </infoLinks>
@@ -240,7 +237,7 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3ad3-8529-7374-4e5c" name="军团战士 (特殊武器)" publicationId="d360-802a-pubN65537" page="87" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="3ad3-8529-7374-4e5c" name="Legionnaire (Special Weapon)" publicationId="28ec-711c-pubN78977" page="87" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
         <infoLink id="6401-93ee-1685-a163" name="New InfoLink" hidden="false" targetId="3939-38a3-8a0a-989a" type="profile"/>
       </infoLinks>
@@ -276,9 +273,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="16b1-9802-3c67-efd3" name="爆弹手枪" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="16b1-9802-3c67-efd3" name="Bolt pistol" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="0dc0-fdaf-6579-119f" name="爆弹手枪" hidden="false" targetId="e6d5-677a-d8ed-f6a5" type="profile"/>
+        <infoLink id="0dc0-fdaf-6579-119f" name="Bolt pistol" hidden="false" targetId="e6d5-677a-d8ed-f6a5" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -286,9 +283,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d44b-f4ba-055d-ade3" name="爆弹枪" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="d44b-f4ba-055d-ade3" name="Boltgun" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="80c1-d7c3-a474-1b4f" name="爆弹枪" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
+        <infoLink id="80c1-d7c3-a474-1b4f" name="Boltgun" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -296,9 +293,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7b2a-4199-1ea6-4a53" name="破片手雷" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="7b2a-4199-1ea6-4a53" name="Frag grenade" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="3fbd-8cdc-82d9-e424" name="破片手雷" hidden="false" targetId="fdd8-1a5f-5722-d6ee" type="profile"/>
+        <infoLink id="3fbd-8cdc-82d9-e424" name="Frag grenade" hidden="false" targetId="fdd8-1a5f-5722-d6ee" type="profile"/>
       </infoLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -306,9 +303,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fbd0-0163-5a03-830a" name="穿甲手雷" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="fbd0-0163-5a03-830a" name="Krak grenade" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="a562-c7f4-405e-4a1c" name="穿甲手雷" hidden="false" targetId="3bf6-b4f7-6b2f-bb7b" type="profile"/>
+        <infoLink id="a562-c7f4-405e-4a1c" name="Krak grenade" hidden="false" targetId="3bf6-b4f7-6b2f-bb7b" type="profile"/>
       </infoLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -316,9 +313,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="dab3-d39d-3e87-5782" name="重喷火" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="dab3-d39d-3e87-5782" name="Heavy flamer" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="889a-2232-ee31-3ef0" name="重喷火" hidden="false" targetId="2608-8425-4f4f-7f41" type="profile"/>
+        <infoLink id="889a-2232-ee31-3ef0" name="Heavy flamer" hidden="false" targetId="2608-8425-4f4f-7f41" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="17.0"/>
@@ -326,9 +323,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a9fa-e41c-9723-cd1a" name="多管热熔" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="a9fa-e41c-9723-cd1a" name="Multi-melta" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="ab0f-fc1c-c15c-a034" name="多管热熔" hidden="false" targetId="1768-d7b9-37ba-f3bf" type="profile"/>
+        <infoLink id="ab0f-fc1c-c15c-a034" name="Multi-melta" hidden="false" targetId="1768-d7b9-37ba-f3bf" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="27.0"/>
@@ -336,9 +333,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3e7f-a350-691a-afc0" name="风暴爆弹" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="3e7f-a350-691a-afc0" name="Storm bolter" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="0a79-f1b6-04d2-2eed" name="风暴爆弹" hidden="false" targetId="505e-a5aa-edab-6d5b" type="profile"/>
+        <infoLink id="0a79-f1b6-04d2-2eed" name="Storm bolter" hidden="false" targetId="505e-a5aa-edab-6d5b" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="2.0"/>
@@ -346,10 +343,10 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2fd5-48d6-dcf3-7b0f" name="等离子手枪" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="2fd5-48d6-dcf3-7b0f" name="Plasma pistol" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="9eb8-aaac-0cd7-2b76" name="等离子手枪" hidden="false" targetId="ff12-161a-ca85-339f" type="profile"/>
-        <infoLink id="a950-7b3d-a4c0-3354" name="等离子手枪" hidden="false" targetId="5779-2931-fe17-2b27" type="profile"/>
+        <infoLink id="9eb8-aaac-0cd7-2b76" name="Plasma pistol" hidden="false" targetId="ff12-161a-ca85-339f" type="profile"/>
+        <infoLink id="a950-7b3d-a4c0-3354" name="Plasma pistol" hidden="false" targetId="5779-2931-fe17-2b27" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="7.0"/>
@@ -357,9 +354,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a8c8-f511-51ca-29b0" name="链锯剑" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="a8c8-f511-51ca-29b0" name="Chainsword" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="9060-390e-32c4-b920" name="链锯剑" hidden="false" targetId="9b1e-61f9-4a5b-0044" type="profile"/>
+        <infoLink id="9060-390e-32c4-b920" name="Chainsword" hidden="false" targetId="9b1e-61f9-4a5b-0044" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -367,9 +364,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="58f4-ae66-e45d-68cd" name="动力斧" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="58f4-ae66-e45d-68cd" name="Power axe" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="8aab-c872-a3cc-0d50" name="动力斧" hidden="false" targetId="4635-64e7-2344-ea7c" type="profile"/>
+        <infoLink id="8aab-c872-a3cc-0d50" name="Power axe" hidden="false" targetId="4635-64e7-2344-ea7c" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="5.0"/>
@@ -377,9 +374,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3cef-fbea-c1db-5943" name="动力拳套" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="3cef-fbea-c1db-5943" name="Power fist" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="7cbb-0413-98db-0eba" name="动力拳套" hidden="false" targetId="3520-0bb4-90f2-084b" type="profile"/>
+        <infoLink id="7cbb-0413-98db-0eba" name="Power fist" hidden="false" targetId="3520-0bb4-90f2-084b" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="12.0"/>
@@ -387,9 +384,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="98b8-b860-2afe-02ad" name="动力锤" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="98b8-b860-2afe-02ad" name="Power maul" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="b037-d513-5be0-75e7" name="动力锤" hidden="false" targetId="ca27-e5ee-f6eb-652d" type="profile"/>
+        <infoLink id="b037-d513-5be0-75e7" name="Power maul" hidden="false" targetId="ca27-e5ee-f6eb-652d" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="4.0"/>
@@ -397,9 +394,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="875a-cad7-0476-aaa1" name="动力剑" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="875a-cad7-0476-aaa1" name="Power sword" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="eef2-0b26-939e-3678" name="动力剑" hidden="false" targetId="47df-8e01-d0cf-58e8" type="profile"/>
+        <infoLink id="eef2-0b26-939e-3678" name="Power sword" hidden="false" targetId="47df-8e01-d0cf-58e8" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="4.0"/>
@@ -407,9 +404,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="82fe-4f1d-7428-74ce" name="喷火器" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="82fe-4f1d-7428-74ce" name="Flamer" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="8640-0d43-7b16-f93c" name="喷火器" hidden="false" targetId="cdc3-3459-a28c-a9cf" type="profile"/>
+        <infoLink id="8640-0d43-7b16-f93c" name="Flamer" hidden="false" targetId="cdc3-3459-a28c-a9cf" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="9.0"/>
@@ -417,9 +414,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bde8-15e2-62ba-b3e4" name="热熔枪" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="bde8-15e2-62ba-b3e4" name="Meltagun" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="5470-0e66-08f5-1501" name="热熔枪" hidden="false" targetId="ec4c-1132-ddaf-db8e" type="profile"/>
+        <infoLink id="5470-0e66-08f5-1501" name="Meltagun" hidden="false" targetId="ec4c-1132-ddaf-db8e" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="17.0"/>
@@ -427,10 +424,10 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="883f-07be-4508-4a13" name="等离子枪" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="883f-07be-4508-4a13" name="Plasma gun" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="b852-8b5d-b3ed-47a0" name="等离子枪" hidden="false" targetId="03e5-60f2-4726-5cdd" type="profile"/>
-        <infoLink id="d8c4-639d-957a-c72c" name="等离子枪" hidden="false" targetId="acb5-7b58-0d17-a33a" type="profile"/>
+        <infoLink id="b852-8b5d-b3ed-47a0" name="Plasma gun" hidden="false" targetId="03e5-60f2-4726-5cdd" type="profile"/>
+        <infoLink id="d8c4-639d-957a-c72c" name="Plasma gun" hidden="false" targetId="acb5-7b58-0d17-a33a" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="13.0"/>
@@ -440,7 +437,7 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="9066-1ff9-0809-ddfc" name="军团战士士官武器" publicationId="d360-802a-pubN65537" page="87" hidden="false" collective="false" import="true" defaultSelectionEntryId="1ee2-667a-aeff-c767">
+    <selectionEntryGroup id="9066-1ff9-0809-ddfc" name="Legionnaire Sergeant Weapons" publicationId="28ec-711c-pubN78977" page="87" hidden="false" collective="false" import="true" defaultSelectionEntryId="1ee2-667a-aeff-c767">
       <entryLinks>
         <entryLink id="1ee2-667a-aeff-c767" name="New EntryLink" hidden="false" collective="false" import="true" targetId="d44b-f4ba-055d-ade3" type="selectionEntry"/>
         <entryLink id="9e16-3fb2-a068-7712" name="New EntryLink" hidden="false" collective="false" import="true" targetId="a8c8-f511-51ca-29b0" type="selectionEntry"/>
@@ -450,27 +447,27 @@
         <entryLink id="7c3f-3b07-a3b3-734b" name="New EntryLink" hidden="false" collective="false" import="true" targetId="58f4-ae66-e45d-68cd" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="91f8-fe4a-251c-5506" name="军团战士士官手枪" publicationId="d360-802a-pubN65537" page="87" hidden="false" collective="false" import="true" defaultSelectionEntryId="e7bd-ecb6-65c3-5ff8">
+    <selectionEntryGroup id="91f8-fe4a-251c-5506" name="Legionnaire Sergeant Pistols" publicationId="28ec-711c-pubN78977" page="87" hidden="false" collective="false" import="true" defaultSelectionEntryId="e7bd-ecb6-65c3-5ff8">
       <entryLinks>
         <entryLink id="e7bd-ecb6-65c3-5ff8" name="New EntryLink" hidden="false" collective="false" import="true" targetId="16b1-9802-3c67-efd3" type="selectionEntry"/>
         <entryLink id="d02a-317c-3572-aaf7" name="New EntryLink" hidden="false" collective="false" import="true" targetId="2fd5-48d6-dcf3-7b0f" type="selectionEntry"/>
         <entryLink id="f0e4-c764-e1d5-3273" name="New EntryLink" hidden="false" collective="false" import="true" targetId="3e7f-a350-691a-afc0" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="8d18-b26a-3595-1528" name="军团战士特殊武器" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="8d18-b26a-3595-1528" name="Legionnaire Special Weapons" hidden="false" collective="false" import="true">
       <entryLinks>
         <entryLink id="fd5a-7433-8c2c-fa2d" name="New EntryLink" hidden="false" collective="false" import="true" targetId="82fe-4f1d-7428-74ce" type="selectionEntry"/>
         <entryLink id="c97a-3bb2-b638-e20a" name="New EntryLink" hidden="false" collective="false" import="true" targetId="bde8-15e2-62ba-b3e4" type="selectionEntry"/>
         <entryLink id="324a-2582-840d-ad82" name="New EntryLink" hidden="false" collective="false" import="true" targetId="883f-07be-4508-4a13" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="d713-06da-7ff5-4f18" name="军团战士重型武器" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="d713-06da-7ff5-4f18" name="Legionnaire Heavy Weapons" hidden="false" collective="false" import="true">
       <entryLinks>
         <entryLink id="fabf-4f5c-c00b-c69d" name="New EntryLink" hidden="false" collective="false" import="true" targetId="dab3-d39d-3e87-5782" type="selectionEntry"/>
         <entryLink id="dd20-49ba-d751-6974" name="New EntryLink" hidden="false" collective="false" import="true" targetId="a9fa-e41c-9723-cd1a" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="4195-07c6-905f-ee50" name="军团战士" hidden="false" collective="false" import="true" defaultSelectionEntryId="4a9d-93a4-badd-de80">
+    <selectionEntryGroup id="4195-07c6-905f-ee50" name="Legionnaires" hidden="false" collective="false" import="true" defaultSelectionEntryId="4a9d-93a4-badd-de80">
       <entryLinks>
         <entryLink id="4a9d-93a4-badd-de80" name="New EntryLink" hidden="false" collective="false" import="true" targetId="eea5-36e2-efda-360b" type="selectionEntry"/>
         <entryLink id="284a-f3be-2c4b-1253" name="New EntryLink" hidden="false" collective="false" import="true" targetId="3002-49f3-ad47-3be0" type="selectionEntry">
@@ -488,49 +485,49 @@
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="e263-44eb-c516-b7a7" name="Saviours From Beyond" page="" hidden="false">
-      <description>So long as your 主将 is from the 帝国, you can include 这个单位 in a 先锋分队 even if that Detachment contains no HQ 单位. 然而, if you do so, that Detachment&apos;s Command Benefits are changed to &apos;None&apos;.</description>
+      <description>So long as your Warlord is from the IMPERIUM, you can include this unit in a Vanguard Detachment even if that Detachment contains no HQ units. However, if you do so, that Detachment&apos;s Command Benefits are changed to &apos;None&apos;.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="3939-38a3-8a0a-989a" name="军团战士" publicationId="d360-802a-pubN65537" page="87" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+    <profile id="3939-38a3-8a0a-989a" name="Legionnaire" publicationId="28ec-711c-pubN78977" page="87" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
       <characteristics>
-        <characteristic name="M" typeId="0bdf-a96e-9e38-7779">5寸</characteristic>
+        <characteristic name="M" typeId="0bdf-a96e-9e38-7779">5&quot;</characteristic>
         <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
         <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
         <characteristic name="S" typeId="2218-aa3c-265f-2939">4</characteristic>
         <characteristic name="T" typeId="9c9f-9774-a358-3a39">4</characteristic>
         <characteristic name="W" typeId="f330-5e6e-4110-0978">1</characteristic>
         <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">2</characteristic>
-        <characteristic name="LD" typeId="00ca-f8b8-876d-b705">10</characteristic>
-        <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
+        <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">10</characteristic>
+        <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
       </characteristics>
     </profile>
-    <profile id="ef86-5ef1-15c5-57ba" name="军团战士士官" publicationId="d360-802a-pubN65537" page="87" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
+    <profile id="ef86-5ef1-15c5-57ba" name="Legionnaire Sergeant" publicationId="28ec-711c-pubN78977" page="87" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
       <characteristics>
-        <characteristic name="M" typeId="0bdf-a96e-9e38-7779">5寸</characteristic>
+        <characteristic name="M" typeId="0bdf-a96e-9e38-7779">5&quot;</characteristic>
         <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
         <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
         <characteristic name="S" typeId="2218-aa3c-265f-2939">4</characteristic>
         <characteristic name="T" typeId="9c9f-9774-a358-3a39">4</characteristic>
         <characteristic name="W" typeId="f330-5e6e-4110-0978">1</characteristic>
         <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">3</characteristic>
-        <characteristic name="LD" typeId="00ca-f8b8-876d-b705">10</characteristic>
-        <characteristic name="SV" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
+        <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">10</characteristic>
+        <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
       </characteristics>
     </profile>
     <profile id="f44e-95f0-b9c7-4507" name="Aid Unlooked For" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">部署期间, 可以放置 这个单位 in the aether 而不是 placing it 战场上. At the end of any of your 移动阶段 这个单位 can materialise - 放置在战场上的任何位置 that is more than 9寸 away from 任何敌方模型.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up this unit in the aether instead of placing it on the battlefield. At the end of any of your Movement phases this unit can materialise - set it up anywhere on the battlefield that is more than 9&quot; away from any enemy models.</characteristic>
       </characteristics>
     </profile>
     <profile id="c7a8-dfd7-436b-593b" name="Flaming Projectiles" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">敌方单位 do not gain any bonus to their saving throws for being in cover when targeted by 射击攻击 made by 这个单位.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Enemy units do not gain any bonus to their saving throws for being in cover when targeted by shooting attacks made by this unit.</characteristic>
       </characteristics>
     </profile>
     <profile id="811a-f29b-b3f2-81d0" name="Unyielding Spectres" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">所有 这个单位中的模型 have a 3+ 特殊保护.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">All models in this unit have a 3+ invulnerable save.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
