@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="cb54-c035-5759-7697" name="Chaos - Chaos Space Marines" revision="142" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="146" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="cb54-c035-5759-7697" name="Chaos - Chaos Space Marines" revision="147" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="153" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="cb54-c035-pubN125652" name="Codex: Heretic Astartes - Chaos Space Marines"/>
     <publication id="cb54-c035-pubN153092" name="Imperium Nihilus: Vigilus Ablaze"/>
@@ -1524,18 +1524,18 @@ If your summoning roll included any doubles, your character then suffers a morta
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="220.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="12.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="11.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b9a9-557f-f8fb-4377" name="Chaos Cultists" publicationId="cb54-c035-pubN125652" page="132" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="decrement" field="e356-c769-5920-6e14" value="3">
+        <modifier type="decrement" field="e356-c769-5920-6e14" value="3.0">
           <conditions>
             <condition field="selections" scope="b9a9-557f-f8fb-4377" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
           </conditions>
         </modifier>
-        <modifier type="increment" field="e356-c769-5920-6e14" value="3">
+        <modifier type="increment" field="e356-c769-5920-6e14" value="3.0">
           <repeats>
             <repeat field="selections" scope="b9a9-557f-f8fb-4377" value="10.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="true"/>
           </repeats>
@@ -1840,7 +1840,7 @@ If your summoning roll included any doubles, your character then suffers a morta
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="175.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="16.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="15.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1940,7 +1940,7 @@ If your summoning roll included any doubles, your character then suffers a morta
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="80.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="5.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="6.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -2088,7 +2088,7 @@ If your summoning roll included any doubles, your character then suffers a morta
     </selectionEntry>
     <selectionEntry id="8a3b-80c7-0cf3-e044" name="Terminators" publicationId="cb54-c035-pubN125652" page="137" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="increment" field="e356-c769-5920-6e14" value="10">
+        <modifier type="increment" field="e356-c769-5920-6e14" value="8.0">
           <conditions>
             <condition field="selections" scope="8a3b-80c7-0cf3-e044" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
           </conditions>
@@ -2321,7 +2321,7 @@ If your summoning roll included any doubles, your character then suffers a morta
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="10.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="8.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -2391,18 +2391,9 @@ If your summoning roll included any doubles, your character then suffers a morta
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5c1-223e-ebfa-b59a" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dce7-e93c-17d3-b628" type="min"/>
           </constraints>
-          <profiles>
-            <profile id="c6ca-1c29-fa99-6caa" name="Demolisher cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
-                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy D6</characteristic>
-                <characteristic name="S" typeId="59b1-319e-ec13-d466">10</characteristic>
-                <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
-                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="f8c3-d722-80f8-8d22" name="Demolisher cannon" hidden="false" targetId="d2d1-43d6-8c52-7a6a" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -2488,7 +2479,7 @@ If your summoning roll included any doubles, your character then suffers a morta
           </categoryLinks>
           <costs>
             <cost name="pts" typeId="points" value="35.0"/>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="1.0"/>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="2.0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -2750,7 +2741,7 @@ If your summoning roll included any doubles, your character then suffers a morta
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="80.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="5.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="4.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -3261,7 +3252,7 @@ If your summoning roll included any doubles, your character then suffers a morta
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="85.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="8.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="7.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -3385,7 +3376,7 @@ If your summoning roll included any doubles, your character then suffers a morta
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="130.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="9.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="8.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -3710,18 +3701,18 @@ If your summoning roll included any doubles, your character then suffers a morta
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="115.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="8.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="6.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d990-6016-2e27-d72f" name="Khorne Berzerkers" publicationId="cb54-c035-pubN125652" page="140" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="increment" field="e356-c769-5920-6e14" value="4">
+        <modifier type="increment" field="e356-c769-5920-6e14" value="5.0">
           <repeats>
             <repeat field="selections" scope="d990-6016-2e27-d72f" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="true"/>
           </repeats>
         </modifier>
-        <modifier type="decrement" field="e356-c769-5920-6e14" value="4.0">
+        <modifier type="decrement" field="e356-c769-5920-6e14" value="5.0">
           <conditions>
             <condition field="selections" scope="d990-6016-2e27-d72f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
           </conditions>
@@ -4197,7 +4188,7 @@ If your summoning roll included any doubles, your character then suffers a morta
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="350.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="30.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="23.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -4578,7 +4569,7 @@ If your summoning roll included any doubles, your character then suffers a morta
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="6.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="5.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -4677,7 +4668,7 @@ If your summoning roll included any doubles, your character then suffers a morta
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="105.0"/>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="6.0"/>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="5.0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -4700,17 +4691,17 @@ If your summoning roll included any doubles, your character then suffers a morta
             <condition field="selections" scope="bfbb-5f37-6875-a0ef" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="atLeast"/>
           </conditions>
         </modifier>
-        <modifier type="increment" field="e356-c769-5920-6e14" value="3">
+        <modifier type="increment" field="e356-c769-5920-6e14" value="2.0">
           <conditions>
             <condition field="selections" scope="bfbb-5f37-6875-a0ef" value="8.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="atLeast"/>
           </conditions>
         </modifier>
-        <modifier type="increment" field="e356-c769-5920-6e14" value="4">
+        <modifier type="increment" field="e356-c769-5920-6e14" value="5.0">
           <conditions>
             <condition field="selections" scope="bfbb-5f37-6875-a0ef" value="11.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="atLeast"/>
           </conditions>
         </modifier>
-        <modifier type="increment" field="e356-c769-5920-6e14" value="5">
+        <modifier type="increment" field="e356-c769-5920-6e14" value="5.0">
           <conditions>
             <condition field="selections" scope="bfbb-5f37-6875-a0ef" value="16.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="atLeast"/>
           </conditions>
@@ -5411,7 +5402,7 @@ If your summoning roll included any doubles, your character then suffers a morta
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="90.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="6.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="5.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -6398,7 +6389,7 @@ If your summoning roll included any doubles, your character then suffers a morta
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="105.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="7.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="6.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -7295,7 +7286,7 @@ If your summoning roll included any doubles, your character then suffers a morta
             <condition field="selections" scope="7b61-1289-ed7e-24c1" value="15.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
           </conditions>
         </modifier>
-        <modifier type="increment" field="e356-c769-5920-6e14" value="3">
+        <modifier type="increment" field="e356-c769-5920-6e14" value="3.0">
           <conditions>
             <condition field="selections" scope="7b61-1289-ed7e-24c1" value="10.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
           </conditions>
@@ -7630,7 +7621,7 @@ If your summoning roll included any doubles, your character then suffers a morta
     </selectionEntry>
     <selectionEntry id="62f4-742a-7149-3b31" name="Chosen" publicationId="cb54-c035-pubN125652" page="136" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="increment" field="e356-c769-5920-6e14" value="5">
+        <modifier type="increment" field="e356-c769-5920-6e14" value="6.0">
           <conditions>
             <condition field="selections" scope="62f4-742a-7149-3b31" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
           </conditions>
@@ -8796,17 +8787,17 @@ If your summoning roll included any doubles, your character then suffers a morta
     </selectionEntry>
     <selectionEntry id="b0d5-1a19-e2b9-d5bc" name="Noise Marines" publicationId="cb54-c035-pubN125652" page="143" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="set" field="e356-c769-5920-6e14" value="11">
+        <modifier type="set" field="e356-c769-5920-6e14" value="10.0">
           <conditions>
             <condition field="selections" scope="b0d5-1a19-e2b9-d5bc" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="atLeast"/>
           </conditions>
         </modifier>
-        <modifier type="set" field="e356-c769-5920-6e14" value="15">
+        <modifier type="set" field="e356-c769-5920-6e14" value="15.0">
           <conditions>
             <condition field="selections" scope="b0d5-1a19-e2b9-d5bc" value="11.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="atLeast"/>
           </conditions>
         </modifier>
-        <modifier type="set" field="e356-c769-5920-6e14" value="19">
+        <modifier type="set" field="e356-c769-5920-6e14" value="20.0">
           <conditions>
             <condition field="selections" scope="b0d5-1a19-e2b9-d5bc" value="16.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="atLeast"/>
           </conditions>
@@ -9085,23 +9076,23 @@ If your summoning roll included any doubles, your character then suffers a morta
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="6.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="5.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bf56-7051-d9a1-621b" name="Rubric Marines" publicationId="cb54-c035-pubN125652" page="141" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="set" field="e356-c769-5920-6e14" value="11">
+        <modifier type="set" field="e356-c769-5920-6e14" value="12.0">
           <conditions>
             <condition field="selections" scope="bf56-7051-d9a1-621b" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
           </conditions>
         </modifier>
-        <modifier type="set" field="e356-c769-5920-6e14" value="17">
+        <modifier type="set" field="e356-c769-5920-6e14" value="18.0">
           <conditions>
             <condition field="selections" scope="bf56-7051-d9a1-621b" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
           </conditions>
         </modifier>
-        <modifier type="set" field="e356-c769-5920-6e14" value="22">
+        <modifier type="set" field="e356-c769-5920-6e14" value="24.0">
           <conditions>
             <condition field="selections" scope="bf56-7051-d9a1-621b" value="15.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
           </conditions>
@@ -9498,7 +9489,7 @@ If your summoning roll included any doubles, your character then suffers a morta
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="23.0"/>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="2.0"/>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="1.0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -9521,7 +9512,7 @@ If your summoning roll included any doubles, your character then suffers a morta
             <condition field="selections" scope="7231-0686-8eea-1aed" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
           </conditions>
         </modifier>
-        <modifier type="increment" field="e356-c769-5920-6e14" value="3">
+        <modifier type="increment" field="e356-c769-5920-6e14" value="4.0">
           <conditions>
             <condition field="selections" scope="7231-0686-8eea-1aed" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
           </conditions>
@@ -9721,18 +9712,18 @@ If your summoning roll included any doubles, your character then suffers a morta
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="4.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="5.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="350d-676c-02cd-7ac2" name="Raptors" publicationId="cb54-c035-pubN125652" page="145" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="increment" field="e356-c769-5920-6e14" value="4">
+        <modifier type="increment" field="e356-c769-5920-6e14" value="4.0">
           <conditions>
             <condition field="selections" scope="350d-676c-02cd-7ac2" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
           </conditions>
         </modifier>
-        <modifier type="increment" field="e356-c769-5920-6e14" value="4">
+        <modifier type="increment" field="e356-c769-5920-6e14" value="4.0">
           <conditions>
             <condition field="selections" scope="350d-676c-02cd-7ac2" value="10.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
           </conditions>
@@ -10052,9 +10043,6 @@ If your summoning roll included any doubles, your character then suffers a morta
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="e7c2-61a8-dbdf-cd73" name="Heavy bolter" hidden="false" collective="false" import="true" targetId="05ab-e7cc-e856-c36f" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="points" value="8"/>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6c75-6d8a-7295-c1ae" type="max"/>
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e645-2d79-4897-9963" type="min"/>
@@ -10062,8 +10050,8 @@ If your summoning roll included any doubles, your character then suffers a morta
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="10.0"/>
-        <cost name="pts" typeId="points" value="160.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="12.0"/>
+        <cost name="pts" typeId="points" value="150.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -11675,7 +11663,7 @@ If your summoning roll included any doubles, your character then suffers a morta
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="120.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="8.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="6.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -11893,7 +11881,7 @@ If your summoning roll included any doubles, your character then suffers a morta
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="95.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="6.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="5.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -13258,7 +13246,7 @@ If your summoning roll included any doubles, your character then suffers a morta
         <entryLink id="bf47-f487-58c7-7120" name="We Are Alpharius" hidden="false" collective="false" import="true" targetId="2633-9684-dace-c39c" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="9.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="10.0"/>
         <cost name="pts" typeId="points" value="180.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -19675,7 +19663,7 @@ the enemy Warlord, your opponent will only achieve that objective if all of the 
     </profile>
     <profile id="d076-b46c-6d2e-ae9e" name="Master of Mechanisms" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of your Movement phase, a Warpsmith can repair a single &lt;LEGION&gt; VEHICLE (other than models that can Fly) within 1&quot;. That model regains D3 lost wounds. A Warpsmith can instead curse a single enemy VEHICLE within 18&quot;. Roll a D6; on a 2+ that vehicle suffers a mortal wound. A At the end of your Movement phase, a Warpsmith can repair a single (Legion) Vehicle (other than models that can Fly) within 1&quot;. That model regains D3 lost wounds. A Warpsmith can instead curse a single enemy Vehicle within 18&quot;. Roll a D6; on a 2+ that vehicle suffers a mortal wound. A VEHICLE cannot be repaired or cursed by more than one model with Master of Mechanisms in the same turn.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of your Movement phase, a Warpsmith can repair a single &lt;LEGION&gt; VEHICLE (other than models that can FLY) within 1&quot;. That model regains D3 lost wounds. A Warpsmith can instead curse a single enemy VEHICLE within 18&quot;. Roll a D6; on a 2+ that vehicle suffers a mortal wound.</characteristic>
       </characteristics>
     </profile>
     <profile id="8b01-0911-05af-1e11" name="For the Dark Gods" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">

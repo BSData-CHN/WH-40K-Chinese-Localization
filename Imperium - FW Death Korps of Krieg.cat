@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="91ff-e116-e0a5-e883" name="Imperium - Death Korps of Krieg" revision="134" battleScribeVersion="2.03" authorName="Jon K, Joe B" authorContact="Discord: @Alphalas, @CrusherJoe | Twitter: @_alphalas, @theawesomesauce" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="143" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="91ff-e116-e0a5-e883" name="Imperium - Death Korps of Krieg" revision="136" battleScribeVersion="2.03" authorName="Jon K, Joe B" authorContact="Discord: @Alphalas, @CrusherJoe | Twitter: @_alphalas, @theawesomesauce" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="149" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="91ff-e116-pubN72301" name="Codex: Astra Militarum"/>
     <publication id="91ff-e116-pubN102593" name="War Zone Damocles: Mont&apos;ka"/>
@@ -743,7 +743,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="5.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="4.0"/>
         <cost name="pts" typeId="points" value="65.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -836,7 +836,7 @@
         <entryLink id="3dbb-f716-ff12-6e39" name="Custom Character Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="3.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="2.0"/>
         <cost name="pts" typeId="points" value="35.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -1216,16 +1216,16 @@
         <entryLink id="ecc6-0fc2-71a2-b004" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="4.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="3.0"/>
         <cost name="pts" typeId="points" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2c04-dd00-7363-64e9" name="Death Korps Grenadier Storm Squad" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="increment" field="e356-c769-5920-6e14" value="3">
+        <modifier type="increment" field="e356-c769-5920-6e14" value="2.0">
           <conditions>
-            <condition field="selections" scope="2c04-dd00-7363-64e9" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="14c0-5047-42c4-cb73" type="atLeast"/>
+            <condition field="selections" scope="2c04-dd00-7363-64e9" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atLeast"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -1240,7 +1240,7 @@
         <categoryLink id="f2f1-c9cb-8391-97f0" name="New CategoryLink" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="1e0b-ae53-c261-43a7" name="Grenadier Watch Master" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="1e0b-ae53-c261-43a7" name="Grenadier Watch Master" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4aec-0f7b-af9e-d66a" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a38-60bb-3b53-1617" type="max"/>
@@ -1301,7 +1301,7 @@
                 <condition field="selections" scope="2c04-dd00-7363-64e9" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fd7c-bd77-1e2e-f88d" type="equalTo"/>
               </conditions>
             </modifier>
-            <modifier type="set" field="4980-0c67-e820-3f1c" value="8">
+            <modifier type="set" field="4980-0c67-e820-3f1c" value="8.0">
               <conditions>
                 <condition field="selections" scope="2c04-dd00-7363-64e9" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fd7c-bd77-1e2e-f88d" type="equalTo"/>
               </conditions>
@@ -1312,7 +1312,7 @@
             <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4980-0c67-e820-3f1c" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="a839-f5f8-f199-09bd" name="Death Korps Grenadier" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="a839-f5f8-f199-09bd" name="Death Korps Grenadier" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d65-be77-0033-0acd" type="max"/>
               </constraints>
@@ -1339,7 +1339,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="0339-e9bc-54a3-5a6f" name="Grenadier w/Special Weapon" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="0339-e9bc-54a3-5a6f" name="Grenadier w/Special Weapon" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6b0-cf0e-2d9b-7bc1" type="max"/>
               </constraints>
@@ -1361,7 +1361,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="ae5f-55b8-c41d-c193" name="Grenadier Vox-caster" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="ae5f-55b8-c41d-c193" name="Grenadier Vox-caster" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="941a-9d93-0a02-ae41" type="max"/>
               </constraints>
@@ -1394,7 +1394,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="fd7c-bd77-1e2e-f88d" name="Grenadier Weapons Team" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="fd7c-bd77-1e2e-f88d" name="Grenadier Weapons Team" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3a8-0bb0-356a-85dd" type="max"/>
               </constraints>
@@ -1443,11 +1443,11 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="441e-06aa-d5da-4999" name="Unit has battle honors?" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="a67c-be44-ab3b-11ba" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+        <entryLink id="441e-06aa-d5da-4999" name="Has Battle Honours" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="a67c-be44-ab3b-11ba" name="Battle Honours" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="3.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="2.0"/>
         <cost name="pts" typeId="points" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -1593,9 +1593,6 @@
           </constraints>
           <entryLinks>
             <entryLink id="6fe9-6a78-2d47-9f3d" name="Storm bolter" hidden="false" collective="false" import="true" targetId="2b03-8d64-3711-f300" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="points" value="2"/>
-              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7887-f0c0-7cfb-ebc2" type="max"/>
               </constraints>
@@ -1616,7 +1613,7 @@
         </entryLink>
         <entryLink id="d5de-de97-a367-633e" name="Autocannon" hidden="false" collective="false" import="true" targetId="5210-8cb2-b5a2-a04f" type="selectionEntry">
           <modifiers>
-            <modifier type="set" field="points" value="10"/>
+            <modifier type="set" field="points" value="15.0"/>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e82-b5e4-8b55-f646" type="min"/>
@@ -1787,16 +1784,16 @@
         <entryLink id="4f64-c37d-d757-c934" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="3.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="2.0"/>
         <cost name="pts" typeId="points" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b2a7-0d09-b24c-ef65" name="Death Korps Combat Engineer Squad" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
-        <modifier type="increment" field="e356-c769-5920-6e14" value="4">
+        <modifier type="increment" field="e356-c769-5920-6e14" value="2.0">
           <conditions>
-            <condition field="selections" scope="b2a7-0d09-b24c-ef65" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2151-aedb-52ee-9145" type="atLeast"/>
+            <condition field="selections" scope="b2a7-0d09-b24c-ef65" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2151-aedb-52ee-9145" type="atLeast"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -2050,7 +2047,7 @@
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="4.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="2.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -2157,7 +2154,7 @@
     </selectionEntry>
     <selectionEntry id="58d4-0e29-dc73-70cc" name="Death Korps Quartermaster Cadre" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="increment" field="e356-c769-5920-6e14" value="1">
+        <modifier type="increment" field="e356-c769-5920-6e14" value="1.0">
           <conditions>
             <condition field="selections" scope="58d4-0e29-dc73-70cc" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a343-45d7-4094-e9bc" type="atLeast"/>
           </conditions>
@@ -2352,7 +2349,7 @@
         <entryLink id="8d8e-ca13-5a03-f289" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="6.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="3.0"/>
         <cost name="pts" typeId="points" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -2464,7 +2461,7 @@
     </selectionEntry>
     <selectionEntry id="0a6f-9de8-cc51-3364" name="Death Korps Death Rider Squadron" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
-        <modifier type="increment" field="e356-c769-5920-6e14" value="5">
+        <modifier type="increment" field="e356-c769-5920-6e14" value="3.0">
           <conditions>
             <condition field="selections" scope="0a6f-9de8-cc51-3364" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atLeast"/>
           </conditions>
@@ -2596,7 +2593,7 @@
         <entryLink id="3c17-b077-76da-09ba" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="5.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="3.0"/>
         <cost name="pts" typeId="points" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -2641,7 +2638,7 @@
         <entryLink id="6094-fe20-0b2b-76a3" name="Battle Honors" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="4.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="3.0"/>
         <cost name="pts" typeId="points" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -2677,7 +2674,7 @@
                     <infoLink id="7bda-00fe-87a6-2f89" name="Battle Cannon" hidden="false" targetId="bc34-f1ec-56fa-2829" type="profile"/>
                   </infoLinks>
                   <costs>
-                    <cost name="pts" typeId="points" value="22.0"/>
+                    <cost name="pts" typeId="points" value="20.0"/>
                     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
@@ -2704,7 +2701,7 @@
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="130.0"/>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="11.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="10.0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -2767,7 +2764,7 @@
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="130.0"/>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="11.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="10.0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -2803,7 +2800,7 @@
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name="pts" typeId="points" value="17.0"/>
+                    <cost name="pts" typeId="points" value="30.0"/>
                     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
@@ -2830,7 +2827,7 @@
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="130.0"/>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="11.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="10.0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -2906,7 +2903,7 @@
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="130.0"/>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="11.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="10.0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -2960,7 +2957,7 @@
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="130.0"/>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="12.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="10.0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -3033,7 +3030,7 @@
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="130.0"/>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="12.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="10.0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -3060,7 +3057,7 @@
                     <infoLink id="6f43-bb51-945e-4882" hidden="false" targetId="9fac-07c9-3595-784e" type="profile"/>
                   </infoLinks>
                   <costs>
-                    <cost name="pts" typeId="points" value="30.0"/>
+                    <cost name="pts" typeId="points" value="35.0"/>
                     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
@@ -3087,7 +3084,7 @@
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="130.0"/>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="12.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="10.0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -3163,7 +3160,7 @@
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="130.0"/>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="11.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="10.0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -3217,7 +3214,7 @@
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="130.0"/>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="11.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="10.0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -3686,7 +3683,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="9.0"/>
+            <cost name="pts" typeId="points" value="10.0"/>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
@@ -3694,17 +3691,11 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="0847-711a-406c-8e2e" name="Heavy bolter" hidden="false" collective="false" import="true" targetId="05ab-e7cc-e856-c36f" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="points" value="8"/>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed49-238f-1c0a-d83e" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="7167-f03d-5325-7a10" name="Autocannon" hidden="false" collective="false" import="true" targetId="5210-8cb2-b5a2-a04f" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="points" value="10"/>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ee5-1715-b477-875a" type="max"/>
           </constraints>
@@ -3723,9 +3714,6 @@
           </constraints>
         </entryLink>
         <entryLink id="3eef-8652-2f84-9791" name="Missile launcher" hidden="false" collective="false" import="true" targetId="1469-1964-7a91-94d4" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="points" value="10.0"/>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="950c-f5b1-d37b-abf7" type="max"/>
           </constraints>
@@ -4444,7 +4432,7 @@
             <infoLink id="7e67-8c7d-b79b-33d0" hidden="false" targetId="e2b0-b9f1-6c38-584c" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="8.0"/>
+            <cost name="pts" typeId="points" value="15.0"/>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
@@ -4457,7 +4445,7 @@
             <infoLink id="2515-d6e1-9a6e-ccaf" hidden="false" targetId="f14a-07e5-5465-69cf" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="15.0"/>
+            <cost name="pts" typeId="points" value="20.0"/>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
@@ -4470,7 +4458,7 @@
             <infoLink id="f25a-90aa-939d-e1ac" name="Heavy flamer" hidden="false" targetId="2608-8425-4f4f-7f41" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="14.0"/>
+            <cost name="pts" typeId="points" value="15.0"/>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
@@ -4483,7 +4471,7 @@
             <infoLink id="d6de-260e-8e70-03e8" name="New InfoLink" hidden="false" targetId="1768-d7b9-37ba-f3bf" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="15.0"/>
+            <cost name="pts" typeId="points" value="25.0"/>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
@@ -4497,7 +4485,7 @@
             <infoLink id="302a-5bc6-c4f8-ec70" name="Plasma cannon, Supercharge" hidden="false" targetId="fbb2-f4cb-e47d-1d10" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="10.0"/>
+            <cost name="pts" typeId="points" value="20.0"/>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
