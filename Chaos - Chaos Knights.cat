@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5d84-5102-f22c-14d4" name="Chaos - Chaos Knights" revision="45" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="153" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5d84-5102-f22c-14d4" name="Chaos - Chaos Knights" revision="52" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="164" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="3f2c-38d3-b6df-df27" name="D3 Roll">
       <characteristicTypes>
@@ -2307,7 +2307,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">9</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When resolving an attack made with this weapon, roll two D6 when inflicting damage with it and discard one of the results.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">‘Each time an attack made with this weapon targets a unit within half range, that attack has a Damage characteristic of D6+2.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2330,7 +2330,7 @@
                 <profile id="c0a8-029b-5b77-b50c" name="Plasma decimator - Standard" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48&quot;</characteristic>
-                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2D6&quot;</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2D6</characteristic>
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">7</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
@@ -2340,11 +2340,11 @@
                 <profile id="d171-f63c-31f6-6ccd" name="Plasma decimator - Supercharge" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48&quot;</characteristic>
-                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2D6&quot;</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2D6</characteristic>
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">For each hit roll of 1, the bearer suffers 1 mortal wound after all of this weapon’s shots have been resolved. Blast.</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast. Each time an unmodified hit roll of 1 is made for an attack with this weapon, the bearer suffers 1 mortal wound after shooting with this weapon.</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="28da-4a76-f58c-5ba2" name="Volcano lance" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -2397,7 +2397,7 @@
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">16</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-6</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">10</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">You can reroll failed hit rolls when targeting VEHICLE or MONSTER units with this weapon. In addition, if this weapon inflicts any damage, the target unit suffers an additional D3 mortal wounds.</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">You can re-roll failed hit rolls when targeting VEHICLE or MONSTER units with this weapon. In addition, if this weapon inflicts any damage, the target unit suffers an additional D3 mortal wounds.</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="5537-772a-4ccc-4c9c" name="Conflagration cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -3889,6 +3889,20 @@ If any Dreadblades from your army have any Damnations, roll 2D6 for each of them
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49a0-327a-9891-1ee6" type="max"/>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c72c-1993-3da1-c967" type="min"/>
       </constraints>
+      <profiles>
+        <profile id="44b3-1166-5806-3b47" name="Household Bond" hidden="false" typeId="b2ce-7355-8075-feac" typeName="Household Bonds">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d513-cbf5-9bfc-7270" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Ability" typeId="11c8-2cd6-bd89-48be">Units in Super-Heavy Auxiliary Detachments do not receive the benefit of Household Bonds.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <categoryLinks>
         <categoryLink id="2675-30b9-3943-044f" name="New CategoryLink" hidden="false" targetId="fcff-0f21-93e6-1ddc" primary="true"/>
       </categoryLinks>
@@ -3918,6 +3932,8 @@ If any Dreadblades from your army have any Damnations, roll 2D6 for each of them
       </categoryLinks>
       <costs>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="-1.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -4198,7 +4214,7 @@ If any Dreadblades from your army have any Damnations, roll 2D6 for each of them
             <characteristic name="S" typeId="59b1-319e-ec13-d466">12</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">6</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When resolving an attack made with this weapon against a VEHICLE unit or MONSTER unit, you can reroll the wound roll.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When resolving an attack made with this weapon against a VEHICLE unit or MONSTER unit, you can re-roll the wound roll.</characteristic>
           </characteristics>
         </profile>
         <profile id="e032-33b8-e670-2e04" name="Atrapos lascutter (melee)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -4208,7 +4224,7 @@ If any Dreadblades from your army have any Damnations, roll 2D6 for each of them
             <characteristic name="S" typeId="59b1-319e-ec13-d466">+6</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">6</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When resolving an attack made with this weapon against a VEHICLE unit or MONSTER unit, you can reroll the wound roll.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When resolving an attack made with this weapon against a VEHICLE unit or MONSTER unit, you can re-roll the wound roll.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4403,7 +4419,7 @@ If any Dreadblades from your army have any Damnations, roll 2D6 for each of them
       <profiles>
         <profile id="f56e-a5e4-e770-2cd9" name="The Blasphemous Engine" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A model with this Relic is considered to have double the number of wounds remaning for the purposes of determining what row to use on its damage table.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A model with this Relic is considered to have double the number of wounds remaining for the purposes of determining what row to use on its damage table.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4466,7 +4482,7 @@ If any Dreadblades from your army have any Damnations, roll 2D6 for each of them
       <profiles>
         <profile id="a2ec-d6ad-7042-e1b7" name="Tzeentchian Pyrothrone" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A model with this Relic gains the PSYKER keyword; it can attempt to manifest one psychic power in your Psychic phase and to deny one psychic power in your opponent&apos;s Psychic phase. If that model has the Warp-haunted Hull Warlord Trait, it can attempt to deny two powers in your opponent&apos;s Psychic phase. That model knows Smite. If that model is destroyed as a result of Perials of the Warp, do not roll any dice for that model&apos;s Explodes or Dual Plasma Core Explosion ability - it automatically explodes as if one 6 had been rolled.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A model with this Relic gains the PSYKER keyword; it can attempt to manifest one psychic power in your Psychic phase and to deny one psychic power in your opponent&apos;s Psychic phase. If that model has the Warp-haunted Hull Warlord Trait, it can attempt to deny two powers in your opponent&apos;s Psychic phase. That model knows Smite. If that model is destroyed as a result of Perils of the Warp, do not roll any dice for that model&apos;s Explodes or Dual Plasma Core Explosion ability - it automatically explodes as if one 6 had been rolled.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4593,7 +4609,7 @@ If any Dreadblades from your army have any Damnations, roll 2D6 for each of them
       <profiles>
         <profile id="11b4-2df7-e956-ca8f" name="Rune of Nak&apos;T&apos;Graa" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A model with this Relic has a 5+ invulnerable save against attacks made with ranged and melee weapons. That model gains one addtional Dreadblade Pact and one additional Damnation of your choice.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A model with this Relic has a 5+ invulnerable save against attacks made with ranged and melee weapons. That model gains one additional Dreadblade Pact and one additional Damnation of your choice.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5024,7 +5040,7 @@ If any Dreadblades from your army have any Damnations, roll 2D6 for each of them
         <entryLink id="dfaa-9574-f39a-c408" name="Khornate Target" hidden="false" collective="false" import="true" targetId="4b9d-5bc1-c4e4-0515" type="selectionEntry"/>
         <entryLink id="86bb-1451-9530-ae1a" name="Tzeentchian Pyrothrone" hidden="false" collective="false" import="true" targetId="1a04-c2af-d8ae-2f33" type="selectionEntry"/>
         <entryLink id="a862-0b5a-e04a-388e" name="Helm of Warpsight" hidden="false" collective="false" import="true" targetId="428d-e4d3-bcc8-7c0b" type="selectionEntry"/>
-        <entryLink id="8847-1027-3ede-4b40" name="!The Diamonas" hidden="false" collective="false" import="true" targetId="253c-8df9-6fb9-8cee" type="selectionEntry"/>
+        <entryLink id="8847-1027-3ede-4b40" name="The Diamonas" hidden="false" collective="false" import="true" targetId="253c-8df9-6fb9-8cee" type="selectionEntry"/>
         <entryLink id="a9a3-508f-cd9f-139f" name="The Tyrant&apos;s Banner" hidden="false" collective="false" import="true" targetId="6054-6128-c0ab-3023" type="selectionEntry"/>
         <entryLink id="7070-f2a8-e0ea-5664" name="The Teeth That Hunger" hidden="false" collective="false" import="true" targetId="20f6-3a9c-732b-72a7" type="selectionEntry"/>
         <entryLink id="babf-d865-c5fa-3e3a" name="Rune of Nak&apos;T&apos;Graa" hidden="false" collective="false" import="true" targetId="c3f8-5e45-c3d8-7129" type="selectionEntry"/>
@@ -5037,6 +5053,7 @@ If any Dreadblades from your army have any Damnations, roll 2D6 for each of them
         <entryLink id="d710-9254-54b6-8a22" name="Crown of Jedathra" hidden="false" collective="false" import="true" targetId="6005-389b-3860-1823" type="selectionEntry"/>
         <entryLink id="f135-c536-83f0-1ef3" name="Daemonic Shrike" hidden="false" collective="false" import="true" targetId="e28f-e95c-e562-1433" type="selectionEntry"/>
         <entryLink id="a50b-dcae-4ccc-f4ca" name="The Traitor&apos;s Mark" hidden="false" collective="false" import="true" targetId="204c-6457-89a3-5e05" type="selectionEntry"/>
+        <entryLink id="25ff-7c85-57ba-a114" name="Heretek Power Core" hidden="false" collective="false" import="true" targetId="fb71-473f-a912-4545" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="4f6a-0a86-fd1c-0486" name="Dread Household" hidden="false" collective="false" import="true">
@@ -5066,6 +5083,13 @@ If any Dreadblades from your army have any Damnations, roll 2D6 for each of them
               </constraints>
               <profiles>
                 <profile id="0e4a-79dd-cd13-ed43" name="House Vextrix" hidden="false" typeId="b2ce-7355-8075-feac" typeName="Household Bonds">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d513-cbf5-9bfc-7270" type="notInstanceOf"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
                   <characteristics>
                     <characteristic name="Ability" typeId="11c8-2cd6-bd89-48be">When a unit with this bond is chosen to shoot or fight with or fires Overwatch, you can re-roll a single hit roll and a single wound roll made for that unit.</characteristic>
                   </characteristics>
@@ -5083,6 +5107,13 @@ If any Dreadblades from your army have any Damnations, roll 2D6 for each of them
               </constraints>
               <profiles>
                 <profile id="b1ff-5429-fbe0-77aa" name="House Khomentis" hidden="false" typeId="b2ce-7355-8075-feac" typeName="Household Bonds">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d513-cbf5-9bfc-7270" type="notInstanceOf"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
                   <characteristics>
                     <characteristic name="Ability" typeId="11c8-2cd6-bd89-48be">Whilst a model with this bond has lost half or more of its wounds, add 1 to its Attacks characteristic and when resolving an attack made with a melee weapon by that model, add 1 to the hit roll. In addition, when a model with this model would lose a wound in the Psychic phase, roll one D6; on a 5+ that wound is not lost.</characteristic>
                   </characteristics>
@@ -5117,6 +5148,13 @@ If any Dreadblades from your army have any Damnations, roll 2D6 for each of them
               </constraints>
               <profiles>
                 <profile id="a214-0f17-85fb-f5cf" name="House Lucaris" hidden="false" typeId="b2ce-7355-8075-feac" typeName="Household Bonds">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d513-cbf5-9bfc-7270" type="notInstanceOf"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
                   <characteristics>
                     <characteristic name="Ability" typeId="11c8-2cd6-bd89-48be">When resolving an attack made with a melee weapon by a model with this bond in a turn in which that model&apos;s unit made a charge move, was charged or performed a Heroic Intervention, add 1 to the hit roll.</characteristic>
                   </characteristics>
@@ -5134,6 +5172,13 @@ If any Dreadblades from your army have any Damnations, roll 2D6 for each of them
               </constraints>
               <profiles>
                 <profile id="e0a1-c8b2-b8b3-9ddb" name="House Herpetrax" hidden="false" typeId="b2ce-7355-8075-feac" typeName="Household Bonds">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d513-cbf5-9bfc-7270" type="notInstanceOf"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
                   <characteristics>
                     <characteristic name="Ability" typeId="11c8-2cd6-bd89-48be">Add  2 to the Wounds characteristic of models with this bond (add 1 instead if that model is a WAR DOG).</characteristic>
                   </characteristics>
@@ -5151,6 +5196,13 @@ If any Dreadblades from your army have any Damnations, roll 2D6 for each of them
               </constraints>
               <profiles>
                 <profile id="9ccc-64db-9eaf-ed4d" name="House Khymere" hidden="false" typeId="b2ce-7355-8075-feac" typeName="Household Bonds">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d513-cbf5-9bfc-7270" type="notInstanceOf"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
                   <characteristics>
                     <characteristic name="Ability" typeId="11c8-2cd6-bd89-48be">When resolving an attack made with a melee weapon (excluding titanic feet) by a model bond, re-roll a wound roll of 1.</characteristic>
                   </characteristics>
@@ -5173,7 +5225,7 @@ If any Dreadblades from your army have any Damnations, roll 2D6 for each of them
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="7e56-9e97-f861-899e" name="&lt;Dread Household&gt;" hidden="false" collective="false" import="true" targetId="a44b-c8f0-e81f-8e49" type="selectionEntryGroup">
+        <entryLink id="7e56-9e97-f861-899e" name="Dread Household Bonds" hidden="false" collective="false" import="true" targetId="a44b-c8f0-e81f-8e49" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -5509,6 +5561,11 @@ If any Dreadblades from your army have any Damnations, roll 2D6 for each of them
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set" field="80f0-4e3f-4940-3947" value="0.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d513-cbf5-9bfc-7270" type="notInstanceOf"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56d0-ac63-77e6-205a" type="max"/>
@@ -5521,8 +5578,15 @@ If any Dreadblades from your army have any Damnations, roll 2D6 for each of them
           </constraints>
           <profiles>
             <profile id="394b-18b0-a587-1eec" name="Endless Torment" hidden="false" typeId="b2ce-7355-8075-feac" typeName="Household Bonds">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d513-cbf5-9bfc-7270" type="notInstanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <characteristics>
-                <characteristic name="Ability" typeId="11c8-2cd6-bd89-48be">When a model with this bond fires Overwatch or is chosen to shoot with, you can re-roll a single diec when determining the number of attacks that model makes when attacking with a weapon that has a random number of attacks (e.g. Heavy D6).</characteristic>
+                <characteristic name="Ability" typeId="11c8-2cd6-bd89-48be">When a model with this bond fires Overwatch or is chosen to shoot with, you can re-roll a single dice when determining the number of attacks that model makes when attacking with a weapon that has a random number of attacks (e.g. Heavy D6).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5538,8 +5602,15 @@ If any Dreadblades from your army have any Damnations, roll 2D6 for each of them
           </constraints>
           <profiles>
             <profile id="1eb3-8022-aadd-5cd2" name="Pinpoint Cruelty" hidden="false" typeId="b2ce-7355-8075-feac" typeName="Household Bonds">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d513-cbf5-9bfc-7270" type="notInstanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <characteristics>
-                <characteristic name="Ability" typeId="11c8-2cd6-bd89-48be">When a model with this bond fires Overwatch or is chaosen to shoot or fight with, you can re-roll a single dice when determining damage as a result of those attacks.</characteristic>
+                <characteristic name="Ability" typeId="11c8-2cd6-bd89-48be">When a model with this bond fires Overwatch or is chosen to shoot or fight with, you can re-roll a single dice when determining damage as a result of those attacks.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5555,6 +5626,13 @@ If any Dreadblades from your army have any Damnations, roll 2D6 for each of them
           </constraints>
           <profiles>
             <profile id="e649-b387-8748-a801" name="Infamous Heredity" hidden="false" typeId="b2ce-7355-8075-feac" typeName="Household Bonds">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d513-cbf5-9bfc-7270" type="notInstanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <characteristics>
                 <characteristic name="Ability" typeId="11c8-2cd6-bd89-48be">When a model with this bond fires Overwatch or is chosen to shoot or fight with, you can re-roll a single hit roll made for that model.</characteristic>
               </characteristics>
@@ -5572,8 +5650,15 @@ If any Dreadblades from your army have any Damnations, roll 2D6 for each of them
           </constraints>
           <profiles>
             <profile id="f24e-c09f-9f74-ee09" name="Gheists of Ruin" hidden="false" typeId="b2ce-7355-8075-feac" typeName="Household Bonds">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d513-cbf5-9bfc-7270" type="notInstanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <characteristics>
-                <characteristic name="Ability" typeId="11c8-2cd6-bd89-48be">When resolving an attack made with a ranged weapon against a model with this bond by a model that is more than 24&quot; away, it is treated as having the benfit of cover to its saving throw.</characteristic>
+                <characteristic name="Ability" typeId="11c8-2cd6-bd89-48be">When resolving an attack made with a ranged weapon against a model with this bond by a model that is more than 24&quot; away, it is treated as having the benefit of cover to its saving throw.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5589,6 +5674,13 @@ If any Dreadblades from your army have any Damnations, roll 2D6 for each of them
           </constraints>
           <profiles>
             <profile id="b8b8-fe37-7144-291e" name="Slayers of Kings" hidden="false" typeId="b2ce-7355-8075-feac" typeName="Household Bonds">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d513-cbf5-9bfc-7270" type="notInstanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <characteristics>
                 <characteristic name="Ability" typeId="11c8-2cd6-bd89-48be">When resolving an attack made with a melee weapon (excluding Titanic Feet) by a model with this bond against a VEHICLE or MONSTER unit, add 1 to the hit roll.</characteristic>
               </characteristics>
@@ -5606,6 +5698,13 @@ If any Dreadblades from your army have any Damnations, roll 2D6 for each of them
           </constraints>
           <profiles>
             <profile id="deec-d188-ba24-4c99" name="Dark Forging" hidden="false" typeId="b2ce-7355-8075-feac" typeName="Household Bonds">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d513-cbf5-9bfc-7270" type="notInstanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <characteristics>
                 <characteristic name="Ability" typeId="11c8-2cd6-bd89-48be">Add 6&quot; to the maximum Range characteristic of ranged weapons a model with this bond is equipped with that have an unmodified Range characteristic of 24&quot; or more. Add 2&quot; to the maximum Range characteristic of all other ranged weapons a model with this bond is equipped with.</characteristic>
               </characteristics>
@@ -5623,6 +5722,13 @@ If any Dreadblades from your army have any Damnations, roll 2D6 for each of them
           </constraints>
           <profiles>
             <profile id="9008-2226-6d7d-f6b7" name="Warp Vision" hidden="false" typeId="b2ce-7355-8075-feac" typeName="Household Bonds">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d513-cbf5-9bfc-7270" type="notInstanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <characteristics>
                 <characteristic name="Ability" typeId="11c8-2cd6-bd89-48be">When resolving an attack made with a ranged weapon by a model with this bond, the target does not receive the benefit to its saving throw as a result of cover.</characteristic>
               </characteristics>
@@ -5640,6 +5746,13 @@ If any Dreadblades from your army have any Damnations, roll 2D6 for each of them
           </constraints>
           <profiles>
             <profile id="a68c-64ab-b59d-38dc" name="Pride-fuelled Fury" hidden="false" typeId="b2ce-7355-8075-feac" typeName="Household Bonds">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d513-cbf5-9bfc-7270" type="notInstanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <characteristics>
                 <characteristic name="Ability" typeId="11c8-2cd6-bd89-48be">Whilst a model with this bond has lost half or more of its wounds, increase its Attacks characteristic by 1. When resolving an attack made with a melee weapon by a model with this bond that has lost half or more of its wounds, add 1 to the hit roll.</characteristic>
               </characteristics>
@@ -5657,6 +5770,13 @@ If any Dreadblades from your army have any Damnations, roll 2D6 for each of them
           </constraints>
           <profiles>
             <profile id="246e-c80d-e429-423d" name="Abominable Constitution" hidden="false" typeId="b2ce-7355-8075-feac" typeName="Household Bonds">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d513-cbf5-9bfc-7270" type="notInstanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <characteristics>
                 <characteristic name="Ability" typeId="11c8-2cd6-bd89-48be">Increase the Move characteristic of a model with this bond by 1&quot; and always use the top row of its damage table when determining its Move characteristic, regardless of how many wounds it has left.</characteristic>
               </characteristics>
@@ -5674,6 +5794,13 @@ If any Dreadblades from your army have any Damnations, roll 2D6 for each of them
           </constraints>
           <profiles>
             <profile id="d3eb-f6d3-a004-7dba" name="Harrying Packs" hidden="false" typeId="b2ce-7355-8075-feac" typeName="Household Bonds">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d513-cbf5-9bfc-7270" type="notInstanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <characteristics>
                 <characteristic name="Ability" typeId="11c8-2cd6-bd89-48be">A WAR DOG model with this bond can either shoot or charge in a turn in which it Fell Back. If it shoots, when resolving an attack made by that model in the Shooting phase of that turn, subtract 1 from the hit roll.</characteristic>
               </characteristics>
@@ -5691,6 +5818,13 @@ If any Dreadblades from your army have any Damnations, roll 2D6 for each of them
           </constraints>
           <profiles>
             <profile id="87e2-3085-3225-959f" name="Frenzied Attackers" hidden="false" typeId="b2ce-7355-8075-feac" typeName="Household Bonds">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d513-cbf5-9bfc-7270" type="notInstanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <characteristics>
                 <characteristic name="Ability" typeId="11c8-2cd6-bd89-48be">When resolving an attack made with a melee weapon (excluding Titanic Feet) by a model with this bond, an unmodified hit roll of 6 scores one additional hit.</characteristic>
               </characteristics>
@@ -5708,6 +5842,13 @@ If any Dreadblades from your army have any Damnations, roll 2D6 for each of them
           </constraints>
           <profiles>
             <profile id="6692-a3e2-7cba-7b95" name="Hate-driven Charge" hidden="false" typeId="b2ce-7355-8075-feac" typeName="Household Bonds">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d513-cbf5-9bfc-7270" type="notInstanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <characteristics>
                 <characteristic name="Ability" typeId="11c8-2cd6-bd89-48be">If a model with this bond makes a charge move, is charged or performs a Heroic Intervention, the Armour Penetration characteristic of melee weapons that model is equipped with (excluding Titanic Feet) is improved by 1 until the end of the turn (e.g. AP 0 becomes AP -1).</characteristic>
               </characteristics>
@@ -5725,8 +5866,15 @@ If any Dreadblades from your army have any Damnations, roll 2D6 for each of them
           </constraints>
           <profiles>
             <profile id="e9a1-5fa6-ce9e-ded3" name="Enlightened Idolators" hidden="false" typeId="b2ce-7355-8075-feac" typeName="Household Bonds">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d513-cbf5-9bfc-7270" type="notInstanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <characteristics>
-                <characteristic name="Ability" typeId="11c8-2cd6-bd89-48be">When resolving an attack made with a weapon that has an Armour Penetration characteristic of -1 against a model with this bond, that weapon is treated has haivng an Armour Penetration characteristic of 0.</characteristic>
+                <characteristic name="Ability" typeId="11c8-2cd6-bd89-48be">When resolving an attack made with a weapon that has an Armour Penetration characteristic of -1 against a model with this bond, that weapon is treated as having an Armour Penetration characteristic of 0.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5742,6 +5890,13 @@ If any Dreadblades from your army have any Damnations, roll 2D6 for each of them
           </constraints>
           <profiles>
             <profile id="4d9c-76a2-ede6-1d86" name="Hellforged Construction" hidden="false" typeId="b2ce-7355-8075-feac" typeName="Household Bonds">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d513-cbf5-9bfc-7270" type="notInstanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <characteristics>
                 <characteristic name="Ability" typeId="11c8-2cd6-bd89-48be">Add 1 to the Wounds characteristic of WAR DOG models with this bond. Add 2 to the Wounds characteristic of all other models with this bond.</characteristic>
               </characteristics>
@@ -5759,6 +5914,13 @@ If any Dreadblades from your army have any Damnations, roll 2D6 for each of them
           </constraints>
           <profiles>
             <profile id="d4f1-3e4b-a3cd-eb44" name="Vengeful Outcasts" hidden="false" typeId="b2ce-7355-8075-feac" typeName="Household Bonds">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d513-cbf5-9bfc-7270" type="notInstanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <characteristics>
                 <characteristic name="Ability" typeId="11c8-2cd6-bd89-48be">When resolving an attack made by a model with this bond against an IMPERIUM unit, you can re-roll a wound roll of 1.</characteristic>
               </characteristics>
@@ -5776,6 +5938,13 @@ If any Dreadblades from your army have any Damnations, roll 2D6 for each of them
           </constraints>
           <profiles>
             <profile id="ab94-604f-3955-2071" name="Heretical System-bond" hidden="false" typeId="b2ce-7355-8075-feac" typeName="Household Bonds">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d513-cbf5-9bfc-7270" type="notInstanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <characteristics>
                 <characteristic name="Ability" typeId="11c8-2cd6-bd89-48be">When resolving an attack made by a model with this bond that is subject to any negative hit roll modifiers, add 1 to the hit roll.</characteristic>
               </characteristics>
@@ -5793,6 +5962,13 @@ If any Dreadblades from your army have any Damnations, roll 2D6 for each of them
           </constraints>
           <profiles>
             <profile id="ecac-e802-dc34-2b1e" name="Loathing for the Masses" hidden="false" typeId="b2ce-7355-8075-feac" typeName="Household Bonds">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d513-cbf5-9bfc-7270" type="notInstanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <characteristics>
                 <characteristic name="Ability" typeId="11c8-2cd6-bd89-48be">Whilst a model with this bond is within 1&quot; of any enemy units that contain 11 models or more, increase its Attacks characteristic by 1.</characteristic>
               </characteristics>
@@ -5810,6 +5986,13 @@ If any Dreadblades from your army have any Damnations, roll 2D6 for each of them
           </constraints>
           <profiles>
             <profile id="926f-c151-6e61-c3a9" name="Bold Tyrants" hidden="false" typeId="b2ce-7355-8075-feac" typeName="Household Bonds">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d513-cbf5-9bfc-7270" type="notInstanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <characteristics>
                 <characteristic name="Ability" typeId="11c8-2cd6-bd89-48be">When resolving an attack made with a ranged weapon by a model with this bond against a unit within 12&quot;, improve the Armour Penetration characteristic of that weapon by 1 for that attack (e.g. AP 0 becomes AP -1).</characteristic>
               </characteristics>
@@ -5827,6 +6010,13 @@ If any Dreadblades from your army have any Damnations, roll 2D6 for each of them
           </constraints>
           <profiles>
             <profile id="0f30-69a3-4e90-b9ae" name="Rapid Offense" hidden="false" typeId="b2ce-7355-8075-feac" typeName="Household Bonds">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d513-cbf5-9bfc-7270" type="notInstanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <characteristics>
                 <characteristic name="Ability" typeId="11c8-2cd6-bd89-48be">Models with this bond do not suffer the penalties to their hit rolls for Advancing and shooting Assault weapons.</characteristic>
               </characteristics>
@@ -5844,8 +6034,15 @@ If any Dreadblades from your army have any Damnations, roll 2D6 for each of them
           </constraints>
           <profiles>
             <profile id="238d-8de2-9c0b-f948" name="Unhallowed Inscriptions" hidden="false" typeId="b2ce-7355-8075-feac" typeName="Household Bonds">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d513-cbf5-9bfc-7270" type="notInstanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <characteristics>
-                <characteristic name="Ability" typeId="11c8-2cd6-bd89-48be">When a model with this bonf would lose a wound in the Psychic phase, roll one D6; on a 5+ that wound is not lost.</characteristic>
+                <characteristic name="Ability" typeId="11c8-2cd6-bd89-48be">When a model with this bond would lose a wound in the Psychic phase, roll one D6; on a 5+ that wound is not lost.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5913,7 +6110,7 @@ If any Dreadblades from your army have any Damnations, roll 2D6 for each of them
           <profiles>
             <profile id="8ff0-0ee0-272b-8074" name="Dread Hunter" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per game, at the start of the Shooting phase, you can declare this Warlord will make a killing strike. If you do, select one ranged weapon this Warlord is equipped with. Until the end of the turn, add 1 to the Damage charactersitic of that weapon, and when resolving an attack made with that weapon, you can re-roll hit rolls and wound rolls.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per game, at the start of the Shooting phase, you can declare this Warlord will make a killing strike. If you do, select one ranged weapon this Warlord is equipped with. Until the end of the turn, add 1 to the Damage characteristic of that weapon, and when resolving an attack made with that weapon, you can re-roll hit rolls and wound rolls.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6003,9 +6200,9 @@ If any Dreadblades from your army have any Damnations, roll 2D6 for each of them
         <entryLink id="0aaa-1d29-8479-9713" name="The Blasphemous Engine" hidden="false" collective="false" import="true" targetId="5497-514f-926e-6999" type="selectionEntry"/>
         <entryLink id="d08f-4d00-aa07-6219" name="Veil of Medrengard" hidden="false" collective="false" import="true" targetId="6f16-7817-74e4-e52c" type="selectionEntry"/>
         <entryLink id="138d-292d-09dd-747f" name="Khornate Target" hidden="false" collective="false" import="true" targetId="4b9d-5bc1-c4e4-0515" type="selectionEntry"/>
-        <entryLink id="ffdb-486c-e094-af65" name="!Tzeentchian Pyrothrone" hidden="false" collective="false" import="true" targetId="1a04-c2af-d8ae-2f33" type="selectionEntry"/>
+        <entryLink id="ffdb-486c-e094-af65" name="Tzeentchian Pyrothrone" hidden="false" collective="false" import="true" targetId="1a04-c2af-d8ae-2f33" type="selectionEntry"/>
         <entryLink id="68bf-a716-ec51-3944" name="Helm of Warpsight" hidden="false" collective="false" import="true" targetId="428d-e4d3-bcc8-7c0b" type="selectionEntry"/>
-        <entryLink id="423e-7290-16e0-3fd0" name="!The Diamonas" hidden="false" collective="false" import="true" targetId="253c-8df9-6fb9-8cee" type="selectionEntry"/>
+        <entryLink id="423e-7290-16e0-3fd0" name="The Diamonas" hidden="false" collective="false" import="true" targetId="253c-8df9-6fb9-8cee" type="selectionEntry"/>
         <entryLink id="1367-c75c-c531-86da" name="The Tyrant&apos;s Banner" hidden="false" collective="false" import="true" targetId="6054-6128-c0ab-3023" type="selectionEntry"/>
         <entryLink id="91d3-5128-ff03-9307" name="The Teeth That Hunger" hidden="false" collective="false" import="true" targetId="20f6-3a9c-732b-72a7" type="selectionEntry"/>
         <entryLink id="ebd9-732e-91e4-5d1a" name="Rune of Nak&apos;T&apos;Graa" hidden="false" collective="false" import="true" targetId="c3f8-5e45-c3d8-7129" type="selectionEntry"/>
@@ -6018,6 +6215,7 @@ If any Dreadblades from your army have any Damnations, roll 2D6 for each of them
         <entryLink id="cff2-a89b-bc2e-5c91" name="Crown of Jedathra" hidden="false" collective="false" import="true" targetId="6005-389b-3860-1823" type="selectionEntry"/>
         <entryLink id="57b2-3559-b785-fe45" name="Daemonic Shrike" hidden="false" collective="false" import="true" targetId="e28f-e95c-e562-1433" type="selectionEntry"/>
         <entryLink id="b5a2-2810-7997-805b" name="The Traitor&apos;s Mark" hidden="false" collective="false" import="true" targetId="204c-6457-89a3-5e05" type="selectionEntry"/>
+        <entryLink id="7090-8cc6-dd38-b727" name="Heretek Power Core" hidden="false" collective="false" import="true" targetId="fb71-473f-a912-4545" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="18ad-709c-33d6-c1c8" name="Iconoclast Vows" hidden="false" collective="false" import="true">
@@ -6044,7 +6242,9 @@ If any Dreadblades from your army have any Damnations, roll 2D6 for each of them
             </profile>
           </profiles>
           <costs>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="-1.0"/>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="-2.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="faf5-9c31-19a6-770e" name="Vow of the Beastslayer" hidden="false" collective="false" import="true" type="upgrade">
@@ -6060,6 +6260,8 @@ If any Dreadblades from your army have any Damnations, roll 2D6 for each of them
           </profiles>
           <costs>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="-1.0"/>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5bf1-909b-b5ec-e24c" name="Vow of Carnage" hidden="false" collective="false" import="true" type="upgrade">
@@ -6075,6 +6277,8 @@ If any Dreadblades from your army have any Damnations, roll 2D6 for each of them
           </profiles>
           <costs>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="-1.0"/>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -6101,7 +6305,7 @@ If any Dreadblades from your army have any Damnations, roll 2D6 for each of them
           </conditionGroups>
         </modifier>
       </modifiers>
-      <description>When a model with this ambition made a charge move, was charged, or performed a Heroic Intervention, add 1 to the model&apos;s Attacks characteristic until the end of the turn, and the Armour Penetration characteristic of melee weapons the model is equipped with is improved by 1 until the end of the the turn (e.g. AP 0 becomes AP -1). In addition, when an enemy unit fails a Morale test whilst within 12&quot; of any models with this ambition, one extra model flees the unit.</description>
+      <description>When a model with this ambition made a charge move, was charged, or performed a Heroic Intervention, add 1 to the model&apos;s Attacks characteristic until the end of the turn, and the Armour Penetration characteristic of melee weapons the model is equipped with is improved by 1 until the end of the turn (e.g. AP 0 becomes AP -1). In addition, when an enemy unit fails a Morale test whilst within 12&quot; of any models with this ambition, one extra model flees the unit.</description>
     </rule>
     <rule id="4687-50b6-bc4e-e9e2" name="Daemonic Surge" hidden="false">
       <modifiers>
@@ -6203,7 +6407,7 @@ there, and when it does it can be moved within Engagement Range of such models, 
         <characteristic name="S" typeId="59b1-319e-ec13-d466">x2</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">6</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When resolving an attack made with this weapon, you can re-roll the hit roll and re-roll the wound roll. WHen a CHARACTER model is destroyed as a result an attack made with this weapon, add 1 to the bearer&apos;s Strength and 1 to their Attacks characteristic.</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When resolving an attack made with this weapon, you can re-roll the hit roll and re-roll the wound roll. When a CHARACTER model is destroyed as a result of an attack made with this weapon, add 1 to the bearer&apos;s Strength and 1 to their Attacks characteristic.</characteristic>
       </characteristics>
     </profile>
     <profile id="bde1-472d-b412-265f" name="Empyreal Preysight" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="dab7-e076-dd5e-d8aa" name="Imperium - FW Adeptus Astartes" revision="75" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="Acebaur" authorUrl="https://discord.gg/KqPVhds" library="true" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="154" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="dab7-e076-dd5e-d8aa" name="Imperium - FW Adeptus Astartes" revision="77" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="Acebaur" authorUrl="https://discord.gg/KqPVhds" library="true" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="156" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="dab7-e076-pubN133616" name="Codex: Space Wolves"/>
     <publication id="dab7-e076-pubN151451" name="Astraeus Super-heavy Tank PDF"/>
@@ -2226,7 +2226,7 @@
         </profile>
         <profile id="59c2-4b7e-a39d-3b44" name="Transport" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <modifiers>
-            <modifier type="set" field="21befb24-fc85-4f52-a745-64b2e48f8228" value="This model can transport 6 &lt;CHAPTER&gt; INFANTRY models. Each TERMINATOR or JUMP PACK modeltakes up the space of two other models, and each CENTURION model takes up the space of three models. Itcannot transport PRIMARIS models.">
+            <modifier type="set" field="21befb24-fc85-4f52-a745-64b2e48f8228" value="This model can transport 6 &lt;CHAPTER&gt; INFANTRY models. Each TERMINATOR or JUMP PACK model takes up the space of two other models, and each CENTURION model takes up the space of three models. it cannot transport PRIMARIS models.">
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
@@ -2238,7 +2238,7 @@
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model can transport 10 &lt;CHAPTER&gt; INFANTRY models. Each TERMINATOR or JUMP PACK modeltakes up the space of two other models, and each CENTURION model takes up the space of three models. Itcannot transport PRIMARIS models.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model can transport 10 &lt;CHAPTER&gt; INFANTRY models. Each TERMINATOR or JUMP PACK model takes up the space of two other models, and each CENTURION model takes up the space of three models. it cannot transport PRIMARIS models.</characteristic>
           </characteristics>
         </profile>
         <profile id="7fc0-861c-8d44-8a62" name="Relic Land Raider Proteus" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
@@ -2260,7 +2260,6 @@
       <infoLinks>
         <infoLink id="acf2-be44-6893-2f77" name="Land Raider Proteus" hidden="false" targetId="7057-5a6b-eb17-ade2" type="profile"/>
         <infoLink id="3d93-f741-e097-4cfa" name="Smoke Launchers" hidden="false" targetId="4809-9c02-652d-605f" type="profile"/>
-        <infoLink id="a99e-4343-5cde-a71b" name="Power of the Machine Spirit" hidden="false" targetId="81fe-08c3-81fb-9467" type="profile"/>
         <infoLink id="7d8a-b069-17a7-2864" name="Relic" hidden="false" targetId="e81b-dc9a-010d-40e8" type="rule"/>
         <infoLink id="93a3-ee77-8cb4-fba2" name="Angels of Death" hidden="false" targetId="01a4-bec8-b573-fde7" type="rule"/>
       </infoLinks>
@@ -2394,7 +2393,6 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="b44e-10e2-6c97-445b" name="Power of the Machine Spirit" hidden="false" targetId="81fe-08c3-81fb-9467" type="profile"/>
         <infoLink id="804f-d0d1-8530-61af" name="Smoke Launchers" hidden="false" targetId="4809-9c02-652d-605f" type="profile"/>
         <infoLink id="131d-7b02-ac19-4dc3" name="Land Raider Helios" hidden="false" targetId="c73b-ff10-60ff-d033" type="profile"/>
         <infoLink id="8647-bd6b-45ff-da2b" name="Angels of Death" hidden="false" targetId="01a4-bec8-b573-fde7" type="rule"/>
@@ -2480,7 +2478,6 @@
       </profiles>
       <infoLinks>
         <infoLink id="5966-89f7-59b2-f3ef" name="Land Raider Prometheus" hidden="false" targetId="24b2-f93d-91b9-ccac" type="profile"/>
-        <infoLink id="72ef-af95-2acf-c2b7" name="Power of the Machine Spirit" hidden="false" targetId="81fe-08c3-81fb-9467" type="profile"/>
         <infoLink id="8cef-6169-f197-f048" name="Smoke Launchers" hidden="false" targetId="4809-9c02-652d-605f" type="profile"/>
         <infoLink id="c748-c720-3823-0311" name="Battle Auspex" hidden="false" targetId="297c-9dd8-f7bc-86df" type="profile"/>
         <infoLink id="8a1a-3592-4685-a012" name="Command Relay" hidden="false" targetId="11a3-5870-dd26-3ff5" type="profile"/>
@@ -2586,7 +2583,6 @@
         <infoLink id="01c7-0d85-9b7c-2673" name="Land Raider Achilles" hidden="false" targetId="11e6-b1ef-1bc4-aa51" type="profile"/>
         <infoLink id="5fb6-b9e9-3964-cf79" name="Inviolate Armour" hidden="false" targetId="d9e1-aa12-e0fa-35b2" type="profile"/>
         <infoLink id="b2b3-3934-1aa3-220a" name="Smoke Launchers" hidden="false" targetId="4809-9c02-652d-605f" type="profile"/>
-        <infoLink id="fa84-a2a2-f379-e54a" name="Power of the Machine Spirit" hidden="false" targetId="81fe-08c3-81fb-9467" type="profile"/>
         <infoLink id="062b-816f-29bc-bd27" name="Angels of Death" hidden="false" targetId="01a4-bec8-b573-fde7" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -2817,7 +2813,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="be67-65b2-5472-8af0" name="Strategem: March of the Ancients" hidden="false" collective="false" import="true" targetId="46b3-cb0f-85c5-0e31" type="selectionEntry"/>
+        <entryLink id="be67-65b2-5472-8af0" name="Stratagem: March of the Ancients" hidden="false" collective="false" import="true" targetId="46b3-cb0f-85c5-0e31" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="7.0"/>
@@ -2937,7 +2933,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="936c-f15f-3110-cb00" name="Strategem: March of the Ancients" hidden="false" collective="false" import="true" targetId="46b3-cb0f-85c5-0e31" type="selectionEntry"/>
+        <entryLink id="936c-f15f-3110-cb00" name="Stratagem: March of the Ancients" hidden="false" collective="false" import="true" targetId="46b3-cb0f-85c5-0e31" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="8.0"/>
@@ -5069,7 +5065,6 @@
       </profiles>
       <infoLinks>
         <infoLink id="0a51-e642-607d-12bc" name="Relic Spartan" hidden="false" targetId="77af-dffe-da83-20b5" type="profile"/>
-        <infoLink id="7aa5-2920-6339-1be8" name="Power of the Machine Spirit" hidden="false" targetId="81fe-08c3-81fb-9467" type="profile"/>
         <infoLink id="7794-d1b3-d47c-3e2e" name="Smoke Launchers" hidden="false" targetId="4809-9c02-652d-605f" type="profile"/>
         <infoLink id="ab16-56ac-c315-43ac" name="Steel Behemoth" hidden="false" targetId="2fe7-c29a-da8a-ab83" type="profile"/>
         <infoLink id="e6f6-2e55-b383-fa18" name="Relic" hidden="false" targetId="e81b-dc9a-010d-40e8" type="rule"/>
@@ -5236,7 +5231,6 @@
       </profiles>
       <infoLinks>
         <infoLink id="8cd0-e114-8782-4817" name="Relic Typhon" hidden="false" targetId="205c-d18b-1d7b-11f1" type="profile"/>
-        <infoLink id="22ed-762d-1930-3259" name="Power of the Machine Spirit" hidden="false" targetId="81fe-08c3-81fb-9467" type="profile"/>
         <infoLink id="6f8b-a8e0-9b90-49b9" name="Smoke Launchers" hidden="false" targetId="4809-9c02-652d-605f" type="profile"/>
         <infoLink id="b518-5ffa-2582-efa4" name="Steel Behemoth" hidden="false" targetId="2fe7-c29a-da8a-ab83" type="profile"/>
         <infoLink id="de18-4c95-e7d4-da8c" name="Relic" hidden="false" targetId="e81b-dc9a-010d-40e8" type="rule"/>
@@ -5389,7 +5383,6 @@
       </profiles>
       <infoLinks>
         <infoLink id="1a37-68d1-5d5c-8908" name="Relic Cerberus" hidden="false" targetId="0c23-0782-a67d-c7ea" type="profile"/>
-        <infoLink id="2ed6-8f7c-d211-49ea" name="Power of the Machine Spirit" hidden="false" targetId="81fe-08c3-81fb-9467" type="profile"/>
         <infoLink id="acc0-5e12-56d7-ac33" name="Smoke Launchers" hidden="false" targetId="4809-9c02-652d-605f" type="profile"/>
         <infoLink id="ef98-3303-e678-2643" name="Steel Behemoth" hidden="false" targetId="2fe7-c29a-da8a-ab83" type="profile"/>
         <infoLink id="24d1-adfa-2507-62b9" name="Relic" hidden="false" targetId="e81b-dc9a-010d-40e8" type="rule"/>
@@ -5542,7 +5535,6 @@
       </profiles>
       <infoLinks>
         <infoLink id="80b1-52e4-8873-309f" name="Relic Fellblade" hidden="false" targetId="bd3b-40a7-cabc-60ea" type="profile"/>
-        <infoLink id="d6a7-6a88-ee09-c86f" name="Power of the Machine Spirit" hidden="false" targetId="81fe-08c3-81fb-9467" type="profile"/>
         <infoLink id="9d2d-12d3-bf1d-3b5a" name="Smoke Launchers" hidden="false" targetId="4809-9c02-652d-605f" type="profile"/>
         <infoLink id="3bb4-f74c-6f26-e92f" name="Steel Behemoth" hidden="false" targetId="2fe7-c29a-da8a-ab83" type="profile"/>
         <infoLink id="28ea-6514-f554-35cc" name="Relic" hidden="false" targetId="e81b-dc9a-010d-40e8" type="rule"/>
@@ -5720,7 +5712,6 @@
       </profiles>
       <infoLinks>
         <infoLink id="3b22-26d1-3059-6196" name="Relic Falchion" hidden="false" targetId="d078-51d7-4c63-8b83" type="profile"/>
-        <infoLink id="a828-291b-50eb-b8ef" name="Power of the Machine Spirit" hidden="false" targetId="81fe-08c3-81fb-9467" type="profile"/>
         <infoLink id="b6ad-659b-8b29-d0b1" name="Smoke Launchers" hidden="false" targetId="4809-9c02-652d-605f" type="profile"/>
         <infoLink id="8cd2-21f5-f6f7-2e19" name="Steel Behemoth" hidden="false" targetId="2fe7-c29a-da8a-ab83" type="profile"/>
         <infoLink id="5488-bcfc-6d44-600a" name="Relic" hidden="false" targetId="e81b-dc9a-010d-40e8" type="rule"/>
@@ -5859,7 +5850,7 @@
         </profile>
         <profile id="0cf5-7d39-1897-6631" name="Transport" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="Transport">
           <characteristics>
-            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">This model can transport 40 &lt;CHAPTER&gt; INFANTRY mdels (each TERMINATOR and JUMP PACK model takes up the space of two other models, and each CENTURION takes up the space of three other models). It may also transport up to two DREADNOUGHTS, IRONCLAD DREADNOUGHTS, VENERABLE DREADNOUGHTS or CONTEMPTOR DREADNOUGHTS, each taking up the space of ten models. It cannot transport PRIMARIS models.</characteristic>
+            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">This model can transport 40 &lt;CHAPTER&gt; INFANTRY models (each TERMINATOR and JUMP PACK model takes up the space of two other models, and each CENTURION takes up the space of three other models). It may also transport up to two DREADNOUGHTS, IRONCLAD DREADNOUGHTS, VENERABLE DREADNOUGHTS or CONTEMPTOR DREADNOUGHTS, each taking up the space of ten models. It cannot transport PRIMARIS models.</characteristic>
           </characteristics>
         </profile>
         <profile id="5b6f-d4e4-feaf-928c" name="Relic Mastodon Super-heavy Siege Transport 1" hidden="false" typeId="8760-b4e3-100c-cd59" typeName="Void Shield Wound Track">
@@ -5892,7 +5883,6 @@
       </profiles>
       <infoLinks>
         <infoLink id="449c-d016-4871-d782" name="Relic Mastodon" hidden="false" targetId="f1fe-3445-f59c-1f43" type="profile"/>
-        <infoLink id="897a-c3e0-a360-9a51" name="Power of the Machine Spirit" hidden="false" targetId="81fe-08c3-81fb-9467" type="profile"/>
         <infoLink id="5d80-f55c-17db-54ca" name="Smoke Launchers" hidden="false" targetId="4809-9c02-652d-605f" type="profile"/>
         <infoLink id="1a15-b4d3-2726-e2f6" name="Void Shields" hidden="false" targetId="8b27-d7c7-3509-8101" type="profile"/>
         <infoLink id="d874-d536-d9f0-d2ab" name="Steel Behemoth" hidden="false" targetId="2fe7-c29a-da8a-ab83" type="profile"/>
@@ -6148,7 +6138,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8cc-5068-5676-2692" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="3df7-83c6-3eb6-7dd4" name="Strategem: March of the Ancients" hidden="false" collective="false" import="true" targetId="46b3-cb0f-85c5-0e31" type="selectionEntry"/>
+        <entryLink id="3df7-83c6-3eb6-7dd4" name="Stratagem: March of the Ancients" hidden="false" collective="false" import="true" targetId="46b3-cb0f-85c5-0e31" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="9.0"/>
@@ -6291,7 +6281,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="b418-9905-242a-7fb0" name="Strategem: March of the Ancients" hidden="false" collective="false" import="true" targetId="46b3-cb0f-85c5-0e31" type="selectionEntry"/>
+        <entryLink id="b418-9905-242a-7fb0" name="Stratagem: March of the Ancients" hidden="false" collective="false" import="true" targetId="46b3-cb0f-85c5-0e31" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="13.0"/>
@@ -6446,7 +6436,7 @@
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed0e-f7e6-525e-2f8e" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="5dd7-0008-5d20-2f29" name="Strategem: March of the Ancients" hidden="false" collective="false" import="true" targetId="46b3-cb0f-85c5-0e31" type="selectionEntry"/>
+        <entryLink id="5dd7-0008-5d20-2f29" name="Stratagem: March of the Ancients" hidden="false" collective="false" import="true" targetId="46b3-cb0f-85c5-0e31" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="18.0"/>
@@ -6642,7 +6632,7 @@
         <infoLink id="bdd0-d12e-3027-e37d" name="Airborne" hidden="false" targetId="fd93-c4d6-1fc9-4962" type="profile"/>
         <infoLink id="73d6-4e8e-c93d-313e" name="Hard to Hit" hidden="false" targetId="7bd8-1f08-6aa1-e9b5" type="profile"/>
         <infoLink id="62c3-ddf0-673a-78ea" name="Supersonic" hidden="false" targetId="814d-7e63-7729-0951" type="profile"/>
-        <infoLink id="f563-f243-2a82-1d4d" name="Teminal targeting" hidden="false" targetId="6f45-8ece-1ff4-6a44" type="profile"/>
+        <infoLink id="f563-f243-2a82-1d4d" name="Terminal targeting" hidden="false" targetId="6f45-8ece-1ff4-6a44" type="profile"/>
         <infoLink id="bc9c-a9da-ddbf-2ebc" name="Skyborn Predator" hidden="false" targetId="8bfe-dcbd-8160-daa4" type="profile"/>
         <infoLink id="389f-5ced-4d9c-5b53" name="Angels of Death" hidden="false" targetId="01a4-bec8-b573-fde7" type="rule"/>
       </infoLinks>
@@ -6728,7 +6718,6 @@
         <infoLink id="f45e-958b-e1b2-e513" name="Airborne" hidden="false" targetId="fd93-c4d6-1fc9-4962" type="profile"/>
         <infoLink id="c87b-3b7f-38fe-baf1" name="Hard to Hit" hidden="false" targetId="7bd8-1f08-6aa1-e9b5" type="profile"/>
         <infoLink id="7c5e-47b2-b743-9c5a" name="Supersonic" hidden="false" targetId="814d-7e63-7729-0951" type="profile"/>
-        <infoLink id="c524-9c81-c51f-7fa5" name="Power of the Machine Spirit" hidden="false" targetId="81fe-08c3-81fb-9467" type="profile"/>
         <infoLink id="ae6c-665c-01ad-05ca" name="Hover Jet" hidden="false" targetId="4115-4d44-8d97-a0c9" type="profile"/>
         <infoLink id="180f-9bb7-4a8e-6530" name="Angels of Death" hidden="false" targetId="01a4-bec8-b573-fde7" type="rule"/>
       </infoLinks>
@@ -6885,7 +6874,6 @@
         <infoLink id="17dc-7b17-80ea-2875" name="Airborne" hidden="false" targetId="fd93-c4d6-1fc9-4962" type="profile"/>
         <infoLink id="dd1e-0d7a-c1ba-0a8a" name="Hard to Hit" hidden="false" targetId="7bd8-1f08-6aa1-e9b5" type="profile"/>
         <infoLink id="5601-abe2-d641-8fd3" name="Supersonic" hidden="false" targetId="814d-7e63-7729-0951" type="profile"/>
-        <infoLink id="c452-cf50-f182-cbde" name="Power of the Machine Spirit" hidden="false" targetId="81fe-08c3-81fb-9467" type="profile"/>
         <infoLink id="9d4e-e35f-4e1e-8f0b" name="Hover Jet" hidden="false" targetId="4115-4d44-8d97-a0c9" type="profile"/>
         <infoLink id="abc1-0a73-8dab-16ae" name="Angels of Death" hidden="false" targetId="01a4-bec8-b573-fde7" type="rule"/>
       </infoLinks>
@@ -7162,7 +7150,6 @@
         <infoLink id="9fd3-2cdd-6820-86d9" name="Airborne Ram" hidden="false" targetId="3eef-35d2-719f-6ac6" type="profile"/>
         <infoLink id="2ba0-9071-2d59-27ef" name="Hard to Hit" hidden="false" targetId="7bd8-1f08-6aa1-e9b5" type="profile"/>
         <infoLink id="3f6f-3660-f2f8-887d" name="Supersonic" hidden="false" targetId="814d-7e63-7729-0951" type="profile"/>
-        <infoLink id="311d-7a6d-f4d0-413e" name="Power of the Machine Spirit" hidden="false" targetId="81fe-08c3-81fb-9467" type="profile"/>
         <infoLink id="67cd-3838-715b-ad43" name="Hover Jet" hidden="false" targetId="4115-4d44-8d97-a0c9" type="profile"/>
         <infoLink id="e78a-0346-b3d8-832b" name="Angels of Death" hidden="false" targetId="01a4-bec8-b573-fde7" type="rule"/>
       </infoLinks>
@@ -7274,7 +7261,6 @@
         <infoLink id="bfa9-dfaf-130e-7cb6" name="Supersonic" hidden="false" targetId="814d-7e63-7729-0951" type="profile"/>
         <infoLink id="97ce-5d90-ba9a-a890" name="Void-hardened Hull" hidden="false" targetId="a946-466a-6246-db28" type="profile"/>
         <infoLink id="c509-9906-c49a-ce30" name="Hover Jet (Colossal)" hidden="false" targetId="60a5-489c-080a-35b5" type="profile"/>
-        <infoLink id="e4b4-3a2b-0b30-712f" name="Power of the Machine Spirit" hidden="false" targetId="81fe-08c3-81fb-9467" type="profile"/>
         <infoLink id="fa76-8ded-5cdc-defb" name="Angels of Death" hidden="false" targetId="01a4-bec8-b573-fde7" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -7409,7 +7395,6 @@
         <infoLink id="a619-e5e3-fdb4-874e" name="Supersonic" hidden="false" targetId="814d-7e63-7729-0951" type="profile"/>
         <infoLink id="12b3-149f-9cbd-239d" name="Void-hardened Hull" hidden="false" targetId="a946-466a-6246-db28" type="profile"/>
         <infoLink id="c3bf-2048-ed7e-f620" name="Hover Jet (Colossal)" hidden="false" targetId="60a5-489c-080a-35b5" type="profile"/>
-        <infoLink id="dd51-9a5b-4acd-f961" name="Power of the Machine Spirit" hidden="false" targetId="81fe-08c3-81fb-9467" type="profile"/>
         <infoLink id="045e-551e-da8a-6bf5" name="Angels of Death" hidden="false" targetId="01a4-bec8-b573-fde7" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -7502,7 +7487,6 @@
         <infoLink id="f492-7c88-c575-6a7a" name="Supersonic" hidden="false" targetId="814d-7e63-7729-0951" type="profile"/>
         <infoLink id="9176-211d-e265-22c9" name="Void-hardened Hull" hidden="false" targetId="a946-466a-6246-db28" type="profile"/>
         <infoLink id="3b17-b54a-e8e6-c23a" name="Hover Jet (Colossal)" hidden="false" targetId="60a5-489c-080a-35b5" type="profile"/>
-        <infoLink id="48ff-c364-bd38-4253" name="Power of the Machine Spirit" hidden="false" targetId="81fe-08c3-81fb-9467" type="profile"/>
         <infoLink id="16a7-8104-e20e-2c5f" name="Projected Void Shields" hidden="false" targetId="cd78-32d7-72bf-0307" type="profile"/>
         <infoLink id="c61a-2f19-546e-a990" name="Shield Projection" hidden="false" targetId="adf0-bca7-6f27-3a67" type="profile"/>
         <infoLink id="dc40-158f-6cad-6502" name="Angels of Death" hidden="false" targetId="01a4-bec8-b573-fde7" type="rule"/>
@@ -8535,7 +8519,6 @@
       </profiles>
       <infoLinks>
         <infoLink id="fa40-ebec-d4c1-c38e" name="Astraeus Super-heavy Tank" hidden="false" targetId="0b59-f388-743e-b9ef" type="profile"/>
-        <infoLink id="be43-a211-cae4-45a9" name="Power of the Machine Spirit" hidden="false" targetId="81fe-08c3-81fb-9467" type="profile"/>
         <infoLink id="21c0-4ac4-c8d4-048f" name="Hover Tank" hidden="false" targetId="f4db-15ae-5964-cca7" type="profile"/>
         <infoLink id="81a5-1f42-5e06-544a" name="Steel Behemoth (Astraeus)" hidden="false" targetId="0a4b-38ea-38f1-c7a9" type="profile"/>
         <infoLink id="129a-7a4f-8b2a-fd98" name="Void Shields" hidden="false" targetId="8b27-d7c7-3509-8101" type="profile">
@@ -9205,102 +9188,6 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d708-a325-b0c4-67a5" name="Termite Assault Drill" hidden="false" collective="false" import="true" type="unit">
-      <profiles>
-        <profile id="1e4f-97f1-7239-c90c" name="Explodes" hidden="false" typeId="0891-2df5-19c2-de63" typeName="Explosion">
-          <characteristics>
-            <characteristic name="Dice roll" typeId="9e34-51af-99cf-45fa">6</characteristic>
-            <characteristic name="Distance" typeId="4dfd-0acf-1a52-f75b">6&quot;</characteristic>
-            <characteristic name="Mortal wounds" typeId="e715-f99d-6feb-6ceb">D3</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="5481-7d1f-3a60-7e19" name="Transport" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="Transport">
-          <characteristics>
-            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">This model can transport 12 &lt;CHAPTER&gt; INFANTRY models. It cannot transport JUMP PACK, TERMINATOR or PRIMARIS models.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="e0cb-fda9-7974-c45a" name="Termite Assault Drill" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
-          <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab"/>
-            <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">WS</characteristic>
-            <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">BS</characteristic>
-            <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">A</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="38ca-ae87-6a94-9f66" name="Termite Assault Drill 1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
-          <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">6-10+</characteristic>
-            <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">4+</characteristic>
-            <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">3+</characteristic>
-            <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">4</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="fe94-c375-90ba-b1fa" name="Termite Assault Drill 2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
-          <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">3-5</characteristic>
-            <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">5+</characteristic>
-            <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">4+</characteristic>
-            <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">3</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="2b69-5cf6-831a-c990" name="Termite Assault Drill 3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
-          <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">1-2</characteristic>
-            <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">6+</characteristic>
-            <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">5+</characteristic>
-            <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">D3</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="a782-29a4-cd84-449a" name="Termite Assault Drill" page="" hidden="false" targetId="67c3-498a-ae26-6b47" type="profile"/>
-        <infoLink id="d2dd-efb0-9d81-8a51" name="Subterranean Assault" hidden="false" targetId="5f03-cfb6-63f4-8896" type="profile"/>
-        <infoLink id="af7f-4ef9-1e63-6289" name="Breaching Tremor" hidden="false" targetId="6f58-0674-6e98-4cf3" type="profile"/>
-        <infoLink id="9f75-0d01-28b6-14aa" name="Angels of Death" hidden="false" targetId="01a4-bec8-b573-fde7" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="0e72-c704-c55a-3bd7" name="New CategoryLink" hidden="false" targetId="d743-4a7d-abd9-9018" primary="false"/>
-        <categoryLink id="e323-55be-f8fe-5efb" name="New CategoryLink" hidden="false" targetId="c7b7-edbc-bc14-6238" primary="false"/>
-        <categoryLink id="781c-a1b0-61a3-bfb8" name="New CategoryLink" hidden="false" targetId="1b66-3f5f-6705-079a" primary="true"/>
-        <categoryLink id="410a-294d-3fb7-f69f" name="New CategoryLink" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false"/>
-        <categoryLink id="5912-21f9-f2fd-8bfe" name="New CategoryLink" hidden="false" targetId="6cc4-1b62-8e8a-05cd" primary="false"/>
-        <categoryLink id="3fd2-4b96-29bf-68d7" name="New CategoryLink" hidden="false" targetId="e6f5-3320-3a2a-15f5" primary="false"/>
-        <categoryLink id="a4bb-b8e7-b046-e0cf" name="New CategoryLink" hidden="false" targetId="c8fd-783f-3230-493e" primary="false"/>
-      </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="d066-b548-4444-d12d" name="Armament" hidden="false" collective="false" import="true" defaultSelectionEntryId="c9ba-b5df-a3ea-8acf">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3219-c97d-c968-77f7" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbe4-8565-74bb-0385" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="a8b8-7ad4-7ef3-6db7" name="Heavy flamer" hidden="false" collective="false" import="true" targetId="18bc-b335-29c2-2ae2" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef43-5f88-b970-707f" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="c9ba-b5df-a3ea-8acf" name="Storm bolter" hidden="false" collective="false" import="true" targetId="2b03-8d64-3711-f300" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="18a5-2b2a-be34-49e3" type="max"/>
-              </constraints>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="2b00-caec-cc02-5951" name="Melta cutter" hidden="false" collective="false" import="true" targetId="3511-54ab-9da3-1e63" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6db5-7102-7369-509e" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d23-2c43-6c9b-3be1" type="max"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="130.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="8.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="ee33-18fd-7317-1171" name="Warlord" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="409e-94b1-f6b6-d262" type="max"/>
@@ -9384,7 +9271,7 @@
               <profiles>
                 <profile id="350d-4611-abd2-fa46" name="The Armour Indomitus" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The wearer of the Armour Indomitus has a Save characteristic of 2+. In addition, once per battle, before making one of the wearer&apos;s saving throws, you can choose to activate the armour&apos;s force field. When you do so, the Armour Indomitus confers a 3+ invulverable save for the remainder of the turn.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The wearer of the Armour Indomitus has a Save characteristic of 2+. In addition, once per battle, before making one of the wearer&apos;s saving throws, you can choose to activate the armour&apos;s force field. When you do so, the Armour Indomitus confers a 3+ invulnerable save for the remainder of the turn.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -9846,9 +9733,9 @@
           <selectionEntries>
             <selectionEntry id="677d-92c9-d341-ad3b" name="Brilliant Strategist" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="eb12-8eec-9002-a62e" name="Brilliant Stragegist" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                <profile id="eb12-8eec-9002-a62e" name="Brilliant Strategist" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per battle, if your Warlord is on the battlefie,d you can re-roll a single hit roll, wound roll, damage roll or saving throw. In addition, if your army is Battle-forged, roll a D6 each time you use a Stratagem; on a 5+ you gain 1 Command Point.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per battle, if your Warlord is on the battlefield you can re-roll a single hit roll, wound roll, damage roll or saving throw. In addition, if your army is Battle-forged, roll a D6 each time you use a Stratagem; on a 5+ you gain 1 Command Point.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -9909,12 +9796,12 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="ceb6-9fc9-9c0c-d56e" name="Master of Maneuvre" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="ceb6-9fc9-9c0c-d56e" name="Master of Manoeuvre" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c5a-14ec-56d9-d4db" type="max"/>
               </constraints>
               <profiles>
-                <profile id="50b7-5a6a-5d12-dc3b" name="Master of Maneuvre" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                <profile id="50b7-5a6a-5d12-dc3b" name="Master of Manoeuvre" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
                     <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll the dice used to determine how far friendly DARK ANGELS units Advance or charge if they are within 6&quot; of your Warlord.</characteristic>
                   </characteristics>
@@ -10059,7 +9946,7 @@
               <profiles>
                 <profile id="9569-fee8-e9f3-a28c" name="Saga of the Warrior Born" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can always choose for a unit affected by this saga in the Fight phase to fight first even if they didn&apos;t charge. If the enemy has units that have charged, or that have a similar ability, then alternate chooseing units to fight with, starting with the player whose turn is taking place.  Deed of Legend: Slay an enemy CHARACTER with your Warlord.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can always choose for a unit affected by this saga in the Fight phase to fight first even if they didn&apos;t charge. If the enemy has units that have charged, or that have a similar ability, then alternate choosing units to fight with, starting with the player whose turn is taking place.  Deed of Legend: Slay an enemy CHARACTER with your Warlord.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -10073,7 +9960,7 @@
               <profiles>
                 <profile id="9844-a744-6caf-1f6c" name="Saga of the Wolfkin" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If a unit is affectecd by this saga in the Fight phase, add 1 to the Attacks characteristic of all its models if it made a charge move, was charged, or performed a heroic intervention earlier in the same turn.  Deed of Legend: Slay a total of five models in the Fight phase with your Warlord (keep a tally from turn to turn). </characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If a unit is affected by this saga in the Fight phase, add 1 to the Attacks characteristic of all its models if it made a charge move, was charged, or performed a heroic intervention earlier in the same turn.  Deed of Legend: Slay a total of five models in the Fight phase with your Warlord (keep a tally from turn to turn). </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -10473,7 +10360,7 @@ In addition, when a Psychic test or Deny the Witch test is taken for a PSYKER mo
         <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon may not be fiired on any turn in which the model carrying it has moved. In addition, for each 24&quot; between the bearer and the target, increase the Strength by +2 and the Damage by +D3. If a model is ramoved from play as a casualty due to wouds caused by this weapon, then the target unit suffers 2D6 additional hits at Strength 6, AP 0, causing 1 Damage. These additional hits do not trigger further hits themselves.</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon may not be fired on any turn in which the model carrying it has moved. In addition, for each 24&quot; between the bearer and the target, increase the Strength by +2 and the Damage by +D3. If a model is removed from play as a casualty due to wounds caused by this weapon, then the target unit suffers 2D6 additional hits at Strength 6, AP 0, causing 1 Damage. These additional hits do not trigger further hits themselves.</characteristic>
       </characteristics>
     </profile>
     <profile id="1e79-bbf5-79e9-73e3" name="Castellum air defence missiles" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -11802,11 +11689,6 @@ In addition, when a Psychic test or Deny the Witch test is taken for a PSYKER mo
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A model with this ability has a 5+ invulnerable save.</characteristic>
       </characteristics>
     </profile>
-    <profile id="81fe-08c3-81fb-9467" name="Power of the Machine Spirit" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-      <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model does not suffer the penalty to hit rolls for moving and firing Heavy weapons.</characteristic>
-      </characteristics>
-    </profile>
     <profile id="7057-5a6b-eb17-ade2" name="Land Raider Proteus" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
       <characteristics>
         <characteristic name="M" typeId="0bdf-a96e-9e38-7779">*</characteristic>
@@ -11902,7 +11784,7 @@ In addition, when a Psychic test or Deny the Witch test is taken for a PSYKER mo
     </profile>
     <profile id="ec07-50ef-7c00-b5cb" name="Fragstorm Launchers" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model finishes acharge move within 1&quot; of an enemy unit, roll a D6. On a 4+, that unit suffers D3 mortal wounds.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model finishes a charge move within 1&quot; of an enemy unit, roll a D6. On a 4+, that unit suffers D3 mortal wounds.</characteristic>
       </characteristics>
     </profile>
     <profile id="b81a-7ad7-6a5d-7d81" name="Contemptor Mortis" page="26" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
@@ -12216,7 +12098,7 @@ In addition, when a Psychic test or Deny the Witch test is taken for a PSYKER mo
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time this model moves, first pivot it on the spot up to 90° (this does not contribute to how far the model moves) and then move the model straight forwards. Not that it cannot pivot again after the initial pivot. When this model Advances, increase its Move characteristic by 20&quot; until the end of the phase - do not roll a dice.</characteristic>
       </characteristics>
     </profile>
-    <profile id="6f45-8ece-1ff4-6a44" name="Teminal Targeting" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="6f45-8ece-1ff4-6a44" name="Terminal Targeting" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model does not suffer the penalty to hit rolls for moving and firing Heavy weapons.</characteristic>
       </characteristics>
@@ -12444,7 +12326,7 @@ In addition, when a Psychic test or Deny the Witch test is taken for a PSYKER mo
     </profile>
     <profile id="813c-413f-ff72-bf1c" name="Artillery" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The Rapier Carrier can only fire its weapon if at least one of the Space Marine Gunners it was deployed with is within 3&quot;. If both of the Space Marine Gunners the Rapier Carrier was depolyed with are slain, the Rapier Carrier is also removed as slain.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The Rapier Carrier can only fire its weapon if at least one of the Space Marine Gunners it was deployed with is within 3&quot;. If both of the Space Marine Gunners the Rapier Carrier was deployed with are slain, the Rapier Carrier is also removed as slain.</characteristic>
       </characteristics>
     </profile>
     <profile id="b548-09b5-d576-4528" name="Tarantula Sentry Gun" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
@@ -12566,7 +12448,7 @@ In addition, when a Psychic test or Deny the Witch test is taken for a PSYKER mo
     </profile>
     <profile id="b74a-0617-cf66-8c5e" name="Shield Gate Barriers" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Unless the Tacticus Bunker has been destroyed, all INFANTRY, DREADOUGHT or BIKE units on the Castellum Stronghold tile have a 4+ invulnerable save against Shooting attacks.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Unless the Tacticus Bunker has been destroyed, all INFANTRY, DREADNOUGHT or BIKE units on the Castellum Stronghold tile have a 4+ invulnerable save against Shooting attacks.</characteristic>
       </characteristics>
     </profile>
     <profile id="11a3-5870-dd26-3ff5" name="Command Relay" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -12637,7 +12519,7 @@ In addition, when a Psychic test or Deny the Witch test is taken for a PSYKER mo
     </profile>
     <profile id="cda4-bdb3-deb1-6af8" name="Blessing of the Omnissiah (Astral Claws)" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of your Movement phase. this model can repair a single ASTRAL CLAWS VEHICLE whithin 1&quot;. That model regains D3 lost wounds. A model can only be repaired once per turn.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of your Movement phase. This model can repair a single ASTRAL CLAWS VEHICLE within 1&quot;. That model regains D3 lost wounds. A model can only be repaired once per turn.</characteristic>
       </characteristics>
     </profile>
     <profile id="ee21-612c-b9ab-b823" name="Rites of Battle (Astral Claws/Tiger Claws)" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -12672,7 +12554,7 @@ In addition, when a Psychic test or Deny the Witch test is taken for a PSYKER mo
     </profile>
     <profile id="4aa0-1d4c-2350-59af" name="Undying Spite" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If Lord Asterion Molo is slain in the figh phase before he has fought, he immediatelly piles in and makes his attacks before being removed.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If Lord Asterion Molo is slain in the fight phase before he has fought, he immediately piles in and makes his attacks before being removed.</characteristic>
       </characteristics>
     </profile>
     <profile id="11f2-dee3-b6b4-90ac" name="Chapter Master (Minotaurs)" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -12687,7 +12569,7 @@ In addition, when a Psychic test or Deny the Witch test is taken for a PSYKER mo
     </profile>
     <profile id="85e9-3339-a07b-6c2e" name="Bane of the Damned" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Friendly RED SCORPIONS INFANTRY units within 6&quot; of Magister Sevrin Loth canre-roll failed wound rolls against PSYKERS.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Friendly RED SCORPIONS INFANTRY units within 6&quot; of Magister Sevrin Loth can re-roll failed wound rolls against PSYKERS.</characteristic>
       </characteristics>
     </profile>
     <profile id="30fe-5fc2-410b-94e8" name="The Armour of Selket" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -12737,7 +12619,7 @@ In addition, when a Psychic test or Deny the Witch test is taken for a PSYKER mo
     </profile>
     <profile id="3b4a-f36a-64d0-8da9" name="Grim Hunter" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Afte falling back, Lias Issodon may still shoot or Advance in the same turn, but may not charge.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">After falling back, Lias Issodon may still shoot or Advance in the same turn, but may not charge.</characteristic>
       </characteristics>
     </profile>
     <profile id="87e5-e096-8317-a4d9" name="Infiltrate, Isolate, Destroy" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -12747,7 +12629,7 @@ In addition, when a Psychic test or Deny the Witch test is taken for a PSYKER mo
     </profile>
     <profile id="f262-b76f-a579-a878" name="Master of Ambush" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up Lias Issodon and up to three friendly RAPTORS INFANTRY units (not including TERMINATORS, CENTURIONS or PRIMARIS units) in the shadows instead of placing them on the battlefield. At the end of any of your movement phases, Lias Issodon and any accompanying units can reveal themselves on the battlefield - set them up anywhwere on the battlefield that is more than 9&quot; away from enemy models.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up Lias Issodon and up to three friendly RAPTORS INFANTRY units (not including TERMINATORS, CENTURIONS or PRIMARIS units) in the shadows instead of placing them on the battlefield. At the end of any of your movement phases, Lias Issodon and any accompanying units can reveal themselves on the battlefield - set them up anywhere on the battlefield that is more than 9&quot; away from enemy models.</characteristic>
       </characteristics>
     </profile>
     <profile id="4d6d-94bb-b2b9-e64f" name="Stealth Modified Armour" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -12957,7 +12839,7 @@ In addition, when a Psychic test or Deny the Witch test is taken for a PSYKER mo
         <characteristic name="S" typeId="59b1-319e-ec13-d466">x2</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When resolving an attack made with this porfile, subtract 1 from the hit roll, and a wound roll of 6+ inflicts 1 mortal wound on the target in addition to any other damage.</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When resolving an attack made with this profile, subtract 1 from the hit roll, and a wound roll of 6+ inflicts 1 mortal wound on the target in addition to any other damage.</characteristic>
       </characteristics>
     </profile>
     <profile id="eb63-fe95-cee1-5b8a" name="God-splitter, Sweeping Blows" publicationId="eaff-9d37-65fa-35a2" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">

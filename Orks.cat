@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="11b5-77b9-31bf-7b74" name="Orks" revision="88" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Tag8833" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="153" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="11b5-77b9-31bf-7b74" name="Orks" revision="93" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Tag8833" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="153" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="11b5-77b9-pubN65537" name="Codex: Orks"/>
     <publication id="7add-2f4d-3d89-78df" name="White Dwarf May 2020" shortName="WD520" publisher="White Dwarf" publisherUrl="May 2020"/>
@@ -97,11 +97,10 @@
     <categoryEntry id="5ed3-1da6-32fe-c3a2" name="Battlewagon" hidden="false"/>
     <categoryEntry id="333e-4a17-5197-ddb3" name="Deff Dread" hidden="false"/>
     <categoryEntry id="06fd-96ed-49f8-8b07" name="Killa Kans" hidden="false"/>
-    <categoryEntry id="6562-99dc-d2f5-0863" name="Gorkanaunt" hidden="false"/>
+    <categoryEntry id="6562-99dc-d2f5-0863" name="Gorkanaut" hidden="false"/>
     <categoryEntry id="9052-f7b4-95fa-16f6" name="Lootas" hidden="false"/>
     <categoryEntry id="8253-2ac7-7fc4-8387" name="Morkanaut" hidden="false"/>
     <categoryEntry id="f76c-e1e9-4ded-f652" name="Stompa" hidden="false"/>
-    <categoryEntry id="fb3e-2eaa-d312-76b0" name="Titanic" hidden="false"/>
     <categoryEntry id="abc4-649b-dfbe-9092" name="Tankbustas" hidden="false"/>
     <categoryEntry id="dbc7-a07e-669d-a235" name="Faction: Evil Sunz" hidden="false"/>
     <categoryEntry id="deab-99bf-5edc-140a" name="Zhadsnark Da Ripper" hidden="false"/>
@@ -1131,9 +1130,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">2D6</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-5</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time this unit is chosen to shoot with, roll once to determine the Strength characteristic of this weapon. If the result is 11+ each successful hit inflicts D3 mortal wounds on the target in addition to any normal damage. Blast.
-
-Blast</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time this unit is chosen to shoot with, roll once to determine the Strength characteristic of this weapon. If the result is 11+ each successful hit inflicts D3 mortal wounds on the target in addition to any normal damage. Blast.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1841,7 +1838,7 @@ When rolling to wound this unit, use the Big Mek’s Toughness while it is on th
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4915-751e-0f0b-a656" type="max"/>
       </constraints>
       <profiles>
-        <profile id="349e-8a45-502d-7fdb" name="Ghazghkul Thraka" publicationId="11b5-77b9-pubN65537" page="84" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="349e-8a45-502d-7fdb" name="Ghazghkull Thraka" publicationId="11b5-77b9-pubN65537" page="84" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">*</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">2+</characteristic>
@@ -3990,7 +3987,7 @@ When rolling to wound this unit, use the Big Mek’s Toughness while it is on th
       <profiles>
         <profile id="d652-d53c-bf8f-888d" name="Full Throttle" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When this unit advances you can add 6&quot; to it&apos;s movement rather than rolling a dice. But if you do so, you roll a D6 for each model in the unit at the end of the phase;  for each roll of 1, the unit suffers 1 mortal wound.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When this unit advances you can add 6&quot; to its movement rather than rolling a dice. But if you do so, you roll a D6 for each model in the unit at the end of the phase;  for each roll of 1, the unit suffers 1 mortal wound.</characteristic>
           </characteristics>
         </profile>
         <profile id="3a04-f936-098a-323b" name="Stormboyz Strike" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -5466,7 +5463,7 @@ When rolling to wound this unit, use the Big Mek’s Toughness while it is on th
         </profile>
         <profile id="7a01-5911-f421-1d43" name="Grot Krew" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each Mek Gun and its grot krew are treated as a single model for all rules purposes.  the Krew must remain within 1&quot; of their Mek Gun and cannot be targeted or attacked separately.  The range and visibility of all attacks made by a Mek Gun are measured from the Mek Gun, not the krew.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each Mek Gun and its grot krew are treated as a single model for all rules purposes.  The Krew must remain within 1&quot; of their Mek Gun and cannot be targeted or attacked separately.  The range and visibility of all attacks made by a Mek Gun are measured from the Mek Gun, not the krew.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5673,7 +5670,7 @@ When rolling to wound this unit, use the Big Mek’s Toughness while it is on th
           <profiles>
             <profile id="3035-54b5-7f4f-57f8" name="&apos;ard Case" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model is equipped with an &apos;ard case, it&apos;s Toughness characteristic is increased by 1 and it loses the Open-topped ability.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model is equipped with an &apos;ard case, its Toughness characteristic is increased by 1 and it loses the Open-topped ability.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6709,7 +6706,7 @@ When rolling to wound this unit, use the Big Mek’s Toughness while it is on th
       <profiles>
         <profile id="7770-d670-a206-9cd0" name="Bigger &apos;n&apos; Stompier" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model is eligible to declare a charge in a turn in which it Fell Back. Each time this model makes a Normal Move, Advances or Falls Back, it can be moved across other models (exclud i ng Monster and Vehicle models) as if they were not there, and when it does it can be moved within Engagement Range of such models, but cannot finish its move within Engagement Range of any of them.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model is eligible to declare a charge in a turn in which it Fell Back. Each time this model makes a Normal Move, Advances or Falls Back, it can be moved across other models (excluding Monster and Vehicle models) as if they were not there, and when it does it can be moved within Engagement Range of such models, but cannot finish its move within Engagement Range of any of them.</characteristic>
           </characteristics>
         </profile>
         <profile id="b0fb-121e-923e-aea1" name="Stompa" publicationId="11b5-77b9-pubN65537" page="117" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
@@ -6793,7 +6790,7 @@ When rolling to wound this unit, use the Big Mek’s Toughness while it is on th
         <categoryLink id="b0ad-c558-5170-883a" name="New CategoryLink" hidden="false" targetId="6cc4-1b62-8e8a-05cd" primary="false"/>
         <categoryLink id="90e4-074f-aedb-96fb" name="New CategoryLink" hidden="false" targetId="f76c-e1e9-4ded-f652" primary="false"/>
         <categoryLink id="e317-3690-da27-6f56" name="New CategoryLink" hidden="false" targetId="c888f08a-6cea-4a01-8126-d374a9231554" primary="true"/>
-        <categoryLink id="4693-fb7e-79e8-f8d9" name="New CategoryLink" hidden="false" targetId="fb3e-2eaa-d312-76b0" primary="false"/>
+        <categoryLink id="3e42-0879-43e3-e966" name="Titanic" hidden="false" targetId="bdda-36f0-4f32-1639" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="e841-5528-69a2-3d29" name="Deffkannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -6932,18 +6929,6 @@ When rolling to wound this unit, use the Big Mek’s Toughness while it is on th
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="e37f-38e1-c1dc-730f" name="Tezdrek&apos;s Stompa Power Field" hidden="false" collective="false" import="true" targetId="e1a7-cfd9-6a33-c529" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a2e0-0ff7-462d-bb22" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf03-7af4-618e-7d27" type="max"/>
-          </constraints>
-        </entryLink>
         <entryLink id="21d4-35c8-f36d-43a2" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="c2ce-6759-e009-8c11" type="selectionEntryGroup"/>
         <entryLink id="13f7-f006-00fa-e304" name="Stratagem: Field Commander" hidden="false" collective="false" import="true" targetId="d043-3847-e963-fb5d" type="selectionEntry">
           <modifiers>
@@ -6957,6 +6942,7 @@ When rolling to wound this unit, use the Big Mek’s Toughness while it is on th
         <entryLink id="d18f-5c73-4a81-0a61" name="Stompa Mob Character" hidden="false" collective="false" import="true" targetId="a2e0-0ff7-462d-bb22" type="selectionEntry"/>
         <entryLink id="940b-fb9d-c91c-9a08" name="Kustom Job (Free)" hidden="false" collective="false" import="true" targetId="2439-995f-b05d-0894" type="selectionEntry"/>
         <entryLink id="6c55-7268-a2e0-2ea3" name="Kustom Job" hidden="false" collective="false" import="true" targetId="b856-70d6-9bd1-251b" type="selectionEntry"/>
+        <entryLink id="dc31-f458-ad68-15d6" name="Shiney Gubbinz" hidden="false" collective="false" import="true" targetId="04b0-dab2-123b-df51" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="46.0"/>
@@ -8065,7 +8051,7 @@ When rolling to wound this unit, use the Big Mek’s Toughness while it is on th
         </profile>
         <profile id="8432-6c23-2eac-a38a" name="Howdah" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models embarked on the Squiggoth can attack in their Shooting phase.  Measure the range and draw line of sight from any point on the Squiggoth.  When they do so, any restrictions of modifiers that apply to this Squiggoth also apply to its passengers, however if there are enemy units within 1&quot; of the Squiggoth, both its Heavy weapon slot and the unit embarked on the Squiggoth may fire their weapon as normal, but may not target the units currently within 1&quot; of the Squiggoth.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">In your Shooting phase, units embarked on this model can be selected to shoot. Measure the range and draw line of sight from any point on this model. When shooting with units embarked on this model, they do not count as being within Engagement Range of enemy units, and if this model made a Normal Move or Fell Back, they count as having Remained Stationary. Any other restrictions or modifiers that apply to this model also apply to models embarked upon it; for example, if this model Advanced, models embarked upon it also count as having Advanced.</characteristic>
           </characteristics>
         </profile>
         <profile id="72b3-cb3e-8e88-adf3" name="Stampede!" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -8154,12 +8140,12 @@ When rolling to wound this unit, use the Big Mek’s Toughness while it is on th
         </profile>
         <profile id="a185-1065-6696-9c52" name="Big n&apos; Stompy" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model can Fall Back in your Movement phase and still shoot and/or charge during its turn.  In addition, it can move and fire Heavy Weapons without suffering the penalty to its hit rolls.  This model only gains a bonus to its saving throws for being in cover if at least 1/2 of the model is obscured from the bearer.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model is eligible to declare a charge in a turn in which it Fell Back.</characteristic>
           </characteristics>
         </profile>
         <profile id="29fa-8952-1426-884e" name="Ramshackle Monster" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time a Meka-Dread loses a wound from any weapon, roll a D6 - on a roll of 4+, the wound is ignored.  The 1st time this roll is failed, the result needed is reduced to a 5+, and so on unti the roll fails on a 6+ and this ability may no longer be used.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time a Meka-Dread loses a wound from any weapon, roll a D6 - on a roll of 4+, the wound is ignored.  The 1st time this roll is failed, the result needed is reduced to a 5+, and so on until the roll fails on a 6+ and this ability may no longer be used.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9105,7 +9091,8 @@ When rolling to wound this unit, use the Big Mek’s Toughness while it is on th
         </profile>
         <profile id="2a01-5ca8-2013-b49d" name="Hang On!" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models embarked on a Kill Tank may attack in their Shooting phase, but may only hit on a 6+.  Measure range and draw line of sight from any point on this model.  When  they do so, any restrictions or modifiers that apply to this model also apply to its passengers.  For example, the passengers cannot shoot if the model has Fallen Back in the same turn, cannot shoot (except with pistols) if this model is within 1&quot; of an enemy unit, and so on.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models embarked on a Kill Tank may attack in their Shooting phase, but may only hit on a 6+.  Measure range and draw line of sight from any point on this model.  When  they do so, any restrictions or modifiers that apply to this model also apply to its passengers.  For example, the passengers cannot shoot if this model has Fallen Back in the same turn..  While this transport is within Engagement Range of any enemy units, embarked units cannot shoot, except with any Pistols they
+are equipped with.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9341,7 +9328,7 @@ When rolling to wound this unit, use the Big Mek’s Toughness while it is on th
       <profiles>
         <profile id="66ef-a4f4-6bb3-126b" name="Bigger &apos;n&apos; Stompier" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model can Fall Back in your Movement phase and still shoot and/or charge during its turn.  When a Stompa Falls Back, it can move over enemy INFANTRY models, though at the end of its move it must be more than 1&quot; from any enemy models.  A Stompa doesn&apos;t suffer the penalty for moving and firing Heavy weapons.  This model only gains a bonus to its saving throws for being in cover if at least half of the model is obscured from the firer.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model is eligible to declare a charge in a turn in which it Fell Back. Each time this model makes a Normal Move, Advances or Falls Back, it can be moved across other models (excluding Monster and Vehicle models) as if they were not there, and when it does it can be moved within Engagement Range of such models, but cannot finish its move within Engagement Range of any of them.</characteristic>
           </characteristics>
         </profile>
         <profile id="0504-15bb-9ff3-7777" name="Kustom Stompa" publicationId="03b4-8286-592c-c370" page="33" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
@@ -9424,8 +9411,8 @@ When rolling to wound this unit, use the Big Mek’s Toughness while it is on th
         <categoryLink id="5d85-4ef8-2f1c-f598" name="New CategoryLink" hidden="false" targetId="6cc4-1b62-8e8a-05cd" primary="false"/>
         <categoryLink id="8691-b925-a409-9d76" name="New CategoryLink" hidden="false" targetId="f76c-e1e9-4ded-f652" primary="false"/>
         <categoryLink id="b8d0-0f18-b2ee-f889" name="New CategoryLink" hidden="false" targetId="c888f08a-6cea-4a01-8126-d374a9231554" primary="true"/>
-        <categoryLink id="b0d9-b94a-ff01-c552" name="New CategoryLink" hidden="false" targetId="fb3e-2eaa-d312-76b0" primary="false"/>
         <categoryLink id="a2ee-5760-9eec-d9a8" name="New CategoryLink" hidden="false" targetId="9451-626d-1cb3-4907" primary="false"/>
+        <categoryLink id="ed3d-7229-96ba-a85e" name="Titanic" hidden="false" targetId="bdda-36f0-4f32-1639" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="fc5b-5eb7-779b-ee10" name="The Gaze of Mork" hidden="false" collective="false" import="true" type="upgrade">
@@ -9610,20 +9597,9 @@ When rolling to wound this unit, use the Big Mek’s Toughness while it is on th
         </entryLink>
         <entryLink id="506f-98a6-ae30-cdc0" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="c2ce-6759-e009-8c11" type="selectionEntryGroup"/>
         <entryLink id="7cb4-c4b8-7fd6-0eb0" name="Stompa Mob Character" hidden="false" collective="false" import="true" targetId="a2e0-0ff7-462d-bb22" type="selectionEntry"/>
-        <entryLink id="0e5d-de68-4049-0a7e" name="Tezdrek&apos;s Stompa Power Field" hidden="false" collective="false" import="true" targetId="e1a7-cfd9-6a33-c529" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a2e0-0ff7-462d-bb22" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b548-d206-cd64-63a0" type="max"/>
-          </constraints>
-        </entryLink>
         <entryLink id="3733-f653-6122-ff0a" name="Kustom Job" hidden="false" collective="false" import="true" targetId="b856-70d6-9bd1-251b" type="selectionEntry"/>
         <entryLink id="adad-da1b-26a7-506c" name="Kustom Job (Free)" hidden="false" collective="false" import="true" targetId="2439-995f-b05d-0894" type="selectionEntry"/>
+        <entryLink id="a6ae-64a3-7360-5a2d" name="Shiney Gubbinz" hidden="false" collective="false" import="true" targetId="04b0-dab2-123b-df51" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="58.0"/>
@@ -9696,12 +9672,12 @@ When rolling to wound this unit, use the Big Mek’s Toughness while it is on th
         </profile>
         <profile id="d5d6-27e9-9cb8-3dfc" name="Howdah" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models embarked on the Gargantuan Squiggoth can attack in their Shooting phase.  Measure the range and draw line of sight from any point on the Squiggoth.  When they do so, any restrictions of modifiers that apply to this Squiggoth also apply to its passengers, however if there are enemy units within 1&quot; of the Squiggoth, both its Heavy weapon slot and the unit embarked on the Squiggoth may fire their weapon as normal, but may not target the units currently within 1&quot; of the Squiggoth.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">In your Shooting phase, units embarked on this model can be selected to shoot. Measure the range and draw line of sight from any point on this model. When shooting with units embarked on this model, they do not count as being within Engagement Range of enemy units, and if this model made a Normal Move or Fell Back, they count as having Remained Stationary. Any other restrictions or modifiers that apply to this model also apply to models embarked upon it; for example, if this model Advanced, models embarked upon it also count as having Advanced.</characteristic>
           </characteristics>
         </profile>
         <profile id="6cf0-74ac-0472-200e" name="Stampede!" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time this model finishes a charge move, roll a D6 for each enemy unit within 1&quot; of it; on a 2+ that unit suffers D6 mortal wounds.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time this model finishes a charge move, roll a D6 for eachenemy unit within Engagement Range of it; on a 2+, that unit suffers D6 mortal wounds.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9871,6 +9847,7 @@ When rolling to wound this unit, use the Big Mek’s Toughness while it is on th
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="46b2-df57-7c2f-80d7" name="Mega Klaw" hidden="false" collective="false" import="true" type="upgrade">
@@ -11517,7 +11494,7 @@ When rolling to wound this unit, use the Big Mek’s Toughness while it is on th
         </profile>
         <profile id="1957-8c7a-159c-4f7e" name="Kustom Job" publicationId="11b5-77b9-pubN65537" page="118" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of your movement phase one ORK VEHICLE unit from your army that is within 1&quot; of this model can receive a Kustom Job.  If it does so, until the end of your turn, that unit cannot shoot or charge, and the attacks characteristic of models in that unit are reduced to 1, but you can choose and resolve one of the following effects.    More Speed - Until the end of your next Movement phase increase the move characteristic of models in the unit by 6&quot; In addition, roll a D6 to see if the unit receives something &apos;extra speshul&apos;; on a 6 Add 1&quot; to the unit&apos;s charge moves for the rest of the battle.    More Rivvets - That unit regains D3 wounds.  If there is a MEK or BIG MEK from your army within 1&quot; of this model that has not used it&apos;s mekaniak ability to repair a vehicle yet this turn it can oversee the kustom job; if it does so, the unit regains 3 lost wounds instead of D3, and the model that oversaw the Kustom Job cannot use it&apos;s big mekaniak or mekaniak this turn.  In addition, roll a D6 to see if the unit receives something &apos;extra speshul&apos;; on a 6 add 1 to the Toughness characteristic for models in that unit for the rest of the battle.   More Dakka - Chose one weapon (excluding a bubblechukka) that a model in that unit is equipped with.  The next time any models in the unit fire that weapon, the weapon makes the maximum number of attacks (e.g. a weapon with the Heavy 2D6 type will fire 12 shots). In addition, roll a D6 to see if the unit receives something &apos;extra speshul&apos;; on a 6 add 1 to the chosen weapon&apos;s Damage characteristic for the rest of the battle.    A unit can only receive a kustom job once per turn.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of your movement phase one ORK VEHICLE unit from your army that is within 1&quot; of this model can receive a Kustom Job.  If it does so, until the end of your turn, that unit cannot shoot or charge, and the attacks characteristic of models in that unit are reduced to 1, but you can choose and resolve one of the following effects.    More Speed - Until the end of your next Movement phase increase the move characteristic of models in the unit by 6&quot; In addition, roll a D6 to see if the unit receives something &apos;extra speshul&apos;; on a 6 Add 1&quot; to the unit&apos;s charge moves for the rest of the battle.    More Rivvets - That unit regains D3 wounds.  If there is a MEK or BIG MEK from your army within 1&quot; of this model that has not used it&apos;s mekaniak ability to repair a vehicle yet this turn it can oversee the kustom job; if it does so, the unit regains 3 lost wounds instead of D3, and the model that oversaw the Kustom Job cannot use it&apos;s big mekaniak or mekaniak this turn.  In addition, roll a D6 to see if the unit receives something &apos;extra speshul&apos;; on a 6 add 1 to the Toughness characteristic for models in that unit for the rest of the battle.   More Dakka - Choose one weapon (excluding a bubblechukka) that a model in that unit is equipped with.  The next time any models in the unit fire that weapon, the weapon makes the maximum number of attacks (e.g. a weapon with the Heavy 2D6 type will fire 12 shots). In addition, roll a D6 to see if the unit receives something &apos;extra speshul&apos;; on a 6 add 1 to the chosen weapon&apos;s Damage characteristic for the rest of the battle.    A unit can only receive a kustom job once per turn.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11823,7 +11800,7 @@ hit roll. </characteristic>
               <profiles>
                 <profile id="cb81-4dcc-1a25-4fe3" name="Madboyz" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Frantic: INFANTRY and BIKER units only (excluding GRETCHIN). At the start of each battle round, roll one D3 and consult the table below to establish what effect applies to units with this Subkultur until the end of the battle round. This roll cannot be re-rolled. 
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Frantic: INFANTRY and BIKER units only (excluding GRETCHIN). At the start of each battle round, roll one D3 and consult the table below to establish what effect applies to units with this Subkultur until the end of the battle round. This roll cannot be re-rolled.
 1. Moroniks : When resolving an attack that targets a unit with this Subkultur, add 1 to the saving throw (invulnerable saving throws are unaffected).
 2. Nuttaz : Units with this Subkultur automatically pass Morale tests.
 3. Frenzies: Add 1 to the Strength characteristic of models in a unit with this Subkultur</characteristic>
@@ -13618,27 +13595,6 @@ hit roll. </characteristic>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e1a7-cfd9-6a33-c529" name="Tezdrek&apos;s Stompa Power Field" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f76c-e1e9-4ded-f652" type="notInstanceOf"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <profiles>
-        <profile id="1a14-8dec-0490-5989" name="Tezdrek&apos;s Stompa Power Field" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The bearer has a 5+ invulnerable save.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="a2e0-0ff7-462d-bb22" name="Stompa Mob Character" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
@@ -13906,7 +13862,7 @@ hit roll. </characteristic>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac42-1428-c2ed-cb47" type="max"/>
       </constraints>
       <profiles>
-        <profile id="6663-fb08-6655-a481" name="Ghazghkul Thraka" publicationId="11b5-77b9-pubN65537" page="84" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="6663-fb08-6655-a481" name="Ghazghkull Thraka" publicationId="11b5-77b9-pubN65537" page="84" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">5&quot;</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">2+</characteristic>
@@ -14005,12 +13961,13 @@ hit roll. </characteristic>
     </selectionEntry>
     <selectionEntry id="8c8a-dd06-c0df-3fb3" name="Makari" publicationId="52c4-39c0-ae97-d4dc" page="70" hidden="false" collective="false" import="true" type="model">
       <modifiers>
-        <modifier type="set" field="hidden" value="true">
+        <modifier type="set" field="4235-bfde-e4c0-8cf2" value="0.0">
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="84e7-10dc-db59-a1b2" type="equalTo"/>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5602-29aa-24d5-612d" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="19e5-b299-9323-b1c4" type="equalTo"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -14297,7 +14254,7 @@ Detachment also includes Ghazghkull Thraka. Note, however, that this model does 
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">While this Warlord has fewer wounds remaining than it&apos;s Wounds characteristic, add 3 to its Attacks characteristic.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">While this Warlord has fewer wounds remaining than its Wounds characteristic, add 3 to its Attacks characteristic.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -15268,9 +15225,9 @@ more). Until the start of your next Psychic phase, when resolving an attack made
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="04b0-dab2-123b-df51" name="Shiney Gubbinz" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="04b0-dab2-123b-df51" name="Shiny Gubbinz" hidden="false" collective="false" import="true">
       <modifiers>
-        <modifier type="increment" field="dc3f-29ec-83fc-36d2" value="1">
+        <modifier type="increment" field="dc3f-29ec-83fc-36d2" value="1.0">
           <conditions>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5a36-b534-4309-3008" type="atLeast"/>
           </conditions>
@@ -15285,13 +15242,13 @@ more). Until the start of your next Psychic phase, when resolving an attack made
             <conditionGroup type="and">
               <conditions>
                 <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="33f6-60da-7b70-5fee" type="equalTo"/>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5a36-b534-4309-3008" type="equalTo"/>
                 <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="40e1-0fc9-41a2-a08b" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5a36-b534-4309-3008" type="equalTo"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
-        <modifier type="increment" field="dc3f-29ec-83fc-36d2" value="1">
+        <modifier type="increment" field="dc3f-29ec-83fc-36d2" value="1.0">
           <conditions>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="33f6-60da-7b70-5fee" type="atLeast"/>
           </conditions>
@@ -15313,6 +15270,11 @@ more). Until the start of your next Psychic phase, when resolving an attack made
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f76c-e1e9-4ded-f652" type="instanceOf"/>
+              </conditions>
             </modifier>
           </modifiers>
           <constraints>
@@ -15343,6 +15305,11 @@ more). Until the start of your next Psychic phase, when resolving an attack made
                 </conditionGroup>
               </conditionGroups>
             </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f76c-e1e9-4ded-f652" type="instanceOf"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4af2-c99b-27cb-aab4" type="max"/>
@@ -15372,6 +15339,16 @@ more). Until the start of your next Psychic phase, when resolving an attack made
                 </conditionGroup>
               </conditionGroups>
             </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f76c-e1e9-4ded-f652" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f76c-e1e9-4ded-f652" type="instanceOf"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ce01-0a71-9b56-0d62" type="max"/>
@@ -15400,6 +15377,11 @@ more). Until the start of your next Psychic phase, when resolving an attack made
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f76c-e1e9-4ded-f652" type="instanceOf"/>
+              </conditions>
             </modifier>
           </modifiers>
           <constraints>
@@ -15435,6 +15417,11 @@ more). Until the start of your next Psychic phase, when resolving an attack made
                 </conditionGroup>
               </conditionGroups>
             </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f76c-e1e9-4ded-f652" type="instanceOf"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="371f-961c-dd60-92ea" type="max"/>
@@ -15453,6 +15440,13 @@ more). Until the start of your next Psychic phase, when resolving an attack made
           </costs>
         </selectionEntry>
         <selectionEntry id="9d83-15d4-56a3-e47e" name="Super Cybork Body" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f76c-e1e9-4ded-f652" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3ec3-72b8-44c7-22b4" type="max"/>
           </constraints>
@@ -15568,11 +15562,45 @@ more). Until the start of your next Psychic phase, when resolving an attack made
                 </conditionGroup>
               </conditionGroups>
             </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f76c-e1e9-4ded-f652" type="instanceOf"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <profiles>
             <profile id="00fa-6546-7f00-b427" name="Da Blitzshouta" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
                 <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of your Shooting phase, if the bearer is embarked within a BLITZ BRIGADE BATTLEWAGON, pick an enemy unit that is visible to that BATTLEWAGON. Until the end of the phase, re-roll hit rolls of 1 for attacks made by friendly BLITZ BRIGADE units within 6&quot; of that BATTLEWAGON that target the enemy unit you picked.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f7a7-76b0-968c-bfcc" name="Tezdrek&apos;s Stompa Power Field" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f76c-e1e9-4ded-f652" type="notInstanceOf"/>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="aa25-f071-b889-36e5" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="74f9-596e-fa29-0e74" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="519e-a731-dd2c-b344" name="Tezdrek&apos;s Stompa Power Field" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The bearer has a 5+ invulnerable save.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15589,7 +15617,15 @@ more). Until the start of your next Psychic phase, when resolving an attack made
         <entryLink id="a74b-9401-92c7-0f67" name="Da Dead Shiny Shoota" hidden="false" collective="false" import="true" targetId="67ae-0581-17b9-4a40" type="selectionEntry"/>
         <entryLink id="f926-b1b8-5784-17d7" name="Da Killa Klaw" hidden="false" collective="false" import="true" targetId="80f0-e3e9-27b1-d270" type="selectionEntry"/>
         <entryLink id="003d-47d5-a1b0-31bd" name="Da Gobshot Blunderbuss" hidden="false" collective="false" import="true" targetId="8f4c-0968-1720-2088" type="selectionEntry"/>
-        <entryLink id="267f-4963-5da0-5038" name="Morgargs Finkin&apos; Cap" hidden="false" collective="false" import="true" targetId="5ec1-fede-e18a-54de" type="selectionEntry"/>
+        <entryLink id="267f-4963-5da0-5038" name="Morgog&apos;s Finkin&apos; Cap" hidden="false" collective="false" import="true" targetId="5ec1-fede-e18a-54de" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f76c-e1e9-4ded-f652" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="d4bf-a2d0-e994-1474" name="Nob Arm1" hidden="false" collective="false" import="true" defaultSelectionEntryId="70d9-829c-4696-ddb8">
@@ -16363,7 +16399,7 @@ more). Until the start of your next Psychic phase, when resolving an attack made
 In addition, immediately make an additional hit roll against the same target using the same weapon. These additional hit rolls cannot themselves generate extra hit rolls. When firing a weapon with randomly determined characteristics (ie. Bubblechukka), any additional hit rolls use the same characteristics as the hit roll that generated the additional hit roll.  This ability does not affect weapons that automatically hit their target.</description>
     </rule>
     <rule id="0b6c-1bcf-a37e-9f0c" name="Speed Mob" publicationId="11b5-77b9-pubN65537" page="82" hidden="false">
-      <description>The first time this unit sets up on the battlefield, all of its models must be placed within 6&quot; of at least one other  model from the unit.  From that point onwards each model operates independently and is treated as a seperate unit for all rules purposes.</description>
+      <description>The first time this unit sets up on the battlefield, all of its models must be placed within 6&quot; of at least one other  model from the unit.  From that point onwards each model operates independently and is treated as a separate unit for all rules purposes.</description>
     </rule>
     <rule id="3f88-a717-6763-c8f5" name="Grots" hidden="false">
       <description>Units comprised entirely of GRETCHIN cannot benefit from any Clan Kultur.  In addition, Ork Stratagems can only be used on these units if the Stratagem explicitly states so (e.g. the &apos;Grot Shields&apos; Stratagem)</description>
@@ -16481,7 +16517,7 @@ In addition, immediately make an additional hit roll against the same target usi
     </profile>
     <profile id="c284-5882-8566-317a" name="Open-Topped" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models embarked on this model can attack in their Shooting phase. Measure the range and draw line of sight from any point on this model.  When they do so, any restrictions or modifiers that apply to this model also apply to its passengers. for example, the passengers cannot shoot if this model has Fallen Back in the same turn.
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models embarked on this model can attack in their Shooting phase. Measure the range and draw line of sight from any point on this model.  When they do so, any restrictions or modifiers that apply to this model also apply to its passengers. For example, the passengers cannot shoot if this model has Fallen Back in the same turn.
 While this transport is within Engagement Range of any enemy units, embarked units cannot shoot, except with any Pistols they are equipped with.</characteristic>
       </characteristics>
     </profile>
