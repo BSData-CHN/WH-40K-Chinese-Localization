@@ -1,5 +1,5 @@
 # Workflow to create a github issue every month to facilitate comment based releases
-name: Monthly Release
+name: Monthly Release Thread
 
 on:
   schedule:
@@ -7,7 +7,6 @@ on:
 
 jobs:
   monthly_release:
-    name: monthly-release
     runs-on: ubuntu-latest
     steps:
 
