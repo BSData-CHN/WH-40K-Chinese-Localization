@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="91ff-e116-e0a5-e883" name="Imperium - Death Korps of Krieg" revision="145" battleScribeVersion="2.03" authorName="Jon K, Joe B" authorContact="Discord: @Alphalas, @CrusherJoe | Twitter: @_alphalas, @theawesomesauce" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="178" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="91ff-e116-e0a5-e883" name="Imperium - Death Korps of Krieg" revision="149" battleScribeVersion="2.03" authorName="Jon K, Joe B" authorContact="Discord: @Alphalas, @CrusherJoe | Twitter: @_alphalas, @theawesomesauce" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="187" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="91ff-e116-pubN72301" name="Codex: Astra Militarum"/>
     <publication id="91ff-e116-pubN126723" name="Codex: Leafblower"/>
@@ -52,10 +52,10 @@
     </entryLink>
     <entryLink id="53fb-8c8b-3832-db40" name="Death Rider Command Squadron" hidden="false" collective="false" import="true" targetId="004d-cec4-23b9-8c2a" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="da13-325c-8bb4-c225" name="Fast Attack" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="true"/>
+        <categoryLink id="f776-2a66-c413-7afb" name="New CategoryLink" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="a8db-d58a-b10a-bc87" name="Death Korps Death Rider Commissar" hidden="false" collective="false" import="true" targetId="caf8-b980-9d26-7243" type="selectionEntry">
+    <entryLink id="a8db-d58a-b10a-bc87" name="Death Rider Commissar [Legends]" hidden="false" collective="false" import="true" targetId="caf8-b980-9d26-7243" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="2304-a621-82bc-2cb9" name="New CategoryLink" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
       </categoryLinks>
@@ -309,18 +309,6 @@
         <categoryLink id="908b-3876-973c-35ed" name="New CategoryLink" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="true"/>
         <categoryLink id="c214-84a7-1fbe-e3a1" name="Faction: &lt;REGIMENT&gt;" hidden="false" targetId="3e01-e6cf-1353-96f4" primary="false"/>
         <categoryLink id="e75d-341b-262c-ea5d" name="Faction: Imperium" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="873e-352a-3758-5414" name="Ephrael Stern and Kyganil of the Bloody Tears" hidden="false" collective="false" import="true" targetId="7dca-e055-7a15-4bf3" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cff6-a8e7-27ea-0776" type="atLeast"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <categoryLinks>
-        <categoryLink id="dc69-9ab3-633c-9df5" name="New CategoryLink" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="0b71-3d7f-0c71-ff74" name="Gorgon Heavy Transporter" hidden="false" collective="false" import="true" targetId="066c-5ca9-3a9a-1c60" type="selectionEntry">
@@ -953,6 +941,15 @@
         <entryLink id="febe-e9f9-3c63-e4ca" name="Heirlooms of Conquest" hidden="false" collective="false" import="true" targetId="8ed7-7588-0f06-9b0d" type="selectionEntryGroup"/>
         <entryLink id="fca5-8dc3-7866-ee2a" name="Is a Custom Character (Chapter Approved 2018)" hidden="false" collective="false" import="true" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
         <entryLink id="3dbb-f716-ff12-6e39" name="Custom Character Selections" hidden="false" collective="false" import="true" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
+        <entryLink id="cc11-dfda-a64c-d391" name="Display Astra Militarum Orders" hidden="true" collective="false" import="true" targetId="af30-711d-1707-fcdc" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" childId="4a25-7a1d-4442-3728" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="2.0"/>
@@ -1054,6 +1051,15 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d62b-ed64-281f-5be3" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58a5-fcb0-840f-ef8b" type="min"/>
           </constraints>
+        </entryLink>
+        <entryLink id="dd6d-2ca5-2aed-e76c" name="Display Astra Militarum Orders" hidden="true" collective="false" import="true" targetId="af30-711d-1707-fcdc" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" childId="4a25-7a1d-4442-3728" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </entryLink>
       </entryLinks>
       <costs>
@@ -1760,7 +1766,7 @@
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="3.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="60.0"/>
+        <cost name="pts" typeId="points" value="85.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="caf8-b980-9d26-7243" name="Death Rider Commissar [Legends]" hidden="false" collective="false" import="true" type="model">
@@ -2013,7 +2019,7 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="15.0"/>
+                <cost name="pts" typeId="points" value="20.0"/>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
@@ -2073,7 +2079,7 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="15.0"/>
+                <cost name="pts" typeId="points" value="20.0"/>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
