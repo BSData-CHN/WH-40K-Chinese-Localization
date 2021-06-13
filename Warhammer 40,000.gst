@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="28ec-711c-d87f-3aeb" name="Warhammer 40,000 9th Edition" revision="188" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@WH40k Data Dev" authorUrl="https://www.bsdata.net/contact" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
-  <readme>This is the game system file for Warhammer 40,000, supporting the 9th edition of the game.  It is required for all other catalogues to function.</readme>
+<gameSystem id="28ec-711c-d87f-3aeb" name="战锤40K 9版" revision="1" battleScribeVersion="2.03" authorName="BSData-CHN" authorContact="@BSData-CHN" authorUrl="https://github.com/BSData-CHN" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+  <readme>基于 https://github.com/BSData/wh40k 与老师版翻译的的中文化</readme>
   <publications>
     <publication id="28ec-711c-pubN72690" name="Warhammer 40,000 Core Book" shortName="BRB" publisher="Games Workshop" publicationDate="2020-07-25" publisherUrl="https://www.games-workshop.com/Warhammer-40000-9th-Rulebook-EN-2020"/>
     <publication id="28ec-711c-pubN73170" name="Chapter Approved 2017" shortName="CA2017" publicationDate="2017-12"/>
@@ -27,55 +27,62 @@
     <publication id="977a-446b-737a-b571" name="Chapter Approved 2021" shortName="CA2021" publicationDate="2021-06-05"/>
   </publications>
   <costTypes>
-    <costType id="points" name="pts" defaultCostLimit="0.0" hidden="false"/>
-    <costType id="e356-c769-5920-6e14" name=" PL" defaultCostLimit="-1.0" hidden="false"/>
-    <costType id="2d3b-b544-ad49-fb75" name="CP" defaultCostLimit="-1.0" hidden="false"/>
+    <costType id="points" name="分" defaultCostLimit="0.0" hidden="false"/>
+    <costType id="e356-c769-5920-6e14" name="战斗力" defaultCostLimit="-1.0" hidden="false"/>
+    <costType id="2d3b-b544-ad49-fb75" name="战略点数" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
   <profileTypes>
-    <profileType id="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Weapon">
+    <profileType id="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="武器">
+      <comment>Weapon</comment>
       <characteristicTypes>
-        <characteristicType id="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range"/>
-        <characteristicType id="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type"/>
+        <characteristicType id="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="距离"/>
+        <characteristicType id="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="类型"/>
         <characteristicType id="59b1-319e-ec13-d466" name="S"/>
         <characteristicType id="75aa-a838-b675-6484" name="AP"/>
         <characteristicType id="ae8a-3137-d65b-4ca7" name="D"/>
-        <characteristicType id="837d-5e63-aeb7-1410" name="Abilities"/>
+        <characteristicType id="837d-5e63-aeb7-1410" name="能力"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Abilities">
+    <profileType id="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="能力">
+      <comment>Abilities</comment>
       <characteristicTypes>
-        <characteristicType id="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description"/>
+        <characteristicType id="21befb24-fc85-4f52-a745-64b2e48f8228" name="描述"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="b3a8-0452-7436-44d1" name="Transport">
+    <profileType id="b3a8-0452-7436-44d1" name="运输载具">
+      <comment>Transport</comment>
       <characteristicTypes>
-        <characteristicType id="15aa-1916-a38b-d223" name="Capacity"/>
+        <characteristicType id="15aa-1916-a38b-d223" name="运载能力"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="bc97-dea9-9e88-bb7d" name="Psyker">
+    <profileType id="bc97-dea9-9e88-bb7d" name="灵能者">
+      <comment>Psyker</comment>
       <characteristicTypes>
-        <characteristicType id="5afb-9914-904b-d3b3" name="Cast"/>
-        <characteristicType id="b5ac-9c20-5d5a-6f9b" name="Deny"/>
-        <characteristicType id="69d7-b45e-00a2-7e46" name="Powers Known"/>
-        <characteristicType id="c2e2-f115-0003-5d7b" name="Other"/>
+        <characteristicType id="5afb-9914-904b-d3b3" name="释放"/>
+        <characteristicType id="b5ac-9c20-5d5a-6f9b" name="破除"/>
+        <characteristicType id="69d7-b45e-00a2-7e46" name="掌握"/>
+        <characteristicType id="c2e2-f115-0003-5d7b" name="其他"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="ae70-4738-0161-bec0" name="Psychic Power">
+    <profileType id="ae70-4738-0161-bec0" name="灵能">
+      <comment>Psychic Power</comment>
       <characteristicTypes>
-        <characteristicType id="5ffd-b800-c317-532a" name="Warp Charge"/>
-        <characteristicType id="fd64-cbc4-94de-24cc" name="Range"/>
-        <characteristicType id="ad96-dfa4-b4ed-656d" name="Details"/>
+        <characteristicType id="5ffd-b800-c317-532a" name="亚空间充能"/>
+        <characteristicType id="fd64-cbc4-94de-24cc" name="距离"/>
+        <characteristicType id="ad96-dfa4-b4ed-656d" name="细节"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="5f4f-ea74-0630-4afe" name="Wound Track">
+    <profileType id="5f4f-ea74-0630-4afe" name="损伤表">
+      <comment>Wound Track</comment>
       <characteristicTypes>
-        <characteristicType id="8e45-c866-b2d4-c9ab" name="Remaining W"/>
-        <characteristicType id="bf41-c860-50bc-2a7e" name="Characteristic 1"/>
-        <characteristicType id="dc18-e51f-309b-8efa" name="Characteristic 2"/>
-        <characteristicType id="df06-8eca-150f-90ba" name="Characteristic 3"/>
+        <characteristicType id="8e45-c866-b2d4-c9ab" name="剩余 W"/>
+        <characteristicType id="bf41-c860-50bc-2a7e" name="数据 1"/>
+        <characteristicType id="dc18-e51f-309b-8efa" name="数据 2"/>
+        <characteristicType id="df06-8eca-150f-90ba" name="数据 3"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="800f-21d0-4387-c943" name="Unit">
+    <profileType id="800f-21d0-4387-c943" name="单位">
+      <comment>Unit</comment>
       <characteristicTypes>
         <characteristicType id="0bdf-a96e-9e38-7779" name="M"/>
         <characteristicType id="e7f0-1278-0250-df0c" name="WS"/>
@@ -88,40 +95,63 @@
         <characteristicType id="c0df-df94-abd7-e8d3" name="Save"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="50ea-3b64-d9ae-0e3f" name="Stat Damage - BS">
+    <profileType id="50ea-3b64-d9ae-0e3f" name="损伤表 - BS">
+      <comment>Stat Damage - BS</comment>
       <characteristicTypes>
-        <characteristicType id="ada9-1c1d-fa2a-3803" name="Remaining W"/>
+        <characteristicType id="ada9-1c1d-fa2a-3803" name="剩余 W"/>
         <characteristicType id="b7a6-b64d-4339-eb87" name="BS"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="b900-0afb-e411-2cbb" name="Keywords">
+    <profileType id="b900-0afb-e411-2cbb" name="关键字">
+      <comment>Keywords</comment>
       <characteristicTypes>
-        <characteristicType id="6b92-2d97-5144-62bc" name="Keywords (Faction)"/>
-        <characteristicType id="ce6c-4765-4bb8-bd49" name="Keywords (Basic)"/>
+        <characteristicType id="6b92-2d97-5144-62bc" name="关键字 (阵营)"/>
+        <characteristicType id="ce6c-4765-4bb8-bd49" name="关键字 (基础)"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="002f-cc4a-c4e3-0261" name="Landing Pad Configuration">
+    <profileType id="002f-cc4a-c4e3-0261" name="登陆平台配置">
+      <comment>Landing Pad Configuration</comment>
       <characteristicTypes>
-        <characteristicType id="f566-bacc-9414-7661" name="Effect"/>
+        <characteristicType id="f566-bacc-9414-7661" name="影响"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
   <categoryEntries>
-    <categoryEntry id="ff36a6f3-19bf-4f48-8956-adacfd28fe74" name="No Force Org Slot" hidden="false"/>
-    <categoryEntry id="848a6ff2-0def-4c72-8433-ff7da70e6bc7" name="HQ" hidden="false"/>
-    <categoryEntry id="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" name="Elites" hidden="false"/>
-    <categoryEntry id="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" name="Troops" hidden="false"/>
-    <categoryEntry id="c274d0b0-5866-44bc-9810-91c136ae7438" name="Fast Attack" hidden="false"/>
-    <categoryEntry id="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" name="Heavy Support" hidden="false"/>
-    <categoryEntry id="c888f08a-6cea-4a01-8126-d374a9231554" name="Lord of War" hidden="false"/>
-    <categoryEntry id="d713cda3-5d0f-40d8-b621-69233263ec2a" name="Fortification" hidden="false"/>
+    <categoryEntry id="ff36a6f3-19bf-4f48-8956-adacfd28fe74" name="非强制槽位" hidden="false">
+      <comment>No Force Org Slot</comment>
+    </categoryEntry>
+    <categoryEntry id="848a6ff2-0def-4c72-8433-ff7da70e6bc7" name="指挥槽位" hidden="false">
+      <comment>HQ</comment>
+    </categoryEntry>
+    <categoryEntry id="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" name="精英槽位" hidden="false">
+      <comment>Elites</comment>
+    </categoryEntry>
+    <categoryEntry id="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" name="基础槽位" hidden="false">
+      <comment>Troops</comment>
+    </categoryEntry>
+    <categoryEntry id="c274d0b0-5866-44bc-9810-91c136ae7438" name="快速槽位" hidden="false">
+      <comment>Fast Attack</comment>
+    </categoryEntry>
+    <categoryEntry id="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" name="重型槽位" hidden="false">
+      <comment>重型 Support</comment>
+    </categoryEntry>
+    <categoryEntry id="c888f08a-6cea-4a01-8126-d374a9231554" name="战争之王槽位" hidden="false">
+      <comment>Lord of War</comment>
+    </categoryEntry>
+    <categoryEntry id="d713cda3-5d0f-40d8-b621-69233263ec2a" name="工事槽位" hidden="false">
+      <comment>Fortification</comment>
+    </categoryEntry>
     <categoryEntry id="2aa2-d9e3-bef6-09be" name="Other" hidden="false"/>
     <categoryEntry id="3d52-fccf-10c0-3fae" name="Infantry" hidden="false"/>
     <categoryEntry id="c8fd-783f-3230-493e" name="Vehicle" hidden="false"/>
     <categoryEntry id="e691-aad7-d21c-1023" name="Psyker" hidden="false"/>
     <categoryEntry id="6cc4-1b62-8e8a-05cd" name="Transport" hidden="false"/>
-    <categoryEntry id="e888-1504-aa61-95ff" name="Flyer" hidden="false"/>
-    <categoryEntry id="1b66-3f5f-6705-079a" name="Dedicated Transport" hidden="false"/>
+    <categoryEntry id="e888-1504-aa61-95ff" name="飞行器槽位" hidden="false">
+      <comment>Flyer</comment>
+    </categoryEntry>
+    <categoryEntry id="1b66-3f5f-6705-079a" name="专属运输载具槽位" hidden="false">
+      <comment>Dedicated Transport</comment>
+    </categoryEntry>
     <categoryEntry id="ef18-746a-369f-43a4" name="Character" hidden="false"/>
     <categoryEntry id="3117-16d8-fcef-4f56" name="Fly" hidden="false"/>
     <categoryEntry id="3b77-decb-d468-6bcc" name="Monster" hidden="false"/>
@@ -143,7 +173,8 @@
     <categoryEntry id="298f-d173-2159-919f" name="Primarch" hidden="false"/>
     <categoryEntry id="e12c-dd25-cbab-a30d" name="Faction: Fallen" hidden="false"/>
     <categoryEntry id="5cf1-acf2-ca3b-c2e5" name="Faction: Chaos" hidden="false"/>
-    <categoryEntry id="ae09-117e-a6fa-316b" name="Warlord" hidden="false">
+    <categoryEntry id="ae09-117e-a6fa-316b" name="主将" hidden="false">
+      <comment>Warlord</comment>
       <modifiers>
         <modifier type="set" field="e862-071e-a10f-7fd2" value="1.0">
           <conditions>
@@ -157,11 +188,21 @@
         <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e862-071e-a10f-7fd2" type="min"/>
       </constraints>
     </categoryEntry>
-    <categoryEntry id="e10e-b44e-7eda-41d8" name="Relic" hidden="false"/>
-    <categoryEntry id="8d86-9490-0f7d-a5b5" name="Relic Elites" hidden="false"/>
-    <categoryEntry id="655f-e142-dfa9-11a4" name="Relic HQ" hidden="false"/>
-    <categoryEntry id="6c4c-a416-b8cb-c380" name="Relic Heavy Support" hidden="false"/>
-    <categoryEntry id="3216-79af-660b-7711" name="Relic Lord of War" hidden="false"/>
+    <categoryEntry id="e10e-b44e-7eda-41d8" name="圣物槽位" hidden="false">
+      <comment>Relic</comment>
+    </categoryEntry>
+    <categoryEntry id="8d86-9490-0f7d-a5b5" name="圣物精英槽位" hidden="false">
+      <comment>Relic Elites</comment>
+    </categoryEntry>
+    <categoryEntry id="655f-e142-dfa9-11a4" name="圣物指挥槽位" hidden="false">
+      <comment>Relic HQ</comment>
+    </categoryEntry>
+    <categoryEntry id="6c4c-a416-b8cb-c380" name="圣物重型槽位" hidden="false">
+      <comment>Relic Heavy Support</comment>
+    </categoryEntry>
+    <categoryEntry id="3216-79af-660b-7711" name="圣物战争之王槽位" hidden="false">
+      <comment>Relic Lord of War</comment>
+    </categoryEntry>
     <categoryEntry id="dbb4-dfd1-04b9-5980" name="Faction: Aeldari" hidden="false"/>
     <categoryEntry id="22e6-c81e-efbd-70d4" name="Faction: SW" hidden="false"/>
     <categoryEntry id="6c38-ec13-d26b-598f" name="Specialist Detachment" hidden="false">
@@ -173,7 +214,9 @@
     <categoryEntry id="852c-3de9-a35c-01e6" name="Faction: Dreaded Ambull" hidden="false"/>
     <categoryEntry id="85ba-a6ef-e5ce-d9d1" name="Ambull" hidden="false"/>
     <categoryEntry id="f0b3-c388-f734-4ba4" name="Bonewyrm Infestation" hidden="false"/>
-    <categoryEntry id="7320-eafd-02c1-94da" name="Reinforcement Points" hidden="false"/>
+    <categoryEntry id="7320-eafd-02c1-94da" name="增援分数" hidden="false">
+      <comment>Reinforcement Points</comment>
+    </categoryEntry>
     <categoryEntry id="4c9f-f934-ed79-84fe" name="Faction: Brood Brothers" hidden="false"/>
     <categoryEntry id="d9b9-e9ab-155a-8109" name="Helbrute" hidden="false"/>
     <categoryEntry id="1481-ffc3-f85a-eb36" name="Faction: Questor Traitoris" hidden="false"/>
@@ -181,17 +224,27 @@
     <categoryEntry id="d569-3d56-cd24-6a31" name="Aircraft" hidden="false"/>
     <categoryEntry id="4ad1-1315-97ea-dd25" name="Faction: Officio Assassinorum" hidden="false"/>
     <categoryEntry id="492c-9ae1-0205-c13f" name="Faction: Chaos Knights" hidden="false"/>
-    <categoryEntry id="c845-c72c-6afe-3fc2" name="Stratagems" hidden="false"/>
-    <categoryEntry id="fcff-0f21-93e6-1ddc" name="Configuration" hidden="false"/>
-    <categoryEntry id="0f35-2c34-ba6a-8105" name="Agent of the Imperium" hidden="false"/>
+    <categoryEntry id="c845-c72c-6afe-3fc2" name="战略能力" hidden="false">
+      <comment>Stratagems</comment>
+    </categoryEntry>
+    <categoryEntry id="fcff-0f21-93e6-1ddc" name="配置" hidden="false">
+      <comment>Configuration</comment>
+    </categoryEntry>
+    <categoryEntry id="0f35-2c34-ba6a-8105" name="帝国特勤槽位" hidden="false">
+      <comment>Agent of the Imperium</comment>
+    </categoryEntry>
     <categoryEntry id="25d3-b37a-ad95-d463" name="Kyganil" hidden="false"/>
     <categoryEntry id="1b30-1696-d043-ddef" name="Ephrael Stern" publicationId="85df-1155-c986-4d71" hidden="false"/>
-    <categoryEntry id="f475-3e56-fd5f-4737" name="Adepta Sororitas" hidden="false"/>
+    <categoryEntry id="f475-3e56-fd5f-4737" name="修女会" hidden="false">
+      <comment>Adepta Sororitas</comment>
+    </categoryEntry>
     <categoryEntry id="1114-7875-d463-df17" name="Aeldari" hidden="false"/>
     <categoryEntry id="6c1d-32d6-b16c-3b0c" name="Titanic Warlord" hidden="false"/>
     <categoryEntry id="da67-195b-7909-341a" name="Daemon Primarch" hidden="false"/>
     <categoryEntry id="5750-de0a-589d-eacf" name="Supreme Commander" hidden="false"/>
-    <categoryEntry id="26b0-4bb9-73aa-d3d7" name="Primarch | Daemon Primarch | Supreme Commander" hidden="false"/>
+    <categoryEntry id="26b0-4bb9-73aa-d3d7" name="原体 | 恶魔原体 | 至高指挥官" hidden="false">
+      <comment>Primarch | Daemon Primarch | Supreme Commander</comment>
+    </categoryEntry>
     <categoryEntry id="08f1-d244-eb44-7e01" name="Core" hidden="false"/>
     <categoryEntry id="81e2-27cb-19e6-43c5" name="Obstacles" page="Terrain" hidden="false"/>
     <categoryEntry id="c901-fe8a-a156-f3fa" name="Terrain" hidden="false"/>
@@ -208,9 +261,10 @@
     <categoryEntry id="0f75-4f3e-b6f5-771a" name="Raiding Forces" hidden="false"/>
   </categoryEntries>
   <forceEntries>
-    <forceEntry id="a0c7-2a71-bae0-215d" name="Patrol Detachment -2CP" hidden="false">
+    <forceEntry id="a0c7-2a71-bae0-215d" name="巡逻分队 -2CP" hidden="false">
+      <comment>Patrol Detachment -2CP</comment>
       <modifiers>
-        <modifier type="set" field="name" value="Patrol Detachment 0CP">
+        <modifier type="set" field="name" value="巡逻分队 0CP">
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
@@ -222,7 +276,8 @@
         </modifier>
       </modifiers>
       <forceEntries>
-        <forceEntry id="22fe-e36f-71e2-b796" name="Patrol Detachment" hidden="false">
+        <forceEntry id="22fe-e36f-71e2-b796" name="巡逻分队" hidden="false">
+          <comment>Patrol Detachment</comment>
           <categoryLinks>
             <categoryLink id="0879-c6e0-d140-cdf4" name="Configuration" hidden="false" targetId="fcff-0f21-93e6-1ddc" primary="false"/>
             <categoryLink id="2a75-b392-fa24-a897" name="Stratagems" hidden="false" targetId="c845-c72c-6afe-3fc2" primary="false"/>
@@ -270,7 +325,7 @@
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d2f4-9572-bf17-f45e" type="min"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="701d-f8cf-a497-db95" name="Troops" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false">
+        <categoryLink id="701d-f8cf-a497-db95" name="基础槽位" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0ecb-6e0d-163a-7998" type="max"/>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="57c7-2337-eef8-a7d3" type="min"/>
@@ -308,7 +363,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="806f-d1ee-da05-0983" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="a8d7-367a-2dfd-6b79" name="Relic Elites" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
+        <categoryLink id="a8d7-367a-2dfd-6b79" name="圣物精英槽位" hidden="false" targetId="8d86-9490-0f7d-a5b5" primary="false">
           <modifiers>
             <modifier type="increment" field="54d4-89c3-38b6-8877" value="1">
               <repeats>
@@ -361,16 +416,18 @@
         </categoryLink>
       </categoryLinks>
     </forceEntry>
-    <forceEntry id="564e-55d5-79bc-a4d7" name="Battalion Detachment -3CP" hidden="false">
+    <forceEntry id="564e-55d5-79bc-a4d7" name="连击分队 -3CP" hidden="false">
+      <comment>Battalion Detachment -3CP</comment>
       <modifiers>
-        <modifier type="set" field="name" value="Battalion Detachment 0CP">
+        <modifier type="set" field="name" value="连击分队 0CP">
           <conditions>
             <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ae09-117e-a6fa-316b" type="notEqualTo"/>
           </conditions>
         </modifier>
       </modifiers>
       <forceEntries>
-        <forceEntry id="c7fc-1172-cd53-2dae" name="Battalion Detachment" hidden="false">
+        <forceEntry id="c7fc-1172-cd53-2dae" name="连击分队" hidden="false">
+          <comment>Battalion Detachment</comment>
           <categoryLinks>
             <categoryLink id="8aec-1b40-57af-1c12" name="Configuration" hidden="false" targetId="fcff-0f21-93e6-1ddc" primary="false"/>
             <categoryLink id="83e6-362d-78f3-62e2" name="Stratagems" hidden="false" targetId="c845-c72c-6afe-3fc2" primary="false"/>
@@ -444,7 +501,7 @@
             <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b188-b223-0281-a60d" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="461e-243a-a521-ed54" name="Dedicated Transport" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false">
+        <categoryLink id="461e-243a-a521-ed54" name="专属运输载具槽位" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false">
           <modifiers>
             <modifier type="increment" field="dd16-f9e4-6928-db00" value="1.0">
               <repeats>
@@ -509,16 +566,18 @@
         </categoryLink>
       </categoryLinks>
     </forceEntry>
-    <forceEntry id="cccd-3d99-d4af-d668" name="Brigade Detachment -4CP" hidden="false">
+    <forceEntry id="cccd-3d99-d4af-d668" name="旅级分队 -4CP" hidden="false">
+      <comment>Brigade Detachment -4CP</comment>
       <modifiers>
-        <modifier type="set" field="name" value="Brigade Detachment 0CP">
+        <modifier type="set" field="name" value="旅级分队 0CP">
           <conditions>
             <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ae09-117e-a6fa-316b" type="notEqualTo"/>
           </conditions>
         </modifier>
       </modifiers>
       <forceEntries>
-        <forceEntry id="daea-75d3-1073-2ba0" name="Brigade Detachment" hidden="false">
+        <forceEntry id="daea-75d3-1073-2ba0" name="旅级分队" hidden="false">
+          <comment>Brigade Detachment</comment>
           <categoryLinks>
             <categoryLink id="c79d-0e51-f286-b524" name="Configuration" hidden="false" targetId="fcff-0f21-93e6-1ddc" primary="false"/>
             <categoryLink id="6d28-63cf-a930-5628" name="Stratagems" hidden="false" targetId="c845-c72c-6afe-3fc2" primary="false"/>
@@ -660,9 +719,11 @@
         </categoryLink>
       </categoryLinks>
     </forceEntry>
-    <forceEntry id="41af-75ce-79d2-ddff" name="Vanguard Detachment -3CP" hidden="false">
+    <forceEntry id="41af-75ce-79d2-ddff" name="先锋分队 -3CP" hidden="false">
+      <comment>Vanguard Detachment -3CP</comment>
       <forceEntries>
-        <forceEntry id="780c-2ab9-34f4-7c30" name="Vanguard Detachment" hidden="false">
+        <forceEntry id="780c-2ab9-34f4-7c30" name="先锋分队" hidden="false">
+          <comment>Vanguard Detachment</comment>
           <categoryLinks>
             <categoryLink id="1eed-df45-a1a3-bb4c" name="Configuration" hidden="false" targetId="fcff-0f21-93e6-1ddc" primary="false"/>
             <categoryLink id="d4fd-a9a1-a187-4649" name="Stratagems" hidden="false" targetId="c845-c72c-6afe-3fc2" primary="false"/>
@@ -673,7 +734,7 @@
             <categoryLink id="3ef6-bbd6-4973-b0cc" name="Fast Attack" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false"/>
             <categoryLink id="0ef4-18ef-934a-1d58" name="Heavy Support" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false"/>
             <categoryLink id="5936-09c6-fea5-3d3f" name="Flyer" hidden="false" targetId="e888-1504-aa61-95ff" primary="false"/>
-            <categoryLink id="1466-b410-7bf3-3015" name="Dedicated Transport" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false"/>
+            <categoryLink id="1466-b410-7bf3-3015" name="专属运输载具槽位" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false"/>
           </categoryLinks>
         </forceEntry>
       </forceEntries>
@@ -699,12 +760,12 @@
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="abc2-8ad1-f686-0172" type="min"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="4068-9117-bd80-10fc" name="Troops" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false">
+        <categoryLink id="4068-9117-bd80-10fc" name="基础槽位" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c1e7-468c-fe43-d580" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="93c3-802d-d4e3-b9d7" name="Elites" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false">
+        <categoryLink id="93c3-802d-d4e3-b9d7" name="精英槽位" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4b0f-d3dd-bca2-8ced" type="min"/>
             <constraint field="selections" scope="force" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9603-b2c6-9e1a-946a" type="max"/>
@@ -720,12 +781,12 @@
             <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d33a-1180-53e1-0555" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="e80e-d3e6-f7bc-5bac" name="Flyer" hidden="false" targetId="e888-1504-aa61-95ff" primary="false">
+        <categoryLink id="e80e-d3e6-f7bc-5bac" name="飞行器槽位" hidden="false" targetId="e888-1504-aa61-95ff" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0d87-c6c3-1d60-e88f" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="2f97-4e01-2619-467f" name="Dedicated Transport" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false">
+        <categoryLink id="2f97-4e01-2619-467f" name="专属运输载具槽位" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false">
           <modifiers>
             <modifier type="increment" field="1449-c900-5e63-561c" value="1.0">
               <repeats>
@@ -790,9 +851,11 @@
         </categoryLink>
       </categoryLinks>
     </forceEntry>
-    <forceEntry id="120c-9e15-1d3f-637e" name="Spearhead Detachment -3CP" hidden="false">
+    <forceEntry id="120c-9e15-1d3f-637e" name="矛头分队 -3CP" hidden="false">
+      <comment>Spearhead Detachment -3CP</comment>
       <forceEntries>
-        <forceEntry id="c50f-184b-1482-8ce7" name="Spearhead Detachment" hidden="false">
+        <forceEntry id="c50f-184b-1482-8ce7" name="矛头分队" hidden="false">
+          <comment>Spearhead Detachment</comment>
           <categoryLinks>
             <categoryLink id="d0ab-cdb4-1dee-fbdf" name="Configuration" hidden="false" targetId="fcff-0f21-93e6-1ddc" primary="false"/>
             <categoryLink id="7598-503e-4433-fec5" name="Stratagems" hidden="false" targetId="c845-c72c-6afe-3fc2" primary="false"/>
@@ -908,9 +971,11 @@
         </categoryLink>
       </categoryLinks>
     </forceEntry>
-    <forceEntry id="3c85-9649-d2da-9bde" name="Outrider Detachment -3CP" hidden="false">
+    <forceEntry id="3c85-9649-d2da-9bde" name="袭扰分队 -3CP" hidden="false">
+      <comment>Outrider Detachment -3CP</comment>
       <forceEntries>
-        <forceEntry id="6fb7-031b-0276-59c9" name="Outrider Detachment" hidden="false">
+        <forceEntry id="6fb7-031b-0276-59c9" name="袭扰分队" hidden="false">
+          <comment>Outrider Detachment</comment>
           <categoryLinks>
             <categoryLink id="c873-f46b-9399-b343" name="Configuration" hidden="false" targetId="fcff-0f21-93e6-1ddc" primary="false"/>
             <categoryLink id="82e3-bbe6-3686-3d32" name="Stratagems" hidden="false" targetId="c845-c72c-6afe-3fc2" primary="false"/>
@@ -956,12 +1021,12 @@
             <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8c26-0eee-61de-e734" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="5eb3-6b2a-2229-6f3d" name="Flyer" hidden="false" targetId="e888-1504-aa61-95ff" primary="false">
+        <categoryLink id="5eb3-6b2a-2229-6f3d" name="飞行器槽位" hidden="false" targetId="e888-1504-aa61-95ff" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="350d-c57a-5736-3a79" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="f5cc-af4b-11d5-0831" name="Dedicated Transport" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false">
+        <categoryLink id="f5cc-af4b-11d5-0831" name="专属运输载具槽位" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false">
           <modifiers>
             <modifier type="increment" field="3de0-5460-f04b-09ba" value="1.0">
               <repeats>
@@ -1026,9 +1091,10 @@
         </categoryLink>
       </categoryLinks>
     </forceEntry>
-    <forceEntry id="5baf-eed5-bb85-7325" name="Supreme Command Detachment 0CP" hidden="false">
+    <forceEntry id="5baf-eed5-bb85-7325" name="至高指挥分队 0CP" hidden="false">
+      <comment>Supreme Command Detachment 0CP</comment>
       <modifiers>
-        <modifier type="set" field="name" value="Supreme Command Detachment +2CP">
+        <modifier type="set" field="name" value="至高指挥分队 +2CP">
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
@@ -1040,7 +1106,7 @@
             </conditionGroup>
           </conditionGroups>
         </modifier>
-        <modifier type="set" field="name" value="Supreme Command Detachment +4CP">
+        <modifier type="set" field="name" value="至高指挥分队 +4CP">
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
@@ -1050,7 +1116,7 @@
             </conditionGroup>
           </conditionGroups>
         </modifier>
-        <modifier type="set" field="name" value="Supreme Command Detachment +3CP">
+        <modifier type="set" field="name" value="至高指挥分队 +3CP">
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
@@ -1067,25 +1133,27 @@
       </constraints>
       <categoryLinks>
         <categoryLink id="a45f-e37b-224f-813a" name="Configuration" hidden="false" targetId="fcff-0f21-93e6-1ddc" primary="false"/>
-        <categoryLink id="e7ac-d434-4bd3-2dd6" name="Stratagems" hidden="false" targetId="c845-c72c-6afe-3fc2" primary="false"/>
+        <categoryLink id="e7ac-d434-4bd3-2dd6" name="战略能力" hidden="false" targetId="c845-c72c-6afe-3fc2" primary="false"/>
         <categoryLink id="6fed-d770-852f-a123" name="No Force Org Slot" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
-        <categoryLink id="8a3d-3602-7ef5-9ab1" name="Primarch | Daemon Primarch | Supreme Commander" hidden="false" targetId="26b0-4bb9-73aa-d3d7" primary="false">
-          <comment>This RSE Category can contain HQ or LOW units that have the relevant keywords.</comment>
+        <categoryLink id="8a3d-3602-7ef5-9ab1" name="原体 | 恶魔原体 | 至高指挥官" hidden="false" targetId="26b0-4bb9-73aa-d3d7" primary="false">
+          <comment>This RSE Category can contain HQ or LOW units that have the relevant keywords.
+Primarch | Daemon Primarch | Supreme Commander</comment>
           <constraints>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c0dc-5bde-d67a-9c09" type="max"/>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="371a-f9e1-dee4-4cd5" type="min"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="5ade-6882-9040-3989" name="Warlord" hidden="false" targetId="ae09-117e-a6fa-316b" primary="false">
+        <categoryLink id="5ade-6882-9040-3989" name="主将" hidden="false" targetId="ae09-117e-a6fa-316b" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ea61-c716-bc3b-0b68" type="min"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
     </forceEntry>
-    <forceEntry id="d513-cbf5-9bfc-7270" name="Super-Heavy Detachment -3CP" hidden="false">
+    <forceEntry id="d513-cbf5-9bfc-7270" name="超重型分队 -3CP" hidden="false">
+      <comment>Super-Heavy Detachment -3CP</comment>
       <modifiers>
-        <modifier type="set" field="name" value="Super-Heavy Detachment -6CP">
+        <modifier type="set" field="name" value="超重型分队 -6CP">
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
@@ -1109,7 +1177,7 @@
             </conditionGroup>
           </conditionGroups>
         </modifier>
-        <modifier type="set" field="name" value="Super-Heavy Detachment 0CP">
+        <modifier type="set" field="name" value="超重型分队 0CP">
           <conditionGroups>
             <conditionGroup type="and">
               <comment>Titanic Knight Warlord</comment>
@@ -1142,7 +1210,8 @@
         </modifier>
       </modifiers>
       <forceEntries>
-        <forceEntry id="6576-b25c-8ce9-8860" name="Super-Heavy Detachment" hidden="false">
+        <forceEntry id="6576-b25c-8ce9-8860" name="超重型分队" hidden="false">
+          <comment>Super-Heavy Detachment</comment>
           <categoryLinks>
             <categoryLink id="445d-efbd-17d4-82b2" name="Configuration" hidden="false" targetId="fcff-0f21-93e6-1ddc" primary="false"/>
             <categoryLink id="da37-b4a3-b7a4-0491" name="Stratagems" hidden="false" targetId="c845-c72c-6afe-3fc2" primary="false"/>
@@ -1155,13 +1224,13 @@
         <categoryLink id="9470-1b9e-1fc2-5554" name="Configuration" hidden="false" targetId="fcff-0f21-93e6-1ddc" primary="false"/>
         <categoryLink id="bbe8-0573-760e-a28f" name="Stratagems" hidden="false" targetId="c845-c72c-6afe-3fc2" primary="false"/>
         <categoryLink id="964d-8f7c-1171-8b98" name="No Force Org Slot" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
-        <categoryLink id="c0a7-80ba-6d10-0724" name="Lord of War" hidden="false" targetId="c888f08a-6cea-4a01-8126-d374a9231554" primary="false">
+        <categoryLink id="c0a7-80ba-6d10-0724" name="战争之王槽位" hidden="false" targetId="c888f08a-6cea-4a01-8126-d374a9231554" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e8fa-5d51-0e94-764b" type="max"/>
             <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="67f2-9795-52db-5a70" type="min"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="5ae3-7417-3751-8480" name="Relic Lord of War" hidden="false" targetId="3216-79af-660b-7711" primary="false">
+        <categoryLink id="5ae3-7417-3751-8480" name="圣物战争之王槽位" hidden="false" targetId="3216-79af-660b-7711" primary="false">
           <modifiers>
             <modifier type="increment" field="c99e-bf0a-6e60-819c" value="1">
               <repeats>
@@ -1180,12 +1249,13 @@
         </categoryLink>
       </categoryLinks>
     </forceEntry>
-    <forceEntry id="224b-1070-218f-fdf4" name="Super-Heavy Auxiliary Detachment -3CP" hidden="false">
+    <forceEntry id="224b-1070-218f-fdf4" name="超重型支援分队 -3CP" hidden="false">
+      <comment>Super-Heavy Auxiliary Detachment -3CP</comment>
       <categoryLinks>
         <categoryLink id="d42a-fc02-778b-3118" name="Configuration" hidden="false" targetId="fcff-0f21-93e6-1ddc" primary="false"/>
         <categoryLink id="dcbb-53c2-a989-ae08" name="Stratagems" hidden="false" targetId="c845-c72c-6afe-3fc2" primary="false"/>
         <categoryLink id="a4f9-671f-1bad-73f1" name="No Force Org Slot" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
-        <categoryLink id="fd86-521c-89cd-53b4" name="Lord of War" hidden="false" targetId="c888f08a-6cea-4a01-8126-d374a9231554" primary="false">
+        <categoryLink id="fd86-521c-89cd-53b4" name="战争之王槽位" hidden="false" targetId="c888f08a-6cea-4a01-8126-d374a9231554" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4384-497e-3b4a-d259" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b8f-4518-f394-33f4" type="min"/>
@@ -1193,9 +1263,10 @@
         </categoryLink>
       </categoryLinks>
     </forceEntry>
-    <forceEntry id="dcee-07fa-ec14-7dec" name="Fortification Network -1CP" hidden="false">
+    <forceEntry id="dcee-07fa-ec14-7dec" name="工事网络 -1CP" hidden="false">
+      <comment>Fortification Network -1CP</comment>
       <modifiers>
-        <modifier type="set" field="name" value="Fortification Network 0CP">
+        <modifier type="set" field="name" value="工事网络 0CP">
           <conditions>
             <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d224-ab2b-e79e-5491" type="atLeast"/>
           </conditions>
@@ -1205,7 +1276,8 @@
         <constraint field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8909-9568-d709-4fc8" type="max"/>
       </constraints>
       <forceEntries>
-        <forceEntry id="a39c-5420-c141-262c" name="Fortification Network" hidden="false">
+        <forceEntry id="a39c-5420-c141-262c" name="工事网络" hidden="false">
+          <comment>Fortification Network</comment>
           <categoryLinks>
             <categoryLink id="317b-ae75-8706-48d2" name="Configuration" hidden="false" targetId="fcff-0f21-93e6-1ddc" primary="false"/>
             <categoryLink id="1384-e000-fa6a-3aa9" name="Stratagems" hidden="false" targetId="c845-c72c-6afe-3fc2" primary="false"/>
@@ -1216,9 +1288,9 @@
       </forceEntries>
       <categoryLinks>
         <categoryLink id="41e1-846b-92e3-4764" name="Configuration" hidden="false" targetId="fcff-0f21-93e6-1ddc" primary="false"/>
-        <categoryLink id="cafb-dc6b-1907-0ae3" name="Stratagems" hidden="false" targetId="c845-c72c-6afe-3fc2" primary="false"/>
+        <categoryLink id="cafb-dc6b-1907-0ae3" name="战略能力" hidden="false" targetId="c845-c72c-6afe-3fc2" primary="false"/>
         <categoryLink id="4cf2-55de-1de3-bdfd" name="No Force Org Slot" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
-        <categoryLink id="4fb0-8ba2-1ea6-973e" name="Fortification" hidden="false" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a" primary="false">
+        <categoryLink id="4fb0-8ba2-1ea6-973e" name="工事槽位" hidden="false" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="26f5-481b-d941-b4ca" type="min"/>
             <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0214-a689-7537-aafa" type="max"/>
@@ -1226,7 +1298,8 @@
         </categoryLink>
       </categoryLinks>
     </forceEntry>
-    <forceEntry id="8a87-f0e3-f2f2-ad1a" name="Auxiliary Support Detachment -2CP" hidden="false">
+    <forceEntry id="8a87-f0e3-f2f2-ad1a" name="辅助支援分队 -2CP" hidden="false">
+      <comment>Auxiliary Support Detachment -2CP</comment>
       <modifiers>
         <modifier type="increment" field="0d7c-f6da-32e9-53aa" value="1.0">
           <repeats>
@@ -1254,15 +1327,16 @@
         <categoryLink id="db20-7a0f-2a50-f1c7" name="Fast Attack" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false"/>
         <categoryLink id="9153-b8bd-1f8a-9f1f" name="Heavy Support" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false"/>
         <categoryLink id="0960-9271-26d6-1831" name="Flyer" hidden="false" targetId="e888-1504-aa61-95ff" primary="false"/>
-        <categoryLink id="1d7c-3253-d90d-6e3a" name="Dedicated Transport" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false"/>
-        <categoryLink id="ba03-97bb-c51d-9a47" name="Relic" hidden="false" targetId="e10e-b44e-7eda-41d8" primary="false">
+        <categoryLink id="1d7c-3253-d90d-6e3a" name="专属运输载具槽位" hidden="false" targetId="1b66-3f5f-6705-079a" primary="false"/>
+        <categoryLink id="ba03-97bb-c51d-9a47" name="圣物槽位" hidden="false" targetId="e10e-b44e-7eda-41d8" primary="false">
           <constraints>
             <constraint field="selections" scope="8a87-f0e3-f2f2-ad1a" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1781-5ba7-241c-c0b3" type="max"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
     </forceEntry>
-    <forceEntry id="44da-9aaf-181b-5ece" name="Unbound Army (Faction)" hidden="false">
+    <forceEntry id="44da-9aaf-181b-5ece" name="自由组军 (阵营)" hidden="false">
+      <comment>Unbound Army (Faction)</comment>
       <categoryLinks>
         <categoryLink id="66d6-b14b-e932-9748" name="Configuration" hidden="false" targetId="fcff-0f21-93e6-1ddc" primary="false"/>
         <categoryLink id="3144-7363-0a07-001a" name="Stratagems" hidden="false" targetId="c845-c72c-6afe-3fc2" primary="false"/>
@@ -1278,7 +1352,8 @@
         <categoryLink id="7751-b628-068c-ae45" name="Fortification" hidden="false" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a" primary="false"/>
       </categoryLinks>
     </forceEntry>
-    <forceEntry id="bffe-7939-c2e6-8f83" name="Reinforcements" hidden="false">
+    <forceEntry id="bffe-7939-c2e6-8f83" name="增援" hidden="false">
+      <comment>Reinforcements</comment>
       <categoryLinks>
         <categoryLink id="74b5-2f6a-b25b-85b0" name="Configuration" hidden="false" targetId="fcff-0f21-93e6-1ddc" primary="false"/>
         <categoryLink id="a689-25bf-9943-c23d" name="Stratagems" hidden="false" targetId="c845-c72c-6afe-3fc2" primary="false"/>
@@ -1418,9 +1493,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0916-b1ff-6433-a82f" type="max"/>
           </constraints>
           <costs>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="pts" typeId="points" value="0.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
+            <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3a15-deb8-1b5e-3626" name="4x Small Shield Section" hidden="false" collective="false" import="true" type="model">
@@ -1429,9 +1504,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f5d5-7c10-508b-f0ba" type="max"/>
           </constraints>
           <costs>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="pts" typeId="points" value="0.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
+            <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8c46-154f-6513-afdd" name="Gun Emplacement" hidden="false" collective="false" import="true" type="model">
@@ -1439,7 +1514,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7531-de50-0a82-c81a" type="max"/>
           </constraints>
           <profiles>
-            <profile id="e1ed-6018-b84a-3200" name="Gun Emplacement" publicationId="28ec-711c-pubN77581" page="129" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+            <profile id="e1ed-6018-b84a-3200" name="Gun Emplacement" publicationId="28ec-711c-pubN77581" page="129" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
               <characteristics>
                 <characteristic name="M" typeId="0bdf-a96e-9e38-7779">-</characteristic>
                 <characteristic name="WS" typeId="e7f0-1278-0250-df0c">-</characteristic>
@@ -1480,16 +1555,16 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="pts" typeId="points" value="0.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
+            <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="points" value="80.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="5.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="80.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="5.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="16d6-25c4-af92-4329" name="Aquila Strongpoint" publicationId="28ec-711c-pubN77581" page="" hidden="true" collective="false" import="true" type="model">
@@ -1501,7 +1576,7 @@
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="10fb-95ad-edea-9a67" name="Aquila Strongpoint" publicationId="28ec-711c-pubN77581" page="135" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="10fb-95ad-edea-9a67" name="Aquila Strongpoint" publicationId="28ec-711c-pubN77581" page="135" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">-</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">-</characteristic>
@@ -1514,7 +1589,7 @@
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="f991-21bd-0497-9611" name="Containment Failure" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="f991-21bd-0497-9611" name="Containment Failure" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -1523,7 +1598,7 @@
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When this model is destroyed, before any embarked models disembark its vortex missiles explode. Each unit within 2D6&quot; suffers D6 mortal wounds. If a model loses any wounds as a result of those mortal wounds but is not destroyed, roll another D6; on a 6 that model suffers a further D6 mortal wounds.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When this model is destroyed, before any embarked models disembark its vortex missiles explode. Each unit within 2D6&quot; suffers D6 mortal wounds. If a model loses any wounds as a result of those mortal wounds but is not destroyed, roll another D6; on a 6 that model suffers a further D6 mortal wounds.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1556,60 +1631,60 @@
           <selectionEntries>
             <selectionEntry id="d7a1-1fc9-4190-ee82" name="Aquila Macro-cannon" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="58f9-3d2c-4843-d270" name="Aquila Macro-cannon (Macro Shell)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="58f9-3d2c-4843-d270" name="Aquila Macro-cannon (Macro Shell)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
-                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72&quot;</characteristic>
-                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy D6</characteristic>
+                    <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72&quot;</characteristic>
+                    <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 D6</characteristic>
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">14</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast. Treat any damage rolls of 1 or 2 made for this weapon as 3 instead.</characteristic>
+                    <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Blast. Treat any damage rolls of 1 or 2 made for this weapon as 3 instead.</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="c2e0-4b21-bef8-704e" name="Aquila Macro-cannon (Quake Shell)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="c2e0-4b21-bef8-704e" name="Aquila Macro-cannon (Quake Shell)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
-                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">180&quot;</characteristic>
-                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2D6</characteristic>
+                    <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">180&quot;</characteristic>
+                    <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 2D6</characteristic>
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">9</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast.</characteristic>
+                    <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Blast.</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="14b1-1529-10dd-db95" name="Magazine Explosion (Macro-cannon)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                <profile id="14b1-1529-10dd-db95" name="Magazine Explosion (Macro-cannon)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model is reduced to 0 wounds, roll a D6 before removing it from the battlefield and before any embarked models disembark. On a 6 its magazine explodes, and each unit within 2D6&quot; suffers D6 mortal wounds.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model is reduced to 0 wounds, roll a D6 before removing it from the battlefield and before any embarked models disembark. On a 6 its magazine explodes, and each unit within 2D6&quot; suffers D6 mortal wounds.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="分" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1600-8ea4-6f3f-383f" name="Vortex Missile Battery" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="bfd6-5593-64dc-08d0" name="Vortex Missile Battery" publicationId="28ec-711c-pubN77581" page="136" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="bfd6-5593-64dc-08d0" name="Vortex Missile Battery" publicationId="28ec-711c-pubN77581" page="136" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
-                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">180&quot;</characteristic>
-                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy D6</characteristic>
+                    <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">180&quot;</characteristic>
+                    <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 D6</characteristic>
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">-</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">-</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon may target units that are not visible to the bearer, even when firing in accordance with the Automated Weapons ability. Each time you hit the target with this weapon it suffers D6 mortal wounds. If a model is wounded but but not slain by this attack, roll another dice; on a 6, the model suffers a further D6 mortal wounds.</characteristic>
+                    <characteristic name="能力" typeId="837d-5e63-aeb7-1410">This weapon may target units that are not visible to the bearer, even when firing in accordance with the Automated Weapons ability. Each time you hit the target with this weapon it suffers D6 mortal wounds. If a model is wounded but but not slain by this attack, roll another dice; on a 6, the model suffers a further D6 mortal wounds.</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="43f6-b40f-134b-8b48" name="Containment Failure" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                <profile id="43f6-b40f-134b-8b48" name="Containment Failure" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model is reduced to 0 wounds, before removing it from the battlefield and before any embarked models disembark, its vortex missiles explode. Each unit within 2D6&quot; suffers D6 mortal wounds. If a model is wounded but not slain by in this manner roll another dice; on a 6, the model is sucked up into the swirling vortex and slain.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model is reduced to 0 wounds, before removing it from the battlefield and before any embarked models disembark, its vortex missiles explode. Each unit within 2D6&quot; suffers D6 mortal wounds. If a model is wounded but not slain by in this manner roll another dice; on a 6, the model is sucked up into the swirling vortex and slain.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="分" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1623,14 +1698,14 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="330.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="20.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="330.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="20.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a172-78de-aaa6-2201" name="Firestorm Redoubt" publicationId="28ec-711c-pubN77581" page="85" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="60de-0498-11dc-3cca" name="Firestorm Redoubt" publicationId="28ec-711c-pubN77581" page="133" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="60de-0498-11dc-3cca" name="Firestorm Redoubt" publicationId="28ec-711c-pubN77581" page="133" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">-</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">-</characteristic>
@@ -1643,9 +1718,9 @@
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="fbfc-1394-e5aa-dd70" name="Firestorm Redoubt" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="Transport">
+        <profile id="fbfc-1394-e5aa-dd70" name="Firestorm Redoubt" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运输载具">
           <characteristics>
-            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">This model has a transport capacity of two INFANTRY units, up to a total of 20 models.</characteristic>
+            <characteristic name="运载能力" typeId="15aa-1916-a38b-d223">This model has a transport capacity of two INFANTRY units, up to a total of 20 models.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1694,14 +1769,14 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="points" value="210.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="14.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="210.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="14.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8300-7ced-aafd-2a27" name="Fortress of Redemption" page="" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="a9bb-cfc7-e595-0252" name="Fortress of Redemption" publicationId="28ec-711c-pubN78977" page="126" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="a9bb-cfc7-e595-0252" name="Fortress of Redemption" publicationId="28ec-711c-pubN78977" page="126" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">0</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">-</characteristic>
@@ -1714,27 +1789,27 @@
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="6c91-1bed-eb98-ebba" name="Fortress of Redemption (1)" hidden="false" typeId="50ea-3b64-d9ae-0e3f" typeName="Stat Damage - BS">
+        <profile id="6c91-1bed-eb98-ebba" name="Fortress of Redemption (1)" hidden="false" typeId="50ea-3b64-d9ae-0e3f" typeName="损伤表 - BS">
           <characteristics>
-            <characteristic name="Remaining W" typeId="ada9-1c1d-fa2a-3803">21-30+</characteristic>
+            <characteristic name="剩余 W" typeId="ada9-1c1d-fa2a-3803">21-30+</characteristic>
             <characteristic name="BS" typeId="b7a6-b64d-4339-eb87">5+</characteristic>
           </characteristics>
         </profile>
-        <profile id="9863-71f1-397f-a7ce" name="Fortress of Redemption (2)" hidden="false" typeId="50ea-3b64-d9ae-0e3f" typeName="Stat Damage - BS">
+        <profile id="9863-71f1-397f-a7ce" name="Fortress of Redemption (2)" hidden="false" typeId="50ea-3b64-d9ae-0e3f" typeName="损伤表 - BS">
           <characteristics>
-            <characteristic name="Remaining W" typeId="ada9-1c1d-fa2a-3803">11-20</characteristic>
+            <characteristic name="剩余 W" typeId="ada9-1c1d-fa2a-3803">11-20</characteristic>
             <characteristic name="BS" typeId="b7a6-b64d-4339-eb87">6+</characteristic>
           </characteristics>
         </profile>
-        <profile id="562b-8464-deb7-55ab" name="Fortress of Redemption (3)" hidden="false" typeId="50ea-3b64-d9ae-0e3f" typeName="Stat Damage - BS">
+        <profile id="562b-8464-deb7-55ab" name="Fortress of Redemption (3)" hidden="false" typeId="50ea-3b64-d9ae-0e3f" typeName="损伤表 - BS">
           <characteristics>
-            <characteristic name="Remaining W" typeId="ada9-1c1d-fa2a-3803">1-10</characteristic>
+            <characteristic name="剩余 W" typeId="ada9-1c1d-fa2a-3803">1-10</characteristic>
             <characteristic name="BS" typeId="b7a6-b64d-4339-eb87">7+</characteristic>
           </characteristics>
         </profile>
-        <profile id="cf90-f8df-224e-6333" name="Fortress of Redemption" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="Transport">
+        <profile id="cf90-f8df-224e-6333" name="Fortress of Redemption" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运输载具">
           <characteristics>
-            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">This model has a transport capacity of 2 INFANTRY units, up to a total of 30 models.</characteristic>
+            <characteristic name="运载能力" typeId="15aa-1916-a38b-d223">This model has a transport capacity of 2 INFANTRY units, up to a total of 30 models.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1756,31 +1831,31 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2a7-8818-aa73-5a3a" type="max"/>
           </constraints>
           <profiles>
-            <profile id="0739-fefd-af02-d118" name="Krakstorm Missile" publicationId="28ec-711c-pubN78977" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="0739-fefd-af02-d118" name="Krakstorm Missile" publicationId="28ec-711c-pubN78977" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
-                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18-96&quot;</characteristic>
-                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy D6</characteristic>
+                <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18-96&quot;</characteristic>
+                <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 D6</characteristic>
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+                <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
               </characteristics>
             </profile>
-            <profile id="7068-6a6c-21c8-aebc" name="Fragstorm Missile" publicationId="28ec-711c-pubN78977" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="7068-6a6c-21c8-aebc" name="Fragstorm Missile" publicationId="28ec-711c-pubN78977" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
-                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18-96&quot;</characteristic>
-                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2D6</characteristic>
+                <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18-96&quot;</characteristic>
+                <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 2D6</characteristic>
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+                <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="pts" typeId="points" value="0.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
+            <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1801,14 +1876,14 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="440.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="24.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="440.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="24.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="55c6-268b-357f-d070" name="Imperial Bastion" page="" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="0b7f-e298-a638-7d9f" name="Imperial Bastion" publicationId="28ec-711c-pubN77581" page="130" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="0b7f-e298-a638-7d9f" name="Imperial Bastion" publicationId="28ec-711c-pubN77581" page="130" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">-</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">-</characteristic>
@@ -1821,9 +1896,9 @@
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="aaaa-857c-b390-65ca" name="Imperial Bastion" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="Transport">
+        <profile id="aaaa-857c-b390-65ca" name="Imperial Bastion" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运输载具">
           <characteristics>
-            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">This model has a transport capacity of two INFANTRY units, up to a total of 20 models.</characteristic>
+            <characteristic name="运载能力" typeId="15aa-1916-a38b-d223">This model has a transport capacity of two INFANTRY units, up to a total of 20 models.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1867,14 +1942,14 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="210.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="12.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="210.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="12.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0116-c81b-1c0f-251c" name="Imperial Bunker" page="" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="515f-5c54-23ac-5052" name="Imperial Bunker" publicationId="28ec-711c-pubN77581" page="131" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="515f-5c54-23ac-5052" name="Imperial Bunker" publicationId="28ec-711c-pubN77581" page="131" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">-</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">-</characteristic>
@@ -1887,9 +1962,9 @@
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="9507-2858-f7ba-6d90" name="Imperial Bunker" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="Transport">
+        <profile id="9507-2858-f7ba-6d90" name="Imperial Bunker" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运输载具">
           <characteristics>
-            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">This model has a transport capacity of 2 INFANTRY units, up to a total of 10 models.</characteristic>
+            <characteristic name="运载能力" typeId="15aa-1916-a38b-d223">This model has a transport capacity of 2 INFANTRY units, up to a total of 10 models.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1926,16 +2001,16 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="points" value="90.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="7.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="90.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="7.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0f73-97f2-b832-f6d0" name="Imperial Defence Line" page="" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="808f-d24a-ba7c-7d24" name="Stalwart Defence" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="808f-d24a-ba7c-7d24" name="Stalwart Defence" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the Leadership characteristic of models in IMPERIUM INFANTRY units whilst their unit is within an Imperial Defence Line.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the Leadership characteristic of models in IMPERIUM INFANTRY units whilst their unit is within an Imperial Defence Line.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1959,9 +2034,9 @@
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a1fe-6f95-886e-3cae" type="max"/>
           </constraints>
           <costs>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="pts" typeId="points" value="0.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
+            <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1974,30 +2049,30 @@
           <selectionEntries>
             <selectionEntry id="edb1-05ac-de01-c37b" name="2x Trench Section" hidden="false" collective="false" import="true" type="model">
               <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="分" typeId="points" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="65e9-e4b4-b7aa-28b4" name="3x Defence Emplacement" hidden="false" collective="false" import="true" type="model">
               <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="分" typeId="points" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="points" value="90.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="5.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="90.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="5.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="47e8-03be-a35b-8329" name="Plasma Obliterator" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="73fb-c6a5-7b24-a46f" name="Plasma Obliterator" publicationId="28ec-711c-pubN77581" page="134" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="73fb-c6a5-7b24-a46f" name="Plasma Obliterator" publicationId="28ec-711c-pubN77581" page="134" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">-</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">-</characteristic>
@@ -2010,14 +2085,14 @@
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="7f96-4bff-c6ed-aa8b" name="Plasma Obliterator" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="Transport">
+        <profile id="7f96-4bff-c6ed-aa8b" name="Plasma Obliterator" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运输载具">
           <characteristics>
-            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">This model has a transport capacity of two INFANTRY units, up to a total of 20 models.</characteristic>
+            <characteristic name="运载能力" typeId="15aa-1916-a38b-d223">This model has a transport capacity of two INFANTRY units, up to a total of 20 models.</characteristic>
           </characteristics>
         </profile>
-        <profile id="e232-2e1e-1955-a5c0" name="Plasma Explosion" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="e232-2e1e-1955-a5c0" name="Plasma Explosion" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When this model is destroyed, roll one D6 before any embarked models disembark, and before removing it from play. On a 4+ it explodes, and each unit within D6&quot; suffers D6 mortal wounds.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When this model is destroyed, roll one D6 before any embarked models disembark, and before removing it from play. On a 4+ it explodes, and each unit within D6&quot; suffers D6 mortal wounds.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2033,33 +2108,33 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6a0-39ec-531f-d2cd" type="max"/>
           </constraints>
           <profiles>
-            <profile id="af44-83df-791e-9999" name="Plasma Obliterator" publicationId="28ec-711c-pubN77581" page="134" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="af44-83df-791e-9999" name="Plasma Obliterator" publicationId="28ec-711c-pubN77581" page="134" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
-                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72&quot;</characteristic>
-                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2D6&quot;</characteristic>
+                <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72&quot;</characteristic>
+                <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 2D6&quot;</characteristic>
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time you roll a hit roll of 1 when firing this weapon, this model suffers a mortal wound after all of its shots have been resolved.</characteristic>
+                <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Each time you roll a hit roll of 1 when firing this weapon, this model suffers a mortal wound after all of its shots have been resolved.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="points" value="210.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="11.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="210.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="11.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5cdd-edbb-07c3-0ba5" name="Skyshield Landing Pad" publicationId="28ec-711c-pubN77581" page="101" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="9d4b-230d-876c-b3f4" name="Skyshield Landing Pad" publicationId="28ec-711c-pubN77581" page="137" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="9d4b-230d-876c-b3f4" name="Skyshield Landing Pad" publicationId="28ec-711c-pubN77581" page="137" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">-</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">-</characteristic>
@@ -2072,19 +2147,19 @@
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
           </characteristics>
         </profile>
-        <profile id="abe7-f841-acc8-c3f4" name="Landing Pad Configuration" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="abe7-f841-acc8-c3f4" name="Landing Pad Configuration" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Units can move across this model as if it were a terrain feature. When this model is set up on the battlefield, select either the Shielded or Unfurled configuration to be in effect. At the start of your movement phase, if there are no enemy models within 1&quot; of the Skyshield Landing Pad, you can change which configuration is in effect:</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Units can move across this model as if it were a terrain feature. When this model is set up on the battlefield, select either the Shielded or Unfurled configuration to be in effect. At the start of your movement phase, if there are no enemy models within 1&quot; of the Skyshield Landing Pad, you can change which configuration is in effect:</characteristic>
           </characteristics>
         </profile>
-        <profile id="c01d-4736-944f-b007" name="Shielded" hidden="false" typeId="002f-cc4a-c4e3-0261" typeName="Landing Pad Configuration">
+        <profile id="c01d-4736-944f-b007" name="Shielded" hidden="false" typeId="002f-cc4a-c4e3-0261" typeName="登陆平台配置">
           <characteristics>
-            <characteristic name="Effect" typeId="f566-bacc-9414-7661">Whilst this configuration is in effect, models that are on top of the Skyshield Landing Pad have a 5+ invulnerable save against any attacks made in the Shooting phase if the attacking model is not also on top of the Skyshield Landing Pad. The Skyshield Landing Pad itself does not receive an invulnerable save in this manner.</characteristic>
+            <characteristic name="影响" typeId="f566-bacc-9414-7661">Whilst this configuration is in effect, models that are on top of the Skyshield Landing Pad have a 5+ invulnerable save against any attacks made in the Shooting phase if the attacking model is not also on top of the Skyshield Landing Pad. The Skyshield Landing Pad itself does not receive an invulnerable save in this manner.</characteristic>
           </characteristics>
         </profile>
-        <profile id="c1ed-3585-4739-2266" name="Unfurled" hidden="false" typeId="002f-cc4a-c4e3-0261" typeName="Landing Pad Configuration">
+        <profile id="c1ed-3585-4739-2266" name="Unfurled" hidden="false" typeId="002f-cc4a-c4e3-0261" typeName="登陆平台配置">
           <characteristics>
-            <characteristic name="Effect" typeId="f566-bacc-9414-7661">Whilst this configuration is in effect, if a friendly VEHICLE unit with the FLYER Battlefield Role spends its entire turn on top of a Skyshield Landing Pad in this configuration, that model regains up to D3 lost wounds at the end of the turn.</characteristic>
+            <characteristic name="影响" typeId="f566-bacc-9414-7661">Whilst this configuration is in effect, if a friendly VEHICLE unit with the FLYER Battlefield Role spends its entire turn on top of a Skyshield Landing Pad in this configuration, that model regains up to D3 lost wounds at the end of the turn.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2097,19 +2172,19 @@
         <categoryLink id="3b13-2e07-f357-c9d8" name="New CategoryLink" hidden="false" targetId="9df5-bb14-9326-4108" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="120.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="6.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="120.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="6.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="04bf-6c22-19fb-4e46" name="Vengeance Weapon Batteries" page="" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="4ca0-bdc4-9090-1647" name="Fully Automated Weapons" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="4ca0-bdc4-9090-1647" name="Fully Automated Weapons" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model&apos;s weapons can only target the closest visible enemy unit. Attacks made with the Quad Icarus Lascannons can instead target the closest visible enemy unit that can FLY. In either case, if two or more units are equally close, you can choose which is targeted.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model&apos;s weapons can only target the closest visible enemy unit. Attacks made with the Quad Icarus Lascannons can instead target the closest visible enemy unit that can FLY. In either case, if two or more units are equally close, you can choose which is targeted.</characteristic>
           </characteristics>
         </profile>
-        <profile id="4e2c-1874-14f7-56d8" name="Vengeance Weapon Battery" publicationId="28ec-711c-pubN77581" page="132" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="4e2c-1874-14f7-56d8" name="Vengeance Weapon Battery" publicationId="28ec-711c-pubN77581" page="132" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">-</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">-</characteristic>
@@ -2161,21 +2236,21 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
-            <cost name="pts" typeId="points" value="110.0"/>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="7.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="分" typeId="points" value="110.0"/>
+            <cost name="战斗力" typeId="e356-c769-5920-6e14" value="7.0"/>
+            <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bbd4-5f41-35d1-6c5f" name="Void Shield Generator" publicationId="28ec-711c-pubN77581" page="92" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="d0f7-8cc8-2f73-ebf1" name="Void Shield Generator" publicationId="28ec-711c-pubN77581" page="136" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="d0f7-8cc8-2f73-ebf1" name="Void Shield Generator" publicationId="28ec-711c-pubN77581" page="136" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">-</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">-</characteristic>
@@ -2188,9 +2263,9 @@
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
           </characteristics>
         </profile>
-        <profile id="c818-46ac-f5b8-cd39" name="Projected Void Shields" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="c818-46ac-f5b8-cd39" name="Projected Void Shields" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models wholly within 12&quot; of a Void Shield Generator receive a 5+ invulnerable save against attacks made in the Shooting phase if the firing model is not also wholly within 12&quot; of this model.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models wholly within 12&quot; of a Void Shield Generator receive a 5+ invulnerable save against attacks made in the Shooting phase if the firing model is not also wholly within 12&quot; of this model.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2203,9 +2278,9 @@
         <categoryLink id="f202-7d66-e9c8-b288" name="New CategoryLink" hidden="false" targetId="53cd-314c-599b-8616" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="200.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="10.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="200.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="10.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fd22-6743-2d4c-dd62" name="Flamer" hidden="false" collective="false" import="true" type="upgrade">
@@ -2213,9 +2288,9 @@
         <infoLink id="266d-d13b-34e5-b2c6" name="Flamer" hidden="false" targetId="cdc3-3459-a28c-a9cf" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="05ab-e7cc-e856-c36f" name="Heavy bolter" hidden="false" collective="false" import="true" type="upgrade">
@@ -2223,9 +2298,9 @@
         <infoLink id="f5ff-ee10-df57-d926" name="Heavy bolter" hidden="false" targetId="e2b0-b9f1-6c38-584c" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="efc8-c51d-5b02-a3a2" name="Meltagun" hidden="false" collective="false" import="true" type="upgrade">
@@ -2233,9 +2308,9 @@
         <infoLink id="02b8-d775-29e8-e297" name="Meltagun" hidden="false" targetId="ec4c-1132-ddaf-db8e" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8c14-22cc-93ce-b85a" name="Plasma gun" hidden="false" collective="false" import="true" type="upgrade">
@@ -2244,9 +2319,9 @@
         <infoLink id="24b5-23de-bf9d-1f41" name="Plasma gun, Supercharge" hidden="false" targetId="acb5-7b58-0d17-a33a" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="83be-1ba9-c326-4760" name="Plasma pistol" hidden="false" collective="false" import="true" type="upgrade">
@@ -2255,9 +2330,9 @@
         <infoLink id="1514-2a22-0f8a-615c" name="Plasma pistol, Supercharge" hidden="false" targetId="5779-2931-fe17-2b27" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3292-34e6-f679-d5b9" name="Power axe" hidden="false" collective="false" import="true" type="upgrade">
@@ -2265,9 +2340,9 @@
         <infoLink id="7307-06cf-2e47-a527" name="Power axe" hidden="false" targetId="4635-64e7-2344-ea7c" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6ea7-1195-7144-438e" name="Power maul" hidden="false" collective="false" import="true" type="upgrade">
@@ -2275,9 +2350,9 @@
         <infoLink id="1392-d9c3-533f-53ca" name="Power maul" hidden="false" targetId="ca27-e5ee-f6eb-652d" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bc9e-551d-9afb-78d5" name="Power sword" hidden="false" collective="false" import="true" type="upgrade">
@@ -2285,19 +2360,19 @@
         <infoLink id="1fb6-6551-cc76-96f6" name="Power sword" hidden="false" targetId="47df-8e01-d0cf-58e8" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="09d8-7790-ed3f-4d6d" name="Twin heavy bolter" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="09d8-7790-ed3f-4d6d" name="双联重爆弹" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="8579-7d4e-5384-994b" name="Twin heavy bolter" hidden="false" targetId="6644-7150-c910-865d" type="profile"/>
+        <infoLink id="8579-7d4e-5384-994b" name="双联重爆弹" hidden="false" targetId="6644-7150-c910-865d" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f122-3720-fa32-4215" name="Power fist" hidden="false" collective="false" import="true" type="upgrade">
@@ -2305,9 +2380,9 @@
         <infoLink id="4446-79f3-94ea-8702" name="Power fist" hidden="false" targetId="3520-0bb4-90f2-084b" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cddf-945e-1335-e681" name="Frag &amp; Krak grenades" hidden="false" collective="true" import="true" type="upgrade">
@@ -2316,9 +2391,9 @@
         <infoLink id="b250-1f2e-4904-0eb4" name="Krak grenade" hidden="false" targetId="3bf6-b4f7-6b2f-bb7b" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="18bc-b335-29c2-2ae2" name="Heavy flamer" hidden="false" collective="false" import="true" type="upgrade">
@@ -2326,9 +2401,9 @@
         <infoLink id="d762-8e0a-5a75-b8a0" name="Heavy flamer" hidden="false" targetId="2608-8425-4f4f-7f41" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1469-1964-7a91-94d4" name="Missile launcher" hidden="false" collective="false" import="true" type="upgrade">
@@ -2337,9 +2412,9 @@
         <infoLink id="5e42-5359-431e-68e1" name="Missile launcher, Krak missile" hidden="false" targetId="8161-3b0e-8048-0e83" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c6a1-e0c4-c1b1-dce1" name="Combi-flamer" hidden="false" collective="false" import="true" type="upgrade">
@@ -2349,9 +2424,9 @@
         <infoLink id="e750-f8e4-4667-b083" name="Combi Weapon" hidden="false" targetId="a269-b8d9-67c5-4009" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fdce-cdf7-21a9-f9ac" name="Combi-plasma" hidden="false" collective="false" import="true" type="upgrade">
@@ -2362,9 +2437,9 @@
         <infoLink id="0078-b3a9-c2e8-c96f" name="Combi Weapon" hidden="false" targetId="a269-b8d9-67c5-4009" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c445-e211-f316-5d83" name="Combi-melta" hidden="false" collective="false" import="true" type="upgrade">
@@ -2374,9 +2449,9 @@
         <infoLink id="89f9-614c-9804-9dda" name="Combi Weapon" hidden="false" targetId="a269-b8d9-67c5-4009" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a908-4664-11cd-f8b2" name="Lascannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -2384,19 +2459,19 @@
         <infoLink id="3036-38da-528d-0a80" name="Lascannon" hidden="false" targetId="f14a-07e5-5465-69cf" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e464-77c1-12bb-e52f" name="Chainfist" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="e464-77c1-12bb-e52f" name="链锯拳" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="bdc5-1dfb-53c0-15f7" name="Chainfist" hidden="false" targetId="8194-4688-65b3-f996" type="profile"/>
+        <infoLink id="bdc5-1dfb-53c0-15f7" name="链锯拳" hidden="false" targetId="8194-4688-65b3-f996" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2b37-65ee-9443-b4ef" name="Multi-melta" hidden="false" collective="false" import="true" type="upgrade">
@@ -2404,9 +2479,9 @@
         <infoLink id="f137-6527-ee90-112e" name="Multi-melta" hidden="false" targetId="1768-d7b9-37ba-f3bf" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="90de-7b01-e401-888b" name="Lightning Claw" hidden="false" collective="false" import="true" type="upgrade">
@@ -2414,9 +2489,9 @@
         <infoLink id="9e71-d43e-6873-f182" name="Lightning claw" hidden="false" targetId="7584-238f-3174-4529" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5210-8cb2-b5a2-a04f" name="Autocannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -2424,9 +2499,9 @@
         <infoLink id="4520-d92c-87d9-6f07" name="Autocannon" hidden="false" targetId="fa99-0671-b31a-22d7" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5752-d165-5e03-d38c" name="Autogun" hidden="false" collective="false" import="true" type="upgrade">
@@ -2434,9 +2509,9 @@
         <infoLink id="f8c7-9649-7ee6-49a3" name="Autogun" hidden="false" targetId="fcde-3e6a-e240-1157" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0507-a97d-4f7f-83b4" name="Autopistol" hidden="false" collective="false" import="true" type="upgrade">
@@ -2444,9 +2519,9 @@
         <infoLink id="a383-6bcd-79e0-591a" name="Autopistol" hidden="false" targetId="2481-001b-00f9-501b" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1d7b-4f46-b77b-ead1" name="Battle cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -2454,9 +2529,9 @@
         <infoLink id="2dd4-28a0-308d-971c" name="Battle Cannon" hidden="false" targetId="bc34-f1ec-56fa-2829" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cfa3-5fcd-af10-5520" name="Heavy stubber" hidden="false" collective="false" import="true" type="upgrade">
@@ -2464,9 +2539,9 @@
         <infoLink id="7ef1-ba4e-ac69-450a" name="Heavy stubber" hidden="false" targetId="0031-0314-5b36-a220" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2094-c9a6-a426-0970" name="Shotgun" hidden="false" collective="false" import="true" type="upgrade">
@@ -2474,9 +2549,9 @@
         <infoLink id="428f-112d-d5f4-10c4" name="Shotgun" hidden="false" targetId="07cb-70d7-15c3-5117" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4a0e-0f13-63c2-9aae" name="Force axe" hidden="false" collective="false" import="true" type="upgrade">
@@ -2484,9 +2559,9 @@
         <infoLink id="1f6e-083b-48be-9aa7" name="Force axe" hidden="false" targetId="c019-5c9a-c1f4-4b4f" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6f9a-c4fe-3132-d011" name="Force stave" hidden="false" collective="false" import="true" type="upgrade">
@@ -2494,9 +2569,9 @@
         <infoLink id="2552-08c9-9419-8a06" name="Force stave" hidden="false" targetId="ed69-f85e-5982-9ab8" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="07e7-1f9b-4c1c-aad9" name="Force sword" hidden="false" collective="false" import="true" type="upgrade">
@@ -2504,29 +2579,29 @@
         <infoLink id="b924-3d7d-287c-0a97" name="Force sword" hidden="false" targetId="29c5-cff6-7f7c-96d6" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0334-f487-8229-0c1a" name="Bolt pistol" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="0334-f487-8229-0c1a" name="爆弹手枪" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="45bf-2847-b181-19e4" name="Bolt pistol" hidden="false" targetId="e6d5-677a-d8ed-f6a5" type="profile"/>
+        <infoLink id="45bf-2847-b181-19e4" name="爆弹手枪" hidden="false" targetId="e6d5-677a-d8ed-f6a5" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b61f-a3c1-827d-c5b6" name="Boltgun" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="b61f-a3c1-827d-c5b6" name="爆弹枪" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="b122-fbba-f2e4-b4ff" name="Boltgun" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
+        <infoLink id="b122-fbba-f2e4-b4ff" name="爆弹枪" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0dd1-2e2b-7dd1-5495" name="Chainsword" hidden="false" collective="false" import="true" type="upgrade">
@@ -2534,9 +2609,9 @@
         <infoLink id="a0ab-a8b2-e918-c94a" name="Chainsword" hidden="false" targetId="9b1e-61f9-4a5b-0044" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e3a8-4aab-77ee-956a" name="Assault bolter" hidden="false" collective="false" import="true" type="upgrade">
@@ -2544,9 +2619,9 @@
         <infoLink id="c557-d1e3-1ff5-9b0d" name="Assault bolter" hidden="false" targetId="21ef-7459-ad22-ece0" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="51b0-3d46-5af4-683e" name="Assault cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -2554,9 +2629,9 @@
         <infoLink id="4e22-30bc-2ef4-dc94" name="Assault cannon" hidden="false" targetId="20dc-1fbb-dc65-7f04" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b4dd-2ff1-9f8e-ab00" name="Astartes grenade launcher" hidden="false" collective="false" import="true" type="upgrade">
@@ -2565,9 +2640,9 @@
         <infoLink id="0997-a5c0-e849-4e85" name="Astartes grenade launcher, Krak grenade" hidden="false" targetId="ac6d-bf1b-73d0-e6af" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ce59-8ed4-4497-8a53" name="Astartes shotgun" hidden="false" collective="false" import="true" type="upgrade">
@@ -2575,9 +2650,9 @@
         <infoLink id="b667-d70c-0d70-a0d9" name="Astartes shotgun" hidden="false" targetId="961a-afdd-b0a9-f43d" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fbf3-4fc8-f474-e3db" name="Bolt rifle" hidden="false" collective="false" import="true" type="upgrade">
@@ -2585,9 +2660,9 @@
         <infoLink id="ce35-b082-a1f7-84d7" name="Bolt rifle" hidden="false" targetId="cddb-d686-f7b9-ec39" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="689a-17db-7527-5cf8" name="Boltstorm gauntlet" hidden="false" collective="false" import="true" type="upgrade">
@@ -2596,9 +2671,9 @@
         <infoLink id="71c7-d9fb-ec4c-00d7" name="Boltstorm gauntlet (shooting)" hidden="false" targetId="eb60-1a3c-5699-dadb" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e2b8-099c-9f60-0faf" name="Centurion missile launcher" hidden="false" collective="false" import="true" type="upgrade">
@@ -2606,9 +2681,9 @@
         <infoLink id="bc71-fda7-a9ff-4b02" name="Centurion missile launcher" hidden="false" targetId="19eb-bb51-72c6-7829" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3846-568f-f410-946e" name="Cerberus launcher" hidden="false" collective="false" import="true" type="upgrade">
@@ -2616,9 +2691,9 @@
         <infoLink id="c9e8-81ae-d266-4c86" name="Cerberus launcher" hidden="false" targetId="418d-8293-8de6-7cac" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="eba0-9fc6-5334-a390" name="Combi-bolter" hidden="false" collective="false" import="true" type="upgrade">
@@ -2626,9 +2701,9 @@
         <infoLink id="07a8-9262-dc1a-3c9d" name="Combi-bolter" hidden="false" targetId="0655-6c08-6402-46bf" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c027-24d6-7a3d-cf12" name="Combi-grav" hidden="false" collective="false" import="true" type="upgrade">
@@ -2638,9 +2713,9 @@
         <infoLink id="3769-90bc-d2ca-500a" name="Combi Weapon" hidden="false" targetId="a269-b8d9-67c5-4009" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fbb1-9dd6-aefc-eba2" name="Conversion beamer" hidden="false" collective="false" import="true" type="upgrade">
@@ -2648,9 +2723,9 @@
         <infoLink id="0dbd-c07a-36c2-a637" name="Conversion beamer" hidden="false" targetId="60d6-1b2a-e2a8-5106" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="25b3-79f7-73cd-9321" name="Cyclone missile launcher" hidden="false" collective="false" import="true" type="upgrade">
@@ -2659,9 +2734,9 @@
         <infoLink id="fdc1-d95c-d771-04db" name="Cyclone missile launcher, Krak missile" hidden="false" targetId="d9ac-d70c-de0b-1897" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5342-99c6-bc9f-770a" name="Deathwind launcher" hidden="false" collective="false" import="true" type="upgrade">
@@ -2669,9 +2744,9 @@
         <infoLink id="4e65-155d-8521-521f" name="Deathwind launcher" hidden="false" targetId="b1a9-6785-fb1a-a5cb" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1f7e-32c4-61af-510f" name="Demolisher cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -2679,9 +2754,9 @@
         <infoLink id="e69e-836a-eb1b-638a" name="Demolisher cannon" hidden="false" targetId="d2d1-43d6-8c52-7a6a" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dc17-09cb-c84b-e837" name="Disintegration combi-gun" hidden="false" collective="false" import="true" type="upgrade">
@@ -2690,9 +2765,9 @@
         <infoLink id="88e4-f507-cc1e-d266" name="Disintegration gun" hidden="false" targetId="c86e-fd57-5a10-6b61" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9728-3bce-75d9-803a" name="Disintegration pistol" hidden="false" collective="false" import="true" type="upgrade">
@@ -2700,9 +2775,9 @@
         <infoLink id="c341-c1f1-d49c-eee8" name="Disintegration pistol" hidden="false" targetId="d015-8e37-8b3f-59b9" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f09b-e29b-c7e0-c9e1" name="Flamestorm cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -2710,9 +2785,9 @@
         <infoLink id="46d4-c0d8-f5e9-1398" name="Flamestorm cannon" hidden="false" targetId="49ae-4451-9bc0-5238" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f68e-9984-71fe-6bca" name="Frag grenades" hidden="false" collective="false" import="true" type="upgrade">
@@ -2720,9 +2795,9 @@
         <infoLink id="7ad5-6b5c-ebb9-6058" name="Frag grenade" hidden="false" targetId="fdd8-1a5f-5722-d6ee" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7b66-cac7-e582-a518" name="Grav-pistol" hidden="false" collective="false" import="true" type="upgrade">
@@ -2730,9 +2805,9 @@
         <infoLink id="3e5e-d902-bf8f-05d7" name="Grav-pistol" hidden="false" targetId="7b30-68a4-3745-c6fa" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2f3b-2b38-8060-efc7" name="Grav-cannon and grav-amp" hidden="false" collective="false" import="true" type="upgrade">
@@ -2740,9 +2815,9 @@
         <infoLink id="4959-373f-e125-38d6" name="Grav-cannon" hidden="false" targetId="c76b-4051-dbf4-d5b8" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c300-04a5-d4eb-3f53" name="Grenade harness" hidden="false" collective="false" import="true" type="upgrade">
@@ -2750,9 +2825,9 @@
         <infoLink id="3f79-d363-7d36-ad00" name="Grenade harness" hidden="false" targetId="042e-bff6-0d45-8423" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="221a-6109-61df-015e" name="Heavy plasma cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -2761,9 +2836,9 @@
         <infoLink id="0656-5ec5-5535-4b75" name="Heavy plasma cannon, Supercharge" hidden="false" targetId="691d-11e2-ebfb-d4ad" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="32bf-b117-4ecf-5165" name="Hunter-killer missile" hidden="false" collective="false" import="true" type="upgrade">
@@ -2771,9 +2846,9 @@
         <infoLink id="7d77-e384-878e-fcad" name="Hunter-killer missile" hidden="false" targetId="e2a9-e8fc-3a6b-2eec" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b34a-b0c7-689d-d9a9" name="Hurricane bolter" hidden="false" collective="false" import="true" type="upgrade">
@@ -2781,9 +2856,9 @@
         <infoLink id="123a-512b-cca4-af0f" name="Hurricane bolter" hidden="false" targetId="0c32-fc5b-5235-f6ba" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="98bf-0664-0b1b-3e27" name="Icarus stormcannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -2791,9 +2866,9 @@
         <infoLink id="1619-e1cb-dbcc-04d8" name="Icarus stormcannon" hidden="false" targetId="b1d1-72ef-a807-dbbc" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="db1d-3a08-13f2-72fa" name="Kheres pattern assault cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -2801,9 +2876,9 @@
         <infoLink id="d25f-5bb7-0c99-a99d" name="Kheres pattern assault cannon" hidden="false" targetId="10cf-9931-74ee-504e" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0f23-cd69-d106-371e" name="Krak grenades" hidden="false" collective="false" import="true" type="upgrade">
@@ -2811,9 +2886,9 @@
         <infoLink id="b02a-8529-f881-426e" name="Krak grenade" hidden="false" targetId="3bf6-b4f7-6b2f-bb7b" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5ca6-11eb-52e7-aad9" name="Las-talon" hidden="false" collective="false" import="true" type="upgrade">
@@ -2821,9 +2896,9 @@
         <infoLink id="f25a-890e-af66-fc83" name="Las-talon" hidden="false" targetId="e85f-43e2-24d3-f852" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f2f6-ed05-f2a9-f46f" name="Master-crafted auto bolt rifle" hidden="false" collective="false" import="true" type="upgrade">
@@ -2831,9 +2906,9 @@
         <infoLink id="4f78-50df-324a-2613" name="Master-crafted auto bolt rifle" hidden="false" targetId="1f2f-512e-9ca3-13f9" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c215-aaf9-77ef-27fb" name="Master-crafted boltgun" hidden="false" collective="false" import="true" type="upgrade">
@@ -2841,9 +2916,9 @@
         <infoLink id="9524-b1b1-54a2-414f" name="Master-crafted boltgun" hidden="false" targetId="d6e5-a8cf-4602-28e0" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8ed2-3e2c-4d52-af79" name="Melta bombs" hidden="false" collective="false" import="true" type="upgrade">
@@ -2851,9 +2926,9 @@
         <infoLink id="818e-2cc9-fa01-4dae" name="Melta bomb" hidden="false" targetId="df40-a3f4-91be-f0fe" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6f0c-0f8c-1a73-4052" name="Orbital comms array" hidden="false" collective="false" import="true" type="upgrade">
@@ -2861,9 +2936,9 @@
         <infoLink id="2b09-ee75-e31b-9803" name="Orbital comms array" hidden="false" targetId="f434-6eb5-9a60-79cf" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5aaf-d2e4-ec59-0407" name="Plasma blaster" hidden="false" collective="false" import="true" type="upgrade">
@@ -2872,9 +2947,9 @@
         <infoLink id="c52c-a7f9-cdf1-f9bc" name="Plasma blaster, Supercharge" hidden="false" targetId="ae8f-c03c-8929-bedc" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="eb15-db61-5d4f-b65e" name="Plasma cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -2883,9 +2958,9 @@
         <infoLink id="3533-33d5-765f-1a0b" name="Plasma cannon, Supercharge" hidden="false" targetId="fbb2-f4cb-e47d-1d10" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d1e1-23e0-2777-dc7b" name="Plasma cutter" hidden="false" collective="false" import="true" type="upgrade">
@@ -2894,9 +2969,9 @@
         <infoLink id="2843-69c5-0ff9-71f5" name="Plasma cutter, Supercharge" hidden="false" targetId="7eea-38c1-0f2c-ce0f" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d8c6-5a0f-4e89-c05a" name="Plasma incinerator" hidden="false" collective="false" import="true" type="upgrade">
@@ -2905,9 +2980,9 @@
         <infoLink id="600d-51ac-4e72-98a3" name="Plasma incinerator, Supercharge" hidden="false" targetId="bd7b-6edf-e450-9b4a" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="974d-570e-66b3-e971" name="Predator autocannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -2915,9 +2990,9 @@
         <infoLink id="4308-2c36-1034-f89d" name="Predator autocannon" hidden="false" targetId="2c56-ff56-a155-032d" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5ab4-1ee7-95ad-7e15" name="Reaper autocannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -2925,9 +3000,9 @@
         <infoLink id="bdb9-b64e-9576-00a4" name="Reaper autocannon" hidden="false" targetId="9c2a-cd9e-dc44-ca31" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dc9d-4795-4788-d6e6" name="Skyhammer missile launcher" hidden="false" collective="false" import="true" type="upgrade">
@@ -2935,9 +3010,9 @@
         <infoLink id="620f-7023-45bb-9932" name="Skyhammer missile launcher" hidden="false" targetId="b808-ff6d-2ba3-cd8a" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cd63-9586-da03-ec49" name="Skyspear missile launcher" hidden="false" collective="false" import="true" type="upgrade">
@@ -2945,9 +3020,9 @@
         <infoLink id="d202-4a12-6369-4e2f" name="Skyspear missile launcher" hidden="false" targetId="11e1-cbd0-5c56-dce9" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ba62-f2c3-d7bb-4f5d" name="Sniper rifle" hidden="false" collective="false" import="true" type="upgrade">
@@ -2955,9 +3030,9 @@
         <infoLink id="a548-48ec-3b5d-ce69" name="Sniper rifle" hidden="false" targetId="45a4-5982-7f8b-fb33" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cfc3-3735-a2e8-53cd" name="Special issue boltgun" hidden="false" collective="false" import="true" type="upgrade">
@@ -2965,19 +3040,19 @@
         <infoLink id="098b-2796-d106-42b4" name="Special issue boltgun" hidden="false" targetId="a57c-ff3f-49d4-f3b8" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2b03-8d64-3711-f300" name="Storm bolter" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="2b03-8d64-3711-f300" name="风暴爆弹" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="df42-5dc2-4e53-ec49" name="Storm bolter" hidden="false" targetId="505e-a5aa-edab-6d5b" type="profile"/>
+        <infoLink id="df42-5dc2-4e53-ec49" name="风暴爆弹" hidden="false" targetId="505e-a5aa-edab-6d5b" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="38e3-37a8-42a3-e195" name="Stormstrike missile launcher" hidden="false" collective="false" import="true" type="upgrade">
@@ -2985,19 +3060,19 @@
         <infoLink id="70a6-4e0b-6bd9-fe7c" name="Stormstrike missile launcher" hidden="false" targetId="f465-e051-3946-f328" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="68e5-3818-5a79-d82a" name="Thunderfire cannon" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="68e5-3818-5a79-d82a" name="雷火炮" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="6361-bfb8-5af1-73d2" name="Thunderfire cannon" hidden="false" targetId="e768-5449-ec9e-e9a5" type="profile"/>
+        <infoLink id="6361-bfb8-5af1-73d2" name="雷火炮" hidden="false" targetId="e768-5449-ec9e-e9a5" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f787-a3af-72b5-60d1" name="Twin assault cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -3005,39 +3080,39 @@
         <infoLink id="30e4-32d1-78d3-b30f" name="Twin assault cannon" hidden="false" targetId="acb8-7501-1f1b-b483" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="afe0-3771-1982-92b4" name="Twin autocannon" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="afe0-3771-1982-92b4" name="双联自动炮" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="4490-0f73-36d7-34cb" name="Twin autocannon" hidden="false" targetId="3a89-dec9-f41d-7719" type="profile"/>
+        <infoLink id="4490-0f73-36d7-34cb" name="双联自动炮" hidden="false" targetId="3a89-dec9-f41d-7719" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4c54-1c89-299c-05c5" name="Twin boltgun" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="4c54-1c89-299c-05c5" name="双联爆弹枪" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="da1b-2b70-3165-fea0" name="Twin boltgun" hidden="false" targetId="6471-9a1a-0f1d-acb1" type="profile"/>
+        <infoLink id="da1b-2b70-3165-fea0" name="双联爆弹枪" hidden="false" targetId="6471-9a1a-0f1d-acb1" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8d70-a6af-cbad-f08c" name="Twin heavy flamer" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="8d70-a6af-cbad-f08c" name="双联重喷火" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="d9de-a3b3-6441-b50b" name="Twin heavy flamer" hidden="false" targetId="1a79-9730-f078-07b6" type="profile"/>
+        <infoLink id="d9de-a3b3-6441-b50b" name="双联重喷火" hidden="false" targetId="1a79-9730-f078-07b6" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="353e-3e4d-a6ed-d25c" name="Twin heavy plasma cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -3046,9 +3121,9 @@
         <infoLink id="d490-9625-1289-448e" name="Twin heavy plasma cannon, Supercharge" hidden="false" targetId="f2db-d913-989b-2841" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ee18-b1cd-6b60-464d" name="Twin lascannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -3056,19 +3131,19 @@
         <infoLink id="bf1a-c284-f2bb-8d85" name="Twin lascannon" hidden="false" targetId="1662-54b9-46da-fefc" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d496-bdd5-426e-3e80" name="Twin multi-melta" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="d496-bdd5-426e-3e80" name="双联多管热熔" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="8a52-c639-ada7-589e" name="Twin multi-melta" hidden="false" targetId="c3c9-08d7-bfae-4ff7" type="profile"/>
+        <infoLink id="8a52-c639-ada7-589e" name="双联多管热熔" hidden="false" targetId="c3c9-08d7-bfae-4ff7" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3f51-b8fa-86ce-7388" name="Twin plasma gun" hidden="false" collective="false" import="true" type="upgrade">
@@ -3077,9 +3152,9 @@
         <infoLink id="1a87-46dc-7286-778b" name="Twin plasma gun, Supercharge" hidden="false" targetId="840a-7f35-72ad-baef" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6027-7017-756a-600c" name="Typhoon missile launcher" hidden="false" collective="false" import="true" type="upgrade">
@@ -3088,9 +3163,9 @@
         <infoLink id="508e-280a-4c63-9bcd" name="Typhoon missile launcher, Krak missile" hidden="false" targetId="aea5-27f0-dcde-06c1" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="250a-10f2-a1c6-36ff" name="Volkite charger" hidden="false" collective="false" import="true" type="upgrade">
@@ -3098,9 +3173,9 @@
         <infoLink id="90d9-ccf7-d99a-8335" name="Volkite charger" hidden="false" targetId="c943-413e-8c92-ae9b" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e640-c148-5944-6874" name="Whirlwind castellan launcher" hidden="false" collective="false" import="true" type="upgrade">
@@ -3108,9 +3183,9 @@
         <infoLink id="1592-a4c4-a23a-42bd" name="Whirlwind castellan launcher" hidden="false" targetId="b4c9-cb72-ef2f-76cb" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="79a5-23f2-b542-a73f" name="Whirlwind vengeance launcher" hidden="false" collective="false" import="true" type="upgrade">
@@ -3118,9 +3193,9 @@
         <infoLink id="353d-4d12-80de-dd6c" name="Whirlwind vengeance launcher" hidden="false" targetId="f4df-b39c-08a7-5255" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f79f-74ef-e0a3-f967" name="Wrist-mounted grenade launcher" hidden="false" collective="false" import="true" type="upgrade">
@@ -3128,9 +3203,9 @@
         <infoLink id="b506-b4e8-ccaa-81f1" name="Wrist-mounted grenade launcher" hidden="false" targetId="802b-8d1b-8b9f-41e2" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="02d5-5c02-db70-d933" name="Champion&apos;s blade" hidden="false" collective="false" import="true" type="upgrade">
@@ -3138,9 +3213,9 @@
         <infoLink id="6599-af39-e5fa-062b" name="Champion&apos;s blade" hidden="false" targetId="cd4f-c27a-233f-0f55" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bc0b-c19f-0b71-081e" name="Combat knife" hidden="false" collective="false" import="true" type="upgrade">
@@ -3148,9 +3223,9 @@
         <infoLink id="c560-8ac3-2800-1e80" name="Combat knife" hidden="false" targetId="397f-3a5d-7443-5144" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7543-5a4e-0f59-bacc" name="Crozius arcanum" hidden="false" collective="false" import="true" type="upgrade">
@@ -3158,9 +3233,9 @@
         <infoLink id="bcb7-6a0e-0fea-7e7f" name="Crozius arcanum" hidden="false" targetId="e854-e9be-4a79-d56d" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b757-4d61-d4bc-52ba" name="Dreadnought chainfist" hidden="false" collective="false" import="true" type="upgrade">
@@ -3168,9 +3243,9 @@
         <infoLink id="cfe0-ec81-236f-70b5" name="Dreadnought chainfist" hidden="false" targetId="fd05-77af-571c-7f41" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a869-5624-fe55-fe95" name="Dreadnought combat weapon" hidden="false" collective="false" import="true" type="upgrade">
@@ -3178,9 +3253,9 @@
         <infoLink id="11ba-17e4-c1d2-9bbb" name="Dreadnought combat weapon" hidden="false" targetId="3b26-3098-155f-0e58" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b993-57b7-93c6-9acb" name="Eviscerator" hidden="false" collective="false" import="true" type="upgrade">
@@ -3188,9 +3263,9 @@
         <infoLink id="a7ad-af76-1d5f-3d3e" name="Eviscerator" hidden="false" targetId="bb9f-390b-3b92-197c" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7d93-d63c-bfba-c879" name="Master-crafted power sword" hidden="false" collective="false" import="true" type="upgrade">
@@ -3198,9 +3273,9 @@
         <infoLink id="9296-2312-898c-0d6a" name="Master-crafted power sword" hidden="false" targetId="4242-3014-c49c-9fe6" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ba8d-691a-6178-1a60" name="Power lance" hidden="false" collective="false" import="true" type="upgrade">
@@ -3208,9 +3283,9 @@
         <infoLink id="80f2-63be-fb01-da34" name="Power lance" hidden="false" targetId="de62-5c9a-e27d-3fa3" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0140-c9f2-0524-34cc" name="Relic blade" hidden="false" collective="false" import="true" type="upgrade">
@@ -3218,9 +3293,9 @@
         <infoLink id="547d-7f85-1acc-fc56" name="Relic blade" hidden="false" targetId="ea0a-a19e-1e9a-b830" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d858-d958-0efe-edbc" name="Seismic hammer" hidden="false" collective="false" import="true" type="upgrade">
@@ -3228,19 +3303,19 @@
         <infoLink id="159d-c648-1ac9-7433" name="Seismic hammer" hidden="false" targetId="67f2-aac1-ece9-6115" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="61ae-3901-0a79-4ec9" name="Servo-arm" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="61ae-3901-0a79-4ec9" name="伺服臂" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="d471-58e2-7035-8849" name="Servo-arm" hidden="false" targetId="9112-c49a-ee46-0f81" type="profile"/>
+        <infoLink id="d471-58e2-7035-8849" name="伺服臂" hidden="false" targetId="9112-c49a-ee46-0f81" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1898-a013-d489-c5cb" name="Siege drills" hidden="false" collective="false" import="true" type="upgrade">
@@ -3248,19 +3323,19 @@
         <infoLink id="7307-1ce0-e75d-eae7" name="Siege drills" hidden="false" targetId="1f08-202d-3093-d4a2" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0e57-eaf5-763f-9c45" name="Thunder hammer" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="0e57-eaf5-763f-9c45" name="雷锤" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="c469-a81a-dd1c-ae46" name="Thunder hammer" hidden="false" targetId="87b3-3f6b-ada0-da8d" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e0df-0e01-4e07-fdec" name="Camo cloak" hidden="false" collective="false" import="true" type="upgrade">
@@ -3268,9 +3343,9 @@
         <infoLink id="776d-01df-8821-4288" name="Camo cloaks" hidden="false" targetId="b754-9672-4689-cefb" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2792-c0fb-d72e-cee4" name="Combat shield" hidden="false" collective="false" import="true" type="upgrade">
@@ -3278,9 +3353,9 @@
         <infoLink id="776c-698a-c149-f53f" name="Combat shield" hidden="false" targetId="d0a0-002c-8278-a70e" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="38b5-ef30-f87f-5275" name="Storm shield" hidden="false" collective="false" import="true" type="upgrade">
@@ -3288,9 +3363,9 @@
         <infoLink id="c84e-aca5-a769-ee7f" name="Storm shield" hidden="false" targetId="541d-ade9-7496-9c62" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="538c-b8cd-b452-2685" name="Grav-gun" hidden="false" collective="false" import="true" type="upgrade">
@@ -3298,9 +3373,9 @@
         <infoLink id="7e7e-ed63-bb7a-7c3e" name="Grav-gun" hidden="false" targetId="a3d2-b0d7-70bc-695e" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7603-6241-ab8b-4603" name="Lightning Claw (Pair)" hidden="false" collective="false" import="true" type="upgrade">
@@ -3308,9 +3383,9 @@
         <infoLink id="44bd-0f76-dc31-c734" name="Lightning claw" hidden="false" targetId="7584-238f-3174-4529" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c0a2-9100-e1e5-8bc0" name="Icarus Lascannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -3318,9 +3393,9 @@
         <infoLink id="5768-a1a7-3cf6-ebfe" name="Icarus Lascannon" hidden="false" targetId="cb26-27b4-9393-a768" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2e50-f562-c0df-3e83" name="Twin Icarus Lascannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -3328,9 +3403,9 @@
         <infoLink id="dac7-a356-1c84-5f48" name="Twin Icarus Lascannon" hidden="false" targetId="2ea1-2be3-90c0-8d4c" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="76b1-73c7-7aef-26d3" name="Quad Icarus Lascannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -3338,9 +3413,9 @@
         <infoLink id="adbb-1be8-bbc4-4470" name="Quad Icarus Lascannon" hidden="false" targetId="d503-4001-e4b8-c804" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e4c2-0571-1de7-02e1" name="Quad-gun" hidden="false" collective="false" import="true" type="upgrade">
@@ -3348,9 +3423,9 @@
         <infoLink id="1b8e-6544-9049-edf1" name="Quad-gun" hidden="false" targetId="3922-981d-ccb7-c169" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3ee3-74ec-d970-9b43" name="Punisher Gatling Cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -3358,9 +3433,9 @@
         <infoLink id="6ca4-d4c5-a1d0-a55b" name="Punisher Gatling Cannon" hidden="false" targetId="9fac-07c9-3595-784e" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3371-814b-4320-12b6" name="Dreadnought combat weapon w/Storm Bolter" hidden="false" collective="false" import="true" type="upgrade">
@@ -3376,9 +3451,9 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1720-3d63-ee7e-b95e" name="Dreadnought combat weapon w/Heavy Flamer" hidden="false" collective="false" import="true" type="upgrade">
@@ -3394,9 +3469,9 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="03fd-db47-5333-1e1f" name="Smite" hidden="false" collective="false" import="true" type="upgrade">
@@ -3404,9 +3479,9 @@
         <infoLink id="72f4-48ff-fafb-c876" name="Smite" hidden="false" targetId="5821-6c45-8572-7e0e" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2757-9d8a-88da-00ba" name="Condemnor Boltgun" publicationId="28ec-711c-pubN77581" page="157" hidden="false" collective="false" import="true" type="upgrade">
@@ -3414,9 +3489,9 @@
         <infoLink id="2981-f489-cd31-a518" name="Condemnor Boltgun" hidden="false" targetId="1797-9367-d9a5-1014" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="83f0-56d1-b852-f21c" name="Inferno pistol" publicationId="28ec-711c-pubN77581" page="157" hidden="false" collective="false" import="true" type="upgrade">
@@ -3424,9 +3499,9 @@
         <infoLink id="fc3d-f3cb-763e-d3d5" name="Inferno pistol" hidden="false" targetId="6420-416a-af53-4b63" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5188-4b26-73ac-1160" name="Hot-Shot Lasgun" hidden="false" collective="false" import="true" type="upgrade">
@@ -3434,9 +3509,9 @@
         <infoLink id="d2cc-c90f-d914-1d5d" name="Hot-shot Lasgun" hidden="false" targetId="f520-ae1d-d755-7ab9" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3790-ebf1-ac1e-1624" name="Needle Pistol" hidden="false" collective="false" import="true" type="upgrade">
@@ -3444,9 +3519,9 @@
         <infoLink id="fe0d-3007-11c4-58d4" name="Needle Pistol" hidden="false" targetId="badf-b321-5a04-54d8" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="06fb-e44e-0fd7-e874" name="Nemesis Daemon Hammer" hidden="false" collective="true" import="true" type="upgrade">
@@ -3454,9 +3529,9 @@
         <infoLink id="a6e5-7ee3-8027-42b7" name="Nemesis Daemon Hammer" hidden="false" targetId="e353-0508-4f8f-d305" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="809c-0d19-bb12-fe94" name="Psyk-Out Grenades" hidden="false" collective="false" import="true" type="upgrade">
@@ -3468,9 +3543,9 @@
         <infoLink id="1afc-16ed-8a41-930f" name="Psyk-Out Grenades" hidden="false" targetId="9873-9487-e878-7e93" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6bc7-408c-e6c0-12d6" name="Psycannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -3478,19 +3553,19 @@
         <infoLink id="abae-b666-5842-f9d9" name="Psycannon" hidden="false" targetId="d8c3-5b45-35a3-273d" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ca06-ac13-d02f-6f9a" name="Boltgun" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="ca06-ac13-d02f-6f9a" name="爆弹枪" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="e79c-2813-4ba1-fe9e" name="Boltgun" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fd87-854b-d284-184a" name="Lasgun" hidden="false" collective="false" import="true" type="upgrade">
@@ -3498,9 +3573,9 @@
         <infoLink id="9bc7-673e-b74e-d6b3" name="Lasgun" hidden="false" targetId="d174-eb55-aaa6-d032" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c10b-e1a4-c913-ae15" name="Laspistol" hidden="false" collective="false" import="true" type="upgrade">
@@ -3508,19 +3583,19 @@
         <infoLink id="304c-655d-71ac-6b1a" name="Laspistol" hidden="false" targetId="f2b7-768f-a270-de64" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="37d3-7098-d596-9948" name="Bolt pistol" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="37d3-7098-d596-9948" name="爆弹手枪" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="113b-392d-19be-cffa" name="Bolt pistol" hidden="false" targetId="e6d5-677a-d8ed-f6a5" type="profile"/>
+        <infoLink id="113b-392d-19be-cffa" name="爆弹手枪" hidden="false" targetId="e6d5-677a-d8ed-f6a5" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5907-c64e-703e-5778" name="Bolt rifle" hidden="false" collective="true" import="true" type="upgrade">
@@ -3528,9 +3603,9 @@
         <infoLink id="bc79-7ee5-5056-9e56" name="Bolt rifle" hidden="false" targetId="cddb-d686-f7b9-ec39" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2b29-bc1f-cebc-3d95" name="Astartes shotgun" hidden="false" collective="true" import="true" type="upgrade">
@@ -3538,9 +3613,9 @@
         <infoLink id="0e5a-92dd-437d-b191" name="Astartes shotgun" hidden="false" targetId="961a-afdd-b0a9-f43d" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d3c0-0759-f387-630f" name="Combat knife" hidden="false" collective="true" import="true" type="upgrade">
@@ -3548,9 +3623,9 @@
         <infoLink id="03f8-2185-3487-32ad" name="Combat knife" hidden="false" targetId="397f-3a5d-7443-5144" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4334-d2da-32f5-dc53" name="Chainsword" hidden="false" collective="true" import="true" type="upgrade">
@@ -3558,9 +3633,9 @@
         <infoLink id="6c39-1b7c-4e3e-8dd6" name="Chainsword" hidden="false" targetId="9b1e-61f9-4a5b-0044" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b514-74d2-1c95-4f8f" name="Lightning Claw" hidden="false" collective="true" import="true" type="upgrade">
@@ -3568,9 +3643,9 @@
         <infoLink id="1fad-df38-d957-a2c5" name="Lightning claw" hidden="false" targetId="7584-238f-3174-4529" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c4f6-2f81-153a-3060" name="Lightning Claw (Pair)" hidden="false" collective="true" import="true" type="upgrade">
@@ -3578,19 +3653,19 @@
         <infoLink id="2897-f3f7-3ec2-e6fa" name="Lightning claw" hidden="false" targetId="7584-238f-3174-4529" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a4da-e81d-f108-fbc2" name="Thunder hammer" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="a4da-e81d-f108-fbc2" name="雷锤" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="3667-3b67-7352-8ad7" name="Thunder hammer" hidden="false" targetId="87b3-3f6b-ada0-da8d" type="profile"/>
+        <infoLink id="3667-3b67-7352-8ad7" name="雷锤" hidden="false" targetId="87b3-3f6b-ada0-da8d" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e2ea-efee-e689-42df" name="Storm shield" hidden="false" collective="true" import="true" type="upgrade">
@@ -3598,9 +3673,9 @@
         <infoLink id="6e80-54c9-444c-9140" name="Storm shield" hidden="false" targetId="541d-ade9-7496-9c62" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e6b0-ca4c-c256-cdb0" name="Assault bolter" hidden="false" collective="true" import="true" type="upgrade">
@@ -3608,19 +3683,19 @@
         <infoLink id="42a1-9769-7a1c-ab31" name="Assault bolter" hidden="false" targetId="21ef-7459-ad22-ece0" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a11f-8f20-5d2c-079a" name="Twin boltgun" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="a11f-8f20-5d2c-079a" name="双联爆弹枪" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="839c-79c5-a169-b9af" name="Twin boltgun" hidden="false" targetId="6471-9a1a-0f1d-acb1" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="db90-b325-244d-3e35" name="Sniper rifle" hidden="false" collective="true" import="true" type="upgrade">
@@ -3628,9 +3703,9 @@
         <infoLink id="bd49-4355-a1d9-b17a" name="Sniper rifle" hidden="false" targetId="45a4-5982-7f8b-fb33" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c532-64ab-c72a-b0bd" name="Astartes grenade launcher" hidden="false" collective="true" import="true" type="upgrade">
@@ -3639,9 +3714,9 @@
         <infoLink id="04f6-2f20-fb2d-1f27" name="Astartes grenade launcher, Krak grenade" hidden="false" targetId="ac6d-bf1b-73d0-e6af" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="801b-d6b0-333f-bc49" name="Plasma incinerator" hidden="false" collective="true" import="true" type="upgrade">
@@ -3650,9 +3725,9 @@
         <infoLink id="2cf6-aaa4-6d7b-0d25" name="Plasma incinerator, Supercharge" hidden="false" targetId="bd7b-6edf-e450-9b4a" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6267-6959-b9ec-4a6b" name="Imperial Fortress Walls [Legends]" hidden="false" collective="false" import="true" type="unit">
@@ -3664,36 +3739,36 @@
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="41fa-ab39-a71d-f2bb" name="Fortress Set-up" publicationId="b652-8bab-1453-da20" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="41fa-ab39-a71d-f2bb" name="Fortress Set-up" publicationId="b652-8bab-1453-da20" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When this Fortification is first set up on the battlefield, each model in this unit must be set u p so that it is in end-to-end contact with at least one other friendly Imperial Fortress Walls model. Each Gate Section model must be in end-to-end contact with 2 Gate Tower Section models. You do not have to set up all of the models in this unit in the battlefield if you do not wish to (or if you have insufficient room). This unit can be set up within 3&quot; of other terrain features. After it is set up, models in this unit are treated as a single terrain feature with the following Terrain Traits, as described in the Warhammer 40,000 Core Rules:
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When this Fortification is first set up on the battlefield, each model in this unit must be set u p so that it is in end-to-end contact with at least one other friendly Imperial Fortress Walls model. Each Gate Section model must be in end-to-end contact with 2 Gate Tower Section models. You do not have to set up all of the models in this unit in the battlefield if you do not wish to (or if you have insufficient room). This unit can be set up within 3&quot; of other terrain features. After it is set up, models in this unit are treated as a single terrain feature with the following Terrain Traits, as described in the Warhammer 40,000 Core Rules:
 
 - Defensible
 - Light Cover
 - Heavy Cover</characteristic>
           </characteristics>
         </profile>
-        <profile id="20f8-04d5-a073-e62c" name="Gates" publicationId="b652-8bab-1453-da20" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="20f8-04d5-a073-e62c" name="Gates" publicationId="b652-8bab-1453-da20" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When this Fortification is first set up on the battlefield, each Gate Section model can be set up with its gate open or closed. In your Command phase, you can open or close the gate for each of this unit&apos;s Gate Section models. While a Gate section&apos;s gate is open, it is no longer an Obstacle and does not have any Terrain Traits.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When this Fortification is first set up on the battlefield, each Gate Section model can be set up with its gate open or closed. In your Command phase, you can open or close the gate for each of this unit&apos;s Gate Section models. While a Gate section&apos;s gate is open, it is no longer an Obstacle and does not have any Terrain Traits.</characteristic>
           </characteristics>
         </profile>
-        <profile id="6411-249c-37e6-63a3" name="Automated Weapons" publicationId="b652-8bab-1453-da20" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="6411-249c-37e6-63a3" name="Automated Weapons" publicationId="b652-8bab-1453-da20" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time this unit is selected to shoot, for each Tower Section or Gate Tower Section model in this unit, if no friendly units are embarked within that model, you can only select one of the following targets that that section&apos;s attacks:
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time this unit is selected to shoot, for each Tower Section or Gate Tower Section model in this unit, if no friendly units are embarked within that model, you can only select one of the following targets that that section&apos;s attacks:
 
 - The closest eligible enemy unit.
 - The closest eligible enemy AIRCRAFT unit.</characteristic>
           </characteristics>
         </profile>
-        <profile id="cf6d-b572-3248-a1b1" name="Fire Points" publicationId="b652-8bab-1453-da20" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="cf6d-b572-3248-a1b1" name="Fire Points" publicationId="b652-8bab-1453-da20" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">In your Shooting phase, up to 8 models embarked within each Tower Section or Gate Tower Section model can be selected to shoot with; measure distances and draw line of sight from any point on that section when doing so (these embarked models can still shoot while the building is within Engagement Range of enemy units).</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">In your Shooting phase, up to 8 models embarked within each Tower Section or Gate Tower Section model can be selected to shoot with; measure distances and draw line of sight from any point on that section when doing so (these embarked models can still shoot while the building is within Engagement Range of enemy units).</characteristic>
           </characteristics>
         </profile>
-        <profile id="f482-cd8a-14d1-ed0b" name="Wrecked" publicationId="b652-8bab-1453-da20" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="f482-cd8a-14d1-ed0b" name="Wrecked" publicationId="b652-8bab-1453-da20" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time a model in this unit is destroyed, roll one D6 before any embarked models disembark and before removing it from play. On a 6 it explodes, and each unit within 9&quot; suffers D6 mortal wounds. On any other result that model is wrecked; though the model counts as destroyed for all rules purposes do not remove it from the battlefield. Instead, for the remainder of the battle it is treated as an Obstacles terrain feature with the following terrain traits, as described in the Warhammer 40,000 Core Rules:
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time a model in this unit is destroyed, roll one D6 before any embarked models disembark and before removing it from play. On a 6 it explodes, and each unit within 9&quot; suffers D6 mortal wounds. On any other result that model is wrecked; though the model counts as destroyed for all rules purposes do not remove it from the battlefield. Instead, for the remainder of the battle it is treated as an Obstacles terrain feature with the following terrain traits, as described in the Warhammer 40,000 Core Rules:
 
 - Difficult Ground
 - Exposed Position
@@ -3710,7 +3785,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24cc-64b2-87b6-19de" type="min"/>
           </constraints>
           <profiles>
-            <profile id="c06f-8621-9a9e-4a64" name="Gate Section" publicationId="b652-8bab-1453-da20" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+            <profile id="c06f-8621-9a9e-4a64" name="Gate Section" publicationId="b652-8bab-1453-da20" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
               <characteristics>
                 <characteristic name="M" typeId="0bdf-a96e-9e38-7779">-</characteristic>
                 <characteristic name="WS" typeId="e7f0-1278-0250-df0c">-</characteristic>
@@ -3732,9 +3807,9 @@
             <categoryLink id="073c-2907-1b97-42cd" name="Imperial Fortress Walls" hidden="false" targetId="e9e2-df26-24d5-c19b" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="80.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="4.0"/>
+            <cost name="分" typeId="points" value="80.0"/>
+            <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="战斗力" typeId="e356-c769-5920-6e14" value="4.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="16ab-220b-a2d2-a80e" name="Gate Tower Section" hidden="false" collective="false" import="true" type="upgrade">
@@ -3756,7 +3831,7 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b45-0462-4a36-44b6" type="min"/>
           </constraints>
           <profiles>
-            <profile id="622f-fcf2-7e4f-498a" name="Gate Tower Section" publicationId="b652-8bab-1453-da20" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+            <profile id="622f-fcf2-7e4f-498a" name="Gate Tower Section" publicationId="b652-8bab-1453-da20" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
               <characteristics>
                 <characteristic name="M" typeId="0bdf-a96e-9e38-7779">-</characteristic>
                 <characteristic name="WS" typeId="e7f0-1278-0250-df0c">-</characteristic>
@@ -3769,9 +3844,9 @@
                 <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">2+</characteristic>
               </characteristics>
             </profile>
-            <profile id="217c-a315-e2be-b9c1" name="Gate Tower Section" publicationId="b652-8bab-1453-da20" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="Transport">
+            <profile id="217c-a315-e2be-b9c1" name="Gate Tower Section" publicationId="b652-8bab-1453-da20" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运输载具">
               <characteristics>
-                <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">This building has a transport capacity of 12 INFANTRY models. Each model with a Wounds characteristic of 3 or more takes up the space of 2 models. It cannot transport non-CHARACTER models with a Wounds characteristic of 4 of more. No more than two units can be embarked within this building.</characteristic>
+                <characteristic name="运载能力" typeId="15aa-1916-a38b-d223">This building has a transport capacity of 12 INFANTRY models. Each model with a Wounds characteristic of 3 or more takes up the space of 2 models. It cannot transport non-CHARACTER models with a Wounds characteristic of 4 of more. No more than two units can be embarked within this building.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3796,9 +3871,9 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
-            <cost name="pts" typeId="points" value="160.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="5.0"/>
+            <cost name="分" typeId="points" value="160.0"/>
+            <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="战斗力" typeId="e356-c769-5920-6e14" value="5.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8231-109e-5912-82ce" name="Wall Section" hidden="false" collective="false" import="true" type="upgrade">
@@ -3806,7 +3881,7 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e49-0e20-f547-1ef3" type="min"/>
           </constraints>
           <profiles>
-            <profile id="13d3-851e-838d-3e67" name="Wall Section" publicationId="b652-8bab-1453-da20" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+            <profile id="13d3-851e-838d-3e67" name="Wall Section" publicationId="b652-8bab-1453-da20" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
               <characteristics>
                 <characteristic name="M" typeId="0bdf-a96e-9e38-7779">-</characteristic>
                 <characteristic name="WS" typeId="e7f0-1278-0250-df0c">-</characteristic>
@@ -3828,9 +3903,9 @@
             <categoryLink id="f2ad-0685-ddce-4254" name="Wall Section" hidden="false" targetId="2423-1997-8069-ed6d" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="120.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="6.0"/>
+            <cost name="分" typeId="points" value="120.0"/>
+            <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="战斗力" typeId="e356-c769-5920-6e14" value="6.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="35a0-9b59-2eeb-7931" name="Tower Section" hidden="false" collective="false" import="true" type="upgrade">
@@ -3846,7 +3921,7 @@
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d26c-78ff-aba4-7741" type="max"/>
           </constraints>
           <profiles>
-            <profile id="a973-a6ba-64f8-69f6" name="Tower Section" publicationId="b652-8bab-1453-da20" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+            <profile id="a973-a6ba-64f8-69f6" name="Tower Section" publicationId="b652-8bab-1453-da20" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
               <characteristics>
                 <characteristic name="M" typeId="0bdf-a96e-9e38-7779">-</characteristic>
                 <characteristic name="WS" typeId="e7f0-1278-0250-df0c">-</characteristic>
@@ -3859,9 +3934,9 @@
                 <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">2+</characteristic>
               </characteristics>
             </profile>
-            <profile id="7b76-d97d-c0c1-edd1" name="Tower Section" publicationId="b652-8bab-1453-da20" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="Transport">
+            <profile id="7b76-d97d-c0c1-edd1" name="Tower Section" publicationId="b652-8bab-1453-da20" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运输载具">
               <characteristics>
-                <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">This building has a transport capacity of 20 INFANTRY models. Each model with a Wounds characteristic of 3 or more takes up the space of 2 models. It cannot transport non-CHARACTER models with a Wounds characteristic of 4 of more. No more than two units can be embarked within this building.</characteristic>
+                <characteristic name="运载能力" typeId="15aa-1916-a38b-d223">This building has a transport capacity of 20 INFANTRY models. Each model with a Wounds characteristic of 3 or more takes up the space of 2 models. It cannot transport non-CHARACTER models with a Wounds characteristic of 4 of more. No more than two units can be embarked within this building.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3880,21 +3955,21 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7479-8e06-b43b-36cc" type="max"/>
               </constraints>
               <profiles>
-                <profile id="1dad-1154-dc7e-7b30" name="Twin Long-barrelled Autocannon" publicationId="b652-8bab-1453-da20" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="1dad-1154-dc7e-7b30" name="Twin Long-barrelled Autocannon" publicationId="b652-8bab-1453-da20" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
-                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72&quot;</characteristic>
-                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 4</characteristic>
+                    <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72&quot;</characteristic>
+                    <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 4</characteristic>
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">7</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+                    <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="分" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3910,16 +3985,16 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
-            <cost name="pts" typeId="points" value="120.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="7.0"/>
+            <cost name="分" typeId="points" value="120.0"/>
+            <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="战斗力" typeId="e356-c769-5920-6e14" value="7.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="10.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="10.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b801-d1d1-7c34-facf" name="Primaris Redoubt [Legends]" hidden="false" collective="false" import="true" type="model">
@@ -3931,7 +4006,7 @@
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="be45-68f1-16ba-2142" name="Primaris Redoubt" publicationId="b652-8bab-1453-da20" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="be45-68f1-16ba-2142" name="Primaris Redoubt" publicationId="b652-8bab-1453-da20" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">-</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">-</characteristic>
@@ -3944,31 +4019,31 @@
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="5a87-cf31-4ba3-5de8" name="Automated Weapons" publicationId="b652-8bab-1453-da20" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="5a87-cf31-4ba3-5de8" name="Automated Weapons" publicationId="b652-8bab-1453-da20" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time this unit is selected to shoot, for each Tower Section or Gate Tower Section model in this unit, if no friendly units are embarked within that model, you can only select one of the following targets that that section&apos;s attacks:
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time this unit is selected to shoot, for each Tower Section or Gate Tower Section model in this unit, if no friendly units are embarked within that model, you can only select one of the following targets that that section&apos;s attacks:
 
 - The closest eligible enemy unit.
 - The closest eligible enemy AIRCRAFT unit.</characteristic>
           </characteristics>
         </profile>
-        <profile id="ec34-77e6-d090-444f" name="Force Dome" publicationId="b652-8bab-1453-da20" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="ec34-77e6-d090-444f" name="Force Dome" publicationId="b652-8bab-1453-da20" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model has a 5+ invulnerable save.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model has a 5+ invulnerable save.</characteristic>
           </characteristics>
         </profile>
-        <profile id="c9ec-7850-1da5-3f69" name="Wrecked" publicationId="b652-8bab-1453-da20" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="c9ec-7850-1da5-3f69" name="Wrecked" publicationId="b652-8bab-1453-da20" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time a model in this unit is destroyed, roll one D6 before any embarked models disembark and before removing it from play. On a 6 it explodes, and each unit within 6&quot; suffers D3 mortal wounds. On any other result that model is wrecked; though the model counts as destroyed for all rules purposes do not remove it from the battlefield. Instead, for the remainder of the battle it is treated as an Obstacles terrain feature with the following terrain traits, as described in the Warhammer 40,000 Core Rules:
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time a model in this unit is destroyed, roll one D6 before any embarked models disembark and before removing it from play. On a 6 it explodes, and each unit within 6&quot; suffers D3 mortal wounds. On any other result that model is wrecked; though the model counts as destroyed for all rules purposes do not remove it from the battlefield. Instead, for the remainder of the battle it is treated as an Obstacles terrain feature with the following terrain traits, as described in the Warhammer 40,000 Core Rules:
 
 - Difficult Ground
 - Exposed Position
 - Unstable Position</characteristic>
           </characteristics>
         </profile>
-        <profile id="049a-d647-0dde-df0d" name="Primaris Redoubt [Legends]" publicationId="b652-8bab-1453-da20" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="Transport">
+        <profile id="049a-d647-0dde-df0d" name="Primaris Redoubt [Legends]" publicationId="b652-8bab-1453-da20" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运输载具">
           <characteristics>
-            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">This model has a transport capacity of 15 INFANTRY models. Each model with a Wounds characteristic of 3 or more takes up the space of 2 models. It cannot transport non-CHARACTER models with a Wounds characteristic of 4 or more. No more than two units can be embarked within this model.</characteristic>
+            <characteristic name="运载能力" typeId="15aa-1916-a38b-d223">This model has a transport capacity of 15 INFANTRY models. Each model with a Wounds characteristic of 3 or more takes up the space of 2 models. It cannot transport non-CHARACTER models with a Wounds characteristic of 4 or more. No more than two units can be embarked within this model.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3988,21 +4063,21 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db4c-b408-1839-18b0" type="max"/>
           </constraints>
           <profiles>
-            <profile id="021d-ee95-1021-9783" name="Primaris Rebout Turbo-Laser Destructor" publicationId="b652-8bab-1453-da20" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="021d-ee95-1021-9783" name="Primaris Rebout Turbo-Laser Destructor" publicationId="b652-8bab-1453-da20" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
-                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">96&quot;</characteristic>
-                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2D3</characteristic>
+                <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">96&quot;</characteristic>
+                <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 2D3</characteristic>
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">16</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2D6</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast. Each time an attack is made with this weapon, on an unmodified wound roll of 6, the target suffers D3 mortal wounds in addition to the normal damage.</characteristic>
+                <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Blast. Each time an attack is made with this weapon, on an unmodified wound roll of 6, the target suffers D3 mortal wounds in addition to the normal damage.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="pts" typeId="points" value="0.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
+            <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -4014,116 +4089,116 @@
           <selectionEntries>
             <selectionEntry id="4449-1153-8f2f-cf7c" name="Primaris Air Defence Missiles" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="9bab-9b39-e151-eefa" name="Primaris Air Defence Missiles" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="9bab-9b39-e151-eefa" name="Primaris Air Defence Missiles" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
-                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48&quot;</characteristic>
-                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy D3</characteristic>
+                    <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48&quot;</characteristic>
+                    <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 D3</characteristic>
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time an attack is made with this weapon against an AIRCRAFT unit, add 2 to that attack&apos;s hit roll.</characteristic>
+                    <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Each time an attack is made with this weapon against an AIRCRAFT unit, add 2 to that attack&apos;s hit roll.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name="pts" typeId="points" value="20.0"/>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="分" typeId="points" value="20.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="a123-41be-635c-2d44" name="Primaris Quad Icarus Lascannon" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="b974-33bb-44ac-ce5c" name="Primaris Quad Icarus Lascannon" publicationId="b652-8bab-1453-da20" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="b974-33bb-44ac-ce5c" name="Primaris Quad Icarus Lascannon" publicationId="b652-8bab-1453-da20" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
-                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">96&quot;</characteristic>
-                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 4</characteristic>
+                    <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">96&quot;</characteristic>
+                    <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 4</characteristic>
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">9</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time an attack is made with this weapon against an AIRCRAFT unit, add 2 to that attack&apos;s hit roll.</characteristic>
+                    <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Each time an attack is made with this weapon against an AIRCRAFT unit, add 2 to that attack&apos;s hit roll.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name="pts" typeId="points" value="100.0"/>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="分" typeId="points" value="100.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="07fc-c25e-fb95-c55d" name="Primaris Icarus Lascannon" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="1f28-86db-2736-9030" name="Primaris Icarus Lascannon" publicationId="b652-8bab-1453-da20" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="1f28-86db-2736-9030" name="Primaris Icarus Lascannon" publicationId="b652-8bab-1453-da20" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
-                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">96&quot;</characteristic>
-                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1</characteristic>
+                    <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">96&quot;</characteristic>
+                    <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 1</characteristic>
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">9</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time an attack is made with this weapon against an AIRCRAFT unit, add 2 to that attack&apos;s hit roll.</characteristic>
+                    <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Each time an attack is made with this weapon against an AIRCRAFT unit, add 2 to that attack&apos;s hit roll.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name="pts" typeId="points" value="25.0"/>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="分" typeId="points" value="25.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9481-db05-d5be-f839" name="Primaris Quad Gun" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="28d1-c2f5-89af-6c2a" name="Primaris Quad Gun" publicationId="b652-8bab-1453-da20" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="28d1-c2f5-89af-6c2a" name="Primaris Quad Gun" publicationId="b652-8bab-1453-da20" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
-                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48&quot;</characteristic>
-                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 8</characteristic>
+                    <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48&quot;</characteristic>
+                    <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 8</characteristic>
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">7</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time an attack is made with this weapon against an AIRCRAFT unit, add 2 to that attack&apos;s hit roll.</characteristic>
+                    <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Each time an attack is made with this weapon against an AIRCRAFT unit, add 2 to that attack&apos;s hit roll.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name="pts" typeId="points" value="30.0"/>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="分" typeId="points" value="30.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="def3-cc88-a9ad-9f21" name="Primaris Castellan Launcher" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="f68c-e4cf-9681-83d0" name="Primaris Castellan Launcher" publicationId="b652-8bab-1453-da20" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="f68c-e4cf-9681-83d0" name="Primaris Castellan Launcher" publicationId="b652-8bab-1453-da20" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
-                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72&quot;</characteristic>
-                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2D6</characteristic>
+                    <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72&quot;</characteristic>
+                    <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 2D6</characteristic>
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast. This weapon can target units that are not visible to the bearer.</characteristic>
+                    <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Blast. This weapon can target units that are not visible to the bearer.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name="pts" typeId="points" value="30.0"/>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="分" typeId="points" value="30.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1e96-94bf-76fa-0cff" name="Primaris Vengeance Launcher" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="7df6-6fd5-fe2f-2f37" name="Primaris Vengeance Launcher" publicationId="b652-8bab-1453-da20" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="7df6-6fd5-fe2f-2f37" name="Primaris Vengeance Launcher" publicationId="b652-8bab-1453-da20" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
-                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72&quot;</characteristic>
-                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2D3</characteristic>
+                    <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72&quot;</characteristic>
+                    <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 2D3</characteristic>
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">7</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast. This weapon can target units that are not visible to the bearer.</characteristic>
+                    <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Blast. This weapon can target units that are not visible to the bearer.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name="pts" typeId="points" value="40.0"/>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="分" typeId="points" value="40.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -4167,9 +4242,9 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="42.0"/>
-        <cost name="pts" typeId="points" value="750.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="42.0"/>
+        <cost name="分" typeId="points" value="750.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5871-1e0b-9891-f119" name="Combi-bolter" hidden="false" collective="true" import="true" type="upgrade">
@@ -4177,9 +4252,9 @@
         <infoLink id="5acb-b534-a0b2-2578" name="Combi-bolter" hidden="false" targetId="0655-6c08-6402-46bf" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d309-0c16-de50-af5d" name="Power fist" hidden="false" collective="true" import="true" type="upgrade">
@@ -4187,19 +4262,19 @@
         <infoLink id="acdd-839c-83c2-b11d" name="Power fist" hidden="false" targetId="3520-0bb4-90f2-084b" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d9b3-4b4e-714e-b467" name="Chainfist" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="d9b3-4b4e-714e-b467" name="链锯拳" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="0cac-5996-b46d-1abf" name="Chainfist" hidden="false" targetId="8194-4688-65b3-f996" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bb78-534a-7b77-edbc" name="Frag &amp; Krak grenades" hidden="false" collective="false" import="true" type="upgrade">
@@ -4208,9 +4283,9 @@
         <infoLink id="c848-9c6b-2c80-2b76" name="Krak grenade" hidden="false" targetId="3bf6-b4f7-6b2f-bb7b" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bad4-7cc1-6b79-0e18" name="Inspiring Leader" hidden="false" collective="false" import="true" type="upgrade">
@@ -4218,16 +4293,16 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6e7-fab4-36c3-d957" type="max"/>
       </constraints>
       <profiles>
-        <profile id="f457-a366-e21d-196f" name="Inspiring Leader (Aura)" publicationId="28ec-711c-pubN72690" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="f457-a366-e21d-196f" name="Inspiring Leader (Aura)" publicationId="28ec-711c-pubN72690" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the Leadership characteristic of friendly units whilst they are within 6&quot; of this WARLORD.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the Leadership characteristic of friendly units whilst they are within 6&quot; of this WARLORD.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bf09-85b2-c097-1071" name="Gametype" hidden="false" collective="false" import="true" type="upgrade">
@@ -4245,9 +4320,9 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb9e-92cd-c3ab-0c8f" type="max"/>
               </constraints>
               <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="分" typeId="points" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="cfc5-43e4-b02e-d1f9" name="Open" hidden="false" collective="false" import="true" type="upgrade">
@@ -4255,9 +4330,9 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3695-3dcd-bfe6-50b6" type="max"/>
               </constraints>
               <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="分" typeId="points" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -4269,30 +4344,30 @@
               <selectionEntries>
                 <selectionEntry id="f361-b6f6-93fd-2250" name="Planetstrike" hidden="false" collective="false" import="true" type="upgrade">
                   <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="分" typeId="points" value="0.0"/>
+                    <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="76d3-0012-c152-b50d" name="Stronghold Assault" hidden="false" collective="false" import="true" type="upgrade">
                   <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="分" typeId="points" value="0.0"/>
+                    <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="3ab4-97da-1f47-b1ff" name="Narrative (Non Crusade)" hidden="false" collective="false" import="true" type="upgrade">
                   <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="分" typeId="points" value="0.0"/>
+                    <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="a743-77b9-2b75-ffb2" name="Cities of Death" hidden="false" collective="false" import="true" type="upgrade">
                   <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="分" typeId="points" value="0.0"/>
+                    <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -4301,29 +4376,31 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3cf4-7a43-f7a5-51cc" name="Use Beta Rules" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="3cf4-7a43-f7a5-51cc" name="使用测试规则" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Use Beta Rules</comment>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="af8a-751f-7e54-797d" type="max"/>
       </constraints>
       <rules>
-        <rule id="fab9-a916-c240-4ff4" name="Beta Rules" hidden="false">
+        <rule id="fab9-a916-c240-4ff4" name="测试规则" hidden="false">
+          <comment>Beta Rules</comment>
           <description>Units marked with &quot;(Beta)&quot; use rules that reflect an early version of the development process and are entirely experimental and subject to change in future publications. As such, these units are best tested with the agreement of all players involved.</description>
         </rule>
       </rules>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="52c2-f7a8-dc21-d14d" name="Webway Gate" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="5a30-abaf-f4cf-2586" name="Webway Gate" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="5a30-abaf-f4cf-2586" name="Webway Gate" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">-</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">-</characteristic>
@@ -4336,24 +4413,24 @@
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="ba08-5714-b31c-5cf5" name="Shimmering Arrival" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="ba08-5714-b31c-5cf5" name="Shimmering Arrival" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When you set up this model during deployment, it can be set up anywhere on the battlefield that is more than 12&quot; from the enemy deployment zone and any enemy models, and more than 3&quot; from any other terrain features or the center of any objective markers.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When you set up this model during deployment, it can be set up anywhere on the battlefield that is more than 12&quot; from the enemy deployment zone and any enemy models, and more than 3&quot; from any other terrain features or the center of any objective markers.</characteristic>
           </characteristics>
         </profile>
-        <profile id="9f52-e8b6-268d-fa2d" name="Eldritch Aura" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="9f52-e8b6-268d-fa2d" name="Eldritch Aura" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model has a 5+ Invulnerable save</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model has a 5+ Invulnerable save</characteristic>
           </characteristics>
         </profile>
-        <profile id="0fff-6dcb-d884-e8df" name="Webway Strike" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="0fff-6dcb-d884-e8df" name="Webway Strike" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">After you set up this model, any AELDARI units you have not yet set up during deployment, other than fortifications, can be set up in a webway spar rather than being set up on the battlefield. One unit in a webway spar can emerge from each friendly Webway Gate at the end of each of your movement phases - Set them up wholly within 3&quot; of the webway gate and more than 9&quot; away from any enemy models. If all friendlyWebway Gates have been destroyed, any units that have not yet arrived from a webway spar are considered to be slain</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">After you set up this model, any AELDARI units you have not yet set up during deployment, other than fortifications, can be set up in a webway spar rather than being set up on the battlefield. One unit in a webway spar can emerge from each friendly Webway Gate at the end of each of your movement phases - Set them up wholly within 3&quot; of the webway gate and more than 9&quot; away from any enemy models. If all friendlyWebway Gates have been destroyed, any units that have not yet arrived from a webway spar are considered to be slain</characteristic>
           </characteristics>
         </profile>
-        <profile id="1b16-1941-d120-15ee" name="Webway Gate" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="1b16-1941-d120-15ee" name="Webway Gate" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When measuring distance to and from a Webway Gate, measure from the closest point of the model. If a Webway Gate is destroyed, remove both arch pieces from the battlefield.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When measuring distance to and from a Webway Gate, measure from the closest point of the model. If a Webway Gate is destroyed, remove both arch pieces from the battlefield.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4367,9 +4444,9 @@
         <categoryLink id="10ed-5982-ee02-668a" name="New CategoryLink" hidden="false" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="95.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="5.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="95.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="5.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5ea6-c789-f6b9-5c00" name="Land Raider Variant (Open Play)" hidden="false" collective="false" import="true" type="model">
@@ -4384,7 +4461,7 @@
         <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60af-dded-dcf0-5c49" type="max"/>
       </constraints>
       <profiles>
-        <profile id="2b96-91be-5017-bd85" name="Transport" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="Transport">
+        <profile id="2b96-91be-5017-bd85" name="Transport" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运输载具">
           <modifiers>
             <modifier type="increment" field="15aa-1916-a38b-d223" value="16">
               <conditions>
@@ -4414,34 +4491,34 @@
             <modifier type="append" field="15aa-1916-a38b-d223" value="INFANTRY models. Each JUMP PACK or TERMINATOR model takes the space of two other models. It cannot transport PRIMARIS models."/>
           </modifiers>
           <characteristics>
-            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">0</characteristic>
+            <characteristic name="运载能力" typeId="15aa-1916-a38b-d223">0</characteristic>
           </characteristics>
         </profile>
-        <profile id="6b86-9982-a828-cd05" name="Land Raider 1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="6b86-9982-a828-cd05" name="Land Raider 1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">9-16+</characteristic>
-            <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">10&quot;</characteristic>
-            <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">3+</characteristic>
-            <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">6</characteristic>
+            <characteristic name="剩余 W" typeId="8e45-c866-b2d4-c9ab">9-16+</characteristic>
+            <characteristic name="数据 1" typeId="bf41-c860-50bc-2a7e">10&quot;</characteristic>
+            <characteristic name="数据 2" typeId="dc18-e51f-309b-8efa">3+</characteristic>
+            <characteristic name="数据 3" typeId="df06-8eca-150f-90ba">6</characteristic>
           </characteristics>
         </profile>
-        <profile id="5df6-03db-d1b8-96a9" name="Land Raider 2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="5df6-03db-d1b8-96a9" name="Land Raider 2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">5-8</characteristic>
-            <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">5&quot;</characteristic>
-            <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">4+</characteristic>
-            <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">D6</characteristic>
+            <characteristic name="剩余 W" typeId="8e45-c866-b2d4-c9ab">5-8</characteristic>
+            <characteristic name="数据 1" typeId="bf41-c860-50bc-2a7e">5&quot;</characteristic>
+            <characteristic name="数据 2" typeId="dc18-e51f-309b-8efa">4+</characteristic>
+            <characteristic name="数据 3" typeId="df06-8eca-150f-90ba">D6</characteristic>
           </characteristics>
         </profile>
-        <profile id="5797-b722-3f07-d14b" name="Land Raider 3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="5797-b722-3f07-d14b" name="Land Raider 3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">1-4</characteristic>
-            <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">3&quot;</characteristic>
-            <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">5+</characteristic>
-            <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">1</characteristic>
+            <characteristic name="剩余 W" typeId="8e45-c866-b2d4-c9ab">1-4</characteristic>
+            <characteristic name="数据 1" typeId="bf41-c860-50bc-2a7e">3&quot;</characteristic>
+            <characteristic name="数据 2" typeId="dc18-e51f-309b-8efa">5+</characteristic>
+            <characteristic name="数据 3" typeId="df06-8eca-150f-90ba">1</characteristic>
           </characteristics>
         </profile>
-        <profile id="d3b4-594c-eec8-7b66" name="Power Overload" hidden="true" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="d3b4-594c-eec8-7b66" name="Power Overload" hidden="true" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditionGroups>
@@ -4462,10 +4539,10 @@
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If you roll three or more hit rolls of 1 for this model&apos;s lascannons or twin lascannons in the same phase, it experiences a power overload and suffers 6 mortal wounds.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If you roll three or more hit rolls of 1 for this model&apos;s lascannons or twin lascannons in the same phase, it experiences a power overload and suffers 6 mortal wounds.</characteristic>
           </characteristics>
         </profile>
-        <profile id="27ee-a8ba-ee83-4fa3" name="Power of the Machine Spirit" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="27ee-a8ba-ee83-4fa3" name="Power of the Machine Spirit" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -4474,10 +4551,10 @@
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model does not suffer the penalty to hit rolls for moving and firing Heavy weapons.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model does not suffer the penalty to hit rolls for moving and firing Heavy weapons.</characteristic>
           </characteristics>
         </profile>
-        <profile id="2ee8-19c2-86f5-2169" name="Land Raider" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="2ee8-19c2-86f5-2169" name="Land Raider" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">*</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">6+</characteristic>
@@ -4490,7 +4567,7 @@
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">2+</characteristic>
           </characteristics>
         </profile>
-        <profile id="ee43-4b72-0be8-656e" name="Daemonic Machine Spirit" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="ee43-4b72-0be8-656e" name="Daemonic Machine Spirit" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -4499,7 +4576,7 @@
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Ignore the -1 to hit modifier for moving and shooting Heavy weapons for this model.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Ignore the -1 to hit modifier for moving and shooting Heavy weapons for this model.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4522,31 +4599,31 @@
                 </modifier>
               </modifiers>
               <profiles>
-                <profile id="f726-8978-cbcd-2a42" name="Twin Helfrost Cannon (Dispersed Beam)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="f726-8978-cbcd-2a42" name="Twin Helfrost Cannon (Dispersed Beam)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
-                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
-                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2D3</characteristic>
+                    <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
+                    <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 2D3</characteristic>
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If a model suffers any unsaved wounds from this weapon but is not slain, roll a D6, on a 6, the target suffers a mortal wound.</characteristic>
+                    <characteristic name="能力" typeId="837d-5e63-aeb7-1410">If a model suffers any unsaved wounds from this weapon but is not slain, roll a D6, on a 6, the target suffers a mortal wound.</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="9b24-2450-ad3f-9499" name="Twin Helfrost Cannon (Focused Beam)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="9b24-2450-ad3f-9499" name="Twin Helfrost Cannon (Focused Beam)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                   <characteristics>
-                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
-                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2</characteristic>
+                    <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
+                    <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 2</characteristic>
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If a model suffers any unsaved wounds from this weapon but is not slain, roll a D6, on a 6, the target suffers a mortal wound.</characteristic>
+                    <characteristic name="能力" typeId="837d-5e63-aeb7-1410">If a model suffers any unsaved wounds from this weapon but is not slain, roll a D6, on a 6, the target suffers a mortal wound.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="分" typeId="points" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -4596,9 +4673,9 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="分" typeId="points" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="63b7-0f19-af97-5a68" name="Two Hurricane Bolters" hidden="false" collective="false" import="true" type="upgrade">
@@ -4618,9 +4695,9 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="分" typeId="points" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="7a60-bc15-dc4b-eba5" name="Two Twin Lascannons" hidden="false" collective="false" import="true" type="upgrade">
@@ -4633,9 +4710,9 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="分" typeId="points" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -4658,9 +4735,9 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="分" typeId="points" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="100d-0ca1-f00e-3e00" name="Two heavy flamers" hidden="false" collective="false" import="true" type="upgrade">
@@ -4676,9 +4753,9 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="分" typeId="points" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="bee9-24e4-ca9a-b716" name="Two lascannons" hidden="false" collective="false" import="true" type="upgrade">
@@ -4694,9 +4771,9 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="分" typeId="points" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -4808,9 +4885,9 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="30.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="30.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2ff5-cf6d-f7c8-14a1" name="Frag assault launchers" hidden="false" collective="false" import="true" type="upgrade">
@@ -4818,9 +4895,9 @@
         <infoLink id="990d-05bd-8393-322c" name="Frag Assault Launchers" hidden="false" targetId="76e8-a8df-d243-1673" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="be68-020b-cdcb-6a2c" name="Havoc launcher" hidden="false" collective="false" import="true" type="upgrade">
@@ -4831,39 +4908,39 @@
         <infoLink id="d2f4-f89e-48d2-dd37" name="Havoc launcher" hidden="false" targetId="7b08-1e6d-69a9-932d" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="732b-967e-1bca-5846" name="Terrax-Pattern Termite" page="" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="da37-5957-9ddb-0eb4" name="Subterranean Assault" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="da37-5957-9ddb-0eb4" name="Subterranean Assault" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228"> During deployment, you can set up this model, along with any units embarked within it, underground instead of placing it on the battlefield. At the end of any of your Movement phases, this model can perform a subterranean assault – set it up anywhere on the battlefield that is more than 9&quot; away from any enemy models. Any units embarked inside can then immediately disembark, but they must be set up more than 9&quot; from any enemy models. Any models that cannot be set up because there is not enough room are slain.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228"> During deployment, you can set up this model, along with any units embarked within it, underground instead of placing it on the battlefield. At the end of any of your Movement phases, this model can perform a subterranean assault – set it up anywhere on the battlefield that is more than 9&quot; away from any enemy models. Any units embarked inside can then immediately disembark, but they must be set up more than 9&quot; from any enemy models. Any models that cannot be set up because there is not enough room are slain.</characteristic>
           </characteristics>
         </profile>
-        <profile id="6ffa-9c01-3f7a-5787" name="Explodes" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="6ffa-9c01-3f7a-5787" name="Explodes" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228"> If this model is reduced to 0 wounds, roll a D6 before removing it from the battlefield and before any embarked models disembark; on a 6 it explodes and each unit within 6&quot; suffers D3 mortal wounds.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228"> If this model is reduced to 0 wounds, roll a D6 before removing it from the battlefield and before any embarked models disembark; on a 6 it explodes and each unit within 6&quot; suffers D3 mortal wounds.</characteristic>
           </characteristics>
         </profile>
-        <profile id="c848-0146-6c8a-c89e" name="Transport (Space Marines)" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="Transport">
+        <profile id="c848-0146-6c8a-c89e" name="Transport (Space Marines)" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运输载具">
           <characteristics>
-            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">This model can transport 12 &lt;Chapter&gt; Infantry models. It cannot transport Jump Pack, Terminator, Centurion, Wulfen or Primaris models.</characteristic>
+            <characteristic name="运载能力" typeId="15aa-1916-a38b-d223">This model can transport 12 &lt;Chapter&gt; Infantry models. It cannot transport Jump Pack, Terminator, Centurion, Wulfen or Primaris models.</characteristic>
           </characteristics>
         </profile>
-        <profile id="87c7-081b-2b30-e169" name="Transport (Chaos Space Marines)" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="Transport">
+        <profile id="87c7-081b-2b30-e169" name="Transport (Chaos Space Marines)" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运输载具">
           <characteristics>
-            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">This model can transport 12 &lt;Legion&gt; Infantry models. It cannot transport Jump Pack, Terminator or Cult of Destruction models.</characteristic>
+            <characteristic name="运载能力" typeId="15aa-1916-a38b-d223">This model can transport 12 &lt;Legion&gt; Infantry models. It cannot transport Jump Pack, Terminator or Cult of Destruction models.</characteristic>
           </characteristics>
         </profile>
-        <profile id="0d57-5e48-2ff3-d144" name="Transport (Adeptus Mechanicus)" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="Transport">
+        <profile id="0d57-5e48-2ff3-d144" name="Transport (Adeptus Mechanicus)" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运输载具">
           <characteristics>
-            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">This model has a transport capacity of 12 INFANTRY models. It cannot transport BELISARIUS CAWL, KATAPHRON BREACHER or KATAPHRON DESTROYER models.</characteristic>
+            <characteristic name="运载能力" typeId="15aa-1916-a38b-d223">This model has a transport capacity of 12 INFANTRY models. It cannot transport BELISARIUS CAWL, KATAPHRON BREACHER or KATAPHRON DESTROYER models.</characteristic>
           </characteristics>
         </profile>
-        <profile id="87e4-f78d-a9d1-4033" name="Terrax-pattern Termite Assault Drill" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="87e4-f78d-a9d1-4033" name="Terrax-pattern Termite Assault Drill" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">*</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
@@ -4876,28 +4953,28 @@
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="a9ff-6709-6e30-8fde" name="Terrax-Pattern Termite Assault Drill 1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="a9ff-6709-6e30-8fde" name="Terrax-Pattern Termite Assault Drill 1" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">8-14</characteristic>
-            <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">8&quot;</characteristic>
-            <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">3+</characteristic>
-            <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">3</characteristic>
+            <characteristic name="剩余 W" typeId="8e45-c866-b2d4-c9ab">8-14</characteristic>
+            <characteristic name="数据 1" typeId="bf41-c860-50bc-2a7e">8&quot;</characteristic>
+            <characteristic name="数据 2" typeId="dc18-e51f-309b-8efa">3+</characteristic>
+            <characteristic name="数据 3" typeId="df06-8eca-150f-90ba">3</characteristic>
           </characteristics>
         </profile>
-        <profile id="197d-34c8-59b7-8856" name="Terrax-Pattern Termite Assault Drill 2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="197d-34c8-59b7-8856" name="Terrax-Pattern Termite Assault Drill 2" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">4-7</characteristic>
-            <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">5&quot;</characteristic>
-            <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">4+</characteristic>
-            <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">D3</characteristic>
+            <characteristic name="剩余 W" typeId="8e45-c866-b2d4-c9ab">4-7</characteristic>
+            <characteristic name="数据 1" typeId="bf41-c860-50bc-2a7e">5&quot;</characteristic>
+            <characteristic name="数据 2" typeId="dc18-e51f-309b-8efa">4+</characteristic>
+            <characteristic name="数据 3" typeId="df06-8eca-150f-90ba">D3</characteristic>
           </characteristics>
         </profile>
-        <profile id="2f1f-123d-0228-58cf" name="Terrax-Pattern Termite Assault Drill 3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+        <profile id="2f1f-123d-0228-58cf" name="Terrax-Pattern Termite Assault Drill 3" hidden="false" typeId="5f4f-ea74-0630-4afe" typeName="损伤表">
           <characteristics>
-            <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">1-3</characteristic>
-            <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">3&quot;</characteristic>
-            <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">5+</characteristic>
-            <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">1</characteristic>
+            <characteristic name="剩余 W" typeId="8e45-c866-b2d4-c9ab">1-3</characteristic>
+            <characteristic name="数据 1" typeId="bf41-c860-50bc-2a7e">3&quot;</characteristic>
+            <characteristic name="数据 2" typeId="dc18-e51f-309b-8efa">5+</characteristic>
+            <characteristic name="数据 3" typeId="df06-8eca-150f-90ba">1</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4912,21 +4989,21 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e0c-42c4-8d4d-9640" type="max"/>
           </constraints>
           <profiles>
-            <profile id="6267-b848-b826-2b89" name="Terrax melta cutter" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="6267-b848-b826-2b89" name="Terrax melta cutter" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
-                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
-                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 5</characteristic>
+                <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+                <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 5</characteristic>
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time an attack made with this weapon targets a unit within half range, that attack has a Damage charateristic of D6+2.</characteristic>
+                <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Each time an attack made with this weapon targets a unit within half range, that attack has a Damage charateristic of D6+2.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="pts" typeId="points" value="0.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
+            <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="7ceb-25fe-6e8c-5eb7" name="Termite Drill" hidden="false" collective="false" import="true" type="upgrade">
@@ -4935,21 +5012,21 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df43-f1e6-e532-191e" type="max"/>
           </constraints>
           <profiles>
-            <profile id="1645-4623-f17f-1a2c" name="Termite Drill" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="1645-4623-f17f-1a2c" name="Termite Drill" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
-                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
-                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+                <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">近战</characteristic>
+                <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">近战</characteristic>
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">x2</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3+3</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Eac time an attack made with this weapon is allocated to a VEHICLE model, that attack has  a Damage characteristic of D3+6</characteristic>
+                <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Eac time an attack made with this weapon is allocated to a VEHICLE model, that attack has  a Damage characteristic of D3+6</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="pts" typeId="points" value="0.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
+            <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -4977,9 +5054,9 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="分" typeId="points" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="91f6-886c-fffa-da3b" name="Terrax storm Bolters" hidden="false" collective="false" import="true" type="upgrade">
@@ -5001,9 +5078,9 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="分" typeId="points" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="4eb5-0c83-4c9b-b7cc" name="Twin Terrax volkite chargers" hidden="false" collective="false" import="true" type="upgrade">
@@ -5014,37 +5091,37 @@
                     <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7637-e9dd-5f0c-e5e8" type="min"/>
                   </constraints>
                   <profiles>
-                    <profile id="b4c6-ae27-806e-947f" name="Twin Terrax volkite charger" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                    <profile id="b4c6-ae27-806e-947f" name="Twin Terrax volkite charger" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
                       <characteristics>
-                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">20&quot;</characteristic>
-                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 4</characteristic>
+                        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">20&quot;</characteristic>
+                        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 4</characteristic>
                         <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
                         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
                         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time an attack is made with this weapon, a unmodified wound roll of 6 inflicts 1 mortal wound on the target in addition to any normal damage.</characteristic>
+                        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Each time an attack is made with this weapon, a unmodified wound roll of 6 inflicts 1 mortal wound on the target in addition to any normal damage.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name="pts" typeId="points" value="5.0"/>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="分" typeId="points" value="5.0"/>
+                    <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="分" typeId="points" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="10.0"/>
-        <cost name="pts" typeId="points" value="180.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="10.0"/>
+        <cost name="分" typeId="points" value="180.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d043-3847-e963-fb5d" name="Stratagem: Field Commander" hidden="false" collective="false" import="true" type="upgrade">
@@ -5053,9 +5130,9 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="68d1-15ae-3e90-f5c6" type="max"/>
       </constraints>
       <profiles>
-        <profile id="77bb-80fe-ed8e-125a" name="Field Commander" publicationId="28ec-711c-pubN98266" page="169" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="77bb-80fe-ed8e-125a" name="Field Commander" publicationId="28ec-711c-pubN98266" page="169" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Use this Stratagem before the battle if you used any Specialist Detachment Stratagems when choosing your army. Choose one CHARACTER from your army that has gained a keyword from a Specialist Detachment Stratagem that is not your Warlord and is not a named character. You can give that character the Warlord Trait of the Specialist Detachment they are part of (note that this character is only regarded as your Warlord for the purpose of that Warlord Trait). This Stratagem can only be used once for each Specialist Detachment Stratagem you have used (spend 1 CP each time you use it). No two characters can have the same Warlord Trait.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Use this Stratagem before the battle if you used any Specialist Detachment Stratagems when choosing your army. Choose one CHARACTER from your army that has gained a keyword from a Specialist Detachment Stratagem that is not your Warlord and is not a named character. You can give that character the Warlord Trait of the Specialist Detachment they are part of (note that this character is only regarded as your Warlord for the purpose of that Warlord Trait). This Stratagem can only be used once for each Specialist Detachment Stratagem you have used (spend 1 CP each time you use it). No two characters can have the same Warlord Trait.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5063,9 +5140,9 @@
         <categoryLink id="0c71-4131-eaaa-b429" name="New CategoryLink" hidden="false" targetId="c845-c72c-6afe-3fc2" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="-1.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="-1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="43c4-8968-c599-ad5f" name="Is a Custom Character (Chapter Approved 2018)" hidden="false" collective="false" import="true" type="upgrade">
@@ -5086,9 +5163,9 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a05c-d7c0-38b1-0f6a" type="max"/>
       </constraints>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4763-757f-499f-d998" name="Has Battle Honours (Chapter Approved 2018)" hidden="false" collective="false" import="true" type="upgrade">
@@ -5108,9 +5185,9 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a40f-16c0-ec45-eaff" type="max"/>
       </constraints>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9d97-2793-9882-d48a" name="Detachment Command Cost" hidden="false" collective="false" import="true" type="upgrade">
@@ -5338,23 +5415,23 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7e76-e28b-c61b-086a" type="max"/>
           </constraints>
           <profiles>
-            <profile id="0aab-1f45-6701-6962" name="Command Benefit" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+            <profile id="0aab-1f45-6701-6962" name="Command Benefit" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">+1 Command point if every unit in this Detachment is from the same Faction and that Faction is the same as your WARLORD&apos;s Detachment.</characteristic>
+                <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">+1 Command point if every unit in this Detachment is from the same Faction and that Faction is the same as your WARLORD&apos;s Detachment.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="1.0"/>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="1.0"/>
+            <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f29d-8a5d-18b6-a071" name="Battle Size" hidden="false" collective="false" import="true" type="upgrade">
@@ -5395,9 +5472,9 @@
                 </modifier>
               </modifiers>
               <costs>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="6.0"/>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="6.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="分" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="09f9-b586-8d63-7635" name="3. Strike Force (101-200 Total PL / 1001-2000 Points) " hidden="false" collective="false" import="true" type="upgrade">
@@ -5409,9 +5486,9 @@
                 </modifier>
               </modifiers>
               <costs>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="12.0"/>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="12.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="分" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="fad2-035f-88a7-60c0" name="4. Onslaught (201-300 Total PL / 2001-3000 Points) " hidden="false" collective="false" import="true" type="upgrade">
@@ -5423,9 +5500,9 @@
                 </modifier>
               </modifiers>
               <costs>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="18.0"/>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="18.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="分" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="af70-08c1-1c6f-0770" name="1. Combat Patrol (0-50 Total PL / 0-500 Points) " hidden="false" collective="false" import="true" type="upgrade">
@@ -5437,16 +5514,16 @@
                 </modifier>
               </modifiers>
               <costs>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="3.0"/>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="3.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="分" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e6c7-87a2-73a3-a475" name="5. Onslaught++ (301+ Total PL / 3001+ Points) " hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="分" typeId="points" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -5462,18 +5539,18 @@
           <selectionEntries>
             <selectionEntry id="b08b-08b3-f34d-b4c7" name="Command Points" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="1.0"/>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="1.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="分" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="af7a-d57e-4972-12d3" name="Reinforcements" hidden="false" collective="false" import="true" type="upgrade">
@@ -5492,44 +5569,44 @@
       <selectionEntries>
         <selectionEntry id="8ba2-4dc6-4e38-ae4a" name="Reinforcement Points" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
-            <cost name="pts" typeId="points" value="1.0"/>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="分" typeId="points" value="1.0"/>
+            <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="75bb-91eb-911c-ee0f" name="Reinforcement Points" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
-            <cost name="pts" typeId="points" value="10.0"/>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="分" typeId="points" value="10.0"/>
+            <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="445f-83dc-f9b3-4ede" name="Reinforcement Points" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
-            <cost name="pts" typeId="points" value="100.0"/>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="分" typeId="points" value="100.0"/>
+            <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c9c9-bae5-83c7-e232" name="Reinforcement Points" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
-            <cost name="pts" typeId="points" value="1000.0"/>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="分" typeId="points" value="1000.0"/>
+            <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2ba6-32a4-44ef-a427" name="Reinforcement Points" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="-1.0"/>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="-1.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0b7d-bfe1-b63e-ecb6" name="Operative Requisition Sanctioned" hidden="false" collective="false" import="true" type="upgrade">
@@ -5564,9 +5641,9 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b94-5ac0-ec9a-424b" type="max"/>
       </constraints>
       <profiles>
-        <profile id="504b-fc17-56ce-c8b8" name="Operative Requisition Sanctioned" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="504b-fc17-56ce-c8b8" name="Operative Requisition Sanctioned" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can only use this Stratagem if your Warlord has the IMPERIUM Faction keyword (excluding FALLEN) and your army does not contain any OFFICIO ASSASSINORUM units. Use this Stratagem during deployment. Add 1 OFFICIO ASSASSINORUM unit of your choice to your army. Remember that in a matched play game, you must pay reinforcement points for any new unit added to your army. You can only use this Stratagem once per battle.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can only use this Stratagem if your Warlord has the IMPERIUM Faction keyword (excluding FALLEN) and your army does not contain any OFFICIO ASSASSINORUM units. Use this Stratagem during deployment. Add 1 OFFICIO ASSASSINORUM unit of your choice to your army. Remember that in a matched play game, you must pay reinforcement points for any new unit added to your army. You can only use this Stratagem once per battle.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5574,9 +5651,9 @@
         <categoryLink id="2abe-5886-2b50-fff3" name="New CategoryLink" hidden="false" targetId="c845-c72c-6afe-3fc2" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="-2.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" typeId="points" value="100.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="-2.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="分" typeId="points" value="100.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="05be-50b6-5107-9878" name="Heavy bolter (Fortification)" hidden="false" collective="false" import="true" type="upgrade">
@@ -5584,14 +5661,14 @@
         <infoLink id="48cb-7499-9f11-1912" name="Heavy bolter" hidden="false" targetId="e2b0-b9f1-6c38-584c" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f8c9-c03b-f8af-009f" name="Chaos Bastion" page="" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="b8c4-3486-3f33-204d" name="Imperial Bastion" publicationId="28ec-711c-pubN77581" page="130" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="b8c4-3486-3f33-204d" name="Imperial Bastion" publicationId="28ec-711c-pubN77581" page="130" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">-</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">-</characteristic>
@@ -5604,9 +5681,9 @@
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="5f18-9c8a-8931-75f8" name="Imperial Bastion" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="Transport">
+        <profile id="5f18-9c8a-8931-75f8" name="Imperial Bastion" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="运输载具">
           <characteristics>
-            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">This model has a transport capacity of two INFANTRY units, up to a total of 20 models.</characteristic>
+            <characteristic name="运载能力" typeId="15aa-1916-a38b-d223">This model has a transport capacity of two INFANTRY units, up to a total of 20 models.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5651,9 +5728,9 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="210.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="12.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="210.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="12.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="46b3-cb0f-85c5-0e31" name="Stratagem: March of the Ancients" hidden="false" collective="false" import="true" type="upgrade">
@@ -5672,14 +5749,14 @@
         <categoryLink id="b72f-61a2-bf9d-a65b" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="-1.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="-1.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ec16-8c4f-7c32-2d58" name="Macro-cannon Aquila Strongpoint" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="3dc7-7e07-df5e-9fd1" name="Aquila Strongpoint" publicationId="28ec-711c-pubN77581" page="135" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="3dc7-7e07-df5e-9fd1" name="Aquila Strongpoint" publicationId="28ec-711c-pubN77581" page="135" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">-</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">-</characteristic>
@@ -5706,36 +5783,36 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ee2-2588-322f-388d" type="min"/>
           </constraints>
           <profiles>
-            <profile id="7f35-3cc4-be9b-3a32" name="Aquila Macro-cannon (Macro Shell)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="7f35-3cc4-be9b-3a32" name="Aquila Macro-cannon (Macro Shell)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
-                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72&quot;</characteristic>
-                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy D6</characteristic>
+                <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72&quot;</characteristic>
+                <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 D6</characteristic>
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">14</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Treat any damage rolls of 1 or 2 made for this weapon as 3 instead.</characteristic>
+                <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Treat any damage rolls of 1 or 2 made for this weapon as 3 instead.</characteristic>
               </characteristics>
             </profile>
-            <profile id="327e-e494-dae6-d008" name="Aquila Macro-cannon (Quake Shell)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="327e-e494-dae6-d008" name="Aquila Macro-cannon (Quake Shell)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
-                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">180&quot;</characteristic>
-                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2D6</characteristic>
+                <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">180&quot;</characteristic>
+                <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 2D6</characteristic>
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">9</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+                <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
               </characteristics>
             </profile>
-            <profile id="9ce3-92ba-b5fc-2ba4" name="Magazine Explosion (Macro-cannon)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+            <profile id="9ce3-92ba-b5fc-2ba4" name="Magazine Explosion (Macro-cannon)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model is reduced to 0 wounds, roll a D6 before removing it from the battlefield and before any embarked models disembark. On a 6 its magazine explodes, and each unit within 2D6&quot; suffers D6 mortal wounds.</characteristic>
+                <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model is reduced to 0 wounds, roll a D6 before removing it from the battlefield and before any embarked models disembark. On a 6 its magazine explodes, and each unit within 2D6&quot; suffers D6 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5750,19 +5827,19 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="22.0"/>
-        <cost name="pts" typeId="points" value="440.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="22.0"/>
+        <cost name="分" typeId="points" value="440.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7fa0-59ee-8d71-e174" name="Vortex Missile Aquila Strongpoint" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="b5df-548e-5464-d939" name="Containment Failure" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="b5df-548e-5464-d939" name="Containment Failure" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When this model is destroyed, before any embarked models disembark its vortex missiles explode. Each unit within 2D6&quot; suffers D6 mortal wounds. If a model loses any wounds as a result of those mortal wounds but is not destroyed, roll another D6; on a 6 that model suffers a further D6 mortal wounds.</characteristic>
+            <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When this model is destroyed, before any embarked models disembark its vortex missiles explode. Each unit within 2D6&quot; suffers D6 mortal wounds. If a model loses any wounds as a result of those mortal wounds but is not destroyed, roll another D6; on a 6 that model suffers a further D6 mortal wounds.</characteristic>
           </characteristics>
         </profile>
-        <profile id="38e6-c245-8238-130e" name="Aquila Strongpoint" publicationId="28ec-711c-pubN77581" page="135" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="38e6-c245-8238-130e" name="Aquila Strongpoint" publicationId="28ec-711c-pubN77581" page="135" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">-</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">-</characteristic>
@@ -5788,26 +5865,26 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="621a-66bd-935a-dfe9" type="min"/>
           </constraints>
           <profiles>
-            <profile id="45fe-2ece-6d97-a023" name="Vortex Missile Battery" publicationId="28ec-711c-pubN77581" page="136" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="45fe-2ece-6d97-a023" name="Vortex Missile Battery" publicationId="28ec-711c-pubN77581" page="136" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
               <characteristics>
-                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">180&quot;</characteristic>
-                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy D6</characteristic>
+                <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">180&quot;</characteristic>
+                <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 D6</characteristic>
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">-</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">-</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon may target units that are not visible to the bearer, even when firing in accordance with the Automated Weapons ability. Each time you hit the target with this weapon it suffers D6 mortal wounds. If a model is wounded but but not slain by this attack, roll another dice; on a 6, the model suffers a further D6 mortal wounds.</characteristic>
+                <characteristic name="能力" typeId="837d-5e63-aeb7-1410">This weapon may target units that are not visible to the bearer, even when firing in accordance with the Automated Weapons ability. Each time you hit the target with this weapon it suffers D6 mortal wounds. If a model is wounded but but not slain by this attack, roll another dice; on a 6, the model suffers a further D6 mortal wounds.</characteristic>
               </characteristics>
             </profile>
-            <profile id="4525-1cde-2fcd-d4cf" name="Containment Failure" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+            <profile id="4525-1cde-2fcd-d4cf" name="Containment Failure" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model is reduced to 0 wounds, before removing it from the battlefield and before any embarked models disembark, its vortex missiles explode. Each unit within 2D6&quot; suffers D6 mortal wounds. If a model is wounded but not slain by in this manner roll another dice; on a 6, the model is sucked up into the swirling vortex and slain.</characteristic>
+                <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model is reduced to 0 wounds, before removing it from the battlefield and before any embarked models disembark, its vortex missiles explode. Each unit within 2D6&quot; suffers D6 mortal wounds. If a model is wounded but not slain by in this manner roll another dice; on a 6, the model is sucked up into the swirling vortex and slain.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5822,9 +5899,9 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="24.0"/>
-        <cost name="pts" typeId="points" value="470.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="24.0"/>
+        <cost name="分" typeId="points" value="470.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="06e4-8b2d-822a-d894" name="[Reference] Core Stratagems" hidden="false" collective="false" import="true" type="upgrade">
@@ -5855,19 +5932,19 @@
         </rule>
       </rules>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="14b1-5f3b-4943-82e1" name="Twin heavy bolter" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="14b1-5f3b-4943-82e1" name="双联重爆弹" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="6479-a056-9dcf-eb1b" name="Twin heavy bolter" hidden="false" targetId="6644-7150-c910-865d" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="38ee-6dae-3cb1-7f84" name="Army of Renown -  Mechanicus Defence Cohort" hidden="false" collective="false" import="true" type="upgrade">
@@ -5879,9 +5956,9 @@
         <categoryLink id="fadb-26da-8680-7524" name="New CategoryLink" hidden="false" targetId="fcff-0f21-93e6-1ddc" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c47c-a3e1-c91e-436a" name="Hide Legends Units" hidden="false" collective="false" import="true" type="upgrade">
@@ -5889,9 +5966,9 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b4c-8925-4bba-20bd" type="max"/>
       </constraints>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b734-1c2c-054d-4867" name="Hide Imperial Agents" hidden="false" collective="false" import="true" type="upgrade">
@@ -5899,9 +5976,9 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c88-fa7d-75b2-b441" type="max"/>
       </constraints>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8129-3536-b511-b045" name="Shared Faction Bonus" hidden="false" collective="false" import="true" type="upgrade">
@@ -5928,9 +6005,9 @@
         </rule>
       </rules>
       <costs>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="2.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="2.0"/>
+        <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -5962,9 +6039,9 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e59-5477-ec02-bde6" type="max"/>
               </constraints>
               <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="分" typeId="points" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="404b-9d1f-2057-dab8" name="2) Mighty Hero (6)" hidden="false" collective="false" import="true" type="upgrade">
@@ -5972,9 +6049,9 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab5a-0774-69ca-034d" type="max"/>
               </constraints>
               <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="分" typeId="points" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c68f-1e38-072b-f200" name="3) Legendary Hero (8)" hidden="false" collective="false" import="true" type="upgrade">
@@ -5982,9 +6059,9 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="836e-bcd1-8515-d284" type="max"/>
               </constraints>
               <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="分" typeId="points" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -6018,16 +6095,16 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60a7-5971-b237-afde" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="8fd8-f579-1b69-ed00" name="11: Inspirational Fighter" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                    <profile id="8fd8-f579-1b69-ed00" name="11: Inspirational Fighter" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Re-roll hit rolls of 1 in the Fight phase for friendly &lt;Sub-faction&gt; units within 6&quot; of this model.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Re-roll hit rolls of 1 in the Fight phase for friendly &lt;Sub-faction&gt; units within 6&quot; of this model.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="分" typeId="points" value="0.0"/>
+                    <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="fbd4-985a-2c1c-4e3a" name="12: Beast Hunter" hidden="false" collective="false" import="true" type="upgrade">
@@ -6035,16 +6112,16 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3552-92e2-7c0f-d877" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="2cfd-c772-8ded-a00b" name="12: Beast Hunter" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                    <profile id="2cfd-c772-8ded-a00b" name="12: Beast Hunter" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll failed wound rolls for attacks made by this model in the Fight phase if the target is a MONSTER unit.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll failed wound rolls for attacks made by this model in the Fight phase if the target is a MONSTER unit.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="分" typeId="points" value="0.0"/>
+                    <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="727b-aa18-77de-256e" name="13: Heroic" hidden="false" collective="false" import="true" type="upgrade">
@@ -6052,16 +6129,16 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f9c-50c1-38e0-7281" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="ef93-d404-8371-48a4" name="13: Heroic" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                    <profile id="ef93-d404-8371-48a4" name="13: Heroic" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model can perform a Heroic Intervention if, after the enemy has completed all of their charge moves, it is within 6&quot; of any enemy units, and can move up to 6&quot; when doing so.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model can perform a Heroic Intervention if, after the enemy has completed all of their charge moves, it is within 6&quot; of any enemy units, and can move up to 6&quot; when doing so.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="分" typeId="points" value="0.0"/>
+                    <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="e281-11b6-0dec-aed3" name="14: Duelist" hidden="false" collective="false" import="true" type="upgrade">
@@ -6069,16 +6146,16 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="88da-4c09-5732-707a" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="4a64-cba7-3757-7487" name="14: Duelist" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                    <profile id="4a64-cba7-3757-7487" name="14: Duelist" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to this model’s Strength and Attacks characteristics while it is within 1&quot; of any enemy Character units.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to this model’s Strength and Attacks characteristics while it is within 1&quot; of any enemy Character units.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="分" typeId="points" value="0.0"/>
+                    <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="e627-d127-4462-f867" name="15: Zealot" hidden="false" collective="false" import="true" type="upgrade">
@@ -6086,16 +6163,16 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35d1-3c8a-5838-1a10" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="a80d-c26c-f77c-82b8" name="15: Zealot" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                    <profile id="a80d-c26c-f77c-82b8" name="15: Zealot" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll failed hit rolls for this model in the Fight phase if it made a charge move, performed a Heroic Intervention, or was charged this turn.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll failed hit rolls for this model in the Fight phase if it made a charge move, performed a Heroic Intervention, or was charged this turn.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="分" typeId="points" value="0.0"/>
+                    <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="bae0-c327-ff17-dacb" name="16: Deadly Charge" hidden="false" collective="false" import="true" type="upgrade">
@@ -6103,16 +6180,16 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff66-fcf6-655e-bf09" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="b2ef-4f86-c2cb-c4f2" name="16: Deadly Charge" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                    <profile id="b2ef-4f86-c2cb-c4f2" name="16: Deadly Charge" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the Attacks characteristic of this model in the Fight phase if it made a charge move this turn. </characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the Attacks characteristic of this model in the Fight phase if it made a charge move this turn. </characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="分" typeId="points" value="0.0"/>
+                    <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="787e-e430-3742-7a48" name="21: Targeting Augury" hidden="false" collective="false" import="true" type="upgrade">
@@ -6120,16 +6197,16 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a27-5cc4-86e8-946e" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="97cf-dacf-4f4e-8b26" name="21: Targeting Augury" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                    <profile id="97cf-dacf-4f4e-8b26" name="21: Targeting Augury" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Enemy units do not gain the benefit of cover to their saving throws against attacks made by friendly &lt;Sub-faction&gt; units within 6&quot; of this model when the attack is made.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Enemy units do not gain the benefit of cover to their saving throws against attacks made by friendly &lt;Sub-faction&gt; units within 6&quot; of this model when the attack is made.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="分" typeId="points" value="0.0"/>
+                    <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="1555-250b-e5e2-0c7f" name="22: Directed Fire" hidden="false" collective="false" import="true" type="upgrade">
@@ -6137,16 +6214,16 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdd3-14df-54fa-1d2b" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="630c-9566-13eb-da57" name="22: Directed Fire" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                    <profile id="630c-9566-13eb-da57" name="22: Directed Fire" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Re-roll hit rolls of 1 in the Shooting phase for friendly &lt;Sub-faction&gt; units within 6&quot; of this model. </characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Re-roll hit rolls of 1 in the Shooting phase for friendly &lt;Sub-faction&gt; units within 6&quot; of this model. </characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="分" typeId="points" value="0.0"/>
+                    <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="dc9c-473d-7a0e-d853" name="23: Deadly Marksman" hidden="false" collective="false" import="true" type="upgrade">
@@ -6154,16 +6231,16 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a068-1636-b65f-1e4e" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="a650-fc6c-fd84-e191" name="23: Deadly Marksman" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                    <profile id="a650-fc6c-fd84-e191" name="23: Deadly Marksman" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the Damage characteristic of ranged weapons used by this model. </characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the Damage characteristic of ranged weapons used by this model. </characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="分" typeId="points" value="0.0"/>
+                    <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="bd02-74a3-03b0-9c69" name="24: Sundering Shots" hidden="false" collective="false" import="true" type="upgrade">
@@ -6171,16 +6248,16 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17e0-c1e9-aabb-e31e" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="0184-00c1-f033-65cd" name="24: Sundering Shots" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                    <profile id="0184-00c1-f033-65cd" name="24: Sundering Shots" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each wound roll of 6+ made for this model’s ranged attacks inflicts 1 mortal wound on the target in addition to any normal damage.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each wound roll of 6+ made for this model’s ranged attacks inflicts 1 mortal wound on the target in addition to any normal damage.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="分" typeId="points" value="0.0"/>
+                    <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="c70c-1e57-307b-e10e" name="25: Keen Eye" hidden="false" collective="false" import="true" type="upgrade">
@@ -6188,16 +6265,16 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09d7-a3db-78a6-5945" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="443c-d65e-b495-aaff" name="25: Keen Eye" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                    <profile id="443c-d65e-b495-aaff" name="25: Keen Eye" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model can target enemy CHARACTER units in the Shooting phase even if they are not the closest enemy model.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model can target enemy CHARACTER units in the Shooting phase even if they are not the closest enemy model.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="分" typeId="points" value="0.0"/>
+                    <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="ff90-2f86-77ab-92db" name="26: Defensive Fighter" hidden="false" collective="false" import="true" type="upgrade">
@@ -6205,16 +6282,16 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51fb-6ea2-e7b7-a126" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="96c5-a669-528a-1d64" name="26: Defensive Fighter" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                    <profile id="96c5-a669-528a-1d64" name="26: Defensive Fighter" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When this model fires Overwatch, it successfully hits on rolls of 5 or 6, instead of only 6.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When this model fires Overwatch, it successfully hits on rolls of 5 or 6, instead of only 6.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="分" typeId="points" value="0.0"/>
+                    <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="d8fd-22fb-8d0a-591f" name="31: Grudge" hidden="false" collective="false" import="true" type="upgrade">
@@ -6222,16 +6299,16 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7eb-d815-0334-af04" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="49f0-a183-7e98-a4b1" name="31: Grudge" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                    <profile id="49f0-a183-7e98-a4b1" name="31: Grudge" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll any hit, wound and damage rolls made for this model’s attacks that target the enemy Warlord.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll any hit, wound and damage rolls made for this model’s attacks that target the enemy Warlord.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="分" typeId="points" value="0.0"/>
+                    <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="18f5-d11c-42ba-3c28" name="32: Resilient" hidden="false" collective="false" import="true" type="upgrade">
@@ -6239,16 +6316,16 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="44d5-c10c-98c0-9630" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="8cb8-49d4-ca19-0b34" name="32: Resilient" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                    <profile id="8cb8-49d4-ca19-0b34" name="32: Resilient" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time this model loses a wound, roll a dice; on a 5+ it does not lose that wound.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time this model loses a wound, roll a dice; on a 5+ it does not lose that wound.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="分" typeId="points" value="0.0"/>
+                    <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="158b-0812-f8b4-bc4b" name="33: Camouflage" hidden="false" collective="false" import="true" type="upgrade">
@@ -6256,16 +6333,16 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d8af-656a-f2c4-1a40" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="b55a-deb9-dfcc-dfd4" name="33: Camouflage" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                    <profile id="b55a-deb9-dfcc-dfd4" name="33: Camouflage" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 2 instead of 1 to saving throws made for this model when it is receiving the benefit of cover.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 2 instead of 1 to saving throws made for this model when it is receiving the benefit of cover.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="分" typeId="points" value="0.0"/>
+                    <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="7e54-6d92-f926-030f" name="34: Stealth Assault" hidden="false" collective="false" import="true" type="upgrade">
@@ -6273,16 +6350,16 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3517-db21-5551-c293" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="0a78-1439-ab87-4ac5" name="34: Stealth Assault" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                    <profile id="0a78-1439-ab87-4ac5" name="34: Stealth Assault" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Enemy units cannot fire Overwatch at this model.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Enemy units cannot fire Overwatch at this model.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="分" typeId="points" value="0.0"/>
+                    <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="7da7-7a26-eb63-a5bc" name="35: Indomitable" hidden="false" collective="false" import="true" type="upgrade">
@@ -6290,16 +6367,16 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60ae-22e5-b99d-ef80" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="eede-37c4-cc49-3cec" name="35: Indomitable" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                    <profile id="eede-37c4-cc49-3cec" name="35: Indomitable" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">All damage suffered by this model is halved (rounding up). </characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">All damage suffered by this model is halved (rounding up). </characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="分" typeId="points" value="0.0"/>
+                    <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="64b2-1c6b-2b20-86d0" name="36: Impervious" hidden="false" collective="false" import="true" type="upgrade">
@@ -6307,16 +6384,16 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d0d-53ee-686a-0c6b" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="09a4-6f7c-d011-706c" name="36: Impervious" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                    <profile id="09a4-6f7c-d011-706c" name="36: Impervious" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model regains 1 lost wound at the start of your turn. </characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model regains 1 lost wound at the start of your turn. </characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="分" typeId="points" value="0.0"/>
+                    <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="c45b-14f1-8fd6-ecf4" name="41: Infiltrator" hidden="false" collective="false" import="true" type="upgrade">
@@ -6324,16 +6401,16 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="79c2-27c6-38df-0d59" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="eada-5268-3152-d12e" name="41: Infiltrator" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                    <profile id="eada-5268-3152-d12e" name="41: Infiltrator" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up this model in ambush, instead of placing it on the battlefield. At the end of any of your Movement phases it can reveal its location – set it up anywhere on the battlefield that is more than 9&quot; from any enemy models.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">During deployment, you can set up this model in ambush, instead of placing it on the battlefield. At the end of any of your Movement phases it can reveal its location – set it up anywhere on the battlefield that is more than 9&quot; from any enemy models.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="分" typeId="points" value="0.0"/>
+                    <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="9b8a-668e-8b0b-d694" name="42: Stealthy" hidden="false" collective="false" import="true" type="upgrade">
@@ -6341,16 +6418,16 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b01-1c35-942c-880f" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="d50b-f421-da38-fd5a" name="42: Stealthy" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                    <profile id="d50b-f421-da38-fd5a" name="42: Stealthy" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Subtract 1 from hit rolls for attacks made with ranged weapons that target this model.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Subtract 1 from hit rolls for attacks made with ranged weapons that target this model.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="分" typeId="points" value="0.0"/>
+                    <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="2227-626a-f581-81f2" name="43: Hard to Kill" hidden="false" collective="false" import="true" type="upgrade">
@@ -6358,16 +6435,16 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="25cf-4185-12ec-9966" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="b3f5-feaf-9334-bb2a" name="43: Hard to Kill" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                    <profile id="b3f5-feaf-9334-bb2a" name="43: Hard to Kill" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Wound rolls of 1, 2 or 3 made for attacks that target this model always fail, even if the attack has a Strength characteristic higher than this model’s Toughness characteristic.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Wound rolls of 1, 2 or 3 made for attacks that target this model always fail, even if the attack has a Strength characteristic higher than this model’s Toughness characteristic.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="分" typeId="points" value="0.0"/>
+                    <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="0d8d-de0e-6585-8488" name="44: Strategic Feint" hidden="false" collective="false" import="true" type="upgrade">
@@ -6375,16 +6452,16 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b73-f56e-24e1-3818" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="faf9-46bb-7bee-126c" name="44: Strategic Feint" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                    <profile id="faf9-46bb-7bee-126c" name="44: Strategic Feint" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of the first battle round but before the first turn begins, you can pick a friendly &lt;Sub-faction&gt; unit within 6&quot; of this model and set it up again, anywhere wholly within your deployment zone. If your opponent has any units with similar abilities, roll off; starting with the winner of the roll-off, take it in turns to resolve these abilities.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of the first battle round but before the first turn begins, you can pick a friendly &lt;Sub-faction&gt; unit within 6&quot; of this model and set it up again, anywhere wholly within your deployment zone. If your opponent has any units with similar abilities, roll off; starting with the winner of the roll-off, take it in turns to resolve these abilities.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="分" typeId="points" value="0.0"/>
+                    <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="3da3-6e11-cc98-4c52" name="45: Swift Strike" hidden="false" collective="false" import="true" type="upgrade">
@@ -6392,16 +6469,16 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a87a-8804-66e6-2256" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="a855-aa59-c8b1-6f75" name="45: Swift Strike" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                    <profile id="a855-aa59-c8b1-6f75" name="45: Swift Strike" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can always choose this model to fight first in the Fight phase even if it did not charge. If the enemy has units that have charged, or that have a similar ability, alternate choosing units to fight with, starting with the player whose turn is taking place.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can always choose this model to fight first in the Fight phase even if it did not charge. If the enemy has units that have charged, or that have a similar ability, alternate choosing units to fight with, starting with the player whose turn is taking place.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="分" typeId="points" value="0.0"/>
+                    <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="fb1a-ce7f-7432-a23b" name="46: Foresight" hidden="false" collective="false" import="true" type="upgrade">
@@ -6409,16 +6486,16 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7395-b577-8a06-398a" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="1f69-1696-0676-0b09" name="46: Foresight" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                    <profile id="1f69-1696-0676-0b09" name="46: Foresight" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per battle, if this model is on the battlefield, you can re-roll one hit roll, wound roll, damage roll or saving throw.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per battle, if this model is on the battlefield, you can re-roll one hit roll, wound roll, damage roll or saving throw.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="分" typeId="points" value="0.0"/>
+                    <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="1e63-4438-5922-90d0" name="51: Inspirational Leader" hidden="false" collective="false" import="true" type="upgrade">
@@ -6426,16 +6503,16 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7bcb-2e73-7195-93d0" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="fa5f-6cdc-2d50-3139" name="51: Inspirational Leader" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                    <profile id="fa5f-6cdc-2d50-3139" name="51: Inspirational Leader" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Friendly &lt;Sub-faction&gt;units can use this model’s Leadership instead of their own while they are within 6&quot; of it.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Friendly &lt;Sub-faction&gt;units can use this model’s Leadership instead of their own while they are within 6&quot; of it.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="分" typeId="points" value="0.0"/>
+                    <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="0d39-dd84-b6e9-b5bc" name="52: Rallying Cry" hidden="false" collective="false" import="true" type="upgrade">
@@ -6443,16 +6520,16 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="228c-f69c-bc25-0292" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="84d4-2c9e-a06c-c893" name="52: Rallying Cry" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                    <profile id="84d4-2c9e-a06c-c893" name="52: Rallying Cry" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll failed Morale tests for friendly &lt;Sub-faction&gt;units while they are within 6&quot; of this model.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll failed Morale tests for friendly &lt;Sub-faction&gt;units while they are within 6&quot; of this model.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="分" typeId="points" value="0.0"/>
+                    <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="d135-4517-30e1-7993" name="53: Icon of Retribution" hidden="false" collective="false" import="true" type="upgrade">
@@ -6460,16 +6537,16 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7664-1ec2-319a-73ac" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="d3a7-5098-bc2a-3dd9" name="53: Icon of Retribution" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                    <profile id="d3a7-5098-bc2a-3dd9" name="53: Icon of Retribution" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Roll a dice each time a friendly &lt;Sub-faction&gt;model within 6&quot; of this model is slain in the Fight phase. On a 6, the unit that made the attack that slew the model suffers 1 mortal wound after it has finished making its attacks.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Roll a dice each time a friendly &lt;Sub-faction&gt;model within 6&quot; of this model is slain in the Fight phase. On a 6, the unit that made the attack that slew the model suffers 1 mortal wound after it has finished making its attacks.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="分" typeId="points" value="0.0"/>
+                    <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="1644-e71b-1241-6066" name="54: Impetuous" hidden="false" collective="false" import="true" type="upgrade">
@@ -6477,16 +6554,16 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1a9-d7be-1a7a-8f92" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="946d-9ea6-daa5-3e34" name="54: Impetuous" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                    <profile id="946d-9ea6-daa5-3e34" name="54: Impetuous" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll failed charge rolls for this model.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll failed charge rolls for this model.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="分" typeId="points" value="0.0"/>
+                    <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="82e5-94dc-402d-c0f2" name="55: Terrifying" hidden="false" collective="false" import="true" type="upgrade">
@@ -6494,16 +6571,16 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d48a-e765-079c-eb8c" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="cf24-b6fd-64fb-2e10" name="55: Terrifying" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                    <profile id="cf24-b6fd-64fb-2e10" name="55: Terrifying" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Subtract 1 from the Leadership characteristic of enemy units while they are within 3&quot; of this model.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Subtract 1 from the Leadership characteristic of enemy units while they are within 3&quot; of this model.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="分" typeId="points" value="0.0"/>
+                    <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="178f-9657-9ea6-c7af" name="56: Savage Riposte" hidden="false" collective="false" import="true" type="upgrade">
@@ -6511,16 +6588,16 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f951-9ee9-87ef-127d" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="28fd-c8a4-00d9-3c19" name="56: Savage Riposte" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                    <profile id="28fd-c8a4-00d9-3c19" name="56: Savage Riposte" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time you roll an unmodified saving throw of 6 for this model in the Fight phase, the enemy unit that made the attack suffers 1 mortal wound after it has resolved all of its attacks.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time you roll an unmodified saving throw of 6 for this model in the Fight phase, the enemy unit that made the attack suffers 1 mortal wound after it has resolved all of its attacks.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="分" typeId="points" value="0.0"/>
+                    <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="7d1c-3aef-4200-0995" name="61: Air Strike" hidden="false" collective="false" import="true" type="upgrade">
@@ -6528,16 +6605,16 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cfcf-eaa5-8722-37df" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="5de9-d6de-958d-3236" name="61: Air Strike" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                    <profile id="5de9-d6de-958d-3236" name="61: Air Strike" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per battle, in your Shooting phase, you can pick an enemy unit, other than a Characterunit, that is visible to this model and roll a D6. On a 1-4 nothing happens. On a 5+ the target unit suffers D3 mortal wounds.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per battle, in your Shooting phase, you can pick an enemy unit, other than a Characterunit, that is visible to this model and roll a D6. On a 1-4 nothing happens. On a 5+ the target unit suffers D3 mortal wounds.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="分" typeId="points" value="0.0"/>
+                    <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="edc6-d887-076d-cf8b" name="62: Swift Advance" hidden="false" collective="false" import="true" type="upgrade">
@@ -6545,16 +6622,16 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c16d-9fa5-250f-461b" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="e1b2-a287-6f47-905c" name="62: Swift Advance" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                    <profile id="e1b2-a287-6f47-905c" name="62: Swift Advance" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When this model Advances, add 6&quot; to its Move characteristic for that Movement phase instead of rolling a D6</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When this model Advances, add 6&quot; to its Move characteristic for that Movement phase instead of rolling a D6</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="分" typeId="points" value="0.0"/>
+                    <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="9f0e-b42d-4fdf-2225" name="63: Reactive Tactics" hidden="false" collective="false" import="true" type="upgrade">
@@ -6562,16 +6639,16 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e74-9cfe-b707-3e97" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="0fd6-5d34-61d6-1a91" name="63: Reactive Tactics" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                    <profile id="0fd6-5d34-61d6-1a91" name="63: Reactive Tactics" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model, and friendly&lt;Sub-faction&gt;units within 6&quot; of them, can charge even if they Fell Back that turn.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model, and friendly&lt;Sub-faction&gt;units within 6&quot; of them, can charge even if they Fell Back that turn.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="分" typeId="points" value="0.0"/>
+                    <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="d7d1-4e07-1598-dd20" name="64: Strike and Fade" hidden="false" collective="false" import="true" type="upgrade">
@@ -6579,16 +6656,16 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa5b-1e0f-e256-3fa0" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="4c8a-66ad-6ac9-532b" name="64: Strike and Fade" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                    <profile id="4c8a-66ad-6ac9-532b" name="64: Strike and Fade" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">After this model has fought in the Fight phase, it can immediately pile in D3+3&quot; in any direction, not just towards the closest enemy model.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">After this model has fought in the Fight phase, it can immediately pile in D3+3&quot; in any direction, not just towards the closest enemy model.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="分" typeId="points" value="0.0"/>
+                    <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="a201-d4ca-6e56-4de9" name="65: Final Strike" hidden="false" collective="false" import="true" type="upgrade">
@@ -6596,16 +6673,16 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a555-5873-7186-333e" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="a818-29f1-ed4e-8fe8" name="65: Final Strike" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                    <profile id="a818-29f1-ed4e-8fe8" name="65: Final Strike" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model is slain, you can select an enemy unit within 3&quot; of it and roll a D6; on a 2+ that unit suffers D3 mortal wounds. </characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model is slain, you can select an enemy unit within 3&quot; of it and roll a D6; on a 2+ that unit suffers D3 mortal wounds. </characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="分" typeId="points" value="0.0"/>
+                    <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="e66e-492b-863e-27db" name="66: Direct Fire" hidden="false" collective="false" import="true" type="upgrade">
@@ -6613,16 +6690,16 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7390-b554-64b5-5f90" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="4a42-4231-7509-9afa" name="66: Direct Fire" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                    <profile id="4a42-4231-7509-9afa" name="66: Direct Fire" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time you make a wound roll of 6+ in the Shooting phase for a friendly &lt;Sub-faction&gt;unit within 6&quot; of this model, the AP characteristic of that attack is improved by 1 (e.g. AP -1 becomes AP -2).</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time you make a wound roll of 6+ in the Shooting phase for a friendly &lt;Sub-faction&gt;unit within 6&quot; of this model, the AP characteristic of that attack is improved by 1 (e.g. AP -1 becomes AP -2).</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="分" typeId="points" value="0.0"/>
+                    <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -6634,16 +6711,16 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8801-bd4a-da0c-9193" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="7d61-3f69-1234-5baa" name="02: Auto-loader" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                    <profile id="7d61-3f69-1234-5baa" name="02: Auto-loader" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of this model’s ranged weapons. Increase the number of shots this weapon makes by 1 (e.g. a Pistol 1 weapon becomes a Pistol 2 weapon). </characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of this model’s ranged weapons. Increase the number of shots this weapon makes by 1 (e.g. a Pistol 1 weapon becomes a Pistol 2 weapon). </characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="分" typeId="points" value="0.0"/>
+                    <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="46e4-b70d-2e05-221a" name="03: Penetrator Rounds" hidden="false" collective="false" import="true" type="upgrade">
@@ -6651,16 +6728,16 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62d1-3901-ebf0-68b2" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="85ee-c700-2b30-ad37" name="03: Penetrator Rounds" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                    <profile id="85ee-c700-2b30-ad37" name="03: Penetrator Rounds" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of this model’s ranged weapons. Improve that weapon’s AP characteristic by 1 (e.g. AP -1 becomes AP -2).</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of this model’s ranged weapons. Improve that weapon’s AP characteristic by 1 (e.g. AP -1 becomes AP -2).</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="分" typeId="points" value="0.0"/>
+                    <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="2807-7a2a-8f82-e02f" name="04: High Calibre" hidden="false" collective="false" import="true" type="upgrade">
@@ -6668,16 +6745,16 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0676-5e7d-e15f-526f" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="97fa-de67-99e0-29fd" name="04: High Calibre" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                    <profile id="97fa-de67-99e0-29fd" name="04: High Calibre" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of this model’s ranged weapons. Add 1 to that weapon’s Strength characteristic.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of this model’s ranged weapons. Add 1 to that weapon’s Strength characteristic.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="分" typeId="points" value="0.0"/>
+                    <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="2cd2-860a-691e-9a04" name="05: Improved Sights" hidden="false" collective="false" import="true" type="upgrade">
@@ -6685,16 +6762,16 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77c3-7f1d-58e6-e168" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="65fb-9911-be6a-53d6" name="05: Improved Sights" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                    <profile id="65fb-9911-be6a-53d6" name="05: Improved Sights" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of this model’s ranged weapons. Add 6&quot; to that weapon’s Range characteristic. </characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of this model’s ranged weapons. Add 6&quot; to that weapon’s Range characteristic. </characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="分" typeId="points" value="0.0"/>
+                    <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="fdec-6130-c07f-340c" name="06: Inferno Round" hidden="false" collective="false" import="true" type="upgrade">
@@ -6702,16 +6779,16 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c32d-c900-98d0-b756" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="d1b4-cfe9-6852-26f5" name="06: Inferno Round" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                    <profile id="d1b4-cfe9-6852-26f5" name="06: Inferno Round" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of this model’s ranged weapons. Add the following ability to that weapon: ‘Units do not receive the benefit of cover to their saving throws against attacks made with this weapon.’</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of this model’s ranged weapons. Add the following ability to that weapon: ‘Units do not receive the benefit of cover to their saving throws against attacks made with this weapon.’</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="分" typeId="points" value="0.0"/>
+                    <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="f759-18ed-8403-472b" name="07: Artificer Weapon" hidden="false" collective="false" import="true" type="upgrade">
@@ -6719,16 +6796,16 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="127d-7af7-ae3b-8fa8" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="74dd-199a-f33e-c54f" name="07: Artificer Weapon" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                    <profile id="74dd-199a-f33e-c54f" name="07: Artificer Weapon" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of this model’s weapons. Add 1 to that weapon’s Damage characteristic.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of this model’s weapons. Add 1 to that weapon’s Damage characteristic.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="分" typeId="points" value="0.0"/>
+                    <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="f341-b493-710a-4058" name="08: Finely Balanced" hidden="false" collective="false" import="true" type="upgrade">
@@ -6736,16 +6813,16 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8153-8808-c363-13ff" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="37ad-2ef0-0868-af26" name="08: Finely Balanced" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                    <profile id="37ad-2ef0-0868-af26" name="08: Finely Balanced" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of this model’s melee weapons. Add the following ability to that weapon: ‘Each time the bearer fights, it can make 1 additional attack with this weapon.’</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of this model’s melee weapons. Add the following ability to that weapon: ‘Each time the bearer fights, it can make 1 additional attack with this weapon.’</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="分" typeId="points" value="0.0"/>
+                    <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="119c-bce3-49b2-42b9" name="09: Shredder" hidden="false" collective="false" import="true" type="upgrade">
@@ -6753,16 +6830,16 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a522-6245-649b-eb2a" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="1ce8-bd94-7cf0-e20f" name="09: Shredder" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                    <profile id="1ce8-bd94-7cf0-e20f" name="09: Shredder" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of this model’s melee weapons. Add the following ability to that weapon: ‘You can re-roll failed wound rolls for attacks made with this weapon.’</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of this model’s melee weapons. Add the following ability to that weapon: ‘You can re-roll failed wound rolls for attacks made with this weapon.’</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="分" typeId="points" value="0.0"/>
+                    <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="2815-b0cf-9cd9-cda3" name="10: Brutal" hidden="false" collective="false" import="true" type="upgrade">
@@ -6770,16 +6847,16 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="095d-9e44-aba3-ca73" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="96c3-0639-a1a2-86e0" name="10: Brutal" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                    <profile id="96c3-0639-a1a2-86e0" name="10: Brutal" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of this model’s melee weapons. Improve that weapon’s Strength characteristic by 1 (e.g. User becomes +1, +1 becomes +2).</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of this model’s melee weapons. Improve that weapon’s Strength characteristic by 1 (e.g. User becomes +1, +1 becomes +2).</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="分" typeId="points" value="0.0"/>
+                    <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="1ff7-04bf-8369-9459" name="11: Razor-edged" hidden="false" collective="false" import="true" type="upgrade">
@@ -6787,16 +6864,16 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7650-0dd5-0528-ad9e" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="ae27-0269-204d-ceb0" name="11: Razor-edged" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                    <profile id="ae27-0269-204d-ceb0" name="11: Razor-edged" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of this model’s melee weapons. Improve that weapon’s AP characteristic by 1 (e.g. AP -1 becomes AP -2).</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of this model’s melee weapons. Improve that weapon’s AP characteristic by 1 (e.g. AP -1 becomes AP -2).</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="分" typeId="points" value="0.0"/>
+                    <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="6f8b-aeb4-3dc6-15f6" name="12: Heirloom" hidden="false" collective="false" import="true" type="upgrade">
@@ -6804,16 +6881,16 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a377-da03-2bd4-5b24" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="c8c0-671c-6174-969c" name="12: Heirloom" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                    <profile id="c8c0-671c-6174-969c" name="12: Heirloom" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of this model’s melee weapons. Add the following ability to that weapon: ‘Each unmodified hit roll of 6 made for attacks with this weapon scores 2 hits instead of 1’.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Pick one of this model’s melee weapons. Add the following ability to that weapon: ‘Each unmodified hit roll of 6 made for attacks with this weapon scores 2 hits instead of 1’.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="分" typeId="points" value="0.0"/>
+                    <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -6832,16 +6909,16 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e8f-db9d-6fcf-081a" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="93ca-1b49-0a5c-c32b" name="1: Psychic Might" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                    <profile id="93ca-1b49-0a5c-c32b" name="1: Psychic Might" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the number of psychic powers this character can attempt to manifest in your Psychic phase. </characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the number of psychic powers this character can attempt to manifest in your Psychic phase. </characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="分" typeId="points" value="0.0"/>
+                    <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="ec80-9cf3-d328-7b33" name="2: Adamantium Will" hidden="false" collective="false" import="true" type="upgrade">
@@ -6849,16 +6926,16 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c2e-ac64-fc54-da26" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="797e-b18b-5171-c011" name="2: Adamantium Will" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                    <profile id="797e-b18b-5171-c011" name="2: Adamantium Will" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the number of psychic powers this character can attempt to deny in your opponent’s Psychic phase.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the number of psychic powers this character can attempt to deny in your opponent’s Psychic phase.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="分" typeId="points" value="0.0"/>
+                    <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="eab9-a014-74ae-86fa" name="3: Master of Lore" hidden="false" collective="false" import="true" type="upgrade">
@@ -6866,16 +6943,16 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="314c-b207-e186-3a4a" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="68b1-73d2-33ee-8089" name="3: Master of Lore" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                    <profile id="68b1-73d2-33ee-8089" name="3: Master of Lore" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the number of psychic powers this model knows from one of the psychic disciplines available to them.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the number of psychic powers this model knows from one of the psychic disciplines available to them.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="分" typeId="points" value="0.0"/>
+                    <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -6887,16 +6964,16 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2240-1c65-bfb8-ea91" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="9f66-befe-4666-5240" name="02: Old War Wound" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                    <profile id="9f66-befe-4666-5240" name="02: Old War Wound" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Select a result from this table, or roll 2D6 to randomly select a result (re-roll if you get this result again). Subtract or worsen this model’s characteristic by the amount described in the result you picked instead of adding or improving it (e.g. if the Ferocious Combatant result was selected, an Attacks characteristic of 3 would become 2, while if the Dead-eyed result was selected, a BS of 3+ would become 4+)</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Select a result from this table, or roll 2D6 to randomly select a result (re-roll if you get this result again). Subtract or worsen this model’s characteristic by the amount described in the result you picked instead of adding or improving it (e.g. if the Ferocious Combatant result was selected, an Attacks characteristic of 3 would become 2, while if the Dead-eyed result was selected, a BS of 3+ would become 4+)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="分" typeId="points" value="0.0"/>
+                    <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="f878-b02b-beef-13a2" name="03: Courageous" hidden="false" collective="false" import="true" type="upgrade">
@@ -6904,16 +6981,16 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ec4-0c81-937d-7dd7" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="4573-56a8-9be7-681e" name="03: Courageous" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                    <profile id="4573-56a8-9be7-681e" name="03: Courageous" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to this model’s Leadership characteristic.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to this model’s Leadership characteristic.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="分" typeId="points" value="0.0"/>
+                    <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="f55a-b8d0-7451-6549" name="04: Ferocious Combatant" hidden="false" collective="false" import="true" type="upgrade">
@@ -6921,16 +6998,16 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a29-2e8b-149d-ced6" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="5eea-41a6-c5ef-2098" name="04: Ferocious Combatant" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                    <profile id="5eea-41a6-c5ef-2098" name="04: Ferocious Combatant" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to this model’s Attacks characteristic.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to this model’s Attacks characteristic.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="分" typeId="points" value="0.0"/>
+                    <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="6553-36b0-0ec4-05ee" name="05: Mighty" hidden="false" collective="false" import="true" type="upgrade">
@@ -6938,16 +7015,16 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9b9-2783-cd2f-8267" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="e8a0-c6f1-bce1-1922" name="05: Mighty" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                    <profile id="e8a0-c6f1-bce1-1922" name="05: Mighty" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to this model’s Strength characteristic. </characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to this model’s Strength characteristic. </characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="分" typeId="points" value="0.0"/>
+                    <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="7d14-cd91-8d61-75df" name="06: Dead-eyed" hidden="false" collective="false" import="true" type="upgrade">
@@ -6955,16 +7032,16 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89a6-88d6-9878-18ef" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="a848-ed5a-e35c-dc1b" name="06: Dead-eyed" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                    <profile id="a848-ed5a-e35c-dc1b" name="06: Dead-eyed" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Improve this model’s Ballistic Skill characteristic by 1 (e.g. BS 3+ will become BS 2+), to a maximum of 2+.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Improve this model’s Ballistic Skill characteristic by 1 (e.g. BS 3+ will become BS 2+), to a maximum of 2+.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="分" typeId="points" value="0.0"/>
+                    <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="c082-cf1d-b27f-2cfb" name="07: Fleet" hidden="false" collective="false" import="true" type="upgrade">
@@ -6972,16 +7049,16 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8423-e4ad-2259-61df" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="404b-1264-bf6c-14e1" name="07: Fleet" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                    <profile id="404b-1264-bf6c-14e1" name="07: Fleet" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 2&quot; to this model’s Move characteristic. </characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 2&quot; to this model’s Move characteristic. </characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="分" typeId="points" value="0.0"/>
+                    <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="eafb-948f-2fa7-4bc6" name="08: Blademaster" hidden="false" collective="false" import="true" type="upgrade">
@@ -6989,16 +7066,16 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b05-8c9c-587e-0b78" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="ccdc-ad4a-1079-8b4d" name="08: Blademaster" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                    <profile id="ccdc-ad4a-1079-8b4d" name="08: Blademaster" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Improve this model’s Weapon Skill characteristic by 1 (e.g. WS 3+ will become WS 2+), to a maximum of 2+.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Improve this model’s Weapon Skill characteristic by 1 (e.g. WS 3+ will become WS 2+), to a maximum of 2+.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="分" typeId="points" value="0.0"/>
+                    <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="3172-c06e-7741-08b8" name="09: Enhanced Physiology" hidden="false" collective="false" import="true" type="upgrade">
@@ -7006,16 +7083,16 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab64-4954-185d-1363" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="3e88-8098-ccb3-7401" name="09: Enhanced Physiology" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                    <profile id="3e88-8098-ccb3-7401" name="09: Enhanced Physiology" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to this model’s Toughness characteristic.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to this model’s Toughness characteristic.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="分" typeId="points" value="0.0"/>
+                    <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="c868-458a-4d31-5076" name="10: Toughened Armor" hidden="false" collective="false" import="true" type="upgrade">
@@ -7023,16 +7100,16 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b68a-81ba-fdf9-39b4" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="bc54-473a-845d-58a1" name="10: Toughened Armor" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                    <profile id="bc54-473a-845d-58a1" name="10: Toughened Armor" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Improve this model’s Save characteristic by 1 (e.g. Sv 5+ will become Sv 4+), to a maximum of 2+.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Improve this model’s Save characteristic by 1 (e.g. Sv 5+ will become Sv 4+), to a maximum of 2+.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="分" typeId="points" value="0.0"/>
+                    <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="a969-9a39-5fd6-aa66" name="11: Divine Protection" hidden="false" collective="false" import="true" type="upgrade">
@@ -7040,16 +7117,16 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12c8-3f57-514e-3555" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="273f-17c8-2998-61cc" name="11: Divine Protection" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                    <profile id="273f-17c8-2998-61cc" name="11: Divine Protection" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Improve this model’s invulnerable save by 1 (e.g. an invulnerable save of 5+ will become an invulnerable save of 4+), to a maximum of 3+. If this model does not have an invulnerable save, it instead gains a 6+ invulnerable save.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Improve this model’s invulnerable save by 1 (e.g. an invulnerable save of 5+ will become an invulnerable save of 4+), to a maximum of 3+. If this model does not have an invulnerable save, it instead gains a 6+ invulnerable save.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="分" typeId="points" value="0.0"/>
+                    <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="e392-2dd6-a365-9430" name="12: Heroic Constitution" hidden="false" collective="false" import="true" type="upgrade">
@@ -7057,16 +7134,16 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c4f-d9a8-2644-cd90" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="d87e-223c-47a9-bf97" name="12: Heroic Constitution" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                    <profile id="d87e-223c-47a9-bf97" name="12: Heroic Constitution" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                       <characteristics>
-                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to this model’s Wounds characteristic.</characteristic>
+                        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to this model’s Wounds characteristic.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="分" typeId="points" value="0.0"/>
+                    <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -7131,16 +7208,16 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="782b-1fc5-b0ed-4e86" type="max"/>
               </constraints>
               <profiles>
-                <profile id="76d6-f1bb-7eaf-bd6c" name="R1: Sharpshooters" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                <profile id="76d6-f1bb-7eaf-bd6c" name="R1: Sharpshooters" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Re-roll hit rolls of 1 for this unit in the Shooting phase. </characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Re-roll hit rolls of 1 for this unit in the Shooting phase. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="分" typeId="points" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ff2f-fb51-8e9b-a7cf" name="R1: Agile" hidden="false" collective="false" import="true" type="upgrade">
@@ -7148,16 +7225,16 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59ac-ca55-9ce3-dcaf" type="max"/>
               </constraints>
               <profiles>
-                <profile id="6748-2c2f-3f15-4d1b" name="R1: Agile" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                <profile id="6748-2c2f-3f15-4d1b" name="R1: Agile" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll Advance and Charge rolls for this unit. </characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll Advance and Charge rolls for this unit. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="分" typeId="points" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5f32-8719-6e59-af27" name="R1: Deadeye Shots" hidden="false" collective="false" import="true" type="upgrade">
@@ -7165,16 +7242,16 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f13d-0605-738c-86c2" type="max"/>
               </constraints>
               <profiles>
-                <profile id="591c-3344-f7bf-7f91" name="R1: Deadeye Shots" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                <profile id="591c-3344-f7bf-7f91" name="R1: Deadeye Shots" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time you roll an unmodified wound roll of 6 for an attack with one of this unit’s ranged weapons, increase the Damage characteristic of that attack by 1. </characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time you roll an unmodified wound roll of 6 for an attack with one of this unit’s ranged weapons, increase the Damage characteristic of that attack by 1. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="分" typeId="points" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ba16-41ea-78fe-e7aa" name="R1: Grizzled" hidden="false" collective="false" import="true" type="upgrade">
@@ -7182,16 +7259,16 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c50e-6cc5-4a78-3dd7" type="max"/>
               </constraints>
               <profiles>
-                <profile id="91f1-f358-86de-96ad" name="R1: Grizzled" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                <profile id="91f1-f358-86de-96ad" name="R1: Grizzled" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This unit ignores penalties to their Leadership characteristic. </characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This unit ignores penalties to their Leadership characteristic. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="分" typeId="points" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="450f-549c-5563-1bbc" name="R2: Combat Specialists" hidden="false" collective="false" import="true" type="upgrade">
@@ -7199,16 +7276,16 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5411-f8ca-2d97-e6e0" type="max"/>
               </constraints>
               <profiles>
-                <profile id="61ff-1cf2-0c84-6a15" name="R2: Combat Specialists" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                <profile id="61ff-1cf2-0c84-6a15" name="R2: Combat Specialists" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Re-roll hit rolls of 1 for this unit in the Fight phase.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Re-roll hit rolls of 1 for this unit in the Fight phase.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="分" typeId="points" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b3ab-c12f-20ed-d682" name="R2: Assassins" hidden="false" collective="false" import="true" type="upgrade">
@@ -7216,16 +7293,16 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8548-7c7b-d409-942f" type="max"/>
               </constraints>
               <profiles>
-                <profile id="8f76-d66e-c390-2ea5" name="R2: Assassins" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                <profile id="8f76-d66e-c390-2ea5" name="R2: Assassins" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to wound rolls for attacks made by models in this unit that target an enemy CHARACTER unit.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to wound rolls for attacks made by models in this unit that target an enemy CHARACTER unit.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="分" typeId="points" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="090b-0e7f-9a6d-96f4" name="R3: Trophy Takers" hidden="false" collective="false" import="true" type="upgrade">
@@ -7233,16 +7310,16 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbfb-9a93-3637-314e" type="max"/>
               </constraints>
               <profiles>
-                <profile id="4425-d2f7-088b-4818" name="R3: Trophy Takers" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                <profile id="4425-d2f7-088b-4818" name="R3: Trophy Takers" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Subtract 1 from the Leadership characteristic of enemy units while they are within 6&quot; of this unit. </characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Subtract 1 from the Leadership characteristic of enemy units while they are within 6&quot; of this unit. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="分" typeId="points" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="91c9-83c7-00ed-7c80" name="R4: Disciplined" hidden="false" collective="false" import="true" type="upgrade">
@@ -7250,16 +7327,16 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0040-51c4-88e7-4e9c" type="max"/>
               </constraints>
               <profiles>
-                <profile id="90a0-9f4c-d49d-d4f5" name="R4: Disciplined" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                <profile id="90a0-9f4c-d49d-d4f5" name="R4: Disciplined" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This unit can shoot or charge during a turn in which it Fell Back.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This unit can shoot or charge during a turn in which it Fell Back.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="分" typeId="points" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="f695-24ed-477e-584d" name="R5: Brutal" hidden="false" collective="false" import="true" type="upgrade">
@@ -7267,16 +7344,16 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24f2-94eb-76a4-9204" type="max"/>
               </constraints>
               <profiles>
-                <profile id="cf6f-8830-33e8-0d6d" name="R5: Brutal" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                <profile id="cf6f-8830-33e8-0d6d" name="R5: Brutal" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the Strength and Attacks characteristic of models in this unit during any turn in which they made a successful charge move.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the Strength and Attacks characteristic of models in this unit during any turn in which they made a successful charge move.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="分" typeId="points" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b0c1-2c21-a0b7-092e" name="R2: Lucky" hidden="false" collective="false" import="true" type="upgrade">
@@ -7284,16 +7361,16 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0530-27d4-ed45-f702" type="max"/>
               </constraints>
               <profiles>
-                <profile id="b664-22df-25c1-4664" name="R2: Lucky" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                <profile id="b664-22df-25c1-4664" name="R2: Lucky" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Roll a D6 each time a model from this unit loses a wound; on a 6 the model does not lose that wound.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Roll a D6 each time a model from this unit loses a wound; on a 6 the model does not lose that wound.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="分" typeId="points" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="21db-768e-a0c2-00fd" name="R3: Breachers" hidden="false" collective="false" import="true" type="upgrade">
@@ -7301,16 +7378,16 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2b7-0a28-0d57-126a" type="max"/>
               </constraints>
               <profiles>
-                <profile id="be38-1685-9783-10d4" name="R3: Breachers" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                <profile id="be38-1685-9783-10d4" name="R3: Breachers" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to wound rolls for attacks made by models in this unit if the target of those attacks is receiving the benefit of cover.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to wound rolls for attacks made by models in this unit if the target of those attacks is receiving the benefit of cover.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="分" typeId="points" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -7325,9 +7402,9 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f14b-392a-03c1-5177" type="max"/>
               </constraints>
               <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="1.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="1.0"/>
+                <cost name="分" typeId="points" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9d82-ac1a-dfef-5868" name="Rank 2 (10-24xp)" hidden="false" collective="false" import="true" type="upgrade">
@@ -7335,9 +7412,9 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b70c-cb30-bb70-84d5" type="max"/>
               </constraints>
               <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="2.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="2.0"/>
+                <cost name="分" typeId="points" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="aeff-38ca-4d24-d7c2" name="Rank 4 (40-59xp)" hidden="false" collective="false" import="true" type="upgrade">
@@ -7345,9 +7422,9 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3f6-aa06-f534-4ef8" type="max"/>
               </constraints>
               <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="4.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="4.0"/>
+                <cost name="分" typeId="points" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1b4b-d3b7-3fdc-7f90" name="Rank 3 (25-39xp)" hidden="false" collective="false" import="true" type="upgrade">
@@ -7355,9 +7432,9 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f911-423e-ec97-29e8" type="max"/>
               </constraints>
               <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="3.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="3.0"/>
+                <cost name="分" typeId="points" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="875e-c041-05ae-2041" name="Rank 5 (60+xp)" hidden="false" collective="false" import="true" type="upgrade">
@@ -7365,9 +7442,9 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da2e-b8b0-b3e3-bfb4" type="max"/>
               </constraints>
               <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="5.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="5.0"/>
+                <cost name="分" typeId="points" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -7414,16 +7491,16 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d46-bb3a-decd-7f3a" type="max"/>
               </constraints>
               <profiles>
-                <profile id="2ccf-262a-bcce-6c64" name="R1: Unstoppable Beast" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                <profile id="2ccf-262a-bcce-6c64" name="R1: Unstoppable Beast" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">After this model completes a charge move, roll a D6 for each enemy unit within 1&quot; of it. On a 4+ that unit suffers 1 mortal wound. </characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">After this model completes a charge move, roll a D6 for each enemy unit within 1&quot; of it. On a 4+ that unit suffers 1 mortal wound. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="分" typeId="points" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3d18-cd24-8a6d-9d1a" name="R1: Monstrous Regeneration" hidden="false" collective="false" import="true" type="upgrade">
@@ -7431,16 +7508,16 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09a0-2878-cb62-93e8" type="max"/>
               </constraints>
               <profiles>
-                <profile id="4d47-86df-2de3-831b" name="R1: Monstrous Regeneration" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                <profile id="4d47-86df-2de3-831b" name="R1: Monstrous Regeneration" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model regains 1 lost wound at the start of each of your turns. </characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model regains 1 lost wound at the start of each of your turns. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="分" typeId="points" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="6629-2115-9d1e-ab35" name="R2: Terrifying" hidden="false" collective="false" import="true" type="upgrade">
@@ -7448,16 +7525,16 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54a5-50af-bb77-dc2a" type="max"/>
               </constraints>
               <profiles>
-                <profile id="8495-07fa-e001-b2cd" name="R2: Terrifying" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                <profile id="8495-07fa-e001-b2cd" name="R2: Terrifying" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Subtract 1 from the Leadership characteristic of enemy units while they are within 6&quot; of this model. </characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Subtract 1 from the Leadership characteristic of enemy units while they are within 6&quot; of this model. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="分" typeId="points" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5b0e-0b0c-29e0-c925" name="R2: Lashing Limbs" hidden="false" collective="false" import="true" type="upgrade">
@@ -7465,16 +7542,16 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4787-5329-7b62-0045" type="max"/>
               </constraints>
               <profiles>
-                <profile id="05ff-d770-fe4f-990e" name="R2: Lashing Limbs" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                <profile id="05ff-d770-fe4f-990e" name="R2: Lashing Limbs" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time you roll an unmodified saving throw of 6 for this model in the Fight phase, the enemy unit that made that attack suffers 1 mortal wound after it has resolved all of its attacks. </characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time you roll an unmodified saving throw of 6 for this model in the Fight phase, the enemy unit that made that attack suffers 1 mortal wound after it has resolved all of its attacks. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="分" typeId="points" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b002-691a-9aac-8bd5" name="R3: Inhuman Resilience" hidden="false" collective="false" import="true" type="upgrade">
@@ -7482,16 +7559,16 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d30a-a2af-d37a-f04e" type="max"/>
               </constraints>
               <profiles>
-                <profile id="e19d-5f65-b2a3-8cf8" name="R3: Inhuman Resilience" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                <profile id="e19d-5f65-b2a3-8cf8" name="R3: Inhuman Resilience" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Roll a D6 each time a model in this unit loses a wound; on a 5+ the model does not lose that wound</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Roll a D6 each time a model in this unit loses a wound; on a 5+ the model does not lose that wound</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="分" typeId="points" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="a479-3d3c-bf90-3166" name="R3: Sweeping Blows" hidden="false" collective="false" import="true" type="upgrade">
@@ -7499,16 +7576,16 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d2d-99a2-95f1-0004" type="max"/>
               </constraints>
               <profiles>
-                <profile id="ef8a-c766-1084-0416" name="R3: Sweeping Blows" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                <profile id="ef8a-c766-1084-0416" name="R3: Sweeping Blows" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each unmodified hit roll of 6 made for this model’s attacks in the Fight phase score 2 hits instead of 1. </characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each unmodified hit roll of 6 made for this model’s attacks in the Fight phase score 2 hits instead of 1. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="分" typeId="points" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e2d8-b51b-bf19-ac2b" name="R4: Volatile Death Throes " hidden="false" collective="false" import="true" type="upgrade">
@@ -7516,16 +7593,16 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f746-e4ab-1a84-0d9f" type="max"/>
               </constraints>
               <profiles>
-                <profile id="fe4c-12e6-6f1b-b1b4" name="R4: Volatile Death Throes " hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                <profile id="fe4c-12e6-6f1b-b1b4" name="R4: Volatile Death Throes " hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model is destroyed, its controlling player can choose for it to automatically trigger death throes (see Codex: Tyranids) – no dice roll is required.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model is destroyed, its controlling player can choose for it to automatically trigger death throes (see Codex: Tyranids) – no dice roll is required.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="分" typeId="points" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="997d-c097-a175-782f" name="R4: Juggernaut" hidden="false" collective="false" import="true" type="upgrade">
@@ -7533,16 +7610,16 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87d1-8e61-8446-799b" type="max"/>
               </constraints>
               <profiles>
-                <profile id="6269-9ff1-822a-c610" name="R4: Juggernaut" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                <profile id="6269-9ff1-822a-c610" name="R4: Juggernaut" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll charge rolls for this model. </characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll charge rolls for this model. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="分" typeId="points" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9ddd-3956-f001-fbd6" name="R5: Just Making it Angry" hidden="false" collective="false" import="true" type="upgrade">
@@ -7550,16 +7627,16 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc9d-0bc2-e979-bdd7" type="max"/>
               </constraints>
               <profiles>
-                <profile id="44e4-101d-e364-2de4" name="R5: Just Making it Angry" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                <profile id="44e4-101d-e364-2de4" name="R5: Just Making it Angry" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model has a damage table, double the number of wounds it has remaining for the purposes of determining what its Strength and Attacks characteristics are.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model has a damage table, double the number of wounds it has remaining for the purposes of determining what its Strength and Attacks characteristics are.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="分" typeId="points" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="186d-bff1-e6a8-52b5" name="R5: Eager" hidden="false" collective="false" import="true" type="upgrade">
@@ -7567,16 +7644,16 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38d6-c0e5-e252-1977" type="max"/>
               </constraints>
               <profiles>
-                <profile id="8a74-576a-8469-143a" name="R5: Eager" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                <profile id="8a74-576a-8469-143a" name="R5: Eager" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of the first battle round but before the first turn begins, you can move this model up to 5&quot;. It cannot end this move within 9&quot; of any enemy models. If both players have units that can do this, the player who is taking the first turn moves their units first. </characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of the first battle round but before the first turn begins, you can move this model up to 5&quot;. It cannot end this move within 9&quot; of any enemy models. If both players have units that can do this, the player who is taking the first turn moves their units first. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="分" typeId="points" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -7623,16 +7700,16 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d1b-a39f-a53f-4e8a" type="max"/>
               </constraints>
               <profiles>
-                <profile id="6783-bbb6-e012-32ab" name="R1: Famed Commander" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                <profile id="6783-bbb6-e012-32ab" name="R1: Famed Commander" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Roll a D6 each time a model in this unit loses a wound; on a 6 the model does not lose that wound.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Roll a D6 each time a model in this unit loses a wound; on a 6 the model does not lose that wound.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="分" typeId="points" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="738a-7c13-7eba-e433" name="R1: Skilled Driver" hidden="false" collective="false" import="true" type="upgrade">
@@ -7640,16 +7717,16 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d5f6-730e-ce4e-dfa1" type="max"/>
               </constraints>
               <profiles>
-                <profile id="4af9-ed89-7d89-93c6" name="R1: Skilled Driver" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                <profile id="4af9-ed89-7d89-93c6" name="R1: Skilled Driver" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll Advance rolls for this unit. </characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll Advance rolls for this unit. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="分" typeId="points" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e4cf-08bb-b889-3409" name="R2: Experimental Ammunition" hidden="false" collective="false" import="true" type="upgrade">
@@ -7657,16 +7734,16 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="376e-2efc-c0ed-aeaa" type="max"/>
               </constraints>
               <profiles>
-                <profile id="49eb-d748-c449-7525" name="R2: Experimental Ammunition" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                <profile id="49eb-d748-c449-7525" name="R2: Experimental Ammunition" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Select one of the ranged weapons used by one or more models in this unit. Add 1 to the Damage characteristic of that weapon for attacks made by that unit.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Select one of the ranged weapons used by one or more models in this unit. Add 1 to the Damage characteristic of that weapon for attacks made by that unit.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="分" typeId="points" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="326e-cf2d-8025-5f60" name="R2: Advanced Targeting" hidden="false" collective="false" import="true" type="upgrade">
@@ -7674,16 +7751,16 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1717-3fa7-44f1-e964" type="max"/>
               </constraints>
               <profiles>
-                <profile id="6514-25a9-ae1e-781d" name="R2: Advanced Targeting" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                <profile id="6514-25a9-ae1e-781d" name="R2: Advanced Targeting" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 6&quot; to the maximum range of this unit’s Heavy and Rapid Fire weapons that have an unmodified maximum range of 24&quot; or longer. </characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 6&quot; to the maximum range of this unit’s Heavy and Rapid Fire weapons that have an unmodified maximum range of 24&quot; or longer. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="分" typeId="points" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d8b2-f9bc-cc27-0f2d" name="R3: Ablative Armor" hidden="false" collective="false" import="true" type="upgrade">
@@ -7691,16 +7768,16 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3442-3aa4-a67a-1433" type="max"/>
               </constraints>
               <profiles>
-                <profile id="ef9b-9554-c5f0-78ed" name="R3: Ablative Armor" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                <profile id="ef9b-9554-c5f0-78ed" name="R3: Ablative Armor" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Attacks against this unit that have an AP characteristic of -1 are treated as having an AP characteristic of 0 instead.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Attacks against this unit that have an AP characteristic of -1 are treated as having an AP characteristic of 0 instead.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="分" typeId="points" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="60dc-f09a-33ac-c917" name="R3: Storied Vehicle" hidden="false" collective="false" import="true" type="upgrade">
@@ -7708,16 +7785,16 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a71-0d1f-67c2-2dda" type="max"/>
               </constraints>
               <profiles>
-                <profile id="2356-d59e-e2b3-6667" name="R3: Storied Vehicle" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                <profile id="2356-d59e-e2b3-6667" name="R3: Storied Vehicle" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll one hit roll or wound roll for this unit in each of your Shooting phases. </characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll one hit roll or wound roll for this unit in each of your Shooting phases. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="分" typeId="points" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8aa6-6086-c5ff-ff8e" name="R4: Blessed Drive" hidden="false" collective="false" import="true" type="upgrade">
@@ -7725,16 +7802,16 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0754-002d-a2e0-a1e3" type="max"/>
               </constraints>
               <profiles>
-                <profile id="2faa-8fc5-6f09-b65c" name="R4: Blessed Drive" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                <profile id="2faa-8fc5-6f09-b65c" name="R4: Blessed Drive" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model has a damage table, double the number of wounds it has remaining for the purposes of determining what its Move characteristic is.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model has a damage table, double the number of wounds it has remaining for the purposes of determining what its Move characteristic is.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="分" typeId="points" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="10e0-8cf4-611b-7839" name="R4: Last Resort" hidden="false" collective="false" import="true" type="upgrade">
@@ -7742,16 +7819,16 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eacb-1f55-f030-0920" type="max"/>
               </constraints>
               <profiles>
-                <profile id="4f72-8a3c-25d7-94f9" name="R4: Last Resort" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                <profile id="4f72-8a3c-25d7-94f9" name="R4: Last Resort" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If a model in this unit is destroyed, the controlling player can choose for it to automatically explode – no dice roll is required.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If a model in this unit is destroyed, the controlling player can choose for it to automatically explode – no dice roll is required.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="分" typeId="points" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d339-d671-cc51-7c61" name="R5: Prominent Trophy" hidden="false" collective="false" import="true" type="upgrade">
@@ -7759,16 +7836,16 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="009c-b794-6192-0244" type="max"/>
               </constraints>
               <profiles>
-                <profile id="2a67-bed9-43ec-968b" name="R5: Prominent Trophy" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                <profile id="2a67-bed9-43ec-968b" name="R5: Prominent Trophy" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the Leadership characteristic of friendly units while they are within 6&quot; of this unit. Subtract 1 from the Leadership characteristic of enemy units while they are within 6&quot; of this unit. </characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the Leadership characteristic of friendly units while they are within 6&quot; of this unit. Subtract 1 from the Leadership characteristic of enemy units while they are within 6&quot; of this unit. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="分" typeId="points" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c271-fdbc-e7be-9838" name="R5: Blessed Weapons" hidden="false" collective="false" import="true" type="upgrade">
@@ -7776,16 +7853,16 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e9b-a56f-7e6f-8526" type="max"/>
               </constraints>
               <profiles>
-                <profile id="1c8f-af4c-400c-8e80" name="R5: Blessed Weapons" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                <profile id="1c8f-af4c-400c-8e80" name="R5: Blessed Weapons" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model has a damage table, double the number of wounds it has remaining for the purposes of determining what its Ballistic Skill characteristic is.</characteristic>
+                    <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model has a damage table, double the number of wounds it has remaining for the purposes of determining what its Ballistic Skill characteristic is.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="分" typeId="points" value="0.0"/>
+                <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -7862,692 +7939,692 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any bolt weapon (s
     </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="fcde-3e6a-e240-1157" name="Autogun" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="fcde-3e6a-e240-1157" name="Autogun" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire 1</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">速射 1</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="2481-001b-00f9-501b" name="Autopistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="2481-001b-00f9-501b" name="Autopistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手枪 1</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="fa99-0671-b31a-22d7" name="Autocannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="fa99-0671-b31a-22d7" name="Autocannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 2</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">7</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="9fac-07c9-3595-784e" name="Punisher Gatling Cannon" publicationId="28ec-711c-pubN72690" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="9fac-07c9-3595-784e" name="Punisher Gatling Cannon" publicationId="28ec-711c-pubN72690" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 20</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 20</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="bc34-f1ec-56fa-2829" name="Battle cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="bc34-f1ec-56fa-2829" name="Battle cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy D6</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 D6</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Blast</characteristic>
       </characteristics>
     </profile>
-    <profile id="e6d5-677a-d8ed-f6a5" name="Bolt pistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="e6d5-677a-d8ed-f6a5" name="爆弹手枪" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手枪 1</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="e2b0-b9f1-6c38-584c" name="Heavy bolter" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="e2b0-b9f1-6c38-584c" name="Heavy bolter" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 3</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 3</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="ccc3-cffe-e84e-abd0" name="Vulcan Mega-bolter" publicationId="28ec-711c-pubN72690" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="ccc3-cffe-e84e-abd0" name="Vulcan Mega-bolter" publicationId="28ec-711c-pubN72690" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">60&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 15</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">60&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 15</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466"/>
         <characteristic name="AP" typeId="75aa-a838-b675-6484"/>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7"/>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410"/>
       </characteristics>
     </profile>
-    <profile id="cdc3-3459-a28c-a9cf" name="Flamer" publicationId="28ec-711c-pubN72690" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="cdc3-3459-a28c-a9cf" name="Flamer" publicationId="28ec-711c-pubN72690" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault D6</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 D6</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time an attack is made with this weapon, that attack automatically hits the target.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Each time an attack is made with this weapon, that attack automatically hits the target.</characteristic>
       </characteristics>
     </profile>
-    <profile id="ec4c-1132-ddaf-db8e" name="Meltagun" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="ec4c-1132-ddaf-db8e" name="Meltagun" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 1</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time an attack made with this weapon targets a unit within half range, that attack has a Damage characteristic of D6+2.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Each time an attack made with this weapon targets a unit within half range, that attack has a Damage characteristic of D6+2.</characteristic>
       </characteristics>
     </profile>
-    <profile id="03e5-60f2-4726-5cdd" name="Plasma gun, Standard" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="03e5-60f2-4726-5cdd" name="Plasma gun, Standard" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire 1</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">速射 1</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">7</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="7b30-68a4-3745-c6fa" name="Grav-pistol" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="7b30-68a4-3745-c6fa" name="Grav-pistol" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手枪 1</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time an attack made with this weapon is allocated to a model with a Save characteristic of 3+ or better, that attack has a Damage characteristic of 2.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Each time an attack made with this weapon is allocated to a model with a Save characteristic of 3+ or better, that attack has a Damage characteristic of 2.</characteristic>
       </characteristics>
     </profile>
-    <profile id="c76b-4051-dbf4-d5b8" name="Grav-cannon" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="c76b-4051-dbf4-d5b8" name="Grav-cannon" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">30&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 4</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">30&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 4</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time an attack made with this weapon is allocated to a model with a Save characteristic of 3+ or better, that attack has a Damage characteristic of 2.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Each time an attack made with this weapon is allocated to a model with a Save characteristic of 3+ or better, that attack has a Damage characteristic of 2.</characteristic>
       </characteristics>
     </profile>
-    <profile id="4609-79eb-7505-68a5" name="Hot-shot Laspistol" publicationId="28ec-711c-pubN72690" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="4609-79eb-7505-68a5" name="Hot-shot Laspistol" publicationId="28ec-711c-pubN72690" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手枪 1</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="f520-ae1d-d755-7ab9" name="Hot-shot Lasgun" publicationId="28ec-711c-pubN72690" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="f520-ae1d-d755-7ab9" name="Hot-shot Lasgun" publicationId="28ec-711c-pubN72690" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire 1</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">速射 1</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="f2b7-768f-a270-de64" name="Laspistol" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="f2b7-768f-a270-de64" name="Laspistol" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手枪 1</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="d174-eb55-aaa6-d032" name="Lasgun" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="d174-eb55-aaa6-d032" name="Lasgun" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire 1</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">速射 1</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="585f-2120-0288-93b5" name="Inferno Cannon" publicationId="28ec-711c-pubN72690" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="585f-2120-0288-93b5" name="Inferno Cannon" publicationId="28ec-711c-pubN72690" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12 + Template</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Torrent</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12 + Template</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 1, Torrent</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466"/>
         <characteristic name="AP" typeId="75aa-a838-b675-6484"/>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7"/>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410"/>
       </characteristics>
     </profile>
-    <profile id="2608-8425-4f4f-7f41" name="Heavy flamer" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="2608-8425-4f4f-7f41" name="Heavy flamer" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy D6</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 D6</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time an attack is made with this weapon, that attack automatically hits the target.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Each time an attack is made with this weapon, that attack automatically hits the target.</characteristic>
       </characteristics>
     </profile>
-    <profile id="92be-1bfc-f355-f214" name="Multi-laser" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="92be-1bfc-f355-f214" name="多管激光" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 3</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 3</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="cb26-27b4-9393-a768" name="Icarus Lascannon" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="cb26-27b4-9393-a768" name="Icarus Lascannon" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">96&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">96&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 1</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">9</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Add 1 to hit rolls made for this weapon against targets that can FLY. Subtract 1 from hit rolls made for this Weapon against all other targets.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Add 1 to hit rolls made for this weapon against targets that can FLY. Subtract 1 from hit rolls made for this Weapon against all other targets.</characteristic>
       </characteristics>
     </profile>
-    <profile id="8161-3b0e-8048-0e83" name="Missile launcher, Krak missile" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="8161-3b0e-8048-0e83" name="Missile launcher, Krak missile" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 1</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="603d-3e82-38f6-c5c3" name="Missile launcher, Frag missile" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="603d-3e82-38f6-c5c3" name="Missile launcher, Frag missile" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy D6</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 D6</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Blast.</characteristic>
       </characteristics>
     </profile>
-    <profile id="1768-d7b9-37ba-f3bf" name="Multi-melta" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="1768-d7b9-37ba-f3bf" name="Multi-melta" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 2</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time an attack made with this weapon targets a unit within half range, that attack has a Damage characteristic of D6+2.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Each time an attack made with this weapon targets a unit within half range, that attack has a Damage characteristic of D6+2.</characteristic>
       </characteristics>
     </profile>
-    <profile id="fdd8-1a5f-5722-d6ee" name="Frag grenades" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="fdd8-1a5f-5722-d6ee" name="Frag grenades" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Grenade D6</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手雷 D6</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Blast.</characteristic>
       </characteristics>
     </profile>
-    <profile id="e294-a5c7-e01e-0a82" name="Close Combat Weapon" publicationId="28ec-711c-pubN72690" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="e294-a5c7-e01e-0a82" name="Close Combat Weapon" publicationId="28ec-711c-pubN72690" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">近战</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466"/>
         <characteristic name="AP" typeId="75aa-a838-b675-6484"/>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7"/>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410"/>
       </characteristics>
     </profile>
-    <profile id="8194-4688-65b3-f996" name="Chainfist" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="8194-4688-65b3-f996" name="链锯拳" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">近战</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">近战</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">x2</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time an attack is made with this weapon, subtract 1 from that attack’s hit roll, and if that attack is allocated to a VEHICLE model, that attack has a Damage characteristic of 3.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Each time an attack is made with this weapon, subtract 1 from that attack’s hit roll, and if that attack is allocated to a VEHICLE model, that attack has a Damage characteristic of 3.</characteristic>
       </characteristics>
     </profile>
-    <profile id="07cb-70d7-15c3-5117" name="Shotgun" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="07cb-70d7-15c3-5117" name="Shotgun" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 2</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If the target is within half range, add 1 to this weapon&apos;s Strength.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">If the target is within half range, add 1 to this weapon&apos;s Strength.</characteristic>
       </characteristics>
     </profile>
-    <profile id="0031-0314-5b36-a220" name="Heavy stubber" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="0031-0314-5b36-a220" name="Heavy stubber" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 3</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 3</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="3b26-3098-155f-0e58" name="Dreadnought combat weapon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="3b26-3098-155f-0e58" name="Dreadnought combat weapon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">近战</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">近战</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">x2</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="7584-238f-3174-4529" name="Lightning claw" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="7584-238f-3174-4529" name="Lightning claw" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">近战</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">近战</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time the bearer fights, it makes 1 additional attack with this weapon. Each time an attack is made with this weapon, you can re-roll the wound roll.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Each time the bearer fights, it makes 1 additional attack with this weapon. Each time an attack is made with this weapon, you can re-roll the wound roll.</characteristic>
       </characteristics>
     </profile>
-    <profile id="3520-0bb4-90f2-084b" name="Power fist" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="3520-0bb4-90f2-084b" name="Power fist" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">近战</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">近战</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">x2</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time an attack is made with this weapon, subtract 1 from that attack’s hit roll.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Each time an attack is made with this weapon, subtract 1 from that attack’s hit roll.</characteristic>
       </characteristics>
     </profile>
-    <profile id="4635-64e7-2344-ea7c" name="Power axe" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="4635-64e7-2344-ea7c" name="Power axe" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">近战</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">近战</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">+2</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="ca27-e5ee-f6eb-652d" name="Power maul" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="ca27-e5ee-f6eb-652d" name="Power maul" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">近战</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">近战</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">+3</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="47df-8e01-d0cf-58e8" name="Power sword" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="47df-8e01-d0cf-58e8" name="Power sword" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">近战</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">近战</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">+1</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="de62-5c9a-e27d-3fa3" name="Power lance" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="de62-5c9a-e27d-3fa3" name="Power lance" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">近战</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">近战</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">+2</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="87b3-3f6b-ada0-da8d" name="Thunder hammer" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="87b3-3f6b-ada0-da8d" name="雷锤" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">近战</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">近战</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">x2</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time an attack is made with this weapon, subtract 1 from that attack’s hit roll.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Each time an attack is made with this weapon, subtract 1 from that attack’s hit roll.</characteristic>
       </characteristics>
     </profile>
-    <profile id="3bf6-b4f7-6b2f-bb7b" name="Krak grenades" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="3bf6-b4f7-6b2f-bb7b" name="Krak grenades" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Grenade 1</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手雷 1</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="df40-a3f4-91be-f0fe" name="Melta bomb" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="df40-a3f4-91be-f0fe" name="Melta bomb" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">4&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Grenade 1</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">4&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手雷 1</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">You can re-roll failed wound rolls for this weapon if the target is a VEHICLE.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">You can re-roll failed wound rolls for this weapon if the target is a VEHICLE.</characteristic>
       </characteristics>
     </profile>
-    <profile id="ff12-161a-ca85-339f" name="Plasma pistol, Standard" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="ff12-161a-ca85-339f" name="Plasma pistol, Standard" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手枪 1</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">7</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="7983-8451-cdc3-ce7e" name="Plasma cannon, Standard" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="7983-8451-cdc3-ce7e" name="Plasma cannon, Standard" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy D3</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 D3</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">7</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Blast.</characteristic>
       </characteristics>
     </profile>
-    <profile id="f14a-07e5-5465-69cf" name="Lascannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="f14a-07e5-5465-69cf" name="Lascannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 1</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">9</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="fbed-42ff-591d-13f3" name="Dozer Blade" publicationId="28ec-711c-pubN72690" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="fbed-42ff-591d-13f3" name="Dozer Blade" publicationId="28ec-711c-pubN72690" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Can re-roll dangerous terrain tests. Treat the vehicles front armour as +1 higher when ramming.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Can re-roll dangerous terrain tests. Treat the vehicles front armour as +1 higher when ramming.</characteristic>
       </characteristics>
     </profile>
-    <profile id="cdda-8935-b495-3a35" name="Extra Armour" publicationId="28ec-711c-pubN72690" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="cdda-8935-b495-3a35" name="Extra Armour" publicationId="28ec-711c-pubN72690" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Vehicles treat crew stunned as crew shaken instead</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Vehicles treat crew stunned as crew shaken instead</characteristic>
       </characteristics>
     </profile>
-    <profile id="4b04-2a83-8ae7-d134" name="Searchlight" publicationId="28ec-711c-pubN72690" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="4b04-2a83-8ae7-d134" name="Searchlight" publicationId="28ec-711c-pubN72690" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Night fighting only. It can illuminate a target it has fired at. Illuminates itself in the process (illuminated units lose Night Fighting benefits)</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Night fighting only. It can illuminate a target it has fired at. Illuminates itself in the process (illuminated units lose Night Fighting benefits)</characteristic>
       </characteristics>
     </profile>
-    <profile id="c883-3078-1367-cc2c" name="Smoke Launchers" publicationId="28ec-711c-pubN72690" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="c883-3078-1367-cc2c" name="Smoke Launchers" publicationId="28ec-711c-pubN72690" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per game, instead of shooting any weapons in the Shooting phase, the vehicle can use its Smoke Launchers; until your next Shooting phase your opponent must subtract 1 from all hit rolls for ranged weapons that target this vehicle.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per game, instead of shooting any weapons in the Shooting phase, the vehicle can use its Smoke Launchers; until your next Shooting phase your opponent must subtract 1 from all hit rolls for ranged weapons that target this vehicle.</characteristic>
       </characteristics>
     </profile>
-    <profile id="20dc-1fbb-dc65-7f04" name="Assault cannon" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="20dc-1fbb-dc65-7f04" name="Assault cannon" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 6</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 6</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="3922-981d-ccb7-c169" name="Quad-gun" publicationId="28ec-711c-pubN72690" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="3922-981d-ccb7-c169" name="Quad-gun" publicationId="28ec-711c-pubN72690" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 8</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 8</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">7</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Add 1 to hit rolls made for this weapon against targets that can FLY. Subtract 1 from hit rolls made for this Weapon against all other targets.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Add 1 to hit rolls made for this weapon against targets that can FLY. Subtract 1 from hit rolls made for this Weapon against all other targets.</characteristic>
       </characteristics>
     </profile>
-    <profile id="3d4b-95ea-f860-dd22" name="Boltgun" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="3d4b-95ea-f860-dd22" name="爆弹枪" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire 1</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">速射 1</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="a3d2-b0d7-70bc-695e" name="Grav-gun" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="a3d2-b0d7-70bc-695e" name="Grav-gun" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire 1</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">速射 1</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time an attack made with this weapon is allocated to a model with a Save characteristic of 3+ or better, that attack has a Damage characteristic of 2.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Each time an attack made with this weapon is allocated to a model with a Save characteristic of 3+ or better, that attack has a Damage characteristic of 2.</characteristic>
       </characteristics>
     </profile>
-    <profile id="505e-a5aa-edab-6d5b" name="Storm bolter" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="505e-a5aa-edab-6d5b" name="风暴爆弹" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire 2</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">速射 2</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="49ae-4451-9bc0-5238" name="Flamestorm cannon" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="49ae-4451-9bc0-5238" name="Flamestorm cannon" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy D6</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 D6</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time an attack is made with this weapon, that attack automatically hits the target.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Each time an attack is made with this weapon, that attack automatically hits the target.</characteristic>
       </characteristics>
     </profile>
-    <profile id="e92d-1654-a3f9-f981" name="Space Marine Shotgun" publicationId="28ec-711c-pubN72690" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="e92d-1654-a3f9-f981" name="Space Marine Shotgun" publicationId="28ec-711c-pubN72690" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 2</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466"/>
         <characteristic name="AP" typeId="75aa-a838-b675-6484"/>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7"/>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410"/>
       </characteristics>
     </profile>
-    <profile id="45a4-5982-7f8b-fb33" name="Sniper rifle" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="45a4-5982-7f8b-fb33" name="Sniper rifle" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 1</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time you select a target for this weapon, you can ignore the Look Out, Sir rule. If you roll a wound roll of 6+ for this weapon, it inflicts a mortal wound in addition to its normal damage.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Each time you select a target for this weapon, you can ignore the Look Out, Sir rule. If you roll a wound roll of 6+ for this weapon, it inflicts a mortal wound in addition to its normal damage.</characteristic>
       </characteristics>
     </profile>
-    <profile id="4750-7eb0-ff1e-6257" name="Vulcan Mega-bolter" publicationId="28ec-711c-pubN72690" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="4750-7eb0-ff1e-6257" name="Vulcan Mega-bolter" publicationId="28ec-711c-pubN72690" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">60</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 15</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">60</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 15</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466"/>
         <characteristic name="AP" typeId="75aa-a838-b675-6484"/>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7"/>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410"/>
       </characteristics>
     </profile>
-    <profile id="0964-678c-96c7-28af" name="Dragon&apos;s Breath Flamer" publicationId="28ec-711c-pubN72690" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="0964-678c-96c7-28af" name="Dragon&apos;s Breath Flamer" publicationId="28ec-711c-pubN72690" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault D6</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 D6</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time an attack is made with this weapon, that attack automatically hits the target.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Each time an attack is made with this weapon, that attack automatically hits the target.</characteristic>
       </characteristics>
     </profile>
-    <profile id="b309-2758-151b-e2f2" name="Heat Ray (Dispersed Beam)" publicationId="28ec-711c-pubN72690" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="b309-2758-151b-e2f2" name="Heat Ray (Dispersed Beam)" publicationId="28ec-711c-pubN72690" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Template</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Template</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 1</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466"/>
         <characteristic name="AP" typeId="75aa-a838-b675-6484"/>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7"/>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410"/>
       </characteristics>
     </profile>
-    <profile id="ee62-0088-3ce1-8453" name="Flakk Missile" publicationId="28ec-711c-pubN72690" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="ee62-0088-3ce1-8453" name="Flakk Missile" publicationId="28ec-711c-pubN72690" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Skyfire</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 1, Skyfire</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466"/>
         <characteristic name="AP" typeId="75aa-a838-b675-6484"/>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7"/>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410"/>
       </characteristics>
     </profile>
-    <profile id="bb9f-390b-3b92-197c" name="Eviscerator" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="bb9f-390b-3b92-197c" name="Eviscerator" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">近战</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">近战</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">+3</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time an attack is made with this weapon, subtract 1 from that attack&apos;s hit roll.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Each time an attack is made with this weapon, subtract 1 from that attack&apos;s hit roll.</characteristic>
       </characteristics>
     </profile>
-    <profile id="e209-5038-fc25-4927" name="Heavy Chainsword" publicationId="28ec-711c-pubN72690" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="e209-5038-fc25-4927" name="Heavy Chainsword" publicationId="28ec-711c-pubN72690" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Two-handed</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">近战, Two-handed</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466"/>
         <characteristic name="AP" typeId="75aa-a838-b675-6484"/>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7"/>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410"/>
       </characteristics>
     </profile>
-    <profile id="c019-5c9a-c1f4-4b4f" name="Force axe" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="c019-5c9a-c1f4-4b4f" name="Force axe" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">近战</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">近战</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">+2</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="ed69-f85e-5982-9ab8" name="Force stave" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="ed69-f85e-5982-9ab8" name="Force stave" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">近战</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">近战</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">+3</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="29c5-cff6-7f7c-96d6" name="Force sword" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="29c5-cff6-7f7c-96d6" name="Force sword" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">近战</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">近战</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">+1</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="3a00-c9d9-111e-037f" name="Witchblade" publicationId="28ec-711c-pubN72690" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="3a00-c9d9-111e-037f" name="Witchblade" publicationId="28ec-711c-pubN72690" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Armourbane, Fleshbane</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">近战, Armourbane, Fleshbane</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466"/>
         <characteristic name="AP" typeId="75aa-a838-b675-6484"/>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7"/>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410"/>
       </characteristics>
     </profile>
-    <profile id="4b12-0de1-af1e-6ad3" name="Plasma grenade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="4b12-0de1-af1e-6ad3" name="Plasma grenade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">8&quot; / -</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1, Blast / -</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">8&quot; / -</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 1, Blast / -</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466"/>
         <characteristic name="AP" typeId="75aa-a838-b675-6484"/>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7"/>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410"/>
       </characteristics>
     </profile>
-    <profile id="4a90-2615-6958-53cd" name="Defensive Grenade" publicationId="28ec-711c-pubN72690" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="4a90-2615-6958-53cd" name="Defensive Grenade" publicationId="28ec-711c-pubN72690" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">8&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1, Blast, Blind</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">8&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 1, Blast, Blind</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466"/>
         <characteristic name="AP" typeId="75aa-a838-b675-6484"/>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7"/>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410"/>
       </characteristics>
     </profile>
-    <profile id="d4b6-7a3a-aee5-d293" name="Ammo Store" publicationId="28ec-711c-pubN77581" page="110" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="d4b6-7a3a-aee5-d293" name="Ammo Store" publicationId="28ec-711c-pubN77581" page="110" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A unit occupying this building re-rolls To Hit rolls of a 1 when firing out of the building&apos;s fire points. Note this does not apply to a model manually firing an emplaced weapon.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A unit occupying this building re-rolls To Hit rolls of a 1 when firing out of the building&apos;s fire points. Note this does not apply to a model manually firing an emplaced weapon.</characteristic>
       </characteristics>
     </profile>
-    <profile id="58a2-c92e-57cc-d44c" name="Ammunition Dump" publicationId="28ec-711c-pubN77581" page="110" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="58a2-c92e-57cc-d44c" name="Ammunition Dump" publicationId="28ec-711c-pubN77581" page="110" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A model in cover behind an ammunition dump has a 5+ cover save. Any model within 2&quot; of an ammunition dump re-rolls failed To Hit rolls of 1 in the Shooting phase.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A model in cover behind an ammunition dump has a 5+ cover save. Any model within 2&quot; of an ammunition dump re-rolls failed To Hit rolls of 1 in the Shooting phase.</characteristic>
       </characteristics>
     </profile>
-    <profile id="e144-1293-ec28-d3a9" name="Void Shield" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="e144-1293-ec28-d3a9" name="Void Shield" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each hit scored against the model will instead hit a void shield (whilst they remain). Close combat attacks come from inside the shield and therefore are not stopped. Void shields have an Armour Value of 12. A glancing or penetrating hit (or any hit from a Destroyer weapon) scored against a void shield causes it to collapse. After all the void shields have collapsed, further hits strike the model instead. At the end of each of the controlling player&apos;s turns, roll one dice for each collapsed void  shield: each roll of 5+ instantly restores one collapsed shield.  If a weapon uses a template or blast marker and it hits one or more units protected by a Void Shield Zone, ignore the number of hits it would normally cause to the units &amp; instead roll to pen the void shield once using the weapons normal rules &amp; profile for each template or blast marker that hits.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each hit scored against the model will instead hit a void shield (whilst they remain). Close combat attacks come from inside the shield and therefore are not stopped. Void shields have an Armour Value of 12. A glancing or penetrating hit (or any hit from a Destroyer weapon) scored against a void shield causes it to collapse. After all the void shields have collapsed, further hits strike the model instead. At the end of each of the controlling player&apos;s turns, roll one dice for each collapsed void  shield: each roll of 5+ instantly restores one collapsed shield.  If a weapon uses a template or blast marker and it hits one or more units protected by a Void Shield Zone, ignore the number of hits it would normally cause to the units &amp; instead roll to pen the void shield once using the weapons normal rules &amp; profile for each template or blast marker that hits.</characteristic>
       </characteristics>
     </profile>
-    <profile id="31ba-2b94-6600-22f3" name="Magos Machine Spirit" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="31ba-2b94-6600-22f3" name="Magos Machine Spirit" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This building&apos;s automated fire is resolved using BS3.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This building&apos;s automated fire is resolved using BS3.</characteristic>
       </characteristics>
     </profile>
-    <profile id="4986-b80f-dc78-d02f" name="Escape Hatch" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="4986-b80f-dc78-d02f" name="Escape Hatch" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When this building is first occupied, the owning player can place an escape hatch marker anywhere within 12&quot; of the building that is not impassable terrain or within another building. The escape hatch marker is an additional Access Point for the building, but models using it cannot use the Repel the Enemy special rule.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When this building is first occupied, the owning player can place an escape hatch marker anywhere within 12&quot; of the building that is not impassable terrain or within another building. The escape hatch marker is an additional Access Point for the building, but models using it cannot use the Repel the Enemy special rule.</characteristic>
       </characteristics>
     </profile>
-    <profile id="2a6f-53c2-d2ea-092f" name="Booby Traps" publicationId="28ec-711c-pubN77581" page="110" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="2a6f-53c2-d2ea-092f" name="Booby Traps" publicationId="28ec-711c-pubN77581" page="110" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The first unit to occupy this building (friend or foe) immediately suffers 2D6 S4 AP5 hits with the Ignores Cover special rule.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The first unit to occupy this building (friend or foe) immediately suffers 2D6 S4 AP5 hits with the Ignores Cover special rule.</characteristic>
       </characteristics>
     </profile>
-    <profile id="68d8-f686-c260-76db" name="Barricades" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="68d8-f686-c260-76db" name="Barricades" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A model in cover behind a barricade or wall has a 4+ cover save. Models that are in base contact with a barricade or wall are treated as being in base contact with any enemy models who are directly opposite them and in base contact with the other side of that barricade or wall. Units charging an enemy that is behind a barricade or wall count as charging through difficult terrain.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A model in cover behind a barricade or wall has a 4+ cover save. Models that are in base contact with a barricade or wall are treated as being in base contact with any enemy models who are directly opposite them and in base contact with the other side of that barricade or wall. Units charging an enemy that is behind a barricade or wall count as charging through difficult terrain.</characteristic>
       </characteristics>
     </profile>
-    <profile id="e158-7adf-1565-ef08" name="Tanglewire" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="e158-7adf-1565-ef08" name="Tanglewire" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Dangerous Terrain. A model in cover behind tanglewire has a 6+ cover save.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Dangerous Terrain. A model in cover behind tanglewire has a 6+ cover save.</characteristic>
       </characteristics>
     </profile>
-    <profile id="4a45-65e5-2d8c-8792" name="Tank Traps" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="4a45-65e5-2d8c-8792" name="Tank Traps" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Impassable Terrain to non-Skimmer vehicles, Dangerous Terrain to Bikes, and open ground for all other units. A model in cover behind tank traps hasa 4+ cover save.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Impassable Terrain to non-Skimmer vehicles, Dangerous Terrain to Bikes, and open ground for all other units. A model in cover behind tank traps hasa 4+ cover save.</characteristic>
       </characteristics>
     </profile>
-    <profile id="1da7-2e0b-0114-762c" name="Gun Emplacement" page="" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+    <profile id="1da7-2e0b-0114-762c" name="Gun Emplacement" page="" hidden="false" typeId="800f-21d0-4387-c943" typeName="单位">
       <characteristics>
         <characteristic name="M" typeId="0bdf-a96e-9e38-7779">-</characteristic>
         <characteristic name="WS" typeId="e7f0-1278-0250-df0c">-</characteristic>
@@ -8560,1001 +8637,1001 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any bolt weapon (s
         <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
       </characteristics>
     </profile>
-    <profile id="705c-91aa-6591-507b" name="Gun Emplacement (Details)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="705c-91aa-6591-507b" name="Gun Emplacement (Details)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A model in cover behind a gun emplacement has a 4+ cover save. One non-vehicle model in base contact with a gun emplacement can fire it instead of firing its own weapons. A model that fires a gun emplacement has the Relentless special rule for that shooting attack. A gun emplacement can be shot at and attacked in close combat. It is hit automatically in close combat.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A model in cover behind a gun emplacement has a 4+ cover save. One non-vehicle model in base contact with a gun emplacement can fire it instead of firing its own weapons. A model that fires a gun emplacement has the Relentless special rule for that shooting attack. A gun emplacement can be shot at and attacked in close combat. It is hit automatically in close combat.</characteristic>
       </characteristics>
     </profile>
-    <profile id="70aa-366f-15ac-da4d" name="Comms Relay" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="70aa-366f-15ac-da4d" name="Comms Relay" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Any player with an unengaged model within 2&quot; of a comms relay can re-roll Reserves rolls. A model in cover behind a comms relay has a 5+ cover save.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Any player with an unengaged model within 2&quot; of a comms relay can re-roll Reserves rolls. A model in cover behind a comms relay has a 5+ cover save.</characteristic>
       </characteristics>
     </profile>
-    <profile id="39bf-dff4-053a-7360" name="Macro Shell" publicationId="28ec-711c-pubN77581" page="111" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="39bf-dff4-053a-7360" name="Macro Shell" publicationId="28ec-711c-pubN77581" page="111" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Primary Weapon 2, Large Blast</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Primary Weapon 2, Large Blast</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466"/>
         <characteristic name="AP" typeId="75aa-a838-b675-6484"/>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7"/>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410"/>
       </characteristics>
     </profile>
-    <profile id="0293-567f-c305-724a" name="Quake Shell" publicationId="28ec-711c-pubN77581" page="111" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="0293-567f-c305-724a" name="Quake Shell" publicationId="28ec-711c-pubN77581" page="111" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">180</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Primary Weapon 1, Apocalyptic Mega-blast, Sonic Boom</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">180</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Primary Weapon 1, Apocalyptic Mega-blast, Sonic Boom</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466"/>
         <characteristic name="AP" typeId="75aa-a838-b675-6484"/>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7"/>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410"/>
       </characteristics>
     </profile>
-    <profile id="57e2-2b5e-5b21-32e8" name="Vortex Missile Battery" publicationId="28ec-711c-pubN77581" page="111" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="57e2-2b5e-5b21-32e8" name="Vortex Missile Battery" publicationId="28ec-711c-pubN77581" page="111" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Infinite</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Ordnance 1, Large Blast, Vortex</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Infinite</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Ordnance 1, Large Blast, Vortex</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466"/>
         <characteristic name="AP" typeId="75aa-a838-b675-6484"/>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7"/>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410"/>
       </characteristics>
     </profile>
-    <profile id="d503-4001-e4b8-c804" name="Quad Icarus Lascannon" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="d503-4001-e4b8-c804" name="Quad Icarus Lascannon" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">96&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 4</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">96&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 4</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">9</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Add 1 to hit rolls made for this weapon against targets that can FLY. Subtract 1 from hit rolls made for this Weapon against all other targets.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Add 1 to hit rolls made for this weapon against targets that can FLY. Subtract 1 from hit rolls made for this Weapon against all other targets.</characteristic>
       </characteristics>
     </profile>
-    <profile id="7571-d9f2-17b0-c3e0" name="Imperial Statuary" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="7571-d9f2-17b0-c3e0" name="Imperial Statuary" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A model from the Armies of the Imperium that is within 2&quot; of Imperial Statuary terrain has the Fearless special rule. A model in cover behind Imperial Statuary has a 3+ cover save.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A model from the Armies of the Imperium that is within 2&quot; of Imperial Statuary terrain has the Fearless special rule. A model in cover behind Imperial Statuary has a 3+ cover save.</characteristic>
       </characteristics>
     </profile>
-    <profile id="7d5c-1af6-942c-8ca2" name="Wreckage and Rubble" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="7d5c-1af6-942c-8ca2" name="Wreckage and Rubble" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Area Terrain. A model in cover behind wreckage or rubble has a 4+ cover save.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Area Terrain. A model in cover behind wreckage or rubble has a 4+ cover save.</characteristic>
       </characteristics>
     </profile>
-    <profile id="f0ec-023c-4865-fe5a" name="Psychic Hood" publicationId="28ec-711c-pubN72690" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="f0ec-023c-4865-fe5a" name="Psychic Hood" publicationId="28ec-711c-pubN72690" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time a unit (or model) is targeted by an enemy psychic power and is within 12&quot; of a friendly model with a psychic hood, the wearer of the hood can attempt to Deny the Witch in their stead, as if he were in the target unit.  If the Deny the Witch attempt is failed, the psychic power is resolved as normal, but affects only the initial target, not the wearer of the hood.  If a model with a psychic hood is embarked in a vehicle or building, he can only use the hood to nullify powers targeting the vehicle or building he is embarked within.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time a unit (or model) is targeted by an enemy psychic power and is within 12&quot; of a friendly model with a psychic hood, the wearer of the hood can attempt to Deny the Witch in their stead, as if he were in the target unit.  If the Deny the Witch attempt is failed, the psychic power is resolved as normal, but affects only the initial target, not the wearer of the hood.  If a model with a psychic hood is embarked in a vehicle or building, he can only use the hood to nullify powers targeting the vehicle or building he is embarked within.</characteristic>
       </characteristics>
     </profile>
-    <profile id="98ac-5132-9ebd-c355" name="Orbital Strike" publicationId="28ec-711c-pubN72690" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="98ac-5132-9ebd-c355" name="Orbital Strike" publicationId="28ec-711c-pubN72690" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Infinite</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Ordnance 1, Barrage, Large Blast, Orbital</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Infinite</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Ordnance 1, Barrage, Large Blast, Orbital</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466"/>
         <characteristic name="AP" typeId="75aa-a838-b675-6484"/>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7"/>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410"/>
       </characteristics>
     </profile>
-    <profile id="e2a9-e8fc-3a6b-2eec" name="Hunter-killer missile" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="e2a9-e8fc-3a6b-2eec" name="Hunter-killer missile" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 1</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">10</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">The bearer can only shoot with each hunter-killer missile it is equipped with once per battle.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">The bearer can only shoot with each hunter-killer missile it is equipped with once per battle.</characteristic>
       </characteristics>
     </profile>
-    <profile id="acb5-7b58-0d17-a33a" name="Plasma gun, Supercharge" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="acb5-7b58-0d17-a33a" name="Plasma gun, Supercharge" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire 1</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">速射 1</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If any unmodified hit rolls of 1 are made for attacks with this weapon profile, the bearer is destroyed after shooting with this weapon.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">If any unmodified hit rolls of 1 are made for attacks with this weapon profile, the bearer is destroyed after shooting with this weapon.</characteristic>
       </characteristics>
     </profile>
-    <profile id="5779-2931-fe17-2b27" name="Plasma pistol, Supercharge" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="5779-2931-fe17-2b27" name="Plasma pistol, Supercharge" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手枪 1</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If any unmodified hit rolls of 1 are made for attacks with this weapon profile, the bearer is destroyed after shooting with this weapon.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">If any unmodified hit rolls of 1 are made for attacks with this weapon profile, the bearer is destroyed after shooting with this weapon.</characteristic>
       </characteristics>
     </profile>
-    <profile id="6644-7150-c910-865d" name="Twin heavy bolter" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="6644-7150-c910-865d" name="双联重爆弹" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 6</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 6</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="fbb2-f4cb-e47d-1d10" name="Plasma cannon, Supercharge" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="fbb2-f4cb-e47d-1d10" name="Plasma cannon, Supercharge" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy D3</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 D3</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast. If any unmodified hit rolls of 1 are made for attacks with this weapon profile, the bearer is destroyed after shooting with this weapon.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Blast. If any unmodified hit rolls of 1 are made for attacks with this weapon profile, the bearer is destroyed after shooting with this weapon.</characteristic>
       </characteristics>
     </profile>
-    <profile id="9b1e-61f9-4a5b-0044" name="Chainsword" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="9b1e-61f9-4a5b-0044" name="Chainsword" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">近战</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">近战</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time the bearer fights, it can make 1 additional attack with this weapon.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Each time the bearer fights, it can make 1 additional attack with this weapon.</characteristic>
       </characteristics>
     </profile>
-    <profile id="21ef-7459-ad22-ece0" name="Assault bolter" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="21ef-7459-ad22-ece0" name="Assault bolter" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 3</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 3</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="3735-f76f-f06c-1d71" name="Astartes grenade launcher, Frag grenade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="3735-f76f-f06c-1d71" name="Astartes grenade launcher, Frag grenade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">30&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault D6</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">30&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 D6</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Blast.</characteristic>
       </characteristics>
     </profile>
-    <profile id="ac6d-bf1b-73d0-e6af" name="Astartes grenade launcher, Krak grenade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="ac6d-bf1b-73d0-e6af" name="Astartes grenade launcher, Krak grenade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">30&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">30&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 1</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="961a-afdd-b0a9-f43d" name="Astartes shotgun" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="961a-afdd-b0a9-f43d" name="Astartes shotgun" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 2</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="cddb-d686-f7b9-ec39" name="Bolt rifle" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="cddb-d686-f7b9-ec39" name="Bolt rifle" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">30&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire 1</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">30&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">速射 1</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="eb60-1a3c-5699-dadb" name="Boltstorm gauntlet (shooting)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="eb60-1a3c-5699-dadb" name="Boltstorm gauntlet (shooting)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 3</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手枪 3</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="19eb-bb51-72c6-7829" name="Centurion missile launcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="19eb-bb51-72c6-7829" name="Centurion missile launcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault D3</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 D3</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Blast.</characteristic>
       </characteristics>
     </profile>
-    <profile id="418d-8293-8de6-7cac" name="Cerberus launcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="418d-8293-8de6-7cac" name="Cerberus launcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy D6</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 D6</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Blast.</characteristic>
       </characteristics>
     </profile>
-    <profile id="0655-6c08-6402-46bf" name="Combi-bolter" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="0655-6c08-6402-46bf" name="Combi-bolter" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire 2</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">速射 2</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="60d6-1b2a-e2a8-5106" name="Conversion beamer" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="60d6-1b2a-e2a8-5106" name="Conversion beamer" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">42&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy D3</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">42&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 D3</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Attacks from a conversion beamer that target enemies at over half its range are resolved at Strength 8, AP -1 and Damage 2.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Attacks from a conversion beamer that target enemies at over half its range are resolved at Strength 8, AP -1 and Damage 2.</characteristic>
       </characteristics>
     </profile>
-    <profile id="5207-ef08-27f7-166d" name="Cyclone missile launcher, Frag missile" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="5207-ef08-27f7-166d" name="Cyclone missile launcher, Frag missile" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2D6</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 2D6</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Blast.</characteristic>
       </characteristics>
     </profile>
-    <profile id="d9ac-d70c-de0b-1897" name="Cyclone missile launcher, Krak missile" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="d9ac-d70c-de0b-1897" name="Cyclone missile launcher, Krak missile" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 2</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="b1a9-6785-fb1a-a5cb" name="Deathwind launcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="b1a9-6785-fb1a-a5cb" name="Deathwind launcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy D6</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 D6</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Blast.</characteristic>
       </characteristics>
     </profile>
-    <profile id="d2d1-43d6-8c52-7a6a" name="Demolisher cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="d2d1-43d6-8c52-7a6a" name="Demolisher cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy D6</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 D6</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">10</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Blast</characteristic>
       </characteristics>
     </profile>
-    <profile id="c86e-fd57-5a10-6b61" name="Disintegration gun" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="c86e-fd57-5a10-6b61" name="Disintegration gun" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire 1</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">速射 1</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="d015-8e37-8b3f-59b9" name="Disintegration pistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="d015-8e37-8b3f-59b9" name="Disintegration pistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">9&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">9&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手枪 1</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="9272-c0bc-9bd7-e6e0" name="Heavy plasma cannon, Standard" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="9272-c0bc-9bd7-e6e0" name="Heavy plasma cannon, Standard" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy D3</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 D3</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">7</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Blast</characteristic>
       </characteristics>
     </profile>
-    <profile id="691d-11e2-ebfb-d4ad" name="Heavy plasma cannon, Supercharge" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="691d-11e2-ebfb-d4ad" name="Heavy plasma cannon, Supercharge" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy D3</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 D3</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast. Each time an unmodified hit roll of 1 is made for an attack with this weapon profile, the bearer suffers 1 mortal wound after shooting with this weapon. </characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Blast. Each time an unmodified hit roll of 1 is made for an attack with this weapon profile, the bearer suffers 1 mortal wound after shooting with this weapon. </characteristic>
       </characteristics>
     </profile>
-    <profile id="0c32-fc5b-5235-f6ba" name="Hurricane bolter" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="0c32-fc5b-5235-f6ba" name="Hurricane bolter" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire 6</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">速射 6</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="b1d1-72ef-a807-dbbc" name="Icarus stormcannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="b1d1-72ef-a807-dbbc" name="Icarus stormcannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 3</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 3</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">7</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time an attack is made with this weapon against an AIRCRAFT unit, make 2 hit rolls instead of 1 and add 1 to both those hit rolls.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Each time an attack is made with this weapon against an AIRCRAFT unit, make 2 hit rolls instead of 1 and add 1 to both those hit rolls.</characteristic>
       </characteristics>
     </profile>
-    <profile id="10cf-9931-74ee-504e" name="Kheres pattern assault cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="10cf-9931-74ee-504e" name="Kheres pattern assault cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 6</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 6</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">7</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="e85f-43e2-24d3-f852" name="Las-talon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="e85f-43e2-24d3-f852" name="Las-talon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 2</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">9</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="1f2f-512e-9ca3-13f9" name="Master-crafted auto bolt rifle" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="1f2f-512e-9ca3-13f9" name="Master-crafted auto bolt rifle" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 3</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 3</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="d6e5-a8cf-4602-28e0" name="Master-crafted boltgun" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="d6e5-a8cf-4602-28e0" name="Master-crafted boltgun" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire 1</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">速射 1</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="f434-6eb5-9a60-79cf" name="Orbital comms array" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="f434-6eb5-9a60-79cf" name="Orbital comms array" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy D3</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 D3</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">10</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon can only be fired once per battle. This weapon can target units that are not visible to the bearer. When targeting units with 10 or more models, change this weapon&apos;s Type to Heavy D6.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">This weapon can only be fired once per battle. This weapon can target units that are not visible to the bearer. When targeting units with 10 or more models, change this weapon&apos;s Type to Heavy D6.</characteristic>
       </characteristics>
     </profile>
-    <profile id="3937-3d5e-da78-af96" name="Plasma blaster, Standard" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="3937-3d5e-da78-af96" name="Plasma blaster, Standard" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 2</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">7</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="ae8f-c03c-8929-bedc" name="Plasma blaster, Supercharge" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="ae8f-c03c-8929-bedc" name="Plasma blaster, Supercharge" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 2</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If any unmodified hit rolls of 1 are made for attacks with this weapon profile, the bearer is destroyed after shooting with this weapon.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">If any unmodified hit rolls of 1 are made for attacks with this weapon profile, the bearer is destroyed after shooting with this weapon.</characteristic>
       </characteristics>
     </profile>
-    <profile id="614c-c09f-c4b4-504f" name="Plasma cutter, Standard" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="614c-c09f-c4b4-504f" name="Plasma cutter, Standard" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 1</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">7</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="7eea-38c1-0f2c-ce0f" name="Plasma cutter, Supercharge" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="7eea-38c1-0f2c-ce0f" name="Plasma cutter, Supercharge" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 1</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If any unmodified hit rolls of 1 are made for attacks with this weapon profile, the bearer is destroyed after shooting with this weapon.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">If any unmodified hit rolls of 1 are made for attacks with this weapon profile, the bearer is destroyed after shooting with this weapon.</characteristic>
       </characteristics>
     </profile>
-    <profile id="474e-aeec-1b23-c181" name="Plasma incinerator, Standard" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="474e-aeec-1b23-c181" name="Plasma incinerator, Standard" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">30&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire 1</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">30&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">速射 1</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">7</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="bd7b-6edf-e450-9b4a" name="Plasma incinerator, Supercharge" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="bd7b-6edf-e450-9b4a" name="Plasma incinerator, Supercharge" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">30&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire 1</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">30&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">速射 1</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If any unmodified hit rolls of 1 are made for attacks with this weapon profile, the bearer is destroyed after shooting with this weapon.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">If any unmodified hit rolls of 1 are made for attacks with this weapon profile, the bearer is destroyed after shooting with this weapon.</characteristic>
       </characteristics>
     </profile>
-    <profile id="2c56-ff56-a155-032d" name="Predator autocannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="2c56-ff56-a155-032d" name="Predator autocannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2D3</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 2D3</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">7</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="9c2a-cd9e-dc44-ca31" name="Reaper autocannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="9c2a-cd9e-dc44-ca31" name="Reaper autocannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 4</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 4</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">7</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="b808-ff6d-2ba3-cd8a" name="Skyhammer missile launcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="b808-ff6d-2ba3-cd8a" name="Skyhammer missile launcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">60&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 3</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">60&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 3</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">7</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time an attack is made with this weapon against an AIRCRAFT unit, add 1 to that attack’s hit roll.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Each time an attack is made with this weapon against an AIRCRAFT unit, add 1 to that attack’s hit roll.</characteristic>
       </characteristics>
     </profile>
-    <profile id="11e1-cbd0-5c56-dce9" name="Skyspear missile launcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="11e1-cbd0-5c56-dce9" name="Skyspear missile launcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">60&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">60&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 1</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">9</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time an attack is made with this weapon against an AIRCRAFT unit, add 2 to that attack’s hit roll. Each time an attack made with this weapon is allocated to an AIRCRAFT model, that attack has a Damage characteristic of D6+6.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Each time an attack is made with this weapon against an AIRCRAFT unit, add 2 to that attack’s hit roll. Each time an attack made with this weapon is allocated to an AIRCRAFT model, that attack has a Damage characteristic of D6+6.</characteristic>
       </characteristics>
     </profile>
-    <profile id="a57c-ff3f-49d4-f3b8" name="Special issue boltgun" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="a57c-ff3f-49d4-f3b8" name="Special issue boltgun" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">30&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire 1</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">30&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">速射 1</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="f465-e051-3946-f328" name="Stormstrike missile launcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="f465-e051-3946-f328" name="Stormstrike missile launcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 1</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="e768-5449-ec9e-e9a5" name="Thunderfire cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="e768-5449-ec9e-e9a5" name="雷火炮" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">60&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 4D3</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">60&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 4D3</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast. This weapon can target units that are not visible to the bearer.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Blast. This weapon can target units that are not visible to the bearer.</characteristic>
       </characteristics>
     </profile>
-    <profile id="acb8-7501-1f1b-b483" name="Twin assault cannon" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="acb8-7501-1f1b-b483" name="Twin assault cannon" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 12</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 12</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="3a89-dec9-f41d-7719" name="Twin autocannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="3a89-dec9-f41d-7719" name="双联自动炮" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 4</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 4</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">7</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="6471-9a1a-0f1d-acb1" name="Twin boltgun" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="6471-9a1a-0f1d-acb1" name="双联爆弹枪" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire 2</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">速射 2</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="1a79-9730-f078-07b6" name="Twin heavy flamer" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="1a79-9730-f078-07b6" name="双联重喷火" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2D6</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 2D6</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time an attack is made with this weapon, that attack automatically hits the target.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Each time an attack is made with this weapon, that attack automatically hits the target.</characteristic>
       </characteristics>
     </profile>
-    <profile id="3f51-8cbe-78c2-0b36" name="Twin heavy plasma cannon, Standard" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="3f51-8cbe-78c2-0b36" name="Twin heavy plasma cannon, Standard" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2D3</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 2D3</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">7</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Blast.</characteristic>
       </characteristics>
     </profile>
-    <profile id="f2db-d913-989b-2841" name="Twin heavy plasma cannon, Supercharge" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="f2db-d913-989b-2841" name="Twin heavy plasma cannon, Supercharge" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2D3</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 2D3</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast. Each time an unmodified hit roll of 1 is made for an attack with this weapon profile, the bearer suffers 1 mortal wound after shooting with this weapon.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Blast. Each time an unmodified hit roll of 1 is made for an attack with this weapon profile, the bearer suffers 1 mortal wound after shooting with this weapon.</characteristic>
       </characteristics>
     </profile>
-    <profile id="1662-54b9-46da-fefc" name="Twin lascannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="1662-54b9-46da-fefc" name="Twin lascannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 2</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">9</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="c3c9-08d7-bfae-4ff7" name="Twin multi-melta" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="c3c9-08d7-bfae-4ff7" name="双联多管热熔" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 4</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 4</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time an attack made with this weapon targets a unit within half range, that attack has a Damage characteristic of D6+2.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Each time an attack made with this weapon targets a unit within half range, that attack has a Damage characteristic of D6+2.</characteristic>
       </characteristics>
     </profile>
-    <profile id="f7ba-88b9-c604-cd89" name="Twin plasma gun, Standard" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="f7ba-88b9-c604-cd89" name="Twin plasma gun, Standard" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire 2</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">速射 2</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">7</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="840a-7f35-72ad-baef" name="Twin plasma gun, Supercharge" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="840a-7f35-72ad-baef" name="Twin plasma gun, Supercharge" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire 2</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">速射 2</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">On a hit roll of 1, the bearer is slain after all of this weapon&apos;s shots have been resolved.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">On a hit roll of 1, the bearer is slain after all of this weapon&apos;s shots have been resolved.</characteristic>
       </characteristics>
     </profile>
-    <profile id="b1e6-7453-eb78-87c1" name="Typhoon missile launcher, Frag missile" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="b1e6-7453-eb78-87c1" name="Typhoon missile launcher, Frag missile" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2D6</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 2D6</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Blast.</characteristic>
       </characteristics>
     </profile>
-    <profile id="aea5-27f0-dcde-06c1" name="Typhoon missile launcher, Krak missile" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="aea5-27f0-dcde-06c1" name="Typhoon missile launcher, Krak missile" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 2</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="c943-413e-8c92-ae9b" name="Volkite charger" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="c943-413e-8c92-ae9b" name="Volkite charger" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">15&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">15&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 2</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="b4c9-cb72-ef2f-76cb" name="Whirlwind castellan launcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="b4c9-cb72-ef2f-76cb" name="Whirlwind castellan launcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2D6</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 2D6</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast. This weapon can target units that are not visible to the bearer.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Blast. This weapon can target units that are not visible to the bearer.</characteristic>
       </characteristics>
     </profile>
-    <profile id="f4df-b39c-08a7-5255" name="Whirlwind vengeance launcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="f4df-b39c-08a7-5255" name="Whirlwind vengeance launcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2D3</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 2D3</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">7</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast. This weapon can target units that are not visible to the bearer.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Blast. This weapon can target units that are not visible to the bearer.</characteristic>
       </characteristics>
     </profile>
-    <profile id="802b-8d1b-8b9f-41e2" name="Wrist-mounted grenade launcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="802b-8d1b-8b9f-41e2" name="Wrist-mounted grenade launcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault D3</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 D3</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Blast.</characteristic>
       </characteristics>
     </profile>
-    <profile id="a795-7f46-c006-36f9" name="Boltstorm gauntlet (melee)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="a795-7f46-c006-36f9" name="Boltstorm gauntlet (melee)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">近战</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">近战</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">x2</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time an attack is made with this weapon, subtract 1 from that attack&apos;s hit roll.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Each time an attack is made with this weapon, subtract 1 from that attack&apos;s hit roll.</characteristic>
       </characteristics>
     </profile>
-    <profile id="cd4f-c27a-233f-0f55" name="Champion&apos;s blade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="cd4f-c27a-233f-0f55" name="Champion&apos;s blade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">近战</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">近战</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time the bearer fights, it can make 1 additional attack with this weapon.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Each time the bearer fights, it can make 1 additional attack with this weapon.</characteristic>
       </characteristics>
     </profile>
-    <profile id="397f-3a5d-7443-5144" name="Combat knife" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="397f-3a5d-7443-5144" name="Combat knife" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">近战</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">近战</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time the bearer fights, it can make 1 additional attack with this weapon.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Each time the bearer fights, it can make 1 additional attack with this weapon.</characteristic>
       </characteristics>
     </profile>
-    <profile id="e854-e9be-4a79-d56d" name="Crozius arcanum" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="e854-e9be-4a79-d56d" name="Crozius arcanum" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">近战</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">近战</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">+2</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="fd05-77af-571c-7f41" name="Dreadnought chainfist" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="fd05-77af-571c-7f41" name="Dreadnought chainfist" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">近战</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">近战</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">x2</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2D3</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time an attack made with this weapon is allocated to a VEHICLE model, that attack has a Damage characteristic of 6.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Each time an attack made with this weapon is allocated to a VEHICLE model, that attack has a Damage characteristic of 6.</characteristic>
       </characteristics>
     </profile>
-    <profile id="4242-3014-c49c-9fe6" name="Master-crafted power sword" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="4242-3014-c49c-9fe6" name="Master-crafted power sword" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">近战</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">近战</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">+1</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="ea0a-a19e-1e9a-b830" name="Relic blade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="ea0a-a19e-1e9a-b830" name="Relic blade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">近战</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">近战</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">+3</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="67f2-aac1-ece9-6115" name="Seismic hammer" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="67f2-aac1-ece9-6115" name="Seismic hammer" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">近战</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">近战</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">x2</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">5</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time an attack is made with this weapon, subtract 1 from that attack&apos;s hit roll.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Each time an attack is made with this weapon, subtract 1 from that attack&apos;s hit roll.</characteristic>
       </characteristics>
     </profile>
-    <profile id="9112-c49a-ee46-0f81" name="Servo-arm" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="9112-c49a-ee46-0f81" name="伺服臂" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">近战</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">近战</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">x2</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time the bearer fights, no more than one attack can be made with each servo-arm.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Each time the bearer fights, no more than one attack can be made with each servo-arm.</characteristic>
       </characteristics>
     </profile>
-    <profile id="1f08-202d-3093-d4a2" name="Siege drills" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="1f08-202d-3093-d4a2" name="Siege drills" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">近战</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">近战</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">x2</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="b754-9672-4689-cefb" name="Camo cloaks" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="b754-9672-4689-cefb" name="Camo cloaks" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time a ranged attack is allocated to a model in this unit with a camo cloak while it is receiving the benefits of cover, add an additional 1 to any armour saving throw made against that attack.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time a ranged attack is allocated to a model in this unit with a camo cloak while it is receiving the benefits of cover, add an additional 1 to any armour saving throw made against that attack.</characteristic>
       </characteristics>
     </profile>
-    <profile id="d0a0-002c-8278-a70e" name="Combat shield" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="d0a0-002c-8278-a70e" name="Combat shield" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A model with a combat shield has a 5+ invulnerable save.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A model with a combat shield has a 5+ invulnerable save.</characteristic>
       </characteristics>
     </profile>
-    <profile id="541d-ade9-7496-9c62" name="Storm shield" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="541d-ade9-7496-9c62" name="Storm shield" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The bearer has a 4+ invulnerable save. In addition, add 1 to armour saving throws made for the bearer.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The bearer has a 4+ invulnerable save. In addition, add 1 to armour saving throws made for the bearer.</characteristic>
       </characteristics>
     </profile>
-    <profile id="042e-bff6-0d45-8423" name="Grenade harness" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="042e-bff6-0d45-8423" name="Grenade harness" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault D6</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">突击 D6</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Blast.</characteristic>
       </characteristics>
     </profile>
-    <profile id="2ea1-2be3-90c0-8d4c" name="Twin Icarus Lascannon" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="2ea1-2be3-90c0-8d4c" name="Twin Icarus Lascannon" page="" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">96&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">96&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 2</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">9</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When resolving an attack made with this weapon, add 1 to the hit roll if the target can FLY; otherwise subtract 1 from the hit roll.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">When resolving an attack made with this weapon, add 1 to the hit roll if the target can FLY; otherwise subtract 1 from the hit roll.</characteristic>
       </characteristics>
     </profile>
-    <profile id="5821-6c45-8572-7e0e" name="Smite" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+    <profile id="5821-6c45-8572-7e0e" name="Smite" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
       <characteristics>
-        <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">5</characteristic>
-        <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18&quot;</characteristic>
-        <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Smite has a warp charge value of 5. If manifested, the closest visible enemy unit within 18&quot; of the psyker suffers D3 mortal wounds (pg 181). If the result of the Psychic test was more than 10 the target suffers D6 mortal wounds instead.</characteristic>
+        <characteristic name="亚空间充能" typeId="5ffd-b800-c317-532a">5</characteristic>
+        <characteristic name="距离" typeId="fd64-cbc4-94de-24cc">18&quot;</characteristic>
+        <characteristic name="细节" typeId="ad96-dfa4-b4ed-656d">Smite has a warp charge value of 5. If manifested, the closest visible enemy unit within 18&quot; of the psyker suffers D3 mortal wounds (pg 181). If the result of the Psychic test was more than 10 the target suffers D6 mortal wounds instead.</characteristic>
       </characteristics>
     </profile>
-    <profile id="1797-9367-d9a5-1014" name="Condemnor Boltgun" publicationId="28ec-711c-pubN77581" page="157" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="1797-9367-d9a5-1014" name="Condemnor Boltgun" publicationId="28ec-711c-pubN77581" page="157" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire 1</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">速射 1</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When attacking a PSYKER, this weapon has a Damage of D3</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">When attacking a PSYKER, this weapon has a Damage of D3</characteristic>
       </characteristics>
     </profile>
-    <profile id="6420-416a-af53-4b63" name="Inferno pistol" publicationId="28ec-711c-pubN77581" page="157" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="6420-416a-af53-4b63" name="Inferno pistol" publicationId="28ec-711c-pubN77581" page="157" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手枪 1</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time an attack made with this weapon targets a unit within half range, that attack has a Damage characteristic of D6+2.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Each time an attack made with this weapon targets a unit within half range, that attack has a Damage characteristic of D6+2.</characteristic>
       </characteristics>
     </profile>
-    <profile id="74b1-313a-9041-dfd5" name="Hot-Shot Lasgun" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="74b1-313a-9041-dfd5" name="Hot-Shot Lasgun" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire 1</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">速射 1</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410"/>
       </characteristics>
     </profile>
-    <profile id="badf-b321-5a04-54d8" name="Needle Pistol" publicationId="28ec-711c-pubN118139" page="143" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="badf-b321-5a04-54d8" name="Needle Pistol" publicationId="28ec-711c-pubN118139" page="143" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手枪 1</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">1</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon always wounds targets (other than VEHICLES) on a roll of 2+.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">This weapon always wounds targets (other than VEHICLES) on a roll of 2+.</characteristic>
       </characteristics>
     </profile>
-    <profile id="e353-0508-4f8f-d305" name="Nemesis Daemon Hammer" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="e353-0508-4f8f-d305" name="Nemesis Daemon Hammer" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">近战</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">近战</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">x2</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When a model attacks with this weapon, you must subtract 1 from the hit roll.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">When a model attacks with this weapon, you must subtract 1 from the hit roll.</characteristic>
       </characteristics>
     </profile>
-    <profile id="9873-9487-e878-7e93" name="Psyk-out grenades" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="9873-9487-e878-7e93" name="Psyk-out grenades" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Grenade D3</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">手雷 D3</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">2</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time you roll a hit roll of 6+ for this weapon when targeting a PSYKER or DAEMON, the target suffers a mortal wound instead of the normal damage. Blast.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Each time you roll a hit roll of 6+ for this weapon when targeting a PSYKER or DAEMON, the target suffers a mortal wound instead of the normal damage. Blast.</characteristic>
       </characteristics>
     </profile>
-    <profile id="d8c3-5b45-35a3-273d" name="Psycannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="d8c3-5b45-35a3-273d" name="Psycannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 4</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 4</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">7</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410"/>
       </characteristics>
     </profile>
-    <profile id="c408-8555-a6df-257f" name="Immobile" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="c408-8555-a6df-257f" name="Immobile" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">After this model has been set up on the battlefield it cannot move for any reason, and no units can embark upon it.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">After this model has been set up on the battlefield it cannot move for any reason, and no units can embark upon it.</characteristic>
       </characteristics>
     </profile>
-    <profile id="a179-f592-3224-72c9" name="Automated Weapons" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="a179-f592-3224-72c9" name="Automated Weapons" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Unless a friendly unit is embarked aboard this model, it can only target the closest visible enemy unit when it makes attacks. If two or more units are equally close, you can choose which is targeted.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Unless a friendly unit is embarked aboard this model, it can only target the closest visible enemy unit when it makes attacks. If two or more units are equally close, you can choose which is targeted.</characteristic>
       </characteristics>
     </profile>
-    <profile id="429b-91d2-8356-7150" name="Magazine Explosion" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="429b-91d2-8356-7150" name="Magazine Explosion" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model is reduced to 0 wounds, roll a D6 before removing it from the battlefield and before any embarked models disembark. On a 6 its magazine explodes, and each unit within 2D6&quot; suffers D3 mortal wounds.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model is reduced to 0 wounds, roll a D6 before removing it from the battlefield and before any embarked models disembark. On a 6 its magazine explodes, and each unit within 2D6&quot; suffers D3 mortal wounds.</characteristic>
       </characteristics>
     </profile>
-    <profile id="e433-6678-6be1-355c" name="Fire Points (5)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="e433-6678-6be1-355c" name="Fire Points (5)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Up to 5 models embarked aboard this model can shoot in your Shooting phase, measuring and drawing line of sight from any point on this model. When they do so, any restrictions and modifiers that apply to this model also apply to its embarked models.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Up to 5 models embarked aboard this model can shoot in your Shooting phase, measuring and drawing line of sight from any point on this model. When they do so, any restrictions and modifiers that apply to this model also apply to its embarked models.</characteristic>
       </characteristics>
     </profile>
-    <profile id="220a-170b-5fd7-36f2" name="Fire Points (10)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="220a-170b-5fd7-36f2" name="Fire Points (10)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Up to 10 models embarked aboard this model can shoot in your Shooting phase, measuring and drawing line of sight from any point on this model. When they do so, any restrictions and modifiers that apply to this model also apply to its embarked models.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Up to 10 models embarked aboard this model can shoot in your Shooting phase, measuring and drawing line of sight from any point on this model. When they do so, any restrictions and modifiers that apply to this model also apply to its embarked models.</characteristic>
       </characteristics>
     </profile>
-    <profile id="298d-b8cf-d3ed-04d8" name="Fire Points (15)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="298d-b8cf-d3ed-04d8" name="Fire Points (15)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Up to 15 models embarked aboard this model can shoot in your Shooting phase, measuring and drawing line of sight from any point on this model. When they do so, any restrictions and modifiers that apply to this model also apply to its embarked models.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Up to 15 models embarked aboard this model can shoot in your Shooting phase, measuring and drawing line of sight from any point on this model. When they do so, any restrictions and modifiers that apply to this model also apply to its embarked models.</characteristic>
       </characteristics>
     </profile>
-    <profile id="57f6-edd9-6170-5c91" name="Automated Weapons (Gun Emplacement)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="57f6-edd9-6170-5c91" name="Automated Weapons (Gun Emplacement)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Unless a friendly INFANTRY model is within 1&quot; of this model, this model can only target the closest visible enemy unit when it makes attacks. If two or more units are equally close, you can choose which is targeted.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Unless a friendly INFANTRY model is within 1&quot; of this model, this model can only target the closest visible enemy unit when it makes attacks. If two or more units are equally close, you can choose which is targeted.</characteristic>
       </characteristics>
     </profile>
-    <profile id="c60f-7b10-88fd-9eba" name="Static Defence Network (Aegis)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="c60f-7b10-88fd-9eba" name="Static Defence Network (Aegis)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each Small Shield Section and Large Shield Section in this unit must be set up so that it is in end-to-end contact with at least one other Small Shield Section or Large Shield Section in this unit, and this unit&apos;s Gun Emplacement must be set up within 6&quot; of any Small Shield Section or Large Shield Section in this unit. After it is set up, this unit&apos;s Small Shield Sections and Large Shield Sections are treated as a single terrain feature that follows the rules for Barricades (pg 106).</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each Small Shield Section and Large Shield Section in this unit must be set up so that it is in end-to-end contact with at least one other Small Shield Section or Large Shield Section in this unit, and this unit&apos;s Gun Emplacement must be set up within 6&quot; of any Small Shield Section or Large Shield Section in this unit. After it is set up, this unit&apos;s Small Shield Sections and Large Shield Sections are treated as a single terrain feature that follows the rules for Barricades (pg 106).</characteristic>
       </characteristics>
     </profile>
-    <profile id="9446-1148-da70-4028" name="Explodes (D6&quot;)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="9446-1148-da70-4028" name="Explodes (D6&quot;)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When this model is destroyed, roll one D6 before any embarked models disembark and before removing it from play. On a 6 it explodes, and each unit within D6&quot; suffers D3 mortal wounds.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When this model is destroyed, roll one D6 before any embarked models disembark and before removing it from play. On a 6 it explodes, and each unit within D6&quot; suffers D3 mortal wounds.</characteristic>
       </characteristics>
     </profile>
-    <profile id="62af-9a2b-23f4-850b" name="Master-crafted stalker bolt rifle" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="62af-9a2b-23f4-850b" name="Master-crafted stalker bolt rifle" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 1</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="589d-78cf-845c-2b65" name="Legendary Fighter" publicationId="28ec-711c-pubN72690" page="186" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="589d-78cf-845c-2b65" name="Legendary Fighter" publicationId="28ec-711c-pubN72690" page="186" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this Warlord charges in the Charge phase, add 1 to their Attacks characteristic until the end of the ensuing Fight phase.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this Warlord charges in the Charge phase, add 1 to their Attacks characteristic until the end of the ensuing Fight phase.</characteristic>
       </characteristics>
     </profile>
-    <profile id="7a19-046d-bf4e-bae3" name="Tenacious Survivor" publicationId="28ec-711c-pubN72690" page="186" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="7a19-046d-bf4e-bae3" name="Tenacious Survivor" publicationId="28ec-711c-pubN72690" page="186" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Roll a dice each time this Warlord loses a wound. On a 6, the Warlord shrugs off the damage and does not lose the wound.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Roll a dice each time this Warlord loses a wound. On a 6, the Warlord shrugs off the damage and does not lose the wound.</characteristic>
       </characteristics>
     </profile>
-    <profile id="8830-2c9e-ad7e-e57d" name="Immobile (Fortification)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="8830-2c9e-ad7e-e57d" name="Immobile (Fortification)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model cannot move for any reason, nor can it fight in the Fight phase. When resolving an attack made against this model in the Fight phase, do not make a hit roll: it automatically scores a hit. This model can shoot in your Shooting phase even if there are enemy models within 1&quot; of it, and friendly units can still target enemy units that are within 1&quot; of this model.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model cannot move for any reason, nor can it fight in the Fight phase. When resolving an attack made against this model in the Fight phase, do not make a hit roll: it automatically scores a hit. This model can shoot in your Shooting phase even if there are enemy models within 1&quot; of it, and friendly units can still target enemy units that are within 1&quot; of this model.</characteristic>
       </characteristics>
     </profile>
-    <profile id="76e8-a8df-d243-1673" name="Frag Assault Launchers" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="76e8-a8df-d243-1673" name="Frag Assault Launchers" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Roll a D6 each time this model finishes a charge move within 1&quot; of an enemy unit; on a 4+ that unit suffers D3 mortal wounds.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Roll a D6 each time this model finishes a charge move within 1&quot; of an enemy unit; on a 4+ that unit suffers D3 mortal wounds.</characteristic>
       </characteristics>
     </profile>
-    <profile id="7b08-1e6d-69a9-932d" name="Havoc launcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile id="7b08-1e6d-69a9-932d" name="Havoc launcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="武器">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy D6</characteristic>
+        <characteristic name="距离" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48&quot;</characteristic>
+        <characteristic name="类型" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">重型 D6</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast.</characteristic>
+        <characteristic name="能力" typeId="837d-5e63-aeb7-1410">Blast.</characteristic>
       </characteristics>
     </profile>
-    <profile id="46f3-7be5-6ec3-4fde" name="Rapid Tunnelling" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="46f3-7be5-6ec3-4fde" name="Rapid Tunnelling" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of your movement phase, you can remove this model from the battlefield. At the end of your next Movement phase, set it up again, anywhere on the battlefield that is more than 9&quot; away from any enemy models.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of your movement phase, you can remove this model from the battlefield. At the end of your next Movement phase, set it up again, anywhere on the battlefield that is more than 9&quot; away from any enemy models.</characteristic>
       </characteristics>
     </profile>
-    <profile id="8e81-7c95-43ba-6e0d" name="Explodes (2D6&quot;)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="8e81-7c95-43ba-6e0d" name="Explodes (2D6&quot;)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When this model is destroyed, roll one D6 before any embarked models disembark and before removing it from play. On a 6 it explodes, and each unit within 2D6&quot; suffers D3 mortal wounds.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When this model is destroyed, roll one D6 before any embarked models disembark and before removing it from play. On a 6 it explodes, and each unit within 2D6&quot; suffers D3 mortal wounds.</characteristic>
       </characteristics>
     </profile>
-    <profile id="07c8-4bf0-0b10-9830" name="Static Defence Network (Imperial)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="07c8-4bf0-0b10-9830" name="Static Defence Network (Imperial)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Every model in this unit must be set up so that it is in end-to-end contact with at least one other friendly WALL OF MARTYRS model. After it is set up, models in this unit are treated as terrain features that follow the rules for Barricades (pg 106).</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Every model in this unit must be set up so that it is in end-to-end contact with at least one other friendly WALL OF MARTYRS model. After it is set up, models in this unit are treated as terrain features that follow the rules for Barricades (pg 106).</characteristic>
       </characteristics>
     </profile>
-    <profile id="4ab1-b4c4-a404-8c2f" name="Explodes (2D6&quot; / D6)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="4ab1-b4c4-a404-8c2f" name="Explodes (2D6&quot; / D6)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When this model is destroyed, roll one D6 before any embarked models disembark and before removing it from play. On a 6 it explodes, and each unit within 2D6&quot; suffers D6 mortal wounds.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When this model is destroyed, roll one D6 before any embarked models disembark and before removing it from play. On a 6 it explodes, and each unit within 2D6&quot; suffers D6 mortal wounds.</characteristic>
       </characteristics>
     </profile>
-    <profile id="0f50-2ea2-b251-a213" name="Automated Weapons (Icarus)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="0f50-2ea2-b251-a213" name="Automated Weapons (Icarus)" page="" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="能力">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Unless a friendly unit is embarked aboard this model, this model&apos;s weapons can only target the closest visible enemy unit. Attacks made with the Icarus Lascannon can instead target the closest visible enemy unit that can FLY. In either case, if two or more units are equally close, you may choose which is targeted.</characteristic>
+        <characteristic name="描述" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Unless a friendly unit is embarked aboard this model, this model&apos;s weapons can only target the closest visible enemy unit. Attacks made with the Icarus Lascannon can instead target the closest visible enemy unit that can FLY. In either case, if two or more units are equally close, you may choose which is targeted.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
