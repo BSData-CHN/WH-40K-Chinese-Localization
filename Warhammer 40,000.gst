@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gameSystem id="28ec-711c-d87f-3aeb" name="战锤40K 9版" revision="1" battleScribeVersion="2.03" authorName="BSData-CHN" authorContact="@BSData-CHN" authorUrl="https://github.com/BSData-CHN" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
-  <readme>基于 https://github.com/BSData/wh40k 与老师版翻译的的中文化</readme>
+  <readme>基于 https://github.com/BSData/wh40k 与老师版翻译文本的中文化</readme>
   <publications>
     <publication id="28ec-711c-pubN72690" name="Warhammer 40,000 Core Book" shortName="BRB" publisher="Games Workshop" publicationDate="2020-07-25" publisherUrl="https://www.games-workshop.com/Warhammer-40000-9th-Rulebook-EN-2020"/>
     <publication id="28ec-711c-pubN73170" name="Chapter Approved 2017" shortName="CA2017" publicationDate="2017-12"/>
