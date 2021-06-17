@@ -141,38 +141,80 @@
     <categoryEntry id="d713cda3-5d0f-40d8-b621-69233263ec2a" name="工事槽位" hidden="false">
       <comment>Fortification</comment>
     </categoryEntry>
-    <categoryEntry id="2aa2-d9e3-bef6-09be" name="Other" hidden="false"/>
-    <categoryEntry id="3d52-fccf-10c0-3fae" name="Infantry" hidden="false"/>
-    <categoryEntry id="c8fd-783f-3230-493e" name="Vehicle" hidden="false"/>
-    <categoryEntry id="e691-aad7-d21c-1023" name="Psyker" hidden="false"/>
-    <categoryEntry id="6cc4-1b62-8e8a-05cd" name="Transport" hidden="false"/>
+    <categoryEntry id="2aa2-d9e3-bef6-09be" name="其他" hidden="false">
+      <comment>Other</comment>
+    </categoryEntry>
+    <categoryEntry id="3d52-fccf-10c0-3fae" name="步兵" hidden="false">
+      <comment>Infantry</comment>
+    </categoryEntry>
+    <categoryEntry id="c8fd-783f-3230-493e" name="载具" hidden="false">
+      <comment>Vehicle</comment>
+    </categoryEntry>
+    <categoryEntry id="e691-aad7-d21c-1023" name="灵能者" hidden="false">
+      <comment>Psyker</comment>
+    </categoryEntry>
+    <categoryEntry id="6cc4-1b62-8e8a-05cd" name="运输载具" hidden="false">
+      <comment>Transport</comment>
+    </categoryEntry>
     <categoryEntry id="e888-1504-aa61-95ff" name="飞行器槽位" hidden="false">
       <comment>Flyer</comment>
     </categoryEntry>
     <categoryEntry id="1b66-3f5f-6705-079a" name="专属运输载具槽位" hidden="false">
       <comment>Dedicated Transport</comment>
     </categoryEntry>
-    <categoryEntry id="ef18-746a-369f-43a4" name="Character" hidden="false"/>
-    <categoryEntry id="3117-16d8-fcef-4f56" name="Fly" hidden="false"/>
+    <categoryEntry id="ef18-746a-369f-43a4" name="人物" hidden="false">
+      <comment>Character</comment>
+    </categoryEntry>
+    <categoryEntry id="3117-16d8-fcef-4f56" name="飞行" hidden="false">
+      <comment>Fly</comment>
+    </categoryEntry>
     <categoryEntry id="3b77-decb-d468-6bcc" name="Monster" hidden="false"/>
-    <categoryEntry id="ad01-caec-17d9-cb8d" name="Cavalry" hidden="false"/>
-    <categoryEntry id="f627-f23e-a3b4-dc2c" name="Jump Pack" hidden="false"/>
-    <categoryEntry id="1c6f-0311-3eba-3180" name="Biker" hidden="false"/>
-    <categoryEntry id="7892-58f7-e769-4d87" name="Beast" hidden="false"/>
-    <categoryEntry id="a089-247f-b684-db1c" name="Chariot" hidden="false"/>
+    <categoryEntry id="ad01-caec-17d9-cb8d" name="骑兵" hidden="false">
+      <comment>Cavalry</comment>
+    </categoryEntry>
+    <categoryEntry id="f627-f23e-a3b4-dc2c" name="跳跃背包" hidden="false">
+      <comment>Jump Pack</comment>
+    </categoryEntry>
+    <categoryEntry id="1c6f-0311-3eba-3180" name="摩托" hidden="false">
+      <comment>Biker</comment>
+    </categoryEntry>
+    <categoryEntry id="7892-58f7-e769-4d87" name="野兽" hidden="false">
+      <comment>Beast</comment>
+    </categoryEntry>
+    <categoryEntry id="a089-247f-b684-db1c" name="战车" hidden="false">
+      <comment>Chariot</comment>
+    </categoryEntry>
     <categoryEntry id="7a53-eedc-8dbb-8505" name="Swarm" hidden="false"/>
-    <categoryEntry id="ae37-74e2-8391-d0f8" name="Artillery" hidden="false"/>
-    <categoryEntry id="bdda-36f0-4f32-1639" name="Titanic" hidden="false"/>
+    <categoryEntry id="ae37-74e2-8391-d0f8" name="炮兵" hidden="false">
+      <comment>Artillery</comment>
+    </categoryEntry>
+    <categoryEntry id="bdda-36f0-4f32-1639" name="泰坦" hidden="false">
+      <comment>Titanic</comment>
+    </categoryEntry>
     <categoryEntry id="ad76-d653-9f96-093a" name="Ironclad Dreadnought" hidden="false"/>
-    <categoryEntry id="53cd-314c-599b-8616" name="Building" hidden="false"/>
+    <categoryEntry id="53cd-314c-599b-8616" name="建筑" hidden="false">
+      <comment>Building</comment>
+    </categoryEntry>
     <categoryEntry id="9df5-bb14-9326-4108" name="Faction: Unaligned" hidden="false"/>
     <categoryEntry id="8172-12c9-8092-0756" name="Wall of Martyrs" hidden="false"/>
-    <categoryEntry id="84e2-9fa9-ebe6-1d18" name="Faction: Imperium" hidden="false"/>
-    <categoryEntry id="c7b7-edbc-bc14-6238" name="Faction: Adeptus Astartes" hidden="false"/>
-    <categoryEntry id="3263-4233-4344-6228" name="Faction: Astra Militarum" hidden="false"/>
-    <categoryEntry id="298f-d173-2159-919f" name="Primarch" hidden="false"/>
-    <categoryEntry id="e12c-dd25-cbab-a30d" name="Faction: Fallen" hidden="false"/>
-    <categoryEntry id="5cf1-acf2-ca3b-c2e5" name="Faction: Chaos" hidden="false"/>
+    <categoryEntry id="84e2-9fa9-ebe6-1d18" name="阵营: 帝国" hidden="false">
+      <comment>Faction: Imperium</comment>
+    </categoryEntry>
+    <categoryEntry id="c7b7-edbc-bc14-6238" name="阵营: 阿斯塔特修会" hidden="false">
+      <comment>Faction: Adeptus Astartes</comment>
+    </categoryEntry>
+    <categoryEntry id="3263-4233-4344-6228" name="阵营: 星界军" hidden="false">
+      <comment>Faction: Astra Militarum</comment>
+    </categoryEntry>
+    <categoryEntry id="298f-d173-2159-919f" name="原体" hidden="false">
+      <comment>Primarch</comment>
+    </categoryEntry>
+    <categoryEntry id="e12c-dd25-cbab-a30d" name="阵营: 堕天使" hidden="false">
+      <comment>Faction: Fallen</comment>
+    </categoryEntry>
+    <categoryEntry id="5cf1-acf2-ca3b-c2e5" name="阵营: 混沌" hidden="false">
+      <comment>Faction: Chaos</comment>
+    </categoryEntry>
     <categoryEntry id="ae09-117e-a6fa-316b" name="主将" hidden="false">
       <comment>Warlord</comment>
       <modifiers>
@@ -203,16 +245,23 @@
     <categoryEntry id="3216-79af-660b-7711" name="圣物战争之王槽位" hidden="false">
       <comment>Relic Lord of War</comment>
     </categoryEntry>
-    <categoryEntry id="dbb4-dfd1-04b9-5980" name="Faction: Aeldari" hidden="false"/>
+    <categoryEntry id="dbb4-dfd1-04b9-5980" name="阵营: 灵族" hidden="false">
+      <comment>Faction: Aeldari</comment>
+    </categoryEntry>
     <categoryEntry id="22e6-c81e-efbd-70d4" name="Faction: SW" hidden="false"/>
-    <categoryEntry id="6c38-ec13-d26b-598f" name="Specialist Detachment" hidden="false">
+    <categoryEntry id="6c38-ec13-d26b-598f" name="特殊分队" hidden="false">
+      <comment>Specialist Detachment</comment>
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="17db-130a-69bf-d1f5" type="max"/>
       </constraints>
     </categoryEntry>
-    <categoryEntry id="0116-d165-23e1-4e90" name="Faction: Imperial Knights" hidden="false"/>
+    <categoryEntry id="0116-d165-23e1-4e90" name="阵营: 帝国骑士" hidden="false">
+      <comment>Faction: Imperial Knights</comment>
+    </categoryEntry>
     <categoryEntry id="852c-3de9-a35c-01e6" name="Faction: Dreaded Ambull" hidden="false"/>
-    <categoryEntry id="85ba-a6ef-e5ce-d9d1" name="Ambull" hidden="false"/>
+    <categoryEntry id="85ba-a6ef-e5ce-d9d1" name="蚁牛" hidden="false">
+      <comment>Ambull</comment>
+    </categoryEntry>
     <categoryEntry id="f0b3-c388-f734-4ba4" name="Bonewyrm Infestation" hidden="false"/>
     <categoryEntry id="7320-eafd-02c1-94da" name="增援分数" hidden="false">
       <comment>Reinforcement Points</comment>
@@ -220,10 +269,18 @@
     <categoryEntry id="4c9f-f934-ed79-84fe" name="Faction: Brood Brothers" hidden="false"/>
     <categoryEntry id="d9b9-e9ab-155a-8109" name="Helbrute" hidden="false"/>
     <categoryEntry id="1481-ffc3-f85a-eb36" name="Faction: Questor Traitoris" hidden="false"/>
-    <categoryEntry id="b096-59fd-a5eb-5739" name="Chaos Space Marines" hidden="false"/>
-    <categoryEntry id="d569-3d56-cd24-6a31" name="Aircraft" hidden="false"/>
-    <categoryEntry id="4ad1-1315-97ea-dd25" name="Faction: Officio Assassinorum" hidden="false"/>
-    <categoryEntry id="492c-9ae1-0205-c13f" name="Faction: Chaos Knights" hidden="false"/>
+    <categoryEntry id="b096-59fd-a5eb-5739" name="混沌星际战士" hidden="false">
+      <comment>Chaos Space Marines</comment>
+    </categoryEntry>
+    <categoryEntry id="d569-3d56-cd24-6a31" name="飞行器" hidden="false">
+      <comment>Aircraft</comment>
+    </categoryEntry>
+    <categoryEntry id="4ad1-1315-97ea-dd25" name="阵营: 刺客厅" hidden="false">
+      <comment>Faction: Officio Assassinorum</comment>
+    </categoryEntry>
+    <categoryEntry id="492c-9ae1-0205-c13f" name="阵营: 混沌骑士" hidden="false">
+      <comment>Faction: Chaos Knights</comment>
+    </categoryEntry>
     <categoryEntry id="c845-c72c-6afe-3fc2" name="战略能力" hidden="false">
       <comment>Stratagems</comment>
     </categoryEntry>
@@ -238,23 +295,33 @@
     <categoryEntry id="f475-3e56-fd5f-4737" name="修女会" hidden="false">
       <comment>Adepta Sororitas</comment>
     </categoryEntry>
-    <categoryEntry id="1114-7875-d463-df17" name="Aeldari" hidden="false"/>
+    <categoryEntry id="1114-7875-d463-df17" name="灵族" hidden="false">
+      <comment>Aeldari</comment>
+    </categoryEntry>
     <categoryEntry id="6c1d-32d6-b16c-3b0c" name="Titanic Warlord" hidden="false"/>
-    <categoryEntry id="da67-195b-7909-341a" name="Daemon Primarch" hidden="false"/>
+    <categoryEntry id="da67-195b-7909-341a" name="恶魔原体" hidden="false">
+      <comment>Daemon Primarch</comment>
+    </categoryEntry>
     <categoryEntry id="5750-de0a-589d-eacf" name="Supreme Commander" hidden="false"/>
     <categoryEntry id="26b0-4bb9-73aa-d3d7" name="原体 | 恶魔原体 | 至高指挥官" hidden="false">
       <comment>Primarch | Daemon Primarch | Supreme Commander</comment>
     </categoryEntry>
-    <categoryEntry id="08f1-d244-eb44-7e01" name="Core" hidden="false"/>
+    <categoryEntry id="08f1-d244-eb44-7e01" name="核心" hidden="false">
+      <comment>Core</comment>
+    </categoryEntry>
     <categoryEntry id="81e2-27cb-19e6-43c5" name="Obstacles" page="Terrain" hidden="false"/>
-    <categoryEntry id="c901-fe8a-a156-f3fa" name="Terrain" hidden="false"/>
+    <categoryEntry id="c901-fe8a-a156-f3fa" name="地形" hidden="false">
+      <comment>Terrain</comment>
+    </categoryEntry>
     <categoryEntry id="e9e2-df26-24d5-c19b" name="Imperial Fortress Walls" hidden="false"/>
     <categoryEntry id="4ef7-2542-fad4-fe29" name="Gate Section" hidden="false"/>
     <categoryEntry id="21f3-049b-26c4-dd3c" name="Gate Tower Section" hidden="false"/>
     <categoryEntry id="d022-96ee-79c9-2373" name="Tower Section" hidden="false"/>
     <categoryEntry id="2423-1997-8069-ed6d" name="Wall Section" hidden="false"/>
     <categoryEntry id="3c2e-8ca6-a7c3-95f6" name="Primaris Redoubt" hidden="false"/>
-    <categoryEntry id="379d-40e9-8977-64e6" name="Metalica" hidden="false"/>
+    <categoryEntry id="379d-40e9-8977-64e6" name="钢铁星" hidden="false">
+      <comment>Metalica</comment>
+    </categoryEntry>
     <categoryEntry id="f77e-c60e-d970-289a" name="Faction: Renegades and Heretics" hidden="false"/>
     <categoryEntry id="ec64-9c80-80e3-a45e" name="Ruins" hidden="false"/>
     <categoryEntry id="3365-ccd0-46ed-209a" name="Area Terrain" hidden="false"/>
@@ -2270,7 +2337,7 @@ Primarch | Daemon Primarch | Supreme Commander</comment>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="90e2-05af-373e-19b7" name="Immobile" hidden="false" targetId="8830-2c9e-ad7e-e57d" type="profile"/>
+        <infoLink id="90e2-05af-373e-19b7" name="Immobile (Fortification)" hidden="false" targetId="8830-2c9e-ad7e-e57d" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="e46f-6c4c-e34a-708b" name="New CategoryLink" hidden="false" targetId="9df5-bb14-9326-4108" primary="false"/>
@@ -5434,7 +5501,7 @@ Primarch | Daemon Primarch | Supreme Commander</comment>
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f29d-8a5d-18b6-a071" name="Battle Size" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="f29d-8a5d-18b6-a071" name="战斗规模" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="ba25-d308-d6f1-5649" value="1.0">
           <conditions>
@@ -5457,7 +5524,7 @@ Primarch | Daemon Primarch | Supreme Commander</comment>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1a29-fbbf-01a7-1c91" type="max"/>
       </constraints>
       <selectionEntryGroups>
-        <selectionEntryGroup id="2883-57e8-87a6-38e2" name="Battle Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="af70-08c1-1c6f-0770">
+        <selectionEntryGroup id="2883-57e8-87a6-38e2" name="战斗规模" hidden="false" collective="false" import="true" defaultSelectionEntryId="af70-08c1-1c6f-0770">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a48-d522-f093-f993" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b273-5ae1-26a2-84cd" type="max"/>
@@ -5528,7 +5595,7 @@ Primarch | Daemon Primarch | Supreme Commander</comment>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="c3ea-99ee-0ccb-39a9" name="Command Points" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="c3ea-99ee-0ccb-39a9" name="指挥点数" hidden="false" collective="false" import="true">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -5537,7 +5604,7 @@ Primarch | Daemon Primarch | Supreme Commander</comment>
             </modifier>
           </modifiers>
           <selectionEntries>
-            <selectionEntry id="b08b-08b3-f34d-b4c7" name="Command Points" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="b08b-08b3-f34d-b4c7" name="指挥点数" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
                 <cost name="战略点数" typeId="2d3b-b544-ad49-fb75" value="1.0"/>
                 <cost name="战斗力" typeId="e356-c769-5920-6e14" value="0.0"/>
